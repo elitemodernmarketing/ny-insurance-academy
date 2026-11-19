@@ -1,0 +1,1310 @@
+{
+  "sectionId": "di",
+  "questions": [
+    {
+      "id": "di-q201",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.1.1.1",
+        "di.1.1"
+      ],
+      "concepts": [
+        "own-occupation",
+        "total-disability"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Zoe, an orthodontist, develops a tremor and can no longer practice. Her disability policy uses a true own-occupation definition. A year later she begins teaching at a dental school.",
+      "stem": "Under a true own-occupation definition, what happens to Zoe's benefits when she starts teaching?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They continue, since she still can't perform her own occupation",
+          "rationale": "Correct: a true own-occupation definition looks only at her own occupation, even if she earns income elsewhere."
+        },
+        {
+          "id": "b",
+          "text": "They stop, because she is now gainfully employed elsewhere",
+          "rationale": "Incorrect: that result follows from an any-occupation or 'not working' definition."
+        },
+        {
+          "id": "c",
+          "text": "They are cut by the amount of her new teaching salary",
+          "rationale": "Incorrect: a true own-occupation definition does not offset earnings from a new occupation."
+        },
+        {
+          "id": "d",
+          "text": "They convert to a partial benefit for her remaining claim",
+          "rationale": "Incorrect: she remains totally disabled from her own occupation."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Under a true own-occupation definition, the insured is totally disabled if unable to perform the material and substantial duties of his or her own occupation, even while working in another occupation. Some policies use a modified definition that ends benefits if the insured chooses to work elsewhere, so the exact wording matters.",
+      "memoryTip": "True own occ: a new career doesn't end the claim.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "True own-occupation definition",
+            "anyOf": [
+              "own occupation",
+              "own-occupation"
+            ]
+          },
+          {
+            "label": "Benefits continue despite new work",
+            "anyOf": [
+              "continue",
+              "still",
+              "even though"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "di-q202",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.1.1.2",
+        "di.1.1.1"
+      ],
+      "concepts": [
+        "any-occupation",
+        "own-occupation"
+      ],
+      "difficulty": 1,
+      "style": "comparison",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Compared with own occupation, an any-occupation definition generally makes the policy:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "More expensive and easier to qualify for benefits",
+          "rationale": "Incorrect: that describes own occupation."
+        },
+        {
+          "id": "b",
+          "text": "Less expensive and harder to qualify for benefits",
+          "rationale": "Correct: any occupation is stricter, so the insurer's risk and the premium are lower."
+        },
+        {
+          "id": "c",
+          "text": "Identical in cost, with the same claim results",
+          "rationale": "Incorrect: the definition significantly affects cost and claims."
+        },
+        {
+          "id": "d",
+          "text": "Available only for group coverage, never individual",
+          "rationale": "Incorrect: any-occupation definitions appear in both group and individual plans."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Own occupation is the most liberal definition (the insured qualifies if unable to do his or her own job) and costs more. Any occupation requires inability to do any job the insured is reasonably suited for, making benefits harder to obtain and premiums lower.",
+      "memoryTip": "Stricter definition, cheaper premium.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "di-q203",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.1.1.3"
+      ],
+      "concepts": [
+        "presumptive-disability"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "Each of the following would typically qualify as presumptive disability EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Total and permanent loss of sight in both eyes",
+          "rationale": "Incorrect: loss of sight IS a typical presumptive loss."
+        },
+        {
+          "id": "b",
+          "text": "Total and permanent loss of speech",
+          "rationale": "Incorrect: loss of speech IS a typical presumptive loss."
+        },
+        {
+          "id": "c",
+          "text": "A broken leg expected to heal fully in eight weeks",
+          "rationale": "Correct: this is NOT presumptive; it is a temporary injury evaluated under the normal definition."
+        },
+        {
+          "id": "d",
+          "text": "Permanent loss of the use of both legs",
+          "rationale": "Incorrect: loss of use of two limbs IS a typical presumptive loss."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Presumptive disability provisions typically list total and permanent losses such as sight, speech, hearing, or the use of two limbs. A temporary injury that is expected to heal is evaluated under the policy's normal definition of disability.",
+      "memoryTip": "Presumptive = permanent and catastrophic.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "di-q204",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.1.1.4"
+      ],
+      "concepts": [
+        "proof-of-loss"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "Abe furnished written proof of his disability claim on April 1. The insurer has not paid, and Abe wants to sue.",
+      "stem": "When is the earliest Abe may file a lawsuit to recover on the policy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Immediately, as soon as the claim is denied",
+          "rationale": "Incorrect: the legal actions provision imposes a 60-day waiting period after proof."
+        },
+        {
+          "id": "b",
+          "text": "Only after the 2-year contestable period ends",
+          "rationale": "Incorrect: the time limit on certain defenses is unrelated to lawsuit timing."
+        },
+        {
+          "id": "c",
+          "text": "Three years after he furnished proof of loss",
+          "rationale": "Incorrect: three years is the latest time to sue, measured from when proof was required."
+        },
+        {
+          "id": "d",
+          "text": "60 days after he furnished written proof of loss",
+          "rationale": "Correct: § 3216(d)(1)(K) bars suits until 60 days after proof of loss is furnished."
+        }
+      ],
+      "correct": "d",
+      "explanation": "§ 3216(d)(1)(K) LEGAL ACTIONS: no action at law or in equity may be brought to recover on the policy before 60 days after written proof of loss has been furnished, and none after three years from the time proof of loss is required to be furnished.",
+      "memoryTip": "Sue no sooner than 60 days after proof, no later than 3 years.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3216"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "di-q205",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.2.1.1"
+      ],
+      "concepts": [
+        "disability-income-insurance",
+        "relation-of-earnings"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [],
+      "stem": "Why do insurers typically limit disability income benefits to a portion of the applicant's earnings?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "To keep an incentive for the insured to return to work",
+          "rationale": "Correct: if benefits equaled or exceeded earnings, there would be little reason to recover and return."
+        },
+        {
+          "id": "b",
+          "text": "Because benefits are always taxed at a 100% rate",
+          "rationale": "Incorrect: benefits are not taxed at 100%; the limit is about over-insurance."
+        },
+        {
+          "id": "c",
+          "text": "Because state law caps every benefit at $200 a month",
+          "rationale": "Incorrect: $200 is a floor in the NY relation of earnings provision, not a cap."
+        },
+        {
+          "id": "d",
+          "text": "Because benefits must equal the insured's medical bills",
+          "rationale": "Incorrect: disability income replaces earnings, not medical bills."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Insurers underwrite income benefits as a percentage of earnings so that the insured is not better off disabled than working. Over-insurance raises the moral hazard of malingering; provisions such as relation of earnings to insurance address the same risk at claim time.",
+      "memoryTip": "Never pay people more to stay home than to work.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "di-q206",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.2.1.2"
+      ],
+      "concepts": [
+        "elimination-period"
+      ],
+      "difficulty": 1,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Ben becomes totally disabled on March 1. His disability income policy has a 30-day elimination period.",
+      "stem": "Counting March 1 as day 1, on which day of the disability do benefits begin to accrue?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Day 1",
+          "rationale": "Incorrect: no benefits accrue during the elimination period."
+        },
+        {
+          "id": "b",
+          "text": "Day 31",
+          "rationale": "Correct: the first 30 days are the elimination period; benefits accrue starting on day 31."
+        },
+        {
+          "id": "c",
+          "text": "Day 30",
+          "rationale": "Incorrect: day 30 is the last day of the elimination period."
+        },
+        {
+          "id": "d",
+          "text": "Day 61",
+          "rationale": "Incorrect: this adds an extra 30 days beyond the elimination period."
+        }
+      ],
+      "correct": "b",
+      "explanation": "The elimination period is a time deductible measured from the start of the disability. With a 30-day elimination period, days 1-30 are unpaid and benefits begin to accrue on day 31. Monthly benefits are typically paid in arrears, so the first check usually arrives about a month after benefits begin to accrue.",
+      "memoryTip": "Elimination days are unpaid; the next day starts the clock.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "di-q207",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.2.1.2"
+      ],
+      "concepts": [
+        "benefit-period",
+        "elimination-period"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "tricky",
+        "math"
+      ],
+      "scenario": "Cara's disability policy pays $3,000 a month after a 3-month elimination period, with a 2-year benefit period. She is totally disabled for 39 months.",
+      "stem": "What is the total amount of benefits Cara will receive?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$108,000",
+          "rationale": "Incorrect: this pays 36 months (39 − 3) and ignores the 24-month benefit period."
+        },
+        {
+          "id": "b",
+          "text": "$117,000",
+          "rationale": "Incorrect: this pays all 39 months, ignoring both the elimination and benefit periods."
+        },
+        {
+          "id": "c",
+          "text": "$72,000",
+          "rationale": "Correct: benefits are limited to the 24-month benefit period: 24 × $3,000 = $72,000."
+        },
+        {
+          "id": "d",
+          "text": "$63,000",
+          "rationale": "Incorrect: this subtracts the elimination period from the benefit period; the benefit period starts after it."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Step 1: months after the elimination period = 39 − 3 = 36. Step 2: benefits are payable for the lesser of 36 months or the 24-month benefit period = 24 months. Step 3: 24 × $3,000 = $72,000.",
+      "memoryTip": "Pay the lesser of (months disabled − EP) or the benefit period.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Subtract the elimination period",
+            "anyOf": [
+              "36",
+              "39 - 3",
+              "39 − 3"
+            ]
+          },
+          {
+            "label": "Cap at the 24-month benefit period",
+            "anyOf": [
+              "24",
+              "benefit period"
+            ]
+          },
+          {
+            "label": "Result",
+            "anyOf": [
+              "72,000",
+              "72000"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "di-q208",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.3.3",
+        "di.2.2"
+      ],
+      "concepts": [
+        "long-term-disability",
+        "social-security-disability"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Dev earned $6,000 a month. His group LTD plan pays 60% of earnings, reduced by any Social Security disability benefits. Social Security pays him $1,500 a month.",
+      "stem": "What monthly benefit will Dev's LTD plan pay?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$3,600",
+          "rationale": "Incorrect: this ignores the plan's Social Security offset."
+        },
+        {
+          "id": "b",
+          "text": "$5,100",
+          "rationale": "Incorrect: this adds Social Security to the plan benefit instead of subtracting it."
+        },
+        {
+          "id": "c",
+          "text": "$1,500",
+          "rationale": "Incorrect: that is the Social Security benefit, not the LTD payment."
+        },
+        {
+          "id": "d",
+          "text": "$2,100",
+          "rationale": "Correct: 60% × $6,000 = $3,600; $3,600 − $1,500 Social Security = $2,100."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Group LTD plans commonly integrate (offset) benefits with Social Security disability and other income. Calculation: $6,000 × 60% = $3,600 gross benefit; $3,600 − $1,500 = $2,100 payable by the plan.",
+      "memoryTip": "Group LTD: percentage of pay, minus Social Security.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Gross benefit",
+            "anyOf": [
+              "3,600",
+              "3600",
+              "60%"
+            ]
+          },
+          {
+            "label": "Offset by Social Security",
+            "anyOf": [
+              "offset",
+              "minus",
+              "subtract",
+              "reduced"
+            ]
+          },
+          {
+            "label": "Result",
+            "anyOf": [
+              "2,100",
+              "2100"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "di-q209",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.2.3.1",
+        "di.2.3.2"
+      ],
+      "concepts": [
+        "additional-monthly-benefit",
+        "social-insurance-supplement"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [],
+      "stem": "How does an AMB rider differ from an SIS rider?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "AMB is a set temporary add-on; SIS is reduced by social benefits received",
+          "rationale": "Correct: AMB pays a stated extra amount for a limited period; SIS is offset by social insurance benefits."
+        },
+        {
+          "id": "b",
+          "text": "AMB is reduced by social benefits; SIS is a set temporary add-on",
+          "rationale": "Incorrect: this reverses the two riders."
+        },
+        {
+          "id": "c",
+          "text": "Both increase benefits each year to keep pace with inflation",
+          "rationale": "Incorrect: inflation increases come from a COLA rider."
+        },
+        {
+          "id": "d",
+          "text": "Both let the insured buy more coverage without proof of health",
+          "rationale": "Incorrect: that is the future increase option."
+        }
+      ],
+      "correct": "a",
+      "explanation": "The additional monthly benefit (AMB) rider pays a stated extra monthly amount for a limited period early in a disability. The social insurance supplement (SIS) rider pays when social insurance benefits are denied or low and is reduced by the social insurance benefits actually received.",
+      "memoryTip": "AMB adds; SIS fills the gap left by government benefits.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "di-q210",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.2.3.5",
+        "di.2.3.4"
+      ],
+      "concepts": [
+        "guaranteed-renewable",
+        "noncancelable"
+      ],
+      "difficulty": 3,
+      "style": "application",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "stem": "An insurer wants to call a new NY disability income policy 'guaranteed renewable,' but it is renewable only to age 60. Under Reg 62:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It may use the label, since any renewal guarantee qualifies",
+          "rationale": "Incorrect: Reg 62 sets a minimum renewal age for the label."
+        },
+        {
+          "id": "b",
+          "text": "The label is barred; NY requires renewal to 65 or Social Security retirement",
+          "rationale": "Correct: 11 NYCRR 52.17(a)(6) ties the label to age 65 or, for DI, Social Security retirement benefits."
+        },
+        {
+          "id": "c",
+          "text": "It may use the label if it also promises never to raise rates",
+          "rationale": "Incorrect: a rate guarantee doesn't cure the short renewal period."
+        },
+        {
+          "id": "d",
+          "text": "It must call the policy noncancelable instead of guaranteed renewable",
+          "rationale": "Incorrect: the noncancelable label has the same age-65 requirement."
+        }
+      ],
+      "correct": "b",
+      "explanation": "11 NYCRR 52.17(a)(5)-(6): the terms noncancelable and guaranteed renewable may be used only in a policy the insured can continue by timely premium payment until age 65 or, for disability income policies, until receipt of Social Security retirement benefits. A policy renewable only to 60 cannot use either label.",
+      "memoryTip": "NY labels: renewable to at least 65 (or Social Security retirement for DI).",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "di-q211",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.2.4.1"
+      ],
+      "concepts": [
+        "cost-of-living-adjustment"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "tricky",
+        "math"
+      ],
+      "scenario": "Eli's $2,000 monthly disability benefit has a COLA rider that increases the benefit by 3% compounded annually, beginning with the second year of disability.",
+      "stem": "What is Eli's monthly benefit in the third year of his disability?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$2,120.00",
+          "rationale": "Incorrect: this adds 3% of the original $2,000 twice (simple, not compound)."
+        },
+        {
+          "id": "b",
+          "text": "$2,060.00",
+          "rationale": "Incorrect: this is the year-2 benefit."
+        },
+        {
+          "id": "c",
+          "text": "$2,121.80",
+          "rationale": "Correct: $2,000 × 1.03 = $2,060 in year 2; $2,060 × 1.03 = $2,121.80 in year 3."
+        },
+        {
+          "id": "d",
+          "text": "$2,180.00",
+          "rationale": "Incorrect: this applies 3% three times to $2,000 using simple interest."
+        }
+      ],
+      "correct": "c",
+      "explanation": "A COLA rider increases benefits during a long disability. With a 3% compound annual increase starting in year 2: year 1 = $2,000; year 2 = $2,000 × 1.03 = $2,060; year 3 = $2,060 × 1.03 = $2,121.80.",
+      "memoryTip": "COLA compounds on last year's benefit.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Year 2 benefit",
+            "anyOf": [
+              "2,060",
+              "2060"
+            ]
+          },
+          {
+            "label": "Compound on the new amount",
+            "anyOf": [
+              "compound",
+              "1.03"
+            ]
+          },
+          {
+            "label": "Result",
+            "anyOf": [
+              "2,121.80",
+              "2121.80"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "di-q212",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.2.4.2"
+      ],
+      "concepts": [
+        "future-increase-option"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Fay's disability policy has a future increase option. At her next option date she asks to add $1,000 of monthly benefit, but her income has fallen 30% since the policy was issued.",
+      "stem": "What is the most likely result of Fay's request to exercise her FIO?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She gets the full increase, since the FIO waives all underwriting of any kind",
+          "rationale": "Incorrect: FIO waives evidence of insurability, not financial underwriting."
+        },
+        {
+          "id": "b",
+          "text": "She must pass a medical exam before qualifying for any increase",
+          "rationale": "Incorrect: FIO increases do not require evidence of insurability."
+        },
+        {
+          "id": "c",
+          "text": "Her benefit automatically rises each year with the Consumer Price Index",
+          "rationale": "Incorrect: that describes a COLA rider during disability."
+        },
+        {
+          "id": "d",
+          "text": "The increase is limited because her income no longer supports more coverage",
+          "rationale": "Correct: FIO waives health evidence, but increases usually must be supported by income."
+        }
+      ],
+      "correct": "d",
+      "explanation": "A future increase option lets the insured buy more disability coverage at specified option dates without evidence of insurability (health). Insurers still generally require that the insured's income justify the higher benefit, so a drop in income can limit or prevent an increase.",
+      "memoryTip": "FIO skips the health check, not the income check.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "di-q213",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.2.5.4"
+      ],
+      "concepts": [
+        "partial-disability"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Gus's policy pays a $4,000 total disability benefit. Its partial disability benefit is 50% of that amount for up to 6 months. Gus is partially disabled for 8 months.",
+      "stem": "How much in partial disability benefits will Gus receive in total?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$12,000",
+          "rationale": "Correct: 50% × $4,000 = $2,000 a month, payable for 6 months: 6 × $2,000 = $12,000."
+        },
+        {
+          "id": "b",
+          "text": "$16,000",
+          "rationale": "Incorrect: this pays all 8 months, ignoring the 6-month limit."
+        },
+        {
+          "id": "c",
+          "text": "$24,000",
+          "rationale": "Incorrect: this pays the full $4,000 benefit for 6 months."
+        },
+        {
+          "id": "d",
+          "text": "$32,000",
+          "rationale": "Incorrect: this pays the full benefit for all 8 months."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Partial disability benefits are typically a set percentage of the total disability benefit for a limited period. Calculation: $4,000 × 50% = $2,000 per month; months payable = lesser of 8 or 6 = 6; 6 × $2,000 = $12,000.",
+      "memoryTip": "Partial = set percentage × limited months.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "di-q214",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.2.5.5"
+      ],
+      "concepts": [
+        "residual-disability"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Before her disability, Hana earned $12,000 a month. She returns to work at reduced hours, earning $9,000 a month. Her total disability benefit is $6,000 a month.",
+      "stem": "What is Hana's monthly residual benefit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$3,000",
+          "rationale": "Incorrect: this applies a flat 50%, which describes a typical partial benefit."
+        },
+        {
+          "id": "b",
+          "text": "$1,500",
+          "rationale": "Correct: ($12,000 − $9,000) ÷ $12,000 = 25%; 25% × $6,000 = $1,500."
+        },
+        {
+          "id": "c",
+          "text": "$4,500",
+          "rationale": "Incorrect: this applies 75%, the share of income she still earns."
+        },
+        {
+          "id": "d",
+          "text": "$750",
+          "rationale": "Incorrect: this applies 25% to half of the total benefit."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Residual benefit = (pre-disability income − current income) ÷ pre-disability income × total disability benefit. Calculation: $12,000 − $9,000 = $3,000; $3,000 ÷ $12,000 = 25%; 25% × $6,000 = $1,500.",
+      "memoryTip": "Residual = % of income lost × total benefit.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Income loss percentage",
+            "anyOf": [
+              "25%",
+              "25 percent",
+              "0.25"
+            ]
+          },
+          {
+            "label": "Result",
+            "anyOf": [
+              "1,500",
+              "1500"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "di-q215",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.2.5.5"
+      ],
+      "concepts": [
+        "residual-disability"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "tricky",
+        "math"
+      ],
+      "scenario": "Ian's residual disability benefit requires a loss of at least 20% of pre-disability income. He earned $10,000 a month and now earns $8,500. His total disability benefit is $5,000.",
+      "stem": "What residual benefit will Ian receive?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$750",
+          "rationale": "Incorrect: this computes 15% × $5,000 but ignores the 20% minimum loss requirement."
+        },
+        {
+          "id": "b",
+          "text": "$1,000",
+          "rationale": "Incorrect: this applies the 20% threshold as if it were the benefit percentage."
+        },
+        {
+          "id": "c",
+          "text": "$0",
+          "rationale": "Correct: his income loss is 15%, below the policy's 20% minimum, so no residual benefit is payable."
+        },
+        {
+          "id": "d",
+          "text": "$2,500",
+          "rationale": "Incorrect: this applies a flat 50% partial-style benefit."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Residual benefits commonly require a minimum loss of income. Calculation: ($10,000 − $8,500) ÷ $10,000 = 15%. Because 15% is below the policy's 20% threshold, no residual benefit is payable, even though 15% × $5,000 would be $750.",
+      "memoryTip": "Check the threshold before you calculate.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Income loss is 15%",
+            "anyOf": [
+              "15%",
+              "15 percent"
+            ]
+          },
+          {
+            "label": "Below the 20% threshold",
+            "anyOf": [
+              "20%",
+              "threshold",
+              "minimum"
+            ]
+          },
+          {
+            "label": "No benefit",
+            "anyOf": [
+              "$0",
+              "zero",
+              "nothing"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "di-q216",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.3.2",
+        "di.2.3.3"
+      ],
+      "concepts": [
+        "short-term-disability",
+        "occupational-coverage",
+        "workers-compensation"
+      ],
+      "difficulty": 1,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Jan's employer provides a nonoccupational group short-term disability plan. Jan injures her back lifting cartons at the warehouse where she works.",
+      "stem": "Will Jan's group STD plan pay benefits for this disability?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, because group STD covers every type of disability",
+          "rationale": "Incorrect: nonoccupational plans exclude disabilities arising from work."
+        },
+        {
+          "id": "b",
+          "text": "Yes, but only after workers' compensation benefits end",
+          "rationale": "Incorrect: a nonoccupational plan does not cover the job injury at any point."
+        },
+        {
+          "id": "c",
+          "text": "No, because group STD covers sickness only, not injury",
+          "rationale": "Incorrect: STD covers off-the-job injuries and sicknesses."
+        },
+        {
+          "id": "d",
+          "text": "No; a nonoccupational plan excludes job-related disabilities",
+          "rationale": "Correct: job-related disabilities are left to workers' compensation."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Group short-term disability plans are commonly nonoccupational: they cover sickness and injury that do not arise from employment, because workers' compensation covers job-related disabilities. Jan's warehouse injury is job-related, so workers' compensation responds.",
+      "memoryTip": "Hurt at work: workers' comp, not nonoccupational STD.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "di-q217",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.3.1"
+      ],
+      "concepts": [
+        "long-term-disability",
+        "disability-income-insurance"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "Kit pays his individual DI premiums with after-tax dollars; his employer pays the full LTD premium. Generally:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Individual benefits are tax-free; employer-paid LTD benefits are taxable",
+          "rationale": "Correct: benefits from employer-paid premiums are generally taxable to the employee; benefits from personally paid premiums are not."
+        },
+        {
+          "id": "b",
+          "text": "Both benefits are taxable as ordinary income to Kit",
+          "rationale": "Incorrect: benefits from personally paid, after-tax premiums are generally not taxable."
+        },
+        {
+          "id": "c",
+          "text": "Both benefits are completely tax-free to Kit",
+          "rationale": "Incorrect: benefits from employer-paid group coverage are generally taxable."
+        },
+        {
+          "id": "d",
+          "text": "Individual benefits are taxable; employer-paid LTD benefits are not",
+          "rationale": "Incorrect: this reverses the general rule."
+        }
+      ],
+      "correct": "a",
+      "explanation": "The general federal tax principle: when an individual pays disability premiums with after-tax money, benefits are received tax-free; when the employer pays the premium (and it is not taxed to the employee), the benefits are taxable income to the employee.",
+      "memoryTip": "Who paid the premium decides who pays the tax.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "di-q218",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.4.3"
+      ],
+      "concepts": [
+        "business-overhead-expense"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Dr. Lia's BOE policy has a $10,000 monthly maximum. During a month of disability her office rent, utilities and staff salaries total $8,000. She also normally draws a $6,000 salary.",
+      "stem": "How much will Lia's BOE policy pay for the month?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$10,000",
+          "rationale": "Incorrect: BOE reimburses actual covered expenses, not automatically the maximum."
+        },
+        {
+          "id": "b",
+          "text": "$8,000",
+          "rationale": "Correct: BOE reimburses actual covered overhead ($8,000), up to the $10,000 maximum."
+        },
+        {
+          "id": "c",
+          "text": "$14,000",
+          "rationale": "Incorrect: this includes her own $6,000 salary, which BOE does not cover."
+        },
+        {
+          "id": "d",
+          "text": "$2,000",
+          "rationale": "Incorrect: this is the difference between the maximum and the expenses."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Business overhead expense insurance reimburses the actual covered fixed expenses of the business (rent, utilities, staff salaries) up to the monthly maximum; it does not cover the owner's own salary. Covered expenses $8,000 ≤ $10,000 maximum, so it pays $8,000.",
+      "memoryTip": "BOE pays actual overhead, up to the cap, never the owner's pay.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Actual covered overhead",
+            "anyOf": [
+              "8,000",
+              "8000",
+              "actual"
+            ]
+          },
+          {
+            "label": "Owner's salary excluded",
+            "anyOf": [
+              "salary",
+              "own pay"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "di-q219",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.4.2",
+        "di.4.1"
+      ],
+      "concepts": [
+        "disability-buy-sell",
+        "key-person-disability"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Max and Ned co-own an engineering firm. Their buy-sell agreement requires Ned to buy Max's interest if Max is totally disabled for more than 18 months. Max has now been disabled for 20 months.",
+      "stem": "Which coverage was designed for this situation, and who typically receives its benefit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Key person disability; benefits go to Max for living costs",
+          "rationale": "Incorrect: key person benefits go to the business, and they offset lost value, not a buyout."
+        },
+        {
+          "id": "b",
+          "text": "Business overhead expense; benefits pay Max's lost salary",
+          "rationale": "Incorrect: BOE pays business overhead, never the owner's salary."
+        },
+        {
+          "id": "c",
+          "text": "Disability buy-sell; benefits fund the purchase of Max's share",
+          "rationale": "Correct: disability buy-sell coverage funds the buyout of a totally disabled owner's interest."
+        },
+        {
+          "id": "d",
+          "text": "Group STD; benefits pay the remaining partner's wages",
+          "rationale": "Incorrect: STD replaces an employee's own income for a short time."
+        }
+      ],
+      "correct": "c",
+      "explanation": "A disability buy-sell policy funds a buy-sell agreement so that, after a long elimination period, the remaining owners (or the business) can buy a totally disabled owner's interest, usually with a lump sum or installments.",
+      "memoryTip": "Buyout of a disabled owner = disability buy-sell.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "di-q220",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.2.5.1"
+      ],
+      "concepts": [
+        "ad-and-d"
+      ],
+      "difficulty": 1,
+      "style": "calculation",
+      "tags": [
+        "rapid",
+        "math"
+      ],
+      "stem": "A $100,000 AD&D benefit pays 50% for loss of one eye. Ola loses one eye in an accident. The benefit is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$100,000",
+          "rationale": "Incorrect: the full principal sum is paid for death or the most severe losses, not one eye."
+        },
+        {
+          "id": "b",
+          "text": "$25,000",
+          "rationale": "Incorrect: this applies 25% instead of the stated 50%."
+        },
+        {
+          "id": "c",
+          "text": "$150,000",
+          "rationale": "Incorrect: AD&D does not pay more than the principal sum for one loss."
+        },
+        {
+          "id": "d",
+          "text": "$50,000",
+          "rationale": "Correct: 50% × $100,000 principal sum = $50,000 (a capital sum)."
+        }
+      ],
+      "correct": "d",
+      "explanation": "AD&D pays the principal sum for accidental death and stated percentages of the principal sum (capital sums) for specified dismemberments or loss of sight. Calculation: 50% × $100,000 = $50,000.",
+      "memoryTip": "Capital sum = scheduled % of the principal sum.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

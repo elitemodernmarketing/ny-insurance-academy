@@ -1,0 +1,1090 @@
+{
+  "sectionId": "ltc",
+  "questions": [
+    {
+      "id": "ltc-q201",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.2",
+        "ltc.1.7"
+      ],
+      "concepts": [
+        "activities-of-daily-living",
+        "cognitive-impairment"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "Under federal rules for tax-qualified LTC contracts, who must certify that an insured is chronically ill before benefits are paid?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A licensed health care practitioner, such as a physician or RN",
+          "rationale": "Correct: IRC § 7702B(c)(4) defines a licensed health care practitioner to include physicians, registered professional nurses and licensed social workers."
+        },
+        {
+          "id": "b",
+          "text": "The producer who sold the policy, after visiting the insured",
+          "rationale": "Incorrect: producers do not certify chronic illness."
+        },
+        {
+          "id": "c",
+          "text": "The family caregiver, by signing a sworn statement",
+          "rationale": "Incorrect: certification must come from a licensed health care practitioner."
+        },
+        {
+          "id": "d",
+          "text": "A Medicare claims administrator, after a hospital stay",
+          "rationale": "Incorrect: Medicare has no role in certifying LTC benefit eligibility, and no hospital stay is required."
+        }
+      ],
+      "correct": "a",
+      "explanation": "IRC § 7702B(c)(2) requires that a chronically ill individual be certified by a licensed health care practitioner — defined in § 7702B(c)(4) as a physician, registered professional nurse, licensed social worker, or other individual meeting Treasury requirements — and the certification must have been made within the preceding 12 months. Qualified services must also follow a plan of care prescribed by such a practitioner.",
+      "memoryTip": "LTC trigger = certified by a licensed practitioner, within the last 12 months.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-26-7702b"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q202",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.3.3",
+        "ltc.1.3.1"
+      ],
+      "concepts": [
+        "custodial-care",
+        "skilled-care"
+      ],
+      "difficulty": 1,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "Each of the following is an example of custodial care EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Helping a resident get from her bed to a wheelchair",
+          "rationale": "Incorrect: help transferring is custodial care."
+        },
+        {
+          "id": "b",
+          "text": "Giving a patient intravenous antibiotics",
+          "rationale": "Correct: IV medication must be given by licensed personnel, so it is skilled care."
+        },
+        {
+          "id": "c",
+          "text": "Helping a man bathe and dress each morning",
+          "rationale": "Incorrect: help bathing and dressing is custodial care."
+        },
+        {
+          "id": "d",
+          "text": "Supervising a person with dementia during meals",
+          "rationale": "Incorrect: supervision and help eating are custodial care."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Custodial care is help with activities such as transferring, eating, dressing, bathing and toileting, plus supervision, which a non-licensed caregiver can provide (11 NYCRR 52.25(a)(1) describes custodial care services this way). Intravenous medication can only be given safely by a registered nurse or other licensed professional, which makes it skilled care.",
+      "memoryTip": "Needs a license? Skilled. Daily-living help? Custodial.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52-25",
+        "fed-medicare-snf"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q203",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.4.2",
+        "ltc.1.4.3"
+      ],
+      "concepts": [
+        "adult-day-care",
+        "respite-care"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Marisol works full-time and lives with her father, who has moderate dementia. Every weekday he spends 8 a.m. to 5 p.m. at a community center where staff supervise him, serve lunch and run activities. He sleeps at home every night.",
+      "stem": "Which type of LTC service is her father using on an ongoing basis?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Respite care, because it gives Marisol a break",
+          "rationale": "Incorrect: respite care is short-term, occasional relief; this is a regular daily program."
+        },
+        {
+          "id": "b",
+          "text": "Home health care, because he still lives at home",
+          "rationale": "Incorrect: home health care is delivered inside the home, not at a center."
+        },
+        {
+          "id": "c",
+          "text": "Adult day care, because he attends a daytime center",
+          "rationale": "Correct: a regular supervised daytime program, with the person returning home at night, is adult day care."
+        },
+        {
+          "id": "d",
+          "text": "Assisted living, because staff help him with meals",
+          "rationale": "Incorrect: assisted living is a residential setting; he lives at home."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Adult day care is ongoing supervised care at a community center during the day while the person continues to live at home. Respite care is temporary care that relieves the caregiver for a short period (for example, a week while she travels). Both help family caregivers, but the regular daily center program is adult day care.",
+      "memoryTip": "Every weekday at a center = adult day care; an occasional break = respite.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Daytime center program",
+            "anyOf": [
+              "center",
+              "daytime",
+              "day care"
+            ]
+          },
+          {
+            "label": "Returns home at night",
+            "anyOf": [
+              "home at night",
+              "sleeps at home",
+              "lives at home"
+            ]
+          },
+          {
+            "label": "Respite is short-term, not ongoing",
+            "anyOf": [
+              "short-term",
+              "temporary",
+              "occasional"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q204",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.4.4",
+        "ltc.1.3"
+      ],
+      "concepts": [
+        "nursing-home-care"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [],
+      "stem": "Which statement about care in a nursing home is most accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Care given in a nursing home is always skilled care",
+          "rationale": "Incorrect: many residents receive only custodial care."
+        },
+        {
+          "id": "b",
+          "text": "A nursing home may provide skilled, intermediate or custodial care",
+          "rationale": "Correct: the level depends on the resident's needs, not the building."
+        },
+        {
+          "id": "c",
+          "text": "Medicare pays for a nursing home stay of any length if care is needed",
+          "rationale": "Incorrect: Medicare covers only short-term skilled care after a qualifying hospital stay."
+        },
+        {
+          "id": "d",
+          "text": "Nursing homes provide supervised care only during daytime hours",
+          "rationale": "Incorrect: nursing homes provide 24-hour care."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Nursing homes provide round-the-clock care at all three levels. The level of care is set by what the resident needs. Medicare covers skilled nursing facility care only on a short-term basis (at most 100 days per benefit period, after a qualifying 3-day inpatient stay); it does not pay for long-term custodial care in a nursing home.",
+      "memoryTip": "The building doesn't decide the level — the need does.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-medicare-snf",
+        "fed-medicare-ltc"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q205",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.5",
+        "ltc.1.6"
+      ],
+      "concepts": [
+        "benefit-period",
+        "long-term-care-insurance"
+      ],
+      "difficulty": 1,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Ari's LTC policy pays up to $150 per day for a benefit period of 3 years. The policy describes this as a total pool of money equal to the daily maximum times 365 days times the number of years.",
+      "stem": "What is the total benefit pool?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$54,750",
+          "rationale": "Incorrect: this is only one year ($150 × 365)."
+        },
+        {
+          "id": "b",
+          "text": "$109,500",
+          "rationale": "Incorrect: this is two years of benefits."
+        },
+        {
+          "id": "c",
+          "text": "$164,250",
+          "rationale": "Correct: $150 × 365 × 3 = $164,250."
+        },
+        {
+          "id": "d",
+          "text": "$450",
+          "rationale": "Incorrect: this multiplies the daily benefit by the number of years only."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Pool = daily maximum × 365 × years = $150 × 365 × 3. $150 × 365 = $54,750; $54,750 × 3 = $164,250. With a pool-of-money design, if Ari's actual care costs less than $150 a day, the pool lasts longer than 3 years.",
+      "memoryTip": "Daily max × 365 × years = the pool.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q206",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.5"
+      ],
+      "concepts": [
+        "elimination-period"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math",
+        "tricky"
+      ],
+      "scenario": "Nadia's LTC policy has a 90-day elimination period. Her home care, which the policy would cover, costs $200 per day. She meets the benefit trigger on day 1 of her care.",
+      "stem": "Assuming each day of care counts toward the elimination period, how much will Nadia pay out of pocket before benefits begin?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$18,000",
+          "rationale": "Correct: 90 days × $200 = $18,000."
+        },
+        {
+          "id": "b",
+          "text": "$6,000",
+          "rationale": "Incorrect: this covers only 30 days."
+        },
+        {
+          "id": "c",
+          "text": "$0, because the trigger was met on day 1",
+          "rationale": "Incorrect: the elimination period still must be satisfied after the trigger is met."
+        },
+        {
+          "id": "d",
+          "text": "$36,000",
+          "rationale": "Incorrect: this assumes a 180-day elimination period."
+        }
+      ],
+      "correct": "a",
+      "explanation": "The elimination period is the number of days of care the insured must pay for before the policy begins paying. 90 days × $200 per day = $18,000. A longer elimination period lowers the premium, but the insured must be able to self-fund that cost.",
+      "memoryTip": "Elimination period = the deductible measured in days.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q207",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.8.1"
+      ],
+      "concepts": [
+        "reimbursement-vs-indemnity"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Which LTC benefit method requires bills showing expenses actually incurred?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Indemnity (per diem)",
+          "rationale": "Incorrect: indemnity pays a set amount regardless of actual charges."
+        },
+        {
+          "id": "b",
+          "text": "Cash benefit",
+          "rationale": "Incorrect: a cash benefit is a form of indemnity, paid regardless of expenses."
+        },
+        {
+          "id": "c",
+          "text": "Return of premium",
+          "rationale": "Incorrect: this is an optional refund feature, not a benefit method."
+        },
+        {
+          "id": "d",
+          "text": "Reimbursement",
+          "rationale": "Correct: a reimbursement (expense-incurred) policy pays actual covered charges up to the maximum."
+        }
+      ],
+      "correct": "d",
+      "explanation": "A reimbursement policy pays the actual covered expenses incurred, up to the daily or monthly maximum, so the insured must show the charges. An indemnity (per diem or cash) policy pays the stated amount once the insured qualifies, without regard to expenses.",
+      "memoryTip": "Reimbursement = receipts.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q208",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.8.3"
+      ],
+      "concepts": [
+        "ltc-nonforfeiture"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "Under federal tax-qualification rules, a required LTC nonforfeiture provision may take each of the following forms EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Reduced paid-up insurance",
+          "rationale": "Incorrect: this is a listed nonforfeiture form."
+        },
+        {
+          "id": "b",
+          "text": "Extended term insurance",
+          "rationale": "Incorrect: this is a listed nonforfeiture form."
+        },
+        {
+          "id": "c",
+          "text": "Shortened benefit period",
+          "rationale": "Incorrect: this is a listed nonforfeiture form."
+        },
+        {
+          "id": "d",
+          "text": "Guarantee of insurability",
+          "rationale": "Correct: this lets the insured buy more coverage; it is not a nonforfeiture benefit."
+        }
+      ],
+      "correct": "d",
+      "explanation": "IRC § 7702B(g)(4)(B)(iii) requires the nonforfeiture provision to provide at least one of: reduced paid-up insurance, extended term insurance, a shortened benefit period, or other similar offerings approved by the state regulator. New York separately requires LTC policies to provide some type of nonforfeiture value, such as reduced paid-up insurance, at the option of the insured (11 NYCRR 52.25(c)(7)).",
+      "memoryTip": "Nonforfeiture keeps value: reduced paid-up, extended term, shortened benefit period.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-26-7702b",
+        "ny-11nycrr-52-25"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q209",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.8.5"
+      ],
+      "concepts": [
+        "long-term-care-insurance"
+      ],
+      "difficulty": 3,
+      "style": "concept",
+      "tags": [
+        "tricky"
+      ],
+      "stem": "A tax-qualified LTC policy includes a return-of-premium benefit payable at the insured's death. Under federal rules, the refund can be no more than:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The total premiums paid under the contract",
+          "rationale": "Correct: a refund on death or surrender cannot exceed aggregate premiums paid."
+        },
+        {
+          "id": "b",
+          "text": "Twice the premiums paid",
+          "rationale": "Incorrect: refunds may not exceed the premiums actually paid."
+        },
+        {
+          "id": "c",
+          "text": "The policy's lifetime benefit maximum",
+          "rationale": "Incorrect: the benefit maximum is unrelated to the refund limit."
+        },
+        {
+          "id": "d",
+          "text": "The premiums paid minus a 20% surrender charge",
+          "rationale": "Incorrect: no such rule exists."
+        }
+      ],
+      "correct": "a",
+      "explanation": "IRC § 7702B(b)(2)(C) permits a refund of premium on the death of the insured or on complete surrender or cancellation, but the refund cannot exceed the aggregate premiums paid under the contract. A return-of-premium feature raises the premium.",
+      "memoryTip": "Return of premium: never more than you paid in.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-26-7702b"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q210",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.8.6"
+      ],
+      "concepts": [
+        "shared-care"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Ben and Lucy each own LTC policies with a 4-year benefit period and a shared care rider. Ben needs care for 6 years and uses all of his own benefits first, then draws on Lucy's.",
+      "stem": "How many years of benefits remain for Lucy after Ben's care ends?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4 years",
+          "rationale": "Incorrect: Ben used 2 of Lucy's years."
+        },
+        {
+          "id": "b",
+          "text": "2 years",
+          "rationale": "Correct: Ben used his 4 years plus 2 of Lucy's, leaving her 4 − 2 = 2 years."
+        },
+        {
+          "id": "c",
+          "text": "0 years",
+          "rationale": "Incorrect: Ben used only part of Lucy's benefits."
+        },
+        {
+          "id": "d",
+          "text": "6 years",
+          "rationale": "Incorrect: shared care does not create additional benefits."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Ben's 6 years of care = his own 4 years + 2 years drawn from Lucy's policy. Lucy started with 4 years, so 4 − 2 = 2 years remain for her. Shared care redistributes the couple's benefits; it does not add new ones.",
+      "memoryTip": "Shared care shares the bucket — what one uses, the other loses.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q211",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.10"
+      ],
+      "concepts": [
+        "hybrid-ltc"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Rhea owns a $250,000 universal life policy with an LTC rider that accelerates the death benefit. Before she dies, the policy pays $90,000 in LTC benefits. Assume no loans and no other adjustments.",
+      "stem": "How much will her beneficiary receive?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$250,000",
+          "rationale": "Incorrect: LTC benefits paid from a linked policy reduce the death benefit."
+        },
+        {
+          "id": "b",
+          "text": "$340,000",
+          "rationale": "Incorrect: LTC benefits are not added to the death benefit."
+        },
+        {
+          "id": "c",
+          "text": "$90,000",
+          "rationale": "Incorrect: this is the amount already paid for care."
+        },
+        {
+          "id": "d",
+          "text": "$160,000",
+          "rationale": "Correct: $250,000 − $90,000 = $160,000."
+        }
+      ],
+      "correct": "d",
+      "explanation": "In an accelerated-benefit hybrid, LTC benefits are an advance of the death benefit. $250,000 − $90,000 paid for care = $160,000 remaining for the beneficiary. Had Rhea never needed care, the full $250,000 would have been paid at death.",
+      "memoryTip": "Hybrid: what's used for care comes off the death benefit.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q212",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.9"
+      ],
+      "concepts": [
+        "long-term-care-insurance"
+      ],
+      "difficulty": 3,
+      "style": "negative",
+      "tags": [
+        "negative-wording",
+        "ny-law",
+        "tricky"
+      ],
+      "stem": "Under Regulation 62, each of the following gives a person covered under a group LTC policy the right to convert or continue coverage EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The employee quits the employer that sponsors the group plan",
+          "rationale": "Incorrect: termination of employment triggers conversion rights."
+        },
+        {
+          "id": "b",
+          "text": "A covered spouse's coverage ends because of a divorce",
+          "rationale": "Incorrect: divorce or annulment triggers conversion rights."
+        },
+        {
+          "id": "c",
+          "text": "The plan is replaced by a group plan with the same benefits",
+          "rationale": "Correct: no conversion or continuation right arises in this case."
+        },
+        {
+          "id": "d",
+          "text": "The group policy itself terminates and is not replaced",
+          "rationale": "Incorrect: termination of the group policy triggers conversion rights."
+        }
+      ],
+      "correct": "c",
+      "explanation": "11 NYCRR 52.25(b)(4)(ii) lists the events that give rise to conversion: divorce or annulment, a dependent reaching the limiting age, and (for group coverage) termination of employment or membership or termination of the group policy. Under 52.25(b)(4)(vi), the right does NOT arise when the group policyholder replaces the policy with another group policy providing the same or substantially the same benefits — the person simply stays covered.",
+      "memoryTip": "Replaced with the same coverage? Nothing to convert.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52-25"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q213",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.13"
+      ],
+      "concepts": [
+        "long-term-care-insurance"
+      ],
+      "difficulty": 2,
+      "style": "application",
+      "tags": [],
+      "scenario": "Paula, 58, is single, earns a comfortable salary, owns her home and has $450,000 in savings. She wants to remain at home if she ever needs care and does not want to spend down her savings to qualify for Medicaid. She can easily afford the premium now and in retirement.",
+      "stem": "How should a producer view the suitability of an LTC policy for Paula?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Unsuitable, because she could simply rely on Medicaid if she needs care",
+          "rationale": "Incorrect: she would have to spend down her assets first, which she wants to avoid."
+        },
+        {
+          "id": "b",
+          "text": "Unsuitable, because LTC insurance covers only nursing home stays",
+          "rationale": "Incorrect: LTC policies commonly cover home care."
+        },
+        {
+          "id": "c",
+          "text": "Suitable only if she also buys a Medicare supplement policy now",
+          "rationale": "Incorrect: Medigap doesn't address long-term care, and isn't a condition of suitability."
+        },
+        {
+          "id": "d",
+          "text": "Likely suitable: she has assets to protect and can afford it",
+          "rationale": "Correct: these are the classic indicators of a suitable LTC purchase."
+        }
+      ],
+      "correct": "d",
+      "explanation": "LTC insurance is generally suitable for people who have significant assets to protect, want choice of care setting (such as care at home), and can afford premiums now and in the future, keeping in mind that guaranteed renewable LTC premiums can rise on a class basis. Medicaid would require Paula to spend down most of her assets first.",
+      "memoryTip": "Assets to protect + affordable premiums + wants choice = good LTC fit.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Has assets to protect",
+            "anyOf": [
+              "assets",
+              "savings"
+            ]
+          },
+          {
+            "label": "Can afford premiums long-term",
+            "anyOf": [
+              "afford",
+              "premium"
+            ]
+          },
+          {
+            "label": "Wants home care / choice",
+            "anyOf": [
+              "home",
+              "choice"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q214",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.2.2",
+        "ltc.2.1"
+      ],
+      "concepts": [
+        "long-term-care-insurance",
+        "guaranteed-renewable"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "According to the New York LTC required disclosure statement, how much advance notice must an insured receive before a premium change takes effect?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "At least 30 days",
+          "rationale": "Incorrect: the required notice period is longer."
+        },
+        {
+          "id": "b",
+          "text": "At least 60 days",
+          "rationale": "Incorrect: the required notice period is longer."
+        },
+        {
+          "id": "c",
+          "text": "At least 90 days",
+          "rationale": "Correct: item 10(h) of the 11 NYCRR 52.65 form requires a statement promising at least 90 days' notice."
+        },
+        {
+          "id": "d",
+          "text": "None, because LTC premiums can never change",
+          "rationale": "Incorrect: premiums may change on a class basis, subject to DFS approval."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Under 11 NYCRR 52.65, the disclosure statement must say the policy may be subject to future premium increases (subject to the Superintendent's approval or modification), list the 10-year rate history, and state that the insured will be given at least 90 days' notice before any premium change takes effect.",
+      "memoryTip": "NY LTC rate change: 90 days' notice.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52-65"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q215",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.2.6",
+        "ltc.2.5"
+      ],
+      "concepts": [
+        "ltc-partnership",
+        "dollar-for-dollar"
+      ],
+      "difficulty": 3,
+      "style": "comparison",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "scenario": "Two New Yorkers exhausted approved Partnership policies. Kim's policy had a 3-year nursing home benefit and paid $250,000. Lee's policy had an 18-month nursing home benefit and paid $120,000. Each now has $400,000 in countable assets and applies for Medicaid.",
+      "stem": "How much of each person's assets will Medicaid disregard?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Kim: all $400,000; Lee: $120,000",
+          "rationale": "Correct: Kim's policy qualifies for total asset protection; Lee's, under two years, protects assets equal to benefits paid."
+        },
+        {
+          "id": "b",
+          "text": "Kim: $250,000; Lee: $120,000",
+          "rationale": "Incorrect: Kim's policy (two years or more) gets total asset protection, not dollar-for-dollar."
+        },
+        {
+          "id": "c",
+          "text": "Kim: all $400,000; Lee: all $400,000",
+          "rationale": "Incorrect: Lee's policy, under two years, gets dollar-for-dollar protection only."
+        },
+        {
+          "id": "d",
+          "text": "Kim: $0; Lee: $0, until both spend down",
+          "rationale": "Incorrect: Partnership policies protect assets from spend-down."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Under NY Social Services Law § 367-f(1)(a)(i), Medicaid extended coverage is granted without regard to resources (total asset protection), except that for a policy whose nursing facility benefit is less than two years, Medicaid disregards resources equal to the benefits received (dollar-for-dollar). Kim (3 years) → all $400,000 disregarded. Lee (18 months) → $120,000 disregarded; the other $280,000 is subject to normal Medicaid rules.",
+      "memoryTip": "Two years or more: total asset. Under two years: dollar-for-dollar.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Kim's 3-year policy gets total asset protection",
+            "anyOf": [
+              "total asset",
+              "all assets",
+              "400,000"
+            ]
+          },
+          {
+            "label": "Lee's under-2-year policy is dollar-for-dollar",
+            "anyOf": [
+              "dollar-for-dollar",
+              "dollar for dollar",
+              "120,000"
+            ]
+          },
+          {
+            "label": "Two-year nursing home benefit is the dividing line",
+            "anyOf": [
+              "two years",
+              "2 years",
+              "less than two"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-sos-367-f"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q216",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.2.7",
+        "ltc.2.5"
+      ],
+      "concepts": [
+        "estate-recovery",
+        "ltc-partnership"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "scenario": "Hal, a widower with adult children, exhausted a NY Partnership policy that paid $150,000 (dollar-for-dollar design). Medicaid then paid for his nursing home care until he died at 86. His estate is worth $210,000.",
+      "stem": "How does Medicaid estate recovery apply to Hal's estate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The state may recover from the entire $210,000 estate",
+          "rationale": "Incorrect: Partnership-protected resources are exempt from estate recovery."
+        },
+        {
+          "id": "b",
+          "text": "No recovery is allowed, because Hal was over age 65",
+          "rationale": "Incorrect: age 55 or older is what makes recovery apply, not exempt."
+        },
+        {
+          "id": "c",
+          "text": "No recovery is allowed, because he has surviving adult children",
+          "rationale": "Incorrect: only a child under 21 or a blind or disabled child blocks recovery."
+        },
+        {
+          "id": "d",
+          "text": "The $150,000 the Partnership protected is exempt",
+          "rationale": "Correct: protected resources are shielded; only the rest of the estate is exposed."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Federal law (42 U.S.C. § 1396p(b)) requires states to seek recovery from the estates of Medicaid recipients 55 or older for nursing facility and related care, after any surviving spouse dies and when there is no child under 21 or blind or disabled child. Hal has no spouse and only adult children, so recovery applies. But NY SSL § 367-f(1)(a)(ii) provides Medicaid extended coverage without estate recovery with respect to resources exempted by the Partnership — here $150,000. At most $210,000 − $150,000 = $60,000 is exposed.",
+      "memoryTip": "Partnership protection follows you to your estate.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Estate recovery generally applies (55+, no spouse, adult children)",
+            "anyOf": [
+              "55",
+              "adult",
+              "no spouse",
+              "applies"
+            ]
+          },
+          {
+            "label": "Partnership-protected amount is exempt",
+            "anyOf": [
+              "150,000",
+              "protected",
+              "exempt"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-sos-367-f",
+        "fed-usc-42-1396p"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q217",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.1",
+        "ltc.2.3"
+      ],
+      "concepts": [
+        "long-term-care-insurance",
+        "medicare",
+        "custodial-care"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "Rose, 79, has Original Medicare and a New York LTC policy. Without any hospital stay, she develops severe arthritis and now needs an aide's help bathing, dressing and getting out of bed for the foreseeable future. Her doctor certifies the need.",
+      "stem": "Which coverage is designed to pay for the aide?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Medicare Part A, because she needs help every day",
+          "rationale": "Incorrect: Medicare doesn't cover custodial care, and Part A SNF care requires daily skilled care after a hospital stay."
+        },
+        {
+          "id": "b",
+          "text": "Her LTC policy, which can't require a prior hospital stay",
+          "rationale": "Correct: custodial home care is what LTC insurance covers, and NY bars prior-hospitalization requirements."
+        },
+        {
+          "id": "c",
+          "text": "Medicare Part B, because the aide comes to her home",
+          "rationale": "Incorrect: Medicare doesn't pay for long-term custodial care at home."
+        },
+        {
+          "id": "d",
+          "text": "No coverage, because she was never hospitalized",
+          "rationale": "Incorrect: New York prohibits LTC policies from requiring a prior hospitalization."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Medicare does not pay for long-term custodial care (help with bathing, dressing and transferring). LTC insurance is designed for exactly this need, and 11 NYCRR 52.25(c)(1)(i) prohibits NY LTC policies from requiring a prior hospitalization or prior level of care before benefits are paid.",
+      "memoryTip": "Custodial help at home: LTC policy, not Medicare — no hospital stay needed.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52-25",
+        "fed-medicare-ltc"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

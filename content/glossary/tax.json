@@ -1,0 +1,424 @@
+{
+  "sectionId": "tax",
+  "terms": [
+    {
+      "id": "cost-basis",
+      "term": "Cost Basis",
+      "aliases": [
+        "Basis",
+        "Investment in the contract",
+        "Cost recovery"
+      ],
+      "sectionId": "tax",
+      "outlineIds": [
+        "tax.1.1.4",
+        "tax.1.1"
+      ],
+      "formal": "The policyowner's after-tax investment in a life insurance or annuity contract. For a life policy the IRS describes it as, in most cases, the total premiums paid less any refunded premiums, rebates, dividends, or unrepaid loans that weren't included in income. Amounts received up to the cost basis are a tax-free return of the owner's own money.",
+      "plain": "Basically, what you've put into the policy with money you already paid tax on. Getting that money back isn't taxed again; only amounts above it are taxable gain.",
+      "simpler": "Your basis is your own money in the policy. Getting your own money back isn't income.",
+      "examples": [
+        "Lena paid $30,000 in premiums and received $4,000 of dividends in cash. Her cost basis is $26,000.",
+        "Raul surrenders a policy for $50,000 with a basis of $42,000. Only the $8,000 gain is taxable income."
+      ],
+      "examTip": "Taxable gain on surrender = cash received − cost basis. Remember to subtract dividends taken in cash (or otherwise not taxed) from total premiums when figuring basis.",
+      "misconception": "Cost basis is not the cash value. The cash value can be higher or lower than what you paid in.",
+      "related": [
+        "cash-surrender-value",
+        "dividend",
+        "exclusion-ratio",
+        "death-benefit-taxation"
+      ],
+      "confusedWith": [
+        "cash-surrender-value"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Paul paid $20,000 in premiums, received $2,000 of dividends in cash and surrendered the policy for $25,000. What is his taxable gain?",
+        "choices": [
+          "$7,000",
+          "$5,000",
+          "$25,000",
+          "$0"
+        ],
+        "answerIndex": 0,
+        "explanation": "Basis = $20,000 premiums − $2,000 dividends = $18,000. Gain = $25,000 − $18,000 = $7,000."
+      },
+      "sources": [
+        "fed-irs-pub525-life"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "exclusion-ratio",
+      "term": "Exclusion Ratio",
+      "aliases": [
+        "Exclusion percentage",
+        "General rule"
+      ],
+      "sectionId": "tax",
+      "outlineIds": [
+        "tax.1.2.1",
+        "tax.1"
+      ],
+      "formal": "The ratio used to divide each annuity-type payment into a tax-free return of the owner's investment and a taxable portion: investment in the contract divided by the expected return. The tax-free part is figured when payments begin, generally stays the same each year, and in total cannot exceed the owner's cost.",
+      "plain": "When money comes back to you in regular payments, part of each payment is your own money returned (no tax) and part is earnings (taxed). The exclusion ratio sets that split.",
+      "simpler": "Each check is part 'your money back' and part 'interest'. Only the interest part is taxed.",
+      "examples": [
+        "Ines put $60,000 into a nonqualified annuity and expects to receive $100,000 in total payments. Her exclusion ratio is 60%, so 60% of each payment is tax-free and 40% is taxable.",
+        "After Ines has recovered her full $60,000 of cost, further payments are fully taxable."
+      ],
+      "examTip": "Exclusion ratio = cost ÷ expected return. It applies to annuitized (periodic) payments; the tax-free total is capped at the owner's cost.",
+      "misconception": "The exclusion ratio does not make payments tax-free forever. Once you've recovered your cost, the rest is taxable.",
+      "related": [
+        "cost-basis",
+        "annuitization",
+        "settlement-options"
+      ],
+      "confusedWith": [
+        "cost-basis"
+      ],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "An annuitant's investment is $40,000 and the expected return is $100,000. What part of each payment is excluded from income?",
+        "choices": [
+          "40%",
+          "60%",
+          "100%",
+          "0%"
+        ],
+        "answerIndex": 0,
+        "explanation": "Exclusion ratio = $40,000 ÷ $100,000 = 40%. That part of each payment is a tax-free return of cost; 60% is taxable."
+      },
+      "sources": [
+        "fed-irs-topic-411"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19",
+        "notes": "IRS Topic 411 verifies that the tax-free part is figured when payments begin, generally stays the same, and is capped at cost. The cost ÷ expected-return wording reflects 26 U.S.C. § 72(b)(1), which was not separately excerpted (LII page too large to scrape)."
+      }
+    },
+    {
+      "id": "section-1035-exchange",
+      "term": "Section 1035 Exchange",
+      "aliases": [
+        "1035 exchange",
+        "Tax-free exchange"
+      ],
+      "sectionId": "tax",
+      "outlineIds": [
+        "tax.3"
+      ],
+      "formal": "A tax-free exchange under Internal Revenue Code § 1035, in which no gain or loss is recognized when a life insurance contract is exchanged for another life insurance, endowment, annuity, or qualified long-term care contract; an endowment for certain endowments, an annuity, or qualified LTC; an annuity for an annuity or qualified LTC; or a qualified LTC contract for another qualified LTC contract.",
+      "plain": "You can swap one policy for another without paying tax on the gain — but only in certain directions. Life can become an annuity, but an annuity can't become life insurance tax-free.",
+      "simpler": "A tax-free trade-in, as long as you trade 'down' the allowed path: life → life/annuity/LTC; annuity → annuity/LTC.",
+      "examples": [
+        "Martin exchanges an old whole life policy with a $30,000 gain for a new universal life policy under § 1035. He owes no tax on the gain at the time of the exchange.",
+        "Ella wants to exchange her deferred annuity for a life insurance policy. That direction is not covered by § 1035, so any gain would be taxable."
+      ],
+      "examTip": "Allowed: life → life, endowment, annuity or qualified LTC; annuity → annuity or qualified LTC. NOT allowed tax-free: annuity → life insurance. A 1035 exchange still involves giving up an existing contract, so producers must also follow replacement rules (covered in Life Insurance Basics).",
+      "misconception": "A 1035 exchange does not make the gain disappear; the gain is deferred and carries into the new contract's basis.",
+      "related": [
+        "replacement",
+        "modified-endowment-contract",
+        "cost-basis"
+      ],
+      "confusedWith": [
+        "rollover"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which exchange qualifies for tax-free treatment under IRC § 1035?",
+        "choices": [
+          "Life insurance for an annuity",
+          "Annuity for life insurance",
+          "Annuity for a certificate of deposit",
+          "Life insurance for mutual fund shares"
+        ],
+        "answerIndex": 0,
+        "explanation": "§ 1035(a)(1) allows a life contract to be exchanged for life, endowment, annuity or qualified LTC. An annuity may be exchanged only for an annuity or qualified LTC (§ 1035(a)(3)); non-insurance products are not covered."
+      },
+      "sources": [
+        "fed-usc-26-1035"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "modified-endowment-contract",
+      "term": "Modified Endowment Contract (MEC)",
+      "aliases": [
+        "MEC",
+        "7-pay test"
+      ],
+      "sectionId": "tax",
+      "outlineIds": [
+        "tax.1.1.3",
+        "tax.1.1.4",
+        "tax.1"
+      ],
+      "formal": "Under IRC § 7702A, a life insurance contract entered into on or after June 21, 1988 that fails the 7-pay test — because the accumulated amount paid at any time in the first 7 contract years exceeds the sum of the net level premiums that would have been paid by then for a policy paid up after 7 level annual premiums — or any contract received in exchange for a MEC.",
+      "plain": "If you stuff too much money into a life policy too fast (more than it would take to pay it up in seven level annual payments), the IRS labels it a MEC. It's still life insurance, but money you take out while living gets less favorable tax treatment.",
+      "simpler": "Overfund a policy too quickly and it gets a 'MEC' tag that follows it forever, even through exchanges.",
+      "examples": [
+        "Grace buys a single-premium whole life policy with one large payment. It fails the 7-pay test and is a MEC.",
+        "Ken exchanges a MEC for a new policy under § 1035. The new policy is also a MEC under § 7702A(a)(2)."
+      ],
+      "examTip": "MEC test = 7-pay test. Once a MEC, always a MEC (including contracts received in exchange). The death benefit is still life insurance proceeds; it's the LIVING distributions (withdrawals, loans) that lose favorable treatment.",
+      "misconception": "Becoming a MEC does not make the death benefit taxable; the policy still meets the federal definition of life insurance.",
+      "related": [
+        "single-premium-whole-life",
+        "section-1035-exchange",
+        "policy-loan",
+        "death-benefit-taxation"
+      ],
+      "confusedWith": [],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "Under IRC § 7702A, which test determines whether a life insurance policy is a modified endowment contract?",
+        "choices": [
+          "The 7-pay test",
+          "The 10-year cost index test",
+          "The insurable interest test",
+          "The 60-day rollover test"
+        ],
+        "answerIndex": 0,
+        "explanation": "A contract fails the 7-pay test (and becomes a MEC) if the amount paid during the first 7 contract years exceeds the net level premiums for a policy paid up after 7 level annual premiums."
+      },
+      "sources": [
+        "fed-usc-26-7702a",
+        "fed-irs-pub550-ins-dividends"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19",
+        "notes": "Definition verified from § 7702A. Specific MEC distribution rules (income-first ordering, loans as distributions, 10% additional tax before 59½ under § 72(e)(10) and (v)) were NOT verified and are deliberately not stated here."
+      }
+    },
+    {
+      "id": "rollover",
+      "term": "Rollover",
+      "aliases": [
+        "60-day rollover",
+        "Indirect rollover"
+      ],
+      "sectionId": "tax",
+      "outlineIds": [
+        "tax.2"
+      ],
+      "formal": "Moving a distribution from a retirement plan or IRA into another eligible plan or IRA so it is not currently taxed. If the distribution is paid to the individual, it must be deposited within 60 days of receipt; IRA-to-IRA rollovers are limited to one in any 12-month period.",
+      "plain": "You take money out of one retirement account and put it into another within 60 days so you don't owe tax yet. If your employer plan pays it to you directly, 20% is withheld, and you must make up that 20% from other money to roll over the full amount.",
+      "simpler": "Like carrying cash from one bank to another — you have 60 days to deposit it or it counts as spending (taxable).",
+      "examples": [
+        "Jo receives a $10,000 check from her old 401(k) after $2,000 is withheld. To roll over the full $10,000 within 60 days, she must add $2,000 of her own money.",
+        "Sam takes a distribution from his IRA and deposits it in another IRA 45 days later — a valid 60-day rollover."
+      ],
+      "examTip": "Rollover = check comes to YOU, 60-day deadline, 20% mandatory withholding from employer plans (10% default on IRA distributions unless you elect out), one IRA-to-IRA rollover per 12 months. Direct rollovers and trustee-to-trustee transfers avoid withholding.",
+      "misconception": "A rollover is not the same as a trustee-to-trustee transfer; the one-per-year limit applies to IRA-to-IRA rollovers but not to direct transfers.",
+      "related": [
+        "trustee-to-trustee-transfer",
+        "traditional-ira",
+        "qualified-plan",
+        "plan-401k"
+      ],
+      "confusedWith": [
+        "trustee-to-trustee-transfer",
+        "section-1035-exchange"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "How long does a person have to complete a rollover of a retirement plan distribution paid directly to them?",
+        "choices": [
+          "60 days",
+          "30 days",
+          "90 days",
+          "12 months"
+        ],
+        "answerIndex": 0,
+        "explanation": "The IRS allows 60 days from the date the distribution is received to deposit it into another plan or IRA."
+      },
+      "sources": [
+        "fed-irs-rollovers"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "trustee-to-trustee-transfer",
+      "term": "Trustee-to-Trustee Transfer",
+      "aliases": [
+        "Direct transfer",
+        "Direct rollover"
+      ],
+      "sectionId": "tax",
+      "outlineIds": [
+        "tax.2"
+      ],
+      "formal": "A movement of retirement funds directly from one IRA custodian (or plan) to another IRA or plan without the money being paid to the owner. No taxes are withheld, and it is not a rollover for purposes of the one-IRA-rollover-per-12-months limit.",
+      "plain": "The two financial institutions move the money between themselves. You never touch it, so there's no withholding, no 60-day clock and no once-a-year limit.",
+      "simpler": "The banks hand the money to each other directly — you never hold the cash.",
+      "examples": [
+        "Mia asks her IRA custodian to send her IRA balance directly to a new IRA at another firm. No tax is withheld.",
+        "Leo moves IRA money directly between custodians three times in one year; the one-per-year rollover limit doesn't apply to direct transfers."
+      ],
+      "examTip": "Safest way to move retirement money: direct (trustee-to-trustee) transfer — no withholding, no 60-day deadline, unlimited frequency.",
+      "misconception": "A direct transfer is not a taxable distribution, even though the money leaves the old account.",
+      "related": [
+        "rollover",
+        "traditional-ira",
+        "qualified-plan"
+      ],
+      "confusedWith": [
+        "rollover"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which method of moving IRA money avoids tax withholding and is NOT subject to the one-rollover-per-year limit?",
+        "choices": [
+          "Trustee-to-trustee transfer",
+          "60-day rollover",
+          "Cash withdrawal and redeposit",
+          "Hardship distribution"
+        ],
+        "answerIndex": 0,
+        "explanation": "Direct trustee-to-trustee transfers are not rollovers, so the one-per-year limit doesn't apply and no tax is withheld."
+      },
+      "sources": [
+        "fed-irs-rollovers"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "death-benefit-taxation",
+      "term": "Income Tax Treatment of Death Proceeds",
+      "aliases": [
+        "Taxation of death benefits",
+        "IRC § 101"
+      ],
+      "sectionId": "tax",
+      "outlineIds": [
+        "tax.1.2",
+        "tax.1.2.1"
+      ],
+      "formal": "Under IRC § 101(a)(1), amounts received under a life insurance contract by reason of the insured's death are generally excluded from the beneficiary's gross income, whether paid in a single sum or otherwise. Interest paid on proceeds held by the insurer is taxable (§ 101(c)); installment payments are prorated so the principal portion is excluded and the excess is income (§ 101(d)); and a policy transferred for valuable consideration may lose part of the exclusion (§ 101(a)(2)).",
+      "plain": "A beneficiary generally owes no federal income tax on a life insurance death benefit. But any interest the insurer adds — for example, under a settlement option — is taxable.",
+      "simpler": "The death benefit itself is tax-free; interest earned on it is not.",
+      "examples": [
+        "Ana receives a $250,000 lump-sum death benefit. She does not report it as income.",
+        "Ben elects to receive $300,000 of proceeds in installments over 10 years. The part of each payment that represents the $300,000 principal is excluded; the interest portion is taxable."
+      ],
+      "examTip": "Lump sum = income-tax free. Settlement option = principal free, interest taxable. Interest-only option = all interest taxable. Transfer for value (policy sold for consideration) = exclusion limited, with some exceptions.",
+      "misconception": "Income-tax-free does not necessarily mean estate-tax-free; and interest on proceeds left with the insurer is always taxable income.",
+      "related": [
+        "settlement-options",
+        "interest-only-option",
+        "fixed-period-option",
+        "beneficiary",
+        "life-settlement"
+      ],
+      "confusedWith": [
+        "cost-basis"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A beneficiary receives a life insurance death benefit in a lump sum. How is it treated for federal income tax?",
+        "choices": [
+          "Generally excluded from gross income",
+          "Fully taxable as ordinary income",
+          "Taxable only above the premiums paid",
+          "Taxable as a capital gain"
+        ],
+        "answerIndex": 0,
+        "explanation": "IRC § 101(a)(1) excludes from gross income amounts paid under a life insurance contract by reason of the insured's death, whether in a single sum or otherwise."
+      },
+      "sources": [
+        "fed-usc-26-101",
+        "fed-irs-faq-life-proceeds"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "a": "rollover",
+      "b": "trustee-to-trustee-transfer",
+      "keyDifference": "In a rollover the distribution is paid to the owner, who must redeposit it within 60 days; in a trustee-to-trustee transfer the money moves directly between institutions.",
+      "rows": [
+        {
+          "aspect": "Who holds the money",
+          "a": "The owner, temporarily",
+          "b": "Never the owner"
+        },
+        {
+          "aspect": "Deadline",
+          "a": "60 days from receipt",
+          "b": "None"
+        },
+        {
+          "aspect": "Withholding",
+          "a": "20% mandatory from employer plans; 10% default on IRA distributions unless elected out",
+          "b": "None"
+        },
+        {
+          "aspect": "One-per-12-months IRA limit",
+          "a": "Applies to IRA-to-IRA rollovers",
+          "b": "Does not apply"
+        }
+      ],
+      "memoryTip": "Rollover = you Ride with the money; transfer = the Trustees Talk to each other."
+    },
+    {
+      "a": "section-1035-exchange",
+      "b": "rollover",
+      "keyDifference": "A § 1035 exchange swaps one insurance or annuity contract for another without recognizing gain; a rollover moves retirement-plan or IRA money to another plan or IRA.",
+      "rows": [
+        {
+          "aspect": "What moves",
+          "a": "Life, endowment, annuity or qualified LTC contracts",
+          "b": "Retirement plan or IRA distributions"
+        },
+        {
+          "aspect": "Key restriction",
+          "a": "Direction matters: annuity cannot become life insurance tax-free",
+          "b": "60-day deadline; one IRA-to-IRA rollover per 12 months"
+        }
+      ],
+      "memoryTip": "1035 = policy for policy; rollover = retirement account to retirement account."
+    }
+  ]
+}

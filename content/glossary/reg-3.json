@@ -1,0 +1,149 @@
+{
+  "sectionId": "reg",
+  "terms": [
+    {
+      "id": "appointment",
+      "term": "Appointment",
+      "aliases": ["Certificate of appointment", "Notice of appointment"],
+      "sectionId": "reg",
+      "outlineIds": ["reg.2.2.4", "reg.2.2.5", "reg.1.1"],
+      "formal": "The insurer's filing with the Department of Financial Services authorizing a licensed producer to act as its agent. Under NY Insurance Law § 2112(b), the appointing insurer must file a notice of appointment within 15 days from the date the agency contract is executed or the first insurance application is submitted.",
+      "plain": "A license says you are qualified; an appointment says a particular insurer has authorized you to represent it. The insurer (not the agent) files the appointment, within 15 days of signing the agency contract or receiving your first application.",
+      "simpler": "A license is your driver's license; an appointment is the company handing you the keys to its delivery van.",
+      "examples": [
+        "Tara signs an agency contract with Hudson Life on May 1. Hudson Life must file her notice of appointment by May 16 at the latest.",
+        "If all of an agent's appointments are terminated, the license becomes inactive until a new appointment is filed (§ 2103(j)(4))."
+      ],
+      "examTip": "15 days — and it runs from EITHER the agency contract date OR the first application submitted. The INSURER files it.",
+      "misconception": "Agents do not appoint themselves; the appointing insurer files the certificate or notice of appointment.",
+      "related": ["insurance-agent", "producer", "license-revocation"],
+      "confusedWith": [],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Within how many days must an insurer file a notice of appointment for a New York agent?",
+        "choices": [
+          "15 days from execution of the agency contract or submission of the first application",
+          "30 days from the date the agent passes the licensing exam",
+          "10 days from the date the policy is delivered",
+          "60 days before the agent's license expires"
+        ],
+        "answerIndex": 0,
+        "explanation": "§ 2112(b) and the DFS/PSI bulletin: within 15 days from the date the agency contract is executed or the first insurance application is submitted."
+      },
+      "sources": ["ny-isc-2112", "psi-ny-bulletin-2023", "ny-isc-2103"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "fiduciary-responsibility",
+      "term": "Fiduciary Responsibility",
+      "aliases": ["Fiduciary capacity", "Fiduciary duty"],
+      "sectionId": "reg",
+      "outlineIds": ["reg.2.4.3"],
+      "formal": "Under NY Insurance Law § 2120(a), every insurance agent and insurance broker acting as such in New York is responsible in a fiduciary capacity for all funds received or collected as an agent or broker, and may not, without the express consent of the principal, mingle those funds with the producer's own funds or funds held in any other capacity.",
+      "plain": "Premiums and other money you collect as a producer are not yours. You hold them in trust for whoever they belong to (usually the insurer or the client) and must keep them identifiable and separate from your personal money.",
+      "simpler": "Being a fiduciary means you are holding someone else's wallet. You can carry it, but you can't spend from it or mix it with your own cash.",
+      "examples": [
+        "Sam collects a $1,200 annual premium in cash and deposits it in the agency's premium account, recording which insurer it belongs to.",
+        "Sam's partner deposits client premiums into her personal checking account to cover rent until the end of the month; that breaches fiduciary duty."
+      ],
+      "examTip": "Fiduciary = position of trust over OTHER PEOPLE's money. Misusing it can be grounds for revocation (§ 2110(a)(5): improperly withheld, misappropriated or converted funds).",
+      "misconception": "New York does not require a separate bank account for each insurer, as long as each principal's funds are reasonably ascertainable from the producer's books and records (§ 2120(c)).",
+      "related": ["commingling", "license-revocation"],
+      "confusedWith": ["commingling"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "When a New York agent collects premiums from clients, the agent holds those funds:",
+        "choices": [
+          "In a fiduciary capacity on behalf of the principal",
+          "As the agent's own earned income until the policy is issued",
+          "As a loan from the client to the agent",
+          "In trust for the Department of Financial Services"
+        ],
+        "answerIndex": 0,
+        "explanation": "§ 2120(a) makes agents and brokers responsible in a fiduciary capacity for all funds received or collected as agent or broker."
+      },
+      "sources": ["ny-isc-2120", "ny-isc-2110"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "commingling",
+      "term": "Commingling",
+      "aliases": ["Mingling funds"],
+      "sectionId": "reg",
+      "outlineIds": ["reg.2.4.3"],
+      "formal": "Mixing funds held in a fiduciary capacity (such as premiums collected for an insurer) with the producer's own funds or with funds held in another capacity. NY Insurance Law § 2120(a) prohibits it unless the principal gives express consent.",
+      "plain": "Commingling is putting clients' or insurers' money in the same pot as your own money. Even if you plan to pay it all back, mixing the funds is the violation.",
+      "simpler": "It's pouring someone else's coffee into your own mug: once mixed, you can't tell whose is whose.",
+      "examples": [
+        "An agent deposits premium checks into his personal savings account; that is commingling.",
+        "An agency keeps one premium trust account for several insurers and its ledger shows exactly how much belongs to each; that is permitted under § 2120(c)."
+      ],
+      "examTip": "Commingling = mixing. Misappropriation/conversion = actually using the money for yourself. Commingling can occur even if no money is spent.",
+      "misconception": "Keeping all insurers' premiums in a single trust account is not automatically commingling; mixing them with the producer's OWN money is.",
+      "related": ["fiduciary-responsibility", "license-revocation"],
+      "confusedWith": ["fiduciary-responsibility"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which action is commingling?",
+        "choices": [
+          "Depositing client premiums into the producer's personal bank account",
+          "Keeping premiums for two insurers in one trust account with separate ledger entries for each",
+          "Forwarding a premium check to the insurer the same day",
+          "Issuing a receipt for a cash premium"
+        ],
+        "answerIndex": 0,
+        "explanation": "Commingling is mixing fiduciary funds with your own. § 2120(c) allows one account for several principals if each one's funds are reasonably ascertainable from the records."
+      },
+      "sources": ["ny-isc-2120"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "controlled-business",
+      "term": "Controlled Business",
+      "aliases": [],
+      "sectionId": "reg",
+      "outlineIds": ["reg.2.4.1"],
+      "formal": "Insurance written on the property and risks of the licensee's own circle — under NY Insurance Law § 2103(i), for an individual applicant, the spouse, corporations the applicant or spouse own more than 50% of (and their affiliates), and firms of which the applicant or spouse is a member. The superintendent may refuse, suspend or revoke a license if more than 10% of the applicant's aggregate net commissions over the prior (or next) 12 months come from such business.",
+      "plain": "A license is meant for selling to the public. If most of your commissions come from insuring your own family's or your own companies' risks, New York can deny or pull the license. The line is 10% of net commissions over a 12-month period.",
+      "simpler": "You can't get a license just to sell to yourself and your relatives' businesses at a discount. At least 90% of your commission income should come from the general public.",
+      "examples": [
+        "Frank gets licensed mainly to place coverage on the three companies he and his wife own; if those policies produce more than 10% of his net commissions over 12 months, the superintendent may refuse or revoke his license.",
+        "Gina's commissions come almost entirely from unrelated retail clients, with a small policy on her husband's business; that is not a controlled-business problem."
+      ],
+      "examTip": "Controlled business threshold in New York: more than 10% of aggregate net commissions in a 12-month period.",
+      "misconception": "Selling a policy to your spouse is not itself illegal. The concern is when such business makes up more than the 10% limit of your commissions.",
+      "related": ["rebating", "producer"],
+      "confusedWith": ["rebating"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under New York's controlled business rule, a license may be refused or revoked if more than what share of the licensee's net commissions comes from insuring the licensee's own spouse and controlled businesses?",
+        "choices": ["10%", "25%", "50%", "5%"],
+        "answerIndex": 0,
+        "explanation": "§ 2103(i)(1): more than ten percent of aggregate net commissions during the preceding or ensuing 12 months."
+      },
+      "sources": ["ny-isc-2103"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    }
+  ],
+  "comparisons": [
+    {
+      "a": "fiduciary-responsibility",
+      "b": "commingling",
+      "keyDifference": "Fiduciary responsibility is the duty to safeguard funds held for others; commingling is one specific way to breach it — mixing those funds with your own.",
+      "rows": [
+        { "aspect": "What it is", "a": "A legal duty (position of trust)", "b": "A prohibited act" },
+        { "aspect": "NY source", "a": "§ 2120(a): responsible in a fiduciary capacity for all funds collected", "b": "§ 2120(a): may not mingle such funds with own funds without principal's express consent" },
+        { "aspect": "One account for many insurers?", "a": "Allowed if each principal's funds are ascertainable from records (§ 2120(c))", "b": "Not commingling unless the producer's own money is mixed in" }
+      ],
+      "memoryTip": "Fiduciary = Faithful keeper; commingling = Combining with your own."
+    }
+  ]
+}

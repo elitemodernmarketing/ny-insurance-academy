@@ -1,0 +1,1075 @@
+{
+  "sectionId": "sen",
+  "questions": [
+    {
+      "id": "sen-q015",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.4.1",
+        "sen.1.4.5"
+      ],
+      "concepts": [
+        "medicare-supplement"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "Under New York's Medigap marketing standards, what must be displayed prominently on the first page of a Medicare supplement policy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "\"Notice to buyer: This policy may not cover all of your medical expenses.\"",
+          "rationale": "Correct: 11 NYCRR 58.1(g)(1)(iii) requires this notice."
+        },
+        {
+          "id": "b",
+          "text": "\"Notice to buyer: This policy is endorsed by the federal government.\"",
+          "rationale": "Incorrect: implying government endorsement would be misleading."
+        },
+        {
+          "id": "c",
+          "text": "\"Notice to buyer: This policy replaces your Medicare Part A and Part B.\"",
+          "rationale": "Incorrect: Medigap supplements Medicare; it doesn't replace it."
+        },
+        {
+          "id": "d",
+          "text": "\"Notice to buyer: This policy covers all of your long-term custodial care.\"",
+          "rationale": "Incorrect: Medigap does not cover long-term custodial care."
+        }
+      ],
+      "correct": "a",
+      "explanation": "11 NYCRR 58.1(g)(1) requires issuers to establish procedures assuring fair and accurate comparisons, preventing excessive insurance, identifying the applicant's existing A&H coverage, and to display on the first page: 'Notice to buyer: This policy may not cover all of your medical expenses.'",
+      "memoryTip": "Medigap's first page warns: it may not cover everything.",
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-58-1"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q016",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.4.2"
+      ],
+      "concepts": [
+        "medicare-supplement",
+        "producer-compensation-disclosure"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "ny-law",
+        "math",
+        "tricky"
+      ],
+      "scenario": "An insurer pays producers $150 for servicing a Medigap policy in its second year.",
+      "stem": "Under New York's permitted compensation rules, what is the most the insurer may pay as first-year commission on that policy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$150",
+          "rationale": "Incorrect: a higher first-year commission is allowed, up to 200% of the second-year amount."
+        },
+        {
+          "id": "b",
+          "text": "$225",
+          "rationale": "Incorrect: this is 150% of the second-year commission; the cap is 200%."
+        },
+        {
+          "id": "c",
+          "text": "$300",
+          "rationale": "Correct: first-year compensation may be no more than 200% of second-year compensation: $150 × 2 = $300."
+        },
+        {
+          "id": "d",
+          "text": "$450",
+          "rationale": "Incorrect: this is 300% of the second-year amount."
+        }
+      ],
+      "correct": "c",
+      "explanation": "11 NYCRR 58.1(f)(1): an issuer may pay a producer first-year compensation for a Medigap sale only if it is no more than 200 percent of the compensation paid in the second year. $150 × 200% = $300. Under 58.1(f)(2), renewal compensation in later years must equal the second-year amount and be paid for no fewer than five renewal years.",
+      "memoryTip": "Medigap first year ≤ 2 × second year.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-58-1"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q017",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.4.2",
+        "sen.1.4.4"
+      ],
+      "concepts": [
+        "medicare-supplement",
+        "twisting"
+      ],
+      "difficulty": 3,
+      "style": "concept",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "stem": "A producer replaces a client's existing Medigap policy with a new Medigap policy from another insurer. What compensation limit applies to the producer?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The producer may receive the full first-year commission, up to 200% of the second-year amount",
+          "rationale": "Incorrect: the 200% first-year rule doesn't apply to replacements."
+        },
+        {
+          "id": "b",
+          "text": "The producer may receive no compensation at all",
+          "rationale": "Incorrect: compensation is allowed, but capped."
+        },
+        {
+          "id": "c",
+          "text": "The producer's compensation is limited to whatever the client agrees to in writing",
+          "rationale": "Incorrect: client consent doesn't change the regulatory cap."
+        },
+        {
+          "id": "d",
+          "text": "Compensation may not exceed the replacing insurer's renewal compensation",
+          "rationale": "Correct: 11 NYCRR 58.1(f)(3) caps replacement compensation at the renewal level."
+        }
+      ],
+      "correct": "d",
+      "explanation": "11 NYCRR 58.1(f)(3): when an existing Medigap, Medicare SELECT, Medicare Advantage or certain other Medicare policy is replaced by a Medigap or SELECT policy, no issuer may pay, and no producer may receive, compensation greater than the renewal compensation the replacing issuer pays on renewal policies. This removes the incentive to churn clients for first-year commissions.",
+      "memoryTip": "Replace = renewal-level pay only.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-58-1"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q018",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.4.3"
+      ],
+      "concepts": [
+        "medicare-supplement"
+      ],
+      "difficulty": 2,
+      "style": "application",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "Producer Tess is about to recommend a Medigap policy to Gil, 66. Gil mentions he already has some other health coverage.",
+      "stem": "What does New York require of Tess regarding the appropriateness of the recommended purchase?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Make reasonable efforts to judge appropriateness and sign a coverage-review statement",
+          "rationale": "Correct: 11 NYCRR 58.1(d)(4) requires both."
+        },
+        {
+          "id": "b",
+          "text": "Obtain a physician's statement describing Gil's current health before applying",
+          "rationale": "Incorrect: Medigap applications may not include health questions or exams."
+        },
+        {
+          "id": "c",
+          "text": "Nothing beyond Gil's signature, since appropriateness is solely the insurer's job",
+          "rationale": "Incorrect: the agent must make reasonable efforts and sign the appropriateness statement."
+        },
+        {
+          "id": "d",
+          "text": "Refuse to sell the policy, because Gil already has other health coverage in force",
+          "rationale": "Incorrect: other coverage must be reviewed, not automatically treated as disqualifying."
+        }
+      ],
+      "correct": "a",
+      "explanation": "11 NYCRR 58.1(d)(4): in recommending the purchase or replacement of any Medigap policy, an agent must make reasonable efforts to determine the appropriateness of the recommendation. The application taken by an agent must include a signed agent statement: 'I have reviewed the current health insurance coverage of the applicant and find that additional coverage of the type and amount applied for is appropriate for the applicant's needs.'",
+      "memoryTip": "Recommend Medigap? Review, then sign that it fits.",
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-58-1"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q019",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.4.4"
+      ],
+      "concepts": [
+        "medicare-supplement"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "Nell is replacing her current Medigap policy with a new Medigap policy sold by an agent of a different insurer.",
+      "stem": "Which statement about New York's replacement requirements is correct?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A replacement notice is required only if Nell specifically asks the agent for one",
+          "rationale": "Incorrect: the notice is mandatory when replacement is involved."
+        },
+        {
+          "id": "b",
+          "text": "A replacement notice is due before issue or delivery, and she gets 30 days to review",
+          "rationale": "Correct: 11 NYCRR 58.1(e) requires the notice before issuance or delivery, and the notice states the 30-day review period."
+        },
+        {
+          "id": "c",
+          "text": "The agent must cancel Nell's existing policy before taking the new application",
+          "rationale": "Incorrect: the notice advises terminating existing coverage only after due consideration."
+        },
+        {
+          "id": "d",
+          "text": "Medigap replacement is prohibited for any applicant over age 70",
+          "rationale": "Incorrect: no age-based prohibition exists."
+        }
+      ],
+      "correct": "b",
+      "explanation": "11 NYCRR 58.1(e)(1): upon determining that a Medigap sale involves replacement, the issuer (other than a direct response issuer) or its agent must furnish the applicant, before issuance or delivery, a notice regarding replacement, signed by the applicant and agent. The notice tells the applicant the new policy provides 30 days to decide without cost and to terminate present coverage only after due consideration. Medigap policies generally carry a 30-day right to return for a full refund (58.1(b)(11)).",
+      "memoryTip": "Replacing Medigap: notice first, 30 days to look.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Notice before issuance or delivery",
+            "anyOf": [
+              "before",
+              "prior to"
+            ]
+          },
+          {
+            "label": "30-day free look",
+            "anyOf": [
+              "30 days",
+              "thirty",
+              "free look"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-58-1"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q020",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.4.5"
+      ],
+      "concepts": [
+        "medicare-supplement",
+        "medicaid"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "ny-law",
+        "negative-wording"
+      ],
+      "stem": "New York Medigap applications must include each of the following statements to the applicant EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "You do not need more than one Medicare supplement policy",
+          "rationale": "Incorrect: this statement is required on the application."
+        },
+        {
+          "id": "b",
+          "text": "You may be eligible for benefits under Medicaid and may not need a Medicare supplement policy",
+          "rationale": "Incorrect: this statement is required."
+        },
+        {
+          "id": "c",
+          "text": "This policy will pay for long-term nursing home custodial care",
+          "rationale": "Correct: this is not a required statement — and it would be false, since Medigap doesn't cover long-term custodial care."
+        },
+        {
+          "id": "d",
+          "text": "Counseling services may be available in your state",
+          "rationale": "Incorrect: this statement is required."
+        }
+      ],
+      "correct": "c",
+      "explanation": "11 NYCRR 58.1(d)(6)(i) requires application statements such as: you do not need more than one Medicare supplement policy; evaluate your existing coverage; you may be eligible for Medicaid and may not need Medigap; Medigap benefits may be suspended during Medicaid eligibility; and counseling services may be available. Medigap does not cover long-term custodial care.",
+      "memoryTip": "The disclosure says: you only need ONE, and maybe Medicaid instead.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-58-1",
+        "fed-medicare-ltc"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q021",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.4.6"
+      ],
+      "concepts": [
+        "medicare-supplement",
+        "guaranteed-renewable"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "For which reasons may a New York insurer cancel or nonrenew a Medicare supplement policy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only nonpayment of premium or material misrepresentation",
+          "rationale": "Correct: 11 NYCRR 58.1(c)(1) limits cancellation to these two reasons."
+        },
+        {
+          "id": "b",
+          "text": "Deterioration of the insured's health or a new diagnosis",
+          "rationale": "Incorrect: cancellation based on health status is expressly prohibited."
+        },
+        {
+          "id": "c",
+          "text": "The insured's reaching age 80 or entering a nursing home",
+          "rationale": "Incorrect: neither age nor a move to a nursing home is a permitted reason; only nonpayment of premium or material misrepresentation is."
+        },
+        {
+          "id": "d",
+          "text": "High claims by the insured in the prior policy year",
+          "rationale": "Incorrect: claims experience is not a permitted reason."
+        }
+      ],
+      "correct": "a",
+      "explanation": "11 NYCRR 58.1(b)(1) requires every Medigap policy to be guaranteed renewable, and 58.1(c)(1)-(2) states that an issuer shall not cancel or nonrenew a Medigap policy for any reason other than nonpayment of premium or material misrepresentation, and never on the ground of the insured's health status.",
+      "memoryTip": "Medigap ends only for: didn't Pay or didn't tell the truth.",
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-58-1"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q022",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.4.6"
+      ],
+      "concepts": [
+        "medicare-supplement",
+        "guaranteed-renewable"
+      ],
+      "difficulty": 3,
+      "style": "negative",
+      "tags": [
+        "ny-law",
+        "tricky",
+        "negative-wording"
+      ],
+      "stem": "Because New York Medigap policies are guaranteed renewable, the insurer has no unilateral right to change policy provisions EXCEPT to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Reduce the benefits of one insured who has filed frequent claims",
+          "rationale": "Incorrect: changes targeted at an individual insured are not permitted."
+        },
+        {
+          "id": "b",
+          "text": "Add new exclusions for any conditions first diagnosed after issue",
+          "rationale": "Incorrect: no such right is reserved."
+        },
+        {
+          "id": "c",
+          "text": "Raise one insured's premium because of a serious new diagnosis",
+          "rationale": "Incorrect: premiums may be revised only on a class basis."
+        },
+        {
+          "id": "d",
+          "text": "Track changes in Medicare cost sharing, or re-rate premiums by class",
+          "rationale": "Correct: these are among the limited changes 11 NYCRR 58.1(b)(1)(i) permits."
+        }
+      ],
+      "correct": "d",
+      "explanation": "11 NYCRR 58.1(b)(1)(i): the insured may continue Medigap by timely paying premiums, and the issuer may not unilaterally change policy provisions except to (a) change benefits covering Medicare cost sharing to coincide with changes in Medicare's deductible and copayment factors, (b) amend the policy to meet minimum standards, or (c) revise premium rates on a class basis.",
+      "memoryTip": "Medigap changes only to track Medicare, meet standards, or re-rate the whole class.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-58-1"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q023",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.4.6"
+      ],
+      "concepts": [
+        "medicare-supplement",
+        "medicaid"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "scenario": "Leah owns a New York Medigap policy. She becomes entitled to Medicaid and wants to stop paying for duplicate coverage without losing the right to get her Medigap back later.",
+      "stem": "What does New York regulation allow?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She must cancel the Medigap policy now and reapply when Medicaid ends",
+          "rationale": "Incorrect: suspension, not cancellation, is available."
+        },
+        {
+          "id": "b",
+          "text": "Suspend benefits and premiums up to 24 months, with notice within 90 days",
+          "rationale": "Correct: 11 NYCRR 58.1(c)(7)(i)."
+        },
+        {
+          "id": "c",
+          "text": "Her Medigap policy is automatically suspended for the rest of her life",
+          "rationale": "Incorrect: suspension is at her request and limited to 24 months."
+        },
+        {
+          "id": "d",
+          "text": "She may suspend the policy only if she is under age 65 and disabled",
+          "rationale": "Incorrect: the Medicaid suspension right isn't limited by age."
+        }
+      ],
+      "correct": "b",
+      "explanation": "11 NYCRR 58.1(c)(7)(i): at the policyholder's request, Medigap benefits and premiums are suspended for the period (not more than 24 months) she is entitled to Medicaid, if she notifies the issuer within 90 days of becoming entitled. If she loses Medicaid, coverage is reinstituted if she gives notice within 90 days of the loss and pays the premium, with no new preexisting-condition waiting period.",
+      "memoryTip": "Medicaid? Pause Medigap up to 24 months — tell the insurer within 90 days.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Suspension (not cancellation) available",
+            "anyOf": [
+              "suspend",
+              "suspension",
+              "pause"
+            ]
+          },
+          {
+            "label": "Up to 24 months",
+            "anyOf": [
+              "24 months",
+              "two years"
+            ]
+          },
+          {
+            "label": "Notice within 90 days",
+            "anyOf": [
+              "90 days",
+              "ninety"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-58-1"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q024",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.2.1"
+      ],
+      "concepts": [
+        "medicare-disabled-under-65",
+        "social-security-disability"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Ray, 48, began receiving Social Security disability benefits after a spinal injury. He does not have ALS or kidney failure.",
+      "stem": "When does Ray generally become entitled to Medicare?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Immediately, on the date his first SSDI benefit is paid",
+          "rationale": "Incorrect: immediate entitlement applies to ALS, not other disabilities."
+        },
+        {
+          "id": "b",
+          "text": "After he has received disability benefits for 24 months",
+          "rationale": "Correct: disability-based Medicare generally starts after 24 months of disability benefits."
+        },
+        {
+          "id": "c",
+          "text": "Only when he reaches age 65, like other beneficiaries",
+          "rationale": "Incorrect: disability creates an earlier route to Medicare."
+        },
+        {
+          "id": "d",
+          "text": "After a five-month waiting period following his injury",
+          "rationale": "Incorrect: five months is the SSDI waiting period, not the Medicare waiting period."
+        }
+      ],
+      "correct": "b",
+      "explanation": "People under 65 generally qualify for Medicare after receiving Social Security disability benefits for 24 months (Medicare.gov's coordination flow asks, 'Have you received disability benefits for 24 months?'). Those with ALS or ESRD have separate rules. Don't confuse this with the five-month SSDI waiting period.",
+      "memoryTip": "SSDI: 5-month wait for cash; 24 months for Medicare.",
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-medicare-who-pays-first",
+        "fed-ssa-disability-qualify"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19",
+        "notes": "24-month rule taken from the Medicare.gov who-pays-first flow."
+      }
+    },
+    {
+      "id": "sen-q025",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.2.2"
+      ],
+      "concepts": [
+        "esrd"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Which condition can make a person eligible for Medicare at any age?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "End-stage renal disease (permanent kidney failure)",
+          "rationale": "Correct: ESRD is a separate basis for Medicare at any age."
+        },
+        {
+          "id": "b",
+          "text": "A broken hip",
+          "rationale": "Incorrect: a temporary injury does not create Medicare eligibility."
+        },
+        {
+          "id": "c",
+          "text": "Type 2 diabetes controlled by medication",
+          "rationale": "Incorrect: this alone does not create Medicare eligibility."
+        },
+        {
+          "id": "d",
+          "text": "Being enrolled in Medicaid",
+          "rationale": "Incorrect: Medicaid enrollment does not create Medicare entitlement."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Besides age 65 and disability (generally after 24 months of disability benefits), Medicare is available to people of any age with end-stage renal disease — permanent kidney failure requiring regular dialysis or a transplant — who meet Social Security work requirements. If they have employer group coverage, that coverage pays first for a limited coordination period.",
+      "memoryTip": "Kidneys fail → Medicare at any age.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q026",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.2.3.1",
+        "sen.2.3"
+      ],
+      "concepts": [
+        "working-aged",
+        "medicare-secondary-payer"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Owen, 67, works full-time for a company with 60 employees and is covered by its group health plan. He is also enrolled in Medicare Part A and Part B.",
+      "stem": "Which coverage pays Owen's medical claims first?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Medicare, because he is over 65",
+          "rationale": "Incorrect: for active employees of a 20+ employee employer, the group plan is primary."
+        },
+        {
+          "id": "b",
+          "text": "Whichever plan received the bill first",
+          "rationale": "Incorrect: primacy is set by Medicare secondary payer rules, not billing order."
+        },
+        {
+          "id": "c",
+          "text": "The employer group health plan",
+          "rationale": "Correct: with 20 or more employees and current employment, the group plan pays first and Medicare second."
+        },
+        {
+          "id": "d",
+          "text": "Medicare and the group plan split each bill 50/50",
+          "rationale": "Incorrect: one plan is primary and the other secondary."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Medicare.gov: if you have group coverage through your own or a spouse's CURRENT employment and the employer has 20 or more employees, the group health plan pays first and Medicare pays second. With fewer than 20 employees — or with retiree coverage or COBRA — Medicare pays first.",
+      "memoryTip": "Working, 65+, 20+ employees → employer plan first.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Current employment with 20+ employees",
+            "anyOf": [
+              "20",
+              "twenty"
+            ]
+          },
+          {
+            "label": "Group plan is primary, Medicare secondary",
+            "anyOf": [
+              "group plan pays first",
+              "employer plan",
+              "primary",
+              "Medicare pays second"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-medicare-who-pays-first"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q027",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.2.3",
+        "sen.2.3.1"
+      ],
+      "concepts": [
+        "working-aged",
+        "medicare-secondary-payer"
+      ],
+      "difficulty": 3,
+      "style": "negative",
+      "tags": [
+        "negative-wording",
+        "tricky"
+      ],
+      "stem": "For a Medicare beneficiary age 65 or older, Medicare pays FIRST in each of the following situations EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She has group retiree coverage from a former employer",
+          "rationale": "Incorrect: with retiree coverage, Medicare pays first."
+        },
+        {
+          "id": "b",
+          "text": "She has COBRA continuation coverage from her last job",
+          "rationale": "Incorrect: for people with Medicare because they're 65+, Medicare pays first over COBRA."
+        },
+        {
+          "id": "c",
+          "text": "She works for a 12-employee firm with group coverage",
+          "rationale": "Incorrect: with fewer than 20 employees, Medicare pays first."
+        },
+        {
+          "id": "d",
+          "text": "She works for a 500-employee firm with group coverage",
+          "rationale": "Correct: with 20+ employees and current employment, the group health plan pays first."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Medicare secondary payer basics for people 65+: current-employment group coverage from an employer with 20 or more employees pays first; Medicare pays first if the employer has fewer than 20 employees, for retiree coverage, and for COBRA.",
+      "memoryTip": "Only a CURRENT job at a 20+ employer beats Medicare to the bill.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-medicare-who-pays-first"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q028",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.2.1",
+        "sen.2.3"
+      ],
+      "concepts": [
+        "medicare-disabled-under-65",
+        "medicare-secondary-payer"
+      ],
+      "difficulty": 3,
+      "style": "comparison",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Paula, 55, has Medicare because of a disability (not ESRD). She is covered through her husband's current employer, which has 50 employees.",
+      "stem": "Which coverage pays first for Paula?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The employer group health plan, because the employer has 20 or more employees",
+          "rationale": "Incorrect: the 20-employee threshold applies to people 65 or older, not to disability-based Medicare."
+        },
+        {
+          "id": "b",
+          "text": "Medicare, because the employer has fewer than 100 employees",
+          "rationale": "Correct: for disability-based Medicare, only a large group health plan (100+ employees) pays first."
+        },
+        {
+          "id": "c",
+          "text": "Medicaid",
+          "rationale": "Incorrect: Medicaid is not involved and never pays first for Medicare-covered services."
+        },
+        {
+          "id": "d",
+          "text": "Her husband's plan, because spouses' plans always pay first",
+          "rationale": "Incorrect: no such rule exists."
+        }
+      ],
+      "correct": "b",
+      "explanation": "For people under 65 with Medicare due to disability, a group health plan based on current employment pays first only if the employer has 100 or more employees (a 'large group health plan'); otherwise Medicare pays first. The 20-employee threshold applies to people 65 or older.",
+      "memoryTip": "Disabled: 100 rule. Aged: 20 rule.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Disability-based Medicare uses 100-employee threshold",
+            "anyOf": [
+              "100",
+              "large group"
+            ]
+          },
+          {
+            "label": "Employer has only 50 employees, so Medicare is primary",
+            "anyOf": [
+              "Medicare pays first",
+              "Medicare first",
+              "Medicare is primary"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-medicare-who-pays-first"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q029",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.4.4",
+        "sen.1.4.5"
+      ],
+      "concepts": [
+        "medicare-supplement"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "In New York, how early may a Medigap issuer solicit or accept an application from someone becoming eligible for Medicare by age?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No more than 90 days before the month of the 65th birthday",
+          "rationale": "Correct: 11 NYCRR 58.1(d)(10) sets this limit."
+        },
+        {
+          "id": "b",
+          "text": "Any time after the applicant's 60th birthday",
+          "rationale": "Incorrect: this is far earlier than allowed."
+        },
+        {
+          "id": "c",
+          "text": "Only after the applicant has had Part B for six months",
+          "rationale": "Incorrect: no such waiting requirement exists."
+        },
+        {
+          "id": "d",
+          "text": "No more than one year before the 65th birthday",
+          "rationale": "Incorrect: the limit is 90 days before the birthday month."
+        }
+      ],
+      "correct": "a",
+      "explanation": "11 NYCRR 58.1(d)(10): for people eligible for Medicare by age, an issuer may not solicit coverage or accept applications more than 90 days before the month of the 65th birthday. Medigap applications also may not ask health questions or require a physical exam (58.1(d)(1)).",
+      "memoryTip": "Medigap selling starts 90 days before the birthday month.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-58-1"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q030",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.1"
+      ],
+      "concepts": [
+        "medicare-supplement"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "To buy a Medigap policy, a person generally must be enrolled in:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Medicare Part A and Part B",
+          "rationale": "Correct: Medigap works with Original Medicare, so Parts A and B are generally required."
+        },
+        {
+          "id": "b",
+          "text": "A Medicare Advantage plan",
+          "rationale": "Incorrect: Medigap does not work with Medicare Advantage."
+        },
+        {
+          "id": "c",
+          "text": "Medicaid",
+          "rationale": "Incorrect: Medicaid enrollment is not required — and may make Medigap unnecessary."
+        },
+        {
+          "id": "d",
+          "text": "A Medicare Part D plan only",
+          "rationale": "Incorrect: Part D is drug coverage; Medigap supplements Parts A and B."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Medicare.gov: you can only buy Medigap if you have Original Medicare — generally, that means signing up for Part A and Part B first.",
+      "memoryTip": "Medigap needs Original Medicare: A + B.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-medicare-medigap"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q031",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.4.6"
+      ],
+      "concepts": [
+        "medicare-supplement",
+        "guaranteed-renewable"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid",
+        "ny-law"
+      ],
+      "stem": "New York requires every Medicare supplement policy to be:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Optionally renewable",
+          "rationale": "Incorrect: optionally renewable policies can be dropped by the insurer at renewal."
+        },
+        {
+          "id": "b",
+          "text": "Guaranteed renewable",
+          "rationale": "Correct: 11 NYCRR 58.1(b)(1) requires every Medigap policy to be guaranteed renewable."
+        },
+        {
+          "id": "c",
+          "text": "Cancellable at any time",
+          "rationale": "Incorrect: cancellation is limited to nonpayment or material misrepresentation."
+        },
+        {
+          "id": "d",
+          "text": "Renewable only until age 80",
+          "rationale": "Incorrect: there is no age cutoff."
+        }
+      ],
+      "correct": "b",
+      "explanation": "11 NYCRR 58.1(b)(1): every Medicare supplement policy must be guaranteed renewable — the insured can keep it by paying premiums, and the insurer can change premiums only on a class basis.",
+      "memoryTip": "Medigap in NY: guaranteed renewable.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-58-1"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

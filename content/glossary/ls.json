@@ -1,0 +1,263 @@
+{
+  "sectionId": "ls",
+  "terms": [
+    {
+      "id": "life-settlement",
+      "term": "Life Settlement",
+      "aliases": ["life settlement contract"],
+      "sectionId": "ls",
+      "outlineIds": ["ls.1.1", "ls.1.5"],
+      "formal": "Under N.Y. Insurance Law § 7802(k)(1), a life settlement contract is an agreement establishing the terms under which compensation is provided to an owner, which compensation is less than the expected death benefit of the policy, in return for the assignment, transfer, sale, release, devise or bequest of any portion of the death benefit, the ownership of the policy, or any beneficial interest in the policy (or in a trust or other entity that owns the policy, where a primary purpose of the transaction is to acquire the policy). § 7802(k)(3) excludes, among other things, policy loans and surrender benefits paid by the issuing insurer, collateral assignments to qualifying lenders, § 1035 exchanges, and transfers among parties closely related to the insured.",
+      "plain": "A life settlement is when a policyowner sells their life insurance policy to a third party for cash. The buyer pays less than the death benefit (often more than the cash surrender value the insurer would pay); the buyer then takes over the premiums and collects the death benefit when the insured dies.",
+      "simpler": "Selling your life insurance policy to an investor for cash now, instead of your family getting the full amount later.",
+      "examples": [
+        "Harold, 78, no longer needs his $1,000,000 policy. A licensed life settlement provider buys it for $200,000, becomes the owner and beneficiary, and pays the future premiums.",
+        "Taking a policy loan from the insurer that issued the policy is NOT a life settlement under § 7802(k)(3)(D)."
+      ],
+      "examTip": "Key words in the NY definition: compensation to the OWNER that is LESS THAN the expected death benefit, in return for transferring the policy or its benefits. Policy loans, cash surrenders paid by the insurer, and § 1035 exchanges are excluded.",
+      "misconception": "A life settlement is not a loan and not a cash surrender with the insurer; the owner permanently transfers the policy (or an interest in it) to a third party.",
+      "related": ["life-settlement-provider", "life-settlement-broker", "stoli", "viatical-settlement", "policyowner", "cash-surrender-value"],
+      "confusedWith": ["viatical-settlement", "accelerated-death-benefit"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under NY Insurance Law § 7802, which transaction is a life settlement contract?",
+        "choices": ["An owner sells her policy to a licensed provider for cash less than the death benefit", "The issuing insurer pays the owner the policy's cash surrender value", "The owner takes a policy loan from the issuing insurer", "The owner exchanges the policy for another under IRC § 1035"],
+        "answerIndex": 0,
+        "explanation": "§ 7802(k)(1) covers compensation to an owner, less than the expected death benefit, in return for transferring the policy. § 7802(k)(3) excludes surrender benefits and policy loans paid by the issuer and § 1035 exchanges."
+      },
+      "sources": ["ny-isc-7802"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "life-settlement-broker",
+      "term": "Life Settlement Broker",
+      "aliases": [],
+      "sectionId": "ls",
+      "outlineIds": ["ls.1.2", "ls.2"],
+      "formal": "Under N.Y. Insurance Law § 7802(j), a person who, for compensation, solicits, negotiates or offers to negotiate a life settlement contract; the term excludes a licensed life settlement provider or its representative, and a licensed attorney, CPA or accredited financial planner who is retained in a professional capacity, does not advertise as being in the business of life settlements, and is compensated without regard to whether a settlement occurs. Brokers are licensed under § 2137 and, under § 7813(l), represent only the owner and owe the owner a fiduciary duty.",
+      "plain": "A life settlement broker works for the policyowner who wants to sell. The broker shops the policy to buyers (providers) and negotiates the best deal for the owner, and is paid for doing so. In New York the broker must be licensed and must act in the owner's best interest.",
+      "simpler": "The broker is the seller's agent — like a real estate agent who represents the person selling the house.",
+      "examples": [
+        "Marta hires a licensed life settlement broker, who collects offers from several providers for her policy and negotiates the highest price.",
+        "An attorney who reviews a settlement offer for an hourly fee, does not advertise life settlement services, and is paid whether or not a sale happens is not a life settlement broker under § 7802(j)."
+      ],
+      "examTip": "Broker = represents the OWNER (seller) and owes a fiduciary duty to the owner (§ 7813(l)). Provider = the BUYER that enters into the contract with the owner. Under § 7814(a)(7) no one may pay compensation to an unlicensed person acting as a broker.",
+      "misconception": "A life settlement broker does not represent the buyer or the insurer; New York law says the broker represents only the owner.",
+      "related": ["life-settlement", "life-settlement-provider", "fiduciary-responsibility", "producer"],
+      "confusedWith": ["life-settlement-provider"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under New York law, a life settlement broker represents:",
+        "choices": ["Only the policyowner", "Only the life settlement provider", "The insurer that issued the policy", "Both the owner and the provider equally"],
+        "answerIndex": 0,
+        "explanation": "§ 7813(l): the life settlement broker represents only the owner and owes a fiduciary duty to the owner. The provider is the buyer; the insurer is not a party to the sale."
+      },
+      "sources": ["ny-isc-7802", "ny-isc-2137", "ny-isc-7813", "ny-isc-7814"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "life-settlement-provider",
+      "term": "Life Settlement Provider",
+      "aliases": ["provider"],
+      "sectionId": "ls",
+      "outlineIds": ["ls.1.1", "ls.1.3"],
+      "formal": "Under N.Y. Insurance Law § 7802(m), a person who enters, or offers to enter, into a life settlement contract with the owner. Under § 7803(a), no person may engage in the business of life settlements as a provider in New York without a life settlement provider license.",
+      "plain": "The provider is the company that actually buys the policy from the owner (often using money from investors). It must be licensed by New York to do this.",
+      "simpler": "The provider is the buyer of the policy.",
+      "examples": [
+        "A licensed provider pays Ruth $150,000 for her policy, becomes the new owner, and continues paying the premiums.",
+        "A provider raises money from a financing entity to buy policies; the provider itself is the party contracting with the owner."
+      ],
+      "examTip": "Provider = buyer (contracts with the owner). Broker = owner's representative. Financing entity = investor that funds the provider.",
+      "misconception": "The provider is not the insurer that issued the policy; it is a separate, licensed buyer.",
+      "related": ["life-settlement", "life-settlement-broker", "financing-transaction", "life-expectancy"],
+      "confusedWith": ["life-settlement-broker"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Under NY Insurance Law § 7802, the person that enters into a life settlement contract with the owner is the:",
+        "choices": ["Life settlement provider", "Life settlement broker", "Issuing insurer", "Beneficiary"],
+        "answerIndex": 0,
+        "explanation": "§ 7802(m) defines the provider as the person who enters or offers to enter into a life settlement contract with the owner. The broker represents the owner; the issuing insurer and beneficiary are not the buyer."
+      },
+      "sources": ["ny-isc-7802", "ny-isc-7803"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "financing-transaction",
+      "term": "Financing Transaction",
+      "aliases": [],
+      "sectionId": "ls",
+      "outlineIds": ["ls.1.4"],
+      "formal": "Under N.Y. Insurance Law § 7802(f), a transaction in which a licensed life settlement provider obtains financing from a financing entity, including any secured or unsecured financing, any securitization transaction, or any securities offering which is registered or exempt from registration under federal and state securities laws. A financing entity (§ 7802(e)) is an accredited investor whose principal activity in the transaction is providing funds to effect the life settlement contract or purchase policies, and who has a written agreement with a provider to finance the acquisition.",
+      "plain": "Providers often need investor money to buy policies. A financing transaction is how a licensed provider gets that money — by borrowing, or by selling securities backed by the policies to investors.",
+      "simpler": "A financing transaction is the provider getting money from investors so it can buy policies.",
+      "examples": [
+        "A licensed provider borrows from an accredited investor under a written agreement to fund its purchase of 50 policies.",
+        "A provider packages settled policies into a securities offering sold to institutional investors."
+      ],
+      "examTip": "Link the definitions: financing ENTITY = the accredited investor supplying the money; financing TRANSACTION = the deal by which the licensed PROVIDER obtains that money.",
+      "misconception": "A financing transaction is not the owner borrowing against the policy; it is the provider obtaining funds from a financing entity.",
+      "related": ["life-settlement-provider", "life-settlement", "premium"],
+      "confusedWith": ["policy-loan"],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "Under NY Insurance Law § 7802(f), a financing transaction is one in which:",
+        "choices": ["A licensed life settlement provider obtains financing from a financing entity", "A policyowner takes a loan against the policy's cash value", "A bank lends premium money to a new applicant", "An insurer pays an accelerated death benefit"],
+        "answerIndex": 0,
+        "explanation": "§ 7802(f) defines a financing transaction as a licensed provider obtaining financing from a financing entity (including securitizations and securities offerings). The other choices describe policy loans, premium finance and accelerated benefits."
+      },
+      "sources": ["ny-isc-7802"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "life-expectancy",
+      "term": "Life Expectancy",
+      "aliases": [],
+      "sectionId": "ls",
+      "outlineIds": ["ls.1.6"],
+      "formal": "Under N.Y. Insurance Law § 7802(i), the arithmetic mean of the number of months the insured can be expected to live, taking into consideration medical records and appropriate experiential data.",
+      "plain": "Life expectancy is an estimate of how many more months the insured is likely to live, based on the insured's medical records and data about people in similar situations. In a life settlement it is a major driver of the price: the shorter the expected remaining life, the sooner the buyer collects, so the more the buyer will usually pay.",
+      "simpler": "Life expectancy is the average number of months the insured is expected to live.",
+      "examples": [
+        "A provider's reviewers estimate an insured's life expectancy at 60 months after studying her medical records.",
+        "Two insureds have identical $500,000 policies; the one with the shorter life expectancy generally receives the higher settlement offer."
+      ],
+      "examTip": "NY defines life expectancy in MONTHS, as an ARITHMETIC MEAN, using MEDICAL RECORDS and EXPERIENTIAL DATA. It is an average estimate, not a guarantee.",
+      "misconception": "Life expectancy is not a prediction of the exact date of death; it is an average expected number of months.",
+      "related": ["life-settlement", "life-settlement-provider", "mortality"],
+      "confusedWith": ["mortality"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under NY Insurance Law § 7802(i), life expectancy is the:",
+        "choices": ["Arithmetic mean of the number of months the insured can be expected to live", "Exact date the insured's physician predicts death", "Number of years remaining on a term policy", "Age at which the policy endows"],
+        "answerIndex": 0,
+        "explanation": "The statute defines life expectancy as the arithmetic mean of months the insured is expected to live, considering medical records and experiential data. It is not an exact date or a policy feature."
+      },
+      "sources": ["ny-isc-7802"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "stoli",
+      "term": "Stranger-Originated Life Insurance (STOLI)",
+      "aliases": ["STOLI", "stranger-originated life insurance"],
+      "sectionId": "ls",
+      "outlineIds": ["ls.6", "ls.6.1", "ls.6.2"],
+      "formal": "Under N.Y. Insurance Law § 7815(a), any act, practice or arrangement, at or prior to policy issuance, to initiate or facilitate the issuance of a policy for the intended benefit of a person who, at the time of policy origination, has no insurable interest in the life of the insured under New York law — including purchases using resources or guarantees from a person who could not lawfully initiate the policy, arrangements to transfer the policy or its benefits to another person, and trusts or similar arrangements used to buy policies for another person in violation of insurable interest laws. § 7815(c) prohibits STOLI; § 7815(b) excludes lawful life settlement contracts and the § 7802(k)(3) practices, unless used to evade regulation.",
+      "plain": "STOLI is when investors (strangers with no insurable interest) arrange for someone — often an older person — to buy a new life policy that is really meant for the investors' benefit from the start. It's a way to bet on a stranger's life, and New York prohibits it. Selling an existing policy you bought for your own legitimate reasons is a lawful life settlement; planning the sale before the policy is even issued is the red flag.",
+      "simpler": "STOLI = a stranger plans and pays for insurance on your life so the stranger can collect when you die. It's illegal in New York.",
+      "examples": [
+        "An investor group offers 80-year-old Walter a cash bonus to apply for a $5 million policy, pays the premiums, and arranges for ownership to be transferred to them after issue. This is STOLI.",
+        "A trust is set up so that investors, not Walter's family, are the intended beneficiaries of a new policy on his life — a trust arrangement that violates insurable interest laws is STOLI under § 7815(a)(3)."
+      ],
+      "examTip": "STOLI is about the ORIGIN of the policy: it happens 'at or prior to policy issuance' for the benefit of someone WITHOUT insurable interest. A legitimate later sale of a policy = life settlement (lawful). Watch for 'free insurance', premium financing by investors, or a pre-arranged transfer.",
+      "misconception": "Not every sale of a life policy is STOLI. A lawful life settlement of a policy that was bought with genuine insurable interest is permitted; STOLI is the arrangement to originate a policy for a stranger's benefit.",
+      "related": ["insurable-interest", "life-settlement", "legal-purpose", "moral-hazard"],
+      "confusedWith": ["life-settlement"],
+      "pronunciation": "STOH-lee",
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under NY Insurance Law § 7815, stranger-originated life insurance involves arrangements to initiate a policy for the intended benefit of a person who:",
+        "choices": ["Has no insurable interest in the insured's life at policy origination", "Is the insured's spouse", "Is the insured's business partner under a buy-sell agreement", "Is a licensed life settlement broker representing the owner"],
+        "answerIndex": 0,
+        "explanation": "§ 7815(a) defines STOLI as arrangements at or before issuance for the intended benefit of someone with no insurable interest. A spouse and a business partner under a buy-sell agreement generally have insurable interest; a broker representing an owner in a lawful sale is not STOLI."
+      },
+      "sources": ["ny-isc-7815", "ny-isc-7802"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "viatical-settlement",
+      "term": "Viatical Settlement",
+      "aliases": ["viatical"],
+      "sectionId": "ls",
+      "outlineIds": ["ls.1.1"],
+      "formal": "An industry term for the sale of a life insurance policy to a third party by an owner whose insured is terminally or chronically ill, for a lump sum less than the death benefit. New York's Article 78 does not separately define 'viatical settlement'; a sale of this kind falls within the general definition of a life settlement contract in § 7802(k).",
+      "plain": "A viatical settlement is the older name for selling a life policy when the insured is seriously ill and expected to live only a short time. The seller gets cash now to pay for care or living expenses. In New York, these sales are regulated as life settlements.",
+      "simpler": "A viatical is a life settlement where the insured is very sick.",
+      "examples": [
+        "In the 1990s, many people with terminal illnesses sold their life policies to raise money for medical care — the classic viatical settlement.",
+        "A terminally ill New York owner who sells her policy to a licensed provider is entering into a life settlement contract regulated under Article 78."
+      ],
+      "examTip": "Viatical = insured is terminally or chronically ill (short life expectancy). Life settlement = broader term covering sales generally, often by older insureds who are not terminally ill. In NY, both are regulated under the life settlement law.",
+      "misconception": "A viatical settlement is not an accelerated death benefit. An accelerated benefit is paid by the insurer under a rider; a viatical settlement is a sale to a third party.",
+      "related": ["life-settlement", "accelerated-death-benefit", "life-expectancy"],
+      "confusedWith": ["life-settlement", "accelerated-death-benefit"],
+      "pronunciation": "vy-AT-ih-kul",
+      "difficulty": 2,
+      "practice": {
+        "prompt": "What generally distinguishes a viatical settlement from other life settlements?",
+        "choices": ["The insured is terminally or chronically ill", "The insurer buys back the policy", "The owner keeps the policy and borrows against it", "The policy must be term insurance"],
+        "answerIndex": 0,
+        "explanation": "Viatical settlements traditionally involve insureds who are terminally or chronically ill. The insurer buying back the policy is a surrender, borrowing is a policy loan, and there is no rule that the policy must be term."
+      },
+      "sources": ["ny-isc-7802", "general-insurance-principles"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "draft", "method": "statute-text", "checkedOn": "2026-11-19", "notes": "§ 7802 (retrieved 2026-11-19) does not define 'viatical settlement'; the industry definition (seller's insured terminally/chronically ill) could not be verified against a NY primary source. NY-specific claim (falls within § 7802(k)) is supported by the statute text. Needs lead review: confirm whether the term should remain in the NY curriculum." }
+    },
+    {
+      "id": "business-of-life-settlements",
+      "term": "Business of Life Settlements",
+      "aliases": [],
+      "sectionId": "ls",
+      "outlineIds": ["ls.1.3"],
+      "formal": "Under N.Y. Insurance Law § 7802(c), an activity involving, but not limited to, offering to enter into, soliciting, negotiating, procuring, effectuating, monitoring, or tracking life settlement contracts — including such acts done in New York by mail or otherwise from outside the state, and any business in substance equivalent to it conducted in a manner designed to evade the law.",
+      "plain": "The 'business of life settlements' is a broad label for anything involved in arranging or managing life settlements: advertising for sellers, negotiating, closing deals, and even monitoring settled policies afterward. It also covers out-of-state companies reaching New Yorkers by mail or online, and look-alike schemes meant to dodge the law.",
+      "simpler": "Any work involved in buying, selling or tracking settled policies counts as the business of life settlements.",
+      "examples": [
+        "A company in another state mails offers to New York seniors to buy their policies — that is the business of life settlements in New York.",
+        "A firm that tracks the health status of insureds on settled policies is engaged in monitoring or tracking life settlement contracts."
+      ],
+      "examTip": "The definition is BROAD: offering, soliciting, negotiating, procuring, effectuating, monitoring, tracking — and it reaches activity from outside the state and arrangements designed to evade the law.",
+      "misconception": "It is not limited to the final sale; soliciting and monitoring are included too.",
+      "related": ["life-settlement", "life-settlement-provider", "life-settlement-broker"],
+      "confusedWith": ["life-settlement"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under NY Insurance Law § 7802(c), which activity is included in the 'business of life settlements'?",
+        "choices": ["Monitoring or tracking life settlement contracts", "Paying a death claim on an unsettled policy", "Issuing a new term policy to an applicant", "Taking a policy loan from the insurer"],
+        "answerIndex": 0,
+        "explanation": "§ 7802(c)(1) lists offering, soliciting, negotiating, procuring, effectuating, monitoring or tracking life settlement contracts. The other activities are ordinary insurance transactions, not life settlement activity."
+      },
+      "sources": ["ny-isc-7802"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    }
+  ],
+  "comparisons": [
+    {
+      "a": "life-settlement-broker",
+      "b": "life-settlement-provider",
+      "keyDifference": "The broker represents the selling owner (and owes the owner a fiduciary duty); the provider is the buyer that enters into the life settlement contract with the owner.",
+      "rows": [
+        { "aspect": "Role", "a": "Owner's representative: solicits/negotiates for compensation (§ 7802(j))", "b": "Buyer: enters or offers to enter into the contract with the owner (§ 7802(m))" },
+        { "aspect": "Duty", "a": "Represents only the owner; fiduciary duty (§ 7813(l))", "b": "Must follow Article 78 rules, e.g., rescission rights and escrow of proceeds (§ 7813)" },
+        { "aspect": "Licensing", "a": "Life settlement broker license (§ 2137)", "b": "Life settlement provider license (§ 7803)" }
+      ],
+      "memoryTip": "Broker = for the seller (like a listing agent); Provider = pays the seller (the buyer)."
+    },
+    {
+      "a": "stoli",
+      "b": "life-settlement",
+      "keyDifference": "A life settlement is a lawful sale of an existing policy that was bought with a valid insurable interest; STOLI is an arrangement at or before issuance to create a policy for the benefit of someone with no insurable interest, and is prohibited.",
+      "rows": [
+        { "aspect": "Timing", "a": "At or before policy issuance (§ 7815(a))", "b": "After issuance, by the owner of an existing policy" },
+        { "aspect": "Insurable interest", "a": "Intended beneficiary lacks it at origination", "b": "Policy was originally bought with insurable interest" },
+        { "aspect": "Legal status in NY", "a": "Prohibited (§ 7815(c))", "b": "Permitted when done under Article 78" }
+      ],
+      "memoryTip": "STOLI is Started by a STranger; a settlement is Sold later by the owner."
+    }
+  ]
+}

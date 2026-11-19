@@ -1,0 +1,1921 @@
+{
+  "sectionId": "med",
+  "questions": [
+    {
+      "id": "med-q001",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.1.1"
+      ],
+      "concepts": [
+        "prepaid-plan",
+        "fee-for-service"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "A health plan that is paid a fixed amount in advance for each member, regardless of how much care the member uses, operates on a:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fee-for-service basis",
+          "rationale": "Incorrect: fee-for-service pays providers per service after the care is delivered."
+        },
+        {
+          "id": "b",
+          "text": "Prepaid basis",
+          "rationale": "Correct: a fixed amount paid in advance per member (capitation) is the prepaid basis typical of HMOs."
+        },
+        {
+          "id": "c",
+          "text": "Reimbursement basis",
+          "rationale": "Incorrect: reimbursement pays the insured back for expenses already incurred."
+        },
+        {
+          "id": "d",
+          "text": "Scheduled benefit basis",
+          "rationale": "Incorrect: a schedule lists fixed dollar amounts per procedure; it says nothing about paying in advance."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Under a prepaid arrangement, the plan (or its providers) receives a set payment up front, often per member per month, and in return provides the covered care. Fee-for-service, by contrast, pays for each service after it is delivered.",
+      "memoryTip": "PREpaid = PREmium in advance covers the care; fee-for-service = pay per visit.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q002",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.1.2"
+      ],
+      "concepts": [
+        "major-medical",
+        "limited-policy"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [],
+      "stem": "Which statement best contrasts specified coverage with comprehensive care?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Specified coverage pays only for named services or conditions; comprehensive care covers a broad range of expenses",
+          "rationale": "Correct: specified (limited) coverages name what they pay for; comprehensive plans cover most medical expenses subject to cost-sharing."
+        },
+        {
+          "id": "b",
+          "text": "Specified coverage always has higher benefit maximums than a comprehensive major medical plan",
+          "rationale": "Incorrect: specified coverages usually have narrower and often lower benefits."
+        },
+        {
+          "id": "c",
+          "text": "Comprehensive care can be offered only by HMOs, while specified coverage is offered only by insurers",
+          "rationale": "Incorrect: comprehensive major medical can be written by insurers on an indemnity or PPO basis as well."
+        },
+        {
+          "id": "d",
+          "text": "Specified coverage contains no exclusions, while comprehensive care contains many exclusions",
+          "rationale": "Incorrect: both have exclusions; specified coverage is narrower by design because it only covers what it names."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Specified (limited) coverages pay only for what they name, such as hospital room and board or a specific disease. Comprehensive care (e.g., comprehensive major medical) covers a wide range of hospital, physician and other medical expenses in one plan, usually with a deductible, coinsurance and an out-of-pocket limit.",
+      "memoryTip": "Specified = a short menu; comprehensive = the whole buffet (with a cover charge).",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q003",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.1.3"
+      ],
+      "concepts": [
+        "usual-reasonable-customary"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Plan A lists a maximum of $1,200 for an appendectomy in a table printed in the policy. Plan B pays the amount that surgeons in the patient's geographic area generally charge for the same procedure.",
+      "stem": "What is the main difference between how Plan A and Plan B determine the amount they pay?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Plan A pays fixed amounts listed in the policy; Plan B pays based on prevailing charges in the area",
+          "rationale": "Correct: Plan A uses a benefit schedule and Plan B uses usual, reasonable and customary charges."
+        },
+        {
+          "id": "b",
+          "text": "Plan A pays usual, reasonable and customary charges; Plan B uses a benefit schedule",
+          "rationale": "Incorrect: the labels are reversed; a list of fixed dollar amounts is a schedule."
+        },
+        {
+          "id": "c",
+          "text": "Both plans pay whatever amount the provider bills, without any upper limit",
+          "rationale": "Incorrect: neither plan pays the full bill automatically; each has its own limit on the allowed amount."
+        },
+        {
+          "id": "d",
+          "text": "Plan A is a prepaid capitation plan, while Plan B is a fee-for-service plan",
+          "rationale": "Incorrect: both plans reimburse after care is delivered; the difference is how the allowed amount is set."
+        }
+      ],
+      "correct": "a",
+      "explanation": "A benefit schedule states a fixed maximum dollar amount for each covered procedure in the policy itself. A URC plan instead allows the amount that providers in the same geographic area generally charge, so its allowed amounts move with local prices.",
+      "memoryTip": "Schedule = price list in the policy; URC = local going rate.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Plan A is a benefit schedule (fixed dollar amounts)",
+            "anyOf": [
+              "schedule",
+              "fixed",
+              "listed"
+            ]
+          },
+          {
+            "label": "Plan B uses URC / area charges",
+            "anyOf": [
+              "usual",
+              "customary",
+              "area",
+              "prevailing",
+              "URC"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q004",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.1.4",
+        "med.2.4"
+      ],
+      "concepts": [
+        "in-network",
+        "major-medical"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Which type of plan traditionally gives the insured the widest freedom to choose any licensed doctor or hospital?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Health maintenance organization (HMO) plan",
+          "rationale": "Incorrect: HMOs limit coverage to their network except for emergencies."
+        },
+        {
+          "id": "b",
+          "text": "Exclusive provider organization (EPO) plan",
+          "rationale": "Incorrect: EPOs cover only network providers except for emergencies."
+        },
+        {
+          "id": "c",
+          "text": "Traditional indemnity (fee-for-service) plan",
+          "rationale": "Correct: indemnity plans reimburse covered expenses from any licensed provider the insured chooses."
+        },
+        {
+          "id": "d",
+          "text": "Point-of-service (POS) managed care plan",
+          "rationale": "Incorrect: POS plans allow out-of-network care but at reduced benefits and with a PCP coordinating in-network care."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Traditional indemnity plans are 'any provider' plans: the insured picks the doctor or hospital and the insurer reimburses covered expenses. Managed care plans (HMO, EPO, POS, PPO) limit choice or reward the use of network providers.",
+      "memoryTip": "Indemnity = any door; managed care = the network's doors.",
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q005",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.1.5"
+      ],
+      "concepts": [
+        "subscriber"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "In a service-type plan such as an HMO, the person enrolled for coverage is usually called the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Insured",
+          "rationale": "Incorrect: 'insured' is the traditional term under an insurance company's indemnity policy."
+        },
+        {
+          "id": "b",
+          "text": "Beneficiary",
+          "rationale": "Incorrect: a beneficiary receives life insurance proceeds."
+        },
+        {
+          "id": "c",
+          "text": "Policyowner",
+          "rationale": "Incorrect: policyowner is a life insurance ownership term, not the term for an HMO enrollee."
+        },
+        {
+          "id": "d",
+          "text": "Subscriber",
+          "rationale": "Correct: service plans and HMOs call the enrolled person a subscriber (or member)."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Commercial insurers reimburse 'insureds' for covered losses. Service plans such as HMOs provide care to 'subscribers' or 'members' who enroll and receive services through the plan's providers.",
+      "memoryTip": "Insurers have insureds; service plans have subscribers.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q006",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.1.4"
+      ],
+      "concepts": [
+        "deductible",
+        "coinsurance"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Aisha's major medical plan has a $500 calendar-year deductible, 80/20 coinsurance and a $3,000 out-of-pocket maximum. She has not paid anything toward the deductible this year when she incurs a $5,500 covered hospital bill.",
+      "stem": "How much of the bill will Aisha pay?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$1,100",
+          "rationale": "Incorrect: this is 20% of the entire $5,500 bill and ignores the deductible."
+        },
+        {
+          "id": "b",
+          "text": "$1,600",
+          "rationale": "Incorrect: this applies 20% to the full $5,500 and also adds the deductible, double-counting the first $500."
+        },
+        {
+          "id": "c",
+          "text": "$1,500",
+          "rationale": "Correct: $500 deductible + 20% of the remaining $5,000 ($1,000) = $1,500."
+        },
+        {
+          "id": "d",
+          "text": "$1,000",
+          "rationale": "Incorrect: this is only the coinsurance portion; Aisha must also pay the $500 deductible."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Step 1: Aisha pays the $500 deductible. Step 2: the remaining covered amount is $5,500 - $500 = $5,000. Step 3: she pays 20% coinsurance on that: 0.20 x $5,000 = $1,000. Total: $500 + $1,000 = $1,500. The insurer pays 80% of $5,000 = $4,000. Check: $1,500 + $4,000 = $5,500. Her total is below the $3,000 out-of-pocket maximum, so the cap does not apply.",
+      "memoryTip": "Deductible first, then coinsurance on what's left.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Subtracts the $500 deductible first",
+            "anyOf": [
+              "500",
+              "deductible"
+            ]
+          },
+          {
+            "label": "Applies 20% to $5,000",
+            "anyOf": [
+              "1,000",
+              "1000",
+              "20%"
+            ]
+          },
+          {
+            "label": "Total $1,500",
+            "anyOf": [
+              "1,500",
+              "1500"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q007",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.1.4"
+      ],
+      "concepts": [
+        "out-of-pocket-maximum",
+        "coinsurance",
+        "deductible"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "tricky",
+        "math"
+      ],
+      "scenario": "Ben's plan has a $1,000 deductible, 80/20 coinsurance and a $4,000 out-of-pocket maximum that includes the deductible. It is his first claim of the year: a $40,000 covered surgery.",
+      "stem": "How much will the insurer pay for this claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$31,200",
+          "rationale": "Incorrect: this is 80% of $39,000 and ignores the out-of-pocket maximum, which caps Ben's share at $4,000."
+        },
+        {
+          "id": "b",
+          "text": "$32,000",
+          "rationale": "Incorrect: this is 80% of the full bill; it ignores both the deductible order and the out-of-pocket cap."
+        },
+        {
+          "id": "c",
+          "text": "$39,000",
+          "rationale": "Incorrect: this subtracts only the deductible; Ben still owes coinsurance up to his out-of-pocket maximum."
+        },
+        {
+          "id": "d",
+          "text": "$36,000",
+          "rationale": "Correct: Ben's cost-sharing would be $8,800 but is capped at $4,000, so the insurer pays $40,000 - $4,000 = $36,000."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Without a cap, Ben would pay $1,000 deductible + 20% of $39,000 ($7,800) = $8,800. His out-of-pocket maximum is $4,000 and includes the deductible, so his share stops at $4,000. The insurer pays the rest of the covered bill: $40,000 - $4,000 = $36,000.",
+      "memoryTip": "Find the insured's share, cap it, then the insurer pays everything else.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Computes uncapped share $8,800",
+            "anyOf": [
+              "8,800",
+              "8800"
+            ]
+          },
+          {
+            "label": "Caps insured share at $4,000",
+            "anyOf": [
+              "4,000",
+              "4000",
+              "maximum",
+              "cap"
+            ]
+          },
+          {
+            "label": "Insurer pays $36,000",
+            "anyOf": [
+              "36,000",
+              "36000"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q008",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.1.4",
+        "med.1.3"
+      ],
+      "concepts": [
+        "usual-reasonable-customary",
+        "deductible",
+        "coinsurance"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "tricky",
+        "math"
+      ],
+      "scenario": "Mateo's indemnity plan pays 80% of usual, reasonable and customary (URC) charges after a $500 deductible, which he has not yet met. An out-of-network surgeon bills $6,000; the URC amount for the procedure in Mateo's area is $5,000.",
+      "stem": "How much will the insurer pay?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$4,800",
+          "rationale": "Incorrect: this is 80% of the surgeon's full $6,000 charge; the insurer only recognizes the $5,000 URC amount."
+        },
+        {
+          "id": "b",
+          "text": "$3,600",
+          "rationale": "Correct: allowed amount $5,000 - $500 deductible = $4,500; 80% of $4,500 = $3,600."
+        },
+        {
+          "id": "c",
+          "text": "$4,000",
+          "rationale": "Incorrect: this is 80% of $5,000 and skips the deductible."
+        },
+        {
+          "id": "d",
+          "text": "$4,400",
+          "rationale": "Incorrect: this is 80% of $5,500, which subtracts the deductible from the billed charge instead of the URC amount."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Step 1: the insurer limits the covered expense to the URC amount, $5,000 (the extra $1,000 is not a covered expense). Step 2: subtract the $500 deductible: $5,000 - $500 = $4,500. Step 3: the insurer pays 80%: 0.80 x $4,500 = $3,600. Mateo owes the $500 deductible + 20% of $4,500 ($900) = $1,400 in cost-sharing, and he may also be billed the $1,000 above URC by the out-of-network surgeon.",
+      "memoryTip": "Cut the bill down to URC first, then deductible, then coinsurance.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Limits covered amount to URC $5,000",
+            "anyOf": [
+              "5,000",
+              "5000",
+              "URC",
+              "customary"
+            ]
+          },
+          {
+            "label": "Subtracts deductible to $4,500",
+            "anyOf": [
+              "4,500",
+              "4500"
+            ]
+          },
+          {
+            "label": "Insurer pays 80% = $3,600",
+            "anyOf": [
+              "3,600",
+              "3600"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q009",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.1.4"
+      ],
+      "concepts": [
+        "deductible",
+        "coinsurance"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Lucy's plan has a $250 calendar-year deductible and 80/20 coinsurance. In February she had a $150 covered claim. In May of the same year she has a $1,100 covered claim.",
+      "stem": "How much will the insurer pay for the May claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$880",
+          "rationale": "Incorrect: this is 80% of the full $1,100 and ignores the $100 of deductible still owed."
+        },
+        {
+          "id": "b",
+          "text": "$680",
+          "rationale": "Incorrect: this subtracts the full $250 deductible again, but Lucy already paid $150 of it in February."
+        },
+        {
+          "id": "c",
+          "text": "$1,000",
+          "rationale": "Incorrect: this subtracts the remaining deductible but forgets the 20% coinsurance."
+        },
+        {
+          "id": "d",
+          "text": "$800",
+          "rationale": "Correct: $1,100 - $100 remaining deductible = $1,000; 80% of $1,000 = $800."
+        }
+      ],
+      "correct": "d",
+      "explanation": "The deductible is an annual amount. In February Lucy paid $150 toward her $250 deductible, so only $100 remains. May claim: $1,100 - $100 = $1,000 subject to coinsurance. The insurer pays 0.80 x $1,000 = $800 and Lucy pays $100 + $200 = $300.",
+      "memoryTip": "The deductible fills up across the year; only the unmet part applies to the next claim.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q010",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.1.2",
+        "med.2.1.3"
+      ],
+      "concepts": [
+        "exclusion",
+        "major-medical"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "Which of the following is NOT a typical exclusion or limitation found in a major medical policy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cosmetic surgery that is not medically necessary",
+          "rationale": "Incorrect: elective cosmetic surgery is a classic exclusion."
+        },
+        {
+          "id": "b",
+          "text": "Injuries covered by workers' compensation",
+          "rationale": "Incorrect: work-related injuries covered by workers' compensation are commonly excluded."
+        },
+        {
+          "id": "c",
+          "text": "Medically necessary hospital room and board",
+          "rationale": "Correct: medically necessary hospital care is a core covered expense, not an exclusion."
+        },
+        {
+          "id": "d",
+          "text": "Self-inflicted injuries",
+          "rationale": "Incorrect: intentionally self-inflicted injuries are a common exclusion."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Major medical plans cover a broad range of medically necessary hospital, surgical and physician services. Common exclusions and limitations include elective cosmetic surgery, work-related injuries covered by workers' compensation, intentionally self-inflicted injuries, war, and experimental treatment.",
+      "memoryTip": "If it's medically necessary core care, it's covered; cosmetic, comp, self-inflicted and war are the usual 'no's.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q011",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.2.3",
+        "med.2.2.4"
+      ],
+      "concepts": [
+        "primary-care-physician",
+        "referral",
+        "hmo"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Diego is enrolled in an HMO. Without contacting his primary care physician, he books a routine visit with a dermatologist who does not participate in the HMO's network.",
+      "stem": "How will Diego's HMO most likely treat the dermatologist's bill?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pay it in full because dermatology is a covered specialty",
+          "rationale": "Incorrect: being a covered specialty is not enough; HMO rules on network and referral still apply."
+        },
+        {
+          "id": "b",
+          "text": "Deny it: there was no referral and the provider is out of network",
+          "rationale": "Correct: HMOs generally pay for specialist care only with a PCP referral to a network provider, except for emergencies."
+        },
+        {
+          "id": "c",
+          "text": "Pay 60% of the bill as an out-of-network benefit",
+          "rationale": "Incorrect: paying reduced out-of-network benefits is a PPO or POS feature, not an HMO feature."
+        },
+        {
+          "id": "d",
+          "text": "Pay it after Diego meets his annual deductible",
+          "rationale": "Incorrect: the problem is the missing referral and out-of-network provider, not the deductible."
+        }
+      ],
+      "correct": "b",
+      "explanation": "In an HMO, the primary care physician is the gatekeeper. A member who skips the PCP and sees an out-of-network specialist for a non-emergency condition generally has no coverage for that visit.",
+      "memoryTip": "HMO: no referral + no network = no coverage (unless it's an emergency).",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Identifies PCP as gatekeeper / referral needed",
+            "anyOf": [
+              "referral",
+              "gatekeeper",
+              "PCP",
+              "primary care"
+            ]
+          },
+          {
+            "label": "Out-of-network non-emergency care not covered",
+            "anyOf": [
+              "network",
+              "not covered",
+              "deny"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q012",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.2.5"
+      ],
+      "concepts": [
+        "hmo"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "An HMO member traveling outside the HMO's service area has a sudden heart attack and is taken to the nearest hospital. Generally, the HMO will:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cover the emergency care",
+          "rationale": "Correct: emergency care is the main exception to the HMO's network-only rule."
+        },
+        {
+          "id": "b",
+          "text": "Deny coverage because the hospital is out of network",
+          "rationale": "Incorrect: the network restriction does not apply to true emergencies."
+        },
+        {
+          "id": "c",
+          "text": "Cover the care only if the member's PCP gave a referral first",
+          "rationale": "Incorrect: emergencies do not require a prior referral."
+        },
+        {
+          "id": "d",
+          "text": "Cover only the ambulance, not the hospital care",
+          "rationale": "Incorrect: emergency hospital services are covered, not just transport."
+        }
+      ],
+      "correct": "a",
+      "explanation": "HMOs limit coverage to network providers, but emergency care is covered wherever it occurs, including out of the service area, and does not require a PCP referral.",
+      "memoryTip": "Emergencies break the HMO network rule.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q013",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.2.2"
+      ],
+      "concepts": [
+        "preventive-care"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "Under New York Insurance Law § 4303(j), how are the required well-child preventive and primary care services treated for cost-sharing?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They are subject to the plan's annual deductible but not coinsurance",
+          "rationale": "Incorrect: the statute removes both deductibles and coinsurance."
+        },
+        {
+          "id": "b",
+          "text": "They are covered only after a 30-day waiting period",
+          "rationale": "Incorrect: no waiting period is described; coverage runs from the date of birth."
+        },
+        {
+          "id": "c",
+          "text": "They are not subject to annual deductibles or coinsurance",
+          "rationale": "Correct: § 4303(j)(2)(D) states the required child preventive services are not subject to annual deductibles or coinsurance."
+        },
+        {
+          "id": "d",
+          "text": "They are optional benefits the subscriber may decline",
+          "rationale": "Incorrect: the statute says the corporation 'shall provide coverage'; this is a required benefit, not an offer."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Section 4303(j) requires comprehensive coverage written by health service and medical expense indemnity corporations to cover preventive and primary care for covered children from birth through age 19 (well-child visits, exams, developmental assessment, immunizations), and that coverage is not subject to annual deductibles or coinsurance.",
+      "memoryTip": "Well-child care: no deductible, no coinsurance.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-4303"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q014",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.3.1",
+        "med.2.3.3"
+      ],
+      "concepts": [
+        "pos-plan",
+        "primary-care-physician"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Hannah has a $20 copayment when her primary care physician refers her to an in-network specialist. Last month she saw an out-of-network specialist without a referral; her plan paid 60% of the allowed amount after a deductible.",
+      "stem": "Which type of plan does Hannah most likely have?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Exclusive provider organization",
+          "rationale": "Incorrect: an EPO would generally pay nothing for the out-of-network visit."
+        },
+        {
+          "id": "b",
+          "text": "Traditional HMO",
+          "rationale": "Incorrect: a traditional HMO generally pays nothing for non-emergency out-of-network care."
+        },
+        {
+          "id": "c",
+          "text": "Indemnity major medical plan",
+          "rationale": "Incorrect: indemnity plans do not use a PCP or a network with differing benefit levels."
+        },
+        {
+          "id": "d",
+          "text": "Point-of-service plan",
+          "rationale": "Correct: a PCP coordinates in-network care, but the member may go out of network at a lower benefit level."
+        }
+      ],
+      "correct": "d",
+      "explanation": "A POS plan blends HMO and PPO features. In network, the PCP coordinates care and makes referrals and cost-sharing is low. The member can also choose, at the point of service, to go out of network and receive lower benefits.",
+      "memoryTip": "POS = HMO with an escape hatch.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q015",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.3.2"
+      ],
+      "concepts": [
+        "epo",
+        "ppo"
+      ],
+      "difficulty": 3,
+      "style": "comparison",
+      "tags": [
+        "tricky"
+      ],
+      "stem": "Which feature distinguishes an exclusive provider organization (EPO) from a preferred provider organization (PPO)?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The EPO generally provides no benefits for non-emergency care outside its network",
+          "rationale": "Correct: both usually skip referrals, but only the PPO pays out-of-network benefits for routine care."
+        },
+        {
+          "id": "b",
+          "text": "The EPO requires a primary care physician referral for every specialist visit",
+          "rationale": "Incorrect: EPOs commonly do not require referrals; that is an HMO trait."
+        },
+        {
+          "id": "c",
+          "text": "The EPO does not cover emergency care outside its network",
+          "rationale": "Incorrect: EPOs cover emergencies out of network."
+        },
+        {
+          "id": "d",
+          "text": "The EPO pays providers only on a fee-for-service basis with no negotiated rates",
+          "rationale": "Incorrect: both EPOs and PPOs use negotiated network rates."
+        }
+      ],
+      "correct": "a",
+      "explanation": "PPOs and EPOs both rely on networks of providers who accept negotiated rates and usually do not require referrals. The key difference is out-of-network coverage: a PPO pays reduced benefits, while an EPO generally pays nothing for non-emergency out-of-network care.",
+      "memoryTip": "EPO = Exclusive = no out-of-network (except emergencies).",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q016",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.3.1.1"
+      ],
+      "concepts": [
+        "prospective-review"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Precertification of a scheduled hospital admission is an example of which type of utilization review?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Retrospective",
+          "rationale": "Incorrect: retrospective review happens after care is delivered."
+        },
+        {
+          "id": "b",
+          "text": "Prospective",
+          "rationale": "Correct: review before the service is delivered is prospective."
+        },
+        {
+          "id": "c",
+          "text": "Concurrent",
+          "rationale": "Incorrect: concurrent review happens during an ongoing stay."
+        },
+        {
+          "id": "d",
+          "text": "Coordinated",
+          "rationale": "Incorrect: 'coordinated' is not a type of utilization review; coordination of benefits is a different concept."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Utilization review is classified by timing. Prospective review (precertification, prior authorization, second surgical opinions) takes place before care; concurrent review during care; retrospective review after care.",
+      "memoryTip": "PRO = before you GO.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-4900"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19",
+        "notes": "Insurance Law § 4900 defines UR as review 'prior to, concurrent with or subsequent to' services."
+      }
+    },
+    {
+      "id": "med-q017",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.3.1.2"
+      ],
+      "concepts": [
+        "concurrent-review"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Rosa was admitted for surgery. On her fourth hospital day, a nurse reviewer from her health plan evaluates whether she still needs inpatient care and starts planning her discharge to home health care.",
+      "stem": "This activity is best described as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Prospective review",
+          "rationale": "Incorrect: Rosa has already been admitted; prospective review happens before admission."
+        },
+        {
+          "id": "b",
+          "text": "Retrospective review",
+          "rationale": "Incorrect: retrospective review happens after discharge, typically when the claim is reviewed."
+        },
+        {
+          "id": "c",
+          "text": "Concurrent review",
+          "rationale": "Correct: reviewing the need for a continued stay while the patient is hospitalized is concurrent review."
+        },
+        {
+          "id": "d",
+          "text": "Coordination of benefits",
+          "rationale": "Incorrect: COB decides which of two plans pays first; it does not evaluate medical necessity."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Concurrent review evaluates medical necessity while treatment is under way: whether the patient still needs inpatient care, whether the length of stay is appropriate, and when to begin discharge planning.",
+      "memoryTip": "Concurrent = currently in the bed.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-4900"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q018",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.3.1"
+      ],
+      "concepts": [
+        "utilization-review",
+        "in-network"
+      ],
+      "difficulty": 3,
+      "style": "concept",
+      "tags": [
+        "negative-wording",
+        "tricky",
+        "ny-law"
+      ],
+      "stem": "Under the definitions in New York Insurance Law Article 49 (§ 4900), which determination is NOT considered utilization review?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A denial of an inpatient stay as not medically necessary",
+          "rationale": "Incorrect: a medical-necessity denial is exactly what utilization review is."
+        },
+        {
+          "id": "b",
+          "text": "A decision during a hospital stay that further days are not medically necessary",
+          "rationale": "Incorrect: this is concurrent utilization review."
+        },
+        {
+          "id": "c",
+          "text": "A review, after discharge, of whether the services were medically necessary",
+          "rationale": "Incorrect: this is retrospective utilization review."
+        },
+        {
+          "id": "d",
+          "text": "A denial because the member used a provider not designated or approved under the contract",
+          "rationale": "Correct: § 4900 states that denials based on failure to use a designated or approved provider are not utilization review."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Insurance Law § 4900 defines utilization review as review of whether services provided, being provided or proposed are medically necessary, whether before, during or after the services. It expressly excludes denials based on failure to use a designated or approved provider, coding reviews, payment-amount disputes and other coverage issues not involving medical necessity.",
+      "memoryTip": "UR asks 'Is it medically necessary?', not 'Was it the right provider?'",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "UR is about medical necessity",
+            "anyOf": [
+              "medically necessary",
+              "medical necessity"
+            ]
+          },
+          {
+            "label": "Network/designated-provider denials are excluded",
+            "anyOf": [
+              "designated",
+              "approved provider",
+              "network",
+              "not utilization review"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-4900"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q019",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.4.1"
+      ],
+      "concepts": [
+        "mandated-benefit"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "Sam, age 23, is covered as a dependent under his mother's individual hospital and medical expense policy issued in New York. This year he married, moved into his own apartment and started a full-time job.",
+      "stem": "Under New York law, may the insurer end Sam's coverage as a dependent on his parent's hospital/medical policy because he married and works full time?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, because a married child is no longer considered a dependent",
+          "rationale": "Incorrect: for hospital/medical coverage New York covers married or unmarried children to age 26."
+        },
+        {
+          "id": "b",
+          "text": "Yes, because he works full time and is no longer financially dependent",
+          "rationale": "Incorrect: the age-26 rule applies without regard to financial dependence or employment."
+        },
+        {
+          "id": "c",
+          "text": "No; he stays eligible until age 26 regardless of marriage or employment",
+          "rationale": "Correct: § 3216(a)(4)(A)(iii) covers married or unmarried children until age 26 without regard to financial dependence, residency, student status or employment."
+        },
+        {
+          "id": "d",
+          "text": "No, but only if he enrolls in school as a full-time student",
+          "rationale": "Incorrect: student status is not required for hospital, medical, surgical or prescription drug coverage."
+        }
+      ],
+      "correct": "c",
+      "explanation": "New York Insurance Law § 3216(a)(4) (individual policies) and § 4235(f)(1) (group policies) require hospital, medical, surgical and prescription drug coverage that covers children to cover a married or unmarried child until age 26, without regard to financial dependence, residency with the policyholder, student status or employment.",
+      "memoryTip": "Under 26 = still a kid for NY health coverage, married or not.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Age 26 limit",
+            "anyOf": [
+              "26",
+              "twenty-six"
+            ]
+          },
+          {
+            "label": "Marriage/employment/residency don't matter",
+            "anyOf": [
+              "married",
+              "regardless",
+              "employment",
+              "without regard"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3216-c4",
+        "ny-isc-4235"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q020",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.4.2"
+      ],
+      "concepts": [
+        "handicapped-child-extension"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "Grace's son Leo has had a developmental disability since early childhood, is unmarried, cannot support himself through employment and depends on Grace for support. He is about to reach the limiting age under Grace's New York individual health policy.",
+      "stem": "What must Grace do to keep Leo covered under her policy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nothing; coverage of a disabled child continues automatically for life",
+          "rationale": "Incorrect: the policyholder must submit proof of incapacity, and coverage continues only while the policy is in force and the condition continues."
+        },
+        {
+          "id": "b",
+          "text": "Submit proof of Leo's incapacity within 31 days of his reaching the limiting age",
+          "rationale": "Correct: § 3216(c)(4)(A) requires proof within 31 days of the dependent reaching the limiting age."
+        },
+        {
+          "id": "c",
+          "text": "Buy a separate individual policy for Leo within 60 days",
+          "rationale": "Incorrect: the extension keeps him on the existing policy; no new policy is needed."
+        },
+        {
+          "id": "d",
+          "text": "Show that Leo is enrolled as a full-time student",
+          "rationale": "Incorrect: student status is irrelevant to the disabled-child extension."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Under Insurance Law § 3216(c)(4)(A), coverage of an unmarried child who is incapable of self-sustaining employment because of mental illness, developmental disability or physical handicap, who became so before the limiting age and is chiefly dependent on the policyholder, does not terminate while the policy is in force and the condition continues, if the policyholder submits proof of incapacity within 31 days of the child reaching the limiting age.",
+      "memoryTip": "Disabled child: prove it within 31 days of aging out.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Proof of incapacity required",
+            "anyOf": [
+              "proof",
+              "documentation",
+              "evidence"
+            ]
+          },
+          {
+            "label": "31-day deadline after limiting age",
+            "anyOf": [
+              "31",
+              "thirty-one"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3216-c4"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q021",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.4.3"
+      ],
+      "concepts": [
+        "newborn-coverage"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "Under New York law, family health coverage for a newborn child:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Is effective from the moment of birth, including congenital defects and prematurity",
+          "rationale": "Correct: §§ 3216(c)(4)(C) and 4235(f)(2) make newborn coverage effective from the moment of birth, including congenital defects and prematurity."
+        },
+        {
+          "id": "b",
+          "text": "Begins 31 days after birth, once the insurer receives notice of the birth",
+          "rationale": "Incorrect: there is no waiting period; coverage begins at birth."
+        },
+        {
+          "id": "c",
+          "text": "Covers the baby from birth but excludes congenital defects as preexisting",
+          "rationale": "Incorrect: the statute specifically includes medically diagnosed congenital defects and birth abnormalities."
+        },
+        {
+          "id": "d",
+          "text": "Covers only routine nursery care during the first 31 days of the baby's life",
+          "rationale": "Incorrect: coverage is for injury or sickness, not just routine nursery care."
+        }
+      ],
+      "correct": "a",
+      "explanation": "New York requires family coverage (individual § 3216(c)(4)(C); group § 4235(f)(2)) to cover newborns from the moment of birth for injury or sickness, including necessary care and treatment of medically diagnosed congenital defects and birth abnormalities, including premature birth.",
+      "memoryTip": "Newborns: covered from the first breath, defects included.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3216-c4",
+        "ny-isc-4235"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q022",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.5",
+        "med.6"
+      ],
+      "concepts": [
+        "mandated-benefit"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [
+        "tricky"
+      ],
+      "stem": "What is the key difference between a mandated benefit and a mandated offer?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A mandated benefit must be included in the policy; a mandated offer must be made available, but the policyholder may decline it",
+          "rationale": "Correct: required benefits are automatically in the policy, while mandated offers can be accepted or refused."
+        },
+        {
+          "id": "b",
+          "text": "A mandated benefit applies only to group policies; a mandated offer applies only to individual policies",
+          "rationale": "Incorrect: both concepts can apply to individual and group coverage."
+        },
+        {
+          "id": "c",
+          "text": "A mandated offer must be included at no extra premium; a mandated benefit may cost extra",
+          "rationale": "Incorrect: this reverses the idea; mandated offers commonly carry an additional premium if accepted."
+        },
+        {
+          "id": "d",
+          "text": "A mandated benefit is required by federal law; a mandated offer is required by state law",
+          "rationale": "Incorrect: the difference is whether the coverage is automatic or optional, not which government requires it."
+        }
+      ],
+      "correct": "a",
+      "explanation": "State law can require coverage in two ways. A mandated (required) benefit must be part of every policy of that type. A mandated offer only requires the insurer to make the coverage available; the policyholder decides whether to purchase it.",
+      "memoryTip": "Benefit = built in; offer = option.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q023",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.7.4"
+      ],
+      "concepts": [
+        "hipaa"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Which federal law created the basis for national standards that protect the privacy of individually identifiable health information?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "COBRA",
+          "rationale": "Incorrect: COBRA provides temporary continuation of group health coverage."
+        },
+        {
+          "id": "b",
+          "text": "FMLA",
+          "rationale": "Incorrect: FMLA provides job-protected leave."
+        },
+        {
+          "id": "c",
+          "text": "ERISA",
+          "rationale": "Incorrect: ERISA sets standards for private employee benefit plans, such as fiduciary duties and reporting."
+        },
+        {
+          "id": "d",
+          "text": "HIPAA",
+          "rationale": "Correct: HIPAA's administrative simplification provisions led to the federal Privacy Rule for protected health information."
+        }
+      ],
+      "correct": "d",
+      "explanation": "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) addresses both portability of coverage and the privacy and security of individually identifiable health information held by health plans, health care providers and clearinghouses.",
+      "memoryTip": "HIPAA protects your Info Privacy.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q024",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.7.3"
+      ],
+      "concepts": [
+        "hipaa",
+        "guaranteed-renewable"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording",
+        "tricky"
+      ],
+      "stem": "Under federal renewability rules first established by HIPAA, an insurer may refuse to renew group health coverage for all of the following reasons EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nonpayment of premiums",
+          "rationale": "Incorrect: nonpayment of premium is a permitted reason for nonrenewal."
+        },
+        {
+          "id": "b",
+          "text": "Fraud or intentional misrepresentation of material fact by the plan sponsor",
+          "rationale": "Incorrect: fraud is a permitted reason for nonrenewal."
+        },
+        {
+          "id": "c",
+          "text": "High claims by one of the group's employees",
+          "rationale": "Correct: an insurer may not refuse to renew because of the health status or claims of covered persons."
+        },
+        {
+          "id": "d",
+          "text": "The insurer discontinues offering that coverage in the market, with required notice",
+          "rationale": "Incorrect: market withdrawal (with notice) is a permitted reason."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Guaranteed renewability means coverage must be renewed at the policyholder's option except for limited reasons such as nonpayment of premium, fraud, violation of participation or contribution rules, the insurer leaving the market (with notice), or (for network plans) no enrollees living or working in the service area. Health status and claims experience are never valid reasons.",
+      "memoryTip": "Can't nonrenew for being sick; can nonrenew for not paying or for fraud.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q025",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.7.2"
+      ],
+      "concepts": [
+        "guaranteed-issue"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "A requirement that an insurer accept every eligible applicant regardless of health status is called:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Guaranteed issue",
+          "rationale": "Correct: guaranteed issue (guaranteed availability) means eligible applicants cannot be turned down."
+        },
+        {
+          "id": "b",
+          "text": "Guaranteed renewability",
+          "rationale": "Incorrect: renewability concerns continuing coverage already in force."
+        },
+        {
+          "id": "c",
+          "text": "Conditional renewability",
+          "rationale": "Incorrect: conditional renewability lets the insurer refuse renewal for stated reasons."
+        },
+        {
+          "id": "d",
+          "text": "Experience rating",
+          "rationale": "Incorrect: experience rating is a pricing method based on a group's own claims."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Guaranteed issue requires the insurer to accept all eligible applicants, without medical underwriting to decline them. HIPAA required guaranteed issue for small employer groups, and New York's open enrollment rules require insurers to accept individuals and small groups at all times throughout the year.",
+      "memoryTip": "Issue = get IN; renew = STAY in.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q026",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.7.1"
+      ],
+      "concepts": [
+        "hipaa",
+        "probationary-period"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Kai is hired as a full-time employee. During enrollment he reports that he has diabetes.",
+      "stem": "Under HIPAA's group health plan rules, which action by the plan would be prohibited?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Requiring all new full-time employees to complete the same 30-day waiting period",
+          "rationale": "Incorrect: a uniform waiting period that applies to everyone in the class is permitted."
+        },
+        {
+          "id": "b",
+          "text": "Barring Kai from enrolling because of his diabetes while others in his class may enroll",
+          "rationale": "Correct: HIPAA prohibits basing eligibility on health status-related factors such as medical condition or claims history."
+        },
+        {
+          "id": "c",
+          "text": "Placing part-time employees in a different eligibility class from full-time employees",
+          "rationale": "Incorrect: classes based on employment conditions, such as full-time vs. part-time, are permitted."
+        },
+        {
+          "id": "d",
+          "text": "Charging Kai the same employee contribution as other similarly situated employees",
+          "rationale": "Incorrect: charging the same contribution as similarly situated individuals is exactly what the rules require."
+        }
+      ],
+      "correct": "b",
+      "explanation": "HIPAA's nondiscrimination rules prohibit group health plans and insurers from setting eligibility rules, or charging an individual more than similarly situated individuals, based on health status-related factors (health status, medical condition, claims experience, medical history, genetic information, disability). Classes based on employment, such as full-time and part-time, and uniform waiting periods are allowed.",
+      "memoryTip": "Eligibility can depend on your JOB, not your HEALTH.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Health status cannot determine eligibility",
+            "anyOf": [
+              "health status",
+              "medical condition",
+              "diabetes",
+              "health"
+            ]
+          },
+          {
+            "label": "Employment-based classes and uniform waiting periods are allowed",
+            "anyOf": [
+              "class",
+              "full-time",
+              "waiting period",
+              "uniform"
+            ]
+          }
+        ]
+      },
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q027",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.3.1.3"
+      ],
+      "concepts": [
+        "retrospective-review"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Reviewing a claim and the medical records after the patient has been discharged, to decide whether the care was medically necessary, is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Concurrent review",
+          "rationale": "Incorrect: concurrent review happens while the patient is still receiving care."
+        },
+        {
+          "id": "b",
+          "text": "Prospective review",
+          "rationale": "Incorrect: prospective review happens before care is delivered."
+        },
+        {
+          "id": "c",
+          "text": "Coordination of benefits",
+          "rationale": "Incorrect: COB decides which of two plans pays first."
+        },
+        {
+          "id": "d",
+          "text": "Retrospective review",
+          "rationale": "Correct: medical-necessity review after services are complete is retrospective review."
+        }
+      ],
+      "correct": "d",
+      "explanation": "NY Insurance Law § 4900 defines utilization review to include review undertaken 'subsequent to the delivery of such services'. That after-the-fact review is called retrospective review.",
+      "memoryTip": "RETRO = looking back.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-4900"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q028",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.1",
+        "med.2.1.1"
+      ],
+      "concepts": [
+        "major-medical"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [],
+      "stem": "Which combination of features best describes a traditional major medical plan?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Broad coverage, a deductible, coinsurance and high overall benefit limits",
+          "rationale": "Correct: these are the hallmark features of major medical."
+        },
+        {
+          "id": "b",
+          "text": "A fixed cash amount for each hospital day, regardless of actual charges",
+          "rationale": "Incorrect: that describes a hospital indemnity policy."
+        },
+        {
+          "id": "c",
+          "text": "Coverage only for a disease named in the policy, such as cancer",
+          "rationale": "Incorrect: that describes a specified disease policy."
+        },
+        {
+          "id": "d",
+          "text": "Network-only care with a primary care gatekeeper and no deductible",
+          "rationale": "Incorrect: that describes a typical HMO."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Major medical covers a wide range of hospital, surgical and physician expenses. The insured pays a deductible, then shares costs through coinsurance up to an out-of-pocket maximum, and overall benefit limits are high.",
+      "memoryTip": "Major medical = broad + deductible + coinsurance + cap.",
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q029",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.2.1",
+        "med.2.2.6",
+        "med.2.2.7"
+      ],
+      "concepts": [
+        "hmo"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "All of the following are typical characteristics of an HMO EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Care delivered through a network in a defined service area",
+          "rationale": "Incorrect: HMOs operate through a network within a service area."
+        },
+        {
+          "id": "b",
+          "text": "Unrestricted choice of any provider for routine care",
+          "rationale": "Correct: HMOs limit routine care to network providers, so unrestricted choice is not an HMO feature."
+        },
+        {
+          "id": "c",
+          "text": "Coverage of basic hospital, physician and emergency services",
+          "rationale": "Incorrect: HMOs provide these basic health services."
+        },
+        {
+          "id": "d",
+          "text": "Small copayments for office visits",
+          "rationale": "Incorrect: modest copayments are typical of HMOs."
+        }
+      ],
+      "correct": "b",
+      "explanation": "HMOs provide or arrange basic health services (physician, inpatient and outpatient hospital, emergency, diagnostic and preventive care) for a prepaid premium, through a network in a defined service area. Members pay small copayments. Free choice of any provider is a feature of indemnity plans, not HMOs.",
+      "memoryTip": "HMO = network only (except emergencies).",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q030",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.5"
+      ],
+      "concepts": [
+        "catastrophic-plan",
+        "deductible"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "What is the main purpose of catastrophic medical coverage?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "To pay routine checkups in full from the first dollar",
+          "rationale": "Incorrect: catastrophic coverage is designed for large losses, not first-dollar routine care."
+        },
+        {
+          "id": "b",
+          "text": "To replace the insured's lost income during a period of disability",
+          "rationale": "Incorrect: that is disability income insurance."
+        },
+        {
+          "id": "c",
+          "text": "To protect against very large bills, with a high deductible and lower premium",
+          "rationale": "Correct: catastrophic coverage trades a high deductible for protection against major losses."
+        },
+        {
+          "id": "d",
+          "text": "To pay a fixed daily cash amount while the insured is hospitalized",
+          "rationale": "Incorrect: that is hospital indemnity coverage."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Catastrophic coverage protects against the financial impact of very large medical expenses. A high deductible keeps the premium low, so the insured pays smaller routine costs and the plan pays for major losses.",
+      "memoryTip": "Catastrophic = cheap premium, big deductible, protection from disaster bills.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

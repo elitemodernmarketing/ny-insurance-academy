@@ -1,0 +1,592 @@
+{
+  "sectionId": "gen",
+  "terms": [
+    {
+      "id": "insurance",
+      "term": "Insurance",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": ["gen.1.2.5", "gen.1"],
+      "formal": "A contract (the policy) under which one party, the insurer, agrees for a price (the premium) to pay for specified losses suffered by another, transferring the financial risk of those losses from the individual to a large pool of people facing similar risks.",
+      "plain": "You pay a relatively small, certain amount (the premium) so that a company will pay you or your family a large amount if a covered bad event happens. Many people pay in, and the few who suffer losses are paid out of the pool.",
+      "simpler": "It is like a big group of friends each putting $10 into a jar. Whoever has bad luck this year gets money from the jar, so nobody has to face a huge loss alone.",
+      "examples": [
+        "Lena pays a monthly premium for a $250,000 life insurance policy so her children will receive money if she dies.",
+        "Thousands of people buy disability income insurance; the premiums from all of them fund the benefits paid to the few who become disabled."
+      ],
+      "examTip": "When a question asks what insurance fundamentally does, the answer is that it TRANSFERS risk (from the insured to the insurer). It does not eliminate or reduce the chance of loss.",
+      "misconception": "Insurance does not prevent losses or make them less likely; it only shifts who pays for them.",
+      "related": ["risk-transfer", "premium", "insurer", "law-of-large-numbers"],
+      "confusedWith": ["risk-sharing"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Buying an insurance policy is an example of which method of handling risk?",
+        "choices": ["Transfer", "Avoidance", "Retention", "Reduction"],
+        "answerIndex": 0,
+        "explanation": "An insurance contract moves the financial consequences of a loss from the insured to the insurer, which is risk transfer. Avoidance means not taking the risk at all, retention means keeping it yourself, and reduction means lowering the chance or size of loss."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "insurer",
+      "term": "Insurer",
+      "aliases": ["insurance company", "carrier"],
+      "sectionId": "gen",
+      "outlineIds": ["gen.2.1", "gen.3.1"],
+      "formal": "The company that issues an insurance policy, collects the premium, and promises to pay covered claims; in agency law the insurer is the principal on whose behalf agents act.",
+      "plain": "The insurance company. It writes the policy, takes the premium, and pays the claims. Agents work for it and represent it.",
+      "simpler": "The insurer is the company holding the money jar and making the promise to pay.",
+      "examples": [
+        "A life insurance company issues Raj a 20-year term policy and will pay his beneficiary if he dies during the term.",
+        "When a producer appointed by an insurer takes an application, the producer is acting for that insurer, the principal."
+      ],
+      "examTip": "Keep the parties straight: insurer = company; insured = person whose life or health is covered; policyowner = person who controls the policy; beneficiary = person who receives the death benefit.",
+      "misconception": "The insurer is not the agent. The agent represents the insurer, but the insurer is the party that is legally bound to pay.",
+      "related": ["insured", "policyowner", "law-of-agency", "producer"],
+      "confusedWith": ["insured"],
+      "pronunciation": "in-SHUR-er",
+      "difficulty": 1,
+      "practice": {
+        "prompt": "In an insurance transaction, which party is the principal under the law of agency?",
+        "choices": ["The insurer", "The agent", "The applicant", "The beneficiary"],
+        "answerIndex": 0,
+        "explanation": "The insurer is the principal; the agent acts on its behalf. The applicant and beneficiary are customers, not principals of the agent."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "insured",
+      "term": "Insured",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": ["gen.4.2.3", "gen.1"],
+      "formal": "The person whose life, health or property is covered by an insurance policy, and whose loss triggers payment of benefits.",
+      "plain": "The person who is covered. In life insurance it is the person whose death makes the policy pay. The insured is often, but not always, the same person as the policyowner.",
+      "simpler": "The insured is the person the policy is 'about' — the life or health being protected.",
+      "examples": [
+        "Carla buys a policy on her own life: she is both the policyowner and the insured.",
+        "A business buys a policy on its top engineer: the business is the policyowner, and the engineer is the insured."
+      ],
+      "examTip": "If a question describes someone buying coverage on another person's life, separate the roles: the buyer is the policyowner, the covered person is the insured.",
+      "misconception": "The insured is not necessarily the person who receives the money. In life insurance the beneficiary receives the death benefit, because the insured has died.",
+      "related": ["policyowner", "insurer", "beneficiary", "personal-contract"],
+      "confusedWith": ["policyowner"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Dev buys a life policy on his wife, Priya, and names himself beneficiary. Who is the insured?",
+        "choices": ["Priya", "Dev", "The insurer", "The agent who sold the policy"],
+        "answerIndex": 0,
+        "explanation": "The insured is the person whose life is covered: Priya. Dev is the policyowner and beneficiary; the insurer issues the policy; the agent represents the insurer."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "policyowner",
+      "term": "Policyowner",
+      "aliases": ["owner", "policyholder"],
+      "sectionId": "gen",
+      "outlineIds": ["gen.4.2.4", "gen.4.1.2"],
+      "formal": "The person or entity that owns an insurance policy and holds its contractual rights, such as paying premiums, naming and changing beneficiaries, assigning the policy, and accessing cash values.",
+      "plain": "The person in charge of the policy. The policyowner pays the premiums and makes the decisions, like who the beneficiary is. The policyowner and the insured can be different people.",
+      "simpler": "Think of the policyowner as the person who holds the remote control for the policy.",
+      "examples": [
+        "A mother owns a policy on her adult son's life; she, not the son, decides who the beneficiary is.",
+        "Sam owns a policy on his own life and later changes the beneficiary from his brother to his new spouse."
+      ],
+      "examTip": "Rights in the policy (change beneficiary, take a loan, surrender, assign) belong to the policyowner, not the insured or the beneficiary.",
+      "misconception": "The policyowner does not have to be the insured. A spouse, parent, business or trust can own a policy on someone else's life when it has an insurable interest.",
+      "related": ["insured", "beneficiary", "insurable-interest", "ownership-provision"],
+      "confusedWith": ["insured"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which party normally has the right to change a revocable beneficiary designation?",
+        "choices": ["The policyowner", "The insured, even if not the owner", "The current beneficiary", "The agent of record"],
+        "answerIndex": 0,
+        "explanation": "Policy rights belong to the policyowner. An insured who is not the owner has no right to change the beneficiary; the beneficiary and agent do not control the policy."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "premium",
+      "term": "Premium",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": ["gen.4.1.2", "gen.1.2.8"],
+      "formal": "The amount paid by the policyowner to the insurer in exchange for coverage; together with the statements in the application, it forms the applicant's consideration for the insurance contract.",
+      "plain": "The price of insurance. You pay it monthly, quarterly, annually or in one lump sum to keep the coverage in force.",
+      "simpler": "The premium is your 'membership fee' for being part of the insurance pool.",
+      "examples": [
+        "Nina pays a $40 monthly premium for a term life policy.",
+        "An insurer sets premiums based on expected claims for a large group, plus expenses and profit."
+      ],
+      "examTip": "The applicant's consideration is the premium (initial premium) plus the statements in the application. The insurer's consideration is its promise to pay.",
+      "misconception": "The premium is not a deposit you get back if no loss happens; in most policies it is simply the cost of having the coverage.",
+      "related": ["consideration", "law-of-large-numbers", "insurance", "premium-mode"],
+      "confusedWith": ["consideration"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "What is the premium in an insurance contract?",
+        "choices": ["The amount paid to the insurer for coverage", "The amount paid to a beneficiary at death", "The maximum amount the insurer will pay", "The commission paid to the agent"],
+        "answerIndex": 0,
+        "explanation": "The premium is the price of coverage paid to the insurer. The amount paid at death is the death benefit (face amount); the commission is the agent's compensation."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "risk",
+      "term": "Risk",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": ["gen.1.1.1"],
+      "formal": "Uncertainty regarding the occurrence of a financial loss.",
+      "plain": "Risk is not knowing whether something bad will happen that costs you money. If a loss were certain, it would be a cost, not a risk.",
+      "simpler": "Risk is the 'maybe' in 'maybe I will lose money.'",
+      "examples": [
+        "A 40-year-old parent faces the risk of dying early and leaving the family without income.",
+        "A homeowner faces the risk that a fire could destroy the house."
+      ],
+      "examTip": "The exam splits risk into pure risk (only a chance of loss — insurable) and speculative risk (chance of loss or gain — not insurable).",
+      "misconception": "Risk is not the same thing as the cause of loss (peril) or the condition that increases loss (hazard). Risk is the uncertainty itself.",
+      "related": ["pure-risk", "speculative-risk", "peril", "hazard", "exposure"],
+      "confusedWith": ["peril", "hazard"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "In insurance, risk is best defined as:",
+        "choices": ["Uncertainty regarding financial loss", "The cause of a loss", "A condition that increases the chance of loss", "The amount the insurer pays"],
+        "answerIndex": 0,
+        "explanation": "Risk is uncertainty about loss. The cause of loss is a peril; a condition that increases the chance of loss is a hazard."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "pure-risk",
+      "term": "Pure Risk",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": ["gen.1.1.1"],
+      "formal": "A risk that involves only the chance of loss or no loss, with no opportunity for gain; only pure risks are insurable.",
+      "plain": "A situation where the best outcome is that nothing happens and the worst is a loss. You can't come out ahead. Death, illness, disability and accidents are pure risks.",
+      "simpler": "Lose or break even — never win. That is pure risk.",
+      "examples": [
+        "The chance of becoming disabled: either you become disabled (loss) or you don't (no loss).",
+        "The chance of a car accident: there is no way to profit from it."
+      ],
+      "examTip": "If a question asks which risk is insurable, choose the one with no possibility of gain (pure risk).",
+      "misconception": "Pure does not mean 'unlikely' or 'certain'; it means there is no chance of gain.",
+      "related": ["speculative-risk", "risk", "insurable-risk"],
+      "confusedWith": ["speculative-risk"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which of these is a pure risk?",
+        "choices": ["Premature death", "Buying shares of stock", "Betting on a horse race", "Opening a new restaurant"],
+        "answerIndex": 0,
+        "explanation": "Premature death offers only loss or no loss. Stock purchases, gambling and starting a business can all produce a gain, so they are speculative risks."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "speculative-risk",
+      "term": "Speculative Risk",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": ["gen.1.1.1"],
+      "formal": "A risk that involves the chance of loss, no loss, or gain; speculative risks are not insurable.",
+      "plain": "A risk you choose to take because you might come out ahead, such as investing or gambling. Insurance won't cover it, because then people could profit from insurance.",
+      "simpler": "Win, lose or break even — that is speculative risk, and insurance stays out of it.",
+      "examples": [
+        "Buying real estate hoping its value rises.",
+        "Placing a bet at a casino."
+      ],
+      "examTip": "Look for the words 'gain', 'profit' or 'invest' in the question — they signal speculative risk, which is NOT insurable.",
+      "misconception": "A speculative risk is not 'insurable if large enough.' The possibility of gain makes it unsuitable for insurance no matter the size.",
+      "related": ["pure-risk", "risk", "insurable-risk"],
+      "confusedWith": ["pure-risk"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Why is speculative risk NOT insurable?",
+        "choices": ["It includes the possibility of gain", "It is always too expensive", "It never results in a loss", "It is prohibited by federal law"],
+        "answerIndex": 0,
+        "explanation": "Insurance is meant to restore you after a loss, not help you profit. Because speculative risk can produce a gain, it is not insurable. It can produce losses, and cost and federal law are not the reasons."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "exposure",
+      "term": "Exposure",
+      "aliases": ["exposure unit"],
+      "sectionId": "gen",
+      "outlineIds": ["gen.1.1.2"],
+      "formal": "A unit of measure used to determine rates charged for insurance coverage; more broadly, the state of being subject to the possibility of loss.",
+      "plain": "Exposure is what an insurer counts to measure how much risk it is taking on: in life insurance, each insured life (or each $1,000 of coverage) is a unit of exposure. The more similar exposure units an insurer has, the better it can predict losses.",
+      "simpler": "Exposure is 'how many things could have a loss.' An insurer covering 100,000 lives has 100,000 exposures.",
+      "examples": [
+        "A life insurer expresses its rate as a price per $1,000 of coverage; each $1,000 is an exposure unit.",
+        "A group health plan covering 500 employees has more exposure than one covering 50."
+      ],
+      "examTip": "Exposure is linked to the law of large numbers: the larger the number of similar exposure units, the more accurately losses can be predicted.",
+      "misconception": "Exposure is not the same as a hazard. A hazard increases the chance of loss; exposure measures how much is subject to loss.",
+      "related": ["law-of-large-numbers", "risk", "premium"],
+      "confusedWith": ["hazard"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "An insurer that prices life coverage 'per $1,000 of face amount' is using $1,000 as its:",
+        "choices": ["Unit of exposure", "Hazard", "Peril", "Deductible"],
+        "answerIndex": 0,
+        "explanation": "A unit of exposure is the measuring unit used to set rates. A hazard increases the chance of loss, a peril causes loss, and a deductible is the part of a loss the insured pays."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "hazard",
+      "term": "Hazard",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": ["gen.1.1.3"],
+      "formal": "A condition or situation that increases the probability of a loss occurring, or increases the severity of a loss arising from a peril; hazards are classified as physical, moral and morale.",
+      "plain": "A hazard is something that makes a loss more likely or worse. It is not the loss and not the cause of the loss — it is the 'extra danger' factor.",
+      "simpler": "If the peril is the fire, the hazard is the pile of oily rags that makes a fire more likely.",
+      "examples": [
+        "Smoking is a hazard that increases the chance of dying from heart disease (the peril).",
+        "An applicant who lies about past claims shows a moral hazard."
+      ],
+      "examTip": "Peril = the cause (death, illness, accident). Hazard = what increases the chance of the peril. Three hazard types: physical (a condition), moral (dishonesty), morale (indifference/carelessness).",
+      "misconception": "A hazard is not the same thing as the peril. Heart disease is a peril; high blood pressure that makes heart disease more likely is a hazard.",
+      "related": ["physical-hazard", "moral-hazard", "morale-hazard", "peril", "risk"],
+      "confusedWith": ["peril"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A condition that increases the chance that a loss will occur is called a:",
+        "choices": ["Hazard", "Peril", "Loss", "Exposure"],
+        "answerIndex": 0,
+        "explanation": "A hazard increases the likelihood or severity of loss. A peril is the cause of loss, a loss is the reduction in value, and exposure measures what is subject to loss."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "physical-hazard",
+      "term": "Physical Hazard",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": ["gen.1.1.3"],
+      "formal": "A tangible, observable characteristic of a person, property or environment that increases the likelihood or severity of a loss.",
+      "plain": "A physical hazard is a real, visible condition — like a health problem, a dangerous job or a risky hobby — that makes a loss more likely.",
+      "simpler": "Something you could point at or measure that adds danger.",
+      "examples": [
+        "An applicant with diabetes and high blood pressure presents physical hazards for life and health insurance.",
+        "A window washer on skyscrapers has an occupation that is a physical hazard."
+      ],
+      "examTip": "Medical conditions, obesity, hazardous occupations and dangerous hobbies such as skydiving are physical hazards — not moral or morale hazards.",
+      "misconception": "A physical hazard is not about a person's attitude or honesty; those are morale and moral hazards.",
+      "related": ["hazard", "moral-hazard", "morale-hazard"],
+      "confusedWith": ["morale-hazard"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "An applicant for life insurance has a history of heart disease. This is an example of a:",
+        "choices": ["Physical hazard", "Moral hazard", "Morale hazard", "Speculative risk"],
+        "answerIndex": 0,
+        "explanation": "A medical condition is a tangible characteristic that increases the chance of loss, so it is a physical hazard. Moral involves dishonesty; morale involves indifference; speculative risk involves possible gain."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "moral-hazard",
+      "term": "Moral Hazard",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": ["gen.1.1.3"],
+      "formal": "A hazard arising from a person's dishonesty or character that increases the chance of loss, such as a tendency to exaggerate or fake claims.",
+      "plain": "Moral hazard is about honesty. It is the danger that someone will lie, cheat or deliberately cause a loss to collect insurance money.",
+      "simpler": "Moral hazard = a person who might cheat.",
+      "examples": [
+        "An applicant with a history of filing fraudulent claims presents a moral hazard.",
+        "A person who buys a large policy on someone they barely know, hoping to profit from that person's death, shows moral hazard."
+      ],
+      "examTip": "Moral = dishonesty (intentional). Morale = indifference (careless because 'insurance will pay'). The extra 'e' in morale is for 'eh, who cares.'",
+      "misconception": "Moral hazard is not carelessness; it involves a dishonest or intentional attitude toward loss.",
+      "related": ["morale-hazard", "physical-hazard", "hazard", "fraud", "insurable-interest"],
+      "confusedWith": ["morale-hazard"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "An applicant has a record of submitting exaggerated insurance claims. Which hazard does this indicate?",
+        "choices": ["Moral hazard", "Morale hazard", "Physical hazard", "Speculative hazard"],
+        "answerIndex": 0,
+        "explanation": "Exaggerating claims reflects dishonesty, which is moral hazard. Morale hazard is indifference or carelessness; physical hazard is a tangible condition; 'speculative hazard' is not a hazard category."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "morale-hazard",
+      "term": "Morale Hazard",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": ["gen.1.1.3"],
+      "formal": "A hazard arising from a person's indifference to loss, typically because the person has insurance, which increases the chance or severity of loss.",
+      "plain": "Morale hazard is carelessness that happens because 'insurance will cover it.' The person isn't trying to cheat; they just stop being careful.",
+      "simpler": "Morale hazard = 'I'm insured, so why bother being careful?'",
+      "examples": [
+        "Someone with generous health coverage skips taking prescribed medication, thinking the plan will pay for any hospital stay.",
+        "A policyowner leaves a car unlocked because theft is covered by insurance."
+      ],
+      "examTip": "Clue words for morale hazard: careless, indifferent, 'doesn't bother', 'because they're insured.' Clue words for moral hazard: lie, fake, exaggerate, deliberately.",
+      "misconception": "Morale hazard is not dishonesty. If the question describes lying or faking, it is moral hazard instead.",
+      "related": ["moral-hazard", "physical-hazard", "hazard"],
+      "confusedWith": ["moral-hazard"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "An insured stops following his doctor's diet orders because 'my health insurance will cover it.' This is an example of:",
+        "choices": ["Morale hazard", "Moral hazard", "Physical hazard", "Adverse selection"],
+        "answerIndex": 0,
+        "explanation": "Indifference to loss because one is insured is morale hazard. There is no dishonesty (moral), and the attitude itself is not a tangible condition (physical). Adverse selection concerns who chooses to buy insurance."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "peril",
+      "term": "Peril",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": ["gen.1.1.4"],
+      "formal": "The immediate, specific event that causes a loss and gives rise to risk.",
+      "plain": "A peril is the actual cause of a loss — death, sickness, an accident, a fire. Insurance policies describe which perils they cover.",
+      "simpler": "The peril is the 'what happened': the thing that caused the damage.",
+      "examples": [
+        "In a life policy, death is the peril insured against.",
+        "In a disability income policy, the perils are accident and sickness that cause the insured to be unable to work."
+      ],
+      "examTip": "If the question asks for the CAUSE of loss, answer peril. If it asks what INCREASES the chance of loss, answer hazard.",
+      "misconception": "A peril is not a dangerous condition; that is a hazard. The peril is the event itself.",
+      "related": ["hazard", "risk", "loss"],
+      "confusedWith": ["hazard", "risk"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which term means the cause of a loss?",
+        "choices": ["Peril", "Hazard", "Exposure", "Risk"],
+        "answerIndex": 0,
+        "explanation": "A peril is the cause of loss. A hazard increases the chance of loss, exposure measures what could suffer a loss, and risk is uncertainty about loss."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "loss",
+      "term": "Loss",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": ["gen.1.1.5"],
+      "formal": "The reduction, decrease or disappearance of value of the person or property insured, resulting from a peril; for insurance purposes, generally an unintentional decline in value.",
+      "plain": "A loss is the actual damage or decrease in value that results when a peril happens — for example, lost income after a disability, or the economic value of a life when someone dies.",
+      "simpler": "The loss is what you're out after something bad happens.",
+      "examples": [
+        "A breadwinner's death causes the loss of the income he would have earned for his family.",
+        "A hospital stay produces a loss in the form of medical bills."
+      ],
+      "examTip": "Chain to remember: hazard (raises the odds) -> peril (the event) -> loss (the damage). Insurance pays for losses caused by covered perils.",
+      "misconception": "A loss is not the same as the peril. The accident is the peril; the medical bills and missed paychecks are the loss.",
+      "related": ["peril", "hazard", "indemnity"],
+      "confusedWith": ["peril"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Maya breaks her leg skiing and misses six weeks of work. The missed income is the:",
+        "choices": ["Loss", "Peril", "Hazard", "Exposure"],
+        "answerIndex": 0,
+        "explanation": "The missed income is the reduction in value, which is the loss. The accident is the peril; skiing as a hobby is a hazard; exposure measures what is subject to loss."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "risk-avoidance",
+      "term": "Risk Avoidance",
+      "aliases": ["avoidance"],
+      "sectionId": "gen",
+      "outlineIds": ["gen.1.2.1"],
+      "formal": "A method of handling risk in which a person eliminates exposure to a particular risk by not engaging in the activity that creates it.",
+      "plain": "Avoiding risk means simply not doing the risky thing. If you never go skydiving, you can't be hurt skydiving.",
+      "simpler": "Avoidance = 'I won't do it at all.'",
+      "examples": [
+        "Leo decides not to take up motorcycle racing to avoid the risk of injury.",
+        "A person afraid of flying chooses never to travel by plane."
+      ],
+      "examTip": "Avoidance removes the risk completely, but it is not always practical — you cannot avoid the risk of dying, so life insurance (transfer) is needed.",
+      "misconception": "Avoidance is not the same as reduction. Wearing a helmet while riding reduces risk; never riding avoids it.",
+      "related": ["risk-reduction", "risk-retention", "risk-transfer", "risk-sharing"],
+      "confusedWith": ["risk-reduction"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Jana refuses to go scuba diving because she fears drowning. Which risk-handling method is she using?",
+        "choices": ["Avoidance", "Reduction", "Retention", "Transfer"],
+        "answerIndex": 0,
+        "explanation": "Not engaging in the activity eliminates the risk: avoidance. Reduction lowers the chance of loss while still doing the activity; retention keeps the risk; transfer shifts it to another party."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "risk-retention",
+      "term": "Risk Retention",
+      "aliases": ["retention", "self-insurance"],
+      "sectionId": "gen",
+      "outlineIds": ["gen.1.2.2"],
+      "formal": "A method of handling risk in which a person or organization accepts responsibility for the financial consequences of a loss, either deliberately (for example, through deductibles or self-insurance) or unknowingly.",
+      "plain": "Retaining risk means keeping it yourself and paying for any loss out of your own pocket. Choosing a deductible or self-insuring are forms of retention.",
+      "simpler": "Retention = 'I'll pay for it myself if it happens.'",
+      "examples": [
+        "Omar chooses a health plan with a $2,000 deductible, retaining the first $2,000 of medical costs each year.",
+        "A large employer self-insures its employees' health claims instead of buying a group policy."
+      ],
+      "examTip": "Deductibles, copayments, elimination periods and self-insurance are all examples of retention. Retention makes sense for small, predictable losses.",
+      "misconception": "Retention is not always a mistake. Retaining small losses is often cheaper than insuring them.",
+      "related": ["risk-avoidance", "risk-transfer", "deductible", "self-funded-plan"],
+      "confusedWith": ["risk-sharing"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Choosing a policy with a high deductible to lower the premium is an example of:",
+        "choices": ["Retention", "Avoidance", "Sharing", "Reduction"],
+        "answerIndex": 0,
+        "explanation": "The insured keeps (retains) the cost of losses up to the deductible. Avoidance eliminates the activity; sharing spreads losses among a group; reduction lowers the chance or severity of loss."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "risk-sharing",
+      "term": "Risk Sharing",
+      "aliases": ["sharing"],
+      "sectionId": "gen",
+      "outlineIds": ["gen.1.2.3"],
+      "formal": "A method of handling risk in which a group of persons or entities agree to share the financial consequences of losses among themselves, each bearing a portion.",
+      "plain": "Sharing risk means a group agrees to split losses. If one member has a loss, everyone chips in. Business partners, cooperatives and groups of doctors forming an association are examples.",
+      "simpler": "Sharing = 'If one of us gets hurt, all of us pitch in.'",
+      "examples": [
+        "Five doctors form a group that agrees to share the cost of any one member's malpractice losses.",
+        "Partners in a business share the profits and the losses according to their ownership percentages."
+      ],
+      "examTip": "Sharing spreads losses among members of a group; transfer moves the loss to a separate party (like an insurer) in exchange for a premium.",
+      "misconception": "Risk sharing is not the same as buying insurance from a separate company; in sharing, the group members themselves bear the losses.",
+      "related": ["risk-transfer", "risk-retention", "insurance"],
+      "confusedWith": ["risk-transfer"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Several small businesses agree to split the cost of any member's major equipment loss. This is an example of:",
+        "choices": ["Sharing", "Avoidance", "Retention", "Reduction"],
+        "answerIndex": 0,
+        "explanation": "When members of a group agree to divide losses among themselves, they are sharing risk. Nothing is avoided, retained alone, or reduced in likelihood."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "risk-reduction",
+      "term": "Risk Reduction",
+      "aliases": ["reduction", "loss control"],
+      "sectionId": "gen",
+      "outlineIds": ["gen.1.2.4"],
+      "formal": "A method of handling risk that lowers the probability (loss prevention) or the severity (loss control) of a loss without eliminating the activity.",
+      "plain": "Reducing risk means taking steps to make a loss less likely or less costly — like exercising, wearing a seat belt, or installing smoke detectors — while still living your normal life.",
+      "simpler": "Reduction = 'I'll still do it, but more safely.'",
+      "examples": [
+        "Ben quits smoking to lower his risk of heart and lung disease.",
+        "A company installs a sprinkler system so a fire would cause less damage."
+      ],
+      "examTip": "Reduction does not remove risk; it lowers the chance or size of loss. Annual physicals, seat belts and smoke alarms are classic reduction examples.",
+      "misconception": "Reduction is not avoidance. The person still faces the risk, just to a smaller degree.",
+      "related": ["risk-avoidance", "risk-retention", "hazard"],
+      "confusedWith": ["risk-avoidance"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Getting an annual medical checkup to catch problems early is an example of:",
+        "choices": ["Risk reduction", "Risk avoidance", "Risk transfer", "Risk sharing"],
+        "answerIndex": 0,
+        "explanation": "Checkups lower the chance or severity of loss without eliminating the risk: reduction. Avoidance would require eliminating the activity; transfer shifts the loss; sharing spreads it among a group."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    }
+  ],
+  "comparisons": [
+    {
+      "a": "moral-hazard",
+      "b": "morale-hazard",
+      "keyDifference": "Moral hazard is dishonesty (a person might lie or deliberately cause a loss); morale hazard is indifference (a person is careless because they are insured).",
+      "rows": [
+        { "aspect": "Root cause", "a": "Dishonest character", "b": "Careless or indifferent attitude" },
+        { "aspect": "Intentional?", "a": "Yes — lying, faking or exaggerating", "b": "No — just not bothering to prevent loss" },
+        { "aspect": "Example", "a": "Applicant with a history of fraudulent claims", "b": "Insured ignores doctor's advice because 'insurance will pay'" }
+      ],
+      "memoryTip": "MoralE has an extra 'E' for 'Eh, who cares' — indifference."
+    },
+    {
+      "a": "peril",
+      "b": "hazard",
+      "keyDifference": "A peril is the event that causes a loss; a hazard is a condition that makes that event more likely or its loss more severe.",
+      "rows": [
+        { "aspect": "Role", "a": "The cause of loss", "b": "Increases the chance or severity of loss" },
+        { "aspect": "Life/health example", "a": "Death, sickness, accident", "b": "Smoking, high blood pressure, dangerous job" },
+        { "aspect": "Question clue", "a": "'What caused the loss?'", "b": "'What made the loss more likely?'" }
+      ],
+      "memoryTip": "Hazards Help perils happen."
+    },
+    {
+      "a": "pure-risk",
+      "b": "speculative-risk",
+      "keyDifference": "Pure risk has only loss or no loss and is insurable; speculative risk also allows a gain and is not insurable.",
+      "rows": [
+        { "aspect": "Possible outcomes", "a": "Loss or no loss", "b": "Loss, no loss, or gain" },
+        { "aspect": "Insurable?", "a": "Yes", "b": "No" },
+        { "aspect": "Example", "a": "Premature death, disability", "b": "Investing, gambling, starting a business" }
+      ],
+      "memoryTip": "Speculative = you could Score; Pure = you can only lose or break even."
+    }
+  ]
+}

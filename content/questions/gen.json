@@ -1,0 +1,1305 @@
+{
+  "sectionId": "gen",
+  "questions": [
+    {
+      "id": "gen-q001",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.1.1.1"
+      ],
+      "concepts": [
+        "pure-risk",
+        "speculative-risk"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Which type of risk involves only the chance of loss or no loss, with no chance of gain?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Speculative risk",
+          "rationale": "Incorrect: speculative risk includes a chance of gain, such as investing or gambling."
+        },
+        {
+          "id": "b",
+          "text": "Pure risk",
+          "rationale": "Correct: pure risk offers only loss or no loss, and it is the only type of risk that is insurable."
+        },
+        {
+          "id": "c",
+          "text": "Dynamic risk",
+          "rationale": "Incorrect: this is not the outline term for a loss-only risk; the exam contrasts pure and speculative risk."
+        },
+        {
+          "id": "d",
+          "text": "Moral risk",
+          "rationale": "Incorrect: 'moral' describes a type of hazard (dishonesty), not a category of risk."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Risk is uncertainty about loss. Pure risk has only two outcomes — loss or no loss — and is insurable. Speculative risk adds the possibility of gain and is not insurable.",
+      "memoryTip": "Pure = can't win; Speculative = could score.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gen-q002",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.1.1.3"
+      ],
+      "concepts": [
+        "morale-hazard",
+        "moral-hazard",
+        "physical-hazard"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "After buying a disability income policy with generous benefits, Kevin stops using the safety harness at his construction job, saying, 'If I get hurt, the insurance will pay me anyway.' He has never filed a false claim.",
+      "stem": "Which hazard does Kevin's behavior illustrate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Physical hazard",
+          "rationale": "Incorrect: a physical hazard is a tangible condition such as an illness or a dangerous job, not an attitude."
+        },
+        {
+          "id": "b",
+          "text": "Moral hazard",
+          "rationale": "Incorrect: moral hazard involves dishonesty, such as lying or faking a claim; Kevin is not being dishonest."
+        },
+        {
+          "id": "c",
+          "text": "Morale hazard",
+          "rationale": "Correct: Kevin has become careless because he is insured — indifference to loss is morale hazard."
+        },
+        {
+          "id": "d",
+          "text": "Speculative hazard",
+          "rationale": "Incorrect: there is no hazard category called speculative; speculative describes a type of risk."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Hazards increase the chance or severity of loss. Morale hazard is indifference or carelessness that arises because a person is insured. Moral hazard requires dishonesty, and physical hazard is a tangible condition.",
+      "memoryTip": "Morale = 'meh, I'm covered.'",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Identifies morale hazard",
+            "anyOf": [
+              "morale"
+            ]
+          },
+          {
+            "label": "Explains indifference or carelessness because insured",
+            "anyOf": [
+              "careless",
+              "indifferen",
+              "because he is insured",
+              "insurance will pay",
+              "doesn't care"
+            ]
+          },
+          {
+            "label": "Distinguishes from dishonesty (moral hazard)",
+            "anyOf": [
+              "not dishonest",
+              "no dishonesty",
+              "not lying",
+              "moral hazard requires",
+              "dishonest"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gen-q003",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.1.1.4",
+        "gen.1.1.3"
+      ],
+      "concepts": [
+        "peril",
+        "hazard"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [],
+      "stem": "In a life insurance policy, the death of the insured is best described as the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hazard",
+          "rationale": "Incorrect: a hazard is a condition that makes death more likely, such as smoking, not the death itself."
+        },
+        {
+          "id": "b",
+          "text": "Exposure",
+          "rationale": "Incorrect: exposure is a unit used to measure what is subject to loss."
+        },
+        {
+          "id": "c",
+          "text": "Speculative risk",
+          "rationale": "Incorrect: the possibility of death offers no gain, so it is a pure risk, and in any case death is the event, not the risk."
+        },
+        {
+          "id": "d",
+          "text": "Peril",
+          "rationale": "Correct: a peril is the event that causes the loss; in life insurance that event is death."
+        }
+      ],
+      "correct": "d",
+      "explanation": "A peril is the cause of loss. In life insurance the peril insured against is death; conditions that make death more likely (health problems, dangerous hobbies) are hazards.",
+      "memoryTip": "Peril = the event; Hazard = what helps it happen.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gen-q004",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.1.2.4",
+        "gen.1.2"
+      ],
+      "concepts": [
+        "risk-reduction",
+        "risk-avoidance",
+        "risk-transfer"
+      ],
+      "difficulty": 2,
+      "style": "application",
+      "tags": [],
+      "scenario": "An employer opens an on-site fitness center and offers free smoking-cessation classes so its employees will have fewer heart attacks and lung diseases.",
+      "stem": "Which method of handling risk is the employer primarily using with these programs?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Reduction",
+          "rationale": "Correct: the programs lower the likelihood and severity of illness without eliminating the risk — that is risk reduction."
+        },
+        {
+          "id": "b",
+          "text": "Avoidance",
+          "rationale": "Incorrect: avoidance would require eliminating the activity or exposure entirely, which is not happening here."
+        },
+        {
+          "id": "c",
+          "text": "Transfer",
+          "rationale": "Incorrect: transfer shifts the financial consequences to another party, such as an insurer; the programs do not do that."
+        },
+        {
+          "id": "d",
+          "text": "Retention",
+          "rationale": "Incorrect: retention means accepting the cost of losses yourself; the programs aim to make losses less likely."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Risk reduction lowers the chance or severity of a loss without eliminating the exposure. Wellness programs, smoking-cessation programs and safety equipment are classic examples.",
+      "memoryTip": "Reduction = do it, but more safely.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gen-q005",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.1.2.6"
+      ],
+      "concepts": [
+        "insurable-risk",
+        "pure-risk"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "Each of the following is an element of an insurable risk EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The loss must be due to chance",
+          "rationale": "Not the answer: this IS an element — insurable losses must be accidental or unintentional."
+        },
+        {
+          "id": "b",
+          "text": "The insured must be able to profit from the loss",
+          "rationale": "Correct choice: this is NOT an element. A risk that allows profit is speculative and not insurable; insurance is meant to restore, not enrich."
+        },
+        {
+          "id": "c",
+          "text": "The loss must be definite and measurable",
+          "rationale": "Not the answer: this IS an element — the insurer must be able to tell when a loss occurred and how much it was."
+        },
+        {
+          "id": "d",
+          "text": "The loss must not be catastrophic to the insurer",
+          "rationale": "Not the answer: this IS an element — the insurer must not face a loss that strikes most insureds at once."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Insurable risks must be due to chance, definite and measurable, predictable through a large number of similar exposure units, not catastrophic, and economically feasible. Only pure risks (no chance of gain) are insurable.",
+      "memoryTip": "Insurance restores — it never rewards.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gen-q006",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.1.2.7",
+        "gen.1.2.8"
+      ],
+      "concepts": [
+        "adverse-selection",
+        "law-of-large-numbers"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "A small health plan lets anyone join at any time, at one price, with no questions asked. Within a year, its members are far sicker than the general population, and claims greatly exceed premiums.",
+      "stem": "Which concept best explains the plan's problem?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Law of large numbers",
+          "rationale": "Incorrect: the plan's group is large; the problem is that it is not a representative mix of risks, which the law of large numbers assumes."
+        },
+        {
+          "id": "b",
+          "text": "Morale hazard",
+          "rationale": "Incorrect: morale hazard is carelessness after being insured; the issue here is WHO chose to enroll."
+        },
+        {
+          "id": "c",
+          "text": "Adverse selection",
+          "rationale": "Correct: people most likely to have claims sought coverage more than average risks did, working against the plan."
+        },
+        {
+          "id": "d",
+          "text": "Reinsurance",
+          "rationale": "Incorrect: reinsurance is a way for an insurer to transfer risk to another insurer, not the cause of the problem."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Adverse selection is the tendency of poorer-than-average risks to seek insurance more than average risks. Insurers counter it through underwriting, enrollment periods and similar controls. The law of large numbers only works when the group is a spread of similar, representative risks.",
+      "memoryTip": "Adverse selection = the sick sign up first.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Names adverse selection",
+            "anyOf": [
+              "adverse selection",
+              "antiselection"
+            ]
+          },
+          {
+            "label": "High-risk people more likely to buy",
+            "anyOf": [
+              "sicker",
+              "higher risk",
+              "high-risk",
+              "more likely to buy",
+              "seek",
+              "poorer"
+            ]
+          },
+          {
+            "label": "Underwriting or enrollment rules control it",
+            "anyOf": [
+              "underwrit",
+              "enrollment period",
+              "waiting period",
+              "screen"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gen-q007",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.1.2.8"
+      ],
+      "concepts": [
+        "law-of-large-numbers",
+        "exposure"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "Why does an insurer want to insure a large number of similar exposure units?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "So that each insured pays exactly the same premium",
+          "rationale": "Incorrect: premiums still vary with age, health and other rating factors."
+        },
+        {
+          "id": "b",
+          "text": "So that it can tell which insureds will have a loss",
+          "rationale": "Incorrect: no number of insureds allows prediction of which individual will have a loss."
+        },
+        {
+          "id": "c",
+          "text": "So that the chance of any one person's loss is reduced",
+          "rationale": "Incorrect: insuring more people does not change any individual's chance of loss."
+        },
+        {
+          "id": "d",
+          "text": "So that actual losses more closely match predicted losses",
+          "rationale": "Correct: this is the law of large numbers — the larger the group of similar units, the more predictable the losses."
+        }
+      ],
+      "correct": "d",
+      "explanation": "The law of large numbers says that as the number of similar, independent exposure units grows, actual results come closer to expected results. That predictability lets insurers set adequate premiums.",
+      "memoryTip": "More coin flips = closer to 50/50.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gen-q008",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.1.2.9"
+      ],
+      "concepts": [
+        "reinsurance"
+      ],
+      "difficulty": 2,
+      "style": "application",
+      "tags": [],
+      "scenario": "A life insurer issues a $30 million policy. It keeps $10 million of the risk and transfers the other $20 million, along with a share of the premium, to a second company.",
+      "stem": "In this arrangement, the second company is the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Reinsurer",
+          "rationale": "Correct: the company that accepts risk from another insurer is the reinsurer."
+        },
+        {
+          "id": "b",
+          "text": "Ceding insurer",
+          "rationale": "Incorrect: the ceding insurer is the first company — the one giving away part of its risk."
+        },
+        {
+          "id": "c",
+          "text": "Fraternal benefit society",
+          "rationale": "Incorrect: a fraternal is a membership-based insurer, not a role in a risk-transfer arrangement."
+        },
+        {
+          "id": "d",
+          "text": "Policyowner",
+          "rationale": "Incorrect: the policyowner is the customer who bought the original policy."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Reinsurance is insurance for insurers. The ceding insurer transfers part of a large risk to a reinsurer in exchange for part of the premium, protecting itself from a single catastrophic claim. The original insurer stays responsible to its policyowner.",
+      "memoryTip": "Ceding cedes (gives); the reinsurer receives.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gen-q009",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.2.1.1",
+        "gen.2.1.2"
+      ],
+      "concepts": [
+        "mutual-insurer",
+        "stock-insurer"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [
+        "tricky"
+      ],
+      "stem": "Which statement correctly contrasts a mutual insurer with a stock insurer?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A mutual insurer guarantees its policyowner dividends; a stock insurer does not",
+          "rationale": "Incorrect: policyowner dividends from a mutual insurer are never guaranteed."
+        },
+        {
+          "id": "b",
+          "text": "A mutual insurer is owned by its policyowners; a stock insurer is owned by shareholders",
+          "rationale": "Correct: ownership is the defining difference between the two."
+        },
+        {
+          "id": "c",
+          "text": "A stock insurer is owned by policyowners; a mutual insurer is owned by investors",
+          "rationale": "Incorrect: this reverses the ownership of the two types."
+        },
+        {
+          "id": "d",
+          "text": "A mutual insurer must operate through a lodge system; a stock insurer may not",
+          "rationale": "Incorrect: a lodge system is a feature of fraternal benefit societies, not mutual insurers."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Stock insurers are owned by shareholders, who may receive stockholder dividends from profits; they traditionally issue nonparticipating policies. Mutual insurers are owned by policyowners and typically issue participating policies that may pay dividends — a return of excess premium that is never guaranteed.",
+      "memoryTip": "Mutual = members own it; Stock = stockholders own it.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gen-q010",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.2.3",
+        "gen.2.4"
+      ],
+      "concepts": [
+        "foreign-insurer",
+        "admitted-insurer",
+        "domestic-insurer",
+        "alien-insurer"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "An insurer is incorporated in Delaware, has its headquarters in New Jersey, and holds a certificate of authority issued by New York.",
+      "stem": "From New York's point of view, how is this insurer classified?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Domestic and admitted",
+          "rationale": "Incorrect: the insurer is incorporated in Delaware, not New York, so it is not domestic to New York."
+        },
+        {
+          "id": "b",
+          "text": "Alien and nonadmitted",
+          "rationale": "Incorrect: alien means incorporated outside the U.S., and the certificate of authority makes it admitted."
+        },
+        {
+          "id": "c",
+          "text": "Foreign and admitted",
+          "rationale": "Correct: incorporated in another U.S. state = foreign; holding a New York certificate of authority = admitted."
+        },
+        {
+          "id": "d",
+          "text": "Foreign and nonadmitted",
+          "rationale": "Incorrect: it holds a New York certificate of authority, so it is admitted."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Domestic/foreign/alien depends on the state or country of incorporation (not headquarters). Admitted/nonadmitted depends on whether the insurer holds a certificate of authority in that state. The two classifications are independent.",
+      "memoryTip": "Where born = domestic/foreign/alien; permission = admitted/nonadmitted.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Uses state of incorporation, not headquarters",
+            "anyOf": [
+              "incorporat",
+              "organized"
+            ]
+          },
+          {
+            "label": "Foreign = another U.S. state",
+            "anyOf": [
+              "foreign"
+            ]
+          },
+          {
+            "label": "Admitted because of certificate of authority",
+            "anyOf": [
+              "certificate of authority",
+              "authorized",
+              "admitted"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gen-q011",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.3.3.3",
+        "gen.3.1"
+      ],
+      "concepts": [
+        "apparent-authority",
+        "law-of-agency"
+      ],
+      "difficulty": 2,
+      "style": "application",
+      "tags": [],
+      "scenario": "An insurer terminates agent Marco but never collects his supply of company application forms and premium receipts. Marco later takes an application and premium from Diane, gives her an official company receipt, and keeps the money.",
+      "stem": "Which type of authority most likely binds the insurer to Diane's payment?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Express authority",
+          "rationale": "Incorrect: Marco's contract was terminated, so he no longer has any authority actually granted in writing."
+        },
+        {
+          "id": "b",
+          "text": "Implied authority",
+          "rationale": "Incorrect: implied authority flows from express authority, which Marco no longer has."
+        },
+        {
+          "id": "c",
+          "text": "Fiduciary authority",
+          "rationale": "Incorrect: 'fiduciary' describes a duty of trust in handling funds, not a type of agent authority."
+        },
+        {
+          "id": "d",
+          "text": "Apparent authority",
+          "rationale": "Correct: the insurer's failure to retrieve its forms and receipts led Diane to reasonably believe Marco still represented it."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Apparent authority arises when the principal's conduct (here, leaving company materials with a terminated agent) leads a third party to reasonably believe the agent has authority. The insurer can be bound even though the agent's actual (express and implied) authority has ended.",
+      "memoryTip": "Apparent = it appeared real because the insurer let it.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gen-q012",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.3.1",
+        "gen.3.2"
+      ],
+      "concepts": [
+        "law-of-agency",
+        "insurer"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "When an agent acts within the scope of the agent's authority, the law treats the act as the act of the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Insurer",
+          "rationale": "Correct: the insurer is the principal, and an agent acting within authority acts for the principal."
+        },
+        {
+          "id": "b",
+          "text": "Applicant",
+          "rationale": "Incorrect: the agent represents the insurer, not the applicant."
+        },
+        {
+          "id": "c",
+          "text": "Superintendent of Financial Services",
+          "rationale": "Incorrect: the superintendent regulates insurers and producers but is not the agent's principal."
+        },
+        {
+          "id": "d",
+          "text": "Beneficiary",
+          "rationale": "Incorrect: the beneficiary is a person who receives policy proceeds, not the agent's principal."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Under the law of agency, the insurer is the principal. An agent's acts within the scope of authority bind the insurer, and knowledge given to the agent is presumed to be knowledge of the insurer.",
+      "memoryTip": "Agent acts = insurer acts.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gen-q013",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.1.2"
+      ],
+      "concepts": [
+        "consideration",
+        "premium"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "The applicant's consideration in an insurance contract consists of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The promise to pay all future premiums when they are due",
+          "rationale": "Incorrect: the policyowner makes no enforceable promise to pay future premiums; insurance is a unilateral contract."
+        },
+        {
+          "id": "b",
+          "text": "The initial premium and the statements in the application",
+          "rationale": "Correct: the applicant gives the first premium plus the information in the application."
+        },
+        {
+          "id": "c",
+          "text": "The promise to pay covered claims according to the policy",
+          "rationale": "Incorrect: that is the insurer's consideration."
+        },
+        {
+          "id": "d",
+          "text": "The agent's commission on the sale of the policy",
+          "rationale": "Incorrect: commissions are paid by the insurer to the agent and are not consideration from the applicant."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Consideration is the value each party exchanges. The applicant gives the initial premium and the statements in the application; the insurer gives its promise to pay covered losses.",
+      "memoryTip": "You give premium + truth; they give a promise.",
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gen-q014",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.2.4"
+      ],
+      "concepts": [
+        "unilateral-contract",
+        "conditional-contract",
+        "aleatory-contract"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Rosa owns a 20-year term life policy. After five years she stops paying premiums and the policy lapses. The insurer cannot sue her to collect the premiums for the remaining 15 years.",
+      "stem": "Which characteristic of insurance contracts explains why the insurer cannot sue Rosa?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Aleatory",
+          "rationale": "Incorrect: aleatory describes the unequal, chance-based exchange of value, not who is legally bound to perform."
+        },
+        {
+          "id": "b",
+          "text": "Adhesion",
+          "rationale": "Incorrect: adhesion means the insurer drafted the contract, which affects how ambiguities are read."
+        },
+        {
+          "id": "c",
+          "text": "Unilateral",
+          "rationale": "Correct: only the insurer makes a legally enforceable promise; Rosa never promised to keep paying."
+        },
+        {
+          "id": "d",
+          "text": "Personal",
+          "rationale": "Incorrect: personal means the contract is based on a particular insured's characteristics."
+        }
+      ],
+      "correct": "c",
+      "explanation": "In a unilateral contract only one party (the insurer) makes an enforceable promise. The policyowner can stop paying premiums at any time; the consequence is that coverage lapses (or nonforfeiture options apply), not a lawsuit.",
+      "memoryTip": "Uni = one promise, made by the insurer.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gen-q015",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.3.3",
+        "gen.4.3.5"
+      ],
+      "concepts": [
+        "misrepresentation",
+        "rescission",
+        "representation"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "One year after her New York individual life policy was issued, Joan dies. Her application said she had never been treated for heart disease, but she had been treated for it the year before applying. The insurer's underwriting records show it declines applicants with that treatment history.",
+      "stem": "Under New York law, may the insurer avoid the policy because of the false answer?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No, because a misrepresentation can never void a life insurance policy in New York",
+          "rationale": "Incorrect: § 3105(b) allows a material misrepresentation to avoid a contract."
+        },
+        {
+          "id": "b",
+          "text": "No, because New York requires every misrepresentation to be intentional before any policy can be voided",
+          "rationale": "Incorrect: the added 'intentional' requirement in § 3105(b)(2) applies to hospital, medical, surgical or prescription drug expense insurance, not to this life policy."
+        },
+        {
+          "id": "c",
+          "text": "Yes, because any false answer on an application automatically voids the policy",
+          "rationale": "Incorrect: an immaterial misrepresentation does not avoid the contract under § 3105(b)(1)."
+        },
+        {
+          "id": "d",
+          "text": "Yes, because the misrepresentation is material — knowing the truth, the insurer would have refused the contract",
+          "rationale": "Correct: § 3105(b)(1) makes a misrepresentation material if knowledge of the facts would have led the insurer to refuse the contract."
+        }
+      ],
+      "correct": "d",
+      "explanation": "NY Insurance Law § 3105(a) defines a misrepresentation as a false representation. Under § 3105(b)(1) it avoids the contract only if material, meaning knowledge of the true facts would have led the insurer to refuse to make the contract; § 3105(c) lets the insurer prove this with its practice on similar risks. Because the policy is still within its first two years, the incontestable clause (§ 3203(a)(3)) does not yet bar the challenge.",
+      "memoryTip": "Material = 'Had we known, we'd have said no.'",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Misrepresentation must be material",
+            "anyOf": [
+              "material"
+            ]
+          },
+          {
+            "label": "Materiality test: insurer would have refused the contract",
+            "anyOf": [
+              "refus",
+              "declin",
+              "would not have issued",
+              "said no"
+            ]
+          },
+          {
+            "label": "Still within the two-year contestable period",
+            "anyOf": [
+              "two year",
+              "2 year",
+              "two-year",
+              "contestable",
+              "incontestab"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3105",
+        "ny-isc-3203"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gen-q016",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.3.3",
+        "gen.4.3.4"
+      ],
+      "concepts": [
+        "representation",
+        "warranty"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "Under New York law, statements made by an applicant in an application for life insurance are deemed to be:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Representations, not warranties",
+          "rationale": "Correct: NY Insurance Law § 3204(c) says such statements are deemed representations and not warranties."
+        },
+        {
+          "id": "b",
+          "text": "Warranties that must be literally true in every detail",
+          "rationale": "Incorrect: § 3204(c) expressly says the statements are not warranties."
+        },
+        {
+          "id": "c",
+          "text": "Promises about the applicant's future conduct",
+          "rationale": "Incorrect: a representation is a statement of past or present fact (§ 3105(a)), not a promise about the future."
+        },
+        {
+          "id": "d",
+          "text": "Opinions that have no legal effect on the contract",
+          "rationale": "Incorrect: material misrepresentations can avoid the contract under § 3105(b)."
+        }
+      ],
+      "correct": "a",
+      "explanation": "NY Insurance Law § 3204(c) provides that all statements made by or for the applicant for the issuance, reinstatement or renewal of a life, accident or health policy are deemed representations and not warranties. Under § 3105, a representation is a statement of past or present fact, and a false one matters only if material.",
+      "memoryTip": "Applications contain Representations — 'to the best of my knowledge.'",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3204",
+        "ny-isc-3105"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gen-q017",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.3.4"
+      ],
+      "concepts": [
+        "warranty"
+      ],
+      "difficulty": 3,
+      "style": "negative",
+      "tags": [
+        "negative-wording",
+        "tricky",
+        "ny-law"
+      ],
+      "stem": "Under NY Insurance Law § 3106, which statement about warranties is NOT correct?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A warranty can make the existence of a fact a condition precedent to the insurer's liability",
+          "rationale": "Not the answer: this statement is true — § 3106(a) defines a warranty this way."
+        },
+        {
+          "id": "b",
+          "text": "Any breach of warranty voids the entire contract, even if the breach does not increase the risk",
+          "rationale": "Correct choice: this statement is NOT correct. § 3106(b) says a breach does not avoid the contract unless it materially increases the risk of loss."
+        },
+        {
+          "id": "c",
+          "text": "The term 'risk' in the warranty definition includes both physical and moral hazards",
+          "rationale": "Not the answer: this statement is true — § 3106(a) says 'risk' includes both physical and moral hazards."
+        },
+        {
+          "id": "d",
+          "text": "A breach that materially increases the risk of a covered loss can defeat recovery",
+          "rationale": "Not the answer: this statement is true — that is exactly the condition § 3106(b) sets."
+        }
+      ],
+      "correct": "b",
+      "explanation": "NY Insurance Law § 3106(a) defines a warranty as a contract provision that makes the existence (or non-existence) of a risk-related fact a condition precedent to the contract or the insurer's liability. Under § 3106(b), a breach of warranty does not avoid the contract or defeat recovery unless it materially increases the risk of the loss covered.",
+      "memoryTip": "NY warranty breach must MATERIALLY raise the risk.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3106"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gen-q018",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.3.8"
+      ],
+      "concepts": [
+        "estoppel",
+        "waiver"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "For three years an insurer has accepted Sofia's premiums ten days after the grace period ended, without objection or any reinstatement requirement. She dies the day after mailing another late premium, which the insurer receives and deposits.",
+      "stem": "If the insurer now denies the claim because the premium was late, which legal concept would Sofia's family most likely rely on?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Indemnity",
+          "rationale": "Incorrect: indemnity concerns restoring the insured without profit; it does not address the insurer's past conduct."
+        },
+        {
+          "id": "b",
+          "text": "Concealment",
+          "rationale": "Incorrect: concealment is the applicant's withholding of material facts; it does not protect the policyowner here."
+        },
+        {
+          "id": "c",
+          "text": "Estoppel",
+          "rationale": "Correct: having repeatedly accepted late premiums, the insurer may be prevented from denying coverage for a late payment Sofia relied on it accepting."
+        },
+        {
+          "id": "d",
+          "text": "Utmost good faith",
+          "rationale": "Incorrect: although honesty matters, the specific doctrine that bars the insurer from going back on its conduct is estoppel."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Waiver is the voluntary giving up of a known right; estoppel prevents a party from reasserting that right after the other party relied on the earlier conduct. Repeatedly accepting late premiums can waive the timely-payment requirement and estop the insurer from denying a claim on that basis.",
+      "memoryTip": "Waive it, then you're estopped from taking it back.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gen-q019",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.2.5"
+      ],
+      "concepts": [
+        "rating-service"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "What do independent rating services evaluate when they rate an insurance company?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its financial strength and ability to meet obligations",
+          "rationale": "Correct: rating services grade insurers' financial strength and claims-paying ability."
+        },
+        {
+          "id": "b",
+          "text": "Whether its agents are properly licensed",
+          "rationale": "Incorrect: licensing is handled by the state insurance regulator."
+        },
+        {
+          "id": "c",
+          "text": "Whether its policy forms comply with state law",
+          "rationale": "Incorrect: policy form compliance is reviewed by the state insurance department."
+        },
+        {
+          "id": "d",
+          "text": "How many complaints its agents receive from consumers",
+          "rationale": "Incorrect: complaint handling is a regulatory function, not the focus of financial strength ratings."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Independent rating services such as A.M. Best, Standard & Poor's, Moody's and Fitch are private firms that evaluate insurers' financial strength. A strong rating suggests a company is well positioned to pay claims, but it is not a guarantee, and the services do not regulate insurers.",
+      "memoryTip": "Ratings = report card on the insurer's wallet.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gen-q020",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.3.6",
+        "gen.4.3.7",
+        "gen.4.3.3"
+      ],
+      "concepts": [
+        "concealment",
+        "misrepresentation",
+        "fraud"
+      ],
+      "difficulty": 3,
+      "style": "comparison",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Alan answers every question on a life application truthfully. The application does not ask about future plans, and Alan does not mention that he has signed up for a dangerous high-altitude climbing expedition next month, knowing the insurer would want to know.",
+      "stem": "Which term best describes Alan's conduct?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Misrepresentation",
+          "rationale": "Incorrect: Alan answered every question truthfully; misrepresentation requires a false statement."
+        },
+        {
+          "id": "b",
+          "text": "Warranty",
+          "rationale": "Incorrect: a warranty is a contract provision guaranteed to be true, not the applicant's silence."
+        },
+        {
+          "id": "c",
+          "text": "Waiver",
+          "rationale": "Incorrect: waiver is a party voluntarily giving up a known right."
+        },
+        {
+          "id": "d",
+          "text": "Concealment",
+          "rationale": "Correct: Alan knowingly withheld a material fact the insurer would have wanted, without making a false statement."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Concealment is the failure to disclose a known material fact. It differs from misrepresentation (a false statement) and from fraud (intentional deception that the insurer relies on to its harm). Utmost good faith requires the applicant to disclose material facts, not just to avoid lying.",
+      "memoryTip": "Misrepresentation speaks falsely; concealment stays silent.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Identifies concealment",
+            "anyOf": [
+              "conceal"
+            ]
+          },
+          {
+            "label": "Withheld a known material fact",
+            "anyOf": [
+              "withh",
+              "did not mention",
+              "silent",
+              "failed to disclose",
+              "material"
+            ]
+          },
+          {
+            "label": "No false statement, so not misrepresentation",
+            "anyOf": [
+              "truthful",
+              "no false",
+              "not a misrepresentation",
+              "didn't lie",
+              "did not lie"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

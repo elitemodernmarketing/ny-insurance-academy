@@ -1,0 +1,790 @@
+{
+ "sectionId": "plauto",
+ "terms": [
+  {
+   "id": "personal-auto-policy",
+   "term": "Personal Auto Policy (PAP)",
+   "aliases": [
+    "PAP",
+    "personal auto policy (2005)"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2",
+    "plauto.2.1",
+    "plauto.2.2"
+   ],
+   "formal": "The standard insurance services office (ISO) personal auto form (2005 edition) used for individually owned private passenger vehicles. It is organized into a declarations page, definitions, and parts for liability, medical payments, uninsured motorists, damage to your auto, duties after an accident or loss, and general provisions. In New York it is modified by state endorsements (for example, the NY amendment of policy provisions and the mandatory PIP endorsement).",
+   "plain": "The PAP is the everyday car insurance policy for individuals and families. It covers your liability to others, injuries to people in your car, and damage to your own car, and it explains what you must do after an accident. New York adds its own endorsements so the policy meets state law.",
+   "simpler": "It is a menu with several sections: you choose which coverages (liability, physical damage and so on) to order, and the declarations page is your receipt.",
+   "examples": [
+    "Hannah and her husband own two cars and insure both on one PAP; the declarations page lists both vehicles and the coverages and limits for each.",
+    "A business that owns a fleet of delivery trucks would use a commercial auto form, not the PAP, because the PAP is designed for individually owned private passenger autos."
+   ],
+   "examTip": "Eligibility questions point to individually owned (or spouse-owned) private passenger autos, pickups and vans. In the definitions, 'you' and 'your' mean the named insured shown in the declarations and a spouse who lives in the same household.",
+   "misconception": "The PAP is not a 'package' that automatically includes every coverage. Physical damage coverage, for example, applies only if the declarations show a premium for it.",
+   "related": [
+    "auto-liability-coverage",
+    "auto-medical-payments",
+    "collision-coverage",
+    "comprehensive-coverage",
+    "declarations-page",
+    "named-insured"
+   ],
+   "confusedWith": [],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "Which of the following would ordinarily be insured under a Personal Auto Policy?",
+    "choices": [
+     "A private passenger car owned by a married couple",
+     "A fleet of delivery trucks owned by a corporation",
+     "A taxi used to carry paying passengers",
+     "A dump truck used in a construction business"
+    ],
+    "answerIndex": 0,
+    "explanation": "The PAP is designed for individually owned private passenger vehicles. Corporate fleets, vehicles for hire and business trucks are written on commercial auto forms."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "auto-liability-coverage",
+   "term": "Auto Liability Coverage",
+   "aliases": [
+    "Part A",
+    "bodily injury and property damage liability"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.3",
+    "plauto.2.3.1",
+    "plauto.2.3.3",
+    "plauto.2.3.4"
+   ],
+   "formal": "The PAP coverage (Part A) under which the insurer pays damages for bodily injury or property damage for which an insured is legally responsible because of an auto accident, and defends the insured, with defense costs paid in addition to the limit. Insureds include the named insured and resident family members using any auto, and anyone using the covered auto (with permission). Key exclusions include intentional injury, property owned by or in the care of the insured, vehicles used as a public or livery conveyance, and vehicles owned by or furnished for the regular use of the insured that are not listed.",
+   "plain": "Liability coverage pays other people when you (or someone driving your car with permission) cause an accident that injures them or damages their property. It also pays lawyers to defend you. It never pays for your own car or your own injuries.",
+   "simpler": "Liability coverage is your 'I'm sorry' fund: it pays others for harm you cause with a car.",
+   "examples": [
+    "Tess runs a stop sign and hits Alan's car, injuring Alan. Tess's liability coverage pays Alan's bodily injury and car damage claims up to her limits and defends her if Alan sues.",
+    "Tess's teenage son, who lives with her, borrows a friend's car and causes an accident. Tess's policy covers him as a family member using an auto."
+   ],
+   "examTip": "Liability = third-party coverage. Defense costs are paid in addition to the limits, and the insurer's duty to defend ends when the limit is used up by paying judgments or settlements.",
+   "misconception": "Liability coverage does not pay for damage to property the insured owns or is transporting, and it does not pay for the insured's own injuries.",
+   "related": [
+    "split-limits",
+    "combined-single-limit",
+    "supplementary-payments",
+    "duty-to-defend",
+    "financial-responsibility-law"
+   ],
+   "confusedWith": [
+    "collision-coverage"
+   ],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "Under the PAP, whose losses does the liability coverage pay for?",
+    "choices": [
+     "Other people injured or whose property is damaged by the insured",
+     "The insured's own car after a collision",
+     "The insured's own medical bills",
+     "The insured's lost wages after an accident"
+    ],
+    "answerIndex": 0,
+    "explanation": "Liability coverage is third-party coverage: it pays damages the insured is legally responsible for to others, plus defense. The insured's own car and injuries fall under physical damage, PIP or medical payments coverages."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "supplementary-payments",
+   "term": "Supplementary Payments (Auto)",
+   "aliases": [
+    "supplementary payments"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.3.2"
+   ],
+   "formal": "Additional payments the PAP liability coverage makes on top of the limit of liability, such as the cost of bail bonds (up to a stated amount) required because of an accident, premiums on appeal bonds and bonds to release attachments, interest accruing after a judgment, a daily allowance for the insured's lost earnings when attending hearings or trials at the insurer's request, and other reasonable expenses incurred at the insurer's request.",
+   "plain": "Supplementary payments are extra costs the insurer pays while handling a liability claim, beyond the policy limit, such as interest on a court judgment or pay for days you miss work to go to trial because the insurer asked you to.",
+   "simpler": "They are the 'extras' on the bill that the insurer covers without eating into the main limit.",
+   "examples": [
+    "The insurer asks Lou to testify at trial, and he misses two days of work. The policy pays a daily earnings allowance under supplementary payments, separate from the liability limit.",
+    "A $100,000 judgment is entered against an insured with a $100,000 limit, and post-judgment interest builds up before payment; the interest is paid as a supplementary payment."
+   ],
+   "examTip": "Remember that supplementary payments are paid in addition to the limit of liability. Typical items: bail bonds, appeal/attachment bond premiums, post-judgment interest, loss of earnings for attending trial, and other reasonable expenses at the insurer's request.",
+   "misconception": "Supplementary payments are not damages owed to the injured person, and they do not reduce the liability limit.",
+   "related": [
+    "auto-liability-coverage",
+    "duty-to-defend"
+   ],
+   "confusedWith": [],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "How do supplementary payments affect the PAP liability limit?",
+    "choices": [
+     "They are paid in addition to the limit",
+     "They reduce the limit dollar for dollar",
+     "They replace the limit when it is exhausted",
+     "They apply only after the deductible is met"
+    ],
+    "answerIndex": 0,
+    "explanation": "Supplementary payments (bond premiums, post-judgment interest, lost earnings for attending trial and similar items) are paid in addition to the liability limit."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "auto-medical-payments",
+   "term": "Auto Medical Payments Coverage",
+   "aliases": [
+    "MedPay",
+    "Part B"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.4"
+   ],
+   "formal": "Optional PAP coverage (Part B) that pays reasonable expenses for necessary medical and funeral services because of bodily injury caused by an accident and sustained by an insured, regardless of fault, for services rendered within a stated period after the accident. Insureds generally include the named insured and family members while occupying a motor vehicle or as pedestrians struck by one, and any other person while occupying the covered auto.",
+   "plain": "Medical payments pays medical and funeral bills for you, your family and your passengers after an auto accident, no matter who was at fault. It is a first-party coverage with a modest per-person limit.",
+   "simpler": "MedPay is a small first-aid fund for the people in your car.",
+   "examples": [
+    "Gina's friend is hurt while riding in Gina's covered car. Gina's medical payments coverage can pay the friend's reasonable medical bills, regardless of fault.",
+    "Gina is hit by a car while walking; as a named insured struck as a pedestrian, she can use her medical payments coverage."
+   ],
+   "examTip": "MedPay is first-party, no-fault-style coverage, limited to medical and funeral expenses. In New York, mandatory PIP does most of this job, so MedPay is less central than in states without no-fault.",
+   "misconception": "MedPay does not pay lost wages, pain and suffering, or other people's claims against the insured; it is not liability coverage.",
+   "related": [
+    "personal-injury-protection",
+    "auto-liability-coverage",
+    "coverage-f-medical-payments"
+   ],
+   "confusedWith": [
+    "personal-injury-protection",
+    "coverage-f-medical-payments"
+   ],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "Which expense does PAP medical payments coverage pay?",
+    "choices": [
+     "Reasonable medical and funeral expenses of an insured",
+     "The insured's lost wages after an accident",
+     "Damages for the other driver's pain and suffering",
+     "Repair costs for the insured's damaged car"
+    ],
+    "answerIndex": 0,
+    "explanation": "Medical payments coverage pays necessary medical and funeral expenses for insureds, regardless of fault. Lost wages are a PIP benefit; pain and suffering is a liability matter; car repairs are physical damage."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "collision-coverage",
+   "term": "Collision Coverage",
+   "aliases": [
+    "Part D collision"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.5",
+    "plauto.2.5.1",
+    "plauto.2.5.3",
+    "plauto.2.5.5"
+   ],
+   "formal": "Physical damage coverage for direct and accidental loss to the covered auto (or a non-owned auto) caused by the upset of the vehicle or its impact with another vehicle or object, subject to a deductible and paid regardless of fault. Loss is generally paid at the lesser of actual cash value or the cost to repair or replace, minus the deductible.",
+   "plain": "Collision pays to fix your own car when it hits something or rolls over, whether or not you caused the accident, after you pay your deductible.",
+   "simpler": "Collision = your car crashes into something (or flips).",
+   "examples": [
+    "Paolo backs into a pole and dents his bumper. Repairs cost $1,800 and his collision deductible is $500, so the insurer pays $1,300.",
+    "Jen's car rolls over on an icy road without hitting anything. Upset is collision, so collision coverage applies."
+   ],
+   "examTip": "Collision = impact with another vehicle or object, or upset (rollover). Hitting a bird or animal is NOT collision under the PAP; it is other than collision. Payment is the lesser of ACV or repair cost, minus the deductible.",
+   "misconception": "Collision does not depend on fault, and it never pays the other driver's car (that is property damage liability).",
+   "related": [
+    "comprehensive-coverage",
+    "policy-deductible",
+    "actual-cash-value",
+    "choice-of-repair-shop",
+    "mandatory-auto-inspection"
+   ],
+   "confusedWith": [
+    "comprehensive-coverage",
+    "auto-liability-coverage"
+   ],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "Which loss is covered under collision coverage in the PAP?",
+    "choices": [
+     "The covered car overturns on an icy road",
+     "The covered car is damaged by hail",
+     "The covered car strikes a deer",
+     "The covered car's windshield is cracked by a falling rock"
+    ],
+    "answerIndex": 0,
+    "explanation": "Upset (rollover) is collision. Hail, contact with an animal and falling objects are other-than-collision (comprehensive) losses."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "comprehensive-coverage",
+   "term": "Other Than Collision (Comprehensive) Coverage",
+   "aliases": [
+    "comprehensive",
+    "OTC",
+    "other than collision"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.5",
+    "plauto.2.5.2",
+    "plauto.2.5.3",
+    "plauto.2.5.5"
+   ],
+   "formal": "Physical damage coverage for direct and accidental loss to the covered auto from causes other than collision, including missiles or falling objects, fire, theft or larceny, explosion or earthquake, windstorm, hail, water or flood, malicious mischief or vandalism, riot or civil commotion, contact with a bird or animal, and glass breakage (glass breakage caused by a collision may be treated as collision at the insured's option).",
+   "plain": "Comprehensive pays when your car is damaged by something other than a crash: theft, fire, hail, a falling tree, vandalism, flooding, or hitting a deer.",
+   "simpler": "Comprehensive = 'acts of nature, animals and bad people,' not crashes.",
+   "examples": [
+    "A hailstorm dents Ravi's hood. Repairs cost $2,200 and his comprehensive deductible is $250, so the insurer pays $1,950.",
+    "Mona's car is stolen from a parking lot and not recovered. Theft is covered under other than collision coverage, subject to the deductible."
+   ],
+   "examTip": "The exam's favorite trap: hitting a deer or bird is other than collision, not collision. Glass breakage is comprehensive unless it happened in a collision and the insured chooses to treat it as collision.",
+   "misconception": "Comprehensive is not 'all risks with no exclusions.' Wear and tear, mechanical breakdown and road damage to tires are excluded.",
+   "related": [
+    "collision-coverage",
+    "policy-deductible",
+    "actual-cash-value",
+    "transportation-expenses",
+    "choice-of-repair-shop"
+   ],
+   "confusedWith": [
+    "collision-coverage"
+   ],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "Under the PAP, a driver hits a deer. Which coverage applies to the damage to the insured's car?",
+    "choices": [
+     "Other than collision (comprehensive)",
+     "Collision",
+     "Property damage liability",
+     "Medical payments"
+    ],
+    "answerIndex": 0,
+    "explanation": "Contact with a bird or animal is listed as an other-than-collision loss in the PAP, even though it feels like a collision."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "transportation-expenses",
+   "term": "Transportation Expenses Coverage",
+   "aliases": [
+    "rental reimbursement (PAP)"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.5.4"
+   ],
+   "formal": "A PAP physical damage provision that reimburses temporary transportation costs (and, for a non-owned auto, loss-of-use charges owed to the rental company) when a covered auto is withdrawn from use because of a covered loss, subject to a daily amount and a maximum, after a short waiting period. It applies only if the coverage that pays for the loss itself (collision or other than collision) is on the policy.",
+   "plain": "If your car is stolen or out of service because of a covered physical damage loss, the PAP helps pay for a rental car or other transportation for a limited time, up to a daily cap and a total cap.",
+   "simpler": "It's a short-term bus pass while your car is out of commission.",
+   "examples": [
+    "Kara's car is stolen. After the waiting period, her policy reimburses her rental car costs up to the daily limit and overall maximum shown in the form, because she carries other than collision coverage.",
+    "Lars carries only liability coverage. His car is damaged in a collision, but he has no collision coverage, so no transportation expenses are paid."
+   ],
+   "examTip": "Transportation expenses follow the underlying coverage: no collision coverage means no transportation expense for a collision loss. It is limited by a per-day amount and a maximum, and there is a short waiting period before it starts.",
+   "misconception": "Transportation expenses coverage is not unlimited rental reimbursement; the per-day and total limits are small, and extra rental reimbursement coverage can be bought by endorsement.",
+   "related": [
+    "collision-coverage",
+    "comprehensive-coverage",
+    "consequential-loss"
+   ],
+   "confusedWith": [],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "When does PAP transportation expenses coverage apply to a loss?",
+    "choices": [
+     "When the coverage that applies to the loss itself is on the policy",
+     "Whenever the insured has liability coverage",
+     "Only when the car is a total loss",
+     "Only when the insured is injured in the accident"
+    ],
+    "answerIndex": 0,
+    "explanation": "Transportation expenses follow the physical damage coverage: the policy must carry the collision or other-than-collision coverage that responds to the loss."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "towing-and-labor",
+   "term": "Towing and Labor Costs Coverage",
+   "aliases": [
+    "towing and labor endorsement"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.8",
+    "plauto.2.8.2"
+   ],
+   "formal": "An optional PAP endorsement that pays towing and labor costs, up to a per-disablement limit, when the covered auto (or a non-owned auto) is disabled, provided the labor is performed at the place where the vehicle broke down.",
+   "plain": "Towing and labor pays for a tow or roadside help (such as changing a flat tire or jump-starting a battery) when your car breaks down, up to a small limit each time.",
+   "simpler": "Think of it as roadside assistance added to your policy.",
+   "examples": [
+    "Nate's car won't start in a parking garage. A service truck jump-starts the battery on the spot; the towing and labor endorsement pays the service call up to its limit.",
+    "Nate later has the car towed to a dealer and pays the dealer to replace the alternator in its shop; the shop labor is not 'labor at the place of disablement,' so the endorsement does not pay it."
+   ],
+   "examTip": "Labor is covered only at the place of disablement; shop repairs are not. Towing and labor applies whether or not the breakdown is caused by a covered physical damage loss.",
+   "misconception": "Towing and labor is not part of the basic PAP; it is added by endorsement for an extra premium.",
+   "related": [
+    "personal-auto-policy",
+    "collision-coverage",
+    "endorsement"
+   ],
+   "confusedWith": [],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "Under the towing and labor costs endorsement, which labor cost is covered?",
+    "choices": [
+     "Labor performed at the place where the car broke down",
+     "Labor performed at the dealer's repair shop",
+     "Routine oil changes and tune-ups",
+     "Labor to install aftermarket equipment"
+    ],
+    "answerIndex": 0,
+    "explanation": "The endorsement pays labor performed at the place of disablement (plus towing), up to the per-disablement limit; shop repairs and maintenance are not covered."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "named-non-owner-coverage",
+   "term": "Named Non-Owner Coverage",
+   "aliases": [
+    "non-owner policy",
+    "named non-owner"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.8",
+    "plauto.2.8.5"
+   ],
+   "formal": "An endorsement for a person who does not own a vehicle but drives borrowed, rented or employer-furnished vehicles. It extends the liability-type coverages of the PAP (such as liability, medical payments and uninsured motorist coverage) to the individual named in the declarations, generally on an excess basis over the vehicle owner's insurance, but not to vehicles the named individual owns.",
+   "plain": "If you don't own a car but you drive other people's cars or rentals, a named non-owner policy gives you your own liability protection. It follows you, not a car.",
+   "simpler": "It's liability insurance that travels with the driver instead of the vehicle.",
+   "examples": [
+    "Iris lives in the city, owns no car, and often rents or borrows one. A named non-owner policy gives her liability coverage that applies above the owner's insurance when she drives.",
+    "Iris later buys a car. Her named non-owner coverage does not cover the car she now owns; she needs a regular owner's policy."
+   ],
+   "examTip": "Named non-owner coverage protects the named individual (not family members unless also named) while driving vehicles they do not own. It does not include physical damage coverage for the borrowed car under the basic endorsement and does not cover an owned vehicle.",
+   "misconception": "Named non-owner coverage is not a way to insure a car the person owns or regularly drives as their own; it is for non-owners.",
+   "related": [
+    "auto-liability-coverage",
+    "miscellaneous-type-vehicle",
+    "personal-auto-policy"
+   ],
+   "confusedWith": [
+    "miscellaneous-type-vehicle"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Who is the best candidate for a named non-owner endorsement?",
+    "choices": [
+     "A person who owns no car but often drives rented or borrowed cars",
+     "A family that owns a motor home and two cars",
+     "A person who owns a classic car used only in parades",
+     "A business that owns a fleet of vans"
+    ],
+    "answerIndex": 0,
+    "explanation": "Named non-owner coverage provides liability-type protection for an individual who does not own a vehicle; it follows the named person into vehicles they don't own."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "miscellaneous-type-vehicle",
+   "term": "Miscellaneous Type Vehicle Endorsement",
+   "aliases": [
+    "miscellaneous type vehicle"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.8",
+    "plauto.2.8.3",
+    "plauto.2.8.3"
+   ],
+   "formal": "An endorsement that extends PAP coverages to owned vehicles that are not ordinary private passenger autos, pickups or vans, such as motorcycles, mopeds, motor homes, golf carts, all-terrain vehicles and dune buggies, which the basic policy would otherwise exclude or not treat as covered autos.",
+   "plain": "The basic PAP is written for cars, pickups and vans. If you want to insure a motorcycle, motor home, golf cart or similar vehicle, you add the miscellaneous type vehicle endorsement and list the vehicle.",
+   "simpler": "It's the 'odd vehicles' add-on for anything that isn't a regular car.",
+   "examples": [
+    "Felix adds his motorcycle to his PAP through the miscellaneous type vehicle endorsement so the policy's liability and physical damage coverages apply to it.",
+    "A retired couple insures their motor home by scheduling it on a miscellaneous type vehicle endorsement attached to their PAP."
+   ],
+   "examTip": "Remember the vehicle types: motorcycles, mopeds, motor homes, golf carts, ATVs and similar vehicles. It insures owned vehicles that are listed in the schedule.",
+   "misconception": "The miscellaneous type vehicle endorsement is not for people who own no vehicle; that is named non-owner coverage.",
+   "related": [
+    "named-non-owner-coverage",
+    "personal-auto-policy",
+    "endorsement"
+   ],
+   "confusedWith": [
+    "named-non-owner-coverage"
+   ],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "Which vehicle would be insured by adding a miscellaneous type vehicle endorsement to a PAP?",
+    "choices": [
+     "A motor home owned by the named insured",
+     "A rental car the insured drives on vacation",
+     "A friend's car the insured borrows",
+     "A company car furnished by the insured's employer"
+    ],
+    "answerIndex": 0,
+    "explanation": "The endorsement adds owned vehicles such as motorcycles, motor homes and golf carts. Rented or borrowed vehicles are non-owned autos handled by other provisions."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "rental-vehicle-coverage",
+   "term": "Rental Vehicle Coverage Endorsement",
+   "aliases": [],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.8",
+    "plauto.2.8.6",
+    "plauto.2.8.6"
+   ],
+   "formal": "A New York endorsement to the PAP relating to vehicles the insured rents, which modifies how the policy's coverages apply to a rented vehicle.",
+   "plain": "This endorsement changes how your own auto policy responds when you rent a car.",
+   "simpler": "It's an add-on that tells your policy how to treat a rental car.",
+   "examples": [
+    "Before a vacation, Hal asks his producer whether his policy has the rental vehicle coverage endorsement and what it would pay if the rental car were damaged.",
+    "A producer reviews the endorsement's terms with a client who rents cars frequently for work trips."
+   ],
+   "examTip": "Know that the outline lists a NY rental vehicle coverage endorsement among the selected PAP endorsements, separate from transportation expenses coverage.",
+   "misconception": "Rental vehicle coverage is not the same as transportation expenses, which pays for temporary transportation while your own car is out of service.",
+   "related": [
+    "transportation-expenses",
+    "personal-auto-policy",
+    "endorsement"
+   ],
+   "confusedWith": [
+    "transportation-expenses"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Which PAP provision pays for temporary transportation while the insured's own car is out of service after a covered loss?",
+    "choices": [
+     "Transportation expenses",
+     "Rental vehicle coverage endorsement",
+     "Supplementary payments",
+     "Medical payments"
+    ],
+    "answerIndex": 0,
+    "explanation": "Transportation expenses coverage pays temporary transportation costs after a covered physical damage loss; the rental vehicle coverage endorsement deals with vehicles the insured rents."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "draft",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19",
+    "notes": "Specific terms of the NY rental vehicle coverage endorsement (outline: PP 03 46) could not be verified from a non-copyrighted primary source; definition kept minimal pending review."
+   }
+  },
+  {
+   "id": "joint-ownership-coverage",
+   "term": "Joint Ownership Coverage Endorsement",
+   "aliases": [
+    "joint ownership endorsement"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.8",
+    "plauto.2.8.8",
+    "plauto.2.8.8"
+   ],
+   "formal": "An endorsement that adapts the PAP when a vehicle is jointly owned by two or more people who are not a married couple living together (for example, unrelated people or relatives sharing a household), so that each joint owner and their resident family members are treated as insureds in the way 'you' and 'family member' normally apply.",
+   "plain": "The PAP assumes the car belongs to one person or a married couple. If two roommates or two siblings own a car together, this endorsement makes sure both owners get the full protection a named insured would have.",
+   "simpler": "It makes the policy treat co-owners as if they were both 'you.'",
+   "examples": [
+    "Two unrelated roommates buy a car together and want one policy; the joint ownership endorsement treats both as named insureds for that car.",
+    "A brother and sister who live together and co-own a car add the endorsement so either one is fully covered when driving it."
+   ],
+   "examTip": "Clue words: two or more individuals jointly own a car and are not husband and wife living in the same household.",
+   "misconception": "A married couple living together does not need this endorsement; the PAP already treats a resident spouse as 'you.'",
+   "related": [
+    "named-insured",
+    "personal-auto-policy",
+    "endorsement"
+   ],
+   "confusedWith": [],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "When is the joint ownership coverage endorsement typically needed?",
+    "choices": [
+     "Two unrelated people jointly own and insure one car",
+     "A married couple living together owns two cars",
+     "A person owns no car and drives rentals",
+     "A family adds a motorcycle to its policy"
+    ],
+    "answerIndex": 0,
+    "explanation": "The endorsement adapts the PAP for co-owners who are not a resident married couple; a resident spouse is already treated as 'you' under the PAP."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "out-of-state-coverage",
+   "term": "Out of State Coverage",
+   "aliases": [],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.7",
+    "plauto.2.8.10"
+   ],
+   "formal": "A PAP provision, required in New York by Insurance Law § 5103(e), that when a covered auto is used in another state or Canadian province, the policy provides at least the minimum coverage that jurisdiction requires (for example, higher financial responsibility limits or a compulsory coverage such as no-fault), even if the declarations show lower limits.",
+   "plain": "If you drive your NY-insured car into a state that requires more insurance than you carry, your policy automatically stretches to meet that state's minimum while you are there.",
+   "simpler": "Your policy 'changes its clothes' to match the dress code of whatever state you are driving in.",
+   "examples": [
+    "Rosa carries the NY minimum liability limits and causes an accident in a state with higher compulsory limits. Her policy responds up to that state's required minimum.",
+    "A NY driver traveling in a Canadian province that requires a particular compulsory coverage is treated as having at least the minimum coverage that province requires."
+   ],
+   "examTip": "The out-of-state provision raises coverage to meet another jurisdiction's minimum requirements; it never lowers your limits when the other state's minimums are lower.",
+   "misconception": "Out of state coverage does not make your policy follow the other state's higher limits everywhere; it applies only while the vehicle is used in that jurisdiction.",
+   "related": [
+    "financial-responsibility-law",
+    "auto-liability-coverage",
+    "policy-territory"
+   ],
+   "confusedWith": [],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "A NY insured with minimum limits drives into a state that requires higher liability limits. What happens under NY law?",
+    "choices": [
+     "The policy provides at least that state's required minimum",
+     "The policy is void while outside New York",
+     "Only New York's minimum limits apply",
+     "The insured must buy a separate policy before entering"
+    ],
+    "answerIndex": 0,
+    "explanation": "Insurance Law § 5103(e) requires every NY owner's liability policy to provide, when the vehicle is used in another state or Canadian province, at least the minimum coverage required there."
+   },
+   "sources": [
+    "ny-isc-5103"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ],
+ "comparisons": [
+  {
+   "a": "collision-coverage",
+   "b": "comprehensive-coverage",
+   "keyDifference": "Collision pays for damage to your car from impact with another vehicle or object or from upset (rollover); other than collision (comprehensive) pays for almost everything else: theft, fire, hail, flood, vandalism, falling objects, glass breakage and contact with a bird or animal.",
+   "rows": [
+    {
+     "aspect": "Typical causes",
+     "a": "Hitting a car, pole or guardrail; rollover",
+     "b": "Theft, fire, hail, wind, flood, vandalism, falling objects, animals"
+    },
+    {
+     "aspect": "Hitting a deer",
+     "a": "Not collision",
+     "b": "Covered here (contact with bird or animal)"
+    },
+    {
+     "aspect": "Glass breakage",
+     "a": "Only if caused by a collision and the insured chooses to treat it as collision",
+     "b": "Covered here by default"
+    },
+    {
+     "aspect": "Deductible",
+     "a": "Yes",
+     "b": "Yes (often lower)"
+    },
+    {
+     "aspect": "Fault matters?",
+     "a": "No",
+     "b": "No"
+    }
+   ],
+   "memoryTip": "Collision = Crash or Capsize; Comprehensive = everything else, including Critters."
+  },
+  {
+   "a": "auto-liability-coverage",
+   "b": "collision-coverage",
+   "keyDifference": "Liability is third-party coverage that pays others for injuries and property damage the insured causes; collision is first-party coverage that pays to repair the insured's own car.",
+   "rows": [
+    {
+     "aspect": "Who is paid",
+     "a": "Other people (third parties)",
+     "b": "The insured (first party)"
+    },
+    {
+     "aspect": "Fault required?",
+     "a": "Yes — the insured must be legally responsible",
+     "b": "No — paid regardless of fault"
+    },
+    {
+     "aspect": "Required in NY?",
+     "a": "Yes, at least 25/50 (50/100 death) and $10,000 PD",
+     "b": "No — optional (often required by a lender)"
+    },
+    {
+     "aspect": "Deductible",
+     "a": "Generally none",
+     "b": "Yes"
+    }
+   ],
+   "memoryTip": "Liability pays THEM; collision pays ME."
+  },
+  {
+   "a": "split-limits",
+   "b": "combined-single-limit",
+   "keyDifference": "Split limits state separate caps per person, per accident and for property damage (for example 25/50/10); a combined single limit is one total amount per accident for all bodily injury and property damage.",
+   "rows": [
+    {
+     "aspect": "Format",
+     "a": "Three numbers, e.g., 100/300/50",
+     "b": "One number, e.g., $300,000"
+    },
+    {
+     "aspect": "Per-person cap",
+     "a": "Yes — first number limits what any one injured person receives",
+     "b": "No separate per-person cap"
+    },
+    {
+     "aspect": "Flexibility",
+     "a": "Unused PD limit cannot pay BI, and vice versa",
+     "b": "The whole limit can go to BI, PD or any mix"
+    },
+    {
+     "aspect": "NY TNC example",
+     "a": "75/150/25 while logged on",
+     "b": "$1,250,000 while on a prearranged trip"
+    }
+   ],
+   "memoryTip": "Split = separate buckets; CSL = one big bucket."
+  },
+  {
+   "a": "named-non-owner-coverage",
+   "b": "miscellaneous-type-vehicle",
+   "keyDifference": "Named non-owner coverage insures a person who owns no vehicle while driving vehicles they don't own; the miscellaneous type vehicle endorsement insures specific owned vehicles that aren't ordinary cars (motorcycles, motor homes, golf carts).",
+   "rows": [
+    {
+     "aspect": "Follows",
+     "a": "The named person",
+     "b": "The listed vehicle"
+    },
+    {
+     "aspect": "Owned vehicle?",
+     "a": "No — does not cover vehicles the person owns",
+     "b": "Yes — covers owned, scheduled vehicles"
+    },
+    {
+     "aspect": "Typical buyer",
+     "a": "City resident who rents or borrows cars",
+     "b": "Owner of a motorcycle, RV or golf cart"
+    }
+   ],
+   "memoryTip": "Non-owner = no vehicle; Miscellaneous = odd vehicle."
+  }
+ ]
+}

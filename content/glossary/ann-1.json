@@ -1,0 +1,403 @@
+{
+  "sectionId": "ann",
+  "terms": [
+    {
+      "id": "annuity",
+      "term": "Annuity",
+      "aliases": ["Annuity Contract"],
+      "sectionId": "ann",
+      "outlineIds": ["ann.1", "ann.1.3"],
+      "formal": "A contract, issued by a life insurer, under which the insurer agrees to make a series of periodic payments for a stated period or for the life of one or more persons (the annuitants) in exchange for a single payment or a series of payments.",
+      "plain": "An annuity is the reverse of life insurance. Life insurance creates a fund when you die; an annuity turns a fund into an income stream while you live. It protects against the risk of outliving your money.",
+      "simpler": "Like a personal pension you buy from an insurance company: you hand over money, and it sends you a paycheck later.",
+      "examples": [
+        "At 66, Rosa uses $200,000 of her savings to buy an annuity that pays her a monthly check for the rest of her life.",
+        "Ken puts $500 a month into a deferred annuity during his working years to build retirement savings."
+      ],
+      "examTip": "Life insurance protects against dying too soon; an annuity protects against living too long (outliving income). Annuities are 'insurance' because life-contingent payouts rely on the law of large numbers and mortality tables.",
+      "misconception": "An annuity is not life insurance and does not exist mainly to create a death benefit, although many deferred annuities pay a death benefit if the owner or annuitant dies before payouts begin.",
+      "related": ["annuitant", "accumulation-period", "annuitization", "deferred-annuity", "immediate-annuity", "law-of-large-numbers"],
+      "confusedWith": ["whole-life-insurance"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which risk is an annuity primarily designed to protect against?",
+        "choices": ["Outliving one's income", "Dying too soon", "Becoming disabled", "Needing long-term care"],
+        "answerIndex": 0,
+        "explanation": "Annuities provide income that can last for life, protecting against longevity risk. Dying too soon is covered by life insurance; disability and long-term care need their own coverages."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "annuitant",
+      "term": "Annuitant",
+      "aliases": ["Measuring Life"],
+      "sectionId": "ann",
+      "outlineIds": ["ann.1.2"],
+      "formal": "The person whose life expectancy is used to determine the amount and duration of annuity payments; payments based on a life contingency continue for as long as the annuitant lives.",
+      "plain": "The annuitant is the person whose life the annuity is 'measured' on — usually the person who receives the income. The owner (who buys and controls the contract) is often the same person, but does not have to be.",
+      "simpler": "The annuitant is like the 'insured' in life insurance — the person whose lifespan the contract is built around.",
+      "examples": [
+        "Paul buys an annuity and names himself as owner and annuitant; his age and sex determine the monthly payout.",
+        "Maria owns an annuity on which her husband, Luis, is the annuitant; payments are based on Luis's life expectancy."
+      ],
+      "examTip": "Three roles: OWNER (buys, controls, may change beneficiary), ANNUITANT (the measuring life; usually receives payments) and BENEFICIARY (receives any death benefit). The annuitant must be a natural person; the owner can be a person or an entity such as a trust.",
+      "misconception": "The annuitant is not necessarily the person who paid for the contract; that is the owner. And the beneficiary is not the person receiving lifetime income.",
+      "related": ["annuity", "annuitization", "insured", "policyowner", "beneficiary"],
+      "confusedWith": ["beneficiary", "policyowner"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "In an annuity, whose life expectancy determines the amount of life-contingent payments?",
+        "choices": ["The annuitant", "The beneficiary", "The owner, if different from the annuitant", "The selling producer"],
+        "answerIndex": 0,
+        "explanation": "The annuitant is the measuring life. The beneficiary receives any death benefit; an owner who is not the annuitant controls the contract but is not the measuring life; the producer has no role in payout calculations."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "accumulation-period",
+      "term": "Accumulation Period",
+      "aliases": ["Pay-In Period", "Accumulation Phase"],
+      "sectionId": "ann",
+      "outlineIds": ["ann.1.1"],
+      "formal": "The period of a deferred annuity during which premiums are paid in and the contract's value grows with credited interest or investment results, before annuity payments begin.",
+      "plain": "This is the saving-up stage. Money goes in and grows (tax-deferred). No income payments are made yet.",
+      "simpler": "Filling the bucket before you start pouring from it.",
+      "examples": [
+        "From age 45 to 65, Dana makes monthly payments into her deferred annuity; those 20 years are the accumulation period.",
+        "During the accumulation period, Hugo's fixed annuity earns the insurer's current interest rate on his account."
+      ],
+      "examTip": "Accumulation (pay-in) comes first; annuitization (payout) comes second. Immediate annuities skip the accumulation period.",
+      "misconception": "Money in the accumulation period is not locked away forever; owners can usually withdraw or surrender, though surrender charges and tax penalties may apply.",
+      "related": ["annuitization", "deferred-annuity", "accumulation-units", "tax-deferral", "surrender-charge"],
+      "confusedWith": ["annuitization"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "During which phase of a deferred annuity are premiums paid in and values allowed to grow before income begins?",
+        "choices": ["Accumulation period", "Annuity (payout) period", "Free-look period", "Grace period"],
+        "answerIndex": 0,
+        "explanation": "The accumulation period is the pay-in and growth phase. The annuity period is the payout phase; free look and grace periods are short contractual windows, not phases of the annuity."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "annuitization",
+      "term": "Annuity (Payout) Period / Annuitization",
+      "aliases": ["Annuitization", "Payout Period", "Liquidation Period", "Annuity Period"],
+      "sectionId": "ann",
+      "outlineIds": ["ann.1.1", "ann.4"],
+      "formal": "Annuitization is the conversion of an annuity's accumulated value into a stream of periodic payments under a selected payout option; the annuity (payout) period is the time during which those payments are made.",
+      "plain": "When you annuitize, you trade your account balance for a schedule of income payments. Once payments start under a life option, the choice is usually permanent — you generally cannot get the lump sum back.",
+      "simpler": "Turning your savings bucket into a faucet that drips out a set amount each month.",
+      "examples": [
+        "At 67, Irene annuitizes her $300,000 deferred annuity under a life-only option and starts receiving monthly checks.",
+        "Sam chooses a 10-year annuity certain at annuitization, so payments will run for exactly 10 years."
+      ],
+      "examTip": "Payout (annuity) period = liquidation phase. The payout amount depends on the account value, the annuitant's age and sex, the interest assumption and the payout option chosen.",
+      "misconception": "Annuitization is not the same as a withdrawal; a withdrawal takes some money out while the contract keeps accumulating, but annuitization converts the value into a payment stream.",
+      "related": ["accumulation-period", "annuitant", "straight-life-annuity", "life-annuity-period-certain", "annuity-certain"],
+      "confusedWith": ["accumulation-period", "partial-surrender"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "What happens when a deferred annuity is annuitized?",
+        "choices": [
+          "The accumulated value is converted into a series of income payments",
+          "The contract is surrendered for a lump sum",
+          "Premium payments into the contract begin",
+          "The owner names a new annuitant"
+        ],
+        "answerIndex": 0,
+        "explanation": "Annuitization converts the account value into periodic payments. Surrender takes a lump sum and ends the contract; premiums are paid during accumulation; changing the annuitant is unrelated."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "immediate-annuity",
+      "term": "Immediate Annuity (SPIA)",
+      "aliases": ["Single Premium Immediate Annuity", "SPIA"],
+      "sectionId": "ann",
+      "outlineIds": ["ann.3", "ann.3.1"],
+      "formal": "An annuity purchased with a single premium under which benefit payments begin soon after purchase, generally within one year (one payment interval) of the purchase date.",
+      "plain": "You pay one lump sum and the income starts right away — usually at the next monthly payment or at least within a year. There is no accumulation period.",
+      "simpler": "Buying a paycheck that starts next month.",
+      "examples": [
+        "On retiring, Walter uses $150,000 from savings to buy a SPIA that starts paying him the following month.",
+        "Fatima receives a lump-sum settlement and buys a SPIA so she will have steady monthly income."
+      ],
+      "examTip": "Immediate annuities must be funded with a SINGLE premium (you cannot make installments into something that is already paying out). Payments begin within one year of purchase.",
+      "misconception": "There is no such thing as a 'flexible premium immediate annuity'; flexible or periodic premiums require a deferred annuity.",
+      "related": ["deferred-annuity", "annuitization", "straight-life-annuity", "annuity"],
+      "confusedWith": ["deferred-annuity", "single-premium-whole-life"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which funding method must be used for an immediate annuity?",
+        "choices": ["A single premium", "Monthly premiums", "Flexible premiums", "Level annual premiums for 10 years"],
+        "answerIndex": 0,
+        "explanation": "An immediate annuity starts paying almost right away, so it can only be funded with one lump-sum premium. Periodic or flexible premiums require a deferred annuity."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "deferred-annuity",
+      "term": "Deferred Annuity",
+      "aliases": [],
+      "sectionId": "ann",
+      "outlineIds": ["ann.3", "ann.3.2"],
+      "formal": "An annuity under which benefit payments begin at a future date (generally more than one year after purchase), allowing the contract value to accumulate on a tax-deferred basis in the meantime.",
+      "plain": "You put money in now — in one lump sum or over time — and start taking income later. In the meantime the money grows without current income tax.",
+      "simpler": "Planting a tree now so it can give you fruit years from now.",
+      "examples": [
+        "Leah, 40, buys a deferred annuity with a single $50,000 premium and plans to begin income at 65.",
+        "Tom contributes to a flexible premium deferred annuity whenever he receives a bonus."
+      ],
+      "examTip": "Deferred = has an accumulation period; can be funded by a single premium (SPDA) or periodic/flexible premiums (FPDA). Watch for surrender charges in the early years.",
+      "misconception": "A deferred annuity does not have to be funded with installments; a single-premium deferred annuity (SPDA) is common.",
+      "related": ["immediate-annuity", "accumulation-period", "flexible-premium-annuity", "surrender-charge", "tax-deferral"],
+      "confusedWith": ["immediate-annuity"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which annuity is designed to accumulate value for income that will begin years in the future?",
+        "choices": ["Deferred annuity", "Immediate annuity", "Annuity certain in payout status", "Straight life annuity in payout status"],
+        "answerIndex": 0,
+        "explanation": "A deferred annuity has an accumulation period before payouts begin. An immediate annuity pays almost at once; the other choices describe contracts already paying income."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "flexible-premium-annuity",
+      "term": "Flexible Premium Deferred Annuity",
+      "aliases": ["FPDA", "Periodic Premium Deferred Annuity"],
+      "sectionId": "ann",
+      "outlineIds": ["ann.3.2.1"],
+      "formal": "A deferred annuity that allows the owner to make premium payments of varying amounts at varying times during the accumulation period, usually subject to minimum payment amounts.",
+      "plain": "You can add money whenever you want, in whatever amount you want (above the insurer's minimum). Each payment adds to the account value that will later fund income.",
+      "simpler": "A savings jar you can drop money into whenever you have extra.",
+      "examples": [
+        "Nora adds $3,000 to her FPDA in a good year and nothing the next year.",
+        "Carl sets up automatic $200 monthly contributions to his FPDA but adds a $5,000 lump sum after selling his car."
+      ],
+      "examTip": "Premium payment options for deferred annuities: single premium (SPDA), level/periodic premium, or flexible premium (FPDA). Immediate annuities are single premium only.",
+      "misconception": "Flexible does not mean there are no minimums or no surrender charges; many FPDAs apply surrender charges to each premium for several years.",
+      "related": ["deferred-annuity", "immediate-annuity", "accumulation-period", "surrender-charge"],
+      "confusedWith": ["immediate-annuity"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A client wants an annuity she can add varying amounts to, whenever she has extra money, for retirement income in 20 years. Which fits best?",
+        "choices": ["Flexible premium deferred annuity", "Single premium immediate annuity", "Annuity certain in payout status", "Straight life annuity"],
+        "answerIndex": 0,
+        "explanation": "A flexible premium deferred annuity accepts varying contributions and defers income. A SPIA takes one premium and pays immediately; annuity certain and straight life are payout options."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "surrender-charge",
+      "term": "Surrender Charge",
+      "aliases": ["Withdrawal Charge", "Contingent Deferred Sales Charge", "Back-End Load"],
+      "sectionId": "ann",
+      "outlineIds": ["ann.3.2.3"],
+      "formal": "A charge, usually a declining percentage of the amount withdrawn or of the account value, that the insurer deducts if a deferred annuity is surrendered or more than a permitted amount is withdrawn during the early years of the contract.",
+      "plain": "If you cash out of a deferred annuity early, the insurer keeps a fee. The fee is highest in the first years and shrinks each year until it disappears. Many contracts let you take a limited 'free withdrawal' each year without the charge.",
+      "simpler": "Like an early-termination fee on a phone contract that gets smaller the longer you stay.",
+      "examples": [
+        "Olga's annuity has a 7-year surrender schedule starting at 7% and dropping 1% a year; surrendering $100,000 in year 2 would cost about $6,000.",
+        "Raj withdraws 10% of his account value in year 3 under the contract's free-withdrawal provision and pays no surrender charge."
+      ],
+      "examTip": "Surrender charges are an insurer charge that declines over time; they are separate from federal tax penalties on early withdrawals. Free-withdrawal provisions commonly allow a percentage each year without a charge.",
+      "misconception": "A surrender charge is not a tax and is not paid to the IRS; it is the insurer's charge to recover sales and issue costs when a contract ends early.",
+      "related": ["deferred-annuity", "flexible-premium-annuity", "accumulation-period", "partial-surrender"],
+      "confusedWith": ["tax-deferral"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "What typically happens to a deferred annuity's surrender charge percentage over time?",
+        "choices": [
+          "It declines each year and eventually reaches zero",
+          "It increases each year the contract is held",
+          "It stays the same for the life of the contract",
+          "It applies only after annuity payments begin"
+        ],
+        "answerIndex": 0,
+        "explanation": "Surrender charges follow a declining schedule and disappear after a set number of years. They do not increase or remain fixed, and they apply to early surrenders during accumulation, not to annuity payments."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "straight-life-annuity",
+      "term": "Straight (Pure) Life Annuity",
+      "aliases": ["Life Only Annuity", "Pure Life Annuity", "Straight Life Income"],
+      "sectionId": "ann",
+      "outlineIds": ["ann.4.1", "ann.4.2"],
+      "formal": "An annuity payout option that pays income for as long as the annuitant lives and stops at the annuitant's death, with no refund or further payments to anyone.",
+      "plain": "Payments last for the annuitant's lifetime — no matter how long — and end at death. If the annuitant dies early, nothing more is paid, even if only a few payments were made. Because the insurer guarantees nothing after death, this option pays the highest monthly amount.",
+      "simpler": "The biggest paycheck possible, but it stops the day you die, with nothing left over for anyone.",
+      "examples": [
+        "Edith chooses life only and receives $1,200 a month for 27 years — far more than she paid in.",
+        "Victor chooses life only and dies after three payments; the insurer owes nothing more to his family."
+      ],
+      "examTip": "Life only = HIGHEST periodic payment of the life options and no guaranteed minimum. Good for a person with no dependents who wants maximum income.",
+      "misconception": "'Straight life annuity' is a payout option, not 'straight life' whole life insurance (a premium schedule for permanent life insurance).",
+      "related": ["life-annuity-period-certain", "refund-annuity", "annuity-certain", "annuitization", "joint-and-survivor"],
+      "confusedWith": ["straight-life", "life-annuity-period-certain"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which annuity payout option provides the largest periodic payment for a given annuitant and premium?",
+        "choices": ["Straight (life only)", "Life with 20-year period certain", "Installment refund", "Joint and 100% survivor"],
+        "answerIndex": 0,
+        "explanation": "Life only has no guarantee after death, so the insurer can pay the most per period. Period certain, refund and joint-and-survivor options all add guarantees or a second life, lowering each payment."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "life-annuity-period-certain",
+      "term": "Life Annuity with Period Certain",
+      "aliases": ["Life with Period Certain", "Life with Term Certain", "Life with Guaranteed Period"],
+      "sectionId": "ann",
+      "outlineIds": ["ann.4.1", "ann.4.2"],
+      "formal": "An annuity payout option that pays income for the annuitant's lifetime but guarantees payments for a minimum number of years (such as 10 or 20); if the annuitant dies within that period, payments continue to a beneficiary for the rest of the period.",
+      "plain": "You get income for life, with a safety net: if you die early, your beneficiary keeps receiving the payments until the guaranteed period (for example, 10 years) is over. If you live past the guarantee, payments continue for life.",
+      "simpler": "A lifetime paycheck with a 'minimum number of paychecks' promise.",
+      "examples": [
+        "Grace picks life with 10-year certain and dies after 4 years; her son receives the same monthly payment for the remaining 6 years.",
+        "Hank picks life with 10-year certain and lives 25 more years; he receives payments for all 25 years and nothing is owed after he dies."
+      ],
+      "examTip": "Guarantee is measured in TIME (years). A refund annuity guarantees MONEY (the premium). Longer guaranteed periods mean smaller payments.",
+      "misconception": "The guaranteed period is not the maximum payment period; it is the minimum. Payments still last for life if the annuitant outlives the period.",
+      "related": ["straight-life-annuity", "refund-annuity", "annuity-certain", "annuitization"],
+      "confusedWith": ["annuity-certain", "refund-annuity"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "An annuitant chose life with 15-year period certain and dies after 6 years of payments. What happens?",
+        "choices": [
+          "The beneficiary receives payments for the remaining 9 years",
+          "Payments stop immediately",
+          "The beneficiary receives a refund of the full premium",
+          "The beneficiary receives payments for the beneficiary's lifetime"
+        ],
+        "answerIndex": 0,
+        "explanation": "The period certain guarantees 15 years of payments in total, so a beneficiary receives the remaining 9 years. Stopping at death is life only; a premium refund is a refund annuity; payments for the beneficiary's life describe joint and survivor."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "refund-annuity",
+      "term": "Refund Annuity (Cash or Installment)",
+      "aliases": ["Life with Refund", "Cash Refund Annuity", "Installment Refund Annuity"],
+      "sectionId": "ann",
+      "outlineIds": ["ann.4.1", "ann.4.2"],
+      "formal": "A life annuity payout option that guarantees that the total of benefits paid will at least equal the purchase price; if the annuitant dies before receiving that amount, the difference is paid to a beneficiary either in a lump sum (cash refund) or by continuing installments (installment refund).",
+      "plain": "You get lifetime income, plus a promise that you (or your beneficiary) will get back at least what you paid in. If you die before that, the beneficiary receives the rest — either all at once (cash refund) or as continued payments (installment refund).",
+      "simpler": "A lifetime paycheck with a money-back guarantee.",
+      "examples": [
+        "Iris pays $100,000 for a cash refund annuity and dies after receiving $40,000; her daughter receives a lump sum of $60,000.",
+        "Under an installment refund annuity, Jack's beneficiary would instead keep receiving Jack's monthly payments until the $60,000 balance is paid."
+      ],
+      "examTip": "Refund = guarantees the PREMIUM (money) back; period certain = guarantees a number of YEARS. Cash refund pays the balance in a lump sum; installment refund continues payments.",
+      "misconception": "A refund annuity does not pay interest on top of the refunded premium, and it does not pay the beneficiary anything if the annuitant has already received at least the purchase price.",
+      "related": ["straight-life-annuity", "life-annuity-period-certain", "annuitization"],
+      "confusedWith": ["life-annuity-period-certain"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "An annuitant paid $120,000 for a cash refund life annuity and died after receiving $70,000 in payments. What does the beneficiary receive?",
+        "choices": ["A $50,000 lump sum", "Nothing", "Monthly payments until $120,000 is paid", "The full $120,000"],
+        "answerIndex": 0,
+        "explanation": "$120,000 − $70,000 = $50,000, paid in a lump sum under a cash refund. 'Nothing' describes life only; continued installments describe an installment refund; the full $120,000 ignores payments already made."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "joint-and-survivor",
+      "term": "Joint and Survivor Option",
+      "aliases": ["Joint and Survivor Annuity", "Joint and Last Survivor"],
+      "sectionId": "ann",
+      "outlineIds": ["ann.4.3"],
+      "formal": "A multiple-life annuity payout option that makes payments while two (or more) annuitants are living and continues payments, in full or in a reduced percentage (such as 50% or 2/3), until the death of the last surviving annuitant.",
+      "plain": "Income covers two people, usually spouses. When the first one dies, payments keep going to the survivor — either the same amount or a reduced amount, depending on the option chosen — until the survivor dies.",
+      "simpler": "A paycheck for a couple that keeps coming as long as either of them is alive.",
+      "examples": [
+        "Ray and Mae choose joint and 100% survivor; after Ray dies, Mae continues to receive the same monthly amount for life.",
+        "A couple chooses joint and 50% survivor to get a larger payment now, accepting that the survivor's payment will be cut in half."
+      ],
+      "examTip": "Joint and survivor pays until the LAST death. Joint life (annuity) stops at the FIRST death. The higher the survivor percentage, the lower each payment.",
+      "misconception": "Joint and survivor is not the same as joint life: joint life payments stop entirely at the first death.",
+      "related": ["joint-life-annuity", "straight-life-annuity", "survivorship-life", "annuitization"],
+      "confusedWith": ["joint-life-annuity", "survivorship-life"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A married couple wants annuity income that continues as long as either spouse is alive. Which option fits?",
+        "choices": ["Joint and survivor", "Joint life", "Straight life on the older spouse", "10-year annuity certain"],
+        "answerIndex": 0,
+        "explanation": "Joint and survivor continues until the second death. Joint life stops at the first death; a single-life option ignores the second spouse; an annuity certain ends after 10 years regardless of who is alive."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    }
+  ],
+  "comparisons": [
+    {
+      "a": "accumulation-period",
+      "b": "annuitization",
+      "keyDifference": "The accumulation period is when money goes IN and grows; the annuity (payout) period is when money comes OUT as income.",
+      "rows": [
+        { "aspect": "Direction of money", "a": "Owner pays premiums to the insurer", "b": "Insurer pays income to the annuitant/payee" },
+        { "aspect": "Found in", "a": "Deferred annuities only", "b": "Both immediate and deferred annuities" },
+        { "aspect": "Flexibility", "a": "Withdrawals and surrender usually possible (charges may apply)", "b": "Under life options, the choice is generally irrevocable" }
+      ],
+      "memoryTip": "Accumulate = fill the bucket; Annuitize = open the faucet."
+    },
+    {
+      "a": "life-annuity-period-certain",
+      "b": "refund-annuity",
+      "keyDifference": "Period certain guarantees a minimum number of YEARS of payments; a refund annuity guarantees that at least the PURCHASE PRICE is paid out.",
+      "rows": [
+        { "aspect": "What is guaranteed", "a": "Payments for a stated number of years", "b": "Total payments at least equal to the premium" },
+        { "aspect": "If annuitant dies early", "a": "Beneficiary gets the remaining years of payments", "b": "Beneficiary gets the unpaid balance of the premium (lump sum or installments)" },
+        { "aspect": "If annuitant lives long", "a": "Payments continue for life", "b": "Payments continue for life" }
+      ],
+      "memoryTip": "Period certain counts YEARS; refund counts DOLLARS."
+    },
+    {
+      "a": "straight-life-annuity",
+      "b": "life-annuity-period-certain",
+      "keyDifference": "Life only stops at death with nothing more paid; life with period certain adds a minimum number of years, so each payment is smaller.",
+      "rows": [
+        { "aspect": "Payment size", "a": "Highest", "b": "Lower (cost of the guarantee)" },
+        { "aspect": "Death in year 2", "a": "Payments stop; nothing to beneficiary", "b": "Beneficiary receives the rest of the guaranteed period" },
+        { "aspect": "Best for", "a": "Maximum income, no heirs to protect", "b": "Lifetime income with some protection for heirs" }
+      ],
+      "memoryTip": "More guarantees = smaller checks."
+    }
+  ]
+}

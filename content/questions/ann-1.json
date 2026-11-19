@@ -1,0 +1,1070 @@
+{
+ "sectionId": "ann",
+ "questions": [
+  {
+   "id": "ann-q001",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.1",
+    "ann.1.3"
+   ],
+   "concepts": [
+    "annuity"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "Which risk is an annuity primarily designed to protect against?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Outliving one's income",
+     "rationale": "Correct: lifetime annuity payments protect against longevity risk."
+    },
+    {
+     "id": "b",
+     "text": "Dying before one's dependents are grown",
+     "rationale": "Incorrect: that premature-death risk is covered by life insurance."
+    },
+    {
+     "id": "c",
+     "text": "Losing income because of a disability",
+     "rationale": "Incorrect: disability income insurance addresses that risk."
+    },
+    {
+     "id": "d",
+     "text": "Needing long-term custodial care",
+     "rationale": "Incorrect: long-term care insurance addresses that risk."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Life insurance protects against dying too soon; an annuity protects against living too long — outliving savings. Life-contingent payouts continue for as long as the annuitant lives.",
+   "memoryTip": "Life insurance: die too soon. Annuity: live too long.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q002",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.1.1"
+   ],
+   "concepts": [
+    "annuitization",
+    "accumulation-period"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "What is the period during which an annuity pays out income called?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The accumulation period",
+     "rationale": "Incorrect: that is the pay-in and growth phase."
+    },
+    {
+     "id": "b",
+     "text": "The annuity (payout) period",
+     "rationale": "Correct: the annuity, or payout, period is when the insurer makes income payments."
+    },
+    {
+     "id": "c",
+     "text": "The free-look period",
+     "rationale": "Incorrect: the free look is a short window to cancel a new contract."
+    },
+    {
+     "id": "d",
+     "text": "The surrender period",
+     "rationale": "Incorrect: the surrender period is when surrender charges apply."
+    }
+   ],
+   "correct": "b",
+   "explanation": "A deferred annuity has two phases: the accumulation period (money goes in and grows) and the annuity or payout period (money comes out as income). Converting the value into payments is called annuitization.",
+   "memoryTip": "Accumulate = fill; annuitize = pour.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q003",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.1.2"
+   ],
+   "concepts": [
+    "annuitant",
+    "beneficiary"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Linda buys a deferred annuity. She is the owner, her husband Ray is the annuitant, and their son Max is the beneficiary.",
+   "stem": "Whose life expectancy determines the amount of the life-contingent payments?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Linda's, because she owns the contract",
+     "rationale": "Incorrect: ownership controls the contract, but the owner is not the measuring life here."
+    },
+    {
+     "id": "b",
+     "text": "Max's, because he is the beneficiary",
+     "rationale": "Incorrect: the beneficiary receives any death benefit; he is not the measuring life."
+    },
+    {
+     "id": "c",
+     "text": "Ray's, because he is the annuitant",
+     "rationale": "Correct: the annuitant is the measuring life for payouts."
+    },
+    {
+     "id": "d",
+     "text": "The average of all three persons' ages",
+     "rationale": "Incorrect: payouts are based on the annuitant (or joint annuitants), not an average of all parties."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Annuities have three roles. The owner buys and controls the contract; the annuitant is the person whose life expectancy determines life-contingent payments; the beneficiary receives any death benefit. One person can fill more than one role, but here they are different people.",
+   "memoryTip": "Annuitant = the life the payments are measured on.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Ray is the annuitant",
+      "anyOf": [
+       "ray",
+       "annuitant"
+      ]
+     },
+     {
+      "label": "Annuitant is the measuring life",
+      "anyOf": [
+       "measuring",
+       "life expectancy",
+       "whose life"
+      ]
+     },
+     {
+      "label": "Owner controls; beneficiary receives the death benefit",
+      "anyOf": [
+       "owner",
+       "beneficiary"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q004",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.1.2"
+   ],
+   "concepts": [
+    "annuity",
+    "policyowner"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [],
+   "stem": "In an annuity contract, which party has the right to change the beneficiary and surrender the contract?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The beneficiary",
+     "rationale": "Incorrect: a beneficiary has no contract rights until a death benefit becomes payable."
+    },
+    {
+     "id": "b",
+     "text": "The annuitant, in every case",
+     "rationale": "Incorrect: the annuitant has these rights only if he or she is also the owner."
+    },
+    {
+     "id": "c",
+     "text": "The selling producer",
+     "rationale": "Incorrect: producers have no ownership rights."
+    },
+    {
+     "id": "d",
+     "text": "The owner",
+     "rationale": "Correct: the owner controls the contract, including beneficiary changes, withdrawals and surrender."
+    }
+   ],
+   "correct": "d",
+   "explanation": "The owner (contract holder) exercises the contract's rights: making withdrawals, surrendering, choosing investments in a variable annuity, changing the beneficiary and electing to annuitize. The annuitant and owner are often, but not always, the same person.",
+   "memoryTip": "Owner = the one holding the keys.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "finra-annuities"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q005",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.1.3"
+   ],
+   "concepts": [
+    "annuity",
+    "law-of-large-numbers"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "tricky"
+   ],
+   "stem": "What allows an insurer to promise life-contingent annuity payments that last as long as each annuitant lives?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Pooling many annuitants and predicting their longevity with mortality tables",
+     "rationale": "Correct: the law of large numbers lets the insurer predict group longevity even though individual lifespans are unknown."
+    },
+    {
+     "id": "b",
+     "text": "Investing every annuity premium in the stock market for higher growth",
+     "rationale": "Incorrect: fixed life annuity guarantees are backed by the insurer's general account, not by stock market gains."
+    },
+    {
+     "id": "c",
+     "text": "Requiring each annuitant to pass a full medical exam to predict lifespan",
+     "rationale": "Incorrect: annuities are generally not medically underwritten in that way."
+    },
+    {
+     "id": "d",
+     "text": "Limiting total lifetime payments to the amount of the premium paid",
+     "rationale": "Incorrect: life-only payments can exceed the premium when the annuitant lives a long time."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Annuities are insurance because they pool longevity risk. Using mortality tables and the law of large numbers, the insurer predicts how long the group will live on average. Annuitants who die early effectively fund extra payments to those who live longer than expected.",
+   "memoryTip": "Annuities pool longevity: the short-lived help pay the long-lived.",
+   "version": 2,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q006",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.2"
+   ],
+   "concepts": [
+    "free-look",
+    "annuity"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Under NY Insurance Law § 3219, how long must the free-look (cancellation) period in an individual annuity contract be?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Exactly 10 days in every case",
+     "rationale": "Incorrect: 10 days is only the minimum."
+    },
+    {
+     "id": "b",
+     "text": "At least 10 and no more than 30 days from delivery",
+     "rationale": "Correct: § 3219(a)(9) sets a period of not less than 10 nor more than 30 days."
+    },
+    {
+     "id": "c",
+     "text": "At least 60 days from the application date",
+     "rationale": "Incorrect: the period runs from delivery and is not 60 days."
+    },
+    {
+     "id": "d",
+     "text": "Until the first annuity payment is made",
+     "rationale": "Incorrect: the free look is a fixed window after delivery."
+    }
+   ],
+   "correct": "b",
+   "explanation": "§ 3219(a)(9) requires that the holder may surrender the contract with a written request for cancellation during a period of not less than 10 days nor more than 30 days from delivery, and receive a refund of the consideration paid, including fees and charges (market-value-adjusted contracts may refund the cash surrender value plus fees and charges). Mail-order contracts must allow 30 days.",
+   "memoryTip": "Annuity free look: 10 to 30 days after delivery.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3219"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q007",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.2"
+   ],
+   "concepts": [
+    "free-look"
+   ],
+   "difficulty": 3,
+   "style": "application",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Irene bought an individual deferred annuity by mail order from a New York insurer, without meeting a producer. The contract was delivered to her by mail.",
+   "stem": "Under New York law, how long must Irene's contract allow her to return it for cancellation?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "10 days from delivery",
+     "rationale": "Incorrect: 10 days is the general minimum, but mail-order contracts get a longer period."
+    },
+    {
+     "id": "b",
+     "text": "20 days from delivery",
+     "rationale": "Incorrect: this does not match the mail-order rule."
+    },
+    {
+     "id": "c",
+     "text": "30 days from delivery",
+     "rationale": "Correct: § 3219(a)(9) requires a 30-day period for contracts sold by mail order."
+    },
+    {
+     "id": "d",
+     "text": "60 days from delivery",
+     "rationale": "Incorrect: no 60-day free look applies."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Under § 3219(a)(9), the annuity free-look period is generally not less than 10 nor more than 30 days from delivery, but a contract sold by mail order must give the holder a 30-day period.",
+   "memoryTip": "Mail order = maximum look (30 days).",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3219"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   },
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Contract was sold by mail order",
+      "anyOf": [
+       "mail"
+      ]
+     },
+     {
+      "label": "Mail-order contracts must allow 30 days",
+      "anyOf": [
+       "30",
+       "thirty"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ann-q008",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.2"
+   ],
+   "concepts": [
+    "grace-period",
+    "flexible-premium-annuity"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "Under NY law, what grace period applies to a subsequent payment due under an annuity contract that requires payments?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "10 days",
+     "rationale": "Incorrect: 10 days is the minimum free-look period, not the grace period."
+    },
+    {
+     "id": "b",
+     "text": "31 days",
+     "rationale": "Correct: § 3219(a)(1) provides a 31-day grace period after the first payment."
+    },
+    {
+     "id": "c",
+     "text": "61 days",
+     "rationale": "Incorrect: 61 days is the grace period for flexible-premium life insurance policies."
+    },
+    {
+     "id": "d",
+     "text": "90 days",
+     "rationale": "Incorrect: no 90-day annuity grace period applies."
+    }
+   ],
+   "correct": "b",
+   "explanation": "§ 3219(a)(1): for annuity contracts requiring payments, after the first payment there is a 31-day grace period following the due date of any later payment, during which the contract stays in full force. If death occurs during the grace period, the unpaid payment may be deducted from the death benefit.",
+   "memoryTip": "Annuity grace = 31 days, like fixed-premium life.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3219"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q009",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.2"
+   ],
+   "concepts": [
+    "incontestability"
+   ],
+   "difficulty": 3,
+   "style": "concept",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "stem": "Under § 3219, which statements may still be challenged after an annuity contract has been in force for two years?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Statements relating to age, sex and identity",
+     "rationale": "Correct: § 3219(a)(2) excludes age, sex and identity from the incontestability provision."
+    },
+    {
+     "id": "b",
+     "text": "Statements about the owner's income",
+     "rationale": "Incorrect: these become incontestable after two years."
+    },
+    {
+     "id": "c",
+     "text": "Statements about the owner's investment objectives",
+     "rationale": "Incorrect: these become incontestable after two years."
+    },
+    {
+     "id": "d",
+     "text": "Statements about the annuitant's occupation",
+     "rationale": "Incorrect: these become incontestable after two years."
+    }
+   ],
+   "correct": "a",
+   "explanation": "§ 3219(a)(2) makes an annuity incontestable after it has been in force during the lifetime of the person(s) whose statements were required for two years from issue — except for statements relating to age, sex and identity (and except for nonpayment). Age and sex drive annuity pricing, so misstatements are handled by adjusting benefits instead.",
+   "memoryTip": "Annuity contest: after 2 years, only age, sex and identity remain open.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3219"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q010",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.2"
+   ],
+   "concepts": [
+    "misstatement-of-age"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Two years after Carl began receiving life annuity payments, the insurer discovers that he understated his age by three years on the application.",
+   "stem": "How must the insurer handle the error under NY Insurance Law § 3219?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Void the contract and refund the premium",
+     "rationale": "Incorrect: a misstatement of age does not void the contract."
+    },
+    {
+     "id": "b",
+     "text": "Keep paying the original amount because the contract is incontestable",
+     "rationale": "Incorrect: age statements are not covered by incontestability."
+    },
+    {
+     "id": "c",
+     "text": "Stop all payments until Carl submits a new application",
+     "rationale": "Incorrect: no reapplication is required."
+    },
+    {
+     "id": "d",
+     "text": "Adjust payments to what the premium buys at the correct age",
+     "rationale": "Correct: benefits are adjusted to the amount the payments would have purchased at the correct age."
+    }
+   ],
+   "correct": "d",
+   "explanation": "§ 3219(a)(5): if age or sex is misstated, the benefit is the amount the payments to the insurer would have purchased at the correct age or sex. Underpayments or overpayments, with interest at a rate stated in the contract (not over 6% a year), are credited to or charged against current or future payments.",
+   "memoryTip": "Wrong age → adjust the checks, don't cancel the contract.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3219"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   },
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Misstatement of age does not void the contract",
+      "anyOf": [
+       "not void",
+       "remains",
+       "adjust"
+      ]
+     },
+     {
+      "label": "Payments adjusted to what the premium buys at the correct age",
+      "anyOf": [
+       "correct age",
+       "would have purchased",
+       "adjust"
+      ]
+     },
+     {
+      "label": "Over/underpayments settled with interest",
+      "anyOf": [
+       "interest",
+       "overpay",
+       "underpay"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ann-q011",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.2"
+   ],
+   "concepts": [
+    "reinstatement"
+   ],
+   "difficulty": 3,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Under § 3219, a New York annuity that requires payments can be reinstated within what period after default (if its cash surrender value has not been paid)?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "31 days",
+     "rationale": "Incorrect: 31 days is the grace period."
+    },
+    {
+     "id": "b",
+     "text": "One year",
+     "rationale": "Incorrect: the reinstatement window is longer."
+    },
+    {
+     "id": "c",
+     "text": "Three years",
+     "rationale": "Correct: § 3219(a)(8) allows reinstatement within three years from the date of default."
+    },
+    {
+     "id": "d",
+     "text": "Five years",
+     "rationale": "Incorrect: the statute uses three years."
+    }
+   ],
+   "correct": "c",
+   "explanation": "§ 3219(a)(8): the contract shall be reinstated within three years from default (unless the cash surrender value has been paid) if the person applies, pays all overdue payments and indebtedness with interest (overdue payments at no more than 6% a year, compounded annually), and, where the insurer requires it, provides evidence of insurability.",
+   "memoryTip": "Annuity reinstatement: 3 years, like life insurance.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3219"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q012",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.3",
+    "ann.3.1"
+   ],
+   "concepts": [
+    "immediate-annuity"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "How must a single premium immediate annuity (SPIA) be funded?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "With monthly premiums",
+     "rationale": "Incorrect: a contract that starts paying right away cannot be funded in installments."
+    },
+    {
+     "id": "b",
+     "text": "With flexible premiums over several years",
+     "rationale": "Incorrect: flexible premiums require a deferred annuity."
+    },
+    {
+     "id": "c",
+     "text": "With level premiums until payments begin",
+     "rationale": "Incorrect: an immediate annuity has no accumulation phase to pay into."
+    },
+    {
+     "id": "d",
+     "text": "With one lump-sum premium",
+     "rationale": "Correct: a SPIA is purchased with a single premium and begins payments soon after."
+    }
+   ],
+   "correct": "d",
+   "explanation": "An immediate annuity begins paying income soon after purchase — typically within one month to a year — so it must be bought with a single premium. There is no accumulation period.",
+   "memoryTip": "Immediate = one check in, checks out right away.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "finra-annuities"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q013",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.3",
+    "ann.3.2"
+   ],
+   "concepts": [
+    "deferred-annuity",
+    "immediate-annuity"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Omar, 45, has $40,000 he wants to set aside for retirement. He does not need income until he retires at 67 and may add more money in later years.",
+   "stem": "Which annuity best fits Omar's goal?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A deferred annuity",
+     "rationale": "Correct: it allows money to accumulate, tax-deferred, until income is needed at 67."
+    },
+    {
+     "id": "b",
+     "text": "A single premium immediate annuity",
+     "rationale": "Incorrect: payments would start almost at once, which Omar does not want."
+    },
+    {
+     "id": "c",
+     "text": "A 10-year annuity certain starting now",
+     "rationale": "Incorrect: this starts income now and ends after 10 years."
+    },
+    {
+     "id": "d",
+     "text": "A joint life annuity starting now",
+     "rationale": "Incorrect: this starts income now and stops at the first death."
+    }
+   ],
+   "correct": "a",
+   "explanation": "A deferred annuity has an accumulation period before payouts begin, which fits a saver who wants income later. Immediate annuities and payout options that start now are for people who need income right away.",
+   "memoryTip": "Need income later → deferred.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q014",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.3.2.1"
+   ],
+   "concepts": [
+    "flexible-premium-annuity",
+    "deferred-annuity"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [],
+   "stem": "Which statement about premium payment options for annuities is accurate?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Immediate annuities may be funded with periodic or flexible premiums",
+     "rationale": "Incorrect: immediate annuities require a single premium."
+    },
+    {
+     "id": "b",
+     "text": "Deferred annuities must be funded with a single, lump-sum premium",
+     "rationale": "Incorrect: deferred annuities may also be funded periodically or flexibly."
+    },
+    {
+     "id": "c",
+     "text": "Deferred annuities may use single, periodic or flexible premium funding",
+     "rationale": "Correct: all three funding methods are available for deferred annuities."
+    },
+    {
+     "id": "d",
+     "text": "Flexible premium annuities must begin payments within one year",
+     "rationale": "Incorrect: flexible premium annuities are deferred annuities."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Immediate annuities are single-premium only. Deferred annuities can be funded with a single premium (SPDA), level periodic premiums, or flexible premiums (FPDA) that vary in amount and timing.",
+   "memoryTip": "Immediate = single only; deferred = single, periodic or flexible.",
+   "version": 2,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q015",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.3.2.2"
+   ],
+   "concepts": [
+    "nonforfeiture-options",
+    "deferred-annuity"
+   ],
+   "difficulty": 3,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Under New York's standard nonforfeiture law for annuities (§ 4223), what must a deferred annuity provide if the owner stops making payments?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Automatic termination of the contract with no value",
+     "rationale": "Incorrect: nonforfeiture law prevents forfeiture of accumulated value."
+    },
+    {
+     "id": "b",
+     "text": "A paid-up annuity benefit (or a cash surrender benefit)",
+     "rationale": "Correct: § 4223 requires a paid-up annuity benefit and, where lump sums are allowed, a cash surrender benefit."
+    },
+    {
+     "id": "c",
+     "text": "Automatic conversion to extended term life insurance",
+     "rationale": "Incorrect: extended term is a life insurance nonforfeiture option."
+    },
+    {
+     "id": "d",
+     "text": "Immediate annuitization under a life-only option",
+     "rationale": "Incorrect: the law does not force annuitization."
+    }
+   ],
+   "correct": "b",
+   "explanation": "§ 4223(a)(1)(A) requires that, upon cessation of payments, the company grant a paid-up annuity benefit. If the contract provides a lump-sum settlement, § 4223(a)(1)(B) requires a cash surrender benefit in lieu of the paid-up annuity. The value is based on the contract's accumulated amount, so the owner does not forfeit what has been built up.",
+   "memoryTip": "Stop paying ≠ lose it all: paid-up annuity or cash value.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-4223"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   },
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Owner does not forfeit accumulated value",
+      "anyOf": [
+       "forfeit",
+       "value",
+       "accumulat"
+      ]
+     },
+     {
+      "label": "Paid-up annuity benefit",
+      "anyOf": [
+       "paid-up",
+       "paid up"
+      ]
+     },
+     {
+      "label": "Or cash surrender benefit if the contract allows lump sums",
+      "anyOf": [
+       "cash surrender",
+       "cash"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ann-q016",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.3.2.2"
+   ],
+   "concepts": [
+    "nonforfeiture-options",
+    "immediate-annuity",
+    "variable-annuity"
+   ],
+   "difficulty": 3,
+   "style": "negative",
+   "tags": [
+    "negative-wording",
+    "tricky",
+    "ny-law"
+   ],
+   "stem": "New York's standard nonforfeiture law for annuities (§ 4223) applies to each of the following EXCEPT:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "An individual flexible premium deferred fixed annuity",
+     "rationale": "Incorrect: individual deferred fixed annuities are covered."
+    },
+    {
+     "id": "b",
+     "text": "An individual single premium deferred fixed annuity",
+     "rationale": "Incorrect: these are covered."
+    },
+    {
+     "id": "c",
+     "text": "An individual deferred annuity with an equity index account",
+     "rationale": "Incorrect: § 4223 includes specific rules for equity index accounts."
+    },
+    {
+     "id": "d",
+     "text": "An immediate annuity",
+     "rationale": "Correct: § 4223(b)(1) lists immediate annuities (and variable annuities) among contracts the section does not apply to."
+    }
+   ],
+   "correct": "d",
+   "explanation": "§ 4223(b)(1) excludes reinsurance, certain group annuities for retirement plans, premium deposit funds, variable annuities, immediate annuities, deferred annuities after payments have begun, and reversionary annuities. Individual deferred fixed and indexed annuities are covered.",
+   "memoryTip": "Nonforfeiture protects money still accumulating — not contracts already paying out.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-4223"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q017",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.3.2.3"
+   ],
+   "concepts": [
+    "surrender-charge"
+   ],
+   "difficulty": 2,
+   "style": "calculation",
+   "tags": [
+    "math"
+   ],
+   "scenario": "Gina's deferred annuity has a surrender charge schedule of 7%, 6%, 5%, 4%, 3%, 2%, 1% and then 0% in years 1 through 8. In year 3 she fully surrenders the contract when its value is $80,000. Assume no free-withdrawal amount applies.",
+   "stem": "How much will Gina receive?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$76,000",
+     "rationale": "Correct: 5% × $80,000 = $4,000 charge; $80,000 − $4,000 = $76,000."
+    },
+    {
+     "id": "b",
+     "text": "$80,000",
+     "rationale": "Incorrect: this ignores the year-3 surrender charge."
+    },
+    {
+     "id": "c",
+     "text": "$72,000",
+     "rationale": "Incorrect: this applies a 10% charge, not the 5% charge for year 3."
+    },
+    {
+     "id": "d",
+     "text": "$79,600",
+     "rationale": "Incorrect: this applies a 0.5% charge instead of 5%."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Surrender charges are a declining percentage that applies to early surrenders. In year 3 the charge is 5%: $80,000 × 0.05 = $4,000. Gina receives $80,000 − $4,000 = $76,000 (before any income taxes on gains).",
+   "memoryTip": "Early exit fee shrinks each year; multiply the rate by the amount surrendered.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

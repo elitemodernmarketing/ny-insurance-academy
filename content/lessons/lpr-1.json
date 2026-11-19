@@ -1,0 +1,769 @@
+{
+ "sectionId": "lpr",
+ "lessons": [
+  {
+   "id": "lpr-l01",
+   "sectionId": "lpr",
+   "order": 1,
+   "title": "Who Controls the Policy: Ownership, Assignment, the Entire Contract and the Free Look",
+   "outlineIds": [
+    "lpr.1",
+    "lpr.1.1",
+    "lpr.1.2",
+    "lpr.1.3",
+    "lpr.1.4",
+    "lpr.1.5",
+    "lpr.1.11",
+    "lpr.1.12"
+   ],
+   "estMinutes": 25,
+   "intro": "A life insurance policy is a contract full of rules called provisions. Some of them New York requires in every individual life policy. In this lesson you will learn who holds the rights in a policy, how those rights can be transferred, what counts as \"the contract,\" how premiums are paid, how a new policyowner can change their mind, and what happens on the paperwork side when a claim is filed.",
+   "objectives": [
+    "Identify the rights held by the policyowner and distinguish the owner from the insured and beneficiary.",
+    "Distinguish an absolute assignment from a collateral assignment.",
+    "Explain New York's entire contract rules and why applicant statements are representations.",
+    "State New York's free-look period rules, including mail-order policies.",
+    "Describe premium modes and the documents used as proof of death."
+   ],
+   "keyTerms": [
+    "policy-provision",
+    "ownership-provision",
+    "assignment",
+    "entire-contract-provision",
+    "free-look",
+    "proof-of-death",
+    "representation",
+    "premium-mode"
+   ],
+   "parts": [
+    {
+     "heading": "Provisions and the policyowner",
+     "body": "A [[policy-provision]] is any clause that sets out a right or duty under the contract. New York's Insurance Law § 3203 lists provisions every individual life policy must contain, and § 3204 adds rules about what makes up the contract.\n\nThe most important person in the contract is the [[policyowner]]. Under the [[ownership-provision]], the owner — not the insured, and not the beneficiary — holds every contractual right:\n\n- naming and changing the [[beneficiary]] (if the designation is revocable)\n- choosing settlement, dividend and nonforfeiture options\n- borrowing against or surrendering the policy\n- assigning (transferring) the policy\n- receiving dividends\n\nThe owner and the [[insured]] are often the same person, but they don't have to be. A parent can own a policy on a child, a business can own a policy on a key employee, and a trust can own a policy on its creator.",
+     "simple": "The owner is the boss of the policy. Whoever is named as owner makes all the decisions — even if the policy covers somebody else's life.",
+     "example": {
+      "title": "Example: a business-owned policy",
+      "body": "Apex Co. owns a $1,000,000 policy on its founder, Lin. Apex pays the premiums and is the beneficiary. Lin is the insured but cannot change the beneficiary or borrow from the policy — only Apex, the owner, can."
+     },
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "If a question asks who may change a revocable beneficiary or take a loan, the answer is the policyowner. The insured has no rights unless also the owner."
+      }
+     ]
+    },
+    {
+     "heading": "Assignment: transferring policy rights",
+     "body": "An [[assignment]] transfers some or all of the owner's rights to someone else.\n\n- **Absolute assignment** — a permanent transfer of all ownership rights. The new party becomes the owner (for example, a gift of the policy to a child, or a sale).\n- **Collateral assignment** — a temporary, partial transfer to secure a debt. The lender (assignee) is paid first at death, but only up to the amount still owed; the beneficiary receives the rest. When the debt is repaid, the assignment is released.\n\nPolicies generally require the owner to notify the insurer in writing, and the insurer is not responsible for whether an assignment is legally valid.",
+     "example": {
+      "title": "Example: collateral assignment math",
+      "body": "Bea collaterally assigns her $300,000 policy for a $90,000 bank loan. She dies owing $50,000. The bank receives $50,000; her beneficiary receives $250,000."
+     },
+     "callouts": [
+      {
+       "kind": "memory-tip",
+       "text": "Absolute = all rights, for good. Collateral = a lender's claim, only up to the debt."
+      }
+     ]
+    },
+    {
+     "heading": "The entire contract and statements of the applicant",
+     "body": "Under the [[entire-contract-provision]], the policy plus the application — if a copy is attached when the policy is issued — make up the entire contract. New York adds three practical protections in § 3204:\n\n- Nothing can be incorporated \"by reference\" to some other writing unless a copy is attached to or endorsed on the policy.\n- An application cannot be used as evidence unless a true copy was attached to the policy when issued.\n- The contract can be modified, or a right waived, only in a writing signed by a person the insurer specifies in the policy. A producer's promise does not change the policy.\n\nNew York also says that statements made by the applicant are **[[representation|representations]], not warranties**. A representation is a statement the applicant believes to be true; a [[warranty]] is a statement guaranteed to be literally true. Treating answers as representations protects applicants from losing coverage over trivial errors. Only within the contestable period can the insurer challenge the policy for a [[misrepresentation]] that matters to its decision.\n\nAnother safeguard: no one other than the applicant may alter an application without the applicant's written consent, except for clearly marked administrative insertions by the insurer.",
+     "simple": "Your policy packet is the whole deal. If the insurer wants to use your application against you, a copy must be in your packet. Only an insurer officer named in the policy can change it in writing — not the person who sold it to you. Your answers on the application are treated as honest \"best of my knowledge\" statements, not iron-clad guarantees.",
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "NY Insurance Law § 3203(a)(4) and § 3204(a): policy + attached application = entire contract; an unattached application is not admissible in evidence; changes only by a writing signed by a person the insurer specifies.",
+       "sources": [
+        "ny-isc-3203",
+        "ny-isc-3204"
+       ]
+      },
+      {
+       "kind": "ny-rule",
+       "text": "NY Insurance Law § 3204(c): statements by the applicant for issuance, reinstatement or renewal are deemed representations, not warranties.",
+       "sources": [
+        "ny-isc-3204"
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "Paying premiums and the free look",
+     "body": "Premiums are paid in advance. The first premium is often paid with the application (which may give conditional coverage) or at [[policy-delivery]]. After that, the owner chooses a [[premium-mode]]: annual, semiannual, quarterly or monthly. Paying more often than annually usually costs a little more in total, because the insurer has more transactions to handle and earns less interest on money it receives later.\n\nWhen a new policy is delivered, the owner gets a [[free-look]] period. If the owner returns the policy with a written request to cancel during that period, the insurer must refund every premium paid, including policy fees and other charges.",
+     "example": {
+      "title": "Example: counting the free look",
+      "body": "Carlos's policy, sold by a producer, gives him a 10-day free look. It is delivered on May 3. He returns it with a written cancellation request on May 11 — within 10 days of delivery — and gets a full refund."
+     },
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "NY Insurance Law § 3203(a)(11): the free-look period is not less than 10 nor more than 30 days from delivery to the policyowner; mail-order policies must allow 30 days. The refund includes premiums, policy fees and other charges.",
+       "sources": [
+        "ny-isc-3203"
+       ]
+      },
+      {
+       "kind": "exam-trap",
+       "text": "The free look runs from DELIVERY — not from the application date or the issue date."
+      }
+     ]
+    },
+    {
+     "heading": "Proof of death",
+     "body": "When the insured dies, the beneficiary (or the estate) files a claim. The usual [[proof-of-death]] is a claimant's statement (claim form) plus a certified death certificate. If death occurs during the contestable period, the insurer may also review medical records before paying.\n\nThe beneficiary then chooses how to receive the money — a lump sum or one of the settlement options you'll study in a later lesson.",
+     "simple": "To collect, send the insurer a claim form and an official death certificate.",
+     "callouts": []
+    }
+   ],
+   "activity": {
+    "type": "match",
+    "prompt": "Match each provision or rule to what it does.",
+    "pairs": [
+     {
+      "left": "Ownership provision",
+      "right": "Names the person who holds all contractual rights"
+     },
+     {
+      "left": "Collateral assignment",
+      "right": "Pledges the policy as security for a debt"
+     },
+     {
+      "left": "Absolute assignment",
+      "right": "Permanently transfers all ownership rights"
+     },
+     {
+      "left": "Entire contract provision",
+      "right": "Makes the policy plus the attached application the whole agreement"
+     },
+     {
+      "left": "Free look",
+      "right": "Lets a new owner return the policy for a full refund"
+     },
+     {
+      "left": "Proof of death",
+      "right": "Certified death certificate plus a claimant's statement"
+     }
+    ]
+   },
+   "knowledgeChecks": [
+    {
+     "prompt": "Who may change a revocable beneficiary on a policy owned by a business on its president's life?",
+     "choices": [
+      "The business, as policyowner",
+      "The president, as insured",
+      "The current beneficiary",
+      "The producer of record"
+     ],
+     "answerIndex": 0,
+     "explanation": "Only the policyowner can change a revocable beneficiary. The insured has no rights unless also the owner."
+    },
+    {
+     "prompt": "A New York life policy sold through the mail must allow a free-look period of how long?",
+     "choices": [
+      "10 days",
+      "20 days",
+      "30 days",
+      "60 days"
+     ],
+     "answerIndex": 2,
+     "explanation": "NY Insurance Law § 3203(a)(11) requires 30 days for mail-order policies; other policies may set 10 to 30 days."
+    },
+    {
+     "prompt": "A producer orally promises a client a benefit the policy does not include. Under New York law, what is the effect?",
+     "choices": [
+      "The oral promise becomes part of the contract",
+      "Only a writing signed by the insurer's designee can change it",
+      "The entire policy becomes void from issue",
+      "The free-look period restarts from that day"
+     ],
+     "answerIndex": 1,
+     "explanation": "NY Insurance Law § 3204(a)(3) allows modification only in a writing signed by a person specified by the insurer in the policy."
+    }
+   ],
+   "summary": [
+    "The policyowner — not the insured or beneficiary — holds all contractual rights.",
+    "Absolute assignment transfers ownership; collateral assignment secures a debt and pays the lender only what is owed.",
+    "In New York the policy plus the attached application is the entire contract; applicant statements are representations, not warranties.",
+    "New York free look: 10–30 days from delivery (30 for mail order), with a full refund including fees.",
+    "Proof of death is usually a certified death certificate and a claimant's statement."
+   ],
+   "related": [
+    "lpr-l02",
+    "lpr-l03"
+   ],
+   "sources": [
+    "ny-isc-3203",
+    "ny-isc-3204"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-l02",
+   "sectionId": "lpr",
+   "order": 2,
+   "title": "Late Payments, Lapse and Challenges: Grace, Reinstatement, Incontestability, Age and Exclusions",
+   "outlineIds": [
+    "lpr.1",
+    "lpr.1.6",
+    "lpr.1.7",
+    "lpr.1.8",
+    "lpr.1.9",
+    "lpr.1.10"
+   ],
+   "estMinutes": 30,
+   "intro": "What happens if a premium is late? Can a lapsed policy come back? How long can the insurer challenge what you wrote on the application? What if your age was wrong, or the cause of death is one the policy excludes? New York answers each of these questions in Insurance Law § 3203 — and the exam tests the numbers.",
+   "objectives": [
+    "Apply New York's grace period rules to fixed- and flexible-premium policies.",
+    "List the requirements and time limit for reinstatement in New York.",
+    "Explain the two-year incontestable clause and its exceptions.",
+    "Calculate a misstatement-of-age adjustment.",
+    "Identify the exclusions New York permits, including the two-year suicide exclusion."
+   ],
+   "keyTerms": [
+    "grace-period",
+    "reinstatement",
+    "incontestability",
+    "misstatement-of-age",
+    "suicide-exclusion",
+    "exclusion"
+   ],
+   "parts": [
+    {
+     "heading": "The grace period",
+     "body": "A [[grace-period]] keeps the policy in full force for a short time after a premium is missed. If the insured dies during the grace period, the claim is paid — minus the unpaid premium.\n\n- **Fixed-premium policies** (such as whole life): 31 days or one month after the due date.\n- **Flexible-premium policies** (such as [[universal-life]]): 61 days, starting on the day the insurer determines the net cash surrender value is not enough to cover the policy charges.\n\nIf the premium is still unpaid when the grace period ends, the policy lapses — unless an [[automatic-premium-loan]] provision pays it, or a nonforfeiture option takes over.",
+     "simple": "Miss a payment and you still have about a month (two months for universal life) to pay. You're still covered during that time.",
+     "example": {
+      "title": "Example: death during the grace period",
+      "body": "Dina's $100,000 whole life premium of $1,200 was due June 1. She dies June 18 without paying. The insurer pays $100,000 minus the unpaid premium owed."
+     },
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "NY Insurance Law § 3203(a)(1)–(2): 31-day (or one-month) grace period for fixed-premium policies; 61 days for flexible-premium policies; the insurer may deduct the unpaid premium from a death claim during the grace period.",
+       "sources": [
+        "ny-isc-3203"
+       ]
+      },
+      {
+       "kind": "exam-trap",
+       "text": "Don't mix up the grace period (late premium on an in-force policy) with the free look (returning a new policy)."
+      }
+     ]
+    },
+    {
+     "heading": "Reinstatement",
+     "body": "[[reinstatement|Reinstatement]] restores a lapsed policy — the original contract, at the original issue age — instead of buying a new one. In New York, the owner may reinstate at any time within three years from the date of default, unless the cash surrender value was taken or the extended term coverage has run out. The owner must:\n\n- apply for reinstatement,\n- give evidence of insurability (including good health) satisfactory to the insurer,\n- pay all overdue premiums with interest of no more than 6% per year, compounded annually, and\n- pay or reinstate any other policy debt, such as loans.",
+     "simple": "You can usually bring a lapsed policy back within three years if you're still healthy enough and you catch up on the missed premiums with interest.",
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "NY Insurance Law § 3203(a)(10): reinstatement within 3 years of default; evidence of insurability; overdue premiums with interest not exceeding 6% compounded annually; repay or reinstate other indebtedness. Not available if the cash surrender value has been exhausted or extended term has expired.",
+       "sources": [
+        "ny-isc-3203"
+       ]
+      },
+      {
+       "kind": "memory-tip",
+       "text": "Reinstatement \"3-6\": 3 years to ask, 6% maximum interest."
+      }
+     ]
+    },
+    {
+     "heading": "Incontestability",
+     "body": "The [[incontestability|incontestable clause]] gives the insurer a limited window to investigate the application. In New York, once a policy has been in force during the insured's lifetime for two years from its date of issue, the insurer cannot contest it — even for a [[misrepresentation]] — except for:\n\n- nonpayment of premiums, and\n- violation of policy conditions relating to service in the armed forces.\n\nIf an increase in coverage required new evidence of insurability, that increase has its own two-year period starting on the date of the increase.",
+     "advanced": "\"During the lifetime of the insured\" matters: if the insured dies within two years of issue, the policy never became incontestable, so the insurer may still investigate statements on the application after the death.",
+     "example": {
+      "title": "Example: three years later",
+      "body": "Eli failed to disclose a past illness. Three years after issue, while Eli is living, the insurer finds out. The policy is incontestable; the insurer cannot rescind it."
+     },
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "NY Insurance Law § 3203(a)(3): incontestable after two years from issue during the insured's lifetime, except for nonpayment of premiums and armed-forces service conditions.",
+       "sources": [
+        "ny-isc-3203"
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "Misstatement of age",
+     "body": "If the insured's age was misstated, the policy is not voided. Instead, the [[misstatement-of-age]] provision adjusts the benefit to the amount the premium actually paid would have bought at the correct age. This adjustment applies even after the incontestable period.\n\n**Formula:** face amount × (premium paid ÷ premium for correct age).",
+     "example": {
+      "title": "Example: the calculation",
+      "body": "Fay's $60,000 policy charged $900 a year at her stated age. At her true (older) age, the premium would have been $1,200. Benefit = $60,000 × ($900 ÷ $1,200) = $60,000 × 0.75 = $45,000."
+     },
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "NY Insurance Law § 3203(a)(5): the amount payable is what the premium would have purchased at the correct age.",
+       "sources": [
+        "ny-isc-3203"
+       ]
+      },
+      {
+       "kind": "exam-trap",
+       "text": "An older true age means a SMALLER benefit; a younger true age means a larger one. Check the direction of your ratio."
+      }
+     ]
+    },
+    {
+     "heading": "Exclusions, including suicide",
+     "body": "An [[exclusion]] removes a cause of death from coverage. New York limits life policies to a short list of permitted exclusions:\n\n- war and certain military-service conditions,\n- suicide within two years from the date of issue,\n- aviation under conditions specified in the policy,\n- hazardous occupations specified in the policy, if death occurs within two years of issue, and\n- death while residing in a specified foreign country.\n\nIf an excluded death happens, the insurer pays a limited amount set by statute (based on premiums paid or the policy reserve) instead of the face amount. Death from ordinary illness cannot be excluded.\n\nThe [[suicide-exclusion]] and the incontestable clause both use two years in New York, but they do different jobs: one limits a cause of death; the other limits challenges to the application.",
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "NY Insurance Law § 3203(b)–(c): permitted exclusions are war/military service, suicide within 2 years of issue, specified aviation, specified hazardous occupations (within 2 years of issue) and specified foreign residence.",
+       "sources": [
+        "ny-isc-3203"
+       ]
+      }
+     ]
+    }
+   ],
+   "activity": {
+    "type": "truefalse",
+    "prompt": "True or false under New York law?",
+    "statements": [
+     {
+      "text": "A fixed-premium life policy remains in force during a 31-day grace period.",
+      "answer": true,
+      "explanation": "§ 3203(a)(1) provides a 31-day (or one-month) grace period."
+     },
+     {
+      "text": "A lapsed policy may be reinstated up to five years after default.",
+      "answer": false,
+      "explanation": "New York requires reinstatement to be available within three years of default."
+     },
+     {
+      "text": "After two years in force during the insured's lifetime, the insurer may still contest a policy for nonpayment of premiums.",
+      "answer": true,
+      "explanation": "Nonpayment of premiums is an exception to incontestability."
+     },
+     {
+      "text": "If the insured's age was misstated, the policy is void.",
+      "answer": false,
+      "explanation": "The benefit is adjusted to what the premium would have bought at the correct age."
+     },
+     {
+      "text": "A policy may exclude death by suicide that occurs four years after issue.",
+      "answer": false,
+      "explanation": "Suicide may be excluded only within two years from the date of issue."
+     },
+     {
+      "text": "Reinstatement requires evidence of insurability.",
+      "answer": true,
+      "explanation": "§ 3203(a)(10) requires evidence of insurability satisfactory to the insurer."
+     }
+    ]
+   },
+   "knowledgeChecks": [
+    {
+     "prompt": "A universal life policy's cash value can no longer cover its charges. How long is the New York grace period?",
+     "choices": [
+      "31 days from the premium due date",
+      "61 days from when the value is found insufficient",
+      "10 days from the date of delivery",
+      "3 years from the date of default"
+     ],
+     "answerIndex": 1,
+     "explanation": "§ 3203(a)(1) provides 61 days for flexible-premium policies."
+    },
+    {
+     "prompt": "A $90,000 policy was priced at $600 a year, but the correct-age premium is $800. What is the adjusted benefit?",
+     "choices": [
+      "$67,500",
+      "$90,000",
+      "$120,000",
+      "$72,000"
+     ],
+     "answerIndex": 0,
+     "explanation": "$90,000 × ($600 ÷ $800) = $90,000 × 0.75 = $67,500."
+    },
+    {
+     "prompt": "Which is NOT a permitted reason to contest a New York life policy after it becomes incontestable?",
+     "choices": [
+      "Nonpayment of premiums",
+      "Armed-forces service conditions",
+      "A material misstatement of health history",
+      "None — the policy can never be contested"
+     ],
+     "answerIndex": 2,
+     "explanation": "After two years, misstatements on the application can no longer be used; nonpayment and armed-forces conditions remain exceptions."
+    }
+   ],
+   "summary": [
+    "NY grace period: 31 days (fixed premium) or 61 days (flexible premium); unpaid premium is deducted from a death claim.",
+    "NY reinstatement: within 3 years, evidence of insurability, back premiums with up to 6% interest, repay loans.",
+    "NY incontestability: 2 years from issue during the insured's lifetime, except nonpayment and armed-forces conditions.",
+    "Misstated age adjusts the benefit to what the premium would buy at the correct age.",
+    "Suicide may be excluded only within 2 years of issue; other exclusions are limited to a short statutory list."
+   ],
+   "related": [
+    "lpr-l01",
+    "lpr-l05"
+   ],
+   "sources": [
+    "ny-isc-3203"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-l03",
+   "sectionId": "lpr",
+   "order": 3,
+   "title": "Naming Beneficiaries: Who Gets Paid, in What Order, and What If Something Goes Wrong",
+   "outlineIds": [
+    "lpr.2",
+    "lpr.2.1",
+    "lpr.2.1.1",
+    "lpr.2.1.2",
+    "lpr.2.1.3",
+    "lpr.2.1.4",
+    "lpr.2.1.5",
+    "lpr.2.1.6",
+    "lpr.2.1.7",
+    "lpr.2.1.8"
+   ],
+   "estMinutes": 30,
+   "intro": "The whole point of life insurance is getting money to the right people. The beneficiary designation decides who that is. A careless designation can send money to probate, to a minor who can't legally receive it, or to someone the insured never meant to benefit. This lesson walks through every designation option the exam covers.",
+   "objectives": [
+    "Describe the beneficiary designation options: individuals, classes, estates, minors and trusts.",
+    "Apply per stirpes and per capita distributions to a family example.",
+    "Explain the order of succession among primary and contingent beneficiaries.",
+    "Distinguish revocable from irrevocable designations.",
+    "Explain how a common disaster clause works."
+   ],
+   "keyTerms": [
+    "beneficiary",
+    "primary-beneficiary",
+    "contingent-beneficiary",
+    "per-stirpes",
+    "per-capita",
+    "revocable-beneficiary",
+    "irrevocable-beneficiary",
+    "common-disaster-clause"
+   ],
+   "parts": [
+    {
+     "heading": "Designation options",
+     "body": "The [[beneficiary]] is whoever the policyowner names to receive the proceeds. Common choices:\n\n- **Individuals** — named people, such as \"my wife, Ana Ruiz.\" Using full names and relationships avoids confusion.\n- **Classes** — a group, such as \"my children.\" Class designations are often paired with [[per-stirpes|per stirpes]] or [[per-capita|per capita]] instructions.\n- **The insured's estate** — the proceeds become part of the estate, which means probate delays, probate costs and exposure to the estate's creditors. Proceeds also go to the estate when no named beneficiary survives.\n- **Minors** — insurers generally won't pay a minor directly because a minor cannot give a valid release. Money for a minor is usually paid to a court-appointed guardian, a custodian, or a trust.\n- **Trusts** — a trustee receives and manages the money under the trust's instructions. Useful for minors, beneficiaries with special needs, or spreading out payments.\n- **Businesses and charities** may also be named.",
+     "simple": "The beneficiary can be a person, a group like \"my kids,\" a trust, a charity, or the estate. Naming the estate means the money goes through probate. Naming a child directly usually means a guardian has to be appointed.",
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "If the question says the estate is the beneficiary (or that no beneficiary survived), think: probate, delay and creditors."
+      }
+     ]
+    },
+    {
+     "heading": "Order of succession",
+     "body": "Owners usually name beneficiaries in levels:\n\n- [[primary-beneficiary|Primary]] — first in line.\n- [[contingent-beneficiary|Contingent]] (secondary) — paid only if no primary beneficiary survives.\n- Tertiary — paid only if no primary or contingent beneficiary survives.\n- If nobody named survives, the proceeds go to the insured's estate.\n\nNaming at least one contingent beneficiary is the simplest way to keep proceeds out of probate.",
+     "example": {
+      "title": "Example: succession",
+      "body": "Gil names his wife as primary and his two sisters as contingent beneficiaries. His wife dies first; then Gil dies. His sisters receive the proceeds."
+     },
+     "callouts": []
+    },
+    {
+     "heading": "Per stirpes vs. per capita",
+     "body": "Class designations need a rule for what happens if a member of the class dies before the insured.\n\n- **[[per-stirpes|Per stirpes]]** (\"by the branch\"): a deceased beneficiary's share passes down to his or her descendants.\n- **[[per-capita|Per capita]]** (\"by the head\"): the proceeds are split equally among the named beneficiaries who are still living.",
+     "example": {
+      "title": "Example: same family, two outcomes",
+      "body": "Hana's $600,000 policy names her three children. Her son Ian died before her, leaving two children.\n\n- **Per stirpes:** each of the three branches gets $200,000. The two living children get $200,000 each; Ian's two children split his $200,000 — $100,000 each.\n- **Per capita:** the two living children split $600,000 — $300,000 each. Ian's children receive nothing."
+     },
+     "callouts": [
+      {
+       "kind": "memory-tip",
+       "text": "Stirpes = stems of the family tree. Capita = count the heads still alive."
+      }
+     ]
+    },
+    {
+     "heading": "Revocable vs. irrevocable designations",
+     "body": "Most designations are [[revocable-beneficiary|revocable]]: the owner can change them at any time without telling the beneficiary, and the beneficiary has no rights while the insured lives.\n\nAn [[irrevocable-beneficiary|irrevocable]] designation gives the beneficiary a vested interest. The owner needs the beneficiary's written consent to change the beneficiary — and generally also to assign the policy, take a loan, or surrender it, since those actions reduce what the beneficiary would receive. Irrevocable designations often appear in divorce settlements.",
+     "simple": "Revocable = the owner can change it anytime. Irrevocable = locked in; the beneficiary must agree to big changes.",
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "An irrevocable beneficiary is not the owner. The owner still owns the policy but needs consent for actions that hurt the beneficiary's interest."
+      }
+     ]
+    },
+    {
+     "heading": "Common disaster",
+     "body": "What if the insured and the primary beneficiary die in the same accident? If the beneficiary survives the insured by a few days, the proceeds could be paid to the beneficiary's estate and pass under the beneficiary's will — not to the people the insured chose.\n\nA [[common-disaster-clause]] prevents that. It requires the primary beneficiary to survive the insured by a stated period (the policy sets the length). If the beneficiary doesn't, the insurer pays as if the beneficiary died first — to the contingent beneficiary or, if none, to the insured's estate.\n\nSimultaneous death laws (based on the Uniform Simultaneous Death Act) generally presume that the insured survived the beneficiary when there is not enough evidence of who died first. The common disaster clause goes further, covering cases where the beneficiary clearly survived, but only briefly.",
+     "example": {
+      "title": "Example: a two-day gap",
+      "body": "Jon and his wife, his primary beneficiary, are hurt in a crash. Jon dies immediately; his wife dies two days later. Jon's policy requires 30 days of survival, so the proceeds go to his contingent beneficiary, his son."
+     },
+     "callouts": []
+    }
+   ],
+   "activity": {
+    "type": "categorize",
+    "prompt": "Sort each statement by the type of beneficiary designation it describes.",
+    "categories": [
+     "Revocable",
+     "Irrevocable"
+    ],
+    "items": [
+     {
+      "text": "Owner may change the beneficiary without consent",
+      "category": "Revocable"
+     },
+     {
+      "text": "Beneficiary has a vested interest",
+      "category": "Irrevocable"
+     },
+     {
+      "text": "Owner needs consent to surrender the policy",
+      "category": "Irrevocable"
+     },
+     {
+      "text": "Beneficiary has no rights while the insured is living",
+      "category": "Revocable"
+     },
+     {
+      "text": "Often required by a divorce settlement",
+      "category": "Irrevocable"
+     },
+     {
+      "text": "Owner may take a policy loan freely",
+      "category": "Revocable"
+     }
+    ]
+   },
+   "knowledgeChecks": [
+    {
+     "prompt": "A $90,000 policy names \"my three children, per stirpes.\" One child died first, leaving one daughter. How much does that granddaughter receive?",
+     "choices": [
+      "$0",
+      "$30,000",
+      "$45,000",
+      "$90,000"
+     ],
+     "answerIndex": 1,
+     "explanation": "Per stirpes: each branch gets one-third ($30,000), and the deceased child's share passes to his daughter."
+    },
+    {
+     "prompt": "What usually happens to proceeds when no named beneficiary survives the insured?",
+     "choices": [
+      "They go to the insured's estate",
+      "The insurer keeps them",
+      "They go to the producer",
+      "They are split among the insured's creditors directly by the insurer"
+     ],
+     "answerIndex": 0,
+     "explanation": "With no surviving beneficiary, the proceeds are paid to the insured's estate."
+    },
+    {
+     "prompt": "What is the purpose of a common disaster clause?",
+     "choices": [
+      "To pay double the face amount when two people die together",
+      "To pay the contingent beneficiary if the primary dies with the insured",
+      "To exclude deaths caused by floods, fires and other disasters",
+      "To delay the payment of every death claim by 30 days"
+     ],
+     "answerIndex": 1,
+     "explanation": "The clause treats a primary beneficiary who does not survive the stated period as having died first."
+    }
+   ],
+   "summary": [
+    "Beneficiaries can be individuals, classes, trusts, businesses, charities or the estate.",
+    "Succession: primary → contingent → tertiary → estate.",
+    "Per stirpes passes a deceased beneficiary's share down the family branch; per capita splits among survivors.",
+    "Revocable designations can be changed freely; irrevocable beneficiaries have a vested interest and must consent.",
+    "A common disaster clause sends proceeds to the contingent beneficiary when the primary beneficiary does not survive the insured by the required period."
+   ],
+   "related": [
+    "lpr-l01",
+    "lpr-l04"
+   ],
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-l04",
+   "sectionId": "lpr",
+   "order": 4,
+   "title": "Settlement Options: How the Death Benefit Gets Paid Out",
+   "outlineIds": [
+    "lpr.3",
+    "lpr.3.1",
+    "lpr.3.2",
+    "lpr.3.3",
+    "lpr.3.4",
+    "lpr.3.5",
+    "lpr.3.5.1",
+    "lpr.3.5.2",
+    "lpr.3.5.3"
+   ],
+   "estMinutes": 20,
+   "intro": "A $500,000 death benefit doesn't have to arrive as one check. Settlement options let the owner (before death) or the beneficiary (after death, if the owner didn't choose) spread the money out — for a set time, in set amounts, or for life. Each option fits a different need.",
+   "objectives": [
+    "Describe the cash, interest-only, fixed-period, fixed-amount and life income options.",
+    "Distinguish fixed-period from fixed-amount installments.",
+    "Compare single life and joint and survivor life income.",
+    "Explain how a spendthrift clause protects installment payments."
+   ],
+   "keyTerms": [
+    "settlement-options",
+    "interest-only-option",
+    "fixed-period-option",
+    "fixed-amount-option",
+    "life-income-option",
+    "spendthrift-clause"
+   ],
+   "parts": [
+    {
+     "heading": "Cash and interest only",
+     "body": "[[settlement-options|Settlement options]] are the ways proceeds can be paid.\n\n- **Cash (lump sum):** the whole amount at once. This is the most common choice and the one used if no other option is selected.\n- **[[interest-only-option|Interest only]]:** the insurer holds the principal and pays the beneficiary the interest it earns, at least at a guaranteed rate. The principal is paid later — when the beneficiary asks, on a set date, or to a secondary payee. The interest is taxable income to the beneficiary.",
+     "simple": "Lump sum = all the money now. Interest only = the insurer keeps the money and sends just the interest, like a savings account.",
+     "callouts": [
+      {
+       "kind": "note",
+       "text": "When proceeds are paid in installments, part of each payment is principal (generally not taxable) and part is interest (taxable). Taxation is covered in detail in the taxation section."
+      }
+     ]
+    },
+    {
+     "heading": "Fixed-period and fixed-amount installments",
+     "body": "Both options pay out principal plus interest until the money is gone. The difference is what you lock in:\n\n- **[[fixed-period-option|Fixed period]]:** you choose how long (e.g., 10 years). The insurer calculates how much each payment can be. Extra interest makes each payment bigger.\n- **[[fixed-amount-option|Fixed amount]]:** you choose how much (e.g., $2,000 a month). Payments continue until the money runs out. Extra interest makes the payments last longer.\n\nIf the payee dies before the payments end, the remaining value goes to a contingent payee or the payee's estate.",
+     "example": {
+      "title": "Example: same $120,000, two choices",
+      "body": "Kai's beneficiary can take $120,000 as 10 years of monthly payments (fixed period: at least $1,000 a month plus interest), or as $1,500 a month (fixed amount: at least 80 months, longer with interest)."
+     },
+     "callouts": [
+      {
+       "kind": "memory-tip",
+       "text": "PERIOD locks the calendar; AMOUNT locks the check size."
+      }
+     ]
+    },
+    {
+     "heading": "Life income options",
+     "body": "A [[life-income-option|life income]] turns the proceeds into payments that can't be outlived, much like an annuity.\n\n- **Single life (straight life):** pays as long as the payee lives, then stops. Highest monthly amount of the life options, but nothing is left if the payee dies early.\n- **Life with period certain or refund:** pays for life, but guarantees a minimum number of payments or a refund of the unpaid balance to a beneficiary. Lower monthly amount than straight life.\n- **Joint and survivor:** pays as long as either of two payees is living — popular with couples. Lower monthly amount than single life because it covers two lives.\n\nPayment size depends mostly on the payee's age: the older the payee, the larger each payment.",
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "Single life pays the most per month but has no guarantee beyond the payee's life. Every added guarantee lowers the payment."
+      }
+     ]
+    },
+    {
+     "heading": "The spendthrift clause",
+     "body": "A [[spendthrift-clause]] protects proceeds that the insurer is still holding under a settlement option. The beneficiary's creditors can't seize those future installments, and the beneficiary can't sell, assign or borrow against them in advance. Once a payment is made, the money belongs to the beneficiary like any other money.",
+     "simple": "Money the insurer hasn't paid out yet is protected from the beneficiary's creditors, and the beneficiary can't sell those future payments early.",
+     "callouts": []
+    }
+   ],
+   "activity": {
+    "type": "match",
+    "prompt": "Match each settlement option to its key feature.",
+    "pairs": [
+     {
+      "left": "Cash (lump sum)",
+      "right": "Entire amount paid at once"
+     },
+     {
+      "left": "Interest only",
+      "right": "Principal held; only earnings paid"
+     },
+     {
+      "left": "Fixed period",
+      "right": "Length of payments chosen; size varies"
+     },
+     {
+      "left": "Fixed amount",
+      "right": "Size of payments chosen; length varies"
+     },
+     {
+      "left": "Single life income",
+      "right": "Payments for one lifetime, then stop"
+     },
+     {
+      "left": "Joint and survivor",
+      "right": "Payments continue while either of two payees lives"
+     }
+    ]
+   },
+   "knowledgeChecks": [
+    {
+     "prompt": "Which option keeps the principal intact?",
+     "choices": [
+      "Fixed period",
+      "Interest only",
+      "Fixed amount",
+      "Single life income"
+     ],
+     "answerIndex": 1,
+     "explanation": "Interest only pays earnings and leaves the principal with the insurer."
+    },
+    {
+     "prompt": "Under the fixed-amount option, extra interest credited by the insurer will:",
+     "choices": [
+      "Increase each payment",
+      "Make payments last longer",
+      "Be paid to the insurer",
+      "End the payments early"
+     ],
+     "answerIndex": 1,
+     "explanation": "With the payment size fixed, extra interest extends the payout period."
+    },
+    {
+     "prompt": "A spendthrift clause protects installment proceeds from:",
+     "choices": [
+      "The policyowner's creditors",
+      "The beneficiary's creditors",
+      "Income taxes",
+      "Inflation"
+     ],
+     "answerIndex": 1,
+     "explanation": "The clause shields unpaid installments from the beneficiary's creditors."
+    }
+   ],
+   "summary": [
+    "Settlement options: cash, interest only, fixed period, fixed amount, life income.",
+    "Fixed period fixes time; fixed amount fixes payment size.",
+    "Single life pays the most per month; joint and survivor covers two lives for less per month.",
+    "Interest earned under settlement options is taxable; the principal generally is not.",
+    "A spendthrift clause protects unpaid installments from the beneficiary's creditors."
+   ],
+   "related": [
+    "lpr-l03",
+    "lpr-l05"
+   ],
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

@@ -1,0 +1,616 @@
+{
+  "sectionId": "plpc",
+  "lessons": [
+    {
+      "id": "plpc-l01",
+      "sectionId": "plpc",
+      "order": 1,
+      "title": "How Insurers Choose and Price Risks: Insurable Interest, Underwriting and Rates",
+      "outlineIds": [
+        "plpc.1",
+        "plpc.1.1",
+        "plpc.1.2",
+        "plpc.1.2.1",
+        "plpc.1.2.2",
+        "plpc.1.2.3",
+        "plpc.1.3",
+        "plpc.1.3.1",
+        "plpc.1.3.2",
+        "plpc.1.3.3"
+      ],
+      "estMinutes": 30,
+      "intro": "Before an insurer can protect a home or a car, three questions must be answered: Does this person stand to lose money if the property is damaged? Should we accept this risk? What should we charge? This lesson covers insurable interest, the underwriter's job (including New York's ban on redlining and its rules for credit-based insurance scores), and how property and casualty rates are built.",
+      "objectives": [
+        "Explain when insurable interest must exist in property insurance",
+        "Describe the function of underwriting",
+        "Apply New York's geographic redlining prohibitions (§§ 3429, 3430, 3433)",
+        "State New York's main limits on insurance risk scores (§ 2802)",
+        "Distinguish class, schedule and judgment rating and identify the components of a rate"
+      ],
+      "keyTerms": [
+        "insurable-interest",
+        "underwriting",
+        "redlining",
+        "insurance-risk-score",
+        "manual-rating",
+        "schedule-rating",
+        "judgment-rating",
+        "loss-costs",
+        "pure-premium",
+        "expense-loading"
+      ],
+      "parts": [
+        {
+          "heading": "Insurable interest: who can buy coverage",
+          "body": "[[insurable-interest|Insurable interest]] means you would suffer a **financial loss** if the property were damaged or destroyed. Owners, mortgage lenders, landlords and even tenants (for their belongings and improvements) can have an insurable interest.\n\nIn property and casualty insurance the interest must exist **at the time of the loss**. That follows from [[indemnity]]: the policy repays a loss, and if you no longer owned the house when it burned, you lost nothing. (In life insurance, by contrast, the interest must exist when the policy is issued.)",
+          "simple": "You can insure something only if you would lose money when it is damaged, and you must still have that money at stake on the day the damage happens.",
+          "example": {
+            "title": "Example: the sold house",
+            "body": "Gina sells her home on May 1 but forgets to cancel her homeowners policy. The house burns on May 10. Gina has no insurable interest on May 10, so she has no covered loss. The new owner needs his own policy."
+          },
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "Property = insurable interest at the time of LOSS. Life = at the time of APPLICATION/ISSUE. Exams love swapping these."
+            }
+          ]
+        },
+        {
+          "heading": "What underwriters do",
+          "body": "[[underwriting|Underwriting]] is the process of **selecting, classifying and pricing** risks. The underwriter reviews the application, inspection reports, loss history and other information, then decides to accept, accept with changes (higher deductible, fewer coverages), or decline. Careful selection protects the insurer from [[adverse-selection]] (attracting a disproportionate share of bad risks) and keeps rates fair for everyone in a class.\n\nUnderwriters look at hazards: physical hazards (old wiring, a wood stove), moral hazards (dishonesty) and morale hazards (carelessness because \"it's insured\"). Property underwriters often summarize building risk as **COPE**: Construction, Occupancy, Protection and Exposure.",
+          "simple": "Underwriters decide whom to insure, on what terms and at what price.",
+          "callouts": []
+        },
+        {
+          "heading": "New York's ban on geographic redlining",
+          "body": "**Redlining** means refusing coverage because of where a property or person is located. New York prohibits it:\n\n- **§ 3429**: no insurer may refuse to issue or renew, or cancel, a **fire** or **fire and extended coverage** policy, or a private passenger **auto** policy subject to § 3425, **based solely on the geographical location** of the risk within the state. Decisions based on **sound underwriting and actuarial principles reasonably related to actual or anticipated loss experience** remain allowed.\n- **§ 3430**: an insured who cannot obtain homeowners (including fire) or covered auto insurance because of location, when the reason is not sound underwriting, may **file a complaint with the Superintendent**, who may investigate, require a physical inspection of the property, or hold a hearing. Agents and brokers terminated because of location have the same right.\n- **§ 3433**: an insurer may not terminate or refuse to renew a licensed **agent's or broker's** contract **based solely on the geographic location** of the producer or of the risks the producer places.\n\nThe Superintendent sets, by regulation, how insurers must notify insureds and producers of the specific reasons for these decisions. (The exam outline also lists Regulation 90, 11 NYCRR Part 218, which implements these sections.)",
+          "simple": "In New York an insurer cannot say no to you, or drop your agent, just because of your neighborhood. It can say no only for real underwriting reasons about the risk itself.",
+          "example": {
+            "title": "Example: two refusals",
+            "body": "Insurer A declines every application from one ZIP code without inspecting any home: prohibited redlining. Insurer B declines one home in the same ZIP code because its roof is collapsing and its wiring is unsafe: sound underwriting, allowed."
+          },
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "NY Ins. Law § 3429: no refusal to issue or renew, and no cancellation, of fire, fire and extended coverage, or covered auto policies based solely on the geographical location of the risk.",
+              "sources": [
+                "ny-isc-3429"
+              ]
+            },
+            {
+              "kind": "ny-rule",
+              "text": "NY Ins. Law § 3430: an aggrieved insured, agent or broker may file a complaint with the Superintendent; § 3433 bars terminating a producer's contract based solely on geographic location.",
+              "sources": [
+                "ny-isc-3430",
+                "ny-isc-3433"
+              ]
+            },
+            {
+              "kind": "exam-trap",
+              "text": "The magic word is SOLELY. Location plus a real loss-related reason is not redlining."
+            }
+          ]
+        },
+        {
+          "heading": "Insurance risk scores (credit scoring) in New York",
+          "body": "An [[insurance-risk-score]] is built from consumer credit-report information and used to predict insurance losses. Because it comes from a consumer report, the federal [[fair-credit-reporting-act]] applies. New York Insurance Law **§ 2802** adds guardrails for personal lines. An insurer using credit information may **not**:\n\n- calculate the score using **income, gender, address, ZIP code, ethnic group, religion, marital status or nationality**;\n- **deny** a personal lines policy **solely** on credit information;\n- use credit information to **cancel or nonrenew**, or to **increase the premium on renewal**;\n- penalize someone just for **not having a credit card account**, or for having **no credit file** (the insurer must treat the person as having neutral credit, rate without credit, or use a Superintendent-approved approach).\n\nOn the consumer's request, the insurer must **re-underwrite and re-rate at least once every 36 months** using a current report, and that review may not increase the premium.",
+          "simple": "Credit can be one factor in pricing a new home or auto policy, but in New York it cannot be the only reason to say no, and it cannot be used later to drop you or raise your renewal price.",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "NY Ins. Law § 2802: no score built on income, gender, address/ZIP, ethnic group, religion, marital status or nationality; no denial solely on credit; no use of credit to cancel, nonrenew or raise renewal premium.",
+              "sources": [
+                "ny-isc-2802"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "How rates are made",
+          "body": "A **rate** is the price per unit of exposure (for example, per $100 of coverage). The premium is rate × exposure units.\n\n**Types of rating**\n- [[manual-rating|Class (manual) rating]]: similar risks are grouped into classes with a published rate. Most personal lines are class rated.\n- **Merit rating** adjusts the class rate for the individual risk: [[schedule-rating]] adds debits and credits for specific features; [[experience-rating]] uses the insured's own past losses (common in larger commercial accounts).\n- [[judgment-rating]]: for unique risks with no class, the underwriter sets the rate by judgment.\n\n**Loss costs.** Advisory organizations (see [[rating-service]]) pool industry data and publish [[loss-costs]], the part of the rate needed for expected losses and loss adjustment. Each insurer adds its own charges.\n\n**Components of a rate.** Gross rate = [[pure-premium]] (expected losses ÷ exposure units) + [[expense-loading]] (commissions, overhead, premium taxes, profit and contingencies).",
+          "example": {
+            "title": "Example: building a rate",
+            "body": "Expected losses are $300,000 on 2,000 homes. Pure premium = $300,000 ÷ 2,000 = $150. The insurer's loading for expenses and profit is $60. Gross rate = $150 + $60 = $210 per home."
+          },
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Rate = Pure premium (pays claims) + Loading (pays everything else)."
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "categorize",
+        "prompt": "Is each insurer decision allowed or prohibited under New York law?",
+        "categories": [
+          "Allowed",
+          "Prohibited"
+        ],
+        "items": [
+          {
+            "text": "Declining a home because of unsafe wiring found on inspection",
+            "category": "Allowed"
+          },
+          {
+            "text": "Refusing all fire policies in one ZIP code without evaluating the homes",
+            "category": "Prohibited"
+          },
+          {
+            "text": "Using an insurance score as one of several rating factors on a new policy",
+            "category": "Allowed"
+          },
+          {
+            "text": "Nonrenewing a homeowners policy because the insured's credit score fell",
+            "category": "Prohibited"
+          },
+          {
+            "text": "Terminating an agent solely because her office is in a particular neighborhood",
+            "category": "Prohibited"
+          },
+          {
+            "text": "Rating territories based on actual loss experience",
+            "category": "Allowed"
+          },
+          {
+            "text": "Building an insurance score that uses the applicant's marital status",
+            "category": "Prohibited"
+          },
+          {
+            "text": "Treating an applicant with no credit file as having neutral credit",
+            "category": "Allowed"
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "In property insurance, insurable interest must exist",
+          "choices": [
+            "At the time of loss",
+            "Only at application",
+            "Only at renewal",
+            "Only if there is a mortgage"
+          ],
+          "answerIndex": 0,
+          "explanation": "Property insurance indemnifies an actual financial loss, so the interest must exist when the loss occurs."
+        },
+        {
+          "prompt": "Which New York section lets an insured aggrieved by geographic redlining complain to the Superintendent?",
+          "choices": [
+            "§ 3430",
+            "§ 3425",
+            "§ 501",
+            "§ 3426"
+          ],
+          "answerIndex": 0,
+          "explanation": "§ 3430 provides the complaint process; § 3429 states the prohibition and § 3433 protects producers."
+        },
+        {
+          "prompt": "Expected losses of $500,000 are spread over 5,000 exposure units. The pure premium per unit is",
+          "choices": [
+            "$1,000",
+            "$10",
+            "$100",
+            "$500"
+          ],
+          "answerIndex": 2,
+          "explanation": "$500,000 ÷ 5,000 = $100."
+        }
+      ],
+      "summary": [
+        "Property insurable interest must exist at the time of loss.",
+        "Underwriting selects, classifies and prices risks and guards against adverse selection.",
+        "New York bans refusing, cancelling or nonrenewing fire and covered auto policies, or terminating producers, based solely on geographic location (§§ 3429, 3433); aggrieved parties may complain to the Superintendent (§ 3430).",
+        "Under § 2802, credit may help rate new personal lines business but cannot be the sole reason to deny and cannot be used to cancel, nonrenew or raise renewal premium.",
+        "Rates: class (manual), schedule and judgment rating; gross rate = pure premium + expense and profit loading; advisory loss costs plus each insurer's loading."
+      ],
+      "related": [
+        "plpc-l02",
+        "plpc-l04"
+      ],
+      "sources": [
+        "ny-isc-3429",
+        "ny-isc-3430",
+        "ny-isc-3433",
+        "ny-isc-2802",
+        "general-insurance-principles"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-l02",
+      "sectionId": "plpc",
+      "order": 2,
+      "title": "Legal Liability: Negligence, Defenses, Damages and Liability Without Fault",
+      "outlineIds": [
+        "plpc.1.4",
+        "plpc.1.4.1",
+        "plpc.1.4.2",
+        "plpc.1.5",
+        "plpc.1.5.1",
+        "plpc.1.5.2",
+        "plpc.1.5.3",
+        "plpc.1.5.4",
+        "plpc.1.5.5"
+      ],
+      "estMinutes": 25,
+      "intro": "Liability coverage in homeowners and auto policies pays when you are legally responsible for injuring someone or damaging their property. To understand what triggers that coverage, you need the basics of tort law: what makes someone negligent, how a defendant can fight back, what kinds of damages courts award, and when the law imposes liability even without carelessness.",
+      "objectives": [
+        "List and apply the four elements of negligence",
+        "Compare contributory negligence, comparative negligence and assumption of risk",
+        "Distinguish special, general and punitive damages",
+        "Distinguish absolute, strict and vicarious liability"
+      ],
+      "keyTerms": [
+        "negligence",
+        "proximate-cause",
+        "contributory-negligence",
+        "comparative-negligence",
+        "assumption-of-risk",
+        "compensatory-damages",
+        "special-damages",
+        "general-damages",
+        "punitive-damages",
+        "absolute-liability",
+        "strict-liability",
+        "vicarious-liability"
+      ],
+      "parts": [
+        {
+          "heading": "The four elements of a negligent act",
+          "body": "[[negligence|Negligence]] is failing to act as a reasonably prudent person would under the circumstances. An injured person (the plaintiff) must prove **all four** elements:\n\n- **Duty**: the defendant owed the plaintiff a legal duty of care (a homeowner to guests, a driver to others on the road).\n- **Breach**: the defendant failed to meet that duty (left ice on the steps, ran a red light).\n- **Damages**: the plaintiff suffered actual injury or loss.\n- **Proximate cause**: the breach caused the damages in an unbroken chain of events ([[proximate-cause]]).\n\nIf any element is missing, there is no negligence claim. Negligence does not require intent; intentional harm is a different wrong and is usually excluded by liability policies.",
+          "simple": "To prove negligence: you owed care, you were careless, someone was hurt, and your carelessness caused it.",
+          "example": {
+            "title": "Example: the icy walkway",
+            "body": "Liam knows his front walk is icy and does nothing. A delivery driver slips and breaks a wrist. Duty (to visitors), breach (no salting), damages (broken wrist, medical bills) and proximate cause (the ice caused the fall) are all present."
+          },
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "D-B-D-P: Duty, Breach, Damages, Proximate cause."
+            }
+          ]
+        },
+        {
+          "heading": "Defenses against negligence",
+          "body": "- [[contributory-negligence|Contributory negligence]]: if the plaintiff contributed to the injury **at all**, recovery is barred. All-or-nothing.\n- [[comparative-negligence|Comparative negligence]]: fault is divided by percentage and the plaintiff's recovery is **reduced** by his or her share. Under a pure system, a plaintiff 30% at fault with $100,000 of damages recovers $70,000. Some states use a modified form that bars recovery once the plaintiff's fault reaches a set threshold.\n- [[assumption-of-risk|Assumption of risk]]: the plaintiff **knew** of a danger and **voluntarily** accepted it, as when a spectator is hit by a foul ball.",
+          "example": {
+            "title": "Example: same facts, three rules",
+            "body": "Damages are $50,000 and the plaintiff is 20% at fault. Contributory negligence: $0. Pure comparative negligence: $50,000 × 80% = $40,000. If the plaintiff had been warned and chose to proceed anyway, assumption of risk might bar the claim."
+          },
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "Contributory = cut off entirely. Comparative = cut down by the percentage. Don't mix them up in arithmetic questions."
+            }
+          ]
+        },
+        {
+          "heading": "Types of damages",
+          "body": "[[compensatory-damages|Compensatory damages]] make the victim whole and come in two kinds:\n\n- [[special-damages|Special damages]]: specific, measurable economic losses such as medical bills, lost wages and repair costs.\n- [[general-damages|General damages]]: non-economic losses such as pain and suffering, mental anguish and disfigurement.\n\n[[punitive-damages|Punitive damages]] are different: they **punish** outrageous conduct (gross recklessness, malice) and **deter** others. They are not based on the victim's loss.",
+          "simple": "Special = bills you can add up. General = pain you cannot put a receipt on. Punitive = a punishment on top.",
+          "callouts": []
+        },
+        {
+          "heading": "Liability without proving carelessness",
+          "body": "- [[absolute-liability|Absolute liability]]: for **ultra-hazardous** activities such as blasting or keeping wild animals, the defendant pays for resulting harm regardless of care.\n- [[strict-liability|Strict liability]]: liability without proof of negligence because of the nature of the activity or product, such as a manufacturer of a defective product. Limited defenses (such as misuse) may remain. Many textbooks use 'absolute' and 'strict' loosely; focus on the idea that **fault need not be proved**.\n- [[vicarious-liability|Vicarious liability]]: liability for **someone else's** negligence because of a relationship, such as employer and employee or principal and agent, or in some situations a vehicle owner and a permissive driver.",
+          "example": {
+            "title": "Example: three defendants",
+            "body": "A fireworks company is liable for damage from an exploding display despite every precaution (absolute). A heater manufacturer is liable when a defective unit starts a fire (strict). A landscaping company is liable when its employee carelessly runs a mower into a neighbor's car while on the job (vicarious)."
+          },
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Vicarious = via someone else."
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "match",
+        "prompt": "Match each liability concept to its description.",
+        "pairs": [
+          {
+            "left": "Contributory negligence",
+            "right": "Any fault by the plaintiff bars recovery"
+          },
+          {
+            "left": "Comparative negligence",
+            "right": "Recovery reduced by the plaintiff's share of fault"
+          },
+          {
+            "left": "Assumption of risk",
+            "right": "Plaintiff knowingly accepted a known danger"
+          },
+          {
+            "left": "Special damages",
+            "right": "Measurable economic losses such as medical bills"
+          },
+          {
+            "left": "General damages",
+            "right": "Non-economic losses such as pain and suffering"
+          },
+          {
+            "left": "Punitive damages",
+            "right": "Awarded to punish and deter"
+          },
+          {
+            "left": "Vicarious liability",
+            "right": "Responsibility for another person's negligence"
+          },
+          {
+            "left": "Absolute liability",
+            "right": "Liability for ultra-hazardous activities regardless of care"
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Which is NOT an element of negligence?",
+          "choices": [
+            "Duty",
+            "Breach",
+            "Intent to harm",
+            "Proximate cause"
+          ],
+          "answerIndex": 2,
+          "explanation": "Negligence requires duty, breach, damages and proximate cause; intent is not required."
+        },
+        {
+          "prompt": "Damages are $60,000 and the plaintiff is 25% at fault. Under pure comparative negligence the plaintiff recovers",
+          "choices": [
+            "$15,000",
+            "$45,000",
+            "$60,000",
+            "$0"
+          ],
+          "answerIndex": 1,
+          "explanation": "$60,000 × 75% = $45,000."
+        },
+        {
+          "prompt": "An employer is liable for its employee's on-the-job negligence. This is",
+          "choices": [
+            "Strict liability",
+            "Absolute liability",
+            "Assumption of risk",
+            "Vicarious liability"
+          ],
+          "answerIndex": 3,
+          "explanation": "Liability flowing from a relationship to another's negligence is vicarious liability."
+        }
+      ],
+      "summary": [
+        "Negligence requires duty, breach, damages and proximate cause.",
+        "Defenses: contributory negligence (any fault bars recovery), comparative negligence (recovery reduced by percentage of fault) and assumption of risk (known danger voluntarily accepted).",
+        "Compensatory damages = special (economic) + general (non-economic); punitive damages punish and deter.",
+        "Absolute and strict liability apply without proof of fault; vicarious liability makes one party answer for another's negligence."
+      ],
+      "related": [
+        "plpc-l01",
+        "plpc-l03"
+      ],
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-l03",
+      "sectionId": "plpc",
+      "order": 3,
+      "title": "Causes of Loss and Valuing a Loss: Perils, Proximate Cause, Construction and ACV vs. Replacement Cost",
+      "outlineIds": [
+        "plpc.1.5.6",
+        "plpc.1.5.7",
+        "plpc.1.5.8",
+        "plpc.1.5.9",
+        "plpc.1.5.10",
+        "plpc.1.5.11",
+        "plpc.1.5.12",
+        "plpc.1.6",
+        "plpc.1.6.1",
+        "plpc.1.6.2",
+        "plpc.1.6.2.1",
+        "plpc.1.6.2.2",
+        "plpc.1.6.3",
+        "plpc.1.6.4",
+        "plpc.1.6.5"
+      ],
+      "estMinutes": 30,
+      "intro": "When property is damaged, two questions decide the claim: Was the cause of loss covered? And how much is the damaged property worth? This lesson explains perils, proximate cause, named versus open perils, direct versus consequential loss, blanket versus specific insurance and construction types, then walks through each valuation method with numbers.",
+      "objectives": [
+        "Identify perils and apply the proximate cause rule",
+        "Compare named perils and open (special) perils coverage",
+        "Distinguish direct and consequential loss, and specific and blanket insurance",
+        "Rank the basic construction types by fire risk",
+        "Calculate ACV and compare replacement cost, guaranteed and functional replacement cost, market value, agreed value and stated amount"
+      ],
+      "keyTerms": [
+        "peril",
+        "proximate-cause",
+        "named-perils-coverage",
+        "open-perils-coverage",
+        "direct-loss",
+        "consequential-loss",
+        "specific-insurance",
+        "blanket-property-coverage",
+        "construction-classes",
+        "actual-cash-value",
+        "replacement-cost",
+        "guaranteed-replacement-cost",
+        "functional-replacement-cost",
+        "market-value",
+        "agreed-value",
+        "stated-amount"
+      ],
+      "parts": [
+        {
+          "heading": "Perils and proximate cause",
+          "body": "A [[peril]] is a **cause of loss**: fire, lightning, windstorm, hail, theft, vandalism, collision. (A [[hazard]] is something that makes a loss more likely or more severe.)\n\n[[proximate-cause|Proximate cause]] is the peril that starts an **unbroken chain of events** leading to the loss. If a covered peril sets the chain in motion, the resulting damage is generally treated as caused by that peril, even if the last link (such as water from firefighters' hoses) would not be covered on its own. A new, independent cause breaks the chain.",
+          "example": {
+            "title": "Example: lightning to water",
+            "body": "Lightning strikes a chimney, starting a fire. Firefighters soak the living room. Lightning is the proximate cause of the fire damage and the water damage."
+          },
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "The proximate cause is the FIRST domino, not the last thing that touched the property."
+            }
+          ]
+        },
+        {
+          "heading": "Named perils vs. open (special) perils",
+          "body": "- [[named-perils-coverage|Named perils]]: only the causes of loss **listed** in the policy are covered. The **insured** must show a listed peril caused the loss.\n- [[open-perils-coverage|Open perils]] (special form): any risk of **direct physical loss** is covered **unless excluded**. The **insurer** must show an exclusion applies. Exclusions (flood, earth movement, wear and tear, intentional loss and others) still apply, so 'all-risk' never means everything.",
+          "simple": "Named perils: covered only if the cause is on the list. Open perils: covered unless the cause is on the exclusion list.",
+          "callouts": []
+        },
+        {
+          "heading": "Direct vs. consequential loss; specific vs. blanket insurance",
+          "body": "[[direct-loss|Direct loss]] is physical damage to the property itself. [[consequential-loss|Consequential (indirect) loss]] is the financial loss that **follows**: additional living expense, lost rent, business income, spoilage. Indirect losses are covered only when the policy provides that coverage (for example, homeowners loss of use).\n\n[[specific-insurance|Specific insurance]] puts a **separate limit** on each item or location. [[blanket-property-coverage|Blanket coverage]] puts **one limit** over several items or locations, so a large loss at one location can draw on the whole limit.",
+          "example": {
+            "title": "Example: barn and house",
+            "body": "House insured specifically for $300,000 and barn for $40,000. A $55,000 barn fire pays $40,000. Under a $340,000 blanket limit covering both, the full $55,000 could be paid."
+          },
+          "callouts": []
+        },
+        {
+          "heading": "Basic types of construction",
+          "body": "Underwriters classify buildings by their materials, from most to least combustible:\n\n- **Frame**: wood walls (brick veneer over wood is still frame)\n- **Joisted masonry**: masonry walls with wood floors and roof\n- **Noncombustible**: metal or other noncombustible walls, floors and roof\n- **Masonry noncombustible**: masonry walls with noncombustible floors and roof\n- **Modified fire-resistive** and **fire-resistive**: protected steel or reinforced concrete\n\nConstruction joins Occupancy, Protection (fire department, hydrants) and Exposure (nearby hazards) in the COPE factors that drive property rates. See [[construction-classes]].",
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Wood burns, brick resists, concrete defies."
+            }
+          ]
+        },
+        {
+          "heading": "Valuing the loss",
+          "body": "- [[actual-cash-value|Actual cash value (ACV)]] = replacement cost − depreciation (age, wear, obsolescence).\n- [[replacement-cost|Replacement cost]] = cost today to repair or replace with like kind and quality, **no depreciation**, up to the limit. Many policies pay ACV first and the rest (the holdback) after the insured actually repairs or replaces.\n- [[guaranteed-replacement-cost|Guaranteed replacement cost]] pays the full cost to rebuild the dwelling **even above the limit**, usually if insured to 100% of value.\n- [[functional-replacement-cost|Functional replacement cost]] replaces with **less costly modern materials** that do the same job (drywall for ornate plaster), common for older homes.\n- [[market-value|Market value]] is what a willing buyer would pay; for homes it includes land and location, so it is a poor measure of rebuilding cost.\n- [[agreed-value|Agreed value]] pays a **pre-agreed amount** on a total loss (fine art, classic cars).\n- [[stated-amount|Stated amount]] pays the **least of** the stated amount, ACV or the repair/replacement cost.",
+          "example": {
+            "title": "Example: ACV arithmetic",
+            "body": "A furnace costs $8,000 to replace today. Its useful life is 20 years and it is 5 years old, so depreciation is 25% ($2,000). ACV = $8,000 − $2,000 = $6,000. With a $500 deductible, an ACV policy pays $5,500; a replacement cost policy pays $7,500 once the furnace is replaced."
+          },
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "Agreed value pays the agreed amount; stated amount is only a ceiling. A $30,000 stated amount on a car with a $25,000 ACV pays $25,000."
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "match",
+        "prompt": "Match each valuation method to how it pays.",
+        "pairs": [
+          {
+            "left": "Actual cash value",
+            "right": "Replacement cost minus depreciation"
+          },
+          {
+            "left": "Replacement cost",
+            "right": "New for old, up to the limit, no depreciation"
+          },
+          {
+            "left": "Guaranteed replacement cost",
+            "right": "Full rebuilding cost even above the dwelling limit"
+          },
+          {
+            "left": "Functional replacement cost",
+            "right": "Modern, less costly materials that serve the same purpose"
+          },
+          {
+            "left": "Agreed value",
+            "right": "Amount fixed in advance, paid on a total loss"
+          },
+          {
+            "left": "Stated amount",
+            "right": "Least of stated amount, ACV, or repair/replace cost"
+          },
+          {
+            "left": "Market value",
+            "right": "What a willing buyer would pay a willing seller"
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Under an open perils policy, a loss is covered unless",
+          "choices": [
+            "It is not listed",
+            "It is excluded",
+            "It exceeds $10,000",
+            "The insured was careless"
+          ],
+          "answerIndex": 1,
+          "explanation": "Open perils covers any direct physical loss not excluded."
+        },
+        {
+          "prompt": "Replacement cost is $10,000 and depreciation is 30%. What is the ACV?",
+          "choices": [
+            "$3,000",
+            "$13,000",
+            "$7,000",
+            "$10,000"
+          ],
+          "answerIndex": 2,
+          "explanation": "$10,000 − $3,000 = $7,000."
+        },
+        {
+          "prompt": "Lost rent while a fire-damaged rental is rebuilt is an example of",
+          "choices": [
+            "Consequential loss",
+            "Direct loss",
+            "Salvage",
+            "Specific insurance"
+          ],
+          "answerIndex": 0,
+          "explanation": "Lost rent is a financial loss resulting from the physical damage, so it is consequential (indirect)."
+        },
+        {
+          "prompt": "Which construction type is MOST combustible?",
+          "choices": [
+            "Fire-resistive",
+            "Masonry noncombustible",
+            "Joisted masonry",
+            "Frame"
+          ],
+          "answerIndex": 3,
+          "explanation": "Frame (wood) construction is the most combustible class."
+        }
+      ],
+      "summary": [
+        "A peril is a cause of loss; the proximate cause starts an unbroken chain of events.",
+        "Named perils covers listed causes (insured proves); open perils covers everything not excluded (insurer proves the exclusion).",
+        "Direct loss = physical damage; consequential loss = resulting financial loss. Specific = a limit per item; blanket = one limit for several.",
+        "Construction from most to least combustible: frame, joisted masonry, noncombustible, masonry noncombustible, modified fire-resistive, fire-resistive.",
+        "ACV = RC − depreciation; guaranteed RC can exceed the limit; functional RC uses modern materials; agreed value pays the agreed sum; stated amount pays the least of several amounts."
+      ],
+      "related": [
+        "plpc-l02",
+        "plpc-l04"
+      ],
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "sectionId": "gen",
+  "questions": [
+    {
+      "id": "gen-q201",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.3.5"
+      ],
+      "concepts": [
+        "rescission",
+        "misrepresentation"
+      ],
+      "difficulty": 3,
+      "style": "comparison",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Ten months after issuing a life policy, an insurer learns that the applicant hid a serious illness that would have caused it to decline him. The insurer rescinds the policy.",
+      "stem": "How does the insurer's rescission differ from simply canceling the policy going forward?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rescission voids the policy from its start, so premiums are generally refunded and no claim is owed",
+          "rationale": "Correct: rescission treats the contract as if it never existed — premiums are returned and no benefits are payable."
+        },
+        {
+          "id": "b",
+          "text": "Rescission ends coverage only at the next premium due date, with no refund of premiums",
+          "rationale": "Incorrect: that describes a prospective cancellation or lapse, not rescission."
+        },
+        {
+          "id": "c",
+          "text": "Rescission converts the policy to reduced paid-up insurance using its cash value",
+          "rationale": "Incorrect: reduced paid-up insurance is a nonforfeiture option, unrelated to rescission."
+        },
+        {
+          "id": "d",
+          "text": "Rescission keeps the policy in force but lowers the death benefit to what premiums would buy",
+          "rationale": "Incorrect: an adjusted benefit is the misstatement-of-age remedy, not rescission."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Rescission cancels a contract from its inception (ab initio). The parties are put back where they started, so the insurer generally refunds the premiums and owes no benefits. Cancellation, by contrast, ends coverage from a future date and leaves past coverage intact.",
+      "memoryTip": "Rescission = rewind to day one; cancellation = stop from here on.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Voids the contract from the beginning",
+            "anyOf": [
+              "from the beginning",
+              "from its start",
+              "ab initio",
+              "never existed",
+              "inception"
+            ]
+          },
+          {
+            "label": "Premiums generally refunded",
+            "anyOf": [
+              "refund",
+              "return"
+            ]
+          },
+          {
+            "label": "Cancellation only ends coverage going forward",
+            "anyOf": [
+              "going forward",
+              "future",
+              "prospective"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gen-q202",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.3.2",
+        "gen.3.1"
+      ],
+      "concepts": [
+        "law-of-agency",
+        "insurer"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "While completing a life application, Erin tells agent Lou about knee surgery she had last year. Lou decides it is minor and does not write it on the application. The insurer later learns of the surgery.",
+      "stem": "Under the general rules of agency, how is Lou's knowledge of the surgery treated?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "As knowledge of Lou only, because he left it off the application",
+          "rationale": "Incorrect: an agent's knowledge acquired within the scope of authority is presumed to be the insurer's, whether or not he records it."
+        },
+        {
+          "id": "b",
+          "text": "As the insurer's knowledge, since an agent's knowledge is imputed to the principal",
+          "rationale": "Correct: the insurer is the principal, and what its agent learns while acting for it is presumed known to the insurer."
+        },
+        {
+          "id": "c",
+          "text": "As irrelevant, because only statements written by the applicant herself count",
+          "rationale": "Incorrect: agency law imputes the agent's knowledge to the insurer; the rule is not limited to the applicant's handwriting."
+        },
+        {
+          "id": "d",
+          "text": "As knowledge of the applicant only, because the agent represents the applicant",
+          "rationale": "Incorrect: an agent represents the insurer, not the applicant."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Under the law of agency the insurer is the principal. Acts of an agent within the scope of authority are the insurer's acts, and knowledge the agent acquires while acting for the insurer is presumed to be knowledge of the insurer. That is why insurers train agents to record every disclosure accurately.",
+      "memoryTip": "What the agent knows, the insurer knows.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Insurer is the principal",
+            "anyOf": [
+              "principal"
+            ]
+          },
+          {
+            "label": "Agent's knowledge is presumed to be the insurer's",
+            "anyOf": [
+              "knowledge of the agent",
+              "agent's knowledge",
+              "imputed",
+              "presumed",
+              "insurer knows"
+            ]
+          },
+          {
+            "label": "Agent represents the insurer, not the applicant",
+            "anyOf": [
+              "represents the insurer",
+              "acts for the insurer",
+              "not the applicant"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gen-q203",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.1.2.6",
+        "gen.1.1.1"
+      ],
+      "concepts": [
+        "insurable-risk",
+        "pure-risk",
+        "speculative-risk"
+      ],
+      "difficulty": 2,
+      "style": "application",
+      "tags": [],
+      "stem": "Which of these risks would an insurer be most willing to cover?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The chance that a stock portfolio loses value next year",
+          "rationale": "Incorrect: investment losses are speculative — the portfolio could also gain — so they are not insurable."
+        },
+        {
+          "id": "b",
+          "text": "The chance that a nuclear war damages every insured home at once",
+          "rationale": "Incorrect: a loss that strikes most insureds at the same time is catastrophic and generally not insurable."
+        },
+        {
+          "id": "c",
+          "text": "The chance that a healthy 35-year-old dies within the next 20 years",
+          "rationale": "Correct: death is a pure risk whose timing is uncertain for one person but predictable for a large group of similar lives."
+        },
+        {
+          "id": "d",
+          "text": "The chance that a business owner burns down her own failing store",
+          "rationale": "Incorrect: an intentional loss is not due to chance, so it is not insurable."
+        }
+      ],
+      "correct": "c",
+      "explanation": "An insurable risk is a pure risk whose loss is due to chance, definite and measurable, predictable through a large number of similar exposure units, not catastrophic, and economically feasible to insure. Premature death meets these tests; speculative, catastrophic and intentional losses do not.",
+      "memoryTip": "Insurable = pure, accidental, measurable, predictable, not catastrophic.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gen-q204",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.2.1.2",
+        "gen.2.1.1"
+      ],
+      "concepts": [
+        "mutual-insurer",
+        "participating-policy",
+        "stock-insurer"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "Each of the following is true of policyowner dividends paid by a mutual insurer EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They are paid on participating policies",
+          "rationale": "Incorrect choice: this is true — mutual insurers pay dividends on participating policies."
+        },
+        {
+          "id": "b",
+          "text": "They reflect premium not needed for claims, expenses and reserves",
+          "rationale": "Incorrect choice: this is true — they are a return of excess premium."
+        },
+        {
+          "id": "c",
+          "text": "They are paid to the people who own the company",
+          "rationale": "Incorrect choice: this is true — in a mutual insurer, the policyowners are the owners."
+        },
+        {
+          "id": "d",
+          "text": "They are guaranteed in the policy at the time it is issued",
+          "rationale": "Correct choice: this is NOT true — policyowner dividends can never be guaranteed."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Mutual insurers are owned by their policyowners and typically issue participating policies. Dividends on those policies are a return of premium that was not needed for claims, expenses and reserves. Because they depend on the insurer's actual experience, they can never be guaranteed.",
+      "memoryTip": "Dividends: Participating, Possible — never Promised.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

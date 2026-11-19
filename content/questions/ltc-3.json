@@ -1,0 +1,531 @@
+{
+  "sectionId": "ltc",
+  "questions": [
+    {
+      "id": "ltc-q025",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.2.5",
+        "ltc.2.6"
+      ],
+      "concepts": [
+        "ltc-partnership",
+        "dollar-for-dollar"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "ny-law",
+        "math",
+        "tricky"
+      ],
+      "scenario": "Hank bought a New York Partnership policy whose nursing home benefit is less than two years, so it uses dollar-for-dollar protection. The policy paid $160,000 in benefits before it was exhausted. Hank now has $200,000 in countable assets and applies for Medicaid.",
+      "stem": "How much of Hank's assets will Medicaid disregard because of the Partnership policy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$40,000",
+          "rationale": "Incorrect: $40,000 is the amount NOT protected ($200,000 − $160,000)."
+        },
+        {
+          "id": "b",
+          "text": "$200,000",
+          "rationale": "Incorrect: disregarding all assets is total asset protection, which does not apply to this policy design."
+        },
+        {
+          "id": "c",
+          "text": "$0, because he must first spend down all assets",
+          "rationale": "Incorrect: avoiding a full spend-down is the purpose of the Partnership."
+        },
+        {
+          "id": "d",
+          "text": "$160,000",
+          "rationale": "Correct: dollar-for-dollar protection disregards resources equal to the benefits the policy paid."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Under NY Social Services Law § 367-f(1)(a)(i), a Partnership policy with a nursing-facility benefit of less than two years gives Medicaid extended coverage 'without consideration of an amount of resources equivalent to the value of benefits received.' Benefits paid = $160,000, so $160,000 of assets is disregarded. The remaining $200,000 − $160,000 = $40,000 is subject to Medicaid's normal resource rules. Protected assets are also exempt from estate recovery.",
+      "memoryTip": "Dollar-for-dollar: what the policy PAID is what you may KEEP.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Protection equals benefits paid",
+            "anyOf": [
+              "benefits paid",
+              "160,000",
+              "160000",
+              "equal to benefits"
+            ]
+          },
+          {
+            "label": "Remaining assets subject to normal rules",
+            "anyOf": [
+              "40,000",
+              "40000",
+              "remaining",
+              "spend down",
+              "spend-down"
+            ]
+          },
+          {
+            "label": "Policy must be exhausted first",
+            "anyOf": [
+              "exhaust",
+              "used up"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-sos-367-f"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q026",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.2.5"
+      ],
+      "concepts": [
+        "ltc-partnership"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "Which statement about New York State Partnership for Long-Term Care policies is accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They must be Superintendent-approved and carry the program logo",
+          "rationale": "Correct: 11 NYCRR 39.1 requires Superintendent approval, and qualified policies are identified by a numbered program logo."
+        },
+        {
+          "id": "b",
+          "text": "They may pay benefits on a per diem (indemnity) basis in every plan design",
+          "rationale": "Incorrect: the 1.5/3/50 design must be expense-incurred; per diem coverage is not permitted for it."
+        },
+        {
+          "id": "c",
+          "text": "They give the insured immediate Medicaid eligibility on the policy's effective date",
+          "rationale": "Incorrect: Medicaid extended coverage requires the insured to exhaust the policy's benefits first."
+        },
+        {
+          "id": "d",
+          "text": "They are exempt from Regulation 62's long-term care standards",
+          "rationale": "Incorrect: Part 52 rules still apply to Partnership policies except as Part 39 otherwise states."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Under 11 NYCRR 39.1, Partnership policies must be approved by the Superintendent as meeting Part 39's minimum standards and are designated as qualified by a numbered program logo; Part 52 rules continue to apply. Section 39.4 requires the 1.5/3/50 design to pay on an expense-incurred basis and to include lifetime compound inflation protection (mandatory unless purchased at or after age 80). SSL § 367-f requires exhaustion of the policy before Medicaid extended coverage.",
+      "memoryTip": "Partnership = approved + logo + exhaust first.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-sos-367-f",
+        "ny-11nycrr-39-4"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q027",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.2.7"
+      ],
+      "concepts": [
+        "estate-recovery"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Medicaid paid for Lydia's nursing home care from age 78 until she died at 82. Her husband, Mel, still lives in their home. They have two adult children, both healthy and over 40.",
+      "stem": "When may the state seek recovery from Lydia's estate under the federal estate recovery rules?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Immediately after Lydia's death",
+          "rationale": "Incorrect: recovery must wait until the surviving spouse has died."
+        },
+        {
+          "id": "b",
+          "text": "Only after Mel's death",
+          "rationale": "Correct: recovery may be made only after the death of the surviving spouse, and here there is no child under 21 or blind/disabled child to block it."
+        },
+        {
+          "id": "c",
+          "text": "Never, because she was over 55",
+          "rationale": "Incorrect: being 55 or older is what makes the recovery requirement apply."
+        },
+        {
+          "id": "d",
+          "text": "Only if her adult children agree",
+          "rationale": "Incorrect: the children's consent is not a condition; adult, non-disabled children do not block recovery."
+        }
+      ],
+      "correct": "b",
+      "explanation": "42 U.S.C. § 1396p(b) (mandatory estate recovery since OBRA '93) requires states to recover Medicaid paid for nursing facility and home and community-based services for recipients 55 or older. Under § 1396p(b)(2), recovery may happen only after the death of the surviving spouse, and only when there is no surviving child under 21 or a child who is blind or permanently and totally disabled.",
+      "memoryTip": "Estate recovery waits for the spouse — and skips young or disabled kids.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-42-1396p"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q028",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.2.8"
+      ],
+      "concepts": [
+        "ltc-tax-credit"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "ny-law",
+        "math",
+        "rapid"
+      ],
+      "stem": "A New York resident pays $1,800 in premiums this year for a qualifying LTC policy. What is the NY LTC insurance tax credit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$180",
+          "rationale": "Incorrect: this applies a 10% rate; the credit is 20%."
+        },
+        {
+          "id": "b",
+          "text": "$1,800",
+          "rationale": "Incorrect: the credit is a percentage of premiums, not the full premium."
+        },
+        {
+          "id": "c",
+          "text": "$360",
+          "rationale": "Correct: 20% × $1,800 = $360."
+        },
+        {
+          "id": "d",
+          "text": "$900",
+          "rationale": "Incorrect: this applies a 50% rate."
+        }
+      ],
+      "correct": "c",
+      "explanation": "NY Tax Law § 606(aa) allows a credit equal to 20 percent of premiums paid during the year for LTC insurance that qualifies under Insurance Law § 1117. $1,800 × 0.20 = $360. Any credit exceeding the year's tax may be carried over to later years.",
+      "memoryTip": "NY LTC credit: one-fifth of the premium.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-tax-606-aa"
+      ],
+      "nySpecific": true,
+      "timeSensitive": true,
+      "reviewDue": "2027-11-19",
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19",
+        "notes": "Figure chosen to stay below the current $1,500 cap; assumes NY AGI below the statutory limit."
+      }
+    },
+    {
+      "id": "ltc-q029",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.9"
+      ],
+      "concepts": [
+        "long-term-care-insurance",
+        "association-group"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "scenario": "Owen was covered under his employer's group LTC policy in New York. He leaves his job, and his group coverage ends.",
+      "stem": "Under Regulation 62, what right does Owen have?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "None; group LTC coverage ends permanently when employment ends",
+          "rationale": "Incorrect: termination of employment is one of the events that gives rise to conversion (or continuation) rights."
+        },
+        {
+          "id": "b",
+          "text": "To convert to individual coverage, but only after new medical underwriting",
+          "rationale": "Incorrect: conversion is available without evidence of insurability."
+        },
+        {
+          "id": "c",
+          "text": "To convert within 45 days, without evidence of insurability, to substantially the same benefits",
+          "rationale": "Correct: 11 NYCRR 52.25(b)(4) grants conversion (or, if offered instead, continuation) within 45 days after group coverage ends."
+        },
+        {
+          "id": "d",
+          "text": "To keep the group certificate only if he remains in the same state for 12 months",
+          "rationale": "Incorrect: no such condition appears in the regulation."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Under 11 NYCRR 52.25(b)(4), termination of employment or membership in the group, termination of the group policy, divorce, or a dependent reaching the limiting age entitles the person to a conversion policy without evidence of insurability if he applies and pays the first premium within 45 days. The conversion policy must provide the same or substantially the same benefits, with no new exclusions. An insurer may offer continuation under the group policy instead, also elected within 45 days.",
+      "memoryTip": "Left the group? 45 days to convert — no health questions.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52-25"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q030",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.1"
+      ],
+      "concepts": [
+        "long-term-care-insurance",
+        "medicare",
+        "medicaid"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Ida, 80, has Original Medicare and a Medigap policy. She has advancing dementia and now needs help bathing, dressing and eating every day, but no skilled medical care. She has $250,000 in savings.",
+      "stem": "Which source is most likely to pay for Ida's ongoing custodial care right now?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Medicare Part A, because she is over 65 and has dementia",
+          "rationale": "Incorrect: Medicare doesn't pay for long-term custodial care when that is the only care needed."
+        },
+        {
+          "id": "b",
+          "text": "Her Medigap policy, since it fills Medicare's gaps",
+          "rationale": "Incorrect: Medigap supplements Medicare-covered services; it doesn't pay for long-term care."
+        },
+        {
+          "id": "c",
+          "text": "Medicaid, immediately, because of her dementia diagnosis",
+          "rationale": "Incorrect: with $250,000 in savings she would not meet Medicaid's financial limits until her resources are spent down."
+        },
+        {
+          "id": "d",
+          "text": "Her own savings (or an LTC policy, if she had bought one)",
+          "rationale": "Correct: absent LTC insurance, custodial care is paid privately until she qualifies for Medicaid."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Medicare.gov: Medicare and most health insurance, including Medigap, don't pay for long-term (custodial) care. Medicaid can pay if the person meets the state's financial eligibility rules, and private LTC insurance is the other option. Ida has neither LTC insurance nor Medicaid-level resources, so she pays from savings.",
+      "memoryTip": "Custodial care: not Medicare, not Medigap — LTC insurance, savings, or Medicaid after spend-down.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Medicare/Medigap don't cover custodial care",
+            "anyOf": [
+              "Medicare doesn't",
+              "Medicare does not",
+              "Medigap",
+              "not covered"
+            ]
+          },
+          {
+            "label": "Medicaid requires meeting financial limits",
+            "anyOf": [
+              "spend down",
+              "spend-down",
+              "financial",
+              "limited income",
+              "resources"
+            ]
+          },
+          {
+            "label": "Private pay or LTC insurance",
+            "anyOf": [
+              "savings",
+              "private",
+              "LTC insurance",
+              "long-term care insurance"
+            ]
+          }
+        ]
+      },
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-medicare-ltc"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q031",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.4.5",
+        "ltc.1.4.4"
+      ],
+      "concepts": [
+        "assisted-living",
+        "nursing-home-care"
+      ],
+      "difficulty": 1,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Bert, 83, can no longer cook safely and needs reminders to take his medicine and some help showering. He does not need round-the-clock nursing. He wants his own small apartment with staff available.",
+      "stem": "Which care setting best fits Bert's needs?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Skilled nursing facility",
+          "rationale": "Incorrect: Bert doesn't need daily skilled nursing care."
+        },
+        {
+          "id": "b",
+          "text": "Assisted living",
+          "rationale": "Correct: assisted living provides housing, meals and help with daily activities without continuous skilled nursing."
+        },
+        {
+          "id": "c",
+          "text": "Adult day care",
+          "rationale": "Incorrect: adult day care is a daytime program; Bert wants a place to live."
+        },
+        {
+          "id": "d",
+          "text": "Hospice care",
+          "rationale": "Incorrect: hospice is comfort care for the terminally ill."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Assisted living combines private living quarters with meals, supervision and help with activities of daily living for people who don't need the continuous medical care of a nursing home.",
+      "memoryTip": "Own apartment + help as needed = assisted living.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q032",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.4.1"
+      ],
+      "concepts": [
+        "home-health-care"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "LTC services such as an aide's help with bathing, provided in the insured's own residence, are called:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Respite care",
+          "rationale": "Incorrect: respite care is short-term relief for a family caregiver."
+        },
+        {
+          "id": "b",
+          "text": "Assisted living",
+          "rationale": "Incorrect: assisted living is a residential facility, not the insured's own home."
+        },
+        {
+          "id": "c",
+          "text": "Home health care",
+          "rationale": "Correct: care delivered in the insured's own home is home health care."
+        },
+        {
+          "id": "d",
+          "text": "Intermediate care",
+          "rationale": "Incorrect: intermediate care is a level of care, not a setting."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Home health care brings nurses, therapists or home health aides to the insured's residence, letting the person avoid or delay a move to a facility.",
+      "memoryTip": "Home health care: the care comes home.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

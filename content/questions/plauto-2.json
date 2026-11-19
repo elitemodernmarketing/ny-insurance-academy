@@ -1,0 +1,1638 @@
+{
+ "sectionId": "plauto",
+ "questions": [
+  {
+   "id": "plauto-q029",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.4",
+    "plauto.1.4.1",
+    "plauto.1.4.2"
+   ],
+   "concepts": [
+    "obel",
+    "additional-pip"
+   ],
+   "difficulty": 3,
+   "style": "comparison",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "stem": "Which statement correctly distinguishes OBEL from additional PIP in New York?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "OBEL is mandatory in every policy, while additional PIP is optional coverage",
+     "rationale": "Incorrect: both are optional; only basic PIP is mandatory."
+    },
+    {
+     "id": "b",
+     "text": "OBEL is a set $25,000 layer the claimant directs; additional PIP is optional extra benefits",
+     "rationale": "Correct: OBEL is the specific additional $25,000 above basic economic loss with a claimant election; additional PIP is a separate optional package of additional first-party benefits."
+    },
+    {
+     "id": "c",
+     "text": "OBEL pays pain and suffering, while additional PIP pays only medical bills",
+     "rationale": "Incorrect: neither coverage pays non-economic loss such as pain and suffering."
+    },
+    {
+     "id": "d",
+     "text": "Additional PIP payments have no deadline, while OBEL payments are due in 30 days",
+     "rationale": "Incorrect: § 5106 makes both first party and additional first party benefits overdue 30 days after proof."
+    }
+   ],
+   "correct": "b",
+   "explanation": "OBEL (Ins. Law § 5102(a)(5); 11 NYCRR 65-1.2) is an optional additional $25,000 that applies after the $50,000 of basic economic loss is exhausted, with the claimant choosing the benefit category. Additional PIP is a separate optional coverage providing 'additional first party benefits'; under § 5106 those benefits follow the same 30-day payment and arbitration rules as basic PIP.",
+   "memoryTip": "OBEL = one extra $25K bucket you steer; APIP = a bigger optional benefit package.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-5102",
+    "ny-11nycrr-65-1-2",
+    "ny-isc-5106"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "regulation-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q030",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.5"
+   ],
+   "concepts": [
+    "maic",
+    "no-fault-law"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Hugo, a New York resident, does not own a car and lives alone. While crossing a street in Syracuse, he is struck by a driver who has no insurance.",
+   "stem": "Where should Hugo turn for no-fault benefits?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "MVAIC, because he is a qualified person and no insurer is available",
+     "rationale": "Correct: § 5106(d) directs a qualified person to claim against MVAIC when no insurer is responsible for an in-state accident."
+    },
+    {
+     "id": "b",
+     "text": "The NY Automobile Insurance Plan, which assigns his claim to an insurer",
+     "rationale": "Incorrect: the assigned risk plan sells policies to applicants; it does not pay accident claims."
+    },
+    {
+     "id": "c",
+     "text": "Nowhere, because no-fault applies only to people who own an insured car",
+     "rationale": "Incorrect: pedestrians can be covered persons, and MVAIC fills the gap when there is no insurer."
+    },
+    {
+     "id": "d",
+     "text": "His health insurer only, since auto coverage cannot apply to a pedestrian",
+     "rationale": "Incorrect: no-fault covers pedestrians, and MVAIC is the source when no auto insurer applies."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Insurance Law § 5201(b) says Article 52 is intended to provide no-fault benefits for qualified persons for basic economic loss arising from the use of an uninsured motor vehicle in New York. Under § 5106(d)(1), if there is no insurer and the accident occurs in New York, a qualified person (§ 5202(b): a NY resident who is not an insured under a policy's UM coverage and is not the uninsured vehicle's owner) claims against MVAIC.",
+   "memoryTip": "No car, no policy, uninsured driver? MVAIC.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "MVAIC pays",
+      "anyOf": [
+       "MVAIC",
+       "Motor Vehicle Accident Indemnification"
+      ]
+     },
+     {
+      "label": "Hugo is a qualified person",
+      "anyOf": [
+       "qualified person",
+       "qualified"
+      ]
+     },
+     {
+      "label": "No other insurer is available",
+      "anyOf": [
+       "no insurer",
+       "uninsured",
+       "no policy",
+       "no other insurance"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-5201",
+    "ny-isc-5202",
+    "ny-isc-5106"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q031",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.5"
+   ],
+   "concepts": [
+    "maic"
+   ],
+   "difficulty": 3,
+   "style": "negative",
+   "tags": [
+    "negative-wording",
+    "tricky",
+    "ny-law"
+   ],
+   "stem": "Under Insurance Law § 5202(b), which injured person is NOT a 'qualified person' for MVAIC purposes?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A NY resident pedestrian with no car, struck by an unidentified hit-and-run car",
+     "rationale": "Incorrect: a resident with no applicable insurance is a classic qualified person."
+    },
+    {
+     "id": "b",
+     "text": "A NY resident with no car riding as a passenger in a friend's uninsured car",
+     "rationale": "Incorrect: a non-owner resident passenger can be a qualified person."
+    },
+    {
+     "id": "c",
+     "text": "A resident of a state that gives New Yorkers similar recourse, hit by a stolen car",
+     "rationale": "Incorrect: § 5202(b)(ii) includes residents of jurisdictions with reciprocal recourse."
+    },
+    {
+     "id": "d",
+     "text": "The owner of the uninsured car, injured while a passenger in it",
+     "rationale": "Correct: the definition excludes the owner of an uninsured motor vehicle (and the owner's spouse) when a passenger in that vehicle."
+    }
+   ],
+   "correct": "d",
+   "explanation": "A qualified person is (i) a NY resident, other than an insured or the owner of an uninsured motor vehicle and the owner's spouse when a passenger in that vehicle, or (ii) a resident of another jurisdiction that offers New York residents substantially similar recourse. The owner who failed to insure the car cannot collect from MVAIC for injuries while riding in it.",
+   "memoryTip": "MVAIC protects innocent victims, not the owner who skipped insurance.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-5202"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q032",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.6",
+    "plauto.1.6.2"
+   ],
+   "concepts": [
+    "uninsured-motorist-coverage",
+    "collision-coverage"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "An uninsured driver runs a stop sign in Rochester and hits Wes's car. Wes is not hurt, but his car needs $4,000 of repairs. Wes's policy includes liability, PIP, uninsured motorist and collision coverage.",
+   "stem": "Which coverage on Wes's policy can pay to repair his car?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Uninsured motorist coverage, with no deductible",
+     "rationale": "Incorrect: NY uninsured motorist coverage under § 3420(f) is bodily injury only."
+    },
+    {
+     "id": "b",
+     "text": "Personal injury protection, up to $50,000",
+     "rationale": "Incorrect: PIP pays economic loss from injuries, not vehicle damage."
+    },
+    {
+     "id": "c",
+     "text": "Collision coverage, subject to his deductible",
+     "rationale": "Correct: damage to Wes's own car from a crash is a collision loss; UM covers bodily injury only."
+    },
+    {
+     "id": "d",
+     "text": "Property damage liability on his own policy",
+     "rationale": "Incorrect: Wes's liability coverage pays others for damage he causes, not his own car."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Insurance Law § 3420(f)(1) requires uninsured motorist coverage for bodily injury, sickness, disease or death caused by an uninsured vehicle — not property damage. Wes's own car is a first-party physical damage loss: collision coverage pays (less the deductible), and his insurer may then try to recover from the uninsured driver through subrogation.",
+   "memoryTip": "UM fixes people, not fenders.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "UM covers bodily injury only",
+      "anyOf": [
+       "bodily injury only",
+       "bodily injury",
+       "not property"
+      ]
+     },
+     {
+      "label": "Collision pays for his own car",
+      "anyOf": [
+       "collision"
+      ]
+     },
+     {
+      "label": "Deductible applies",
+      "anyOf": [
+       "deductible"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3420"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q033",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.6",
+    "plauto.1.6.1"
+   ],
+   "concepts": [
+    "uninsured-motorist-coverage"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "On the Thruway, an unidentified car swerves into Kai's lane. Kai jerks the wheel, avoids contact, and hits a guardrail, fracturing his arm. The other car never touched Kai or his car and drove off.",
+   "stem": "Can Kai recover under his uninsured motorist coverage?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "No, because a hit-and-run claim requires physical contact with him or his car",
+     "rationale": "Correct: § 3420(f)(3) bars UM claims against an unidentifiable driver for an in-state accident unless there was physical contact."
+    },
+    {
+     "id": "b",
+     "text": "Yes, because any unidentified driver is automatically treated as uninsured",
+     "rationale": "Incorrect: for an unidentifiable driver, NY requires physical contact with the insured or the insured's vehicle."
+    },
+    {
+     "id": "c",
+     "text": "Yes, but only for his car damage and not his injuries",
+     "rationale": "Incorrect: UM never covers property damage, and the contact rule bars this claim entirely."
+    },
+    {
+     "id": "d",
+     "text": "No, because UM covers only accidents that happen outside New York",
+     "rationale": "Incorrect: basic UM covers accidents occurring in New York."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Insurance Law § 3420(f)(3): UM protection does not apply to a claim arising from an accident in New York against a person whose identity is unascertainable unless the injury arose out of physical contact of the vehicle causing the injury with the insured or with the vehicle the insured was occupying. A 'miss and run' with no contact is not covered.",
+   "memoryTip": "Hit-and-run needs a hit.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Unidentified (hit-and-run) driver",
+      "anyOf": [
+       "unidentified",
+       "hit-and-run",
+       "identity"
+      ]
+     },
+     {
+      "label": "Physical contact required",
+      "anyOf": [
+       "physical contact",
+       "contact"
+      ]
+     },
+     {
+      "label": "No contact means no UM recovery",
+      "anyOf": [
+       "no contact",
+       "never touched",
+       "not covered",
+       "no recovery"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3420"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q034",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.7",
+    "plauto.1.7.1"
+   ],
+   "concepts": [
+    "sum-coverage"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Jill carries 100/300 bodily injury liability and 100/300 SUM. A driver with 50/100 bodily injury limits seriously injures her in a crash.",
+   "stem": "Is the other driver's vehicle 'underinsured' for purposes of Jill's SUM coverage?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "No, because the other driver carried at least the NY minimum limits",
+     "rationale": "Incorrect: meeting the minimum does not matter; SUM compares the other limits with Jill's own BI limits."
+    },
+    {
+     "id": "b",
+     "text": "Yes, because the other driver's BI limits are lower than Jill's own BI limits",
+     "rationale": "Correct: SUM applies when the other vehicle's BI limits are less than the insured's own BI liability limits."
+    },
+    {
+     "id": "c",
+     "text": "No, because underinsured coverage applies only if the other driver had no insurance",
+     "rationale": "Incorrect: a driver with no insurance is uninsured; underinsured means lower limits than Jill's own."
+    },
+    {
+     "id": "d",
+     "text": "Yes, but only if Jill's damages exceed $300,000",
+     "rationale": "Incorrect: the trigger compares policy limits, not whether damages exceed Jill's per-accident limit."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Insurance Law § 3420(f)(2)(A): SUM provides coverage when the limits of all bodily injury liability policies of the other liable vehicle are less than the bodily injury liability limits of the insured's own policy. Jill's 100/300 is higher than the other driver's 50/100, so the other vehicle is underinsured for SUM purposes. SUM pays only after the other driver's limits are exhausted by payment.",
+   "memoryTip": "SUM compares limits to limits: theirs vs. yours.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Compare other driver's BI limits with Jill's own BI limits",
+      "anyOf": [
+       "own",
+       "her limits",
+       "100/300",
+       "lower than"
+      ]
+     },
+     {
+      "label": "Other driver's 50/100 is lower, so underinsured",
+      "anyOf": [
+       "50/100",
+       "underinsured",
+       "lower"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3420"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q035",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.7",
+    "plauto.1.7.4"
+   ],
+   "concepts": [
+    "sum-coverage"
+   ],
+   "difficulty": 3,
+   "style": "concept",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "stem": "Under § 3420(f)(2), what condition must be met before an insurer is obligated to pay a SUM claim?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The insured must first sue their own insurer and obtain a judgment against it",
+     "rationale": "Incorrect: no suit against one's own insurer is required as a condition precedent."
+    },
+    {
+     "id": "b",
+     "text": "The injured person's medical bills must exceed the $50,000 no-fault limit first",
+     "rationale": "Incorrect: SUM does not depend on exhausting no-fault benefits."
+    },
+    {
+     "id": "c",
+     "text": "The at-fault driver must be convicted of a traffic crime arising from the accident",
+     "rationale": "Incorrect: no conviction is required for a SUM claim."
+    },
+    {
+     "id": "d",
+     "text": "The other vehicle's BI liability limits must be exhausted by judgments or settlements",
+     "rationale": "Correct: exhaustion of all applicable BI bonds or policies by payment is a condition precedent to SUM payment."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Insurance Law § 3420(f)(2)(A): 'As a condition precedent to the obligation of the insurer to pay under the supplementary uninsured/underinsured motorists insurance coverage, the limits of liability of all bodily injury liability bonds or insurance policies applicable at the time of the accident shall be exhausted by payment of judgments or settlements.' The other driver's insurer must disclose its BI limits within 45 days of a written request.",
+   "memoryTip": "SUM waits until the other driver's limits are paid out.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3420"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q036",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.7.3"
+   ],
+   "concepts": [
+    "sum-coverage"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "math",
+    "ny-law"
+   ],
+   "scenario": "Ray insures three cars on one New York policy. Each car's declarations show 100/300 SUM, and a separate SUM premium is charged for each car. An underinsured driver seriously injures Ray.",
+   "stem": "What is the most Ray's SUM coverage can provide for his injuries from this one accident?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The 100/300 SUM limits, because limits do not stack",
+     "rationale": "Correct: Regulation 35-A's non-stacking condition forbids adding SUM limits together across vehicles."
+    },
+    {
+     "id": "b",
+     "text": "300/900, adding the limits for all three cars",
+     "rationale": "Incorrect: stacking limits for multiple vehicles is prohibited."
+    },
+    {
+     "id": "c",
+     "text": "200/600, adding the limits for two of the cars",
+     "rationale": "Incorrect: no partial stacking is allowed either."
+    },
+    {
+     "id": "d",
+     "text": "Only the basic 25/50 UM limits, because he has three cars",
+     "rationale": "Incorrect: the number of cars doesn't reduce coverage; his 100/300 SUM limit applies once."
+    }
+   ],
+   "correct": "a",
+   "explanation": "The SUM endorsement prescribed by Regulation 35-A (11 NYCRR 60-2.3) contains a non-stacking condition: regardless of the number of vehicles, persons covered, claims, or premiums, UM or SUM limits are never added together for two or more vehicles to determine coverage for an insured injured in the same accident.",
+   "memoryTip": "Three cars, one SUM limit: no stacking.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-11nycrr-60-2-3"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "regulation-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q037",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.7.2",
+    "plauto.1.7.4"
+   ],
+   "concepts": [
+    "sum-coverage"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Nina carries 50/100 bodily injury liability limits. She asks her producer to add 250/500 SUM coverage without changing her liability limits.",
+   "stem": "How should the producer respond to Nina's request?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "SUM can't exceed her own BI limits, so she would need higher liability limits",
+     "rationale": "Correct: SUM may be bought only up to the policy's own BI liability limits (maximum 250/500 or $500,000 CSL)."
+    },
+    {
+     "id": "b",
+     "text": "Issue 250/500 SUM, since SUM is unrelated to her liability limits",
+     "rationale": "Incorrect: § 3420(f)(2) ties SUM to the policy's bodily injury liability limits."
+    },
+    {
+     "id": "c",
+     "text": "Decline, because NY makes SUM available only at the 25/50 minimum limits",
+     "rationale": "Incorrect: SUM is the coverage that lets an insured buy more than 25/50 UM protection."
+    },
+    {
+     "id": "d",
+     "text": "Issue 500/1,000 SUM, the highest SUM limits allowed by NY law",
+     "rationale": "Incorrect: the statutory maximum is 250/500 (or $500,000 CSL), and even that can't exceed her BI limits."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Insurance Law § 3420(f)(2)(A) lets an insured buy SUM 'in an amount up to the bodily injury liability insurance limits of coverage provided under such policy,' subject to a maximum of $250,000 per person / $500,000 per accident, or a $500,000 combined single limit. With 50/100 liability, Nina's SUM can be at most 50/100 unless she raises her liability limits.",
+   "memoryTip": "SUM ≤ your own BI limits ≤ 250/500.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "SUM cannot exceed the policy's BI liability limits",
+      "anyOf": [
+       "own BI",
+       "liability limits",
+       "up to",
+       "cannot exceed"
+      ]
+     },
+     {
+      "label": "Statutory maximum 250/500 or $500,000 CSL",
+      "anyOf": [
+       "250/500",
+       "250,000",
+       "500,000"
+      ]
+     },
+     {
+      "label": "She must raise liability limits to get more SUM",
+      "anyOf": [
+       "raise",
+       "increase",
+       "higher liability"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3420"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q038",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.6.4",
+    "plauto.1.7.2"
+   ],
+   "concepts": [
+    "uninsured-motorist-coverage",
+    "sum-coverage"
+   ],
+   "difficulty": 2,
+   "style": "comparison",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "How does basic uninsured motorist (UM) coverage differ from SUM coverage in New York?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "SUM is required in every BI policy, while UM is optional coverage",
+     "rationale": "Incorrect: this reverses the rule; basic UM is the mandatory coverage."
+    },
+    {
+     "id": "b",
+     "text": "UM covers property damage, while SUM covers only bodily injury",
+     "rationale": "Incorrect: both UM and SUM cover bodily injury only."
+    },
+    {
+     "id": "c",
+     "text": "UM is required in every BI policy, while the insured chooses whether to buy SUM",
+     "rationale": "Correct: § 3420(f)(1) mandates UM; § 3420(f)(2) provides SUM at the option of the insured."
+    },
+    {
+     "id": "d",
+     "text": "Both are optional and may be rejected in writing by the named insured",
+     "rationale": "Incorrect: basic UM cannot be rejected; it is written into every auto BI policy."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Insurance Law § 3420(f)(1) requires every NY auto bodily injury liability policy to contain UM coverage of 25/50 (50/100 death), and a policy without it is read as if it contained it. SUM under § 3420(f)(2) is provided at the insured's option, up to the policy's BI limits, and the insurer must notify insureds of its availability at issuance and at least once a year.",
+   "memoryTip": "UM = must; SUM = may.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3420"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q039",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.6",
+    "plauto.1.7"
+   ],
+   "concepts": [
+    "uninsured-motorist-coverage",
+    "sum-coverage"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Abe, a NY resident with 100/300 liability and 100/300 SUM, is seriously injured in Pennsylvania by an uninsured driver.",
+   "stem": "Which coverage can respond to Abe's bodily injury claim?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Basic UM only, because UM follows the insured everywhere in North America",
+     "rationale": "Incorrect: basic UM under § 3420(f)(1) applies to accidents occurring in New York."
+    },
+    {
+     "id": "b",
+     "text": "SUM, because it applies in any state or Canadian province",
+     "rationale": "Correct: SUM applies anywhere in the US states or Canada, while basic UM under § 3420(f)(1) covers accidents in New York."
+    },
+    {
+     "id": "c",
+     "text": "MVAIC, because the uninsured driver was registered in another state",
+     "rationale": "Incorrect: MVAIC addresses New York accidents and pays qualified persons, not insureds with SUM coverage."
+    },
+    {
+     "id": "d",
+     "text": "Neither, because NY auto coverages never apply outside New York",
+     "rationale": "Incorrect: SUM expressly applies in any state or Canadian province."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Insurance Law § 3420(f)(1) requires UM coverage for bodily injury 'caused by accident occurring in this state.' Section 3420(f)(2)(A) says SUM 'shall provide coverage, in any state or Canadian province.' Abe's out-of-state accident therefore falls to his SUM coverage, subject to its terms.",
+   "memoryTip": "UM stays home; SUM travels.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Basic UM is limited to NY accidents",
+      "anyOf": [
+       "in this state",
+       "New York",
+       "in-state"
+      ]
+     },
+     {
+      "label": "SUM applies in any state or Canadian province",
+      "anyOf": [
+       "any state",
+       "Canad",
+       "anywhere"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3420"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q040",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.8"
+   ],
+   "concepts": [
+    "mandatory-auto-inspection",
+    "collision-coverage"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Liv trades in her old sedan and buys a used SUV. She calls her insurer to replace the sedan with the SUV on her policy and to add collision and comprehensive coverage.",
+   "stem": "What does Regulation 79 require before the insurer adds this coverage?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A DMV safety inspection sticker, with no insurer involvement",
+     "rationale": "Incorrect: Regulation 79 is an insurance inspection by the insurer's representative."
+    },
+    {
+     "id": "b",
+     "text": "A signed statement that the car has never been in an accident",
+     "rationale": "Incorrect: the regulation requires inspection, not a no-accident statement."
+    },
+    {
+     "id": "c",
+     "text": "Nothing, because the rule applies only to brand-new cars",
+     "rationale": "Incorrect: it applies to new, additional or replacement private passenger autos."
+    },
+    {
+     "id": "d",
+     "text": "An inspection of the car, unless the insurer waives or defers it",
+     "rationale": "Correct: 11 NYCRR 67.2 bars adding physical damage coverage on a replacement private passenger auto until inspected, unless waived or deferred."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Under 11 NYCRR 67.2 (Regulation 79), except where the insurer waives or defers the inspection under § 67.4, an insurer may not issue a new policy or modify an existing policy to provide physical damage coverage for a new, additional or replacement private passenger automobile unless the insurer's authorized representative has inspected it.",
+   "memoryTip": "Physical damage coverage on a newly added car? Look before you insure.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-11nycrr-67-2"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "regulation-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q041",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.9",
+    "plauto.1.9.1"
+   ],
+   "concepts": [
+    "personal-auto-policy"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "What does § 3425(b) require of an insurer that cancels a new auto policy during its first 60 days?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The notice must state or include the specific reason(s) for cancellation",
+     "rationale": "Correct: during the first 60 days, a cancellation notice must state or be accompanied by the specific reason or reasons."
+    },
+    {
+     "id": "b",
+     "text": "No reason may be given, to protect the insured's privacy",
+     "rationale": "Incorrect: the statute requires the specific reasons."
+    },
+    {
+     "id": "c",
+     "text": "The insurer must cancel only for nonpayment of premium",
+     "rationale": "Incorrect: the limited grounds apply after 60 days; in the first 60 days any reason may be used if stated."
+    },
+    {
+     "id": "d",
+     "text": "The insurer must first obtain the superintendent's written approval",
+     "rationale": "Incorrect: no prior approval of individual cancellations is required."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Insurance Law § 3425(b): during the first sixty days a covered policy is in effect, no notice of cancellation is effective unless it states or is accompanied by the specific reason or reasons. After 60 days (or from the effective date of a renewal), § 3425(c) limits auto cancellation to listed grounds.",
+   "memoryTip": "First 60 days: any reason, but say it.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3425"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q042",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.9",
+    "plauto.1.9.1"
+   ],
+   "concepts": [
+    "personal-auto-policy"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Eight months into his annual policy, Glen's son, who lives with him and regularly drives the insured car, has his driver's license revoked after a DWI conviction.",
+   "stem": "May the insurer cancel the policy mid-term?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Yes, suspension of a customary operator's driver's license is a permitted ground",
+     "rationale": "Correct: § 3425(c)(1)(B) allows cancellation for suspension or revocation of the license of the named insured or anyone who customarily operates the insured auto."
+    },
+    {
+     "id": "b",
+     "text": "No, a policy in force more than 60 days may be cancelled only at renewal",
+     "rationale": "Incorrect: mid-term cancellation is allowed for the listed grounds."
+    },
+    {
+     "id": "c",
+     "text": "No, only the named insured's own license suspension counts as a ground",
+     "rationale": "Incorrect: the ground covers any person who customarily operates an insured automobile."
+    },
+    {
+     "id": "d",
+     "text": "Yes, but only if the son also files a claim during the policy period",
+     "rationale": "Incorrect: the license suspension itself is sufficient; no claim is needed."
+    }
+   ],
+   "correct": "a",
+   "explanation": "After a policy has been in effect 60 days, § 3425(c)(1) permits auto cancellation only for (A) nonpayment of premium (the notice must state the amount due), (B) suspension or revocation during the required policy period of the driver's license of the named insured or any other person who customarily operates an insured auto (with limited exceptions), or (C) discovery of fraud or material misrepresentation in obtaining the policy or presenting a claim.",
+   "memoryTip": "After 60 days: Pay, License, Lies — the three ways out.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Policy has been in force more than 60 days",
+      "anyOf": [
+       "60 days",
+       "sixty"
+      ]
+     },
+     {
+      "label": "License suspension/revocation of a customary operator is a permitted ground",
+      "anyOf": [
+       "license",
+       "revok",
+       "suspen",
+       "customarily"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3425"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q043",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.9.1"
+   ],
+   "concepts": [
+    "personal-auto-policy"
+   ],
+   "difficulty": 2,
+   "style": "negative",
+   "tags": [
+    "negative-wording",
+    "ny-law"
+   ],
+   "stem": "After a NY personal auto policy has been in force for 60 days, each is a permitted cancellation ground EXCEPT:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Nonpayment of premium, with the amount due stated",
+     "rationale": "Incorrect: nonpayment is ground (A); the notice must state the amount due."
+    },
+    {
+     "id": "b",
+     "text": "Fraud or material misrepresentation in a claim",
+     "rationale": "Incorrect: fraud or material misrepresentation in obtaining the policy or presenting a claim is ground (C)."
+    },
+    {
+     "id": "c",
+     "text": "The named insured filed two not-at-fault claims",
+     "rationale": "Correct: filing claims is not among the § 3425(c)(1) grounds for mid-term auto cancellation."
+    },
+    {
+     "id": "d",
+     "text": "Revocation of the named insured's driver's license",
+     "rationale": "Incorrect: license suspension or revocation during the required policy period is ground (B)."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Insurance Law § 3425(c)(1) limits mid-term auto cancellation after 60 days to nonpayment of premium, license suspension or revocation of the named insured or a customary operator, and fraud or material misrepresentation. Having filed claims is not on the list (insurers may consider loss history only within the separate nonrenewal rules).",
+   "memoryTip": "Claims alone don't cancel a NY auto policy mid-term.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3425"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q044",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.9.2"
+   ],
+   "concepts": [
+    "personal-auto-policy",
+    "financial-responsibility-law"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Cam's installment payment on her personal auto policy is past due. Her insurer mails her a notice cancelling the policy for nonpayment of premium.",
+   "stem": "What is the minimum advance notice the insurer must give before the cancellation takes effect?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "20 days after mailing the notice",
+     "rationale": "Incorrect: 20 days applies to cancellations for reasons other than nonpayment."
+    },
+    {
+     "id": "b",
+     "text": "15 days after mailing the notice",
+     "rationale": "Correct: for nonpayment of premium, Veh & Traf Law § 313(1)(a) requires at least 15 days' notice."
+    },
+    {
+     "id": "c",
+     "text": "45 days after mailing the notice",
+     "rationale": "Incorrect: 45 to 60 days applies to nonrenewal notices."
+    },
+    {
+     "id": "d",
+     "text": "10 days after mailing the notice",
+     "rationale": "Incorrect: NY's auto rule for nonpayment is 15 days, not 10."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Veh & Traf Law § 313(1)(a): an insurer may not cancel a policy for which a certificate of insurance was filed until at least 20 days after mailing a notice of termination (by regular mail with a certificate of mailing), except that 15 days' notice is sufficient for nonpayment of premium. Under Ins. Law § 3425(a)(10), payment within 15 days after the notice is mailed is timely.",
+   "memoryTip": "Auto cancel notice: 20 days, or 15 for nonpayment.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-vat-313",
+    "ny-isc-3425"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q045",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.9.2"
+   ],
+   "concepts": [
+    "personal-auto-policy"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "A NY insurer nonrenewing a personal auto policy must mail notice how far before the period ends?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "At least 10 but not more than 20 days",
+     "rationale": "Incorrect: these figures do not match the nonrenewal rule."
+    },
+    {
+     "id": "b",
+     "text": "At least 20 but not more than 30 days",
+     "rationale": "Incorrect: 20 days relates to cancellation notice, not nonrenewal."
+    },
+    {
+     "id": "c",
+     "text": "At least 90 but not more than 120 days",
+     "rationale": "Incorrect: these figures do not match the auto nonrenewal rule."
+    },
+    {
+     "id": "d",
+     "text": "At least 45 but not more than 60 days",
+     "rationale": "Correct: § 3425(d)(1) requires the nonrenewal notice at least 45 but not more than 60 days in advance."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Insurance Law § 3425(d)(1): unless the insurer mails or delivers written notice of nonrenewal (or conditional renewal) at least 45 but not more than 60 days before the end of the policy period, with the specific reasons, the named insured is entitled to renew on timely payment of the premium. Veh & Traf Law § 313(1)(a) sets the same 45–60 day window for personal auto policies.",
+   "memoryTip": "Nonrenewal: 45 to 60 days ahead.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3425",
+    "ny-vat-313"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q046",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.9.2"
+   ],
+   "concepts": [
+    "personal-auto-policy"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "On June 1, Moe's insurer mails a notice cancelling his personal auto policy for nonpayment of a premium installment. On June 13 Moe pays the full amount due to his agent, who is authorized to accept premium payments.",
+   "stem": "Is Moe's policy still in force?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Yes, payment within 15 days after the notice was mailed is timely",
+     "rationale": "Correct: § 3425(a)(10) makes payment timely if made within 15 days after mailing of the nonpayment cancellation notice."
+    },
+    {
+     "id": "b",
+     "text": "No, the policy ended as soon as the installment became past due",
+     "rationale": "Incorrect: a policy is not cancelled automatically when a payment is late; notice is required."
+    },
+    {
+     "id": "c",
+     "text": "No, because payment must reach the insurer itself, not the agent",
+     "rationale": "Incorrect: payment to an agent or broker authorized to receive it counts."
+    },
+    {
+     "id": "d",
+     "text": "Yes, but only if the insurer chooses to accept the late payment",
+     "rationale": "Incorrect: the statute makes the payment timely; acceptance is not discretionary."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Insurance Law § 3425(a)(10): payment to the insurer, or to an agent or broker authorized to receive it, is timely if made within fifteen days after the mailing of a notice of cancellation for nonpayment of premium. Moe paid his authorized agent 12 days after mailing, so the cancellation does not take effect.",
+   "memoryTip": "Pay within 15 days of the notice and you're safe.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Payment within 15 days of mailing is timely",
+      "anyOf": [
+       "15 days",
+       "fifteen",
+       "timely"
+      ]
+     },
+     {
+      "label": "Payment to an authorized agent counts",
+      "anyOf": [
+       "agent",
+       "authorized"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3425"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q047",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.9.1"
+   ],
+   "concepts": [
+    "personal-auto-policy"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "Under § 3425(i), may a NY insurer refuse to renew an auto policy solely because the insured is elderly?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Yes, once the insured reaches age 75",
+     "rationale": "Incorrect: no age cutoff is permitted as the sole ground."
+    },
+    {
+     "id": "b",
+     "text": "No, refusal solely because of advanced age is prohibited",
+     "rationale": "Correct: § 3425(i) bars refusing to issue or renew a covered policy solely on the ground of the applicant's or insured's advanced age."
+    },
+    {
+     "id": "c",
+     "text": "Yes, if the insured has not driven in the past year",
+     "rationale": "Incorrect: the statute does not create such an exception for age-based refusals."
+    },
+    {
+     "id": "d",
+     "text": "Only with the superintendent's prior written approval",
+     "rationale": "Incorrect: refusal solely on the ground of advanced age is simply prohibited."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Insurance Law § 3425(i): 'No insurer shall refuse to issue or renew a covered policy solely on the ground of the advanced age of the applicant or insured.' Section 3425(s) similarly protects vehicles used for volunteer firefighting.",
+   "memoryTip": "Age alone is never a reason.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3425"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q048",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.10"
+   ],
+   "concepts": [
+    "choice-of-repair-shop"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "After Gil's covered collision, the adjuster says the insurer will pay only if Gil takes his car to 'our partner shop' across town.",
+   "stem": "Did the adjuster act properly under NY law?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Yes, because the insurer is paying for the repairs",
+     "rationale": "Incorrect: paying the claim does not give the insurer the right to require a shop."
+    },
+    {
+     "id": "b",
+     "text": "Yes, as long as the named partner shop is licensed by DMV",
+     "rationale": "Incorrect: the shop's licensing doesn't matter; the insurer may not require any particular shop."
+    },
+    {
+     "id": "c",
+     "text": "No, the insurer may not require repairs at a particular shop",
+     "rationale": "Correct: § 2610(a) bars an insurer from requiring that repairs be made at a particular place or shop."
+    },
+    {
+     "id": "d",
+     "text": "No, unless Gil's car is a total loss",
+     "rationale": "Incorrect: the rule applies to every collision or comprehensive repair claim."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Insurance Law § 2610(a): after a collision or comprehensive loss, an insurer may not require that repairs be made in a particular place or shop. Section 2610(b) also bars recommending a shop (except for glass-only claims) unless the insured expressly asks, and § 2610(c) requires a printed notice of the right to choose the shop on the estimate.",
+   "memoryTip": "Your car, your mechanic.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Insurer cannot require a specific shop",
+      "anyOf": [
+       "cannot require",
+       "may not require",
+       "not require"
+      ]
+     },
+     {
+      "label": "Insured chooses the repair shop",
+      "anyOf": [
+       "choice",
+       "choose",
+       "shop of",
+       "own shop"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2610"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q049",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.10"
+   ],
+   "concepts": [
+    "choice-of-repair-shop"
+   ],
+   "difficulty": 3,
+   "style": "concept",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "stem": "Under Insurance Law § 2610(b), when may an insurer suggest a particular repair shop on a comprehensive claim?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Whenever the suggested shop offers the insured a discount on the repair",
+     "rationale": "Incorrect: discounts do not create an exception to § 2610(b)."
+    },
+    {
+     "id": "b",
+     "text": "Whenever the damage estimate is greater than the car's actual cash value",
+     "rationale": "Incorrect: no such exception appears in the statute."
+    },
+    {
+     "id": "c",
+     "text": "Never, even when the insured specifically asks for a shop recommendation",
+     "rationale": "Incorrect: an express request from the insured permits a recommendation."
+    },
+    {
+     "id": "d",
+     "text": "When the insured expressly asks, or when the claim involves only window glass",
+     "rationale": "Correct: the ban on recommending a shop does not apply to glass-only claims or when the insured expressly requests it."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Insurance Law § 2610(b): in processing a collision or comprehensive claim (other than a claim solely involving window glass), the insurer may not recommend or suggest a particular shop unless expressly requested by the insured. The estimate disclosure in § 2610(c) likewise excludes glass-only claims.",
+   "memoryTip": "Glass-only or 'please recommend' — the only times an insurer can suggest a shop.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2610"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q050",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.11"
+   ],
+   "concepts": [
+    "spousal-liability-coverage",
+    "auto-liability-coverage"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Tom carries 100/300 liability but declined supplemental spousal liability (SSL) coverage in writing. He negligently crashes, and his wife, a passenger, is seriously injured and sues him.",
+   "stem": "Will Tom's liability coverage respond to his wife's lawsuit?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Yes, every NY auto policy covers liability claims by household family members",
+     "rationale": "Incorrect: NY law specifically excludes spousal liability unless SSL is included."
+    },
+    {
+     "id": "b",
+     "text": "No, liability to a spouse is covered only if the policy expressly provides it",
+     "rationale": "Correct: § 3420(g) says a policy is not deemed to cover liability for injury to the insured's spouse unless an express provision (SSL) is included."
+    },
+    {
+     "id": "c",
+     "text": "Yes, but only up to the 25/50 minimum limits for spouses",
+     "rationale": "Incorrect: without SSL there is no spousal liability coverage at all; with SSL, coverage is up to the policy's liability limits."
+    },
+    {
+     "id": "d",
+     "text": "No, because a spouse can never sue the other spouse in New York",
+     "rationale": "Incorrect: the suit is allowed; the issue is whether the policy covers it."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Insurance Law § 3420(g): no policy is deemed to insure against liability of an insured because of death of or injuries to the insured's spouse unless an express provision is included; the exclusion applies where the injured spouse must prove the insured spouse's culpable conduct. Supplemental spousal liability insurance provides that coverage up to the policy's liability limits. Tom's wife's own injuries are still eligible for PIP.",
+   "memoryTip": "No SSL, no coverage for suing your spouse.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Spousal liability is excluded without an express provision",
+      "anyOf": [
+       "express",
+       "excluded",
+       "not covered"
+      ]
+     },
+     {
+      "label": "SSL would provide coverage up to the liability limits",
+      "anyOf": [
+       "SSL",
+       "supplemental spousal",
+       "liability limits"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3420"
+   ],
+   "nySpecific": true,
+   "timeSensitive": true,
+   "reviewDue": "2027-06-30",
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19",
+    "notes": "Exclusion rule appears in both versions of § 3420(g) (before and after 2027-07-31)."
+   }
+  },
+  {
+   "id": "plauto-q051",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.11"
+   ],
+   "concepts": [
+    "spousal-liability-coverage"
+   ],
+   "difficulty": 3,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Under § 3420(g), where must an insurer's notice about supplemental spousal liability coverage appear?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Only in the policy jacket, in standard type",
+     "rationale": "Incorrect: the statute requires a boldface notice on the front of the premium notice."
+    },
+    {
+     "id": "b",
+     "text": "On the back of the insurance identification card",
+     "rationale": "Incorrect: ID cards are not where the SSL notice is required."
+    },
+    {
+     "id": "c",
+     "text": "On the front of the premium notice, in boldface type",
+     "rationale": "Correct: both versions of § 3420(g) require the SSL notice on the front of the premium notice in boldface type."
+    },
+    {
+     "id": "d",
+     "text": "In a separate letter sent once every five years",
+     "rationale": "Incorrect: notice is required at issuance and at least annually."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Insurance Law § 3420(g) requires notice of supplemental spousal liability coverage on the front of the premium notice in boldface type, with a concise statement about the coverage, an explanation, and the insurer's premium for it, at issuance and at least once a year. Until July 31, 2027 the coverage is included for a first named insured who lists a spouse unless declined in writing; after that date it is provided on written request.",
+   "memoryTip": "SSL notice: front page, bold.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3420"
+   ],
+   "nySpecific": true,
+   "timeSensitive": true,
+   "reviewDue": "2027-06-30",
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19",
+    "notes": "Boldface front-of-premium-notice requirement appears in both versions of § 3420(g)."
+   }
+  },
+  {
+   "id": "plauto-q052",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.8.10",
+    "plauto.2.7"
+   ],
+   "concepts": [
+    "out-of-state-coverage"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Una carries New York's minimum liability limits. She drives to another state whose compulsory liability minimums are higher than New York's and causes an accident there.",
+   "stem": "How does Una's New York policy respond?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "It pays only up to New York's minimum limits",
+     "rationale": "Incorrect: the out-of-state provision raises coverage to the other state's required minimum."
+    },
+    {
+     "id": "b",
+     "text": "It provides no coverage until she buys that state's policy",
+     "rationale": "Incorrect: coverage continues outside New York in the US and Canada."
+    },
+    {
+     "id": "c",
+     "text": "It doubles all of her limits while she is out of state",
+     "rationale": "Incorrect: coverage rises only to the other state's required minimum."
+    },
+    {
+     "id": "d",
+     "text": "It provides at least the minimum coverage that state requires",
+     "rationale": "Correct: § 5103(e) requires NY owner's policies to provide at least the minimum coverage required by another state or Canadian province where the car is used."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Insurance Law § 5103(e): every NY owner's policy issued to satisfy the financial security law must, when the vehicle is used in any other state or Canadian province, provide at least the minimum amount of coverage required by that state or province. The PAP's out-of-state coverage provision carries this out.",
+   "memoryTip": "Cross a border, meet that state's minimum.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-5103"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

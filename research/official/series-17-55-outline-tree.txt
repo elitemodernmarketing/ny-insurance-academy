@@ -1,0 +1,639 @@
+18 100
+reg Insurance Regulation
+  reg.1 Licensing
+    reg.1.1 Process  [2103(d–i)]
+    reg.1.2 Definitions
+      reg.1.2.1 Producer definition  [2101(k)]
+      reg.1.2.2 Who should be licensed  [2101(k)(1)]
+      reg.1.2.3 Home state  [2101(l)]
+      reg.1.2.4 Negotiate  [2101(m)]
+      reg.1.2.5 Sell  [2101(n)]
+      reg.1.2.6 Solicit  [2101(o)]
+    reg.1.3 Types of licensees
+      reg.1.3.1 Agents  [2101(a, k); 2103; Reg 6, Part 22.2; Reg 7, Part 23.2]
+      reg.1.3.2 Brokers  [2101(c, h, k); 2104]
+      reg.1.3.3 Consultants  [2107]
+      reg.1.3.4 Adjusters  [2101(g), 2108]
+      reg.1.3.5 Nonresident  [2101(d, e); 2103(g)(5, 11); 2136]
+      reg.1.3.6 Business entities  [2101(p), 2103(j)(2)]
+      reg.1.3.7 Temporary  [2109; Regs 9, 18, 29, Part 20.1]
+    reg.1.4 Maintenance and duration
+      reg.1.4.1 Renewal  [2103(j); Reg 5, Part 21.2]
+      reg.1.4.2 Continuing education  [2132]
+      reg.1.4.3 Assumed names  [2102(f)]
+      reg.1.4.4 Change of address (all addresses, including email)  [2134; Reg 5, Part 21.4; Reg 6, Part 22.3; Reg 7, Part 23.4]
+      reg.1.4.5 Reporting of actions  [2110(i)]
+    reg.1.5 Disciplinary actions
+      reg.1.5.1 Hearings-Notice and Process  [2405, 2406, Financial Services 305]
+      reg.1.5.2 Suspension, revocation, and nonrenewal  [2110]
+      reg.1.5.3 Penalties  [2127, 109]
+  reg.2 State Regulation
+    reg.2.1 Superintendent's general duties and powers  [2404, Financial Services 201, 202, 301]
+    reg.2.2 Company regulation
+      reg.2.2.1 Certificate of authority  [1102(a-b)]
+      reg.2.2.2 Solvency  [307]
+      reg.2.2.3 Unfair claim settlement practices  [2601; Reg 64, Parts 216.3 to .6]
+      reg.2.2.4 Appointment of agent  [2112(a–c)]
+      reg.2.2.5 Termination of agent appointment  [2112(d); Regs 9, 18, 29, Part 20.2]
+    reg.2.3 Unfair and prohibited practices
+      reg.2.3.1 Misrepresentation  [2123; Reg 64, Part 216.3]
+      reg.2.3.2 False advertising  [2603]
+      reg.2.3.3 Defamation of insurer  [2604]
+      reg.2.3.4 Unfair discrimination  [2606–2608, 2612]
+      reg.2.3.5 Rebating  [2324]
+    reg.2.4 Licensee regulation
+      reg.2.4.1 Controlled business  [2103(i)]
+      reg.2.4.2 Sharing commissions  [2121, 2128]
+      reg.2.4.3 Fiduciary responsibility  [2120; Regs 9, 18, 29, Parts 20.3, 20.4]
+      reg.2.4.4 License display  [Reg 125, Part 34.5]
+      reg.2.4.5 Commissions and compensation  [2102(e), 2114–2116, 2119; Regs 9, 18, 29, Part 20.6; 194 Part 30]
+      reg.2.4.6 Termination responsibilities of producer  [2112]
+    reg.2.5 Examination of books and records  [2404; Reg 152, Parts 243.0 to .3]
+    reg.2.6 Insurance Frauds Prevention Act  [401–405, Financial Services 403-405]
+    reg.2.7 Aiding Unauthorized Insurer  [2117]
+    reg.2.8 Prohibitions  [403]
+    reg.2.9 Reporting  [405]
+    reg.2.10 Consumer privacy regulation  [Reg 169, Part 420.0 to .4]
+    reg.2.11 Producer Compensation Transparency  [Reg 194, Parts 30.1 to 30.5]
+    reg.2.12 Cyber Security Requirements for Financial Services Companies  [Reg 23]
+  reg.3 Federal Regulation
+    reg.3.1 Fair Credit Reporting Act  [15 USC 1681–1681d]
+    reg.3.2 Fraud and false statements including 1033 waiver  [18 USC 1033, 1034]
+gen General Insurance
+  gen.1 Concepts
+    gen.1.1 Risk management key terms
+      gen.1.1.1 Risk (pure and speculative)
+      gen.1.1.2 Exposure
+      gen.1.1.3 Hazard (physical, moral, morale)
+      gen.1.1.4 Peril
+      gen.1.1.5 Loss
+    gen.1.2 Methods of handling risk
+      gen.1.2.1 Avoidance
+      gen.1.2.2 Retention
+      gen.1.2.3 Sharing
+      gen.1.2.4 Reduction
+      gen.1.2.5 Transfer (by contractual liability or insurance contract)
+      gen.1.2.6 Elements of insurable risks
+      gen.1.2.7 Adverse selection
+      gen.1.2.8 Law of large numbers
+      gen.1.2.9 Reinsurance
+  gen.2 Insurers
+    gen.2.1 Types of insurers
+      gen.2.1.1 Stock companies
+      gen.2.1.2 Mutual companies
+      gen.2.1.3 Fraternal benefit societies
+    gen.2.2 Private versus government insurers
+    gen.2.3 Admitted versus nonadmitted insurers
+    gen.2.4 Domestic, foreign, and alien insurers
+    gen.2.5 Financial status (independent rating services)
+    gen.2.6 Marketing (distribution) systems
+  gen.3 Agents and general rules of agency
+    gen.3.1 Insurer as principal
+    gen.3.2 Agent/insurer relationship
+    gen.3.3 Authority and powers of agents
+      gen.3.3.1 Express
+      gen.3.3.2 Implied
+      gen.3.3.3 Apparent
+    gen.3.4 Responsibilities to the applicant/insured
+  gen.4 Contracts
+    gen.4.1 Elements of a legal contract
+      gen.4.1.1 Offer and acceptance
+      gen.4.1.2 Consideration
+      gen.4.1.3 Competent parties
+      gen.4.1.4 Legal purpose
+    gen.4.2 Characteristics of insurance contracts
+      gen.4.2.1 Contract of adhesion
+      gen.4.2.2 Aleatory contract
+      gen.4.2.3 Personal contract
+      gen.4.2.4 Unilateral contract
+      gen.4.2.5 Conditional contract
+    gen.4.3 Legal concepts and interpretations affecting contracts
+      gen.4.3.1 Indemnity
+      gen.4.3.2 Utmost good faith
+      gen.4.3.3 Representations/misrepresentations  [3105]
+      gen.4.3.4 Warranties  [3106]
+      gen.4.3.5 Rescission
+      gen.4.3.6 Concealment
+      gen.4.3.7 Fraud
+      gen.4.3.8 Waiver and estoppel
+lib Life Insurance Basics
+  lib.1 Insurable interest  [3205]
+  lib.2 Personal uses of life insurance
+    lib.2.1 Survivor protection
+    lib.2.2 Estate creation
+    lib.2.3 Cash accumulation
+    lib.2.4 Liquidity
+    lib.2.5 Estate conservation
+  lib.3 Determining amount of personal life insurance
+    lib.3.1 Human life value approach
+    lib.3.2 Needs approach
+      lib.3.2.1 Types of information gathered
+      lib.3.2.2 Determining lump-sum needs
+      lib.3.2.3 Planning for income needs
+  lib.4 Business uses of life insurance
+    lib.4.1 Buy-sell funding
+    lib.4.2 Key person
+    lib.4.3 Business continuation
+  lib.5 Differences in life insurance policies
+    lib.5.1 Group versus individual
+    lib.5.2 Permanent versus term
+    lib.5.3 Participating versus nonparticipating
+    lib.5.4 Fixed versus variable life
+      lib.5.4.1 Regulation of variable products (SEC, NASD, and New York)  [4240; Reg 47, Part 50.3; Reg 77, Part 54.3]
+  lib.6 Factors in premium determination
+    lib.6.1 Mortality, Investment Return, and Expense
+    lib.6.2 Mode of premium
+  lib.7 Licensee responsibilities
+    lib.7.1 Solicitation and sales presentations
+      lib.7.1.1 Advertising  [2122]
+      lib.7.1.2 Life Insurance Company Guaranty Corporation  [7718]
+      lib.7.1.3 Policy summary  [3209; Reg 74, Part 53-2.2]
+      lib.7.1.4 Buyer's guide  [3209; Reg 74, Part 53-2.6]
+      lib.7.1.5 Suitability in Life Insurance and Annuities  [Reg 187 224.2-224.4]
+      lib.7.1.6 Illustrations  [Reg 74, Part 53-3.1 to .6]
+      lib.7.1.7 Replacement  [2123(a)(2, 3); Reg 60, Parts 51.1 to .8]
+      lib.7.1.8 Use and disclosure of insurance information
+      lib.7.1.9 Use of Senior-Specific Certifications and Professional Designations in the Sale of Life Insurance and Annuities  [Reg 199, Part 225]
+    lib.7.2 Field underwriting
+      lib.7.2.1 Application procedures including backdating of policies  [3208]
+    lib.7.3 Delivery
+      lib.7.3.1 Policy review
+      lib.7.3.2 Effective date of coverage
+      lib.7.3.3 Premium collection
+      lib.7.3.4 Statement of good health
+      lib.7.3.5 Amendments
+  lib.8 Individual underwriting by the insurer
+    lib.8.1 Information sources and regulation
+      lib.8.1.1 Application
+      lib.8.1.2 Agent report
+      lib.8.1.3 Attending physician statement
+      lib.8.1.4 Investigative consumer (inspection) report
+      lib.8.1.5 Medical Information Bureau (MIB)
+      lib.8.1.6 Medical examinations and lab tests including HIV  [2611]
+      lib.8.1.7 Selection criteria and unfair discrimination
+    lib.8.2 Classification of risks
+      lib.8.2.1 Preferred
+      lib.8.2.2 Standard
+      lib.8.2.3 Substandard
+      lib.8.2.4 Declined
+lip Life Insurance Policies
+  lip.1 Term life insurance
+    lip.1.1 Level term
+      lip.1.1.1 Renewable term
+      lip.1.1.2 Convertible term
+      lip.1.1.3 Level premium term
+  lip.2 Whole life insurance
+    lip.2.1 Continuous premium (straight life)
+    lip.2.2 Limited payment
+    lip.2.3 Single premium
+  lip.3 Flexible premium policies
+    lip.3.1 Universal life
+  lip.4 Specialized policies
+    lip.4.1 Joint life (first-to-die)
+    lip.4.2 Survivorship life (second-to-die)
+    lip.4.3 Life insurance on minors  [3207(b)]
+    lip.4.4 Fixed (equity) indexed life
+  lip.5 Group life insurance
+    lip.5.1 Characteristics of group plans
+    lip.5.2 Types of plan sponsors
+    lip.5.3 Group underwriting requirements
+    lip.5.4 Conversion to individual policy  [3220]
+  lip.6 Credit life insurance (individual versus group)
+lpr Life Insurance Policy Provisions, Options, and Riders
+  lpr.1 Required provisions  [3203]
+    lpr.1.1 Ownership
+    lpr.1.2 Assignment
+    lpr.1.3 Entire contract  [3203(a)(4), 3204]
+    lpr.1.4 Right to examine (free look)  [3203(a)(11)]
+    lpr.1.5 Payment of premiums
+    lpr.1.6 Grace period  [3203(a)(1)]
+    lpr.1.7 Reinstatement  [3203(a)(10)]
+    lpr.1.8 Incontestability  [3203(a)(3)]
+    lpr.1.9 Misstatement of age  [3203(a)(5)]
+    lpr.1.10 Exclusions  [3203(b,c)]
+    lpr.1.11 Statements of the applicant  [3204]
+    lpr.1.12 Proof of Death
+  lpr.2 Beneficiaries
+    lpr.2.1 Designation options
+      lpr.2.1.1 Individuals
+      lpr.2.1.2 Classes (per stirpes/per capita)
+      lpr.2.1.3 Estates
+      lpr.2.1.4 Minors
+      lpr.2.1.5 Trusts
+      lpr.2.1.6 Succession
+      lpr.2.1.7 Revocable versus irrevocable
+      lpr.2.1.8 Common disaster clause
+  lpr.3 Settlement options
+    lpr.3.1 Cash payment
+    lpr.3.2 Interest only
+    lpr.3.3 Fixed-period installments
+    lpr.3.4 Fixed-amount installments
+    lpr.3.5 Life income
+      lpr.3.5.1 Single life
+      lpr.3.5.2 Joint and survivor
+      lpr.3.5.3 Spendthrift clause
+  lpr.4 Nonforfeiture options
+    lpr.4.1 Cash surrender value (net cash value)
+    lpr.4.2 Extended term
+    lpr.4.3 Reduced paid-up insurance
+  lpr.5 Policy loan and withdrawal options
+    lpr.5.1 Policy loans
+    lpr.5.2 Automatic premium loans
+    lpr.5.3 Withdrawals or partial surrenders
+  lpr.6 Dividend options
+    lpr.6.1 Cash payment
+    lpr.6.2 Reduction of premium payments
+    lpr.6.3 Accumulation at interest
+    lpr.6.4 One-year term option
+    lpr.6.5 Paid-up additions
+  lpr.7 Disability riders
+    lpr.7.1 Waiver of premium
+    lpr.7.2 Waiver of cost of insurance
+    lpr.7.3 Disability income benefit
+    lpr.7.4 Payor benefit life/disability (juvenile insurance)
+  lpr.8 Accelerated (living) benefit provisions/riders  [3230]
+    lpr.8.1 Conditions for payment
+    lpr.8.2 Effect on death benefit
+  lpr.9 Riders covering additional insureds
+    lpr.9.1 Spouse/other-insured term rider
+    lpr.9.2 Children's term rider
+    lpr.9.3 Family term rider
+  lpr.10 Riders affecting the death benefit amount
+    lpr.10.1 Accidental death
+    lpr.10.2 Guaranteed insurability
+    lpr.10.3 Cost of living
+    lpr.10.4 Return of premium
+    lpr.10.5 Term rider
+ann Annuities
+  ann.1 Annuity principles and concepts
+    ann.1.1 Accumulation period versus annuity period
+    ann.1.2 Owner, annuitant, and beneficiary
+    ann.1.3 Insurance aspects of annuities
+  ann.2 Required provisions  [3219, 4220, 4223]
+  ann.3 Immediate versus deferred annuities
+    ann.3.1 Single premium immediate annuities (SPIAs)
+    ann.3.2 Deferred annuities
+      ann.3.2.1 Premium payment options
+      ann.3.2.2 Nonforfeiture
+      ann.3.2.3 Surrender and withdrawal charges
+      ann.3.2.4 Death benefits
+  ann.4 Annuity (benefit) payment options
+    ann.4.1 Life contingency options
+    ann.4.2 Pure or straight life versus life with guaranteed minimum
+    ann.4.3 Single life versus multiple life
+    ann.4.4 Annuities certain (types)
+  ann.5 Annuity products
+    ann.5.1 Fixed annuities
+    ann.5.2 General account assets
+    ann.5.3 Interest rate guarantees (minimum versus current)
+    ann.5.4 Level benefit payment amount
+    ann.5.5 Fixed (equity) indexed annuities
+    ann.5.6 Differences in variable annuity products and licensing requirements
+  ann.6 Personal Uses of annuities
+    ann.6.1 Tax-deferred growth
+    ann.6.2 Retirement income
+    ann.6.3 Guaranteed Minimum Withdrawal Benefit (GMWB)
+    ann.6.4 Education funds
+tax Federal Tax Considerations for Life Insurance and Annuities
+  tax.1 Taxation of personal life insurance
+    tax.1.1 Amounts available to policyowner
+      tax.1.1.1 Cash value increases
+      tax.1.1.2 Dividends
+      tax.1.1.3 Policy loans
+      tax.1.1.4 Surrenders
+    tax.1.2 Amounts received by beneficiary
+      tax.1.2.1 Settlement options
+  tax.2 Rollovers and transfers (IRAs and qualified plans)
+  tax.3 Section 1035 exchanges
+qp Qualified Plans
+  qp.1 General requirements
+    qp.1.1 Defined contribution versus defined benefit plan
+  qp.2 Plan types, characteristics, and purchasers
+    qp.2.1 Self-employed plans (Keogh plans)
+    qp.2.2 SIMPLE
+    qp.2.3 SEP
+    qp.2.4 401K
+    qp.2.5 457
+ls Life Settlement
+  ls.1 Definitions  [7802]
+    ls.1.1 Life Settlement contract  [7802(k)(1)(2)(3)]
+    ls.1.2 Life Settlement Broker  [7802(j)]
+    ls.1.3 Business of Life Settlement  [7802(c)(1)]
+    ls.1.4 Financing transaction  [7802(f)]
+    ls.1.5 Owner  [7802(n)]
+    ls.1.6 Life expectancy  [7802(i)]
+  ls.2 Broker License Requirements  [2137; 2102(a)(1)]
+  ls.3 Advertising  [7809]
+  ls.4 Privacy  [7810]
+    ls.4.1 HIPAA
+    ls.4.2 Personal & Financial information privacy
+  ls.5 Prohibited Practices  [7814]
+  ls.6 Stranger-originated life insurance  [7815]
+    ls.6.1 Insurable interest provisions
+    ls.6.2 Trust owned policies
+ahb Accident and Health Insurance Basics
+  ahb.1 Definitions of perils
+    ahb.1.1 Accidental injury
+    ahb.1.2 Sickness
+  ahb.2 Principal types of losses and benefits
+    ahb.2.1 Loss of income from disability
+    ahb.2.2 Hospital and medical expense
+    ahb.2.3 Long-term care expense
+  ahb.3 Classes of accident and health insurance coverage
+    ahb.3.1 Individual and group
+    ahb.3.2 Private versus government
+    ahb.3.3 Limited versus comprehensive
+  ahb.4 Types of Limited Policies
+    ahb.4.1 Limited benefits and amounts
+    ahb.4.2 Required notice to insured
+    ahb.4.3 Types of limited policies
+      ahb.4.3.1 Accident-only
+      ahb.4.3.2 Specified (dread) disease
+      ahb.4.3.3 Hospital indemnity (income)
+      ahb.4.3.4 Dental insurance
+      ahb.4.3.5 Vision care
+  ahb.5 Common exclusions from coverage
+    ahb.5.1 Workers' Compensation
+    ahb.5.2 Cosmetic
+    ahb.5.3 Experimental/investigation
+    ahb.5.4 Medical Necessity
+  ahb.6 Licensee responsibilities in individual accident and health insurance
+    ahb.6.1 Marketing requirements
+      ahb.6.1.1 Advertising  [Reg 34, Parts 215.1 to .18]
+      ahb.6.1.2 Sales presentations
+      ahb.6.1.3 Outline of coverage
+      ahb.6.1.4 Application procedures
+      ahb.6.1.5 Requirements at delivery of policy
+  ahb.7 Considerations in replacing accident and health insurance
+    ahb.7.1 Benefits, limitations, and exclusions
+    ahb.7.2 Licensee liability for errors and omissions
+  ahb.8 Community rating of policies  [4317; Reg 145, Part 360]
+    ahb.8.1 Definition of small group
+ihp Individual Health Insurance Policy General Provisions
+  ihp.1 Required provisions
+    ihp.1.1 Entire contract; changes  [3216(d)(1)(A)]
+    ihp.1.2 Time limit on certain defenses  [3216(d)(1)(B)]
+    ihp.1.3 Grace period  [3216(d)(1)C]
+    ihp.1.4 Reinstatement  [3216(d)(1)(D)]
+  ihp.2 Other provisions
+    ihp.2.1 Coordination of benefits
+    ihp.2.2 Other benefits  [3216(d)(2)(E)]
+    ihp.2.3 Unpaid premium  [3216(d)(2)(G)]
+    ihp.2.4 Cancellation  [3216(d)(2)(H)]
+    ihp.2.5 Conformity with state statutes  [3216(d)(2)(I)]
+    ihp.2.6 Illegal occupation  [3216(d)(2)(J)]
+    ihp.2.7 Intoxicants and narcotics  [3216(d)(2)(K)]
+  ihp.3 Other general provisions
+    ihp.3.1 Right to examine (free look)
+    ihp.3.2 Insuring clause
+    ihp.3.3 Consideration clause
+    ihp.3.4 Renewability clause  [3216(g)]
+      ihp.3.4.1 Noncancelable
+      ihp.3.4.2 Guaranteed renewable
+di Disability Income and Related Insurance
+  di.1 Qualifying for disability benefits
+    di.1.1 Inability to perform duties
+      di.1.1.1 Own occupation
+      di.1.1.2 Any occupation
+      di.1.1.3 Presumptive disability
+      di.1.1.4 Proof of Loss
+  di.2 Individual disability income insurance
+    di.2.1 Basic total disability plan
+      di.2.1.1 Income benefits
+      di.2.1.2 Elimination and benefit periods
+      di.2.1.3 Waiver of premium feature
+    di.2.2 Coordination of benefits
+    di.2.3 Individual premium consideration
+      di.2.3.1 Additional Monthly Benefit (AMB)
+      di.2.3.2 Social Insurance Supplement (SIS)
+      di.2.3.3 Occupational versus nonoccupational coverage
+      di.2.3.4 Noncancelable  [3216(d)(2)(H)]
+      di.2.3.5 Guaranteed renewability
+    di.2.4 Other provisions affecting income benefits
+      di.2.4.1 Cost of Living Adjustment (COLA) rider
+      di.2.4.2 Future Increase Option (FIO) rider
+      di.2.4.3 Relation of earnings to insurance  [3216(d)(2)(F)]
+    di.2.5 Benefits
+      di.2.5.1 Accidental death and dismemberment
+      di.2.5.2 Rehabilitation benefit
+      di.2.5.3 Medical reimbursement benefit (nondisabling injury)
+      di.2.5.4 Partial disability benefit
+      di.2.5.5 Residual disability benefit
+      di.2.5.6 Total disability benefit
+      di.2.5.7 24-hour coverage versus limited/at-work coverage
+    di.2.6 Exclusions
+  di.3 Group disability income insurance
+    di.3.1 Group versus individual plans
+    di.3.2 Short-Term Disability (STD)
+    di.3.3 Long-Term Disability (LTD)
+  di.4 Business disability insurance
+    di.4.1 Key person disability income
+    di.4.2 Disability buy-sell policy
+    di.4.3 Business overhead expense policy
+med Medical Plans
+  med.1 Medical plan concepts
+    med.1.1 Fee-for-service basis versus prepaid basis
+    med.1.2 Specified coverages versus comprehensive care
+    med.1.3 Benefit schedule versus usual/reasonable/customary charges
+    med.1.4 Any provider versus limited choice of providers
+    med.1.5 Insureds versus subscribers/participants
+  med.2 Types of plans
+    med.2.1 Major medical insurance (indemnity plans)
+      med.2.1.1 Characteristics
+      med.2.1.2 Common limitations
+      med.2.1.3 Exclusions from coverage
+      med.2.1.4 Provisions affecting cost to insured
+    med.2.2 Health Maintenance Organizations (HMOs)
+      med.2.2.1 General characteristics
+      med.2.2.2 Preventive care services  [4303(j)]
+      med.2.2.3 Primary Care Physician (PCP)
+      med.2.2.4 Referral (specialty) physician
+      med.2.2.5 Emergency care
+      med.2.2.6 Hospital services
+      med.2.2.7 Other basic services
+    med.2.3 Preferred Provider Organizations (PPOs), Point-of-Service (POS) plans and Exclusive Provider Organizations (EPOs)
+      med.2.3.1 General characteristics
+      med.2.3.2 In-network and out-of-network provider access
+      med.2.3.3 Primary Care Physician (PCP) referral
+    med.2.4 Indemnity plan features
+    med.2.5 Catastrophic
+  med.3 Cost containment in health care delivery
+    med.3.1 Utilization review  [Art. 49]
+      med.3.1.1 Prospective review
+      med.3.1.2 Concurrent review
+      med.3.1.3 Retrospective review
+  med.4 New York mandated benefits and offers (individual and/or group)
+    med.4.1 Dependent child age limit  [3216(a)(4);4235(f)(1)(2)]
+    med.4.2 Policy extension for handicapped children  [3216(c)(4)(A)]
+    med.4.3 Newborn child coverage (3216(c)(4)(c)
+  med.5 New York required benefits (individual and/or group)
+  med.6 New York mandated offers (individual and/or group)
+  med.7 HIPAA (Health Insurance Portability and Accountability Act) requirements
+    med.7.1 Eligibility
+    med.7.2 Guaranteed issue
+    med.7.3 Renewability
+    med.7.4 Privacy protections
+aca Federal Patient Protection and Affordable Care Act
+  aca.1 Affordable Care Act
+    aca.1.1 Preexisting conditions
+    aca.1.2 Insurance exchanges
+      aca.1.2.1 Eligibility (individual and small employer)
+      aca.1.2.2 APTC (advance premium tax credit)
+      aca.1.2.3 Cost share reeducation
+      aca.1.2.4 Benchmark plan
+      aca.1.2.5 State vs. Federal
+      aca.1.2.6 Metal levels
+    aca.1.3 Catastrophic
+    aca.1.4 Medical loss ratio
+    aca.1.5 Actuarial value
+    aca.1.6 Enrollment period
+    aca.1.7 Individual mandate
+    aca.1.8 Employer shared responsibility
+    aca.1.9 Annual lifetime dollar limits
+    aca.1.10 10 Essential benefits
+ltc Long-Term Care (LTC) Insurance
+  ltc.1 Benefits
+    ltc.1.1 LTC, Medicare and Medicaid compared
+    ltc.1.2 Eligibility for benefits
+    ltc.1.3 Levels of care
+      ltc.1.3.1 Skilled care
+      ltc.1.3.2 Intermediate care
+      ltc.1.3.3 Custodial care
+    ltc.1.4 Types of care
+      ltc.1.4.1 Home health care
+      ltc.1.4.2 Adult day care
+      ltc.1.4.3 Respite care
+      ltc.1.4.4 Nursing home facility care
+      ltc.1.4.5 Assisted living
+    ltc.1.5 Benefit periods
+    ltc.1.6 Benefit amounts
+    ltc.1.7 Activities of Daily Living (ADLs)
+    ltc.1.8 Optional benefits
+      ltc.1.8.1 Reimbursement versus indemnity/cash
+      ltc.1.8.2 Inflation protection (COLA)  [Reg 62, Part 52.25(c)(3)]
+      ltc.1.8.3 Nonforfeiture benefits  [Reg 62, Part 52.25(c)(7)]
+      ltc.1.8.4 Guarantee of insurability
+      ltc.1.8.5 Return of premium
+      ltc.1.8.6 Shared care
+    ltc.1.9 Individual, group, and association plans
+    ltc.1.10 Hybrid plans
+    ltc.1.11 Exclusions  [Reg 62, Part 52.25(b)(2)]
+    ltc.1.12 Underwriting considerations
+    ltc.1.13 Suitability
+  ltc.2 New York regulations and required provisions
+    ltc.2.1 Renewability  [Reg 62, Part 52.25(b)(1)]
+    ltc.2.2 Required disclosure provisions  [Reg 62, Part 52.65]
+    ltc.2.3 Prohibited practices
+    ltc.2.4 Replacement  [Reg 62, Part 52.29]
+    ltc.2.5 New York State Partnership for Long Term Care  [Reg 144, Part 39]
+    ltc.2.6 Dollar for dollar or time element
+    ltc.2.7 Medicaid Estate Recovery Act (OBRA '93)
+    ltc.2.8 New York Tax credit
+grp Group Health and Blanket Insurance
+  grp.1 Characteristics of group insurance
+    grp.1.1 Group contract
+    grp.1.2 Certificate of coverage
+    grp.1.3 Experience rating versus community rating
+    grp.1.4 Definition of eligible group  [4235(b)(c)]
+  grp.2 Types of eligible groups  [4235]
+    grp.2.1 Employment-related groups
+      grp.2.1.1 Individual employer groups
+      grp.2.1.2 Professional employer organizations
+      grp.2.1.3 Associations (alumni, professional, and other)
+      grp.2.1.4 Customer groups (depositors, creditor-debtor, and others)
+      grp.2.1.5 Blanket customer groups (teams, passengers, and others)
+  grp.3 Regulation of employer group insurance plans
+    grp.3.1 Employee Retirement Income Security Act (ERISA)
+      grp.3.1.1 Applicability
+      grp.3.1.2 Fiduciary responsibilities
+      grp.3.1.3 Reporting and disclosure
+    grp.3.2 Family Medical Leave Act (FMLA)
+    grp.3.3 Relationship with Medicare
+      grp.3.3.1 Medicare secondary rules
+      grp.3.3.2 Medicare carve-outs and supplements
+    grp.3.4 Nondiscrimination rules (highly-compensated)
+  grp.4 Types of funding and administration
+    grp.4.1 Conventional fully-insured plans
+    grp.4.2 Partially self-insured plans
+      grp.4.2.1 Stop-loss coverage
+      grp.4.2.2 Administrative Services Only (ASO) arrangements
+  grp.5 Marketing considerations
+    grp.5.1 Advertising
+    grp.5.2 Regulatory jurisdiction/place of delivery
+  grp.6 Employer group health insurance
+    grp.6.1 Insurer underwriting criteria
+      grp.6.1.1 Characteristics of group
+      grp.6.1.2 Plan design factors
+      grp.6.1.3 Persistency factors
+      grp.6.1.4 Administrative capability
+    grp.6.2 Eligibility for coverage
+      grp.6.2.1 Annual open enrollment
+      grp.6.2.2 Employee eligibility
+      grp.6.2.3 Probationary period
+      grp.6.2.4 Dependent eligibility
+    grp.6.3 Coordination of benefits provision  [Reg 62, Part 52.23]
+    grp.6.4 Change of insurance companies or loss of coverage
+      grp.6.4.1 Events that terminate coverage
+      grp.6.4.2 Extension of benefits
+      grp.6.4.3 Continuation of coverage under COBRA and New York continuations
+      grp.6.4.4 Conversion privilege  [3221(e)]
+  grp.7 Small employer medical plans
+    grp.7.1 Definition of small employer  [Reg 145, Part 360.2(f)]
+    grp.7.2 Benefit plans offered
+    grp.7.3 Availability of coverage  [Reg 145, Part 360.2(e), .3]
+    grp.7.4 Renewability  [Reg 145, Part 360.2(e)]
+gov Government Insurance Plans
+  gov.1 Workers' Compensation
+    gov.1.1 Eligibility
+    gov.1.2 Benefits
+  gov.2 Social Security Disability
+    gov.2.1 Qualifications for disability benefits
+    gov.2.2 Definition of disability
+    gov.2.3 Waiting period
+    gov.2.4 Disability income benefits
+  gov.3 New York State Disability Benefits Law
+    gov.3.1 Purpose
+    gov.3.2 Definitions
+    gov.3.3 Employment covered
+    gov.3.4 Benefits
+  gov.4 Medicaid
+    gov.4.1 Eligibility and benefits
+    gov.4.2 Child Health Plus
+      gov.4.2.1 Eligibility and benefits
+  gov.5 Medicare
+    gov.5.1 Nature, financing, and administration
+    gov.5.2 Part A-Hospital Insurance
+      gov.5.2.1 Individual eligibility requirements
+      gov.5.2.2 Enrollment
+      gov.5.2.3 Coverages and cost-sharing amounts
+    gov.5.3 Part B-Medical Insurance
+      gov.5.3.1 Individual eligibility requirements
+      gov.5.3.2 Enrollment
+      gov.5.3.3 Coverages and cost-sharing amounts
+      gov.5.3.4 Exclusions
+    gov.5.4 Part C-Medicare Advantage
+    gov.5.5 Part D-Prescription Drug Insurance
+  gov.6 Flexible Spending Accounts (FSAs) and Health Savings Accounts (HSAs)
+    gov.6.1 Definition
+    gov.6.2 Eligibility
+    gov.6.3 Contribution
+  gov.7 Healthy New York  [4326]
+sen Private Insurance for Senior Citizens and Special Needs Individuals
+  sen.1 Medicare supplements
+    sen.1.1 Purpose
+    sen.1.2 Open enrollment (Reg 193, Part 58))
+    sen.1.3 Standardized Medicare supplement plans
+      sen.1.3.1 Core benefits
+      sen.1.3.2 Additional benefits
+    sen.1.4 New York regulations and required provisions
+      sen.1.4.1 Standards for marketing  [Reg 193, Part 58]
+      sen.1.4.2 Permitted compensation arrangements  [Reg 193, Part 58]
+      sen.1.4.3 Appropriateness of recommended purchase or replacement  [Reg 193, Part 58]
+      sen.1.4.4 Replacement  [Reg 193, Part 58]
+      sen.1.4.5 Disclosure statement  [Reg 193, Part 58]
+      sen.1.4.6 Renewability  [Reg 193, Part 58]
+  sen.2 Other Medicare options for individuals
+    sen.2.1 Disabled individuals
+    sen.2.2 Individuals with kidney failure
+    sen.2.3 Employer group health plans
+      sen.2.3.1 Employees age 65 or older

@@ -1,0 +1,581 @@
+{
+  "sectionId": "gen",
+  "terms": [
+    {
+      "id": "risk-transfer",
+      "term": "Risk Transfer",
+      "aliases": ["transfer"],
+      "sectionId": "gen",
+      "outlineIds": ["gen.1.2.5"],
+      "formal": "A method of handling risk in which the financial consequences of a potential loss are shifted to another party, either by a contractual liability agreement (such as a hold-harmless clause) or by an insurance contract.",
+      "plain": "Transferring risk means making someone else pay if the loss happens. Buying insurance is the most common way: you pay a premium and the insurer takes on the cost of covered losses. A contract can also shift responsibility, like a lease that makes the tenant responsible for certain damage.",
+      "simpler": "Transfer = 'If it happens, it's your problem, not mine — and I paid you to take it.'",
+      "examples": [
+        "Grace buys a disability income policy; if she can't work, the insurer replaces part of her income.",
+        "A contractor signs an agreement that makes it responsible for injuries on a job site, transferring that liability away from the property owner."
+      ],
+      "examTip": "Insurance is THE classic example of risk transfer. The outline also mentions transfer 'by contractual liability' — a non-insurance contract that shifts responsibility to someone else.",
+      "misconception": "Transfer does not make the risk disappear; the loss can still happen. Only the financial responsibility moves.",
+      "related": ["insurance", "risk-sharing", "risk-retention", "reinsurance"],
+      "confusedWith": ["risk-sharing"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "What is the most common way individuals transfer risk?",
+        "choices": ["Purchasing insurance", "Choosing a high deductible", "Avoiding risky activities", "Installing safety equipment"],
+        "answerIndex": 0,
+        "explanation": "Purchasing insurance shifts the financial consequences of loss to the insurer. A high deductible is retention, avoiding activities is avoidance, and safety equipment is reduction."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "insurable-risk",
+      "term": "Elements of an Insurable Risk",
+      "aliases": ["insurable risk"],
+      "sectionId": "gen",
+      "outlineIds": ["gen.1.2.6"],
+      "formal": "The characteristics a risk must have for an insurer to cover it: the loss must be due to chance (accidental/unintentional); definite and measurable; predictable (part of a large group of similar, homogeneous exposure units so the law of large numbers applies); not catastrophic to the insurer; and the coverage must be economically feasible (premiums affordable relative to the potential loss). Only pure risks are insurable.",
+      "plain": "Insurers can only cover a risk if: the loss happens by chance, not on purpose; you can tell when it happened and how much it cost; there are enough similar people or things to predict losses; it won't hit everyone at once; and the premium makes sense for the size of loss.",
+      "simpler": "To be insurable, a loss must be accidental, measurable, predictable, not a mass disaster, and affordable to cover.",
+      "examples": [
+        "Death is insurable: it is certain to happen eventually, but WHEN it happens is uncertain, it can be measured, and mortality tables predict it for large groups.",
+        "War damage to an entire country is generally not insurable because it could cause catastrophic losses to all insureds at once."
+      ],
+      "examTip": "Common exam traps: 'the loss must be intentional' (wrong — it must be accidental/due to chance), and 'speculative risks are insurable' (wrong — only pure risks). The insured group must be LARGE and made of SIMILAR exposure units.",
+      "misconception": "Death being certain does not make life insurance impossible. The timing of death is uncertain for any one person, which is what makes it an insurable risk.",
+      "related": ["pure-risk", "law-of-large-numbers", "exposure", "adverse-selection"],
+      "confusedWith": ["insurable-interest"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which is NOT a requirement for a risk to be insurable?",
+        "choices": ["The loss must be intentional", "The loss must be definite and measurable", "The loss must not be catastrophic", "There must be a large number of similar exposure units"],
+        "answerIndex": 0,
+        "explanation": "An insurable loss must be accidental (due to chance), not intentional. Definite and measurable losses, non-catastrophic exposure and a large number of similar units are all elements of an insurable risk."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "adverse-selection",
+      "term": "Adverse Selection",
+      "aliases": ["antiselection", "selection against the insurer"],
+      "sectionId": "gen",
+      "outlineIds": ["gen.1.2.7"],
+      "formal": "The tendency of persons who present a greater-than-average risk of loss to seek or continue insurance to a greater extent than persons with average or below-average risk; insurers control it through underwriting.",
+      "plain": "People who expect to have a claim are the most eager to buy insurance. If an insurer accepted everyone at the same price without checking, it would end up with too many high-risk people and too little premium to pay their claims. Underwriting is how insurers protect themselves.",
+      "simpler": "Adverse selection is when mostly the 'sure-to-claim' people sign up.",
+      "examples": [
+        "A man who has just been diagnosed with a serious heart condition rushes to buy a large life policy.",
+        "If a health plan allowed people to enroll only when they got sick, mostly sick people would join and premiums would soar."
+      ],
+      "examTip": "Underwriting (reviewing applications, medical history, etc.) exists mainly to protect the insurer against adverse selection. Waiting periods and preexisting-condition rules are other tools.",
+      "misconception": "Adverse selection is not the insurer choosing bad risks; it is high-risk applicants selecting the insurer, working against the insurer.",
+      "related": ["underwriting", "law-of-large-numbers", "insurable-risk", "moral-hazard"],
+      "confusedWith": ["moral-hazard"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "The tendency of poorer-than-average risks to seek insurance more than average risks is called:",
+        "choices": ["Adverse selection", "Moral hazard", "Risk retention", "Reinsurance"],
+        "answerIndex": 0,
+        "explanation": "That is the definition of adverse selection. Moral hazard is dishonesty, retention is keeping a risk yourself, and reinsurance is insurance for insurers."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "law-of-large-numbers",
+      "term": "Law of Large Numbers",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": ["gen.1.2.8"],
+      "formal": "The principle that the larger the number of similar, independent exposure units, the more closely actual losses will approach the expected (predicted) losses, allowing insurers to forecast losses and set premiums.",
+      "plain": "No one can predict whether one particular person will die this year, but an insurer covering 100,000 similar people can predict quite accurately about how many will. The bigger the group, the better the prediction.",
+      "simpler": "Flip a coin 4 times and you might get 4 heads. Flip it 10,000 times and you'll get very close to half heads. Big groups make the results predictable.",
+      "examples": [
+        "Mortality tables let a life insurer predict roughly how many of its 50-year-old insureds will die in a year.",
+        "An insurer with 200 policies has less predictable losses than one with 200,000 similar policies."
+      ],
+      "examTip": "The law of large numbers is the basis of premium calculation and loss prediction. Its key words: LARGE group, SIMILAR (homogeneous) units, PREDICT losses.",
+      "misconception": "It does not predict which individual will have a loss — only how many losses a large group will have.",
+      "related": ["exposure", "insurable-risk", "premium", "mortality"],
+      "confusedWith": ["adverse-selection"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "The law of large numbers allows an insurer to:",
+        "choices": ["Predict losses more accurately for a large group", "Know which insured will die first", "Eliminate the risk of loss", "Avoid adverse selection without underwriting"],
+        "answerIndex": 0,
+        "explanation": "A larger group of similar exposures makes actual results approach expected results, so losses become more predictable. It cannot identify individuals, does not eliminate risk, and does not replace underwriting."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "reinsurance",
+      "term": "Reinsurance",
+      "aliases": ["insurance for insurers"],
+      "sectionId": "gen",
+      "outlineIds": ["gen.1.2.9"],
+      "formal": "An arrangement in which one insurer (the ceding insurer) transfers part or all of a risk it has accepted to another insurer (the reinsurer) in exchange for a portion of the premium, so that no single insurer bears an excessive loss.",
+      "plain": "Insurance companies buy insurance too. If a company writes a very large policy, it can pass part of that risk to a reinsurer so one big claim doesn't damage the company.",
+      "simpler": "Reinsurance is the insurance company's own insurance.",
+      "examples": [
+        "An insurer issues a $20 million life policy but keeps only $5 million of the risk, ceding the other $15 million to a reinsurer.",
+        "After a pandemic causes many claims at once, a reinsurer pays its share of the losses to the ceding companies."
+      ],
+      "examTip": "Ceding insurer = the one transferring (giving away) risk. Reinsurer = the one accepting it. The policyowner usually deals only with the original insurer and may never know reinsurance exists.",
+      "misconception": "Reinsurance is not a second policy the customer buys. It is a deal between insurance companies; the original insurer remains responsible to its policyowner.",
+      "related": ["risk-transfer", "insurer", "law-of-large-numbers"],
+      "confusedWith": ["risk-sharing"],
+      "pronunciation": "ree-in-SHUR-ence",
+      "difficulty": 2,
+      "practice": {
+        "prompt": "In a reinsurance arrangement, the company that transfers the risk is called the:",
+        "choices": ["Ceding insurer", "Reinsurer", "Fraternal insurer", "Alien insurer"],
+        "answerIndex": 0,
+        "explanation": "The ceding insurer gives up (cedes) part of the risk to the reinsurer, which accepts it. Fraternal and alien describe types or domiciles of insurers, not roles in reinsurance."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "stock-insurer",
+      "term": "Stock Insurance Company",
+      "aliases": ["stock company", "stock insurer"],
+      "sectionId": "gen",
+      "outlineIds": ["gen.2.1.1"],
+      "formal": "An insurer owned by its stockholders (shareholders), who provide capital and share in profits through stockholder dividends; it traditionally issues nonparticipating policies.",
+      "plain": "A stock company is a business owned by investors who bought its shares. Profits can be paid to those investors as dividends. Policyowners are customers, not owners.",
+      "simpler": "Stock company = owned by investors, like most big corporations.",
+      "examples": [
+        "Investors buy shares of a publicly traded life insurer and receive dividends when the company is profitable.",
+        "A policyowner of a stock insurer pays a fixed premium and does not share in company profits."
+      ],
+      "examTip": "Stock = owned by STOCKholders, typically NONparticipating policies. Mutual = owned by policyowners, typically participating policies. Stockholder dividends are a share of profits; policyowner dividends are a return of excess premium.",
+      "misconception": "Policyowners of a stock company do not own the company or elect its directors simply because they hold a policy.",
+      "related": ["mutual-insurer", "nonparticipating-policy", "participating-policy"],
+      "confusedWith": ["mutual-insurer"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Who owns a stock insurance company?",
+        "choices": ["Its stockholders", "Its policyowners", "The state insurance department", "Its agents"],
+        "answerIndex": 0,
+        "explanation": "A stock insurer is owned by shareholders. Policyowners own a mutual insurer; the state regulates but does not own private insurers; agents represent insurers."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "mutual-insurer",
+      "term": "Mutual Insurance Company",
+      "aliases": ["mutual company", "mutual insurer"],
+      "sectionId": "gen",
+      "outlineIds": ["gen.2.1.2"],
+      "formal": "An insurer owned by its policyowners, which typically issues participating policies that may pay policyowner dividends (a return of premium not needed for claims, expenses and reserves); dividends are not guaranteed.",
+      "plain": "A mutual company has no outside stockholders — the policyowners are the owners. If the company collects more premium than it needs, it may give some back to policyowners as dividends.",
+      "simpler": "Mutual company = owned by its customers.",
+      "examples": [
+        "At year-end a mutual life insurer's claims were lower than expected, so it declares a dividend to its participating policyowners.",
+        "Policyowners of a mutual insurer may vote for its board of directors."
+      ],
+      "examTip": "Mutual insurers issue PARTICIPATING policies ('par'): the policyowner participates in surplus through dividends. Those dividends can never be guaranteed.",
+      "misconception": "Policyowner dividends are not like stock dividends from profits, and they are not guaranteed; they are a refund of premium that was not needed.",
+      "related": ["stock-insurer", "participating-policy", "dividend", "fraternal-benefit-society"],
+      "confusedWith": ["stock-insurer"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A company owned by its policyowners that issues participating policies is a:",
+        "choices": ["Mutual insurer", "Stock insurer", "Reinsurer", "Nonadmitted insurer"],
+        "answerIndex": 0,
+        "explanation": "Mutual insurers are owned by policyowners and issue participating policies. Stock insurers are owned by shareholders; reinsurers insure insurers; nonadmitted describes a lack of authority to do business in a state."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "fraternal-benefit-society",
+      "term": "Fraternal Benefit Society",
+      "aliases": ["fraternal"],
+      "sectionId": "gen",
+      "outlineIds": ["gen.2.1.3"],
+      "formal": "A nonprofit organization, often formed around a common religious, ethnic, social or occupational bond, that operates through a lodge system with a representative form of government and provides insurance benefits to its members.",
+      "plain": "A fraternal is a membership club — often tied to a religion, heritage or cause — that also sells life and health insurance to its members. You usually must join the society to buy its insurance.",
+      "simpler": "A fraternal is a social or religious club that also offers insurance to its members.",
+      "examples": [
+        "A faith-based fraternal society offers life insurance and annuities only to its members, and runs local chapters (lodges) that do charity work.",
+        "To buy a policy from a fraternal, Paulo first becomes a member of the society."
+      ],
+      "examTip": "Key features: nonprofit, membership required, lodge system, representative form of government, social or charitable purpose in addition to insurance.",
+      "misconception": "A fraternal is not a mutual insurer just because members benefit; it is a separate type built around membership and a lodge system.",
+      "related": ["mutual-insurer", "stock-insurer", "insurer"],
+      "confusedWith": ["mutual-insurer"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which type of insurer operates on a lodge system and sells insurance to its members?",
+        "choices": ["Fraternal benefit society", "Stock insurer", "Alien insurer", "Reinsurer"],
+        "answerIndex": 0,
+        "explanation": "Fraternal benefit societies use a lodge system and insure their members. Stock insurers are investor-owned, alien describes where an insurer is incorporated, and reinsurers insure other insurers."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "admitted-insurer",
+      "term": "Admitted (Authorized) Insurer",
+      "aliases": ["authorized insurer", "admitted insurer"],
+      "sectionId": "gen",
+      "outlineIds": ["gen.2.3"],
+      "formal": "An insurer that has met a state's financial and other requirements and has received a certificate of authority from that state's insurance regulator to transact insurance there.",
+      "plain": "An admitted insurer has official permission (a certificate of authority) to sell insurance in a particular state. In New York, that permission comes from the Department of Financial Services.",
+      "simpler": "Admitted = 'allowed in' by the state.",
+      "examples": [
+        "A life insurer incorporated in Ohio obtains a certificate of authority in New York and becomes admitted there.",
+        "An insurer can be admitted in New York but nonadmitted in a state where it never applied."
+      ],
+      "examTip": "Admitted/nonadmitted is about PERMISSION to do business in a state. Domestic/foreign/alien is about WHERE the insurer is incorporated. The two classifications are independent.",
+      "misconception": "Admitted does not mean domestic. A foreign or alien insurer can be admitted if it gets a certificate of authority.",
+      "related": ["nonadmitted-insurer", "certificate-of-authority", "domestic-insurer", "foreign-insurer"],
+      "confusedWith": ["domestic-insurer"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "An insurer that has received a certificate of authority to do business in a state is:",
+        "choices": ["Admitted in that state", "Domestic to that state", "Alien to that state", "A fraternal benefit society"],
+        "answerIndex": 0,
+        "explanation": "A certificate of authority makes the insurer admitted (authorized). Domestic and alien refer to the place of incorporation; fraternal is a type of organization."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "nonadmitted-insurer",
+      "term": "Nonadmitted (Unauthorized) Insurer",
+      "aliases": ["nonadmitted insurer"],
+      "sectionId": "gen",
+      "outlineIds": ["gen.2.3"],
+      "formal": "An insurer that has not received a certificate of authority to transact insurance in a given state.",
+      "plain": "A nonadmitted insurer does not have the state's permission to do business there. Producers generally may not place business with such an insurer except in limited, specially regulated situations.",
+      "simpler": "Nonadmitted = 'not let in' by the state.",
+      "examples": [
+        "A company licensed only in Texas is nonadmitted in New York.",
+        "A New York producer is offered a commission to sell policies for a company with no New York certificate of authority — a red flag."
+      ],
+      "examTip": "Do not confuse nonadmitted with alien. An alien insurer is incorporated outside the U.S.; it may still be admitted. A nonadmitted insurer simply lacks authority in that state.",
+      "misconception": "Nonadmitted does not necessarily mean the company is fraudulent or insolvent; it means it lacks authority in that particular state.",
+      "related": ["admitted-insurer", "unauthorized-insurer", "certificate-of-authority"],
+      "confusedWith": ["alien-insurer"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A nonadmitted insurer is one that:",
+        "choices": ["Lacks a certificate of authority in the state", "Is incorporated in another country", "Is owned by its policyowners", "Sells insurance only through the mail"],
+        "answerIndex": 0,
+        "explanation": "Nonadmitted means not authorized in that state. Incorporation in another country makes an insurer alien; policyowner ownership makes it mutual; selling by mail describes a distribution method."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "domestic-insurer",
+      "term": "Domestic Insurer",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": ["gen.2.4"],
+      "formal": "From the viewpoint of a given state, an insurer incorporated (organized) under the laws of that state.",
+      "plain": "A domestic insurer is a 'home-state' company: it was formed under the laws of the state you are talking about. A company incorporated in New York is domestic in New York.",
+      "simpler": "Domestic = born here.",
+      "examples": [
+        "An insurer incorporated in New York is a domestic insurer in New York.",
+        "That same New York company is a foreign insurer when it does business in New Jersey."
+      ],
+      "examTip": "Always ask 'from which state's point of view?' An insurer is domestic only in its state of incorporation — it is foreign everywhere else in the U.S.",
+      "misconception": "Domestic is about where the company was incorporated, not where its headquarters or most customers are.",
+      "related": ["foreign-insurer", "alien-insurer", "admitted-insurer"],
+      "confusedWith": ["admitted-insurer"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "An insurer incorporated in New York and selling policies in New York is, in New York, a(n):",
+        "choices": ["Domestic insurer", "Foreign insurer", "Alien insurer", "Nonadmitted insurer"],
+        "answerIndex": 0,
+        "explanation": "A company is domestic in the state where it is incorporated. Foreign means incorporated in another U.S. state; alien means incorporated outside the U.S.; nonadmitted means unauthorized."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "foreign-insurer",
+      "term": "Foreign Insurer",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": ["gen.2.4"],
+      "formal": "From the viewpoint of a given state, an insurer incorporated in another U.S. state (or the District of Columbia).",
+      "plain": "A foreign insurer is from a different U.S. state — not from another country. A Connecticut company selling in New York is a foreign insurer in New York.",
+      "simpler": "Foreign = from another state, still in the U.S.",
+      "examples": [
+        "A life insurer incorporated in Iowa does business in New York; in New York it is a foreign insurer.",
+        "A Pennsylvania insurer is foreign in New York but domestic in Pennsylvania."
+      ],
+      "examTip": "The biggest trap in this topic: 'foreign' does NOT mean another country. Another country = alien.",
+      "misconception": "A foreign insurer is not a company from outside the United States; that is an alien insurer.",
+      "related": ["domestic-insurer", "alien-insurer", "admitted-insurer"],
+      "confusedWith": ["alien-insurer"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "From New York's point of view, an insurer incorporated in New Jersey is a(n):",
+        "choices": ["Foreign insurer", "Alien insurer", "Domestic insurer", "Fraternal insurer"],
+        "answerIndex": 0,
+        "explanation": "Incorporated in another U.S. state = foreign. Alien would be outside the U.S.; domestic would be New York; fraternal is an organizational type, not a location."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "alien-insurer",
+      "term": "Alien Insurer",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": ["gen.2.4"],
+      "formal": "An insurer incorporated under the laws of a country other than the United States.",
+      "plain": "An alien insurer was formed in another country — for example, a company incorporated in Canada or the United Kingdom that does business in New York.",
+      "simpler": "Alien = from another country.",
+      "examples": [
+        "A life insurer incorporated in Canada that sells policies in New York is an alien insurer there.",
+        "A company incorporated in Bermuda is alien in every U.S. state."
+      ],
+      "examTip": "Domestic = this state; Foreign = another state; Alien = another country. Think 'aliens come from far away.'",
+      "misconception": "An alien insurer is not automatically unauthorized. It can become admitted in a state by meeting that state's requirements.",
+      "related": ["domestic-insurer", "foreign-insurer", "nonadmitted-insurer"],
+      "confusedWith": ["foreign-insurer", "nonadmitted-insurer"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "An insurer incorporated in Mexico that sells insurance in New York is classified in New York as:",
+        "choices": ["Alien", "Foreign", "Domestic", "Mutual"],
+        "answerIndex": 0,
+        "explanation": "Incorporated outside the U.S. = alien. Foreign is another U.S. state, domestic is New York, and mutual describes ownership, not location."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "rating-service",
+      "term": "Independent Rating Service",
+      "aliases": ["rating agency", "financial rating service"],
+      "sectionId": "gen",
+      "outlineIds": ["gen.2.5"],
+      "formal": "A private, independent firm (for example, A.M. Best, Standard & Poor's, Moody's or Fitch) that evaluates and publishes ratings of insurers' financial strength and ability to meet obligations to policyowners.",
+      "plain": "Rating services act like report cards for insurance companies. They study a company's finances and give it a grade so customers and producers can judge how likely it is to be able to pay claims years from now.",
+      "simpler": "A rating service grades how financially strong an insurance company is.",
+      "examples": [
+        "Before recommending a whole life policy, a producer checks that the insurer has a strong financial strength rating.",
+        "A downgrade from a rating service signals that an insurer's financial condition may be weakening."
+      ],
+      "examTip": "Rating services measure FINANCIAL STRENGTH / SOLVENCY. They are private companies, not government agencies, and a rating is not a guarantee.",
+      "misconception": "A rating service does not regulate insurers or license them; the state insurance department does that.",
+      "related": ["insurer-solvency", "insurer"],
+      "confusedWith": ["superintendent"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "What do independent rating services such as A.M. Best primarily evaluate?",
+        "choices": ["Insurers' financial strength", "Agents' sales practices", "Policy premium rates for fairness", "Consumers' credit histories"],
+        "answerIndex": 0,
+        "explanation": "Rating services assess the financial strength and claims-paying ability of insurers. They do not supervise agents, approve rates, or evaluate consumer credit."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "distribution-system",
+      "term": "Marketing (Distribution) System",
+      "aliases": ["distribution system", "marketing system"],
+      "sectionId": "gen",
+      "outlineIds": ["gen.2.6"],
+      "formal": "The method an insurer uses to sell and deliver its products to consumers, such as the career (captive) agency system, independent agents and brokers, personal producing general agents, home service, and direct response (mail, telephone, television, internet) without a producer.",
+      "plain": "A distribution system is how insurance gets from the company to you. Some companies use their own agents who sell only their products (captive), some use independent agents who represent many companies, and some sell directly to the public online or by mail.",
+      "simpler": "The distribution system is the insurer's 'sales channel.'",
+      "examples": [
+        "A captive agent of one life insurer recommends only that insurer's policies.",
+        "An insurer sells simplified-issue term policies directly through its website with no agent involved (direct response)."
+      ],
+      "examTip": "Captive/career agent = represents ONE company. Independent agent = represents SEVERAL companies. Direct response = NO producer; sold by mail, phone, TV or internet.",
+      "misconception": "Direct-response selling does not mean no rules apply; the insurer is still regulated. It just means no producer is involved in the sale.",
+      "related": ["producer", "insurance-agent", "insurance-broker", "law-of-agency"],
+      "confusedWith": ["insurance-broker"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "An insurer that sells policies through television ads and a toll-free number, with no agents, uses which distribution system?",
+        "choices": ["Direct response", "Career agency", "Independent agency", "Personal producing general agency"],
+        "answerIndex": 0,
+        "explanation": "Selling directly to consumers through media without a producer is direct response. The other systems all rely on agents."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "law-of-agency",
+      "term": "Law of Agency",
+      "aliases": ["agency law"],
+      "sectionId": "gen",
+      "outlineIds": ["gen.3", "gen.3.1", "gen.3.2"],
+      "formal": "The body of legal principles governing the relationship in which one party (the agent) is authorized to act on behalf of another (the principal); key rules include that the agent's acts within the scope of authority are the acts of the principal, knowledge of the agent is presumed to be knowledge of the principal, and the agent owes the principal fiduciary duties.",
+      "plain": "When an agent acts for an insurance company within their authority, the law treats it as if the company itself acted. What the agent knows, the company is presumed to know. And the agent must act in good faith for the company and handle money honestly.",
+      "simpler": "When the agent acts within their job, it's as if the insurer did it.",
+      "examples": [
+        "An agent tells the insurer's underwriting department nothing about a fact the applicant disclosed to the agent; the insurer is still treated as knowing it.",
+        "An agent collects an initial premium on the insurer's behalf; legally the insurer has received it."
+      ],
+      "examTip": "Three agency principles to memorize: (1) agent = insurer when acting within authority; (2) agent's knowledge = insurer's knowledge; (3) the insurer is responsible for its agent's acts within the scope of authority.",
+      "misconception": "An agent does not represent the applicant in the eyes of the law; an agent represents the insurer (a broker, by contrast, generally represents the client).",
+      "related": ["express-authority", "implied-authority", "apparent-authority", "insurance-agent", "fiduciary-responsibility"],
+      "confusedWith": ["insurance-broker"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under the law of agency, information given to the agent by an applicant is generally considered:",
+        "choices": ["Known to the insurer", "Known only to the agent", "Irrelevant unless written on the policy", "Known only after the policy is delivered"],
+        "answerIndex": 0,
+        "explanation": "Knowledge of the agent is presumed to be knowledge of the principal (the insurer). The other choices contradict that principle."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "express-authority",
+      "term": "Express Authority",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": ["gen.3.3.1"],
+      "formal": "Authority that a principal specifically grants to an agent, usually in writing in the agency contract (agent's contract or appointment).",
+      "plain": "Express authority is what the insurer actually tells the agent, in writing, they may do — for example, solicit applications and collect initial premiums.",
+      "simpler": "Express = spelled out in the contract.",
+      "examples": [
+        "An agent's contract says the agent may solicit applications and collect first-year premiums in New York.",
+        "The contract also says the agent may NOT change policy terms or waive premiums."
+      ],
+      "examTip": "Express = written/spoken words of the contract. Implied = not written but needed to do the job. Apparent = what the public reasonably believes because of the insurer's actions.",
+      "misconception": "Express authority is not the only authority an agent has; the agent also has implied authority to do what is necessary to carry out the express authority.",
+      "related": ["implied-authority", "apparent-authority", "law-of-agency", "appointment"],
+      "confusedWith": ["implied-authority"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Authority written in the agent's contract with the insurer is:",
+        "choices": ["Express authority", "Implied authority", "Apparent authority", "Assumed authority"],
+        "answerIndex": 0,
+        "explanation": "Authority specifically granted in the agency contract is express. Implied authority is not stated but needed for the job; apparent authority arises from the public's reasonable belief; 'assumed authority' is not one of the three types."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "implied-authority",
+      "term": "Implied Authority",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": ["gen.3.3.2"],
+      "formal": "Authority not expressly granted but which the agent reasonably has because it is necessary or customary to carry out the express authority.",
+      "plain": "Implied authority covers the everyday things an agent obviously must do to do the job, even if the contract doesn't list them — like printing quotes, scheduling meetings, or delivering policies.",
+      "simpler": "Implied = not written, but obviously part of the job.",
+      "examples": [
+        "Although the contract doesn't mention it, an agent hires an assistant to process paperwork for applications the agent is authorized to solicit.",
+        "An agent authorized to deliver policies explains the policy to the client at delivery."
+      ],
+      "examTip": "Implied authority flows FROM express authority: it is whatever is reasonably needed to carry out the authority actually granted.",
+      "misconception": "Implied authority is not created by what the public believes; that is apparent authority.",
+      "related": ["express-authority", "apparent-authority", "law-of-agency"],
+      "confusedWith": ["apparent-authority"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "An agent's contract allows soliciting applications but does not mention arranging medical exams. The agent schedules a paramedical exam for an applicant. Which authority applies?",
+        "choices": ["Implied", "Express", "Apparent", "Ostensible fraud"],
+        "answerIndex": 0,
+        "explanation": "Scheduling the exam is not in the contract but is reasonably necessary to carry out the express authority to solicit applications, so it is implied authority. Apparent authority depends on the public's belief; 'ostensible fraud' is not an authority type."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "apparent-authority",
+      "term": "Apparent Authority",
+      "aliases": ["perceived authority"],
+      "sectionId": "gen",
+      "outlineIds": ["gen.3.3.3"],
+      "formal": "Authority that a third party reasonably believes an agent has because of the principal's words, actions or failure to act, even though the agent was not actually granted that authority; the principal may be bound by acts within apparent authority.",
+      "plain": "If an insurer lets someone look like its agent — for example, giving them company forms, business cards or an office with the company's logo — customers may reasonably believe that person can act for the insurer. The insurer can then be held responsible for what that person does.",
+      "simpler": "Apparent = what the customer reasonably thinks, because the insurer made it look that way.",
+      "examples": [
+        "An agent whose contract was terminated still has the insurer's receipt book and collects a premium from a customer; the insurer may be bound because it failed to retrieve its materials.",
+        "A person working in an office with the insurer's sign on the door accepts an application; a customer reasonably believes he represents the insurer."
+      ],
+      "examTip": "Apparent authority is created by the PRINCIPAL's (insurer's) conduct and the THIRD PARTY's reasonable belief — not by the agent's own claims alone.",
+      "misconception": "An agent cannot create apparent authority just by bragging about powers; it must come from something the insurer did or allowed.",
+      "related": ["express-authority", "implied-authority", "law-of-agency", "estoppel"],
+      "confusedWith": ["implied-authority"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "An insurer leaves its forms and logo with a former agent, and a customer reasonably believes he still represents the insurer. This illustrates:",
+        "choices": ["Apparent authority", "Express authority", "Implied authority", "Utmost good faith"],
+        "answerIndex": 0,
+        "explanation": "The insurer's conduct created a reasonable belief in the public that the person had authority — apparent authority. He has no express or implied authority, and utmost good faith is a contract principle."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    }
+  ],
+  "comparisons": [
+    {
+      "a": "express-authority",
+      "b": "apparent-authority",
+      "keyDifference": "Express authority is actually granted to the agent in the agency contract; apparent authority is not granted at all but is what the public reasonably believes because of the insurer's conduct.",
+      "rows": [
+        { "aspect": "Source", "a": "The written agency contract", "b": "The insurer's words, actions or failure to act" },
+        { "aspect": "Actually granted?", "a": "Yes", "b": "No — only appears to exist" },
+        { "aspect": "Example", "a": "Contract lets agent solicit applications", "b": "Terminated agent still has company receipt book and collects premium" }
+      ],
+      "memoryTip": "Express = Explicitly written; Apparent = Appears real to the public. (Implied sits in between: unwritten but needed to do the job.)"
+    },
+    {
+      "a": "domestic-insurer",
+      "b": "foreign-insurer",
+      "keyDifference": "Domestic means incorporated in this state; foreign means incorporated in a different U.S. state. (Incorporated in another country = alien.)",
+      "rows": [
+        { "aspect": "Place of incorporation", "a": "This state", "b": "Another U.S. state" },
+        { "aspect": "New York example", "a": "Company incorporated in New York", "b": "Company incorporated in Connecticut selling in New York" },
+        { "aspect": "Related classification", "a": "Alien = another country", "b": "Alien = another country" }
+      ],
+      "memoryTip": "Domestic = home; Foreign = another state; Alien = another country."
+    }
+  ]
+}

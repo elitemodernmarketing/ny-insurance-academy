@@ -1,0 +1,442 @@
+{
+  "sectionId": "tax",
+  "lessons": [
+    {
+      "id": "tax-l01",
+      "sectionId": "tax",
+      "order": 1,
+      "title": "Taxes While You're Living: Cash Value, Dividends, Surrenders and MECs",
+      "outlineIds": [
+        "tax.1",
+        "tax.1.1",
+        "tax.1.1.1",
+        "tax.1.1.2",
+        "tax.1.1.4"
+      ],
+      "estMinutes": 20,
+      "intro": "Permanent life insurance gives the owner money to use while living. How the IRS treats that money — growth, dividends and surrenders — is a short but reliable exam topic. The key idea is your cost basis: your own after-tax money comes back tax-free; gain above it is taxable.",
+      "objectives": [
+        "Explain cost basis and how it is figured for a life policy",
+        "Describe the tax treatment of cash value growth, dividends and surrenders",
+        "Define a modified endowment contract and the 7-pay test"
+      ],
+      "keyTerms": [
+        "cost-basis",
+        "modified-endowment-contract",
+        "dividend",
+        "cash-value"
+      ],
+      "parts": [
+        {
+          "heading": "Cost basis: your money in the policy",
+          "body": "Your [[cost-basis|cost basis]] (the IRS calls it your 'investment in the contract') is, in most cases, the total premiums you paid **minus** refunded premiums, rebates, dividends, or unrepaid loans that weren't included in your income (IRS Pub. 525). Money you receive up to your basis is your own money coming back; money above it is gain.",
+          "example": {
+            "title": "Example: figuring basis",
+            "body": "Leah paid $40,000 in premiums and took $5,000 of dividends in cash. Her basis is $40,000 − $5,000 = $35,000."
+          },
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Basis = premiums in − tax-free money already taken out."
+            }
+          ]
+        },
+        {
+          "heading": "Cash value growth and surrenders",
+          "body": "[[cash-value|Cash value]] grows inside a permanent policy without being reported each year. Tax comes when you actually receive money above your cost. If you **surrender** the policy for cash, you must include in income any proceeds **more than your cost** of the policy; the insurer reports the total and the taxable part on Form 1099-R.",
+          "example": {
+            "title": "Example: Leah surrenders",
+            "body": "Leah's cash surrender value is $50,000 and her basis is $35,000. Taxable gain = $50,000 − $35,000 = $15,000."
+          },
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "Don't tax the whole surrender value — only the amount above basis."
+            }
+          ]
+        },
+        {
+          "heading": "Policy dividends",
+          "body": "[[participating-policy|Participating]] policy [[dividend|dividends]] are treated as a return of part of your premium, not as investment income. According to IRS Pub. 550:\n\n- Dividends the insurer keeps and uses to pay your premiums are **not taxable**.\n- Dividends distributed to you on a contract other than a MEC are a **partial return of the premiums** you paid (they reduce your basis).\n- **Interest** paid or credited on dividends left with the insurer (the accumulate-at-interest option) **is taxable** interest income.",
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "The dividend is your money back; the interest on it is income."
+            }
+          ]
+        },
+        {
+          "heading": "Policy loans and modified endowment contracts",
+          "body": "A [[policy-loan|policy loan]] is borrowed against the cash value and must be repaid (with interest) or it reduces the death benefit. If a policy is surrendered with a loan outstanding, the IRS counts the unrepaid loan in figuring your gain (Pub. 525's definition of cost).\n\nA [[modified-endowment-contract|modified endowment contract (MEC)]] is a life policy entered into on or after June 21, 1988 that fails the **7-pay test**: the amount paid at any time in the first 7 contract years exceeds the net level premiums that would have paid the policy up after 7 level annual premiums (IRC § 7702A). A contract received in exchange for a MEC is also a MEC. A MEC still meets the federal definition of life insurance, so the death benefit keeps its tax treatment; what changes is the treatment of money taken out during life — the IRS's return-of-premium treatment of dividends, for example, applies to contracts *other than* MECs.",
+          "advanced": "Single-premium and other heavily front-loaded policies are the classic MECs. Reducing benefits within the first 7 years causes the test to be re-run as if the policy had been issued at the lower benefit, and a 'material change' (such as certain death benefit increases) starts a new 7-pay test.",
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "Once a MEC, always a MEC — even after a § 1035 exchange."
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "truefalse",
+        "prompt": "True or false?",
+        "statements": [
+          {
+            "text": "Dividends the insurer uses to pay premiums are taxable income.",
+            "answer": false,
+            "explanation": "IRS Pub. 550 says they are not taxable."
+          },
+          {
+            "text": "Interest credited on dividends left with the insurer is taxable.",
+            "answer": true,
+            "explanation": "It is reported as interest income."
+          },
+          {
+            "text": "On surrender, the entire cash value is taxable.",
+            "answer": false,
+            "explanation": "Only the amount above cost basis is taxable."
+          },
+          {
+            "text": "A policy that fails the 7-pay test is a MEC.",
+            "answer": true,
+            "explanation": "IRC § 7702A(a)–(b)."
+          },
+          {
+            "text": "A contract received in exchange for a MEC is not a MEC.",
+            "answer": false,
+            "explanation": "§ 7702A(a)(2) makes it a MEC too."
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Premiums paid $30,000; cash dividends received $3,000; surrender value $36,000. Taxable gain?",
+          "choices": [
+            "$9,000",
+            "$6,000",
+            "$36,000",
+            "$0"
+          ],
+          "answerIndex": 0,
+          "explanation": "Basis = $30,000 − $3,000 = $27,000; gain = $36,000 − $27,000 = $9,000."
+        },
+        {
+          "prompt": "Which test determines MEC status?",
+          "choices": [
+            "The 7-pay test",
+            "The needs test",
+            "The 60-day test",
+            "The exclusion ratio"
+          ],
+          "answerIndex": 0,
+          "explanation": "IRC § 7702A(b)."
+        },
+        {
+          "prompt": "Policy dividends on a non-MEC paid in cash are generally treated as:",
+          "choices": [
+            "A partial return of premiums paid",
+            "Ordinary dividend income",
+            "Capital gains",
+            "Interest income"
+          ],
+          "answerIndex": 0,
+          "explanation": "IRS Pub. 550."
+        }
+      ],
+      "summary": [
+        "Cost basis = premiums paid minus tax-free amounts already received (such as dividends).",
+        "Cash value grows without annual tax; on surrender, only proceeds above cost are taxable.",
+        "Dividends are a return of premium; interest on dividend accumulations is taxable.",
+        "A MEC fails the 7-pay test; MEC status carries over to exchanged contracts; the death benefit is still life insurance proceeds."
+      ],
+      "related": [
+        "tax-l02",
+        "tax-l03"
+      ],
+      "sources": [
+        "fed-irs-pub525-life",
+        "fed-irs-pub550-ins-dividends",
+        "fed-usc-26-7702a"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "tax-l02",
+      "sectionId": "tax",
+      "order": 2,
+      "title": "Death Proceeds, Settlement Options, Rollovers and 1035 Exchanges",
+      "outlineIds": [
+        "tax.1.2",
+        "tax.1.2.1",
+        "tax.2",
+        "tax.3"
+      ],
+      "estMinutes": 20,
+      "intro": "The good news for beneficiaries: life insurance death proceeds are generally income-tax-free. This lesson covers the exceptions (interest and transfers for value), how to move retirement money without triggering tax, and how to swap insurance contracts tax-free under § 1035.",
+      "objectives": [
+        "Explain the income tax treatment of death proceeds and settlement options",
+        "Apply the transfer-for-value limit",
+        "Distinguish 60-day rollovers from trustee-to-trustee transfers",
+        "Identify which exchanges qualify under § 1035"
+      ],
+      "keyTerms": [
+        "death-benefit-taxation",
+        "exclusion-ratio",
+        "rollover",
+        "trustee-to-trustee-transfer",
+        "section-1035-exchange"
+      ],
+      "parts": [
+        {
+          "heading": "Death proceeds and settlement options",
+          "body": "Under IRC § 101(a)(1), amounts received under a life insurance contract **by reason of the insured's death** are excluded from gross income, whether paid in a lump sum or otherwise ([[death-benefit-taxation]]).\n\n- **Interest is taxable.** If proceeds are left with the insurer under an agreement to pay interest (the [[interest-only-option|interest-only option]]), the interest is income (§ 101(c)).\n- **Installments.** Under [[settlement-options|settlement options]] that pay over time, the principal is prorated over the payments and excluded; the excess (interest) is income (§ 101(d)). This works like an [[exclusion-ratio|exclusion ratio]]: part of each payment is tax-free principal and part is taxable.\n- **Transfer for value.** If a policy is sold or transferred for valuable consideration, the buyer's exclusion is generally limited to what was paid for the policy plus later premiums and certain other amounts, subject to exceptions (§ 101(a)(2)).",
+          "example": {
+            "title": "Example: Ben's installments",
+            "body": "Ben elects to receive $300,000 of proceeds over 10 years. About $30,000 of each year's payments is excluded principal; any amount above that is interest and taxable."
+          },
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Death benefit = tax-free; interest on it = taxable."
+            }
+          ]
+        },
+        {
+          "heading": "Exclusion ratio for annuity-style payments",
+          "body": "When money comes back in periodic annuity payments, the tax-free part (return of your investment) is figured when payments begin and generally stays the same each year; the total you can exclude is limited to your cost (IRS Topic 411). The [[exclusion-ratio|exclusion ratio]] — investment in the contract ÷ expected return — sets that split.",
+          "example": {
+            "title": "Example",
+            "body": "Investment $60,000; expected return $100,000 → 60% of each payment is tax-free until the $60,000 is recovered."
+          }
+        },
+        {
+          "heading": "Rollovers and transfers of retirement money",
+          "body": "Retirement plan and IRA money can move without current tax:\n\n- **Direct rollover / [[trustee-to-trustee-transfer|trustee-to-trustee transfer]]** — the institutions move the money; **no withholding**, no deadline, and direct IRA transfers are **not** subject to the once-per-12-months limit.\n- **60-day [[rollover]]** — the distribution is paid to you and you redeposit it within **60 days**. Employer plan distributions paid to you have **20% mandatory withholding**, so you must add other funds to roll over the full amount. IRA distributions paid to you have 10% withholding unless you elect out. Only **one IRA-to-IRA rollover** is allowed in any 12-month period.\n\nIf you don't roll it over, the distribution is generally taxable and may face the 10% additional tax on early distributions unless an exception applies. Required minimum distributions cannot be rolled over.",
+          "example": {
+            "title": "Example: Kayla's 401(k)",
+            "body": "$20,000 distribution, 20% withheld ($4,000), Kayla receives $16,000. To roll over all $20,000 within 60 days she adds $4,000 from savings."
+          },
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "The safest way to move retirement money is a direct transfer — no 20% withholding to make up."
+            }
+          ]
+        },
+        {
+          "heading": "Section 1035 exchanges",
+          "body": "IRC § 1035 lets you exchange certain contracts without recognizing gain ([[section-1035-exchange]]):\n\n- Life insurance → life insurance, endowment, annuity or qualified LTC.\n- Endowment → certain endowments, annuity or qualified LTC.\n- Annuity → annuity or qualified LTC.\n- Qualified LTC → qualified LTC.\n\nAn **annuity cannot be exchanged tax-free for life insurance.** A 1035 exchange also involves giving up an existing contract, so replacement rules apply in the sale (see Life Insurance Basics).",
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Life can step down to an annuity; an annuity can't step up to life."
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "categorize",
+        "prompt": "Is each amount generally taxable or excluded for federal income tax?",
+        "categories": [
+          "Generally taxable",
+          "Generally excluded"
+        ],
+        "items": [
+          {
+            "text": "Lump-sum death benefit paid to a beneficiary",
+            "category": "Generally excluded"
+          },
+          {
+            "text": "Interest on proceeds held under the interest-only option",
+            "category": "Generally taxable"
+          },
+          {
+            "text": "Principal portion of each fixed-period installment",
+            "category": "Generally excluded"
+          },
+          {
+            "text": "Interest portion of each fixed-period installment",
+            "category": "Generally taxable"
+          },
+          {
+            "text": "401(k) money moved by direct rollover to an IRA",
+            "category": "Generally excluded"
+          },
+          {
+            "text": "Withheld 20% not made up within 60 days (rollover incomplete)",
+            "category": "Generally taxable"
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Which exchange is NOT tax-free under § 1035?",
+          "choices": [
+            "Annuity for life insurance",
+            "Life insurance for an annuity",
+            "Annuity for an annuity",
+            "Life insurance for life insurance"
+          ],
+          "answerIndex": 0,
+          "explanation": "§ 1035(a)(3) permits an annuity to be exchanged only for an annuity or qualified LTC."
+        },
+        {
+          "prompt": "How long does an individual have to complete a 60-day rollover?",
+          "choices": [
+            "60 days from receipt",
+            "30 days",
+            "12 months",
+            "Until the end of the tax year"
+          ],
+          "answerIndex": 0,
+          "explanation": "IRS rollover rules."
+        },
+        {
+          "prompt": "Interest paid on death proceeds left with the insurer is:",
+          "choices": [
+            "Taxable",
+            "Excluded",
+            "Taxed only above premiums paid",
+            "Taxed as a capital gain"
+          ],
+          "answerIndex": 0,
+          "explanation": "IRC § 101(c)."
+        }
+      ],
+      "summary": [
+        "Death proceeds are generally excluded from income (§ 101(a)); interest on them is taxable.",
+        "Installment settlement options: principal excluded, interest taxable.",
+        "Transfer for value limits the exclusion to consideration plus later premiums (with exceptions).",
+        "Rollover: 60 days, 20% withholding from plans, one IRA-to-IRA per 12 months; direct transfers avoid all three issues.",
+        "§ 1035: life → life/annuity/LTC; annuity → annuity/LTC; never annuity → life."
+      ],
+      "related": [
+        "tax-l01"
+      ],
+      "sources": [
+        "fed-usc-26-101",
+        "fed-irs-faq-life-proceeds",
+        "fed-irs-topic-411",
+        "fed-irs-rollovers",
+        "fed-usc-26-1035"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "tax-l03",
+      "sectionId": "tax",
+      "order": 3,
+      "title": "Policy Loans and MEC Distributions",
+      "outlineIds": [
+        "tax.1.1.3"
+      ],
+      "estMinutes": 10,
+      "intro": "Policy loans are one of the most useful living benefits of permanent insurance — and one of the most commonly tested tax points. This short lesson explains how loans and withdrawals are taxed for regular life policies versus MECs.",
+      "objectives": [
+        "Describe the general tax treatment of loans from a non-MEC life policy",
+        "Explain how MEC distributions and loans are taxed differently"
+      ],
+      "keyTerms": [
+        "policy-loan",
+        "modified-endowment-contract",
+        "cost-basis"
+      ],
+      "parts": [
+        {
+          "heading": "Loans and withdrawals from a regular (non-MEC) policy",
+          "body": "A [[policy-loan|policy loan]] from a life policy that is not a MEC is generally **not taxable** when taken, because it is a loan that must be repaid, not a distribution of gain. Partial withdrawals from a non-MEC are generally taxed on a **cost-first** basis: they are tax-free until they exceed your [[cost-basis|basis]]. If a policy lapses or is surrendered with a loan outstanding, the unrepaid loan counts as an amount received, which can create taxable gain.",
+          "callouts": [
+            {
+              "kind": "note",
+              "text": "IRC § 72(e)(5)(C) applies the cost-first rule to non-MEC life insurance and switches off § 72(e)(4)(A), which would otherwise treat loans as distributions.",
+              "sources": [
+                "fed-usc-26-72"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Distributions from a MEC",
+          "body": "For a [[modified-endowment-contract|MEC]], lifetime distributions — **including loans and pledges of the policy** — are taxed **gain first** (income out first) under IRC § 72(e)(10). Under § 72(v), the taxable portion is subject to a **10% additional tax** unless an exception applies: on or after age 59½, because of disability, or as part of substantially equal periodic payments. The death benefit is still treated as life insurance proceeds."
+        }
+      ],
+      "activity": {
+        "type": "truefalse",
+        "prompt": "True or false?",
+        "statements": [
+          {
+            "text": "A loan from a non-MEC life policy is generally not taxable when taken.",
+            "answer": true,
+            "explanation": "It is a loan, not a distribution of gain."
+          },
+          {
+            "text": "Loans from a MEC are treated as distributions.",
+            "answer": true,
+            "explanation": "MEC rules treat loans as distributions taxed gain-first."
+          },
+          {
+            "text": "MEC status makes the death benefit taxable.",
+            "answer": false,
+            "explanation": "A MEC is still life insurance; the death benefit keeps its treatment."
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "How are lifetime distributions from a MEC taxed?",
+          "choices": [
+            "Gain first, with a possible 10% additional tax before 59½",
+            "Cost first, tax-free until basis is recovered",
+            "Never taxed",
+            "As capital gains"
+          ],
+          "answerIndex": 0,
+          "explanation": "MEC distributions, including loans, are taxed income-first, and an additional tax may apply before 59½."
+        },
+        {
+          "prompt": "An outstanding loan on a non-MEC policy that is surrendered:",
+          "choices": [
+            "Counts as an amount received in figuring gain",
+            "Is ignored for tax purposes",
+            "Is always fully taxable",
+            "Is subject to a 20% withholding"
+          ],
+          "answerIndex": 0,
+          "explanation": "Unrepaid loans are treated as received when the policy ends."
+        }
+      ],
+      "summary": [
+        "Non-MEC loans are generally not taxable while the policy is in force.",
+        "Non-MEC withdrawals are generally tax-free up to basis (cost first).",
+        "MEC distributions and loans are taxed gain first and may face a 10% additional tax before 59½."
+      ],
+      "related": [
+        "tax-l01"
+      ],
+      "sources": [
+        "fed-usc-26-72",
+        "fed-irs-pub525-life",
+        "fed-usc-26-7702a"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

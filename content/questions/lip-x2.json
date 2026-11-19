@@ -1,0 +1,901 @@
+{
+ "sectionId": "lip",
+ "questions": [
+  {
+   "id": "lip-q217",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.4.4"
+   ],
+   "concepts": [
+    "indexed-universal-life",
+    "variable-life-insurance"
+   ],
+   "difficulty": 2,
+   "style": "comparison",
+   "tags": [],
+   "stem": "How does fixed indexed life insurance differ from variable life insurance?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Indexed life invests directly in stock subaccounts chosen by the owner",
+     "rationale": "Incorrect: subaccount investing describes variable life."
+    },
+    {
+     "id": "b",
+     "text": "Indexed life has a floor against index losses; variable life values can fall",
+     "rationale": "Correct: indexed life credits interest with a floor, while variable life cash values follow subaccount performance."
+    },
+    {
+     "id": "c",
+     "text": "Variable life guarantees a minimum interest rate; indexed life does not",
+     "rationale": "Incorrect: variable life generally has no guaranteed rate on subaccounts."
+    },
+    {
+     "id": "d",
+     "text": "They are identical except for the name used in marketing",
+     "rationale": "Incorrect: the products work very differently."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Fixed indexed life is a fixed product backed by the insurer's general account: interest is linked to an index but protected by a floor. Variable life places cash value in separate-account subaccounts, so the owner bears the investment risk and values can decline.",
+   "memoryTip": "Indexed = floor under you; variable = no floor.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q218",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.5.2"
+   ],
+   "concepts": [
+    "eligible-group",
+    "group-life-insurance"
+   ],
+   "difficulty": 2,
+   "style": "application",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Under NY Insurance Law § 4216, which of these could be issued a group life policy as policyholder?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A group of neighbors organized only to buy insurance",
+     "rationale": "Incorrect: a group formed to obtain insurance is not an eligible group."
+    },
+    {
+     "id": "b",
+     "text": "A professional association formed six months ago",
+     "rationale": "Incorrect: an association group must have been in active existence for at least two years."
+    },
+    {
+     "id": "c",
+     "text": "An individual buying coverage for three relatives",
+     "rationale": "Incorrect: an individual and relatives are not a permitted group."
+    },
+    {
+     "id": "d",
+     "text": "A labor union insuring its members",
+     "rationale": "Correct: § 4216(b)(2) permits group life policies issued to a labor union."
+    }
+   ],
+   "correct": "d",
+   "explanation": "§ 4216(b) lists the groups that may be issued group life in New York, including employers, labor unions, multi-employer or union trust funds, qualifying associations (organized principally for purposes other than insurance and active for at least two years) and creditors. Groups formed just to buy insurance are not eligible.",
+   "memoryTip": "Eligible groups exist for a reason other than buying insurance.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-4216"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q219",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.5.2",
+    "lip.5.3"
+   ],
+   "concepts": [
+    "eligible-group",
+    "group-life-insurance"
+   ],
+   "difficulty": 3,
+   "style": "concept",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "stem": "Under NY Insurance Law § 4216, a group life policy issued to a labor union must insure at least how many union members?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "10",
+     "rationale": "Incorrect: the statutory minimum for a union group is higher."
+    },
+    {
+     "id": "b",
+     "text": "25",
+     "rationale": "Correct: § 4216(b)(2) requires the policy to insure not less than 25 members."
+    },
+    {
+     "id": "c",
+     "text": "50",
+     "rationale": "Incorrect: 50 appears in the participation test for member-paid plans (50% or 50 members), not as the minimum group size."
+    },
+    {
+     "id": "d",
+     "text": "100",
+     "rationale": "Incorrect: the statute does not require 100 members."
+    }
+   ],
+   "correct": "b",
+   "explanation": "§ 4216(b)(2) allows a group life policy issued to a labor union insuring not less than 25 members. Separately, if members pay all or part of the premium, the policy must insure at least 50% of eligible members or, if fewer, 50 or more of them.",
+   "memoryTip": "Union group: at least 25 members.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-4216"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q220",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.1.1.1"
+   ],
+   "concepts": [
+    "renewable-term"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Dee, 50, owns a 10-year renewable term policy that is about to expire. Last year she had a stroke. She is below the policy's maximum renewal age.",
+   "stem": "Can Dee renew, and on what terms?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "No, because she can no longer prove insurability",
+     "rationale": "Incorrect: renewal does not require evidence of insurability."
+    },
+    {
+     "id": "b",
+     "text": "Yes, at her original issue-age premium",
+     "rationale": "Incorrect: renewal premiums are based on attained age."
+    },
+    {
+     "id": "c",
+     "text": "Yes, with no health questions, at her current-age rate",
+     "rationale": "Correct: renewal is guaranteed without evidence of insurability, priced at attained age."
+    },
+    {
+     "id": "d",
+     "text": "Only if she also converts the policy to whole life at the same time",
+     "rationale": "Incorrect: renewal and conversion are separate options."
+    }
+   ],
+   "correct": "c",
+   "explanation": "A renewable term policy guarantees the right to renew without evidence of insurability, so her stroke does not matter. The renewal premium is based on her attained age, so it will be higher than her current premium.",
+   "memoryTip": "Renewal protects insurability, not price.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Renewal is allowed without evidence of insurability",
+      "anyOf": [
+       "without evidence",
+       "no health",
+       "no medical",
+       "insurability"
+      ]
+     },
+     {
+      "label": "Premium based on attained (current) age",
+      "anyOf": [
+       "attained",
+       "current age",
+       "age 50",
+       "higher"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q221",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.1.1.1"
+   ],
+   "concepts": [
+    "renewable-term",
+    "adverse-selection"
+   ],
+   "difficulty": 3,
+   "style": "concept",
+   "tags": [
+    "tricky"
+   ],
+   "stem": "Why do renewable term policies usually stop allowing renewal at a stated maximum age?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "To limit adverse selection as mortality costs climb at older ages",
+     "rationale": "Correct: unhealthy insureds would keep renewing while healthy ones drop out, so insurers cap the renewal age."
+    },
+    {
+     "id": "b",
+     "text": "Because state law prohibits selling term insurance after age 65",
+     "rationale": "Incorrect: there is no such general prohibition."
+    },
+    {
+     "id": "c",
+     "text": "Because the policy's cash value is used up by that age",
+     "rationale": "Incorrect: term insurance has no cash value."
+    },
+    {
+     "id": "d",
+     "text": "Because conversion to whole life becomes mandatory at that age",
+     "rationale": "Incorrect: conversion is optional."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Renewal without evidence of insurability invites adverse selection: insureds in poor health are most likely to keep renewing as premiums climb. A maximum renewal age limits the insurer's exposure at ages where mortality costs rise steeply.",
+   "memoryTip": "Guaranteed renewal + old age = adverse selection → age cap.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q222",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.1.1.2"
+   ],
+   "concepts": [
+    "convertible-term",
+    "whole-life-insurance"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Tom bought convertible term at 30. At 42 he converts to whole life and chooses original-age (retroactive) conversion so his whole life premium will be based on age 30.",
+   "stem": "What will Tom typically have to pay to use original-age conversion?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Nothing extra; his premium is based on his age today",
+     "rationale": "Incorrect: pricing at today's age describes attained-age conversion."
+    },
+    {
+     "id": "b",
+     "text": "A new medical exam fee and an underwriting charge",
+     "rationale": "Incorrect: conversion does not require evidence of insurability."
+    },
+    {
+     "id": "c",
+     "text": "A catch-up payment for the premium difference since issue",
+     "rationale": "Correct: original-age conversion usually requires paying the difference in past premiums, often with interest."
+    },
+    {
+     "id": "d",
+     "text": "A surrender charge to cancel the term policy first",
+     "rationale": "Incorrect: conversion exchanges the policy; it is not a surrender."
+    }
+   ],
+   "correct": "c",
+   "explanation": "With original-age (retroactive) conversion, the permanent policy is priced as if bought at the original issue age, giving a lower ongoing premium. In exchange, the insurer usually requires a lump-sum catch-up payment for the difference between the permanent and term premiums since issue (often with interest).",
+   "memoryTip": "Original-age conversion: lower premium, but pay to catch up.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q223",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.1.1.2"
+   ],
+   "concepts": [
+    "convertible-term"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "Under attained-age conversion, the new permanent policy's premium is based on:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The insured's age when the term policy was issued",
+     "rationale": "Incorrect: that is original-age conversion."
+    },
+    {
+     "id": "b",
+     "text": "The insured's age at the time of conversion",
+     "rationale": "Correct: attained age means the insured's current age at conversion."
+    },
+    {
+     "id": "c",
+     "text": "The average of the issue age and the current age",
+     "rationale": "Incorrect: no averaging is used."
+    },
+    {
+     "id": "d",
+     "text": "A new medical exam taken at conversion",
+     "rationale": "Incorrect: conversion does not require evidence of insurability."
+    }
+   ],
+   "correct": "b",
+   "explanation": "With attained-age conversion, the permanent policy is priced at the insured's age on the conversion date. No evidence of insurability is needed, and no catch-up payment applies.",
+   "memoryTip": "Attained = age attained today.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q224",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.4.1"
+   ],
+   "concepts": [
+    "joint-life",
+    "buy-sell-agreement"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Business partners Ari and Ben bought a joint first-to-die policy to fund their buy-sell agreement. Ari dies, and the insurer pays the full benefit.",
+   "stem": "After the insurer pays the claim on Ari's death, what is the status of the joint policy?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "It continues to cover Ben for the same face amount",
+     "rationale": "Incorrect: a first-to-die policy pays only once and then ends."
+    },
+    {
+     "id": "b",
+     "text": "It converts automatically to an individual policy on Ben",
+     "rationale": "Incorrect: there is no automatic conversion in a standard joint policy."
+    },
+    {
+     "id": "c",
+     "text": "It pays a second benefit when Ben dies",
+     "rationale": "Incorrect: that would require separate coverage."
+    },
+    {
+     "id": "d",
+     "text": "It ends, and Ben has no further coverage under it",
+     "rationale": "Correct: the joint policy is fully used up at the first death."
+    }
+   ],
+   "correct": "d",
+   "explanation": "A joint (first-to-die) policy pays once, at the first death, and then terminates. Ben would need separate coverage if he wants insurance on his own life going forward.",
+   "memoryTip": "First-to-die pays once; the survivor walks away uninsured.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q225",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.4.2"
+   ],
+   "concepts": [
+    "survivorship-life"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Harold and June own a $1 million survivorship (second-to-die) policy on their two lives. Harold dies first.",
+   "stem": "What does the survivorship policy pay when Harold dies?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Nothing yet; it pays when June dies",
+     "rationale": "Correct: a second-to-die policy pays only after the last insured dies."
+    },
+    {
+     "id": "b",
+     "text": "The full face amount, paid to June",
+     "rationale": "Incorrect: that would be a first-to-die policy."
+    },
+    {
+     "id": "c",
+     "text": "Half of the face amount, paid to June",
+     "rationale": "Incorrect: survivorship policies do not split the benefit between deaths."
+    },
+    {
+     "id": "d",
+     "text": "A refund of all premiums paid up to now",
+     "rationale": "Incorrect: no refund is triggered by the first death."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Survivorship (second-to-die) life pays the death benefit only at the second death. When the first spouse dies, the policy stays in force on the survivor's life.",
+   "memoryTip": "Second-to-die waits for the second death.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q226",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.5.1"
+   ],
+   "concepts": [
+    "group-life-insurance",
+    "master-policy"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [],
+   "stem": "Why is group life insurance usually less expensive per person than comparable individual coverage?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Members must pass medical exams, so only healthy people are covered",
+     "rationale": "Incorrect: group plans generally do not require individual medical exams."
+    },
+    {
+     "id": "b",
+     "text": "One master contract lowers administrative and selling costs",
+     "rationale": "Correct: covering many lives under one contract reduces per-person expenses."
+    },
+    {
+     "id": "c",
+     "text": "Group life builds cash value that offsets the premium",
+     "rationale": "Incorrect: group life is usually term coverage with no cash value."
+    },
+    {
+     "id": "d",
+     "text": "State law requires group rates to be half of individual rates",
+     "rationale": "Incorrect: no such rule exists."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Group life is issued under one master policy with centralized billing and enrollment, so administrative and acquisition costs per insured person are lower. It is usually annually renewable term with no cash value.",
+   "memoryTip": "One contract, many lives, lower cost per head.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q227",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.5.1"
+   ],
+   "concepts": [
+    "group-life-insurance",
+    "beneficiary"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Under NY Insurance Law § 4216, an employer group life policy must generally pay benefits to the insured person or to beneficiaries other than:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The employee's spouse",
+     "rationale": "Incorrect: a spouse may be named as beneficiary."
+    },
+    {
+     "id": "b",
+     "text": "The employee's children",
+     "rationale": "Incorrect: children may be named as beneficiaries."
+    },
+    {
+     "id": "c",
+     "text": "The employee's estate",
+     "rationale": "Incorrect: the estate may receive benefits, for example when no beneficiary is designated."
+    },
+    {
+     "id": "d",
+     "text": "The employer",
+     "rationale": "Correct: § 4216(b)(1) requires benefits to go to the insured person or beneficiaries other than the employer."
+    }
+   ],
+   "correct": "d",
+   "explanation": "§ 4216(b)(1) requires an employer group life policy to provide for payment of benefits to the person insured or to some beneficiary other than the employer (with narrow statutory exceptions). Group life exists to protect employees' families, not the employer.",
+   "memoryTip": "Employer group life protects the employee's people, not the employer.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-4216"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q228",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.6"
+   ],
+   "concepts": [
+    "credit-life-insurance"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Gil bought credit life insurance covering his 5-year car loan. Two years later, he pays off the entire loan early.",
+   "stem": "What generally happens to Gil's credit life coverage?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "It ends, since there is no longer a debt to protect",
+     "rationale": "Correct: credit life is tied to the debt and ends when the debt is repaid."
+    },
+    {
+     "id": "b",
+     "text": "It continues for the original 5 years, payable to Gil's family",
+     "rationale": "Incorrect: credit life exists to pay the debt, not to provide a family benefit."
+    },
+    {
+     "id": "c",
+     "text": "It converts to a whole life policy on Gil",
+     "rationale": "Incorrect: there is no automatic conversion to permanent coverage."
+    },
+    {
+     "id": "d",
+     "text": "It increases to the original loan amount",
+     "rationale": "Incorrect: coverage follows the debt; with no debt there is nothing to cover."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Credit life insurance covers a specific debt. Its amount generally follows the unpaid balance, and the coverage ends when the debt is paid off, because the creditor no longer has a balance to protect.",
+   "memoryTip": "No debt, no credit life.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q229",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.4.3"
+   ],
+   "concepts": [
+    "juvenile-life-insurance"
+   ],
+   "difficulty": 3,
+   "style": "calculation",
+   "tags": [
+    "math",
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Ruth, who has $150,000 of life insurance, effectuated policies totaling $120,000 on her dependent 5-year-old son. The child later dies before age 14½.",
+   "stem": "Assuming the insurer receives satisfactory proof of the excess, what does it owe on the child's policies?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$120,000, because the policies were already issued",
+     "rationale": "Incorrect: the amount in excess of the § 3207 limit is not valid as a death claim."
+    },
+    {
+     "id": "b",
+     "text": "$50,000, plus a refund of every premium paid on both policies",
+     "rationale": "Incorrect: the limit here is $75,000, not $50,000."
+    },
+    {
+     "id": "c",
+     "text": "$75,000, plus a premium refund on the $45,000 excess",
+     "rationale": "Correct: 50% × $150,000 = $75,000 is valid; the $45,000 excess is refunded on a premium basis."
+    },
+    {
+     "id": "d",
+     "text": "Nothing, because the coverage exceeded the legal limit",
+     "rationale": "Incorrect: only the excess is invalid; coverage within the limit is payable."
+    }
+   ],
+   "correct": "c",
+   "explanation": "The child is over 4½, so the limit is the greater of $50,000 or 50% × $150,000 = $75,000. Total coverage was $120,000, so $45,000 was in excess. Under § 3207(d), the excess is not valid or payable as a death claim; the insurer that issued it refunds the premiums paid less dividends (with interest) on the excess, and the $75,000 within the limit is paid.",
+   "memoryTip": "Within the limit: paid. Over the limit: premiums back.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Limit = greater of $50,000 or 50% of $150,000 = $75,000",
+      "anyOf": [
+       "75,000",
+       "75000",
+       "50%"
+      ]
+     },
+     {
+      "label": "$45,000 is in excess",
+      "anyOf": [
+       "45,000",
+       "45000",
+       "excess"
+      ]
+     },
+     {
+      "label": "Excess premiums are refunded (less dividends)",
+      "anyOf": [
+       "refund",
+       "premium"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3207"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q230",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.5.4"
+   ],
+   "concepts": [
+    "conversion-privilege",
+    "group-life-insurance"
+   ],
+   "difficulty": 2,
+   "style": "application",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Raj is leaving his New York employer. Under the group life plan he was insured, and his wife and son were insured as dependents. He plans to convert within 31 days.",
+   "stem": "Under NY Insurance Law § 3220, what may Raj do about his dependents' coverage when he converts?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Nothing; dependent coverage ends permanently with the group plan",
+     "rationale": "Incorrect: § 3220(a)(7) lets the converted coverage include insured dependents."
+    },
+    {
+     "id": "b",
+     "text": "Convert his own coverage only after his dependents reapply",
+     "rationale": "Incorrect: no reapplication by dependents is required."
+    },
+    {
+     "id": "c",
+     "text": "Have the converted coverage include his insured dependents, if he chooses",
+     "rationale": "Correct: at his option, converted coverage may cover dependents who were insured under the group policy."
+    },
+    {
+     "id": "d",
+     "text": "Keep his dependents on the employer's group plan for life",
+     "rationale": "Incorrect: group coverage ends when his eligibility ends."
+    }
+   ],
+   "correct": "c",
+   "explanation": "§ 3220(a)(7) provides that, at the option of the employee or member, any converted policy shall provide coverage for the dependents who were insured under the group policy. The converted policy takes effect on the date the group coverage terminated.",
+   "memoryTip": "Convert yourself — and bring your insured dependents along.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3220"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q231",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.5.4"
+   ],
+   "concepts": [
+    "conversion-privilege"
+   ],
+   "difficulty": 3,
+   "style": "negative",
+   "tags": [
+    "negative-wording",
+    "ny-law"
+   ],
+   "stem": "NY Insurance Law § 3220 makes the group life conversion privilege available in each of these situations EXCEPT when:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "An insured dependent child reaches the plan's limiting age",
+     "rationale": "Incorrect: § 3220(a)(7)(C) makes conversion available to the child."
+    },
+    {
+     "id": "b",
+     "text": "The member names a different beneficiary on the certificate",
+     "rationale": "Correct: a beneficiary change does not end anyone's coverage, so no conversion right arises."
+    },
+    {
+     "id": "c",
+     "text": "The member dies, as to the insured surviving spouse",
+     "rationale": "Incorrect: § 3220(a)(7)(B) makes conversion available to the surviving spouse."
+    },
+    {
+     "id": "d",
+     "text": "The member's marriage ends in divorce, as to the spouse",
+     "rationale": "Incorrect: § 3220(a)(7)(D) makes conversion available on divorce or annulment."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Conversion rights arise when someone's group coverage ends or is reduced. Under § 3220(a)(6)–(7), they apply on termination of employment or membership, termination of the policy, certain reductions, the member's death (for the surviving spouse and insured children), a child reaching the limiting age, and divorce or annulment. Changing a beneficiary ends no one's coverage.",
+   "memoryTip": "Conversion follows a loss of coverage.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3220"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

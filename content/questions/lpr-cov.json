@@ -1,0 +1,427 @@
+{
+ "sectionId": "lpr",
+ "questions": [
+  {
+   "id": "lpr-q101",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.2.1.1"
+   ],
+   "concepts": [
+    "beneficiary",
+    "primary-beneficiary"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "In 2012 Owen named \"my wife\" as primary beneficiary of his life policy. He later divorced, remarried and never updated the form. After Owen dies, both his former wife and his current wife claim the proceeds.",
+   "stem": "Which designation practice would have best prevented this dispute?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Naming the beneficiary by full name and relationship",
+     "rationale": "Correct: a designation such as \"Ana Ruiz, wife\" identifies exactly one person and avoids confusion about who was meant."
+    },
+    {
+     "id": "b",
+     "text": "Naming the insured's estate as primary beneficiary",
+     "rationale": "Incorrect: naming the estate exposes proceeds to probate delays, costs and creditors; it does not identify a person more clearly."
+    },
+    {
+     "id": "c",
+     "text": "Making the beneficiary designation irrevocable",
+     "rationale": "Incorrect: an irrevocable designation limits the owner's ability to change it; it does not clarify who \"my wife\" refers to."
+    },
+    {
+     "id": "d",
+     "text": "Choosing a per capita distribution for the class",
+     "rationale": "Incorrect: per capita splits proceeds among living class members; it does not settle which person is \"my wife.\""
+    }
+   ],
+   "correct": "a",
+   "explanation": "When naming individual beneficiaries, use each person's full name and relationship to the insured (for example, \"Ana Ruiz, wife\"). A designation like \"my wife\" can become ambiguous after a divorce and remarriage. Owners should also review designations after major life events such as marriage, divorce, births and deaths.",
+   "memoryTip": "Name names: full name + relationship.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Use the beneficiary's full name",
+      "anyOf": [
+       "full name",
+       "by name",
+       "name"
+      ]
+     },
+     {
+      "label": "Include the relationship to the insured",
+      "anyOf": [
+       "relationship",
+       "wife"
+      ]
+     },
+     {
+      "label": "Avoids ambiguity / confusion",
+      "anyOf": [
+       "ambigu",
+       "confusion",
+       "dispute",
+       "unclear"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q102",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.3.1"
+   ],
+   "concepts": [
+    "settlement-options"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "If no settlement option has been selected, how are life insurance death proceeds usually paid?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "As interest only, with the principal held",
+     "rationale": "Incorrect: interest only must be chosen; it is not the usual automatic method."
+    },
+    {
+     "id": "b",
+     "text": "In one lump-sum cash payment",
+     "rationale": "Correct: the cash (lump-sum) option is the most common choice and the one used when no other option is selected."
+    },
+    {
+     "id": "c",
+     "text": "In fixed-period installments over ten years",
+     "rationale": "Incorrect: a fixed-period installment option must be elected; it is not the default."
+    },
+    {
+     "id": "d",
+     "text": "As lifetime income for the beneficiary",
+     "rationale": "Incorrect: a life income option must be elected; it is not used automatically."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Settlement options are the ways proceeds can be paid: cash, interest only, fixed-period installments, fixed-amount installments and life income. The cash (lump-sum) option pays the whole amount at once. It is the most common choice and the one used if no other option is selected.",
+   "memoryTip": "No choice made = cash, all at once.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q103",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.6.1"
+   ],
+   "concepts": [
+    "dividend-options",
+    "dividend"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Hal owns a participating whole life policy. He wants each year's policy dividend sent directly to him so he can use it to pay household bills.",
+   "stem": "Which dividend option fits Hal's goal?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Reduction of premium",
+     "rationale": "Incorrect: this option applies the dividend to the next premium; Hal would not receive money to spend on bills."
+    },
+    {
+     "id": "b",
+     "text": "Accumulation at interest",
+     "rationale": "Incorrect: this option leaves dividends with the insurer to earn interest rather than paying them to Hal each year."
+    },
+    {
+     "id": "c",
+     "text": "Paid-up additions",
+     "rationale": "Incorrect: this option uses dividends to buy additional paid-up insurance, not to pay Hal cash."
+    },
+    {
+     "id": "d",
+     "text": "Cash payment",
+     "rationale": "Correct: under the cash option, the insurer sends the policyowner a check for each dividend."
+    }
+   ],
+   "correct": "d",
+   "explanation": "A participating policy may pay a dividend, a non-guaranteed return of part of the premium. Under the cash option, the insurer simply sends the dividend to the policyowner as a check. Because a dividend is a return of premium, it is generally not taxable until total dividends exceed premiums paid.",
+   "memoryTip": "Cash option = a check in the mail.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q104",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.6.2"
+   ],
+   "concepts": [
+    "dividend-options",
+    "dividend"
+   ],
+   "difficulty": 2,
+   "style": "calculation",
+   "tags": [
+    "math"
+   ],
+   "scenario": "Ivy's participating whole life policy has an annual premium of $2,400. The insurer declares a $300 dividend, and Ivy has elected the reduction-of-premium dividend option.",
+   "stem": "How much must Ivy pay out of pocket for her next annual premium?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$2,400",
+     "rationale": "Incorrect: this ignores the dividend. Under reduction of premium, the dividend is applied to the next premium."
+    },
+    {
+     "id": "b",
+     "text": "$2,700",
+     "rationale": "Incorrect: the dividend reduces the premium; it is not added to it."
+    },
+    {
+     "id": "c",
+     "text": "$2,100",
+     "rationale": "Correct: $2,400 premium − $300 dividend = $2,100 paid out of pocket."
+    },
+    {
+     "id": "d",
+     "text": "$300",
+     "rationale": "Incorrect: $300 is the dividend amount, not the remaining premium."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Under the reduction-of-premium option, the dividend is applied toward the next premium due. Ivy pays the difference: $2,400 − $300 = $2,100. Because dividends are not guaranteed, the amount of the reduction can change from year to year.",
+   "memoryTip": "Reduction of premium: premium minus dividend = what you pay.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q105",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.6.4"
+   ],
+   "concepts": [
+    "dividend-options",
+    "paid-up-additions"
+   ],
+   "difficulty": 2,
+   "style": "definition",
+   "tags": [],
+   "stem": "Under the one-year term dividend option, the policy dividend is used to:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Buy one year of term insurance, often up to the cash value",
+     "rationale": "Correct: the dividend buys one-year term insurance, commonly limited to an amount equal to the policy's cash value."
+    },
+    {
+     "id": "b",
+     "text": "Buy a small amount of paid-up permanent insurance",
+     "rationale": "Incorrect: buying paid-up permanent insurance describes the paid-up additions option."
+    },
+    {
+     "id": "c",
+     "text": "Pay part of the next premium due on the policy",
+     "rationale": "Incorrect: applying the dividend to the next premium is the reduction-of-premium option."
+    },
+    {
+     "id": "d",
+     "text": "Earn interest while the insurer holds it for the owner",
+     "rationale": "Incorrect: leaving dividends with the insurer to earn interest is the accumulation-at-interest option."
+    }
+   ],
+   "correct": "a",
+   "explanation": "The one-year term option uses each dividend to buy one year of term insurance, often limited to the amount of the policy's cash value. It adds temporary extra protection. By contrast, paid-up additions buy permanent coverage that keeps its own cash value.",
+   "memoryTip": "One-year term = dividend buys a year of extra protection.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q106",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.6.5"
+   ],
+   "concepts": [
+    "paid-up-additions",
+    "dividend-options"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Jon, 50, has developed health problems. He wants his policy dividends to buy additional permanent insurance that builds its own cash value, without having to prove insurability.",
+   "stem": "Which dividend option should Jon choose?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "One-year term",
+     "rationale": "Incorrect: one-year term buys temporary coverage for a year and does not build permanent cash value."
+    },
+    {
+     "id": "b",
+     "text": "Paid-up additions",
+     "rationale": "Correct: each dividend buys a small amount of paid-up permanent insurance, at net rates, with no evidence of insurability."
+    },
+    {
+     "id": "c",
+     "text": "Reduction of premium",
+     "rationale": "Incorrect: this lowers the next premium but does not add any insurance."
+    },
+    {
+     "id": "d",
+     "text": "Cash payment",
+     "rationale": "Incorrect: this pays the dividend to Jon and adds no insurance."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Under the paid-up additions option, each dividend is used as a single premium to buy a small amount of paid-up permanent insurance of the same type as the base policy, at net rates and with no evidence of insurability. The additions increase the death benefit and build their own cash value, which makes this option attractive for someone whose health has declined.",
+   "memoryTip": "Paid-up additions = dividends buy MORE permanent coverage, no exam.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q107",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.9.3"
+   ],
+   "concepts": [
+    "family-term-rider",
+    "childrens-term-rider",
+    "other-insured-rider"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Kai owns a whole life policy on his own life. He wants to add term coverage for his wife and their three children through a single rider on his policy.",
+   "stem": "Which rider best meets Kai's goal?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Children's term rider",
+     "rationale": "Incorrect: a children's term rider covers only the insured's children, not the spouse."
+    },
+    {
+     "id": "b",
+     "text": "Other-insured term rider",
+     "rationale": "Incorrect: an other-insured rider adds coverage on one other person, most often a spouse, not the whole family."
+    },
+    {
+     "id": "c",
+     "text": "Guaranteed insurability rider",
+     "rationale": "Incorrect: this rider lets the insured buy more coverage on himself later; it does not cover family members."
+    },
+    {
+     "id": "d",
+     "text": "Family term rider",
+     "rationale": "Correct: a family term rider combines spouse and children coverage in one rider attached to the primary insured's permanent policy."
+    }
+   ],
+   "correct": "d",
+   "explanation": "A family term rider adds term coverage on the primary insured's spouse and children in one package, combining the features of a spouse (other-insured) rider and a children's rider. A children's term rider covers only the children; an other-insured rider covers one named other person.",
+   "memoryTip": "Family = spouse + kids. Children's = kids only. Other-insured = one other person.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

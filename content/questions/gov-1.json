@@ -1,0 +1,853 @@
+{
+  "sectionId": "gov",
+  "questions": [
+    {
+      "id": "gov-q001",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.1.1"
+      ],
+      "concepts": [
+        "workers-compensation"
+      ],
+      "difficulty": 1,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Carla, a delivery driver, is injured in a traffic accident while making a delivery for her employer. The other driver caused the crash.",
+      "stem": "Which program is primarily responsible for Carla's medical bills and lost wages from her employer's side?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "NY Disability Benefits Law",
+          "rationale": "Incorrect: DBL covers disabilities that do NOT arise out of employment."
+        },
+        {
+          "id": "b",
+          "text": "Workers' compensation",
+          "rationale": "Correct: the injury arose out of and in the course of her employment, and workers' comp pays regardless of fault."
+        },
+        {
+          "id": "c",
+          "text": "Social Security Disability Insurance",
+          "rationale": "Incorrect: SSDI requires a disability expected to last at least 12 months and has a five-month waiting period."
+        },
+        {
+          "id": "d",
+          "text": "Medicare Part B",
+          "rationale": "Incorrect: Carla is not described as a Medicare beneficiary, and workers' comp is primary for work injuries."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Workers' compensation covers employees for injuries and occupational illnesses arising out of and in the course of employment, on a no-fault basis: it pays even though someone else caused the crash. The NY Disability Benefits Law is the off-the-job counterpart.",
+      "memoryTip": "On the clock = workers' comp.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Injury arose out of employment",
+            "anyOf": [
+              "work",
+              "job",
+              "employment",
+              "course of"
+            ]
+          },
+          {
+            "label": "No-fault coverage",
+            "anyOf": [
+              "no-fault",
+              "regardless of fault",
+              "fault"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q002",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.1.2"
+      ],
+      "concepts": [
+        "workers-compensation"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "Workers' compensation typically provides each of the following types of benefits EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Medical care for the work-related injury",
+          "rationale": "Incorrect: medical benefits are a core workers' comp benefit."
+        },
+        {
+          "id": "b",
+          "text": "Partial replacement of lost wages",
+          "rationale": "Incorrect: disability income (wage-replacement) benefits are a core benefit."
+        },
+        {
+          "id": "c",
+          "text": "Rehabilitation services",
+          "rationale": "Incorrect: rehabilitation is a standard workers' comp benefit."
+        },
+        {
+          "id": "d",
+          "text": "A jury award for pain and suffering",
+          "rationale": "Correct: workers' comp is a no-fault system that replaces negligence lawsuits; it does not pay court-awarded damages for pain and suffering."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Workers' compensation provides four broad benefit types: medical care, disability income (partial wage replacement), rehabilitation, and death benefits for dependents. In exchange for this no-fault coverage, employees generally give up the right to sue the employer, so there are no jury awards for pain and suffering.",
+      "memoryTip": "Comp pays Medical, Income, Rehab, Death — not lawsuit damages.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q003",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.2.2"
+      ],
+      "concepts": [
+        "social-security-disability"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "tricky"
+      ],
+      "stem": "Which statement best describes the Social Security definition of disability?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Unable to perform the duties of one's own occupation for at least 90 days",
+          "rationale": "Incorrect: SSDI uses an any-work standard and a 12-month duration, not own-occupation for 90 days."
+        },
+        {
+          "id": "b",
+          "text": "Can't do past or other work; expected to last 12+ months or end in death",
+          "rationale": "Correct: this is SSA's strict definition of disability."
+        },
+        {
+          "id": "c",
+          "text": "Unable to perform at least two of the six activities of daily living",
+          "rationale": "Incorrect: that is a long-term care insurance benefit trigger."
+        },
+        {
+          "id": "d",
+          "text": "Partially or totally unable to work for at least six months",
+          "rationale": "Incorrect: SSDI pays only for total disability; no benefits are paid for partial or short-term disability."
+        }
+      ],
+      "correct": "b",
+      "explanation": "SSA considers a person disabled only if he or she cannot do substantial gainful work because of a medical condition, cannot do previous work or adjust to other work, and the condition has lasted or is expected to last at least 12 consecutive months or to result in death. SSA pays only for total disability.",
+      "memoryTip": "SSDI: can't do ANY work, for a YEAR (or fatal).",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Cannot do past or other work",
+            "anyOf": [
+              "other work",
+              "any work",
+              "past work",
+              "substantial gainful"
+            ]
+          },
+          {
+            "label": "Lasts 12 months or expected death",
+            "anyOf": [
+              "12 months",
+              "twelve months",
+              "one year",
+              "death"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-ssa-disability-qualify"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q004",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.2.3",
+        "gov.2.4"
+      ],
+      "concepts": [
+        "social-security-disability"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "tricky",
+        "math"
+      ],
+      "scenario": "SSA finds that Owen's qualifying disability began on March 10. He meets all other SSDI requirements.",
+      "stem": "For which month will Owen generally receive his first SSDI benefit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "April",
+          "rationale": "Incorrect: April is the first full month of the five-month waiting period."
+        },
+        {
+          "id": "b",
+          "text": "August",
+          "rationale": "Incorrect: August is the fifth full month — the last month of the waiting period."
+        },
+        {
+          "id": "c",
+          "text": "September",
+          "rationale": "Correct: the first benefit is paid for the sixth full month after the disability began."
+        },
+        {
+          "id": "d",
+          "text": "March of the following year",
+          "rationale": "Incorrect: the 12-month rule is about how long the condition must last, not when benefits start."
+        }
+      ],
+      "correct": "c",
+      "explanation": "SSA generally applies a five-month waiting period and pays the first benefit for the sixth full month after the disability began. Disability began March 10, so March is not a full month. Full months: April (1), May (2), June (3), July (4), August (5) — waiting period — and September (6) is the first benefit month.",
+      "memoryTip": "Five full months wait; month six pays.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Five-month waiting period",
+            "anyOf": [
+              "five-month",
+              "5-month",
+              "five month",
+              "5 month",
+              "five full months"
+            ]
+          },
+          {
+            "label": "First benefit in sixth full month",
+            "anyOf": [
+              "sixth",
+              "6th",
+              "September"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-ssa-disability-qualify"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q005",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.2.1"
+      ],
+      "concepts": [
+        "social-security-disability"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "Besides meeting the definition of disability, what must a worker generally have to qualify for SSDI?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Enough Social Security work credits, earned recently enough",
+          "rationale": "Correct: SSDI requires enough work credits; generally 40, with 20 earned in the last 10 years (fewer for younger workers)."
+        },
+        {
+          "id": "b",
+          "text": "Income and assets below the Medicaid limits",
+          "rationale": "Incorrect: SSDI is an earned insurance benefit, not a means-tested program."
+        },
+        {
+          "id": "c",
+          "text": "At least five years with the same employer",
+          "rationale": "Incorrect: work credits can come from any covered employment."
+        },
+        {
+          "id": "d",
+          "text": "A private disability income policy already in force",
+          "rationale": "Incorrect: private coverage is not a requirement."
+        }
+      ],
+      "correct": "a",
+      "explanation": "SSDI requires work in jobs covered by Social Security: you must have worked long enough and recently enough. Generally that means 40 credits, 20 of which were earned in the 10 years ending with the year the disability began (the '20/40 rule'); younger workers may qualify with fewer credits.",
+      "memoryTip": "SSDI is EARNED: 40 credits, 20 recent.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-ssa-disability-qualify"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q006",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.2.2",
+        "gov.2.1"
+      ],
+      "concepts": [
+        "social-security-disability",
+        "short-term-disability"
+      ],
+      "difficulty": 1,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Lars fractures his wrist and his doctor expects him to be unable to work for about three months. He has plenty of Social Security work credits.",
+      "stem": "Will Lars qualify for Social Security disability benefits?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, after he serves the standard five-month waiting period",
+          "rationale": "Incorrect: he must first meet the definition of disability, which requires a 12-month duration."
+        },
+        {
+          "id": "b",
+          "text": "Yes, because he has enough work credits and cannot work now",
+          "rationale": "Incorrect: work credits alone are not enough; the medical definition must also be met."
+        },
+        {
+          "id": "c",
+          "text": "Yes, but only for partial disability benefits for three months",
+          "rationale": "Incorrect: SSDI pays no benefits for partial disability."
+        },
+        {
+          "id": "d",
+          "text": "No, because his condition isn't expected to last at least 12 months",
+          "rationale": "Correct: SSDI pays no benefits for short-term disability."
+        }
+      ],
+      "correct": "d",
+      "explanation": "SSA pays only for total disability that has lasted or is expected to last at least 12 consecutive months or to result in death. SSA expects working families to rely on other resources — workers' compensation, insurance, savings — for short-term disabilities.",
+      "memoryTip": "Short-term? Not SSDI.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "12-month duration requirement",
+            "anyOf": [
+              "12 months",
+              "twelve",
+              "one year",
+              "a year"
+            ]
+          },
+          {
+            "label": "Short-term disability not covered",
+            "anyOf": [
+              "short-term",
+              "temporary",
+              "three months"
+            ]
+          }
+        ]
+      },
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-ssa-disability-qualify"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q007",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.3.1",
+        "gov.3.2"
+      ],
+      "concepts": [
+        "disability-benefits-law"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "ny-law",
+        "rapid"
+      ],
+      "stem": "The NY Disability Benefits Law provides benefits for disabilities that:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Arise out of and in the course of employment",
+          "rationale": "Incorrect: those are covered by workers' compensation."
+        },
+        {
+          "id": "b",
+          "text": "Do not arise out of and in the course of employment",
+          "rationale": "Correct: DBL covers injury or sickness not arising out of employment."
+        },
+        {
+          "id": "c",
+          "text": "Are expected to last at least 12 months",
+          "rationale": "Incorrect: that is the SSDI duration requirement."
+        },
+        {
+          "id": "d",
+          "text": "Result only from accidents, not sickness",
+          "rationale": "Incorrect: DBL covers both injury and sickness."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Workers' Compensation Law § 201 defines disability under Article 9 as the inability of an employee, as a result of injury or sickness NOT arising out of and in the course of employment, to perform the regular duties of the job (or other work the employer offers at regular wages).",
+      "memoryTip": "DBL = Disability Beyond the Location of work.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-wkc-201"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q008",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.3.4"
+      ],
+      "concepts": [
+        "disability-benefits-law"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "ny-law",
+        "math"
+      ],
+      "scenario": "Jen earns an average of $300 per week at a covered New York employer. She is disabled for four weeks by an off-the-job illness. Assume her benefit is below the statutory weekly maximum.",
+      "stem": "What weekly benefit will Jen receive under the NY Disability Benefits Law?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$100",
+          "rationale": "Incorrect: this is one-third of her wage, not one-half."
+        },
+        {
+          "id": "b",
+          "text": "$300",
+          "rationale": "Incorrect: DBL replaces only half of the average weekly wage."
+        },
+        {
+          "id": "c",
+          "text": "$200",
+          "rationale": "Incorrect: this is two-thirds of her wage, not one-half."
+        },
+        {
+          "id": "d",
+          "text": "$150",
+          "rationale": "Correct: one-half of her $300 average weekly wage = $150."
+        }
+      ],
+      "correct": "d",
+      "explanation": "WCL § 204(2)(b): the weekly disability benefit is one-half of the employee's average weekly wage, subject to a statutory weekly maximum. $300 × 50% = $150. (Benefits begin on the eighth day of disability, so the first seven days are unpaid.)",
+      "memoryTip": "DBL = half pay, after a week.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-wkc-204"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q009",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.3.4"
+      ],
+      "concepts": [
+        "disability-benefits-law"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "stem": "Under the NY Disability Benefits Law, when do disability benefits begin and what is the maximum duration?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Beginning the eighth day of disability; up to 26 weeks in any 52 consecutive weeks",
+          "rationale": "Correct: WCL § 204 starts benefits on the 8th day and § 205 caps them at 26 weeks in 52 consecutive weeks."
+        },
+        {
+          "id": "b",
+          "text": "Beginning the first day of disability; up to 12 weeks in any 52 weeks",
+          "rationale": "Incorrect: first-day payment and 12 weeks describe paid FAMILY LEAVE, not disability benefits."
+        },
+        {
+          "id": "c",
+          "text": "After a five-month waiting period; until full retirement age",
+          "rationale": "Incorrect: that describes Social Security disability."
+        },
+        {
+          "id": "d",
+          "text": "Beginning the eighth day of disability; up to 52 weeks",
+          "rationale": "Incorrect: the maximum is 26 weeks, not 52."
+        }
+      ],
+      "correct": "a",
+      "explanation": "WCL § 204(1): disability benefits are payable beginning with the eighth day of disability. WCL § 205(1)(a): no employee is entitled to disability benefits for more than 26 weeks during any 52 consecutive calendar weeks (reduced by any family leave days taken). Paid family leave, by contrast, starts on the first full day and is limited to 12 weeks.",
+      "memoryTip": "DBL: day 8 to week 26.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Benefits start on the 8th day",
+            "anyOf": [
+              "eighth day",
+              "8th day",
+              "seven-day",
+              "7-day",
+              "seven day"
+            ]
+          },
+          {
+            "label": "Maximum 26 weeks",
+            "anyOf": [
+              "26 weeks",
+              "twenty-six"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-wkc-204",
+        "ny-wkc-205"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q010",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.3.3",
+        "gov.3.2"
+      ],
+      "concepts": [
+        "disability-benefits-law"
+      ],
+      "difficulty": 3,
+      "style": "negative",
+      "tags": [
+        "ny-law",
+        "negative-wording",
+        "tricky"
+      ],
+      "stem": "Under the NY Disability Benefits Law, benefits are NOT payable for which of the following?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A day of disability on which the employee performed work for pay",
+          "rationale": "Correct: WCL § 205(3)(b) bars benefits for any day the employee worked for remuneration or profit."
+        },
+        {
+          "id": "b",
+          "text": "A broken leg from a weekend skiing trip",
+          "rationale": "Incorrect: an off-the-job injury is exactly what DBL covers."
+        },
+        {
+          "id": "c",
+          "text": "Pneumonia that keeps an employee home for five weeks",
+          "rationale": "Incorrect: off-the-job sickness is covered (after the 7-day waiting period)."
+        },
+        {
+          "id": "d",
+          "text": "Recovery from non-work-related surgery while under a physician's care",
+          "rationale": "Incorrect: this is a covered non-occupational disability."
+        }
+      ],
+      "correct": "a",
+      "explanation": "WCL § 205 lists periods when DBL benefits are not payable, including: more than 26 weeks in 52 consecutive weeks; periods not under the care of a licensed physician or other listed practitioner; willful self-injury or injury while committing an illegal act; any day the employee worked for pay; any day the employer pays at least as much as the DBL benefit; and disability due to an act of war.",
+      "memoryTip": "Working that day? No DBL that day.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-wkc-205"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q011",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.4.1"
+      ],
+      "concepts": [
+        "medicaid"
+      ],
+      "difficulty": 1,
+      "style": "comparison",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "What is the main basis for Medicaid eligibility?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Reaching age 65",
+          "rationale": "Incorrect: age 65 is the main basis for Medicare, not Medicaid."
+        },
+        {
+          "id": "b",
+          "text": "Having 40 Social Security work credits",
+          "rationale": "Incorrect: work credits relate to Social Security and premium-free Medicare Part A."
+        },
+        {
+          "id": "c",
+          "text": "Limited income and resources",
+          "rationale": "Correct: Medicaid is a joint federal-state program for people with limited income and resources."
+        },
+        {
+          "id": "d",
+          "text": "Employment with a large employer",
+          "rationale": "Incorrect: employer size relates to group coverage and Medicare secondary payer rules."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Medicaid is a joint federal and state program that helps with medical costs for some people with limited income and resources; programs vary from state to state. It is the public program that pays for long-term custodial care for people who qualify financially.",
+      "memoryTip": "Medicaid = need-based; Medicare = age-based.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-medicare-snf",
+        "fed-medicare-ltc"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q012",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.4.2",
+        "gov.4.2.1"
+      ],
+      "concepts": [
+        "child-health-plus",
+        "medicaid"
+      ],
+      "difficulty": 1,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "The Patel family lives in New York. Their income is too high for their two children to qualify for Children's Medicaid, and the children have no other health coverage.",
+      "stem": "Which New York program is designed for children in this situation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Healthy NY",
+          "rationale": "Incorrect: Healthy NY is a standardized contract for qualifying small employers."
+        },
+        {
+          "id": "b",
+          "text": "Medicare",
+          "rationale": "Incorrect: Medicare is mainly for people 65 and older and certain disabled individuals."
+        },
+        {
+          "id": "c",
+          "text": "The NY Disability Benefits Law",
+          "rationale": "Incorrect: DBL provides wage replacement for off-the-job disabilities."
+        },
+        {
+          "id": "d",
+          "text": "Child Health Plus",
+          "rationale": "Correct: depending on family income, a child may qualify for Children's Medicaid or Child Health Plus."
+        }
+      ],
+      "correct": "d",
+      "explanation": "The NY Department of Health describes Child Health Plus as the state's health insurance plan for kids: depending on family income, a child may be eligible for either Children's Medicaid or Child Health Plus. Families apply through NY State of Health, the official marketplace.",
+      "memoryTip": "Kids + income too high for Medicaid = Child Health Plus.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-doh-child-health-plus"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19",
+        "notes": "Verified against NY DOH program page (agency guidance)."
+      }
+    },
+    {
+      "id": "gov-q013",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.5.1"
+      ],
+      "concepts": [
+        "medicare"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "Which statement about the nature and administration of Medicare is accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is a federal program administered by the Centers for Medicare & Medicaid Services",
+          "rationale": "Correct: Medicare is a federal health insurance program run by CMS."
+        },
+        {
+          "id": "b",
+          "text": "It is run separately by each state, like Medicaid",
+          "rationale": "Incorrect: Medicaid is state-administered; Medicare is federal."
+        },
+        {
+          "id": "c",
+          "text": "It is available only to people with low income and assets",
+          "rationale": "Incorrect: Medicare is not means-tested."
+        },
+        {
+          "id": "d",
+          "text": "It is sold and administered by the NY Department of Financial Services",
+          "rationale": "Incorrect: DFS regulates private insurance such as Medigap, not Medicare itself."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Medicare is federal health insurance (Social Security Act Title XVIII) for people 65 and older, certain people under 65 with disabilities, and people with ESRD, administered by CMS. Part A is financed mainly through payroll taxes; Part B and Part D are financed by enrollee premiums plus federal general revenues. Private insurers participate through Medicare Advantage and Part D plans.",
+      "memoryTip": "Medicare: Federal, CMS, not means-tested.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

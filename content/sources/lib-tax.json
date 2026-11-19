@@ -1,0 +1,181 @@
+{
+  "sources": [
+    {
+      "id": "ny-isc-3205",
+      "title": "NY Insurance Law § 3205 — Insurable interest in the person; consent required; exceptions",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/3205",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 3205 (revision from 2014-09-22)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-3205.md"
+    },
+    {
+      "id": "ny-isc-3208",
+      "title": "NY Insurance Law § 3208 — Antedating of life insurance policies and burial agreements prohibited",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/3208",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 3208 (revision from 2020-12-18)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-3208.md"
+    },
+    {
+      "id": "ny-isc-2122",
+      "title": "NY Insurance Law § 2122 — Advertising by insurance producers",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/2122",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 2122 (revision from 2014-10-03)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-2122.md"
+    },
+    {
+      "id": "ny-isc-3209",
+      "title": "NY Insurance Law § 3209 — Life insurance, annuities and funding agreements disclosure requirements",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/3209",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 3209 (revision from 2023-01-06)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-3209.md"
+    },
+    {
+      "id": "ny-isc-7718",
+      "title": "NY Insurance Law § 7718 — Prohibited advertisement of the corporation in sale of insurance",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/7718",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 7718 (revision from 2014-09-22)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-7718.md"
+    },
+    {
+      "id": "ny-isc-2611",
+      "title": "NY Insurance Law § 2611 — HIV written informed consent",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/2611",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 2611 (revision from 2014-09-22)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-2611.md"
+    },
+    {
+      "id": "ny-11nycrr-51",
+      "title": "11 NYCRR Part 51 (Insurance Regulation 60) — Replacement of Life Insurance Policies and Annuity Contracts (§§ 51.2, 51.4, 51.5, 51.6)",
+      "publisher": "Cornell Legal Information Institute (mirror of NY Codes, Rules and Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/11-NYCRR-51.5",
+      "kind": "regulation",
+      "citation": "11 NYCRR §§ 51.2, 51.4, 51.5, 51.6 (amended eff. 4/21/2015)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/11NYCRR-51-Reg60.md"
+    },
+    {
+      "id": "ny-11nycrr-224",
+      "title": "11 NYCRR Part 224 (Insurance Regulation 187) — Suitability and Best Interests in Life Insurance and Annuity Transactions (§§ 224.3, 224.4)",
+      "publisher": "Cornell Legal Information Institute (mirror of NY Codes, Rules and Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/11-NYCRR-224.4",
+      "kind": "regulation",
+      "citation": "11 NYCRR §§ 224.3, 224.4 (amended eff. 8/1/2018)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/11NYCRR-224-Reg187.md"
+    },
+    {
+      "id": "ny-11nycrr-225",
+      "title": "11 NYCRR Part 225 (Insurance Regulation 199) — Use of Senior-Specific Certifications and Professional Designations (§§ 225.2, 225.3)",
+      "publisher": "Cornell Legal Information Institute (mirror of NY Codes, Rules and Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/11-NYCRR-225.2",
+      "kind": "regulation",
+      "citation": "11 NYCRR §§ 225.2, 225.3",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/11NYCRR-225-Reg199.md"
+    },
+    {
+      "id": "fed-usc-26-101",
+      "title": "26 U.S.C. § 101 — Certain death benefits",
+      "publisher": "Cornell Legal Information Institute (U.S. Code)",
+      "url": "https://www.law.cornell.edu/uscode/text/26/101",
+      "kind": "federal",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/USC-26-101.md",
+      "citation": "26 U.S.C. § 101(a), (c), (d)"
+    },
+    {
+      "id": "fed-usc-26-1035",
+      "title": "26 U.S.C. § 1035 — Certain exchanges of insurance policies",
+      "publisher": "Cornell Legal Information Institute (U.S. Code)",
+      "url": "https://www.law.cornell.edu/uscode/text/26/1035",
+      "kind": "federal",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/USC-26-1035.md",
+      "citation": "26 U.S.C. § 1035"
+    },
+    {
+      "id": "fed-usc-26-7702a",
+      "title": "26 U.S.C. § 7702A — Modified endowment contract defined",
+      "publisher": "Cornell Legal Information Institute (U.S. Code)",
+      "url": "https://www.law.cornell.edu/uscode/text/26/7702A",
+      "kind": "federal",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/USC-26-7702A.md",
+      "citation": "26 U.S.C. § 7702A"
+    },
+    {
+      "id": "fed-irs-faq-life-proceeds",
+      "title": "IRS FAQ — Life insurance & disability insurance proceeds",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/faqs/interest-dividends-other-types-of-income/life-insurance-disability-insurance-proceeds",
+      "kind": "federal",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/IRS-FAQ-life-insurance-proceeds.md"
+    },
+    {
+      "id": "fed-irs-pub525-life",
+      "title": "IRS Publication 525 (2025), Taxable and Nontaxable Income — surrender of life insurance and endowment proceeds",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/publications/p525",
+      "kind": "federal",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/IRS-Pub525-life-insurance.md",
+      "citation": "Pub. 525 (2025)"
+    },
+    {
+      "id": "fed-irs-pub550-ins-dividends",
+      "title": "IRS Publication 550 (2025), Investment Income and Expenses — dividends on insurance policies",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/publications/p550",
+      "kind": "federal",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/IRS-Pub550-insurance-dividends.md",
+      "citation": "Pub. 550 (2025)"
+    },
+    {
+      "id": "fed-irs-rollovers",
+      "title": "IRS — Rollovers of retirement plan and IRA distributions",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/retirement-plans/plan-participant-employee/rollovers-of-retirement-plan-and-ira-distributions",
+      "kind": "federal",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/IRS-rollovers.md"
+    },
+    {
+      "id": "fed-irs-topic-411",
+      "title": "IRS Topic no. 411 — Pensions: the general rule and the simplified method",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/taxtopics/tc411",
+      "kind": "federal",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/IRS-Topic411.md"
+    },
+    {
+      "id": "fed-usc-26-72",
+      "title": "26 U.S.C. § 72 — Annuities; certain proceeds of endowment and life insurance contracts (subsections (b), (e), (v))",
+      "publisher": "Cornell Legal Information Institute (U.S. Code)",
+      "url": "https://www.law.cornell.edu/uscode/text/26/72",
+      "kind": "federal",
+      "citation": "26 U.S.C. § 72(b)(1)-(2), (e)(2)-(6), (e)(10), (v)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/USC-26-72.md"
+    }
+  ]
+}

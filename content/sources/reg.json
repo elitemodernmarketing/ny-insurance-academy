@@ -1,0 +1,244 @@
+{
+ "sources": [
+  {
+   "id": "ny-isc-2101",
+   "title": "NY Insurance Law § 2101 — Definitions (agents, brokers, adjusters, producers, home state, negotiate, sell, solicit)",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/2101",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 2101 (revision from 2014-10-03)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-2101.md"
+  },
+  {
+   "id": "ny-isc-2103",
+   "title": "NY Insurance Law § 2103 — Licensing of insurance agents",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/2103",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 2103 (revision from 2023-04-07)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-2103.md"
+  },
+  {
+   "id": "ny-isc-2109",
+   "title": "NY Insurance Law § 2109 — Agents and brokers; temporary license in case of death, service in armed forces or disability",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/2109",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 2109 (revision from 2014-10-03)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-2109.md"
+  },
+  {
+   "id": "ny-isc-2110",
+   "title": "NY Insurance Law § 2110 — Revocation or suspension of license of insurance producer, consultant, adjuster or life settlement broker",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/2110",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 2110 (revision from 2022-07-29)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-2110.md"
+  },
+  {
+   "id": "ny-isc-2112",
+   "title": "NY Insurance Law § 2112 — Certificate of appointment of an insurance producer and notice of termination",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/2112",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 2112 (revision from 2014-10-03)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-2112.md"
+  },
+  {
+   "id": "ny-isc-2120",
+   "title": "NY Insurance Law § 2120 — Fiduciary capacity of insurance agents, title insurance agents, brokers and reinsurance intermediaries",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/2120",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 2120 (revision from 2014-10-03)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-2120.md"
+  },
+  {
+   "id": "ny-isc-2123",
+   "title": "NY Insurance Law § 2123 — Misrepresentations, misleading statements and incomplete comparisons",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/2123",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 2123 (revision from 2024-09-20)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-2123.md"
+  },
+  {
+   "id": "ny-isc-2117",
+   "title": "NY Insurance Law § 2117 — Acting for or aiding unlicensed or unauthorized insurers or HMOs",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/2117",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 2117 (revision from 2017-12-08)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-2117.md"
+  },
+  {
+   "id": "ny-isc-2127",
+   "title": "NY Insurance Law § 2127 — Penalties for violations",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/2127",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 2127 (revision from 2014-09-22)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-2127.md"
+  },
+  {
+   "id": "ny-isc-2134",
+   "title": "NY Insurance Law § 2134 — Change of address",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/2134",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 2134 (revision from 2014-09-22)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-2134.md"
+  },
+  {
+   "id": "ny-isc-2324",
+   "title": "NY Insurance Law § 2324 — Rebating and discrimination",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/2324",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 2324 (revision from 2014-09-22)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-2324.md"
+  },
+  {
+   "id": "ny-isc-4224",
+   "title": "NY Insurance Law § 4224 — Life, accident and health insurance; discrimination and rebating; prohibited inducements and interdependent sales",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/4224",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 4224 (revision from 2024-07-05)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-4224.md"
+  },
+  {
+   "id": "ny-isc-2601",
+   "title": "NY Insurance Law § 2601 — Unfair claim settlement practices; penalties",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/2601",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 2601 (revision from 2019-01-04)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-2601.md"
+  },
+  {
+   "id": "ny-isc-2102",
+   "title": "NY Insurance Law § 2102 — Acting without a license (incl. commissions to unlicensed persons; assumed names)",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/2102",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 2102 (revision from 2014-09-22)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-2102.md"
+  },
+  {
+   "id": "ny-isc-2128",
+   "title": "NY Insurance Law § 2128 — Commission and fee sharing prohibited (governmental entities)",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/2128",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 2128 (revision from 2014-10-03)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-2128.md"
+  },
+  {
+   "id": "ny-isc-2604",
+   "title": "NY Insurance Law § 2604 — False statements as to insurers",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/2604",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 2604 (revision from 2014-09-22)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-2604.md"
+  },
+  {
+   "id": "ny-isc-1102",
+   "title": "NY Insurance Law § 1102 — Insurer's license required; issuance",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/1102",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 1102 (revision from 2014-09-22)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-1102.md"
+  },
+  {
+   "id": "ny-isc-403",
+   "title": "NY Insurance Law § 403 — Insurance Frauds Prevention — Prohibitions",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/403",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 403 (revision from 2014-09-22)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-403.md"
+  },
+  {
+   "id": "ny-isc-405",
+   "title": "NY Insurance Law § 405 — Insurance Frauds Prevention — Reports",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/405",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 405 (revision from 2014-09-22)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-405.md"
+  },
+  {
+   "id": "fed-usc-18-1033",
+   "title": "18 U.S.C. § 1033 — Crimes by or affecting persons engaged in the business of insurance whose activities affect interstate commerce",
+   "publisher": "Legal Information Institute (Cornell Law School)",
+   "url": "https://www.law.cornell.edu/uscode/text/18/1033",
+   "kind": "federal",
+   "citation": "18 U.S.C. § 1033",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/federal/USC-18-1033.md"
+  },
+  {
+   "id": "ny-reg-23nycrr-500-17",
+   "title": "23 NYCRR § 500.17 — Notices to Superintendent (DFS Cybersecurity Regulation)",
+   "publisher": "Legal Information Institute (Cornell Law School)",
+   "url": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.17",
+   "kind": "regulation",
+   "citation": "23 NYCRR 500.17 (amended eff. 11/1/2023)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/23NYCRR-500.17.md"
+  },
+  {
+   "id": "ny-11nycrr-30-3",
+   "title": "11 NYCRR § 30.3 (Regulation 194) — Disclosure of producer compensation, ownership interests and role in the insurance transaction",
+   "publisher": "Legal Information Institute (Cornell Law School)",
+   "url": "https://www.law.cornell.edu/regulations/new-york/11-NYCRR-30.3",
+   "kind": "regulation",
+   "citation": "11 NYCRR 30.3 (amended eff. 10/18/2017)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/11NYCRR-30.3-Reg194.md"
+  },
+  {
+   "id": "fed-usc-15-1681d",
+   "title": "15 U.S.C. § 1681d — Disclosure of investigative consumer reports (Fair Credit Reporting Act § 606)",
+   "publisher": "Legal Information Institute (Cornell Law School)",
+   "url": "https://www.law.cornell.edu/uscode/text/15/1681d",
+   "kind": "federal",
+   "citation": "15 U.S.C. § 1681d",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/federal/USC-15-1681d.md"
+  },
+  {
+   "id": "ny-11nycrr-420-3",
+   "title": "11 NYCRR § 420.3 (Regulation 169) — Definitions, Privacy of Consumer Financial and Health Information",
+   "publisher": "Legal Information Institute (Cornell Law School)",
+   "url": "https://www.law.cornell.edu/regulations/new-york/11-NYCRR-420.3",
+   "kind": "regulation",
+   "citation": "11 NYCRR 420.3",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/11NYCRR-420.3-Reg169.md"
+  }
+ ]
+}

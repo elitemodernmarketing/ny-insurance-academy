@@ -1,0 +1,1998 @@
+{
+  "sectionId": "grp",
+  "questions": [
+    {
+      "id": "grp-q001",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.1.1"
+      ],
+      "concepts": [
+        "master-policy"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid",
+        "ny-law"
+      ],
+      "stem": "In an employer group health plan, which party holds the master policy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Each insured employee",
+          "rationale": "Incorrect: employees are insureds who receive certificates; they do not hold the master policy."
+        },
+        {
+          "id": "b",
+          "text": "The producer who sold the plan",
+          "rationale": "Incorrect: the producer is not a party to the contract."
+        },
+        {
+          "id": "c",
+          "text": "The state insurance department",
+          "rationale": "Incorrect: the regulator does not hold policies."
+        },
+        {
+          "id": "d",
+          "text": "The employer as group policyholder",
+          "rationale": "Correct: under § 4235(c)(1)(A) the employer (or trustees of its fund) is deemed the policyholder."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Group insurance is written as one master policy issued to the group policyholder. NY Insurance Law § 4235(c)(1)(A) provides that a policy issued to an employer, or to trustees of a fund established by an employer, treats the employer or trustees as the policyholder. Covered employees receive certificates of coverage.",
+      "memoryTip": "One master policy, held by the employer; employees get certificates.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-4235"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q002",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.1.3",
+        "grp.7"
+      ],
+      "concepts": [
+        "experience-rating",
+        "community-rating",
+        "small-employer"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "Harbor Graphics, a New York employer with 30 employees, renews its small group health policy after a year of unusually high claims.",
+      "stem": "How must the insurer set the premium for Harbor Graphics?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Using a community rate, without regard to Harbor's own claims",
+          "rationale": "Correct: § 3231 requires community rating for small groups (1–100 employees)."
+        },
+        {
+          "id": "b",
+          "text": "Based on Harbor's own claims history, because it had high claims",
+          "rationale": "Incorrect: New York small group coverage must be community rated, not experience rated."
+        },
+        {
+          "id": "c",
+          "text": "By medically underwriting each of Harbor's employees",
+          "rationale": "Incorrect: underwriting of small group policies is limited; health status cannot set the rate."
+        },
+        {
+          "id": "d",
+          "text": "Using the average rate of Harbor's largest competitors",
+          "rationale": "Incorrect: this is not a recognized rating method."
+        }
+      ],
+      "correct": "a",
+      "explanation": "NY Insurance Law § 3231(a) requires individual and small group hospital/medical policies to be community rated: the premium for all persons covered by a policy form is the same, based on the experience of the entire pool, without regard to age, sex, health status, tobacco usage or occupation. Experience rating, based on a group's own claims, is used for large groups.",
+      "memoryTip": "Small group in NY = community rated.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Small group (1–100) in NY",
+            "anyOf": [
+              "small group",
+              "30",
+              "100"
+            ]
+          },
+          {
+            "label": "Must be community rated",
+            "anyOf": [
+              "community"
+            ]
+          },
+          {
+            "label": "Own claims/health not used",
+            "anyOf": [
+              "claims",
+              "health status",
+              "regardless",
+              "without regard"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3231",
+        "ny-isc-4317"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q003",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.1.4",
+        "grp.2.1.1"
+      ],
+      "concepts": [
+        "eligible-group"
+      ],
+      "difficulty": 3,
+      "style": "concept",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "stem": "Under NY Insurance Law § 4235, a group health policy issued to an employer must insure all employees, or classes of employees determined by conditions of employment:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Selected individually by the employer based on job performance",
+          "rationale": "Incorrect: the statute requires a plan that precludes individual selection."
+        },
+        {
+          "id": "b",
+          "text": "Only if each employee provides evidence of good health",
+          "rationale": "Incorrect: § 4235 permits insuring 'with or without evidence of insurability'; health evidence is not the defining rule."
+        },
+        {
+          "id": "c",
+          "text": "Based upon some plan which will preclude individual selection",
+          "rationale": "Correct: this is the statutory requirement, which guards against adverse selection."
+        },
+        {
+          "id": "d",
+          "text": "Chosen by the insurer after reviewing each employee's claims history",
+          "rationale": "Incorrect: individual selection by the insurer is also inconsistent with the rule."
+        }
+      ],
+      "correct": "c",
+      "explanation": "NY Insurance Law § 4235(c)(1)(A) requires an employer group policy to insure all employees or any class or classes determined by conditions pertaining to employment, 'based upon some plan which will preclude individual selection'. Classes such as full-time vs. part-time are permitted; picking individuals is not.",
+      "memoryTip": "Classes by job, never by person.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-4235"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q004",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.2.1.1",
+        "grp.6.2.2"
+      ],
+      "concepts": [
+        "eligible-group"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "tricky",
+        "ny-law",
+        "math"
+      ],
+      "scenario": "Elm Street Foods has 80 eligible employees. It is setting up a group hospital and medical expense plan in New York, and employees will pay part of the premium (a contributory plan).",
+      "stem": "Under NY Insurance Law § 4235, what is the minimum number of eligible employees that must be insured?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "50",
+          "rationale": "Incorrect: the alternative of 'fifty or more' applies only if it is LESS than 50% of eligible employees; here 50% is 40."
+        },
+        {
+          "id": "b",
+          "text": "40",
+          "rationale": "Correct: at least 50% of 80 eligible employees = 40 (fewer than the 50-employee alternative)."
+        },
+        {
+          "id": "c",
+          "text": "80",
+          "rationale": "Incorrect: 100% participation is not required for a contributory plan."
+        },
+        {
+          "id": "d",
+          "text": "60",
+          "rationale": "Incorrect: there is no 75% requirement in the statute."
+        }
+      ],
+      "correct": "b",
+      "explanation": "For a contributory group hospital, medical or major medical policy, § 4235(c)(1)(A) requires insuring 'not less than fifty percent of such eligible employees or, if less, fifty or more of such employees'. 50% of 80 = 40. The '50 or more' alternative is 50, which is not less than 40, so the requirement is 40 employees.",
+      "memoryTip": "Contributory plan: at least half the eligible employees (or 50, whichever is less).",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Contributory plan requires 50% participation",
+            "anyOf": [
+              "50%",
+              "fifty percent",
+              "half"
+            ]
+          },
+          {
+            "label": "50% of 80 = 40",
+            "anyOf": [
+              "40"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-4235"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q005",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.2.1.5"
+      ],
+      "concepts": [
+        "blanket-insurance"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "Northfield College buys an accident policy that covers every student while participating in college-sponsored activities. Students are not named in the policy and do not apply individually.",
+      "stem": "What type of coverage is this?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Individual accident insurance",
+          "rationale": "Incorrect: the students are not individually insured under their own policies."
+        },
+        {
+          "id": "b",
+          "text": "Blanket accident insurance",
+          "rationale": "Correct: a policy issued to a school covering its students as a changing class, without naming them, is blanket coverage."
+        },
+        {
+          "id": "c",
+          "text": "Franchise insurance",
+          "rationale": "Incorrect: franchise (wholesale) insurance issues individual policies to members of a group."
+        },
+        {
+          "id": "d",
+          "text": "Credit accident insurance",
+          "rationale": "Incorrect: credit insurance covers debtors of a creditor."
+        }
+      ],
+      "correct": "b",
+      "explanation": "NY Insurance Law § 4237 allows blanket accident and health insurance issued to a school or other institution of learning (the policyholder) covering a defined class such as its students. Blanket insureds are not individually named, and the covered population changes over time.",
+      "memoryTip": "No names, changing members = blanket.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-4237"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q006",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.2.1.4"
+      ],
+      "concepts": [
+        "eligible-group"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "Under NY Insurance Law § 4235, a group policy issued to a creditor covers which group?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The creditor's own employees (and, as permitted, their spouses)",
+          "rationale": "Incorrect: employees are covered under an employer group, not a creditor group."
+        },
+        {
+          "id": "b",
+          "text": "The creditor's shareholders (and, as permitted, their spouses)",
+          "rationale": "Incorrect: shareholders are not a permitted creditor group."
+        },
+        {
+          "id": "c",
+          "text": "All residents of the creditor's county, regardless of any debt",
+          "rationale": "Incorrect: geographic residence does not create an eligible group."
+        },
+        {
+          "id": "d",
+          "text": "The creditor's debtors (and, as permitted, debtors' spouses)",
+          "rationale": "Correct: § 4235(c)(1)(E) permits a policy to a creditor or vendor insuring a group of debtors or vendees."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Customer groups such as creditor-debtor groups are an eligible group type. § 4235(c)(1)(E) permits a policy issued to a creditor or vendor insuring a group of its debtors or vendees, including coverage on the spouse of a debtor or vendee.",
+      "memoryTip": "Creditor buys it; debtors are covered.",
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-4235"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q007",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.3.1",
+        "grp.3.1.1"
+      ],
+      "concepts": [
+        "erisa"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "ERISA generally applies to all of the following employee benefit plans EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A health plan sponsored by a state government for its employees",
+          "rationale": "Correct: governmental plans are generally exempt from ERISA."
+        },
+        {
+          "id": "b",
+          "text": "A self-funded health plan of a private retailer",
+          "rationale": "Incorrect: self-funded private plans are covered by ERISA."
+        },
+        {
+          "id": "c",
+          "text": "A group health plan of a private manufacturing company",
+          "rationale": "Incorrect: private employer health plans are covered by ERISA."
+        },
+        {
+          "id": "d",
+          "text": "A 401(k) plan of a private technology company",
+          "rationale": "Incorrect: private retirement plans are covered by ERISA."
+        }
+      ],
+      "correct": "a",
+      "explanation": "ERISA sets standards for most private-sector employee benefit plans, both retirement and welfare (including health) plans, whether insured or self-funded. Plans sponsored by governments and churches are generally exempt.",
+      "memoryTip": "ERISA = Private employers' plans (not government or church).",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q008",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.3.1.2",
+        "grp.3.1.3"
+      ],
+      "concepts": [
+        "erisa",
+        "fiduciary-responsibility"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Paul is the administrator of a private company's self-funded health plan. When the company has a cash shortage, he uses plan assets to pay the company's suppliers.",
+      "stem": "Under ERISA, how should Paul's action be evaluated?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is permitted because the company sponsors the plan",
+          "rationale": "Incorrect: plan assets must be used for participants and beneficiaries, not the sponsor's business."
+        },
+        {
+          "id": "b",
+          "text": "It is permitted if the loan is repaid within the plan year",
+          "rationale": "Incorrect: the duty is to act solely in participants' interest; repayment does not cure the misuse."
+        },
+        {
+          "id": "c",
+          "text": "It breaches his fiduciary duty to act solely for participants",
+          "rationale": "Correct: ERISA fiduciaries must act solely in the interest of participants and beneficiaries."
+        },
+        {
+          "id": "d",
+          "text": "It is a reporting and disclosure violation only",
+          "rationale": "Incorrect: the core problem is misuse of plan assets, a fiduciary breach."
+        }
+      ],
+      "correct": "c",
+      "explanation": "ERISA fiduciaries (people who exercise control over plan management or assets) must act prudently and solely in the interest of plan participants and beneficiaries. Using plan assets to pay the employer's own bills is a classic fiduciary breach. ERISA separately requires reporting and disclosure, such as giving participants a summary plan description.",
+      "memoryTip": "Plan money is for participants, period.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Paul is a fiduciary",
+            "anyOf": [
+              "fiduciary"
+            ]
+          },
+          {
+            "label": "Must act solely in participants' interest",
+            "anyOf": [
+              "solely",
+              "participants",
+              "beneficiaries"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q009",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.3.2"
+      ],
+      "concepts": [
+        "fmla"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Sofia has worked for a 400-employee company for four years. She takes 10 weeks of unpaid FMLA leave to care for her mother, who has a serious health condition.",
+      "stem": "What happens to Sofia's group health coverage during her leave?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It ends, and she may elect COBRA continuation coverage",
+          "rationale": "Incorrect: FMLA leave is not a loss of coverage; the employer must maintain coverage."
+        },
+        {
+          "id": "b",
+          "text": "It is converted to an individual policy until she returns",
+          "rationale": "Incorrect: conversion applies after coverage terminates, which does not happen here."
+        },
+        {
+          "id": "c",
+          "text": "It continues only if she pays 102% of the full premium",
+          "rationale": "Incorrect: the 102% charge is a COBRA rule; under FMLA coverage continues on the same terms."
+        },
+        {
+          "id": "d",
+          "text": "It continues on the same terms as if she were working",
+          "rationale": "Correct: FMLA requires continuation of group health benefits on the same terms."
+        }
+      ],
+      "correct": "d",
+      "explanation": "The FMLA entitles eligible employees of covered employers (private employers with 50 or more employees) to up to 12 workweeks of unpaid, job-protected leave in a 12-month period and requires continuation of their group health benefits under the same terms and conditions as if they had not taken leave.",
+      "memoryTip": "FMLA: unpaid leave, health coverage unchanged.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-dol-fmla"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q010",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.3.3",
+        "grp.3.3.1"
+      ],
+      "concepts": [
+        "medicare-secondary-payer"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Walter, 66, works full time for a 12-employee architecture firm and is covered by its group health plan. He is also enrolled in Medicare Parts A and B.",
+      "stem": "Which plan pays Walter's claims first?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Medicare, because the employer has fewer than 20 employees",
+          "rationale": "Correct: with fewer than 20 employees, Medicare pays first and the group plan pays second."
+        },
+        {
+          "id": "b",
+          "text": "The group health plan, because Walter is still actively working",
+          "rationale": "Incorrect: the working-aged rule makes the group plan primary only when the employer has 20 or more employees."
+        },
+        {
+          "id": "c",
+          "text": "Whichever plan received the bill first",
+          "rationale": "Incorrect: payment order is set by the secondary payer rules, not by billing order."
+        },
+        {
+          "id": "d",
+          "text": "Neither; Walter must choose one plan and drop the other",
+          "rationale": "Incorrect: both may pay, in the proper order."
+        }
+      ],
+      "correct": "a",
+      "explanation": "For a person 65 or older covered through current employment, the group health plan pays first only if the employer has 20 or more employees. Walter's employer has 12 employees, so Medicare is the primary payer and the group plan pays second.",
+      "memoryTip": "Working aged: 20+ employees = group first; under 20 = Medicare first.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Age 65+ with current employment",
+            "anyOf": [
+              "65",
+              "working",
+              "current"
+            ]
+          },
+          {
+            "label": "Employer under 20 employees",
+            "anyOf": [
+              "20",
+              "12",
+              "fewer"
+            ]
+          },
+          {
+            "label": "Medicare primary",
+            "anyOf": [
+              "Medicare pays first",
+              "Medicare is primary",
+              "Medicare first"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-medicare-gov-coordination"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q011",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.3.3.2"
+      ],
+      "concepts": [
+        "medicare-carve-out"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "A retiree has a $2,000 covered claim. Medicare pays $1,300. The employer's retiree plan, which uses a Medicare carve-out, would have paid $1,500 for this claim if Medicare did not exist.",
+      "stem": "How much will the employer's retiree plan pay?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$700",
+          "rationale": "Incorrect: this would be the remaining billed charge ($2,000 - $1,300), but the plan's own benefit is only $1,500."
+        },
+        {
+          "id": "b",
+          "text": "$1,500",
+          "rationale": "Incorrect: a carve-out reduces the plan's benefit by what Medicare paid."
+        },
+        {
+          "id": "c",
+          "text": "$200",
+          "rationale": "Correct: carve-out benefit = $1,500 - $1,300 Medicare payment = $200."
+        },
+        {
+          "id": "d",
+          "text": "$0",
+          "rationale": "Incorrect: the plan's benefit exceeds Medicare's payment, so the plan pays the difference."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Under a Medicare carve-out, the group plan calculates its normal benefit and then subtracts what Medicare paid: $1,500 - $1,300 = $200. The plan does not pay the full remaining balance of the bill.",
+      "memoryTip": "Carve-out = plan benefit minus Medicare's payment.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q012",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.3.4"
+      ],
+      "concepts": [
+        "nondiscrimination-rules"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Federal nondiscrimination rules for certain employer health plans are designed mainly to prevent tax-favored benefits that favor:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Employees with children",
+          "rationale": "Incorrect: dependent coverage is not the target of these rules."
+        },
+        {
+          "id": "b",
+          "text": "Highly compensated individuals",
+          "rationale": "Correct: the rules target plans favoring highly compensated individuals."
+        },
+        {
+          "id": "c",
+          "text": "Union members",
+          "rationale": "Incorrect: collective bargaining is not what these rules address."
+        },
+        {
+          "id": "d",
+          "text": "Employees who live in the same state as the employer",
+          "rationale": "Incorrect: residence is not the concern of these rules."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Nondiscrimination rules (for example, for self-insured medical reimbursement plans and cafeteria plans) prohibit plans from discriminating in favor of highly compensated individuals in eligibility or benefits. If a plan fails, the highly compensated individuals may lose some tax-favored treatment.",
+      "memoryTip": "Nondiscrimination protects the rank and file from executive-only perks.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q013",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.4.2.2"
+      ],
+      "concepts": [
+        "administrative-services-only",
+        "self-funded-plan"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "A self-funded employer hires an insurance company under an administrative services only (ASO) contract. Which statement is correct?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The insurer pays claims from its own funds and bears the full claim risk",
+          "rationale": "Incorrect: that describes a fully insured plan."
+        },
+        {
+          "id": "b",
+          "text": "The insurer processes claims for a fee; the employer bears the claim risk",
+          "rationale": "Correct: ASO providers are paid for services; the employer funds the claims."
+        },
+        {
+          "id": "c",
+          "text": "The employer must buy an individual policy for each employee it covers",
+          "rationale": "Incorrect: ASO is a group administrative arrangement."
+        },
+        {
+          "id": "d",
+          "text": "The ASO contract converts the plan into a fully insured plan under state law",
+          "rationale": "Incorrect: an ASO contract does not convert a self-funded plan into an insured plan."
+        }
+      ],
+      "correct": "b",
+      "explanation": "In an ASO arrangement, the insurer or administrator provides services such as claims processing and network access for a fee. The self-funded employer keeps the financial risk and pays claims, often buying stop-loss coverage for large losses.",
+      "memoryTip": "ASO = Admin only, Sponsor pays, Only fees to the insurer.",
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q014",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.4.2.1"
+      ],
+      "concepts": [
+        "stop-loss-coverage"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "A self-funded employer buys specific stop-loss coverage with a $75,000 attachment point per covered person. One employee's covered claims for the year total $180,000.",
+      "stem": "How much will the stop-loss carrier reimburse the employer for this employee's claims?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$180,000",
+          "rationale": "Incorrect: the employer keeps the first $75,000 of each person's claims."
+        },
+        {
+          "id": "b",
+          "text": "$255,000",
+          "rationale": "Incorrect: this adds the attachment point instead of subtracting it."
+        },
+        {
+          "id": "c",
+          "text": "$75,000",
+          "rationale": "Incorrect: $75,000 is the amount the employer retains, not the reimbursement."
+        },
+        {
+          "id": "d",
+          "text": "$105,000",
+          "rationale": "Correct: $180,000 - $75,000 attachment point = $105,000."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Specific stop-loss reimburses the plan sponsor for an individual's claims above the attachment point: $180,000 total claims - $75,000 retained by the employer = $105,000 reimbursed.",
+      "memoryTip": "Stop-loss pays the excess over the attachment point.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q015",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.4",
+        "grp.4.1"
+      ],
+      "concepts": [
+        "fully-insured-plan",
+        "self-funded-plan"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [],
+      "stem": "Which statement best distinguishes a fully insured group plan from a self-funded plan?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Insured: the insurer bears claim risk; self-funded: the employer does",
+          "rationale": "Correct: the key difference is who pays claims and bears the risk."
+        },
+        {
+          "id": "b",
+          "text": "Only self-funded plans are allowed to cover employees' dependents",
+          "rationale": "Incorrect: both types can cover dependents."
+        },
+        {
+          "id": "c",
+          "text": "Fully insured plans never require employee contributions",
+          "rationale": "Incorrect: many insured plans are contributory."
+        },
+        {
+          "id": "d",
+          "text": "Self-funded plans cannot use a provider network",
+          "rationale": "Incorrect: self-funded plans often rent an insurer's network under an ASO contract."
+        }
+      ],
+      "correct": "a",
+      "explanation": "In a conventional fully insured plan, the employer pays premiums and the insurer pays claims and bears the risk. In a self-funded plan, the employer pays claims from its own funds and bears the risk, commonly limiting it with stop-loss coverage and hiring an ASO provider or TPA.",
+      "memoryTip": "Insured = insurer's risk; self-funded = employer's risk.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q016",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.5.2",
+        "grp.5"
+      ],
+      "concepts": [
+        "master-policy"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "A group health master policy is delivered to an employer's headquarters in New York, and some certificate holders live in New Jersey. Generally, which state's law governs the master policy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The state where each certificate holder lives, separately for each employee",
+          "rationale": "Incorrect: the master policy is generally governed by the state where it is delivered (its situs)."
+        },
+        {
+          "id": "b",
+          "text": "The state where the insurer's chief actuary works",
+          "rationale": "Incorrect: an employee's work location does not set jurisdiction."
+        },
+        {
+          "id": "c",
+          "text": "New York, where the master policy is delivered to the policyholder",
+          "rationale": "Correct: group contracts are generally governed by the law of the state of delivery."
+        },
+        {
+          "id": "d",
+          "text": "Whichever state has the lowest premium tax",
+          "rationale": "Incorrect: jurisdiction is not chosen by tax rates."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Group insurance is generally regulated by the state in which the master policy is delivered to the policyholder (the situs state). Certificate holders in other states are generally covered under the terms of that master policy, although some states impose certain requirements on coverage of their residents.",
+      "memoryTip": "Group law follows the master policy's delivery state.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q017",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.6.2.3"
+      ],
+      "concepts": [
+        "probationary-period"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "The period a new employee must wait before becoming eligible to enroll in the group health plan is called the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Elimination period",
+          "rationale": "Incorrect: an elimination period is a waiting period before disability benefits are paid."
+        },
+        {
+          "id": "b",
+          "text": "Free-look period",
+          "rationale": "Incorrect: free look allows a new policyowner to cancel for a refund."
+        },
+        {
+          "id": "c",
+          "text": "Grace period",
+          "rationale": "Incorrect: a grace period allows late premium payment."
+        },
+        {
+          "id": "d",
+          "text": "Probationary period",
+          "rationale": "Correct: the probationary (waiting) period is the time that must pass before a new employee is eligible for coverage."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Federal law defines a waiting period as 'the period that must pass with respect to the individual before the individual is eligible to be covered for benefits under the terms of the plan'. In group insurance it is commonly called the probationary period, and it applies equally to all new employees.",
+      "memoryTip": "Probation = new hire waits to join.",
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-42-300gg-3"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q018",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.6.3"
+      ],
+      "concepts": [
+        "coordination-of-benefits"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "scenario": "Lisa is covered as an employee under her employer's group plan and as a dependent spouse under her husband's group plan. Her husband's birthday is in February; hers is in October.",
+      "stem": "Which plan is primary for Lisa's own claims?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Her own employer's plan, which covers her as an employee",
+          "rationale": "Correct: the plan covering a person as an employee pays before a plan covering her as a dependent."
+        },
+        {
+          "id": "b",
+          "text": "Whichever plan she enrolled in first",
+          "rationale": "Incorrect: the length-of-coverage rule is a last tie-breaker, not the first rule."
+        },
+        {
+          "id": "c",
+          "text": "Her husband's plan, because his birthday is earlier in the year",
+          "rationale": "Incorrect: the birthday rule applies to dependent children, not to a spouse's own claims."
+        },
+        {
+          "id": "d",
+          "text": "Her husband's plan, because it has richer benefits",
+          "rationale": "Incorrect: benefit richness does not determine the order."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Under 11 NYCRR § 52.23, the benefits of a plan that covers the person as an employee, member or subscriber are determined before those of a plan that covers the person as a dependent. Lisa's own employer plan is primary; her husband's plan is secondary for her claims.",
+      "memoryTip": "Your own job's plan pays first for you.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52-23"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q019",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.6.3"
+      ],
+      "concepts": [
+        "coordination-of-benefits"
+      ],
+      "difficulty": 2,
+      "style": "application",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "scenario": "Jenny (born April 3, 1990) and Mark (born September 12, 1984) are married. Their son is covered as a dependent under both parents' employer plans.",
+      "stem": "Under New York's birthday rule, which parent's plan is primary for their son's claims?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mark's plan, because Mark is the older parent",
+          "rationale": "Incorrect: the birthday rule uses month and day only, not the year of birth."
+        },
+        {
+          "id": "b",
+          "text": "Mark's plan, because the father's plan is always primary",
+          "rationale": "Incorrect: New York's rule does not depend on the parent's gender."
+        },
+        {
+          "id": "c",
+          "text": "Jenny's plan, because April 3 comes earlier in the year",
+          "rationale": "Correct: the plan of the parent whose birthday falls earlier in the year is primary."
+        },
+        {
+          "id": "d",
+          "text": "The plan that has covered the child longer",
+          "rationale": "Incorrect: the birthday rule applies first for children of parents who are married or living together."
+        }
+      ],
+      "correct": "c",
+      "explanation": "For a dependent child of parents who are married (or living together), 11 NYCRR § 52.23 makes the plan of the parent whose birthday falls earlier in the year primary. 'Birthday' means only month and day. April 3 comes before September 12, so Jenny's plan is primary.",
+      "memoryTip": "Birthday rule: earliest month/day wins; the year doesn't matter.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Birthday rule applies to dependent children",
+            "anyOf": [
+              "birthday"
+            ]
+          },
+          {
+            "label": "Month and day only, not year",
+            "anyOf": [
+              "month and day",
+              "not the year",
+              "year doesn't",
+              "age doesn't"
+            ]
+          },
+          {
+            "label": "April before September → Jenny primary",
+            "anyOf": [
+              "Jenny",
+              "April"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52-23"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q020",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.6.4.2"
+      ],
+      "concepts": [
+        "extension-of-benefits"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Nora is totally disabled and hospitalized when her employer's group health policy with Insurer A terminates on June 30 and is replaced by a policy with Insurer B.",
+      "stem": "Which statement best describes Nora's coverage after June 30 under an extension of benefits provision?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The old plan continues to cover all of Nora's medical expenses for the rest of her life",
+          "rationale": "Incorrect: extension of benefits is limited in time and scope."
+        },
+        {
+          "id": "b",
+          "text": "The old plan continues to cover expenses related to her disabling condition for a limited period",
+          "rationale": "Correct: extension of benefits covers only the disabling condition for a limited time after termination."
+        },
+        {
+          "id": "c",
+          "text": "Nora must elect COBRA within 60 days or lose all benefits",
+          "rationale": "Incorrect: COBRA is a separate right; extension of benefits does not require an election or premium."
+        },
+        {
+          "id": "d",
+          "text": "No coverage applies because the group policy was terminated",
+          "rationale": "Incorrect: the extension provision exists precisely for people totally disabled at termination."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Extension of benefits protects a person who is totally disabled on the date group coverage terminates by continuing benefits for the disabling condition for a limited period. It is different from continuation (COBRA or New York continuation), which continues the whole plan for a premium.",
+      "memoryTip": "Extension: only the disabling condition, only for a while.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q021",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.6.4.3"
+      ],
+      "concepts": [
+        "cobra"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Elise is covered as a spouse under her husband's group health plan through his employer, which has 500 employees. They divorce, and she loses eligibility under the plan.",
+      "stem": "For how long may Elise continue coverage under COBRA?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "18 months",
+          "rationale": "Incorrect: 18 months applies to termination of employment or reduction in hours."
+        },
+        {
+          "id": "b",
+          "text": "36 months",
+          "rationale": "Correct: divorce is a qualifying event with a maximum of 36 months."
+        },
+        {
+          "id": "c",
+          "text": "29 months",
+          "rationale": "Incorrect: 29 months is the disability extension of the 18-month period."
+        },
+        {
+          "id": "d",
+          "text": "12 months",
+          "rationale": "Incorrect: COBRA has no 12-month period."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Under 29 U.S.C. § 1162, the 18-month maximum applies to termination of employment or reduction in hours. Other qualifying events, such as divorce, death of the employee, Medicare entitlement of the employee or a child's loss of dependent status, carry a 36-month maximum.",
+      "memoryTip": "Job events = 18; family events = 36.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Divorce is a qualifying event for the spouse",
+            "anyOf": [
+              "divorce"
+            ]
+          },
+          {
+            "label": "36-month maximum",
+            "anyOf": [
+              "36"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-29-1162",
+        "fed-dol-cobra"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q022",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.6.4.3"
+      ],
+      "concepts": [
+        "ny-continuation",
+        "cobra"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "scenario": "Theo leaves his job at a New York florist with 9 employees. The florist provides an insured group health policy.",
+      "stem": "What continuation right does Theo have?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "None, because federal COBRA does not apply to employers with fewer than 20 employees",
+          "rationale": "Incorrect: New York state continuation applies to insured group policies even when COBRA does not."
+        },
+        {
+          "id": "b",
+          "text": "Federal COBRA continuation for up to 18 months",
+          "rationale": "Incorrect: COBRA generally applies to employers with 20 or more employees."
+        },
+        {
+          "id": "c",
+          "text": "Only a conversion policy; continuation is not available in New York",
+          "rationale": "Incorrect: New York provides both continuation and conversion rights."
+        },
+        {
+          "id": "d",
+          "text": "NY state continuation for up to 36 months (elect within 60 days)",
+          "rationale": "Correct: § 3221(m) provides state continuation for insured group policies, elected in writing within 60 days."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Federal COBRA generally applies to employers with 20 or more employees. New York Insurance Law § 3221(m) requires insured group hospital, surgical and medical policies to offer continuation to employees who lose coverage because of termination of employment, without evidence of insurability. Theo must request it in writing within 60 days; it can last up to 36 months at up to 102% of the group premium.",
+      "memoryTip": "Too small for COBRA? NY continuation fills the gap.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "COBRA doesn't apply under 20 employees",
+            "anyOf": [
+              "20",
+              "COBRA"
+            ]
+          },
+          {
+            "label": "NY state continuation applies to insured groups",
+            "anyOf": [
+              "state continuation",
+              "New York continuation",
+              "3221"
+            ]
+          },
+          {
+            "label": "36 months / 60-day written election",
+            "anyOf": [
+              "36",
+              "60"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3221",
+        "fed-dol-cobra"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q023",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.6.4.4"
+      ],
+      "concepts": [
+        "conversion-privilege"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "Under NY Insurance Law § 3221(e), an employee whose group hospital/medical coverage ends because of termination of employment may obtain an individual conversion policy without evidence of insurability if the employee applies within:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "60 days after termination",
+          "rationale": "Correct: § 3221(e)(1) allows application within sixty days after termination."
+        },
+        {
+          "id": "b",
+          "text": "31 days after termination",
+          "rationale": "Incorrect: § 3221(e) allows 60 days for group hospital/medical conversion, not 31."
+        },
+        {
+          "id": "c",
+          "text": "90 days after termination",
+          "rationale": "Incorrect: the statute says 60 days."
+        },
+        {
+          "id": "d",
+          "text": "6 months after termination",
+          "rationale": "Incorrect: the statute says 60 days."
+        }
+      ],
+      "correct": "a",
+      "explanation": "NY Insurance Law § 3221(e)(1) requires group hospital, medical or surgical expense policies (other than specific disease or accident only) to give an employee or member whose insurance ends because employment or membership ends, or because the policy ends, the right to an individual policy without evidence of insurability, upon application within sixty days after termination. The right does not apply when the policyholder replaced the group policy with similar and continuous coverage for the same group.",
+      "memoryTip": "Group health conversion in NY: 60 days, no medical questions.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3221"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q024",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.7.1"
+      ],
+      "concepts": [
+        "small-employer"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "rapid",
+        "ny-law"
+      ],
+      "stem": "For policies issued or renewed on or after January 1, 2016, New York Insurance Law § 3231 defines a small group as one covering:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Between 20 and 100 employees, excluding dependents",
+          "rationale": "Incorrect: groups of 1 to 19 employees are also small groups."
+        },
+        {
+          "id": "b",
+          "text": "Between 2 and 25 employees, counting their dependents",
+          "rationale": "Incorrect: neither the range nor the counting rule is correct."
+        },
+        {
+          "id": "c",
+          "text": "1 to 100 employees, not counting spouses and dependents",
+          "rationale": "Correct: this is the statutory definition."
+        },
+        {
+          "id": "d",
+          "text": "Fewer than 20 employees, including the owner",
+          "rationale": "Incorrect: 20 is the COBRA threshold, not the NY small group definition."
+        }
+      ],
+      "correct": "c",
+      "explanation": "§ 3231(a)(1) (and § 4317(a)(1) for Article 43 corporations) defines small group coverage as covering between one and one hundred employees or members for policies issued or renewed on or after January 1, 2016, exclusive of spouses and dependents. (The older wording in 11 NYCRR 360.2(f) referred to two to 50.)",
+      "memoryTip": "NY small group = 1 to 100.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3231",
+        "ny-isc-4317"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q025",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.7.3",
+        "grp.7.4"
+      ],
+      "concepts": [
+        "small-employer",
+        "guaranteed-issue"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording",
+        "ny-law"
+      ],
+      "stem": "Under New York's rating and availability rules for small group health coverage, an insurer may NOT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Use separate community rates for reasonable geographic regions",
+          "rationale": "Incorrect: § 3231(c)(1) permits regional community rates."
+        },
+        {
+          "id": "b",
+          "text": "Terminate coverage for nonpayment of premium",
+          "rationale": "Incorrect: nonpayment is a permitted reason for termination."
+        },
+        {
+          "id": "c",
+          "text": "Establish separate community rates for individuals and for small groups",
+          "rationale": "Incorrect: § 3231(b)(2) requires separate rates for individuals and small groups."
+        },
+        {
+          "id": "d",
+          "text": "Terminate a small group's coverage because of its claims experience",
+          "rationale": "Correct: once accepted, a small group cannot be terminated by the insurer due to claims experience."
+        }
+      ],
+      "correct": "d",
+      "explanation": "NY Insurance Law § 3231(a) requires small groups to be accepted at all times throughout the year and community rated, and once accepted, a small group 'cannot be terminated by the insurer due to claims experience'. Termination must be based on permitted reasons such as nonpayment of premium or fraud.",
+      "memoryTip": "Small group: accept any time, never drop for claims.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3231",
+        "ny-11nycrr-360"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q026",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.1.2"
+      ],
+      "concepts": [
+        "certificate-of-coverage",
+        "master-policy"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "In a group health plan, the document each covered employee receives as evidence of coverage is the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Certificate of coverage",
+          "rationale": "Correct: each insured member receives a certificate summarizing coverage under the master policy."
+        },
+        {
+          "id": "b",
+          "text": "Master policy",
+          "rationale": "Incorrect: the master policy is held by the group policyholder, usually the employer."
+        },
+        {
+          "id": "c",
+          "text": "Conditional receipt",
+          "rationale": "Incorrect: a conditional receipt relates to premium paid with an application."
+        },
+        {
+          "id": "d",
+          "text": "Buyer's guide",
+          "rationale": "Incorrect: a buyer's guide is a consumer publication, not evidence of group coverage."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Group insurance uses one master policy issued to the policyholder. Each covered member receives a certificate of coverage that summarizes benefits and rights; the certificate is not a separate contract.",
+      "memoryTip": "Employer holds the policy; you hold the certificate.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q027",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.2.1.3",
+        "grp.2.1.2"
+      ],
+      "concepts": [
+        "association-group",
+        "professional-employer-organization"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [],
+      "stem": "Which description fits an association group rather than a professional employer organization (PEO)?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A firm that co-employs workers of many small businesses and runs their payroll",
+          "rationale": "Incorrect: that is a PEO."
+        },
+        {
+          "id": "b",
+          "text": "A company paid a fee only to process a self-funded employer's claims",
+          "rationale": "Incorrect: that is an ASO provider or TPA."
+        },
+        {
+          "id": "c",
+          "text": "A professional society, formed for purposes other than insurance, offering coverage to members",
+          "rationale": "Correct: association groups are alumni, professional or trade associations offering coverage to members."
+        },
+        {
+          "id": "d",
+          "text": "A bus line covering all of its passengers without naming them",
+          "rationale": "Incorrect: that is blanket insurance."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Association groups (alumni, professional, trade associations) offer coverage to their members and should exist for reasons other than obtaining insurance. A PEO is a co-employer that handles payroll and benefits for the workers of client businesses.",
+      "memoryTip": "Association = members of a society; PEO = co-employer of workers.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q028",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.6.1",
+        "grp.6.1.1",
+        "grp.6.1.2",
+        "grp.6.1.3",
+        "grp.6.1.4"
+      ],
+      "concepts": [
+        "persistency",
+        "eligible-group"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "In group health underwriting, an insurer generally considers all of the following EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The reason the group exists and its size and composition",
+          "rationale": "Incorrect: characteristics of the group are a core underwriting factor."
+        },
+        {
+          "id": "b",
+          "text": "A separate medical exam for every employee in a large group",
+          "rationale": "Correct: group underwriting evaluates the group as a whole, not individual medical exams for each employee of a large group."
+        },
+        {
+          "id": "c",
+          "text": "Plan design, including whether employees contribute",
+          "rationale": "Incorrect: plan design affects participation and risk."
+        },
+        {
+          "id": "d",
+          "text": "How long the group has kept prior coverage (persistency)",
+          "rationale": "Incorrect: persistency is a standard group underwriting factor."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Group underwriting looks at the group: why it was formed, its size, age/sex mix and industry; the plan design (benefit levels, contributory vs. noncontributory); persistency; and the policyholder's administrative capability. Large groups are generally not underwritten through individual medical exams.",
+      "memoryTip": "Underwrite the GROUP: character, design, persistency, administration.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q029",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.6.2.4"
+      ],
+      "concepts": [
+        "eligible-group",
+        "mandated-benefit"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "Ava, 24, recently married and moved to her own apartment. She is covered as a dependent under her father's New York employer group hospital and medical plan.",
+      "stem": "Under New York group insurance law, can Ava remain covered as a dependent on her father's group hospital/medical plan?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No, because she is married",
+          "rationale": "Incorrect: § 4235(f)(1) covers married or unmarried children."
+        },
+        {
+          "id": "b",
+          "text": "Yes, until she attains age 26",
+          "rationale": "Correct: group hospital/medical coverage for children must cover a married or unmarried child until age 26."
+        },
+        {
+          "id": "c",
+          "text": "No, because she no longer lives with her father",
+          "rationale": "Incorrect: residency does not affect eligibility under the age-26 rule."
+        },
+        {
+          "id": "d",
+          "text": "Yes, but only until age 23 unless she is a student",
+          "rationale": "Incorrect: student status is not required for hospital/medical coverage."
+        }
+      ],
+      "correct": "b",
+      "explanation": "NY Insurance Law § 4235(f)(1)(A)(i): a group policy of hospital, medical, surgical or prescription drug expense insurance that covers children must cover a married or unmarried child until attainment of age 26.",
+      "memoryTip": "Group or individual, NY covers kids to 26.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-4235"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q030",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.6.4.1",
+        "grp.3.2"
+      ],
+      "concepts": [
+        "fmla",
+        "cobra"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording",
+        "tricky"
+      ],
+      "stem": "Each of the following events would ordinarily end an employee's group health coverage EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Termination of employment",
+          "rationale": "Incorrect: leaving the job ends active coverage (continuation rights may then apply)."
+        },
+        {
+          "id": "b",
+          "text": "Failure to pay the required employee contribution",
+          "rationale": "Incorrect: nonpayment of the required contribution ends coverage."
+        },
+        {
+          "id": "c",
+          "text": "Termination of the group master policy",
+          "rationale": "Incorrect: if the master policy ends, coverage under it ends."
+        },
+        {
+          "id": "d",
+          "text": "Taking 10 weeks of approved FMLA leave",
+          "rationale": "Correct: the FMLA requires group health benefits to continue on the same terms during leave."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Group coverage typically ends when employment ends, when the employee moves out of an eligible class, when required contributions are not paid, or when the group policy terminates. Approved FMLA leave does not end coverage: the employer must continue group health benefits under the same terms as if the employee were working.",
+      "memoryTip": "FMLA leave pauses work, not coverage.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-dol-fmla",
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q031",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.6.2.1"
+      ],
+      "concepts": [
+        "open-enrollment-group"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Carlos declined his employer's health plan when he was hired and has had no qualifying life event since. When can he generally enroll?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "During the plan's next annual open enrollment period",
+          "rationale": "Correct: open enrollment lets eligible employees enroll without a qualifying event."
+        },
+        {
+          "id": "b",
+          "text": "Only if he leaves and is rehired",
+          "rationale": "Incorrect: annual open enrollment gives him a chance to join."
+        },
+        {
+          "id": "c",
+          "text": "At any time, by submitting evidence of good health",
+          "rationale": "Incorrect: group plans generally use enrollment windows, not health evidence."
+        },
+        {
+          "id": "d",
+          "text": "Never; declining coverage once is permanent",
+          "rationale": "Incorrect: he can enroll at the next open enrollment."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Group plans hold an annual open enrollment period when eligible employees can enroll or change coverage. Outside that window, an employee generally needs a special enrollment event such as loss of other coverage, marriage, birth or adoption.",
+      "memoryTip": "Missed it? Wait for open enrollment (or a life event).",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q032",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.5.1",
+        "grp.5"
+      ],
+      "concepts": [
+        "master-policy"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "A producer creates a brochure for an insurer's small group health plan that overstates the plan's benefits. Which statement is most accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only the producer can be responsible, because the insurer did not write it",
+          "rationale": "Incorrect: insurers are responsible for advertisements of their products, including those prepared by producers."
+        },
+        {
+          "id": "b",
+          "text": "The brochure is acceptable as long as the master policy itself is accurate",
+          "rationale": "Incorrect: misleading advertising is not cured by an accurate contract."
+        },
+        {
+          "id": "c",
+          "text": "It is misleading, and the insurer is responsible for its products' advertising",
+          "rationale": "Correct: advertising must not misrepresent benefits, and the insurer is responsible for its product advertising."
+        },
+        {
+          "id": "d",
+          "text": "Group advertising is not regulated because it is aimed at employers, not consumers",
+          "rationale": "Incorrect: group coverage advertising is subject to rules against misrepresentation."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Advertising for group coverage, like individual coverage, must not misrepresent benefits or terms. Insurers are responsible for advertisements of their products, including materials prepared by their producers, and producers who misrepresent coverage face their own penalties.",
+      "memoryTip": "Ads must tell the truth, and the insurer owns its ads.",
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

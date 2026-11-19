@@ -1,0 +1,183 @@
+{
+  "sources": [
+    {
+      "id": "ny-isc-3216-c4",
+      "title": "NY Insurance Law § 3216(a)(4), (c)(4)(A), (c)(4)(C) — Dependent child age limit, disabled-child extension, newborn coverage (individual policies)",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/3216",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 3216(a)(4), (c)(4)(A), (c)(4)(C) (revision from 2026-10-02)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-3216-dependents.md",
+      "notes": "Separate excerpt from the standard-provisions excerpt (ISC-3216.md) saved by another batch."
+    },
+    {
+      "id": "ny-isc-4235",
+      "title": "NY Insurance Law § 4235 — Group accident and health insurance (eligible groups, dependents, newborns)",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/4235",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 4235(a), (c)(1), (f)(1)-(2) (revision from 2023-07-07)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-4235.md"
+    },
+    {
+      "id": "ny-isc-3221",
+      "title": "NY Insurance Law § 3221 — Group or blanket accident and health insurance policy provisions (conversion, continuation)",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/3221",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 3221(e), (m) (revision from 2026-06-05)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-3221.md",
+      "notes": "36-month / 102% continuation figures captured as extracted phrases only; see excerpt file."
+    },
+    {
+      "id": "ny-isc-4900",
+      "title": "NY Insurance Law § 4900 — Definitions (Article 49: utilization review and external appeal)",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/4900",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 4900 (revision from 2026-06-05)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-4900.md"
+    },
+    {
+      "id": "ny-isc-4303",
+      "title": "NY Insurance Law § 4303(j) — Preventive and primary care services",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/4303",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 4303(j) (revision from 2026-06-05)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-4303.md"
+    },
+    {
+      "id": "ny-11nycrr-52-23",
+      "title": "11 NYCRR § 52.23 (Insurance Regulation 62) — Coordination of benefits",
+      "publisher": "Legal Information Institute (Cornell) — N.Y. Comp. Codes R. & Regs.",
+      "url": "https://www.law.cornell.edu/regulations/new-york/11-NYCRR-52.23",
+      "kind": "regulation",
+      "citation": "11 NYCRR 52.23 (amended eff. 11/16/2016)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/11NYCRR-52.23.md"
+    },
+    {
+      "id": "fed-usc-42-18022",
+      "title": "42 U.S.C. § 18022 — Essential health benefits requirements (metal levels, catastrophic plans)",
+      "publisher": "Legal Information Institute (Cornell) — U.S. Code",
+      "url": "https://www.law.cornell.edu/uscode/text/42/18022",
+      "kind": "federal",
+      "citation": "42 U.S.C. § 18022 (ACA § 1302)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/USC-42-18022.md"
+    },
+    {
+      "id": "fed-usc-42-300gg-18",
+      "title": "42 U.S.C. § 300gg-18 — Medical loss ratio and rebates (PHSA § 2718)",
+      "publisher": "Legal Information Institute (Cornell) — U.S. Code",
+      "url": "https://www.law.cornell.edu/uscode/text/42/300gg-18",
+      "kind": "federal",
+      "citation": "42 U.S.C. § 300gg-18",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/USC-42-300gg-18.md"
+    },
+    {
+      "id": "fed-usc-42-300gg-11",
+      "title": "42 U.S.C. § 300gg-11 — No lifetime or annual limits (PHSA § 2711)",
+      "publisher": "Legal Information Institute (Cornell) — U.S. Code",
+      "url": "https://www.law.cornell.edu/uscode/text/42/300gg-11",
+      "kind": "federal",
+      "citation": "42 U.S.C. § 300gg-11",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/USC-42-300gg-11.md"
+    },
+    {
+      "id": "fed-usc-42-300gg-3",
+      "title": "42 U.S.C. § 300gg-3 — Prohibition of preexisting condition exclusions; HIPAA special enrollment and waiting periods (PHSA § 2704)",
+      "publisher": "Legal Information Institute (Cornell) — U.S. Code",
+      "url": "https://www.law.cornell.edu/uscode/text/42/300gg-3",
+      "kind": "federal",
+      "citation": "42 U.S.C. § 300gg-3",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/USC-42-300gg-3.md"
+    },
+    {
+      "id": "fed-healthcare-gov-glossary",
+      "title": "HealthCare.gov glossary: Second lowest cost Silver plan (SLCSP), Cost sharing reduction (CSR), Fee (individual mandate)",
+      "publisher": "Centers for Medicare & Medicaid Services (HealthCare.gov)",
+      "url": "https://www.healthcare.gov/glossary/",
+      "kind": "federal",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/healthcare-gov-glossary.md"
+    },
+    {
+      "id": "fed-irs-esr",
+      "title": "IRS — Employer shared responsibility provisions",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/affordable-care-act/employers/employer-shared-responsibility-provisions",
+      "kind": "federal",
+      "citation": "26 U.S.C. § 4980H (IRS guidance page)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/IRS-employer-shared-responsibility.md"
+    },
+    {
+      "id": "fed-dol-cobra",
+      "title": "U.S. Department of Labor — Continuation of Health Coverage (COBRA)",
+      "publisher": "U.S. Department of Labor",
+      "url": "https://www.dol.gov/general/topic/health-plans/cobra",
+      "kind": "federal",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/DOL-COBRA.md"
+    },
+    {
+      "id": "fed-usc-29-1162",
+      "title": "29 U.S.C. § 1162 — COBRA continuation coverage (ERISA § 602)",
+      "publisher": "Legal Information Institute (Cornell) — U.S. Code",
+      "url": "https://www.law.cornell.edu/uscode/text/29/1162",
+      "kind": "federal",
+      "citation": "29 U.S.C. § 1162",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/USC-29-1162.md"
+    },
+    {
+      "id": "ny-isc-4237",
+      "title": "NY Insurance Law § 4237 — Blanket accident and health insurance",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/4237",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 4237 (revision from 2020-04-10)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-4237.md"
+    },
+    {
+      "id": "fed-medicare-gov-coordination",
+      "title": "Medicare.gov — How Medicare works with other insurance; Who pays first?",
+      "publisher": "Centers for Medicare & Medicaid Services (Medicare.gov)",
+      "url": "https://www.medicare.gov/health-drug-plans/coordination/who-pays-first",
+      "kind": "federal",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/medicare-gov-coordination.md"
+    },
+    {
+      "id": "fed-dol-fmla",
+      "title": "U.S. Department of Labor — Family and Medical Leave Act",
+      "publisher": "U.S. Department of Labor, Wage and Hour Division",
+      "url": "https://www.dol.gov/agencies/whd/fmla",
+      "kind": "federal",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/DOL-FMLA.md",
+      "notes": "Page last updated January 26, 2026."
+    },
+    {
+      "id": "ny-pbh-268-b",
+      "title": "NY Public Health Law § 268-b — Establishment of NY State of Health, The Official Health Plan Marketplace",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/PBH/268-B",
+      "kind": "statute",
+      "citation": "N.Y. Pub. Health Law § 268-b (revision from 2019-04-19)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/PBH-268-B.md"
+    }
+  ]
+}

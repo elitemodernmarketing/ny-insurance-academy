@@ -1,0 +1,1684 @@
+{
+  "sectionId": "pldwl",
+  "questions": [
+    {
+      "id": "pldwl-q001",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "pldwl",
+      "outlineIds": [
+        "pldwl.1"
+      ],
+      "concepts": [
+        "dwelling-policy"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Which property is the best fit for a dwelling policy rather than a homeowners policy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A condominium unit the owner lives in",
+          "rationale": "Incorrect: a condo unit owner who lives there would normally use the unit-owners homeowners form (HO-6)."
+        },
+        {
+          "id": "b",
+          "text": "A two-family house the owner rents out and does not live in",
+          "rationale": "Correct: dwelling policies are designed for residential dwellings, including those rented to others, while homeowners forms require the insured to live there."
+        },
+        {
+          "id": "c",
+          "text": "An apartment rented by a tenant who wants contents coverage",
+          "rationale": "Incorrect: a tenant buying contents coverage normally uses the homeowners contents broad form (HO-4)."
+        },
+        {
+          "id": "d",
+          "text": "A retail store with an apartment above it",
+          "rationale": "Incorrect: a mainly commercial building is written on commercial forms, not the dwelling program."
+        }
+      ],
+      "correct": "b",
+      "explanation": "The dwelling program insures one- to four-family residential dwellings and is commonly used for rental (non-owner-occupied) homes and for homes that do not meet homeowners eligibility. Homeowners forms require owner occupancy (or tenancy for HO-4).",
+      "memoryTip": "Landlord's house = Dwelling policy.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pldwl-q002",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "pldwl",
+      "outlineIds": [
+        "pldwl.1"
+      ],
+      "concepts": [
+        "dwelling-policy",
+        "personal-liability-supplement"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [],
+      "stem": "Compared with a homeowners policy, what does a dwelling policy lack unless something is added?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Coverage for the dwelling building and attached structures",
+          "rationale": "Incorrect: Coverage A in every dwelling form insures the dwelling."
+        },
+        {
+          "id": "b",
+          "text": "Coverage for other structures on the premises",
+          "rationale": "Incorrect: other structures coverage is part of the dwelling forms."
+        },
+        {
+          "id": "c",
+          "text": "Coverage for loss of rental income",
+          "rationale": "Incorrect: fair rental value coverage is part of the dwelling forms."
+        },
+        {
+          "id": "d",
+          "text": "Personal liability and medical payments to others coverage",
+          "rationale": "Correct: the dwelling policy is a property-only policy; liability is added with a personal liability supplement."
+        }
+      ],
+      "correct": "d",
+      "explanation": "A homeowners policy is a package (property in Section I, liability in Section II). A dwelling policy covers property only; liability and medical payments to others come from a personal liability supplement or another liability policy.",
+      "memoryTip": "DP = Property only; add the PLS for liability.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pldwl-q003",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "pldwl",
+      "outlineIds": [
+        "pldwl.2.1"
+      ],
+      "concepts": [
+        "dp-basic-form"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Which perils form the core coverage of the Dwelling Basic Form (DP-1) before any optional perils are purchased?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fire, lightning and internal explosion",
+          "rationale": "Correct: these are the basic perils that come with DP-1; others are added only when a premium is shown."
+        },
+        {
+          "id": "b",
+          "text": "Fire, theft and vandalism",
+          "rationale": "Incorrect: theft is not a dwelling-form peril and vandalism is optional on DP-1."
+        },
+        {
+          "id": "c",
+          "text": "Windstorm, hail and flood",
+          "rationale": "Incorrect: windstorm and hail are optional on DP-1 and flood is excluded entirely."
+        },
+        {
+          "id": "d",
+          "text": "Any direct physical loss not excluded",
+          "rationale": "Incorrect: that describes open perils (DP-3 on the dwelling), not DP-1."
+        }
+      ],
+      "correct": "a",
+      "explanation": "DP-1 starts with fire, lightning and internal explosion. Windstorm, hail, explosion, riot, aircraft, vehicles, smoke and volcanic eruption (often called extended coverage) and vandalism or malicious mischief can be added for an extra premium.",
+      "memoryTip": "DP-1 = Fire, Lightning, Internal explosion — the rest costs extra.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pldwl-q004",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "pldwl",
+      "outlineIds": [
+        "pldwl.2.1"
+      ],
+      "concepts": [
+        "dp-basic-form",
+        "named-perils-coverage"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Ivan insures his rental house on a Dwelling Basic Form (DP-1). His declarations show a premium only for fire, lightning and internal explosion. A windstorm tears shingles off the roof.",
+      "stem": "Is the loss covered?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, windstorm is one of the core basic perils",
+          "rationale": "Incorrect: the core DP-1 perils are fire, lightning and internal explosion."
+        },
+        {
+          "id": "b",
+          "text": "Yes, because DP-1 covers any loss not excluded",
+          "rationale": "Incorrect: DP-1 is a named-perils form, not open perils."
+        },
+        {
+          "id": "c",
+          "text": "No, windstorm was not purchased for this DP-1 policy",
+          "rationale": "Correct: on DP-1, windstorm and the other extended perils apply only when the declarations show a premium for them."
+        },
+        {
+          "id": "d",
+          "text": "No, windstorm is excluded under every dwelling form",
+          "rationale": "Incorrect: windstorm is covered by DP-2 and DP-3 and can be added to DP-1."
+        }
+      ],
+      "correct": "c",
+      "explanation": "DP-1 is a named-perils form. Its automatic perils are fire, lightning and internal explosion; windstorm or hail and the other extended perils, plus vandalism, apply only if purchased. Because Ivan bought only the core perils, the wind damage is not covered.",
+      "memoryTip": "On DP-1, if you did not pay for the peril, you do not get the coverage.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "DP-1 is named perils",
+            "anyOf": [
+              "named peril",
+              "named-peril",
+              "listed"
+            ]
+          },
+          {
+            "label": "Windstorm is optional on DP-1",
+            "anyOf": [
+              "optional",
+              "extended",
+              "purchase",
+              "premium"
+            ]
+          },
+          {
+            "label": "Loss not covered",
+            "anyOf": [
+              "not covered",
+              "no coverage",
+              "denied"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pldwl-q005",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "pldwl",
+      "outlineIds": [
+        "pldwl.2.2"
+      ],
+      "concepts": [
+        "dp-broad-form"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "A water pipe inside the wall of a rental dwelling suddenly bursts and soaks the drywall and floors.",
+      "stem": "Which coverage form would cover this loss?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "DP-1 only",
+          "rationale": "Incorrect: DP-1 does not include accidental discharge of water."
+        },
+        {
+          "id": "b",
+          "text": "DP-2 or DP-3, but not DP-1",
+          "rationale": "Correct: accidental discharge of water from plumbing is a broad-form peril, also covered by DP-3's open perils; it is not a DP-1 peril."
+        },
+        {
+          "id": "c",
+          "text": "None of the dwelling forms",
+          "rationale": "Incorrect: the broad and special forms do cover sudden accidental discharge of water from plumbing."
+        },
+        {
+          "id": "d",
+          "text": "DP-1 and DP-2, but not DP-3",
+          "rationale": "Incorrect: DP-1 does not cover water discharge, and DP-3 covers it on an open-perils basis."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Accidental discharge or overflow of water or steam from a plumbing, heating or air-conditioning system is one of the perils DP-2 adds. DP-3 covers the dwelling on an open-perils basis, so a sudden pipe burst is also covered there. DP-1 does not list this peril.",
+      "memoryTip": "Burst pipe? Broad or Special, never Basic.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Water discharge is a broad peril",
+            "anyOf": [
+              "broad",
+              "DP-2",
+              "accidental discharge"
+            ]
+          },
+          {
+            "label": "DP-3 open perils covers it",
+            "anyOf": [
+              "DP-3",
+              "open peril",
+              "special"
+            ]
+          },
+          {
+            "label": "DP-1 does not",
+            "anyOf": [
+              "DP-1",
+              "basic"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pldwl-q006",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "pldwl",
+      "outlineIds": [
+        "pldwl.2.2"
+      ],
+      "concepts": [
+        "dp-broad-form"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording",
+        "tricky"
+      ],
+      "stem": "Each of the following is a peril added by the Dwelling Broad Form (DP-2) EXCEPT",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Falling objects",
+          "rationale": "Incorrect: falling objects is one of the broad-form perils."
+        },
+        {
+          "id": "b",
+          "text": "Freezing of a plumbing system",
+          "rationale": "Incorrect: freezing is a broad-form peril (subject to conditions about maintaining heat)."
+        },
+        {
+          "id": "c",
+          "text": "Theft of personal property",
+          "rationale": "Correct: theft is not a DP-2 peril; it requires a theft endorsement."
+        },
+        {
+          "id": "d",
+          "text": "Damage by burglars",
+          "rationale": "Incorrect: damage to the building caused by burglars is a broad-form peril."
+        }
+      ],
+      "correct": "c",
+      "explanation": "DP-2 adds damage by burglars, falling objects, weight of ice/snow/sleet, accidental discharge of water or steam, sudden tearing apart of heating or water systems, freezing and artificially generated electrical current. Theft of property itself is never a dwelling-form peril; it is added by endorsement.",
+      "memoryTip": "Burglar DAMAGE yes; burglar THEFT no.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pldwl-q007",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "pldwl",
+      "outlineIds": [
+        "pldwl.2.3"
+      ],
+      "concepts": [
+        "dp-special-form",
+        "open-perils-coverage"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "How does the Dwelling Special Form (DP-3) insure personal property?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Against broad named perils",
+          "rationale": "Correct: DP-3 uses open perils for the dwelling and other structures but broad named perils for personal property."
+        },
+        {
+          "id": "b",
+          "text": "On an open-perils basis",
+          "rationale": "Incorrect: open perils applies to the dwelling and other structures, not to contents, in DP-3."
+        },
+        {
+          "id": "c",
+          "text": "Against fire and lightning only",
+          "rationale": "Incorrect: that is too narrow; DP-3 contents get the broad named perils."
+        },
+        {
+          "id": "d",
+          "text": "It does not cover personal property",
+          "rationale": "Incorrect: DP-3 can include Coverage C for personal property."
+        }
+      ],
+      "correct": "a",
+      "explanation": "DP-3 mirrors the HO-3 structure: special (open) perils on the building and other structures, broad named perils on personal property.",
+      "memoryTip": "DP-3: Open on the house, named on the stuff.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pldwl-q008",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "pldwl",
+      "outlineIds": [
+        "pldwl.2.3"
+      ],
+      "concepts": [
+        "dp-special-form",
+        "dp-broad-form"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "A contractor accidentally drops a gallon of dark paint from a ladder, staining the hardwood floors of a rental dwelling. Compare a DP-2 policy and a DP-3 policy on the same dwelling.",
+      "stem": "How does each form treat the loss?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Both forms cover it, because accidental paint damage is a broad named peril",
+          "rationale": "Incorrect: there is no general \"paint damage\" peril on the broad list."
+        },
+        {
+          "id": "b",
+          "text": "Neither form covers it, because every dwelling form insures only named perils",
+          "rationale": "Incorrect: DP-3 insures the dwelling on an open-perils basis."
+        },
+        {
+          "id": "c",
+          "text": "DP-2 covers it, but DP-3 specifically excludes accidental spills by contractors",
+          "rationale": "Incorrect: accidental spills are not excluded under DP-3, and DP-2 has no such peril."
+        },
+        {
+          "id": "d",
+          "text": "DP-3 covers it because it is not excluded; DP-2 does not because it is not a named peril",
+          "rationale": "Correct: DP-3 covers any non-excluded loss to the dwelling, while DP-2 covers only listed perils."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Under named perils (DP-2), the cause must appear on the list. Under open perils (DP-3), the dwelling is covered for direct physical loss unless an exclusion applies. Accidental staining by a dropped can of paint is not on the broad list and is not a typical exclusion.",
+      "memoryTip": "Named perils: prove it is listed. Open perils: the insurer must show it is excluded.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "DP-3 is open perils on the dwelling",
+            "anyOf": [
+              "open peril",
+              "not excluded",
+              "special"
+            ]
+          },
+          {
+            "label": "DP-2 requires a listed peril",
+            "anyOf": [
+              "named peril",
+              "listed",
+              "not on the list"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pldwl-q009",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "pldwl",
+      "outlineIds": [
+        "pldwl.3.1"
+      ],
+      "concepts": [
+        "coverage-a-dwelling",
+        "dwelling-policy"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Under a dwelling policy, which item is insured under Coverage A?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A detached shed behind the house",
+          "rationale": "Incorrect: detached structures fall under other structures (Coverage B)."
+        },
+        {
+          "id": "b",
+          "text": "The tenant's furniture and clothing",
+          "rationale": "Incorrect: a tenant's furniture is the tenant's property, not the owner's dwelling."
+        },
+        {
+          "id": "c",
+          "text": "A garage attached to the dwelling",
+          "rationale": "Correct: structures attached to the dwelling are part of Coverage A."
+        },
+        {
+          "id": "d",
+          "text": "Rent lost while repairs are being made",
+          "rationale": "Incorrect: lost rent is fair rental value (Coverage D)."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Coverage A insures the dwelling and structures attached to it, plus materials and supplies on or next to the premises for its construction or repair. Detached structures are Coverage B.",
+      "memoryTip": "Attached = A.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pldwl-q010",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "pldwl",
+      "outlineIds": [
+        "pldwl.3.2"
+      ],
+      "concepts": [
+        "other-structures"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "A structure on the dwelling premises connected to the house only by a fence is treated as",
+      "choices": [
+        {
+          "id": "a",
+          "text": "An other structure",
+          "rationale": "Correct: connection only by a fence, utility line or similar link still counts as separated from the dwelling."
+        },
+        {
+          "id": "b",
+          "text": "Part of the dwelling",
+          "rationale": "Incorrect: a fence or utility-line connection does not make it part of the dwelling."
+        },
+        {
+          "id": "c",
+          "text": "Personal property",
+          "rationale": "Incorrect: buildings are not personal property."
+        },
+        {
+          "id": "d",
+          "text": "Uninsured property",
+          "rationale": "Incorrect: other structures coverage applies to it."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Other structures are set apart from the dwelling by clear space, including those connected only by a fence, utility line or similar connection.",
+      "memoryTip": "Fence-connected is still separate.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pldwl-q011",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "pldwl",
+      "outlineIds": [
+        "pldwl.3.2",
+        "pldwl.3.6"
+      ],
+      "concepts": [
+        "other-structures",
+        "dwelling-policy"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Marta's dwelling policy has a Coverage A limit of $200,000 and no separate Coverage B limit. Her form lets her use up to 10% of the Coverage A limit for other structures. A covered fire causes $26,000 of damage to her detached garage. Ignore the deductible.",
+      "stem": "Using the extension described, what is the most the policy will pay for the garage?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$26,000",
+          "rationale": "Incorrect: the full loss exceeds the extension amount stated in the scenario."
+        },
+        {
+          "id": "b",
+          "text": "$6,000",
+          "rationale": "Incorrect: this is the uninsured part of the loss, not the payment."
+        },
+        {
+          "id": "c",
+          "text": "$2,600",
+          "rationale": "Incorrect: this applies 10% to the loss instead of to the Coverage A limit."
+        },
+        {
+          "id": "d",
+          "text": "$20,000",
+          "rationale": "Correct: 10% × $200,000 = $20,000, which caps the $26,000 loss."
+        }
+      ],
+      "correct": "d",
+      "explanation": "The scenario states the extension equals 10% of the Coverage A limit: 0.10 × $200,000 = $20,000. The garage loss is $26,000, so the policy pays $20,000 and the owner absorbs $6,000.",
+      "memoryTip": "Percentage extensions are based on the LIMIT, not the loss.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Extension is 10% of Coverage A",
+            "anyOf": [
+              "10%",
+              "20,000",
+              "200,000"
+            ]
+          },
+          {
+            "label": "Payment capped at extension amount",
+            "anyOf": [
+              "cap",
+              "maximum",
+              "most",
+              "limit"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pldwl-q012",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "pldwl",
+      "outlineIds": [
+        "pldwl.3.3"
+      ],
+      "concepts": [
+        "coverage-c-personal-property",
+        "dwelling-policy"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Owen rents out a furnished single-family house under a dwelling policy that includes Coverage C. He does not live there.",
+      "stem": "Whose property can Coverage C of Owen's dwelling policy insure?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The tenants' clothing, electronics and other belongings",
+          "rationale": "Incorrect: the tenants need their own renters policy; Owen's policy does not insure their belongings."
+        },
+        {
+          "id": "b",
+          "text": "Owen's appliances and furnishings he supplies with the rental",
+          "rationale": "Correct: Coverage C covers personal property of the named insured (and resident family) usual to the occupancy of a dwelling, such as landlord's furnishings."
+        },
+        {
+          "id": "c",
+          "text": "The detached garage at the back of the lot",
+          "rationale": "Incorrect: the garage is an other structure, not personal property."
+        },
+        {
+          "id": "d",
+          "text": "The tenants' cars parked in the driveway each night",
+          "rationale": "Incorrect: motor vehicles are not covered personal property and belong to the tenants."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Coverage C under a dwelling form insures household personal property usual to a dwelling's occupancy that belongs to the named insured (and resident family). For a landlord, that typically means the appliances and furnishings he supplies — not the tenants' belongings.",
+      "memoryTip": "Landlord's stuff yes; tenant's stuff — their own policy.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Coverage C covers the insured's property",
+            "anyOf": [
+              "insured",
+              "owner",
+              "landlord"
+            ]
+          },
+          {
+            "label": "Tenants need their own policy",
+            "anyOf": [
+              "renters",
+              "HO-4",
+              "own policy",
+              "tenant"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pldwl-q013",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "pldwl",
+      "outlineIds": [
+        "pldwl.3.4"
+      ],
+      "concepts": [
+        "fair-rental-value"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Lia rents her dwelling to a tenant for $2,000 per month. A covered fire makes it unfit to live in for 4 months. While it is vacant, $200 per month of expenses she normally pays (utilities included in the rent) stop.",
+      "stem": "How much will fair rental value pay for the period the unit is unfit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$7,200",
+          "rationale": "Correct: ($2,000 − $200) × 4 months = $7,200."
+        },
+        {
+          "id": "b",
+          "text": "$8,000",
+          "rationale": "Incorrect: this ignores the $200 per month of expenses that stopped."
+        },
+        {
+          "id": "c",
+          "text": "$800",
+          "rationale": "Incorrect: this is only the discontinued expenses for four months."
+        },
+        {
+          "id": "d",
+          "text": "$6,000",
+          "rationale": "Incorrect: this uses three months instead of four."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Fair rental value pays the rent lost, less charges and expenses that do not continue: $2,000 − $200 = $1,800 per month; $1,800 × 4 = $7,200.",
+      "memoryTip": "Lost rent minus stopped expenses, times months.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Subtract non-continuing expenses",
+            "anyOf": [
+              "200",
+              "expenses",
+              "stop"
+            ]
+          },
+          {
+            "label": "Multiply by months unfit",
+            "anyOf": [
+              "4 months",
+              "four months",
+              "1,800"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pldwl-q014",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "pldwl",
+      "outlineIds": [
+        "pldwl.3.4",
+        "pldwl.3.5"
+      ],
+      "concepts": [
+        "fair-rental-value",
+        "additional-living-expense"
+      ],
+      "difficulty": 1,
+      "style": "comparison",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "A covered fire forces the owner-occupant out of her home. Which dwelling coverage pays her extra hotel and meal costs?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fair rental value",
+          "rationale": "Incorrect: fair rental value pays lost rent on rented portions, not the occupant's extra costs."
+        },
+        {
+          "id": "b",
+          "text": "Other structures",
+          "rationale": "Incorrect: other structures covers detached buildings."
+        },
+        {
+          "id": "c",
+          "text": "Personal property",
+          "rationale": "Incorrect: personal property covers belongings, not living costs."
+        },
+        {
+          "id": "d",
+          "text": "Additional living expense",
+          "rationale": "Correct: ALE pays the increase in living costs for the insured household that lived in the dwelling."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Fair rental value protects rental income; additional living expense protects the occupant who must live elsewhere. In the dwelling program, ALE is part of the broad and special forms.",
+      "memoryTip": "You live there = ALE; you rent it out = FRV.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pldwl-q015",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "pldwl",
+      "outlineIds": [
+        "pldwl.3.5",
+        "pldwl.2.1"
+      ],
+      "concepts": [
+        "additional-living-expense",
+        "dp-basic-form"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Sam lives in the single-family dwelling he owns and is choosing among dwelling forms. He wants coverage for hotel costs if a fire ever forces his family out.",
+      "stem": "What is the best advice for Sam?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Choose DP-1, which includes additional living expense at no extra cost",
+          "rationale": "Incorrect: DP-1 does not include additional living expense."
+        },
+        {
+          "id": "b",
+          "text": "Rely on fair rental value, which will pay his family's hotel bills",
+          "rationale": "Incorrect: fair rental value pays lost rent, not the occupant's living costs."
+        },
+        {
+          "id": "c",
+          "text": "Choose DP-2 or DP-3; DP-1 does not include additional living expense",
+          "rationale": "Correct: among dwelling forms, ALE comes with the broad and special forms; DP-1 provides only fair rental value."
+        },
+        {
+          "id": "d",
+          "text": "Add a personal liability supplement, which pays ALE",
+          "rationale": "Incorrect: the supplement adds liability coverage, not loss of use."
+        }
+      ],
+      "correct": "c",
+      "explanation": "The dwelling forms all include fair rental value, but additional living expense — the increase in costs when the insured's own residence becomes unfit — is part of the broad and special forms only. An owner-occupant who wants hotel costs covered needs DP-2 or DP-3.",
+      "memoryTip": "ALE skips the Basic form.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "DP-1 lacks ALE",
+            "anyOf": [
+              "DP-1",
+              "basic"
+            ]
+          },
+          {
+            "label": "DP-2 / DP-3 include ALE",
+            "anyOf": [
+              "DP-2",
+              "DP-3",
+              "broad",
+              "special"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pldwl-q016",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "pldwl",
+      "outlineIds": [
+        "pldwl.3.6"
+      ],
+      "concepts": [
+        "dwelling-policy",
+        "ordinance-or-law-coverage"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "Which is an example of an \"other coverage\" provided by the dwelling forms in addition to Coverages A through E?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Debris removal after a covered loss",
+          "rationale": "Correct: debris removal of covered property damaged by a covered peril is one of the other coverages."
+        },
+        {
+          "id": "b",
+          "text": "Flood damage to the basement",
+          "rationale": "Incorrect: flood is excluded, not an other coverage."
+        },
+        {
+          "id": "c",
+          "text": "Liability for a guest's injury on the premises",
+          "rationale": "Incorrect: liability requires the personal liability supplement."
+        },
+        {
+          "id": "d",
+          "text": "Theft of the owner's jewelry",
+          "rationale": "Incorrect: theft requires a theft endorsement."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Dwelling forms include other coverages such as debris removal, reasonable repairs to protect property, property removed to safety, a limited worldwide extension for personal property, improvements by tenants, ordinance or law (a percentage of Coverage A), and — in the broad and special forms — trees and shrubs, collapse and glass breakage.",
+      "memoryTip": "Other coverages clean up and protect after a covered loss.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pldwl-q017",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "pldwl",
+      "outlineIds": [
+        "pldwl.4"
+      ],
+      "concepts": [
+        "dwelling-policy"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [],
+      "stem": "A river overflows and floods a dwelling's first floor. How do the dwelling forms treat the loss?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is covered under DP-3 because DP-3 is open perils",
+          "rationale": "Incorrect: open perils still applies the general exclusions, including water damage from flood."
+        },
+        {
+          "id": "b",
+          "text": "It is covered as accidental discharge of water",
+          "rationale": "Incorrect: accidental discharge refers to plumbing and appliance systems, not flood."
+        },
+        {
+          "id": "c",
+          "text": "It is excluded; flood insurance must be bought separately",
+          "rationale": "Correct: water damage from flood and surface water is a general exclusion in every dwelling form."
+        },
+        {
+          "id": "d",
+          "text": "It is covered after a larger deductible",
+          "rationale": "Incorrect: flood is excluded, not covered with a special deductible."
+        }
+      ],
+      "correct": "c",
+      "explanation": "General exclusions apply to every dwelling form: ordinance or law (except as provided), earth movement, water damage (flood, surface water, sewer backup, seepage), power failure, neglect, war, nuclear hazard, intentional loss and governmental action. Flood coverage comes from a separate flood policy such as the NFIP.",
+      "memoryTip": "Flood is never in the house policy — buy it separately.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pldwl-q018",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "pldwl",
+      "outlineIds": [
+        "pldwl.4"
+      ],
+      "concepts": [
+        "dwelling-policy"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "Each of the following is a general exclusion in the dwelling forms EXCEPT",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Earth movement",
+          "rationale": "Incorrect: earth movement such as earthquake is a general exclusion."
+        },
+        {
+          "id": "b",
+          "text": "Neglect",
+          "rationale": "Incorrect: loss caused by the insured's failure to protect property is excluded."
+        },
+        {
+          "id": "c",
+          "text": "Governmental action",
+          "rationale": "Incorrect: destruction or seizure by governmental order is excluded."
+        },
+        {
+          "id": "d",
+          "text": "Lightning",
+          "rationale": "Correct: lightning is a covered peril in every dwelling form."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Lightning is one of the core basic perils. Earth movement, neglect and governmental action are among the general exclusions that apply to all dwelling forms.",
+      "memoryTip": "Lightning is in; the earth, neglect and government are out.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pldwl-q019",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "pldwl",
+      "outlineIds": [
+        "pldwl.5"
+      ],
+      "concepts": [
+        "dwelling-policy",
+        "duties-after-loss"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "A covered windstorm tears a hole in the roof of Paula's DP-3 insured dwelling. Rain is forecast for tonight.",
+      "stem": "Which action is one of Paula's duties after the loss under the policy conditions?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Wait for the adjuster to inspect before covering the hole in the roof",
+          "rationale": "Incorrect: waiting allows further damage; the insured must protect the property."
+        },
+        {
+          "id": "b",
+          "text": "Make reasonable repairs to protect the property from further damage",
+          "rationale": "Correct: protecting the property from further damage is a standard duty after loss."
+        },
+        {
+          "id": "c",
+          "text": "Start a lawsuit against the insurer immediately",
+          "rationale": "Incorrect: suit is allowed only after the policy conditions have been met."
+        },
+        {
+          "id": "d",
+          "text": "Dispose of the damaged materials right away",
+          "rationale": "Incorrect: the insured must be able to show the damaged property."
+        }
+      ],
+      "correct": "b",
+      "explanation": "After a loss the insured must give prompt notice, protect the property from further damage (reasonable repairs are reimbursed), keep records, show the damaged property and cooperate, and submit a proof of loss when required.",
+      "memoryTip": "Stop the damage, save the evidence, tell the insurer.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Protect property from further damage",
+            "anyOf": [
+              "protect",
+              "tarp",
+              "further damage",
+              "reasonable repairs"
+            ]
+          },
+          {
+            "label": "Give prompt notice",
+            "anyOf": [
+              "notice",
+              "notify",
+              "report"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pldwl-q020",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "pldwl",
+      "outlineIds": [
+        "pldwl.5",
+        "pldwl.2.2"
+      ],
+      "concepts": [
+        "dp-broad-form",
+        "replacement-cost",
+        "property-coinsurance-clause"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "math",
+        "tricky"
+      ],
+      "scenario": "Ken's DP-2 dwelling has a full replacement cost of $250,000 and a Coverage A limit of $150,000. Replacement cost on the dwelling is paid in full only if the limit is at least 80% of full replacement cost; otherwise the insurer pays the greater of the actual cash value of the loss or the proportion of the replacement cost that the limit bears to 80% of replacement cost. A covered fire causes $50,000 of damage at replacement cost ($30,000 at actual cash value). Ignore the deductible.",
+      "stem": "Using the loss settlement rule described, how much will the insurer pay?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$37,500",
+          "rationale": "Correct: $150,000 ÷ $200,000 = 0.75; 0.75 × $50,000 = $37,500, which exceeds the $30,000 ACV."
+        },
+        {
+          "id": "b",
+          "text": "$50,000",
+          "rationale": "Incorrect: full replacement cost requires insurance of at least 80% of replacement cost ($200,000)."
+        },
+        {
+          "id": "c",
+          "text": "$30,000",
+          "rationale": "Incorrect: the insured receives the greater of ACV or the proportional amount; $37,500 is greater."
+        },
+        {
+          "id": "d",
+          "text": "$40,000",
+          "rationale": "Incorrect: this simply pays 80% of the loss; the ratio to apply is the limit carried divided by the amount required."
+        }
+      ],
+      "correct": "a",
+      "explanation": "80% of $250,000 = $200,000 required. Carried $150,000 ÷ $200,000 = 0.75. 0.75 × $50,000 replacement cost loss = $37,500. ACV is $30,000. The insurer pays the greater amount, $37,500.",
+      "memoryTip": "Did ÷ Should (80%) × Loss — but never less than ACV.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "80% requirement = $200,000",
+            "anyOf": [
+              "200,000",
+              "80%"
+            ]
+          },
+          {
+            "label": "Ratio 0.75 applied to loss",
+            "anyOf": [
+              "0.75",
+              "75%",
+              "3/4"
+            ]
+          },
+          {
+            "label": "Greater of ACV or proportional amount",
+            "anyOf": [
+              "greater",
+              "37,500"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pldwl-q021",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "pldwl",
+      "outlineIds": [
+        "pldwl.6.1"
+      ],
+      "concepts": [
+        "endorsement",
+        "dwelling-policy"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [],
+      "stem": "What is the general purpose of a state \"special provisions\" endorsement attached to a dwelling policy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "To add flood coverage that the state requires for all dwellings",
+          "rationale": "Incorrect: it is not a flood coverage endorsement."
+        },
+        {
+          "id": "b",
+          "text": "To convert the dwelling policy into a full homeowners policy",
+          "rationale": "Incorrect: it modifies provisions of the dwelling form; it does not change the policy type."
+        },
+        {
+          "id": "c",
+          "text": "To add personal liability coverage",
+          "rationale": "Incorrect: liability is added with the personal liability supplement."
+        },
+        {
+          "id": "d",
+          "text": "To amend the national form so it conforms to that state's laws",
+          "rationale": "Correct: state amendatory endorsements change national policy provisions to comply with state requirements."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Standard national forms are written for many states. A state special provisions endorsement (such as the one for New York) modifies provisions — for example, cancellation, nonrenewal and claim-related conditions — so the policy complies with that state's law. Learn the purpose; the detailed changes are set by the endorsement itself.",
+      "memoryTip": "Special provisions = the state's edit of the national form.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pldwl-q022",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "pldwl",
+      "outlineIds": [
+        "pldwl.6.2"
+      ],
+      "concepts": [
+        "broad-theft-endorsement"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Burglars break into Nora's owner-occupied home, insured under a DP-3, and steal her laptop and television. The broken door is also damaged.",
+      "stem": "What is needed for this loss to be covered?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nothing; DP-3 covers theft as an open peril",
+          "rationale": "Incorrect: DP-3 personal property is on broad named perils, which do not include theft."
+        },
+        {
+          "id": "b",
+          "text": "The policy must include a broad theft endorsement",
+          "rationale": "Correct: dwelling forms do not cover theft of personal property; the endorsement adds it for owner-occupants."
+        },
+        {
+          "id": "c",
+          "text": "A personal liability supplement",
+          "rationale": "Incorrect: the supplement adds liability, not theft coverage."
+        },
+        {
+          "id": "d",
+          "text": "Fair rental value coverage",
+          "rationale": "Incorrect: fair rental value pays lost rent."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Theft of contents is not covered by DP-1, DP-2 or DP-3. Owner-occupants add the broad theft endorsement; dwellings rented to others use a more limited theft endorsement.",
+      "memoryTip": "DP + theft = endorsement.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Dwelling forms exclude theft of contents",
+            "anyOf": [
+              "not a peril",
+              "no theft",
+              "does not cover theft"
+            ]
+          },
+          {
+            "label": "Broad theft endorsement adds it",
+            "anyOf": [
+              "broad theft",
+              "endorsement"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pldwl-q023",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "pldwl",
+      "outlineIds": [
+        "pldwl.6.3"
+      ],
+      "concepts": [
+        "dwelling-under-construction"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Ava's house is being built. Her dwelling policy with a dwelling under construction endorsement shows a Coverage A limit of $350,000, equal to the completed value. A fire totally destroys the structure when the work in place is worth $210,000. Ignore the deductible.",
+      "stem": "What is the most the insurer will pay under Coverage A for this total loss?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$350,000",
+          "rationale": "Incorrect: the full completed value is not available until construction is complete."
+        },
+        {
+          "id": "b",
+          "text": "$140,000",
+          "rationale": "Incorrect: this is the value not yet built, not the value in place."
+        },
+        {
+          "id": "c",
+          "text": "$210,000",
+          "rationale": "Correct: $350,000 × ($210,000 ÷ $350,000) = $210,000."
+        },
+        {
+          "id": "d",
+          "text": "$280,000",
+          "rationale": "Incorrect: this applies 80% rather than the actual completion proportion."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Under the dwelling under construction endorsement, the limit at the time of loss equals Coverage A × (value at the time of loss ÷ value when completed): $350,000 × ($210,000 ÷ $350,000) = $210,000.",
+      "memoryTip": "Under construction: pay for what is built.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Limit is reduced by stage of completion",
+            "anyOf": [
+              "proportion",
+              "completion",
+              "value at the time"
+            ]
+          },
+          {
+            "label": "Arithmetic",
+            "anyOf": [
+              "210,000",
+              "60%"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pldwl-q024",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "pldwl",
+      "outlineIds": [
+        "pldwl.7"
+      ],
+      "concepts": [
+        "personal-liability-supplement",
+        "coverage-f-medical-payments"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "A visiting child trips on the walkway of Leo's rental house and needs stitches. Leo has a dwelling policy with a personal liability supplement.",
+      "stem": "Which coverage pays the child's medical bills without anyone having to prove the owner was at fault?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Medical payments to others under the personal liability supplement",
+          "rationale": "Correct: Coverage M pays reasonable medical expenses of others injured on the premises regardless of fault."
+        },
+        {
+          "id": "b",
+          "text": "Personal liability under the supplement, once fault is shown",
+          "rationale": "Incorrect: liability coverage responds when the insured is legally liable; it is not no-fault."
+        },
+        {
+          "id": "c",
+          "text": "Coverage A — Dwelling, since the injury happened at the house",
+          "rationale": "Incorrect: Coverage A pays for damage to the building, not injuries."
+        },
+        {
+          "id": "d",
+          "text": "Additional living expense under the dwelling form",
+          "rationale": "Incorrect: ALE pays the insured's increased living costs."
+        }
+      ],
+      "correct": "a",
+      "explanation": "The personal liability supplement adds Coverage L (personal liability, based on legal liability) and Coverage M (medical payments to others, paid regardless of fault). Small injuries to guests are usually paid quickly under Coverage M.",
+      "memoryTip": "L = Liability (fault); M = Medical (no fault).",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Medical payments is no-fault",
+            "anyOf": [
+              "regardless of fault",
+              "no-fault",
+              "without fault"
+            ]
+          },
+          {
+            "label": "Provided by the supplement",
+            "anyOf": [
+              "supplement",
+              "Coverage M"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pldwl-q025",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "pldwl",
+      "outlineIds": [
+        "pldwl.7"
+      ],
+      "concepts": [
+        "personal-liability-supplement"
+      ],
+      "difficulty": 3,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "A personal liability supplement attached to a dwelling policy would NOT pay for which claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A tenant's guest who sues after slipping on an icy step",
+          "rationale": "Incorrect: premises liability claims by others are covered liability exposures."
+        },
+        {
+          "id": "b",
+          "text": "Damage to the insured's own dwelling caused by a fire he started",
+          "rationale": "Correct: liability coverage protects against claims by others; the insured's own property is a property-coverage matter."
+        },
+        {
+          "id": "c",
+          "text": "Defense costs for a covered lawsuit",
+          "rationale": "Incorrect: the supplement pays defense costs for covered claims."
+        },
+        {
+          "id": "d",
+          "text": "A neighbor's fence damaged by the insured's falling tree branch, if the insured is liable",
+          "rationale": "Incorrect: property damage to others for which the insured is liable is covered."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Liability coverage pays damages the insured owes to others for bodily injury or property damage, plus defense. It excludes property owned by the insured; the insured's own dwelling is insured (if at all) under the property coverages.",
+      "memoryTip": "Liability pays others, never yourself.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

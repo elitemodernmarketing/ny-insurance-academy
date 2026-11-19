@@ -1,0 +1,195 @@
+{
+  "sectionId": "gen",
+  "lessons": [
+    {
+      "id": "gen-l01",
+      "sectionId": "gen",
+      "order": 1,
+      "title": "Risk, Hazards and Perils: The Language of Insurance",
+      "outlineIds": ["gen.1", "gen.1.1", "gen.1.1.1", "gen.1.1.2", "gen.1.1.3", "gen.1.1.4", "gen.1.1.5"],
+      "estMinutes": 20,
+      "intro": "Every insurance question on the exam is built on a handful of basic words: risk, hazard, peril, loss and exposure. If you can tell them apart instantly, many questions become easy points. This lesson starts from zero — no prior knowledge needed.",
+      "objectives": [
+        "Define risk and distinguish pure risk from speculative risk",
+        "Explain what exposure means and why insurers measure it",
+        "Tell a peril (the cause) apart from a hazard (what increases the chance) and a loss (the damage)",
+        "Classify hazards as physical, moral or morale"
+      ],
+      "keyTerms": ["insurance", "insurer", "insured", "policyowner", "premium", "risk", "pure-risk", "speculative-risk", "exposure", "hazard", "physical-hazard", "moral-hazard", "morale-hazard", "peril", "loss"],
+      "parts": [
+        {
+          "heading": "Who's who: the people in an insurance deal",
+          "body": "Before we talk about risk, meet the players.\n\n- The [[insurer]] is the insurance company. It writes the policy and promises to pay claims.\n- The [[policyowner]] owns the policy, pays the [[premium]] (the price of coverage) and makes decisions such as naming the beneficiary.\n- The [[insured]] is the person whose life or health is covered.\n- The [[beneficiary]] receives the death benefit in life insurance.\n\nOne person can play several roles. If you buy a policy on your own life, you are both policyowner and insured. If a parent buys a policy on an adult child, the parent is the policyowner and the child is the insured.\n\n[[insurance|Insurance]] itself is a way of moving the cost of a possible loss from one person to a large group: many people pay premiums, and the few who suffer losses are paid from that pool.",
+          "simple": "The insurer is the company. The policyowner owns and pays for the policy. The insured is the person covered. The beneficiary gets the money when the insured dies. Insurance = lots of people chip in so the unlucky few are paid.",
+          "example": { "title": "Example: three roles, two people", "body": "Priya buys a $300,000 policy on her husband Dev and names herself beneficiary. Priya = policyowner and beneficiary. Dev = insured. The company = insurer." },
+          "callouts": [
+            { "kind": "exam-trap", "text": "Policy rights (changing the beneficiary, taking a loan, surrendering) belong to the POLICYOWNER, not the insured — unless they are the same person." }
+          ]
+        },
+        {
+          "heading": "Risk: pure versus speculative",
+          "body": "[[risk|Risk]] means uncertainty about whether a financial loss will happen. If you knew for sure, it would just be a cost.\n\nThe exam splits risk into two kinds:\n\n- **[[pure-risk|Pure risk]]** — only two outcomes: loss or no loss. Death, illness, disability and accidents are pure risks. **Only pure risks are insurable.**\n- **[[speculative-risk|Speculative risk]]** — three outcomes: loss, no loss, or **gain**. Investing, gambling and starting a business are speculative. Insurance does not cover them, because insurance is meant to restore you, not help you profit.",
+          "simple": "Pure risk: you can lose or break even, never win — insurable. Speculative risk: you might win — not insurable.",
+          "callouts": [
+            { "kind": "memory-tip", "text": "Speculative = you could Score. Pure = you can only lose or stay the same." }
+          ]
+        },
+        {
+          "heading": "Exposure: counting what could be lost",
+          "body": "[[exposure|Exposure]] is the unit an insurer uses to measure how much risk it carries and to set rates. In life insurance, each insured life — or each $1,000 of coverage — is a unit of exposure. An insurer covering 100,000 lives has far more exposure units than one covering 1,000.\n\nWhy it matters: the more similar exposure units an insurer has, the more accurately it can predict losses. You'll see this again with the [[law-of-large-numbers]] in the next lesson.",
+          "simple": "Exposure = how many people or dollars of coverage could have a loss. More exposure units make losses easier to predict."
+        },
+        {
+          "heading": "Peril, hazard and loss: cause, condition, result",
+          "body": "These three words describe a chain of events:\n\n- A **[[hazard]]** is a condition that makes a loss more likely or more severe.\n- A **[[peril]]** is the event that actually causes the loss (death, sickness, accident).\n- A **[[loss]]** is the resulting decrease in value (medical bills, lost income, the economic value of a life).\n\nThere are three kinds of hazard:\n\n- **[[physical-hazard|Physical hazard]]** — a tangible condition: high blood pressure, obesity, a dangerous job, skydiving.\n- **[[moral-hazard|Moral hazard]]** — dishonesty: a tendency to lie, fake or exaggerate claims, or even cause a loss on purpose.\n- **[[morale-hazard|Morale hazard]]** — indifference: carelessness because 'insurance will pay.'",
+          "simple": "Hazard = what makes trouble more likely. Peril = the trouble itself. Loss = what it costs you. Physical = a real condition, moral = dishonesty, morale = not caring because you're insured.",
+          "advanced": "Insurers respond differently to each hazard type. Physical hazards are handled through underwriting and rating (for example, a higher premium for a hazardous occupation). Moral hazard is controlled with careful underwriting, insurable interest rules and fraud laws. Morale hazard is controlled with cost-sharing features such as deductibles and coinsurance, which keep the insured financially involved in losses.",
+          "example": { "title": "Example: one story, three words", "body": "Luis smokes two packs a day (physical hazard). He suffers a heart attack (peril). He misses four months of work and runs up hospital bills (loss)." },
+          "callouts": [
+            { "kind": "exam-trap", "text": "Moral vs morale: lying, faking or exaggerating = MORAL. Careless or indifferent because insured = MORALE. The question will usually include a clue word." },
+            { "kind": "memory-tip", "text": "MoralE has an extra E for 'Eh, who cares.'" }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "categorize",
+        "prompt": "Sort each example into the correct hazard type.",
+        "categories": ["Physical hazard", "Moral hazard", "Morale hazard"],
+        "items": [
+          { "text": "An applicant has diabetes and high blood pressure", "category": "Physical hazard" },
+          { "text": "An applicant works as a commercial deep-sea diver", "category": "Physical hazard" },
+          { "text": "An insured exaggerates the length of a disability to keep collecting benefits", "category": "Moral hazard" },
+          { "text": "An applicant has a history of filing fake claims", "category": "Moral hazard" },
+          { "text": "An insured stops taking blood-pressure medication because 'the health plan will cover a hospital stay'", "category": "Morale hazard" },
+          { "text": "An insured skips safety gear at work because he has disability coverage", "category": "Morale hazard" }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Which of these is a speculative risk?",
+          "choices": ["Becoming disabled", "Dying prematurely", "Buying shares in a new company", "Being injured in a car accident"],
+          "answerIndex": 2,
+          "explanation": "Buying shares can produce a gain, so it is speculative and not insurable. Disability, premature death and accidents can only produce loss or no loss — pure risks."
+        },
+        {
+          "prompt": "A heart attack that causes the insured's death is best described as the:",
+          "choices": ["Hazard", "Peril", "Exposure", "Morale hazard"],
+          "answerIndex": 1,
+          "explanation": "The event that causes the loss is the peril. A hazard (like smoking) would make the heart attack more likely; exposure measures what is subject to loss."
+        },
+        {
+          "prompt": "Dan owns a policy on his wife Mia's life. Who has the right to change the beneficiary?",
+          "choices": ["Mia, because she is the insured", "Dan, because he is the policyowner", "The current beneficiary", "The agent who sold the policy"],
+          "answerIndex": 1,
+          "explanation": "Policy rights belong to the policyowner (Dan). The insured, beneficiary and agent do not control the policy."
+        }
+      ],
+      "summary": [
+        "Insurer = company; policyowner = controls and pays for the policy; insured = person covered; beneficiary = receives the death benefit.",
+        "Risk is uncertainty about loss. Pure risk (loss or no loss) is insurable; speculative risk (possible gain) is not.",
+        "Exposure is the unit insurers use to measure and price risk; more similar units make losses more predictable.",
+        "Hazard increases the chance of loss, peril causes the loss, and loss is the resulting decrease in value.",
+        "Physical hazard = tangible condition; moral hazard = dishonesty; morale hazard = indifference because insured."
+      ],
+      "related": ["gen-l02"],
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "gen-l02",
+      "sectionId": "gen",
+      "order": 2,
+      "title": "Handling Risk and How Insurance Works",
+      "outlineIds": ["gen.1.2", "gen.1.2.1", "gen.1.2.2", "gen.1.2.3", "gen.1.2.4", "gen.1.2.5", "gen.1.2.6", "gen.1.2.7", "gen.1.2.8", "gen.1.2.9"],
+      "estMinutes": 25,
+      "intro": "People and businesses have five basic ways to deal with risk, and insurance is only one of them. In this lesson you'll learn all five, then see what makes a risk insurable and the three ideas that keep insurers in business: the law of large numbers, protection against adverse selection, and reinsurance.",
+      "objectives": [
+        "Identify the five methods of handling risk: avoidance, retention, sharing, reduction and transfer",
+        "List the elements of an insurable risk",
+        "Explain adverse selection and how underwriting controls it",
+        "Explain the law of large numbers and the purpose of reinsurance"
+      ],
+      "keyTerms": ["risk-avoidance", "risk-retention", "risk-sharing", "risk-reduction", "risk-transfer", "insurable-risk", "adverse-selection", "law-of-large-numbers", "reinsurance"],
+      "parts": [
+        {
+          "heading": "Five ways to handle risk",
+          "body": "Remember the five methods with the letters **S-T-A-R-R**:\n\n- **S — [[risk-sharing|Sharing]]**: a group agrees to split losses among its members (for example, business partners or a group of doctors pooling malpractice losses).\n- **T — [[risk-transfer|Transfer]]**: shifting the financial burden to someone else — by **contract** (a hold-harmless or indemnity clause in a lease or service agreement) or, most commonly, by an **insurance contract**.\n- **A — [[risk-avoidance|Avoidance]]**: not doing the risky activity at all.\n- **R — [[risk-reduction|Reduction]]**: lowering the chance or size of a loss (exercise, seat belts, smoke detectors, annual checkups).\n- **R — [[risk-retention|Retention]]**: keeping the risk and paying losses yourself — deductibles, copayments, elimination periods and self-insurance are all retention.",
+          "simple": "Share it with a group, Transfer it to an insurer, Avoid it completely, Reduce it with safety steps, or Retain it and pay yourself. Buying insurance = transfer.",
+          "example": { "title": "Example: one family, five methods", "body": "The Parks decide not to buy a motorcycle (avoidance), install smoke alarms (reduction), choose a $1,500 health deductible (retention), buy term life insurance (transfer), and join a neighborhood group that helps pay a member's emergency repairs (sharing)." },
+          "callouts": [
+            { "kind": "memory-tip", "text": "S-T-A-R-R: Share, Transfer, Avoid, Reduce, Retain." },
+            { "kind": "exam-trap", "text": "Avoidance eliminates the risk; reduction only lowers it. 'Never flies' = avoidance. 'Flies but wears a seat belt' = reduction." }
+          ]
+        },
+        {
+          "heading": "What makes a risk insurable",
+          "body": "Insurers can't cover everything. A risk is insurable when:\n\n- **Loss is due to chance** — accidental and unintentional, not deliberate.\n- **Loss is definite and measurable** — you can tell when it happened and what it cost.\n- **Loss is predictable** — there is a **large number of similar (homogeneous) exposure units**, so the insurer can estimate how many losses will occur.\n- **Loss is not catastrophic** — it won't strike most insureds at the same time (war and nuclear disasters are typically excluded).\n- **Coverage is economically feasible** — premiums are reasonable compared to the possible loss.\n\nAnd of course, only **pure** risks are insurable. These are the [[insurable-risk|elements of an insurable risk]].",
+          "simple": "To insure a risk, the loss must be accidental, measurable, predictable for a big group, not a disaster for everyone at once, and affordable to cover.",
+          "callouts": [
+            { "kind": "exam-trap", "text": "Death is certain, yet it is insurable: what matters is that the TIMING of any one person's death is uncertain and predictable for a large group." }
+          ]
+        },
+        {
+          "heading": "The law of large numbers and adverse selection",
+          "body": "The **[[law-of-large-numbers]]** says that the larger the group of similar exposure units, the more closely actual losses will match predicted losses. An insurer can't know whether one 45-year-old will die this year, but with 100,000 similar insureds it can predict about how many will. That prediction is the basis for premiums.\n\nThe prediction only works if the group is a fair mix of risks. **[[adverse-selection|Adverse selection]]** is the tendency of people with higher-than-average risk to seek insurance more than others — the person who just got a worrying diagnosis is the most eager buyer. If an insurer accepted everyone at the same price with no questions, it would end up with too many high risks and not enough premium.\n\nInsurers protect themselves through **[[underwriting]]** — reviewing applications, medical history and other information to classify and price each applicant fairly — and with tools such as waiting periods and enrollment periods.",
+          "simple": "Big groups make losses predictable. But the people most likely to have claims are the most eager to buy, so insurers check applications (underwriting) to keep the mix fair.",
+          "advanced": "Statistically, the law of large numbers holds when exposures are similar and independent. That is why insurers group applicants into risk classes (preferred, standard, substandard) and why catastrophic, correlated events (a war affecting everyone at once) violate the conditions of an insurable risk."
+        },
+        {
+          "heading": "Reinsurance: insurance for insurers",
+          "body": "Even big insurers don't want one huge claim to hurt them. With **[[reinsurance]]**, an insurer (the **ceding insurer**) transfers part of a risk it has accepted to another company (the **reinsurer**), along with part of the premium.\n\nReinsurance lets a company write larger policies than it could safely keep, spreads catastrophic losses across many companies, and stabilizes results. The policyowner usually never sees it: the original insurer remains fully responsible to its customer.",
+          "simple": "Reinsurance is when an insurance company buys insurance for itself, passing part of a big policy to another company.",
+          "example": { "title": "Example: a $25 million policy", "body": "An insurer issues a $25 million policy to a business owner. It keeps $5 million (its retention) and cedes $20 million to a reinsurer. If the insured dies, the insurer pays the full $25 million to the beneficiary and collects $20 million from the reinsurer." },
+          "callouts": [
+            { "kind": "memory-tip", "text": "The ceding insurer cedes (gives away) risk; the reinsurer receives it." }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "match",
+        "prompt": "Match each situation to the risk-handling method it shows.",
+        "pairs": [
+          { "left": "Choosing a $2,000 deductible", "right": "Retention" },
+          { "left": "Buying a disability income policy", "right": "Transfer" },
+          { "left": "Refusing to go bungee jumping", "right": "Avoidance" },
+          { "left": "Installing a home sprinkler system", "right": "Reduction" },
+          { "left": "Partners agreeing to split any member's losses", "right": "Sharing" }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Which is NOT an element of an insurable risk?",
+          "choices": ["The loss must be due to chance", "The loss must be measurable", "The loss must be catastrophic", "There must be many similar exposure units"],
+          "answerIndex": 2,
+          "explanation": "Insurable losses must NOT be catastrophic; a catastrophe striking most insureds at once could bankrupt the insurer. The other choices are elements of an insurable risk."
+        },
+        {
+          "prompt": "The main tool insurers use to protect themselves against adverse selection is:",
+          "choices": ["Reinsurance", "Underwriting", "Risk sharing", "The free-look period"],
+          "answerIndex": 1,
+          "explanation": "Underwriting screens and classifies applicants so high risks are identified and priced appropriately. Reinsurance spreads large risks among insurers; sharing and free look are unrelated to selection."
+        },
+        {
+          "prompt": "An insurer that transfers part of a large policy's risk to another company is called the:",
+          "choices": ["Reinsurer", "Fraternal insurer", "Ceding insurer", "Alien insurer"],
+          "answerIndex": 2,
+          "explanation": "The ceding insurer gives away part of the risk; the reinsurer accepts it."
+        }
+      ],
+      "summary": [
+        "The five methods of handling risk are sharing, transfer, avoidance, reduction and retention (S-T-A-R-R); insurance is transfer.",
+        "Transfer can happen by contractual liability (a non-insurance contract shifting responsibility) or by an insurance contract.",
+        "Insurable risks are due to chance, definite and measurable, predictable through many similar exposure units, not catastrophic, and economically feasible.",
+        "The law of large numbers makes losses predictable for large groups; adverse selection threatens that mix and is controlled by underwriting.",
+        "Reinsurance lets a ceding insurer transfer part of a risk to a reinsurer; the original insurer stays responsible to the policyowner."
+      ],
+      "related": ["gen-l01", "gen-l03"],
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    }
+  ]
+}

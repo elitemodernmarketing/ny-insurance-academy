@@ -1,0 +1,377 @@
+{
+  "sectionId": "med",
+  "terms": [
+    {
+      "id": "mandated-benefit",
+      "term": "Mandated Benefit / Mandated Offer",
+      "aliases": [
+        "required benefit",
+        "mandated offer",
+        "state mandate"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.4",
+        "med.5",
+        "med.6"
+      ],
+      "formal": "A mandated (required) benefit is coverage that state law requires a health insurance policy to include; a mandated offer is coverage that the insurer must make available to the policyholder, who may choose to accept or decline it (usually for an added premium).",
+      "plain": "Some coverage is automatically built into New York health policies because the law says so, such as covering children to age 26 and covering newborns from birth. Other coverage the insurer only has to offer; the buyer decides whether to take it.",
+      "simpler": "A mandated benefit is like a seat belt that every car must come with. A mandated offer is like an option the dealer must show you, but you can say no.",
+      "examples": [
+        "Under New York Insurance Law § 3216(c)(4)(C), family coverage must cover a newborn from the moment of birth, including care for congenital defects and premature birth. The family cannot decline that rule; it is a required benefit.",
+        "An insurer is required to make a particular optional coverage available to a group policyholder; the employer reviews it and decides not to buy it. That is a mandated offer, not a mandated benefit."
+      ],
+      "examTip": "Required benefit = must be IN the policy. Mandated offer = must be OFFERED, buyer may decline. Exam items often test this exact difference.",
+      "misconception": "A mandated offer does not mean every insured automatically has the coverage; only a mandated (required) benefit is automatically included.",
+      "related": [
+        "newborn-coverage",
+        "handicapped-child-extension",
+        "essential-health-benefits"
+      ],
+      "confusedWith": [
+        "essential-health-benefits"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "An insurer must make a coverage available, but the policyholder may decline it. This is a:",
+        "choices": [
+          "Mandated (required) benefit",
+          "Mandated offer",
+          "Exclusion",
+          "Rider required by the insurer"
+        ],
+        "answerIndex": 1,
+        "explanation": "A mandated offer must be offered but can be refused. A required benefit is automatically included; an exclusion removes coverage; an insurer-required rider is the insurer's choice, not the buyer's."
+      },
+      "sources": [
+        "ny-isc-3216-c4",
+        "ny-isc-4235"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19",
+        "notes": "Newborn example verified in § 3216(c)(4)(C) and § 4235(f)(2); the required-vs-offered distinction is a general concept."
+      }
+    },
+    {
+      "id": "newborn-coverage",
+      "term": "Newborn Child Coverage",
+      "aliases": [
+        "newborn infant coverage",
+        "coverage from the moment of birth"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.4.3"
+      ],
+      "formal": "Under New York Insurance Law § 3216(c)(4)(C) (individual) and § 4235(f)(2) (group), family coverage must cover newborn infants from the moment of birth for injury or sickness, including necessary care and treatment of medically diagnosed congenital defects and birth abnormalities, including premature birth; newly born adopted infants are included when the insured takes physical custody on release from the hospital and files an adoption petition within 30 days of birth.",
+      "plain": "If you have family coverage in New York, your newborn is covered starting the very moment of birth, including for birth defects and premature birth. A newborn you are adopting is covered too if you take the baby home from the hospital and file the adoption petition within 30 days of the birth.",
+      "simpler": "A new baby joins the family plan the second it is born; there is no waiting period and no 'preexisting condition' problem for a birth defect.",
+      "examples": [
+        "The Garcias have family coverage. Their son is born six weeks early and spends two weeks in neonatal intensive care; the policy covers his care from the moment of birth, including treatment related to prematurity.",
+        "Kim and Alex are adopting a newborn. They take custody when the baby leaves the hospital and file the adoption petition 20 days after the birth, so the baby's coverage is effective from birth."
+      ],
+      "examTip": "Key phrase: 'from the moment of birth', including congenital defects and premature birth. For adopted newborns, remember the 30-day petition window and physical custody at hospital discharge.",
+      "misconception": "Newborn coverage does not start after a 30-day waiting period, and a congenital defect is not excluded as a preexisting condition.",
+      "related": [
+        "mandated-benefit",
+        "handicapped-child-extension"
+      ],
+      "confusedWith": [],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under New York law, when does family health coverage for a newborn child begin?",
+        "choices": [
+          "When the parent sends the first premium for the child",
+          "Thirty-one days after birth",
+          "From the moment of birth",
+          "When the child is discharged from the hospital"
+        ],
+        "answerIndex": 2,
+        "explanation": "Insurance Law § 3216(c)(4)(C) and § 4235(f)(2) make newborn coverage effective from the moment of birth, including congenital defects and premature birth."
+      },
+      "sources": [
+        "ny-isc-3216-c4",
+        "ny-isc-4235"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "handicapped-child-extension",
+      "term": "Coverage Extension for Disabled Children",
+      "aliases": [
+        "handicapped child provision",
+        "disabled dependent extension",
+        "incapacitated child provision"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.4.2",
+        "med.4.1"
+      ],
+      "formal": "Under New York Insurance Law § 3216(c)(4)(A), coverage of an unmarried dependent child who is incapable of self-sustaining employment because of mental illness, developmental disability or physical handicap, who became so incapable before reaching the limiting age and who is chiefly dependent on the policyholder for support, does not terminate at the limiting age while the policy remains in force and the condition continues, provided the policyholder submits proof of incapacity within 31 days of the child reaching the limiting age.",
+      "plain": "Normally a child comes off a parent's policy at the limiting age. But if the child is unmarried, became disabled before that age, cannot support themselves and depends mainly on the parent, coverage can keep going, as long as the parent sends proof within 31 days after the child reaches the limiting age.",
+      "simpler": "The 'age-out' rule has an exception for a child who, because of a disability, will always need the parent's support.",
+      "examples": [
+        "Tara's son has a developmental disability diagnosed at age 4. Just after he reaches the limiting age, Tara sends the insurer proof of his incapacity within 31 days, so his coverage continues.",
+        "Dev becomes unable to work because of an accident at age 28, after he has already aged off his parent's policy; the extension does not apply because the incapacity began after the limiting age."
+      ],
+      "examTip": "Four conditions: unmarried, incapable of self-sustaining employment, became incapable BEFORE the limiting age, chiefly dependent on the policyholder. Proof is due within 31 days of reaching the limiting age.",
+      "misconception": "The extension is not available for a child who becomes disabled after already aging off the policy, and it does not depend on the child being a student.",
+      "related": [
+        "mandated-benefit",
+        "newborn-coverage"
+      ],
+      "confusedWith": [],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "To continue coverage past the limiting age for an unmarried disabled child, a New York policyholder must submit proof of the child's incapacity within how many days of the child reaching the limiting age?",
+        "choices": [
+          "90 days",
+          "10 days",
+          "60 days",
+          "31 days"
+        ],
+        "answerIndex": 3,
+        "explanation": "Insurance Law § 3216(c)(4)(A) requires proof of incapacity within 31 days of the dependent reaching the limiting age."
+      },
+      "sources": [
+        "ny-isc-3216-c4"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "hipaa",
+      "term": "HIPAA",
+      "aliases": [
+        "Health Insurance Portability and Accountability Act",
+        "Health Insurance Portability and Accountability Act of 1996"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.7",
+        "med.7.1",
+        "med.7.3",
+        "med.7.4"
+      ],
+      "formal": "The federal Health Insurance Portability and Accountability Act of 1996, which (among other things) improved portability and continuity of health coverage, limited health-status discrimination in eligibility for group coverage, required guaranteed renewability of health coverage except for specified reasons, and led to federal standards protecting the privacy and security of individually identifiable health information.",
+      "plain": "HIPAA is a 1996 federal law with two big jobs for this exam: helping people keep and renew health coverage (portability and renewability rules) and protecting the privacy of their medical information.",
+      "simpler": "HIPAA is the law that keeps your health coverage from being yanked away for being sick and keeps your medical records private.",
+      "examples": [
+        "Under HIPAA's group rules, Mike's employer plan cannot make him ineligible to enroll because of his diabetes when the other employees in his class are eligible.",
+        "A doctor's office may not share Anna's diagnosis with her employer without her authorization, because HIPAA privacy rules protect her health information."
+      ],
+      "examTip": "HIPAA = Portability (moving between plans), guaranteed renewability, nondiscrimination based on health status in group eligibility, and Privacy of protected health information. The 'A' is Accountability, not 'Affordability'.",
+      "misconception": "HIPAA is not the law that created the health insurance exchanges or eliminated preexisting-condition exclusions for everyone; those are Affordable Care Act changes.",
+      "related": [
+        "guaranteed-issue",
+        "affordable-care-act",
+        "preexisting-condition"
+      ],
+      "confusedWith": [
+        "affordable-care-act",
+        "cobra"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which federal law of 1996 addresses health coverage portability and the privacy of individually identifiable health information?",
+        "choices": [
+          "HIPAA",
+          "COBRA",
+          "ERISA",
+          "FMLA"
+        ],
+        "answerIndex": 0,
+        "explanation": "HIPAA covers portability, renewability, health-status nondiscrimination and privacy. COBRA provides continuation; ERISA regulates employee benefit plans; FMLA provides job-protected leave."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "guaranteed-issue",
+      "term": "Guaranteed Issue",
+      "aliases": [
+        "guaranteed availability",
+        "open enrollment (NY rating law)"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.7.2",
+        "grp.7.3"
+      ],
+      "formal": "A requirement that an insurer accept every eligible applicant (individual or group) who applies for coverage, regardless of health status or claims history, rather than underwriting and possibly declining applicants.",
+      "plain": "Guaranteed issue means the insurer has to say 'yes'. If you are eligible and apply, it must sell you the coverage, even if you or your employees have health problems.",
+      "simpler": "Like a public library card: if you qualify, they have to give you one; they cannot turn you away for being sick.",
+      "examples": [
+        "A small bakery with six employees applies for small group coverage in New York; the insurer must accept the group even though one employee is undergoing cancer treatment.",
+        "Under HIPAA, insurers selling small group coverage had to make it available to any small employer that applied, regardless of the group's health status."
+      ],
+      "examTip": "Guaranteed issue = must ACCEPT the applicant. Guaranteed renewable = must RENEW the coverage. New York also calls its accept-all rule 'open enrollment' (accepted at all times throughout the year).",
+      "misconception": "Guaranteed issue does not mean coverage is free or that premiums cannot change; it only means eligible applicants cannot be turned down.",
+      "related": [
+        "hipaa",
+        "small-employer",
+        "community-rating",
+        "guaranteed-renewable"
+      ],
+      "confusedWith": [
+        "guaranteed-renewable"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A rule that requires an insurer to accept all eligible applicants regardless of health status is called:",
+        "choices": [
+          "Guaranteed renewability",
+          "Guaranteed issue",
+          "Experience rating",
+          "Conditional renewability"
+        ],
+        "answerIndex": 1,
+        "explanation": "Guaranteed issue means accepting every eligible applicant. Guaranteed renewability concerns continuing existing coverage; experience rating sets premiums by a group's claims; conditional renewability lets the insurer refuse renewal for stated reasons."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "a": "coinsurance",
+      "b": "copayment",
+      "keyDifference": "Coinsurance is a percentage of each covered bill shared after the deductible; a copayment is a flat dollar amount paid for a specific service.",
+      "rows": [
+        {
+          "aspect": "Form",
+          "a": "Percentage (e.g., insured pays 20%)",
+          "b": "Flat dollar amount (e.g., $25 per visit)"
+        },
+        {
+          "aspect": "Changes with size of bill?",
+          "a": "Yes: a bigger bill means a bigger share",
+          "b": "No: same amount regardless of the charge"
+        },
+        {
+          "aspect": "Typical plan",
+          "a": "Major medical / indemnity, PPO out-of-network",
+          "b": "HMO office visits, prescriptions"
+        },
+        {
+          "aspect": "When it applies",
+          "a": "Usually after the deductible is met",
+          "b": "At the time of service"
+        }
+      ],
+      "memoryTip": "CO-insurance = perCentage; CO-pay = fixed Pay."
+    },
+    {
+      "a": "deductible",
+      "b": "out-of-pocket-maximum",
+      "keyDifference": "The deductible is the amount you pay before the plan starts sharing costs; the out-of-pocket maximum is the most you will pay in total cost-sharing for the period, after which the plan pays 100%.",
+      "rows": [
+        {
+          "aspect": "Position in the payment order",
+          "a": "First: paid before benefits begin",
+          "b": "Last: the ceiling on your total share"
+        },
+        {
+          "aspect": "What counts toward it",
+          "a": "Covered expenses up to the deductible amount",
+          "b": "Deductible plus coinsurance (and usually copayments)"
+        },
+        {
+          "aspect": "What happens after it is reached",
+          "a": "Coinsurance begins",
+          "b": "Plan pays 100% of covered expenses for the rest of the period"
+        },
+        {
+          "aspect": "Premiums count?",
+          "a": "No",
+          "b": "No"
+        }
+      ],
+      "memoryTip": "Deductible = the door you walk through; out-of-pocket max = the ceiling you can't go above."
+    },
+    {
+      "a": "hmo",
+      "b": "ppo",
+      "keyDifference": "An HMO generally covers only in-network care (except emergencies) and uses a PCP gatekeeper with referrals; a PPO lets members go out of network at a lower benefit level and usually requires no referrals.",
+      "rows": [
+        {
+          "aspect": "Out-of-network coverage",
+          "a": "Generally none except emergencies",
+          "b": "Yes, at a lower benefit level"
+        },
+        {
+          "aspect": "Primary care physician / referrals",
+          "a": "PCP required; referrals to see specialists",
+          "b": "Usually no PCP or referral required"
+        },
+        {
+          "aspect": "Payment basis",
+          "a": "Prepaid (often capitation)",
+          "b": "Negotiated discounted fees (fee-for-service)"
+        },
+        {
+          "aspect": "Typical member cost-sharing",
+          "a": "Small copayments",
+          "b": "Deductible and coinsurance, plus copayments"
+        }
+      ],
+      "memoryTip": "HMO = 'Have My Okay' (you need the PCP's okay). PPO = 'Pick Pretty much anyOne' (but in-network costs less)."
+    },
+    {
+      "a": "ppo",
+      "b": "epo",
+      "keyDifference": "Both usually let members see in-network specialists without a referral, but a PPO pays some benefits out of network while an EPO pays nothing for non-emergency out-of-network care.",
+      "rows": [
+        {
+          "aspect": "Out-of-network, non-emergency",
+          "a": "Covered at a lower level",
+          "b": "Generally not covered"
+        },
+        {
+          "aspect": "Referral required",
+          "a": "Usually no",
+          "b": "Usually no"
+        },
+        {
+          "aspect": "Emergency care out of network",
+          "a": "Covered",
+          "b": "Covered"
+        }
+      ],
+      "memoryTip": "EPO = 'Exclusive' = stay inside the network or pay it all yourself."
+    }
+  ]
+}

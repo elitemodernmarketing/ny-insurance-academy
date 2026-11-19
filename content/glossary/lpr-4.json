@@ -1,0 +1,812 @@
+{
+ "sectionId": "lpr",
+ "terms": [
+  {
+   "id": "rider",
+   "term": "Rider",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.7",
+    "lpr.9",
+    "lpr.10"
+   ],
+   "formal": "An amendment attached to a policy that adds, modifies or limits coverage or benefits, usually for an additional premium. Riders become part of the contract.",
+   "plain": "A rider is an add-on to the base policy, like extra coverage for an accident or a waiver of premiums if you become disabled.",
+   "simpler": "Riders are the \"options package\" you add to the basic car.",
+   "examples": [
+    "Kai adds a waiver of premium rider to his whole life policy for a small extra premium.",
+    "Lea adds a children's term rider so all her children are covered under her policy."
+   ],
+   "examTip": "Know the rider families: disability riders (waiver of premium, waiver of cost of insurance, disability income, payor benefit), accelerated benefits, additional-insured riders (spouse, children, family), and riders that change the death benefit (accidental death, guaranteed insurability, cost of living, return of premium, term rider).",
+   "misconception": "A rider is not a separate policy; it is part of the base contract and usually ends if the base policy ends.",
+   "related": [
+    "policy-provision",
+    "waiver-of-premium",
+    "accidental-death-benefit",
+    "term-rider"
+   ],
+   "confusedWith": [
+    "policy-provision"
+   ],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "What is a rider?",
+    "choices": [
+     "An amendment that adds to or modifies a policy's coverage",
+     "A separate policy issued to a different insured",
+     "The person who receives the death benefit",
+     "A required provision every policy must contain"
+    ],
+    "answerIndex": 0,
+    "explanation": "A rider amends the base policy to add or change benefits, usually for extra premium. Required provisions are part of the base contract, and the beneficiary receives the proceeds."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "waiver-of-premium",
+   "term": "Waiver of Premium",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.7",
+    "lpr.7.1"
+   ],
+   "formal": "A disability rider under which the insurer waives premiums that come due while the insured is totally disabled, after a waiting period stated in the rider (commonly six months). Premiums paid during the waiting period are typically refunded once the waiver is approved. The policy continues in force, and its cash values and dividends continue as if premiums were being paid.",
+   "plain": "If you become totally disabled and can't work, the insurer pays your premiums for you after a waiting period, so your coverage keeps going.",
+   "simpler": "Insurance for your insurance: if disability stops your paycheck, the insurer covers your premiums.",
+   "examples": [
+    "Mo becomes totally disabled after a car crash. After the six-month waiting period in his rider, the insurer waives his premiums and refunds the ones he paid while waiting.",
+    "Nia recovers and returns to work; she resumes paying premiums."
+   ],
+   "examTip": "Waiting period first (commonly 6 months), then premiums waived, often retroactively. Usually requires TOTAL disability and generally must begin before an age stated in the rider. The waiver applies to the INSURED's disability.",
+   "misconception": "Waiver of premium does not pay the insured an income; it only stops premiums from being owed. Income is a separate disability income rider.",
+   "related": [
+    "payor-benefit-rider",
+    "waiver-of-cost-of-insurance",
+    "total-disability",
+    "rider",
+    "automatic-premium-loan"
+   ],
+   "confusedWith": [
+    "payor-benefit-rider",
+    "automatic-premium-loan"
+   ],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "What does a waiver of premium rider do when the insured becomes totally disabled?",
+    "choices": [
+     "Waives premiums after a waiting period while the disability continues",
+     "Pays the insured a monthly income equal to the face amount",
+     "Immediately pays the full death benefit",
+     "Borrows the premium from the cash value"
+    ],
+    "answerIndex": 0,
+    "explanation": "Waiver of premium keeps the policy in force without premium payments during total disability, after a waiting period. It does not pay income or accelerate the death benefit; borrowing from cash value is an automatic premium loan."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "waiver-of-cost-of-insurance",
+   "term": "Waiver of Cost of Insurance",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.7.2"
+   ],
+   "formal": "A disability rider, typically on universal life policies, that waives the monthly deductions for the cost of insurance (and often other monthly charges) while the insured is totally disabled. Unlike waiver of premium, it does not pay or credit the planned premium, so the cash value does not grow as it would if premiums were being paid.",
+   "plain": "On a universal life policy, this rider covers the monthly insurance charges during disability so the policy doesn't run out of money — but it does not keep adding to your savings.",
+   "simpler": "It keeps the lights on in the house but doesn't keep adding to the savings jar.",
+   "examples": [
+    "Omar's universal life policy has a waiver of cost of insurance rider. While he is disabled, the insurer stops deducting the monthly cost of insurance, so his cash value is not drained.",
+    "Because only charges are waived, Omar's cash value grows only by interest credited, not by new premiums."
+   ],
+   "examTip": "Waiver of PREMIUM: the whole premium is waived. Waiver of COST OF INSURANCE (universal life): only the mortality/expense deductions are waived; the cash value is not built by new premiums.",
+   "misconception": "Waiver of cost of insurance does not guarantee that the policy's cash value will keep growing at the planned rate.",
+   "related": [
+    "waiver-of-premium",
+    "universal-life",
+    "rider"
+   ],
+   "confusedWith": [
+    "waiver-of-premium"
+   ],
+   "difficulty": 3,
+   "practice": {
+    "prompt": "On a universal life policy, what does a waiver of cost of insurance rider waive during the insured's total disability?",
+    "choices": [
+     "The monthly cost of insurance deductions",
+     "The entire planned premium, including the savings portion",
+     "All outstanding policy loans",
+     "The surrender charges only"
+    ],
+    "answerIndex": 0,
+    "explanation": "This rider waives the monthly cost of insurance (mortality) deductions so the policy stays in force; it does not pay the planned premium that would build cash value."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "payor-benefit-rider",
+   "term": "Payor Benefit Rider",
+   "aliases": [
+    "Payor Rider",
+    "Payor Benefit"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.7.4"
+   ],
+   "formal": "A rider, usually attached to a juvenile policy, that waives future premiums if the payor (typically a parent or guardian) dies or becomes totally disabled, until the child reaches a specified age stated in the rider or the policy matures. The payor generally must provide evidence of insurability.",
+   "plain": "On a policy covering a child, if the parent paying the premiums dies or becomes disabled, the insurer waives the premiums until the child grows up.",
+   "simpler": "If the person paying the bills can't anymore, the insurer picks up the tab for the child's policy.",
+   "examples": [
+    "Paul owns and pays for a policy on his son, age 4, with a payor benefit rider. Paul dies; premiums are waived until his son reaches the age stated in the rider.",
+    "The insurer asks Paul health questions when he applies for the rider, because the risk being covered is Paul's death or disability, not the child's."
+   ],
+   "examTip": "Payor benefit covers the PAYOR's death or disability on a juvenile policy. Waiver of premium covers the INSURED's own disability.",
+   "misconception": "The payor benefit rider does not pay a death benefit to the child when the payor dies; it only waives the premiums on the child's policy.",
+   "related": [
+    "waiver-of-premium",
+    "juvenile-life-insurance",
+    "rider"
+   ],
+   "confusedWith": [
+    "waiver-of-premium"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "A payor benefit rider on a juvenile policy is triggered by what event?",
+    "choices": [
+     "The death or disability of the premium payor",
+     "The disability of the insured child",
+     "The child reaching the age of majority",
+     "The policy's cash value exceeding the face amount"
+    ],
+    "answerIndex": 0,
+    "explanation": "The payor benefit waives premiums if the payor (usually a parent) dies or becomes disabled. The insured child's disability is not the trigger."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "accelerated-death-benefit",
+   "term": "Accelerated (Living) Benefit",
+   "aliases": [
+    "Living Benefit",
+    "Accelerated Death Benefit"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.8",
+    "lpr.8.1",
+    "lpr.8.2"
+   ],
+   "formal": "A policy provision or rider that pays part or all of the death benefit (or a special surrender value) to the policyowner while the insured is living, upon a qualifying condition. In New York, qualifying conditions include terminal illness (life expectancy of 12 months or less), a medical condition requiring extraordinary medical care or treatment, certain chronic illness or continuous care conditions, nursing home residence for three months or more with expected residence until death, and end-of-life or palliative care for three months or more. Amounts paid reduce the death benefit payable to the beneficiary.",
+   "plain": "If the insured becomes terminally or seriously ill, the owner can get some of the death benefit early, while the insured is alive. Whatever is paid early is subtracted from what the beneficiary later receives.",
+   "simpler": "It's an advance on the death benefit, paid when it's needed most.",
+   "examples": [
+    "Rosa is diagnosed with a terminal illness and given about eight months to live. She accelerates $100,000 of her $250,000 policy to pay for care; her beneficiary later receives the reduced remaining benefit.",
+    "Before paying Rosa, the insurer sends her an illustration of the effect on her cash value and loans and the death benefit remaining, then waits at least five days before paying."
+   ],
+   "examTip": "NY § 1113(a)(1) conditions + § 3230 disclosures: notice that benefits may affect public assistance eligibility and may be taxable; an illustration and computations within five days of the application; no payment for five days after that information is sent; the owner may rescind during the process; a statement that the request is voluntary. Effect: the death benefit is reduced.",
+   "misconception": "Accelerated benefits are not an extra benefit on top of the death benefit, and they are not a loan from a third party. They reduce what the beneficiary receives. (Selling the policy to a third party is a life settlement or viatical settlement.)",
+   "related": [
+    "life-settlement",
+    "viatical-settlement",
+    "face-amount",
+    "rider",
+    "policy-loan"
+   ],
+   "confusedWith": [
+    "viatical-settlement",
+    "life-settlement"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Under New York law, which condition can qualify an insured for an accelerated death benefit?",
+    "choices": [
+     "Terminal illness with a life expectancy of 12 months or less",
+     "Reaching age 65 with no illness or other condition",
+     "Losing a job and needing income for living costs",
+     "Owning the policy for at least ten consecutive years"
+    ],
+    "answerIndex": 0,
+    "explanation": "NY Insurance Law § 1113(a)(1)(A) lists terminal illness with a life expectancy of 12 months or less as a qualifying condition. Age, unemployment and policy duration alone do not qualify."
+   },
+   "sources": [
+    "ny-isc-3230",
+    "ny-isc-1113"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "other-insured-rider",
+   "term": "Spouse / Other-Insured Term Rider",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.9",
+    "lpr.9.1"
+   ],
+   "formal": "A rider that adds term life insurance on a person other than the base policy's insured — most often a spouse — to the base policy. It is usually level term and commonly includes a right to convert to a permanent policy without evidence of insurability within a stated period.",
+   "plain": "This rider lets you cover another person, such as your spouse, under your own policy instead of buying a separate policy.",
+   "simpler": "Adding a second passenger to your existing ticket instead of buying a new one.",
+   "examples": [
+    "Sam adds a $100,000 other-insured rider on his wife to his $500,000 whole life policy.",
+    "Before the rider's conversion deadline, Sam's wife converts her rider coverage to her own permanent policy without a medical exam."
+   ],
+   "examTip": "Other-insured riders are TERM coverage on someone else. They are usually cheaper than a separate policy and usually convertible.",
+   "misconception": "The other insured is not the policyowner; the base policyowner controls the rider.",
+   "related": [
+    "childrens-term-rider",
+    "family-term-rider",
+    "term-rider",
+    "conversion-privilege"
+   ],
+   "confusedWith": [
+    "term-rider",
+    "family-term-rider"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Which rider adds term coverage on the insured's spouse to the insured's policy?",
+    "choices": [
+     "Other-insured (spouse) term rider",
+     "Payor benefit rider",
+     "Guaranteed insurability rider",
+     "Return of premium rider"
+    ],
+    "answerIndex": 0,
+    "explanation": "An other-insured rider adds term coverage on another person, such as a spouse. A term rider adds coverage on the base insured; payor benefit waives premiums on juvenile policies."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "childrens-term-rider",
+   "term": "Children's Term Rider",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.9.2"
+   ],
+   "formal": "A rider that provides level term coverage on all of the insured's eligible children for a single premium regardless of how many children are covered. Children born or adopted later are typically covered automatically, and coverage on each child usually may be converted to permanent insurance without evidence of insurability at a specified age.",
+   "plain": "One rider covers all your kids with a small amount of term insurance, including kids born later, for one price.",
+   "simpler": "One family ticket covers all the kids, however many there are.",
+   "examples": [
+    "Tia adds a children's term rider to her policy. Her three children are covered for $10,000 each, and her baby born next year is added automatically.",
+    "At the conversion age stated in the rider, Tia's oldest child converts the coverage to his own whole life policy without proving insurability."
+   ],
+   "examTip": "One premium regardless of the number of children; newborns and adopted children are generally added; convertible without evidence of insurability.",
+   "misconception": "The children's term rider is not juvenile life insurance owned separately on a child; it is term coverage attached to a parent's policy.",
+   "related": [
+    "family-term-rider",
+    "other-insured-rider",
+    "juvenile-life-insurance",
+    "conversion-privilege"
+   ],
+   "confusedWith": [
+    "juvenile-life-insurance",
+    "family-term-rider"
+   ],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "How is the premium for a children's term rider usually determined?",
+    "choices": [
+     "One premium regardless of the number of children",
+     "A separate premium for each child based on age",
+     "A premium that doubles with each new child",
+     "No premium is ever charged"
+    ],
+    "answerIndex": 0,
+    "explanation": "A children's term rider typically charges a single premium that covers all eligible children, including those born or adopted later."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "family-term-rider",
+   "term": "Family Term Rider",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.9.3"
+   ],
+   "formal": "A rider attached to a permanent policy on a primary insured that adds term coverage on the insured's spouse and children in one package, combining the features of a spouse rider and a children's rider.",
+   "plain": "This rider adds coverage for the whole family — spouse and kids — to the main policy.",
+   "simpler": "A family bundle: the main policy covers one person, and the rider covers everyone else in the household.",
+   "examples": [
+    "Uri's $250,000 whole life policy has a family term rider covering his wife for $50,000 and each child for $10,000.",
+    "A child born after the rider is issued is generally covered automatically under the family term rider."
+   ],
+   "examTip": "Family rider = spouse + children (term). Children's rider = children only. Other-insured rider = a named other person, often the spouse.",
+   "misconception": "The family term rider does not provide permanent coverage on the family members; it is term insurance.",
+   "related": [
+    "childrens-term-rider",
+    "other-insured-rider",
+    "rider"
+   ],
+   "confusedWith": [
+    "childrens-term-rider",
+    "other-insured-rider"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Which rider adds term coverage on BOTH the insured's spouse and children?",
+    "choices": [
+     "Family term rider",
+     "Children's term rider",
+     "Payor benefit rider",
+     "Accidental death benefit rider"
+    ],
+    "answerIndex": 0,
+    "explanation": "A family term rider covers the spouse and children together. A children's term rider covers only children."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "accidental-death-benefit",
+   "term": "Accidental Death Benefit (Double Indemnity)",
+   "aliases": [
+    "Double Indemnity",
+    "ADB Rider"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.10",
+    "lpr.10.1"
+   ],
+   "formal": "A rider that pays an additional death benefit — often equal to the face amount (double indemnity) or a multiple of it — if the insured's death results from an accident as defined in the rider, typically within a stated period (commonly 90 days) after the accident and before a stated age.",
+   "plain": "If the insured dies in an accident, the beneficiary gets extra money — often double the policy amount.",
+   "simpler": "An accident \"bonus\" on top of the regular death benefit.",
+   "examples": [
+    "Vic has a $200,000 policy with a double indemnity rider. He dies in a car accident two weeks later; his beneficiary receives $400,000.",
+    "Wes dies of a heart attack; the accidental death rider pays nothing extra, so his beneficiary receives only the face amount."
+   ],
+   "examTip": "Pays ONLY for accidental death meeting the rider's definition and time limit. Usually expires at an age stated in the rider. Death from illness pays only the base face amount.",
+   "misconception": "The accidental death benefit does not increase the cash value of the policy and does not pay for death from illness.",
+   "related": [
+    "ad-and-d",
+    "accidental-bodily-injury",
+    "accidental-means",
+    "rider"
+   ],
+   "confusedWith": [
+    "ad-and-d"
+   ],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "A $100,000 policy has a double indemnity rider. The insured dies in a qualifying accident. What is paid?",
+    "choices": [
+     "$200,000",
+     "$100,000",
+     "$150,000",
+     "$300,000"
+    ],
+    "answerIndex": 0,
+    "explanation": "Double indemnity pays an additional amount equal to the face amount for a qualifying accidental death: $100,000 + $100,000 = $200,000."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "guaranteed-insurability-rider",
+   "term": "Guaranteed Insurability Rider",
+   "aliases": [
+    "Guaranteed Purchase Option",
+    "Future Purchase Option"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.10.2"
+   ],
+   "formal": "A rider that allows the policyowner to buy additional insurance on the insured at specified option dates or life events (such as marriage or the birth of a child), up to stated amounts, without evidence of insurability. The rider generally ends at an age stated in the rider. Premiums for the added coverage are based on the insured's attained age at purchase.",
+   "plain": "This rider lets you buy more life insurance later — at set times or after events like having a baby — without a medical exam.",
+   "simpler": "A rain check for more coverage: you lock in the right to buy now, even if your health changes later.",
+   "examples": [
+    "Xia, age 25, buys a policy with a guaranteed insurability rider. At 30 she develops diabetes but still buys $50,000 more coverage on her next option date without medical questions.",
+    "After his daughter is born, Yan exercises an option under his rider to add coverage."
+   ],
+   "examTip": "Guarantees INSURABILITY, not price — the new coverage costs the rate for the insured's age at purchase. No evidence of insurability on option dates.",
+   "misconception": "The rider does not increase coverage automatically; the owner must choose to exercise each option, and an option not used is typically lost.",
+   "related": [
+    "cost-of-living-rider",
+    "rider",
+    "future-increase-option"
+   ],
+   "confusedWith": [
+    "cost-of-living-rider",
+    "future-increase-option"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "What is the key advantage of a guaranteed insurability rider?",
+    "choices": [
+     "Buying more coverage at set dates without evidence of insurability",
+     "Freezing the premium for added coverage at the original issue age",
+     "Automatically doubling the face amount when the insured turns 40",
+     "Waiving all premiums while the insured is totally disabled"
+    ],
+    "answerIndex": 0,
+    "explanation": "The rider guarantees the right to buy more coverage without proof of insurability. The new coverage is priced at the insured's attained age, not the original age."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "cost-of-living-rider",
+   "term": "Cost of Living Rider (Life)",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.10.3"
+   ],
+   "formal": "A rider that automatically increases the policy's death benefit periodically in step with an inflation index such as the Consumer Price Index, without evidence of insurability, so that the coverage keeps its purchasing power. An additional premium is charged for the increases.",
+   "plain": "This rider makes your death benefit grow with inflation, so it buys about as much in the future as it does today.",
+   "simpler": "Keeps your coverage from shrinking in value as prices rise.",
+   "examples": [
+    "Zed's $200,000 policy has a cost of living rider; after a year of 3% CPI growth, his coverage rises to about $206,000.",
+    "The added coverage is usually bought as term insurance with an extra premium."
+   ],
+   "examTip": "Cost of living = increases tied to an inflation index (CPI), generally automatic and without evidence of insurability. Guaranteed insurability = owner-chosen purchases at option dates.",
+   "misconception": "This life insurance rider is different from a cost-of-living adjustment on disability income benefits, which increases monthly disability payments.",
+   "related": [
+    "guaranteed-insurability-rider",
+    "cost-of-living-adjustment",
+    "rider"
+   ],
+   "confusedWith": [
+    "cost-of-living-adjustment",
+    "guaranteed-insurability-rider"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "A rider that raises the death benefit in line with the Consumer Price Index is called a:",
+    "choices": [
+     "Cost of living rider",
+     "Guaranteed insurability rider",
+     "Return of premium rider",
+     "Paid-up additions rider"
+    ],
+    "answerIndex": 0,
+    "explanation": "A cost of living rider ties increases in coverage to an inflation index such as the CPI."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "return-of-premium-rider",
+   "term": "Return of Premium Rider",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.10.4"
+   ],
+   "formal": "A rider that returns premiums paid — most commonly by refunding the base premiums at the end of a level term period if the insured is still living, or in another form by adding an amount equal to premiums paid to the death benefit if the insured dies within a specified period. The rider adds significant cost.",
+   "plain": "If you outlive your term policy, this rider gives you back the premiums you paid (or, in some designs, adds your paid premiums to the death benefit).",
+   "simpler": "A money-back guarantee — but you pay extra up front for it.",
+   "examples": [
+    "Ana buys a 20-year term policy with a return of premium rider. She is alive at the end of the 20 years and receives her base premiums back.",
+    "Ben's rider design adds the premiums he paid to the death benefit if he dies within the first 20 policy years."
+   ],
+   "examTip": "ROP raises the premium considerably. On term ROP, the refund is paid if the insured SURVIVES the term; it is generally a return of the base premiums, not the rider charges.",
+   "misconception": "A return of premium rider is not a dividend; it is a contractual benefit bought with extra premium and is not dependent on the insurer's surplus.",
+   "related": [
+    "term-rider",
+    "term-life-insurance",
+    "dividend",
+    "rider"
+   ],
+   "confusedWith": [
+    "dividend"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Under a term policy with a return of premium rider, when are premiums typically refunded?",
+    "choices": [
+     "When the insured survives to the end of the level term period",
+     "When the insured dies as the result of a covered accident",
+     "In every policy year in which the insurer has a surplus",
+     "As soon as the free-look period on the policy ends"
+    ],
+    "answerIndex": 0,
+    "explanation": "The common term ROP design refunds premiums if the insured is living at the end of the term. A refund tied to insurer surplus would be a dividend."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "term-rider",
+   "term": "Term Rider",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.10.5"
+   ],
+   "formal": "A rider that adds level or decreasing term insurance on the base policy's insured to a permanent policy, increasing the total death benefit for a period at a lower cost than buying more permanent insurance. It is often convertible.",
+   "plain": "A term rider tacks extra temporary coverage onto your permanent policy — for example, while your children are young or your mortgage is large.",
+   "simpler": "A temporary booster for your death benefit.",
+   "examples": [
+    "Cara has a $100,000 whole life policy with a $400,000 20-year level term rider, giving her $500,000 of coverage while her children are growing up.",
+    "Dev adds a decreasing term rider matched to his mortgage balance."
+   ],
+   "examTip": "Term rider = extra term coverage on the SAME insured. Other-insured rider = term coverage on a DIFFERENT person. Combining permanent and term coverage this way is sometimes called a family income or mortgage protection design.",
+   "misconception": "Term riders do not build cash value and end at the end of their term unless converted.",
+   "related": [
+    "other-insured-rider",
+    "level-term",
+    "decreasing-term",
+    "conversion-privilege",
+    "rider"
+   ],
+   "confusedWith": [
+    "other-insured-rider"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Who is covered by a term rider added to a permanent life policy?",
+    "choices": [
+     "The base policy's insured, for additional temporary coverage",
+     "The insured's spouse only",
+     "The insured's children only",
+     "The premium payor of a juvenile policy"
+    ],
+    "answerIndex": 0,
+    "explanation": "A term rider increases coverage on the same insured for a limited period. Coverage on a spouse or children uses an other-insured, children's or family rider."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ],
+ "comparisons": [
+  {
+   "a": "per-stirpes",
+   "b": "per-capita",
+   "keyDifference": "Per stirpes passes a predeceased beneficiary's share down to that beneficiary's descendants; per capita splits the proceeds equally among the named beneficiaries who are still living.",
+   "rows": [
+    {
+     "aspect": "Meaning",
+     "a": "By the branch (bloodline)",
+     "b": "By the head"
+    },
+    {
+     "aspect": "If a named child dies first",
+     "a": "That child's share goes to his or her children",
+     "b": "That child's share is split among the surviving named beneficiaries"
+    },
+    {
+     "aspect": "$300,000, 3 children, 1 predeceased with 2 kids",
+     "a": "$100,000 + $100,000 + $50,000 + $50,000",
+     "b": "$150,000 + $150,000"
+    }
+   ],
+   "memoryTip": "STIRPES = STEMS of the family tree; CAPITA = count the heads (caput = head)."
+  },
+  {
+   "a": "extended-term-option",
+   "b": "reduced-paid-up-option",
+   "keyDifference": "Extended term keeps the same face amount for a limited time; reduced paid-up gives a smaller face amount for life.",
+   "rows": [
+    {
+     "aspect": "Face amount",
+     "a": "Same as the original (less any loans)",
+     "b": "Reduced"
+    },
+    {
+     "aspect": "Duration",
+     "a": "Limited period the cash value can buy",
+     "b": "Lifetime (permanent)"
+    },
+    {
+     "aspect": "Type of coverage",
+     "a": "Term insurance",
+     "b": "Paid-up permanent insurance of the same type"
+    },
+    {
+     "aspect": "Cash value afterward",
+     "a": "Declines over the term, then gone",
+     "b": "Continues to grow"
+    }
+   ],
+   "memoryTip": "Extended term: same size, shorter time. Reduced paid-up: smaller size, all the time."
+  },
+  {
+   "a": "revocable-beneficiary",
+   "b": "irrevocable-beneficiary",
+   "keyDifference": "A revocable beneficiary can be changed by the owner at will; an irrevocable beneficiary has a vested interest and must consent to changes and to actions that reduce the benefit.",
+   "rows": [
+    {
+     "aspect": "Owner can change beneficiary",
+     "a": "Yes, without consent",
+     "b": "Only with the beneficiary's written consent"
+    },
+    {
+     "aspect": "Loans, assignment, surrender",
+     "a": "Owner acts freely",
+     "b": "Generally need beneficiary consent"
+    },
+    {
+     "aspect": "Beneficiary's interest",
+     "a": "Expectancy only",
+     "b": "Vested"
+    }
+   ],
+   "memoryTip": "IRrevocable = IRonclad."
+  },
+  {
+   "a": "fixed-period-option",
+   "b": "fixed-amount-option",
+   "keyDifference": "Fixed-period sets how long payments last (amount varies); fixed-amount sets how much each payment is (length varies).",
+   "rows": [
+    {
+     "aspect": "What is fixed",
+     "a": "Length of time",
+     "b": "Dollar amount of each payment"
+    },
+    {
+     "aspect": "What varies",
+     "a": "Size of each payment",
+     "b": "How long payments last"
+    },
+    {
+     "aspect": "Effect of extra interest",
+     "a": "Larger payments",
+     "b": "Payments last longer"
+    }
+   ],
+   "memoryTip": "Period = time is locked; Amount = check size is locked."
+  },
+  {
+   "a": "waiver-of-premium",
+   "b": "payor-benefit-rider",
+   "keyDifference": "Waiver of premium is triggered by the insured's own disability; the payor benefit is triggered by the death or disability of the person paying premiums on a juvenile policy.",
+   "rows": [
+    {
+     "aspect": "Whose event triggers it",
+     "a": "The insured's total disability",
+     "b": "The payor's death or disability"
+    },
+    {
+     "aspect": "Typical policy",
+     "a": "Any individual life policy",
+     "b": "Juvenile policy on a child"
+    },
+    {
+     "aspect": "How long premiums are waived",
+     "a": "While the insured remains disabled",
+     "b": "Until the child reaches the age stated in the rider (or the policy matures)"
+    }
+   ],
+   "memoryTip": "Payor benefit protects the person who PAYS; waiver of premium protects the person who is INSURED."
+  },
+  {
+   "a": "policy-loan",
+   "b": "partial-surrender",
+   "keyDifference": "A policy loan is a debt against the cash value that accrues interest and can be repaid; a partial surrender permanently removes cash value with no interest and no repayment.",
+   "rows": [
+    {
+     "aspect": "Interest charged",
+     "a": "Yes",
+     "b": "No"
+    },
+    {
+     "aspect": "Repayment",
+     "a": "Optional; unpaid balance deducted at death or surrender",
+     "b": "Not repaid"
+    },
+    {
+     "aspect": "Typical policy",
+     "a": "Whole life and other cash value policies",
+     "b": "Universal life"
+    }
+   ],
+   "memoryTip": "Loan = borrow and owe; withdrawal = take and it's gone."
+  }
+ ]
+}

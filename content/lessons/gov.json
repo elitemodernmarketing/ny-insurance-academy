@@ -1,0 +1,411 @@
+{
+  "sectionId": "gov",
+  "lessons": [
+    {
+      "id": "gov-l01",
+      "sectionId": "gov",
+      "order": 1,
+      "title": "Workers' Compensation and Social Security Disability",
+      "outlineIds": ["gov.1", "gov.1.1", "gov.1.2", "gov.2", "gov.2.1", "gov.2.2", "gov.2.3", "gov.2.4"],
+      "estMinutes": 20,
+      "intro": "Before you sell private disability or health coverage, you need to know what government programs already provide — and what they leave out. This lesson covers two of them: workers' compensation, for on-the-job injuries, and Social Security Disability Insurance (SSDI), for severe, long-lasting disabilities.",
+      "objectives": [
+        "Explain who workers' compensation covers and the types of benefits it pays",
+        "State SSDI's qualification requirements and strict definition of disability",
+        "Apply SSDI's five-month waiting period to a fact pattern"
+      ],
+      "keyTerms": ["workers-compensation", "social-security-disability"],
+      "parts": [
+        {
+          "heading": "Workers' compensation: eligibility",
+          "body": "[[workers-compensation|Workers' compensation]] is a state-required, employer-paid system for employees who are injured or become ill **because of their work** — injuries that arise out of and in the course of employment, plus occupational diseases.\n\nIt is **no-fault**: the worker is covered even if the worker, the employer or a third party caused the accident. In exchange, the employee generally gives up the right to sue the employer for negligence. Workers' comp is the employer's responsibility; employees don't buy it.",
+          "simple": "Hurt or sick because of your job? Workers' comp pays, no matter whose fault it was. Your employer pays for the coverage.",
+          "callouts": [
+            { "kind": "exam-trap", "text": "Off-the-job injuries and illnesses are NOT workers' comp. In New York, those fall under the Disability Benefits Law." }
+          ]
+        },
+        {
+          "heading": "Workers' compensation: benefits",
+          "body": "Workers' comp typically provides four kinds of benefits:\n\n- **Medical** — treatment for the work-related injury or illness;\n- **Disability income** — partial replacement of lost wages;\n- **Rehabilitation** — help returning to work;\n- **Death benefits** — payments to dependents if the worker dies from a work injury.\n\nBecause it is a no-fault system that replaces lawsuits, it does not pay jury-style damages such as pain and suffering. Many private disability and medical policies exclude losses covered by workers' comp to avoid paying twice.",
+          "callouts": [
+            { "kind": "memory-tip", "text": "Comp pays M-I-R-D: Medical, Income, Rehab, Death." },
+            { "kind": "note", "text": "When a Medicare beneficiary has a workers' comp claim, workers' comp pays first for items and services related to that claim.", "sources": ["fed-medicare-who-pays-first"] }
+          ]
+        },
+        {
+          "heading": "SSDI: who qualifies",
+          "body": "[[social-security-disability|Social Security Disability Insurance]] is an **earned** federal benefit. To qualify, a worker must:\n\n- have worked in jobs covered by Social Security **long enough and recently enough** — generally 40 work credits, 20 of them earned in the 10 years ending with the year the disability began (younger workers may need fewer); and\n- have a medical condition that meets Social Security's **strict definition of disability**.\n\nSSDI is not means-tested; it doesn't depend on income or assets.",
+          "simple": "You earn SSDI protection by working and paying Social Security taxes. Then you must also be severely disabled."
+        },
+        {
+          "heading": "SSDI: definition of disability, waiting period and benefits",
+          "body": "SSA pays **only for total disability** — no benefits for partial or short-term disability. You are disabled only if all three are true:\n\n1. You can't do substantial gainful work because of your medical condition;\n2. You can't do work you did before **or adjust to other work**;\n3. Your condition has lasted or is expected to last **at least 12 consecutive months** or to result in death.\n\nSSA uses a five-step process: Are you working? Is the condition severe? Is it on the list of disabling conditions? Can you do your past work? Can you do any other work?\n\n**Waiting period:** generally **five full months**; the first benefit is paid for the **sixth full month** after the disability began. Benefits are monthly and continue until the person can work again regularly; at full retirement age they convert to retirement benefits in the same amount.",
+          "example": { "title": "Example: counting the waiting period", "body": "Disability began March 10. March isn't a full month. April, May, June, July and August are the five waiting months. The first benefit is for September." },
+          "callouts": [
+            { "kind": "exam-trap", "text": "Don't mix up the numbers: 12 months = how long the disability must last; 5 months = the waiting period; 24 months = how long until Medicare begins for most disabled beneficiaries." }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "categorize",
+        "prompt": "Which program is the best fit for each situation?",
+        "categories": ["Workers' compensation", "SSDI"],
+        "items": [
+          { "text": "A roofer falls from a ladder while on the job", "category": "Workers' compensation" },
+          { "text": "A lab technician develops an occupational disease from workplace chemicals", "category": "Workers' compensation" },
+          { "text": "A worker with enough credits has ALS and can no longer do any work", "category": "SSDI" },
+          { "text": "A former teacher's severe heart disease prevents any substantial work for well over a year", "category": "SSDI" }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "SSDI generally pays the first benefit for which month after the disability began?",
+          "choices": ["The sixth full month", "The first full month", "The twelfth full month", "The twenty-fourth full month"],
+          "answerIndex": 0,
+          "explanation": "There is generally a five-month waiting period; the first benefit is for the sixth full month."
+        },
+        {
+          "prompt": "Workers' compensation covers:",
+          "choices": ["Injuries and illnesses arising out of employment", "Any injury, on or off the job", "Only illnesses, not accidents", "Only employees who were not at fault"],
+          "answerIndex": 0,
+          "explanation": "Workers' comp is a no-fault system for work-related injuries and occupational diseases."
+        }
+      ],
+      "summary": [
+        "Workers' comp is employer-paid, no-fault coverage for work-related injury and illness: medical, income, rehabilitation and death benefits.",
+        "SSDI requires enough Social Security work credits plus a total disability expected to last 12+ months or result in death.",
+        "SSDI's disability test is whether you can do your past work or adjust to any other work — not just your own occupation.",
+        "SSDI has a five-month waiting period; the first benefit is for the sixth full month."
+      ],
+      "related": ["gov-l02", "gov-l04"],
+      "sources": ["fed-ssa-disability-qualify", "fed-medicare-who-pays-first", "general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "federal-source", "checkedOn": "2026-11-19", "notes": "Workers' compensation parts are general principles; SSDI parts verified against SSA." }
+    },
+    {
+      "id": "gov-l02",
+      "sectionId": "gov",
+      "order": 2,
+      "title": "The New York Disability Benefits Law (DBL)",
+      "outlineIds": ["gov.3", "gov.3.1", "gov.3.2", "gov.3.3", "gov.3.4"],
+      "estMinutes": 20,
+      "intro": "New York is one of a handful of states that require employers to provide short-term disability coverage for illnesses and injuries that happen off the job. That coverage comes from Article 9 of the Workers' Compensation Law — the Disability Benefits Law (DBL). This lesson explains its purpose, key definitions, who is covered and what it pays.",
+      "objectives": [
+        "Explain the purpose of the NY DBL and how it differs from workers' compensation",
+        "Apply the DBL definition of disability",
+        "Identify employees excluded from the definition of 'employee'",
+        "Calculate the basic DBL weekly benefit and state its waiting period and maximum duration"
+      ],
+      "keyTerms": ["disability-benefits-law", "workers-compensation", "short-term-disability"],
+      "parts": [
+        {
+          "heading": "Purpose and definition of disability",
+          "body": "The [[disability-benefits-law|DBL]] fills the gap left by workers' compensation: it provides **cash benefits when an employee can't work because of an injury or sickness that did NOT arise out of employment.**\n\nWorkers' Compensation Law § 201 defines disability as the inability of an employee, **as a result of injury or sickness not arising out of and in the course of employment**, to perform the **regular duties of his or her employment** — or the duties of any other job the employer offers at the employee's regular wages that the condition doesn't prevent.",
+          "simple": "Workers' comp is for work injuries; DBL is for everything else that keeps you out of work for a while.",
+          "callouts": [
+            { "kind": "ny-rule", "text": "WCL § 201: 'Disability' during employment means the inability, as a result of injury or sickness not arising out of and in the course of an employment, to perform the regular duties of the employment or other work the employer offers at regular wages.", "sources": ["ny-wkc-201"] },
+            { "kind": "memory-tip", "text": "Work hurt → Workers' comp. Weekend hurt → DBL." }
+          ]
+        },
+        {
+          "heading": "Employers and employees covered",
+          "body": "Under § 201, an **employer** is a private person, partnership, association or corporation that has people in covered employment. The **State, municipal corporations, local government agencies, other political subdivisions and public authorities are not 'employers'** under this definition.\n\nAn **employee** is a person in the service of an employer, with listed exceptions, including:\n\n- a **minor child of the employer**;\n- ordained, commissioned or licensed **clergy**, sextons, Christian Science readers and members of religious orders;\n- an executive officer who owns **all** of a corporation's stock and holds all its offices (or two such officers who together own all the stock);\n- executive officers of, and people in a professional or teaching capacity at, religious, charitable or educational institutions, and volunteers there.",
+          "simple": "Most private-sector workers are covered. Government employers aren't covered by this definition, and some people — like an employer's minor child or clergy — aren't 'employees' for DBL purposes.",
+          "advanced": "Other DBL sections (not excerpted for this lesson) set how long someone must work for a covered employer before becoming eligible and how employers secure coverage. Check the statute before relying on specific week counts.",
+          "callouts": [
+            { "kind": "ny-rule", "text": "WCL § 201(4)-(5) definitions of employer and employee, including public-employer and listed-employee exclusions.", "sources": ["ny-wkc-201"] }
+          ]
+        },
+        {
+          "heading": "Benefits: amount, waiting period and duration",
+          "body": "- **Waiting period:** benefits begin on the **eighth day** of disability (§ 204(1)).\n- **Amount:** **one-half of the employee's average weekly wage**, subject to a statutory weekly maximum (§ 204(2)(b)). An employee working for more than one covered employer receives half of the combined average weekly wages, within the same limits.\n- **Duration:** no more than **26 weeks** of disability benefits in any **52 consecutive weeks** (reduced by any paid family leave days taken) (§ 205(1)(a)).\n- **Successive disabilities** from the same or related cause count as one period unless separated by **three months** or more.\n\nBenefits are **not payable**, among other situations, while the employee isn't under the care of a licensed physician (or other listed practitioner), for willful self-injury or injury while committing an illegal act, for any day the employee worked for pay, for any day the employer pays at least the DBL amount, or for disability caused by war.",
+          "example": { "title": "Example: calculating the benefit", "body": "Jen's average weekly wage is $300. Her DBL benefit is ½ × $300 = $150 per week (assuming this is under the statutory maximum), starting on the 8th day of her off-the-job illness, for up to 26 weeks." },
+          "callouts": [
+            { "kind": "ny-rule", "text": "WCL § 204: benefits begin with the eighth day of disability and equal one-half of the employee's weekly wage, up to the statutory maximum.", "sources": ["ny-wkc-204"] },
+            { "kind": "ny-rule", "text": "WCL § 205: no more than 26 weeks of disability benefits in 52 consecutive calendar weeks; no benefits for any day the employee worked for remuneration.", "sources": ["ny-wkc-205"] },
+            { "kind": "exam-trap", "text": "Paid FAMILY LEAVE (also in Article 9) starts on the first full day and is limited to 12 weeks; DISABILITY benefits start on day 8 and last up to 26 weeks. An employee can't collect both at the same time.", "sources": ["ny-wkc-204", "ny-wkc-205"] }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "truefalse",
+        "prompt": "True or false? NY Disability Benefits Law basics.",
+        "statements": [
+          { "text": "DBL covers a back injury that occurs while lifting boxes at work.", "answer": false, "explanation": "Work-related injuries are covered by workers' compensation; DBL covers disabilities not arising out of employment." },
+          { "text": "DBL disability benefits begin on the eighth day of disability.", "answer": true, "explanation": "WCL § 204(1)." },
+          { "text": "The DBL weekly benefit is one-half of the employee's average weekly wage, up to a statutory maximum.", "answer": true, "explanation": "WCL § 204(2)(b)." },
+          { "text": "DBL benefits can be paid for up to 52 weeks in a year.", "answer": false, "explanation": "The maximum is 26 weeks in any 52 consecutive weeks (WCL § 205)." },
+          { "text": "A minor child of the employer is excluded from the DBL definition of employee.", "answer": true, "explanation": "WCL § 201(5) excludes a minor child of the employer." }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "An employee earning $500 a week is disabled by an off-the-job illness. Ignoring the statutory maximum, what is the weekly DBL benefit?",
+          "choices": ["$250", "$500", "$335", "$170"],
+          "answerIndex": 0,
+          "explanation": "DBL pays one-half of the average weekly wage: $500 × ½ = $250. (In practice the benefit is also limited by the statutory weekly maximum.)"
+        },
+        {
+          "prompt": "What is the maximum duration of DBL disability benefits?",
+          "choices": ["26 weeks in any 52 consecutive weeks", "12 weeks per year", "52 weeks", "Until age 65"],
+          "answerIndex": 0,
+          "explanation": "WCL § 205(1)(a)."
+        }
+      ],
+      "summary": [
+        "The NY DBL (WCL Article 9) provides cash benefits for disabilities NOT arising out of employment.",
+        "Disability = can't perform the regular duties of the job (or other work the employer offers at regular wages).",
+        "Public employers are outside the definition of 'employer'; listed people (such as an employer's minor child and clergy) aren't 'employees.'",
+        "Benefits: start on day 8, equal one-half of average weekly wage up to a statutory maximum, and last no more than 26 weeks in 52 consecutive weeks."
+      ],
+      "related": ["gov-l01"],
+      "sources": ["ny-wkc-201", "ny-wkc-204", "ny-wkc-205"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "gov-l03",
+      "sectionId": "gov",
+      "order": 3,
+      "title": "Medicaid, Child Health Plus and Healthy NY",
+      "outlineIds": ["gov.4", "gov.4.1", "gov.4.2", "gov.4.2.1", "gov.7"],
+      "estMinutes": 15,
+      "intro": "Some government health programs are based on need rather than age. This lesson covers Medicaid, New York's Child Health Plus program for children, and Healthy NY, a New York program that helps small employers offer health insurance.",
+      "objectives": [
+        "Describe Medicaid's funding, administration and eligibility basis",
+        "Explain how Child Health Plus relates to Children's Medicaid",
+        "Describe the purpose and basic employer qualifications for Healthy NY"
+      ],
+      "keyTerms": ["medicaid", "child-health-plus", "healthy-new-york"],
+      "parts": [
+        {
+          "heading": "Medicaid: eligibility and benefits",
+          "body": "[[medicaid|Medicaid]] is a **joint federal and state program** that helps with medical costs for some people with **limited income and resources**. Each state runs its own program within federal rules, so eligibility and benefits vary from state to state.\n\nKey points for the exam:\n\n- It is **means-tested** (based on financial need), unlike Medicare.\n- It covers a broad range of medical care and is the main public payer for **long-term custodial care** for those who qualify.\n- For people with both Medicare and Medicaid, **Medicare pays first**; Medicaid never pays first for services Medicare covers.",
+          "simple": "Medicaid is health coverage for people with low income and few assets, paid for jointly by the federal government and the state.",
+          "callouts": [
+            { "kind": "note", "text": "Medicare.gov describes Medicaid as 'a joint federal and state program that helps with medical costs for some people with limited income and resources.'", "sources": ["fed-medicare-snf", "fed-medicare-who-pays-first"] }
+          ]
+        },
+        {
+          "heading": "Child Health Plus",
+          "body": "[[child-health-plus|Child Health Plus]] is New York State's health insurance plan for children. Depending on **family income**, a child may be eligible for either **Children's Medicaid** or **Child Health Plus**. Both are delivered through participating health plans throughout the state.\n\nSince January 1, 2014, families apply through **NY State of Health**, the official health plan marketplace.",
+          "simple": "Kids in families with low income get Children's Medicaid; kids whose family income is higher can get Child Health Plus.",
+          "callouts": [
+            { "kind": "ny-rule", "text": "NY DOH: 'Depending on your family's income, your child may be eligible to join either Children's Medicaid or Child Health Plus.'", "sources": ["ny-doh-child-health-plus"] }
+          ]
+        },
+        {
+          "heading": "Healthy NY",
+          "body": "[[healthy-new-york|Healthy NY]] (Insurance Law § 4326) makes **standardized health insurance contracts** available to **qualifying small employers**, to encourage small businesses to offer coverage. Under the statute, a qualifying small employer:\n\n- has **not more than 50 employees**;\n- had **no group health insurance** covering employees during the **prior 12 months**; and\n- has at least **30% of its employees** earning at or below a wage level that is adjusted annually.\n\nThe contract must insure **at least 50% of the employees**, and must be offered to all of the lower-wage employees, with at least one of them accepting.",
+          "simple": "Healthy NY helps small businesses that haven't offered health insurance start doing so with a standard, more affordable plan.",
+          "callouts": [
+            { "kind": "ny-rule", "text": "Ins. Law § 4326: qualifying small employer = not more than 50 employees, no group health coverage in the prior 12 months, at least 30% lower-wage employees; contract must insure at least 50% of employees.", "sources": ["ny-isc-4326"] },
+            { "kind": "exam-trap", "text": "The Healthy NY wage threshold is indexed every July, so don't memorize a dollar figure." }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "match",
+        "prompt": "Match each program to its description.",
+        "pairs": [
+          { "left": "Medicaid", "right": "Joint federal-state coverage for people with limited income and resources" },
+          { "left": "Child Health Plus", "right": "NY children's health insurance for families above Children's Medicaid income levels" },
+          { "left": "Healthy NY", "right": "Standardized health contracts for qualifying small employers" }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Which statement about Medicaid is correct?",
+          "choices": ["It is jointly funded by the federal and state governments and is means-tested", "It is available to everyone at age 65 regardless of income", "It always pays before Medicare", "It is run only by the federal government"],
+          "answerIndex": 0,
+          "explanation": "Medicaid is a joint federal-state, need-based program; Medicare pays first for people who have both."
+        },
+        {
+          "prompt": "To qualify for Healthy NY, a small employer must NOT have had group health insurance for employees during the prior:",
+          "choices": ["12 months", "3 months", "24 months", "5 years"],
+          "answerIndex": 0,
+          "explanation": "Ins. Law § 4326 requires no group health insurance in effect during the twelve-month period before application."
+        }
+      ],
+      "summary": [
+        "Medicaid is a joint federal-state, means-tested program; it pays long-term care for those who qualify and pays after Medicare.",
+        "In New York, family income decides whether a child gets Children's Medicaid or Child Health Plus; families apply through NY State of Health.",
+        "Healthy NY offers standardized health contracts to small employers (50 or fewer employees) without recent group coverage and with a significant share of lower-wage workers."
+      ],
+      "related": ["gov-l04"],
+      "sources": ["fed-medicare-snf", "fed-medicare-who-pays-first", "ny-doh-child-health-plus", "ny-isc-4326"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "gov-l04",
+      "sectionId": "gov",
+      "order": 4,
+      "title": "Medicare: Parts A, B, C and D",
+      "outlineIds": ["gov.5", "gov.5.1", "gov.5.2", "gov.5.2.1", "gov.5.2.2", "gov.5.2.3", "gov.5.3", "gov.5.3.1", "gov.5.3.2", "gov.5.3.3", "gov.5.3.4", "gov.5.4", "gov.5.5"],
+      "estMinutes": 35,
+      "intro": "Medicare is the backbone of health coverage for older Americans, and understanding it is essential for selling Medicare supplements, long-term care and group coverage to older clients. This lesson covers how Medicare is structured, financed and run; who is eligible and how to enroll; what Parts A and B cover and what they don't; and the private-plan options in Parts C and D. We focus on structure rather than this year's dollar amounts.",
+      "objectives": [
+        "Describe the nature, financing and administration of Medicare",
+        "Explain Part A eligibility, enrollment, coverage and benefit periods",
+        "Explain Part B eligibility, enrollment, coverage, cost sharing and key exclusions",
+        "Distinguish Medicare Advantage (Part C) and Part D drug coverage"
+      ],
+      "keyTerms": ["medicare", "medicare-part-a", "medicare-part-b", "medicare-advantage", "medicare-part-d", "medicare-benefit-period", "initial-enrollment-period"],
+      "parts": [
+        {
+          "heading": "Nature, financing and administration",
+          "body": "[[medicare|Medicare]] is **federal** health insurance for people **65 and older**, certain people **under 65 with disabilities**, and people with **end-stage renal disease (ESRD)**. It is administered by the **Centers for Medicare & Medicaid Services (CMS)**; the Social Security Administration handles much of the enrollment. It is **not means-tested**.\n\n**Original Medicare** is a fee-for-service program with two parts: **Part A** (Hospital Insurance) and **Part B** (Medical Insurance). Beneficiaries may instead choose a private **Medicare Advantage** plan (Part C) and may add **Part D** drug coverage.\n\nFinancing in brief: Part A is funded mainly through payroll taxes paid during working years, so most people get it premium-free. Part B and Part D are funded by enrollee premiums plus federal general revenues.",
+          "simple": "Medicare is the federal government's health insurance for people 65+ and some younger people with disabilities or kidney failure. A = hospital, B = doctors, C = private plan option, D = drugs.",
+          "callouts": [
+            { "kind": "memory-tip", "text": "A = Admitted (hospital); B = Bills from doctors; C = Choose a private plan; D = Drugs." }
+          ]
+        },
+        {
+          "heading": "Part A: eligibility, enrollment and coverage",
+          "body": "**Eligibility:** people 65+ who (or whose spouse) paid Medicare taxes long enough generally get [[medicare-part-a|Part A]] **without a premium**; others may buy it. People under 65 qualify after receiving Social Security disability benefits for 24 months, or with ESRD or ALS.\n\n**Enrollment:** people already receiving Social Security benefits are generally enrolled automatically; others sign up during the **[[initial-enrollment-period|Initial Enrollment Period]]** — the 7 months around the 65th birthday month (3 before, the birthday month, 3 after).\n\n**Coverage:** inpatient hospital stays, **skilled nursing facility** care (short-term), hospice care and some home health care.\n\n**Cost sharing** is measured per **[[medicare-benefit-period|benefit period]]**, which starts at inpatient admission and ends after **60 days in a row** without inpatient hospital or SNF skilled care. An inpatient deductible applies to each benefit period.\n\n**SNF rules:** Medicare covers SNF care only after a **qualifying inpatient hospital stay of at least 3 days in a row** (observation and ER time don't count), entry to the SNF generally within 30 days, and a need for **daily skilled care**. Per benefit period: days 1–20 no daily coinsurance; days 21–100 a daily coinsurance; after day 100 the beneficiary pays all costs.",
+          "example": { "title": "Example: observation days don't count", "body": "Frank spends two nights under observation, then two days as an admitted inpatient. He has only two inpatient days, so Part A won't cover a following SNF stay." },
+          "callouts": [
+            { "kind": "exam-trap", "text": "The Part A deductible is per BENEFIT PERIOD, not per calendar year. Several benefit periods in one year mean several deductibles.", "sources": ["fed-medicare-snf"] },
+            { "kind": "note", "text": "Medicare.gov: 'Part A limits SNF coverage to 100 days in each benefit period.'", "sources": ["fed-medicare-snf"] }
+          ]
+        },
+        {
+          "heading": "Part B: eligibility, enrollment, coverage and exclusions",
+          "body": "**Eligibility and enrollment:** anyone entitled to Part A can enroll in [[medicare-part-b|Part B]]; it is **voluntary** and requires a **monthly premium**. Sign up during the Initial Enrollment Period; delaying without qualifying coverage (such as group coverage from current employment) can bring a **lifetime late-enrollment penalty**.\n\n**Coverage:** doctors' services, outpatient care, medical supplies and durable medical equipment, and preventive services.\n\n**Cost sharing:** an **annual deductible**, then generally **20% coinsurance** of the Medicare-approved amount.\n\n**Major exclusions under Original Medicare:** **long-term custodial care**, most dental care and dentures, routine eye exams for glasses, hearing aids, cosmetic surgery, and care outside the United States (with limited exceptions). These gaps are why people buy Medigap, dental/vision plans and LTC insurance.",
+          "simple": "Part B covers doctors and outpatient care. You pay a monthly premium, a yearly deductible, and usually 20% after that. It doesn't cover long-term custodial care.",
+          "callouts": [
+            { "kind": "note", "text": "Medicare.gov: Medicare and most health insurance, including Medigap, don't pay for long-term care services.", "sources": ["fed-medicare-ltc"] }
+          ]
+        },
+        {
+          "heading": "Part C (Medicare Advantage) and Part D",
+          "body": "**[[medicare-advantage|Medicare Advantage (Part C)]]** is a Medicare-approved health plan from a **private company** that covers most Part A and Part B benefits **instead of Original Medicare**. It usually includes drug coverage and often uses HMO or PPO networks. Because it replaces Original Medicare, a Medigap policy cannot be used with it.\n\n**[[medicare-part-d|Part D]]** is Medicare's voluntary **outpatient prescription drug** benefit, delivered by private Medicare-approved plans — either a stand-alone drug plan alongside Original Medicare or as part of a Medicare Advantage plan.",
+          "callouts": [
+            { "kind": "exam-trap", "text": "Medicare Advantage is not a supplement — it is a different way of getting Medicare. Medigap supplements ORIGINAL Medicare only.", "sources": ["fed-medicare-snf", "fed-medicare-medigap"] }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "categorize",
+        "prompt": "Which part of Medicare covers each item?",
+        "categories": ["Part A", "Part B", "Part D", "Not covered"],
+        "items": [
+          { "text": "A 4-day inpatient hospital stay", "category": "Part A" },
+          { "text": "Hospice care", "category": "Part A" },
+          { "text": "An outpatient visit to a cardiologist", "category": "Part B" },
+          { "text": "A wheelchair (durable medical equipment)", "category": "Part B" },
+          { "text": "A monthly cholesterol prescription", "category": "Part D" },
+          { "text": "Long-term custodial care in a nursing home", "category": "Not covered" }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "A Medicare benefit period ends when the beneficiary has had no inpatient hospital or SNF skilled care for:",
+          "choices": ["60 days in a row", "30 days in a row", "90 days in a row", "One calendar year"],
+          "answerIndex": 0,
+          "explanation": "Medicare.gov: the benefit period ends after 60 days in a row without inpatient hospital or SNF skilled care."
+        },
+        {
+          "prompt": "Before Part A covers SNF care, the beneficiary generally needs a qualifying inpatient hospital stay of at least:",
+          "choices": ["3 days in a row", "1 day", "7 days", "30 days"],
+          "answerIndex": 0,
+          "explanation": "A medically necessary inpatient stay of at least 3 consecutive days is required; observation time doesn't count."
+        },
+        {
+          "prompt": "Which is generally true of Part B?",
+          "choices": ["It requires a monthly premium and usually 20% coinsurance after the deductible", "It is premium-free for everyone with 40 work credits", "It covers inpatient hospital stays", "It covers long-term custodial care"],
+          "answerIndex": 0,
+          "explanation": "Part B has a premium, an annual deductible and generally 20% coinsurance; inpatient care is Part A, and custodial care isn't covered."
+        }
+      ],
+      "summary": [
+        "Medicare is federal, administered by CMS, and not means-tested; Original Medicare = Parts A and B.",
+        "Part A: hospital, short-term SNF after a 3-day inpatient stay, hospice, some home health; cost sharing per 60-day benefit period; SNF limited to 100 days.",
+        "Part B: doctors, outpatient care, equipment and preventive services; premium, annual deductible, generally 20% coinsurance.",
+        "Original Medicare excludes long-term custodial care, most dental, routine vision/hearing items and cosmetic surgery.",
+        "Part C replaces Original Medicare with a private plan; Part D adds prescription drug coverage through private plans."
+      ],
+      "related": ["gov-l03", "sen-l01"],
+      "sources": ["fed-medicare-snf", "fed-medicare-ltc", "fed-medicare-medigap", "fed-medicare-who-pays-first", "general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "federal-source", "checkedOn": "2026-11-19", "notes": "Coverage structure, SNF rules and benefit period verified on Medicare.gov; financing, IEP, Part B 20%/premium and exclusion list taught from standard federal knowledge without dollar figures." }
+    },
+    {
+      "id": "gov-l05",
+      "sectionId": "gov",
+      "order": 5,
+      "title": "Flexible Spending Accounts and Health Savings Accounts",
+      "outlineIds": ["gov.6", "gov.6.1", "gov.6.2", "gov.6.3"],
+      "estMinutes": 15,
+      "intro": "FSAs and HSAs both let people pay medical expenses with tax-advantaged dollars, but they work very differently. Exam questions love to test the differences: who owns the account, who is eligible, and what happens to unused money.",
+      "objectives": [
+        "Define a health FSA and an HSA",
+        "State the eligibility rules for each",
+        "Explain how contributions and unused balances are treated"
+      ],
+      "keyTerms": ["fsa", "hsa", "high-deductible-health-plan"],
+      "parts": [
+        {
+          "heading": "Health Flexible Spending Accounts (FSAs)",
+          "body": "A **[[fsa|health FSA]]** is an **employer-established** benefit plan — often part of a cafeteria plan — that reimburses employees for qualified medical expenses.\n\n- **Contributions:** the employee elects an annual amount at the start of the plan year, and the employer deducts it from pay (generally each payday) **before federal income and employment taxes**. The employer may also contribute.\n- **Eligibility:** employees of employers that offer one. **Self-employed persons aren't eligible.**\n- **Unused funds:** FSAs are generally **'use-it-or-lose-it.'** A plan may offer either a **grace period of up to 2½ months** after the plan year or a limited **carryover**.",
+          "simple": "An FSA is pre-tax money from your paycheck for medical bills. Spend it by the deadline or lose it.",
+          "callouts": [
+            { "kind": "note", "text": "IRS Pub. 969: 'FSAs are generally \"use-it-or-lose-it\" plans. However, the plan can provide for either a grace period or a carryover.'", "sources": ["fed-irs-p969"] }
+          ]
+        },
+        {
+          "heading": "Health Savings Accounts (HSAs)",
+          "body": "An **[[hsa|HSA]]** is a **tax-exempt trust or custodial account** owned by the individual and set up with a qualified trustee to pay or reimburse qualified medical expenses.\n\n**Eligibility** — to contribute, a person must:\n\n- be covered by a **[[high-deductible-health-plan|high-deductible health plan (HDHP)]]** on the first day of the month;\n- have **no other disqualifying health coverage**;\n- **not be enrolled in Medicare**; and\n- **not be claimable as a dependent** on someone else's return.\n\n**Contributions:** the individual, the employer, or both — and family members or others — may contribute for an eligible person. Individual contributions are deductible; employer contributions can be excluded from income. Annual limits depend on self-only or family HDHP coverage and are **indexed each year**.\n\n**Growth and withdrawals:** earnings are tax-free, unused balances **carry over** year to year, and distributions for qualified medical expenses are tax-free. Non-medical distributions are taxable and generally face an additional tax — except after the owner becomes **disabled, reaches 65, or dies**.",
+          "simple": "An HSA is your own medical savings account that comes with a high-deductible plan. Money goes in tax-free, grows tax-free, comes out tax-free for medical bills, and never expires.",
+          "callouts": [
+            { "kind": "exam-trap", "text": "Enrolling in Medicare stops new HSA contributions, but the money already in the account stays and can still be used.", "sources": ["fed-irs-p969"] },
+            { "kind": "memory-tip", "text": "HSA = Holds Savings Always; FSA = Forfeit if not Spent Annually." }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "categorize",
+        "prompt": "Does each feature describe an FSA or an HSA?",
+        "categories": ["FSA", "HSA"],
+        "items": [
+          { "text": "Generally use-it-or-lose-it", "category": "FSA" },
+          { "text": "Self-employed people aren't eligible", "category": "FSA" },
+          { "text": "May allow a grace period of up to 2½ months", "category": "FSA" },
+          { "text": "Requires coverage under a high-deductible health plan", "category": "HSA" },
+          { "text": "Unused balances carry over indefinitely", "category": "HSA" },
+          { "text": "No new contributions once enrolled in Medicare", "category": "HSA" }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Which is required to contribute to an HSA?",
+          "choices": ["Coverage under a high-deductible health plan", "Enrollment in Medicare", "Employment with a large employer", "Participation in a health FSA"],
+          "answerIndex": 0,
+          "explanation": "HDHP coverage is required; Medicare enrollment makes a person ineligible to contribute."
+        },
+        {
+          "prompt": "What generally happens to money left in a health FSA after the plan year (and any grace period) ends?",
+          "choices": ["It is forfeited", "It rolls into an HSA", "It is refunded in cash", "It earns interest until used"],
+          "answerIndex": 0,
+          "explanation": "FSAs are generally use-it-or-lose-it."
+        }
+      ],
+      "summary": [
+        "A health FSA is an employer-established, salary-reduction plan; it is generally use-it-or-lose-it, with an optional 2½-month grace period or a carryover.",
+        "Self-employed people can't have FSAs.",
+        "An HSA is individually owned and requires HDHP coverage, no other disqualifying coverage, no Medicare enrollment, and not being someone's dependent.",
+        "HSA contributions are deductible or excludable, earnings grow tax-free, qualified withdrawals are tax-free, and balances roll over."
+      ],
+      "related": ["gov-l04"],
+      "sources": ["fed-irs-p969"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "federal-source", "checkedOn": "2026-11-19" }
+    }
+  ]
+}

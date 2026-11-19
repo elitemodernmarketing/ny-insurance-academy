@@ -1,0 +1,281 @@
+{
+  "sectionId": "sen",
+  "terms": [
+    {
+      "id": "medicare-supplement",
+      "term": "Medicare Supplement (Medigap)",
+      "aliases": ["Medigap", "Medicare supplement insurance", "MedSupp"],
+      "sectionId": "sen",
+      "outlineIds": ["sen.1", "sen.1.1"],
+      "formal": "Private insurance sold to people with Original Medicare (Parts A and B) that helps pay the beneficiary's share of costs for Medicare-covered services, such as deductibles, coinsurance and copayments. Medigap policies are standardized by lettered plan, must be guaranteed renewable, and in New York are regulated under 11 NYCRR Part 58 (Regulation 193).",
+      "plain": "Original Medicare leaves gaps — deductibles, the 20% Part B coinsurance, hospital coinsurance. A Medigap policy, bought from a private insurer, fills some or all of those gaps. It works only with Original Medicare, not with Medicare Advantage.",
+      "simpler": "Medicare pays its share; Medigap pays some or all of YOUR share.",
+      "examples": [
+        "Harriet has Original Medicare and a Medigap Plan G. When she is hospitalized, Medicare pays its share and her Medigap policy pays the Part A coinsurance she would otherwise owe.",
+        "Doug is in a Medicare Advantage plan. An agent may not sell him a Medigap policy that would duplicate his Advantage benefits."
+      ],
+      "examTip": "Medigap = supplements ORIGINAL Medicare's cost sharing; it is not part of Medicare and does not cover long-term custodial care. In NY it must be guaranteed renewable and may be canceled only for nonpayment of premium or material misrepresentation.",
+      "misconception": "Medigap does not add long-term care coverage, and it cannot be used with a Medicare Advantage plan. It also is not a government program — it's private insurance.",
+      "related": ["medicare", "standardized-medigap-plans", "medigap-core-benefits", "medicare-select", "medigap-open-enrollment"],
+      "confusedWith": ["medicare-advantage", "long-term-care-insurance"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "What is the main purpose of a Medicare supplement (Medigap) policy?",
+        "choices": ["To help pay the beneficiary's share of costs under Original Medicare, such as deductibles and coinsurance", "To replace Original Medicare with a private network plan", "To pay for long-term custodial care in a nursing home", "To provide prescription drug coverage in place of Part D"],
+        "answerIndex": 0,
+        "explanation": "Medigap fills Original Medicare's cost-sharing gaps. Replacing Original Medicare is Medicare Advantage; Medigap doesn't cover long-term care; outpatient drugs are covered through Part D."
+      },
+      "sources": ["fed-medicare-medigap", "fed-medicare-ltc", "ny-11nycrr-58-1"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "regulation-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "medigap-open-enrollment",
+      "term": "Medigap Open Enrollment",
+      "aliases": ["Medigap Open Enrollment Period", "continuous open enrollment (NY)"],
+      "sectionId": "sen",
+      "outlineIds": ["sen.1.2"],
+      "formal": "Federally, a one-time six-month period beginning the first month a person has Medicare Part B and is 65 or older, during which an insurer cannot deny Medigap coverage because of preexisting health problems. New York goes further: under 11 NYCRR 58.1(i), issuers must accept applicants for any Medigap plan they offer at all times throughout the year, for people enrolled in Medicare by age or by disability, and may not deny, condition or price coverage based on health status, claims experience, receipt of health care, or medical condition.",
+      "plain": "Under federal rules you get a one-time, six-month window after you're 65 and enrolled in Part B to buy any Medigap policy without health questions. In New York, that protection lasts all year, every year — insurers must accept you whenever you apply, including if you're under 65 and on Medicare because of a disability.",
+      "simpler": "Federal law: a 6-month guaranteed window. New York: the door is open all year.",
+      "examples": [
+        "Mina, 72, lives in New York and has had Original Medicare for seven years without Medigap. She applies for a Medigap Plan G in October; the insurer must accept her and can't charge more because of her diabetes.",
+        "Tony, 55, has Medicare because of a disability. In New York, a Medigap insurer must accept his application on the same open-enrollment basis."
+      ],
+      "examTip": "NY Medigap = continuous (year-round) open enrollment for age- AND disability-based Medicare enrollees; no health questions on the application. An issuer may still apply a preexisting-condition limitation of up to 6 months (look-back 6 months), reduced by prior creditable coverage that ended no more than 63 days before.",
+      "misconception": "In New York, Medigap open enrollment is not limited to the six months after enrolling in Part B at 65; applicants must be accepted at all times throughout the year.",
+      "related": ["medicare-supplement", "initial-enrollment-period", "medicare-disabled-under-65", "preexisting-condition"],
+      "confusedWith": ["initial-enrollment-period"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "In New York, when must a Medigap issuer accept an application from a Medicare beneficiary for a Medigap plan it offers?",
+        "choices": ["At all times throughout the year", "Only during the six months after the applicant first enrolls in Part B at 65", "Only during the annual Medicare open enrollment period in the fall", "Only if the applicant passes medical underwriting"],
+        "answerIndex": 0,
+        "explanation": "11 NYCRR 58.1(i)(1): 'Applicants must be accepted at all times throughout the year for any Medicare supplement insurance benefit plan available from an issuer,' without regard to health status. The six-month window is the federal minimum."
+      },
+      "sources": ["ny-11nycrr-58-1", "fed-medicare-medigap"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "regulation-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "standardized-medigap-plans",
+      "term": "Standardized Medigap Plans",
+      "aliases": ["Medigap plan letters", "Plans A–N"],
+      "sectionId": "sen",
+      "outlineIds": ["sen.1.3", "sen.1.3.2"],
+      "formal": "The federally standardized Medigap benefit packages identified by letter (in most states A–D, F, G and K–N). Policies with the same letter provide the same basic benefits regardless of where they are sold or which insurer sells them; price is the only difference. In New York, every Medigap application must include the right to apply for Plans A and B and either D or G; Plans C and F may be sold only to people first eligible for Medicare before January 1, 2020.",
+      "plain": "Medigap plans come in lettered 'menus'. A Plan G from one company covers exactly the same things as a Plan G from any other company — only the price differs. That makes shopping a matter of comparing premiums and service.",
+      "simpler": "Same letter = same benefits, so compare price.",
+      "examples": [
+        "Lou compares Plan G quotes from three insurers. Since all Plan G policies have identical benefits, he chooses the one with the lowest premium and good service.",
+        "Pat became eligible for Medicare in 2023, so she can't buy a new Plan F; she looks at Plan G instead."
+      ],
+      "examTip": "Standardization lets consumers compare apples to apples. Plan A = the core (basic) benefits only; other letters add benefits. Plans C and F (which cover the Part B deductible) are closed to people newly eligible on or after January 1, 2020.",
+      "misconception": "Insurers can't add or remove benefits within a letter plan; a Plan N from one insurer does not cover more than a Plan N from another.",
+      "related": ["medicare-supplement", "medigap-core-benefits", "medicare-select"],
+      "confusedWith": ["medicare-advantage"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Two insurers each sell Medigap Plan N. How do their policies differ?",
+        "choices": ["Only in price", "In the benefits covered", "In whether they work with Medicare Advantage", "In whether they are guaranteed renewable"],
+        "answerIndex": 0,
+        "explanation": "Medicare.gov: policies with the same letter offer the same basic benefits; 'Price is the only difference.' All Medigap policies work only with Original Medicare and must be guaranteed renewable."
+      },
+      "sources": ["fed-medicare-medigap", "ny-11nycrr-58-1"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "regulation-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "medigap-core-benefits",
+      "term": "Medigap Core (Basic) Benefits",
+      "aliases": ["basic benefits", "Plan A benefits"],
+      "sectionId": "sen",
+      "outlineIds": ["sen.1.3.1"],
+      "formal": "The basic benefits included in every standardized Medigap plan (and the only benefits in Plan A): Medicare Part A hospital coinsurance plus coverage for an additional 365 days of hospital care after Medicare hospital benefits are used up; Medicare Part B coinsurance or copayments; the first 3 pints of blood each year; and Part A hospice care coinsurance or copayments. (Plans K and L pay some of these at a percentage.)",
+      "plain": "Every Medigap plan starts with the same core: it pays your hospital coinsurance and an extra year of hospital days, your Part B 20% coinsurance, the first 3 pints of blood, and your hospice coinsurance. Higher-letter plans add extras, like deductibles or skilled nursing coinsurance.",
+      "simpler": "The core is the 'base model' every Medigap plan includes; other letters add options.",
+      "examples": [
+        "Plan A pays Rosa's 20% Part B coinsurance for her cardiologist visits, but not her Part B deductible.",
+        "After Al exhausts his Medicare hospital days during a very long stay, his Medigap core benefits cover up to 365 more hospital days."
+      ],
+      "examTip": "Core = Part A hospital coinsurance + 365 extra lifetime hospital days, Part B coinsurance, first 3 pints of blood, hospice coinsurance. NOT core: Part A deductible, Part B deductible, SNF coinsurance, foreign travel emergency, Part B excess charges — those are additional benefits in other letter plans.",
+      "misconception": "Plan A does not cover the Part A or Part B deductibles. Deductibles and SNF coinsurance are 'additional' benefits found in other plans.",
+      "related": ["standardized-medigap-plans", "medicare-supplement", "medicare-part-b", "medicare-part-a"],
+      "confusedWith": ["standardized-medigap-plans"],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "Which of the following is a core (basic) benefit included in every standardized Medigap plan?",
+        "choices": ["Medicare Part B coinsurance or copayment", "The Medicare Part B deductible", "Foreign travel emergency care", "Skilled nursing facility coinsurance"],
+        "answerIndex": 0,
+        "explanation": "Part B coinsurance is a core benefit (Plans K and L pay a percentage of it). The Part B deductible, foreign travel emergency and SNF coinsurance are additional benefits found only in certain plans."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19", "notes": "Federal standardized plan design taught from standard knowledge; the Medicare.gov coverage chart was not fetched (fetch budget)." }
+    },
+    {
+      "id": "medicare-select",
+      "term": "Medicare SELECT",
+      "aliases": ["SELECT policy"],
+      "sectionId": "sen",
+      "outlineIds": ["sen.1.3", "sen.1"],
+      "formal": "A type of Medigap policy that may require the insured to use hospitals and, in some cases, doctors within its network to be eligible for full benefits. A person who buys a Medicare SELECT policy has the right to change his or her mind within 12 months and switch to a standard Medigap policy. New York's Part 58 rules apply to Medicare SELECT as well as other Medigap policies.",
+      "plain": "Medicare SELECT is a Medigap policy with a network: use its hospitals (and sometimes its doctors) and you get full benefits, usually for a lower premium. If you change your mind within 12 months, you can switch to a regular Medigap policy.",
+      "simpler": "Medigap with a network — cheaper, but you stay in-network for full benefits.",
+      "examples": [
+        "Gina buys a Medicare SELECT Plan G at a lower premium; when she has elective surgery at a network hospital, the policy pays its full benefits.",
+        "Eight months after buying a SELECT policy, Hal decides he wants to use out-of-network hospitals and switches to a standard Medigap policy."
+      ],
+      "examTip": "SELECT = Medigap + network (hospitals, sometimes doctors) + usually lower premium + right to switch to standard Medigap within 12 months. It is still Medigap — it supplements Original Medicare — not Medicare Advantage.",
+      "misconception": "Medicare SELECT is not a Medicare Advantage plan. Original Medicare still pays its share; only the Medigap benefits depend on using the network.",
+      "related": ["medicare-supplement", "standardized-medigap-plans", "medicare-advantage"],
+      "confusedWith": ["medicare-advantage"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "What distinguishes a Medicare SELECT policy from a standard Medigap policy?",
+        "choices": ["It may require use of network hospitals (and sometimes doctors) to receive full benefits", "It replaces Original Medicare entirely", "It covers long-term custodial care", "It is available only to people under 65"],
+        "answerIndex": 0,
+        "explanation": "Medicare.gov defines Medicare SELECT as a Medigap policy that may require network hospitals and, in some cases, doctors for full benefits. It does not replace Medicare, cover custodial care, or depend on being under 65."
+      },
+      "sources": ["fed-medicare-medigap", "ny-11nycrr-58-1"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "federal-source", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "esrd",
+      "term": "End-Stage Renal Disease (ESRD) and Medicare",
+      "aliases": ["ESRD", "permanent kidney failure"],
+      "sectionId": "sen",
+      "outlineIds": ["sen.2.2"],
+      "formal": "Permanent kidney failure requiring regular dialysis or a kidney transplant. People of any age with ESRD who meet Social Security work requirements (personally or through a spouse or parent) can qualify for Medicare. When an ESRD beneficiary also has employer group health plan coverage, the group plan pays first for a limited coordination period, after which Medicare becomes primary.",
+      "plain": "Kidney failure is one of the few ways to get Medicare before 65. Someone on dialysis or needing a transplant can qualify at any age. If they also have employer coverage, that coverage pays first for a while before Medicare takes over as the main payer.",
+      "simpler": "Kidney failure can open the Medicare door at any age.",
+      "examples": [
+        "Jamal, 40, starts regular dialysis for permanent kidney failure; he applies for and becomes entitled to Medicare based on ESRD.",
+        "Because Lisa still has coverage through her employer when she develops ESRD, her group health plan pays first during the coordination period, with Medicare paying second."
+      ],
+      "examTip": "Three routes to Medicare before 65: (1) disability after receiving Social Security disability benefits for 24 months, (2) ESRD, (3) ALS. For ESRD, employer group coverage is primary for a limited coordination period, then Medicare becomes primary.",
+      "misconception": "ESRD Medicare is not limited to people 65 and older or to people who have received disability benefits for 24 months.",
+      "related": ["medicare", "medicare-disabled-under-65", "working-aged", "medicare-secondary-payer"],
+      "confusedWith": ["medicare-disabled-under-65"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A 38-year-old with permanent kidney failure who requires regular dialysis may be eligible for:",
+        "choices": ["Medicare, based on end-stage renal disease", "Medicare, but only after reaching age 65", "Medicare, but only after 24 months of SSDI", "Only Medicaid, never Medicare"],
+        "answerIndex": 0,
+        "explanation": "ESRD is a separate basis for Medicare entitlement at any age; the 24-month SSDI waiting rule applies to other disabilities, not ESRD."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19", "notes": "ESRD details (coordination-period length) not fetched; content avoids the specific number." }
+    },
+    {
+      "id": "medicare-disabled-under-65",
+      "term": "Medicare for Disabled Individuals Under 65",
+      "aliases": ["disability-based Medicare"],
+      "sectionId": "sen",
+      "outlineIds": ["sen.2.1", "sen.2"],
+      "formal": "Medicare entitlement for people under 65 who have received Social Security disability benefits for 24 months (people with ALS qualify without that wait). If such a person is covered by a group health plan based on current employment, the plan pays first only if the employer is a 'large group health plan' (100 or more employees); otherwise Medicare pays first. In New York, Medigap issuers must accept disability-based Medicare enrollees under the same year-round open enrollment that applies to age-based enrollees.",
+      "plain": "If you're under 65 and have been getting Social Security disability checks for 24 months, you get Medicare. If you still have coverage from a large employer (100+ employees), that plan pays first. And in New York you can buy a Medigap policy any time of year, just like someone over 65.",
+      "simpler": "Disabled under 65: Medicare after two years of SSDI — and NY Medigap is open to you too.",
+      "examples": [
+        "Kevin, 50, has received SSDI for 24 months; he now becomes entitled to Medicare and, living in New York, buys a Medigap policy with no health questions.",
+        "Wendy, 58, receives Medicare because of a disability and is covered through her spouse's current employer, which has 250 employees. The large group health plan pays first and Medicare pays second."
+      ],
+      "examTip": "Disability-based Medicare: 24 months of SS disability benefits first (ALS and ESRD are exceptions). MSP threshold for disabled beneficiaries = 100+ employees ('large group health plan'); for the working aged it's 20+. NY: Medigap open enrollment applies whether Medicare is by age OR by disability.",
+      "misconception": "People under 65 on Medicare due to disability are not shut out of Medigap in New York; NY's open enrollment rule applies to them as well.",
+      "related": ["social-security-disability", "medicare", "medigap-open-enrollment", "esrd", "working-aged"],
+      "confusedWith": ["working-aged"],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "For a person under 65 who has Medicare because of a disability (not ESRD) and has group coverage through a current employer, when does the group plan pay first?",
+        "choices": ["When the employer has 100 or more employees", "When the employer has 20 or more employees", "Never; Medicare always pays first for disabled people", "Only for the first 24 months"],
+        "answerIndex": 0,
+        "explanation": "Medicare.gov: for disability-based Medicare, the 'large group health plan' (employer with 100 or more employees) pays first and Medicare second; otherwise Medicare pays first. The 20-employee threshold applies to people 65 or older."
+      },
+      "sources": ["fed-medicare-who-pays-first", "ny-11nycrr-58-1"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "federal-source", "checkedOn": "2026-11-19", "notes": "24-month rule is reflected in the Medicare.gov flow ('Have you received disability benefits for 24 months?'); NY Medigap open enrollment for disability enrollees verified in 11 NYCRR 58.1(i)(2)." }
+    },
+    {
+      "id": "working-aged",
+      "term": "Employer Group Coverage for Employees 65 or Older",
+      "aliases": ["working aged", "Medicare secondary payer for active employees 65+"],
+      "sectionId": "sen",
+      "outlineIds": ["sen.2.3", "sen.2.3.1"],
+      "formal": "The Medicare secondary payer rule for people 65 or older who have group health coverage based on their own or a spouse's CURRENT employment: if the employer has 20 or more employees, the group health plan pays first and Medicare pays second; if the employer has fewer than 20 employees, Medicare pays first. Retiree coverage and COBRA generally pay after Medicare.",
+      "plain": "If you're 65+ and still working (or covered through a working spouse) at a company with 20 or more employees, your job-based plan pays your medical bills first and Medicare picks up some of what's left. At a smaller company, or once you retire, Medicare pays first.",
+      "simpler": "Big employer and still working? The employer plan goes first. Otherwise Medicare goes first.",
+      "examples": [
+        "Hank, 67, still works full-time at a 300-employee firm and is covered by its group plan. The group plan pays first; Medicare pays second.",
+        "Irene, 66, works for a 12-employee shop with a group plan. Because the employer has fewer than 20 employees, Medicare pays first."
+      ],
+      "examTip": "Working aged: 20+ employees → employer group plan is primary. Fewer than 20 → Medicare primary. Retiree coverage → Medicare primary. COBRA (65+) → Medicare primary. Disabled under 65 uses a 100-employee threshold instead.",
+      "misconception": "Turning 65 does not automatically make Medicare the primary payer. For an active employee of a 20+ employee employer, the group health plan stays primary.",
+      "related": ["medicare-secondary-payer", "medicare", "cobra", "medicare-disabled-under-65", "coordination-of-benefits"],
+      "confusedWith": ["medicare-disabled-under-65", "medicare-secondary-payer"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Rae, 68, is actively employed by a company with 45 employees and is covered by its group health plan. She also has Medicare. Which pays first?",
+        "choices": ["The employer group health plan", "Medicare", "Whichever has the lower deductible", "Her Medigap policy"],
+        "answerIndex": 0,
+        "explanation": "For people 65+ with group coverage from current employment, the group plan pays first when the employer has 20 or more employees. With 45 employees, the group plan is primary and Medicare secondary."
+      },
+      "sources": ["fed-medicare-who-pays-first"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "federal-source", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "cold-lead-advertising",
+      "term": "Cold Lead Advertising",
+      "aliases": ["cold-lead marketing"],
+      "sectionId": "sen",
+      "outlineIds": ["sen.1.4.1"],
+      "formal": "A prohibited Medicare supplement marketing practice under 11 NYCRR 58.1(g)(2)(iii): making use, directly or indirectly, of any method of marketing that fails to disclose in a conspicuous manner that a purpose of the method is solicitation of insurance and that contact will be made by an insurance agent or insurance company.",
+      "plain": "Cold lead advertising is a 'bait' mailing or ad — such as a 'free Medicare information' card — that hides the fact that it's really an insurance sales lead and that an agent will contact you.",
+      "simpler": "Hiding that your 'free info' offer is really a way to get an agent to call.",
+      "examples": [
+        "A postcard titled 'Important Medicare Update — Return for Your Free Benefits Guide' that doesn't say an agent will follow up is cold lead advertising.",
+        "A compliant mailer states clearly that the purpose is to solicit Medicare supplement insurance and that a licensed agent will contact the respondent."
+      ],
+      "examTip": "Three named prohibited Medigap marketing practices in NY Part 58: twisting, high-pressure tactics, and cold lead advertising. Cold lead = failure to DISCLOSE that the purpose is insurance solicitation and that an agent or insurer will make contact.",
+      "misconception": "Lead-generating mailers are not banned outright; they are prohibited only when they fail to conspicuously disclose the insurance-sales purpose and the coming agent contact.",
+      "related": ["twisting", "false-advertising", "medicare-supplement"],
+      "confusedWith": ["twisting"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A Medicare mailer that doesn't conspicuously disclose that its purpose is insurance solicitation and that an agent will make contact is an example of:",
+        "choices": ["Cold lead advertising", "Twisting", "High-pressure tactics", "Rebating"],
+        "answerIndex": 0,
+        "explanation": "11 NYCRR 58.1(g)(2)(iii) defines cold lead advertising as marketing that fails to conspicuously disclose the solicitation purpose and that an agent or insurer will make contact. Twisting is a misleading comparison to induce replacement; high-pressure tactics use force, fright or threats; rebating is giving back part of the commission."
+      },
+      "sources": ["ny-11nycrr-58-1"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "regulation-text", "checkedOn": "2026-11-19" }
+    }
+  ],
+  "comparisons": [
+    {
+      "a": "medicare-supplement",
+      "b": "medicare-advantage",
+      "keyDifference": "Medigap supplements Original Medicare by paying the beneficiary's cost sharing; Medicare Advantage replaces Original Medicare with a private Medicare-approved plan. They cannot be combined.",
+      "rows": [
+        { "aspect": "Relationship to Original Medicare", "a": "Works alongside Original Medicare (Parts A and B)", "b": "Covers most Part A and B benefits instead of Original Medicare" },
+        { "aspect": "Who pays claims first", "a": "Medicare pays its share, then Medigap pays the gaps", "b": "The private plan pays as the Medicare plan" },
+        { "aspect": "Drug coverage", "a": "Not included in new policies — add a stand-alone Part D plan", "b": "Usually includes Part D drug coverage" },
+        { "aspect": "Networks", "a": "No network for standard plans (Medicare SELECT uses one)", "b": "Often HMO or PPO networks" },
+        { "aspect": "Sales rule", "a": "Sale that duplicates Medicare Advantage benefits is prohibited", "b": "Beneficiary doesn't need (and shouldn't be sold) Medigap" }
+      ],
+      "memoryTip": "Medigap = Gap filler next to Medicare. Advantage = A replacement for Original Medicare."
+    }
+  ]
+}

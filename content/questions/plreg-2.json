@@ -1,0 +1,1591 @@
+{
+ "sectionId": "plreg",
+ "questions": [
+  {
+   "id": "plreg-q026",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.2.5"
+   ],
+   "concepts": [
+    "appointment"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "An auto insurer terminates an appointed agent's contract after discovering she kept customers' premium payments.",
+   "stem": "What must the insurer do?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Notify DFS only if the agent is criminally charged",
+     "rationale": "Incorrect: the duty arises from the for-cause termination itself."
+    },
+    {
+     "id": "b",
+     "text": "File a statement of the facts with the superintendent within 30 days",
+     "rationale": "Correct: § 2112(d) requires a for-cause termination statement within thirty days."
+    },
+    {
+     "id": "c",
+     "text": "File a statement within 15 days and publish it online",
+     "rationale": "Incorrect: the deadline is 30 days, and such statements are confidential."
+    },
+    {
+     "id": "d",
+     "text": "Notify each of the agent's clients first, then DFS in 60 days",
+     "rationale": "Incorrect: the statute requires a 30-day filing with the superintendent."
+    }
+   ],
+   "correct": "b",
+   "explanation": "§ 2112(d): on terminating a producer for cause (conduct listed in § 2110(a), such as misappropriating funds), the insurer files a statement of facts with the superintendent within thirty days and sends the producer a copy within fifteen days after notifying the superintendent. The statements are privileged and confidential (§ 2112(d), (h)).",
+   "memoryTip": "For cause: 30 days to DFS, then 15 to the producer.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2112"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q027",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.3.1"
+   ],
+   "concepts": [
+    "misrepresentation",
+    "license-revocation"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "To close a sale, an agent tells a customer that a standard homeowners policy will cover flooding from the river behind her house. The agent knows flood is excluded.",
+   "stem": "How does New York law treat the agent's statement?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "As intentional misrepresentation of policy terms, a ground for revocation",
+     "rationale": "Correct: § 2110(a)(6) lists intentionally misrepresenting the terms of an actual or proposed insurance contract."
+    },
+    {
+     "id": "b",
+     "text": "As sales puffery, which is permitted in an informal sales conversation",
+     "rationale": "Incorrect: a false statement about what a policy covers is not harmless puffery."
+    },
+    {
+     "id": "c",
+     "text": "As rebating, because the customer received a special advantage",
+     "rationale": "Incorrect: rebating involves giving value not specified in the policy."
+    },
+    {
+     "id": "d",
+     "text": "As defamation, because it misstates what an insurer's policy covers",
+     "rationale": "Incorrect: defamation concerns false statements about an insurer's financial condition."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Intentionally misrepresenting the terms of an actual or proposed insurance contract is a ground for suspension or revocation (§ 2110(a)(6)). The customer could also be left uninsured for a flood loss.",
+   "memoryTip": "Misstating coverage = misrepresentation.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Identifies misrepresentation of policy terms",
+      "anyOf": [
+       "misrepresent"
+      ]
+     },
+     {
+      "label": "License discipline possible",
+      "anyOf": [
+       "revoke",
+       "revocation",
+       "suspend"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2110"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q028",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.3.2"
+   ],
+   "concepts": [
+    "false-advertising"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "A Personal Lines agency runs an online ad: \"Great home and auto rates from a top-rated national insurer — call us today!\" The ad never identifies the insurer.",
+   "stem": "Which New York requirement does the ad fail?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Quoting an exact premium for a sample driver and a sample home",
+     "rationale": "Incorrect: no rule requires a sample premium in ads."
+    },
+    {
+     "id": "b",
+     "text": "Listing every insurer the agency currently represents in New York",
+     "rationale": "Incorrect: the ad must identify the insurer it refers to, not all insurers."
+    },
+    {
+     "id": "c",
+     "text": "Stating the agent's commission percentage on each policy",
+     "rationale": "Incorrect: commission disclosure is handled under Regulation 194, not in ads."
+    },
+    {
+     "id": "d",
+     "text": "Naming the insurer in full and the city of its principal U.S. office",
+     "rationale": "Correct: § 2122(b) requires producer ads that refer to an insurer to give its full name and principal-office city, town or village."
+    }
+   ],
+   "correct": "d",
+   "explanation": "§ 2122(b): every agent and broker shall, in all advertisements that refer to an insurer, set forth the insurer's full name and the city, town or village of its principal U.S. office. Producers also may not advertise in a way that calls attention to an unauthorized insurer (§ 2122(a)(2)).",
+   "memoryTip": "Mention an insurer? Name it and its home city.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2122"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q029",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.3.3"
+   ],
+   "concepts": [
+    "defamation-of-insurer"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "An agent tells prospects that a competing auto insurer \"is about to go broke,\" knowing this is false. This is:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Twisting",
+     "rationale": "Incorrect: twisting involves inducing someone to drop a policy through misrepresentation or incomplete comparison."
+    },
+    {
+     "id": "b",
+     "text": "Rebating",
+     "rationale": "Incorrect: rebating involves giving value not specified in the policy."
+    },
+    {
+     "id": "c",
+     "text": "Unfair discrimination",
+     "rationale": "Incorrect: discrimination concerns treating similar people differently."
+    },
+    {
+     "id": "d",
+     "text": "Defamation of an insurer",
+     "rationale": "Correct: § 2604 bars willfully spreading untrue statements derogatory to an insurer's financial condition."
+    }
+   ],
+   "correct": "d",
+   "explanation": "§ 2604 prohibits willfully making or circulating any untrue statement, written or spoken, that is derogatory to the financial condition or solvency of an insurer doing business in New York — and knowingly helping someone else spread it.",
+   "memoryTip": "Trashing a company's finances = defamation.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2604"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q030",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.3.4"
+   ],
+   "concepts": [
+    "unfair-discrimination"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "An insurer declines to renew Dana's homeowners policy solely because she recently divorced. Her claim history and the condition of the home are unchanged.",
+   "stem": "What does the nonrenewal violate?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Nothing, since nonrenewal is purely an underwriting decision",
+     "rationale": "Incorrect: underwriting may not rely on marital status."
+    },
+    {
+     "id": "b",
+     "text": "The rebating statute, § 2324",
+     "rationale": "Incorrect: no inducement or rebate is involved."
+    },
+    {
+     "id": "c",
+     "text": "The ban on discrimination based on sex or marital status",
+     "rationale": "Correct: § 2607 bars canceling or declining to renew because of marital status."
+    },
+    {
+     "id": "d",
+     "text": "The ban on defamation of an insurer",
+     "rationale": "Incorrect: defamation concerns false statements about insurers' finances."
+    }
+   ],
+   "correct": "c",
+   "explanation": "§ 2607(a): no individual or entity shall refuse to issue, cancel or decline to renew a policy because of the sex or marital status of the applicant or policyholder, or engage in sexual stereotyping. \"Sex\" includes sexual orientation, gender identity or expression and transgender status.",
+   "memoryTip": "Marital status is off-limits.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2607"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q031",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.3.4"
+   ],
+   "concepts": [
+    "unfair-discrimination"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "While completing an auto application, Kim mentions that she has been a victim of domestic violence. The underwriter proposes a surcharge for that reason alone.",
+   "stem": "Which statement is correct under § 2612?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A surcharge is allowed as long as Kim agrees to it in writing",
+     "rationale": "Incorrect: the applicant's consent does not make a prohibited criterion lawful."
+    },
+    {
+     "id": "b",
+     "text": "Being a victim of domestic violence is not a permitted underwriting criterion",
+     "rationale": "Correct: § 2612(b) says so expressly, and § 2612(a) bars higher premiums for that reason alone."
+    },
+    {
+     "id": "c",
+     "text": "Victim status may be used for homeowners policies but not for auto policies",
+     "rationale": "Incorrect: § 2612 applies to any insurance policy or contract."
+    },
+    {
+     "id": "d",
+     "text": "It may be used if the insurer's rate filing mentions it",
+     "rationale": "Incorrect: the statute makes it an impermissible criterion regardless of filings."
+    }
+   ],
+   "correct": "b",
+   "explanation": "§ 2612(a) bars refusing, canceling, nonrenewing or charging more solely because a person is or has been a victim of domestic violence, and § 2612(b) states that victim status is not a permitted underwriting criterion. Insurers may still use criteria related to physical or mental condition, property or claim history if based on sound actuarial principles, with specific reasons given (§ 2612(d)).",
+   "memoryTip": "Victim status never sets the price.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Victim status is not a permitted criterion",
+      "anyOf": [
+       "not a permitted",
+       "not permitted",
+       "cannot be used"
+      ]
+     },
+     {
+      "label": "No surcharge solely for that reason",
+      "anyOf": [
+       "surcharge",
+       "greater premium",
+       "charge more"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2612"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q032",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.3.5"
+   ],
+   "concepts": [
+    "rebating"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "An agent advertises that every new homeowners customer will receive a $75 home-improvement store gift card. The card is not mentioned in the policy.",
+   "stem": "Under § 2324, the gift card is:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "An illegal inducement, because it is worth more than $25",
+     "rationale": "Correct: § 2324(a) allows only inducements such as merchandise not exceeding $25 in value."
+    },
+    {
+     "id": "b",
+     "text": "Legal, because the agent pays for it from her own commission",
+     "rationale": "Incorrect: paying from commission does not cure an illegal inducement."
+    },
+    {
+     "id": "c",
+     "text": "Legal, because rebating rules apply only to life insurance",
+     "rationale": "Incorrect: § 2324 is the rebating statute for property and casualty lines."
+    },
+    {
+     "id": "d",
+     "text": "Legal, if the card is disclosed on the application",
+     "rationale": "Incorrect: disclosure does not make an over-$25 inducement lawful."
+    }
+   ],
+   "correct": "a",
+   "explanation": "§ 2324(a) bars insurers, agents and brokers from giving any valuable consideration or inducement not specified in the policy, other than items such as merchandise not exceeding twenty-five dollars in value. A $75 gift card exceeds that limit. Each violation carries a $500 penalty (§ 2324(f)).",
+   "memoryTip": "Over $25 and not in the policy = rebate.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2324"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q033",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.3.5"
+   ],
+   "concepts": [
+    "rebating"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "To win a new auto customer, an agent hands him $100 in cash, and the customer knowingly accepts it.",
+   "stem": "Who has violated § 2324?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Both the agent and the customer",
+     "rationale": "Correct: § 2324(a) bars giving rebates and also bars the insured from knowingly receiving them."
+    },
+    {
+     "id": "b",
+     "text": "Only the agent who offered the cash",
+     "rationale": "Incorrect: the knowing recipient also violates the statute."
+    },
+    {
+     "id": "c",
+     "text": "Only the customer who accepted it",
+     "rationale": "Incorrect: the agent who gave the rebate clearly violates it."
+    },
+    {
+     "id": "d",
+     "text": "Neither, because the payment was in cash",
+     "rationale": "Incorrect: the form of the rebate does not matter."
+    }
+   ],
+   "correct": "a",
+   "explanation": "§ 2324(a) prohibits agents and brokers from paying or allowing rebates and inducements, and provides that the insured shall not knowingly receive any such rebate or special favor. § 2324(f) adds a $500 penalty for each violation.",
+   "memoryTip": "Rebating takes two: giver and knowing receiver.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2324"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q034",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.3.5"
+   ],
+   "concepts": [
+    "rebating",
+    "controlled-business"
+   ],
+   "difficulty": 3,
+   "style": "calculation",
+   "tags": [
+    "tricky",
+    "math",
+    "ny-law"
+   ],
+   "scenario": "An agent's total net commissions this calendar year are $200,000. Commissions on insurance she placed on her own home and cars total $12,000.",
+   "stem": "Does § 2324(a)'s exception for commissions on the agent's own property cover her?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Yes; the own-property limit is 10% of net commissions",
+     "rationale": "Incorrect: 10% is the controlled business test under § 2103(i), not the § 2324 own-property limit."
+    },
+    {
+     "id": "b",
+     "text": "Yes; commissions on one's own property are always allowed",
+     "rationale": "Incorrect: the exception applies only within the 5% limit."
+    },
+    {
+     "id": "c",
+     "text": "No; producers may never earn commission on their own property",
+     "rationale": "Incorrect: the statute allows it if the aggregate stays within 5%."
+    },
+    {
+     "id": "d",
+     "text": "No; $12,000 exceeds 5% of her total net commissions",
+     "rationale": "Correct: 5% of $200,000 is $10,000, and her own-property commissions of $12,000 exceed that limit."
+    }
+   ],
+   "correct": "d",
+   "explanation": "§ 2324(a) lets a licensed agent or broker retain the usual commission on insurance placed on his or her own property or risks if the aggregate of those commissions does not exceed five percent of total net commissions for the calendar year. $200,000 × 5% = $10,000; $12,000 is over the limit.",
+   "memoryTip": "Own-property commissions: 5% cap (controlled business is the separate 10% test).",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Computes 5% of $200,000 = $10,000",
+      "anyOf": [
+       "10,000",
+       "10000",
+       "5%",
+       "five percent"
+      ]
+     },
+     {
+      "label": "$12,000 exceeds the limit",
+      "anyOf": [
+       "exceed",
+       "over"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2324"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q035",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.4.1"
+   ],
+   "concepts": [
+    "controlled-business"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Over the past 12 months, 15% of an agent's aggregate net commissions came from insuring her husband's cars and the trucks of a company her husband owns 80% of.",
+   "stem": "What is the regulatory concern?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "None, because a spouse's risks are excluded from the commission calculation",
+     "rationale": "Incorrect: the spouse and companies over 50% owned by the spouse are specifically included."
+    },
+    {
+     "id": "b",
+     "text": "Rebating, because family members are paying premium to her",
+     "rationale": "Incorrect: paying normal premium to a relative-agent is not a rebate."
+    },
+    {
+     "id": "c",
+     "text": "Controlled business over 10% may lead to refusal, suspension or revocation",
+     "rationale": "Correct: § 2103(i) lets the superintendent act when more than 10% of aggregate net commissions come from controlled business."
+    },
+    {
+     "id": "d",
+     "text": "Unfair discrimination in favor of her relatives",
+     "rationale": "Incorrect: the issue is the source of her commissions, not the rates charged."
+    }
+   ],
+   "correct": "c",
+   "explanation": "§ 2103(i): the superintendent may refuse, suspend or revoke a license if more than ten percent of aggregate net commissions over the preceding (or coming) twelve months results from insurance on the property and risks of the licensee's spouse, corporations more than 50% owned by the licensee or spouse, and related firms.",
+   "memoryTip": "Controlled business: keep it at 10% or less.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Identifies controlled business",
+      "anyOf": [
+       "controlled"
+      ]
+     },
+     {
+      "label": "10% threshold",
+      "anyOf": [
+       "10",
+       "ten percent"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2103"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q036",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.4.2"
+   ],
+   "concepts": [
+    "sharing-commissions"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Jen, an unlicensed office assistant, phones prospects, urges them to buy auto policies from a particular insurer and explains coverage options. Her boss pays her $20 for each policy sold.",
+   "stem": "What is the problem?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "None, because the agency rather than the insurer pays her",
+     "rationale": "Incorrect: the source of the payment does not matter."
+    },
+    {
+     "id": "b",
+     "text": "Jen solicits without a license and may not accept the commission",
+     "rationale": "Correct: soliciting and negotiating require a license, and § 2102(e)(1) bars unlicensed persons from accepting commissions for that work."
+    },
+    {
+     "id": "c",
+     "text": "None, as long as a licensed agent signs each application",
+     "rationale": "Incorrect: Jen herself is soliciting and negotiating."
+    },
+    {
+     "id": "d",
+     "text": "Only the amount, which must be kept under $25",
+     "rationale": "Incorrect: the $25 figure is the rebating limit, not a rule for paying unlicensed staff."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Urging someone to apply for a particular insurer's policy is soliciting, and explaining coverage terms is negotiating (§ 2101(m), (o)). § 2102(e)(1) bars any person required to be licensed from accepting a commission or other valuable consideration for selling, soliciting or negotiating without a license.",
+   "memoryTip": "Unlicensed = unpaid for selling.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2102"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q037",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.4.2"
+   ],
+   "concepts": [
+    "fiduciary-responsibility",
+    "insurance-broker"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "At a broker's request, an insurer delivers a homeowners policy to the broker's client. The client pays the premium to the broker on the due date, but the broker never sends it to the insurer.",
+   "stem": "Under § 2121, how is the client's payment treated?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "As no payment, since a broker represents the insured, not the insurer",
+     "rationale": "Incorrect: § 2121 creates deemed authority to receive premium despite the broker's role."
+    },
+    {
+     "id": "b",
+     "text": "As payment to the insurer, because the broker is deemed authorized to receive it",
+     "rationale": "Correct: an insurer delivering a policy through a broker is deemed to authorize the broker to receive the premium."
+    },
+    {
+     "id": "c",
+     "text": "As payment only if the broker also holds an appointment with the insurer",
+     "rationale": "Incorrect: no appointment is needed for the deemed authority."
+    },
+    {
+     "id": "d",
+     "text": "As payment only after the insurer actually receives the money",
+     "rationale": "Incorrect: payment to the broker within the time limit counts as payment to the insurer."
+    }
+   ],
+   "correct": "b",
+   "explanation": "§ 2121(a): an insurer that delivers a contract to a broker (or the broker's client) at the broker's request is deemed to have authorized the broker to receive premium on its behalf, if the payment reaches the broker within ninety days after the due date. The broker's failure to remit is a problem between the broker and the insurer, not the client.",
+   "memoryTip": "Paid the broker on time = paid the insurer.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Broker deemed authorized to receive premium",
+      "anyOf": [
+       "deemed",
+       "authorized"
+      ]
+     },
+     {
+      "label": "Counts as payment to the insurer",
+      "anyOf": [
+       "paid the insurer",
+       "payment to the insurer",
+       "insurer"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2121"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q038",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.4.3"
+   ],
+   "concepts": [
+    "fiduciary-responsibility",
+    "commingling"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "An agent deposits customers' auto and homeowners premiums into his personal checking account to cover the agency payroll, planning to forward the premiums to the insurers next month.",
+   "stem": "How is this classified?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Commingling — a breach of the agent's fiduciary duty",
+     "rationale": "Correct: § 2120(a) bars mingling fiduciary funds with the agent's own funds without the principal's express consent."
+    },
+    {
+     "id": "b",
+     "text": "Permitted, if the money is remitted within 30 days",
+     "rationale": "Incorrect: the problem is mixing the funds, not just the timing."
+    },
+    {
+     "id": "c",
+     "text": "Permitted, if the premiums total less than $10,000",
+     "rationale": "Incorrect: there is no dollar threshold for commingling."
+    },
+    {
+     "id": "d",
+     "text": "Rebating, because the agent benefits from the money",
+     "rationale": "Incorrect: rebating involves inducements to buyers."
+    }
+   ],
+   "correct": "a",
+   "explanation": "§ 2120(a): agents and brokers are responsible in a fiduciary capacity for all funds received as agent or broker and may not mingle them with their own funds without the principal's express consent. Using premiums for payroll can also be misappropriation, a ground for revocation (§ 2110(a)(5)).",
+   "memoryTip": "Premiums are held in trust — never in your wallet.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2120"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q039",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.5",
+    "plreg.2.4.3"
+   ],
+   "concepts": [
+    "fiduciary-responsibility"
+   ],
+   "difficulty": 3,
+   "style": "concept",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "stem": "Under 11 NYCRR 20.4, when an agent receives a premium payment, what must the insured be given at that time?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A copy of the agency's trust account bank statement",
+     "rationale": "Incorrect: bank statements are kept as records, not given to insureds."
+    },
+    {
+     "id": "b",
+     "text": "The agent's schedule of commission rates",
+     "rationale": "Incorrect: compensation details are disclosed under Regulation 194, on request."
+    },
+    {
+     "id": "c",
+     "text": "A copy of the insurer's annual statement",
+     "rationale": "Incorrect: annual statements are filed with DFS, not handed to customers."
+    },
+    {
+     "id": "d",
+     "text": "A receipt along with a copy of the application",
+     "rationale": "Correct: § 20.4(c)(5) requires the receipt record, with a copy of the application, to be delivered to the insured at the time it is made."
+    }
+   ],
+   "correct": "d",
+   "explanation": "11 NYCRR 20.4 implements § 2120: licensees with premium accounts record each receipt (amount, date, insured, insurer, policy or binder number and a description of the risk) and each disbursement; preserve records for at least the three-year period before the most recent fiscal year-end; and deliver the receipt with a copy of the application to the insured when it is made.",
+   "memoryTip": "Take the premium, give a receipt + the application copy.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-11nycrr-20-4"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q040",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.4.4"
+   ],
+   "concepts": [
+    "producer"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Under Regulation 125, what must be prominently displayed at an agency's headquarters and each satellite office?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The license of every employee who works at that location",
+     "rationale": "Incorrect: the rule refers to the supervising person or persons."
+    },
+    {
+     "id": "b",
+     "text": "The certificate of authority of each insurer the agency represents",
+     "rationale": "Incorrect: insurer certificates are not the display requirement."
+    },
+    {
+     "id": "c",
+     "text": "The license of each supervising person responsible for that office",
+     "rationale": "Correct: 11 NYCRR 34.5 requires display of the supervising person's or persons' license(s)."
+    },
+    {
+     "id": "d",
+     "text": "A schedule of the agency's commission rates by insurer",
+     "rationale": "Incorrect: commissions are disclosed under Regulation 194, not posted."
+    }
+   ],
+   "correct": "c",
+   "explanation": "11 NYCRR 34.5: in a headquarters location and each satellite office, the establishing agent or broker must prominently display the license or licenses of the supervising person or persons responsible for that place of business.",
+   "memoryTip": "Every office shows its supervisor's license.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-11nycrr-34-5"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q041",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.4.5"
+   ],
+   "concepts": [
+    "insurance-broker",
+    "producer-compensation-disclosure"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "A broker places a $1,600 homeowners policy for a client and wants to charge a $100 service fee in addition to the commission included in the premium.",
+   "stem": "What does § 2119 require for the fee?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Only oral disclosure of the fee before the policy is bound",
+     "rationale": "Incorrect: oral disclosure is not enough; a signed writing is required."
+    },
+    {
+     "id": "b",
+     "text": "Approval of the fee by the insurer that issued the policy",
+     "rationale": "Incorrect: the statute requires the client's signed memorandum, not insurer approval."
+    },
+    {
+     "id": "c",
+     "text": "A written memorandum signed by the client stating the fee",
+     "rationale": "Correct: § 2119(c) requires compensation beyond commissions to be based on a signed written memorandum specifying the amount."
+    },
+    {
+     "id": "d",
+     "text": "Nothing, because a broker represents the insured",
+     "rationale": "Incorrect: representing the insured does not exempt the broker from § 2119."
+    }
+   ],
+   "correct": "c",
+   "explanation": "§ 2119(c): no broker may receive compensation from an insured, other than commissions deductible from premiums, unless based on a written memorandum signed by the party to be charged specifying the amount; the broker keeps a copy for three years. § 2119(d) bars charging more than the insurer's premium without such a memorandum.",
+   "memoryTip": "Broker fee? Get it in writing, signed, and keep it 3 years.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Written memorandum",
+      "anyOf": [
+       "written",
+       "memorandum",
+       "writing"
+      ]
+     },
+     {
+      "label": "Signed by the client and stating the amount",
+      "anyOf": [
+       "signed",
+       "amount"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2119"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q042",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.4.5",
+    "plreg.2.11"
+   ],
+   "concepts": [
+    "producer-compensation-disclosure"
+   ],
+   "difficulty": 3,
+   "style": "negative",
+   "tags": [
+    "negative-wording",
+    "ny-law"
+   ],
+   "stem": "Regulation 194 requires a producer to disclose each of the following at or before application EXCEPT:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A description of the producer's role in the sale",
+     "rationale": "Incorrect: the role is part of the basic disclosure (§ 30.3(a)(1))."
+    },
+    {
+     "id": "b",
+     "text": "The dollar amount of every commission on every quote",
+     "rationale": "Correct: detailed compensation amounts are disclosed only if the purchaser requests them."
+    },
+    {
+     "id": "c",
+     "text": "Whether the insurer will compensate the producer",
+     "rationale": "Incorrect: this is part of the basic disclosure (§ 30.3(a)(2))."
+    },
+    {
+     "id": "d",
+     "text": "That the buyer may ask for compensation details",
+     "rationale": "Incorrect: this is part of the basic disclosure (§ 30.3(a)(4))."
+    }
+   ],
+   "correct": "b",
+   "explanation": "11 NYCRR 30.3(a) requires, at or prior to application: the producer's role; whether the producer will be compensated by the insurer or a third party based on the sale; that compensation may vary; and that the purchaser may request more information. Amounts and sources are disclosed in writing on request (§ 30.3(b)).",
+   "memoryTip": "Basic disclosure up front; dollar details on request.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-11nycrr-30-3"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q043",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.11"
+   ],
+   "concepts": [
+    "producer-compensation-disclosure"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Twenty days after her auto policy is issued, a client asks her producer for details about the compensation the producer received on the sale.",
+   "stem": "What must the producer do?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Answer in a prominent writing within five business days",
+     "rationale": "Correct: § 30.3(c) requires written disclosure within five business days when asked within 30 days after issuance."
+    },
+    {
+     "id": "b",
+     "text": "Answer orally or in writing within 30 calendar days",
+     "rationale": "Incorrect: the response must be in writing and within five business days."
+    },
+    {
+     "id": "c",
+     "text": "Provide the details at the policy's next renewal",
+     "rationale": "Incorrect: the regulation does not allow waiting until renewal."
+    },
+    {
+     "id": "d",
+     "text": "Nothing, since the policy has already been issued",
+     "rationale": "Incorrect: requests within 30 days after issuance must be answered."
+    }
+   ],
+   "correct": "a",
+   "explanation": "11 NYCRR 30.3(c): if the purchaser requests compensation information after issuance but less than 30 days after issuance, the producer must disclose the § 30.3(b) information in a prominent writing within five business days.",
+   "memoryTip": "Asked within 30 days of issue → written answer in 5 business days.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-11nycrr-30-3"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q044",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.6",
+    "plreg.2.8"
+   ],
+   "concepts": [
+    "insurance-fraud"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "After a minor parking-lot collision, Sam knowingly adds an older dent to his collision claim so the insurer will pay to fix it too.",
+   "stem": "How does New York law classify Sam's act?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A misrepresentation that can only void the policy",
+     "rationale": "Incorrect: beyond policy consequences, it is a crime with civil penalties."
+    },
+    {
+     "id": "b",
+     "text": "Acceptable, because the extra damage is minor",
+     "rationale": "Incorrect: the size of the false item does not excuse it."
+    },
+    {
+     "id": "c",
+     "text": "A private dispute between Sam and his insurer",
+     "rationale": "Incorrect: fraud is subject to criminal liability and DFS civil penalties."
+    },
+    {
+     "id": "d",
+     "text": "A fraudulent insurance act, which is a crime",
+     "rationale": "Correct: knowingly filing a claim with materially false information with intent to defraud is a fraudulent insurance act."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Under § 403, a person who knowingly and with intent to defraud files a statement of claim containing materially false information commits a fraudulent insurance act, which is a crime. The superintendent may also levy a civil penalty of up to $5,000 plus the amount of the claim for each violation (§ 403(c)).",
+   "memoryTip": "Padding a claim = insurance fraud.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-403"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q045",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.9"
+   ],
+   "concepts": [
+    "insurance-fraud"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "An agent learns facts giving her reason to believe a client's burglary claim may be fake, but she has no proof.",
+   "stem": "What does § 405 require?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Wait until the insurer has formally denied the claim",
+     "rationale": "Incorrect: the duty does not depend on the insurer's decision."
+    },
+    {
+     "id": "b",
+     "text": "Report only once she can prove that the claim is false",
+     "rationale": "Incorrect: reason to believe is enough; proof is not required."
+    },
+    {
+     "id": "c",
+     "text": "Ask the client first and report only if he admits it",
+     "rationale": "Incorrect: the duty to report does not depend on a confession."
+    },
+    {
+     "id": "d",
+     "text": "Report it to the superintendent within 30 days",
+     "rationale": "Correct: § 405(a) requires a report within thirty days after determining the transaction appears fraudulent."
+    }
+   ],
+   "correct": "d",
+   "explanation": "§ 405(a): any licensee who has reason to believe an insurance transaction may be fraudulent, or knows a fraudulent transaction is about to take place or has taken place, must send the superintendent the required information on the prescribed form within thirty days after determining that the transaction appears fraudulent.",
+   "memoryTip": "Reason to believe → report within 30.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Reason to believe is enough",
+      "anyOf": [
+       "reason to believe",
+       "no proof",
+       "suspect"
+      ]
+     },
+     {
+      "label": "Report to superintendent within 30 days",
+      "anyOf": [
+       "30",
+       "thirty"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-405"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q046",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.7"
+   ],
+   "concepts": [
+    "unauthorized-insurer"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "A Personal Lines agent who is not an excess line broker places a client's homeowners coverage with an insurer that is not authorized in New York.",
+   "stem": "What penalty does § 2117 provide?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "No penalty at all, if the client signs a written waiver",
+     "rationale": "Incorrect: a client waiver does not authorize aiding an unauthorized insurer."
+    },
+    {
+     "id": "b",
+     "text": "A $25 fee for each policy placed with the insurer",
+     "rationale": "Incorrect: $25 is the rebating de minimis value, not this penalty."
+    },
+    {
+     "id": "c",
+     "text": "A $500 forfeiture for each transaction, plus other penalties",
+     "rationale": "Correct: § 2117(g) imposes $500 per transaction in addition to other penalties."
+    },
+    {
+     "id": "d",
+     "text": "A written warning only, for a first offense",
+     "rationale": "Incorrect: the statute provides a forfeiture for each transaction."
+    }
+   ],
+   "correct": "c",
+   "explanation": "§ 2117(a) bars acting for, placing risks with or aiding an insurer not authorized in New York, except within the authority of licensed excess line brokers (§ 2117(h)). Violators forfeit $500 for each transaction in addition to other penalties (§ 2117(g)).",
+   "memoryTip": "Unauthorized insurer: $500 per transaction.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2117"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q047",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.10"
+   ],
+   "concepts": [
+    "nonpublic-personal-information"
+   ],
+   "difficulty": 3,
+   "style": "negative",
+   "tags": [
+    "negative-wording",
+    "ny-law"
+   ],
+   "stem": "Under Regulation 169, which of the following is NOT nonpublic personal financial information?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The payment history on a client's auto policy",
+     "rationale": "Incorrect: payment history is personally identifiable financial information."
+    },
+    {
+     "id": "b",
+     "text": "A client's address listed in a public telephone book",
+     "rationale": "Correct: information from a telephone book is publicly available information."
+    },
+    {
+     "id": "c",
+     "text": "Information a client gave on a homeowners application",
+     "rationale": "Incorrect: application information is personally identifiable financial information."
+    },
+    {
+     "id": "d",
+     "text": "The fact that a person is the agency's customer",
+     "rationale": "Incorrect: the regulation lists the fact of being a customer."
+    }
+   ],
+   "correct": "b",
+   "explanation": "11 NYCRR 420.3: personally identifiable financial information includes information on an application, payment history, the fact that someone is a customer and consumer report information. Publicly available information — such as a telephone book, newspaper or government record — is excluded.",
+   "memoryTip": "Phone book = public. Application = private.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-11nycrr-420-3"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q048",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.10"
+   ],
+   "concepts": [
+    "nonpublic-personal-information"
+   ],
+   "difficulty": 3,
+   "style": "comparison",
+   "tags": [
+    "tricky",
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "Under Regulation 169, a person who applied for auto insurance but did not buy it is:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A consumer but not a customer",
+     "rationale": "Correct: an applicant is a consumer, but applying without buying creates no continuing customer relationship."
+    },
+    {
+     "id": "b",
+     "text": "A customer but not a consumer",
+     "rationale": "Incorrect: every customer is a consumer, and this person never became a customer."
+    },
+    {
+     "id": "c",
+     "text": "Both a consumer and a customer",
+     "rationale": "Incorrect: no customer relationship formed."
+    },
+    {
+     "id": "d",
+     "text": "Neither a consumer nor a customer",
+     "rationale": "Incorrect: an applicant is expressly a consumer."
+    }
+   ],
+   "correct": "a",
+   "explanation": "§ 420.3(e) defines a consumer to include an applicant before coverage starts; § 420.3(h)-(i) defines a customer as a consumer with a continuing relationship and says applying without purchasing does not create one.",
+   "memoryTip": "All customers are consumers; not all consumers are customers.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-11nycrr-420-3"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q049",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.12"
+   ],
+   "concepts": [
+    "cybersecurity-regulation"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "A covered entity must notify DFS of a cybersecurity incident no later than:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "72 hours after determining it occurred",
+     "rationale": "Correct: 23 NYCRR 500.17(a)(1) sets a 72-hour outer limit."
+    },
+    {
+     "id": "b",
+     "text": "30 days after the incident occurred",
+     "rationale": "Incorrect: 30 days applies to explaining an extortion payment."
+    },
+    {
+     "id": "c",
+     "text": "24 hours after the incident began",
+     "rationale": "Incorrect: 24 hours is the notice period for an extortion payment."
+    },
+    {
+     "id": "d",
+     "text": "April 15 of the following year",
+     "rationale": "Incorrect: April 15 is the annual compliance certification date."
+    }
+   ],
+   "correct": "a",
+   "explanation": "23 NYCRR 500.17(a)(1): notify the superintendent electronically as promptly as possible but no later than 72 hours after determining that a cybersecurity incident has occurred at the entity, an affiliate or a third-party service provider.",
+   "memoryTip": "Cyber incident: 72 hours.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-reg-23nycrr-500-17"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q050",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.3.1"
+   ],
+   "concepts": [
+    "fair-credit-reporting-act"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Before insuring an expensive home, an insurer orders an investigative consumer report that will include interviews with the applicant's neighbors about his lifestyle.",
+   "stem": "What does the Fair Credit Reporting Act require of the insurer?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A notarized consent from the applicant before ordering",
+     "rationale": "Incorrect: the statute requires disclosure, not notarized consent."
+    },
+    {
+     "id": "b",
+     "text": "Sharing the full report with the applicant before underwriting",
+     "rationale": "Incorrect: on request, the insurer discloses the nature and scope of the investigation."
+    },
+    {
+     "id": "c",
+     "text": "Oral notice at the policy's first renewal",
+     "rationale": "Incorrect: the notice must be in writing and within three days."
+    },
+    {
+     "id": "d",
+     "text": "Written notice within 3 days of ordering that the report may be made",
+     "rationale": "Correct: § 1681d(a) requires written disclosure no later than three days after the report is first requested."
+    }
+   ],
+   "correct": "d",
+   "explanation": "15 U.S.C. § 1681d(a): a person may not procure an investigative consumer report unless it discloses in writing, within three days after the report is first requested, that such a report may be made, and informs the consumer of the right to more information. On written request, the nature and scope of the investigation must be disclosed in writing within five days (§ 1681d(b)).",
+   "memoryTip": "Investigative report: 3 days to tell, 5 days to explain.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Written disclosure",
+      "anyOf": [
+       "writing",
+       "written"
+      ]
+     },
+     {
+      "label": "Three days",
+      "anyOf": [
+       "3",
+       "three"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-usc-15-1681d"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

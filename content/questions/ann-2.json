@@ -1,0 +1,1113 @@
+{
+ "sectionId": "ann",
+ "questions": [
+  {
+   "id": "ann-q018",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.3.2.3",
+    "ann.3.2.2"
+   ],
+   "concepts": [
+    "cash-surrender-value",
+    "deferred-annuity"
+   ],
+   "difficulty": 3,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Under NY Insurance Law § 4223, the insurer may reserve the right to defer paying a deferred annuity's cash surrender benefit for up to how long after demand?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "30 days",
+     "rationale": "Incorrect: the statute permits a longer deferral."
+    },
+    {
+     "id": "b",
+     "text": "Six months",
+     "rationale": "Correct: § 4223(a)(1)(B) lets the company defer payment for six months after demand with surrender of the contract."
+    },
+    {
+     "id": "c",
+     "text": "One year",
+     "rationale": "Incorrect: the statutory limit is shorter."
+    },
+    {
+     "id": "d",
+     "text": "Until the next contract anniversary",
+     "rationale": "Incorrect: the deferral right is a fixed six-month limit."
+    }
+   ],
+   "correct": "b",
+   "explanation": "§ 4223(a)(1)(B) says the company shall reserve the right to defer payment of the cash surrender benefit for a period of six months after demand with surrender of the contract. This deferral right protects insurers in a financial emergency; in practice insurers usually pay promptly.",
+   "memoryTip": "Deferral of surrender cash: up to six months.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-4223"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q019",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.3.2.4"
+   ],
+   "concepts": [
+    "deferred-annuity",
+    "surrender-charge"
+   ],
+   "difficulty": 3,
+   "style": "application",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Paula owns a New York single premium deferred fixed annuity that provides cash surrender benefits. She dies in year 2, while a 6% surrender charge would still apply to a surrender.",
+   "stem": "Under NY's nonforfeiture law for annuities, what is the minimum death benefit the contract must provide before annuity payments begin?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The cash surrender value after surrender charges",
+     "rationale": "Incorrect: the minimum is measured before surrender charges."
+    },
+    {
+     "id": "b",
+     "text": "The total premiums paid plus a flat 5% bonus",
+     "rationale": "Incorrect: no such formula is required."
+    },
+    {
+     "id": "c",
+     "text": "The contract's full accumulated value",
+     "rationale": "Correct: § 4223(c)(1) sets the death benefit floor at the actual accumulation amount."
+    },
+    {
+     "id": "d",
+     "text": "The original premium only, with no interest",
+     "rationale": "Incorrect: credited interest is included in the accumulation amount."
+    }
+   ],
+   "correct": "c",
+   "explanation": "§ 4223(c)(1): for contracts that provide a cash surrender benefit before annuity payments begin, the death benefit for a non-index account may not be less than the actual accumulation amount (net considerations plus credited interest, minus charges, withdrawals and loans), and for an equity index account not less than that account's value. Surrender charges do not reduce this minimum death benefit.",
+   "memoryTip": "Death before payout → beneficiary gets at least the full accumulated value.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Death occurred before annuity payments began",
+      "anyOf": [
+       "before",
+       "accumulation",
+       "deferred"
+      ]
+     },
+     {
+      "label": "Minimum death benefit is the accumulated value",
+      "anyOf": [
+       "accumulat",
+       "account value",
+       "contract value"
+      ]
+     },
+     {
+      "label": "Surrender charge does not reduce it",
+      "anyOf": [
+       "surrender charge",
+       "not reduce",
+       "no surrender"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-4223"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q020",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.4.1",
+    "ann.4.2"
+   ],
+   "concepts": [
+    "straight-life-annuity"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "Which payout option provides the largest periodic payment for a given annuitant and amount?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Life with 20-year period certain",
+     "rationale": "Incorrect: the guaranteed period lowers each payment."
+    },
+    {
+     "id": "b",
+     "text": "Installment refund",
+     "rationale": "Incorrect: the refund guarantee lowers each payment."
+    },
+    {
+     "id": "c",
+     "text": "Joint and 100% survivor",
+     "rationale": "Incorrect: covering two lives lowers each payment."
+    },
+    {
+     "id": "d",
+     "text": "Straight life (life only)",
+     "rationale": "Correct: with no guarantee after death, life only pays the most per period."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Every added guarantee — a period certain, a refund, or a second life — costs something, which the insurer recovers by paying less per period. Life only has no guarantee after the annuitant's death, so it produces the highest periodic payment.",
+   "memoryTip": "Fewer guarantees = bigger checks.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q021",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.4.2"
+   ],
+   "concepts": [
+    "life-annuity-period-certain"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Grace chose a life annuity with 10-year period certain, naming her son as beneficiary. She dies after receiving payments for 4 years.",
+   "stem": "What happens to the payments after Grace's death?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "They stop immediately",
+     "rationale": "Incorrect: that describes a life-only option."
+    },
+    {
+     "id": "b",
+     "text": "Her son receives the same payments for the remaining 6 years",
+     "rationale": "Correct: the 10-year guaranteed period continues to the beneficiary."
+    },
+    {
+     "id": "c",
+     "text": "Her son receives a lump sum equal to the original premium",
+     "rationale": "Incorrect: that resembles a cash refund, not a period-certain option."
+    },
+    {
+     "id": "d",
+     "text": "Her son receives payments for the rest of his life",
+     "rationale": "Incorrect: that would require a joint and survivor option."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Life with period certain pays for the annuitant's life but guarantees a minimum number of years. Grace received 4 years of payments; the 10-year guarantee means her beneficiary receives the remaining 6 years. Had she lived past 10 years, payments would have continued for her life and stopped at her death.",
+   "memoryTip": "Period certain guarantees YEARS: 10 − 4 = 6 left for the beneficiary.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   },
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Period certain guarantees a minimum number of years",
+      "anyOf": [
+       "period certain",
+       "guarantee",
+       "10"
+      ]
+     },
+     {
+      "label": "Beneficiary receives the remaining 6 years",
+      "anyOf": [
+       "6",
+       "six",
+       "remaining"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ann-q022",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.4.2"
+   ],
+   "concepts": [
+    "refund-annuity"
+   ],
+   "difficulty": 3,
+   "style": "calculation",
+   "tags": [
+    "math",
+    "tricky"
+   ],
+   "scenario": "Hal paid $90,000 for an installment refund life annuity that paid him $600 a month. He died after receiving exactly 60 monthly payments.",
+   "stem": "What will Hal's beneficiary receive?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Nothing, because Hal has died",
+     "rationale": "Incorrect: a refund annuity guarantees at least the purchase price."
+    },
+    {
+     "id": "b",
+     "text": "A lump sum of $54,000",
+     "rationale": "Incorrect: a lump sum is paid under a cash refund; this is an installment refund."
+    },
+    {
+     "id": "c",
+     "text": "Continued payments of $600 a month until $54,000 has been paid",
+     "rationale": "Correct: $90,000 − $36,000 = $54,000, paid by continuing installments."
+    },
+    {
+     "id": "d",
+     "text": "Continued payments of $600 a month for the beneficiary's lifetime",
+     "rationale": "Incorrect: payments stop once the purchase price has been returned."
+    }
+   ],
+   "correct": "c",
+   "explanation": "An installment refund annuity guarantees that total payments will at least equal the purchase price. Hal paid $90,000 and received $600 × 60 months = $36,000. The unpaid balance is $90,000 − $36,000 = $54,000, which continues to the beneficiary as $600 monthly installments (90 more payments) until paid.",
+   "memoryTip": "Refund annuity counts DOLLARS; installment refund keeps the checks coming until the price is returned.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Total received: 60 × $600 = $36,000",
+      "anyOf": [
+       "36,000",
+       "36000"
+      ]
+     },
+     {
+      "label": "Unpaid balance: $54,000",
+      "anyOf": [
+       "54,000",
+       "54000"
+      ]
+     },
+     {
+      "label": "Paid as continuing installments, not a lump sum",
+      "anyOf": [
+       "installment",
+       "monthly",
+       "continu"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q023",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.4.3"
+   ],
+   "concepts": [
+    "joint-and-survivor",
+    "joint-life-annuity"
+   ],
+   "difficulty": 2,
+   "style": "comparison",
+   "tags": [],
+   "stem": "What is the key difference between a joint life annuity and a joint and survivor annuity?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Joint life stops at the first death; joint and survivor continues until the last death",
+     "rationale": "Correct: this is the defining difference."
+    },
+    {
+     "id": "b",
+     "text": "Joint life covers spouses only; joint and survivor covers any two people",
+     "rationale": "Incorrect: neither option is limited to spouses."
+    },
+    {
+     "id": "c",
+     "text": "Joint life pays smaller checks than joint and survivor",
+     "rationale": "Incorrect: joint life pays larger checks because payments stop earlier."
+    },
+    {
+     "id": "d",
+     "text": "Joint and survivor guarantees a refund of the purchase price",
+     "rationale": "Incorrect: that is a refund feature, not a survivor feature."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Both cover two (or more) lives. A joint life annuity ends at the first death, so it pays more per month. A joint and survivor annuity continues payments (in full or at a reduced percentage) to the survivor until the last death, so it pays less per month.",
+   "memoryTip": "'And survivor' = the Survivor keeps getting paid.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q024",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.4.4"
+   ],
+   "concepts": [
+    "annuity-certain"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Lisa annuitized her contract under a 10-year annuity certain at age 70. She is in good health at age 80 when the 10th year of payments ends.",
+   "stem": "What happens after Lisa's 10th year of payments?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Payments continue for life because she is still living",
+     "rationale": "Incorrect: an annuity certain is not based on her life."
+    },
+    {
+     "id": "b",
+     "text": "Payments stop, even though Lisa is still alive",
+     "rationale": "Correct: an annuity certain pays only for the stated period."
+    },
+    {
+     "id": "c",
+     "text": "Payments switch to her beneficiary for another 10 years",
+     "rationale": "Incorrect: the period has ended; nothing more is owed."
+    },
+    {
+     "id": "d",
+     "text": "Payments reduce by half and continue for life",
+     "rationale": "Incorrect: that resembles a joint and 50% survivor option, which she did not choose."
+    }
+   ],
+   "correct": "b",
+   "explanation": "An annuity certain pays for a fixed period (or until a fixed amount is used up) regardless of whether the annuitant is alive. It involves no life contingency, so it is the one payout option an annuitant can outlive.",
+   "memoryTip": "Annuity certain = a countdown that can be outlived.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   },
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Annuity certain has no life contingency",
+      "anyOf": [
+       "certain",
+       "not based on",
+       "life contingency"
+      ]
+     },
+     {
+      "label": "Payments stop after 10 years even though she is alive",
+      "anyOf": [
+       "stop",
+       "end",
+       "outliv"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ann-q025",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.5.1",
+    "ann.5.2"
+   ],
+   "concepts": [
+    "fixed-annuity",
+    "general-account"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [],
+   "stem": "In a fixed annuity, who bears the investment risk, and where are the premiums held?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The owner; in a separate account",
+     "rationale": "Incorrect: that describes a variable annuity."
+    },
+    {
+     "id": "b",
+     "text": "The owner; in the insurer's general account",
+     "rationale": "Incorrect: the general account is right, but the insurer, not the owner, bears the risk."
+    },
+    {
+     "id": "c",
+     "text": "The insurer; in the insurer's general account",
+     "rationale": "Correct: the insurer guarantees principal and a minimum rate from its general account."
+    },
+    {
+     "id": "d",
+     "text": "The insurer; in a separate account",
+     "rationale": "Incorrect: separate accounts back variable products."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Fixed annuity premiums go into the insurer's general account. The insurer guarantees principal, a minimum interest rate and level payouts, so it bears the investment risk. Variable annuities use separate accounts, and the owner bears the risk.",
+   "memoryTip": "Fixed = insurer's general account = insurer's risk.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "finra-annuities"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q026",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.5.3"
+   ],
+   "concepts": [
+    "guaranteed-minimum-rate",
+    "current-interest-rate"
+   ],
+   "difficulty": 1,
+   "style": "calculation",
+   "tags": [
+    "rapid"
+   ],
+   "scenario": "Ruth's fixed deferred annuity has a guaranteed minimum interest rate of 1.5% and currently credits 4.5%.",
+   "stem": "What is the lowest rate the insurer may credit after the current rate is lowered next year?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "4.5%",
+     "rationale": "Incorrect: the current rate is not guaranteed and may be lowered."
+    },
+    {
+     "id": "b",
+     "text": "0%",
+     "rationale": "Incorrect: the contract guarantees a minimum above zero."
+    },
+    {
+     "id": "c",
+     "text": "1.5%",
+     "rationale": "Correct: the current rate can drop, but never below the 1.5% guaranteed minimum."
+    },
+    {
+     "id": "d",
+     "text": "3%",
+     "rationale": "Incorrect: 3% is the difference between the two rates, not a contractual floor."
+    }
+   ],
+   "correct": "c",
+   "explanation": "A fixed annuity credits a current rate that the insurer may change, subject to the guaranteed minimum rate in the contract. Here the floor is 1.5%, so that is the lowest possible credited rate.",
+   "memoryTip": "Current floats; guaranteed is the floor.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q027",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.5.5"
+   ],
+   "concepts": [
+    "indexed-annuity"
+   ],
+   "difficulty": 3,
+   "style": "calculation",
+   "tags": [
+    "math",
+    "tricky"
+   ],
+   "scenario": "Rita owns a fixed indexed annuity with a 60% participation rate, a 7% annual cap and a 0% floor. This year the linked index rises 15%.",
+   "stem": "What rate is credited for the year?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "9%",
+     "rationale": "Incorrect: 60% × 15% = 9% exceeds the 7% cap, so the cap applies."
+    },
+    {
+     "id": "b",
+     "text": "7%",
+     "rationale": "Correct: 60% × 15% = 9%, limited by the 7% cap."
+    },
+    {
+     "id": "c",
+     "text": "15%",
+     "rationale": "Incorrect: the participation rate and cap both limit the credit."
+    },
+    {
+     "id": "d",
+     "text": "0%",
+     "rationale": "Incorrect: the floor matters only when the index-based result is below it."
+    }
+   ],
+   "correct": "b",
+   "explanation": "First apply the participation rate: 60% × 15% = 9%. Then apply the cap: the credited rate cannot exceed 7%. Result: 7%. In a year when the index falls, the floor (often 0%) protects the account from index losses.",
+   "memoryTip": "Participation first, then cap.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Apply participation: 60% × 15% = 9%",
+      "anyOf": [
+       "9%",
+       "9 percent",
+       "nine"
+      ]
+     },
+     {
+      "label": "Cap limits the credit to 7%",
+      "anyOf": [
+       "cap",
+       "7%",
+       "seven"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q028",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.5.6"
+   ],
+   "concepts": [
+    "variable-annuity",
+    "separate-account"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [],
+   "stem": "What licensing is required to sell a variable annuity?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A life insurance license, with no securities registration",
+     "rationale": "Incorrect: because a variable annuity is a security, a life license alone is not enough."
+    },
+    {
+     "id": "b",
+     "text": "A securities registration, with no insurance license",
+     "rationale": "Incorrect: a variable annuity is also an insurance contract, so a life license is required too."
+    },
+    {
+     "id": "c",
+     "text": "A property and casualty license plus securities registration",
+     "rationale": "Incorrect: property and casualty licenses do not cover annuities."
+    },
+    {
+     "id": "d",
+     "text": "A life insurance license plus securities registration",
+     "rationale": "Correct: variable annuities are both insurance contracts and securities."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Variable annuities are insurance contracts regulated by state insurance departments, and — because the owner bears the investment risk in separate-account subaccounts — they are also securities regulated by the SEC and FINRA. A producer must hold a life insurance license and be registered to sell securities. Fixed (and fixed indexed) annuities need only the life license.",
+   "memoryTip": "Variable = Very regulated: insurance license + securities registration.",
+   "version": 2,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "finra-annuities",
+    "fed-sec-investor-variable-annuities"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q029",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.5.6"
+   ],
+   "concepts": [
+    "accumulation-units",
+    "variable-annuity"
+   ],
+   "difficulty": 3,
+   "style": "concept",
+   "tags": [
+    "tricky"
+   ],
+   "stem": "After a variable annuity is annuitized with variable payments, what stays the same from one payment to the next?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The number of annuity units",
+     "rationale": "Correct: the number of annuity units is fixed at annuitization."
+    },
+    {
+     "id": "b",
+     "text": "The value of each annuity unit",
+     "rationale": "Incorrect: unit value changes with separate-account performance."
+    },
+    {
+     "id": "c",
+     "text": "The dollar amount of each payment",
+     "rationale": "Incorrect: payments vary because unit value varies."
+    },
+    {
+     "id": "d",
+     "text": "The number of accumulation units purchased each month",
+     "rationale": "Incorrect: accumulation units are bought only during the accumulation phase."
+    }
+   ],
+   "correct": "a",
+   "explanation": "At annuitization, accumulation units are converted into a fixed number of annuity units. Each payment = number of annuity units × current annuity unit value. Because the unit value changes with investment results, the payment amount changes, but the number of units does not.",
+   "memoryTip": "Units fixed, value floats, check varies.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q030",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.6.3"
+   ],
+   "concepts": [
+    "gmwb",
+    "variable-annuity"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Hector's variable annuity has a lifetime GMWB rider allowing withdrawals of $10,000 a year. He has stayed within that limit, but a severe market decline and his withdrawals have reduced his account value to zero.",
+   "stem": "What happens to Hector's annual withdrawals?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "They stop because the account value is zero",
+     "rationale": "Incorrect: protecting withdrawals in this situation is exactly what the rider guarantees."
+    },
+    {
+     "id": "b",
+     "text": "They are reduced in proportion to the market loss",
+     "rationale": "Incorrect: the guaranteed amount is not cut because of market losses."
+    },
+    {
+     "id": "c",
+     "text": "He must annuitize to keep receiving income",
+     "rationale": "Incorrect: a GMWB provides guaranteed withdrawals without annuitizing."
+    },
+    {
+     "id": "d",
+     "text": "They continue at the guaranteed amount under the rider",
+     "rationale": "Correct: the GMWB keeps paying the guaranteed withdrawals even after the account is depleted by market losses."
+    }
+   ],
+   "correct": "d",
+   "explanation": "A guaranteed minimum withdrawal benefit is an optional rider, sold for an extra charge, that lets the owner withdraw a set percentage of a benefit base each year even if poor investment performance reduces the account value to zero. Lifetime versions continue for life. Withdrawals above the allowed amount can reduce the guarantee.",
+   "memoryTip": "GMWB = withdrawals keep coming even if the market empties the account.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Rider guarantees withdrawals despite market losses",
+      "anyOf": [
+       "guarantee",
+       "rider"
+      ]
+     },
+     {
+      "label": "Account value of zero does not stop payments",
+      "anyOf": [
+       "zero",
+       "depleted",
+       "continue"
+      ]
+     },
+     {
+      "label": "No annuitization required",
+      "anyOf": [
+       "annuitiz",
+       "withdraw"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-sec-investor-variable-annuities"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q031",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.6.1"
+   ],
+   "concepts": [
+    "tax-deferral"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "How are interest and investment gains inside a non-qualified deferred annuity taxed?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "They are taxed each year as they are credited",
+     "rationale": "Incorrect: annuity gains grow tax-deferred."
+    },
+    {
+     "id": "b",
+     "text": "They are deferred, then taxed as ordinary income when withdrawn",
+     "rationale": "Correct: tax is postponed until money comes out, and gains are ordinary income."
+    },
+    {
+     "id": "c",
+     "text": "They are never subject to federal income tax",
+     "rationale": "Incorrect: deferral is not exemption."
+    },
+    {
+     "id": "d",
+     "text": "They are taxed at capital gains rates when withdrawn",
+     "rationale": "Incorrect: annuity gains are taxed at ordinary income rates."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Annuity earnings grow tax-deferred: no federal income tax is due until money is withdrawn, paid out or paid as a death benefit. Gains are then taxed as ordinary income, not at capital gains rates. Premiums in a non-qualified annuity are paid with after-tax dollars.",
+   "memoryTip": "Deferred, not free; ordinary income, not capital gains.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-sec-investor-variable-annuities",
+    "finra-annuities"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q032",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.6.4",
+    "ann.6.1"
+   ],
+   "concepts": [
+    "deferred-annuity",
+    "tax-deferral"
+   ],
+   "difficulty": 2,
+   "style": "application",
+   "tags": [
+    "tricky"
+   ],
+   "scenario": "Dana, 40, wants to use a deferred annuity to save for her daughter's college costs, which begin in 12 years.",
+   "stem": "Which drawback should the producer point out about using the annuity for this goal?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Withdrawn gains are ordinary income, and a tax penalty may apply before age 59½",
+     "rationale": "Correct: tax deferral helps, but withdrawals of gains are taxable and early withdrawals may be penalized."
+    },
+    {
+     "id": "b",
+     "text": "Annuity values cannot be withdrawn for any reason before annuitization",
+     "rationale": "Incorrect: deferred annuities generally allow withdrawals and surrenders, subject to charges."
+    },
+    {
+     "id": "c",
+     "text": "Annuities may only be owned by people over age 59½",
+     "rationale": "Incorrect: there is no such ownership age."
+    },
+    {
+     "id": "d",
+     "text": "Annuity gains are taxed every year, which eliminates any growth advantage",
+     "rationale": "Incorrect: annuity gains are tax-deferred."
+    }
+   ],
+   "correct": "a",
+   "explanation": "A deferred annuity can accumulate money for goals such as education because growth is tax-deferred. But when gains are withdrawn they are taxed as ordinary income, and if the owner is under 59½ an additional federal tax penalty may apply. Surrender charges may also apply in the early years. These features make the timing important.",
+   "memoryTip": "Annuities for education: deferral helps, but watch taxes, the 59½ rule and surrender charges.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "finra-annuities"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q033",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.5.6"
+   ],
+   "concepts": [
+    "variable-annuity"
+   ],
+   "difficulty": 2,
+   "style": "negative",
+   "tags": [
+    "negative-wording"
+   ],
+   "stem": "Each of the following is a characteristic of a variable annuity EXCEPT:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Premiums are invested in separate-account subaccounts",
+     "rationale": "Incorrect: this IS a variable annuity characteristic."
+    },
+    {
+     "id": "b",
+     "text": "The owner bears the investment risk",
+     "rationale": "Incorrect: this IS a characteristic; values can fall."
+    },
+    {
+     "id": "c",
+     "text": "A guaranteed minimum interest rate on the account value",
+     "rationale": "Correct: a guaranteed minimum interest rate is a fixed annuity feature, not a variable annuity feature."
+    },
+    {
+     "id": "d",
+     "text": "A prospectus must be provided to the buyer",
+     "rationale": "Incorrect: variable annuities are securities sold with a prospectus."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Variable annuities invest in separate-account subaccounts, so the owner bears the investment risk and can lose money; as securities, they are sold with a prospectus. They do not guarantee a minimum interest rate on the account value — that is a fixed annuity feature (optional riders may add specific guarantees for a fee).",
+   "memoryTip": "Variable = no rate guarantee; fixed = rate guarantee.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-sec-investor-variable-annuities",
+    "finra-annuities"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-q034",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ann",
+   "outlineIds": [
+    "ann.6.2",
+    "ann.5.4"
+   ],
+   "concepts": [
+    "fixed-annuity",
+    "straight-life-annuity"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Frank, 66, uses part of his savings to buy a fixed immediate life annuity that pays the same $1,500 every month for the rest of his life.",
+   "stem": "What is the main risk Frank should understand about this choice?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Losing principal in a stock market decline",
+     "rationale": "Incorrect: a fixed annuity's payments are not affected by market declines."
+    },
+    {
+     "id": "b",
+     "text": "Inflation reducing the purchasing power of his level payments",
+     "rationale": "Correct: fixed payments typically do not increase, so rising prices erode what they buy."
+    },
+    {
+     "id": "c",
+     "text": "Running out of payments while still alive",
+     "rationale": "Incorrect: a life annuity pays for as long as he lives."
+    },
+    {
+     "id": "d",
+     "text": "The insurer reducing his monthly payment after annuitization",
+     "rationale": "Incorrect: fixed annuity payments are a guaranteed level amount."
+    }
+   ],
+   "correct": "b",
+   "explanation": "A fixed life annuity provides a guaranteed, level payment for life, protecting against market risk and longevity risk. Its main weakness is purchasing-power (inflation) risk: fixed payments typically have no cost-of-living adjustment, so the same dollars buy less over time.",
+   "memoryTip": "Fixed payments: safe from markets, exposed to inflation.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "finra-annuities"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

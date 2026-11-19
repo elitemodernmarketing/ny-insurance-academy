@@ -1,0 +1,3050 @@
+{
+ "id": "ny-17-55",
+ "series": "17-55",
+ "state": "NY",
+ "title": "New York Life, Accident, and Health Insurance Agent/Broker",
+ "exam": {
+  "questionCount": 150,
+  "timeLimitMinutes": 150,
+  "passingPercent": 70,
+  "experimentalItemsNote": "PSI states 5 to 10 unscored experimental items may be added in addition to the scored items; this simulator uses only the 150 scored items.",
+  "closedBook": true
+ },
+ "prelicensing": {
+  "statutoryMinimumHours": 40,
+  "note": "40-hour approved combined Life/A&H prelicensing course is required (or a qualifying exemption). Study time in this app is independent study and is NOT approved prelicensing credit; only a DFS-approved provider issues a School Certificate.",
+  "sources": [
+   "psi-ny-bulletin-2023",
+   "dfs-prelicensing-criteria"
+  ]
+ },
+ "source": {
+  "id": "psi-ny-bulletin-2023",
+  "checkedOn": "2026-11-19",
+  "note": "PSI NY Insurance Candidate Information Bulletin, 'Updated 4/28/2023'. Bulletin IDs 7208 and 7228 served byte-identical PDFs on 2026-11-19 (sha256 2cf26319...df4df); no newer NY edition was found.",
+  "hierarchyNote": "Hierarchy reconstructed from PDF indentation (x-offsets). A few items whose indentation in the PDF was ambiguous were normalized (PPO/POS/EPO, indemnity plan features and catastrophic under Medical Plans > Types of plans; LTC benefit periods/amounts/ADLs and plan-type items under LTC > Benefits; FMLA and nondiscrimination rules under Group > Regulation). Every token of the official outline text is preserved."
+ },
+ "sections": [
+  {
+   "id": "reg",
+   "name": "Insurance Regulation",
+   "weightPct": 7,
+   "domain": "general",
+   "children": [
+    {
+     "id": "reg.1",
+     "title": "Licensing",
+     "children": [
+      {
+       "id": "reg.1.1",
+       "title": "Process",
+       "refs": "2103(d–i)"
+      },
+      {
+       "id": "reg.1.2",
+       "title": "Definitions",
+       "children": [
+        {
+         "id": "reg.1.2.1",
+         "title": "Producer definition",
+         "refs": "2101(k)"
+        },
+        {
+         "id": "reg.1.2.2",
+         "title": "Who should be licensed",
+         "refs": "2101(k)(1)"
+        },
+        {
+         "id": "reg.1.2.3",
+         "title": "Home state",
+         "refs": "2101(l)"
+        },
+        {
+         "id": "reg.1.2.4",
+         "title": "Negotiate",
+         "refs": "2101(m)"
+        },
+        {
+         "id": "reg.1.2.5",
+         "title": "Sell",
+         "refs": "2101(n)"
+        },
+        {
+         "id": "reg.1.2.6",
+         "title": "Solicit",
+         "refs": "2101(o)"
+        }
+       ]
+      },
+      {
+       "id": "reg.1.3",
+       "title": "Types of licensees",
+       "children": [
+        {
+         "id": "reg.1.3.1",
+         "title": "Agents",
+         "refs": "2101(a, k); 2103; Reg 6, Part 22.2; Reg 7, Part 23.2"
+        },
+        {
+         "id": "reg.1.3.2",
+         "title": "Brokers",
+         "refs": "2101(c, h, k); 2104"
+        },
+        {
+         "id": "reg.1.3.3",
+         "title": "Consultants",
+         "refs": "2107"
+        },
+        {
+         "id": "reg.1.3.4",
+         "title": "Adjusters",
+         "refs": "2101(g), 2108"
+        },
+        {
+         "id": "reg.1.3.5",
+         "title": "Nonresident",
+         "refs": "2101(d, e); 2103(g)(5, 11); 2136"
+        },
+        {
+         "id": "reg.1.3.6",
+         "title": "Business entities",
+         "refs": "2101(p), 2103(j)(2)"
+        },
+        {
+         "id": "reg.1.3.7",
+         "title": "Temporary",
+         "refs": "2109; Regs 9, 18, 29, Part 20.1"
+        }
+       ]
+      },
+      {
+       "id": "reg.1.4",
+       "title": "Maintenance and duration",
+       "children": [
+        {
+         "id": "reg.1.4.1",
+         "title": "Renewal",
+         "refs": "2103(j); Reg 5, Part 21.2"
+        },
+        {
+         "id": "reg.1.4.2",
+         "title": "Continuing education",
+         "refs": "2132"
+        },
+        {
+         "id": "reg.1.4.3",
+         "title": "Assumed names",
+         "refs": "2102(f)"
+        },
+        {
+         "id": "reg.1.4.4",
+         "title": "Change of address (all addresses, including email)",
+         "refs": "2134; Reg 5, Part 21.4; Reg 6, Part 22.3; Reg 7, Part 23.4"
+        },
+        {
+         "id": "reg.1.4.5",
+         "title": "Reporting of actions",
+         "refs": "2110(i)"
+        }
+       ]
+      },
+      {
+       "id": "reg.1.5",
+       "title": "Disciplinary actions",
+       "children": [
+        {
+         "id": "reg.1.5.1",
+         "title": "Hearings - Notice and Process",
+         "refs": "2405, 2406, Financial Services 305"
+        },
+        {
+         "id": "reg.1.5.2",
+         "title": "Suspension, revocation, and nonrenewal",
+         "refs": "2110"
+        },
+        {
+         "id": "reg.1.5.3",
+         "title": "Penalties",
+         "refs": "2127, 109"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "reg.2",
+     "title": "State Regulation",
+     "children": [
+      {
+       "id": "reg.2.1",
+       "title": "Superintendent's general duties and powers",
+       "refs": "2404, Financial Services 201, 202, 301"
+      },
+      {
+       "id": "reg.2.2",
+       "title": "Company regulation",
+       "children": [
+        {
+         "id": "reg.2.2.1",
+         "title": "Certificate of authority",
+         "refs": "1102(a-b)"
+        },
+        {
+         "id": "reg.2.2.2",
+         "title": "Solvency",
+         "refs": "307"
+        },
+        {
+         "id": "reg.2.2.3",
+         "title": "Unfair claim settlement practices",
+         "refs": "2601; Reg 64, Parts 216.3 to .6"
+        },
+        {
+         "id": "reg.2.2.4",
+         "title": "Appointment of agent",
+         "refs": "2112(a–c)"
+        },
+        {
+         "id": "reg.2.2.5",
+         "title": "Termination of agent appointment",
+         "refs": "2112(d); Regs 9, 18, 29, Part 20.2"
+        }
+       ]
+      },
+      {
+       "id": "reg.2.3",
+       "title": "Unfair and prohibited practices",
+       "children": [
+        {
+         "id": "reg.2.3.1",
+         "title": "Misrepresentation",
+         "refs": "2123; Reg 64, Part 216.3"
+        },
+        {
+         "id": "reg.2.3.2",
+         "title": "False advertising",
+         "refs": "2603"
+        },
+        {
+         "id": "reg.2.3.3",
+         "title": "Defamation of insurer",
+         "refs": "2604"
+        },
+        {
+         "id": "reg.2.3.4",
+         "title": "Unfair discrimination",
+         "refs": "2606–2608, 2612"
+        },
+        {
+         "id": "reg.2.3.5",
+         "title": "Rebating",
+         "refs": "2324"
+        }
+       ]
+      },
+      {
+       "id": "reg.2.4",
+       "title": "Licensee regulation",
+       "children": [
+        {
+         "id": "reg.2.4.1",
+         "title": "Controlled business",
+         "refs": "2103(i)"
+        },
+        {
+         "id": "reg.2.4.2",
+         "title": "Sharing commissions",
+         "refs": "2121, 2128"
+        },
+        {
+         "id": "reg.2.4.3",
+         "title": "Fiduciary responsibility",
+         "refs": "2120; Regs 9, 18, 29, Parts 20.3, 20.4"
+        },
+        {
+         "id": "reg.2.4.4",
+         "title": "License display",
+         "refs": "Reg 125, Part 34.5"
+        },
+        {
+         "id": "reg.2.4.5",
+         "title": "Commissions and compensation",
+         "refs": "2102(e), 2114–2116, 2119; Regs 9, 18, 29, Part 20.6; 194 Part 30"
+        },
+        {
+         "id": "reg.2.4.6",
+         "title": "Termination responsibilities of producer",
+         "refs": "2112"
+        }
+       ]
+      },
+      {
+       "id": "reg.2.5",
+       "title": "Examination of books and records",
+       "refs": "2404; Reg 152, Parts 243.0 to .3"
+      },
+      {
+       "id": "reg.2.6",
+       "title": "Insurance Frauds Prevention Act",
+       "refs": "401–405, Financial Services 403-405"
+      },
+      {
+       "id": "reg.2.7",
+       "title": "Aiding Unauthorized Insurer",
+       "refs": "2117"
+      },
+      {
+       "id": "reg.2.8",
+       "title": "Prohibitions",
+       "refs": "403"
+      },
+      {
+       "id": "reg.2.9",
+       "title": "Reporting",
+       "refs": "405"
+      },
+      {
+       "id": "reg.2.10",
+       "title": "Consumer privacy regulation",
+       "refs": "Reg 169, Part 420.0 to .4"
+      },
+      {
+       "id": "reg.2.11",
+       "title": "Producer Compensation Transparency",
+       "refs": "Reg 194, Parts 30.1 to 30.5"
+      },
+      {
+       "id": "reg.2.12",
+       "title": "Cyber Security Requirements for Financial Services Companies",
+       "refs": "Reg 23"
+      }
+     ]
+    },
+    {
+     "id": "reg.3",
+     "title": "Federal Regulation",
+     "children": [
+      {
+       "id": "reg.3.1",
+       "title": "Fair Credit Reporting Act",
+       "refs": "15 USC 1681–1681d"
+      },
+      {
+       "id": "reg.3.2",
+       "title": "Fraud and false statements including 1033 waiver",
+       "refs": "18 USC 1033, 1034"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gen",
+   "name": "General Insurance",
+   "weightPct": 4,
+   "domain": "general",
+   "children": [
+    {
+     "id": "gen.1",
+     "title": "Concepts",
+     "children": [
+      {
+       "id": "gen.1.1",
+       "title": "Risk management key terms",
+       "children": [
+        {
+         "id": "gen.1.1.1",
+         "title": "Risk (pure and speculative)"
+        },
+        {
+         "id": "gen.1.1.2",
+         "title": "Exposure"
+        },
+        {
+         "id": "gen.1.1.3",
+         "title": "Hazard (physical, moral, morale)"
+        },
+        {
+         "id": "gen.1.1.4",
+         "title": "Peril"
+        },
+        {
+         "id": "gen.1.1.5",
+         "title": "Loss"
+        }
+       ]
+      },
+      {
+       "id": "gen.1.2",
+       "title": "Methods of handling risk",
+       "children": [
+        {
+         "id": "gen.1.2.1",
+         "title": "Avoidance"
+        },
+        {
+         "id": "gen.1.2.2",
+         "title": "Retention"
+        },
+        {
+         "id": "gen.1.2.3",
+         "title": "Sharing"
+        },
+        {
+         "id": "gen.1.2.4",
+         "title": "Reduction"
+        },
+        {
+         "id": "gen.1.2.5",
+         "title": "Transfer (by contractual liability or insurance contract)"
+        },
+        {
+         "id": "gen.1.2.6",
+         "title": "Elements of insurable risks"
+        },
+        {
+         "id": "gen.1.2.7",
+         "title": "Adverse selection"
+        },
+        {
+         "id": "gen.1.2.8",
+         "title": "Law of large numbers"
+        },
+        {
+         "id": "gen.1.2.9",
+         "title": "Reinsurance"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "gen.2",
+     "title": "Insurers",
+     "children": [
+      {
+       "id": "gen.2.1",
+       "title": "Types of insurers",
+       "children": [
+        {
+         "id": "gen.2.1.1",
+         "title": "Stock companies"
+        },
+        {
+         "id": "gen.2.1.2",
+         "title": "Mutual companies"
+        },
+        {
+         "id": "gen.2.1.3",
+         "title": "Fraternal benefit societies"
+        }
+       ]
+      },
+      {
+       "id": "gen.2.2",
+       "title": "Private versus government insurers"
+      },
+      {
+       "id": "gen.2.3",
+       "title": "Admitted versus nonadmitted insurers"
+      },
+      {
+       "id": "gen.2.4",
+       "title": "Domestic, foreign, and alien insurers"
+      },
+      {
+       "id": "gen.2.5",
+       "title": "Financial status (independent rating services)"
+      },
+      {
+       "id": "gen.2.6",
+       "title": "Marketing (distribution) systems"
+      }
+     ]
+    },
+    {
+     "id": "gen.3",
+     "title": "Agents and general rules of agency",
+     "children": [
+      {
+       "id": "gen.3.1",
+       "title": "Insurer as principal"
+      },
+      {
+       "id": "gen.3.2",
+       "title": "Agent/insurer relationship"
+      },
+      {
+       "id": "gen.3.3",
+       "title": "Authority and powers of agents",
+       "children": [
+        {
+         "id": "gen.3.3.1",
+         "title": "Express"
+        },
+        {
+         "id": "gen.3.3.2",
+         "title": "Implied"
+        },
+        {
+         "id": "gen.3.3.3",
+         "title": "Apparent"
+        }
+       ]
+      },
+      {
+       "id": "gen.3.4",
+       "title": "Responsibilities to the applicant/insured"
+      }
+     ]
+    },
+    {
+     "id": "gen.4",
+     "title": "Contracts",
+     "children": [
+      {
+       "id": "gen.4.1",
+       "title": "Elements of a legal contract",
+       "children": [
+        {
+         "id": "gen.4.1.1",
+         "title": "Offer and acceptance"
+        },
+        {
+         "id": "gen.4.1.2",
+         "title": "Consideration"
+        },
+        {
+         "id": "gen.4.1.3",
+         "title": "Competent parties"
+        },
+        {
+         "id": "gen.4.1.4",
+         "title": "Legal purpose"
+        }
+       ]
+      },
+      {
+       "id": "gen.4.2",
+       "title": "Characteristics of insurance contracts",
+       "children": [
+        {
+         "id": "gen.4.2.1",
+         "title": "Contract of adhesion"
+        },
+        {
+         "id": "gen.4.2.2",
+         "title": "Aleatory contract"
+        },
+        {
+         "id": "gen.4.2.3",
+         "title": "Personal contract"
+        },
+        {
+         "id": "gen.4.2.4",
+         "title": "Unilateral contract"
+        },
+        {
+         "id": "gen.4.2.5",
+         "title": "Conditional contract"
+        }
+       ]
+      },
+      {
+       "id": "gen.4.3",
+       "title": "Legal concepts and interpretations affecting contracts",
+       "children": [
+        {
+         "id": "gen.4.3.1",
+         "title": "Indemnity"
+        },
+        {
+         "id": "gen.4.3.2",
+         "title": "Utmost good faith"
+        },
+        {
+         "id": "gen.4.3.3",
+         "title": "Representations/misrepresentations",
+         "refs": "3105"
+        },
+        {
+         "id": "gen.4.3.4",
+         "title": "Warranties",
+         "refs": "3106"
+        },
+        {
+         "id": "gen.4.3.5",
+         "title": "Rescission"
+        },
+        {
+         "id": "gen.4.3.6",
+         "title": "Concealment"
+        },
+        {
+         "id": "gen.4.3.7",
+         "title": "Fraud"
+        },
+        {
+         "id": "gen.4.3.8",
+         "title": "Waiver and estoppel"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lib",
+   "name": "Life Insurance Basics",
+   "weightPct": 8,
+   "domain": "life",
+   "children": [
+    {
+     "id": "lib.1",
+     "title": "Insurable interest",
+     "refs": "3205"
+    },
+    {
+     "id": "lib.2",
+     "title": "Personal uses of life insurance",
+     "children": [
+      {
+       "id": "lib.2.1",
+       "title": "Survivor protection"
+      },
+      {
+       "id": "lib.2.2",
+       "title": "Estate creation"
+      },
+      {
+       "id": "lib.2.3",
+       "title": "Cash accumulation"
+      },
+      {
+       "id": "lib.2.4",
+       "title": "Liquidity"
+      },
+      {
+       "id": "lib.2.5",
+       "title": "Estate conservation"
+      }
+     ]
+    },
+    {
+     "id": "lib.3",
+     "title": "Determining amount of personal life insurance",
+     "children": [
+      {
+       "id": "lib.3.1",
+       "title": "Human life value approach"
+      },
+      {
+       "id": "lib.3.2",
+       "title": "Needs approach",
+       "children": [
+        {
+         "id": "lib.3.2.1",
+         "title": "Types of information gathered"
+        },
+        {
+         "id": "lib.3.2.2",
+         "title": "Determining lump-sum needs"
+        },
+        {
+         "id": "lib.3.2.3",
+         "title": "Planning for income needs"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "lib.4",
+     "title": "Business uses of life insurance",
+     "children": [
+      {
+       "id": "lib.4.1",
+       "title": "Buy-sell funding"
+      },
+      {
+       "id": "lib.4.2",
+       "title": "Key person"
+      },
+      {
+       "id": "lib.4.3",
+       "title": "Business continuation"
+      }
+     ]
+    },
+    {
+     "id": "lib.5",
+     "title": "Differences in life insurance policies",
+     "children": [
+      {
+       "id": "lib.5.1",
+       "title": "Group versus individual"
+      },
+      {
+       "id": "lib.5.2",
+       "title": "Permanent versus term"
+      },
+      {
+       "id": "lib.5.3",
+       "title": "Participating versus nonparticipating"
+      },
+      {
+       "id": "lib.5.4",
+       "title": "Fixed versus variable life",
+       "children": [
+        {
+         "id": "lib.5.4.1",
+         "title": "Regulation of variable products (SEC, NASD, and New York)",
+         "refs": "4240; Reg 47, Part 50.3; Reg 77, Part 54.3"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "lib.6",
+     "title": "Factors in premium determination",
+     "children": [
+      {
+       "id": "lib.6.1",
+       "title": "Mortality, Investment Return, and Expense"
+      },
+      {
+       "id": "lib.6.2",
+       "title": "Mode of premium"
+      }
+     ]
+    },
+    {
+     "id": "lib.7",
+     "title": "Licensee responsibilities",
+     "children": [
+      {
+       "id": "lib.7.1",
+       "title": "Solicitation and sales presentations",
+       "children": [
+        {
+         "id": "lib.7.1.1",
+         "title": "Advertising",
+         "refs": "2122"
+        },
+        {
+         "id": "lib.7.1.2",
+         "title": "Life Insurance Company Guaranty Corporation",
+         "refs": "7718"
+        },
+        {
+         "id": "lib.7.1.3",
+         "title": "Policy summary",
+         "refs": "3209; Reg 74, Part 53-2.2"
+        },
+        {
+         "id": "lib.7.1.4",
+         "title": "Buyer's guide",
+         "refs": "3209; Reg 74, Part 53-2.6"
+        },
+        {
+         "id": "lib.7.1.5",
+         "title": "Suitability in Life Insurance and Annuities",
+         "refs": "Reg 187 224.2-224.4"
+        },
+        {
+         "id": "lib.7.1.6",
+         "title": "Illustrations",
+         "refs": "Reg 74, Part 53-3.1 to .6"
+        },
+        {
+         "id": "lib.7.1.7",
+         "title": "Replacement",
+         "refs": "2123(a)(2, 3); Reg 60, Parts 51.1 to .8"
+        },
+        {
+         "id": "lib.7.1.8",
+         "title": "Use and disclosure of insurance information"
+        },
+        {
+         "id": "lib.7.1.9",
+         "title": "Use of Senior-Specific Certifications and Professional Designations in the Sale of Life Insurance and Annuities",
+         "refs": "Reg 199, Part 225"
+        }
+       ]
+      },
+      {
+       "id": "lib.7.2",
+       "title": "Field underwriting",
+       "children": [
+        {
+         "id": "lib.7.2.1",
+         "title": "Application procedures including backdating of policies",
+         "refs": "3208"
+        }
+       ]
+      },
+      {
+       "id": "lib.7.3",
+       "title": "Delivery",
+       "children": [
+        {
+         "id": "lib.7.3.1",
+         "title": "Policy review"
+        },
+        {
+         "id": "lib.7.3.2",
+         "title": "Effective date of coverage"
+        },
+        {
+         "id": "lib.7.3.3",
+         "title": "Premium collection"
+        },
+        {
+         "id": "lib.7.3.4",
+         "title": "Statement of good health"
+        },
+        {
+         "id": "lib.7.3.5",
+         "title": "Amendments"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "lib.8",
+     "title": "Individual underwriting by the insurer",
+     "children": [
+      {
+       "id": "lib.8.1",
+       "title": "Information sources and regulation",
+       "children": [
+        {
+         "id": "lib.8.1.1",
+         "title": "Application"
+        },
+        {
+         "id": "lib.8.1.2",
+         "title": "Agent report"
+        },
+        {
+         "id": "lib.8.1.3",
+         "title": "Attending physician statement"
+        },
+        {
+         "id": "lib.8.1.4",
+         "title": "Investigative consumer (inspection) report"
+        },
+        {
+         "id": "lib.8.1.5",
+         "title": "Medical Information Bureau (MIB)"
+        },
+        {
+         "id": "lib.8.1.6",
+         "title": "Medical examinations and lab tests including HIV",
+         "refs": "2611"
+        },
+        {
+         "id": "lib.8.1.7",
+         "title": "Selection criteria and unfair discrimination"
+        }
+       ]
+      },
+      {
+       "id": "lib.8.2",
+       "title": "Classification of risks",
+       "children": [
+        {
+         "id": "lib.8.2.1",
+         "title": "Preferred"
+        },
+        {
+         "id": "lib.8.2.2",
+         "title": "Standard"
+        },
+        {
+         "id": "lib.8.2.3",
+         "title": "Substandard"
+        },
+        {
+         "id": "lib.8.2.4",
+         "title": "Declined"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lip",
+   "name": "Life Insurance Policies",
+   "weightPct": 8,
+   "domain": "life",
+   "children": [
+    {
+     "id": "lip.1",
+     "title": "Term life insurance",
+     "children": [
+      {
+       "id": "lip.1.1",
+       "title": "Level term",
+       "children": [
+        {
+         "id": "lip.1.1.1",
+         "title": "Renewable term"
+        },
+        {
+         "id": "lip.1.1.2",
+         "title": "Convertible term"
+        },
+        {
+         "id": "lip.1.1.3",
+         "title": "Level premium term"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "lip.2",
+     "title": "Whole life insurance",
+     "children": [
+      {
+       "id": "lip.2.1",
+       "title": "Continuous premium (straight life)"
+      },
+      {
+       "id": "lip.2.2",
+       "title": "Limited payment"
+      },
+      {
+       "id": "lip.2.3",
+       "title": "Single premium"
+      }
+     ]
+    },
+    {
+     "id": "lip.3",
+     "title": "Flexible premium policies",
+     "children": [
+      {
+       "id": "lip.3.1",
+       "title": "Universal life"
+      }
+     ]
+    },
+    {
+     "id": "lip.4",
+     "title": "Specialized policies",
+     "children": [
+      {
+       "id": "lip.4.1",
+       "title": "Joint life (first-to-die)"
+      },
+      {
+       "id": "lip.4.2",
+       "title": "Survivorship life (second-to-die)"
+      },
+      {
+       "id": "lip.4.3",
+       "title": "Life insurance on minors",
+       "refs": "3207(b)"
+      },
+      {
+       "id": "lip.4.4",
+       "title": "Fixed (equity) indexed life"
+      }
+     ]
+    },
+    {
+     "id": "lip.5",
+     "title": "Group life insurance",
+     "children": [
+      {
+       "id": "lip.5.1",
+       "title": "Characteristics of group plans"
+      },
+      {
+       "id": "lip.5.2",
+       "title": "Types of plan sponsors"
+      },
+      {
+       "id": "lip.5.3",
+       "title": "Group underwriting requirements"
+      },
+      {
+       "id": "lip.5.4",
+       "title": "Conversion to individual policy",
+       "refs": "3220"
+      }
+     ]
+    },
+    {
+     "id": "lip.6",
+     "title": "Credit life insurance (individual versus group)"
+    }
+   ]
+  },
+  {
+   "id": "lpr",
+   "name": "Life Insurance Policy Provisions, Options, and Riders",
+   "weightPct": 10,
+   "domain": "life",
+   "children": [
+    {
+     "id": "lpr.1",
+     "title": "Required provisions",
+     "children": [
+      {
+       "id": "lpr.1.1",
+       "title": "Ownership"
+      },
+      {
+       "id": "lpr.1.2",
+       "title": "Assignment"
+      },
+      {
+       "id": "lpr.1.3",
+       "title": "Entire contract",
+       "refs": "3203(a)(4), 3204"
+      },
+      {
+       "id": "lpr.1.4",
+       "title": "Right to examine (free look)",
+       "refs": "3203(a)(11)"
+      },
+      {
+       "id": "lpr.1.5",
+       "title": "Payment of premiums"
+      },
+      {
+       "id": "lpr.1.6",
+       "title": "Grace period",
+       "refs": "3203(a)(1)"
+      },
+      {
+       "id": "lpr.1.7",
+       "title": "Reinstatement",
+       "refs": "3203(a)(10)"
+      },
+      {
+       "id": "lpr.1.8",
+       "title": "Incontestability",
+       "refs": "3203(a)(3)"
+      },
+      {
+       "id": "lpr.1.9",
+       "title": "Misstatement of age",
+       "refs": "3203(a)(5)"
+      },
+      {
+       "id": "lpr.1.10",
+       "title": "Exclusions",
+       "refs": "3203(b,c)"
+      },
+      {
+       "id": "lpr.1.11",
+       "title": "Statements of the applicant",
+       "refs": "3204"
+      },
+      {
+       "id": "lpr.1.12",
+       "title": "Proof of Death"
+      }
+     ],
+     "refs": "3203"
+    },
+    {
+     "id": "lpr.2",
+     "title": "Beneficiaries",
+     "children": [
+      {
+       "id": "lpr.2.1",
+       "title": "Designation options",
+       "children": [
+        {
+         "id": "lpr.2.1.1",
+         "title": "Individuals"
+        },
+        {
+         "id": "lpr.2.1.2",
+         "title": "Classes (per stirpes/per capita)"
+        },
+        {
+         "id": "lpr.2.1.3",
+         "title": "Estates"
+        },
+        {
+         "id": "lpr.2.1.4",
+         "title": "Minors"
+        },
+        {
+         "id": "lpr.2.1.5",
+         "title": "Trusts"
+        },
+        {
+         "id": "lpr.2.1.6",
+         "title": "Succession"
+        },
+        {
+         "id": "lpr.2.1.7",
+         "title": "Revocable versus irrevocable"
+        },
+        {
+         "id": "lpr.2.1.8",
+         "title": "Common disaster clause"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "lpr.3",
+     "title": "Settlement options",
+     "children": [
+      {
+       "id": "lpr.3.1",
+       "title": "Cash payment"
+      },
+      {
+       "id": "lpr.3.2",
+       "title": "Interest only"
+      },
+      {
+       "id": "lpr.3.3",
+       "title": "Fixed-period installments"
+      },
+      {
+       "id": "lpr.3.4",
+       "title": "Fixed-amount installments"
+      },
+      {
+       "id": "lpr.3.5",
+       "title": "Life income",
+       "children": [
+        {
+         "id": "lpr.3.5.1",
+         "title": "Single life"
+        },
+        {
+         "id": "lpr.3.5.2",
+         "title": "Joint and survivor"
+        },
+        {
+         "id": "lpr.3.5.3",
+         "title": "Spendthrift clause"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "lpr.4",
+     "title": "Nonforfeiture options",
+     "children": [
+      {
+       "id": "lpr.4.1",
+       "title": "Cash surrender value (net cash value)"
+      },
+      {
+       "id": "lpr.4.2",
+       "title": "Extended term"
+      },
+      {
+       "id": "lpr.4.3",
+       "title": "Reduced paid-up insurance"
+      }
+     ]
+    },
+    {
+     "id": "lpr.5",
+     "title": "Policy loan and withdrawal options",
+     "children": [
+      {
+       "id": "lpr.5.1",
+       "title": "Policy loans"
+      },
+      {
+       "id": "lpr.5.2",
+       "title": "Automatic premium loans"
+      },
+      {
+       "id": "lpr.5.3",
+       "title": "Withdrawals or partial surrenders"
+      }
+     ]
+    },
+    {
+     "id": "lpr.6",
+     "title": "Dividend options",
+     "children": [
+      {
+       "id": "lpr.6.1",
+       "title": "Cash payment"
+      },
+      {
+       "id": "lpr.6.2",
+       "title": "Reduction of premium payments"
+      },
+      {
+       "id": "lpr.6.3",
+       "title": "Accumulation at interest"
+      },
+      {
+       "id": "lpr.6.4",
+       "title": "One-year term option"
+      },
+      {
+       "id": "lpr.6.5",
+       "title": "Paid-up additions"
+      }
+     ]
+    },
+    {
+     "id": "lpr.7",
+     "title": "Disability riders",
+     "children": [
+      {
+       "id": "lpr.7.1",
+       "title": "Waiver of premium"
+      },
+      {
+       "id": "lpr.7.2",
+       "title": "Waiver of cost of insurance"
+      },
+      {
+       "id": "lpr.7.3",
+       "title": "Disability income benefit"
+      },
+      {
+       "id": "lpr.7.4",
+       "title": "Payor benefit life/disability (juvenile insurance)"
+      }
+     ]
+    },
+    {
+     "id": "lpr.8",
+     "title": "Accelerated (living) benefit provisions/riders",
+     "children": [
+      {
+       "id": "lpr.8.1",
+       "title": "Conditions for payment"
+      },
+      {
+       "id": "lpr.8.2",
+       "title": "Effect on death benefit"
+      }
+     ],
+     "refs": "3230"
+    },
+    {
+     "id": "lpr.9",
+     "title": "Riders covering additional insureds",
+     "children": [
+      {
+       "id": "lpr.9.1",
+       "title": "Spouse/other-insured term rider"
+      },
+      {
+       "id": "lpr.9.2",
+       "title": "Children's term rider"
+      },
+      {
+       "id": "lpr.9.3",
+       "title": "Family term rider"
+      }
+     ]
+    },
+    {
+     "id": "lpr.10",
+     "title": "Riders affecting the death benefit amount",
+     "children": [
+      {
+       "id": "lpr.10.1",
+       "title": "Accidental death"
+      },
+      {
+       "id": "lpr.10.2",
+       "title": "Guaranteed insurability"
+      },
+      {
+       "id": "lpr.10.3",
+       "title": "Cost of living"
+      },
+      {
+       "id": "lpr.10.4",
+       "title": "Return of premium"
+      },
+      {
+       "id": "lpr.10.5",
+       "title": "Term rider"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ann",
+   "name": "Annuities",
+   "weightPct": 7,
+   "domain": "life",
+   "children": [
+    {
+     "id": "ann.1",
+     "title": "Annuity principles and concepts",
+     "children": [
+      {
+       "id": "ann.1.1",
+       "title": "Accumulation period versus annuity period"
+      },
+      {
+       "id": "ann.1.2",
+       "title": "Owner, annuitant, and beneficiary"
+      },
+      {
+       "id": "ann.1.3",
+       "title": "Insurance aspects of annuities"
+      }
+     ]
+    },
+    {
+     "id": "ann.2",
+     "title": "Required provisions",
+     "refs": "3219, 4220, 4223"
+    },
+    {
+     "id": "ann.3",
+     "title": "Immediate versus deferred annuities",
+     "children": [
+      {
+       "id": "ann.3.1",
+       "title": "Single premium immediate annuities (SPIAs)"
+      },
+      {
+       "id": "ann.3.2",
+       "title": "Deferred annuities",
+       "children": [
+        {
+         "id": "ann.3.2.1",
+         "title": "Premium payment options"
+        },
+        {
+         "id": "ann.3.2.2",
+         "title": "Nonforfeiture"
+        },
+        {
+         "id": "ann.3.2.3",
+         "title": "Surrender and withdrawal charges"
+        },
+        {
+         "id": "ann.3.2.4",
+         "title": "Death benefits"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ann.4",
+     "title": "Annuity (benefit) payment options",
+     "children": [
+      {
+       "id": "ann.4.1",
+       "title": "Life contingency options"
+      },
+      {
+       "id": "ann.4.2",
+       "title": "Pure or straight life versus life with guaranteed minimum"
+      },
+      {
+       "id": "ann.4.3",
+       "title": "Single life versus multiple life"
+      },
+      {
+       "id": "ann.4.4",
+       "title": "Annuities certain (types)"
+      }
+     ]
+    },
+    {
+     "id": "ann.5",
+     "title": "Annuity products",
+     "children": [
+      {
+       "id": "ann.5.1",
+       "title": "Fixed annuities"
+      },
+      {
+       "id": "ann.5.2",
+       "title": "General account assets"
+      },
+      {
+       "id": "ann.5.3",
+       "title": "Interest rate guarantees (minimum versus current)"
+      },
+      {
+       "id": "ann.5.4",
+       "title": "Level benefit payment amount"
+      },
+      {
+       "id": "ann.5.5",
+       "title": "Fixed (equity) indexed annuities"
+      },
+      {
+       "id": "ann.5.6",
+       "title": "Differences in variable annuity products and licensing requirements"
+      }
+     ]
+    },
+    {
+     "id": "ann.6",
+     "title": "Personal Uses of annuities",
+     "children": [
+      {
+       "id": "ann.6.1",
+       "title": "Tax-deferred growth"
+      },
+      {
+       "id": "ann.6.2",
+       "title": "Retirement income"
+      },
+      {
+       "id": "ann.6.3",
+       "title": "Guaranteed Minimum Withdrawal Benefit (GMWB)"
+      },
+      {
+       "id": "ann.6.4",
+       "title": "Education funds"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tax",
+   "name": "Federal Tax Considerations for Life Insurance and Annuities",
+   "weightPct": 2,
+   "domain": "life",
+   "children": [
+    {
+     "id": "tax.1",
+     "title": "Taxation of personal life insurance",
+     "children": [
+      {
+       "id": "tax.1.1",
+       "title": "Amounts available to policyowner",
+       "children": [
+        {
+         "id": "tax.1.1.1",
+         "title": "Cash value increases"
+        },
+        {
+         "id": "tax.1.1.2",
+         "title": "Dividends"
+        },
+        {
+         "id": "tax.1.1.3",
+         "title": "Policy loans"
+        },
+        {
+         "id": "tax.1.1.4",
+         "title": "Surrenders"
+        }
+       ]
+      },
+      {
+       "id": "tax.1.2",
+       "title": "Amounts received by beneficiary",
+       "children": [
+        {
+         "id": "tax.1.2.1",
+         "title": "Settlement options"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "tax.2",
+     "title": "Rollovers and transfers (IRAs and qualified plans)"
+    },
+    {
+     "id": "tax.3",
+     "title": "Section 1035 exchanges"
+    }
+   ]
+  },
+  {
+   "id": "qp",
+   "name": "Qualified Plans",
+   "weightPct": 2,
+   "domain": "life",
+   "children": [
+    {
+     "id": "qp.1",
+     "title": "General requirements",
+     "children": [
+      {
+       "id": "qp.1.1",
+       "title": "Defined contribution versus defined benefit plan"
+      }
+     ]
+    },
+    {
+     "id": "qp.2",
+     "title": "Plan types, characteristics, and purchasers",
+     "children": [
+      {
+       "id": "qp.2.1",
+       "title": "Self-employed plans (Keogh plans)"
+      },
+      {
+       "id": "qp.2.2",
+       "title": "SIMPLE"
+      },
+      {
+       "id": "qp.2.3",
+       "title": "SEP"
+      },
+      {
+       "id": "qp.2.4",
+       "title": "401K"
+      },
+      {
+       "id": "qp.2.5",
+       "title": "457"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ls",
+   "name": "Life Settlement",
+   "weightPct": 3,
+   "domain": "life",
+   "children": [
+    {
+     "id": "ls.1",
+     "title": "Definitions",
+     "children": [
+      {
+       "id": "ls.1.1",
+       "title": "Life Settlement contract",
+       "refs": "7802(k)(1)(2)(3)"
+      },
+      {
+       "id": "ls.1.2",
+       "title": "Life Settlement Broker",
+       "refs": "7802(j)"
+      },
+      {
+       "id": "ls.1.3",
+       "title": "Business of Life Settlement",
+       "refs": "7802(c)(1)"
+      },
+      {
+       "id": "ls.1.4",
+       "title": "Financing transaction",
+       "refs": "7802(f)"
+      },
+      {
+       "id": "ls.1.5",
+       "title": "Owner",
+       "refs": "7802(n)"
+      },
+      {
+       "id": "ls.1.6",
+       "title": "Life expectancy",
+       "refs": "7802(i)"
+      }
+     ],
+     "refs": "7802"
+    },
+    {
+     "id": "ls.2",
+     "title": "Broker License Requirements",
+     "refs": "2137; 2102(a)(1)"
+    },
+    {
+     "id": "ls.3",
+     "title": "Advertising",
+     "refs": "7809"
+    },
+    {
+     "id": "ls.4",
+     "title": "Privacy",
+     "children": [
+      {
+       "id": "ls.4.1",
+       "title": "HIPAA"
+      },
+      {
+       "id": "ls.4.2",
+       "title": "Personal & Financial information privacy"
+      }
+     ],
+     "refs": "7810"
+    },
+    {
+     "id": "ls.5",
+     "title": "Prohibited Practices",
+     "refs": "7814"
+    },
+    {
+     "id": "ls.6",
+     "title": "Stranger-originated life insurance",
+     "children": [
+      {
+       "id": "ls.6.1",
+       "title": "Insurable interest provisions"
+      },
+      {
+       "id": "ls.6.2",
+       "title": "Trust owned policies"
+      }
+     ],
+     "refs": "7815"
+    }
+   ]
+  },
+  {
+   "id": "ahb",
+   "name": "Accident and Health Insurance Basics",
+   "weightPct": 5,
+   "domain": "health",
+   "children": [
+    {
+     "id": "ahb.1",
+     "title": "Definitions of perils",
+     "children": [
+      {
+       "id": "ahb.1.1",
+       "title": "Accidental injury"
+      },
+      {
+       "id": "ahb.1.2",
+       "title": "Sickness"
+      }
+     ]
+    },
+    {
+     "id": "ahb.2",
+     "title": "Principal types of losses and benefits",
+     "children": [
+      {
+       "id": "ahb.2.1",
+       "title": "Loss of income from disability"
+      },
+      {
+       "id": "ahb.2.2",
+       "title": "Hospital and medical expense"
+      },
+      {
+       "id": "ahb.2.3",
+       "title": "Long-term care expense"
+      }
+     ]
+    },
+    {
+     "id": "ahb.3",
+     "title": "Classes of accident and health insurance coverage",
+     "children": [
+      {
+       "id": "ahb.3.1",
+       "title": "Individual and group"
+      },
+      {
+       "id": "ahb.3.2",
+       "title": "Private versus government"
+      },
+      {
+       "id": "ahb.3.3",
+       "title": "Limited versus comprehensive"
+      }
+     ]
+    },
+    {
+     "id": "ahb.4",
+     "title": "Types of Limited Policies",
+     "children": [
+      {
+       "id": "ahb.4.1",
+       "title": "Limited benefits and amounts"
+      },
+      {
+       "id": "ahb.4.2",
+       "title": "Required notice to insured"
+      },
+      {
+       "id": "ahb.4.3",
+       "title": "Types of limited policies",
+       "children": [
+        {
+         "id": "ahb.4.3.1",
+         "title": "Accident-only"
+        },
+        {
+         "id": "ahb.4.3.2",
+         "title": "Specified (dread) disease"
+        },
+        {
+         "id": "ahb.4.3.3",
+         "title": "Hospital indemnity (income)"
+        },
+        {
+         "id": "ahb.4.3.4",
+         "title": "Dental insurance"
+        },
+        {
+         "id": "ahb.4.3.5",
+         "title": "Vision care"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ahb.5",
+     "title": "Common exclusions from coverage",
+     "children": [
+      {
+       "id": "ahb.5.1",
+       "title": "Workers' Compensation"
+      },
+      {
+       "id": "ahb.5.2",
+       "title": "Cosmetic"
+      },
+      {
+       "id": "ahb.5.3",
+       "title": "Experimental/investigation"
+      },
+      {
+       "id": "ahb.5.4",
+       "title": "Medical Necessity"
+      }
+     ]
+    },
+    {
+     "id": "ahb.6",
+     "title": "Licensee responsibilities in individual accident and health insurance",
+     "children": [
+      {
+       "id": "ahb.6.1",
+       "title": "Marketing requirements",
+       "children": [
+        {
+         "id": "ahb.6.1.1",
+         "title": "Advertising",
+         "refs": "Reg 34, Parts 215.1 to .18"
+        },
+        {
+         "id": "ahb.6.1.2",
+         "title": "Sales presentations"
+        },
+        {
+         "id": "ahb.6.1.3",
+         "title": "Outline of coverage"
+        },
+        {
+         "id": "ahb.6.1.4",
+         "title": "Application procedures"
+        },
+        {
+         "id": "ahb.6.1.5",
+         "title": "Requirements at delivery of policy"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ahb.7",
+     "title": "Considerations in replacing accident and health insurance",
+     "children": [
+      {
+       "id": "ahb.7.1",
+       "title": "Benefits, limitations, and exclusions"
+      },
+      {
+       "id": "ahb.7.2",
+       "title": "Licensee liability for errors and omissions"
+      }
+     ]
+    },
+    {
+     "id": "ahb.8",
+     "title": "Community rating of policies",
+     "children": [
+      {
+       "id": "ahb.8.1",
+       "title": "Definition of small group"
+      }
+     ],
+     "refs": "4317; Reg 145, Part 360"
+    }
+   ]
+  },
+  {
+   "id": "ihp",
+   "name": "Individual Health Insurance Policy General Provisions",
+   "weightPct": 4,
+   "domain": "health",
+   "children": [
+    {
+     "id": "ihp.1",
+     "title": "Required provisions",
+     "children": [
+      {
+       "id": "ihp.1.1",
+       "title": "Entire contract; changes",
+       "refs": "3216(d)(1)(A)"
+      },
+      {
+       "id": "ihp.1.2",
+       "title": "Time limit on certain defenses",
+       "refs": "3216(d)(1)(B)"
+      },
+      {
+       "id": "ihp.1.3",
+       "title": "Grace period",
+       "refs": "3216(d)(1)C"
+      },
+      {
+       "id": "ihp.1.4",
+       "title": "Reinstatement",
+       "refs": "3216(d)(1)(D)"
+      }
+     ]
+    },
+    {
+     "id": "ihp.2",
+     "title": "Other provisions",
+     "children": [
+      {
+       "id": "ihp.2.1",
+       "title": "Coordination of benefits"
+      },
+      {
+       "id": "ihp.2.2",
+       "title": "Other benefits",
+       "refs": "3216(d)(2)(E)"
+      },
+      {
+       "id": "ihp.2.3",
+       "title": "Unpaid premium",
+       "refs": "3216(d)(2)(G)"
+      },
+      {
+       "id": "ihp.2.4",
+       "title": "Cancellation",
+       "refs": "3216(d)(2)(H)"
+      },
+      {
+       "id": "ihp.2.5",
+       "title": "Conformity with state statutes",
+       "refs": "3216(d)(2)(I)"
+      },
+      {
+       "id": "ihp.2.6",
+       "title": "Illegal occupation",
+       "refs": "3216(d)(2)(J)"
+      },
+      {
+       "id": "ihp.2.7",
+       "title": "Intoxicants and narcotics",
+       "refs": "3216(d)(2)(K)"
+      }
+     ]
+    },
+    {
+     "id": "ihp.3",
+     "title": "Other general provisions",
+     "children": [
+      {
+       "id": "ihp.3.1",
+       "title": "Right to examine (free look)"
+      },
+      {
+       "id": "ihp.3.2",
+       "title": "Insuring clause"
+      },
+      {
+       "id": "ihp.3.3",
+       "title": "Consideration clause"
+      },
+      {
+       "id": "ihp.3.4",
+       "title": "Renewability clause",
+       "children": [
+        {
+         "id": "ihp.3.4.1",
+         "title": "Noncancelable"
+        },
+        {
+         "id": "ihp.3.4.2",
+         "title": "Guaranteed renewable"
+        }
+       ],
+       "refs": "3216(g)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "di",
+   "name": "Disability Income and Related Insurance",
+   "weightPct": 6,
+   "domain": "health",
+   "children": [
+    {
+     "id": "di.1",
+     "title": "Qualifying for disability benefits",
+     "children": [
+      {
+       "id": "di.1.1",
+       "title": "Inability to perform duties",
+       "children": [
+        {
+         "id": "di.1.1.1",
+         "title": "Own occupation"
+        },
+        {
+         "id": "di.1.1.2",
+         "title": "Any occupation"
+        },
+        {
+         "id": "di.1.1.3",
+         "title": "Presumptive disability"
+        },
+        {
+         "id": "di.1.1.4",
+         "title": "Proof of Loss"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "di.2",
+     "title": "Individual disability income insurance",
+     "children": [
+      {
+       "id": "di.2.1",
+       "title": "Basic total disability plan",
+       "children": [
+        {
+         "id": "di.2.1.1",
+         "title": "Income benefits"
+        },
+        {
+         "id": "di.2.1.2",
+         "title": "Elimination and benefit periods"
+        },
+        {
+         "id": "di.2.1.3",
+         "title": "Waiver of premium feature"
+        }
+       ]
+      },
+      {
+       "id": "di.2.2",
+       "title": "Coordination of benefits"
+      },
+      {
+       "id": "di.2.3",
+       "title": "Individual premium consideration",
+       "children": [
+        {
+         "id": "di.2.3.1",
+         "title": "Additional Monthly Benefit (AMB)"
+        },
+        {
+         "id": "di.2.3.2",
+         "title": "Social Insurance Supplement (SIS)"
+        },
+        {
+         "id": "di.2.3.3",
+         "title": "Occupational versus nonoccupational coverage"
+        },
+        {
+         "id": "di.2.3.4",
+         "title": "Noncancelable",
+         "refs": "3216(d)(2)(H)"
+        },
+        {
+         "id": "di.2.3.5",
+         "title": "Guaranteed renewability"
+        }
+       ]
+      },
+      {
+       "id": "di.2.4",
+       "title": "Other provisions affecting income benefits",
+       "children": [
+        {
+         "id": "di.2.4.1",
+         "title": "Cost of Living Adjustment (COLA) rider"
+        },
+        {
+         "id": "di.2.4.2",
+         "title": "Future Increase Option (FIO) rider"
+        },
+        {
+         "id": "di.2.4.3",
+         "title": "Relation of earnings to insurance",
+         "refs": "3216(d)(2)(F)"
+        }
+       ]
+      },
+      {
+       "id": "di.2.5",
+       "title": "Benefits",
+       "children": [
+        {
+         "id": "di.2.5.1",
+         "title": "Accidental death and dismemberment"
+        },
+        {
+         "id": "di.2.5.2",
+         "title": "Rehabilitation benefit"
+        },
+        {
+         "id": "di.2.5.3",
+         "title": "Medical reimbursement benefit (nondisabling injury)"
+        },
+        {
+         "id": "di.2.5.4",
+         "title": "Partial disability benefit"
+        },
+        {
+         "id": "di.2.5.5",
+         "title": "Residual disability benefit"
+        },
+        {
+         "id": "di.2.5.6",
+         "title": "Total disability benefit"
+        },
+        {
+         "id": "di.2.5.7",
+         "title": "24-hour coverage versus limited/at-work coverage"
+        }
+       ]
+      },
+      {
+       "id": "di.2.6",
+       "title": "Exclusions"
+      }
+     ]
+    },
+    {
+     "id": "di.3",
+     "title": "Group disability income insurance",
+     "children": [
+      {
+       "id": "di.3.1",
+       "title": "Group versus individual plans"
+      },
+      {
+       "id": "di.3.2",
+       "title": "Short-Term Disability (STD)"
+      },
+      {
+       "id": "di.3.3",
+       "title": "Long-Term Disability (LTD)"
+      }
+     ]
+    },
+    {
+     "id": "di.4",
+     "title": "Business disability insurance",
+     "children": [
+      {
+       "id": "di.4.1",
+       "title": "Key person disability income"
+      },
+      {
+       "id": "di.4.2",
+       "title": "Disability buy-sell policy"
+      },
+      {
+       "id": "di.4.3",
+       "title": "Business overhead expense policy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "med",
+   "name": "Medical Plans",
+   "weightPct": 6,
+   "domain": "health",
+   "children": [
+    {
+     "id": "med.1",
+     "title": "Medical plan concepts",
+     "children": [
+      {
+       "id": "med.1.1",
+       "title": "Fee-for-service basis versus prepaid basis"
+      },
+      {
+       "id": "med.1.2",
+       "title": "Specified coverages versus comprehensive care"
+      },
+      {
+       "id": "med.1.3",
+       "title": "Benefit schedule versus usual/reasonable/customary charges"
+      },
+      {
+       "id": "med.1.4",
+       "title": "Any provider versus limited choice of providers"
+      },
+      {
+       "id": "med.1.5",
+       "title": "Insureds versus subscribers/participants"
+      }
+     ]
+    },
+    {
+     "id": "med.2",
+     "title": "Types of plans",
+     "children": [
+      {
+       "id": "med.2.1",
+       "title": "Major medical insurance (indemnity plans)",
+       "children": [
+        {
+         "id": "med.2.1.1",
+         "title": "Characteristics"
+        },
+        {
+         "id": "med.2.1.2",
+         "title": "Common limitations"
+        },
+        {
+         "id": "med.2.1.3",
+         "title": "Exclusions from coverage"
+        },
+        {
+         "id": "med.2.1.4",
+         "title": "Provisions affecting cost to insured"
+        }
+       ]
+      },
+      {
+       "id": "med.2.2",
+       "title": "Health Maintenance Organizations (HMOs)",
+       "children": [
+        {
+         "id": "med.2.2.1",
+         "title": "General characteristics"
+        },
+        {
+         "id": "med.2.2.2",
+         "title": "Preventive care services",
+         "refs": "4303(j)"
+        },
+        {
+         "id": "med.2.2.3",
+         "title": "Primary Care Physician (PCP)"
+        },
+        {
+         "id": "med.2.2.4",
+         "title": "Referral (specialty) physician"
+        },
+        {
+         "id": "med.2.2.5",
+         "title": "Emergency care"
+        },
+        {
+         "id": "med.2.2.6",
+         "title": "Hospital services"
+        },
+        {
+         "id": "med.2.2.7",
+         "title": "Other basic services"
+        }
+       ]
+      },
+      {
+       "id": "med.2.3",
+       "title": "Preferred Provider Organizations (PPOs), Point-of-Service (POS) plans and Exclusive Provider Organizations (EPOs)",
+       "children": [
+        {
+         "id": "med.2.3.1",
+         "title": "General characteristics"
+        },
+        {
+         "id": "med.2.3.2",
+         "title": "In-network and out-of-network provider access"
+        },
+        {
+         "id": "med.2.3.3",
+         "title": "Primary Care Physician (PCP) referral"
+        }
+       ]
+      },
+      {
+       "id": "med.2.4",
+       "title": "Indemnity plan features"
+      },
+      {
+       "id": "med.2.5",
+       "title": "Catastrophic"
+      }
+     ]
+    },
+    {
+     "id": "med.3",
+     "title": "Cost containment in health care delivery",
+     "children": [
+      {
+       "id": "med.3.1",
+       "title": "Utilization review",
+       "children": [
+        {
+         "id": "med.3.1.1",
+         "title": "Prospective review"
+        },
+        {
+         "id": "med.3.1.2",
+         "title": "Concurrent review"
+        },
+        {
+         "id": "med.3.1.3",
+         "title": "Retrospective review"
+        }
+       ],
+       "refs": "Art. 49"
+      }
+     ]
+    },
+    {
+     "id": "med.4",
+     "title": "New York mandated benefits and offers (individual and/or group)",
+     "children": [
+      {
+       "id": "med.4.1",
+       "title": "Dependent child age limit",
+       "refs": "3216(a)(4);4235(f)(1)(2)"
+      },
+      {
+       "id": "med.4.2",
+       "title": "Policy extension for handicapped children",
+       "refs": "3216(c)(4)(A)"
+      },
+      {
+       "id": "med.4.3",
+       "title": "Newborn child coverage (3216(c)(4)(c)"
+      }
+     ]
+    },
+    {
+     "id": "med.5",
+     "title": "New York required benefits (individual and/or group)"
+    },
+    {
+     "id": "med.6",
+     "title": "New York mandated offers (individual and/or group)"
+    },
+    {
+     "id": "med.7",
+     "title": "HIPAA (Health Insurance Portability and Accountability Act) requirements",
+     "children": [
+      {
+       "id": "med.7.1",
+       "title": "Eligibility"
+      },
+      {
+       "id": "med.7.2",
+       "title": "Guaranteed issue"
+      },
+      {
+       "id": "med.7.3",
+       "title": "Renewability"
+      },
+      {
+       "id": "med.7.4",
+       "title": "Privacy protections"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aca",
+   "name": "Federal Patient Protection and Affordable Care Act",
+   "weightPct": 6,
+   "domain": "health",
+   "children": [
+    {
+     "id": "aca.1",
+     "title": "Affordable Care Act",
+     "children": [
+      {
+       "id": "aca.1.1",
+       "title": "Preexisting conditions"
+      },
+      {
+       "id": "aca.1.2",
+       "title": "Insurance exchanges",
+       "children": [
+        {
+         "id": "aca.1.2.1",
+         "title": "Eligibility (individual and small employer)"
+        },
+        {
+         "id": "aca.1.2.2",
+         "title": "APTC (advance premium tax credit)"
+        },
+        {
+         "id": "aca.1.2.3",
+         "title": "Cost-sharing reduction",
+         "officialText": "Cost share reeducation (sic, as printed in the bulletin)"
+        },
+        {
+         "id": "aca.1.2.4",
+         "title": "Benchmark plan"
+        },
+        {
+         "id": "aca.1.2.5",
+         "title": "State vs. Federal"
+        },
+        {
+         "id": "aca.1.2.6",
+         "title": "Metal levels"
+        }
+       ]
+      },
+      {
+       "id": "aca.1.3",
+       "title": "Catastrophic"
+      },
+      {
+       "id": "aca.1.4",
+       "title": "Medical loss ratio"
+      },
+      {
+       "id": "aca.1.5",
+       "title": "Actuarial value"
+      },
+      {
+       "id": "aca.1.6",
+       "title": "Enrollment period"
+      },
+      {
+       "id": "aca.1.7",
+       "title": "Individual mandate"
+      },
+      {
+       "id": "aca.1.8",
+       "title": "Employer shared responsibility"
+      },
+      {
+       "id": "aca.1.9",
+       "title": "Annual lifetime dollar limits"
+      },
+      {
+       "id": "aca.1.10",
+       "title": "10 Essential benefits"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ltc",
+   "name": "Long-Term Care (LTC) Insurance",
+   "weightPct": 6,
+   "domain": "health",
+   "children": [
+    {
+     "id": "ltc.1",
+     "title": "Benefits",
+     "children": [
+      {
+       "id": "ltc.1.1",
+       "title": "LTC, Medicare and Medicaid compared"
+      },
+      {
+       "id": "ltc.1.2",
+       "title": "Eligibility for benefits"
+      },
+      {
+       "id": "ltc.1.3",
+       "title": "Levels of care",
+       "children": [
+        {
+         "id": "ltc.1.3.1",
+         "title": "Skilled care"
+        },
+        {
+         "id": "ltc.1.3.2",
+         "title": "Intermediate care"
+        },
+        {
+         "id": "ltc.1.3.3",
+         "title": "Custodial care"
+        }
+       ]
+      },
+      {
+       "id": "ltc.1.4",
+       "title": "Types of care",
+       "children": [
+        {
+         "id": "ltc.1.4.1",
+         "title": "Home health care"
+        },
+        {
+         "id": "ltc.1.4.2",
+         "title": "Adult day care"
+        },
+        {
+         "id": "ltc.1.4.3",
+         "title": "Respite care"
+        },
+        {
+         "id": "ltc.1.4.4",
+         "title": "Nursing home facility care"
+        },
+        {
+         "id": "ltc.1.4.5",
+         "title": "Assisted living"
+        }
+       ]
+      },
+      {
+       "id": "ltc.1.5",
+       "title": "Benefit periods"
+      },
+      {
+       "id": "ltc.1.6",
+       "title": "Benefit amounts"
+      },
+      {
+       "id": "ltc.1.7",
+       "title": "Activities of Daily Living (ADLs)"
+      },
+      {
+       "id": "ltc.1.8",
+       "title": "Optional benefits",
+       "children": [
+        {
+         "id": "ltc.1.8.1",
+         "title": "Reimbursement versus indemnity/cash"
+        },
+        {
+         "id": "ltc.1.8.2",
+         "title": "Inflation protection (COLA)",
+         "refs": "Reg 62, Part 52.25(c)(3)"
+        },
+        {
+         "id": "ltc.1.8.3",
+         "title": "Nonforfeiture benefits",
+         "refs": "Reg 62, Part 52.25(c)(7)"
+        },
+        {
+         "id": "ltc.1.8.4",
+         "title": "Guarantee of insurability"
+        },
+        {
+         "id": "ltc.1.8.5",
+         "title": "Return of premium"
+        },
+        {
+         "id": "ltc.1.8.6",
+         "title": "Shared care"
+        }
+       ]
+      },
+      {
+       "id": "ltc.1.9",
+       "title": "Individual, group, and association plans"
+      },
+      {
+       "id": "ltc.1.10",
+       "title": "Hybrid plans"
+      },
+      {
+       "id": "ltc.1.11",
+       "title": "Exclusions",
+       "refs": "Reg 62, Part 52.25(b)(2)"
+      },
+      {
+       "id": "ltc.1.12",
+       "title": "Underwriting considerations"
+      },
+      {
+       "id": "ltc.1.13",
+       "title": "Suitability"
+      }
+     ]
+    },
+    {
+     "id": "ltc.2",
+     "title": "New York regulations and required provisions",
+     "children": [
+      {
+       "id": "ltc.2.1",
+       "title": "Renewability",
+       "refs": "Reg 62, Part 52.25(b)(1)"
+      },
+      {
+       "id": "ltc.2.2",
+       "title": "Required disclosure provisions",
+       "refs": "Reg 62, Part 52.65"
+      },
+      {
+       "id": "ltc.2.3",
+       "title": "Prohibited practices"
+      },
+      {
+       "id": "ltc.2.4",
+       "title": "Replacement",
+       "refs": "Reg 62, Part 52.29"
+      },
+      {
+       "id": "ltc.2.5",
+       "title": "New York State Partnership for Long Term Care",
+       "refs": "Reg 144, Part 39"
+      },
+      {
+       "id": "ltc.2.6",
+       "title": "Dollar for dollar or time element"
+      },
+      {
+       "id": "ltc.2.7",
+       "title": "Medicaid Estate Recovery Act (OBRA '93)"
+      },
+      {
+       "id": "ltc.2.8",
+       "title": "New York Tax credit"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grp",
+   "name": "Group Health and Blanket Insurance",
+   "weightPct": 5,
+   "domain": "health",
+   "children": [
+    {
+     "id": "grp.1",
+     "title": "Characteristics of group insurance",
+     "children": [
+      {
+       "id": "grp.1.1",
+       "title": "Group contract"
+      },
+      {
+       "id": "grp.1.2",
+       "title": "Certificate of coverage"
+      },
+      {
+       "id": "grp.1.3",
+       "title": "Experience rating versus community rating"
+      },
+      {
+       "id": "grp.1.4",
+       "title": "Definition of eligible group",
+       "refs": "4235(b)(c)"
+      }
+     ]
+    },
+    {
+     "id": "grp.2",
+     "title": "Types of eligible groups",
+     "children": [
+      {
+       "id": "grp.2.1",
+       "title": "Employment-related groups",
+       "children": [
+        {
+         "id": "grp.2.1.1",
+         "title": "Individual employer groups"
+        },
+        {
+         "id": "grp.2.1.2",
+         "title": "Professional employer organizations"
+        },
+        {
+         "id": "grp.2.1.3",
+         "title": "Associations (alumni, professional, and other)"
+        },
+        {
+         "id": "grp.2.1.4",
+         "title": "Customer groups (depositors, creditor-debtor, and others)"
+        },
+        {
+         "id": "grp.2.1.5",
+         "title": "Blanket customer groups (teams, passengers, and others)"
+        }
+       ]
+      }
+     ],
+     "refs": "4235"
+    },
+    {
+     "id": "grp.3",
+     "title": "Regulation of employer group insurance plans",
+     "children": [
+      {
+       "id": "grp.3.1",
+       "title": "Employee Retirement Income Security Act (ERISA)",
+       "children": [
+        {
+         "id": "grp.3.1.1",
+         "title": "Applicability"
+        },
+        {
+         "id": "grp.3.1.2",
+         "title": "Fiduciary responsibilities"
+        },
+        {
+         "id": "grp.3.1.3",
+         "title": "Reporting and disclosure"
+        }
+       ]
+      },
+      {
+       "id": "grp.3.2",
+       "title": "Family Medical Leave Act (FMLA)"
+      },
+      {
+       "id": "grp.3.3",
+       "title": "Relationship with Medicare",
+       "children": [
+        {
+         "id": "grp.3.3.1",
+         "title": "Medicare secondary rules"
+        },
+        {
+         "id": "grp.3.3.2",
+         "title": "Medicare carve-outs and supplements"
+        }
+       ]
+      },
+      {
+       "id": "grp.3.4",
+       "title": "Nondiscrimination rules (highly-compensated)"
+      }
+     ]
+    },
+    {
+     "id": "grp.4",
+     "title": "Types of funding and administration",
+     "children": [
+      {
+       "id": "grp.4.1",
+       "title": "Conventional fully-insured plans"
+      },
+      {
+       "id": "grp.4.2",
+       "title": "Partially self-insured plans",
+       "children": [
+        {
+         "id": "grp.4.2.1",
+         "title": "Stop-loss coverage"
+        },
+        {
+         "id": "grp.4.2.2",
+         "title": "Administrative Services Only (ASO) arrangements"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "grp.5",
+     "title": "Marketing considerations",
+     "children": [
+      {
+       "id": "grp.5.1",
+       "title": "Advertising"
+      },
+      {
+       "id": "grp.5.2",
+       "title": "Regulatory jurisdiction/place of delivery"
+      }
+     ]
+    },
+    {
+     "id": "grp.6",
+     "title": "Employer group health insurance",
+     "children": [
+      {
+       "id": "grp.6.1",
+       "title": "Insurer underwriting criteria",
+       "children": [
+        {
+         "id": "grp.6.1.1",
+         "title": "Characteristics of group"
+        },
+        {
+         "id": "grp.6.1.2",
+         "title": "Plan design factors"
+        },
+        {
+         "id": "grp.6.1.3",
+         "title": "Persistency factors"
+        },
+        {
+         "id": "grp.6.1.4",
+         "title": "Administrative capability"
+        }
+       ]
+      },
+      {
+       "id": "grp.6.2",
+       "title": "Eligibility for coverage",
+       "children": [
+        {
+         "id": "grp.6.2.1",
+         "title": "Annual open enrollment"
+        },
+        {
+         "id": "grp.6.2.2",
+         "title": "Employee eligibility"
+        },
+        {
+         "id": "grp.6.2.3",
+         "title": "Probationary period"
+        },
+        {
+         "id": "grp.6.2.4",
+         "title": "Dependent eligibility"
+        }
+       ]
+      },
+      {
+       "id": "grp.6.3",
+       "title": "Coordination of benefits provision",
+       "refs": "Reg 62, Part 52.23"
+      },
+      {
+       "id": "grp.6.4",
+       "title": "Change of insurance companies or loss of coverage",
+       "children": [
+        {
+         "id": "grp.6.4.1",
+         "title": "Events that terminate coverage"
+        },
+        {
+         "id": "grp.6.4.2",
+         "title": "Extension of benefits"
+        },
+        {
+         "id": "grp.6.4.3",
+         "title": "Continuation of coverage under COBRA and New York continuations"
+        },
+        {
+         "id": "grp.6.4.4",
+         "title": "Conversion privilege",
+         "refs": "3221(e)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "grp.7",
+     "title": "Small employer medical plans",
+     "children": [
+      {
+       "id": "grp.7.1",
+       "title": "Definition of small employer",
+       "refs": "Reg 145, Part 360.2(f)"
+      },
+      {
+       "id": "grp.7.2",
+       "title": "Benefit plans offered"
+      },
+      {
+       "id": "grp.7.3",
+       "title": "Availability of coverage",
+       "refs": "Reg 145, Part 360.2(e), .3"
+      },
+      {
+       "id": "grp.7.4",
+       "title": "Renewability",
+       "refs": "Reg 145, Part 360.2(e)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gov",
+   "name": "Government Insurance Plans",
+   "weightPct": 5,
+   "domain": "health",
+   "children": [
+    {
+     "id": "gov.1",
+     "title": "Workers' Compensation",
+     "children": [
+      {
+       "id": "gov.1.1",
+       "title": "Eligibility"
+      },
+      {
+       "id": "gov.1.2",
+       "title": "Benefits"
+      }
+     ]
+    },
+    {
+     "id": "gov.2",
+     "title": "Social Security Disability",
+     "children": [
+      {
+       "id": "gov.2.1",
+       "title": "Qualifications for disability benefits"
+      },
+      {
+       "id": "gov.2.2",
+       "title": "Definition of disability"
+      },
+      {
+       "id": "gov.2.3",
+       "title": "Waiting period"
+      },
+      {
+       "id": "gov.2.4",
+       "title": "Disability income benefits"
+      }
+     ]
+    },
+    {
+     "id": "gov.3",
+     "title": "New York State Disability Benefits Law",
+     "children": [
+      {
+       "id": "gov.3.1",
+       "title": "Purpose"
+      },
+      {
+       "id": "gov.3.2",
+       "title": "Definitions"
+      },
+      {
+       "id": "gov.3.3",
+       "title": "Employment covered"
+      },
+      {
+       "id": "gov.3.4",
+       "title": "Benefits"
+      }
+     ]
+    },
+    {
+     "id": "gov.4",
+     "title": "Medicaid",
+     "children": [
+      {
+       "id": "gov.4.1",
+       "title": "Eligibility and benefits"
+      },
+      {
+       "id": "gov.4.2",
+       "title": "Child Health Plus",
+       "children": [
+        {
+         "id": "gov.4.2.1",
+         "title": "Eligibility and benefits"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "gov.5",
+     "title": "Medicare",
+     "children": [
+      {
+       "id": "gov.5.1",
+       "title": "Nature, financing, and administration"
+      },
+      {
+       "id": "gov.5.2",
+       "title": "Part A - Hospital Insurance",
+       "children": [
+        {
+         "id": "gov.5.2.1",
+         "title": "Individual eligibility requirements"
+        },
+        {
+         "id": "gov.5.2.2",
+         "title": "Enrollment"
+        },
+        {
+         "id": "gov.5.2.3",
+         "title": "Coverages and cost-sharing amounts"
+        }
+       ]
+      },
+      {
+       "id": "gov.5.3",
+       "title": "Part B - Medical Insurance",
+       "children": [
+        {
+         "id": "gov.5.3.1",
+         "title": "Individual eligibility requirements"
+        },
+        {
+         "id": "gov.5.3.2",
+         "title": "Enrollment"
+        },
+        {
+         "id": "gov.5.3.3",
+         "title": "Coverages and cost-sharing amounts"
+        },
+        {
+         "id": "gov.5.3.4",
+         "title": "Exclusions"
+        }
+       ]
+      },
+      {
+       "id": "gov.5.4",
+       "title": "Part C - Medicare Advantage"
+      },
+      {
+       "id": "gov.5.5",
+       "title": "Part D - Prescription Drug Insurance"
+      }
+     ]
+    },
+    {
+     "id": "gov.6",
+     "title": "Flexible Spending Accounts (FSAs) and Health Savings Accounts (HSAs)",
+     "children": [
+      {
+       "id": "gov.6.1",
+       "title": "Definition"
+      },
+      {
+       "id": "gov.6.2",
+       "title": "Eligibility"
+      },
+      {
+       "id": "gov.6.3",
+       "title": "Contribution"
+      }
+     ]
+    },
+    {
+     "id": "gov.7",
+     "title": "Healthy New York",
+     "refs": "4326"
+    }
+   ]
+  },
+  {
+   "id": "sen",
+   "name": "Private Insurance for Senior Citizens and Special Needs Individuals",
+   "weightPct": 6,
+   "domain": "health",
+   "children": [
+    {
+     "id": "sen.1",
+     "title": "Medicare supplements",
+     "children": [
+      {
+       "id": "sen.1.1",
+       "title": "Purpose"
+      },
+      {
+       "id": "sen.1.2",
+       "title": "Open enrollment (Reg 193, Part 58))"
+      },
+      {
+       "id": "sen.1.3",
+       "title": "Standardized Medicare supplement plans",
+       "children": [
+        {
+         "id": "sen.1.3.1",
+         "title": "Core benefits"
+        },
+        {
+         "id": "sen.1.3.2",
+         "title": "Additional benefits"
+        }
+       ]
+      },
+      {
+       "id": "sen.1.4",
+       "title": "New York regulations and required provisions",
+       "children": [
+        {
+         "id": "sen.1.4.1",
+         "title": "Standards for marketing",
+         "refs": "Reg 193, Part 58"
+        },
+        {
+         "id": "sen.1.4.2",
+         "title": "Permitted compensation arrangements",
+         "refs": "Reg 193, Part 58"
+        },
+        {
+         "id": "sen.1.4.3",
+         "title": "Appropriateness of recommended purchase or replacement",
+         "refs": "Reg 193, Part 58"
+        },
+        {
+         "id": "sen.1.4.4",
+         "title": "Replacement",
+         "refs": "Reg 193, Part 58"
+        },
+        {
+         "id": "sen.1.4.5",
+         "title": "Disclosure statement",
+         "refs": "Reg 193, Part 58"
+        },
+        {
+         "id": "sen.1.4.6",
+         "title": "Renewability",
+         "refs": "Reg 193, Part 58"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sen.2",
+     "title": "Other Medicare options for individuals",
+     "children": [
+      {
+       "id": "sen.2.1",
+       "title": "Disabled individuals"
+      },
+      {
+       "id": "sen.2.2",
+       "title": "Individuals with kidney failure"
+      },
+      {
+       "id": "sen.2.3",
+       "title": "Employer group health plans",
+       "children": [
+        {
+         "id": "sen.2.3.1",
+         "title": "Employees age 65 or older"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

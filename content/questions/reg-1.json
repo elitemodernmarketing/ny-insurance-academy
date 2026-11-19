@@ -1,0 +1,953 @@
+{
+ "sectionId": "reg",
+ "questions": [
+  {
+   "id": "reg-q001",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.1.2.1"
+   ],
+   "concepts": [
+    "producer"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "What does New York call anyone required to be licensed to sell, solicit or negotiate insurance?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Insurance consultant",
+     "rationale": "Incorrect: a consultant gives advice for a fee and may not sell, solicit or negotiate."
+    },
+    {
+     "id": "b",
+     "text": "Independent adjuster",
+     "rationale": "Incorrect: an independent adjuster investigates and adjusts claims for an insurer."
+    },
+    {
+     "id": "c",
+     "text": "Insurance producer",
+     "rationale": "Correct: § 2101(k) defines insurance producer as an agent, broker or any other person required to be licensed to sell, solicit or negotiate insurance."
+    },
+    {
+     "id": "d",
+     "text": "Fiduciary",
+     "rationale": "Incorrect: fiduciary describes the trust duty over funds a producer handles, not the license category."
+    }
+   ],
+   "correct": "c",
+   "explanation": "NY Insurance Law § 2101(k) uses \"insurance producer\" as the umbrella term: agents, title agents, brokers, reinsurance intermediaries, excess lines brokers and anyone else who must be licensed to sell, solicit or negotiate insurance.",
+   "memoryTip": "Producer = anyone who Sells, Solicits or Negotiates (the 3 S/N verbs).",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2101"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q002",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.1.2.6",
+    "reg.1.2.2"
+   ],
+   "concepts": [
+    "solicit",
+    "producer"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Glen works as an office manager and holds no insurance license. During lunch, he hands co-workers application forms for Empire Mutual's term life policy and urges each of them to apply, saying he will mail the applications in for them. No policies have been issued yet.",
+   "stem": "Which licensed activity has Glen engaged in?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Soliciting insurance",
+     "rationale": "Correct: urging people to apply for a particular kind of insurance from a particular insurer is solicitation under § 2101(o)."
+    },
+    {
+     "id": "b",
+     "text": "Negotiating insurance",
+     "rationale": "Incorrect: negotiation means conferring about the substantive terms of a particular contract with a buyer; Glen only urged people to apply."
+    },
+    {
+     "id": "c",
+     "text": "Adjusting a claim",
+     "rationale": "Incorrect: adjusting involves investigating or settling claims, which Glen did not do."
+    },
+    {
+     "id": "d",
+     "text": "No licensed activity, because no policy was issued",
+     "rationale": "Incorrect: solicitation does not require a completed sale; the attempt itself is regulated."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Under § 2101(o), soliciting means attempting to sell insurance or asking or urging a person to apply for a particular kind of insurance from a particular insurer. Because Glen solicited, § 2102(a) requires him to hold a license, even though no sale was completed.",
+   "memoryTip": "Soliciting = the ASK. No sale needed.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Identifies the act as solicitation",
+      "anyOf": [
+       "solicit"
+      ]
+     },
+     {
+      "label": "Urging application to a particular insurer",
+      "anyOf": [
+       "urg",
+       "ask",
+       "particular insurer",
+       "apply"
+      ]
+     },
+     {
+      "label": "License is required even without a sale",
+      "anyOf": [
+       "license",
+       "no sale",
+       "not required to sell",
+       "attempt"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2101",
+    "ny-isc-2102"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q003",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.2.4",
+    "reg.1.1"
+   ],
+   "concepts": [
+    "appointment",
+    "insurance-agent"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Who must file a New York agent's notice of appointment, and by when?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The agent, within 30 days after passing the New York licensing examination",
+     "rationale": "Incorrect: the agent does not appoint himself or herself, and the deadline is not tied to the exam date."
+    },
+    {
+     "id": "b",
+     "text": "The Department of Financial Services, automatically when it issues the agent's license",
+     "rationale": "Incorrect: the Department receives the filing; the insurer makes it."
+    },
+    {
+     "id": "c",
+     "text": "The first client, when the agent's first policy is delivered to that client",
+     "rationale": "Incorrect: policyowners have no role in appointing agents."
+    },
+    {
+     "id": "d",
+     "text": "The appointing insurer, within 15 days of the agency contract or first application",
+     "rationale": "Correct: § 2112(b) requires the appointing insurer to file within fifteen days from the date the agency contract is executed or the first insurance application is submitted."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Under § 2112(a)-(b), the insurer files a certificate/notice of appointment to authorize an agent to represent it. The filing is due within 15 days from the date the agency contract is executed or the first insurance application is submitted. The DFS/PSI bulletin states the same 15-day rule.",
+   "memoryTip": "Insurer files, 15 days: contract signed OR first app in.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Insurer files",
+      "anyOf": [
+       "insurer",
+       "company"
+      ]
+     },
+     {
+      "label": "15 days",
+      "anyOf": [
+       "15",
+       "fifteen"
+      ]
+     },
+     {
+      "label": "Trigger: agency contract or first application",
+      "anyOf": [
+       "contract",
+       "first application",
+       "application"
+      ]
+     }
+    ]
+   },
+   "version": 2,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2112",
+    "psi-ny-bulletin-2023"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q004",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.1.5.2"
+   ],
+   "concepts": [
+    "license-revocation"
+   ],
+   "difficulty": 2,
+   "style": "negative",
+   "tags": [
+    "negative-wording",
+    "ny-law"
+   ],
+   "stem": "Under NY Insurance Law § 2110, each of the following is a ground for suspending or revoking a producer's license EXCEPT:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Being convicted of a felony",
+     "rationale": "Incorrect: a felony conviction is listed in § 2110(a)(7)."
+    },
+    {
+     "id": "b",
+     "text": "Being appointed by more than one insurer",
+     "rationale": "Correct: agents may hold appointments with several insurers; this is not a ground for discipline."
+    },
+    {
+     "id": "c",
+     "text": "Failing to comply with a court order imposing a child support obligation",
+     "rationale": "Incorrect: this is listed in § 2110(a)(13)."
+    },
+    {
+     "id": "d",
+     "text": "Using notes to complete the licensing examination",
+     "rationale": "Incorrect: improperly using notes or reference material on the exam is listed in § 2110(a)(11)."
+    }
+   ],
+   "correct": "b",
+   "explanation": "§ 2110(a) lists grounds such as violating insurance laws, untrue license applications, fraud, incompetence, untrustworthiness, misappropriating funds, intentional misrepresentation of policy terms, felony convictions, forgery, using notes on the exam, knowingly accepting business from unlicensed persons, and failing to comply with child support or state tax orders. Holding multiple appointments is normal and lawful.",
+   "memoryTip": "Multiple appointments = normal business, not misconduct.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2110"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q005",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.1.5.1"
+   ],
+   "concepts": [
+    "license-revocation"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "Before revoking a resident producer's license, the superintendent must hold a hearing not less than how long after giving notice?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "24 hours",
+     "rationale": "Incorrect: the statute requires a longer notice period."
+    },
+    {
+     "id": "b",
+     "text": "90 days",
+     "rationale": "Incorrect: no 90-day notice period is required."
+    },
+    {
+     "id": "c",
+     "text": "30 days",
+     "rationale": "Incorrect: 30 days is the period for reporting administrative actions, not for the hearing notice."
+    },
+    {
+     "id": "d",
+     "text": "10 days",
+     "rationale": "Correct: § 2110(b) requires a hearing not less than ten days after notice."
+    }
+   ],
+   "correct": "d",
+   "explanation": "§ 2110(b): before revoking or suspending a producer's license (other than the summary nonresident procedure in subsection (f)), the superintendent must give notice to the licensee and every sub-licensee and hold a hearing not less than ten days after the notice.",
+   "memoryTip": "Ten days' notice before the hearing.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2110"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q006",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.1.5.2"
+   ],
+   "concepts": [
+    "license-revocation"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Paula's agent license was revoked on March 1 after a hearing found she had misappropriated client premiums. She did not seek court review.",
+   "stem": "When is Paula first entitled to obtain any license under the New York Insurance Law?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "One year after the revocation",
+     "rationale": "Correct: § 2110(e)(1) bars a revoked licensee from obtaining any license for one year after revocation when no court review is sought."
+    },
+    {
+     "id": "b",
+     "text": "Immediately, if she retakes the exam",
+     "rationale": "Incorrect: passing an exam does not shorten the statutory waiting period."
+    },
+    {
+     "id": "c",
+     "text": "Two years after the revocation",
+     "rationale": "Incorrect: the statutory bar is one year."
+    },
+    {
+     "id": "d",
+     "text": "Never; revocation is permanent",
+     "rationale": "Incorrect: New York imposes a one-year bar, not a permanent one."
+    }
+   ],
+   "correct": "a",
+   "explanation": "§ 2110(e)(1): an individual whose producer license has been revoked is not entitled to obtain any license under the chapter for one year after the revocation (or one year after a court affirms the revocation, if it is judicially reviewed).",
+   "memoryTip": "Revoked = 1-year time-out from ANY NY insurance license.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2110"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q007",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.1.4.5"
+   ],
+   "concepts": [
+    "license-revocation"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law",
+    "tricky"
+   ],
+   "scenario": "Andre is a New York resident agent who also holds a New Jersey nonresident license. New Jersey's insurance regulator fines him under a consent order, and the matter is finally resolved on June 10.",
+   "stem": "What must Andre do under New York law?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Nothing, because the action was taken by another state",
+     "rationale": "Incorrect: § 2110(i) specifically covers actions taken in another jurisdiction."
+    },
+    {
+     "id": "b",
+     "text": "Report it to the superintendent within 30 days of final disposition",
+     "rationale": "Correct: § 2110(i) requires a report within thirty days of final disposition, including a copy of the order or consent order."
+    },
+    {
+     "id": "c",
+     "text": "Report it only when he next renews his New York license",
+     "rationale": "Incorrect: the report is due within 30 days of final disposition, not at renewal."
+    },
+    {
+     "id": "d",
+     "text": "Surrender his New York license within 15 days",
+     "rationale": "Incorrect: no automatic surrender is required; the duty is to report."
+    }
+   ],
+   "correct": "b",
+   "explanation": "§ 2110(i): a licensee must report to the superintendent any administrative action taken against the licensee in another jurisdiction or by another governmental agency in New York within 30 days of the final disposition, including a copy of the order, consent to order or other relevant legal documents. Criminal prosecutions must be reported within 30 days of the initial pretrial hearing date (§ 2110(j)).",
+   "memoryTip": "Discipline elsewhere? Tell New York within 30 days.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Must report to NY superintendent",
+      "anyOf": [
+       "report",
+       "notify"
+      ]
+     },
+     {
+      "label": "Within 30 days",
+      "anyOf": [
+       "30",
+       "thirty"
+      ]
+     },
+     {
+      "label": "Include a copy of the order",
+      "anyOf": [
+       "copy",
+       "order",
+       "documents"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2110"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q008",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.1.4.4"
+   ],
+   "concepts": [
+    "producer"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "A New York licensee changes address. Within how many days must the superintendent be informed?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "10 days",
+     "rationale": "Incorrect: the statute allows more time."
+    },
+    {
+     "id": "b",
+     "text": "60 days",
+     "rationale": "Incorrect: 60 days relates to filing a renewal application before expiration, not address changes."
+    },
+    {
+     "id": "c",
+     "text": "30 days",
+     "rationale": "Correct: § 2134(a) requires notice within thirty days of the change."
+    },
+    {
+     "id": "d",
+     "text": "At the next license renewal",
+     "rationale": "Incorrect: waiting for renewal is too late; the deadline is 30 days."
+    }
+   ],
+   "correct": "c",
+   "explanation": "§ 2134(a): a licensee must inform the superintendent of a change of address, by a means acceptable to the superintendent, within 30 days of the change. A producer who changes home state must also provide certification from the new home state within 30 days (§ 2134(b)).",
+   "memoryTip": "Moved? 30 days to tell DFS.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2134"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q009",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.1.4.1"
+   ],
+   "concepts": [
+    "producer"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Carla's agent license expires on her birthday, August 20. She filed a complete renewal application with the fee on August 1 — before the license expired, though later than the recommended 60 days ahead. On August 20, the Department has not yet acted on it.",
+   "stem": "What is the status of Carla's license on her expiration date?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "It expires, and she must stop doing business until the renewal is issued",
+     "rationale": "Incorrect: a timely filed renewal keeps the license in force."
+    },
+    {
+     "id": "b",
+     "text": "It becomes inactive until a new appointment is filed",
+     "rationale": "Incorrect: inactivity results from all appointments being terminated, not from pending renewal."
+    },
+    {
+     "id": "c",
+     "text": "It is automatically renewed for 30 months",
+     "rationale": "Incorrect: renewals are for 24 months and are not automatic."
+    },
+    {
+     "id": "d",
+     "text": "It remains in force while the timely renewal application is pending",
+     "rationale": "Correct: § 2103(j)(7) keeps the license in force while a timely renewal application is pending."
+    }
+   ],
+   "correct": "d",
+   "explanation": "§ 2103(j)(7): if a renewal application is filed before the license expires, the license continues in full force until the renewal is issued or until five days after the superintendent refuses renewal and gives notice. Renewals should be filed at least 60 days before expiration to avoid a late fee (§ 2103(j)(10)), but a renewal filed late — yet before expiration — still keeps the license alive.",
+   "memoryTip": "Filed before expiration = license stays alive while DFS decides.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "License remains in force",
+      "anyOf": [
+       "in force",
+       "continues",
+       "valid",
+       "remains"
+      ]
+     },
+     {
+      "label": "Because renewal was filed before expiration",
+      "anyOf": [
+       "before",
+       "timely",
+       "filed"
+      ]
+     },
+     {
+      "label": "Until issued or 5 days after refusal notice",
+      "anyOf": [
+       "5 days",
+       "five days",
+       "issued",
+       "refus"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2103"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q010",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.1.4.1"
+   ],
+   "concepts": [
+    "producer"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "When does a New York individual agent license expire for an agent born in an even-numbered year?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "On December 31 of each even-numbered year",
+     "rationale": "Incorrect: December 31 of even years applies to adjuster and bail bond licenses, per the bulletin."
+    },
+    {
+     "id": "b",
+     "text": "On the agent's birthday in each even-numbered year",
+     "rationale": "Correct: § 2103(j)(2) sets expiration on the individual's birthday in even-numbered years for those born in even years."
+    },
+    {
+     "id": "c",
+     "text": "On June 30 of each odd-numbered year",
+     "rationale": "Incorrect: June 30 of odd years applies to business entity licenses."
+    },
+    {
+     "id": "d",
+     "text": "Two years from the date the license was first issued",
+     "rationale": "Incorrect: expiration is tied to the birth year and birthday, not the issue date."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Under § 2103(j)(2), individual agent licenses expire on the licensee's birthday — in odd-numbered years for those born in odd years, and in even-numbered years for those born in even years. They renew for 24-month periods. Business entity licenses expire June 30 of odd-numbered years.",
+   "memoryTip": "Even birth year → even-year birthday. Odd → odd.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2103",
+    "psi-ny-bulletin-2023"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q011",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.1.3.7"
+   ],
+   "concepts": [
+    "temporary-license"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Victor's father, a licensed life agent appointed by two insurers, dies unexpectedly. Victor is named executor of the estate and receives a temporary license under § 2109.",
+   "stem": "Under the temporary license, what may Victor do?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Renew existing policies and collect premiums due on his father's business",
+     "rationale": "Correct: § 2109(c) authorizes renewals, premium collection and acts incidental to continuing the business."
+    },
+    {
+     "id": "b",
+     "text": "Solicit new clients to grow his late father's agency",
+     "rationale": "Incorrect: § 2109(e)(4) bars soliciting, negotiating or selling new insurance."
+    },
+    {
+     "id": "c",
+     "text": "Act as an agent for any insurer he chooses",
+     "rationale": "Incorrect: § 2109(d) limits him to the insurers his father represented."
+    },
+    {
+     "id": "d",
+     "text": "Keep the temporary license in force indefinitely without renewal",
+     "rationale": "Incorrect: terms are up to 90 days, renewable to a 15-month aggregate."
+    }
+   ],
+   "correct": "a",
+   "explanation": "§ 2109 lets the superintendent issue a temporary license, without exam, to the executor or next of kin of a deceased agent so the existing business can continue. The holder may renew business, collect premiums and do incidental acts, only for the insurers the deceased represented, and may not solicit, negotiate or sell new insurance. Terms are up to 90 days, renewable to 15 months in total.",
+   "memoryTip": "Temporary license = caretaker, not salesperson.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2109"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q012",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.1.3.5",
+    "reg.1.2.3"
+   ],
+   "concepts": [
+    "nonresident-license",
+    "home-state"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Mei has been licensed for life and accident & health insurance in Pennsylvania (her home state) and holds a New York nonresident license. She sells her Pennsylvania home and moves to Albany permanently.",
+   "stem": "What does New York law require of Mei?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Nothing; her nonresident license remains valid for as long as she renews it",
+     "rationale": "Incorrect: once New York is her residence, she must convert to a resident license."
+    },
+    {
+     "id": "b",
+     "text": "Retake the New York licensing exam within 30 days of establishing residence",
+     "rationale": "Incorrect: an exam is generally not required for lines she held in her prior state."
+    },
+    {
+     "id": "c",
+     "text": "Apply for a resident license within 90 days of establishing legal residence",
+     "rationale": "Correct: § 2103(g)(11) requires an application within ninety days of establishing legal residence."
+    },
+    {
+     "id": "d",
+     "text": "Complete the 40-hour prelicensing course again before her next renewal",
+     "rationale": "Incorrect: § 2103(g)(11) waives prelicensing education for lines previously held in the prior state."
+    }
+   ],
+   "correct": "c",
+   "explanation": "§ 2103(g)(11): an individual licensed in another state who moves to New York must apply within 90 days of establishing legal residence to become a resident licensee. No prelicensing education or exam is required for lines of authority previously held in the prior state, except as the superintendent provides by regulation.",
+   "memoryTip": "Moved to NY → 90 days to go resident.",
+   "version": 2,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2103"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q013",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.1.5.3"
+   ],
+   "concepts": [
+    "license-revocation"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "In lieu of suspending or revoking a license, the superintendent may order a licensee to pay a penalty of up to:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$500 per offense and $2,500 in the aggregate",
+     "rationale": "Correct: § 2127(a) sets these limits for any one proceeding."
+    },
+    {
+     "id": "b",
+     "text": "$1,000 per offense with no aggregate limit",
+     "rationale": "Incorrect: the per-offense cap is $500 and there is a $2,500 aggregate cap."
+    },
+    {
+     "id": "c",
+     "text": "$25 per offense",
+     "rationale": "Incorrect: $25 is the value limit on permitted promotional items under the rebating rules."
+    },
+    {
+     "id": "d",
+     "text": "$5,000 per offense plus the amount of the claim",
+     "rationale": "Incorrect: that is the civil penalty for fraudulent insurance acts under § 403."
+    }
+   ],
+   "correct": "a",
+   "explanation": "§ 2127(a): instead of revoking or suspending a license, the superintendent may, in any one proceeding, order a penalty of not more than $500 for each offense and not more than $2,500 in the aggregate. If the licensee fails to pay within 20 days after the order is mailed, the superintendent may revoke or suspend the license (§ 2127(b)).",
+   "memoryTip": "2127: $500 each, $2,500 max — instead of losing the license.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2127"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q014",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.1.3.3"
+   ],
+   "concepts": [
+    "insurance-consultant",
+    "insurance-broker"
+   ],
+   "difficulty": 2,
+   "style": "comparison",
+   "tags": [
+    "ny-law",
+    "tricky"
+   ],
+   "stem": "What is the key difference between a licensed life insurance consultant and a licensed life broker in New York?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A consultant solicits sales for insurers; a broker gives paid advice but may not sell",
+     "rationale": "Incorrect: this reverses the roles: a consultant gives advice and may not sell, solicit or negotiate, while a broker solicits, negotiates and places coverage."
+    },
+    {
+     "id": "b",
+     "text": "A consultant may sell only annuities and term life; a broker may sell all life products",
+     "rationale": "Incorrect: a consultant may not sell any policy."
+    },
+    {
+     "id": "c",
+     "text": "A consultant gives paid advice but may not sell; a broker may solicit, negotiate and place coverage",
+     "rationale": "Correct: per the DFS/PSI bulletin, selling, soliciting or negotiating requires an agent or broker license."
+    },
+    {
+     "id": "d",
+     "text": "There is no legal difference; both titles describe the same license and the same powers",
+     "rationale": "Incorrect: they are separate licenses with different exams and powers."
+    }
+   ],
+   "correct": "c",
+   "explanation": "The DFS/PSI licensing bulletin explains that a consultant provides expert and professional advice on insurance and cannot sell, solicit or negotiate an insurance policy, because doing so requires licensing as an agent or broker. A broker (§ 2101(c)) acts on behalf of insureds in soliciting, negotiating and placing insurance.",
+   "memoryTip": "Consultant = Counsel only; Broker = Buys for the client.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Consultant advises for a fee",
+      "anyOf": [
+       "advice",
+       "advise",
+       "counsel"
+      ]
+     },
+     {
+      "label": "Consultant cannot sell/solicit/negotiate",
+      "anyOf": [
+       "cannot sell",
+       "not sell",
+       "no sell",
+       "can't sell"
+      ]
+     },
+     {
+      "label": "Broker places coverage for the insured",
+      "anyOf": [
+       "broker",
+       "place",
+       "on behalf of the insured",
+       "client"
+      ]
+     }
+    ]
+   },
+   "version": 2,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "psi-ny-bulletin-2023",
+    "ny-isc-2101"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "official-outline",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

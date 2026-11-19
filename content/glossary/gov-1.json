@@ -1,0 +1,325 @@
+{
+  "sectionId": "gov",
+  "terms": [
+    {
+      "id": "workers-compensation",
+      "term": "Workers' Compensation",
+      "aliases": ["workers' comp", "WC"],
+      "sectionId": "gov",
+      "outlineIds": ["gov.1", "gov.1.1", "gov.1.2"],
+      "formal": "A state-mandated, employer-funded system that provides benefits to employees who suffer job-related injuries or occupational diseases — medical care, partial wage replacement, rehabilitation, and death benefits to dependents — on a no-fault basis, generally in exchange for the employee giving up the right to sue the employer for negligence.",
+      "plain": "If you get hurt or sick BECAUSE of your job, workers' comp pays your medical bills and part of your lost wages, no matter who was at fault. The employer pays for it, and in return you generally can't sue your employer.",
+      "simpler": "Hurt at work? Workers' comp pays. Hurt off the job? Look elsewhere.",
+      "examples": [
+        "A warehouse worker injures his back lifting boxes on the job; workers' compensation pays his medical bills and part of his wages while he recovers.",
+        "A nurse develops an occupational disease from workplace exposure; workers' comp covers her treatment even though no one was negligent."
+      ],
+      "examTip": "Key words: OCCUPATIONAL (work-related), NO-FAULT, EMPLOYER-PAID. Benefit types: medical, disability income (lost wages), rehabilitation, survivor/death benefits. Contrast with NY DBL, which covers OFF-the-job injury and illness.",
+      "misconception": "Workers' comp does not cover injuries or illnesses that are unrelated to work, and it is not paid for by employee premiums. Non-occupational disabilities in New York fall under the Disability Benefits Law instead.",
+      "related": ["disability-benefits-law", "social-security-disability", "occupational-coverage"],
+      "confusedWith": ["disability-benefits-law"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which program pays medical expenses and lost wages for an employee injured while performing job duties, regardless of fault?",
+        "choices": ["Workers' compensation", "NY Disability Benefits Law", "Social Security Disability Insurance", "Medicare Part B"],
+        "answerIndex": 0,
+        "explanation": "Workers' comp covers work-related injury and illness on a no-fault basis. NY DBL covers off-the-job disabilities; SSDI requires a long-term total disability; Medicare Part B is medical insurance for Medicare beneficiaries."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "social-security-disability",
+      "term": "Social Security Disability Insurance (SSDI)",
+      "aliases": ["SSDI", "Social Security disability benefits"],
+      "sectionId": "gov",
+      "outlineIds": ["gov.2", "gov.2.1", "gov.2.2", "gov.2.3", "gov.2.4"],
+      "formal": "A federal program administered by the Social Security Administration that pays monthly benefits to workers who have earned enough work credits and who have a medically determinable impairment that prevents substantial gainful activity, prevents them from doing their past work or adjusting to other work, and has lasted or is expected to last at least 12 consecutive months or to result in death. Benefits generally begin after a five-month waiting period.",
+      "plain": "SSDI pays a monthly check if you've worked long enough under Social Security and become so disabled that you can't do ANY substantial work for at least a year (or the condition is expected to be fatal). It pays only for total, long-term disability.",
+      "simpler": "Social Security's disability check: only for severe, long-lasting disabilities, and only after a five-month wait.",
+      "examples": [
+        "After a severe stroke, Nadia cannot do her old job or any other job, and doctors expect this to last well over a year. Having enough work credits, she qualifies for SSDI, with the first payment for the sixth full month of disability.",
+        "Paul breaks his leg and will be out of work for four months. He does not qualify for SSDI because his condition is not expected to last 12 months."
+      ],
+      "examTip": "Memorize: 12-month duration (or expected death), 5-month waiting period (benefits start the 6th full month), 'any substantial gainful work' definition, and work credits (generally 40, 20 earned in the last 10 years). No benefits for partial or short-term disability.",
+      "misconception": "SSDI does not use an 'own occupation' definition, and it does not pay for temporary disability. If you can do any substantial gainful work, you are not disabled for SSDI purposes.",
+      "related": ["workers-compensation", "disability-benefits-law", "medicare-disabled-under-65", "social-insurance-supplement", "any-occupation"],
+      "confusedWith": ["disability-benefits-law"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under Social Security disability rules, when is the first benefit generally paid?",
+        "choices": ["For the sixth full month after the disability began", "For the first full month after the disability began", "After 12 months of disability", "After 24 months of disability"],
+        "answerIndex": 0,
+        "explanation": "SSA: 'Generally, there is a five-month waiting period and we'll pay your first benefit in the sixth full month after the date we find your disability began.' The 12-month figure is the duration requirement, not the waiting period."
+      },
+      "sources": ["fed-ssa-disability-qualify"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "federal-source", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "disability-benefits-law",
+      "term": "NY Disability Benefits Law (DBL)",
+      "aliases": ["DBL", "NY statutory disability", "Article 9 disability benefits"],
+      "sectionId": "gov",
+      "outlineIds": ["gov.3", "gov.3.1", "gov.3.2", "gov.3.3", "gov.3.4"],
+      "formal": "Article 9 of the New York Workers' Compensation Law, which requires covered private employers to provide short-term cash benefits to eligible employees disabled by injury or sickness NOT arising out of and in the course of employment. Benefits begin on the eighth day of disability, equal one-half of the employee's average weekly wage subject to a statutory weekly maximum, and are payable for no more than 26 weeks in any 52 consecutive weeks.",
+      "plain": "New York's DBL is short-term disability coverage that employers must provide for injuries and illnesses that happen OFF the job. After a 7-day wait, it replaces half your weekly wage (up to a cap) for up to 26 weeks.",
+      "simpler": "Workers' comp is for on-the-job injuries; DBL is New York's mandatory coverage for off-the-job injuries and illnesses.",
+      "examples": [
+        "Lucy breaks her ankle skiing on a weekend and can't work for six weeks. Because the injury isn't work-related, she receives NY DBL benefits starting on the eighth day.",
+        "Marco, who earns $600 a week, is out with pneumonia. His DBL benefit is one-half of his weekly wage, $300, but no more than the statutory maximum."
+      ],
+      "examTip": "DBL facts to know: NON-occupational; benefits start on the 8th day (7-day waiting period); 50% of average weekly wage up to a statutory maximum; maximum 26 weeks in 52 consecutive weeks; employee must be under the care of a licensed practitioner. 'Disability' = can't perform the regular duties of the job (or other work the employer offers at regular wages).",
+      "misconception": "DBL is not the same as workers' compensation; it specifically excludes injuries and sicknesses arising out of employment. It also is not long-term disability coverage — it stops after 26 weeks.",
+      "related": ["workers-compensation", "social-security-disability", "short-term-disability"],
+      "confusedWith": ["workers-compensation", "short-term-disability"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under the New York Disability Benefits Law, benefits for a covered employee's off-the-job disability begin on which day of disability?",
+        "choices": ["The eighth day", "The first day", "The fifteenth day", "The thirty-first day"],
+        "answerIndex": 0,
+        "explanation": "WCL § 204(1): disability benefits are payable 'beginning with the eighth day of disability.' The first day is when paid FAMILY LEAVE benefits start, not disability benefits."
+      },
+      "sources": ["ny-wkc-201", "ny-wkc-204", "ny-wkc-205"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "medicaid",
+      "term": "Medicaid",
+      "aliases": ["Medical Assistance", "Title XIX"],
+      "sectionId": "gov",
+      "outlineIds": ["gov.4", "gov.4.1", "ltc.1.1"],
+      "formal": "A joint federal and state program (Title XIX of the Social Security Act) that helps pay medical costs for some people with limited income and resources. Each state runs its own program within federal rules, so eligibility and benefits vary by state. Medicaid is the major public payer of long-term (custodial) care for those who qualify.",
+      "plain": "Medicaid is health coverage for people with low income and few assets, paid for by both the federal government and the state. Unlike Medicare, it can pay for long-term nursing home care — but only after you meet strict financial limits.",
+      "simpler": "Medicare is based mostly on age; Medicaid is based on need.",
+      "examples": [
+        "After spending most of her savings on nursing home bills, Gertrude qualifies for Medicaid, which then pays for her continuing custodial care.",
+        "A low-income family in New York gets health coverage for the parents through Medicaid."
+      ],
+      "examTip": "Medicaid = means-tested (income and assets), jointly funded by federal and state governments, state-administered. It is the payer of last resort for long-term custodial care. Don't mix it up with Medicare (federal, age/disability-based, no long-term custodial care).",
+      "misconception": "Medicaid is not just for children or families; it is also the largest public payer of nursing home care for elderly people who have spent down their assets.",
+      "related": ["medicare", "child-health-plus", "estate-recovery", "ltc-partnership", "long-term-care-insurance"],
+      "confusedWith": ["medicare"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which program is jointly funded by the federal and state governments and helps pay medical costs for people with limited income and resources?",
+        "choices": ["Medicaid", "Medicare", "Social Security Disability Insurance", "Workers' compensation"],
+        "answerIndex": 0,
+        "explanation": "Medicaid is the joint federal-state, means-tested program. Medicare is a federal program based mainly on age, disability or ESRD; SSDI pays disability income; workers' comp covers work injuries."
+      },
+      "sources": ["fed-medicare-snf", "fed-medicare-ltc"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "federal-source", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "medicare",
+      "term": "Medicare",
+      "aliases": ["Title XVIII", "Original Medicare"],
+      "sectionId": "gov",
+      "outlineIds": ["gov.5", "gov.5.1"],
+      "formal": "The federal health insurance program (Title XVIII of the Social Security Act) administered by the Centers for Medicare & Medicaid Services (CMS) for people 65 and older, certain people under 65 with disabilities, and people with end-stage renal disease. Original Medicare is a fee-for-service program with two parts — Part A (Hospital Insurance) and Part B (Medical Insurance); beneficiaries may instead choose a Medicare Advantage Plan (Part C), and may add Part D prescription drug coverage.",
+      "plain": "Medicare is the federal government's health insurance for people 65+ and some younger people with disabilities or kidney failure. Part A covers hospital care, Part B covers doctors and outpatient care, Part C is a private-plan alternative, and Part D covers prescription drugs.",
+      "simpler": "A = hospital, B = doctors, C = private 'all-in-one' plan, D = drugs.",
+      "examples": [
+        "Lena turns 65, enrolls in Original Medicare (Parts A and B), and adds a Part D drug plan.",
+        "Raj, 52, has received SSDI for two years and becomes entitled to Medicare because of his disability."
+      ],
+      "examTip": "Medicare is FEDERAL, administered by CMS, and not means-tested. Remember the letter-to-coverage map (A hospital, B medical, C Advantage, D drugs) and that Medicare does NOT pay for long-term custodial care.",
+      "misconception": "Medicare is not free and does not cover everything: beneficiaries pay deductibles, coinsurance and (for Part B and usually Part D) premiums. That's why Medigap exists.",
+      "related": ["medicare-part-a", "medicare-part-b", "medicare-advantage", "medicare-part-d", "medicaid", "medicare-supplement"],
+      "confusedWith": ["medicaid"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which federal agency administers Medicare?",
+        "choices": ["Centers for Medicare & Medicaid Services (CMS)", "New York State Department of Financial Services", "Internal Revenue Service", "U.S. Department of Labor"],
+        "answerIndex": 0,
+        "explanation": "CMS administers Medicare (and oversees Medicaid with the states). The Social Security Administration handles much Medicare enrollment, but the program is run by CMS."
+      },
+      "sources": ["fed-medicare-medigap", "fed-medicare-snf"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "federal-source", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "medicare-part-a",
+      "term": "Medicare Part A",
+      "aliases": ["Hospital Insurance", "HI"],
+      "sectionId": "gov",
+      "outlineIds": ["gov.5.2", "gov.5.2.1", "gov.5.2.2", "gov.5.2.3"],
+      "formal": "Medicare Hospital Insurance, which covers inpatient hospital stays, skilled nursing facility care (on a short-term basis after a qualifying inpatient hospital stay of at least 3 days in a row), hospice care, and some home health care. Cost sharing is measured per benefit period, beginning with an inpatient hospital deductible.",
+      "plain": "Part A is Medicare's hospital insurance: it pays when you're admitted to the hospital, for a limited stay in a skilled nursing facility after a hospital stay, for hospice, and for some home health care.",
+      "simpler": "Part A = staying in a hospital or facility.",
+      "examples": [
+        "Hector is admitted to the hospital for five days with pneumonia. Part A covers the inpatient stay after he pays the Part A deductible for that benefit period.",
+        "After a 4-day inpatient stay for hip surgery, Ellen enters a skilled nursing facility for rehab; Part A covers it on a short-term basis."
+      ],
+      "examTip": "Part A SNF coverage requires a qualifying inpatient stay of at least 3 days in a row (observation days and ER time don't count) and daily skilled care. Part A covers at most 100 SNF days per benefit period: days 1–20 with no daily coinsurance, days 21–100 with daily coinsurance, and nothing after day 100.",
+      "misconception": "Part A does not cover doctors' services (that's Part B), and it does not cover long-term custodial care in a nursing home.",
+      "related": ["medicare", "medicare-part-b", "medicare-benefit-period", "skilled-care"],
+      "confusedWith": ["medicare-part-b"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which part of Medicare covers inpatient hospital stays and limited skilled nursing facility care?",
+        "choices": ["Part A", "Part B", "Part C", "Part D"],
+        "answerIndex": 0,
+        "explanation": "Part A (Hospital Insurance) covers inpatient hospital, SNF, hospice and some home health care. Part B covers doctors/outpatient; Part C is Medicare Advantage; Part D is drug coverage."
+      },
+      "sources": ["fed-medicare-snf", "fed-medicare-medigap"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "federal-source", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "medicare-part-b",
+      "term": "Medicare Part B",
+      "aliases": ["Medical Insurance", "SMI (Supplementary Medical Insurance)"],
+      "sectionId": "gov",
+      "outlineIds": ["gov.5.3", "gov.5.3.1", "gov.5.3.2", "gov.5.3.3", "gov.5.3.4"],
+      "formal": "Medicare Medical Insurance, which covers certain doctors' services, outpatient care, medical supplies, and preventive services. Part B is voluntary, requires a monthly premium, and has an annual deductible followed by coinsurance (generally 20% of the Medicare-approved amount for most services).",
+      "plain": "Part B pays for doctor visits, outpatient care, lab tests, medical equipment and preventive services. You pay a monthly premium, a yearly deductible, and usually 20% of the approved amount after that.",
+      "simpler": "Part B = seeing the doctor and outpatient care.",
+      "examples": [
+        "Mia's annual physical and her cardiologist visits are covered under Part B, subject to the Part B deductible and coinsurance.",
+        "Part B helps pay for Joe's wheelchair (durable medical equipment) and his outpatient physical therapy."
+      ],
+      "examTip": "Part B: premium + annual deductible + coinsurance (generally 20%). Typical exclusions under Original Medicare include long-term custodial care, most dental care and dentures, routine eye exams for glasses, hearing aids, and cosmetic surgery. Avoid memorizing this year's dollar amounts.",
+      "misconception": "Part B is not premium-free for most people the way Part A is, and it does not pay 100% of covered services — the beneficiary usually pays 20% coinsurance after the deductible.",
+      "related": ["medicare", "medicare-part-a", "medicare-supplement", "initial-enrollment-period"],
+      "confusedWith": ["medicare-part-a"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which part of Medicare covers physicians' services and outpatient care?",
+        "choices": ["Part B", "Part A", "Part D", "Medigap Plan A"],
+        "answerIndex": 0,
+        "explanation": "Part B (Medical Insurance) covers doctors' services, outpatient care, medical supplies and preventive services. Medigap is private insurance, not a part of Medicare."
+      },
+      "sources": ["fed-medicare-medigap"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "federal-source", "checkedOn": "2026-11-19", "notes": "Part B 20% coinsurance and listed exclusions are standard Medicare features; the source pages verify Part B's scope." }
+    },
+    {
+      "id": "medicare-advantage",
+      "term": "Medicare Advantage (Part C)",
+      "aliases": ["Part C", "MA plan", "Medicare HMO/PPO"],
+      "sectionId": "gov",
+      "outlineIds": ["gov.5.4"],
+      "formal": "A type of Medicare-approved health plan offered by a private company that a beneficiary can choose to cover most Part A and Part B benefits instead of Original Medicare. It usually also includes Part D drug coverage. Common forms include HMOs and PPOs.",
+      "plain": "Medicare Advantage is a private 'all-in-one' alternative to Original Medicare. The private plan, approved by Medicare, delivers your Part A and Part B benefits — and usually drug coverage — often through a provider network.",
+      "simpler": "Instead of the government paying your bills directly, a private Medicare-approved plan takes over.",
+      "examples": [
+        "Rosa joins a Medicare Advantage HMO that covers her hospital, doctor and prescription drug benefits in one plan, using the plan's network of doctors.",
+        "Because Ken is in a Medicare Advantage plan, he does not need — and may not be sold — a Medigap policy that duplicates its benefits."
+      ],
+      "examTip": "Part C REPLACES how you get Parts A and B; it is not a supplement. Medigap works only with Original Medicare. Selling a Medigap policy that duplicates a person's Medicare Advantage benefits is prohibited.",
+      "misconception": "Medicare Advantage is not the same as Medigap. Medigap supplements Original Medicare; Medicare Advantage is a different way to receive Medicare benefits.",
+      "related": ["medicare", "medicare-part-d", "medicare-supplement", "hmo", "ppo"],
+      "confusedWith": ["medicare-supplement"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A Medicare-approved plan from a private company that covers most Part A and Part B benefits instead of Original Medicare is called:",
+        "choices": ["Medicare Advantage (Part C)", "Medicare Supplement (Medigap)", "Medicare Part D", "Medicare SELECT"],
+        "answerIndex": 0,
+        "explanation": "Medicare Advantage replaces Original Medicare's delivery of A and B benefits. Medigap and Medicare SELECT supplement Original Medicare; Part D covers drugs."
+      },
+      "sources": ["fed-medicare-snf", "ny-11nycrr-58-1"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "federal-source", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "medicare-part-d",
+      "term": "Medicare Part D",
+      "aliases": ["Medicare prescription drug coverage", "PDP"],
+      "sectionId": "gov",
+      "outlineIds": ["gov.5.5"],
+      "formal": "Medicare's voluntary outpatient prescription drug benefit, provided through private insurance companies approved by Medicare — either as a stand-alone prescription drug plan added to Original Medicare or as part of a Medicare Advantage plan.",
+      "plain": "Part D helps pay for prescription drugs. You get it from a private Medicare-approved plan: a separate drug plan if you have Original Medicare, or built into most Medicare Advantage plans.",
+      "simpler": "D is for Drugs.",
+      "examples": [
+        "Tom has Original Medicare and buys a stand-alone Part D plan to cover his blood-pressure and cholesterol medications.",
+        "Ana's Medicare Advantage plan includes Part D drug coverage, so she doesn't buy a separate drug plan."
+      ],
+      "examTip": "Part D = outpatient prescription drugs, offered through private insurers approved by Medicare. Since 2006, new Medigap policies don't include outpatient drug coverage, so beneficiaries who want drug coverage use Part D.",
+      "misconception": "Part D is not run directly by the government like Parts A and B; it is delivered through private plans approved by Medicare.",
+      "related": ["medicare", "medicare-advantage", "medicare-part-b"],
+      "confusedWith": ["medicare-part-b"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which part of Medicare provides outpatient prescription drug coverage through private Medicare-approved plans?",
+        "choices": ["Part D", "Part A", "Part B", "Part C only"],
+        "answerIndex": 0,
+        "explanation": "Part D is the prescription drug benefit. Most Medicare Advantage (Part C) plans include Part D coverage, but Part D also exists as stand-alone plans for Original Medicare."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "medicare-benefit-period",
+      "term": "Medicare Benefit Period",
+      "aliases": ["spell of illness"],
+      "sectionId": "gov",
+      "outlineIds": ["gov.5.2.3"],
+      "formal": "The way Original Medicare measures use of hospital and skilled nursing facility services. A benefit period begins the day the beneficiary is admitted as an inpatient in a hospital or SNF and ends when the beneficiary has not received any inpatient hospital care (or skilled care in a SNF) for 60 days in a row. The inpatient hospital deductible applies to each benefit period, and there is no limit on the number of benefit periods.",
+      "plain": "Part A's deductible and day limits reset with each 'benefit period'. A benefit period starts when you're admitted and ends once you've been out of the hospital and SNF for 60 days straight. Get admitted after that and a new benefit period — and a new deductible — begins.",
+      "simpler": "It's Part A's 'episode' clock: 60 days out of the hospital and SNF resets it.",
+      "examples": [
+        "Sam is hospitalized in March, discharged, and readmitted 30 days later. He is still in the same benefit period, so he does not pay a second Part A deductible.",
+        "Rita is hospitalized in January and again in June, with more than 60 days between stays; the June admission starts a new benefit period and a new deductible."
+      ],
+      "examTip": "Benefit period ≠ calendar year. It ends after 60 consecutive days without inpatient hospital or SNF skilled care. A person can have several benefit periods in one year, each with its own Part A deductible.",
+      "misconception": "The Part A deductible is not an annual deductible; it applies per benefit period.",
+      "related": ["medicare-part-a", "skilled-care", "benefit-period"],
+      "confusedWith": ["benefit-period"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A Medicare Part A benefit period ends when the beneficiary has gone how many days in a row without inpatient hospital or SNF skilled care?",
+        "choices": ["60", "30", "90", "365"],
+        "answerIndex": 0,
+        "explanation": "Medicare.gov: 'The benefit period ends when you haven't gotten any inpatient hospital care (or skilled care in a SNF) for 60 days in a row.'"
+      },
+      "sources": ["fed-medicare-snf"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "federal-source", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "initial-enrollment-period",
+      "term": "Medicare Initial Enrollment Period",
+      "aliases": ["IEP"],
+      "sectionId": "gov",
+      "outlineIds": ["gov.5.2.2", "gov.5.3.2"],
+      "formal": "The seven-month window around a person's 65th birthday — the three months before the birth month, the birth month, and the three months after — during which the person may first enroll in Medicare Part A and Part B. Enrolling in Part B later, without qualifying other coverage such as current-employment group coverage, can result in a lifetime late-enrollment penalty.",
+      "plain": "When you turn 65 you get a 7-month window to sign up for Medicare: 3 months before your birthday month, the month itself, and 3 months after. Miss it without other qualifying coverage and you may pay a Part B penalty for life.",
+      "simpler": "3 + 1 + 3 = your 7-month Medicare sign-up window at 65.",
+      "examples": [
+        "Diane turns 65 in June. Her Initial Enrollment Period runs from March through September.",
+        "Victor skipped Part B at 65 even though he had no employer coverage; when he enrolls years later, his Part B premium includes a late-enrollment penalty."
+      ],
+      "examTip": "IEP = 7 months centered on the 65th-birthday month. Don't confuse it with the one-time 6-month Medigap open enrollment, which starts when you are 65 or older AND enrolled in Part B.",
+      "misconception": "The Medicare IEP is not the same as the Medigap open enrollment period or the annual Medicare open enrollment period for changing plans.",
+      "related": ["medicare-part-b", "medicare-part-a", "medigap-open-enrollment"],
+      "confusedWith": ["medigap-open-enrollment"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "How long is the Medicare Initial Enrollment Period for someone turning 65?",
+        "choices": ["7 months", "6 months", "3 months", "12 months"],
+        "answerIndex": 0,
+        "explanation": "The IEP is 7 months: 3 months before, the month of, and 3 months after the 65th birthday month. Six months is the Medigap open enrollment period."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19", "notes": "Federal rule taught from standard knowledge; not fetched (fetch budget). Lead may verify against medicare.gov." }
+    }
+  ],
+  "comparisons": []
+}

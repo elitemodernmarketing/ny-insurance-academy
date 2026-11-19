@@ -1,0 +1,401 @@
+{
+ "sectionId": "lpr",
+ "terms": [
+  {
+   "id": "beneficiary",
+   "term": "Beneficiary",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.2",
+    "lpr.2.1",
+    "lpr.2.1.1",
+    "lpr.2.1.3",
+    "lpr.2.1.4",
+    "lpr.2.1.5"
+   ],
+   "formal": "The person, persons, class, trust, estate or other entity designated by the policyowner to receive the policy proceeds when the insured dies.",
+   "plain": "The beneficiary is whoever gets the money when the insured dies. It can be a person, a group such as \"my children\", a trust, a charity, a business, or the insured's estate.",
+   "simpler": "The beneficiary is the name on the \"deliver to\" label of the death benefit.",
+   "examples": [
+    "Victor names his wife as beneficiary of his $300,000 policy; she receives the proceeds at his death.",
+    "Wendy names a trust for her two young children as beneficiary, so a trustee manages the money for them."
+   ],
+   "examTip": "Know the designation options: individuals, classes (per stirpes / per capita), the estate, minors (usually through a guardian, custodian or trust), trusts, and businesses or charities. Naming the estate — or having no living beneficiary — sends proceeds through probate and exposes them to the estate's creditors.",
+   "misconception": "Insurers generally do not pay proceeds directly to a minor child, because a minor cannot give the insurer a valid release; a guardian, custodian or trust is normally needed.",
+   "related": [
+    "primary-beneficiary",
+    "contingent-beneficiary",
+    "revocable-beneficiary",
+    "irrevocable-beneficiary",
+    "per-stirpes",
+    "policyowner"
+   ],
+   "confusedWith": [
+    "policyowner",
+    "insured"
+   ],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "Which choice would cause life insurance proceeds to pass through probate?",
+    "choices": [
+     "Naming the insured's estate as beneficiary",
+     "Naming the insured's spouse as primary beneficiary",
+     "Naming a trust as beneficiary",
+     "Naming the insured's children as a class"
+    ],
+    "answerIndex": 0,
+    "explanation": "Proceeds payable to the insured's estate become an estate asset, subject to probate delays and to the claims of the estate's creditors. Proceeds paid to a living named beneficiary or a trust bypass probate."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "primary-beneficiary",
+   "term": "Primary Beneficiary",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.2.1.1",
+    "lpr.2.1.6"
+   ],
+   "formal": "The beneficiary who has first claim to the policy proceeds when the insured dies. If more than one primary beneficiary is named, the proceeds are divided among them as the designation specifies.",
+   "plain": "The primary beneficiary is first in line. If the primary beneficiary is alive when the insured dies, he or she gets the money.",
+   "simpler": "First in line at the window.",
+   "examples": [
+    "Xavier names his husband as primary beneficiary and his sister as contingent. When Xavier dies, his husband receives the full proceeds.",
+    "Yara names her two sons as primary beneficiaries, 50% each."
+   ],
+   "examTip": "The order of succession is primary → contingent (secondary) → tertiary → the insured's estate if no named beneficiary survives.",
+   "misconception": "A contingent beneficiary receives nothing while any primary beneficiary entitled to the proceeds is living.",
+   "related": [
+    "contingent-beneficiary",
+    "beneficiary",
+    "common-disaster-clause"
+   ],
+   "confusedWith": [
+    "contingent-beneficiary"
+   ],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "Who has the first claim to life insurance proceeds at the insured's death?",
+    "choices": [
+     "The primary beneficiary",
+     "The contingent beneficiary",
+     "The insured's estate",
+     "The policyowner's creditors"
+    ],
+    "answerIndex": 0,
+    "explanation": "The primary beneficiary is first in line. The contingent beneficiary takes only if no primary beneficiary survives; the estate takes only if no named beneficiary survives."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "contingent-beneficiary",
+   "term": "Contingent Beneficiary",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.2.1.6"
+   ],
+   "formal": "A secondary (or tertiary) beneficiary who receives the proceeds only if all primary beneficiaries have died before the insured (or are otherwise not entitled to receive them).",
+   "plain": "The contingent beneficiary is the backup. They get paid only if no primary beneficiary is around to collect.",
+   "simpler": "The understudy who goes on stage only when the star cannot.",
+   "examples": [
+    "Zoe's primary beneficiary, her father, died before her. Her contingent beneficiary, her brother, receives the proceeds.",
+    "Adam's primary beneficiary is alive when Adam dies, so his contingent beneficiary receives nothing."
+   ],
+   "examTip": "Naming a contingent beneficiary keeps proceeds out of the insured's estate (and probate) if the primary beneficiary dies first.",
+   "misconception": "\"Contingent\" does not mean the contingent beneficiary shares with the primary. It is all-or-nothing based on whether a primary beneficiary survives.",
+   "related": [
+    "primary-beneficiary",
+    "beneficiary",
+    "common-disaster-clause"
+   ],
+   "confusedWith": [
+    "primary-beneficiary"
+   ],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "When does a contingent beneficiary receive the death proceeds?",
+    "choices": [
+     "Only if no primary beneficiary survives the insured",
+     "Always, sharing equally with the primary beneficiary",
+     "Only if the policy is surrendered for cash",
+     "Only if the insured dies within two years of issue"
+    ],
+    "answerIndex": 0,
+    "explanation": "A contingent beneficiary is a backup who receives proceeds only when no primary beneficiary survives the insured."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "per-stirpes",
+   "term": "Per Stirpes",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.2.1.2"
+   ],
+   "formal": "A class designation under which, if a named beneficiary dies before the insured, that beneficiary's share passes to his or her descendants (\"by the branch\" or \"by the bloodline\") rather than to the surviving named beneficiaries.",
+   "plain": "Per stirpes keeps money in each family branch. If one of your children dies before you, that child's share goes to his or her own children (your grandchildren).",
+   "simpler": "Each branch of the family tree keeps its slice of the pie, even if the branch's first member is gone.",
+   "examples": [
+    "Beth names her three children per stirpes on a $300,000 policy. One child dies before Beth, leaving two children. The two living children receive $100,000 each, and the two grandchildren split the deceased child's $100,000 ($50,000 each).",
+    "Carl names his two daughters per stirpes. Both survive him, so each receives half — per stirpes matters only when a beneficiary has died first."
+   ],
+   "examTip": "Per stirpes = by the BRANCH (the deceased beneficiary's descendants step into that share). Per capita = by the HEAD (split among the living named beneficiaries).",
+   "misconception": "Per stirpes does not divide the money equally among everyone in the family; it divides it by branch, so grandchildren in a branch share their parent's portion.",
+   "related": [
+    "per-capita",
+    "beneficiary",
+    "contingent-beneficiary"
+   ],
+   "confusedWith": [
+    "per-capita"
+   ],
+   "pronunciation": "per STUR-peez",
+   "difficulty": 2,
+   "practice": {
+    "prompt": "A policy names \"my children, per stirpes.\" One child predeceased the insured, leaving a son. Who receives that child's share?",
+    "choices": [
+     "The deceased child's son",
+     "The surviving children, equally",
+     "The insured's estate",
+     "The insurer keeps it"
+    ],
+    "answerIndex": 0,
+    "explanation": "Under per stirpes, a predeceased beneficiary's share passes down that branch to his or her descendants — here, the deceased child's son."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "per-capita",
+   "term": "Per Capita",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.2.1.2"
+   ],
+   "formal": "A class designation under which the proceeds are divided equally among the named beneficiaries who are living at the insured's death; the share of a beneficiary who died first is redistributed among the survivors, not passed to that beneficiary's descendants.",
+   "plain": "Per capita means \"by the head\": count the named beneficiaries who are still alive and split the money equally among them.",
+   "simpler": "Count the heads in the room and cut the pie into that many equal slices.",
+   "examples": [
+    "Dana names her three children per capita on a $300,000 policy. One child dies before her. The two surviving children receive $150,000 each; the deceased child's children receive nothing.",
+    "Eli names his four nephews per capita. All four survive him, so each receives 25%."
+   ],
+   "examTip": "Per capita = equal shares among the LIVING named beneficiaries. Per stirpes = shares follow the family branch. Exam scenarios almost always include a predeceased child with children of his or her own.",
+   "misconception": "Per capita does not automatically include grandchildren. Only the named beneficiaries who are alive share the proceeds.",
+   "related": [
+    "per-stirpes",
+    "beneficiary"
+   ],
+   "confusedWith": [
+    "per-stirpes"
+   ],
+   "pronunciation": "per KAP-ih-tuh",
+   "difficulty": 2,
+   "practice": {
+    "prompt": "A policy names \"my three children, per capita.\" One child died before the insured. How are the proceeds divided?",
+    "choices": [
+     "Equally between the two surviving children",
+     "One-third to each surviving child and one-third to the deceased child's children",
+     "Entirely to the insured's estate",
+     "One-third to each surviving child and one-third to the estate"
+    ],
+    "answerIndex": 0,
+    "explanation": "Per capita divides proceeds equally among the beneficiaries living at the insured's death, so the two survivors each take half. Passing the deceased child's share to his or her children would be per stirpes."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "revocable-beneficiary",
+   "term": "Revocable Beneficiary",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.2.1.7"
+   ],
+   "formal": "A beneficiary designation that the policyowner may change at any time without the beneficiary's knowledge or consent. A revocable beneficiary has no vested interest in the policy while the insured is living.",
+   "plain": "If the beneficiary is revocable, the owner can switch to a different beneficiary whenever they want, without asking.",
+   "simpler": "A revocable beneficiary is like a pencil entry — the owner can erase it any time.",
+   "examples": [
+    "Fay names her boyfriend as revocable beneficiary. After they break up she changes the beneficiary to her mother without telling him.",
+    "Gus, the owner, takes a policy loan without asking his revocable beneficiary."
+   ],
+   "examTip": "Most designations are revocable. A revocable beneficiary cannot block loans, assignments, surrenders or beneficiary changes.",
+   "misconception": "Being named beneficiary does not give a revocable beneficiary any rights in the policy before the insured dies.",
+   "related": [
+    "irrevocable-beneficiary",
+    "ownership-provision",
+    "beneficiary"
+   ],
+   "confusedWith": [
+    "irrevocable-beneficiary"
+   ],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "Which statement about a revocable beneficiary is true?",
+    "choices": [
+     "The policyowner may change the designation without the beneficiary's consent",
+     "The beneficiary must consent before the owner takes a policy loan",
+     "The beneficiary has a vested interest in the cash value",
+     "The designation can never be changed after issue"
+    ],
+    "answerIndex": 0,
+    "explanation": "A revocable designation can be changed by the owner at any time without consent. The other choices describe an irrevocable beneficiary."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "irrevocable-beneficiary",
+   "term": "Irrevocable Beneficiary",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.2.1.7"
+   ],
+   "formal": "A beneficiary designation that cannot be changed without the beneficiary's written consent. The irrevocable beneficiary has a vested interest in the policy, so the owner generally also needs the beneficiary's consent to exercise rights that would reduce that interest, such as assigning the policy, taking a policy loan or surrendering it.",
+   "plain": "An irrevocable beneficiary is locked in. The owner cannot remove them — or do things that shrink their benefit, like borrowing or cashing in the policy — without their written OK.",
+   "simpler": "An irrevocable beneficiary is written in ink and co-signs any big decision.",
+   "examples": [
+    "As part of a divorce settlement, Hal names his ex-wife as irrevocable beneficiary. He later wants to name his new wife, but cannot without his ex-wife's written consent.",
+    "Ivy, an irrevocable beneficiary, must sign before the owner can surrender the policy for its cash value."
+   ],
+   "examTip": "Irrevocable = vested interest. The owner needs the beneficiary's consent to change the beneficiary, assign, borrow against or surrender the policy. Often used in divorce settlements or as security.",
+   "misconception": "An irrevocable designation does not make the beneficiary the owner. The owner still owns the policy but cannot act against the beneficiary's vested interest without consent.",
+   "related": [
+    "revocable-beneficiary",
+    "ownership-provision",
+    "assignment",
+    "policy-loan"
+   ],
+   "confusedWith": [
+    "revocable-beneficiary",
+    "policyowner"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "The owner of a policy with an irrevocable beneficiary wants to take a policy loan. What is generally required?",
+    "choices": [
+     "The irrevocable beneficiary's consent",
+     "Approval from the Superintendent of Financial Services",
+     "A new medical exam of the insured",
+     "Nothing — owners may always borrow freely"
+    ],
+    "answerIndex": 0,
+    "explanation": "An irrevocable beneficiary has a vested interest, so the owner generally needs the beneficiary's consent for actions that reduce it, such as loans, assignments, surrender or beneficiary changes."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "common-disaster-clause",
+   "term": "Common Disaster Clause",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.2.1.8"
+   ],
+   "formal": "A beneficiary provision that addresses the situation where the insured and the primary beneficiary die in the same accident (or close together). It typically requires the primary beneficiary to survive the insured by a stated period; if not, the proceeds are paid as though the primary beneficiary died first — to the contingent beneficiary or, if none, to the insured's estate.",
+   "plain": "If the insured and the main beneficiary die in the same crash, this clause treats the main beneficiary as if they died first, so the money goes to the backup beneficiary the insured chose.",
+   "simpler": "It stops the money from taking a detour through the beneficiary's estate and ending up with people the insured never picked.",
+   "examples": [
+    "Jay and his wife (primary beneficiary) die in the same car accident; she lives two days longer. Jay's policy requires a beneficiary to survive him by 30 days, so the proceeds go to his contingent beneficiary, his sister.",
+    "Without a survivorship requirement, the proceeds might be paid to the wife's estate and pass under her will instead of to the beneficiary Jay chose."
+   ],
+   "examTip": "The clause protects the contingent beneficiary. Simultaneous death laws (based on the Uniform Simultaneous Death Act) generally presume the insured survived the beneficiary when there is no sufficient evidence of who died first; the common disaster clause extends that result when the beneficiary survives only briefly.",
+   "misconception": "The clause does not pay the proceeds to both estates or split them; it treats the primary beneficiary as having died first.",
+   "related": [
+    "contingent-beneficiary",
+    "primary-beneficiary",
+    "beneficiary"
+   ],
+   "confusedWith": [],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "The insured and primary beneficiary die in a common accident, and the beneficiary does not survive the period the policy requires. Who generally receives the proceeds?",
+    "choices": [
+     "The contingent beneficiary",
+     "The primary beneficiary's estate",
+     "The two estates, split equally",
+     "The insurer retains the proceeds"
+    ],
+    "answerIndex": 0,
+    "explanation": "The common disaster clause treats the primary beneficiary as having died first, so the proceeds go to the contingent beneficiary (or the insured's estate if there is none)."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ],
+ "comparisons": []
+}

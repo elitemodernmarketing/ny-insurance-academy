@@ -1,0 +1,451 @@
+Increased cost of compliance
+Forms
+Dwelling
+General
+Residential Condominium Building
+Association Policy
+New York Personal Lines Insurance
+Agent/Broker
+Series 17-54
+100 Questions - 2-Hour Time Limit
+Insurance Regulation - 10%
+Licensing
+Process (2103(d–i))
+Definitions
+Producer definition (2101(k))
+Who should be licensed (2101(k))
+Home state (2101(l))
+Negotiate (2101(m))
+Sell (2101(n))
+Solicit (2101(o))
+Types of licensees
+Agents (2101(a, k); 2103; Reg 6,
+Part 22.2; Reg 7, Part 23.2)
+Brokers (2101(c, h, k); 2104)
+Consultants (2107)
+Adjusters (2101(g), 2108)
+Nonresident (2101(d, e);
+2103(g)(5, 11); 2136)
+Business entities (2101(p),
+2103(i)(2))
+Temporary (2109; Regs 9, 18, 29,
+Part 20.1)
+Maintenance and duration
+Renewal (2103(j); Reg 5, Part
+21.2)
+Continuing education (2132)
+Assumed names (2102(f))
+Change of address (all addresses,
+including email) (2134; Reg 5,
+Part 21.4; Reg 6, Part 22.3; Reg
+7, Part 23.4)
+Reporting of actions (2110(i)(j))
+Disciplinary actions
+Hearings-Notice and Process
+(2405, 2406, Financial Services
+305)
+Suspension, revocation, and
+nonrenewal (2110)
+Penalties (2127, 109)
+State regulation
+Superintendent's general duties and
+powers (2404, Financial Services 201,
+202, 301)
+Company regulation
+Certificate of authority (1102(a-
+b))
+Solvency (307)
+Unfair claim settlement practices
+(2601; Reg 64, Part 216.3-216.6)
+Appointment of agent (2112(a–c))
+Termination of agent
+appointment (2112(d); Regs 9, 18,
+29, Part 20.2)
+Unfair and prohibited practices
+Misrepresentation (2123; Reg 64,
+Part 216.3)
+False advertising (2603)
+Defamation of insurer (2604)
+Unfair discrimination (2606–2608,
+2612)
+Rebating (2324)
+Licensee regulation
+Controlled business (2103(i))
+Sharing commissions (2121, 2128)
+Fiduciary responsibility (2120;
+Regs 9, 18, 29, Parts 20.3, 20.4)
+License display (Reg 125, Part
+34.5)
+Commissions and compensation
+(2102(e), 2114–2116, 2119; Regs
+9, 18, 29, Part 20.6; Reg 194, Part
+30)
+Termination responsibilities of
+producer (2112(g))
+Examination of books and records
+(2404; Reg 152, Parts 243.0 to 243.3)
+=====PAGE 48=====
+48
+Insurance Frauds Prevention Act (401-
+405, Financial Services 403-405)
+Aiding Unauthorized Insurer (2117)
+Prohibitions (403)
+Reporting (405)
+Consumer privacy regulation (Reg 169,
+Parts 420.0 to 420.4)
+Producer Compensation Transparency
+(Reg 194, Parts 30.1 to 30.5)
+Cyber Security Requirements for
+Financial Services Companies (Reg 23)
+Federal regulation
+Fair Credit Reporting Act (15 USC
+1681a–1681d)
+Fraud and false statements including
+1033 waiver (18 USC 1033, 1034)
+General Insurance - 10%
+Concepts
+Risk management key terms
+Risk (pure and speculative)
+Exposure
+Hazard (physical, moral, morale)
+Peril
+Loss
+Methods of handling risk
+Avoidance
+Retention
+Sharing
+Reduction
+Transfer (by contractual liability
+or insurance contract)
+Elements of insurable risks
+Adverse selection
+Law of large numbers
+Reinsurance
+Risk retention
+Insurers
+Risk retention and risk purchasing
+groups
+Types of insurers
+Stock companies
+Mutual companies
+Fraternal benefit societies
+Lloyd's associations
+Private versus government insurers
+Admitted versus nonadmitted insurers
+Domestic, foreign, and alien insurers
+Financial status (independent rating
+services)
+Marketing (distribution) systems
+Agents and general rules of agency
+Insurer as principal
+Agent/insurer relationship
+Authority and powers of agents
+Express
+Implied
+Apparent
+Responsibilities to the
+applicant/insured
+Contracts
+Elements of a legal contract
+Offer and acceptance
+Consideration
+Competent parties
+Legal purpose
+Characteristics of insurance contracts
+Contract of adhesion
+Aleatory contract
+Personal contract
+Unilateral contract
+Conditional contract
+Legal concepts and interpretations
+affecting contracts
+Indemnity
+Utmost good faith
+Representations/
+misrepresentations (3105)
+Warranties (3106)
+Rescission
+Concealment
+Fraud
+Waiver and estoppel
+Property and Casualty Insurance Basics -
+17%
+Principles and concepts
+Insurable interest
+Underwriting
+Function
+Prohibition of geographical
+redlining (3429, 3429-a, 3430,
+3433; Reg 90, Parts 218.1 to
+218.7)
+Insurance Risk Score (credit
+scoring)
+Rates
+Types
+Loss costs
+Components
+Negligence
+Elements of a negligent act
+Defenses against negligence
+Damages
+Compensatory — special versus
+general
+Punitive
+Absolute liability
+Strict liability
+Vicarious liability
+Causes of loss (perils)
+Proximate cause
+Named perils versus special
+(open) perils
+Direct loss
+Consequential or indirect loss
+Blanket versus specific insurance
+Basic types of construction
+Loss Valuation
+Actual cash value
+Replacement cost
+Guaranteed
+Functional
+Market value
+Agreed value
+Stated amount
+Policy structure
+Declarations
+Definitions
+Insuring agreement or clause
+Additional/supplementary coverage
+Conditions
+Exclusions
+Endorsements
+Common policy provisions
+Insureds — named, first named,
+additional, defined
+Policy period
+Policy territory
+Cancellation and nonrenewal (3425,
+3426)
+Earned premium calculation
+Pro rata, short rate, and flat
+cancellation
+Deductibles
+Self Insured Retention (SIR)
+Other insurance
+Primary
+Excess
+Pro rata share
+Limits of liability
+Per occurrence (accident)
+Per person
+Per project
+Per location
+Aggregate
+Sublimit
+Split
+=====PAGE 49=====
+49
+Combined single
+Ordinance or law provision
+Vacancy vs. non-occupancy
+First Named insured provisions
+Duties after loss
+Assignment
+Abandonment
+Insurer provisions
+Liberalization
+Subrogation
+Salvage
+Loss settlement options
+Duty to defend
+Coinsurance
+Third-party provisions
+Standard mortgage clause
+Loss payable clause
+No benefit to the Bailee
+Certificate of Insurance vs. Binder (501-
+504)
+Dwelling (2014) Policy - 8%
+Purpose and eligibility
+Coverage forms — Perils insured against
+Basic
+Broad
+Special
+Property coverages
+Coverage A — Dwelling
+Coverage B — Other structures
+Coverage C — Personal property
+Coverage D — Fair rental value
+Coverage E — Additional living
+expense
+Other coverages
+General exclusions
+Conditions
+Selected Endorsements
+Special provisions — New York (DP 01
+31)
+Broad theft endorsement (DP 04 83)
+(DP 04 72)
+Dwelling under construction (DP 11
+43)
+Personal liability supplement
+Homeowners (2011) Policy - 24%
+Purpose and eligibility
+Coverage forms
+HO-2 through HO-6, HO-8
+Definitions
+Section I — Property coverages
+Coverage A — Dwelling
+Coverage B — Other structures
+Coverage C — Personal property
+Coverage D — Loss of use
+Additional coverages
+Section II — Liability coverages
+Coverage E — Personal liability
+Coverage F — Medical payments to
+others
+Additional coverages
+Perils insured against
+Exclusions
+Conditions
+Selected endorsements
+Special provisions — New York (HO 01
+31)
+Earthquake (HO 04 54)
+Identity fraud expense (HO 04 55)
+Scheduled personal property (HO 04
+61)
+Personal property replacement cost
+(HO 04 90)
+Home business (HO 07 01)
+Personal injury — New York (HO 24 86)
+Workers' compensation — certain
+residence employees — New York (HO
+24 93)
+Water Back Up and Sump Discharge or
+Overflow (HO 23 85)
+Auto Insurance - 24%
+Laws
+New York Motor Vehicle Financial
+Responsibility Law
+Required limits of liability (Veh &
+Traf 333)
+Transportation Network
+Companies (Ridesharing) (Veh &
+Traf Article 44-B)
+Required proof of insurance (Veh
+& Traf 311(3))
+Insurance Information and
+Enforcement System (IIES)
+notification to DMV (Veh & Traf
+313(2))
+Auto ID cards
+New York Automobile Insurance Plan
+(Assigned Risk) (5301–5304)
+Purpose
+Eligibility
+Coverage
+Binding authority
+Comprehensive Motor Vehicle
+Insurance Reparations Act (PIP) (5101–
+5108)
+Notice of claim
+Medical
+Rehabilitation
+Loss of earnings
+Funeral
+Substitution services
+Tort limitation/verbal threshold
+Optional coverages
+OBEL
+Additional PIP
+Motor Vehicle Accident
+Indemnification Corporation Act
+(5201–5225)
+Uninsured/Underinsured motorist
+(3420(f))
+Definitions
+Bodily injury only
+Required limits
+Mandatory coverage
+Supplementary
+uninsured/underinsured motorist
+coverage (3420(f)(2)(A)(B); Reg 35-A,
+Parts 60-2.0 to 60-2.4)
+Definitions
+Optional
+Nonstacking
+Coverage limits
+Mandatory inspection requirements for
+private passenger automobiles (Reg
+79, Parts 67.0 to 67.11)
+Cancellation/nonrenewal (3425)
+Grounds
+Notice
+Choice of repair shop (2610)
+Supplemental spousal liability
+(3420(g))
+Personal (2005) auto policy
+Purpose and eligibility
+Definitions
+Liability coverage
+Bodily injury and property
+damage
+Supplementary payments
+Who is insured
+Exclusions
+Medical payments coverage
+Coverage for damage to your auto
+Collision
+Other than
+collision/comprehensive
+Deductibles
+Transportation expenses
+Exclusions
+Duties after an accident or loss
+General provisions
+Selected endorsements
+Amendment of policy provisions —
+=====PAGE 50=====
+50
+New York (PP 01 79)
+Towing and labor costs (PP 03 03)
+Miscellaneous type vehicle — New
+York (PP 03 29)
+Named non-owner coverage —
+New York (PP 03 30)
+Rental vehicle coverage — New
+York (PP 03 46)
+Joint ownership coverage — New
+York (PP 03 78)
+Out of state coverage
+Other Coverages and Options - 7%
+Umbrella/excess liability policies
+Umbrella policies
+Personal (DL 98 01)
+National Flood Insurance Program
+Eligibility
+Coverage
+Flood definition
+Forms
+Dwelling
+General
+Residential Condominium Building
+Association Policy
+Other policies
+Watercraft
+New York Property Insurance
+Underwriting Association (FAIR PLAN)
+(5401-5412)
+Purpose
+Coverage
+Coastal Market Assistance Program (C-
+MAP)
+Excess lines (Reg 41, Part 27)
+Definition of Excess Lines
+(nonadmitted market)
+Licensing requirements (2105)
+Total cost form
+Affidavit
+Export list
+Disclosure (no guaranty fund)
+New York Bail Bond Agent

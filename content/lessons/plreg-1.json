@@ -1,0 +1,129 @@
+{
+  "sectionId": "plreg",
+  "lessons": [
+    {
+      "id": "plreg-l01",
+      "sectionId": "plreg",
+      "order": 1,
+      "title": "Getting and Keeping a Personal Lines License in New York",
+      "outlineIds": ["plreg.1", "plreg.1.1", "plreg.1.2", "plreg.1.2.1", "plreg.1.2.2", "plreg.1.2.3", "plreg.1.2.4", "plreg.1.2.5", "plreg.1.2.6", "plreg.1.3", "plreg.1.3.1", "plreg.1.3.2", "plreg.1.3.3", "plreg.1.3.4", "plreg.1.3.5", "plreg.1.3.6", "plreg.1.3.7", "plreg.1.4", "plreg.1.4.1", "plreg.1.4.2", "plreg.1.4.3", "plreg.1.4.4", "plreg.1.4.5", "plreg.1.5", "plreg.1.5.1", "plreg.1.5.2", "plreg.1.5.3"],
+      "estMinutes": 35,
+      "intro": "Before you can quote a homeowners policy or talk a driver through auto coverage options, New York requires a license. This lesson explains who needs one, the different kinds of licensees you will work alongside (agents, brokers, consultants, adjusters), how the Personal Lines license is obtained and renewed, what you must report to the Department of Financial Services (DFS), and how the superintendent disciplines licensees.",
+      "objectives": [
+        "Define producer, solicit, negotiate, sell and home state under Insurance Law § 2101",
+        "Describe the steps to obtain a New York Personal Lines agent or broker license",
+        "Distinguish agents, brokers, consultants, independent adjusters and public adjusters",
+        "Explain nonresident, business entity and temporary licenses",
+        "State the renewal, continuing education, name, address and reporting rules",
+        "Describe grounds for discipline, the hearing requirement and monetary penalties"
+      ],
+      "keyTerms": ["producer", "solicit", "negotiate", "sell", "home-state", "insurance-agent", "insurance-broker", "insurance-consultant", "adjuster", "nonresident-license", "temporary-license", "appointment", "continuing-education", "license-revocation", "superintendent"],
+      "parts": [
+        {
+          "heading": "Who must be licensed",
+          "body": "Under § 2102(a), no one may act as an insurance producer or adjuster in New York without a license. A [[producer]] (§ 2101(k)) is an agent, broker, excess lines broker or anyone else **required to be licensed to sell, solicit or negotiate insurance**. The three licensed acts are:\n\n- [[solicit|Solicit]] (§ 2101(o)): attempting to sell insurance, or asking or urging someone to apply for a particular kind of insurance from a particular insurer — for example, urging a new homeowner to apply for a homeowners policy with a specific company.\n- [[negotiate|Negotiate]] (§ 2101(m)): conferring with or advising a buyer about the substantive benefits, terms or conditions of a particular contract — explaining which deductible or liability limit fits a driver's needs.\n- [[sell|Sell]] (§ 2101(n)): exchanging a contract of insurance for money or its equivalent on behalf of a licensed insurer.\n\n**Who is not a producer:** § 2101(k) excludes insurer or agency employees who receive **no commission** on policies sold and whose work is executive, administrative, managerial or clerical, or relates to **underwriting, loss control, inspection or claims**. A salaried claims representative or a CSR who only processes paperwork does not need a producer license.",
+          "simple": "If you ask people to buy (solicit), talk with them about the terms (negotiate) or complete the sale (sell), you need a license. Office staff who only do clerical or claims work and get no sales commission do not.",
+          "callouts": [
+            { "kind": "ny-rule", "text": "§ 2101(k): a producer is anyone required to be licensed to sell, solicit or negotiate insurance; salaried employees doing only administrative, clerical, underwriting, inspection or claims work without commissions are excluded.", "sources": ["ny-isc-2101"] },
+            { "kind": "memory-tip", "text": "Solicit = the ASK. Negotiate = the TALK about terms. Sell = the DEAL." }
+          ]
+        },
+        {
+          "heading": "Getting the Personal Lines license",
+          "body": "A Personal Lines license lets an agent or broker handle the insurance individuals and families buy — chiefly homeowners, dwelling and personal auto coverage. The steps listed in the DFS/PSI bulletin:\n\n- Complete an approved **Personal Lines prelicensing course** — 40 hours minimum.\n- Pass the **PSI Series 17-54** examination.\n- Apply to DFS **within two years** of passing the exam, with the fee.\n- Be at least **18** when the license is issued (§ 2103(d)).\n\nPassing the exam does not guarantee a license. The superintendent may refuse an applicant who is not trustworthy and competent, has given cause for revocation or suspension, or has not met a prerequisite (§ 2103(h)). Applicants with a felony involving dishonesty or breach of trust must also obtain written consent under federal law (covered in the last lesson).\n\n**Shortcuts:** a holder of the **CPCU** designation may waive the education requirement and take only the Property Casualty Laws and Regulations exam (17-74). A person licensed as a **broker** in the same lines is exempt from the agent exam, and vice versa.",
+          "simple": "Take the 40-hour Personal Lines course, pass the 17-54 exam, apply within two years, and be at least 18. DFS still checks your background before issuing the license.",
+          "callouts": [
+            { "kind": "ny-rule", "text": "Personal Lines agent and broker licenses: 40-hour statutory minimum prelicensing course, exam 17-54; applications must be received within two years of passing the exam (DFS/PSI bulletin).", "sources": ["psi-ny-bulletin-2023", "dfs-prelicensing-criteria"] },
+            { "kind": "exam-trap", "text": "The Personal Lines course is 40 hours. The broader Property and Casualty license requires a 90-hour course — don't mix them up." }
+          ]
+        },
+        {
+          "heading": "Agents, brokers, consultants and adjusters",
+          "body": "- An [[insurance-agent]] (§ 2101(a)) acts for an **insurer**. An agent must have at least one company [[appointment]] to transact business; the insurer files it **within 15 days** of executing the agency contract or receiving the agent's first application (§ 2112(b)).\n- An [[insurance-broker]] (§ 2101(c)) acts **on behalf of the insured** for compensation. The bulletin describes brokers as representing the public; a broker may place business with any New York-licensed insurer that deals with brokers.\n- An [[insurance-consultant]] gives expert advice for a **fee**. A consultant cannot sell, solicit or negotiate — that would require an agent or broker license. The property/casualty version is called a **General Consultant** license.\n- [[adjuster|Adjusters]] (§ 2101(g)) handle claims. An **independent adjuster** investigates and adjusts claims **on behalf of the insurer**. A **public adjuster** acts **on behalf of the insured** in negotiating the settlement of a property damage claim, such as a homeowner's fire loss. Insurance company employees, lawyers and brokers listed in § 2101(g) are exempt from adjuster licensing, and New York has no reciprocity for adjuster licenses.",
+          "simple": "Agent = works for the insurance company. Broker = works for the customer. Consultant = paid advisor who cannot sell. Independent adjuster = settles claims for the company. Public adjuster = helps the homeowner with the claim.",
+          "example": {
+            "title": "Example: After the kitchen fire",
+            "body": "A fire damages the Patel family's home. Their insurer sends an independent adjuster to inspect the loss for the company. The Patels, feeling outmatched, hire a public adjuster to prepare and negotiate their claim. Their broker, who placed the policy, helps them understand the coverage. Each plays a different licensed role."
+          },
+          "callouts": [
+            { "kind": "exam-trap", "text": "'Independent' adjuster sounds neutral, but an independent adjuster works for the INSURER. The PUBLIC adjuster works for the insured." },
+            { "kind": "ny-rule", "text": "An insurer must file a notice of appointment within 15 days from the date the agency contract is executed or the first insurance application is submitted (§ 2112(b)).", "sources": ["ny-isc-2112"] }
+          ]
+        },
+        {
+          "heading": "Home state, nonresidents, business entities and temporary licenses",
+          "body": "Your [[home-state]] (§ 2101(l)) is where you maintain your principal place of residence or business and are licensed as a producer. A [[nonresident-license|nonresident]] applicant must be licensed and in good standing in the home state; the superintendent may waive the exam for nonresident agents (§ 2103(g)(5)). A producer licensed in another state who **moves to New York** must apply for a resident license **within 90 days** of establishing legal residence (§ 2103(g)(11)).\n\nA **business entity** (§ 2101(p)) — corporation, partnership, LLC and so on — can hold a license, but only individuals named as **sub-licensees** may act under it, and they are responsible for the entity's compliance (§ 2103(c), (e)).\n\nNew York's [[temporary-license]] (§ 2109) keeps an existing book of business running when a licensed agent or broker **dies, is called to military service, or becomes totally disabled**. No exam is needed. The temporary licensee may renew existing policies and collect premiums but may **not solicit, negotiate or sell new insurance**. For death or disability the term is up to 90 days, renewable to no more than 15 months in total; for military service, six-month terms ending no later than 60 days after discharge.",
+          "simple": "Your home state is where you mainly live or work. If you move to New York, apply for a resident license within 90 days. Companies can be licensed but act through named people. Temporary licenses only keep a dead, disabled or deployed producer's existing business going.",
+          "callouts": [
+            { "kind": "ny-rule", "text": "Temporary licenses under § 2109: no authority to solicit, negotiate or sell new insurance; death/disability terms up to 90 days, renewable up to 15 months in the aggregate.", "sources": ["ny-isc-2109"] },
+            { "kind": "exam-trap", "text": "In New York a temporary license is NOT a trainee license for new producers." }
+          ]
+        },
+        {
+          "heading": "Renewal, CE, names, addresses and reporting",
+          "body": "- **Renewal:** licenses are renewed every two years. An individual license expires on the licensee's **birthday** — in odd-numbered years if born in an odd year, even-numbered years if born in an even year. File the agent renewal application **at least 60 days** before expiration to avoid a late fee (§ 2103(j)(10)); a renewal filed before expiration keeps the license in force until DFS acts (§ 2103(j)(7)).\n- [[continuing-education|Continuing education]]: resident agents, brokers, consultants and public adjusters complete **15 CE credits** each two-year licensing period, once the license has been in effect a full two years. Approved courses cannot be repeated for credit. Nonresidents attest to home-state CE compliance.\n- **Assumed names:** notify DFS of a legal name change, and do not do business under any other name until the superintendent **approves it in advance** (§ 2102(f)).\n- **Change of address:** notify the superintendent **within 30 days** (§ 2134(a)).\n- **Reporting actions:** report any administrative action taken against you in another jurisdiction or by another New York agency **within 30 days of final disposition**, and any criminal prosecution **within 30 days of the initial pretrial hearing date** (§ 2110(i), (j)).",
+          "simple": "Renew every two years on your birthday. Earn 15 CE credits each cycle after your first full two years. Get DFS approval before using a business name. Report a move within 30 days, and report other regulators' actions or criminal charges within 30 days.",
+          "callouts": [
+            { "kind": "ny-rule", "text": "15 CE credits per biennial licensing period once the license has been in effect a full two years (DFS/PSI bulletin, updated 4/28/2023). CE rules can change — confirm with DFS.", "sources": ["psi-ny-bulletin-2023"] },
+            { "kind": "ny-rule", "text": "Change of address: within 30 days (§ 2134). Administrative actions: within 30 days of final disposition; criminal prosecutions: within 30 days of the initial pretrial hearing date (§ 2110(i)-(j)).", "sources": ["ny-isc-2134", "ny-isc-2110"] },
+            { "kind": "memory-tip", "text": "Thirty is the magic number for keeping DFS informed: address, actions, prosecutions." }
+          ]
+        },
+        {
+          "heading": "Discipline: hearings, revocation and penalties",
+          "body": "The [[superintendent]] of Financial Services may **refuse to renew, revoke or suspend** a license **after notice and hearing** (§ 2110(a)). Grounds include violating insurance laws or regulations, lying on a license application, fraudulent or dishonest practices, incompetence or untrustworthiness, misappropriating money received in the business, **intentionally misrepresenting the terms of an actual or proposed insurance contract**, a felony conviction, forging a name on an application, and knowingly accepting business from an unlicensed person.\n\n- The hearing is held **not less than 10 days** after notice (§ 2110(b)).\n- After [[license-revocation|revocation]], the person cannot obtain any license under the Insurance Law for **one year** (§ 2110(e)).\n- Instead of revoking or suspending, the superintendent may order a penalty of up to **$500 per offense and $2,500 in the aggregate** in one proceeding; failing to pay within 20 days of the mailed order can lead to revocation or suspension (§ 2127).\n- Surrendering or letting a license lapse does not end the superintendent's power to enforce (§ 2110(h)).",
+          "simple": "DFS can suspend, revoke or refuse to renew a license, but must give notice and a hearing first. A revoked licensee waits one year. Fines in place of revocation are up to $500 per offense, $2,500 total.",
+          "callouts": [
+            { "kind": "ny-rule", "text": "Penalty in lieu of revocation or suspension: up to $500 per offense and $2,500 aggregate (§ 2127(a)).", "sources": ["ny-isc-2127"] },
+            { "kind": "memory-tip", "text": "10 days' notice, 1 year out, $500 / $2,500." }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "match",
+        "prompt": "Match each licensee to whom it represents or what it does.",
+        "pairs": [
+          { "left": "Insurance agent", "right": "Represents the insurer that appointed it" },
+          { "left": "Insurance broker", "right": "Acts on behalf of the insured" },
+          { "left": "General (P&C) consultant", "right": "Gives fee-based advice but cannot sell" },
+          { "left": "Independent adjuster", "right": "Adjusts claims for the insurer" },
+          { "left": "Public adjuster", "right": "Negotiates a property claim for the insured" },
+          { "left": "Temporary licensee", "right": "Services an existing book after a producer's death, disability or military call-up" }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Within what period must a producer who moves to New York from another state apply for a resident license?",
+          "choices": ["90 days of establishing legal residence", "30 days of the move", "One year", "Before the next birthday renewal"],
+          "answerIndex": 0,
+          "explanation": "§ 2103(g)(11) requires a resident application within ninety days of establishing legal residence in New York."
+        },
+        {
+          "prompt": "A salaried auto claims representative who receives no sales commission and never sells policies is:",
+          "choices": ["Not a producer under § 2101(k)", "Required to hold a Personal Lines agent license", "Required to hold a broker license", "A consultant"],
+          "answerIndex": 0,
+          "explanation": "§ 2101(k) excludes non-commissioned employees whose work relates to claims, underwriting, inspection or clerical tasks."
+        },
+        {
+          "prompt": "What is the maximum aggregate penalty the superintendent may impose in one proceeding in lieu of revoking a license under § 2127?",
+          "choices": ["$2,500", "$500", "$5,000", "$25,000"],
+          "answerIndex": 0,
+          "explanation": "§ 2127(a): up to $500 per offense and $2,500 in the aggregate for all offenses in one proceeding."
+        }
+      ],
+      "summary": [
+        "Anyone who solicits, negotiates or sells insurance must be licensed as a producer; non-commissioned clerical, underwriting and claims staff are excluded.",
+        "Personal Lines license: 40-hour course, PSI exam 17-54, apply within two years, age 18; DFS may refuse untrustworthy applicants.",
+        "Agents represent insurers and need an appointment (filed within 15 days); brokers represent insureds; consultants advise for a fee; independent adjusters work for insurers, public adjusters for insureds.",
+        "Renew every two years on your birthday cycle, earn 15 CE credits per cycle after the first full two years, get prior approval for assumed names, and report address changes and actions within 30 days.",
+        "Discipline requires notice and a hearing at least 10 days later; revocation bars relicensing for one year; § 2127 penalties are up to $500 per offense and $2,500 total."
+      ],
+      "related": ["plreg-l02", "plreg-l03"],
+      "sources": ["ny-isc-2101", "ny-isc-2102", "ny-isc-2103", "ny-isc-2109", "ny-isc-2110", "ny-isc-2112", "ny-isc-2127", "ny-isc-2134", "psi-ny-bulletin-2023", "dfs-prelicensing-criteria"],
+      "nySpecific": true,
+      "timeSensitive": true,
+      "reviewDue": "2027-11-19",
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19", "notes": "CE credit count and prelicensing hours from the PSI/DFS bulletin (4/28/2023) and DFS course standards; time-sensitive." }
+    }
+  ]
+}

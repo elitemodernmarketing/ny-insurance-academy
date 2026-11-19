@@ -1,0 +1,281 @@
+{
+  "sectionId": "ltc",
+  "terms": [
+    {
+      "id": "long-term-care-insurance",
+      "term": "Long-Term Care Insurance",
+      "aliases": ["LTC insurance", "LTCI"],
+      "sectionId": "ltc",
+      "outlineIds": ["ltc.1", "ltc.1.1"],
+      "formal": "Insurance that pays benefits for diagnostic, preventive, therapeutic, rehabilitative, maintenance or personal care services provided in a setting other than an acute-care hospital, for an extended period, typically when the insured cannot perform activities of daily living or has a severe cognitive impairment.",
+      "plain": "LTC insurance helps pay for ongoing help with everyday living — at home, in adult day care, in assisted living or in a nursing home — when a chronic illness, disability or dementia means you need care for months or years.",
+      "simpler": "Health insurance pays to fix a medical problem. LTC insurance pays for the help you need to get through the day when the problem can't be fixed.",
+      "examples": [
+        "After a stroke, Ruth, 78, needs a home health aide to help her bathe and dress every day; her LTC policy reimburses the aide's charges up to her daily benefit.",
+        "Leon has Alzheimer's disease and moves into a nursing home; his LTC policy pays a daily benefit because his severe cognitive impairment meets the policy's benefit trigger."
+      ],
+      "examTip": "The key exam contrast: Medicare covers short-term SKILLED care after a hospital stay; it does not cover long-term CUSTODIAL care. LTC insurance (and, for people with low income/assets, Medicaid) fills that gap.",
+      "misconception": "Many people believe Medicare or their regular health insurance will pay for an extended nursing home stay. Medicare does not pay for long-term custodial care.",
+      "related": ["custodial-care", "activities-of-daily-living", "cognitive-impairment", "medicare", "medicaid", "ltc-partnership"],
+      "confusedWith": ["medicare-supplement", "disability-income-insurance"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which type of coverage is designed mainly to pay for extended custodial care when a person cannot perform activities of daily living?",
+        "choices": ["Long-term care insurance", "Medicare Part A", "Disability income insurance", "Medicare supplement insurance"],
+        "answerIndex": 0,
+        "explanation": "LTC insurance covers extended personal/custodial care. Medicare Part A covers only limited skilled care; disability income replaces lost earnings; Medigap fills Medicare's cost-sharing gaps and does not add long-term custodial care."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "skilled-care",
+      "term": "Skilled Care",
+      "aliases": ["skilled nursing care"],
+      "sectionId": "ltc",
+      "outlineIds": ["ltc.1.3", "ltc.1.3.1"],
+      "formal": "The highest level of long-term care: daily nursing and rehabilitative care that is medically necessary, ordered by a physician, and performed by or under the supervision of licensed professionals such as registered nurses or licensed therapists, available 24 hours a day.",
+      "plain": "Skilled care is medical care that only a trained professional can safely give — for example wound care, IV medications, or physical therapy after surgery — under a doctor's orders.",
+      "simpler": "If the task needs a nurse's or therapist's license to do it, it's skilled care.",
+      "examples": [
+        "After hip-replacement surgery, Doris spends two weeks in a skilled nursing facility receiving daily physical therapy and nurse-managed wound care.",
+        "A registered nurse visits Ken at home to manage his IV antibiotics and monitor his surgical incision."
+      ],
+      "examTip": "Skilled care is the ONLY nursing-facility level Medicare Part A covers, and only for a limited time following a qualifying hospital stay. Look for words like 'physician's orders', 'licensed nurse', '24-hour', 'rehabilitation'.",
+      "misconception": "Skilled care is not the same as any care given in a nursing home. A nursing home resident who only needs help bathing and dressing is receiving custodial care, even though she lives in the same building.",
+      "related": ["intermediate-care", "custodial-care", "nursing-home-care", "medicare-part-a"],
+      "confusedWith": ["intermediate-care", "custodial-care"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which level of care is medically necessary, ordered by a physician, and provided around the clock by licensed medical personnel?",
+        "choices": ["Skilled care", "Intermediate care", "Custodial care", "Respite care"],
+        "answerIndex": 0,
+        "explanation": "Skilled care is daily, 24-hour care by licensed professionals under physician orders. Intermediate care is occasional (not daily) skilled care; custodial care is help with daily living; respite care is temporary relief for a family caregiver."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "intermediate-care",
+      "term": "Intermediate Care",
+      "aliases": [],
+      "sectionId": "ltc",
+      "outlineIds": ["ltc.1.3", "ltc.1.3.2"],
+      "formal": "A level of long-term care for stable patients who need occasional (intermittent, not daily) skilled nursing or rehabilitative care ordered by a physician and provided by licensed personnel.",
+      "plain": "Intermediate care sits between skilled and custodial care: the person is stable but still needs a nurse or therapist from time to time — not every day.",
+      "simpler": "Skilled care = a nurse every day. Intermediate care = a nurse some days. Custodial care = a helper, not a nurse.",
+      "examples": [
+        "Frank's diabetes is stable, but a nurse checks his feet and adjusts his insulin plan twice a week at the facility where he lives.",
+        "Gloria receives physical therapy three times a week to maintain mobility after a fall, while aides help her with everything else."
+      ],
+      "examTip": "The exam distinguishes the three levels by frequency and who provides care: skilled = daily, licensed, 24/7; intermediate = intermittent, licensed; custodial = daily-living help that a non-medical person could provide.",
+      "misconception": "Intermediate care does not mean 'medium-length' care. It refers to the intensity and frequency of skilled services, not how long the stay lasts.",
+      "related": ["skilled-care", "custodial-care", "nursing-home-care"],
+      "confusedWith": ["skilled-care", "custodial-care"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A stable patient who needs a licensed nurse only a few times a week, rather than daily, is receiving which level of care?",
+        "choices": ["Intermediate care", "Skilled care", "Custodial care", "Hospice care"],
+        "answerIndex": 0,
+        "explanation": "Occasional (intermittent) skilled services for a stable patient = intermediate care. Skilled care is daily; custodial care requires no licensed provider; hospice is end-of-life comfort care."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "custodial-care",
+      "term": "Custodial Care",
+      "aliases": ["personal care", "non-skilled care"],
+      "sectionId": "ltc",
+      "outlineIds": ["ltc.1.3", "ltc.1.3.3"],
+      "formal": "Non-medical care that helps a person with activities of daily living (such as bathing, dressing, eating, toileting, transferring and continence) or provides supervision, which can be given by people without professional medical training.",
+      "plain": "Custodial care is everyday personal help — getting in and out of bed, bathing, dressing, eating — the kind of help a family member or aide can give without a nursing license.",
+      "simpler": "Custodial care is help with the basics of daily life, not medical treatment.",
+      "examples": [
+        "An aide comes to Hector's apartment every morning to help him shower and dress; no nurse is involved.",
+        "Mae lives in a nursing home only because she needs supervision and help eating due to dementia; her care there is custodial."
+      ],
+      "examTip": "Custodial care is the most common form of long-term care and is NOT covered by Medicare (except in limited hospice or incidental situations). It is what LTC insurance is mainly designed to pay for.",
+      "misconception": "Custodial care is not 'cheap' or 'minor' care. Because it is often needed for years, it is usually the largest long-term care expense a family faces.",
+      "related": ["activities-of-daily-living", "skilled-care", "intermediate-care", "home-health-care", "long-term-care-insurance"],
+      "confusedWith": ["skilled-care", "intermediate-care"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Help with bathing, dressing and eating that does not require a licensed medical professional is called:",
+        "choices": ["Custodial care", "Skilled care", "Intermediate care", "Acute care"],
+        "answerIndex": 0,
+        "explanation": "Help with activities of daily living by non-licensed caregivers is custodial care. Skilled and intermediate care require licensed personnel; acute care is short-term hospital treatment."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "home-health-care",
+      "term": "Home Health Care",
+      "aliases": ["home care"],
+      "sectionId": "ltc",
+      "outlineIds": ["ltc.1.4", "ltc.1.4.1"],
+      "formal": "Long-term care services delivered in the insured's own home, which may include part-time skilled nursing, therapy, home health aide services, and help with activities of daily living.",
+      "plain": "Home health care brings the help to you — nurses, therapists or aides visit your home so you don't have to move into a facility.",
+      "simpler": "Instead of going to the care, the care comes to your house.",
+      "examples": [
+        "A home health aide spends four hours a day helping Rosa with meals and bathing so she can keep living in her own house.",
+        "A physical therapist visits Paul at home twice a week after a knee replacement."
+      ],
+      "examTip": "Most people prefer to receive care at home, so modern LTC policies commonly cover home health care as well as facility care. Don't assume an LTC policy is 'nursing home only'.",
+      "misconception": "Home health care is not limited to skilled nursing; under LTC policies it often includes personal (custodial) care by aides.",
+      "related": ["adult-day-care", "respite-care", "custodial-care", "long-term-care-insurance"],
+      "confusedWith": ["adult-day-care"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Care provided by visiting aides, nurses or therapists in the insured's residence is called:",
+        "choices": ["Home health care", "Adult day care", "Assisted living", "Respite care"],
+        "answerIndex": 0,
+        "explanation": "Care delivered in the insured's own home is home health care. Adult day care is provided at a community center during the day; assisted living is a residential facility; respite care gives a family caregiver temporary relief."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "adult-day-care",
+      "term": "Adult Day Care",
+      "aliases": ["adult day health care"],
+      "sectionId": "ltc",
+      "outlineIds": ["ltc.1.4", "ltc.1.4.2"],
+      "formal": "Care provided during daytime hours in a community-based center for adults who need supervision, social activities, health monitoring or personal care, while they continue to live at home.",
+      "plain": "Adult day care is a supervised daytime program outside the home; the person goes home at night, often to family caregivers who work during the day.",
+      "simpler": "Think of it as day care, but for adults who shouldn't be alone all day.",
+      "examples": [
+        "Nina drops off her father, who has early dementia, at an adult day center each weekday morning before work and picks him up at 5 p.m.",
+        "At the day center, staff help Walter with lunch, give him his medications and run group exercise classes."
+      ],
+      "examTip": "Key feature: the insured lives at home and attends a center during the day. Often paired on the exam with respite care, because both help family caregivers.",
+      "misconception": "Adult day care is not an overnight or residential service; the participant returns home each day.",
+      "related": ["home-health-care", "respite-care", "custodial-care"],
+      "confusedWith": ["respite-care", "home-health-care"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "An insured who lives at home but spends weekdays at a supervised community center is receiving:",
+        "choices": ["Adult day care", "Home health care", "Assisted living", "Skilled nursing facility care"],
+        "answerIndex": 0,
+        "explanation": "A daytime program at a center, with the person returning home at night, is adult day care. Home health care comes to the home; assisted living and skilled nursing facilities are residential."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "respite-care",
+      "term": "Respite Care",
+      "aliases": [],
+      "sectionId": "ltc",
+      "outlineIds": ["ltc.1.4", "ltc.1.4.3"],
+      "formal": "Short-term care provided to a person who needs long-term care in order to give the regular unpaid caregiver (usually a family member) temporary relief.",
+      "plain": "Respite care lets the family caregiver take a break — a vacation, a rest, or time to handle their own health — while someone else cares for their loved one for a short time.",
+      "simpler": "Respite care is a break for the caregiver, not a new kind of treatment for the patient.",
+      "examples": [
+        "Carla has cared for her husband at home for two years; his LTC policy pays for a one-week stay in a facility while she attends her daughter's wedding out of state.",
+        "An aide covers weekend shifts so that Tom, who cares for his mother full-time, can rest."
+      ],
+      "examTip": "The giveaway word is 'relief' (or 'break') for the primary caregiver. The benefit is for the caregiver's sake, though it is paid under the patient's policy.",
+      "misconception": "Respite care is not a long stay; it is temporary by definition. A permanent move to a facility is nursing home or assisted living care.",
+      "related": ["adult-day-care", "home-health-care", "long-term-care-insurance"],
+      "confusedWith": ["adult-day-care"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "An LTC benefit that provides short-term care so the insured's family caregiver can have a break is called:",
+        "choices": ["Respite care", "Adult day care", "Hospice care", "Intermediate care"],
+        "answerIndex": 0,
+        "explanation": "Respite care gives temporary relief to an unpaid caregiver. Adult day care is a daytime center program; hospice is end-of-life care; intermediate care is a level of skilled care."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "nursing-home-care",
+      "term": "Nursing Home Care",
+      "aliases": ["nursing facility care", "nursing home facility care"],
+      "sectionId": "ltc",
+      "outlineIds": ["ltc.1.4", "ltc.1.4.4"],
+      "formal": "Care provided to a resident of a licensed nursing facility, which may include skilled, intermediate, or custodial care, together with room and board, around the clock.",
+      "plain": "Nursing home care means living in a licensed facility that provides 24-hour supervision and care — from nursing services to help with eating and bathing.",
+      "simpler": "A nursing home is a place where you live and staff take care of you day and night.",
+      "examples": [
+        "After several falls and advancing dementia, Anna moves into a nursing home where staff supervise her 24 hours a day.",
+        "Bill's LTC policy pays its daily benefit for each day he is a resident of a licensed nursing facility."
+      ],
+      "examTip": "A nursing home can provide all three levels of care. The level of care, not the building, determines whether Medicare pays (skilled, limited time) or not (custodial).",
+      "misconception": "Living in a nursing home does not automatically mean Medicare pays. Medicare does not pay for custodial care in a nursing home.",
+      "related": ["skilled-care", "intermediate-care", "custodial-care", "assisted-living"],
+      "confusedWith": ["assisted-living"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which care setting provides 24-hour care and can include skilled, intermediate and custodial levels of care?",
+        "choices": ["Nursing home", "Adult day care center", "Insured's own home with weekly visits", "Physician's office"],
+        "answerIndex": 0,
+        "explanation": "Nursing homes are licensed residential facilities offering round-the-clock care at all three levels. The other settings do not provide continuous 24-hour care."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "assisted-living",
+      "term": "Assisted Living",
+      "aliases": ["assisted living facility", "ALF"],
+      "sectionId": "ltc",
+      "outlineIds": ["ltc.1.4", "ltc.1.4.5"],
+      "formal": "A residential setting that provides housing, meals, supervision and help with activities of daily living to people who need some assistance but do not require the continuous medical care of a nursing home.",
+      "plain": "Assisted living is a middle step between living fully independently and a nursing home: you have your own apartment or room, and staff help with things like medications, bathing and meals.",
+      "simpler": "Your own place, plus help when you need it.",
+      "examples": [
+        "Marta can no longer manage her medications or cook safely, so she moves into an assisted living residence where staff remind her and serve meals.",
+        "Joe's LTC policy pays benefits while he lives in an assisted living facility because he needs hands-on help bathing and dressing."
+      ],
+      "examTip": "If the question describes private living quarters with help for daily activities but NOT 24-hour nursing, the answer is assisted living, not a nursing home.",
+      "misconception": "Assisted living is not the same as a nursing home; it generally does not provide continuous skilled nursing care.",
+      "related": ["nursing-home-care", "custodial-care", "activities-of-daily-living"],
+      "confusedWith": ["nursing-home-care"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A residence offering private apartments, meals and help with daily activities, but not continuous skilled nursing, is called:",
+        "choices": ["Assisted living", "Skilled nursing facility", "Adult day care", "Acute-care hospital"],
+        "answerIndex": 0,
+        "explanation": "Assisted living combines housing with personal-care help. Skilled nursing facilities provide 24-hour licensed nursing; adult day care is non-residential; hospitals provide acute treatment."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    }
+  ],
+  "comparisons": [
+    {
+      "a": "skilled-care",
+      "b": "custodial-care",
+      "keyDifference": "Skilled care is medical care that requires licensed professionals under a physician's orders; custodial care is non-medical help with daily living that untrained caregivers can provide.",
+      "rows": [
+        { "aspect": "Who provides it", "a": "Licensed nurses and therapists, under physician orders", "b": "Aides, family members or other non-licensed caregivers" },
+        { "aspect": "What it involves", "a": "Wound care, IV medication, rehabilitation therapy", "b": "Bathing, dressing, eating, toileting, transferring, supervision" },
+        { "aspect": "Frequency", "a": "Daily, available 24 hours", "b": "Daily, often for years" },
+        { "aspect": "Medicare coverage", "a": "Limited coverage in a skilled nursing facility after a qualifying hospital stay", "b": "Not covered as long-term care" },
+        { "aspect": "Primary payer for long stays", "a": "Medicare (short-term), private insurance", "b": "LTC insurance, personal savings, Medicaid" }
+      ],
+      "memoryTip": "Skilled = needs a Skill (license). Custodial = Custody of daily life."
+    }
+  ]
+}

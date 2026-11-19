@@ -1,0 +1,670 @@
+{
+  "sectionId": "ltc",
+  "questions": [
+    {
+      "id": "ltc-q015",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.2.2"
+      ],
+      "concepts": [
+        "long-term-care-insurance",
+        "outline-of-coverage"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "The New York required disclosure statement for a long-term care insurance policy must state which of the following?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "That the policy guarantees premiums will never increase",
+          "rationale": "Incorrect: the statement must disclose that the policy may be subject to future premium rate increases, subject to the Superintendent's approval or modification."
+        },
+        {
+          "id": "b",
+          "text": "That this is not Medicare supplement insurance",
+          "rationale": "Correct: Item 4 of the 11 NYCRR 52.65 form reads 'THIS IS NOT MEDICARE SUPPLEMENT INSURANCE.'"
+        },
+        {
+          "id": "c",
+          "text": "That the disclosure statement is the insurance contract",
+          "rationale": "Incorrect: the form says it is NOT an insurance contract, only a summary of coverage."
+        },
+        {
+          "id": "d",
+          "text": "That Alzheimer's disease is excluded",
+          "rationale": "Incorrect: the form must state that the policy covers Alzheimer's disease and other organic brain disorders."
+        }
+      ],
+      "correct": "b",
+      "explanation": "The 11 NYCRR 52.65 required disclosure statement summarizes key features: the free-look right; 'THIS IS NOT MEDICARE SUPPLEMENT INSURANCE'; benefits (including coverage of Alzheimer's disease); limitations and exclusions; renewability; premium information, including that rates may increase with the Superintendent's approval, a 10-year rate history and at least 90 days' notice of any premium change; and nonforfeiture benefits. It is a summary, not the contract.",
+      "memoryTip": "The disclosure statement says what LTC is NOT: not the contract, and not Medigap.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52-65"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q016",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.2.2"
+      ],
+      "concepts": [
+        "long-term-care-insurance"
+      ],
+      "difficulty": 3,
+      "style": "concept",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "stem": "According to the New York LTC required disclosure statement, a policy that qualifies as 'long term care insurance' (rather than nursing-home-only or home-care-only coverage) is designed to provide coverage for at least how long for each covered person?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "12 consecutive months",
+          "rationale": "Incorrect: 12 months is the minimum described for nursing-home-only, home-care-only, or nursing home and home care policies, which are NOT long term care insurance as DFS defines it."
+        },
+        {
+          "id": "b",
+          "text": "6 consecutive months",
+          "rationale": "Incorrect: six months is the maximum preexisting-condition exclusion period, not a benefit duration."
+        },
+        {
+          "id": "c",
+          "text": "24 consecutive months",
+          "rationale": "Correct: the 52.65 form describes LTC insurance as providing coverage for not less than 24 consecutive months, covering all levels of nursing home care plus home care."
+        },
+        {
+          "id": "d",
+          "text": "36 consecutive months",
+          "rationale": "Incorrect: this is not the minimum stated in the disclosure statement."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Item 5 of 11 NYCRR 52.65 states that long term care insurance policies are designed to provide coverage for not less than 24 consecutive months for each covered person and cover all levels of care in a nursing home and home care benefits. Nursing-home-only and home-care-only categories have a 12-month minimum and must say they do NOT provide long term care insurance as DFS defines it.",
+      "memoryTip": "Full LTC = 24 months of all levels; partial (NH-only / HC-only) = 12.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52-65"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q017",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.2.3",
+        "ltc.1.11"
+      ],
+      "concepts": [
+        "long-term-care-insurance",
+        "skilled-care"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording",
+        "ny-law"
+      ],
+      "stem": "A New York LTC policy is permitted to do each of the following EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Exclude care received outside the United States",
+          "rationale": "Incorrect: this is a permitted exclusion."
+        },
+        {
+          "id": "b",
+          "text": "Exclude services provided by a member of the insured's immediate family",
+          "rationale": "Incorrect: services by immediate family members may be excluded."
+        },
+        {
+          "id": "c",
+          "text": "Revise premium rates on a class basis",
+          "rationale": "Incorrect: guaranteed renewable LTC policies may change premiums on a class basis."
+        },
+        {
+          "id": "d",
+          "text": "Require a prior hospital stay before nursing home benefits are paid",
+          "rationale": "Correct: 11 NYCRR 52.25(c)(1)(i) prohibits requiring prior hospitalization or a prior level of care as a condition of benefits."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Under 11 NYCRR 52.25(c)(1), an LTC policy may not limit benefits by requiring prior hospitalization or a prior level of care, by requiring an acute condition, by limiting covered services to RNs or LPNs, or by limiting benefits to Medicare-certified providers. Excluding foreign care and family-provided services, and class-basis rate changes, are allowed.",
+      "memoryTip": "LTC can't demand a hospital ticket first.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52-25"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q018",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.12",
+        "ltc.2.3"
+      ],
+      "concepts": [
+        "long-term-care-insurance",
+        "rescission"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "scenario": "An LTC insurer asked Pat to list her medications on the application. She listed a drug that is used only to treat Parkinson's disease, and the insurer issued the policy without asking more questions. Three years later Pat files a Parkinson's-related claim, and the insurer wants to review her health history for the first time.",
+      "stem": "What is the most accurate statement about the insurer's position?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It may rescind, because Pat named a drug rather than the disease itself",
+          "rationale": "Incorrect: when listed medications were known or should have been known to relate to a condition, the policy cannot be rescinded for that condition."
+        },
+        {
+          "id": "b",
+          "text": "It cannot rescind for that condition; underwriting only after a claim is prohibited",
+          "rationale": "Correct: New York prohibits post-claims underwriting and bars rescission for a condition directly related to disclosed medications."
+        },
+        {
+          "id": "c",
+          "text": "It may deny the claim as a preexisting condition for the life of the policy",
+          "rationale": "Incorrect: LTC preexisting-condition exclusions may last no more than six months after the effective date."
+        },
+        {
+          "id": "d",
+          "text": "It may rescind, as long as it refunds all premiums with interest",
+          "rationale": "Incorrect: refunding premiums does not cure prohibited post-claims underwriting."
+        }
+      ],
+      "correct": "b",
+      "explanation": "11 NYCRR 52.25(d)(1) prohibits post-claims underwriting — waiting until a claim to underwrite. Under 52.25(d)(2), if the application asks about medications and the listed medications were known or should have been known to relate directly to a condition for which coverage would otherwise be denied, the policy may not be rescinded for that condition.",
+      "memoryTip": "Underwrite at the START, not at the CLAIM.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Post-claims underwriting is prohibited",
+            "anyOf": [
+              "post-claims",
+              "post claims",
+              "after the claim",
+              "after a claim"
+            ]
+          },
+          {
+            "label": "Disclosed medication put the insurer on notice",
+            "anyOf": [
+              "medication",
+              "drug",
+              "should have known",
+              "on notice"
+            ]
+          },
+          {
+            "label": "Cannot rescind for that condition",
+            "anyOf": [
+              "cannot rescind",
+              "can't rescind",
+              "may not rescind",
+              "no rescission"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52-25"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q019",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.2.4"
+      ],
+      "concepts": [
+        "long-term-care-insurance",
+        "twisting"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "Producer Eli is helping Faye apply for a new LTC policy. Faye's answers show she intends to drop an existing accident and health policy once the new one is issued.",
+      "stem": "Under New York's LTC replacement rules, what must happen before the new policy is issued or delivered?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Faye must be given a notice regarding replacement, and the insurer keeps a copy she has signed",
+          "rationale": "Correct: 11 NYCRR 52.29(c) requires the replacement notice to be furnished before issuance or delivery, with a signed copy retained by the insurer."
+        },
+        {
+          "id": "b",
+          "text": "Eli must obtain written permission from Faye's current insurer",
+          "rationale": "Incorrect: the notice suggests Faye may consult her current insurer, but its permission is not required."
+        },
+        {
+          "id": "c",
+          "text": "The new insurer must pay Eli a higher first-year commission to cover his extra paperwork",
+          "rationale": "Incorrect: in a replacement, compensation may not exceed the replacing insurer's renewal compensation."
+        },
+        {
+          "id": "d",
+          "text": "Faye must cancel the existing policy before she applies",
+          "rationale": "Incorrect: nothing requires cancellation first, and doing so could leave her uninsured."
+        }
+      ],
+      "correct": "a",
+      "explanation": "11 NYCRR 52.29 requires the LTC application to ask whether the policy will replace other A&H coverage and to list existing policies. The producer signs a statement that the replacement or added coverage is appropriate for the applicant's needs. When a sale involves replacement, the insurer or agent (other than a direct response insurer) must give the applicant a replacement notice before issuance or delivery. One copy goes to the applicant, and a copy she has signed is kept by the insurer.",
+      "memoryTip": "Replacing? Notice BEFORE delivery, signed copy to the insurer.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Replacement notice furnished",
+            "anyOf": [
+              "notice",
+              "replacement notice"
+            ]
+          },
+          {
+            "label": "Before issuance or delivery",
+            "anyOf": [
+              "before",
+              "prior to"
+            ]
+          },
+          {
+            "label": "Signed copy retained by insurer",
+            "anyOf": [
+              "signed",
+              "copy",
+              "retain"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52-29"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q020",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.2.4",
+        "ltc.2.3"
+      ],
+      "concepts": [
+        "long-term-care-insurance",
+        "producer-compensation-disclosure"
+      ],
+      "difficulty": 3,
+      "style": "concept",
+      "tags": [
+        "ny-law",
+        "tricky",
+        "negative-wording"
+      ],
+      "stem": "When a new LTC policy replaces an existing one in New York, the producer's compensation on the replacement sale may NOT exceed:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The first-year commission paid by the original insurer on the replaced policy",
+          "rationale": "Incorrect: the limit is tied to the replacing insurer's renewal compensation, not the original policy's first-year commission."
+        },
+        {
+          "id": "b",
+          "text": "The renewal compensation the replacing insurer pays on renewal policies",
+          "rationale": "Correct: 11 NYCRR 52.25(e)(3) caps replacement compensation at the replacing insurer's renewal level."
+        },
+        {
+          "id": "c",
+          "text": "One full year's premium payable on the new replacement policy",
+          "rationale": "Incorrect: no such limit appears in the regulation."
+        },
+        {
+          "id": "d",
+          "text": "Whatever amount the policyowner approves in writing at the time of sale",
+          "rationale": "Incorrect: the policyowner's consent does not change the regulatory cap."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Normally an LTC insurer may pay a higher first-year commission than renewal commission (11 NYCRR 52.25(e)(1)). But under 52.25(e)(3), in a replacement no insurer may pay, and no producer may receive, compensation greater than the replacing insurer's renewal compensation. This removes the incentive to replace (churn) policies just to earn new first-year commissions.",
+      "memoryTip": "Replacement pays renewal rates — no first-year bonus for churning.",
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52-25"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q021",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.10"
+      ],
+      "concepts": [
+        "hybrid-ltc"
+      ],
+      "difficulty": 1,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Glen, 58, wants LTC protection but worries that if he never needs care, the premiums will have been 'wasted'. He would like his children to receive something if he dies without using LTC benefits.",
+      "stem": "Which product best fits Glen's concern?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A nursing-home-only policy",
+          "rationale": "Incorrect: this narrows LTC coverage and pays nothing to heirs if unused."
+        },
+        {
+          "id": "b",
+          "text": "A Medicare supplement policy",
+          "rationale": "Incorrect: Medigap fills Medicare cost-sharing gaps; it does not provide LTC or a death benefit."
+        },
+        {
+          "id": "c",
+          "text": "A life insurance policy with an LTC (linked-benefit) feature",
+          "rationale": "Correct: a hybrid pays LTC benefits if needed, and otherwise a death benefit goes to the beneficiaries."
+        },
+        {
+          "id": "d",
+          "text": "A stand-alone LTC policy with no optional riders",
+          "rationale": "Incorrect: a basic stand-alone policy pays nothing if care is never needed."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Hybrid (linked-benefit) products combine LTC coverage with life insurance or an annuity. If care is needed, LTC benefits are paid (typically reducing the death benefit or annuity value); if not, the death benefit or annuity value remains.",
+      "memoryTip": "Hybrid: use it for care — or it goes to your heirs.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q022",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.8.6",
+        "ltc.1.8.4",
+        "ltc.1.8.5"
+      ],
+      "concepts": [
+        "shared-care"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Which optional LTC benefit lets the insured buy more coverage later without proving good health?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Return of premium benefit",
+          "rationale": "Incorrect: return of premium refunds some or all premiums on death or surrender, as the policy specifies."
+        },
+        {
+          "id": "b",
+          "text": "Shared care benefit",
+          "rationale": "Incorrect: shared care lets partners draw on each other's benefits."
+        },
+        {
+          "id": "c",
+          "text": "Nonforfeiture benefit",
+          "rationale": "Incorrect: nonforfeiture preserves reduced coverage when premiums stop."
+        },
+        {
+          "id": "d",
+          "text": "Guarantee of insurability",
+          "rationale": "Correct: it guarantees the right to purchase additional coverage at specified times without evidence of insurability."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Optional LTC benefits include guarantee of insurability (future purchase without health proof), return of premium (refund on death or surrender as specified), shared care (spouses share benefit pools), nonforfeiture (reduced paid-up coverage) and inflation protection (benefit increases).",
+      "memoryTip": "Guarantee of INSURABILITY = guaranteed right to buy MORE.",
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q023",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.5",
+        "ltc.1.6"
+      ],
+      "concepts": [
+        "elimination-period",
+        "long-term-care-insurance"
+      ],
+      "difficulty": 2,
+      "style": "application",
+      "tags": [],
+      "scenario": "Mona, 60, has substantial savings and could comfortably pay for the first three months of care herself. She wants to lower her LTC premium without reducing her total protection against a very long period of care.",
+      "stem": "Which policy design change best meets Mona's goal?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Choose a longer elimination (waiting) period",
+          "rationale": "Correct: self-insuring the first months through a longer elimination period lowers the premium while preserving the length of coverage."
+        },
+        {
+          "id": "b",
+          "text": "Shorten the benefit period (how long benefits last)",
+          "rationale": "Incorrect: this reduces protection against very long care, which Mona wants to keep."
+        },
+        {
+          "id": "c",
+          "text": "Lower the daily (or monthly) benefit amount",
+          "rationale": "Incorrect: this reduces protection on every day of care."
+        },
+        {
+          "id": "d",
+          "text": "Add a return-of-premium rider to the policy",
+          "rationale": "Incorrect: this raises the premium."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Three levers drive LTC premiums: the daily (or monthly) benefit amount, the benefit period (how long benefits last, or the total benefit pool), and the elimination period (how many days of care the insured pays for before benefits start). A longer elimination period lowers the premium without shrinking the benefit period or daily amount — ideal for someone who can self-fund the first few months.",
+      "memoryTip": "Can pay the start yourself? Lengthen the wait, keep the long coverage.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Longer elimination period",
+            "anyOf": [
+              "elimination",
+              "waiting period"
+            ]
+          },
+          {
+            "label": "Lowers premium",
+            "anyOf": [
+              "lower premium",
+              "reduce premium",
+              "cheaper",
+              "lower cost"
+            ]
+          },
+          {
+            "label": "Preserves long-term protection",
+            "anyOf": [
+              "benefit period",
+              "long-term protection",
+              "same duration",
+              "keeps"
+            ]
+          }
+        ]
+      },
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q024",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.13",
+        "ltc.1.12"
+      ],
+      "concepts": [
+        "long-term-care-insurance"
+      ],
+      "difficulty": 2,
+      "style": "application",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Ted, 70, lives on a small Social Security check, has almost no savings, and already struggles to pay his rent. A producer is considering recommending an LTC policy with a sizable premium.",
+      "stem": "Which is the most appropriate suitability conclusion?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Recommend the policy, because everyone over 65 needs LTC insurance",
+          "rationale": "Incorrect: LTC insurance is not suitable for everyone; affordability and assets matter."
+        },
+        {
+          "id": "b",
+          "text": "Recommend the policy and tell Ted to fall behind on rent if he must",
+          "rationale": "Incorrect: recommending a purchase that threatens basic living needs is unsuitable."
+        },
+        {
+          "id": "c",
+          "text": "Not suitable; with so little income and savings, Medicaid may be his safety net",
+          "rationale": "Correct: someone who cannot afford ongoing premiums and has little to protect is generally a poor candidate for LTC insurance."
+        },
+        {
+          "id": "d",
+          "text": "Recommend the policy and suggest a loan for the first-year premium",
+          "rationale": "Incorrect: borrowing to pay premiums he cannot sustain makes a lapse likely and harms the client."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Suitability looks at the applicant's income, assets, goals and ability to keep paying premiums (LTC premiums can rise on a class basis). LTC insurance mainly protects assets and gives choice of care. A person with very low income and few assets may qualify for Medicaid if care is needed, and premiums he cannot sustain will likely lead to a lapse.",
+      "memoryTip": "Suitable = affordable now AND later, with assets worth protecting.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

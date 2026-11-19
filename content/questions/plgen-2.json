@@ -1,0 +1,1207 @@
+{
+ "sectionId": "plgen",
+ "questions": [
+  {
+   "id": "plgen-q026",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.3.1",
+    "plgen.3.2"
+   ],
+   "concepts": [
+    "law-of-agency"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "During an inspection, an appointed agent sees that the home has a wood stove, but the application she submits does not mention it. A fire later starts at the stove.",
+   "stem": "Under general agency principles, how is the agent's knowledge treated?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "It is the agent's knowledge only, not the insurer's",
+     "rationale": "Incorrect: the insurer is the principal and is charged with the agent's knowledge."
+    },
+    {
+     "id": "b",
+     "text": "It binds the insurer only if put in writing",
+     "rationale": "Incorrect: knowledge is imputed whether or not written."
+    },
+    {
+     "id": "c",
+     "text": "It is presumed to be the insurer's knowledge",
+     "rationale": "Correct: an agent's knowledge acquired within the scope of the agency is imputed to the insurer."
+    },
+    {
+     "id": "d",
+     "text": "It voids the policy automatically",
+     "rationale": "Incorrect: the insured did not conceal the stove; the agent saw it."
+    }
+   ],
+   "correct": "c",
+   "explanation": "In the law of agency, the insurer is the principal. Acts of the agent within the scope of authority bind the insurer, and knowledge the agent acquires in that role is presumed known to the insurer.",
+   "memoryTip": "What the agent knows, the insurer knows.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Insurer is the principal",
+      "anyOf": [
+       "principal"
+      ]
+     },
+     {
+      "label": "Agent's knowledge is imputed to the insurer",
+      "anyOf": [
+       "imput",
+       "presumed",
+       "insurer knows",
+       "knowledge"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q027",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.3.3.1"
+   ],
+   "concepts": [
+    "express-authority"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Rosa's agency contract states in writing that she may bind personal auto coverage. On Friday evening she issues a binder for a client who just bought a car.",
+   "stem": "Rosa's power to issue the binder comes from:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Implied authority",
+     "rationale": "Incorrect: implied authority is unwritten authority needed to carry out express powers."
+    },
+    {
+     "id": "b",
+     "text": "Express authority",
+     "rationale": "Correct: authority written into the agency contract is express authority."
+    },
+    {
+     "id": "c",
+     "text": "Apparent authority",
+     "rationale": "Incorrect: apparent authority arises from the public's reasonable belief created by the insurer's conduct."
+    },
+    {
+     "id": "d",
+     "text": "Estoppel",
+     "rationale": "Incorrect: estoppel is a legal bar, not a source of agent authority."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Express authority is spelled out in the agency agreement — here, written authority to bind auto coverage. A binder issued within that authority obligates the insurer.",
+   "memoryTip": "Written in the contract = express.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q028",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.3.3.2"
+   ],
+   "concepts": [
+    "implied-authority"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "An agency contract authorizes an agent to solicit and deliver homeowners policies but says nothing about collecting premiums. The agent collects the first premium when delivering a policy.",
+   "stem": "Collecting that premium falls under the agent's:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Implied authority",
+     "rationale": "Correct: collecting the initial premium is reasonably necessary to carry out the express authority to deliver policies."
+    },
+    {
+     "id": "b",
+     "text": "Express authority",
+     "rationale": "Incorrect: the contract does not mention premium collection."
+    },
+    {
+     "id": "c",
+     "text": "Apparent authority",
+     "rationale": "Incorrect: the authority arises from what is needed to perform the job, not public perception."
+    },
+    {
+     "id": "d",
+     "text": "Waiver of authority",
+     "rationale": "Incorrect: waiver is the giving up of a known right, not a type of authority."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Implied authority is authority not expressly granted but reasonably necessary to accomplish the express authority — such as collecting the first premium when delivering a policy.",
+   "memoryTip": "Implied = needed to do the job.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q029",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.3.3.3"
+   ],
+   "concepts": [
+    "apparent-authority"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky"
+   ],
+   "scenario": "An insurer terminates Tom's agency contract but lets him keep its binder forms and leaves its sign on his office. A customer unaware of the termination receives a binder from Tom for her new home.",
+   "stem": "Why may the insurer be bound by the binder?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Apparent authority created by the insurer's own conduct",
+     "rationale": "Correct: the insurer's conduct led the customer to reasonably believe Tom still had authority."
+    },
+    {
+     "id": "b",
+     "text": "Express authority still written in Tom's old contract",
+     "rationale": "Incorrect: the contract was terminated, so no express authority remains."
+    },
+    {
+     "id": "c",
+     "text": "Implied authority needed to service existing clients",
+     "rationale": "Incorrect: implied authority depends on an existing grant of express authority."
+    },
+    {
+     "id": "d",
+     "text": "Tom's own statement that he can still bind coverage",
+     "rationale": "Incorrect: an agent cannot create authority by his own claims."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Apparent authority arises when the principal's conduct leads a third party to reasonably believe the agent has authority. Letting a terminated agent keep forms and signage can bind the insurer to that agent's acts with unsuspecting customers.",
+   "memoryTip": "Apparent authority comes from the principal's conduct.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Apparent authority",
+      "anyOf": [
+       "apparent"
+      ]
+     },
+     {
+      "label": "Created by the insurer's conduct and the customer's reasonable belief",
+      "anyOf": [
+       "conduct",
+       "reasonabl",
+       "believe"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q030",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.3.4"
+   ],
+   "concepts": [
+    "law-of-agency"
+   ],
+   "difficulty": 2,
+   "style": "negative",
+   "tags": [
+    "negative-wording"
+   ],
+   "stem": "An agent owes an applicant or insured each of the following duties EXCEPT:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Explaining coverage and exclusions accurately",
+     "rationale": "Incorrect: accurate explanation of coverage is a core duty."
+    },
+    {
+     "id": "b",
+     "text": "Handling premium payments as a fiduciary",
+     "rationale": "Incorrect: agents hold premiums in a fiduciary capacity."
+    },
+    {
+     "id": "c",
+     "text": "Submitting applications promptly and accurately",
+     "rationale": "Incorrect: prompt, accurate submission is expected."
+    },
+    {
+     "id": "d",
+     "text": "Guaranteeing that every future claim will be paid",
+     "rationale": "Correct: claim decisions belong to the insurer under the policy terms; the agent cannot guarantee payment."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Although the agent represents the insurer, the agent owes applicants and insureds honesty, accurate explanations, prompt and accurate handling of applications and policies, fiduciary care of premiums and protection of personal information. Agents who fall short may face errors and omissions claims.",
+   "memoryTip": "Agents explain and protect — they don't guarantee claims.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q031",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.4.1.1"
+   ],
+   "concepts": [
+    "offer-and-acceptance"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Kayla submits a signed homeowners application with the full premium. The insurer reviews it and issues the policy.",
+   "stem": "In this transaction, the offer and acceptance occur when:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The insurer offers by issuing; Kayla accepts by paying",
+     "rationale": "Incorrect: that sequence applies when no premium accompanies the application."
+    },
+    {
+     "id": "b",
+     "text": "The agent offers by quoting; Kayla accepts by signing",
+     "rationale": "Incorrect: a quote is an invitation, not the offer that forms the contract."
+    },
+    {
+     "id": "c",
+     "text": "Kayla applies with premium; the insurer accepts by issuing",
+     "rationale": "Correct: an application accompanied by premium is the offer, and issuance is the acceptance."
+    },
+    {
+     "id": "d",
+     "text": "Kayla offers by calling; the agent accepts by answering",
+     "rationale": "Incorrect: a phone inquiry does not create the contract."
+    }
+   ],
+   "correct": "c",
+   "explanation": "When an applicant submits a signed application with the premium, the applicant makes the offer; the insurer accepts by issuing the policy (or an authorized agent accepts by issuing a binder). Without premium, the insurer's issuance is the offer and the applicant accepts by paying.",
+   "memoryTip": "Application + premium = offer. Policy issued = acceptance.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Application with premium is the offer",
+      "anyOf": [
+       "offer",
+       "premium"
+      ]
+     },
+     {
+      "label": "Issuing the policy is acceptance",
+      "anyOf": [
+       "accept",
+       "issu"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q032",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.4.1.2"
+   ],
+   "concepts": [
+    "consideration"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "In a personal auto policy, the insured's consideration consists of:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The insurer's promise to pay any covered losses",
+     "rationale": "Incorrect: that is the insurer's consideration."
+    },
+    {
+     "id": "b",
+     "text": "Premium plus a promise to follow policy conditions",
+     "rationale": "Correct: the insured gives premium plus agreement to comply with the policy's conditions."
+    },
+    {
+     "id": "c",
+     "text": "The agent's commission on the auto policy sold",
+     "rationale": "Incorrect: commission is paid by the insurer to the agent."
+    },
+    {
+     "id": "d",
+     "text": "The vehicle identification number and title",
+     "rationale": "Incorrect: these identify the risk; they are not consideration."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Consideration is the value each party gives. The insured gives the premium and the promise to abide by policy conditions; the insurer gives its promise to pay covered losses.",
+   "memoryTip": "Insured gives premium + promises; insurer gives the promise to pay.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q033",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.4.1.3",
+    "plgen.4.1.4"
+   ],
+   "concepts": [
+    "competent-parties",
+    "legal-purpose"
+   ],
+   "difficulty": 2,
+   "style": "comparison",
+   "tags": [],
+   "stem": "A policy issued to cover a car used to smuggle stolen goods fails which element of a contract?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Competent parties",
+     "rationale": "Incorrect: nothing suggests either party lacks legal capacity."
+    },
+    {
+     "id": "b",
+     "text": "Legal purpose",
+     "rationale": "Correct: a contract to insure an illegal activity is against public policy."
+    },
+    {
+     "id": "c",
+     "text": "Consideration",
+     "rationale": "Incorrect: premium and promises were exchanged."
+    },
+    {
+     "id": "d",
+     "text": "Offer and acceptance",
+     "rationale": "Incorrect: the problem is the contract's purpose, not its formation."
+    }
+   ],
+   "correct": "b",
+   "explanation": "A valid contract needs offer and acceptance, consideration, competent parties and legal purpose. Insuring an illegal enterprise fails legal purpose; contracts with minors or mentally incompetent persons raise competent-party issues.",
+   "memoryTip": "Illegal aim = no contract.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q034",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.4.2.1"
+   ],
+   "concepts": [
+    "contract-of-adhesion"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "A homeowners policy uses an ambiguous phrase, and the insurer and the insured each read it differently after a loss.",
+   "stem": "Because the policy is a contract of adhesion, a court will usually:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Interpret the ambiguity in favor of the insured",
+     "rationale": "Correct: ambiguities are construed against the party that drafted the contract — the insurer."
+    },
+    {
+     "id": "b",
+     "text": "Interpret the ambiguity in favor of the insurer",
+     "rationale": "Incorrect: the drafter does not get the benefit of its own unclear wording."
+    },
+    {
+     "id": "c",
+     "text": "Void the entire policy from its inception",
+     "rationale": "Incorrect: ambiguity leads to interpretation, not rescission."
+    },
+    {
+     "id": "d",
+     "text": "Split the disputed amount equally between them",
+     "rationale": "Incorrect: courts apply the construction rule, not an equal split."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Insurance policies are contracts of adhesion: the insurer writes them, and the buyer accepts or rejects them as written. For that reason, courts resolve ambiguous wording in favor of the insured.",
+   "memoryTip": "Insurer wrote it, insurer eats the ambiguity.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q035",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.4.2.2"
+   ],
+   "concepts": [
+    "aleatory-contract"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Two weeks after buying an auto policy, Jake totals his car and the insurer pays $18,000. His total premium paid so far is $150.",
+   "stem": "The unequal exchange of value illustrates which contract characteristic?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Adhesion",
+     "rationale": "Incorrect: adhesion refers to who drafts the contract."
+    },
+    {
+     "id": "b",
+     "text": "Unilateral",
+     "rationale": "Incorrect: unilateral refers to only one party making an enforceable promise."
+    },
+    {
+     "id": "c",
+     "text": "Personal",
+     "rationale": "Incorrect: personal means the contract insures a person, not property."
+    },
+    {
+     "id": "d",
+     "text": "Aleatory",
+     "rationale": "Correct: the values exchanged are unequal and depend on a chance event."
+    }
+   ],
+   "correct": "d",
+   "explanation": "An aleatory contract involves an unequal exchange that depends on an uncertain event — a small premium may produce a large claim payment, or years of premium may produce none.",
+   "memoryTip": "Aleatory = luck of the draw.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q036",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.4.2.3"
+   ],
+   "concepts": [
+    "personal-contract"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Mira sells her house to Ken and tells him he can simply take over her homeowners policy.",
+   "stem": "Why can't Ken take over the policy without the insurer's consent?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "It is an aleatory contract that ends when a house is sold",
+     "rationale": "Incorrect: aleatory concerns unequal exchange, not assignment."
+    },
+    {
+     "id": "b",
+     "text": "It is a unilateral contract that only Mira may cancel",
+     "rationale": "Incorrect: unilateral refers to enforceable promises, not transfer."
+    },
+    {
+     "id": "c",
+     "text": "It is a personal contract that insures Mira, not the house",
+     "rationale": "Correct: property insurance insures the person, so the insurer must consent before the policy is assigned."
+    },
+    {
+     "id": "d",
+     "text": "It is a contract of adhesion that the buyer never signed",
+     "rationale": "Incorrect: adhesion concerns who drafts the contract."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Insurance is a personal contract between the insurer and a specific insured. The insurer chooses whom to insure, so a homeowners policy generally cannot be assigned to a new owner without the insurer's written consent.",
+   "memoryTip": "Policies insure people, not houses.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q037",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.4.2.4",
+    "plgen.4.2.5"
+   ],
+   "concepts": [
+    "unilateral-contract",
+    "conditional-contract"
+   ],
+   "difficulty": 2,
+   "style": "comparison",
+   "tags": [
+    "tricky"
+   ],
+   "stem": "Which pairing correctly matches a contract characteristic to its meaning?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Unilateral — both parties make enforceable promises",
+     "rationale": "Incorrect: only the insurer makes an enforceable promise in a unilateral contract."
+    },
+    {
+     "id": "b",
+     "text": "Conditional — the insurer may change terms at renewal",
+     "rationale": "Incorrect: that is not what conditional means."
+    },
+    {
+     "id": "c",
+     "text": "Conditional — the insured must meet conditions to collect",
+     "rationale": "Correct: the insurer's duty to pay depends on the insured performing conditions like notice and proof of loss."
+    },
+    {
+     "id": "d",
+     "text": "Unilateral — the insured must keep paying premiums",
+     "rationale": "Incorrect: the insured is not legally obligated to keep paying."
+    }
+   ],
+   "correct": "c",
+   "explanation": "A unilateral contract binds only the insurer to a legally enforceable promise; the insured can stop paying and let the policy end. A conditional contract requires the insured to meet certain conditions — notice of loss, protecting property, cooperating — before the insurer must pay.",
+   "memoryTip": "Unilateral = one promise. Conditional = follow the rules to collect.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q038",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.4.3.1"
+   ],
+   "concepts": [
+    "indemnity"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Tom carries two homeowners policies on the same house. A covered fire causes $10,000 of damage.",
+   "stem": "Under the principle of indemnity, Tom should receive:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$20,000, $10,000 from each policy",
+     "rationale": "Incorrect: collecting twice would let Tom profit from the loss."
+    },
+    {
+     "id": "b",
+     "text": "$10,000 in total, shared between the two insurers",
+     "rationale": "Correct: indemnity restores the pre-loss position without profit."
+    },
+    {
+     "id": "c",
+     "text": "$10,000 from each insurer, minus deductibles",
+     "rationale": "Incorrect: this still pays more than the loss."
+    },
+    {
+     "id": "d",
+     "text": "Nothing, because double coverage voids both",
+     "rationale": "Incorrect: overlapping coverage is handled by other-insurance clauses, not voided."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Indemnity means putting the insured back in about the same financial position as before the loss — no better, no worse. Other-insurance clauses divide the $10,000 between the insurers so Tom does not collect twice.",
+   "memoryTip": "Indemnity: made whole, not made rich.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "No profit from a loss",
+      "anyOf": [
+       "profit",
+       "no better",
+       "made whole"
+      ]
+     },
+     {
+      "label": "Total limited to the $10,000 loss",
+      "anyOf": [
+       "10,000",
+       "10000"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q039",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.4.3.2"
+   ],
+   "concepts": [
+    "utmost-good-faith"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "The principle that each party to an insurance contract may rely on the other's honesty is called:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Utmost good faith",
+     "rationale": "Correct: both parties must deal honestly and disclose material facts."
+    },
+    {
+     "id": "b",
+     "text": "Indemnity",
+     "rationale": "Incorrect: indemnity is restoring the insured without profit."
+    },
+    {
+     "id": "c",
+     "text": "Estoppel",
+     "rationale": "Incorrect: estoppel prevents reasserting a waived right."
+    },
+    {
+     "id": "d",
+     "text": "Adhesion",
+     "rationale": "Incorrect: adhesion means one party drafts the contract."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Utmost good faith requires a higher standard of honesty than ordinary contracts: applicants must answer truthfully and disclose material facts, and insurers must deal fairly.",
+   "memoryTip": "Utmost good faith = honesty both ways.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q040",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.4.3.3"
+   ],
+   "concepts": [
+    "misrepresentation",
+    "representation"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "On her New York auto application, Ellen states that no one under 25 lives with her, but her 17-year-old son does. The insurer's underwriting rules show it would have issued the policy anyway, at a higher premium.",
+   "stem": "Under Insurance Law § 3105, is the misstatement material?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Yes; any false answer on an auto application is material",
+     "rationale": "Incorrect: New York requires materiality, defined by refusal to contract."
+    },
+    {
+     "id": "b",
+     "text": "Yes; any misstatement affecting the premium is material",
+     "rationale": "Incorrect: under the § 3105 test, a premium difference alone does not meet the refusal standard."
+    },
+    {
+     "id": "c",
+     "text": "No; misrepresentation rules apply only to life insurance",
+     "rationale": "Incorrect: § 3105 applies to contracts of insurance generally."
+    },
+    {
+     "id": "d",
+     "text": "No; only a fact that would have led to refusal is material",
+     "rationale": "Correct: § 3105(b)(1) defines materiality by whether knowledge of the facts would have led the insurer to refuse the contract."
+    }
+   ],
+   "correct": "d",
+   "explanation": "NY § 3105(b)(1): no misrepresentation avoids a contract or defeats recovery unless material, and no misrepresentation is material unless knowledge of the facts would have led the insurer to refuse to make the contract. Evidence of the insurer's practice with similar risks is admissible (§ 3105(c)).",
+   "memoryTip": "NY materiality test: would the insurer have said NO?",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Materiality requires that the insurer would have refused",
+      "anyOf": [
+       "refus",
+       "would not have issued",
+       "declined"
+      ]
+     },
+     {
+      "label": "Applies the § 3105 test to these facts",
+      "anyOf": [
+       "3105",
+       "not material"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3105"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q041",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.4.3.4"
+   ],
+   "concepts": [
+    "warranty"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "A New York homeowners policy requires, as a condition, that a central-station burglar alarm be maintained. The alarm is broken for a week, and during that week a windstorm damages the roof.",
+   "stem": "Under Insurance Law § 3106, may the insurer deny the windstorm claim for breach of the alarm warranty?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Yes; any breach of a warranty voids the whole contract",
+     "rationale": "Incorrect: New York rejects the strict common-law rule."
+    },
+    {
+     "id": "b",
+     "text": "Yes; warranties must be literally true at all times",
+     "rationale": "Incorrect: that is the traditional rule that § 3106 modifies."
+    },
+    {
+     "id": "c",
+     "text": "No; warranties are never enforceable in New York",
+     "rationale": "Incorrect: a breach that materially increases the risk can still defeat recovery."
+    },
+    {
+     "id": "d",
+     "text": "No; the breach did not materially increase wind risk",
+     "rationale": "Correct: § 3106(b) avoids recovery only for the kind of loss whose risk the breach materially increased."
+    }
+   ],
+   "correct": "d",
+   "explanation": "NY § 3106(b): a breach of warranty does not avoid an insurance contract or defeat recovery unless the breach materially increases the risk of loss within the coverage, and where the policy covers distinct kinds of loss, it affects only the kind whose risk was materially increased. A broken burglar alarm does not increase windstorm risk.",
+   "memoryTip": "NY warranty breach counts only if it raised THAT risk.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Breach must materially increase the risk",
+      "anyOf": [
+       "materially increase",
+       "increase the risk"
+      ]
+     },
+     {
+      "label": "Only the related kind of loss is affected",
+      "anyOf": [
+       "wind",
+       "kind of loss",
+       "theft",
+       "burglary"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3106"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q042",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.4.3.5",
+    "plgen.4.3.6"
+   ],
+   "concepts": [
+    "rescission",
+    "concealment"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "After a fire, an insurer learns that the applicant deliberately did not mention that she ran a commercial day care in the home — a fact that would have led the insurer to decline the application.",
+   "stem": "Which remedy is the insurer most likely to seek?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Reformation to add a day-care endorsement",
+     "rationale": "Incorrect: the insurer would not have issued the policy at all."
+    },
+    {
+     "id": "b",
+     "text": "Waiver of the concealed fact going forward",
+     "rationale": "Incorrect: waiver means giving up a right, not a remedy for concealment."
+    },
+    {
+     "id": "c",
+     "text": "Rescission of the policy from its inception",
+     "rationale": "Correct: material concealment in the application supports rescinding the contract as if it never existed, generally with a return of premium."
+    },
+    {
+     "id": "d",
+     "text": "Payment of the claim minus a deductible",
+     "rationale": "Incorrect: material concealment allows the insurer to avoid the contract."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Concealment is intentionally withholding a material fact. When the insurer would have refused the risk, it may seek rescission — voiding the contract from the beginning, generally returning the premium.",
+   "memoryTip": "Rescission = erase the contract from day one.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q043",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.4.3.6",
+    "plgen.4.3.7"
+   ],
+   "concepts": [
+    "concealment",
+    "fraud"
+   ],
+   "difficulty": 3,
+   "style": "comparison",
+   "tags": [
+    "tricky"
+   ],
+   "stem": "What best distinguishes fraud from concealment?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Fraud is accidental, while concealment is always intentional",
+     "rationale": "Incorrect: fraud is by definition intentional."
+    },
+    {
+     "id": "b",
+     "text": "Fraud is a deliberate lie; concealment is deliberate silence",
+     "rationale": "Correct: fraud involves an active misstatement made to deceive; concealment is silence about a material fact."
+    },
+    {
+     "id": "c",
+     "text": "Concealment is a crime, while fraud is only a contract issue",
+     "rationale": "Incorrect: fraud is the one that can be criminal."
+    },
+    {
+     "id": "d",
+     "text": "They are identical terms with no legal difference",
+     "rationale": "Incorrect: one is an act of deception, the other a failure to disclose."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Concealment is the intentional withholding of a material fact. Fraud is an intentional misstatement or deception of material fact made to induce reliance, causing harm — for example, inflating the value of stolen items on a claim.",
+   "memoryTip": "Concealment = silence. Fraud = a lie.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q044",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.4.3.8"
+   ],
+   "concepts": [
+    "waiver",
+    "estoppel"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky"
+   ],
+   "scenario": "For two years, an auto insurer routinely accepted Lin's installment payments five days late without objection. When her next late payment arrives, the insurer tries to cancel for late payment without warning.",
+   "stem": "Which concepts best support Lin's position?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Waiver and estoppel",
+     "rationale": "Correct: the insurer voluntarily gave up strict timeliness, and Lin relied on that conduct."
+    },
+    {
+     "id": "b",
+     "text": "Indemnity and subrogation",
+     "rationale": "Incorrect: these concern loss payment and recovery from third parties."
+    },
+    {
+     "id": "c",
+     "text": "Concealment and rescission",
+     "rationale": "Incorrect: Lin hid nothing, and rescission is the insurer's remedy."
+    },
+    {
+     "id": "d",
+     "text": "Adhesion and aleatory contract",
+     "rationale": "Incorrect: these describe contract characteristics, not this dispute."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Waiver is the voluntary relinquishment of a known right — repeatedly accepting late payments without objection. Estoppel prevents a party from reasserting that right against someone who reasonably relied on the waiver.",
+   "memoryTip": "Waive it, and you may be stopped from taking it back.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Insurer waived strict payment timing",
+      "anyOf": [
+       "waive",
+       "waiver"
+      ]
+     },
+     {
+      "label": "Estoppel based on Lin's reliance",
+      "anyOf": [
+       "estop",
+       "relied",
+       "reliance"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1121 @@
+{
+ "sectionId": "lip",
+ "questions": [
+  {
+   "id": "lip-q001",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.1"
+   ],
+   "concepts": [
+    "term-life-insurance"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "Which type of life insurance provides pure protection for a stated period and builds no cash value?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Term life",
+     "rationale": "Correct: term insurance is temporary, pure protection with no savings element."
+    },
+    {
+     "id": "b",
+     "text": "Straight whole life",
+     "rationale": "Incorrect: whole life is permanent and builds a guaranteed cash value."
+    },
+    {
+     "id": "c",
+     "text": "Universal life",
+     "rationale": "Incorrect: universal life is permanent coverage with a cash value account."
+    },
+    {
+     "id": "d",
+     "text": "Single-premium whole life",
+     "rationale": "Incorrect: a single-premium policy is permanent and has immediate cash value."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Term life insurance covers the insured only for a set period (the term). It is pure protection, so it has no cash value, and it expires without value if the insured outlives the term.",
+   "memoryTip": "Term = Temporary.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q002",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.1.1"
+   ],
+   "concepts": [
+    "level-term"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "In a level term policy, what stays the same for the entire term?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The cash value",
+     "rationale": "Incorrect: term insurance has no cash value."
+    },
+    {
+     "id": "b",
+     "text": "The face amount",
+     "rationale": "Correct: 'level' means the death benefit does not change during the term."
+    },
+    {
+     "id": "c",
+     "text": "The policy loan value",
+     "rationale": "Incorrect: term policies have no loan value."
+    },
+    {
+     "id": "d",
+     "text": "The insured's rating class at each renewal",
+     "rationale": "Incorrect: level term describes the face amount; renewal pricing is a separate feature."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Level term keeps the face amount constant throughout the term. In level premium term, the premium is also constant for the term period. Decreasing term is the type in which the face amount declines.",
+   "memoryTip": "Level = the benefit lies flat.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q003",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.1"
+   ],
+   "concepts": [
+    "decreasing-term",
+    "level-term"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "The Okafors just took out a 25-year, $300,000 mortgage. They want life insurance on Mr. Okafor that would pay off whatever balance remains if he dies before the loan is paid.",
+   "stem": "Which coverage most efficiently fits their need?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "10-year level term for $300,000",
+     "rationale": "Incorrect: the coverage would end 15 years before the mortgage is paid off."
+    },
+    {
+     "id": "b",
+     "text": "Single-premium whole life for $300,000",
+     "rationale": "Incorrect: permanent coverage paid in a lump sum is far more expensive than needed for a temporary, declining debt."
+    },
+    {
+     "id": "c",
+     "text": "25-year decreasing term starting at $300,000",
+     "rationale": "Correct: the benefit declines over 25 years roughly in step with the mortgage balance, at a lower cost than level coverage."
+    },
+    {
+     "id": "d",
+     "text": "Annually renewable term for $300,000",
+     "rationale": "Incorrect: the premium would rise every year and the face amount would not track the shrinking debt."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Decreasing term is designed for debts that shrink over time, such as a mortgage. Its face amount declines on a schedule while the premium usually stays level, so it costs less than level coverage for the same starting amount.",
+   "memoryTip": "Shrinking debt → shrinking (decreasing) term.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Names decreasing term",
+      "anyOf": [
+       "decreasing"
+      ]
+     },
+     {
+      "label": "Benefit declines with the mortgage balance",
+      "anyOf": [
+       "declin",
+       "decreas",
+       "shrink",
+       "balance"
+      ]
+     },
+     {
+      "label": "Term matches the 25-year loan",
+      "anyOf": [
+       "25"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q004",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.1.1.1"
+   ],
+   "concepts": [
+    "renewable-term"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "What happens to the premium when a renewable term policy is renewed for a new term?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "It stays at the original issue-age rate",
+     "rationale": "Incorrect: renewal does not lock in the original premium."
+    },
+    {
+     "id": "b",
+     "text": "It decreases because the insurer has already collected premiums",
+     "rationale": "Incorrect: term premiums do not build up a fund that lowers future premiums."
+    },
+    {
+     "id": "c",
+     "text": "It is set by a new medical exam",
+     "rationale": "Incorrect: renewal does not require evidence of insurability."
+    },
+    {
+     "id": "d",
+     "text": "It increases based on the insured's attained age",
+     "rationale": "Correct: each renewal is priced at the insured's age at the time of renewal."
+    }
+   ],
+   "correct": "d",
+   "explanation": "A renewable term policy can be renewed without evidence of insurability, but the new premium reflects the insured's attained age, so it rises at each renewal. Many policies stop allowing renewal after a stated maximum age.",
+   "memoryTip": "Renew = same coverage, older age, higher price.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q005",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.1.1.2"
+   ],
+   "concepts": [
+    "convertible-term",
+    "conversion-privilege"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "tricky"
+   ],
+   "scenario": "Priya, 44, owns a 20-year convertible term policy she bought at 35. Last year she was diagnosed with cancer. She now wants permanent life insurance that will last for her whole life.",
+   "stem": "What is the best way for Priya to obtain permanent coverage?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Exercise the policy's conversion privilege",
+     "rationale": "Correct: conversion exchanges term for permanent coverage without evidence of insurability, so her diagnosis does not matter."
+    },
+    {
+     "id": "b",
+     "text": "Renew the term policy at the end of the term",
+     "rationale": "Incorrect: renewal continues term coverage; it does not create permanent coverage."
+    },
+    {
+     "id": "c",
+     "text": "Apply for a new whole life policy with full underwriting",
+     "rationale": "Incorrect: a new application would require evidence of insurability and could be declined or rated."
+    },
+    {
+     "id": "d",
+     "text": "Request reinstatement of the policy",
+     "rationale": "Incorrect: reinstatement revives a lapsed policy; Priya's policy is in force."
+    }
+   ],
+   "correct": "a",
+   "explanation": "A convertible term policy lets the owner switch to permanent insurance during the conversion period without proving insurability. The new premium is based on her attained age (or her original age if the policy allows retroactive conversion).",
+   "memoryTip": "Convert = change the type, skip the medical.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Uses the conversion privilege",
+      "anyOf": [
+       "conver"
+      ]
+     },
+     {
+      "label": "No evidence of insurability needed",
+      "anyOf": [
+       "no evidence",
+       "without evidence",
+       "no medical",
+       "insurability",
+       "health"
+      ]
+     },
+     {
+      "label": "Result is permanent coverage",
+      "anyOf": [
+       "permanent",
+       "whole life"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q006",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.1.1.1",
+    "lip.1.1.2"
+   ],
+   "concepts": [
+    "renewable-term",
+    "convertible-term"
+   ],
+   "difficulty": 2,
+   "style": "comparison",
+   "tags": [
+    "tricky"
+   ],
+   "stem": "What is the key difference between a renewal option and a conversion option in a term policy?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Renewal requires evidence of insurability; conversion does not",
+     "rationale": "Incorrect: neither option requires evidence of insurability."
+    },
+    {
+     "id": "b",
+     "text": "Renewal continues term coverage; conversion changes it to permanent coverage",
+     "rationale": "Correct: renewal extends the term, while conversion exchanges the policy for a permanent form."
+    },
+    {
+     "id": "c",
+     "text": "Renewal is available only in group plans; conversion only in individual plans",
+     "rationale": "Incorrect: both features appear in individual term policies."
+    },
+    {
+     "id": "d",
+     "text": "Conversion keeps the original term premium for life",
+     "rationale": "Incorrect: the converted permanent policy carries a permanent-policy premium."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Both options protect insurability. Renewal continues the same TERM coverage for another period at a higher attained-age premium. Conversion exchanges term coverage for a PERMANENT policy with cash value.",
+   "memoryTip": "RE-new = RE-peat; CON-vert = CHANGE.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q007",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.1.1.3"
+   ],
+   "concepts": [
+    "level-term"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [],
+   "stem": "Why are the early premiums of a level premium term policy higher than the pure one-year cost of insurance at those ages?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The excess builds a cash value the owner can borrow",
+     "rationale": "Incorrect: level term policies do not build a cash value available for loans."
+    },
+    {
+     "id": "b",
+     "text": "The face amount is highest in the early years",
+     "rationale": "Incorrect: that describes decreasing term; in level term the face amount is constant."
+    },
+    {
+     "id": "c",
+     "text": "The insurer spreads the rising cost of insurance evenly over the term",
+     "rationale": "Correct: the premium is averaged, so early years are overcharged relative to pure cost and later years undercharged."
+    },
+    {
+     "id": "d",
+     "text": "State law requires a surcharge in the first policy years",
+     "rationale": "Incorrect: no such surcharge explains level premium pricing."
+    }
+   ],
+   "correct": "c",
+   "explanation": "The cost of insurance rises each year as the insured ages. A level premium averages that rising cost over the term, so early premiums exceed the pure annual cost and later premiums fall below it.",
+   "memoryTip": "Level premium = average of a rising cost.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q008",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.2.1"
+   ],
+   "concepts": [
+    "straight-life",
+    "whole-life-insurance"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "Which describes straight (continuous premium) whole life?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Premiums for 20 years; coverage for 20 years",
+     "rationale": "Incorrect: that describes 20-year level term."
+    },
+    {
+     "id": "b",
+     "text": "One premium; coverage for life",
+     "rationale": "Incorrect: that describes single-premium whole life."
+    },
+    {
+     "id": "c",
+     "text": "Premiums for life; coverage until age 65",
+     "rationale": "Incorrect: whole life coverage does not end at 65."
+    },
+    {
+     "id": "d",
+     "text": "Premiums for life; coverage for life",
+     "rationale": "Correct: straight life spreads level premiums over the insured's lifetime (to maturity) and covers the whole life."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Straight (continuous premium) whole life requires level premiums for as long as the insured lives (until the policy matures) and provides lifetime coverage. It has the lowest annual premium of the whole life forms.",
+   "memoryTip": "Straight life: pay straight through, covered straight through.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q009",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.2.1",
+    "lip.2.2"
+   ],
+   "concepts": [
+    "limited-payment-life",
+    "straight-life"
+   ],
+   "difficulty": 2,
+   "style": "comparison",
+   "tags": [],
+   "stem": "Compared with straight life issued at the same age for the same face amount, a 20-pay whole life policy has:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Higher annual premiums and faster cash value growth",
+     "rationale": "Correct: compressing payments into 20 years raises each premium and builds cash value faster."
+    },
+    {
+     "id": "b",
+     "text": "Lower annual premiums and faster cash value growth",
+     "rationale": "Incorrect: fewer payments must each be larger, not smaller."
+    },
+    {
+     "id": "c",
+     "text": "Higher annual premiums and coverage that ends after 20 years",
+     "rationale": "Incorrect: only the premium payments end; coverage lasts for life."
+    },
+    {
+     "id": "d",
+     "text": "The same annual premium and a shorter coverage period",
+     "rationale": "Incorrect: premiums differ, and both policies cover the insured for life."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Limited-payment whole life collects the cost of lifetime coverage over a shorter period, so each premium is higher and the cash value grows faster than in straight life. After the last premium, the policy is paid up and coverage continues for life.",
+   "memoryTip": "Shorter pay period = bigger payments, faster cash value, same lifetime coverage.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q010",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.2.3"
+   ],
+   "concepts": [
+    "single-premium-whole-life"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Walt, 58, just sold his business. He wants to buy permanent life insurance with one payment, owe no further premiums, and have cash value right away.",
+   "stem": "Which policy best meets Walt's goals?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "20-pay whole life",
+     "rationale": "Incorrect: Walt would still owe premiums for 20 years."
+    },
+    {
+     "id": "b",
+     "text": "Single-premium whole life",
+     "rationale": "Correct: one lump-sum premium makes the policy paid up at issue, with immediate cash value."
+    },
+    {
+     "id": "c",
+     "text": "Level term",
+     "rationale": "Incorrect: term insurance has no cash value and requires ongoing premiums."
+    },
+    {
+     "id": "d",
+     "text": "Annually renewable term",
+     "rationale": "Incorrect: the premium rises every year and there is no cash value."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Single-premium whole life is funded with one payment, is fully paid up immediately and has cash value from the start. The trade-off is a large initial outlay (and, under federal tax rules, it is generally a modified endowment contract).",
+   "memoryTip": "One check, paid up for life.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q011",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.2"
+   ],
+   "concepts": [
+    "whole-life-insurance"
+   ],
+   "difficulty": 1,
+   "style": "negative",
+   "tags": [
+    "negative-wording"
+   ],
+   "stem": "Each of the following is a characteristic of traditional whole life insurance EXCEPT:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A level premium that does not increase with age",
+     "rationale": "Incorrect: whole life premiums are level; this IS a characteristic."
+    },
+    {
+     "id": "b",
+     "text": "A guaranteed cash value that grows over time",
+     "rationale": "Incorrect: guaranteed cash values are a hallmark of whole life."
+    },
+    {
+     "id": "c",
+     "text": "Premiums the policyowner may skip or change at will",
+     "rationale": "Correct: flexible premiums describe universal life, not traditional whole life."
+    },
+    {
+     "id": "d",
+     "text": "Lifetime protection, to the policy's maturity age",
+     "rationale": "Incorrect: whole life covers the insured for life (to the maturity age)."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Traditional whole life is 'bundled': level premiums, a level death benefit, guaranteed cash values and lifetime protection. Flexible, skippable premiums are a feature of universal life.",
+   "memoryTip": "Whole life = fixed and guaranteed; universal life = flexible.",
+   "version": 2,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q012",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.3",
+    "lip.3.1"
+   ],
+   "concepts": [
+    "universal-life",
+    "whole-life-insurance"
+   ],
+   "difficulty": 2,
+   "style": "comparison",
+   "tags": [],
+   "stem": "Which feature distinguishes universal life from traditional whole life?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A cash value that grows on a fixed, guaranteed schedule",
+     "rationale": "Incorrect: that describes traditional whole life."
+    },
+    {
+     "id": "b",
+     "text": "Coverage that ends at the close of a stated term",
+     "rationale": "Incorrect: that describes term insurance."
+    },
+    {
+     "id": "c",
+     "text": "A cash value invested in subaccounts chosen by the owner",
+     "rationale": "Incorrect: that describes variable life, which uses a separate account."
+    },
+    {
+     "id": "d",
+     "text": "Flexible premiums and an adjustable death benefit",
+     "rationale": "Correct: universal life lets the owner vary premiums and adjust the death benefit within limits."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Universal life is a flexible-premium, adjustable-death-benefit policy. Its cash value earns a current interest rate (never below a guaranteed minimum), and monthly cost-of-insurance and expense charges are deducted. Whole life has fixed premiums and guaranteed values.",
+   "memoryTip": "Universal = yoU adjust it.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q013",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.3.1"
+   ],
+   "concepts": [
+    "universal-life",
+    "grace-period"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Tyrone stopped paying premiums on his New York universal life policy three years ago. The insurer has now determined that his net cash surrender value is not enough to cover the next monthly deduction.",
+   "stem": "Under New York law, what happens next?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The policy enters a 61-day grace period and lapses if enough premium is not paid",
+     "rationale": "Correct: NY gives flexible-premium policies a 61-day grace period beginning when the insurer determines the net cash surrender value is insufficient."
+    },
+    {
+     "id": "b",
+     "text": "Coverage must continue indefinitely because premiums are flexible",
+     "rationale": "Incorrect: flexible premiums do not mean coverage continues without enough value to pay the monthly charges."
+    },
+    {
+     "id": "c",
+     "text": "The policy automatically becomes reduced paid-up whole life",
+     "rationale": "Incorrect: reduced paid-up insurance is a nonforfeiture option the owner elects; it is not an automatic result here."
+    },
+    {
+     "id": "d",
+     "text": "The insurer must convert the policy to term for the full face amount",
+     "rationale": "Incorrect: no such automatic conversion applies; the policy enters its grace period."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Universal life stays in force only while the cash value can cover monthly deductions. NY Insurance Law § 3203(a)(1) gives policies in which the amount and frequency of premiums may vary a 61-day grace period, beginning on the day the insurer determines the net cash surrender value is insufficient to pay the charges. Coverage continues during the grace period; if enough premium is not paid, the policy lapses.",
+   "memoryTip": "Flexible premium, not free coverage: empty account → 61-day grace → lapse.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Cash value can no longer cover the monthly charges",
+      "anyOf": [
+       "insufficient",
+       "not enough",
+       "cover",
+       "charges",
+       "deduction"
+      ]
+     },
+     {
+      "label": "61-day grace period for flexible-premium policies",
+      "anyOf": [
+       "61",
+       "sixty-one",
+       "grace"
+      ]
+     },
+     {
+      "label": "Policy lapses if premium is not paid",
+      "anyOf": [
+       "lapse",
+       "terminat",
+       "end"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3203"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q014",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.3.1"
+   ],
+   "concepts": [
+    "universal-life",
+    "face-amount"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [],
+   "stem": "Under the increasing death benefit option of a universal life policy (often called Option B or Option 2), the death benefit equals:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The specified amount only",
+     "rationale": "Incorrect: a death benefit equal to the specified amount alone is the level option (Option A)."
+    },
+    {
+     "id": "b",
+     "text": "The cash value only",
+     "rationale": "Incorrect: the death benefit is not limited to the cash value."
+    },
+    {
+     "id": "c",
+     "text": "The specified amount plus the cash value",
+     "rationale": "Correct: Option B pays the face (specified) amount plus the accumulated cash value."
+    },
+    {
+     "id": "d",
+     "text": "The total premiums paid plus interest",
+     "rationale": "Incorrect: that describes a return-of-premium feature, not Option B."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Universal life usually offers two death benefit options. Option A (Option 1) is a level death benefit equal to the specified amount. Option B (Option 2) pays the specified amount plus the cash value, so the death benefit grows as cash value grows.",
+   "memoryTip": "B = Bigger: face + cash.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q015",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.3.1"
+   ],
+   "concepts": [
+    "universal-life",
+    "guaranteed-minimum-rate",
+    "current-interest-rate"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [],
+   "stem": "How is interest credited to the cash value of a traditional universal life policy?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "At the insurer's current rate, but never below the guaranteed minimum rate",
+     "rationale": "Correct: universal life credits a current rate with a contractual floor."
+    },
+    {
+     "id": "b",
+     "text": "According to separate-account subaccounts chosen by the owner",
+     "rationale": "Incorrect: subaccount performance describes variable universal life."
+    },
+    {
+     "id": "c",
+     "text": "At one fixed rate that is set at issue and never changes",
+     "rationale": "Incorrect: the current rate can change over time."
+    },
+    {
+     "id": "d",
+     "text": "By a stock market index, with no minimum rate",
+     "rationale": "Incorrect: indexed products use an index with a floor; traditional universal life uses a declared rate."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Traditional universal life credits a declared current interest rate that the insurer may change, subject to a guaranteed minimum rate stated in the contract. Index-linked crediting describes indexed universal life; subaccounts describe variable life.",
+   "memoryTip": "Current rate floats; the guaranteed rate is the floor.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q016",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.4.1"
+   ],
+   "concepts": [
+    "joint-life"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "When does a joint (first-to-die) life policy pay its death benefit?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "At the death of the last surviving insured",
+     "rationale": "Incorrect: that describes survivorship (second-to-die) life."
+    },
+    {
+     "id": "b",
+     "text": "At each insured's death",
+     "rationale": "Incorrect: a joint policy pays only once."
+    },
+    {
+     "id": "c",
+     "text": "Only if all insureds die in the same accident",
+     "rationale": "Incorrect: no common accident is required."
+    },
+    {
+     "id": "d",
+     "text": "At the first death among the insureds",
+     "rationale": "Correct: the benefit is paid at the first death, and the policy then ends."
+    }
+   ],
+   "correct": "d",
+   "explanation": "A joint life policy covers two or more people and pays once, at the first death. It is often used by business partners or couples who need cash when either one dies.",
+   "memoryTip": "Joint = first one out triggers the payout.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q017",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.4.2"
+   ],
+   "concepts": [
+    "survivorship-life",
+    "estate-conservation"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Harold, 72, and June, 70, have a large estate. They expect their children to face significant estate settlement costs after both of them have died, and they want a policy that provides cash at that time.",
+   "stem": "Which policy best meets their objective?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Joint first-to-die life",
+     "rationale": "Incorrect: it would pay at the first death, when the estate passes to the surviving spouse and the large settlement costs are not yet due."
+    },
+    {
+     "id": "b",
+     "text": "Two separate decreasing term policies",
+     "rationale": "Incorrect: term coverage may expire before both deaths, and decreasing benefits do not fit an estate need."
+    },
+    {
+     "id": "c",
+     "text": "Survivorship (second-to-die) life",
+     "rationale": "Correct: it pays at the second death, when the estate passes to the children and the costs come due."
+    },
+    {
+     "id": "d",
+     "text": "Group term life through Harold's former employer",
+     "rationale": "Incorrect: group coverage is not designed for this purpose and is not controlled by the couple."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Survivorship life covers two lives and pays only after the second death. It is a common estate planning tool because, for many married couples, the largest estate settlement costs arise when the second spouse dies. It also costs less than covering both lives separately.",
+   "memoryTip": "Second-to-die = for the second generation (the heirs).",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   },
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Survivorship pays at the second death",
+      "anyOf": [
+       "second",
+       "last",
+       "both"
+      ]
+     },
+     {
+      "label": "Fits estate costs due after both spouses die",
+      "anyOf": [
+       "estate",
+       "heirs",
+       "children"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "lip-q018",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.4.1",
+    "lip.4.2"
+   ],
+   "concepts": [
+    "joint-life",
+    "survivorship-life"
+   ],
+   "difficulty": 3,
+   "style": "comparison",
+   "tags": [
+    "tricky"
+   ],
+   "stem": "A first-to-die policy and a second-to-die policy cover the same two insureds for the same face amount. Which statement is most accurate?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The first-to-die policy generally costs less because its coverage ends sooner",
+     "rationale": "Incorrect: paying at the first death means the claim is expected earlier, which costs more."
+    },
+    {
+     "id": "b",
+     "text": "The second-to-die policy generally costs less because its claim is expected later",
+     "rationale": "Correct: waiting for two deaths delays the expected claim, lowering the premium."
+    },
+    {
+     "id": "c",
+     "text": "Both cost the same because they insure the same two lives for the same amount",
+     "rationale": "Incorrect: the timing of the expected claim differs, so pricing differs."
+    },
+    {
+     "id": "d",
+     "text": "The second-to-die policy costs more because it pays a benefit at each death",
+     "rationale": "Incorrect: survivorship life pays once, at the second death, and because that claim is expected later it generally costs less."
+    }
+   ],
+   "correct": "b",
+   "explanation": "The later an insurer expects to pay, the lower the premium. A first-to-die policy pays at the earlier of two deaths; a second-to-die policy pays at the later. So survivorship coverage generally costs less than joint first-to-die coverage of the same amount.",
+   "memoryTip": "Pays later → costs less.",
+   "version": 2,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

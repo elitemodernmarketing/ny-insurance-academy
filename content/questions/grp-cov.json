@@ -1,0 +1,94 @@
+{
+ "sectionId": "grp",
+ "questions": [
+  {
+   "id": "grp-q101",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "grp",
+   "outlineIds": [
+    "grp.7.2"
+   ],
+   "concepts": [
+    "metal-levels",
+    "actuarial-value",
+    "essential-health-benefits",
+    "small-employer"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "tricky"
+   ],
+   "scenario": "Rosa owns a 12-employee business in New York. For her small group health plan she is comparing two ACA metal-level plans from the same insurer: a Silver plan and a Gold plan.",
+   "stem": "What is the key difference between the two plans' metal levels?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The Gold plan covers benefit categories that the Silver plan omits",
+     "rationale": "Incorrect: every metal-level plan provides the essential health benefits package; metal levels differ in cost-sharing, not in benefit categories."
+    },
+    {
+     "id": "b",
+     "text": "The Gold plan pays a larger average share of covered costs",
+     "rationale": "Correct: metal levels reflect actuarial value. A Gold plan pays about 80% of the costs of covered benefits for a standard population; Silver pays about 70%."
+    },
+    {
+     "id": "c",
+     "text": "The Silver plan is open only to employers with under 10 workers",
+     "rationale": "Incorrect: metal levels are not tied to employer size; small employers can choose any level the insurer offers."
+    },
+    {
+     "id": "d",
+     "text": "The Silver plan may leave out preventive and wellness services",
+     "rationale": "Incorrect: preventive and wellness services are one of the ten essential health benefit categories in every metal-level plan."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Under 42 U.S.C. § 18022, an essential health benefits package covers the ten EHB categories and is offered at a level of coverage based on actuarial value: Bronze 60%, Silver 70%, Gold 80% and Platinum 90% of the full actuarial value of the benefits for a standard population. So the Gold and Silver plans cover the same categories of benefits; the Gold plan simply pays a larger average share of the cost (usually with a higher premium), leaving less cost-sharing for employees.",
+   "memoryTip": "60-70-80-90: Bronze, Silver, Gold, Platinum. Same benefits, different cost split.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Metal levels reflect actuarial value / share of costs paid",
+      "anyOf": [
+       "actuarial",
+       "share",
+       "percent",
+       "%"
+      ]
+     },
+     {
+      "label": "Gold about 80% vs Silver about 70%",
+      "anyOf": [
+       "80",
+       "70"
+      ]
+     },
+     {
+      "label": "Both cover the same essential health benefits",
+      "anyOf": [
+       "same",
+       "essential health",
+       "ten",
+       "ehb"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-usc-42-18022"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

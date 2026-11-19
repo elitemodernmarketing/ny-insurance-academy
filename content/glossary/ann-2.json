@@ -1,0 +1,426 @@
+{
+  "sectionId": "ann",
+  "terms": [
+    {
+      "id": "joint-life-annuity",
+      "term": "Joint Life Annuity",
+      "aliases": ["Joint Life Income"],
+      "sectionId": "ann",
+      "outlineIds": ["ann.4.3"],
+      "formal": "A multiple-life annuity payout option that pays income to two or more annuitants while all are living and stops completely at the first death.",
+      "plain": "Two people share one income stream, but it ends as soon as either of them dies. The survivor receives nothing more. Because payments stop early, this option pays more per month than joint and survivor.",
+      "simpler": "A shared paycheck that stops the moment either person dies.",
+      "examples": [
+        "Two sisters with other income sources choose a joint life annuity; when one dies, the payments end for both.",
+        "Compared with joint and 100% survivor, the Kims' joint life annuity pays a larger monthly amount, but it would leave the survivor with no annuity income."
+      ],
+      "examTip": "Joint life (annuity) = stops at FIRST death. Joint and survivor = continues to the LAST death. Exam questions often swap these two.",
+      "misconception": "Joint life annuities are rarely suitable for a couple relying on the income, because the surviving spouse is left with nothing.",
+      "related": ["joint-and-survivor", "straight-life-annuity", "joint-life"],
+      "confusedWith": ["joint-and-survivor", "joint-life"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under a joint life annuity covering two annuitants, when do payments stop?",
+        "choices": ["At the first death", "At the second death", "After a guaranteed 10-year period", "When the premium has been refunded"],
+        "answerIndex": 0,
+        "explanation": "A joint life annuity ends at the first death. Payments to the second death describe joint and survivor; a guaranteed period describes period certain; premium refund describes a refund annuity."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "annuity-certain",
+      "term": "Annuity Certain",
+      "aliases": ["Period Certain Annuity", "Fixed-Period Annuity", "Term Certain Annuity"],
+      "sectionId": "ann",
+      "outlineIds": ["ann.4.4"],
+      "formal": "An annuity payout option that pays income for a specified period (or until a specified amount is exhausted) regardless of whether the annuitant lives or dies; it involves no life contingency.",
+      "plain": "Payments last for a set time — for example, exactly 10 years. If the annuitant dies sooner, the beneficiary receives the rest. If the annuitant lives longer, payments still stop at the end of the period.",
+      "simpler": "A countdown timer of payments: it runs to the end no matter what, and then it stops.",
+      "examples": [
+        "Owen, 62, chooses a 5-year annuity certain to bridge his income until his pension starts at 67.",
+        "Lisa chooses a 10-year annuity certain and lives 20 more years; her payments stop after year 10."
+      ],
+      "examTip": "Annuity certain is the only common payout option that can be outlived, because it is not based on life expectancy. Types: fixed period (set number of years) and fixed amount (set payment until funds run out).",
+      "misconception": "An annuity certain does not guarantee lifetime income; it guarantees only the stated period or amount.",
+      "related": ["life-annuity-period-certain", "straight-life-annuity", "fixed-period-option", "fixed-amount-option"],
+      "confusedWith": ["life-annuity-period-certain"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which annuity payout option could leave an annuitant without income while still alive?",
+        "choices": ["Annuity certain", "Straight life annuity", "Life with 10-year period certain", "Joint and survivor"],
+        "answerIndex": 0,
+        "explanation": "An annuity certain pays only for the stated period, so a long-lived annuitant can outlive it. The other options all pay for at least the annuitant's lifetime."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "fixed-annuity",
+      "term": "Fixed Annuity",
+      "aliases": ["Traditional Fixed Annuity", "Fixed-Rate Annuity"],
+      "sectionId": "ann",
+      "outlineIds": ["ann.5.1", "ann.5.4"],
+      "formal": "An annuity in which premiums are held in the insurer's general account, the insurer guarantees principal and a minimum interest rate during accumulation, and benefit payments, once annuitized, are a guaranteed level dollar amount.",
+      "plain": "The insurer carries the investment risk. Your money earns at least a guaranteed minimum rate (and often a higher current rate), you cannot lose principal because of market drops, and payout checks are the same amount every time.",
+      "simpler": "Like a long-term savings certificate from an insurance company that later turns into a steady, unchanging paycheck.",
+      "examples": [
+        "Ruth's fixed annuity guarantees 1.5% but currently credits 4%; if the insurer lowers the current rate, it can never go below 1.5%.",
+        "After annuitizing, Paul's fixed annuity pays exactly $950 every month."
+      ],
+      "examTip": "Fixed annuity = general account, insurer bears investment risk, guaranteed minimum rate, level payments. Main risk to the owner is purchasing-power (inflation) risk. It is not a security and needs only a life insurance license to sell.",
+      "misconception": "'Fixed' does not mean the interest rate never changes; the current rate can change, but it never drops below the guaranteed minimum.",
+      "related": ["general-account", "guaranteed-minimum-rate", "current-interest-rate", "variable-annuity", "indexed-annuity"],
+      "confusedWith": ["variable-annuity"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "In a fixed annuity, who bears the investment risk?",
+        "choices": ["The insurer", "The annuity owner", "The beneficiary", "The selling producer"],
+        "answerIndex": 0,
+        "explanation": "The insurer guarantees principal and a minimum rate from its general account, so it bears the investment risk. In a variable annuity the owner bears that risk."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "general-account",
+      "term": "General Account",
+      "aliases": [],
+      "sectionId": "ann",
+      "outlineIds": ["ann.5.2"],
+      "formal": "The insurer's main investment portfolio, holding the assets that back its guaranteed obligations (such as fixed annuities and traditional life insurance); it is invested conservatively, mostly in bonds and mortgages, and the insurer bears the investment risk.",
+      "plain": "This is the insurance company's own big pot of money that supports its guarantees. When you buy a fixed product, your premiums go here, and the insurer promises your returns no matter how its investments do.",
+      "simpler": "The company's main safe — it promises you a set result, and if its investments do poorly, that is the company's problem.",
+      "examples": [
+        "Premiums for Tina's fixed annuity and her whole life policy are both invested in the insurer's general account.",
+        "Because the general account backs guarantees, insurers invest it mostly in high-quality bonds."
+      ],
+      "examTip": "General account → fixed products (fixed annuities, whole life, fixed indexed products) → insurer bears risk. Separate account → variable products → owner bears risk.",
+      "misconception": "Owners of fixed annuities do not own specific investments in the general account; they have a contractual claim on the insurer.",
+      "related": ["separate-account", "fixed-annuity", "indexed-annuity", "guaranteed-minimum-rate"],
+      "confusedWith": ["separate-account"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Premiums for a traditional fixed annuity are invested in which insurer account?",
+        "choices": ["The general account", "A separate account", "A unit investment trust held by the owner", "A segregated mutual fund owned by the annuitant"],
+        "answerIndex": 0,
+        "explanation": "Fixed annuity guarantees are backed by the insurer's general account. Separate accounts back variable products; the other choices are not how fixed annuities are funded."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "separate-account",
+      "term": "Separate Account",
+      "aliases": ["Subaccount"],
+      "sectionId": "ann",
+      "outlineIds": ["ann.5.6"],
+      "formal": "An account maintained by an insurer separately from its general account to hold assets backing variable products; the assets are invested in subaccounts (typically similar to mutual funds) chosen by the contract owner, who bears the investment risk.",
+      "plain": "For variable annuities and variable life, your money goes into a separate pool, split into investment choices (subaccounts) such as stock or bond funds. Your value rises and falls with those investments.",
+      "simpler": "A separate locker holding your own investment picks, rather than the company's main safe.",
+      "examples": [
+        "Ian puts 60% of his variable annuity into a stock subaccount and 40% into a bond subaccount in the insurer's separate account.",
+        "When the stock market falls, the value of Ian's separate account investments falls too."
+      ],
+      "examTip": "Separate account = variable products = owner bears investment risk = securities rules apply.",
+      "misconception": "A separate account does not carry a guarantee of principal; any guarantees come from optional riders backed by the insurer.",
+      "related": ["general-account", "variable-annuity", "accumulation-units", "variable-life-insurance"],
+      "confusedWith": ["general-account"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which account holds the assets backing a variable annuity?",
+        "choices": ["Separate account", "General account", "Policy loan account", "Premium deposit account"],
+        "answerIndex": 0,
+        "explanation": "Variable annuity assets are held in a separate account invested in subaccounts chosen by the owner. The general account backs fixed products; the others are not the investment home of variable annuity assets."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "guaranteed-minimum-rate",
+      "term": "Minimum Guaranteed Interest Rate",
+      "aliases": ["Guaranteed Rate", "Floor Rate"],
+      "sectionId": "ann",
+      "outlineIds": ["ann.5.3"],
+      "formal": "The lowest interest rate the insurer contractually promises to credit to a fixed annuity (or universal life) account value, regardless of the insurer's investment results or market conditions.",
+      "plain": "No matter what happens to interest rates, your account will earn at least this rate. It is usually modest, and it is stated in the contract.",
+      "simpler": "A promised floor under your interest — it can be higher, but never lower.",
+      "examples": [
+        "Beth's contract guarantees 1%; even when market rates fall close to zero, her account is credited at least 1%.",
+        "Ahmed's universal life policy credits a current 4.25%, with a 2% guaranteed minimum."
+      ],
+      "examTip": "Two rates in fixed annuities: GUARANTEED minimum (contractual floor, long-term) and CURRENT (what is actually credited now; can change but not below the minimum).",
+      "misconception": "The guaranteed minimum rate is not what most owners usually earn; the current rate is typically higher.",
+      "related": ["current-interest-rate", "fixed-annuity", "universal-life", "general-account"],
+      "confusedWith": ["current-interest-rate"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "What is the purpose of a minimum guaranteed interest rate in a fixed annuity?",
+        "choices": [
+          "It sets the lowest rate the insurer will ever credit",
+          "It sets the highest rate the insurer may credit",
+          "It equals the rate on an outside stock market index",
+          "It applies only after annuitization"
+        ],
+        "answerIndex": 0,
+        "explanation": "The guaranteed rate is a floor. A highest rate would be a cap (indexed products); linking to an index describes indexed annuities; the guarantee applies during accumulation."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "current-interest-rate",
+      "term": "Current Interest Rate",
+      "aliases": ["Declared Rate", "Excess Interest"],
+      "sectionId": "ann",
+      "outlineIds": ["ann.5.3"],
+      "formal": "The interest rate the insurer actually credits to a fixed annuity or universal life account for a current period, declared by the insurer based on its investment experience and market conditions, and never lower than the contract's guaranteed minimum rate.",
+      "plain": "This is the rate your money is really earning right now. The insurer sets it and can change it (often yearly), but it can never go below the guaranteed minimum.",
+      "simpler": "Today's interest rate on your account — like a savings account rate the bank can raise or lower, but with a floor.",
+      "examples": [
+        "Kara's annuity credits a current rate of 4.5% this year; next year the insurer lowers it to 3.75%, still above the 1% guaranteed minimum.",
+        "An insurer offers a higher first-year current rate (sometimes called a teaser or bonus rate) that later resets lower."
+      ],
+      "examTip": "Current rate = not guaranteed long-term, can change, never below the guaranteed minimum.",
+      "misconception": "A high current rate is not locked in for the life of the contract unless the contract says so; it usually holds only for a stated period.",
+      "related": ["guaranteed-minimum-rate", "fixed-annuity", "universal-life"],
+      "confusedWith": ["guaranteed-minimum-rate"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A fixed annuity has a 2% guaranteed rate and a 4% current rate. What is the lowest rate the insurer can credit next year?",
+        "choices": ["2%", "4%", "0%", "3%"],
+        "answerIndex": 0,
+        "explanation": "The current rate can be lowered, but never below the 2% guaranteed minimum. 4% is only the current rate; 0% and 3% are not the contractual floor."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "indexed-annuity",
+      "term": "Fixed (Equity) Indexed Annuity",
+      "aliases": ["Fixed Indexed Annuity", "FIA", "Equity Indexed Annuity", "EIA"],
+      "sectionId": "ann",
+      "outlineIds": ["ann.5.5"],
+      "formal": "A fixed deferred annuity whose credited interest is determined by a formula linked to changes in an external market index (such as the S&P 500), adjusted by factors such as participation rates, caps, margins and floors, while the insurer guarantees protection of principal from index declines.",
+      "plain": "You share in part of a stock index's gains, up to limits, but you do not lose value when the index falls. The insurer uses a formula — with a cap, participation rate or spread — to decide how much of the index gain you receive.",
+      "simpler": "Like a fixed annuity with a 'bonus window' tied to the stock market: some of the upside, none of the index's downside.",
+      "examples": [
+        "The index rises 12%; with an 80% participation rate, Rita's account is credited 9.6% (80% × 12%), unless a cap is lower.",
+        "The index falls 15%; Rita's floor is 0%, so her account is not reduced by the index loss."
+      ],
+      "examTip": "Fixed indexed annuities are FIXED annuities (general account, insurer guarantees), so a life license is enough to sell them. Learn: participation rate, cap, floor, spread/margin. (Do not confuse them with registered index-linked annuities, or RILAs, which can lose value and are registered securities.)",
+      "misconception": "The owner is not directly invested in the stock market and does not receive the index's dividends; the index is only a yardstick for crediting interest.",
+      "related": ["fixed-annuity", "variable-annuity", "indexed-universal-life", "general-account", "guaranteed-minimum-rate"],
+      "confusedWith": ["variable-annuity", "indexed-universal-life"],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "An indexed annuity has a 70% participation rate and an 8% cap. The index rises 10%. What rate is credited?",
+        "choices": ["7%", "8%", "10%", "3%"],
+        "answerIndex": 0,
+        "explanation": "70% × 10% = 7%, which is below the 8% cap, so 7% is credited. 8% is the cap (not reached); 10% is the full index gain; 3% is the portion not credited."
+      },
+      "sources": ["ny-isc-4223"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19", "notes": "§ 4223(c)(4)(D) lists participation rates, margins, caps and floors as equity index formula factors." }
+    },
+    {
+      "id": "variable-annuity",
+      "term": "Variable Annuity",
+      "aliases": ["VA"],
+      "sectionId": "ann",
+      "outlineIds": ["ann.5.6"],
+      "formal": "An annuity whose contract value and (optionally) benefit payments vary with the performance of separate-account investment options chosen by the owner; because the owner bears the investment risk, it is a security regulated by the SEC as well as by state insurance regulators, and it is sold with a prospectus.",
+      "plain": "Your money goes into investment options such as stock and bond funds, so your account can grow or shrink — you can even lose principal. Because it is both insurance and an investment security, the person selling it needs a life insurance license AND securities registration.",
+      "simpler": "A mutual-fund-style investment wrapped inside an annuity, with insurance features like lifetime income and a death benefit.",
+      "examples": [
+        "Nina's variable annuity grows 15% in a strong year and loses 10% in a weak one, because her subaccounts are invested in stock funds.",
+        "Before selling Nina the contract, her producer gave her a prospectus describing the investment options, fees and risks."
+      ],
+      "examTip": "Variable annuity = separate account, owner bears risk, accumulation units/annuity units, prospectus required, regulated by both the SEC and the state. Selling it requires a life insurance license plus securities registration as a FINRA-registered representative.",
+      "misconception": "A variable annuity does not guarantee principal or a minimum interest rate unless the owner buys an optional guarantee rider, and even then the guarantee covers only what the rider states.",
+      "related": ["separate-account", "accumulation-units", "fixed-annuity", "indexed-annuity", "gmwb", "variable-life-insurance"],
+      "confusedWith": ["indexed-annuity", "fixed-annuity"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Why must a producer selling variable annuities hold a securities registration in addition to a life insurance license?",
+        "choices": [
+          "Variable annuities are securities because the owner bears the investment risk",
+          "Variable annuities guarantee a minimum interest rate",
+          "Variable annuities are backed by the insurer's general account",
+          "Variable annuities can only be sold to accredited investors"
+        ],
+        "answerIndex": 0,
+        "explanation": "Because values depend on separate-account investments and the owner bears the risk, variable annuities are securities regulated by the SEC. They do not inherently guarantee a minimum rate, they are backed by separate accounts, and they are not limited to accredited investors."
+      },
+      "sources": ["fed-sec-investor-variable-annuities", "finra-annuities"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "federal-source", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "accumulation-units",
+      "term": "Accumulation Units and Annuity Units",
+      "aliases": ["Accumulation Units", "Annuity Units"],
+      "sectionId": "ann",
+      "outlineIds": ["ann.5.6"],
+      "formal": "Units of measure used in variable annuities: accumulation units represent the owner's share of the separate account during the accumulation period; at annuitization they are converted into a fixed number of annuity units, whose changing value determines the amount of each variable benefit payment.",
+      "plain": "During saving, each payment buys 'accumulation units' whose value goes up and down with the investments. When payouts start, these are swapped for a set number of 'annuity units'. You keep the same number of annuity units, but their value — and so your check — changes with investment performance.",
+      "simpler": "Like owning shares in a fund: first you collect shares (accumulation units), then you swap them for a fixed number of 'paycheck shares' (annuity units) whose price changes each month.",
+      "examples": [
+        "Jorge invests $500 when accumulation units are worth $25, buying 20 units.",
+        "At retirement Jorge's accumulation units convert into 120 annuity units; when each unit is worth $10 his check is $1,200, and when it falls to $9 his check is $1,080."
+      ],
+      "examTip": "Accumulation units = pay-in phase; number of units grows, value varies. Annuity units = payout phase; NUMBER is fixed, VALUE varies, so payments vary.",
+      "misconception": "The number of annuity units does not change month to month after annuitization; only the unit value changes.",
+      "related": ["variable-annuity", "separate-account", "accumulation-period", "annuitization"],
+      "confusedWith": ["variable-annuity"],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "After a variable annuity is annuitized, what stays the same from one payment to the next?",
+        "choices": [
+          "The number of annuity units",
+          "The value of each annuity unit",
+          "The dollar amount of each payment",
+          "The number of accumulation units purchased"
+        ],
+        "answerIndex": 0,
+        "explanation": "At annuitization the owner receives a fixed number of annuity units; the unit value changes with investment results, so payments vary. Accumulation units are no longer purchased in the payout phase."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "gmwb",
+      "term": "Guaranteed Minimum Withdrawal Benefit (GMWB)",
+      "aliases": ["GMWB", "Guaranteed Lifetime Withdrawal Benefit", "GLWB"],
+      "sectionId": "ann",
+      "outlineIds": ["ann.6.3"],
+      "formal": "An optional living-benefit rider, usually on a variable (or indexed) deferred annuity, that guarantees the owner may withdraw a stated percentage of a benefit base each year — for a set period or, in lifetime versions, for life — even if the contract's account value falls to zero because of poor investment results, for an additional charge.",
+      "plain": "You pay extra for a promise: you can take out a set amount each year, even if the market drops and your account runs out. Lifetime versions keep paying for as long as you live, without you having to annuitize.",
+      "simpler": "A safety net that keeps your yearly withdrawals coming even if your investments crash.",
+      "examples": [
+        "Hector buys a variable annuity with a GMWB that allows withdrawals of 5% of his $200,000 benefit base ($10,000) per year; a market crash later cuts his account to zero, but the insurer keeps paying $10,000 a year under the rider.",
+        "Withdrawals larger than the rider allows (excess withdrawals) can reduce Hector's benefit base and future guaranteed amounts."
+      ],
+      "examTip": "GMWB = guaranteed WITHDRAWALS without annuitizing, for an extra fee; it protects against market risk during the income years. Other living benefits: GMIB (guaranteed minimum income) and GMAB (guaranteed minimum accumulation).",
+      "misconception": "The benefit base is not cash you can take in a lump sum; it is only a number used to calculate the guaranteed withdrawals.",
+      "related": ["variable-annuity", "indexed-annuity", "deferred-annuity", "partial-surrender"],
+      "confusedWith": ["annuitization"],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "What does a guaranteed minimum withdrawal benefit (GMWB) rider protect against?",
+        "choices": [
+          "Poor investment results reducing the owner's ability to take planned withdrawals",
+          "The insurer lowering the current interest rate on a fixed annuity",
+          "Surrender charges on early withdrawals",
+          "Income taxes on annuity gains"
+        ],
+        "answerIndex": 0,
+        "explanation": "A GMWB guarantees a stated level of withdrawals even if the account value is depleted by market losses. It does not waive surrender charges or taxes, and rate changes on fixed annuities are limited by the guaranteed minimum rate instead."
+      },
+      "sources": ["fed-sec-investor-variable-annuities"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "federal-source", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "tax-deferral",
+      "term": "Tax Deferral",
+      "aliases": ["Tax-Deferred Growth"],
+      "sectionId": "ann",
+      "outlineIds": ["ann.6.1"],
+      "formal": "The postponement of federal income tax on interest and investment gains credited inside an annuity (or cash value life insurance) until those gains are withdrawn, received as income payments or paid as a death benefit.",
+      "plain": "Earnings inside an annuity are not taxed each year. You pay income tax on the gains only when money comes out. That lets the money that would have gone to taxes keep growing in the meantime.",
+      "simpler": "Like a snowball that rolls downhill without anyone chipping pieces off for taxes until it reaches the bottom.",
+      "examples": [
+        "Megan's deferred annuity earns $4,000 of interest this year; she owes no income tax on it until she withdraws it.",
+        "Gains in a variable annuity are taxed as ordinary income when withdrawn, not at capital gains rates."
+      ],
+      "examTip": "Tax deferral ≠ tax-free. Gains are taxed as ordinary income when withdrawn; the principal (cost basis) of a non-qualified annuity is returned tax-free. Holding an annuity inside an IRA adds no extra tax deferral.",
+      "misconception": "Annuity gains are not tax-free and do not get capital gains treatment; they are deferred, then taxed as ordinary income.",
+      "related": ["deferred-annuity", "accumulation-period", "cost-basis", "exclusion-ratio", "variable-annuity"],
+      "confusedWith": ["surrender-charge"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "How are investment gains inside a non-qualified deferred annuity taxed?",
+        "choices": [
+          "Deferred until withdrawn, then taxed as ordinary income",
+          "Taxed each year as they are credited",
+          "Never taxed",
+          "Taxed at long-term capital gains rates when withdrawn"
+        ],
+        "answerIndex": 0,
+        "explanation": "Annuity gains grow tax-deferred and are taxed as ordinary income when withdrawn or paid out. They are not taxed annually, not tax-free, and not eligible for capital gains rates."
+      },
+      "sources": ["fed-sec-investor-variable-annuities"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "federal-source", "checkedOn": "2026-11-19", "notes": "Investor.gov states variable annuities are tax-deferred and gains are taxed at ordinary income rates; the principle applies to non-qualified deferred annuities generally." }
+    }
+  ],
+  "comparisons": [
+    {
+      "a": "fixed-annuity",
+      "b": "variable-annuity",
+      "keyDifference": "In a fixed annuity the insurer bears the investment risk and guarantees a minimum rate; in a variable annuity the owner bears the investment risk through separate-account investments.",
+      "rows": [
+        { "aspect": "Where premiums are invested", "a": "Insurer's general account", "b": "Separate account subaccounts chosen by the owner" },
+        { "aspect": "Who bears investment risk", "a": "Insurer", "b": "Owner" },
+        { "aspect": "Guarantees", "a": "Principal and minimum interest rate", "b": "None on values unless optional riders are purchased" },
+        { "aspect": "Payouts", "a": "Level, guaranteed dollar amount", "b": "Vary with annuity unit values (if variable payout chosen)" },
+        { "aspect": "License needed to sell", "a": "Life insurance license", "b": "Life insurance license plus securities registration" }
+      ],
+      "memoryTip": "FIXED = insurer Fixes the risk; VARIABLE = your value Varies."
+    },
+    {
+      "a": "indexed-annuity",
+      "b": "variable-annuity",
+      "keyDifference": "An indexed annuity is a fixed product whose interest is linked to an index with downside protection; a variable annuity invests directly in separate-account subaccounts and can lose value.",
+      "rows": [
+        { "aspect": "Downside", "a": "Floor protects against index losses", "b": "Value can fall, including loss of principal" },
+        { "aspect": "Upside", "a": "Limited by caps, participation rates or spreads", "b": "Full investment gains (minus fees)" },
+        { "aspect": "Account type", "a": "General account", "b": "Separate account" },
+        { "aspect": "Securities registration to sell", "a": "Not required (treated as a fixed annuity)", "b": "Required" }
+      ],
+      "memoryTip": "Indexed = a fixed annuity peeking at the market; variable = living in the market."
+    },
+    {
+      "a": "joint-and-survivor",
+      "b": "joint-life-annuity",
+      "keyDifference": "Joint and survivor continues to the LAST death; joint life stops at the FIRST death.",
+      "rows": [
+        { "aspect": "Payments end", "a": "At the death of the last survivor", "b": "At the first death" },
+        { "aspect": "Payment size", "a": "Lower", "b": "Higher" },
+        { "aspect": "Typical fit", "a": "Married couple relying on the income", "b": "Two people with other income who want the highest payment" }
+      ],
+      "memoryTip": "'And survivor' means the Survivor keeps getting paid."
+    },
+    {
+      "a": "guaranteed-minimum-rate",
+      "b": "current-interest-rate",
+      "keyDifference": "The guaranteed rate is the contractual floor; the current rate is what the insurer is crediting now and can change, but never below the floor.",
+      "rows": [
+        { "aspect": "Set by", "a": "The contract at issue", "b": "The insurer periodically" },
+        { "aspect": "Can it change?", "a": "No (as stated in the contract)", "b": "Yes" },
+        { "aspect": "Typical level", "a": "Lower", "b": "Higher" }
+      ]
+    }
+  ]
+}

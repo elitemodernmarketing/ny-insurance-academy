@@ -1,0 +1,126 @@
+{
+  "sectionId": "plgen",
+  "lessons": [
+    {
+      "id": "plgen-l01",
+      "sectionId": "plgen",
+      "order": 1,
+      "title": "Risk, Hazards and Perils at Home and on the Road",
+      "outlineIds": ["plgen.1", "plgen.1.1", "plgen.1.1.1", "plgen.1.1.2", "plgen.1.1.3", "plgen.1.1.4", "plgen.1.1.5", "plgen.1.2", "plgen.1.2.1", "plgen.1.2.2", "plgen.1.2.3", "plgen.1.2.4", "plgen.1.2.5", "plgen.1.2.6", "plgen.1.2.7", "plgen.1.2.8", "plgen.1.2.9", "plgen.1.2.10"],
+      "estMinutes": 30,
+      "intro": "Every homeowners and auto policy you will ever sell starts with the same basic vocabulary: risk, exposure, hazard, peril and loss. This lesson builds that vocabulary with house-and-car examples, then shows the five ways people handle risk and why insurers can only cover risks that meet certain conditions.",
+      "objectives": [
+        "Distinguish pure risk from speculative risk and explain why only pure risk is insurable",
+        "Tell a peril (the cause of loss) apart from a hazard (a condition that increases the chance or size of loss)",
+        "Classify physical, moral and morale hazards in home and auto situations",
+        "Identify avoidance, retention, sharing, reduction and transfer as methods of handling risk",
+        "Explain the elements of an insurable risk, adverse selection, the law of large numbers and reinsurance"
+      ],
+      "keyTerms": ["risk", "pure-risk", "speculative-risk", "exposure", "hazard", "physical-hazard", "moral-hazard", "morale-hazard", "peril", "loss", "risk-avoidance", "risk-retention", "risk-sharing", "risk-reduction", "risk-transfer", "insurable-risk", "adverse-selection", "law-of-large-numbers", "reinsurance"],
+      "parts": [
+        {
+          "heading": "Risk and exposure",
+          "body": "[[risk|Risk]] is uncertainty about whether a loss will happen. Insurance deals with one kind of risk only.\n\n- [[pure-risk|Pure risk]] has only two outcomes: a loss or no loss. Your house may burn or may not; you can never *profit* from the fire. Pure risk is insurable.\n- [[speculative-risk|Speculative risk]] has three possible outcomes: loss, no loss, or **gain**. Buying a rental property hoping it rises in value, or betting on a race, is speculative. It is not insurable.\n\n[[exposure|Exposure]] is the unit of measure an insurer uses to describe how much risk it is taking on. In personal lines, exposures are things like each insured car, each dwelling, or each driver. More exposures mean more chances for loss, and the premium reflects that.",
+          "simple": "Pure risk = something bad might happen or nothing happens. Speculative risk = you might lose OR win. Only the first kind can be insured. Exposure is how the insurer counts what it is covering, like the number of cars on a policy.",
+          "example": {
+            "title": "Example: Luis and his two cars",
+            "body": "Luis insures two cars and one house. The chance that a tree falls on his garage is a pure risk. His decision to buy cryptocurrency is a speculative risk that no insurer will cover. If Luis adds a third car, his auto exposure rises from two cars to three, so his premium rises too."
+          },
+          "callouts": [
+            { "kind": "exam-trap", "text": "If an answer choice offers a chance of GAIN, it describes speculative risk, which insurance does not cover." },
+            { "kind": "memory-tip", "text": "Pure = Plain loss-or-nothing. Speculative = Stock market (could go either way)." }
+          ]
+        },
+        {
+          "heading": "Perils, hazards and losses",
+          "body": "These three words are the most commonly confused on the exam.\n\n- A [[peril]] is the **cause** of a loss: fire, windstorm, theft, collision, hail.\n- A [[hazard]] is a **condition that increases** the chance a loss will happen or makes a loss worse. Hazards come in three types:\n  - [[physical-hazard|Physical hazard]]: a tangible condition, such as frayed wiring, a wood stove next to curtains, or bald tires.\n  - [[moral-hazard|Moral hazard]]: a character problem — **dishonesty**, such as a person who would stage an accident or burn a failing business for the insurance money.\n  - [[morale-hazard|Morale hazard]]: **carelessness or indifference** because insurance exists, such as leaving the keys in the car (\"it's insured anyway\") or not bothering to lock the back door.\n- A [[loss]] is the reduction in value that results when a peril strikes. Insurers pay for losses, not for hazards.",
+          "simple": "Peril = what causes the damage (fire). Hazard = what makes the damage more likely or bigger (oily rags in the garage). Loss = the damage itself.",
+          "example": {
+            "title": "Example: The garage fire",
+            "body": "Dana stores oily rags in a pile in her garage (physical hazard). They ignite and fire (peril) destroys her car and workbench (loss). Her neighbor, who never locks his car because \"insurance will pay,\" shows a morale hazard. Someone who sets his own boat on fire to collect insurance shows a moral hazard."
+          },
+          "callouts": [
+            { "kind": "memory-tip", "text": "MORAL = a matter of honesty (intent). MORALE = a matter of attitude (careless). The extra E is for 'Eh, who cares.'" },
+            { "kind": "exam-trap", "text": "Fire is a PERIL, not a hazard. Faulty wiring that makes fire more likely is the hazard." }
+          ]
+        },
+        {
+          "heading": "Five ways to handle risk",
+          "body": "Insurance is only one way to deal with risk. The exam expects you to name all of them:\n\n- [[risk-avoidance|Avoidance]]: eliminate the activity. Never buying a motorcycle avoids motorcycle accidents entirely.\n- [[risk-retention|Retention]]: accept the risk yourself and pay small losses out of pocket. Choosing a $1,000 deductible on your homeowners policy retains the first $1,000 of each covered loss. Large organizations that deliberately retain risk are said to **self-insure**.\n- [[risk-sharing|Sharing]]: spread a risk among several people or entities so each bears part of it — for example, two partners who co-own a beach house and agree to split any uninsured damage.\n- [[risk-reduction|Reduction]]: lower the chance or severity of loss — smoke detectors, deadbolt locks, a central-station alarm, anti-theft devices on a car.\n- [[risk-transfer|Transfer]]: shift the financial consequences to someone else, either by **buying insurance** or by **contract** (a hold-harmless clause in a lease that makes the tenant responsible for certain injuries is contractual transfer).\n\nInsurance is the most common form of transfer.",
+          "simple": "Skip it (avoid), keep it (retain), split it (share), shrink it (reduce), or shift it (transfer). Buying a policy shifts the risk to an insurer.",
+          "callouts": [
+            { "kind": "memory-tip", "text": "A-R-S-R-T: Avoid, Retain, Share, Reduce, Transfer — 'All Risks Stay Really Tame.'" },
+            { "kind": "exam-trap", "text": "A deductible is RETENTION, not reduction. Reduction changes the chance or size of the loss itself (a sprinkler system); retention only changes who pays." }
+          ]
+        },
+        {
+          "heading": "What makes a risk insurable",
+          "body": "An [[insurable-risk]] generally has these elements:\n\n- **Many similar exposure units**, so losses can be predicted (thousands of similar homes or cars).\n- **Accidental loss**: the loss must be unexpected and not intentional on the insured's part.\n- **Definite and measurable loss**: the time, place, cause and amount can be determined.\n- **Not catastrophic** for the insurer: losses should not strike a huge share of exposures at once. That is why widespread perils such as flood and earthquake are excluded from standard homeowners policies and handled separately.\n- **Calculable chance of loss**, so a fair premium can be set.\n- **Economically feasible premium**: the cost must be affordable compared with the potential loss.\n\nThe [[law-of-large-numbers|law of large numbers]] explains why many exposure units matter: the larger the group, the closer actual losses come to predicted losses. An insurer covering 50,000 homes can predict fire losses far more accurately than one covering 50.",
+          "simple": "Insurers can cover a risk when lots of people face it, losses are accidental and measurable, not everyone gets hit at once, and the premium is affordable.",
+          "callouts": [
+            { "kind": "exam-trap", "text": "Insurers do not need to predict which particular house will burn — only how many in a large group will. That is the law of large numbers." }
+          ]
+        },
+        {
+          "heading": "Adverse selection, reinsurance and risk retention",
+          "body": "[[adverse-selection|Adverse selection]] is the tendency of people with a **higher-than-average chance of loss** to seek or keep insurance more than others. A homeowner who buys flood coverage only after the river starts rising, or a driver with several tickets eager to buy high limits, illustrates it. Insurers fight adverse selection through **underwriting**: applications, inspections, motor vehicle reports, claim histories and waiting periods.\n\n[[reinsurance|Reinsurance]] is insurance for insurers. The insurer that issues the policy (the **ceding** insurer) transfers part of its risk to a **reinsurer**. After a hurricane damages thousands of Long Island homes, reinsurance helps the primary insurer pay every claim. The policyholder still deals only with the original insurer.\n\nThe outline also lists **risk retention** under methods of handling risk: deliberately keeping a risk (through deductibles or self-insurance) because insuring it would cost more than the expected losses.",
+          "simple": "Adverse selection: the riskiest people want insurance most. Reinsurance: an insurer buys insurance from another insurer to protect itself against very large losses.",
+          "example": {
+            "title": "Example: The ceding insurer",
+            "body": "Harbor Mutual writes 40,000 homeowners policies along the coast. It keeps the first part of each storm loss and cedes the rest to a reinsurer. When a storm causes heavy damage, homeowners file claims with Harbor Mutual, and Harbor Mutual recovers the ceded share from its reinsurer."
+          },
+          "callouts": [
+            { "kind": "memory-tip", "text": "Ceding = 'seeding' the risk out to a reinsurer." }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "categorize",
+        "prompt": "Sort each situation into peril, hazard type, or loss.",
+        "categories": ["Peril", "Physical hazard", "Moral hazard", "Morale hazard"],
+        "items": [
+          { "text": "Hail", "category": "Peril" },
+          { "text": "Collision with a deer", "category": "Peril" },
+          { "text": "Worn brake pads", "category": "Physical hazard" },
+          { "text": "Space heater beside drapes", "category": "Physical hazard" },
+          { "text": "Owner plans to burn a car he can't sell", "category": "Moral hazard" },
+          { "text": "Exaggerating the value of stolen jewelry on a claim", "category": "Moral hazard" },
+          { "text": "Leaving the garage door open because the bikes are insured", "category": "Morale hazard" },
+          { "text": "Ignoring a leaking roof since the policy will pay", "category": "Morale hazard" }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Kim installs a monitored burglar alarm in her home. Which method of handling risk is this?",
+          "choices": ["Reduction", "Avoidance", "Transfer", "Retention"],
+          "answerIndex": 0,
+          "explanation": "An alarm lowers the chance or severity of a theft loss, so it is risk reduction. Avoidance would mean not owning the property; transfer would be buying insurance; retention would be paying losses herself."
+        },
+        {
+          "prompt": "Which is a peril?",
+          "choices": ["Windstorm", "Icy front steps", "Careless smoking habits", "A dishonest insured"],
+          "answerIndex": 0,
+          "explanation": "A windstorm is a cause of loss. Icy steps are a physical hazard, careless habits a morale hazard, and dishonesty a moral hazard."
+        },
+        {
+          "prompt": "Why do standard homeowners policies exclude flood?",
+          "choices": ["Flood can cause catastrophic losses to many exposures at once", "Flood losses cannot be measured in dollars", "Flood is a speculative risk", "Flood is never accidental"],
+          "answerIndex": 0,
+          "explanation": "An insurable risk should not expose the insurer to catastrophic loss across a large share of its policies at the same time. Flood damage is measurable, pure and usually accidental — its catastrophic potential is the problem."
+        }
+      ],
+      "summary": [
+        "Only pure risk (loss or no loss) is insurable; speculative risk includes a chance of gain.",
+        "A peril causes a loss; a hazard increases its chance or severity (physical, moral = dishonesty, morale = carelessness).",
+        "Risk can be avoided, retained, shared, reduced or transferred; insurance and hold-harmless contracts are transfer.",
+        "Insurable risks involve many similar units, accidental and measurable losses, no catastrophic concentration and an affordable premium.",
+        "The law of large numbers improves loss prediction; adverse selection is countered by underwriting; reinsurance spreads an insurer's own risk."
+      ],
+      "related": ["plgen-l02", "plgen-l03"],
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    }
+  ]
+}

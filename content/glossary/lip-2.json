@@ -1,0 +1,283 @@
+{
+  "sectionId": "lip",
+  "terms": [
+    {
+      "id": "universal-life",
+      "term": "Universal Life",
+      "aliases": ["UL", "Flexible Premium Adjustable Life"],
+      "sectionId": "lip",
+      "outlineIds": ["lip.3", "lip.3.1"],
+      "formal": "Permanent life insurance with flexible premiums and an adjustable death benefit, in which the cash value is credited with interest (subject to a guaranteed minimum) and monthly cost-of-insurance and expense charges are deducted from the cash value.",
+      "plain": "Universal life lets the policyowner change how much and how often to pay, and (within limits) raise or lower the death benefit. Premiums go into a cash value account that earns interest; each month the insurer takes out the cost of the insurance and fees. If the account runs too low to pay those charges, the policy can lapse.",
+      "simpler": "Like a prepaid account that pays for your insurance each month: put in more and it grows, put in too little and it eventually runs dry.",
+      "examples": [
+        "Tasha skips two premium payments on her universal life policy during a job change; the monthly charges are taken from her cash value, so coverage continues.",
+        "Rob chooses the increasing death benefit option so his beneficiary would receive the specified amount plus the cash value."
+      ],
+      "examTip": "UL key words: flexible premium, adjustable death benefit, 'unbundled' (interest, mortality and expense shown separately), guaranteed minimum interest rate plus a current rate. Option A (Option 1) = level death benefit; Option B (Option 2) = face amount plus cash value.",
+      "misconception": "Flexible premiums do not mean premiums are optional forever; if the cash value cannot cover the monthly charges, the policy enters its grace period and can lapse.",
+      "related": ["whole-life-insurance", "cash-value", "indexed-universal-life", "guaranteed-minimum-rate", "current-interest-rate", "grace-period"],
+      "confusedWith": ["whole-life-insurance", "variable-life-insurance"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which policy allows the owner to vary premium payments and adjust the death benefit, with interest credited to the cash value at no less than a guaranteed minimum rate?",
+        "choices": ["Universal life", "Straight whole life", "Level term", "Single-premium whole life"],
+        "answerIndex": 0,
+        "explanation": "Universal life is the flexible-premium, adjustable-benefit policy with a guaranteed minimum interest rate. Whole life forms have fixed premium schedules; level term has no cash value."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "indexed-universal-life",
+      "term": "Indexed Universal Life (IUL)",
+      "aliases": ["Equity Indexed Life", "Fixed Indexed Life", "Equity Indexed Universal Life"],
+      "sectionId": "lip",
+      "outlineIds": ["lip.4.4"],
+      "formal": "A form of universal (or other cash value) life insurance in which interest credited to the cash value is linked to the performance of a stock market index, subject to a cap and/or participation rate, with a guaranteed minimum (floor) that protects against losses from index declines.",
+      "plain": "The cash value can earn more when a market index such as the S&P 500 goes up, but only up to a limit. When the index goes down, the floor (often 0%) means the cash value is not reduced by the index loss. The money is not invested directly in stocks.",
+      "simpler": "Like riding the stock market's up-elevator with a ceiling on how high you can go, and a safety net so you never go below the floor.",
+      "examples": [
+        "The index rises 14% in a year; Mia's IUL has a 10% cap, so her account is credited 10%.",
+        "The index falls 8% the next year; with a 0% floor, Mia's account is credited 0% for that period (policy charges are still deducted)."
+      ],
+      "examTip": "Indexed life is a FIXED product (insurer's general account) — it is not a security and does not require a securities license, unlike variable life. Look for the words cap, floor and participation rate.",
+      "misconception": "IUL policyowners do not own shares of the index or receive dividends from the stocks in it; the index is only used to calculate credited interest.",
+      "related": ["universal-life", "variable-life-insurance", "indexed-annuity", "general-account"],
+      "confusedWith": ["variable-life-insurance", "universal-life"],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "In a fixed indexed life policy, what usually happens to the cash value in a year when the linked market index declines?",
+        "choices": [
+          "It is credited no less than the guaranteed floor rate",
+          "It falls by the same percentage as the index",
+          "It is credited the full gain of the prior year",
+          "It is transferred into a separate account"
+        ],
+        "answerIndex": 0,
+        "explanation": "The floor protects indexed policies from index losses. Losing value with the market describes variable products; there is no carry-forward of prior gains; indexed products are supported by the general account, not a separate account."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "joint-life",
+      "term": "Joint Life (First-to-Die)",
+      "aliases": ["First-to-Die", "Joint First-to-Die Life"],
+      "sectionId": "lip",
+      "outlineIds": ["lip.4.1"],
+      "formal": "A single life insurance policy covering two or more insureds that pays the death benefit upon the first death among them, after which the policy ends.",
+      "plain": "One policy covers two (or more) people. When the first one dies, the death benefit is paid and the policy is over — the survivor is no longer covered by it.",
+      "simpler": "Like a ticket that is used up as soon as the first person on it goes through the gate.",
+      "examples": [
+        "Two business partners buy a joint first-to-die policy so the survivor receives money to buy out the deceased partner's share.",
+        "A married couple with a large mortgage buys a joint life policy so the debt is paid off when either spouse dies first."
+      ],
+      "examTip": "Joint life = FIRST death pays. It usually costs less than two separate policies, but it pays only once. Survivorship (second-to-die) is the opposite.",
+      "misconception": "A joint life policy does not pay at each death; once the first insured dies and the benefit is paid, the coverage ends.",
+      "related": ["survivorship-life", "buy-sell-agreement", "whole-life-insurance"],
+      "confusedWith": ["survivorship-life", "joint-life-annuity"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "When does a joint (first-to-die) life policy pay its death benefit?",
+        "choices": [
+          "At the death of the first insured",
+          "At the death of the last surviving insured",
+          "At each insured's death, in equal shares",
+          "Only if both insureds die in a common accident"
+        ],
+        "answerIndex": 0,
+        "explanation": "Joint life pays once, at the first death, and then ends. Paying at the last death is survivorship life. It does not pay at each death, and no common accident is required."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "survivorship-life",
+      "term": "Survivorship Life (Second-to-Die)",
+      "aliases": ["Second-to-Die", "Last Survivor Life"],
+      "sectionId": "lip",
+      "outlineIds": ["lip.4.2"],
+      "formal": "A single life insurance policy covering two insureds (commonly spouses) that pays the death benefit only after the death of the last surviving insured.",
+      "plain": "One policy covers two people, but nothing is paid at the first death. The benefit is paid when the second person dies. It is often used to provide cash for estate taxes or heirs after both spouses are gone.",
+      "simpler": "Like a gift box that can only be opened after both people who own it have left the room.",
+      "examples": [
+        "Harold and June buy a survivorship policy so their children will have cash to pay estate settlement costs after both parents die.",
+        "Because the insurer pays only after two deaths, the Lees' survivorship premium is lower than for two separate policies with the same face amounts."
+      ],
+      "examTip": "Survivorship = LAST death pays; classic use is estate planning (estate taxes are typically due after the second spouse dies). Premiums are generally lower than for joint first-to-die coverage of the same amount.",
+      "misconception": "The surviving spouse does not receive a benefit when the first spouse dies under a survivorship policy.",
+      "related": ["joint-life", "estate-conservation", "whole-life-insurance"],
+      "confusedWith": ["joint-life", "joint-and-survivor"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A wealthy couple wants a policy that will provide cash to pay estate costs after both of them have died. Which policy fits best?",
+        "choices": ["Survivorship (second-to-die) life", "Joint (first-to-die) life", "Decreasing term", "Group term life"],
+        "answerIndex": 0,
+        "explanation": "Survivorship life pays at the second death, which is when estate costs typically come due. Joint life pays at the first death; decreasing term and group term are temporary and not designed for this goal."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "juvenile-life-insurance",
+      "term": "Life Insurance on Minors",
+      "aliases": ["Juvenile Life Insurance", "Juvenile Insurance"],
+      "sectionId": "lip",
+      "outlineIds": ["lip.4.3"],
+      "formal": "Life insurance written on the life of a child. In New York, Insurance Law § 3207(b) limits the amount an insurer may knowingly issue on a minor under age 14 years 6 months, when effectuated by a person on whom the child depends for support, to the greater of $50,000 or 50% (25% if the child is under 4 years 6 months) of the life insurance in force on the person effectuating the coverage.",
+      "plain": "Parents or others with an insurable interest can buy life insurance on a child. New York caps how much can be placed on a young child: for a child under 14½, the most is $50,000 or half of the life insurance on the parent buying it (one quarter if the child is under 4½), whichever is greater. A minor older than 14½ can own a policy on his or her own life.",
+      "simpler": "The law lets parents insure a child, but keeps the amount modest compared with the parent's own coverage, so insuring a child never becomes a way to profit.",
+      "examples": [
+        "Nadia has $300,000 of life insurance and wants to insure her 8-year-old son. The cap is the greater of $50,000 or 50% of $300,000 ($150,000), so up to $150,000 total may be issued on him.",
+        "Leo has $80,000 of life insurance and wants to insure his 2-year-old daughter. 25% of $80,000 is $20,000, so the greater limit — $50,000 — applies."
+      ],
+      "examTip": "NY § 3207: age 14 years 6 months is the dividing line. Under 14½: cap = greater of $50,000 or 50% of the effectuating person's coverage (25% if under 4½). Over 14½: the minor may contract for and own a policy, with beneficiaries limited to close family.",
+      "misconception": "The cap is not 'whichever is less'. The statute says 'whichever limit is the greater', so a child can always have at least $50,000 (counting all policies) even if the parent has little insurance.",
+      "related": ["insurable-interest", "payor-benefit-rider", "childrens-term-rider", "whole-life-insurance"],
+      "confusedWith": ["childrens-term-rider"],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "Under NY Insurance Law § 3207, a minor above what age may own a policy on his or her own life?",
+        "choices": ["14 years 6 months", "4 years 6 months", "16 years", "18 years"],
+        "answerIndex": 0,
+        "explanation": "§ 3207(a) deems a minor above age 14 years 6 months competent to contract for and own a life insurance policy. Age 4 years 6 months is the threshold for the lower 25% limit; 16 and 18 are not the statutory ages."
+      },
+      "sources": ["ny-isc-3207"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "group-life-insurance",
+      "term": "Group Life Insurance",
+      "aliases": ["Group Term Life"],
+      "sectionId": "lip",
+      "outlineIds": ["lip.5", "lip.5.1", "lip.5.2", "lip.5.3"],
+      "formal": "Life insurance issued under one master policy to a group policyholder (such as an employer, labor union, association or creditor), covering eligible members of the group, who each receive a certificate describing their coverage; it is usually written as annually renewable term and underwritten on the group as a whole.",
+      "plain": "One contract covers many people. The employer (or union, or association) owns the master policy; each covered person gets a certificate. Members usually join without a medical exam because the insurer evaluates the group as a whole. If you leave the group, you can usually convert to an individual policy.",
+      "simpler": "Like a team membership: the team holds the main contract, and each player gets a membership card showing what they're entitled to.",
+      "examples": [
+        "Brightline Corp. buys a group life master policy covering every full-time employee for one times annual salary; each employee receives a certificate of coverage.",
+        "A labor union's group life plan covers its eligible members, and new members who join the eligible class are added to the plan."
+      ],
+      "examTip": "Group = master policy + certificates + group (not individual) underwriting, typically no medical exam for basic amounts, usually annually renewable term, and a conversion privilege when coverage ends. The group must exist for a purpose other than buying insurance.",
+      "misconception": "Covered employees are not the policyowners; the employer or other sponsor is the policyholder, and employees hold certificates.",
+      "related": ["master-policy", "certificate-of-coverage", "conversion-privilege", "eligible-group", "experience-rating", "credit-life-insurance"],
+      "confusedWith": ["credit-life-insurance"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Under a group life plan sponsored by an employer, who receives a certificate of insurance?",
+        "choices": ["Each covered employee", "The employer only", "The insurer's home office", "The state insurance department"],
+        "answerIndex": 0,
+        "explanation": "The employer (policyholder) holds the master policy; each covered employee receives a certificate describing his or her coverage. The insurer issues the documents; the regulator does not receive certificates."
+      },
+      "sources": ["ny-isc-3220"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19", "notes": "Certificate requirement: § 3220(a)(4); sponsor types (employer, labor union, association, creditor) and enrollment of new eligible members: § 3220(a)(9)." }
+    },
+    {
+      "id": "conversion-privilege",
+      "term": "Conversion Privilege",
+      "aliases": ["Group Conversion", "Conversion Right"],
+      "sectionId": "lip",
+      "outlineIds": ["lip.5.4"],
+      "formal": "The right of a person whose group life coverage ends or is reduced to obtain an individual life policy from the insurer without evidence of insurability. Under NY Insurance Law § 3220(a)(6), application and premium must be made within 31 days after the termination, and the individual policy may be in any form customarily issued by the insurer except term insurance (optionally preceded by one year of term).",
+      "plain": "If you leave your job (or your group coverage ends), you can turn your group life coverage into your own individual policy without a medical exam. In New York you have 31 days to apply, the new policy is priced at your current age, and it is a permanent (cash value) form rather than term. If you die during those 31 days, the insurer pays as if you had converted.",
+      "simpler": "Like being allowed to take your team jersey with you when you leave — but you have one month to claim it, and you pay for it yourself from then on.",
+      "examples": [
+        "Ana leaves her employer, where she had $100,000 of group life. Within 31 days she applies for a $100,000 individual whole life policy with no medical questions, paying the premium for her current age.",
+        "Ben quits on June 1 and dies on June 20 without applying. Because he died within the 31-day conversion period, his beneficiary receives the amount he could have converted."
+      ],
+      "examTip": "NY § 3220: 31 days to convert, no evidence of insurability, premium at attained age, individual policy may not be term (except an optional first year of term), and death within the 31 days is covered. Conversion is also available to a surviving spouse, a child reaching the limiting age, and an ex-spouse after divorce.",
+      "misconception": "Conversion does not mean the employer keeps paying. The former member pays the individual premium, based on his or her attained age, not the group rate.",
+      "related": ["group-life-insurance", "convertible-term", "certificate-of-coverage", "master-policy"],
+      "confusedWith": ["convertible-term", "renewable-term"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under NY Insurance Law § 3220, how long does a former employee have to apply for an individual policy after group life coverage terminates?",
+        "choices": ["31 days", "10 days", "60 days", "6 months"],
+        "answerIndex": 0,
+        "explanation": "§ 3220(a)(6) gives 31 days after termination to apply and pay the premium, without evidence of insurability. The other periods are not the NY group life conversion period."
+      },
+      "sources": ["ny-isc-3220"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "credit-life-insurance",
+      "term": "Credit Life Insurance",
+      "aliases": ["Creditor Life Insurance", "Group Credit Life"],
+      "sectionId": "lip",
+      "outlineIds": ["lip.6"],
+      "formal": "Life insurance on a debtor that pays the remaining balance of a specific loan or credit obligation to the creditor if the debtor dies; it may be issued as an individual policy or, more commonly, as group credit insurance under a master policy held by the creditor (lender).",
+      "plain": "If a borrower dies, credit life pays off what is still owed on the loan. The lender is paid directly, and the coverage usually shrinks as the loan is paid down. With group credit life, the lender holds the master policy and the borrowers are the insureds.",
+      "simpler": "Insurance that makes sure a loan does not outlive the borrower and land on the family.",
+      "examples": [
+        "Javier finances a car with a $24,000 loan and buys credit life; when he dies with $15,000 still owed, the insurer pays $15,000 to the lender.",
+        "A bank holds a group credit life master policy covering everyone with a personal loan from it; each borrower is an insured debtor."
+      ],
+      "examTip": "Credit life: insured = debtor, beneficiary/payee = creditor, amount generally limited to the debt, usually decreasing term. Group credit = creditor is the group policyholder; individual credit = a policy issued to the individual debtor.",
+      "misconception": "Credit life does not pay the borrower's family a lump sum beyond the debt; its purpose is to retire the loan.",
+      "related": ["decreasing-term", "group-life-insurance", "insurable-interest", "master-policy"],
+      "confusedWith": ["group-life-insurance", "decreasing-term"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under a credit life policy, who receives the death benefit when the insured borrower dies?",
+        "choices": ["The creditor (lender)", "The borrower's spouse", "The borrower's estate", "The borrower's employer"],
+        "answerIndex": 0,
+        "explanation": "Credit life pays the creditor to retire the outstanding debt. Family members or the estate benefit indirectly because the loan is paid off; the employer has no role."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    }
+  ],
+  "comparisons": [
+    {
+      "a": "joint-life",
+      "b": "survivorship-life",
+      "keyDifference": "Joint life pays at the FIRST death; survivorship life pays at the LAST (second) death.",
+      "rows": [
+        { "aspect": "When benefit is paid", "a": "First insured's death; policy then ends", "b": "Last surviving insured's death" },
+        { "aspect": "Typical use", "a": "Business buyouts; replacing income or paying a debt when either spouse dies", "b": "Estate planning: cash for estate taxes and heirs after both spouses die" },
+        { "aspect": "Relative premium", "a": "Higher (claim expected sooner)", "b": "Lower (claim expected later)" }
+      ],
+      "memoryTip": "JOINT = the first one Jumps out; SURVIVORship = pays after the last Survivor."
+    },
+    {
+      "a": "whole-life-insurance",
+      "b": "universal-life",
+      "keyDifference": "Whole life is 'bundled' with fixed premiums, a fixed death benefit and guaranteed cash values; universal life is 'unbundled' with flexible premiums, an adjustable death benefit and cash value that depends on credited interest and charges.",
+      "rows": [
+        { "aspect": "Premium", "a": "Fixed, level, required on schedule", "b": "Flexible within limits; can skip if cash value covers charges" },
+        { "aspect": "Death benefit", "a": "Level, fixed face amount", "b": "Adjustable; level (Option A) or increasing (Option B)" },
+        { "aspect": "Cash value", "a": "Guaranteed schedule", "b": "Guaranteed minimum rate; current rate may be higher; charges deducted monthly" },
+        { "aspect": "Transparency", "a": "Bundled; components not shown separately", "b": "Unbundled; interest, mortality and expense charges shown separately" }
+      ],
+      "memoryTip": "Whole = Wired-in guarantees; Universal = yoU Ultimately adjust."
+    },
+    {
+      "a": "group-life-insurance",
+      "b": "credit-life-insurance",
+      "keyDifference": "Group life protects members' chosen beneficiaries; credit life (individual or group) pays the creditor to retire a debt.",
+      "rows": [
+        { "aspect": "Policyholder (group form)", "a": "Employer, union, association or other eligible group", "b": "The creditor (lender)" },
+        { "aspect": "Who receives the benefit", "a": "Beneficiary designated by the insured member", "b": "The creditor, up to the unpaid debt" },
+        { "aspect": "Amount", "a": "Set by the plan (e.g. a multiple of salary)", "b": "Generally tied to the outstanding debt; usually decreases" }
+      ],
+      "memoryTip": "Credit life pays the Creditor."
+    }
+  ]
+}

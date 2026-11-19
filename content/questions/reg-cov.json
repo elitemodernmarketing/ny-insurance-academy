@@ -1,0 +1,1154 @@
+{
+ "sectionId": "reg",
+ "questions": [
+  {
+   "id": "reg-q101",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.1.2.4"
+   ],
+   "concepts": [
+    "negotiate",
+    "producer"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Mr. Lopez has already decided to apply to Empire Life and asks licensed producer Tara to walk him through the specific policy he is considering. Tara explains its exclusions, the waiting period on one rider and the conversion option, and advises him which rider fits his needs. No application has been signed and no premium has been paid.",
+   "stem": "Under NY Insurance Law § 2101, which licensed act best describes what Tara did in this meeting?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Soliciting insurance",
+     "rationale": "Incorrect: soliciting is asking or urging a person to apply for a particular kind of insurance from a particular insurer. Mr. Lopez had already decided to apply; Tara was discussing the terms of a specific contract."
+    },
+    {
+     "id": "b",
+     "text": "Negotiating insurance",
+     "rationale": "Correct: conferring directly with, or advising, a prospective purchaser about the substantive benefits, terms or conditions of a particular contract is negotiation under § 2101(m)."
+    },
+    {
+     "id": "c",
+     "text": "Selling insurance",
+     "rationale": "Incorrect: a sale is the exchange of the contract for money or its equivalent. No application was signed and no premium was paid."
+    },
+    {
+     "id": "d",
+     "text": "Consulting for a fee",
+     "rationale": "Incorrect: a consultant gives advice for a fee paid by the client and cannot sell, solicit or negotiate. Tara is a producer who places coverage with insurers."
+    }
+   ],
+   "correct": "b",
+   "explanation": "NY Insurance Law § 2101(m) defines \"negotiate\" as conferring directly with, or offering advice directly to, a purchaser or prospective purchaser of a particular contract about any of its substantive benefits, terms or conditions, when the person sells insurance or obtains it from licensed insurers for purchasers. Explaining exclusions, rider waiting periods and options of a specific policy, and advising which rider to choose, is exactly that. Negotiating is one of the three licensed acts (solicit, negotiate, sell), so a license is required for it even before any sale happens.",
+   "memoryTip": "Negotiate = the TALK about the terms of a particular policy.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Identifies the act as negotiation",
+      "anyOf": [
+       "negotiat"
+      ]
+     },
+     {
+      "label": "Discussing substantive terms of a particular contract",
+      "anyOf": [
+       "terms",
+       "benefits",
+       "conditions",
+       "exclusion",
+       "particular"
+      ]
+     },
+     {
+      "label": "No sale has occurred yet",
+      "anyOf": [
+       "no sale",
+       "not a sale",
+       "no premium",
+       "not sold",
+       "before"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2101"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q102",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.1.2.5"
+   ],
+   "concepts": [
+    "sell",
+    "solicit",
+    "negotiate"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "Under NY Insurance Law § 2101(n), to \"sell\" insurance means to:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Urge a person to apply for a particular insurer's policy",
+     "rationale": "Incorrect: asking or urging someone to apply for a particular kind of insurance from a particular insurer is the definition of \"solicit\" (§ 2101(o))."
+    },
+    {
+     "id": "b",
+     "text": "Confer with a buyer about a particular policy's terms",
+     "rationale": "Incorrect: conferring or advising about the substantive terms of a particular contract is the definition of \"negotiate\" (§ 2101(m))."
+    },
+    {
+     "id": "c",
+     "text": "Exchange a policy for money on behalf of a licensed insurer",
+     "rationale": "Correct: § 2101(n) defines \"sell\" as exchanging a contract of insurance, by any means, for money or its equivalent, on behalf of a licensed insurer, fraternal benefit society or HMO."
+    },
+    {
+     "id": "d",
+     "text": "Investigate and settle a claim on behalf of an insurer",
+     "rationale": "Incorrect: investigating and adjusting claims for an insurer describes an independent adjuster (§ 2101(g)), not selling."
+    }
+   ],
+   "correct": "c",
+   "explanation": "New York defines three licensed acts. Solicit is the ask, negotiate is the discussion of a particular contract's terms, and sell is the deal itself: the exchange of an insurance contract, by any means, for money or its equivalent, on behalf of a licensed insurer, fraternal benefit society or HMO (§ 2101(n)). Anyone required to be licensed to sell, solicit or negotiate is a producer (§ 2101(k)).",
+   "memoryTip": "Solicit = ASK. Negotiate = TALK. Sell = DEAL (policy for money).",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2101"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q103",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.1.3.1"
+   ],
+   "concepts": [
+    "insurance-agent",
+    "insurance-broker"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Dmitri holds a New York life and accident and health agent license and is appointed by Hudson Life. A prospect asks him, \"When you sell me a Hudson Life policy, whose representative are you?\"",
+   "stem": "What is the most accurate answer under New York law?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Hudson Life, the insurer that appointed him",
+     "rationale": "Correct: § 2101(a) defines an insurance agent as an authorized agent of an insurer. Dmitri represents Hudson Life."
+    },
+    {
+     "id": "b",
+     "text": "The prospect, because the prospect pays the premium",
+     "rationale": "Incorrect: acting on behalf of the insured describes a broker (§ 2101(c)). Who pays the premium does not change whom an agent represents."
+    },
+    {
+     "id": "c",
+     "text": "Both parties equally, as a dual agent by law",
+     "rationale": "Incorrect: New York law does not make an agent a dual representative. An agent acts for the insurer; a broker acts for the insured."
+    },
+    {
+     "id": "d",
+     "text": "The superintendent, who issued his license",
+     "rationale": "Incorrect: the superintendent licenses and regulates producers but is not their principal. The license qualifies Dmitri; the appointment ties him to Hudson Life."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Under NY Insurance Law § 2101(a), an insurance agent is an authorized or acknowledged agent of an insurer (or fraternal benefit society or HMO) who solicits, negotiates or sells on its behalf. The insurer authorizes the agent by filing an appointment. So Dmitri represents Hudson Life. A broker is the opposite: under § 2101(c) a broker acts on behalf of the insured.",
+   "memoryTip": "Agent = Appointed by the insurer, Acts for the insurer.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2101",
+    "psi-ny-bulletin-2023"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q104",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.1.3.2"
+   ],
+   "concepts": [
+    "insurance-broker",
+    "insurance-agent"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "For a commission, Priya takes a client's coverage needs to several New York-licensed insurers, compares their offers and places the coverage. She acts on behalf of the client, not any one insurer.",
+   "stem": "Under NY Insurance Law § 2101, Priya is acting as a(n):",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Insurance broker",
+     "rationale": "Correct: § 2101(c) defines a broker as a person who, for compensation, solicits, negotiates or places insurance on behalf of an insured other than itself."
+    },
+    {
+     "id": "b",
+     "text": "Insurance agent",
+     "rationale": "Incorrect: an agent is an authorized agent of an insurer and represents that insurer, not the client."
+    },
+    {
+     "id": "c",
+     "text": "Insurance consultant",
+     "rationale": "Incorrect: a consultant gives advice for a fee and may not sell, solicit or negotiate or place coverage."
+    },
+    {
+     "id": "d",
+     "text": "Independent adjuster",
+     "rationale": "Incorrect: an independent adjuster investigates and adjusts claims for an insurer; Priya is placing new coverage."
+    }
+   ],
+   "correct": "a",
+   "explanation": "The key question is whom the licensee represents. A broker (§ 2101(c)) acts on behalf of the insured for compensation, soliciting, negotiating or placing coverage. The PSI/DFS bulletin describes brokers as representing the public and dealing with any NY-licensed insurer that works with brokers. An agent, by contrast, represents the insurer that appointed it.",
+   "memoryTip": "Broker = Buyer's representative.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2101",
+    "psi-ny-bulletin-2023"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q105",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.1.3.4"
+   ],
+   "concepts": [
+    "adjuster"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "A fire damages Ken's home. His insurer pays Mona, who runs her own adjusting firm, to investigate and adjust the claim. Ken separately pays Leo to negotiate the settlement of the property claim on his behalf.",
+   "stem": "How does NY Insurance Law classify Mona and Leo?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Mona is a public adjuster; Leo is an independent adjuster",
+     "rationale": "Incorrect: this reverses the roles. A public adjuster works for the insured, and an independent adjuster works for the insurer."
+    },
+    {
+     "id": "b",
+     "text": "Mona is an independent adjuster; Leo is a public adjuster",
+     "rationale": "Correct: § 2101(g)(1) defines an independent adjuster as acting for an insurer; § 2101(g)(2) defines a public adjuster as acting for an insured on a property loss claim."
+    },
+    {
+     "id": "c",
+     "text": "Both are public adjusters because they handle claims",
+     "rationale": "Incorrect: handling claims is common to both types; the classification depends on whom each one acts for."
+    },
+    {
+     "id": "d",
+     "text": "Both are independent adjusters because neither is an employee",
+     "rationale": "Incorrect: \"independent\" refers to acting for an insurer for compensation, not to employment status. Leo acts for the insured."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Under § 2101(g), an independent adjuster is paid to act on behalf of an INSURER in investigating and adjusting claims, while a public adjuster is paid to act on behalf of an INSURED in negotiating or effecting the settlement of a property loss claim. The word \"independent\" sounds neutral, which makes this a common exam trap.",
+   "memoryTip": "PUBLIC adjuster = the public's (insured's) side.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Mona acts for the insurer (independent adjuster)",
+      "anyOf": [
+       "independent"
+      ]
+     },
+     {
+      "label": "Leo acts for the insured (public adjuster)",
+      "anyOf": [
+       "public"
+      ]
+     },
+     {
+      "label": "Classification depends on whom the adjuster represents",
+      "anyOf": [
+       "behalf",
+       "represent",
+       "acts for",
+       "works for"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2101"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q106",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.1.3.6"
+   ],
+   "concepts": [
+    "producer",
+    "insurance-agent"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Brightline Agency, Inc. holds a New York agent license as a business entity. The license names its officer Sam as a sub-licensee. Brightline also employs several unlicensed customer-service staff and has outside shareholders.",
+   "stem": "Under NY Insurance Law § 2103, who may act as an agent under Brightline's license?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Any employee whom the corporation directly supervises",
+     "rationale": "Incorrect: employment alone gives no authority. The license authorizes only the officers and directors named on it as sub-licensees."
+    },
+    {
+     "id": "b",
+     "text": "Any shareholder who owns more than half of the stock",
+     "rationale": "Incorrect: ownership is not the test. Only named officers or directors (sub-licensees) may act under a corporation's license."
+    },
+    {
+     "id": "c",
+     "text": "Only officers or directors named on it as sub-licensees",
+     "rationale": "Correct: § 2103(c) says a corporation's license authorizes only its officers and directors named in the license as sub-licensees, acting in the licensee's name."
+    },
+    {
+     "id": "d",
+     "text": "Anyone the company president designates in writing",
+     "rationale": "Incorrect: a written designation by the company does not substitute for being named as a sub-licensee on the license issued by the superintendent."
+    }
+   ],
+   "correct": "c",
+   "explanation": "A business entity (§ 2101(p)) is a corporation, association, partnership, LLC, LLP or other legal entity, and it can hold a license. But under § 2103(c), a corporation's license authorizes only the officers and directors named in it as sub-licensees, and they may act only in the name of the licensee. Under § 2103(e), the named sub-licensees are designated responsible for the entity's compliance with New York insurance law. Entity licenses expire on June 30 of odd-numbered years (§ 2103(j)(2)).",
+   "memoryTip": "Entity license = only the NAMED sub-licensees may act.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Only named sub-licensees may act",
+      "anyOf": [
+       "sub-licensee",
+       "sublicensee",
+       "named"
+      ]
+     },
+     {
+      "label": "Officers or directors of the corporation",
+      "anyOf": [
+       "officer",
+       "director"
+      ]
+     },
+     {
+      "label": "Acting in the entity's name",
+      "anyOf": [
+       "name of the licensee",
+       "in the name",
+       "entity"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2101",
+    "ny-isc-2103"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q107",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.1.4.2"
+   ],
+   "concepts": [
+    "continuing-education"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "scenario": "Ana is a resident New York life and health agent whose license has been in effect for more than a full two-year licensing period.",
+   "stem": "How many CE credits must Ana complete during each biennial licensing period to renew?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "10 credits",
+     "rationale": "Incorrect: 10 is not the New York requirement; the DFS/PSI bulletin requires 15 credits per biennial period."
+    },
+    {
+     "id": "b",
+     "text": "24 credits",
+     "rationale": "Incorrect: 24 is the number of months in a renewal term, not the number of CE credits."
+    },
+    {
+     "id": "c",
+     "text": "40 credits",
+     "rationale": "Incorrect: 40 hours is the minimum prelicensing course for the life and accident and health license, not the CE requirement."
+    },
+    {
+     "id": "d",
+     "text": "15 credits",
+     "rationale": "Correct: the DFS/PSI bulletin requires 15 CE credits during each biennial licensing period once the license has been in effect for a full two years."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Per the DFS/PSI licensing bulletin, resident agents, brokers, consultants and public adjusters must complete 15 CE credits during each biennial licensing period as a condition of renewal. A licensee who has held the license for less than the full two-year period is exempt the first time; after that, CE is always required. CE rules can change, so confirm current requirements with DFS.",
+   "memoryTip": "15 credits every 2 years, after your first full 2 years.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "psi-ny-bulletin-2023",
+    "dfs-agents-brokers"
+   ],
+   "nySpecific": true,
+   "timeSensitive": true,
+   "reviewDue": "2027-11-19",
+   "verification": {
+    "status": "verified",
+    "method": "official-outline",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q108",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.1.4.2"
+   ],
+   "concepts": [
+    "continuing-education"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Marco is a resident New York agent who must complete CE to renew. Last licensing period he earned credit for an approved ethics course. To save time, he would like to take the same course again for credit and finish any missing credits after his renewal is processed.",
+   "stem": "Which statement about Marco's CE is correct?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He may not take the same approved course for credit again",
+     "rationale": "Correct: the bulletin states that approved courses, once completed for CE credit, may never be completed for CE credit again."
+    },
+    {
+     "id": "b",
+     "text": "He may repeat the course once two years have passed",
+     "rationale": "Incorrect: there is no waiting period that permits a repeat; a completed approved course can never be taken again for credit."
+    },
+    {
+     "id": "c",
+     "text": "He may finish missing credits after renewal is processed",
+     "rationale": "Incorrect: CE must be completed before the renewal or relicensing application is processed."
+    },
+    {
+     "id": "d",
+     "text": "He may count credits earned before this period began",
+     "rationale": "Incorrect: credits must be accumulated during the renewal period, from the license's effective date to its expiration date."
+    }
+   ],
+   "correct": "a",
+   "explanation": "The DFS/PSI bulletin sets three timing and content rules for resident CE: credits must be accumulated during the licensing period (from the license's effective date to its expiration date), CE must be completed before the renewal is processed, and an approved course completed for credit may never be completed for credit again. Licensees must keep records of completed courses and are responsible if a course is repeated.",
+   "memoryTip": "CE: earn it IN the period, finish BEFORE renewal, never REPEAT a course.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Same course cannot be repeated for credit",
+      "anyOf": [
+       "repeat",
+       "same course",
+       "again"
+      ]
+     },
+     {
+      "label": "Credits must be done before renewal is processed",
+      "anyOf": [
+       "before",
+       "prior to"
+      ]
+     },
+     {
+      "label": "Credits must be earned during the licensing period",
+      "anyOf": [
+       "during",
+       "within the period",
+       "renewal period"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "psi-ny-bulletin-2023"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "official-outline",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q109",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.1"
+   ],
+   "concepts": [
+    "superintendent"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Which statement best describes New York's superintendent of financial services?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A federal official who supervises all U.S. insurers",
+     "rationale": "Incorrect: insurance is regulated mainly by the states. The superintendent is a New York official."
+    },
+    {
+     "id": "b",
+     "text": "An official elected by policyholders to set premiums",
+     "rationale": "Incorrect: the superintendent is not elected by policyholders and does not personally set every insurer's premiums."
+    },
+    {
+     "id": "c",
+     "text": "The vendor that writes and grades the licensing exam",
+     "rationale": "Incorrect: PSI administers the licensing exams under contract; the superintendent regulates licensing."
+    },
+    {
+     "id": "d",
+     "text": "The head of DFS who administers the Insurance Law",
+     "rationale": "Correct: the superintendent heads the Department of Financial Services and administers the Insurance Law, including licensing, examinations and discipline."
+    }
+   ],
+   "correct": "d",
+   "explanation": "The superintendent heads the New York State Department of Financial Services (DFS) and administers the Insurance Law. Examples of the superintendent's powers: refusing to issue a license to someone who is not trustworthy and competent (§ 2103(h)); suspending, revoking or refusing to renew a license after notice and hearing (§ 2110); and examining and investigating the affairs of any person to determine whether unfair or deceptive practices are occurring (§ 2404).",
+   "memoryTip": "Superintendent = New York's top insurance cop (DFS).",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2110",
+    "ny-isc-2103",
+    "ny-isc-2404"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q110",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.2.2"
+   ],
+   "concepts": [
+    "insurer-solvency",
+    "superintendent"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Under NY Insurance Law § 307, how does the superintendent regularly monitor an authorized insurer's financial condition?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The insurer's agents certify its solvency on each application",
+     "rationale": "Incorrect: agents do not certify an insurer's solvency. Producers must never misrepresent an insurer's financial condition."
+    },
+    {
+     "id": "b",
+     "text": "The insurer files an annual statement of its year-end condition",
+     "rationale": "Correct: § 307(a)(1) requires every authorized insurer to file an annual statement with the superintendent showing its condition at last year-end."
+    },
+    {
+     "id": "c",
+     "text": "Policyowners vote each year on whether it remains solvent",
+     "rationale": "Incorrect: solvency is a regulatory and financial test, not a policyowner vote."
+    },
+    {
+     "id": "d",
+     "text": "A rating service files a solvency grade in place of statements",
+     "rationale": "Incorrect: independent rating services grade financial strength privately; they do not replace the statements the law requires insurers to file."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Solvency means the insurer can meet its obligations, above all paying claims when due. One of the main ways New York monitors it is financial reporting. Under § 307(a)(1), every authorized insurer and fraternal benefit society must file an annual statement with the superintendent (on or before March 1), verified by the oath of at least two principal officers, showing its condition at the end of the prior year. § 307(b) adds an annual audited financial statement with an independent CPA's opinion, and the CPA must notify the superintendent if the insurer has materially misstated its financial condition or does not meet minimum capital or surplus requirements.",
+   "memoryTip": "Solvency watch = annual statement to the superintendent every year.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-307"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q111",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.3.2"
+   ],
+   "concepts": [
+    "false-advertising"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Agent Lena places a newspaper ad that reads: \"Protect your family with great life plans from Summit! Call Lena today.\" Summit is the insurer she represents.",
+   "stem": "Under NY Insurance Law § 2122, what must Lena's ad include because it refers to an insurer?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Her commission rate on each Summit policy that she sells",
+     "rationale": "Incorrect: § 2122 does not require commission rates in ads. Compensation disclosure is handled separately under Regulation 194."
+    },
+    {
+     "id": "b",
+     "text": "A statement that the superintendent has approved the ad",
+     "rationale": "Incorrect: § 2122 contains no such requirement, and implying regulatory approval that was never given would itself be misleading."
+    },
+    {
+     "id": "c",
+     "text": "Summit's full name and the city of its principal U.S. office",
+     "rationale": "Correct: § 2122(b) requires producer ads that refer to an insurer to give the insurer's full name and the city, town or village of its principal U.S. office."
+    },
+    {
+     "id": "d",
+     "text": "Summit's latest annual statement and its full claims record",
+     "rationale": "Incorrect: ads are not required to reproduce financial statements. Ads that describe an insurer's financial condition must instead follow § 1313."
+    }
+   ],
+   "correct": "c",
+   "explanation": "New York regulates producer advertising in § 2122. Every agent or broker advertisement that refers to an insurer must set forth the insurer's name in full and the city, town or village of its principal U.S. office (§ 2122(b)). Producers also may not advertise in a way that calls attention to an unauthorized insurer (§ 2122(a)(2)). Separately, § 2123(a)(1) prohibits any advertisement or statement that misrepresents a policy's terms, benefits or dividends or an insurer's financial condition.",
+   "memoryTip": "Name the insurer IN FULL, and say WHERE it is headquartered.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2122",
+    "ny-isc-2123"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q112",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.4.2"
+   ],
+   "concepts": [
+    "sharing-commissions"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Broker Ray places a group insurance coverage for a New York county government and earns a commission. His friend Tom, also a licensed broker, did no work on the account but asks Ray for a share of the commission.",
+   "stem": "Under NY Insurance Law § 2128, may Tom receive part of the commission?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "No; only a licensee who placed it or served the county may",
+     "rationale": "Correct: § 2128(a) bars a licensee from receiving commissions, fees or shares of them on coverage for New York governmental entities unless that licensee actually placed the coverage or rendered insurance services."
+    },
+    {
+     "id": "b",
+     "text": "Yes, because Tom holds a valid New York broker license",
+     "rationale": "Incorrect: for governmental coverage, holding a license is not enough. The licensee must have actually placed the coverage or rendered services."
+    },
+    {
+     "id": "c",
+     "text": "Yes, if Ray discloses the split to the county in writing",
+     "rationale": "Incorrect: § 2128(b) requires disclosure statements, but disclosure does not permit a share to a licensee who did no placement or service work."
+    },
+    {
+     "id": "d",
+     "text": "Yes, if the commission is split equally between them",
+     "rationale": "Incorrect: the size of the split is irrelevant. Tom did not place the coverage or render services, so he may not receive any share."
+    }
+   ],
+   "correct": "a",
+   "explanation": "NY Insurance Law § 2128(a) prohibits any licensee from receiving commissions or fees, or shares of them, for coverage placed for or services rendered to the State, its agencies, public benefit corporations, municipalities or other governmental subdivisions, unless that licensee actually placed the coverage or rendered the services. § 2128(b) also requires licensees to file disclosure statements with DFS and the governmental unit. More generally, no one may accept a commission for selling, soliciting or negotiating in New York without the required license (§ 2102(e)), and sharing a commission with the insured to induce a sale is rebating.",
+   "memoryTip": "Government accounts: no work, no share.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Coverage is for a New York governmental entity",
+      "anyOf": [
+       "county",
+       "government",
+       "municipal"
+      ]
+     },
+     {
+      "label": "Only licensees who actually placed coverage or rendered services may share",
+      "anyOf": [
+       "actually placed",
+       "rendered",
+       "did the work",
+       "placed the coverage"
+      ]
+     },
+     {
+      "label": "A license or disclosure alone is not enough",
+      "anyOf": [
+       "license alone",
+       "not enough",
+       "disclos"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2128"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q113",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.4.4"
+   ],
+   "concepts": [
+    "producer"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "Under NY Insurance Law § 2103(j)(13), which items must a New York producer license itself contain?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The appointing insurers and the commission rates",
+     "rationale": "Incorrect: appointments are filed separately by insurers, and commission rates are not listed on the license."
+    },
+    {
+     "id": "b",
+     "text": "The CE courses completed and their completion dates",
+     "rationale": "Incorrect: the licensee keeps CE records; they are not part of the license document."
+    },
+    {
+     "id": "c",
+     "text": "Prior employers and the producer's sales volume",
+     "rationale": "Incorrect: employment history and production are not license contents under § 2103(j)(13)."
+    },
+    {
+     "id": "d",
+     "text": "The lines of authority and the expiration date",
+     "rationale": "Correct: § 2103(j)(13) lists the licensee's name, address, personal identification number, issue date, lines of authority and expiration date."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Under § 2103(j)(13), the license must contain the licensee's name, address, personal identification number, date of issuance, lines of authority and expiration date, plus any other information the superintendent deems necessary. Knowing what the license shows helps explain why it is displayed or shown to clients: it tells the public who you are, what lines you may write and whether the license is current. (The outline also lists Regulation 125 license display rules; follow DFS's current display requirements.)",
+   "memoryTip": "License shows WHO, WHAT lines, and UNTIL WHEN.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2103"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q114",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.5",
+    "reg.2.1"
+   ],
+   "concepts": [
+    "superintendent"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "DFS suspects that a health insurance agency has been using deceptive sales practices. The superintendent opens an investigation and requests the agency's records. The agency's owner says DFS has no right to look at a private firm's books.",
+   "stem": "Under NY Insurance Law § 2404, which statement is correct?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The agency must first consent before its records can be reviewed",
+     "rationale": "Incorrect: § 2404 does not depend on consent. The superintendent is empowered to examine and investigate any person's affairs."
+    },
+    {
+     "id": "b",
+     "text": "The superintendent may examine and investigate the agency's affairs",
+     "rationale": "Correct: § 2404 empowers the superintendent to examine and investigate into the affairs of any person to determine whether unfair or deceptive practices prohibited by § 2403 are occurring."
+    },
+    {
+     "id": "c",
+     "text": "The superintendent may examine insurers but never their producers",
+     "rationale": "Incorrect: § 2404 reaches \"any person,\" which includes licensed agencies and producers, not only insurers."
+    },
+    {
+     "id": "d",
+     "text": "DFS needs a criminal conviction before it may request records",
+     "rationale": "Incorrect: an examination or investigation is how violations are found; no prior conviction is required."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Under § 2404, the superintendent may examine and investigate the affairs of any person to determine whether that person has violated § 2403 (unfair methods of competition and unfair or deceptive acts or practices). In accident and health matters, a person who does not give a good-faith response to the superintendent's request for information within the time specified (not less than 15 business days) can face a civil penalty after notice and hearing. Practical lesson: keep complete, accurate, retrievable records, including fiduciary records that show whose money you hold (§ 2120(c)).",
+   "memoryTip": "DFS can look at ANY licensee's books. Keep them clean and complete.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Superintendent may examine and investigate",
+      "anyOf": [
+       "examine",
+       "investigat"
+      ]
+     },
+     {
+      "label": "Applies to any person, including producers",
+      "anyOf": [
+       "any person",
+       "agency",
+       "producer"
+      ]
+     },
+     {
+      "label": "Consent or conviction not required",
+      "anyOf": [
+       "consent",
+       "conviction",
+       "not required"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2404"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q115",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.8"
+   ],
+   "concepts": [
+    "insurance-fraud"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Derek knowingly and with intent to defraud submits a disability income claim supported by a doctor's note he forged, so he can collect benefits he is not owed.",
+   "stem": "Under NY Insurance Law § 403, which consequence may follow?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Denial of the claim only, because fraud is a private matter",
+     "rationale": "Incorrect: a fraudulent insurance act is a crime in New York, and the superintendent may also levy a civil penalty."
+    },
+    {
+     "id": "b",
+     "text": "A civil penalty only, limited to the amount of the claim",
+     "rationale": "Incorrect: the civil penalty can reach $5,000 plus the amount of the claim, and criminal liability may apply as well."
+    },
+    {
+     "id": "c",
+     "text": "A crime, plus a civil penalty up to $5,000 and the claim amount",
+     "rationale": "Correct: § 403 makes this a fraudulent insurance act, and § 403(c) lets the superintendent levy a civil penalty not exceeding $5,000 and the amount of the claim, in addition to criminal liability."
+    },
+    {
+     "id": "d",
+     "text": "No penalty unless Derek is a licensed insurance producer",
+     "rationale": "Incorrect: the fraud provisions apply to any person who commits a fraudulent insurance act, not only to licensees."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Knowingly and with intent to defraud filing a statement of claim containing materially false information is a fraudulent insurance act, which is a crime. Under § 403(c), in addition to any criminal liability, the superintendent may levy a civil penalty not exceeding $5,000 and the amount of the claim for each violation. Application and claim forms carry a warning statement saying exactly this (§ 403(d)).",
+   "memoryTip": "Insurance fraud in NY: crime + up to $5,000 + the claim amount.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-403"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q116",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.10"
+   ],
+   "concepts": [
+    "nonpublic-personal-information"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [],
+   "stem": "An agent's files contain each item below. Which one is nonpublic personal information that the agent must protect?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The insurer's name and home-office city shown in its ads",
+     "rationale": "Incorrect: information an insurer publishes in its advertising is public, not a client's private information."
+    },
+    {
+     "id": "b",
+     "text": "The agent's own license number shown on a public lookup",
+     "rationale": "Incorrect: information that is publicly available, such as a license lookup, is not nonpublic personal information about a client."
+    },
+    {
+     "id": "c",
+     "text": "A financial strength rating published by a rating service",
+     "rationale": "Incorrect: a published rating is public information about an insurer, not private information about a consumer."
+    },
+    {
+     "id": "d",
+     "text": "A client's Social Security number and health history",
+     "rationale": "Correct: private financial and health details that a client gives to obtain insurance, and that are not publicly available, are nonpublic personal information."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Nonpublic personal information (NPI) is private, personally identifiable financial and health information that a consumer gives an insurer or producer in order to get a product or service, such as Social Security numbers, account and policy numbers, income and medical history. Privacy rules limit how it may be shared, so producers must protect it and share it only as the rules allow. Information that anyone can look up, such as an insurer's advertised address or a published rating, is not NPI.",
+   "memoryTip": "NPI = what the CLIENT told you privately, not what anyone could look up.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q117",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.3.1"
+   ],
+   "concepts": [
+    "investigative-consumer-report",
+    "fair-credit-reporting-act"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "During underwriting, an insurer orders a report in which an outside firm interviews an applicant's neighbors and co-workers about her lifestyle, habits and reputation.",
+   "stem": "Which federal law regulates this type of report and requires that the applicant be told it may be made?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Fair Credit Reporting Act",
+     "rationale": "Correct: the FCRA regulates consumer reports and investigative consumer reports, and requires that the consumer be told an investigative consumer report may be made."
+    },
+    {
+     "id": "b",
+     "text": "Health Insurance Portability and Accountability Act",
+     "rationale": "Incorrect: HIPAA deals with health coverage portability and the privacy of health information held by covered entities, not lifestyle reports compiled from interviews."
+    },
+    {
+     "id": "c",
+     "text": "Gramm-Leach-Bliley Act",
+     "rationale": "Incorrect: Gramm-Leach-Bliley governs privacy notices and sharing of nonpublic personal information by financial institutions, not investigative consumer reports."
+    },
+    {
+     "id": "d",
+     "text": "Employee Retirement Income Security Act",
+     "rationale": "Incorrect: ERISA governs employer-sponsored benefit plans, not underwriting reports on individual applicants."
+    }
+   ],
+   "correct": "a",
+   "explanation": "A report built from interviews with neighbors, friends or associates about an applicant's character, reputation and mode of living is an investigative consumer report (often called an inspection report). The federal Fair Credit Reporting Act (15 U.S.C. § 1681 et seq.) governs consumer reports and investigative consumer reports, which insurers may use in underwriting, and requires that the consumer be told such a report may be made. Consumers also have rights to learn about and dispute inaccurate information.",
+   "memoryTip": "Interviews about your lifestyle = investigative consumer report = FCRA.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

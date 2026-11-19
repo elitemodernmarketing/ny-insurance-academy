@@ -1,0 +1,60 @@
+{
+ "sectionId": "plreg",
+ "questions": [
+  {
+   "id": "plreg-q051",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.3.2"
+   ],
+   "concepts": [
+    "section-1033-waiver"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "A job applicant at a Personal Lines agency was convicted of felony embezzlement several years ago.",
+   "stem": "Under 18 U.S.C. § 1033, he may engage in the business of insurance only if he:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Waits ten years after the date of his conviction",
+     "rationale": "Incorrect: the statute contains no waiting period that removes the bar."
+    },
+    {
+     "id": "b",
+     "text": "Gets the agency owner to vouch for him in writing",
+     "rationale": "Incorrect: an employer's assurance is not a substitute for regulatory consent."
+    },
+    {
+     "id": "c",
+     "text": "Gets written consent from an insurance regulator",
+     "rationale": "Correct: § 1033(e)(2) permits participation with written consent that specifically refers to that subsection."
+    },
+    {
+     "id": "d",
+     "text": "Works only on personal lines policies, not commercial",
+     "rationale": "Incorrect: the bar applies to the business of insurance generally."
+    }
+   ],
+   "correct": "c",
+   "explanation": "18 U.S.C. § 1033(e) makes it a crime for a person convicted of a felony involving dishonesty or breach of trust to willfully engage in the business of insurance, and for anyone to willfully permit that participation, unless the person has written consent from an insurance regulatory official that specifically refers to § 1033(e).",
+   "memoryTip": "Dishonesty felony → written regulator consent first.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-usc-18-1033"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

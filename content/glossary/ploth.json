@@ -1,0 +1,490 @@
+{
+  "sectionId": "ploth",
+  "terms": [
+    {
+      "id": "umbrella-policy",
+      "term": "Personal Umbrella Policy",
+      "aliases": ["Personal umbrella liability policy", "PUP"],
+      "sectionId": "ploth",
+      "outlineIds": ["ploth.1", "ploth.1.1", "ploth.1.1.1"],
+      "formal": "A liability policy that pays above the limits of an insured's underlying personal liability policies (such as auto and homeowners liability) and may also cover some liability losses those underlying policies do not cover, subject to a retained amount (self-insured retention) paid by the insured.",
+      "plain": "An umbrella is an extra layer of liability protection on top of your auto and home liability limits. When a big lawsuit uses up your underlying limits, the umbrella pays the rest up to its own limit. For some claims your underlying policies don't cover at all, the umbrella can 'drop down' and respond after you pay a retention.",
+      "simpler": "Think of your auto and home liability as raincoats. The umbrella goes over both raincoats for a heavy storm, and it can even keep you dry in a spot where the raincoats don't reach.",
+      "examples": [
+        "Lena's auto policy has a $300,000 liability limit. She causes a crash and a jury awards $800,000. Her auto insurer pays $300,000 and her $1 million umbrella pays the remaining $500,000.",
+        "Omar is sued for libel over a neighborhood newsletter. His homeowners policy does not cover that claim, but his umbrella includes personal injury coverage, so after Omar pays the self-insured retention the umbrella responds."
+      ],
+      "examTip": "Two umbrella functions are tested: (1) it pays EXCESS over the underlying limits, and (2) it can DROP DOWN over a self-insured retention for claims the underlying policies don't cover. The umbrella insurer requires you to carry specified underlying liability limits.",
+      "misconception": "An umbrella does not replace your auto or homeowners liability coverage. If you drop or reduce the required underlying coverage, the umbrella generally pays only as if the required underlying insurance were still in force, leaving you to pay the gap.",
+      "related": ["excess-liability-insurance", "self-insured-retention", "per-occurrence-limit", "coverage-e-personal-liability", "auto-liability-coverage"],
+      "confusedWith": ["excess-liability-insurance"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which feature distinguishes a personal umbrella from a simple excess liability policy?",
+        "choices": ["It can cover some claims the underlying policies exclude, after a retention", "It pays only after the underlying limits are exhausted", "It requires the insured to carry underlying liability coverage", "It is written with a dollar limit of liability"],
+        "answerIndex": 0,
+        "explanation": "Both umbrella and excess policies sit above underlying limits, require underlying coverage and have limits. Only the umbrella typically broadens coverage by dropping down over a self-insured retention for claims the underlying policies don't cover."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "excess-liability-insurance",
+      "term": "Excess Liability Insurance",
+      "aliases": ["Follow-form excess", "Straight excess liability"],
+      "sectionId": "ploth",
+      "outlineIds": ["ploth.1"],
+      "formal": "Liability insurance that provides additional limits above an underlying policy and generally follows the terms, conditions and exclusions of that underlying policy, paying only after the underlying limit is exhausted.",
+      "plain": "Excess liability adds more dollars on top of one underlying policy, but it doesn't add new kinds of coverage. If the underlying policy wouldn't cover a claim, the excess policy won't either.",
+      "simpler": "It's a taller stack of the same blocks: more height, same shape.",
+      "examples": [
+        "Carlos buys a $1 million excess policy that follows the form of his auto liability. After a crash that exhausts his auto limit, the excess policy pays the rest of the covered judgment.",
+        "Carlos is sued for a claim his auto policy excludes. Because the excess policy follows the auto policy's terms, it also does not pay."
+      ],
+      "examTip": "Excess = more limits only ('follow form'). Umbrella = more limits PLUS possibly broader coverage with drop-down over a retention.",
+      "misconception": "Excess liability is not the same as an umbrella. It does not fill coverage gaps in the underlying policy.",
+      "related": ["umbrella-policy", "per-occurrence-limit", "other-insurance-clause"],
+      "confusedWith": ["umbrella-policy"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A liability policy that adds limits above an underlying policy and adopts that policy's exclusions is best described as:",
+        "choices": ["Follow-form excess liability", "A personal umbrella with drop-down", "Primary liability insurance", "A self-insured retention"],
+        "answerIndex": 0,
+        "explanation": "Follow-form excess adds limits only and mirrors the underlying policy's terms. An umbrella may drop down for uncovered claims; primary insurance pays first; an SIR is an amount the insured retains."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "nfip",
+      "term": "National Flood Insurance Program (NFIP)",
+      "aliases": ["NFIP", "Federal flood program"],
+      "sectionId": "ploth",
+      "outlineIds": ["ploth.2", "ploth.2.1", "ploth.2.2"],
+      "formal": "The federal program, managed by FEMA, that makes flood insurance available to property owners, renters and businesses in participating communities, delivered through private insurers in the Write-Your-Own program and through NFIP Direct, with FEMA retaining responsibility for underwriting the coverage.",
+      "plain": "Most homeowners policies don't cover flood. The NFIP fills that gap with a separate federal flood policy. You can buy it if your community participates in the program, usually through your regular insurance agent. A new policy typically has a 30-day waiting period before it takes effect.",
+      "simpler": "Flood is too big a risk for most private home policies, so the federal government runs a flood program and lets insurance companies and agents sell it.",
+      "examples": [
+        "The Parks live in a town that participates in the NFIP. Their agent sells them a flood policy through a Write-Your-Own insurer; FEMA is responsible for the underwriting.",
+        "Ana buys an NFIP policy on her own (not because a lender requires it at closing). Because of the waiting period, a flood the following week is not covered."
+      ],
+      "examTip": "Eligibility depends on the COMMUNITY participating in the NFIP, not on the owner's credit or claim history. Remember the typical 30-day waiting period and its exceptions (coverage required by a government-backed lender, or a community flood map change).",
+      "misconception": "Write-Your-Own insurers sell and service NFIP policies under their own names, but the coverage is the federal program's; FEMA retains responsibility for underwriting it.",
+      "related": ["flood-definition", "flood-dwelling-form", "flood-general-property-form", "flood-rcbap", "water-backup-endorsement"],
+      "confusedWith": [],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "What determines whether a homeowner can buy NFIP flood insurance?",
+        "choices": ["Whether the home is in a community that participates in the NFIP", "Whether the home is located in a high-risk flood zone", "Whether the homeowner already has a homeowners policy", "Whether the homeowner has a mortgage on the home"],
+        "answerIndex": 0,
+        "explanation": "FEMA states flood insurance is available to anyone living in a participating NFIP community. A high-risk zone plus a government-backed mortgage makes it required, but those are not conditions of being able to buy it."
+      },
+      "sources": ["fed-fema-flood-insurance"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "federal-source", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "flood-definition",
+      "term": "Flood (NFIP Definition)",
+      "aliases": ["Flood or flooding"],
+      "sectionId": "ploth",
+      "outlineIds": ["ploth.2.3"],
+      "formal": "Under the NFIP, a general and temporary condition of partial or complete inundation of normally dry land from overflow of inland or tidal waters, unusual and rapid accumulation or runoff of surface waters from any source, or mudflow; it also includes collapse or subsidence of land along a shore caused by unusual erosion or water levels. The Standard Flood Insurance Policy requires the condition to affect two or more acres of normally dry land or two or more properties (one of which is the insured's).",
+      "plain": "A 'flood' is not just any water in your house. It has to be a general, temporary covering of normally dry land by water (or mudflow) — big enough to involve at least two acres or at least two properties, one of them yours.",
+      "simpler": "If it's only your house getting wet from your own pipes or drain, that's not a flood. If the river or a storm puts water over the neighborhood, that is.",
+      "examples": [
+        "Heavy rain runs off a hillside and covers several yards on Elm Street, including the Lopez home. This is a general condition affecting two or more properties, so it meets the flood definition.",
+        "A pipe bursts inside Dev's house and only his basement is soaked. Nothing outside is inundated, so this is not a 'flood' under the NFIP definition."
+      ],
+      "examTip": "Look for the 'two or more acres OR two or more properties' test and the word 'general.' Water confined to one home is not a flood.",
+      "misconception": "Mudflow is part of the flood definition, but a landslide or earth movement that is not a river-like flow of liquid mud caused by flooding is not.",
+      "related": ["nfip", "flood-dwelling-form", "water-backup-endorsement", "proximate-cause"],
+      "confusedWith": ["water-backup-endorsement"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which event most clearly meets the NFIP definition of flood?",
+        "choices": ["Storm surge covers several blocks of a coastal neighborhood", "A washing machine hose bursts and floods a laundry room", "Water from a clogged gutter leaks into one attic", "A water heater fails and soaks one family's basement"],
+        "answerIndex": 0,
+        "explanation": "A flood must be a general and temporary inundation of normally dry land affecting two or more acres or two or more properties. The other events are confined to a single dwelling."
+      },
+      "sources": ["fed-cfr-44-59-1", "fed-cfr-44-61-app-a1"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "federal-source", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "flood-dwelling-form",
+      "term": "Flood Dwelling Form",
+      "aliases": ["SFIP Dwelling Form", "Dwelling Policy (flood)"],
+      "sectionId": "ploth",
+      "outlineIds": ["ploth.2.4", "ploth.2.4.1"],
+      "formal": "The Standard Flood Insurance Policy form used for residential property such as a one-to-four family residential building not under condominium ownership, covering direct physical loss by or from flood to building property, contents, or both, subject to the policy's limitations (for example, limited coverage for property in a basement).",
+      "plain": "This is the NFIP form for most homes: a house or a building with up to four family units. You can insure the building, your belongings, or both. Coverage for things in a basement is limited.",
+      "simpler": "The everyday flood policy for a family home.",
+      "examples": [
+        "The Nguyens own a two-family house in a participating community. Their agent writes building and contents flood coverage on the Dwelling Form.",
+        "After a flood, the Nguyens learn that many items stored in their basement are not covered because the Dwelling Form limits basement coverage."
+      ],
+      "examTip": "Dwelling Form = one-to-four family residence (not a condo association building). Five-or-more-unit residential buildings and nonresidential buildings use the General Property Form; a condo association's building uses the RCBAP.",
+      "misconception": "The Dwelling Form is a federal NFIP policy; it is unrelated to the private Dwelling (DP) property forms covered elsewhere in the exam even though the names are similar.",
+      "related": ["nfip", "flood-definition", "flood-general-property-form", "flood-rcbap", "dwelling-policy"],
+      "confusedWith": ["dwelling-policy", "flood-general-property-form"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which NFIP form is designed for a three-family house that is not a condominium?",
+        "choices": ["Dwelling Form", "General Property Form", "Residential Condominium Building Association Policy", "Dwelling Policy Special Form"],
+        "answerIndex": 0,
+        "explanation": "The SFIP Dwelling Form covers one-to-four family residential buildings not under condominium ownership. The DP Special Form is a private property form, not a flood form."
+      },
+      "sources": ["fed-cfr-44-61-app-a1", "fed-fema-flood-insurance"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "federal-source", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "flood-general-property-form",
+      "term": "Flood General Property Form",
+      "aliases": ["SFIP General Property Form"],
+      "sectionId": "ploth",
+      "outlineIds": ["ploth.2.4", "ploth.2.4.2"],
+      "formal": "The Standard Flood Insurance Policy form used for buildings and contents that the Dwelling Form does not fit, such as nonresidential (commercial) buildings and residential buildings with five or more units that are not insured under the condominium association form.",
+      "plain": "The NFIP form for businesses and for larger apartment buildings (five or more units). A store owner or the owner of a big rental building uses this form.",
+      "simpler": "The flood policy for 'everything that isn't a small home or a condo association building.'",
+      "examples": [
+        "A bakery owner buys NFIP coverage for her shop building and equipment on the General Property Form.",
+        "Mr. Ortiz owns a 12-unit rental apartment building (not a condominium). He insures the building against flood on the General Property Form."
+      ],
+      "examTip": "Commercial building or 5+ unit residential building (non-condo) = General Property Form.",
+      "misconception": "A condominium association's residential building is not written on the General Property Form; it has its own association form (RCBAP).",
+      "related": ["nfip", "flood-dwelling-form", "flood-rcbap"],
+      "confusedWith": ["flood-dwelling-form", "flood-rcbap"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A hardware store owner wants NFIP coverage on the store building. Which form applies?",
+        "choices": ["General Property Form", "Dwelling Form", "Residential Condominium Building Association Policy", "Homeowners special form"],
+        "answerIndex": 0,
+        "explanation": "Nonresidential buildings are written on the General Property Form. The Dwelling Form is for small residential buildings; the RCBAP is for condo associations; a homeowners form is not a flood form."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19", "notes": "Form-use rule stated from standard NFIP practice; 44 CFR 61.13(a) text was not captured in the excerpt." }
+    },
+    {
+      "id": "flood-rcbap",
+      "term": "Residential Condominium Building Association Policy (RCBAP)",
+      "aliases": ["RCBAP", "Condominium association flood policy"],
+      "sectionId": "ploth",
+      "outlineIds": ["ploth.2.4", "ploth.2.4.3", "ploth.2.4.4"],
+      "formal": "The Standard Flood Insurance Policy form issued to a residential condominium association to insure the condominium building (including the units and common elements that make up the building) and the association's commonly owned contents against flood.",
+      "plain": "The condo association buys this NFIP policy on the whole residential condo building. Individual unit owners still need their own policies for their personal belongings.",
+      "simpler": "One flood policy for the whole condo building, bought by the association, not by each owner.",
+      "examples": [
+        "The Harbor View Condominium Association buys an RCBAP on its 40-unit residential building.",
+        "Priya owns a unit at Harbor View. The association's RCBAP covers the building, but her furniture and clothing are not insured unless she buys her own flood contents coverage."
+      ],
+      "examTip": "R-C-B-A-P: the A is for ASSOCIATION. The named insured is the association, and the building is a residential condo.",
+      "misconception": "The RCBAP does not insure each unit owner's personal property; unit owners need their own coverage for their belongings.",
+      "related": ["nfip", "flood-dwelling-form", "flood-general-property-form", "ho-unit-owners-form"],
+      "confusedWith": ["flood-general-property-form"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Who is the named insured on a Residential Condominium Building Association Policy?",
+        "choices": ["The condominium association", "Each individual unit owner", "The mortgage lender on each unit", "FEMA"],
+        "answerIndex": 0,
+        "explanation": "The RCBAP is written for the residential condominium association to insure the building. Unit owners buy separate coverage; FEMA runs the program but is not the insured."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "watercraft-policy",
+      "term": "Watercraft Policy",
+      "aliases": ["Boatowners policy", "Yacht policy"],
+      "sectionId": "ploth",
+      "outlineIds": ["ploth.3", "ploth.3.1"],
+      "formal": "A policy written specifically for boats that typically combines physical damage coverage on the hull, motor, equipment and trailer with liability and medical payments coverage arising from ownership or use of the watercraft, filling gaps left by the limited watercraft coverage in homeowners policies.",
+      "plain": "Homeowners policies give only limited coverage for boats, especially larger or more powerful ones. A boatowners or yacht policy insures the boat itself and the owner's liability for injuring people or damaging property while using it.",
+      "simpler": "A boat's version of auto insurance: it covers damage to the boat and accidents you cause with it.",
+      "examples": [
+        "Ray buys a 24-foot powerboat. His homeowners policy excludes liability for a boat of that size and power, so his agent writes a boatowners policy with physical damage and liability coverage.",
+        "A storm sinks Ray's boat at the dock; his boatowners policy pays for the hull and motor under its physical damage coverage."
+      ],
+      "examTip": "Homeowners coverage for watercraft is limited; larger or higher-powered boats need a separate watercraft policy. Large yachts are usually insured on ocean marine-style yacht forms with hull and protection-and-indemnity (P&I) liability coverage.",
+      "misconception": "Owning a homeowners policy does not mean every boat you own is fully covered; check the size and horsepower limits and the low dollar limits on boats as personal property.",
+      "related": ["umbrella-policy", "agreed-value", "actual-cash-value", "coverage-e-personal-liability"],
+      "confusedWith": [],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Why does an owner of a large powerboat usually need a separate watercraft policy?",
+        "choices": ["Homeowners coverage for watercraft is limited, especially for liability", "Boats cannot be insured under any property contract", "Watercraft liability is covered only by the NFIP", "Homeowners policies cover boats only while trailered"],
+        "answerIndex": 0,
+        "explanation": "Homeowners policies limit physical damage on boats and exclude liability for many larger or more powerful boats, so a boatowners or yacht policy fills the gap."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "fair-plan",
+      "term": "NY Property Insurance Underwriting Association (FAIR PLAN)",
+      "aliases": ["NYPIUA", "New York FAIR Plan", "FAIR Plan"],
+      "sectionId": "ploth",
+      "outlineIds": ["ploth.4", "ploth.4.1", "ploth.4.2"],
+      "formal": "The joint underwriting association continued by Insurance Law Article 54, made up of all insurers authorized and engaged in writing fire and extended coverage insurance directly in New York, which issues fire, extended coverage, broad form and additional perils coverage (and homeowners insurance when the superintendent determines it is necessary) on insurable property under a plan of operation approved by the superintendent.",
+      "plain": "The FAIR Plan is New York's property insurer of last resort. If an owner of insurable property can't get basic property coverage in the regular market, the association can issue a policy. Every insurer that writes fire coverage in New York must belong to it and shares in its losses and expenses through assessments.",
+      "simpler": "A shared safety-net pool, funded by the insurance companies, for people the regular market won't insure.",
+      "examples": [
+        "Tom's older building in Buffalo is turned down by several insurers. After an inspection finds it insurable, the association issues a fire and extended coverage policy.",
+        "A building whose owner lets it fall into a condition that violates public policy can be refused by the association as not 'insurable property.'"
+      ],
+      "examTip": "Key Article 54 facts: membership is mandatory for insurers writing fire/extended coverage in NY; property must be inspected and found insurable; NEIGHBORHOOD OR AREA LOCATION may not be considered in deciding insurability.",
+      "misconception": "The FAIR Plan is not a state-funded welfare program and it does not accept any property at all; it insures property that the association finds insurable under objective criteria, with costs shared by member insurers.",
+      "related": ["c-map", "redlining", "named-perils-coverage", "insurance-broker", "ny-auto-insurance-plan"],
+      "confusedWith": ["c-map"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under NY Insurance Law Article 54, which factor may NOT be considered in deciding whether property is insurable by the FAIR Plan?",
+        "choices": ["The neighborhood or area where the property is located", "The physical condition of the property", "The occupancy of the property", "How the property is maintained"],
+        "answerIndex": 0,
+        "explanation": "§ 5401(g): neighborhood or area location shall not be considered in determining insurable condition. Ownership, condition, occupancy and maintenance characteristics that violate public policy can make property uninsurable."
+      },
+      "sources": ["ny-isc-5401", "ny-isc-5402", "ny-isc-5412"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "c-map",
+      "term": "Coastal Market Assistance Program (C-MAP)",
+      "aliases": ["C-MAP"],
+      "sectionId": "ploth",
+      "outlineIds": ["ploth.4.3"],
+      "formal": "A program created and administered by the New York Property Insurance Underwriting Association under Insurance Law § 5414 to provide a voluntary mechanism through which insurers, agents and brokers facilitate access to participating private market insurers for personal residential property risks in coastal areas; at a minimum, properties within one mile of the shore are eligible.",
+      "plain": "C-MAP helps homeowners near the coast who are having trouble finding a regular (private market) homeowners insurer. Instead of going straight to the FAIR Plan, the application is shared with participating private insurers who might write it voluntarily.",
+      "simpler": "A matchmaking service that connects coastal homeowners with private insurers willing to cover them.",
+      "examples": [
+        "Grace owns a house on Long Island half a mile from the bay. Three insurers declined her homeowners application, so her agent submits it through C-MAP to reach participating private insurers.",
+        "A homeowner on Lake Ontario near the shore can also qualify, because the statute's definition of 'shore' includes Lake Erie, Lake Ontario and certain rivers, not just the ocean."
+      ],
+      "examTip": "C-MAP is VOLUNTARY and steers coastal PERSONAL RESIDENTIAL risks to PRIVATE MARKET insurers. It is administered by the FAIR Plan association, but C-MAP placements are with participating private insurers.",
+      "misconception": "C-MAP is not a separate state insurer and does not itself issue the homeowners policy; participating private insurers do.",
+      "related": ["fair-plan", "redlining"],
+      "confusedWith": ["fair-plan"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "The Coastal Market Assistance Program is best described as:",
+        "choices": ["A voluntary mechanism linking coastal homeowners with participating private insurers", "A mandatory pool that issues all coastal homeowners policies", "A federal program that sells flood coverage near the shore", "A surplus lines market for coastal commercial buildings"],
+        "answerIndex": 0,
+        "explanation": "§ 5414(a): C-MAP is a voluntary mechanism to facilitate access to participating private market insurers for personal residential risks in coastal areas. Flood coverage comes from the NFIP; excess lines is a different market."
+      },
+      "sources": ["ny-isc-5414", "ny-isc-5402"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "excess-lines",
+      "term": "Excess Lines",
+      "aliases": ["Excess line insurance", "Surplus lines", "Nonadmitted market"],
+      "sectionId": "ploth",
+      "outlineIds": ["ploth.5", "ploth.5.1", "ploth.5.2"],
+      "formal": "Insurance procured by a licensed excess line broker from an insurer not authorized to transact business in New York, permitted only after a diligent effort shows the coverage (or the full amount) cannot be obtained from authorized insurers, and only for the excess over the amount procurable from authorized insurers.",
+      "plain": "Some risks are too unusual or too large for New York's licensed (admitted) insurers. A specially licensed excess line broker may then place the coverage with an unlicensed (nonadmitted) insurer, but only after authorized insurers have turned the risk down.",
+      "simpler": "When no licensed store has what you need, a specially licensed shopper may buy it from an out-of-state store, following strict rules.",
+      "examples": [
+        "Three authorized insurers decline to write liability coverage for a monster-truck show. A licensed excess line broker places it with an unauthorized insurer and files the required affidavit.",
+        "An authorized insurer will write $2 million of property coverage on a risk that needs $5 million; the excess line broker may place only the remaining $3 million with an unauthorized insurer."
+      ],
+      "examTip": "Excess line broker license (§ 2105) is issued to a person licensed as an insurance BROKER (or a home-state excess line licensee). Not an agent. Diligent effort = declinations from three authorized insurers unless the superintendent sets another number (export list).",
+      "misconception": "'Unauthorized' does not mean illegal or unregulated in its home state: the broker must verify the insurer is authorized in its domiciliary jurisdiction and use due care in selecting it.",
+      "related": ["unauthorized-insurer", "nonadmitted-insurer", "admitted-insurer", "insurance-broker", "excess-lines-affidavit", "excess-lines-export-list", "no-guaranty-fund-disclosure"],
+      "confusedWith": ["excess-liability-insurance"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "To qualify for an excess line broker's license in New York, a resident applicant must already be licensed as a(n):",
+        "choices": ["Insurance broker", "Insurance agent", "Public adjuster", "Insurance consultant"],
+        "answerIndex": 0,
+        "explanation": "§ 2105(a): the superintendent may issue an excess line license to a person licensed as an insurance broker under § 2104 (or licensed as an excess line broker in the licensee's home state, with reciprocity)."
+      },
+      "sources": ["ny-isc-2105", "ny-isc-2118", "ny-11nycrr-27-1", "ny-11nycrr-27-3"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "excess-lines-export-list",
+      "term": "Export List",
+      "aliases": ["Excess line export list"],
+      "sectionId": "ploth",
+      "outlineIds": ["ploth.5.5"],
+      "formal": "The list of coverages in Regulation 41 (11 NYCRR 27.3(g)) for which the superintendent has determined, under Insurance Law § 2118(b)(4), that an excess line broker need not obtain the usual declinations from authorized insurers (or needs fewer of them) before placing the risk with an unauthorized insurer.",
+      "plain": "Some coverages are known to be very hard to find from licensed insurers, so the Department of Financial Services lists them. For coverages on the list, the excess line broker can skip the usual three declinations.",
+      "simpler": "A pre-approved 'hard to place' list: no need to collect rejection letters first.",
+      "examples": [
+        "A client needs flood coverage above the maximum limits available from the federal flood program. That coverage is on the export list, so the broker can go straight to the excess line market.",
+        "An owner of a high-speed powerboat needs property and liability coverage; high-speed boats appear on the list, so declinations are not required."
+      ],
+      "examTip": "Export list = declinations NOT required (or reduced). Additions are made by the superintendent after a hearing and published in the State Register.",
+      "misconception": "Being on the export list doesn't remove the other excess line rules: the broker still must use a licensed excess line broker, an eligible insurer, and give the required disclosures.",
+      "related": ["excess-lines", "excess-lines-affidavit", "unauthorized-insurer"],
+      "confusedWith": ["excess-lines-affidavit"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "What is the main effect of a coverage appearing on New York's excess line export list?",
+        "choices": ["The broker need not obtain the usual declinations from authorized insurers", "The coverage may be written only by the FAIR Plan", "The policy is protected by the state security funds", "Any licensed agent may place the coverage with an unauthorized insurer"],
+        "answerIndex": 0,
+        "explanation": "Reg 41 § 27.3(g) lists coverages for which the declination requirement of § 27.3(a)–(c) does not apply. It does not create guaranty-fund protection or let agents act as excess line brokers."
+      },
+      "sources": ["ny-11nycrr-27-3", "ny-isc-2118"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "regulation-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "excess-lines-affidavit",
+      "term": "Excess Lines Affidavit",
+      "aliases": ["Excess line affidavit", "Diligent effort affidavit"],
+      "sectionId": "ploth",
+      "outlineIds": ["ploth.5.4"],
+      "formal": "The statement affirmed under penalty of perjury by the excess line licensee (or an affirming broker) and submitted with the policy documents to the Excess Line Association of New York, attesting that after diligent effort the full amount of insurance could not be procured from authorized insurers and that only the excess over the amount procurable from authorized insurers was placed, and recording each declining authorized insurer's name, NAIC code and declination date.",
+      "plain": "The affidavit is the broker's sworn proof that the licensed market said no. It lists which authorized insurers declined, when, and why the broker believed they might have written the risk.",
+      "simpler": "A sworn 'we tried the licensed companies first' form.",
+      "examples": [
+        "Excess line broker Jamal records the names, NAIC codes and declination dates of three authorized insurers on the affidavit he submits with the policy declarations.",
+        "A producing broker made the diligent search; she signs an affirming affidavit so the excess line broker can rely on her declinations."
+      ],
+      "examTip": "The affidavit must record the declining insurer's NAME, DATE of declination and NAIC CODE, plus the basis for believing the insurer might write the risk. It need NOT record the reason for the declination or the underwriter's name.",
+      "misconception": "Declinations from insurers that are affiliates of each other (or of the unauthorized insurer) don't count unless they truly operate and compete independently.",
+      "related": ["excess-lines", "excess-lines-export-list", "insurance-broker"],
+      "confusedWith": ["excess-lines-export-list"],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "Which item is the excess line broker NOT required to record on the affidavit for each declining authorized insurer?",
+        "choices": ["The reason the insurer gave for declining", "The insurer's name", "The date of the declination", "The insurer's NAIC code"],
+        "answerIndex": 0,
+        "explanation": "§ 2118(b)(3)(C) requires the name, date of declination and NAIC code (plus the basis for the broker's reason to believe), but expressly does not require the representative's name or the reason for the declination."
+      },
+      "sources": ["ny-isc-2118", "ny-11nycrr-27-3"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "excess-lines-total-cost-form",
+      "term": "Total Cost Form",
+      "aliases": ["Excess line total cost disclosure"],
+      "sectionId": "ploth",
+      "outlineIds": ["ploth.5.3"],
+      "formal": "A written disclosure in an excess line placement that shows the insured the total cost of the coverage, itemizing the premium and the additional charges (such as taxes and any fees) that the insured will pay.",
+      "plain": "Excess line coverage can carry costs beyond the premium. The total cost form puts all of them on one page so the insured sees the full price before agreeing.",
+      "simpler": "The 'out-the-door price' sheet for an excess line policy.",
+      "examples": [
+        "Before binding a surplus lines policy for a client's vacant building, the broker gives the client a form showing premium, taxes and fees as one total.",
+        "A client comparing an authorized-market quote with an excess line quote uses the total cost form to compare all-in prices."
+      ],
+      "examTip": "Think 'transparency': the insured should see every charge in an excess line placement, not just the premium.",
+      "misconception": "The total cost form is not the diligent-effort affidavit; the affidavit proves declinations, while the cost form discloses price.",
+      "related": ["excess-lines", "excess-lines-affidavit", "no-guaranty-fund-disclosure"],
+      "confusedWith": ["excess-lines-affidavit"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "What is the purpose of a total cost form in an excess line placement?",
+        "choices": ["To show the insured the full cost, including charges beyond premium", "To prove three authorized insurers declined", "To list coverages exempt from declinations", "To transfer the risk to the FAIR Plan"],
+        "answerIndex": 0,
+        "explanation": "The total cost form discloses the complete price; the affidavit proves diligent effort and the export list exempts coverages from declinations."
+      },
+      "sources": ["psi-ny-bulletin-2023"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "draft", "method": "official-outline", "checkedOn": "2026-11-19", "notes": "Outline node ploth.5.3 names the form, but its required contents were not located in the Reg 41 sections retrieved (27.1, 27.3, 27.15). Verify against 11 NYCRR 27.12/27.16 or DFS/ELANY guidance before publishing." }
+    },
+    {
+      "id": "no-guaranty-fund-disclosure",
+      "term": "No Guaranty Fund Disclosure",
+      "aliases": ["Excess line legend", "Security fund disclosure"],
+      "sectionId": "ploth",
+      "outlineIds": ["ploth.5.6"],
+      "formal": "The written notice New York requires in excess line placements stating that the unauthorized insurer is not licensed by or subject to the supervision of New York, that losses will not be covered by the New York State security funds if it becomes insolvent, and that the policy may not be subject to all of the regulations pertaining to policy forms; a confirmation of coverage must bear this legend conspicuously in bold type.",
+      "plain": "Because the insurer isn't licensed in New York, the state's insolvency (security) funds won't pay claims if it goes broke. The insured must be told this in writing, and the policy isn't binding on the insured, and no premium is due, until that notice is given.",
+      "simpler": "A warning label: 'This insurer has no New York safety net behind it.'",
+      "examples": [
+        "Before Ming's excess line policy can bind her, the broker gives her written notice that the insurer is unlicensed in New York and not backed by the state security funds.",
+        "A written confirmation of an excess line placement carries a bold legend across its face warning that the insurer is not protected by the New York State security funds."
+      ],
+      "examTip": "No notice = not binding on the insured and no premium due (Reg 41 § 27.15(e)). Three parts: not licensed/supervised, no security fund protection, policy forms may not meet all DFS rules.",
+      "misconception": "The disclosure doesn't mean the insurer is unsafe or illegal; it means New York's guaranty (security) funds won't step in if it fails.",
+      "related": ["excess-lines", "unauthorized-insurer", "insurer-solvency"],
+      "confusedWith": [],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under Reg 41, what happens if the required written notice about the unauthorized insurer has not been given to the insured?",
+        "choices": ["The policy is not binding on the insured and no premium is due", "The broker's license is automatically revoked", "The policy converts to an authorized-insurer policy", "The state security funds must cover any loss"],
+        "answerIndex": 0,
+        "explanation": "11 NYCRR 27.15(e): no excess line policy is binding on the insured, and no premium is due and payable, until the required written notice has been provided."
+      },
+      "sources": ["ny-11nycrr-27-15", "ny-isc-2118"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "regulation-text", "checkedOn": "2026-11-19" }
+    }
+  ],
+  "comparisons": [
+    {
+      "a": "admitted-insurer",
+      "b": "excess-lines",
+      "keyDifference": "Admitted (authorized) insurers are licensed in New York and backed by the state security funds; excess lines coverage is placed with unauthorized insurers by a licensed excess line broker only after the authorized market declines, with no security fund protection.",
+      "rows": [
+        { "aspect": "Licensed in New York?", "a": "Yes — authorized to transact business here", "b": "No — insurer is unauthorized (nonadmitted) in NY, though authorized in its home jurisdiction" },
+        { "aspect": "Who may place the business", "a": "Licensed agents and brokers", "b": "Only a licensed excess line broker (a licensed broker with the excess line license)" },
+        { "aspect": "When it may be used", "a": "Any time", "b": "After diligent effort (generally 3 declinations) unless the coverage is on the export list" },
+        { "aspect": "Insolvency protection", "a": "NY security funds may respond", "b": "Not covered by NY security funds — written disclosure required" },
+        { "aspect": "Policy forms", "a": "Subject to NY form rules", "b": "May not be subject to all DFS policy-form regulations" }
+      ],
+      "memoryTip": "Admitted = Allowed and Assured by the fund. Excess = Exception after Effort, no fund."
+    },
+    {
+      "a": "umbrella-policy",
+      "b": "excess-liability-insurance",
+      "keyDifference": "Both add limits above underlying liability coverage, but only the umbrella can broaden coverage by dropping down over a self-insured retention for claims the underlying policies don't cover; follow-form excess mirrors the underlying policy.",
+      "rows": [
+        { "aspect": "Extra limits above underlying", "a": "Yes", "b": "Yes" },
+        { "aspect": "Covers claims excluded by underlying policies", "a": "Sometimes (drop-down after a retention)", "b": "No — follows the underlying form" },
+        { "aspect": "Underlying policies sat on", "a": "Usually several (auto, homeowners, watercraft)", "b": "Often a single underlying policy" },
+        { "aspect": "Insured's out-of-pocket for uncovered-by-underlying claims", "a": "Self-insured retention", "b": "Not applicable — no coverage" }
+      ],
+      "memoryTip": "Umbrella = wider AND taller. Excess = only taller."
+    },
+    {
+      "a": "fair-plan",
+      "b": "c-map",
+      "keyDifference": "The FAIR Plan (NYPIUA) itself issues policies as the residual market for insurable property; C-MAP, which the association administers, is a voluntary program that steers coastal homeowners to participating private insurers.",
+      "rows": [
+        { "aspect": "Who issues the policy", "a": "The association (on behalf of its member insurers)", "b": "Participating private market insurers" },
+        { "aspect": "Participation by insurers", "a": "Mandatory for insurers writing fire/extended coverage in NY", "b": "Voluntary" },
+        { "aspect": "Property eligible", "a": "Insurable property anywhere in NY (after inspection)", "b": "Personal residential property in coastal areas (at minimum within one mile of the shore)" },
+        { "aspect": "Law", "a": "Ins. Law §§ 5401–5412", "b": "Ins. Law § 5414" }
+      ],
+      "memoryTip": "FAIR Plan = the safety net. C-MAP = the map back to the private market."
+    },
+    {
+      "a": "flood-dwelling-form",
+      "b": "flood-rcbap",
+      "keyDifference": "The Dwelling Form insures a one-to-four family home (not under condo ownership) for the owner or renter; the RCBAP is bought by a residential condominium association to insure the whole condo building.",
+      "rows": [
+        { "aspect": "Named insured", "a": "Homeowner (or renter for contents)", "b": "The condominium association" },
+        { "aspect": "Building type", "a": "One-to-four family residential building, not a condo", "b": "Residential condominium building" },
+        { "aspect": "Unit owners' personal belongings", "a": "Covered if contents coverage is purchased by the insured", "b": "Not covered — unit owners need their own policies" }
+      ],
+      "memoryTip": "Dwelling = a family's home. RCBAP = the Association's building."
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+ "sectionId": "qp",
+ "lessons": [
+  {
+   "id": "qp-l01",
+   "sectionId": "qp",
+   "order": 1,
+   "title": "Qualified Plan Basics: Tax Advantages, Plan Designs, Vesting and Distributions",
+   "outlineIds": [
+    "qp.1",
+    "qp.1.1"
+   ],
+   "estMinutes": 20,
+   "intro": "Many producers help clients fund retirement through employer plans and IRAs, and annuities and life insurance often sit inside or beside these plans. This lesson explains what makes a retirement plan \"qualified,\" the two basic plan designs, who owns the money (vesting), and why the IRS eventually requires withdrawals. Federal tax law sets these rules; dollar limits change every year, so focus on the concepts.",
+   "objectives": [
+    "Explain what a qualified plan is and why it receives tax advantages.",
+    "Distinguish defined benefit from defined contribution plans.",
+    "Explain vesting for employee and employer contributions.",
+    "Compare traditional and Roth IRAs and explain required minimum distributions."
+   ],
+   "keyTerms": [
+    "qualified-plan",
+    "defined-benefit-plan",
+    "defined-contribution-plan",
+    "vesting",
+    "traditional-ira",
+    "roth-ira",
+    "required-minimum-distribution"
+   ],
+   "parts": [
+    {
+     "heading": "What makes a plan \"qualified\"",
+     "body": "A [[qualified-plan]] is an employer retirement plan that satisfies the Internal Revenue Code in both **form** (the written plan document) and **operation** (actually following it). Key requirements include:\n\n- plan assets held in trust for the **exclusive benefit** of employees and their beneficiaries,\n- **coverage and nondiscrimination** rules, so the plan doesn't favor highly compensated employees,\n- **vesting** rules,\n- limits on contributions or benefits, and\n- **required minimum distributions**.\n\nIn return, the plan gets tax advantages: employer contributions are generally deductible, money grows tax-deferred, and employees are generally taxed only when they receive distributions.",
+     "simple": "A qualified plan follows the IRS rules, so the employer and employees get tax breaks. The money grows without yearly taxes until it's taken out.",
+     "callouts": [
+      {
+       "kind": "note",
+       "text": "Annual contribution and benefit limits are indexed for inflation and change frequently. The exam and this app test the concepts, not this year's dollar figures."
+      }
+     ]
+    },
+    {
+     "heading": "Defined benefit vs. defined contribution",
+     "body": "- A **[[defined-benefit-plan]]** promises a fixed, pre-established benefit at retirement, calculated by a formula (often salary × years of service × a percentage). Benefits don't depend on investment returns. The employer generally makes most contributions, bears the investment risk, and needs an enrolled actuary to certify funding.\n- A **[[defined-contribution-plan]]** puts contributions into an individual account for each participant. The benefit is whatever the account is worth — contributions plus investment results — so the employee bears the investment risk. A 401(k), profit-sharing plan and money purchase plan are defined contribution plans.",
+     "example": {
+      "title": "Example: two retirees",
+      "body": "Ana retires from a city job with a pension of 1.5% of her final salary for each of her 30 years — a defined benefit. Ben retires from a private company with a 401(k) worth whatever his and his employer's contributions have grown to — a defined contribution."
+     },
+     "callouts": [
+      {
+       "kind": "memory-tip",
+       "text": "Defined BENEFIT: the result is promised. Defined CONTRIBUTION: only the input is known."
+      }
+     ]
+    },
+    {
+     "heading": "Vesting: who owns the money",
+     "body": "[[vesting|Vesting]] means ownership. A 100%-vested employee owns that amount, and the employer can't take it back.\n\n- An employee's own contributions (such as salary deferrals) are **always 100% vested**.\n- Employer contributions may vest immediately or under a schedule based on years of service.\n- SEP and SIMPLE IRA contributions are always 100% vested.\n- Everyone must be fully vested at the plan's normal retirement age or if the plan is terminated.",
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "Vesting is about ownership if you leave — not about when you can withdraw."
+      }
+     ]
+    },
+    {
+     "heading": "IRAs and required minimum distributions",
+     "body": "Individuals can also save on their own:\n\n- **[[traditional-ira|Traditional IRA]]:** contributions may be fully or partially deductible depending on filing status and income; amounts (including earnings) are generally not taxed until distributed.\n- **[[roth-ira|Roth IRA]]:** contributions are not deductible, but qualified distributions are tax-free. Contributions can be made at any age, and the owner can leave money in the account for life.\n\nTax deferral can't last forever. **[[required-minimum-distribution|Required minimum distributions]]** must begin at an age set by federal law (recent laws have raised it, so check the current rule) from traditional, SEP and SIMPLE IRAs and from employer plans such as 401(k), 403(b) and 457(b) plans. Each year's RMD is generally the prior year-end balance divided by a distribution period from an IRS life expectancy table. You can always withdraw more. Missing an RMD can trigger an excise tax. Roth IRA owners have no RMDs during their lifetime; their beneficiaries do.",
+     "example": {
+      "title": "Example: an RMD calculation",
+      "body": "Cy's traditional IRA was worth $300,000 last December 31. If the IRS table gives a distribution period of 25.0 for his age this year, his RMD is $300,000 ÷ 25.0 = $12,000. (The factor here is just for illustration.)"
+     },
+     "callouts": [
+      {
+       "kind": "memory-tip",
+       "text": "Traditional: deduct now, pay later. Roth: pay now, tax-free later."
+      }
+     ]
+    }
+   ],
+   "activity": {
+    "type": "categorize",
+    "prompt": "Sort each feature by plan design.",
+    "categories": [
+     "Defined benefit",
+     "Defined contribution"
+    ],
+    "items": [
+     {
+      "text": "Benefit set by a formula based on salary and service",
+      "category": "Defined benefit"
+     },
+     {
+      "text": "Individual account for each participant",
+      "category": "Defined contribution"
+     },
+     {
+      "text": "Employer bears the investment risk",
+      "category": "Defined benefit"
+     },
+     {
+      "text": "Employee bears the investment risk",
+      "category": "Defined contribution"
+     },
+     {
+      "text": "An enrolled actuary certifies funding",
+      "category": "Defined benefit"
+     },
+     {
+      "text": "401(k) and profit-sharing plans",
+      "category": "Defined contribution"
+     }
+    ]
+   },
+   "knowledgeChecks": [
+    {
+     "prompt": "Which contributions are always 100% vested?",
+     "choices": [
+      "Employer matching contributions in a 401(k)",
+      "An employee's own salary deferrals",
+      "Employer profit-sharing contributions",
+      "Forfeitures reallocated from other employees"
+     ],
+     "answerIndex": 1,
+     "explanation": "Per the IRS, an employee's own contributions are always fully vested; employer contributions may follow a schedule."
+    },
+    {
+     "prompt": "Which account does NOT require minimum distributions during the original owner's lifetime?",
+     "choices": [
+      "Traditional IRA",
+      "SEP IRA",
+      "Roth IRA",
+      "401(k) plan"
+     ],
+     "answerIndex": 2,
+     "explanation": "Roth IRA owners can leave amounts in the account as long as they live; RMD rules apply to Roth IRA beneficiaries."
+    },
+    {
+     "prompt": "In a defined benefit plan, what determines the retirement benefit?",
+     "choices": [
+      "A formula set in the plan",
+      "The participant's account balance",
+      "The participant's chosen investments",
+      "The IRS life expectancy table"
+     ],
+     "answerIndex": 0,
+     "explanation": "Defined benefit plans provide a fixed, pre-established benefit based on a formula, not on investment returns."
+    }
+   ],
+   "summary": [
+    "A qualified plan meets Internal Revenue Code rules in form and operation and receives tax advantages.",
+    "Defined benefit plans promise a formula benefit (employer bears risk); defined contribution plans use individual accounts (employee bears risk).",
+    "Employees are always fully vested in their own contributions; employer contributions may vest over time.",
+    "Traditional IRAs: possibly deductible, taxed at withdrawal. Roth IRAs: not deductible, qualified withdrawals tax-free, no lifetime RMDs.",
+    "RMD = prior year-end balance ÷ IRS distribution period; missing one can trigger an excise tax."
+   ],
+   "related": [
+    "qp-l02"
+   ],
+   "sources": [
+    "fed-irs-qualified-plan-requirements",
+    "fed-irs-defined-benefit",
+    "fed-irs-401k",
+    "fed-irs-vesting",
+    "fed-irs-traditional-ira",
+    "fed-irs-roth-ira",
+    "fed-irs-rmd"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "qp-l02",
+   "sectionId": "qp",
+   "order": 2,
+   "title": "Plan Types and Who Buys Them: Keogh, SIMPLE, SEP, 401(k) and 457",
+   "outlineIds": [
+    "qp.2",
+    "qp.2.1",
+    "qp.2.2",
+    "qp.2.3",
+    "qp.2.4",
+    "qp.2.5"
+   ],
+   "estMinutes": 20,
+   "intro": "Different employers need different plans. A self-employed consultant, a 15-person bakery, a large corporation and a city government each have a plan type designed for them. The exam usually describes the employer and asks which plan fits — so learn each plan by its typical purchaser.",
+   "objectives": [
+    "Match each plan type to the employers that may use it.",
+    "Identify who contributes under SEP, SIMPLE and 401(k) plans.",
+    "Explain the history and meaning of the term Keogh plan.",
+    "Describe the 457 plan for governmental and tax-exempt employers."
+   ],
+   "keyTerms": [
+    "keogh-plan",
+    "simple-plan",
+    "sep-plan",
+    "plan-401k",
+    "plan-457",
+    "vesting"
+   ],
+   "parts": [
+    {
+     "heading": "Plans for the self-employed: Keogh plans and SEPs",
+     "body": "[[keogh-plan|Keogh plans]] (also called HR-10 plans) are retirement plans for **self-employed individuals and unincorporated businesses** such as sole proprietorships and partnerships. The name comes from the law that first let unincorporated businesses sponsor retirement plans. Because the law no longer distinguishes corporate from unincorporated sponsors, the term is now seldom used — these are simply qualified plans set up by the self-employed, and eligible employees must be covered too.\n\nA [[sep-plan|Simplified Employee Pension (SEP)]] is often the simplest choice for the self-employed and small firms:\n\n- any size business, even a self-employed person with no employees, can set one up;\n- **only the employer contributes**, to a traditional IRA (SEP-IRA) for each eligible employee;\n- the employer **doesn't have to contribute every year**, but when it does, it must contribute equally for all eligible employees;\n- contributions are always 100% vested.",
+     "callouts": [
+      {
+       "kind": "memory-tip",
+       "text": "SEP = Employer Pays, when it wants, for everyone equally."
+      }
+     ]
+    },
+    {
+     "heading": "SIMPLE plans for small employers",
+     "body": "A [[simple-plan|SIMPLE IRA plan]] (Savings Incentive Match Plan for Employees) is a start-up plan for **small employers — generally 100 or fewer employees — that don't maintain any other retirement plan**.\n\n- Employees may elect to contribute part of their pay (salary deferrals).\n- The employer is **required** to contribute every year, either by matching employee deferrals or by making a nonelective contribution for each eligible employee.\n- All SIMPLE IRA money is always 100% vested.",
+     "example": {
+      "title": "Example: choosing between SEP and SIMPLE",
+      "body": "A 10-person dental office wants employees to save from their own paychecks with some help from the practice. A SIMPLE IRA fits. A self-employed consultant who wants to contribute only in good years picks a SEP."
+     },
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "SEP: employer-only, optional each year. SIMPLE: employees defer, employer contribution required every year."
+      }
+     ]
+    },
+    {
+     "heading": "401(k) and 457 plans",
+     "body": "A [[plan-401k|401(k)]] is a feature of a qualified profit-sharing plan that lets employees contribute part of their wages to individual accounts. Traditional elective deferrals are excluded from the employee's taxable income (designated Roth deferrals are not), and employers can add contributions such as matches. Employees are always vested in their own deferrals; employer contributions may vest on a schedule. Employers of all sizes, most often for-profit businesses, sponsor 401(k) plans.\n\nA [[plan-457|457 plan]] is a deferred compensation plan for **state and local governments and tax-exempt organizations (IRC 501(c))**. Eligible 457(b) plans let employees defer income tax on retirement savings; contributions and earnings are tax-deferred. Police officers, teachers and municipal employees commonly participate.",
+     "simple": "401(k): for private-company workers, who save from their paychecks (often with an employer match). 457: a similar savings plan for government and certain nonprofit workers.",
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "A 457 plan is for state and local governments and tax-exempt organizations — not for for-profit businesses and not for the self-employed."
+      }
+     ]
+    }
+   ],
+   "activity": {
+    "type": "match",
+    "prompt": "Match each employer to the plan designed for it.",
+    "pairs": [
+     {
+      "left": "Sole proprietor or partnership",
+      "right": "Keogh (HR-10) plan"
+     },
+     {
+      "left": "Small employer with no other plan, wanting employee deferrals",
+      "right": "SIMPLE IRA plan"
+     },
+     {
+      "left": "Any size employer wanting flexible employer-only contributions",
+      "right": "SEP"
+     },
+     {
+      "left": "Private company offering salary deferrals with a match",
+      "right": "401(k) plan"
+     },
+     {
+      "left": "City government or 501(c) tax-exempt organization",
+      "right": "457 plan"
+     }
+    ]
+   },
+   "knowledgeChecks": [
+    {
+     "prompt": "Which plan requires the employer to contribute every year?",
+     "choices": [
+      "SEP",
+      "SIMPLE IRA",
+      "Traditional IRA",
+      "Roth IRA"
+     ],
+     "answerIndex": 1,
+     "explanation": "SIMPLE IRA employers must make a matching or nonelective contribution each year; SEP contributions are optional year to year."
+    },
+    {
+     "prompt": "Keogh plans are designed for:",
+     "choices": [
+      "Self-employed individuals and unincorporated businesses",
+      "State and local government agencies",
+      "Individuals with no earned income",
+      "Large publicly traded corporations only"
+     ],
+     "answerIndex": 0,
+     "explanation": "Keogh plans were named for the law that first let unincorporated businesses sponsor retirement plans."
+    },
+    {
+     "prompt": "Who may sponsor a 457(b) plan?",
+     "choices": [
+      "A sole proprietor",
+      "A state or local government",
+      "Any for-profit corporation",
+      "An individual retiree"
+     ],
+     "answerIndex": 1,
+     "explanation": "The sponsor must be a state or local government or a 501(c) tax-exempt organization."
+    }
+   ],
+   "summary": [
+    "Keogh (HR-10) plans are qualified plans for the self-employed and unincorporated businesses; the term is now seldom used.",
+    "SEP: any size employer, employer-only contributions to SEP-IRAs, not required every year, always vested.",
+    "SIMPLE IRA: small employers (generally 100 or fewer employees) with no other plan; employee deferrals plus required employer contributions; always vested.",
+    "401(k): employee salary deferrals (pre-tax or Roth) plus optional employer contributions.",
+    "457: deferred compensation for state and local governments and tax-exempt organizations."
+   ],
+   "related": [
+    "qp-l01"
+   ],
+   "sources": [
+    "fed-irs-self-employed-plans",
+    "fed-irs-sep",
+    "fed-irs-simple-ira",
+    "fed-irs-401k",
+    "fed-irs-457b"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

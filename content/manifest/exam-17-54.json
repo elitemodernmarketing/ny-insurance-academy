@@ -1,0 +1,1623 @@
+{
+ "id": "ny-17-54",
+ "series": "17-54",
+ "state": "NY",
+ "title": "New York Personal Lines Insurance Agent/Broker",
+ "exam": {
+  "questionCount": 100,
+  "timeLimitMinutes": 120,
+  "passingPercent": 70,
+  "experimentalItemsNote": "PSI states 5 to 10 unscored experimental questions may be added in addition to the scored items; this simulator uses only the 100 scored items.",
+  "closedBook": true
+ },
+ "prelicensing": {
+  "statutoryMinimumHours": 40,
+  "note": "40-hour approved Personal Lines course is required (or a qualifying exemption). Study time in this app is independent study and is NOT approved prelicensing credit; only a DFS-approved provider issues a School Certificate.",
+  "sources": [
+   "psi-ny-bulletin-2023",
+   "dfs-prelicensing-criteria"
+  ]
+ },
+ "source": {
+  "id": "psi-ny-bulletin-2023",
+  "checkedOn": "2026-11-19",
+  "note": "PSI NY Insurance Candidate Information Bulletin, 'Updated 4/28/2023' (bulletin IDs 7208 and 7228 identical on 2026-11-19), Series 17-54 outline, bulletin pp. 47-50: '100 Questions - 2-Hour Time Limit'. Passing score 70% (bulletin p. 12).",
+  "hierarchyNote": "Hierarchy reconstructed from PDF indentation. Titles wrapped across lines in the PDF were re-joined; a stray heading from the next exam ('New York Bail Bond Agent') was dropped. Every other token of the official outline text is preserved."
+ },
+ "sections": [
+  {
+   "id": "plreg",
+   "name": "Insurance Regulation",
+   "weightPct": 10,
+   "domain": "property",
+   "children": [
+    {
+     "id": "plreg.1",
+     "title": "Licensing",
+     "children": [
+      {
+       "id": "plreg.1.1",
+       "title": "Process",
+       "refs": "2103(d–i)"
+      },
+      {
+       "id": "plreg.1.2",
+       "title": "Definitions",
+       "children": [
+        {
+         "id": "plreg.1.2.1",
+         "title": "Producer definition",
+         "refs": "2101(k)"
+        },
+        {
+         "id": "plreg.1.2.2",
+         "title": "Who should be licensed",
+         "refs": "2101(k)"
+        },
+        {
+         "id": "plreg.1.2.3",
+         "title": "Home state",
+         "refs": "2101(l)"
+        },
+        {
+         "id": "plreg.1.2.4",
+         "title": "Negotiate",
+         "refs": "2101(m)"
+        },
+        {
+         "id": "plreg.1.2.5",
+         "title": "Sell",
+         "refs": "2101(n)"
+        },
+        {
+         "id": "plreg.1.2.6",
+         "title": "Solicit",
+         "refs": "2101(o)"
+        }
+       ]
+      },
+      {
+       "id": "plreg.1.3",
+       "title": "Types of licensees",
+       "children": [
+        {
+         "id": "plreg.1.3.1",
+         "title": "Agents",
+         "refs": "2101(a, k); 2103; Reg 6, Part 22.2; Reg 7, Part 23.2"
+        },
+        {
+         "id": "plreg.1.3.2",
+         "title": "Brokers",
+         "refs": "2101(c, h, k); 2104"
+        },
+        {
+         "id": "plreg.1.3.3",
+         "title": "Consultants",
+         "refs": "2107"
+        },
+        {
+         "id": "plreg.1.3.4",
+         "title": "Adjusters",
+         "refs": "2101(g), 2108"
+        },
+        {
+         "id": "plreg.1.3.5",
+         "title": "Nonresident",
+         "refs": "2101(d, e); 2103(g)(5, 11); 2136"
+        },
+        {
+         "id": "plreg.1.3.6",
+         "title": "Business entities",
+         "refs": "2101(p), 2103(i)(2)"
+        },
+        {
+         "id": "plreg.1.3.7",
+         "title": "Temporary",
+         "refs": "2109; Regs 9, 18, 29, Part 20.1"
+        }
+       ]
+      },
+      {
+       "id": "plreg.1.4",
+       "title": "Maintenance and duration",
+       "children": [
+        {
+         "id": "plreg.1.4.1",
+         "title": "Renewal",
+         "refs": "2103(j); Reg 5, Part 21.2"
+        },
+        {
+         "id": "plreg.1.4.2",
+         "title": "Continuing education",
+         "refs": "2132"
+        },
+        {
+         "id": "plreg.1.4.3",
+         "title": "Assumed names",
+         "refs": "2102(f)"
+        },
+        {
+         "id": "plreg.1.4.4",
+         "title": "Change of address (all addresses, including email)",
+         "refs": "2134; Reg 5, Part 21.4; Reg 6, Part 22.3; Reg 7, Part 23.4"
+        },
+        {
+         "id": "plreg.1.4.5",
+         "title": "Reporting of actions",
+         "refs": "2110(i)(j)"
+        }
+       ]
+      },
+      {
+       "id": "plreg.1.5",
+       "title": "Disciplinary actions",
+       "children": [
+        {
+         "id": "plreg.1.5.1",
+         "title": "Hearings - Notice and Process",
+         "refs": "2405, 2406, Financial Services 305"
+        },
+        {
+         "id": "plreg.1.5.2",
+         "title": "Suspension, revocation, and nonrenewal",
+         "refs": "2110"
+        },
+        {
+         "id": "plreg.1.5.3",
+         "title": "Penalties",
+         "refs": "2127, 109"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "plreg.2",
+     "title": "State regulation",
+     "children": [
+      {
+       "id": "plreg.2.1",
+       "title": "Superintendent's general duties and powers",
+       "refs": "2404, Financial Services 201, 202, 301"
+      },
+      {
+       "id": "plreg.2.2",
+       "title": "Company regulation",
+       "children": [
+        {
+         "id": "plreg.2.2.1",
+         "title": "Certificate of authority",
+         "refs": "1102(a-b)"
+        },
+        {
+         "id": "plreg.2.2.2",
+         "title": "Solvency",
+         "refs": "307"
+        },
+        {
+         "id": "plreg.2.2.3",
+         "title": "Unfair claim settlement practices",
+         "refs": "2601; Reg 64, Part 216.3-216.6"
+        },
+        {
+         "id": "plreg.2.2.4",
+         "title": "Appointment of agent",
+         "refs": "2112(a–c)"
+        },
+        {
+         "id": "plreg.2.2.5",
+         "title": "Termination of agent appointment",
+         "refs": "2112(d); Regs 9, 18, 29, Part 20.2"
+        }
+       ]
+      },
+      {
+       "id": "plreg.2.3",
+       "title": "Unfair and prohibited practices",
+       "children": [
+        {
+         "id": "plreg.2.3.1",
+         "title": "Misrepresentation",
+         "refs": "2123; Reg 64, Part 216.3"
+        },
+        {
+         "id": "plreg.2.3.2",
+         "title": "False advertising",
+         "refs": "2603"
+        },
+        {
+         "id": "plreg.2.3.3",
+         "title": "Defamation of insurer",
+         "refs": "2604"
+        },
+        {
+         "id": "plreg.2.3.4",
+         "title": "Unfair discrimination",
+         "refs": "2606–2608, 2612"
+        },
+        {
+         "id": "plreg.2.3.5",
+         "title": "Rebating",
+         "refs": "2324"
+        }
+       ]
+      },
+      {
+       "id": "plreg.2.4",
+       "title": "Licensee regulation",
+       "children": [
+        {
+         "id": "plreg.2.4.1",
+         "title": "Controlled business",
+         "refs": "2103(i)"
+        },
+        {
+         "id": "plreg.2.4.2",
+         "title": "Sharing commissions",
+         "refs": "2121, 2128"
+        },
+        {
+         "id": "plreg.2.4.3",
+         "title": "Fiduciary responsibility",
+         "refs": "2120; Regs 9, 18, 29, Parts 20.3, 20.4"
+        },
+        {
+         "id": "plreg.2.4.4",
+         "title": "License display",
+         "refs": "Reg 125, Part 34.5"
+        },
+        {
+         "id": "plreg.2.4.5",
+         "title": "Commissions and compensation",
+         "refs": "2102(e), 2114–2116, 2119; Regs 9, 18, 29, Part 20.6; Reg 194, Part 30"
+        },
+        {
+         "id": "plreg.2.4.6",
+         "title": "Termination responsibilities of producer",
+         "refs": "2112(g)"
+        }
+       ]
+      },
+      {
+       "id": "plreg.2.5",
+       "title": "Examination of books and records",
+       "refs": "2404; Reg 152, Parts 243.0 to 243.3"
+      },
+      {
+       "id": "plreg.2.6",
+       "title": "Insurance Frauds Prevention Act",
+       "refs": "401-405, Financial Services 403-405"
+      },
+      {
+       "id": "plreg.2.7",
+       "title": "Aiding Unauthorized Insurer",
+       "refs": "2117"
+      },
+      {
+       "id": "plreg.2.8",
+       "title": "Prohibitions",
+       "refs": "403"
+      },
+      {
+       "id": "plreg.2.9",
+       "title": "Reporting",
+       "refs": "405"
+      },
+      {
+       "id": "plreg.2.10",
+       "title": "Consumer privacy regulation",
+       "refs": "Reg 169, Parts 420.0 to 420.4"
+      },
+      {
+       "id": "plreg.2.11",
+       "title": "Producer Compensation Transparency",
+       "refs": "Reg 194, Parts 30.1 to 30.5"
+      },
+      {
+       "id": "plreg.2.12",
+       "title": "Cyber Security Requirements for Financial Services Companies",
+       "refs": "Reg 23"
+      }
+     ]
+    },
+    {
+     "id": "plreg.3",
+     "title": "Federal regulation",
+     "children": [
+      {
+       "id": "plreg.3.1",
+       "title": "Fair Credit Reporting Act",
+       "refs": "15 USC 1681a–1681d"
+      },
+      {
+       "id": "plreg.3.2",
+       "title": "Fraud and false statements including 1033 waiver",
+       "refs": "18 USC 1033, 1034"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "plgen",
+   "name": "General Insurance",
+   "weightPct": 10,
+   "domain": "property",
+   "children": [
+    {
+     "id": "plgen.1",
+     "title": "Concepts",
+     "children": [
+      {
+       "id": "plgen.1.1",
+       "title": "Risk management key terms",
+       "children": [
+        {
+         "id": "plgen.1.1.1",
+         "title": "Risk (pure and speculative)"
+        },
+        {
+         "id": "plgen.1.1.2",
+         "title": "Exposure"
+        },
+        {
+         "id": "plgen.1.1.3",
+         "title": "Hazard (physical, moral, morale)"
+        },
+        {
+         "id": "plgen.1.1.4",
+         "title": "Peril"
+        },
+        {
+         "id": "plgen.1.1.5",
+         "title": "Loss"
+        }
+       ]
+      },
+      {
+       "id": "plgen.1.2",
+       "title": "Methods of handling risk",
+       "children": [
+        {
+         "id": "plgen.1.2.1",
+         "title": "Avoidance"
+        },
+        {
+         "id": "plgen.1.2.2",
+         "title": "Retention"
+        },
+        {
+         "id": "plgen.1.2.3",
+         "title": "Sharing"
+        },
+        {
+         "id": "plgen.1.2.4",
+         "title": "Reduction"
+        },
+        {
+         "id": "plgen.1.2.5",
+         "title": "Transfer (by contractual liability or insurance contract)"
+        },
+        {
+         "id": "plgen.1.2.6",
+         "title": "Elements of insurable risks"
+        },
+        {
+         "id": "plgen.1.2.7",
+         "title": "Adverse selection"
+        },
+        {
+         "id": "plgen.1.2.8",
+         "title": "Law of large numbers"
+        },
+        {
+         "id": "plgen.1.2.9",
+         "title": "Reinsurance"
+        },
+        {
+         "id": "plgen.1.2.10",
+         "title": "Risk retention"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "plgen.2",
+     "title": "Insurers",
+     "children": [
+      {
+       "id": "plgen.2.1",
+       "title": "Risk retention and risk purchasing groups"
+      },
+      {
+       "id": "plgen.2.2",
+       "title": "Types of insurers",
+       "children": [
+        {
+         "id": "plgen.2.2.1",
+         "title": "Stock companies"
+        },
+        {
+         "id": "plgen.2.2.2",
+         "title": "Mutual companies"
+        },
+        {
+         "id": "plgen.2.2.3",
+         "title": "Fraternal benefit societies"
+        },
+        {
+         "id": "plgen.2.2.4",
+         "title": "Lloyd's associations"
+        }
+       ]
+      },
+      {
+       "id": "plgen.2.3",
+       "title": "Private versus government insurers"
+      },
+      {
+       "id": "plgen.2.4",
+       "title": "Admitted versus nonadmitted insurers"
+      },
+      {
+       "id": "plgen.2.5",
+       "title": "Domestic, foreign, and alien insurers"
+      },
+      {
+       "id": "plgen.2.6",
+       "title": "Financial status (independent rating services)"
+      },
+      {
+       "id": "plgen.2.7",
+       "title": "Marketing (distribution) systems"
+      }
+     ]
+    },
+    {
+     "id": "plgen.3",
+     "title": "Agents and general rules of agency",
+     "children": [
+      {
+       "id": "plgen.3.1",
+       "title": "Insurer as principal"
+      },
+      {
+       "id": "plgen.3.2",
+       "title": "Agent/insurer relationship"
+      },
+      {
+       "id": "plgen.3.3",
+       "title": "Authority and powers of agents",
+       "children": [
+        {
+         "id": "plgen.3.3.1",
+         "title": "Express"
+        },
+        {
+         "id": "plgen.3.3.2",
+         "title": "Implied"
+        },
+        {
+         "id": "plgen.3.3.3",
+         "title": "Apparent"
+        }
+       ]
+      },
+      {
+       "id": "plgen.3.4",
+       "title": "Responsibilities to the applicant/insured"
+      }
+     ]
+    },
+    {
+     "id": "plgen.4",
+     "title": "Contracts",
+     "children": [
+      {
+       "id": "plgen.4.1",
+       "title": "Elements of a legal contract",
+       "children": [
+        {
+         "id": "plgen.4.1.1",
+         "title": "Offer and acceptance"
+        },
+        {
+         "id": "plgen.4.1.2",
+         "title": "Consideration"
+        },
+        {
+         "id": "plgen.4.1.3",
+         "title": "Competent parties"
+        },
+        {
+         "id": "plgen.4.1.4",
+         "title": "Legal purpose"
+        }
+       ]
+      },
+      {
+       "id": "plgen.4.2",
+       "title": "Characteristics of insurance contracts",
+       "children": [
+        {
+         "id": "plgen.4.2.1",
+         "title": "Contract of adhesion"
+        },
+        {
+         "id": "plgen.4.2.2",
+         "title": "Aleatory contract"
+        },
+        {
+         "id": "plgen.4.2.3",
+         "title": "Personal contract"
+        },
+        {
+         "id": "plgen.4.2.4",
+         "title": "Unilateral contract"
+        },
+        {
+         "id": "plgen.4.2.5",
+         "title": "Conditional contract"
+        }
+       ]
+      },
+      {
+       "id": "plgen.4.3",
+       "title": "Legal concepts and interpretations affecting contracts",
+       "children": [
+        {
+         "id": "plgen.4.3.1",
+         "title": "Indemnity"
+        },
+        {
+         "id": "plgen.4.3.2",
+         "title": "Utmost good faith"
+        },
+        {
+         "id": "plgen.4.3.3",
+         "title": "Representations/misrepresentations",
+         "refs": "3105"
+        },
+        {
+         "id": "plgen.4.3.4",
+         "title": "Warranties",
+         "refs": "3106"
+        },
+        {
+         "id": "plgen.4.3.5",
+         "title": "Rescission"
+        },
+        {
+         "id": "plgen.4.3.6",
+         "title": "Concealment"
+        },
+        {
+         "id": "plgen.4.3.7",
+         "title": "Fraud"
+        },
+        {
+         "id": "plgen.4.3.8",
+         "title": "Waiver and estoppel"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "plpc",
+   "name": "Property and Casualty Insurance Basics",
+   "weightPct": 17,
+   "domain": "property",
+   "children": [
+    {
+     "id": "plpc.1",
+     "title": "Principles and concepts",
+     "children": [
+      {
+       "id": "plpc.1.1",
+       "title": "Insurable interest"
+      },
+      {
+       "id": "plpc.1.2",
+       "title": "Underwriting",
+       "children": [
+        {
+         "id": "plpc.1.2.1",
+         "title": "Function"
+        },
+        {
+         "id": "plpc.1.2.2",
+         "title": "Prohibition of geographical redlining",
+         "refs": "3429, 3429-a, 3430, 3433; Reg 90, Parts 218.1 to 218.7"
+        },
+        {
+         "id": "plpc.1.2.3",
+         "title": "Insurance Risk Score (credit scoring)"
+        }
+       ]
+      },
+      {
+       "id": "plpc.1.3",
+       "title": "Rates",
+       "children": [
+        {
+         "id": "plpc.1.3.1",
+         "title": "Types"
+        },
+        {
+         "id": "plpc.1.3.2",
+         "title": "Loss costs"
+        },
+        {
+         "id": "plpc.1.3.3",
+         "title": "Components"
+        }
+       ]
+      },
+      {
+       "id": "plpc.1.4",
+       "title": "Negligence",
+       "children": [
+        {
+         "id": "plpc.1.4.1",
+         "title": "Elements of a negligent act"
+        },
+        {
+         "id": "plpc.1.4.2",
+         "title": "Defenses against negligence"
+        }
+       ]
+      },
+      {
+       "id": "plpc.1.5",
+       "title": "Damages",
+       "children": [
+        {
+         "id": "plpc.1.5.1",
+         "title": "Compensatory—special versus general"
+        },
+        {
+         "id": "plpc.1.5.2",
+         "title": "Punitive"
+        },
+        {
+         "id": "plpc.1.5.3",
+         "title": "Absolute liability"
+        },
+        {
+         "id": "plpc.1.5.4",
+         "title": "Strict liability"
+        },
+        {
+         "id": "plpc.1.5.5",
+         "title": "Vicarious liability"
+        },
+        {
+         "id": "plpc.1.5.6",
+         "title": "Causes of loss (perils)"
+        },
+        {
+         "id": "plpc.1.5.7",
+         "title": "Proximate cause"
+        },
+        {
+         "id": "plpc.1.5.8",
+         "title": "Named perils versus special (open) perils"
+        },
+        {
+         "id": "plpc.1.5.9",
+         "title": "Direct loss"
+        },
+        {
+         "id": "plpc.1.5.10",
+         "title": "Consequential or indirect loss"
+        },
+        {
+         "id": "plpc.1.5.11",
+         "title": "Blanket versus specific insurance"
+        },
+        {
+         "id": "plpc.1.5.12",
+         "title": "Basic types of construction"
+        }
+       ]
+      },
+      {
+       "id": "plpc.1.6",
+       "title": "Loss Valuation",
+       "children": [
+        {
+         "id": "plpc.1.6.1",
+         "title": "Actual cash value"
+        },
+        {
+         "id": "plpc.1.6.2",
+         "title": "Replacement cost",
+         "children": [
+          {
+           "id": "plpc.1.6.2.1",
+           "title": "Guaranteed"
+          },
+          {
+           "id": "plpc.1.6.2.2",
+           "title": "Functional"
+          }
+         ]
+        },
+        {
+         "id": "plpc.1.6.3",
+         "title": "Market value"
+        },
+        {
+         "id": "plpc.1.6.4",
+         "title": "Agreed value"
+        },
+        {
+         "id": "plpc.1.6.5",
+         "title": "Stated amount"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "plpc.2",
+     "title": "Policy structure",
+     "children": [
+      {
+       "id": "plpc.2.1",
+       "title": "Declarations"
+      },
+      {
+       "id": "plpc.2.2",
+       "title": "Definitions"
+      },
+      {
+       "id": "plpc.2.3",
+       "title": "Insuring agreement or clause"
+      },
+      {
+       "id": "plpc.2.4",
+       "title": "Additional/supplementary coverage"
+      },
+      {
+       "id": "plpc.2.5",
+       "title": "Conditions"
+      },
+      {
+       "id": "plpc.2.6",
+       "title": "Exclusions"
+      },
+      {
+       "id": "plpc.2.7",
+       "title": "Endorsements"
+      }
+     ]
+    },
+    {
+     "id": "plpc.3",
+     "title": "Common policy provisions",
+     "children": [
+      {
+       "id": "plpc.3.1",
+       "title": "Insureds—named, first named, additional, defined"
+      },
+      {
+       "id": "plpc.3.2",
+       "title": "Policy period"
+      },
+      {
+       "id": "plpc.3.3",
+       "title": "Policy territory"
+      },
+      {
+       "id": "plpc.3.4",
+       "title": "Cancellation and nonrenewal",
+       "refs": "3425, 3426"
+      },
+      {
+       "id": "plpc.3.5",
+       "title": "Earned premium calculation",
+       "children": [
+        {
+         "id": "plpc.3.5.1",
+         "title": "Pro rata, short rate, and flat cancellation"
+        }
+       ]
+      },
+      {
+       "id": "plpc.3.6",
+       "title": "Deductibles"
+      },
+      {
+       "id": "plpc.3.7",
+       "title": "Self Insured Retention (SIR)"
+      },
+      {
+       "id": "plpc.3.8",
+       "title": "Other insurance",
+       "children": [
+        {
+         "id": "plpc.3.8.1",
+         "title": "Primary"
+        },
+        {
+         "id": "plpc.3.8.2",
+         "title": "Excess"
+        },
+        {
+         "id": "plpc.3.8.3",
+         "title": "Pro rata share"
+        }
+       ]
+      },
+      {
+       "id": "plpc.3.9",
+       "title": "Limits of liability",
+       "children": [
+        {
+         "id": "plpc.3.9.1",
+         "title": "Per occurrence (accident)"
+        },
+        {
+         "id": "plpc.3.9.2",
+         "title": "Per person"
+        },
+        {
+         "id": "plpc.3.9.3",
+         "title": "Per project"
+        },
+        {
+         "id": "plpc.3.9.4",
+         "title": "Per location"
+        },
+        {
+         "id": "plpc.3.9.5",
+         "title": "Aggregate"
+        },
+        {
+         "id": "plpc.3.9.6",
+         "title": "Sublimit"
+        },
+        {
+         "id": "plpc.3.9.7",
+         "title": "Split"
+        },
+        {
+         "id": "plpc.3.9.8",
+         "title": "Combined single"
+        }
+       ]
+      },
+      {
+       "id": "plpc.3.10",
+       "title": "Ordinance or law provision"
+      },
+      {
+       "id": "plpc.3.11",
+       "title": "Vacancy vs. non-occupancy"
+      },
+      {
+       "id": "plpc.3.12",
+       "title": "First Named insured provisions",
+       "children": [
+        {
+         "id": "plpc.3.12.1",
+         "title": "Duties after loss"
+        },
+        {
+         "id": "plpc.3.12.2",
+         "title": "Assignment"
+        },
+        {
+         "id": "plpc.3.12.3",
+         "title": "Abandonment"
+        }
+       ]
+      },
+      {
+       "id": "plpc.3.13",
+       "title": "Insurer provisions",
+       "children": [
+        {
+         "id": "plpc.3.13.1",
+         "title": "Liberalization"
+        },
+        {
+         "id": "plpc.3.13.2",
+         "title": "Subrogation"
+        },
+        {
+         "id": "plpc.3.13.3",
+         "title": "Salvage"
+        },
+        {
+         "id": "plpc.3.13.4",
+         "title": "Loss settlement options"
+        },
+        {
+         "id": "plpc.3.13.5",
+         "title": "Duty to defend"
+        },
+        {
+         "id": "plpc.3.13.6",
+         "title": "Coinsurance"
+        }
+       ]
+      },
+      {
+       "id": "plpc.3.14",
+       "title": "Third-party provisions",
+       "children": [
+        {
+         "id": "plpc.3.14.1",
+         "title": "Standard mortgage clause"
+        },
+        {
+         "id": "plpc.3.14.2",
+         "title": "Loss payable clause"
+        },
+        {
+         "id": "plpc.3.14.3",
+         "title": "No benefit to the Bailee"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "plpc.4",
+     "title": "Certificate of Insurance vs. Binder",
+     "refs": "501-504"
+    }
+   ]
+  },
+  {
+   "id": "pldwl",
+   "name": "Dwelling (2014) Policy",
+   "weightPct": 8,
+   "domain": "property",
+   "children": [
+    {
+     "id": "pldwl.1",
+     "title": "Purpose and eligibility"
+    },
+    {
+     "id": "pldwl.2",
+     "title": "Coverage forms—Perils insured against",
+     "children": [
+      {
+       "id": "pldwl.2.1",
+       "title": "Basic"
+      },
+      {
+       "id": "pldwl.2.2",
+       "title": "Broad"
+      },
+      {
+       "id": "pldwl.2.3",
+       "title": "Special"
+      }
+     ]
+    },
+    {
+     "id": "pldwl.3",
+     "title": "Property coverages",
+     "children": [
+      {
+       "id": "pldwl.3.1",
+       "title": "Coverage A—Dwelling"
+      },
+      {
+       "id": "pldwl.3.2",
+       "title": "Coverage B—Other structures"
+      },
+      {
+       "id": "pldwl.3.3",
+       "title": "Coverage C—Personal property"
+      },
+      {
+       "id": "pldwl.3.4",
+       "title": "Coverage D—Fair rental value"
+      },
+      {
+       "id": "pldwl.3.5",
+       "title": "Coverage E—Additional living expense"
+      },
+      {
+       "id": "pldwl.3.6",
+       "title": "Other coverages"
+      }
+     ]
+    },
+    {
+     "id": "pldwl.4",
+     "title": "General exclusions"
+    },
+    {
+     "id": "pldwl.5",
+     "title": "Conditions"
+    },
+    {
+     "id": "pldwl.6",
+     "title": "Selected Endorsements",
+     "children": [
+      {
+       "id": "pldwl.6.1",
+       "title": "Special provisions—New York (DP 01 31)"
+      },
+      {
+       "id": "pldwl.6.2",
+       "title": "Broad theft endorsement (DP 04 83) (DP 04 72)"
+      },
+      {
+       "id": "pldwl.6.3",
+       "title": "Dwelling under construction (DP 11 43)"
+      }
+     ]
+    },
+    {
+     "id": "pldwl.7",
+     "title": "Personal liability supplement"
+    }
+   ]
+  },
+  {
+   "id": "plho",
+   "name": "Homeowners (2011) Policy",
+   "weightPct": 24,
+   "domain": "property",
+   "children": [
+    {
+     "id": "plho.1",
+     "title": "Purpose and eligibility"
+    },
+    {
+     "id": "plho.2",
+     "title": "Coverage forms",
+     "children": [
+      {
+       "id": "plho.2.1",
+       "title": "HO-2 through HO-6, HO-8"
+      }
+     ]
+    },
+    {
+     "id": "plho.3",
+     "title": "Definitions"
+    },
+    {
+     "id": "plho.4",
+     "title": "Section I—Property coverages",
+     "children": [
+      {
+       "id": "plho.4.1",
+       "title": "Coverage A—Dwelling"
+      },
+      {
+       "id": "plho.4.2",
+       "title": "Coverage B—Other structures"
+      },
+      {
+       "id": "plho.4.3",
+       "title": "Coverage C—Personal property"
+      },
+      {
+       "id": "plho.4.4",
+       "title": "Coverage D—Loss of use"
+      },
+      {
+       "id": "plho.4.5",
+       "title": "Additional coverages"
+      }
+     ]
+    },
+    {
+     "id": "plho.5",
+     "title": "Section II—Liability coverages",
+     "children": [
+      {
+       "id": "plho.5.1",
+       "title": "Coverage E—Personal liability"
+      },
+      {
+       "id": "plho.5.2",
+       "title": "Coverage F—Medical payments to others"
+      },
+      {
+       "id": "plho.5.3",
+       "title": "Additional coverages"
+      }
+     ]
+    },
+    {
+     "id": "plho.6",
+     "title": "Perils insured against"
+    },
+    {
+     "id": "plho.7",
+     "title": "Exclusions"
+    },
+    {
+     "id": "plho.8",
+     "title": "Conditions"
+    },
+    {
+     "id": "plho.9",
+     "title": "Selected endorsements",
+     "children": [
+      {
+       "id": "plho.9.1",
+       "title": "Special provisions—New York (HO 01 31)"
+      },
+      {
+       "id": "plho.9.2",
+       "title": "Earthquake (HO 04 54)"
+      },
+      {
+       "id": "plho.9.3",
+       "title": "Identity fraud expense (HO 04 55)"
+      },
+      {
+       "id": "plho.9.4",
+       "title": "Scheduled personal property (HO 04 61)"
+      },
+      {
+       "id": "plho.9.5",
+       "title": "Personal property replacement cost (HO 04 90)"
+      },
+      {
+       "id": "plho.9.6",
+       "title": "Home business (HO 07 01)"
+      },
+      {
+       "id": "plho.9.7",
+       "title": "Personal injury—New York (HO 24 86)"
+      },
+      {
+       "id": "plho.9.8",
+       "title": "Workers' compensation—certain residence employees—New York (HO 24 93)"
+      },
+      {
+       "id": "plho.9.9",
+       "title": "Water Back Up and Sump Discharge or Overflow (HO 23 85)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "plauto",
+   "name": "Auto Insurance",
+   "weightPct": 24,
+   "domain": "property",
+   "children": [
+    {
+     "id": "plauto.1",
+     "title": "Laws",
+     "children": [
+      {
+       "id": "plauto.1.1",
+       "title": "New York Motor Vehicle Financial Responsibility Law",
+       "children": [
+        {
+         "id": "plauto.1.1.1",
+         "title": "Required limits of liability (Veh & Traf 333)"
+        },
+        {
+         "id": "plauto.1.1.2",
+         "title": "Transportation Network Companies (Ridesharing) (Veh & Traf Article 44-B)"
+        },
+        {
+         "id": "plauto.1.1.3",
+         "title": "Required proof of insurance (Veh & Traf 311(3))"
+        },
+        {
+         "id": "plauto.1.1.4",
+         "title": "Insurance Information and Enforcement System (IIES) notification to DMV (Veh & Traf 313(2))"
+        },
+        {
+         "id": "plauto.1.1.5",
+         "title": "Auto ID cards"
+        }
+       ]
+      },
+      {
+       "id": "plauto.1.2",
+       "title": "New York Automobile Insurance Plan (Assigned Risk)",
+       "children": [
+        {
+         "id": "plauto.1.2.1",
+         "title": "Purpose"
+        },
+        {
+         "id": "plauto.1.2.2",
+         "title": "Eligibility"
+        },
+        {
+         "id": "plauto.1.2.3",
+         "title": "Coverage"
+        },
+        {
+         "id": "plauto.1.2.4",
+         "title": "Binding authority"
+        }
+       ],
+       "refs": "5301–5304"
+      },
+      {
+       "id": "plauto.1.3",
+       "title": "Comprehensive Motor Vehicle Insurance Reparations Act (PIP)",
+       "children": [
+        {
+         "id": "plauto.1.3.1",
+         "title": "Notice of claim"
+        },
+        {
+         "id": "plauto.1.3.2",
+         "title": "Medical"
+        },
+        {
+         "id": "plauto.1.3.3",
+         "title": "Rehabilitation"
+        },
+        {
+         "id": "plauto.1.3.4",
+         "title": "Loss of earnings"
+        },
+        {
+         "id": "plauto.1.3.5",
+         "title": "Funeral"
+        },
+        {
+         "id": "plauto.1.3.6",
+         "title": "Substitution services"
+        },
+        {
+         "id": "plauto.1.3.7",
+         "title": "Tort limitation/verbal threshold"
+        }
+       ],
+       "refs": "5101–5108"
+      },
+      {
+       "id": "plauto.1.4",
+       "title": "Optional coverages",
+       "children": [
+        {
+         "id": "plauto.1.4.1",
+         "title": "OBEL"
+        },
+        {
+         "id": "plauto.1.4.2",
+         "title": "Additional PIP"
+        }
+       ]
+      },
+      {
+       "id": "plauto.1.5",
+       "title": "Motor Vehicle Accident Indemnification Corporation Act",
+       "refs": "5201–5225"
+      },
+      {
+       "id": "plauto.1.6",
+       "title": "Uninsured/Underinsured motorist",
+       "children": [
+        {
+         "id": "plauto.1.6.1",
+         "title": "Definitions"
+        },
+        {
+         "id": "plauto.1.6.2",
+         "title": "Bodily injury only"
+        },
+        {
+         "id": "plauto.1.6.3",
+         "title": "Required limits"
+        },
+        {
+         "id": "plauto.1.6.4",
+         "title": "Mandatory coverage"
+        }
+       ],
+       "refs": "3420(f)"
+      },
+      {
+       "id": "plauto.1.7",
+       "title": "Supplementary uninsured/underinsured motorist coverage",
+       "children": [
+        {
+         "id": "plauto.1.7.1",
+         "title": "Definitions"
+        },
+        {
+         "id": "plauto.1.7.2",
+         "title": "Optional"
+        },
+        {
+         "id": "plauto.1.7.3",
+         "title": "Nonstacking"
+        },
+        {
+         "id": "plauto.1.7.4",
+         "title": "Coverage limits"
+        }
+       ],
+       "refs": "3420(f)(2)(A)(B); Reg 35-A, Parts 60-2.0 to 60-2.4"
+      },
+      {
+       "id": "plauto.1.8",
+       "title": "Mandatory inspection requirements for private passenger automobiles",
+       "refs": "Reg 79, Parts 67.0 to 67.11"
+      },
+      {
+       "id": "plauto.1.9",
+       "title": "Cancellation/nonrenewal",
+       "children": [
+        {
+         "id": "plauto.1.9.1",
+         "title": "Grounds"
+        },
+        {
+         "id": "plauto.1.9.2",
+         "title": "Notice"
+        }
+       ],
+       "refs": "3425"
+      },
+      {
+       "id": "plauto.1.10",
+       "title": "Choice of repair shop",
+       "refs": "2610"
+      },
+      {
+       "id": "plauto.1.11",
+       "title": "Supplemental spousal liability",
+       "refs": "3420(g)"
+      }
+     ]
+    },
+    {
+     "id": "plauto.2",
+     "title": "Personal (2005) auto policy",
+     "children": [
+      {
+       "id": "plauto.2.1",
+       "title": "Purpose and eligibility"
+      },
+      {
+       "id": "plauto.2.2",
+       "title": "Definitions"
+      },
+      {
+       "id": "plauto.2.3",
+       "title": "Liability coverage",
+       "children": [
+        {
+         "id": "plauto.2.3.1",
+         "title": "Bodily injury and property damage"
+        },
+        {
+         "id": "plauto.2.3.2",
+         "title": "Supplementary payments"
+        },
+        {
+         "id": "plauto.2.3.3",
+         "title": "Who is insured"
+        },
+        {
+         "id": "plauto.2.3.4",
+         "title": "Exclusions"
+        }
+       ]
+      },
+      {
+       "id": "plauto.2.4",
+       "title": "Medical payments coverage"
+      },
+      {
+       "id": "plauto.2.5",
+       "title": "Coverage for damage to your auto",
+       "children": [
+        {
+         "id": "plauto.2.5.1",
+         "title": "Collision"
+        },
+        {
+         "id": "plauto.2.5.2",
+         "title": "Other than collision/comprehensive"
+        },
+        {
+         "id": "plauto.2.5.3",
+         "title": "Deductibles"
+        },
+        {
+         "id": "plauto.2.5.4",
+         "title": "Transportation expenses"
+        },
+        {
+         "id": "plauto.2.5.5",
+         "title": "Exclusions"
+        }
+       ]
+      },
+      {
+       "id": "plauto.2.6",
+       "title": "Duties after an accident or loss"
+      },
+      {
+       "id": "plauto.2.7",
+       "title": "General provisions"
+      },
+      {
+       "id": "plauto.2.8",
+       "title": "Selected endorsements",
+       "children": [
+        {
+         "id": "plauto.2.8.1",
+         "title": "Amendment of policy provisions— New York (PP 01 79)"
+        },
+        {
+         "id": "plauto.2.8.2",
+         "title": "Towing and labor costs (PP 03 03)"
+        },
+        {
+         "id": "plauto.2.8.3",
+         "title": "Miscellaneous type vehicle—New York (PP 03 29)"
+        },
+        {
+         "id": "plauto.2.8.5",
+         "title": "Named non-owner coverage— New York (PP 03 30)"
+        },
+        {
+         "id": "plauto.2.8.6",
+         "title": "Rental vehicle coverage—New York (PP 03 46)"
+        },
+        {
+         "id": "plauto.2.8.8",
+         "title": "Joint ownership coverage—New York (PP 03 78)"
+        },
+        {
+         "id": "plauto.2.8.10",
+         "title": "Out of state coverage"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ploth",
+   "name": "Other Coverages and Options",
+   "weightPct": 7,
+   "domain": "property",
+   "children": [
+    {
+     "id": "ploth.1",
+     "title": "Umbrella/excess liability policies",
+     "children": [
+      {
+       "id": "ploth.1.1",
+       "title": "Umbrella policies",
+       "children": [
+        {
+         "id": "ploth.1.1.1",
+         "title": "Personal (DL 98 01)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ploth.2",
+     "title": "National Flood Insurance Program",
+     "children": [
+      {
+       "id": "ploth.2.1",
+       "title": "Eligibility"
+      },
+      {
+       "id": "ploth.2.2",
+       "title": "Coverage"
+      },
+      {
+       "id": "ploth.2.3",
+       "title": "Flood definition"
+      },
+      {
+       "id": "ploth.2.4",
+       "title": "Forms",
+       "children": [
+        {
+         "id": "ploth.2.4.1",
+         "title": "Dwelling"
+        },
+        {
+         "id": "ploth.2.4.2",
+         "title": "General"
+        },
+        {
+         "id": "ploth.2.4.3",
+         "title": "Residential Condominium Building"
+        },
+        {
+         "id": "ploth.2.4.4",
+         "title": "Association Policy"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ploth.3",
+     "title": "Other policies",
+     "children": [
+      {
+       "id": "ploth.3.1",
+       "title": "Watercraft"
+      }
+     ]
+    },
+    {
+     "id": "ploth.4",
+     "title": "New York Property Insurance Underwriting Association (FAIR PLAN)",
+     "children": [
+      {
+       "id": "ploth.4.1",
+       "title": "Purpose"
+      },
+      {
+       "id": "ploth.4.2",
+       "title": "Coverage"
+      },
+      {
+       "id": "ploth.4.3",
+       "title": "Coastal Market Assistance Program (C-MAP)"
+      }
+     ],
+     "refs": "5401-5412"
+    },
+    {
+     "id": "ploth.5",
+     "title": "Excess lines",
+     "children": [
+      {
+       "id": "ploth.5.1",
+       "title": "Definition of Excess Lines (nonadmitted market)"
+      },
+      {
+       "id": "ploth.5.2",
+       "title": "Licensing requirements",
+       "refs": "2105"
+      },
+      {
+       "id": "ploth.5.3",
+       "title": "Total cost form"
+      },
+      {
+       "id": "ploth.5.4",
+       "title": "Affidavit"
+      },
+      {
+       "id": "ploth.5.5",
+       "title": "Export list"
+      },
+      {
+       "id": "ploth.5.6",
+       "title": "Disclosure (no guaranty fund)"
+      }
+     ],
+     "refs": "Reg 41, Part 27"
+    }
+   ]
+  }
+ ],
+ "sharedTermSections": [
+  "reg",
+  "gen"
+ ]
+}

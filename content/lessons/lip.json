@@ -1,0 +1,921 @@
+{
+ "sectionId": "lip",
+ "lessons": [
+  {
+   "id": "lip-l01",
+   "sectionId": "lip",
+   "order": 1,
+   "title": "Term Life Insurance: Protection for a Set Number of Years",
+   "outlineIds": [
+    "lip.1",
+    "lip.1.1",
+    "lip.1.1.1",
+    "lip.1.1.2",
+    "lip.1.1.3"
+   ],
+   "estMinutes": 20,
+   "intro": "Most people's need for life insurance is biggest while children are young and debts are large. Term life insurance is built for exactly that: a lot of protection for a stated period at the lowest starting cost. In this lesson you will learn the main forms of term insurance and the two options — renewal and conversion — that protect the policyowner's future insurability.",
+   "objectives": [
+    "Define term life insurance and explain why it has no cash value",
+    "Distinguish level term, level premium term and decreasing term",
+    "Explain how renewable and convertible options work and how they differ"
+   ],
+   "keyTerms": [
+    "term-life-insurance",
+    "level-term",
+    "decreasing-term",
+    "renewable-term",
+    "convertible-term",
+    "face-amount"
+   ],
+   "parts": [
+    {
+     "heading": "What term insurance is",
+     "body": "[[term-life-insurance|Term life insurance]] pays the [[face-amount|face amount]] only if the insured dies during the term — for example, 10, 20 or 30 years. If the insured outlives the term, the coverage simply ends.\n\nBecause it is **pure protection** with no savings element, term insurance has **no cash value**, no policy loans and no nonforfeiture values. That is why it provides the most coverage per premium dollar when a person is young.\n\n- Temporary protection for a stated period\n- No cash value\n- Lowest initial premium for a given face amount",
+     "simple": "Term insurance is like renting protection. You pay for a set number of years. If the insured dies during that time, the family is paid. If not, the coverage ends and nothing is paid back.",
+     "example": {
+      "title": "Example: Lena's 20-year policy",
+      "body": "Lena, 32, buys a 20-year, $500,000 term policy. If she dies at 45, her beneficiary receives $500,000. If she is alive at 52 when the term ends, the policy expires and no benefit is paid."
+     },
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "If a question mentions cash value, policy loans or nonforfeiture options, it is NOT describing plain term insurance."
+      },
+      {
+       "kind": "memory-tip",
+       "text": "Term = Temporary."
+      }
+     ]
+    },
+    {
+     "heading": "Level, level premium and decreasing term",
+     "body": "**[[level-term|Level term]]** keeps the face amount the same for the entire term. In **level premium term**, the premium also stays the same for the whole term. The insurer averages the rising cost of insurance over the term, so early premiums are a little higher than the pure one-year cost and later premiums are lower.\n\n**[[decreasing-term|Decreasing term]]** starts with a face amount that declines on a schedule (monthly or yearly) until it reaches zero at the end of the term, while the premium usually stays level. It fits a debt that shrinks over time, such as a mortgage, and it is the usual form of [[credit-life-insurance|credit life insurance]].",
+     "simple": "Level term: same benefit every year. Level premium term: same benefit and same bill every year. Decreasing term: the benefit shrinks over time, like a mortgage balance.",
+     "example": {
+      "title": "Example: the Nguyens' mortgage",
+      "body": "The Nguyens buy 30-year decreasing term starting at $400,000 to match their new mortgage. As they pay the loan down, the death benefit declines roughly in step with the balance."
+     },
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "In decreasing term, the BENEFIT decreases — the premium normally does not."
+      },
+      {
+       "kind": "memory-tip",
+       "text": "Shrinking debt → shrinking (decreasing) term."
+      }
+     ]
+    },
+    {
+     "heading": "Renewable term",
+     "body": "A [[renewable-term|renewable]] term policy lets the policyowner renew coverage for another term at the end of each term **without evidence of insurability** — no medical exam, no health questions. The new premium is based on the insured's **attained age**, so it rises with each renewal. Policies usually set a maximum age after which renewal is no longer allowed.\n\n**Annually renewable term (ART)** renews every year, with a slightly higher premium each year.",
+     "simple": "Renewal means you can keep the same kind of term coverage going, even if your health has changed, but the price goes up because you are older.",
+     "example": {
+      "title": "Example: Hana renews",
+      "body": "Hana's 10-year renewable term policy ends when she is 45. She was recently diagnosed with diabetes, but she renews for another 10 years without any health questions. Her new premium is based on age 45."
+     },
+     "callouts": [
+      {
+       "kind": "memory-tip",
+       "text": "RE-new = RE-peat the term, at an older age."
+      }
+     ]
+    },
+    {
+     "heading": "Convertible term",
+     "body": "A [[convertible-term|convertible]] term policy lets the policyowner exchange the term policy for a permanent (cash value) policy, such as whole life, **without evidence of insurability**, during a stated conversion period.\n\n- **Attained-age conversion:** the new premium is based on the insured's age at conversion.\n- **Original-age (retroactive) conversion:** the new premium is based on the original issue age, usually with a catch-up payment for the difference in past premiums (and cash value).\n\nRenewal continues *term* coverage; conversion changes the *type* of coverage to permanent. Neither requires evidence of insurability.",
+     "simple": "Conversion lets you swap your term policy for lifetime coverage without a medical exam. You pay the permanent-policy price from then on.",
+     "example": {
+      "title": "Example: Priya converts",
+      "body": "Priya bought 20-year convertible term at 35. At 44 she is diagnosed with cancer. She converts to whole life in the conversion period, and the insurer cannot ask about her health."
+     },
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "Do not mix these up: renewal = same type, new term; conversion = new type (permanent). Both protect insurability."
+      },
+      {
+       "kind": "memory-tip",
+       "text": "CON-vert = CHANGE the type."
+      }
+     ]
+    }
+   ],
+   "activity": {
+    "type": "match",
+    "prompt": "Match each term insurance feature to what it does.",
+    "pairs": [
+     {
+      "left": "Level term",
+      "right": "Face amount stays the same for the whole term"
+     },
+     {
+      "left": "Level premium term",
+      "right": "Face amount and premium both stay the same for the term"
+     },
+     {
+      "left": "Decreasing term",
+      "right": "Face amount declines on a schedule, often matching a mortgage"
+     },
+     {
+      "left": "Renewable term",
+      "right": "Continues term coverage for another period without evidence of insurability"
+     },
+     {
+      "left": "Convertible term",
+      "right": "Exchanges term for permanent coverage without evidence of insurability"
+     }
+    ]
+   },
+   "knowledgeChecks": [
+    {
+     "prompt": "Which statement about term life insurance is true?",
+     "choices": [
+      "It builds a cash value the owner can borrow against",
+      "It provides protection only for a stated period",
+      "It always has a decreasing premium",
+      "It pays the face amount at the end of the term if the insured is alive"
+     ],
+     "answerIndex": 1,
+     "explanation": "Term insurance is temporary, pure protection. It has no cash value, its premium is usually level or rising (not decreasing), and nothing is paid if the insured outlives the term."
+    },
+    {
+     "prompt": "What happens to the premium when a renewable term policy is renewed?",
+     "choices": [
+      "It rises based on the insured's attained age",
+      "It stays at the original issue-age rate",
+      "It is set by a new medical exam",
+      "It drops because the face amount drops"
+     ],
+     "answerIndex": 0,
+     "explanation": "Renewal premiums are based on the insured's attained age. No new medical evidence is required, and renewal does not reduce the face amount."
+    },
+    {
+     "prompt": "A term policyowner in poor health wants permanent coverage without new medical underwriting. Which feature does she need?",
+     "choices": [
+      "Renewal privilege",
+      "Conversion privilege",
+      "Decreasing term rider",
+      "Level premium"
+     ],
+     "answerIndex": 1,
+     "explanation": "Conversion exchanges term for permanent coverage without evidence of insurability. Renewal keeps term coverage; the other choices do not change the policy type."
+    }
+   ],
+   "summary": [
+    "Term life insurance is temporary, pure protection with no cash value.",
+    "Level term keeps the face amount constant; level premium term also keeps the premium constant; decreasing term reduces the face amount over time, usually with a level premium.",
+    "Renewable term continues term coverage without evidence of insurability, at a higher attained-age premium.",
+    "Convertible term exchanges term for permanent coverage without evidence of insurability."
+   ],
+   "related": [
+    "lip-l02",
+    "lip-l05"
+   ],
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-l02",
+   "sectionId": "lip",
+   "order": 2,
+   "title": "Whole Life Insurance: Lifetime Protection with Guaranteed Cash Value",
+   "outlineIds": [
+    "lip.2",
+    "lip.2.1",
+    "lip.2.2",
+    "lip.2.3"
+   ],
+   "estMinutes": 20,
+   "intro": "Whole life insurance is the classic form of permanent life insurance. It promises coverage for life, level premiums and a cash value that grows on a guaranteed schedule. What changes between the types of whole life is simply how long you pay for it — for life, for a limited time, or all at once.",
+   "objectives": [
+    "Describe the guaranteed features of whole life insurance",
+    "Explain how cash value works and who owns it",
+    "Compare straight life, limited-payment life and single-premium whole life"
+   ],
+   "keyTerms": [
+    "whole-life-insurance",
+    "cash-value",
+    "straight-life",
+    "limited-payment-life",
+    "single-premium-whole-life",
+    "face-amount"
+   ],
+   "parts": [
+    {
+     "heading": "Whole life basics",
+     "body": "[[whole-life-insurance|Whole life insurance]] covers the insured for life (to the policy's maturity age) as long as premiums are paid as scheduled. It is sometimes called a 'bundled' product because its guarantees are built in:\n\n- **Level premium** that never increases\n- **Level death benefit** (the [[face-amount|face amount]])\n- **Guaranteed [[cash-value|cash value]]** that grows on a schedule shown in the policy\n\nIf the insured is still living when the policy reaches its maturity age, the policy *endows*: the face amount is paid to the policyowner.",
+     "simple": "Whole life is like buying a house instead of renting: it costs more, but it lasts for life and builds value (cash value) along the way.",
+     "callouts": [
+      {
+       "kind": "memory-tip",
+       "text": "Whole life = wired-in guarantees: level premium, level benefit, guaranteed cash value."
+      }
+     ]
+    },
+    {
+     "heading": "Cash value: a living benefit",
+     "body": "Part of each whole life premium builds the cash value. The cash value belongs to the **policyowner**, who can use it while the insured is alive:\n\n- Borrow against it with a [[policy-loan|policy loan]]\n- Surrender the policy and receive the [[cash-surrender-value|cash surrender value]] (coverage then ends)\n- Use it to fund [[nonforfeiture-options|nonforfeiture options]] if premiums stop\n\nIn a standard whole life policy, the beneficiary receives the face amount at death — not the face amount *plus* the cash value. Outstanding loans are subtracted.",
+     "simple": "Cash value is savings inside the policy that the owner can borrow or take out. At death, the beneficiary gets the face amount (minus any loans), not the face amount plus the savings.",
+     "example": {
+      "title": "Example: Ivan's tuition loan",
+      "body": "After 15 years, Ivan's whole life policy has $28,000 of cash value. He borrows $10,000 against it for tuition. If he died with the loan unpaid, his beneficiary would receive the face amount minus the loan balance (and any unpaid interest)."
+     },
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "Cash value is a policyowner right. Beneficiaries have no access to it while the insured is alive."
+      }
+     ]
+    },
+    {
+     "heading": "Three ways to pay: straight, limited-pay and single premium",
+     "body": "All whole life policies cover the insured for life. They differ in **how long premiums are paid**:\n\n- **[[straight-life|Straight (continuous premium) life]]:** level premiums for the insured's whole life. Lowest annual premium; slowest cash value growth.\n- **[[limited-payment-life|Limited-payment life]]:** premiums for a set number of years (e.g. 10-pay, 20-pay) or to a stated age (e.g. life paid-up at 65). Higher premiums, faster cash value; coverage continues for life after the last payment.\n- **[[single-premium-whole-life|Single-premium whole life]]:** one lump-sum premium. Paid up at issue with immediate cash value. Under federal tax rules, such a heavily funded policy is generally a [[modified-endowment-contract|modified endowment contract]].\n\nThe rule of thumb: the shorter the payment period, the larger each payment and the faster the cash value grows.",
+     "simple": "Straight life: pay a little for a long time. Limited pay: pay more for fewer years. Single premium: pay everything at once. All three last for life.",
+     "example": {
+      "title": "Example: Sofia's 20-pay policy",
+      "body": "Sofia buys 20-pay whole life at 40. At 60 she makes her last premium payment. The policy is paid up, and her coverage continues for the rest of her life."
+     },
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "A 20-pay life policy does NOT expire after 20 years — only the premiums stop."
+      },
+      {
+       "kind": "exam-trap",
+       "text": "'Straight life' whole life (premiums for life) is different from a 'straight life annuity' (an annuity payout with no refund)."
+      }
+     ]
+    }
+   ],
+   "activity": {
+    "type": "categorize",
+    "prompt": "Sort each feature into the whole life type it describes.",
+    "categories": [
+     "Straight life",
+     "Limited-payment life",
+     "Single-premium whole life"
+    ],
+    "items": [
+     {
+      "text": "Premiums payable for the insured's entire life",
+      "category": "Straight life"
+     },
+     {
+      "text": "Lowest annual premium of the whole life forms",
+      "category": "Straight life"
+     },
+     {
+      "text": "Premiums stop at age 65 but coverage continues",
+      "category": "Limited-payment life"
+     },
+     {
+      "text": "20 annual premiums, then fully paid up",
+      "category": "Limited-payment life"
+     },
+     {
+      "text": "Paid up at issue with one lump sum",
+      "category": "Single-premium whole life"
+     },
+     {
+      "text": "Immediate cash value from the first year",
+      "category": "Single-premium whole life"
+     }
+    ]
+   },
+   "knowledgeChecks": [
+    {
+     "prompt": "Which is a guaranteed feature of traditional whole life insurance?",
+     "choices": [
+      "Flexible premiums the owner may skip",
+      "A cash value that grows on a stated schedule",
+      "A death benefit tied to a stock index",
+      "Coverage that ends at age 65"
+     ],
+     "answerIndex": 1,
+     "explanation": "Whole life guarantees cash values, level premiums and lifetime coverage. Flexible premiums describe universal life; index-linked benefits describe indexed products; coverage ending at 65 describes term."
+    },
+    {
+     "prompt": "Compared with straight life of the same face amount, a 20-pay life policy has:",
+     "choices": [
+      "Lower premiums and slower cash value growth",
+      "Higher premiums and faster cash value growth",
+      "Coverage that ends after 20 years",
+      "No cash value"
+     ],
+     "answerIndex": 1,
+     "explanation": "Paying for lifetime coverage in 20 years means larger premiums and faster cash value growth. Coverage continues for life."
+    },
+    {
+     "prompt": "Who may borrow against the cash value of a whole life policy?",
+     "choices": [
+      "The primary beneficiary",
+      "The contingent beneficiary",
+      "The policyowner",
+      "The producer"
+     ],
+     "answerIndex": 2,
+     "explanation": "The cash value belongs to the policyowner, who may take policy loans or surrender the policy."
+    }
+   ],
+   "summary": [
+    "Whole life provides lifetime coverage with level premiums, a level death benefit and guaranteed cash values.",
+    "Cash value belongs to the policyowner and supports loans, surrender and nonforfeiture options.",
+    "Straight life spreads premiums over a lifetime; limited-payment life compresses them into a set period; single-premium life uses one payment.",
+    "Shorter payment periods mean higher premiums and faster cash value growth; coverage still lasts for life."
+   ],
+   "related": [
+    "lip-l01",
+    "lip-l03"
+   ],
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-l03",
+   "sectionId": "lip",
+   "order": 3,
+   "title": "Flexible and Index-Linked Policies: Universal Life and Indexed Life",
+   "outlineIds": [
+    "lip.3",
+    "lip.3.1",
+    "lip.4.4"
+   ],
+   "estMinutes": 20,
+   "intro": "Some people want permanent coverage but more flexibility than whole life offers. Universal life lets the policyowner adjust premiums and the death benefit, and indexed life links cash value growth to a stock market index with protection against losses. Flexibility comes with responsibility: these policies can lapse if the cash value runs too low.",
+   "objectives": [
+    "Explain how universal life works, including premiums, charges and interest",
+    "Compare universal life's death benefit options",
+    "Describe how indexed life credits interest using participation rates, caps and floors",
+    "Explain what happens when a universal life cash value is insufficient"
+   ],
+   "keyTerms": [
+    "universal-life",
+    "indexed-universal-life",
+    "cash-value",
+    "guaranteed-minimum-rate",
+    "current-interest-rate",
+    "grace-period"
+   ],
+   "parts": [
+    {
+     "heading": "How universal life works",
+     "body": "[[universal-life|Universal life]] (UL) is a flexible-premium, adjustable-death-benefit permanent policy. It is called **unbundled** because the policyowner sees its parts separately:\n\n- **Premiums** go into the cash value account (after any premium charge).\n- **Interest** is credited at the insurer's [[current-interest-rate|current rate]], never below the [[guaranteed-minimum-rate|guaranteed minimum rate]].\n- **Monthly deductions** for the cost of insurance (mortality charge) and expenses come out of the cash value.\n\nWithin limits, the owner can pay more, pay less, skip premiums, make partial withdrawals, and raise (with evidence of insurability) or lower the death benefit.",
+     "simple": "Universal life is a permanent policy with a savings account inside. You put money in when you can; the insurer adds interest and takes out the monthly cost of the insurance.",
+     "example": {
+      "title": "Example: Tasha skips two payments",
+      "body": "Tasha changes jobs and skips two premium payments on her universal life policy. Her cash value is large enough to cover the monthly deductions, so her coverage continues."
+     },
+     "callouts": [
+      {
+       "kind": "memory-tip",
+       "text": "Universal = yoU adjust it."
+      }
+     ]
+    },
+    {
+     "heading": "Death benefit options",
+     "body": "Universal life usually offers two death benefit options:\n\n- **Option A (Option 1) — level:** the death benefit equals the specified amount. As cash value grows, the 'amount at risk' for the insurer shrinks.\n- **Option B (Option 2) — increasing:** the death benefit equals the specified amount **plus** the cash value. Cost of insurance is higher because the insurer's amount at risk does not shrink.",
+     "simple": "Option A: the beneficiary gets the policy amount. Option B: the beneficiary gets the policy amount plus the savings.",
+     "example": {
+      "title": "Example: Rob's Option B",
+      "body": "Rob has a $250,000 specified amount and $40,000 of cash value under Option B. If he died today, his beneficiary would receive $290,000 (less any loans)."
+     },
+     "callouts": [
+      {
+       "kind": "memory-tip",
+       "text": "A = Always the same; B = Bigger (face + cash)."
+      }
+     ]
+    },
+    {
+     "heading": "When the cash value runs low",
+     "body": "Flexible premiums are not free coverage. If the cash value is not enough to pay the monthly deductions, the policy enters its grace period and will lapse unless enough premium is paid.\n\nIn New York, policies in which the amount and frequency of premiums may vary have a **61-day grace period**, beginning on the day the insurer determines that the net cash surrender value is insufficient to pay the charges. Coverage continues during the grace period.",
+     "simple": "If the savings inside a universal life policy run out, the insurer gives a 61-day warning period in New York. If the owner doesn't pay enough during that time, the policy ends.",
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "NY Insurance Law § 3203(a)(1): flexible-premium policies get a 61-day grace period starting when the insurer determines the net cash surrender value is insufficient; other policies get 31 days (or one month).",
+       "sources": [
+        "ny-isc-3203"
+       ]
+      },
+      {
+       "kind": "exam-trap",
+       "text": "Skipping premiums is allowed only while the cash value can cover the monthly charges."
+      }
+     ]
+    },
+    {
+     "heading": "Fixed (equity) indexed life",
+     "body": "[[indexed-universal-life|Indexed life]] — usually indexed universal life (IUL) — credits interest based on the change in a stock market index, such as the S&P 500, using a formula:\n\n- **Participation rate:** the share of the index gain used (e.g. 80%).\n- **Cap:** the maximum rate credited (e.g. 9%).\n- **Floor:** the minimum rate credited when the index falls (often 0%).\n\nThe cash value is not invested directly in stocks; the index is only a yardstick. Because the insurer guarantees the floor from its [[general-account|general account]], indexed life is a **fixed** product. It is not variable life, which invests in separate-account subaccounts and requires a securities registration to sell.",
+     "simple": "Indexed life lets your cash value earn part of the stock market's gains, up to a limit, while a floor keeps index losses from reducing it.",
+     "example": {
+      "title": "Example: Amir's crediting year",
+      "body": "Amir's IUL has 100% participation, a 9% cap and a 0% floor. The index rises 12%: 100% × 12% = 12%, capped at 9%, so 9% is credited. The next year the index falls 8%: the floor applies and 0% is credited (policy charges are still deducted)."
+     },
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "Indexed life ≠ variable life. Indexed = fixed product with a floor; variable = separate account where the owner bears the investment risk."
+      }
+     ]
+    }
+   ],
+   "activity": {
+    "type": "truefalse",
+    "prompt": "True or false: universal and indexed life.",
+    "statements": [
+     {
+      "text": "Universal life lets the policyowner skip premiums as long as the cash value can cover the monthly deductions.",
+      "answer": true,
+      "explanation": "Flexible premiums work only while the cash value covers the cost of insurance and expenses."
+     },
+     {
+      "text": "Under Option B, the universal life death benefit equals the specified amount only.",
+      "answer": false,
+      "explanation": "Option B pays the specified amount plus the cash value; Option A pays the specified amount only."
+     },
+     {
+      "text": "In New York, a flexible-premium life policy has a 61-day grace period that begins when the insurer determines the net cash surrender value is insufficient.",
+      "answer": true,
+      "explanation": "This is the § 3203(a)(1) rule for policies in which premiums may vary."
+     },
+     {
+      "text": "In an indexed life policy, the cash value is invested directly in the stocks of the index.",
+      "answer": false,
+      "explanation": "The index is only used to calculate credited interest; the policy is a fixed product backed by the general account."
+     },
+     {
+      "text": "A cap limits how much interest an indexed policy can credit in a good year.",
+      "answer": true,
+      "explanation": "The cap is the maximum credited rate for the period."
+     }
+    ]
+   },
+   "knowledgeChecks": [
+    {
+     "prompt": "Which feature distinguishes universal life from whole life?",
+     "choices": [
+      "Guaranteed cash value schedule",
+      "Flexible premiums and an adjustable death benefit",
+      "Coverage limited to a stated term",
+      "Separate-account investments chosen by the owner"
+     ],
+     "answerIndex": 1,
+     "explanation": "Universal life's hallmark is flexibility of premiums and death benefit. A guaranteed schedule is whole life; a stated term is term insurance; separate accounts describe variable life."
+    },
+    {
+     "prompt": "An IUL has 80% participation and a 10% cap. The index gains 10%. What is credited?",
+     "choices": [
+      "10%",
+      "8%",
+      "2%",
+      "0%"
+     ],
+     "answerIndex": 1,
+     "explanation": "80% × 10% = 8%, which is under the 10% cap, so 8% is credited."
+    },
+    {
+     "prompt": "Under NY law, how long is the grace period for a universal life policy whose cash value can no longer cover the monthly charges?",
+     "choices": [
+      "31 days",
+      "61 days",
+      "10 days",
+      "90 days"
+     ],
+     "answerIndex": 1,
+     "explanation": "§ 3203(a)(1) provides a 61-day grace period for policies in which the amount and frequency of premiums may vary."
+    }
+   ],
+   "summary": [
+    "Universal life is a flexible-premium, adjustable-death-benefit permanent policy with unbundled interest, mortality and expense components.",
+    "Interest is credited at a current rate that never falls below the guaranteed minimum rate.",
+    "Option A provides a level death benefit; Option B pays the specified amount plus the cash value.",
+    "In New York, flexible-premium policies have a 61-day grace period once the cash value is insufficient; unpaid, the policy lapses.",
+    "Indexed life credits interest using an index formula with a participation rate, cap and floor; it is a fixed product, not variable life."
+   ],
+   "related": [
+    "lip-l02",
+    "lip-l04"
+   ],
+   "sources": [
+    "ny-isc-3203",
+    "general-insurance-principles"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-l04",
+   "sectionId": "lip",
+   "order": 4,
+   "title": "Specialized Policies: Joint Life, Survivorship Life and Insuring Minors",
+   "outlineIds": [
+    "lip.4",
+    "lip.4.1",
+    "lip.4.2",
+    "lip.4.3"
+   ],
+   "estMinutes": 20,
+   "intro": "Some needs involve more than one life, or a very young one. Joint and survivorship policies insure two people under one contract, but they pay at very different times. New York also has specific rules about life insurance on children, including who may own a policy and how much coverage a young child may have.",
+   "objectives": [
+    "Distinguish joint (first-to-die) from survivorship (second-to-die) life insurance",
+    "Match each multiple-life policy to its typical use",
+    "Apply New York's limits on life insurance for minors under Insurance Law § 3207"
+   ],
+   "keyTerms": [
+    "joint-life",
+    "survivorship-life",
+    "juvenile-life-insurance",
+    "insurable-interest"
+   ],
+   "parts": [
+    {
+     "heading": "Joint life (first-to-die)",
+     "body": "A [[joint-life|joint life]] policy covers two or more people under one contract and pays the death benefit at the **first** death. The policy then ends; the survivor is no longer covered by it.\n\nTypical uses:\n- Business partners who want cash for a [[buy-sell-agreement|buy-sell agreement]] when either partner dies\n- Couples who want a debt paid off or income replaced when either spouse dies\n\nIt usually costs less than two separate policies, but it pays only once.",
+     "simple": "One policy, two people, one payout — when the first person dies.",
+     "callouts": [
+      {
+       "kind": "memory-tip",
+       "text": "JOINT = the first one out triggers the payout."
+      }
+     ]
+    },
+    {
+     "heading": "Survivorship life (second-to-die)",
+     "body": "A [[survivorship-life|survivorship]] policy also covers two people (usually spouses) but pays only at the **second** (last) death. Because the insurer expects to pay later, premiums are generally lower than for joint first-to-die coverage of the same amount.\n\nThe classic use is **estate planning**: many estates face settlement costs and taxes when the second spouse dies, and the policy provides cash for heirs at that time.",
+     "simple": "One policy, two people, one payout — after both have died.",
+     "example": {
+      "title": "Example: Harold and June",
+      "body": "Harold, 72, and June, 70, buy a survivorship policy so their children will have cash to settle the estate after both parents are gone. Nothing is paid when Harold dies; the benefit is paid when June dies."
+     },
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "Joint life (first death) vs. survivorship life (last death) is a favorite exam swap. Also, don't confuse survivorship LIFE INSURANCE with a joint and survivor ANNUITY payout."
+      }
+     ]
+    },
+    {
+     "heading": "Life insurance on minors in New York",
+     "body": "Life insurance on a child is often bought by a parent, sometimes with a [[payor-benefit-rider|payor benefit]] rider that waives premiums if the payor dies or becomes disabled. New York Insurance Law § 3207 sets the rules:\n\n- **Age 14 years 6 months and older:** a minor may contract for, own and exercise all rights in a policy on his or her own life (or on someone in whom the minor has an insurable interest). The beneficiary may be only the minor or the minor's parent, spouse, brother, sister, child or grandparent.\n- **Under 14 years 6 months:** the policy must be effectuated by a person with an [[insurable-interest|insurable interest]] in the child or on whom the child depends for support. When effectuated by a person on whom the child depends, the insurer may not knowingly issue more than the **greater** of **$50,000** or **50%** of the life insurance in force on the person effectuating the coverage (**25%** if the child is under 4 years 6 months), counting all policies on the child.\n- Any excess is not valid as a death claim while it is in excess; the insurer refunds the premiums on the excess. Coverage stops counting as excess once the child reaches 14 years 6 months.",
+     "simple": "In New York, a teenager over 14½ can own a policy on his or her own life. For younger children, the amount is capped: at least $50,000 is always allowed, and more is allowed up to half of the parent's own coverage (a quarter for children under 4½).",
+     "advanced": "§ 3207(c) allows amounts above the limit when the policy is effectuated and paid for by someone with an insurable interest on whom the minor is NOT dependent for support. § 3207(g) excludes from the 'amount of life insurance' things such as return-of-premium benefits, accidental death benefits and insurance bought with dividends.",
+     "example": {
+      "title": "Example: Nadia and Leo",
+      "body": "Nadia has $300,000 of coverage; her son is 8. Limit = greater of $50,000 or 50% × $300,000 = $150,000 → $150,000.\n\nLeo has $80,000 of coverage; his daughter is 2. Limit = greater of $50,000 or 25% × $80,000 = $20,000 → $50,000."
+     },
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "NY Ins. Law § 3207(b): for a minor under 14 years 6 months, total coverage is capped at the greater of $50,000 or 50% (25% if under 4 years 6 months) of the life insurance in force on the person effectuating the insurance.",
+       "sources": [
+        "ny-isc-3207"
+       ]
+      },
+      {
+       "kind": "ny-rule",
+       "text": "NY Ins. Law § 3207(a): a minor above 14 years 6 months may own a policy on his or her own life; beneficiaries are limited to the minor or the minor's parent, spouse, brother, sister, child or grandparent.",
+       "sources": [
+        "ny-isc-3207"
+       ]
+      },
+      {
+       "kind": "exam-trap",
+       "text": "The statute says 'whichever limit is the GREATER' — a child can always have up to $50,000 in total."
+      }
+     ]
+    }
+   ],
+   "activity": {
+    "type": "categorize",
+    "prompt": "Sort each description into the correct policy type.",
+    "categories": [
+     "Joint life (first-to-die)",
+     "Survivorship life (second-to-die)"
+    ],
+    "items": [
+     {
+      "text": "Pays when the first insured dies",
+      "category": "Joint life (first-to-die)"
+     },
+     {
+      "text": "Funds a business buyout when either partner dies",
+      "category": "Joint life (first-to-die)"
+     },
+     {
+      "text": "Ends after paying once, leaving the survivor uncovered",
+      "category": "Joint life (first-to-die)"
+     },
+     {
+      "text": "Pays only after both insureds have died",
+      "category": "Survivorship life (second-to-die)"
+     },
+     {
+      "text": "Classic tool for paying estate costs after both spouses die",
+      "category": "Survivorship life (second-to-die)"
+     },
+     {
+      "text": "Generally the lower premium of the two for the same face amount",
+      "category": "Survivorship life (second-to-die)"
+     }
+    ]
+   },
+   "knowledgeChecks": [
+    {
+     "prompt": "Which policy pays at the second death of two insureds?",
+     "choices": [
+      "Joint life",
+      "Survivorship life",
+      "Decreasing term",
+      "Group life"
+     ],
+     "answerIndex": 1,
+     "explanation": "Survivorship (second-to-die) life pays at the last death; joint life pays at the first."
+    },
+    {
+     "prompt": "Under NY law, a parent with $200,000 of life insurance wants to insure a 6-year-old dependent child with no other coverage. What is the maximum?",
+     "choices": [
+      "$50,000",
+      "$100,000",
+      "$200,000",
+      "$25,000"
+     ],
+     "answerIndex": 1,
+     "explanation": "The child is over 4½ and under 14½, so the limit is the greater of $50,000 or 50% × $200,000 = $100,000. The greater amount is $100,000."
+    },
+    {
+     "prompt": "Under NY Insurance Law § 3207, a minor above what age may own a policy on his or her own life?",
+     "choices": [
+      "12",
+      "14 years 6 months",
+      "16",
+      "18"
+     ],
+     "answerIndex": 1,
+     "explanation": "§ 3207(a) uses age 14 years 6 months."
+    }
+   ],
+   "summary": [
+    "Joint (first-to-die) life pays once, at the first death, and is used for business buyouts and couples' shared needs.",
+    "Survivorship (second-to-die) life pays at the last death, costs less, and is used for estate planning.",
+    "In New York, a minor above 14 years 6 months may own a policy on his or her own life, with beneficiaries limited to close family.",
+    "For a child under 14 years 6 months, NY caps total coverage at the greater of $50,000 or 50% (25% if under 4 years 6 months) of the coverage on the person effectuating the insurance."
+   ],
+   "related": [
+    "lip-l03",
+    "lip-l05"
+   ],
+   "sources": [
+    "ny-isc-3207",
+    "general-insurance-principles"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-l05",
+   "sectionId": "lip",
+   "order": 5,
+   "title": "Group Life and Credit Life Insurance",
+   "outlineIds": [
+    "lip.5",
+    "lip.5.1",
+    "lip.5.2",
+    "lip.5.3",
+    "lip.5.4",
+    "lip.6"
+   ],
+   "estMinutes": 25,
+   "intro": "Many people's first life insurance comes through work. Group life insurance covers many people under one contract, is underwritten on the group as a whole, and gives members a valuable right to convert to an individual policy when they leave. Credit life insurance — individual or group — makes sure a debt is paid off if the borrower dies. New York law sets detailed rules for both.",
+   "objectives": [
+    "Describe the characteristics of group life insurance: master policy, certificates and group underwriting",
+    "Identify the types of group sponsors permitted in New York",
+    "Apply New York's group life conversion rules under Insurance Law § 3220",
+    "Explain how individual and group credit life insurance work"
+   ],
+   "keyTerms": [
+    "group-life-insurance",
+    "master-policy",
+    "certificate-of-coverage",
+    "conversion-privilege",
+    "eligible-group",
+    "credit-life-insurance"
+   ],
+   "parts": [
+    {
+     "heading": "Characteristics of group plans",
+     "body": "[[group-life-insurance|Group life insurance]] is written under one [[master-policy|master policy]] issued to the **policyholder** — the sponsor, such as an employer. Each insured person receives a [[certificate-of-coverage|certificate]] describing his or her coverage, and benefits are paid to the beneficiary the insured person designates.\n\nCommon characteristics:\n- Usually **annually renewable term** insurance\n- Coverage amounts set by a plan that **prevents individual selection** (for example, one times salary or a flat amount by job class)\n- Lower administrative cost than individual policies\n- Premiums may be **noncontributory** (sponsor pays all) or **contributory** (members pay part)",
+     "simple": "One contract covers the whole group. The employer holds the master policy; each worker gets a certificate. Workers choose their own beneficiaries.",
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "NY Ins. Law § 3220(a)(4): the insurer must issue a certificate for delivery to each insured person stating the insurance protection he or she is entitled to.",
+       "sources": [
+        "ny-isc-3220"
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "Types of plan sponsors",
+     "body": "New York permits group life insurance only for groups listed in Insurance Law § 4216, including:\n\n- **Employers** (and trustees of employer funds)\n- **Labor unions**\n- **Trustees of multiple-employer or union funds** (including trade association employer funds)\n- **Associations** — for example, professional or trade associations — that were organized in good faith for purposes principally other than obtaining insurance and have been in active existence for at least **two years**\n- **Creditors or vendors**, insuring their debtors or purchasers (group credit life)\n- Certain public-employee groups, such as civil service employee associations and municipal corporations",
+     "simple": "Employers, unions, qualifying associations and lenders are the main kinds of groups that can buy group life insurance in New York.",
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "NY Ins. Law § 4216(b)(10): an association group must have been organized principally for purposes other than obtaining insurance and in active existence for at least two years.",
+       "sources": [
+        "ny-isc-4216"
+       ]
+      },
+      {
+       "kind": "exam-trap",
+       "text": "A group formed just to buy insurance is not eligible — that would invite adverse selection."
+      }
+     ]
+    },
+    {
+     "heading": "Group underwriting requirements",
+     "body": "Group underwriting evaluates the **group as a whole** — its purpose, size, age and sex mix, occupation and turnover — rather than each person's health. Basic coverage is often issued **without individual evidence of insurability**. To protect against [[adverse-selection|adverse selection]], the law requires amounts to be set by a plan that precludes individual selection and requires minimum participation.\n\n- **Noncontributory** employer plan: insures all eligible employees (or all of a class).\n- **Contributory** employer plan (employees pay part): must insure at least **50% of eligible employees or five of them, whichever is fewer**.\n- All **new** eligible employees, members or debtors must be added to the eligible groups or classes.",
+     "simple": "The insurer looks at the group, not each person. Rules about who must be covered and how amounts are set keep only the sickest people from signing up.",
+     "example": {
+      "title": "Example: Northgate Bakery",
+      "body": "Northgate Bakery has 40 eligible employees who will pay part of the premium. Under § 4216(b)(1), the plan must insure at least 50% of 40 = 20 employees or five employees, whichever is fewer — so at least five must enroll."
+     },
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "NY Ins. Law § 4216(b)(1): if employees contribute to the premium, the employer group policy must insure a minimum of 50% or five of the eligible employees, whichever is fewer.",
+       "sources": [
+        "ny-isc-4216"
+       ]
+      },
+      {
+       "kind": "ny-rule",
+       "text": "NY Ins. Law § 3220(a)(9): all new employees, union or association members, or debtors in an eligible class must be added to the group.",
+       "sources": [
+        "ny-isc-3220"
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "Conversion to an individual policy (NY § 3220)",
+     "body": "When a member's group life coverage ends — for example, because employment ends or the class is no longer eligible — New York requires a [[conversion-privilege|conversion privilege]]:\n\n- Apply and pay the first premium **within 31 days** after the coverage ends.\n- **No evidence of insurability** is required.\n- The premium is based on the person's **attained age** and class of risk.\n- The individual policy may be **any form the insurer customarily issues except term insurance** — although the person may choose one year of term first.\n- The amount may be up to the group coverage that ended, less any life insurance that continues.\n- If the person **dies during the 31-day period**, the insurer pays the amount he or she could have converted, even without an application.\n\n**Notice:** the person must be notified of the privilege within 15 days before or after the event. If notice is given more than 15 but less than 90 days after the event, the conversion period is extended to **45 days after the notice**. If no notice is given within 90 days, the privilege expires at the end of those 90 days.\n\nConversion is also available to a surviving spouse (and insured children) when the member dies, to a child reaching the limiting age, and to a spouse after divorce or annulment.",
+     "simple": "If you leave your job in New York, you have 31 days to turn your group life into your own permanent policy without a medical exam. If you die during those 31 days, your beneficiary is still paid.",
+     "advanced": "§ 3220(a)(6) also covers reductions in coverage (for example, age-based reductions of 20% or more starting at age 60 for employer or union plans) and permits the group policy to limit the convertible amount when the policyholder or insurer terminates the whole group policy. An individual conversion policy may not exclude suicide after two years from the date the insured first became covered under the group policy.",
+     "example": {
+      "title": "Example: Ben's 20 days",
+      "body": "Ben had $80,000 of group life. He resigned June 1 and died June 20 without applying to convert. Because he died within the 31-day conversion period, the insurer pays $80,000 to his beneficiary."
+     },
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "NY Ins. Law § 3220(a)(6): 31 days to convert, no evidence of insurability, attained-age premium, any customary form except term (one year of term may precede it); death within the 31 days is paid as a death benefit.",
+       "sources": [
+        "ny-isc-3220"
+       ]
+      },
+      {
+       "kind": "ny-rule",
+       "text": "NY Ins. Law § 3220(a)(8): late notice (more than 15 but less than 90 days after the event) extends the conversion period to 45 days after notice; it expires at 90 days if no notice is given.",
+       "sources": [
+        "ny-isc-3220"
+       ]
+      },
+      {
+       "kind": "memory-tip",
+       "text": "Leave the job → 31 days → permanent policy, no medical, at today's age."
+      }
+     ]
+    },
+    {
+     "heading": "Credit life insurance: individual versus group",
+     "body": "[[credit-life-insurance|Credit life insurance]] insures the life of a **debtor**. If the debtor dies, the benefit pays off the remaining debt to the **creditor**, so the loan does not fall on the debtor's family or estate. Coverage usually follows the declining loan balance (decreasing term).\n\n- **Individual credit life:** a policy issued for a single debtor's loan.\n- **Group credit life:** a master policy issued to the creditor (or vendor) covering its debtors, who are the insured persons.\n\nUnder New York's group credit rules, benefits are payable to the creditor policyholder, which must apply them to the debt. Any amount received above the actual debt goes to a beneficiary named by the debtor or, if none, to the debtor's estate. The amount of insurance may not exceed the unpaid debt (and is subject to statutory dollar caps).",
+     "simple": "Credit life pays off a loan if the borrower dies. The lender is paid first; anything extra goes to the borrower's beneficiary or estate.",
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "NY Ins. Law § 4216(b)(3)(F): group credit benefits go to the creditor and must be applied to the debt; any excess over the actual indebtedness goes to the debtor's named beneficiary or, if none, the debtor's estate.",
+       "sources": [
+        "ny-isc-4216"
+       ]
+      },
+      {
+       "kind": "memory-tip",
+       "text": "Credit life pays the Creditor."
+      }
+     ]
+    }
+   ],
+   "activity": {
+    "type": "sequence",
+    "prompt": "Put Kim's group life conversion steps in the correct order (assume timely notice).",
+    "steps": [
+     "Kim's employment ends and her group life coverage terminates",
+     "Kim receives notice of her conversion privilege",
+     "Within 31 days, Kim applies for an individual permanent policy and pays the first premium",
+     "The individual policy takes effect without evidence of insurability, priced at her attained age"
+    ]
+   },
+   "knowledgeChecks": [
+    {
+     "prompt": "In a NY employer group life plan where employees pay part of the premium, what minimum participation is required?",
+     "choices": [
+      "100% of eligible employees",
+      "75% of eligible employees",
+      "50% of eligible employees or five, whichever is fewer",
+      "Ten employees"
+     ],
+     "answerIndex": 2,
+     "explanation": "§ 4216(b)(1) requires a contributory employer plan to insure at least 50% of eligible employees or five of them, whichever is fewer."
+    },
+    {
+     "prompt": "Under NY § 3220, which form may NOT be chosen as the converted individual policy (other than the optional first year)?",
+     "choices": [
+      "Straight whole life",
+      "Term insurance",
+      "Limited-payment whole life",
+      "Life paid-up at 65"
+     ],
+     "answerIndex": 1,
+     "explanation": "The converted policy may be any form customarily issued except term insurance; the person may elect one year of term first."
+    },
+    {
+     "prompt": "In credit life insurance, who receives the benefit when the insured dies?",
+     "choices": [
+      "The creditor, up to the debt",
+      "The debtor's employer",
+      "The insurer",
+      "The debtor's producer"
+     ],
+     "answerIndex": 0,
+     "explanation": "Credit life pays the creditor to retire the outstanding debt."
+    },
+    {
+     "prompt": "Rosa is first told about her conversion privilege 40 days after her group coverage ends. How long does she have to convert?",
+     "choices": [
+      "It has already expired",
+      "45 days after the notice",
+      "90 days after the notice",
+      "One year after coverage ended"
+     ],
+     "answerIndex": 1,
+     "explanation": "Notice given more than 15 but less than 90 days after the event extends the conversion period to 45 days after the notice (§ 3220(a)(8))."
+    }
+   ],
+   "summary": [
+    "Group life is written under a master policy to a sponsor; members receive certificates and name their own beneficiaries.",
+    "NY permits group life for listed groups, including employers, unions, multi-employer funds, qualifying associations (2+ years, not formed to buy insurance) and creditors.",
+    "Group underwriting evaluates the group as a whole; contributory employer plans must insure at least 50% or five eligible employees, whichever is fewer.",
+    "NY § 3220 conversion: 31 days, no evidence of insurability, attained-age premium, any form except term; death within 31 days is paid.",
+    "Credit life insures the debtor and pays the creditor; in NY group credit, any excess over the debt goes to the debtor's beneficiary or estate."
+   ],
+   "related": [
+    "lip-l01",
+    "lip-l04"
+   ],
+   "sources": [
+    "ny-isc-3220",
+    "ny-isc-4216",
+    "general-insurance-principles"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

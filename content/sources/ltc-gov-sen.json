@@ -1,0 +1,237 @@
+{
+  "sources": [
+    {
+      "id": "ny-11nycrr-52-25",
+      "title": "11 NYCRR § 52.25 (Regulation 62) — Rules relating to the content and sale of long term care, nursing home and home care insurance",
+      "publisher": "Cornell Legal Information Institute (N.Y. Comp. Codes R. & Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/11-NYCRR-52.25",
+      "kind": "regulation",
+      "citation": "N.Y. Comp. Codes R. & Regs. tit. 11, § 52.25",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/11NYCRR-52.25.md"
+    },
+    {
+      "id": "ny-11nycrr-52-65",
+      "title": "11 NYCRR § 52.65 (Regulation 62) — Required disclosure statement for long term care / nursing home / home care policies",
+      "publisher": "Cornell Legal Information Institute (N.Y. Comp. Codes R. & Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/11-NYCRR-52.65",
+      "kind": "regulation",
+      "citation": "N.Y. Comp. Codes R. & Regs. tit. 11, § 52.65 (amended eff. 6/18/2024)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/11NYCRR-52.65.md"
+    },
+    {
+      "id": "ny-11nycrr-52-29",
+      "title": "11 NYCRR § 52.29 (Regulation 62) — Replacement of A&H coverage with individual long term care insurance; purchase of multiple A&H policies",
+      "publisher": "Cornell Legal Information Institute (N.Y. Comp. Codes R. & Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/11-NYCRR-52.29",
+      "kind": "regulation",
+      "citation": "N.Y. Comp. Codes R. & Regs. tit. 11, § 52.29",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/11NYCRR-52.29.md"
+    },
+    {
+      "id": "fed-usc-26-7702b",
+      "title": "26 U.S.C. § 7702B — Treatment of qualified long-term care insurance",
+      "publisher": "Cornell Legal Information Institute (U.S. Code)",
+      "url": "https://www.law.cornell.edu/uscode/text/26/7702B",
+      "kind": "federal",
+      "citation": "26 U.S.C. § 7702B (HIPAA 1996, as amended)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/USC-26-7702B.md"
+    },
+    {
+      "id": "ny-11nycrr-39-4",
+      "title": "11 NYCRR § 39.4 (Regulation 144) — NY State Partnership for Long-Term Care: minimum benefit standards for the 1.5/3/50 plan design",
+      "publisher": "Cornell Legal Information Institute (N.Y. Comp. Codes R. & Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/11-NYCRR-39.4",
+      "kind": "regulation",
+      "citation": "N.Y. Comp. Codes R. & Regs. tit. 11, § 39.4 (amended eff. 1/3/2024)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/11NYCRR-39.4.md"
+    },
+    {
+      "id": "ny-sos-367-f",
+      "title": "NY Social Services Law § 367-f — Partnership for long term care program",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/SOS/367-F",
+      "kind": "statute",
+      "citation": "N.Y. Soc. Serv. Law § 367-f (revision from 2014-09-22)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/SOS-367-F.md",
+      "notes": "Excerpt file also records 11 NYCRR § 39.1 (program logo / Superintendent approval)."
+    },
+    {
+      "id": "ny-tax-606-aa",
+      "title": "NY Tax Law § 606(aa) — Long-term care insurance credit",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/TAX/606",
+      "kind": "statute",
+      "citation": "N.Y. Tax Law § 606(aa)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/TAX-606-aa.md"
+    },
+    {
+      "id": "fed-usc-42-1396p",
+      "title": "42 U.S.C. § 1396p — Medicaid liens, adjustments and recoveries (estate recovery), and transfers of assets",
+      "publisher": "Cornell Legal Information Institute (U.S. Code)",
+      "url": "https://www.law.cornell.edu/uscode/text/42/1396p",
+      "kind": "federal",
+      "citation": "42 U.S.C. § 1396p(b) (estate recovery mandated by OBRA '93)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/USC-42-1396p.md"
+    },
+    {
+      "id": "fed-medicare-snf",
+      "title": "Medicare.gov — Skilled nursing facility care coverage",
+      "publisher": "Centers for Medicare & Medicaid Services (Medicare.gov)",
+      "url": "https://www.medicare.gov/coverage/skilled-nursing-facility-care",
+      "kind": "federal",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/medicare-snf-care.md"
+    },
+    {
+      "id": "fed-medicare-ltc",
+      "title": "Medicare.gov — Long-term care (not covered by Medicare)",
+      "publisher": "Centers for Medicare & Medicaid Services (Medicare.gov)",
+      "url": "https://www.medicare.gov/coverage/long-term-care",
+      "kind": "federal",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/medicare-long-term-care.md"
+    },
+    {
+      "id": "ny-11nycrr-58-1",
+      "title": "11 NYCRR § 58.1 (Regulation 193) — Rules relating to content of forms for Medicare supplement insurance (renewability, applications, replacement, compensation, marketing, open enrollment)",
+      "publisher": "Cornell Legal Information Institute (N.Y. Comp. Codes R. & Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/11-NYCRR-58.1",
+      "kind": "regulation",
+      "citation": "N.Y. Comp. Codes R. & Regs. tit. 11, § 58.1 (amended eff. 1/1/2020)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/11NYCRR-58.1.md"
+    },
+    {
+      "id": "fed-medicare-medigap",
+      "title": "Medicare.gov — What's Medicare Supplement Insurance (Medigap)? and Get Medigap Basics",
+      "publisher": "Centers for Medicare & Medicaid Services (Medicare.gov)",
+      "url": "https://www.medicare.gov/health-drug-plans/medigap/basics",
+      "kind": "federal",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/medicare-medigap-basics.md"
+    },
+    {
+      "id": "fed-ssa-disability-qualify",
+      "title": "SSA — Disability Benefits: How Does Someone Become Eligible?",
+      "publisher": "Social Security Administration",
+      "url": "https://www.ssa.gov/benefits/disability/qualify.html",
+      "kind": "federal",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/ssa-disability-qualify.md",
+      "notes": "Page certified 2025-12-22."
+    },
+    {
+      "id": "ny-wkc-204",
+      "title": "NY Workers' Compensation Law § 204 — Disability and family leave during employment (DBL benefits)",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/WKC/204",
+      "kind": "statute",
+      "citation": "N.Y. Workers' Comp. Law § 204 (revision from 2016-04-08)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/WKC-204.md"
+    },
+    {
+      "id": "ny-wkc-205",
+      "title": "NY Workers' Compensation Law § 205 — Disabilities, family leave and periods for which benefits are not payable (DBL)",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/WKC/205",
+      "kind": "statute",
+      "citation": "N.Y. Workers' Comp. Law § 205 (revision from 2016-04-08)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/WKC-205.md"
+    },
+    {
+      "id": "ny-wkc-201",
+      "title": "NY Workers' Compensation Law § 201 — Definitions (Disability Benefits Law)",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/WKC/201",
+      "kind": "statute",
+      "citation": "N.Y. Workers' Comp. Law § 201",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/WKC-201.md"
+    },
+    {
+      "id": "ny-isc-4326",
+      "title": "NY Insurance Law § 4326 — Standardized health insurance contracts for qualifying small employers and individuals (Healthy NY)",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/4326",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 4326",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-4326.md",
+      "notes": "Partial extraction; see excerpt file for what was and was not captured."
+    },
+    {
+      "id": "fed-irs-p969",
+      "title": "IRS Publication 969 (2025) — Health Savings Accounts and Other Tax-Favored Health Plans",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/publications/p969",
+      "kind": "federal",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/IRS-p969.md"
+    },
+    {
+      "id": "fed-medicare-who-pays-first",
+      "title": "Medicare.gov — Who pays first? (Medicare and other coverage)",
+      "publisher": "Centers for Medicare & Medicaid Services (Medicare.gov)",
+      "url": "https://www.medicare.gov/health-drug-plans/coordination/who-pays-first",
+      "kind": "federal",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/medicare-who-pays-first.md"
+    },
+    {
+      "id": "ny-doh-child-health-plus",
+      "title": "NY Department of Health — Child Health Plus",
+      "publisher": "New York State Department of Health",
+      "url": "https://www.health.ny.gov/health_care/child_health_plus/",
+      "kind": "agency-guidance",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/NYDOH-child-health-plus.md"
+    },
+    {
+      "id": "fed-medicare-esrd",
+      "title": "Medicare.gov — End-Stage Renal Disease (ESRD)",
+      "publisher": "Centers for Medicare & Medicaid Services (Medicare.gov)",
+      "url": "https://www.medicare.gov/basics/end-stage-renal-disease",
+      "kind": "federal",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/medicare-esrd.md"
+    },
+    {
+      "id": "fed-medicare-medigap-chart",
+      "title": "Medicare.gov — Learn what Medigap Covers and Compare Medigap Plan Benefits (chart)",
+      "publisher": "Centers for Medicare & Medicaid Services (Medicare.gov)",
+      "url": "https://www.medicare.gov/health-drug-plans/medigap/basics/compare-plan-benefits",
+      "kind": "federal",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/medicare-medigap-coverage-chart.md"
+    },
+    {
+      "id": "fed-medicare-before-65",
+      "title": "Medicare.gov — I'm getting Social Security benefits before 65",
+      "publisher": "Centers for Medicare & Medicaid Services (Medicare.gov)",
+      "url": "https://www.medicare.gov/basics/get-started-with-medicare/before-65",
+      "kind": "federal",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/medicare-before-65.md"
+    },
+    {
+      "id": "ny-wkc-203",
+      "title": "NY Workers' Compensation Law § 203 — Employees eligible for DBL and family leave benefits",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/WKC/203",
+      "kind": "statute",
+      "citation": "N.Y. Workers' Comp. Law § 203 (revision from 2026-02-27)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/WKC-203.md"
+    }
+  ]
+}

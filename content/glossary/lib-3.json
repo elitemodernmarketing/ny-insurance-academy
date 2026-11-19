@@ -1,0 +1,327 @@
+{
+  "sectionId": "lib",
+  "terms": [
+    {
+      "id": "suitability",
+      "term": "Suitability / Best Interest",
+      "aliases": [
+        "Best interest standard",
+        "Regulation 187",
+        "11 NYCRR 224"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1.5"
+      ],
+      "formal": "Under NY Insurance Regulation 187 (11 NYCRR Part 224), a producer (or the insurer where no producer is involved) recommending a life insurance or annuity sales transaction must act in the consumer's best interest: the recommendation must be based on an evaluation of the consumer's relevant suitability information, reflect the care, skill, prudence and diligence of a prudent person, consider only the consumer's interests, and be suitable.",
+      "plain": "In New York, when you recommend a life insurance policy or annuity, you must put the client's interests first — gather their financial facts, recommend only what truly fits them, explain the good and the bad, and document why. Your commission must not influence the recommendation.",
+      "simpler": "Recommend what you would recommend to your own family if you earned the same commission on every option.",
+      "examples": [
+        "Before recommending a policy, a producer asks about Ruth's income, existing coverage, goals, budget and risk tolerance, then documents why the recommended policy fits.",
+        "A client insists on buying a policy the producer did not recommend. The producer documents that the transaction was not based on a recommendation."
+      ],
+      "examTip": "Reg 187 key duties: make reasonable efforts to obtain suitability information BEFORE recommending; disclose favorable AND unfavorable features; document the basis; have a reasonable basis to believe the consumer can afford it; don't recommend products you don't understand; for replacements, consider surrender charges, new contestable/surrender periods, and any replacement in the preceding 36 months.",
+      "misconception": "Best interest does not ban commissions; compensation is permitted as long as it does not influence the recommendation.",
+      "related": [
+        "needs-approach",
+        "replacement",
+        "senior-designation",
+        "fiduciary-responsibility"
+      ],
+      "confusedWith": [
+        "fiduciary-responsibility"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under NY Regulation 187, which statement about producer compensation is correct?",
+        "choices": [
+          "It is permitted if the amount does not influence the recommendation",
+          "It is prohibited on any recommended sale",
+          "It must always be refunded to the consumer",
+          "It must equal the lowest commission available"
+        ],
+        "answerIndex": 0,
+        "explanation": "11 NYCRR 224.4(b)(1) permits compensation and incentives allowed by law provided the amount does not influence the recommendation; only the consumer's interests may be considered."
+      },
+      "sources": [
+        "ny-11nycrr-224"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "replacement",
+      "term": "Replacement",
+      "aliases": [
+        "Policy replacement",
+        "Regulation 60",
+        "11 NYCRR 51"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1.7"
+      ],
+      "formal": "Under NY Insurance Regulation 60 (11 NYCRR 51.2), a transaction in which new life insurance or annuities are purchased in New York and, as part of the transaction, existing policies or contracts have been or are likely to be lapsed, surrendered, forfeited or terminated; converted to paid-up or extended term; reduced in amount or duration; reissued with cash values released; assigned as collateral or borrowed against; or continued with stopped or reduced premiums.",
+      "plain": "Replacement isn't only cancelling an old policy. Using an old policy's cash value, borrowing against it, reducing it or stopping its premiums to help buy a new one also counts. New York requires special forms, disclosures and a longer right to return the new policy.",
+      "simpler": "Any time the new policy is paid for by weakening an old one, it's a replacement — and extra consumer protections kick in.",
+      "examples": [
+        "Ella takes a loan against her existing whole life policy to pay premiums on a new universal life policy. Under Reg 60 this is a replacement.",
+        "A producer presents the 'IMPORTANT Notice Regarding Replacement' no later than when the applicant signs the application and leaves a copy with her."
+      ],
+      "examTip": "NY Reg 60 essentials: 'Definition of Replacement' form signed by applicant and producer with EVERY application; if replacement is involved, the IMPORTANT Notice no later than application signing; a producer-signed Disclosure Statement (reasons for the new policy and why the existing one can't meet objectives) before delivery; 60-day right to return the replacement policy for a full refund (§ 51.6(d)).",
+      "misconception": "Replacement is not automatically illegal or bad. It is allowed when it benefits the client and procedures are followed; replacing through misrepresentation is twisting.",
+      "related": [
+        "twisting",
+        "suitability",
+        "free-look",
+        "section-1035-exchange",
+        "agent-report"
+      ],
+      "confusedWith": [
+        "twisting"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under NY Regulation 60, a consumer who receives a replacement life policy has the right to return it for a full refund within:",
+        "choices": [
+          "60 days from delivery",
+          "10 days from delivery",
+          "30 days from application",
+          "20 days from the disclosure statement"
+        ],
+        "answerIndex": 0,
+        "explanation": "11 NYCRR 51.6(d) gives the owner of a replacement policy or contract the right to return it within 60 days of delivery for an unconditional full refund (cash surrender benefit plus fees for variable/MVA products)."
+      },
+      "sources": [
+        "ny-11nycrr-51"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "illustration",
+      "term": "Policy Illustration",
+      "aliases": [
+        "Sales illustration",
+        "Ledger statement"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1.6"
+      ],
+      "formal": "A presentation or depiction of a life insurance policy's premiums, cash values and death benefits over time, distinguishing guaranteed elements from non-guaranteed elements (such as current dividends or interest). Under NY Insurance Law § 3209(k), the Superintendent sets the content, format and use of illustrations by regulation (Reg 74, 11 NYCRR 53); a policy marketed with a compliant illustration does not require the preliminary information or policy summary (§ 3209(l)).",
+      "plain": "A year-by-year projection showing what the policy may cost and be worth. It must clearly separate what is guaranteed from what is only projected, and producers may not change it or use it to mislead.",
+      "simpler": "A forecast of how the policy should perform — with the guaranteed floor clearly marked so nobody mistakes a forecast for a promise.",
+      "examples": [
+        "Sam's illustration shows a guaranteed cash value column and a higher non-guaranteed column based on the current dividend scale.",
+        "A producer is tempted to show only the attractive non-guaranteed column. That would mislead the client about what is promised."
+      ],
+      "examTip": "Guaranteed values are the contractual minimums; non-guaranteed values (dividends, current interest) are projections that can change. An illustration is not part of the contract and is not a promise of future results.",
+      "misconception": "The illustrated non-guaranteed values are not a forecast the insurer must meet; actual results can be higher or lower.",
+      "related": [
+        "policy-summary",
+        "buyers-guide",
+        "participating-policy",
+        "suitability"
+      ],
+      "confusedWith": [
+        "policy-summary"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under NY Insurance Law § 3209(l), if a life policy is marketed with an illustration that complies with the regulations, which is NOT required?",
+        "choices": [
+          "The preliminary information and policy summary",
+          "The application",
+          "The producer's license",
+          "Delivery of the policy"
+        ],
+        "answerIndex": 0,
+        "explanation": "§ 3209(l): for policies marketed with a compliant illustration, no preliminary information or policy summary is required. Policies not marketed with an illustration must provide them."
+      },
+      "sources": [
+        "ny-isc-3209"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19",
+        "notes": "Detailed Reg 74 (11 NYCRR 53-3) illustration rules not separately verified; content uses § 3209 text and general guaranteed/non-guaranteed principle."
+      }
+    },
+    {
+      "id": "senior-designation",
+      "term": "Senior-Specific Certification",
+      "aliases": [
+        "Senior designation",
+        "Regulation 199",
+        "11 NYCRR 225"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1.9"
+      ],
+      "formal": "A certification or professional designation that indicates or implies special certification or training in advising or providing services to seniors. Under NY Insurance Regulation 199 (11 NYCRR 225.2), a producer may not use such a certification or designation in a way that misleads purchasers in the sale of life insurance or annuities — including one not actually earned, nonexistent or self-conferred, implying qualifications the producer lacks, or obtained from an organization primarily engaged in sales or marketing instruction or lacking reasonable competency, discipline or continuing education standards.",
+      "plain": "Titles like 'Certified Senior Advisor' can make older clients trust you more. New York says you can't use a senior-sounding title you didn't really earn, that you made up, or that came from a sales-training outfit without real standards.",
+      "simpler": "No fake 'senior expert' badges to win older clients' trust.",
+      "examples": [
+        "A producer prints 'Certified Retirement Elder Specialist' on his business cards, a title he invented himself. This is a self-conferred designation prohibited by Reg 199.",
+        "A producer earned a senior-focused designation from an accredited organization with real competency testing, discipline procedures and continuing education, and uses it accurately — generally permissible."
+      ],
+      "examTip": "Watch for words like 'senior,' 'retirement' or 'elder' combined with 'certified,' 'specialist,' 'advisor,' 'consultant' or 'planner' (§ 225.2(c)). A violation is treated as an unfair or deceptive act or practice (§ 225.3).",
+      "misconception": "Reg 199 does not ban all senior designations; it bans misleading use — unearned, self-conferred, overstated, or from organizations without reasonable standards. An ordinary job title within a licensed firm is generally not a designation unless used to mislead.",
+      "related": [
+        "suitability",
+        "false-advertising",
+        "misrepresentation"
+      ],
+      "confusedWith": [],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under NY Regulation 199, which use of a senior-specific designation is prohibited?",
+        "choices": [
+          "A self-conferred title such as one the producer invented",
+          "An accurately used designation earned from an accredited organization",
+          "A job title showing the producer's rank within a licensed firm, used without misleading anyone",
+          "A college degree in gerontology listed accurately"
+        ],
+        "answerIndex": 0,
+        "explanation": "11 NYCRR 225.2(a)(2)(ii) specifically prohibits nonexistent or self-conferred certifications or designations. Accurate, earned and properly accredited credentials, and non-misleading job titles, are not prohibited uses."
+      },
+      "sources": [
+        "ny-11nycrr-225"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "a": "human-life-value",
+      "b": "needs-approach",
+      "keyDifference": "Human life value measures the economic value of the insured's future earnings; the needs approach totals the survivors' specific cash and income needs and subtracts existing resources.",
+      "rows": [
+        {
+          "aspect": "Starting point",
+          "a": "The insured's future earnings (income minus self-maintenance)",
+          "b": "The family's needs (debts, final expenses, education, income)"
+        },
+        {
+          "aspect": "Existing assets",
+          "a": "Not the focus",
+          "b": "Subtracted from total needs"
+        },
+        {
+          "aspect": "Typical keywords",
+          "a": "'present value of future earnings', 'economic worth'",
+          "b": "'lump-sum needs', 'income needs', 'blackout period'"
+        }
+      ],
+      "memoryTip": "HLV = what you EARN; Needs = what they NEED."
+    },
+    {
+      "a": "buyers-guide",
+      "b": "policy-summary",
+      "keyDifference": "The buyer's guide is a generic consumer booklet given at or before application; the policy summary is specific to the policy and given upon delivery.",
+      "rows": [
+        {
+          "aspect": "Content",
+          "a": "General explanation of life insurance types and cost comparison",
+          "b": "This policy's premiums, death benefits, cash values, dividends, cost indexes"
+        },
+        {
+          "aspect": "Timing under § 3209",
+          "a": "At or prior to the time the application is taken",
+          "b": "Upon delivery of the policy"
+        },
+        {
+          "aspect": "Title",
+          "a": "Language promulgated by the Superintendent, consistent with the NAIC guide",
+          "b": "'Statement of Policy Cost and Benefit Information'"
+        }
+      ],
+      "memoryTip": "Guide = General, before you apply. Summary = Specific, when it arrives."
+    },
+    {
+      "a": "participating-policy",
+      "b": "nonparticipating-policy",
+      "keyDifference": "Participating policies may pay non-guaranteed dividends from the insurer's divisible surplus; nonparticipating policies pay none.",
+      "rows": [
+        {
+          "aspect": "Dividends",
+          "a": "Yes, not guaranteed",
+          "b": "None"
+        },
+        {
+          "aspect": "Typical issuer",
+          "a": "Mutual insurer",
+          "b": "Stock insurer"
+        },
+        {
+          "aspect": "Premium",
+          "a": "Usually set higher, with excess returned as dividends",
+          "b": "Set closer to expected cost"
+        }
+      ],
+      "memoryTip": "PAR = PARticipates in surplus."
+    },
+    {
+      "a": "substandard-risk",
+      "b": "declined-risk",
+      "keyDifference": "A substandard risk is still insurable at a higher premium or with modified benefits; a declined risk is not insurable at any premium.",
+      "rows": [
+        {
+          "aspect": "Coverage issued?",
+          "a": "Yes, rated or modified",
+          "b": "No"
+        },
+        {
+          "aspect": "Example",
+          "a": "Commercial pilot with a flat extra premium",
+          "b": "Applicant awaiting results of major surgery"
+        }
+      ],
+      "memoryTip": "Substandard = pay MORE; declined = can't buy at all."
+    },
+    {
+      "a": "conditional-receipt",
+      "b": "statement-of-good-health",
+      "keyDifference": "A conditional receipt is given when premium is paid WITH the application; a statement of good health is obtained at DELIVERY when premium was not paid with the application.",
+      "rows": [
+        {
+          "aspect": "When",
+          "a": "At application",
+          "b": "At policy delivery"
+        },
+        {
+          "aspect": "Premium paid",
+          "a": "With the application",
+          "b": "At delivery"
+        },
+        {
+          "aspect": "Coverage effect",
+          "a": "Effective as of application/exam date if insurable as applied for",
+          "b": "Coverage begins on delivery if health unchanged"
+        }
+      ],
+      "memoryTip": "Paid at application → conditional receipt. Paid at delivery → statement of good health."
+    }
+  ]
+}

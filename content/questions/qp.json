@@ -1,0 +1,724 @@
+{
+ "sectionId": "qp",
+ "questions": [
+  {
+   "id": "qp-q001",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "qp",
+   "outlineIds": [
+    "qp.1.1"
+   ],
+   "concepts": [
+    "defined-benefit-plan",
+    "defined-contribution-plan"
+   ],
+   "difficulty": 2,
+   "style": "comparison",
+   "tags": [
+    "tricky"
+   ],
+   "stem": "Which statement correctly contrasts a defined benefit plan with a defined contribution plan?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Defined benefit plans use individual accounts tied to investment returns",
+     "rationale": "Incorrect: that describes a defined contribution plan."
+    },
+    {
+     "id": "b",
+     "text": "Defined benefit promises a formula benefit; defined contribution pays the account value",
+     "rationale": "Correct: the benefit is fixed in one, the contribution in the other."
+    },
+    {
+     "id": "c",
+     "text": "Defined contribution plans guarantee every participant a lifetime monthly pension",
+     "rationale": "Incorrect: defined contribution plans do not guarantee a benefit."
+    },
+    {
+     "id": "d",
+     "text": "Both types of plans place all of the investment risk on the employer alone",
+     "rationale": "Incorrect: in defined contribution plans the employee bears the investment risk."
+    }
+   ],
+   "correct": "b",
+   "explanation": "The IRS describes a defined benefit plan as providing a fixed, pre-established benefit based on a formula, not dependent on asset returns, with the employer making most contributions. A defined contribution plan (such as a 401(k)) allocates contributions to individual accounts, and the benefit is whatever the account is worth.",
+   "memoryTip": "Benefit defined = boss bears risk; contribution defined = you bear risk.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Defined benefit: fixed formula benefit",
+      "anyOf": [
+       "formula",
+       "fixed",
+       "promised",
+       "pre-established"
+      ]
+     },
+     {
+      "label": "Defined contribution: individual account balance",
+      "anyOf": [
+       "account",
+       "balance",
+       "contributions"
+      ]
+     },
+     {
+      "label": "Who bears investment risk",
+      "anyOf": [
+       "risk",
+       "employer",
+       "employee"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-irs-defined-benefit",
+    "fed-irs-401k"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "qp-q002",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "qp",
+   "outlineIds": [
+    "qp.2.3"
+   ],
+   "concepts": [
+    "sep-plan"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "In a Simplified Employee Pension (SEP), who makes the contributions?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Each employee, through salary reduction",
+     "rationale": "Incorrect: SEPs do not use employee salary-reduction contributions."
+    },
+    {
+     "id": "b",
+     "text": "The employer and the employee equally",
+     "rationale": "Incorrect: only the employer contributes."
+    },
+    {
+     "id": "c",
+     "text": "Only the employer",
+     "rationale": "Correct: SEP contributions are employer-only."
+    },
+    {
+     "id": "d",
+     "text": "The plan's insurer",
+     "rationale": "Incorrect: insurers do not fund SEP contributions."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Under a SEP, only the employer contributes, to traditional IRAs (SEP-IRAs) set up for each eligible employee. The employer need not contribute every year, but when it does, it must contribute for all eligible employees on an equal basis.",
+   "memoryTip": "SEP = Employer Pays.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-irs-sep"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "qp-q003",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "qp",
+   "outlineIds": [
+    "qp.2.2"
+   ],
+   "concepts": [
+    "simple-plan"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "A bakery with 40 employees already sponsors a profit-sharing plan. The owner wants to add a SIMPLE IRA plan as well.",
+   "stem": "Can the bakery establish a SIMPLE IRA plan?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "No, because it already maintains another retirement plan",
+     "rationale": "Correct: an employer with a SIMPLE IRA cannot have any other retirement plan."
+    },
+    {
+     "id": "b",
+     "text": "Yes, because any employer with fewer than 100 employees qualifies regardless of other plans",
+     "rationale": "Incorrect: the employer also must not maintain another retirement plan."
+    },
+    {
+     "id": "c",
+     "text": "Yes, but only if employees make all the contributions",
+     "rationale": "Incorrect: SIMPLE plans require an employer contribution each year."
+    },
+    {
+     "id": "d",
+     "text": "No, because SIMPLE plans are only for government employers",
+     "rationale": "Incorrect: SIMPLE plans are for small businesses."
+    }
+   ],
+   "correct": "a",
+   "explanation": "The IRS describes SIMPLE IRA plans as available to small businesses (generally 100 or fewer employees) and states that the employer cannot have any other retirement plan. The employer must contribute each year (a match or a nonelective contribution), and employees are always 100% vested.",
+   "memoryTip": "SIMPLE = small and single (no other plan).",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Employer cannot have another retirement plan",
+      "anyOf": [
+       "other plan",
+       "another plan",
+       "profit-sharing",
+       "no other"
+      ]
+     },
+     {
+      "label": "Small employer requirement",
+      "anyOf": [
+       "100",
+       "small"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-irs-simple-ira"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "qp-q004",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "qp",
+   "outlineIds": [
+    "qp.2.5"
+   ],
+   "concepts": [
+    "plan-457"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "A 457(b) deferred compensation plan may be sponsored by which type of employer?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A sole proprietorship",
+     "rationale": "Incorrect: self-employed individuals use Keogh-type qualified plans, SEPs or SIMPLEs."
+    },
+    {
+     "id": "b",
+     "text": "A publicly traded corporation",
+     "rationale": "Incorrect: for-profit corporations generally use 401(k) and other qualified plans."
+    },
+    {
+     "id": "c",
+     "text": "A partnership of physicians",
+     "rationale": "Incorrect: partnerships are not eligible 457 sponsors."
+    },
+    {
+     "id": "d",
+     "text": "A state or local government",
+     "rationale": "Correct: 457(b) plans are for state and local governments and 501(c) tax-exempt organizations."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Per the IRS, the organization sponsoring a 457(b) plan must be a state or local government or a tax-exempt organization under IRC 501(c). Contributions and earnings are tax-deferred.",
+   "memoryTip": "457 = public sector (and certain nonprofits).",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-irs-457b"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "qp-q005",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "qp",
+   "outlineIds": [
+    "qp.2.1"
+   ],
+   "concepts": [
+    "keogh-plan"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Pia is a self-employed photographer operating as a sole proprietor. She wants a qualified retirement plan for herself and her one employee.",
+   "stem": "Which type of plan was historically designed for her situation?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A Keogh (HR-10) plan",
+     "rationale": "Correct: Keogh plans were named after the law that first allowed unincorporated businesses, such as sole proprietors, to sponsor retirement plans."
+    },
+    {
+     "id": "b",
+     "text": "A 457(b) plan",
+     "rationale": "Incorrect: 457(b) plans are for state and local governments and tax-exempt organizations."
+    },
+    {
+     "id": "c",
+     "text": "A defined benefit plan sponsored by a city government",
+     "rationale": "Incorrect: she is not a government employee."
+    },
+    {
+     "id": "d",
+     "text": "A group whole life policy",
+     "rationale": "Incorrect: that is life insurance, not a retirement plan."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Retirement plans for self-employed people were formerly called Keogh plans. Because the law no longer distinguishes corporate from unincorporated sponsors, the term is seldom used today; a self-employed person can also consider a SEP or SIMPLE.",
+   "memoryTip": "Keogh = keep it for the self-employed.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-irs-self-employed-plans"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "qp-q006",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "qp",
+   "outlineIds": [
+    "qp.2.4"
+   ],
+   "concepts": [
+    "plan-401k"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [],
+   "stem": "An employee makes traditional (pre-tax) elective deferrals to a 401(k). How are they treated?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "They are taxed in the year contributed and withdrawn tax-free",
+     "rationale": "Incorrect: that describes designated Roth deferrals."
+    },
+    {
+     "id": "b",
+     "text": "They are excluded from the employee's taxable income when contributed",
+     "rationale": "Correct: pre-tax elective deferrals are excluded from current taxable income."
+    },
+    {
+     "id": "c",
+     "text": "They are taxable to the employer, not the employee",
+     "rationale": "Incorrect: deferrals are the employee's compensation."
+    },
+    {
+     "id": "d",
+     "text": "They are forfeited if the employee leaves within three years",
+     "rationale": "Incorrect: an employee's own deferrals are always 100% vested."
+    }
+   ],
+   "correct": "b",
+   "explanation": "A 401(k) lets employees contribute part of their wages to individual accounts. Elective deferrals are excluded from taxable income (except designated Roth deferrals), and they are taxed when distributed. Employers may also contribute.",
+   "memoryTip": "Pre-tax in, taxable out.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-irs-401k",
+    "fed-irs-vesting"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "qp-q007",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "qp",
+   "outlineIds": [
+    "qp.1"
+   ],
+   "concepts": [
+    "vesting",
+    "plan-401k"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "tricky"
+   ],
+   "scenario": "Sam contributed to his employer's 401(k) for two years. His employer matched part of his deferrals; the plan's match vests gradually over six years of service. Sam quits.",
+   "stem": "What does Sam keep when he leaves?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Nothing, because he worked for less than three years",
+     "rationale": "Incorrect: an employee's own contributions are always fully vested."
+    },
+    {
+     "id": "b",
+     "text": "Only the employer's matching contributions and their earnings",
+     "rationale": "Incorrect: the match is the part that may be unvested, and his own deferrals are always his."
+    },
+    {
+     "id": "c",
+     "text": "His own deferrals plus only the vested part of the match",
+     "rationale": "Correct: own contributions are 100% vested; employer money vests per the schedule."
+    },
+    {
+     "id": "d",
+     "text": "His entire account, because all 401(k) money vests immediately",
+     "rationale": "Incorrect: employer contributions to a 401(k) may follow a vesting schedule."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Vesting means ownership. The IRS explains that an employee's own contributions (such as elective deferrals) are always 100% vested, while employer contributions can vest immediately or under a schedule based on years of service.",
+   "memoryTip": "Your money is always yours; the employer's money becomes yours over time.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Own contributions always 100% vested",
+      "anyOf": [
+       "own contributions",
+       "his deferrals",
+       "100%",
+       "always vested"
+      ]
+     },
+     {
+      "label": "Employer match vests on a schedule",
+      "anyOf": [
+       "schedule",
+       "partially",
+       "vested portion",
+       "employer match"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-irs-vesting"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "qp-q008",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "qp",
+   "outlineIds": [
+    "qp.1",
+    "qp.2"
+   ],
+   "concepts": [
+    "roth-ira",
+    "traditional-ira",
+    "required-minimum-distribution"
+   ],
+   "difficulty": 2,
+   "style": "comparison",
+   "tags": [
+    "tricky"
+   ],
+   "stem": "Which statement about a Roth IRA is accurate?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Contributions are deductible, and all withdrawals are taxable",
+     "rationale": "Incorrect: this describes a traditional IRA."
+    },
+    {
+     "id": "b",
+     "text": "The owner must begin required minimum distributions at the same age as for a traditional IRA",
+     "rationale": "Incorrect: Roth IRA owners may leave amounts in the account for life."
+    },
+    {
+     "id": "c",
+     "text": "Only employers may contribute to a Roth IRA",
+     "rationale": "Incorrect: Roth IRAs are individual arrangements."
+    },
+    {
+     "id": "d",
+     "text": "Contributions are not deductible, but qualified distributions are tax-free",
+     "rationale": "Correct: this is the core Roth trade-off."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Per the IRS, Roth IRA contributions are not deductible, qualified distributions are tax-free, contributions can be made after age 70½, and the owner can leave amounts in the Roth IRA as long as he or she lives (RMD rules apply to Roth IRA beneficiaries, not the original owner).",
+   "memoryTip": "Roth: pay tax now, not later.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-irs-roth-ira",
+    "fed-irs-rmd"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "qp-q009",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "qp",
+   "outlineIds": [
+    "qp.1"
+   ],
+   "concepts": [
+    "required-minimum-distribution"
+   ],
+   "difficulty": 3,
+   "style": "calculation",
+   "tags": [
+    "math"
+   ],
+   "scenario": "Lena has reached the age at which required minimum distributions apply to her traditional IRA. Her IRA balance was $400,000 on December 31 of last year.",
+   "stem": "How is Lena's required minimum distribution for this year generally determined?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Last year-end balance divided by an IRS life expectancy factor",
+     "rationale": "Correct: the RMD uses the prior year-end balance divided by the IRS distribution period."
+    },
+    {
+     "id": "b",
+     "text": "A flat 10% of the balance, or $40,000 this year",
+     "rationale": "Incorrect: the RMD is not a flat percentage."
+    },
+    {
+     "id": "c",
+     "text": "Total contributions divided by her years of contributing",
+     "rationale": "Incorrect: contributions are not the basis of the RMD."
+    },
+    {
+     "id": "d",
+     "text": "Any amount she chooses, as long as it is at least $1",
+     "rationale": "Incorrect: a minimum amount is required by formula."
+    }
+   ],
+   "correct": "a",
+   "explanation": "The IRS states that the RMD for any year is the account balance as of the end of the immediately preceding calendar year divided by a distribution period from the IRS Uniform Lifetime Table (a different table applies if the sole beneficiary is a spouse ten or more years younger). The owner may always withdraw more than the minimum.",
+   "memoryTip": "RMD = last year's balance ÷ IRS life-expectancy factor.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Uses prior year-end balance",
+      "anyOf": [
+       "december 31",
+       "year-end",
+       "preceding year",
+       "400,000"
+      ]
+     },
+     {
+      "label": "Divided by IRS distribution period / life expectancy factor",
+      "anyOf": [
+       "divided",
+       "distribution period",
+       "life expectancy",
+       "uniform lifetime"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-irs-rmd"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "qp-q010",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "qp",
+   "outlineIds": [
+    "qp.2.3",
+    "qp.2.2"
+   ],
+   "concepts": [
+    "sep-plan",
+    "simple-plan"
+   ],
+   "difficulty": 2,
+   "style": "negative",
+   "tags": [
+    "negative-wording"
+   ],
+   "stem": "Which statement about a SEP is NOT true?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A self-employed person may establish one for himself or herself",
+     "rationale": "Not the answer: this statement is true — a business of any size, even self-employed, can establish a SEP."
+    },
+    {
+     "id": "b",
+     "text": "Employees defer salary, and the employer must match every year",
+     "rationale": "Correct: this is false — it describes a SIMPLE plan; SEP contributions are employer-only and not required every year."
+    },
+    {
+     "id": "c",
+     "text": "Contributions go to traditional IRAs set up for each employee",
+     "rationale": "Not the answer: this statement is true of SEP-IRAs."
+    },
+    {
+     "id": "d",
+     "text": "Employees are always 100% vested in all SEP contributions",
+     "rationale": "Not the answer: this statement is true."
+    }
+   ],
+   "correct": "b",
+   "explanation": "SEP facts from the IRS: any size business (even self-employed) may establish one; only the employer contributes, to SEP-IRAs; contributions are not required every year but must be equal for eligible employees when made; and employees are always 100% vested. Required annual employer contributions with employee deferrals describe a SIMPLE IRA.",
+   "memoryTip": "SEP = employer-only and flexible; SIMPLE = shared and required.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-irs-sep",
+    "fed-irs-simple-ira"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "qp-q011",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "qp",
+   "outlineIds": [
+    "qp.1",
+    "qp.2"
+   ],
+   "concepts": [
+    "traditional-ira"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "Generally, when are earnings inside a traditional IRA taxed?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Each year as they are earned",
+     "rationale": "Incorrect: earnings grow tax-deferred."
+    },
+    {
+     "id": "b",
+     "text": "Never",
+     "rationale": "Incorrect: traditional IRA distributions are generally taxable."
+    },
+    {
+     "id": "c",
+     "text": "When they are distributed from the IRA",
+     "rationale": "Correct: amounts, including earnings, are generally not taxed until distributed."
+    },
+    {
+     "id": "d",
+     "text": "Only when the owner reaches age 50",
+     "rationale": "Incorrect: taxation depends on distribution, not reaching an age."
+    }
+   ],
+   "correct": "c",
+   "explanation": "The IRS explains that amounts in a traditional IRA, including earnings and gains, are generally not taxed until a distribution is taken. Contributions may be fully or partially deductible depending on filing status and income.",
+   "memoryTip": "Traditional IRA: grow now, tax later.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-irs-traditional-ira"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

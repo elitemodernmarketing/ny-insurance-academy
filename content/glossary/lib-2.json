@@ -1,0 +1,441 @@
+{
+  "sectionId": "lib",
+  "terms": [
+    {
+      "id": "field-underwriting",
+      "term": "Field Underwriting",
+      "aliases": [],
+      "sectionId": "lib",
+      "outlineIds": ["lib.7.2", "lib.7.2.1"],
+      "formal": "The initial risk screening performed by the producer in the field: soliciting appropriate prospects, completing the application accurately, obtaining required signatures, collecting the initial premium and issuing a receipt when appropriate, and reporting relevant observations to the insurer.",
+      "plain": "The producer is the insurer's eyes and ears. You ask the questions honestly, write down the answers exactly, make sure the right people sign, and tell the insurer anything important you notice.",
+      "simpler": "The first filter: the agent catches problems before the application ever reaches the company.",
+      "examples": [
+        "During an interview, a producer notices the applicant mention skydiving on weekends and makes sure the hazardous-activity question is answered accurately.",
+        "A producer has both the proposed insured and the policyowner sign an application where they are different people."
+      ],
+      "examTip": "The producer does the FIELD underwriting; the insurer's underwriter makes the final decision to accept, rate or decline. Producers cannot approve or bind life coverage on their own authority.",
+      "misconception": "Field underwriting does not mean the producer decides whether the applicant is insurable; it means gathering accurate information for the home office underwriter.",
+      "related": ["application", "agent-report", "underwriting", "conditional-receipt"],
+      "confusedWith": ["underwriting"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which task is part of the producer's field underwriting?",
+        "choices": ["Accurately completing the application and obtaining signatures", "Deciding the applicant's final risk class", "Setting the insurer's mortality table", "Approving the policy for issue"],
+        "answerIndex": 0,
+        "explanation": "Producers gather and record accurate information and signatures. The home office underwriter assigns the risk class and decides whether to issue."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "application",
+      "term": "Application",
+      "aliases": ["Application for insurance"],
+      "sectionId": "lib",
+      "outlineIds": ["lib.8.1.1", "lib.7.2.1"],
+      "formal": "The written request for insurance, signed by the applicant (and proposed insured, if different), containing statements about identity, health, occupation, finances and existing coverage that the insurer relies on in underwriting; when attached to the policy it becomes part of the entire contract.",
+      "plain": "The form you fill out to ask for coverage. It's the main source of information the insurer uses, and a copy is attached to your policy.",
+      "simpler": "Your 'job interview' paperwork with the insurance company.",
+      "examples": [
+        "Part 1 of an application collects general information (name, age, occupation, beneficiary); Part 2 collects medical history.",
+        "A producer makes a mistake on an application. The applicant initials the correction rather than the producer using correction fluid."
+      ],
+      "examTip": "Answers on the application are generally treated as representations (true to the best of the applicant's knowledge), not warranties. Errors should be corrected and initialed by the applicant, or a new application completed.",
+      "misconception": "The producer should never fill in unanswered questions with guesses or sign for the applicant; incomplete or altered applications can lead to delays or contract disputes.",
+      "related": ["field-underwriting", "representation", "entire-contract-provision", "agent-report"],
+      "confusedWith": ["agent-report"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "What is the primary source of underwriting information about a life insurance applicant?",
+        "choices": ["The application", "The MIB report", "The attending physician statement", "The inspection report"],
+        "answerIndex": 0,
+        "explanation": "The application is the basic and primary source of underwriting information. The other sources supplement or verify it."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "backdating",
+      "term": "Backdating",
+      "aliases": ["Antedating", "Saving age"],
+      "sectionId": "lib",
+      "outlineIds": ["lib.7.2.1"],
+      "formal": "Dating a policy earlier than the application date, usually to obtain a lower premium based on a younger insurance age. NY Insurance Law § 3208 prohibits an insurer from knowingly issuing a life policy that takes effect more than six months before the application date if that reduces the premium, and prohibits agents and brokers from dating an application earlier than the date it was actually made if that reduces the premium.",
+      "plain": "Making a policy look older than it is so the insured gets a younger, cheaper age. In New York the policy date can't go back more than six months before the application if that lowers the premium — and the producer may never pre-date the application itself.",
+      "simpler": "Turning the calendar back to save on price — allowed only a little, and never by faking the application date.",
+      "examples": [
+        "Tom applies two months after his birthday moved him to a higher age (nearest-birthday basis). The insurer may date the policy back so he keeps the lower age, because it is within six months.",
+        "A producer writes last year's date on an application so the client's premium is lower. § 3208(b) prohibits this."
+      ],
+      "examTip": "NY limit: SIX months before the APPLICATION date (§ 3208(a)), measured against the premium based on the insured's birthday nearest the application date. Backdating means the owner pays premium for the backdated period too.",
+      "misconception": "A policy issued in violation of § 3208 is not automatically void — § 3208(c) says the section does not invalidate the contract; the violation is a regulatory matter.",
+      "related": ["application", "field-underwriting", "misstatement-of-age"],
+      "confusedWith": ["misstatement-of-age"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under NY Insurance Law § 3208, a life policy may NOT take effect more than how long before the application date if doing so reduces the premium?",
+        "choices": ["Six months", "Three months", "One year", "31 days"],
+        "answerIndex": 0,
+        "explanation": "§ 3208(a) bars an insurer from knowingly issuing a policy that purports to take effect more than six months before the application date if that lowers the premium."
+      },
+      "sources": ["ny-isc-3208"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "conditional-receipt",
+      "term": "Conditional Receipt",
+      "aliases": ["Insurability receipt", "Premium receipt"],
+      "sectionId": "lib",
+      "outlineIds": ["lib.7.2.1", "lib.7.3.2"],
+      "formal": "A receipt given when the initial premium is paid with the application, providing that coverage takes effect as of the application date (or medical exam date, if later) provided the applicant is found insurable as applied for under the insurer's rules.",
+      "plain": "If you pay the first premium with your application, you get a receipt. If you die before the policy is issued but would have qualified anyway, the insurer treats the coverage as starting on the application date.",
+      "simpler": "A 'you're covered now — as long as you pass the checkup' ticket.",
+      "examples": [
+        "Lia applies, pays the first premium, receives a conditional receipt and takes her exam. She dies in a car accident a week later. Underwriting shows she was insurable as applied for, so the claim is paid.",
+        "Rob applies with premium and a conditional receipt, but underwriting finds he has a serious heart condition and would have been declined. No coverage existed; his premium is refunded."
+      ],
+      "examTip": "Conditional receipt: coverage depends on insurability → effective on the application date (or exam date if later). Without premium with the application, coverage generally starts only when the policy is delivered and the first premium paid (with a statement of good health if required).",
+      "misconception": "A conditional receipt is not a binder that guarantees coverage; if the applicant is not insurable as applied for, there is no coverage under it.",
+      "related": ["application", "policy-delivery", "statement-of-good-health", "field-underwriting"],
+      "confusedWith": ["statement-of-good-health"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "An applicant pays the initial premium with the application and gets a conditional receipt, then dies before the policy is issued. When is the claim paid?",
+        "choices": ["If the applicant would have been insurable as applied for", "Never, because the policy had not been delivered", "Always, because the premium was paid", "Only if the death was accidental"],
+        "answerIndex": 0,
+        "explanation": "Coverage under a conditional receipt depends on the applicant meeting the insurer's underwriting standards as of the application (or exam) date."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "policy-delivery",
+      "term": "Policy Delivery",
+      "aliases": ["Delivery of the policy"],
+      "sectionId": "lib",
+      "outlineIds": ["lib.7.3", "lib.7.3.1", "lib.7.3.3", "lib.7.3.5"],
+      "formal": "The producer's transfer of the issued policy to the policyowner, ideally in person, including reviewing the policy, explaining any ratings, riders, exclusions or amendments, collecting any premium due, obtaining a statement of good health if required, and providing required disclosures such as the policy summary.",
+      "plain": "When the policy arrives, the producer hands it over, walks the client through it, collects any unpaid premium and gets any needed signatures. This is a key moment to make sure the client understands what they bought.",
+      "simpler": "The 'handing over the keys' meeting for the policy.",
+      "examples": [
+        "The policy is issued with a higher-than-applied-for premium because of a rating. At delivery, the producer explains the rating and has the owner sign the amendment accepting it.",
+        "Because no premium came with the application, the producer collects the first premium and a signed statement of good health when delivering the policy."
+      ],
+      "examTip": "Personal delivery is best practice. Mailing the policy can constitute legal (constructive) delivery once the insurer releases it unconditionally — but a policy issued other than as applied for is only a counteroffer until the applicant accepts it. The free-look period runs from delivery.",
+      "misconception": "Delivery is not a formality; a policy issued with changes (rating, exclusion rider) is a counteroffer that the applicant must accept, often in a signed amendment.",
+      "related": ["statement-of-good-health", "conditional-receipt", "free-look", "policy-summary"],
+      "confusedWith": [],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A policy is issued at a higher premium than the applicant applied for. At delivery, the policy is best described as:",
+        "choices": ["A counteroffer the applicant must accept", "An accepted contract binding on the applicant", "A void contract", "A conditional receipt"],
+        "answerIndex": 0,
+        "explanation": "Issuing coverage other than as applied for is a counteroffer. The contract forms when the applicant accepts, typically by signing an amendment and paying the premium."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "statement-of-good-health",
+      "term": "Statement of Good Health",
+      "aliases": ["Statement of continued good health"],
+      "sectionId": "lib",
+      "outlineIds": ["lib.7.3.4"],
+      "formal": "A signed statement, obtained at policy delivery when the initial premium was not paid with the application, in which the insured affirms that his or her health has not changed since the application.",
+      "plain": "If you didn't pay when you applied, the producer collects your first premium at delivery and asks you to sign that your health hasn't changed since you applied.",
+      "simpler": "A quick 'I'm still healthy' signature before coverage kicks in.",
+      "examples": [
+        "Omar applied without paying. Before delivery he was diagnosed with a serious illness. He cannot truthfully sign the statement of good health, so the policy cannot be put in force as issued.",
+        "At delivery, Sara pays her first premium and signs the statement of good health; coverage begins."
+      ],
+      "examTip": "Statement of good health is tied to COD situations: premium collected at DELIVERY instead of with the application.",
+      "misconception": "It is not a new medical exam; it is a signed attestation that health is unchanged since the application.",
+      "related": ["policy-delivery", "conditional-receipt", "application"],
+      "confusedWith": ["conditional-receipt"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "When is a producer most likely to obtain a statement of good health?",
+        "choices": ["At delivery, when no premium was paid with the application", "At application, when premium is paid with it", "At the first policy anniversary", "When the insured files a death claim"],
+        "answerIndex": 0,
+        "explanation": "If premium was not paid with the application, the producer collects it at delivery along with a statement that the insured's health has not changed."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "underwriting",
+      "term": "Underwriting",
+      "aliases": ["Risk selection"],
+      "sectionId": "lib",
+      "outlineIds": ["lib.8", "lib.8.1", "lib.8.1.7"],
+      "formal": "The insurer's process of evaluating, selecting and classifying risks — deciding whether to accept an applicant and at what premium class — based on information about health, lifestyle, occupation, finances and other factors, applied without unfair discrimination.",
+      "plain": "The home office reviews everything about the applicant, decides if the company will cover them, and puts them in a price group with people of similar risk.",
+      "simpler": "Sorting applicants into fair price groups so everyone pays for about the same level of risk.",
+      "examples": [
+        "An underwriter reviews Ella's application, lab results and MIB report and places her in the preferred class.",
+        "An underwriter declines an applicant currently undergoing chemotherapy, advising he may reapply later."
+      ],
+      "examTip": "Underwriting protects against adverse selection. Selection criteria must be based on sound actuarial principles or actual or reasonably anticipated experience — not on unfair discrimination (for example, treating people of the same class and life expectancy differently).",
+      "misconception": "Underwriting is not about avoiding all risk; it is about pricing each risk fairly so the group's premiums cover its expected claims.",
+      "related": ["field-underwriting", "adverse-selection", "unfair-discrimination", "preferred-risk", "standard-risk"],
+      "confusedWith": ["field-underwriting"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Who makes the final decision to accept, rate or decline an applicant for individual life insurance?",
+        "choices": ["The insurer's underwriter", "The producer", "The Medical Information Bureau", "The Superintendent of Financial Services"],
+        "answerIndex": 0,
+        "explanation": "The home office underwriter evaluates and classifies the risk. The producer performs field underwriting; MIB only shares coded information."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "agent-report",
+      "term": "Agent's Report",
+      "aliases": ["Producer's report", "Agent's statement"],
+      "sectionId": "lib",
+      "outlineIds": ["lib.8.1.2"],
+      "formal": "A section of the application completed by the producer (not by the applicant) giving the producer's personal observations about the applicant, how long the producer has known the applicant, financial information, and whether the policy may replace existing coverage.",
+      "plain": "The producer's own notes to the underwriter: what they observed, how well they know the applicant, and whether the new policy would replace an existing one.",
+      "simpler": "The agent's private memo to the insurance company about the client.",
+      "examples": [
+        "A producer notes on the agent's report that the applicant appeared short of breath during the interview.",
+        "The agent's report asks whether the proposed policy will replace existing life insurance; the producer answers 'yes' and follows replacement procedures."
+      ],
+      "examTip": "The agent's report is NOT part of the contract and is generally not shared with the applicant. It's a field underwriting tool.",
+      "misconception": "The agent's report is not signed or answered by the applicant — the producer completes it.",
+      "related": ["field-underwriting", "application", "replacement"],
+      "confusedWith": ["application", "investigative-consumer-report"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Who completes the agent's report section of a life insurance application?",
+        "choices": ["The producer", "The applicant", "The insured's physician", "A consumer reporting agency"],
+        "answerIndex": 0,
+        "explanation": "The producer completes the agent's report with personal observations; it is not part of the contract."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "attending-physician-statement",
+      "term": "Attending Physician Statement (APS)",
+      "aliases": ["APS"],
+      "sectionId": "lib",
+      "outlineIds": ["lib.8.1.3"],
+      "formal": "A report requested by the insurer from a physician who has treated the applicant, describing diagnoses, treatment and prognosis; obtained with the applicant's signed authorization.",
+      "plain": "The insurer asks your own doctor for details about a condition you mentioned on the application.",
+      "simpler": "A note from your doctor that tells the insurer the full story about your health condition.",
+      "examples": [
+        "Kai disclosed treatment for high blood pressure. The underwriter orders an APS from his cardiologist to see how well it is controlled.",
+        "An applicant signs a HIPAA-compliant authorization so the insurer can obtain her physician's records."
+      ],
+      "examTip": "APS = best source for details on a condition already disclosed in the application; it comes from the applicant's OWN treating doctor (not an insurer-paid paramedical examiner).",
+      "misconception": "An APS is not the same as a paramedical exam; the exam is a new check by an examiner, the APS is a summary of existing medical records from a treating physician.",
+      "related": ["application", "medical-information-bureau", "underwriting"],
+      "confusedWith": ["investigative-consumer-report"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "An applicant discloses a past heart condition. Which source would most likely give the underwriter details about its treatment?",
+        "choices": ["An attending physician statement", "The agent's report", "A buyer's guide", "A policy summary"],
+        "answerIndex": 0,
+        "explanation": "An APS from the treating physician describes diagnosis, treatment and prognosis of a disclosed condition."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "investigative-consumer-report",
+      "term": "Investigative Consumer (Inspection) Report",
+      "aliases": ["Inspection report", "Investigative consumer report"],
+      "sectionId": "lib",
+      "outlineIds": ["lib.8.1.4", "lib.7.1.8"],
+      "formal": "A consumer report on an applicant's character, general reputation, personal characteristics or mode of living obtained through personal interviews with neighbors, friends, associates or others; regulated by the federal Fair Credit Reporting Act, which requires that the consumer be told the report may be made.",
+      "plain": "A report put together by an outside company that talks to people who know you — about lifestyle, habits and reputation. Federal law (FCRA) says you must be told such a report may be ordered, and you have rights to learn about it and dispute errors.",
+      "simpler": "A background check on how you live, not just your medical records.",
+      "examples": [
+        "An insurer orders an inspection report on an applicant for a large policy; interviewers ask neighbors about hobbies and driving habits.",
+        "After being rated based on a consumer report, an applicant is told which reporting agency supplied it so he can request his file."
+      ],
+      "examTip": "Inspection report = lifestyle, reputation, finances via INTERVIEWS (FCRA). MIB = coded MEDICAL information shared among member insurers. APS = treating DOCTOR's records.",
+      "misconception": "An investigative consumer report is not secret: the FCRA requires disclosure to the consumer that it may be made, and consumers can dispute inaccurate information.",
+      "related": ["fair-credit-reporting-act", "medical-information-bureau", "underwriting", "nonpublic-personal-information"],
+      "confusedWith": ["medical-information-bureau", "attending-physician-statement"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which federal law regulates investigative consumer (inspection) reports used in life underwriting?",
+        "choices": ["The Fair Credit Reporting Act", "ERISA", "The Investment Company Act", "HIPAA's portability rules"],
+        "answerIndex": 0,
+        "explanation": "The Fair Credit Reporting Act governs consumer reports, including investigative consumer reports based on interviews."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "medical-information-bureau",
+      "term": "Medical Information Bureau (MIB)",
+      "aliases": ["MIB", "MIB Group"],
+      "sectionId": "lib",
+      "outlineIds": ["lib.8.1.5"],
+      "formal": "A nonprofit membership organization of life and health insurers that maintains coded information about significant medical conditions and certain other underwriting findings reported by members, used to detect omissions or misrepresentations on applications.",
+      "plain": "A shared database among insurers. If you told one insurer about a serious condition but 'forget' to tell another, the MIB code can flag it.",
+      "simpler": "An alert system insurers use so applicants can't hide important health facts by switching companies.",
+      "examples": [
+        "Two years ago Luis applied to Insurer A and disclosed diabetes. Now he applies to Insurer B and answers 'no' to diabetes. Insurer B's MIB check shows a code and the underwriter investigates.",
+        "An applicant requests her MIB file to check it for errors."
+      ],
+      "examTip": "An insurer may NOT decline or rate an applicant solely because of an MIB report; MIB information is a lead for further investigation. Applicants must be told about MIB and can request and dispute their file.",
+      "misconception": "The MIB is not a government agency and does not make underwriting decisions or contain an applicant's full medical records.",
+      "related": ["investigative-consumer-report", "attending-physician-statement", "fair-credit-reporting-act", "underwriting"],
+      "confusedWith": ["investigative-consumer-report"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which statement about the Medical Information Bureau is correct?",
+        "choices": ["An insurer may not decline an applicant based solely on an MIB report", "MIB is a federal agency that approves applications", "MIB stores complete copies of medical records", "MIB information is secret and cannot be requested by consumers"],
+        "answerIndex": 0,
+        "explanation": "MIB is a nonprofit member organization holding coded information. It alerts underwriters to investigate; it cannot be the sole basis for an adverse decision, and consumers can request their files."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "preferred-risk",
+      "term": "Preferred Risk",
+      "aliases": ["Preferred class", "Preferred plus"],
+      "sectionId": "lib",
+      "outlineIds": ["lib.8.2.1", "lib.8.2"],
+      "formal": "A risk classification for applicants whose health, lifestyle and family history indicate lower-than-average expected mortality; they are charged lower premiums than standard risks.",
+      "plain": "Healthier-than-average applicants — nonsmokers with good test results and a healthy lifestyle — qualify for the best rates.",
+      "simpler": "The 'A+ student' price group.",
+      "examples": [
+        "Mara, 35, is a nonsmoker with ideal blood pressure, cholesterol and weight and no dangerous hobbies. She is issued preferred rates.",
+        "An insurer offers 'preferred plus,' 'preferred' and 'standard' classes; the best class gets the lowest premium."
+      ],
+      "examTip": "Order of classes from lowest to highest premium: Preferred → Standard → Substandard (rated). Declined = no coverage.",
+      "misconception": "Preferred is not the 'average' class — standard is average. Preferred is better than average.",
+      "related": ["standard-risk", "substandard-risk", "declined-risk", "underwriting"],
+      "confusedWith": ["standard-risk"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "An applicant with better-than-average health and no hazardous habits is most likely classified as:",
+        "choices": ["Preferred", "Standard", "Substandard", "Declined"],
+        "answerIndex": 0,
+        "explanation": "Preferred risks have lower-than-average expected mortality and pay the lowest rates."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "standard-risk",
+      "term": "Standard Risk",
+      "aliases": ["Standard class", "Average risk"],
+      "sectionId": "lib",
+      "outlineIds": ["lib.8.2.2", "lib.8.2"],
+      "formal": "The risk classification for applicants with average expected mortality for their age and sex, who are charged the insurer's standard premium rates.",
+      "plain": "Applicants with typical health and lifestyle. Most people fall here and pay the normal rate.",
+      "simpler": "The 'regular price' group.",
+      "examples": [
+        "Leo, 45, has slightly elevated cholesterol controlled by medication. He is issued at standard rates.",
+        "An applicant's results are average for her age, so she qualifies for standard rather than preferred."
+      ],
+      "examTip": "Standard = average risk, base rate. Most applicants are standard or better.",
+      "misconception": "Standard does not mean 'bad' — it is the normal, average class.",
+      "related": ["preferred-risk", "substandard-risk", "underwriting"],
+      "confusedWith": ["preferred-risk"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "The risk class representing average expected mortality is called:",
+        "choices": ["Standard", "Preferred", "Substandard", "Rated"],
+        "answerIndex": 0,
+        "explanation": "Standard risks have average expected mortality and pay standard rates."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "substandard-risk",
+      "term": "Substandard (Rated) Risk",
+      "aliases": ["Rated risk", "Table rating", "Special class"],
+      "sectionId": "lib",
+      "outlineIds": ["lib.8.2.3", "lib.8.2"],
+      "formal": "A risk classification for applicants with higher-than-average expected mortality due to health, occupation or habits who are still insurable; coverage is issued at an increased premium (a table rating or flat extra) or with modified benefits or an exclusion.",
+      "plain": "Applicants who are riskier than average but still insurable. They can get coverage, but it costs more or comes with limits.",
+      "simpler": "The 'higher price, but you're still in' group.",
+      "examples": [
+        "A commercial pilot is issued coverage with a flat extra premium per $1,000 of coverage because of occupational risk.",
+        "An applicant with poorly controlled diabetes is issued at a 'Table 4' rating, meaning a percentage increase over standard rates."
+      ],
+      "examTip": "Ways to handle substandard risks: rated premium (table rating), flat extra premium, or modified/limited benefits (for example, a graded death benefit or exclusion). The applicant must accept the rated policy at delivery.",
+      "misconception": "Substandard does not mean declined; the applicant can still get coverage, just on modified terms.",
+      "related": ["standard-risk", "declined-risk", "policy-delivery", "underwriting"],
+      "confusedWith": ["declined-risk"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "An insurer issues a policy to an applicant with a hazardous occupation but charges an extra premium. The applicant was classified as:",
+        "choices": ["Substandard", "Preferred", "Standard", "Declined"],
+        "answerIndex": 0,
+        "explanation": "Substandard (rated) risks are insurable at increased premium or with modified benefits."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "declined-risk",
+      "term": "Declined Risk",
+      "aliases": ["Uninsurable risk"],
+      "sectionId": "lib",
+      "outlineIds": ["lib.8.2.4", "lib.8.2"],
+      "formal": "An applicant whom the insurer will not insure at any premium because expected losses are too high or too uncertain, such as someone with a current terminal illness or recent major surgery whose outcome is unknown.",
+      "plain": "The insurer says no — the risk is too high to price. Sometimes the applicant can reapply later when circumstances change.",
+      "simpler": "Not accepted at any price, at least for now.",
+      "examples": [
+        "An applicant awaiting results of a major heart surgery is declined, with an invitation to reapply in a year.",
+        "An applicant with a terminal diagnosis is declined for individual life coverage."
+      ],
+      "examTip": "Declined = no policy. If a consumer report contributed to the decision, the applicant is entitled under the FCRA to learn which agency supplied it.",
+      "misconception": "A decline is not necessarily permanent and is not unfair discrimination when based on sound underwriting evidence.",
+      "related": ["substandard-risk", "underwriting", "fair-credit-reporting-act"],
+      "confusedWith": ["substandard-risk"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "An applicant who cannot be insured at any premium is classified as:",
+        "choices": ["Declined", "Substandard", "Standard", "Preferred"],
+        "answerIndex": 0,
+        "explanation": "Declined risks are not insurable under the insurer's guidelines. Substandard risks are insurable at higher cost."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    }
+  ],
+  "comparisons": []
+}

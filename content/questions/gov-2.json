@@ -1,0 +1,884 @@
+{
+  "sectionId": "gov",
+  "questions": [
+    {
+      "id": "gov-q014",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.5.2.3",
+        "gov.5.2"
+      ],
+      "concepts": [
+        "medicare-part-a",
+        "skilled-care"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Frank, 78, went to the emergency room and spent two nights under 'observation' status. He was then formally admitted as an inpatient for two days and discharged. His doctor now orders daily rehabilitation in a skilled nursing facility.",
+      "stem": "Will Original Medicare Part A cover Frank's SNF stay?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, because he spent a total of four nights in the hospital",
+          "rationale": "Incorrect: observation and ER time don't count toward the qualifying inpatient stay."
+        },
+        {
+          "id": "b",
+          "text": "No; he has only two inpatient days, not three in a row",
+          "rationale": "Correct: only formal inpatient days count, and Part A requires at least 3 in a row."
+        },
+        {
+          "id": "c",
+          "text": "Yes, but only for custodial care in the facility",
+          "rationale": "Incorrect: Medicare does not cover custodial care, and the SNF benefit requires daily skilled care."
+        },
+        {
+          "id": "d",
+          "text": "No, because Part B, not Part A, covers skilled nursing facilities",
+          "rationale": "Incorrect: SNF care is a Part A benefit."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Medicare covers SNF care only after a qualifying, medically necessary inpatient hospital stay of at least 3 days in a row, counting from the day of inpatient admission and not counting the discharge day. Time spent under observation or in the emergency room before admission does not count, even overnight. Frank has only 2 inpatient days.",
+      "memoryTip": "Three INPATIENT days — observation doesn't count.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Requires 3 consecutive inpatient days",
+            "anyOf": [
+              "3 days",
+              "three days",
+              "3-day",
+              "three-day",
+              "3 consecutive"
+            ]
+          },
+          {
+            "label": "Observation/ER time does not count",
+            "anyOf": [
+              "observation",
+              "emergency room",
+              "ER"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-medicare-snf"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q015",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.5.2.3"
+      ],
+      "concepts": [
+        "medicare-part-a",
+        "medicare-benefit-period"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "How does Original Medicare Part A share the cost of a covered skilled nursing facility stay within one benefit period?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Medicare pays all SNF costs for 100 days, with no deductible or coinsurance owed by the beneficiary",
+          "rationale": "Incorrect: a daily coinsurance applies for days 21–100."
+        },
+        {
+          "id": "b",
+          "text": "Days 1–20 with no daily coinsurance, days 21–100 with daily coinsurance, nothing after day 100",
+          "rationale": "Correct: this is the Part A SNF cost-sharing structure."
+        },
+        {
+          "id": "c",
+          "text": "Medicare pays 80% of all SNF charges for as long as skilled care is needed, with no day limit",
+          "rationale": "Incorrect: Part A limits SNF coverage to 100 days per benefit period."
+        },
+        {
+          "id": "d",
+          "text": "Medicare pays nothing toward SNF care unless the beneficiary also owns a Medigap policy",
+          "rationale": "Incorrect: Part A covers SNF care on a short-term basis."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Medicare.gov: for each benefit period, days 1–20 cost $0 per day (after the Part A deductible, if not already paid for the hospital stay); days 21–100 require a daily coinsurance; from day 101 the beneficiary pays all costs. Part A limits SNF coverage to 100 days per benefit period. (Dollar amounts change yearly.)",
+      "memoryTip": "SNF: 20 free, 80 shared, then you're on your own.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-medicare-snf"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q016",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.5.2.3"
+      ],
+      "concepts": [
+        "medicare-benefit-period"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Ruth was discharged from the hospital on May 1. She had no further inpatient or SNF care until she was readmitted as an inpatient on June 15.",
+      "stem": "How is Ruth's June 15 admission treated under Part A?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It starts a new benefit period, so she owes a new Part A deductible",
+          "rationale": "Incorrect: fewer than 60 days passed, so the original benefit period has not ended."
+        },
+        {
+          "id": "b",
+          "text": "It is part of the same benefit period, so no new Part A deductible applies",
+          "rationale": "Correct: a benefit period ends only after 60 days in a row without inpatient hospital or SNF care."
+        },
+        {
+          "id": "c",
+          "text": "It is not covered because only one hospital stay is allowed per year",
+          "rationale": "Incorrect: there is no limit on the number of benefit periods."
+        },
+        {
+          "id": "d",
+          "text": "It is covered under Part B because it is a readmission",
+          "rationale": "Incorrect: inpatient hospital care is a Part A benefit."
+        }
+      ],
+      "correct": "b",
+      "explanation": "A benefit period begins on inpatient admission and ends when the beneficiary has not received inpatient hospital care (or skilled SNF care) for 60 days in a row. May 1 to June 15 is about 45 days, so Ruth is still in the same benefit period and does not pay a second inpatient deductible.",
+      "memoryTip": "Out 60 days in a row = new period; fewer = same period.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Benefit period ends after 60 days in a row out",
+            "anyOf": [
+              "60 days",
+              "sixty"
+            ]
+          },
+          {
+            "label": "Only about 45 days passed, same period",
+            "anyOf": [
+              "same benefit period",
+              "45 days",
+              "not ended",
+              "same period"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-medicare-snf"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q017",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.5.3.3",
+        "gov.5.3"
+      ],
+      "concepts": [
+        "medicare-part-b"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Which service is covered under Medicare Part B?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "An outpatient visit to a physician",
+          "rationale": "Correct: Part B covers doctors' services and outpatient care."
+        },
+        {
+          "id": "b",
+          "text": "A three-day inpatient hospital stay",
+          "rationale": "Incorrect: inpatient hospital care is Part A."
+        },
+        {
+          "id": "c",
+          "text": "Hospice care",
+          "rationale": "Incorrect: hospice is a Part A benefit."
+        },
+        {
+          "id": "d",
+          "text": "Long-term custodial care in a nursing home",
+          "rationale": "Incorrect: Medicare does not cover long-term custodial care."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Part B (Medical Insurance) covers certain doctors' services, outpatient care, medical supplies and preventive services. Part A covers inpatient hospital, SNF, hospice and some home health care. Neither covers long-term custodial care.",
+      "memoryTip": "B = Bills from doctors and outpatient visits.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-medicare-medigap",
+        "fed-medicare-ltc"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q018",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.5.3.4"
+      ],
+      "concepts": [
+        "medicare-part-b",
+        "custodial-care"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "Original Medicare (Parts A and B) helps pay for each of the following EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Inpatient hospital care after a formal admission",
+          "rationale": "Incorrect: Part A covers inpatient hospital stays."
+        },
+        {
+          "id": "b",
+          "text": "Physician services in an office or outpatient clinic",
+          "rationale": "Incorrect: Part B covers doctors' services."
+        },
+        {
+          "id": "c",
+          "text": "Nursing home custodial care when that is the only care needed",
+          "rationale": "Correct: Medicare doesn't pay for long-term (custodial) care."
+        },
+        {
+          "id": "d",
+          "text": "Hospice care for a terminally ill beneficiary",
+          "rationale": "Incorrect: Part A covers hospice care."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Medicare.gov: 'Medicare doesn't pay for long-term care.' Long-term (custodial) care — help with activities of daily living such as dressing, bathing and using the bathroom — is not covered by Medicare or by Medigap. People may get it through Medicaid if eligible, or buy private LTC insurance.",
+      "memoryTip": "Medicare heals; it doesn't babysit.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-medicare-ltc",
+        "fed-medicare-snf"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q019",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.5.4"
+      ],
+      "concepts": [
+        "medicare-advantage"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "Which statement about Medicare Advantage (Part C) is accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is a Medigap policy that pays the deductibles and coinsurance of Original Medicare",
+          "rationale": "Incorrect: Medigap supplements Original Medicare; Part C replaces it."
+        },
+        {
+          "id": "b",
+          "text": "It is a state program available only to people with limited income and assets",
+          "rationale": "Incorrect: Medicare Advantage is not means-tested."
+        },
+        {
+          "id": "c",
+          "text": "It covers only outpatient prescription drugs and must be paired with Original Medicare",
+          "rationale": "Incorrect: that describes a stand-alone Part D plan."
+        },
+        {
+          "id": "d",
+          "text": "It is a Medicare-approved private plan that covers most Part A and B benefits instead of Original Medicare",
+          "rationale": "Correct: this is Medicare's own description of a Medicare Advantage Plan."
+        }
+      ],
+      "correct": "d",
+      "explanation": "A Medicare Advantage Plan is a Medicare-approved health plan from a private company that a beneficiary can choose to cover most Part A and Part B benefits instead of Original Medicare. It usually also includes Part D drug coverage. Medigap cannot be used with it.",
+      "memoryTip": "Part C = Choose a private plan instead of Original.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-medicare-snf"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q020",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.5.5"
+      ],
+      "concepts": [
+        "medicare-part-d"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Medicare Part D provides coverage for:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Outpatient prescription drugs",
+          "rationale": "Correct: Part D is Medicare's prescription drug benefit."
+        },
+        {
+          "id": "b",
+          "text": "Inpatient hospital stays",
+          "rationale": "Incorrect: that is Part A."
+        },
+        {
+          "id": "c",
+          "text": "Long-term custodial care",
+          "rationale": "Incorrect: Medicare does not cover long-term custodial care."
+        },
+        {
+          "id": "d",
+          "text": "Dental and vision care",
+          "rationale": "Incorrect: these are generally not covered by Original Medicare."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Part D is Medicare's voluntary outpatient prescription drug coverage, offered through private insurers approved by Medicare — as stand-alone drug plans alongside Original Medicare or as part of Medicare Advantage plans.",
+      "memoryTip": "D = Drugs.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q021",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.5.2.2",
+        "gov.5.3.2"
+      ],
+      "concepts": [
+        "initial-enrollment-period"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Ellen's 65th birthday is in August. She is not working and has no employer coverage.",
+      "stem": "When is Ellen's Medicare Initial Enrollment Period?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "August only",
+          "rationale": "Incorrect: the IEP is a seven-month window, not just the birthday month."
+        },
+        {
+          "id": "b",
+          "text": "February through August",
+          "rationale": "Incorrect: this is seven months ending in the birthday month; the window is centered on it."
+        },
+        {
+          "id": "c",
+          "text": "May through November",
+          "rationale": "Correct: three months before August, August itself, and three months after."
+        },
+        {
+          "id": "d",
+          "text": "August through January",
+          "rationale": "Incorrect: this is a six-month window starting in the birthday month (similar to the Medigap open enrollment pattern)."
+        }
+      ],
+      "correct": "c",
+      "explanation": "The Initial Enrollment Period is seven months: the three months before the 65th-birthday month, the birthday month, and the three months after. For an August birthday that is May, June, July, August, September, October and November. Enrolling late in Part B without qualifying coverage can bring a permanent late-enrollment penalty.",
+      "memoryTip": "3 + 1 + 3 around the birthday month.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19",
+        "notes": "Federal rule from standard knowledge; not fetched this batch."
+      }
+    },
+    {
+      "id": "gov-q022",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.6.2"
+      ],
+      "concepts": [
+        "hsa",
+        "medicare"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Walt, 66, has been contributing to an HSA through his employer's HDHP. He has just enrolled in Medicare Part A.",
+      "stem": "What is the effect on Walt's HSA?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "He must close the HSA immediately and pay income tax on the entire balance",
+          "rationale": "Incorrect: the account remains his; enrolling in Medicare affects only new contributions."
+        },
+        {
+          "id": "b",
+          "text": "No new contributions, but he keeps and may use the existing balance",
+          "rationale": "Correct: Medicare enrollees are not eligible individuals for contributions, but the account and its funds remain."
+        },
+        {
+          "id": "c",
+          "text": "He can keep contributing because his employer still offers an HDHP",
+          "rationale": "Incorrect: being enrolled in Medicare makes him ineligible to contribute even with HDHP coverage."
+        },
+        {
+          "id": "d",
+          "text": "He must roll the remaining balance into his employer's health FSA",
+          "rationale": "Incorrect: no such rule exists."
+        }
+      ],
+      "correct": "b",
+      "explanation": "IRS Pub. 969 lists HSA eligibility requirements: HDHP coverage, no other disqualifying coverage, NOT enrolled in Medicare, and not claimable as a dependent. Once enrolled in Medicare, Walt can't make new contributions, but amounts already in the HSA stay in the account and may be used tax-free for qualified medical expenses.",
+      "memoryTip": "Medicare stops HSA deposits, not withdrawals.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Medicare enrollment ends contribution eligibility",
+            "anyOf": [
+              "no longer contribute",
+              "can't contribute",
+              "cannot contribute",
+              "stop contribut"
+            ]
+          },
+          {
+            "label": "Existing balance remains usable",
+            "anyOf": [
+              "keep",
+              "balance",
+              "existing"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-irs-p969"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q023",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.6.3",
+        "gov.6.1"
+      ],
+      "concepts": [
+        "fsa"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "At the end of the plan year, Dana has $400 left in her health FSA. Her employer's plan offers a grace period.",
+      "stem": "What is the most that Dana's grace period can be, and what happens to money still unused after it?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Up to 12 months; unused money is refunded to Dana in cash",
+          "rationale": "Incorrect: the grace period is at most 2½ months, and FSAs don't refund unused amounts as cash."
+        },
+        {
+          "id": "b",
+          "text": "Up to 2½ months; unused money is generally forfeited",
+          "rationale": "Correct: a plan may allow a grace period of up to 2½ months; FSAs are otherwise use-it-or-lose-it."
+        },
+        {
+          "id": "c",
+          "text": "Up to 2½ months; unused money moves into her HSA",
+          "rationale": "Incorrect: unused FSA money does not transfer to an HSA."
+        },
+        {
+          "id": "d",
+          "text": "There is no grace period; she must spend the $400 by December 31",
+          "rationale": "Incorrect: the facts say her plan offers a grace period."
+        }
+      ],
+      "correct": "b",
+      "explanation": "IRS Pub. 969: FSAs are generally 'use-it-or-lose-it' plans, but the plan can provide either a grace period of up to 2½ months after the end of the plan year or a limited carryover. Expenses incurred during the grace period can be paid from leftover funds; anything still unused is forfeited.",
+      "memoryTip": "FSA: use it (maybe 2½ months more) or lose it.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-irs-p969"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q024",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.6.2",
+        "gov.6.1"
+      ],
+      "concepts": [
+        "fsa",
+        "hsa"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [],
+      "scenario": "Rico is a self-employed graphic designer covered by an individual HDHP. He has no other health coverage and is not enrolled in Medicare.",
+      "stem": "Which tax-favored account can Rico establish for himself?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A health FSA",
+          "rationale": "Incorrect: health FSAs are employer-established plans, and self-employed persons are not eligible."
+        },
+        {
+          "id": "b",
+          "text": "Either an FSA or an HSA",
+          "rationale": "Incorrect: he is not eligible for an FSA."
+        },
+        {
+          "id": "c",
+          "text": "Neither, because self-employed people can't have tax-favored health accounts",
+          "rationale": "Incorrect: self-employed people may set up HSAs if otherwise eligible."
+        },
+        {
+          "id": "d",
+          "text": "An HSA",
+          "rationale": "Correct: he has HDHP coverage, no disqualifying coverage, and is not on Medicare; self-employed people may establish and fund HSAs."
+        }
+      ],
+      "correct": "d",
+      "explanation": "IRS Pub. 969: 'Self-employed persons aren't eligible for FSAs,' which are employer-established benefit plans. An HSA, however, can be established by a self-employed individual who meets the eligibility rules (HDHP coverage, no other disqualifying coverage, not enrolled in Medicare, not a dependent).",
+      "memoryTip": "Self-employed? HSA yes, FSA no.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Self-employed can't have FSAs",
+            "anyOf": [
+              "self-employed",
+              "FSA"
+            ]
+          },
+          {
+            "label": "Meets HSA eligibility",
+            "anyOf": [
+              "HDHP",
+              "high-deductible",
+              "eligible"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-irs-p969"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q025",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.7"
+      ],
+      "concepts": [
+        "healthy-new-york",
+        "small-employer"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "What is the purpose of New York's Healthy NY program under Insurance Law § 4326?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "To provide free state-run health coverage to all New York residents over age 65",
+          "rationale": "Incorrect: people 65+ are generally served by Medicare."
+        },
+        {
+          "id": "b",
+          "text": "To replace workers' compensation coverage for New York businesses with 50 or fewer employees",
+          "rationale": "Incorrect: Healthy NY is health insurance, not workers' comp."
+        },
+        {
+          "id": "c",
+          "text": "To give qualifying small employers standardized health coverage and encourage them to offer it",
+          "rationale": "Correct: this is the statutory purpose of § 4326."
+        },
+        {
+          "id": "d",
+          "text": "To provide long-term care coverage to New York Medicaid recipients in nursing homes",
+          "rationale": "Incorrect: Healthy NY is not an LTC program."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Insurance Law § 4326 establishes a program making standardized health insurance contracts available to qualifying small employers; the program is designed to encourage small employers to offer health insurance coverage. A qualifying small employer has not more than 50 employees, no group health coverage in the prior 12 months, and at least 30% lower-wage employees, and the contract must insure at least 50% of employees.",
+      "memoryTip": "Healthy NY = helping small employers start offering health coverage.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-4326"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q026",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.6.1",
+        "gov.6.3"
+      ],
+      "concepts": [
+        "hsa"
+      ],
+      "difficulty": 3,
+      "style": "concept",
+      "tags": [
+        "tricky"
+      ],
+      "stem": "An HSA owner withdraws money for a non-medical purpose. In which situation is there NO additional tax on that distribution (although it is still included in income)?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The owner is 40 and used the money for a vacation",
+          "rationale": "Incorrect: a non-medical distribution before 65 (and without disability) is subject to the additional tax."
+        },
+        {
+          "id": "b",
+          "text": "The owner is 55 and used the money to pay rent",
+          "rationale": "Incorrect: age 55 is not an exception."
+        },
+        {
+          "id": "c",
+          "text": "The owner has reached age 65",
+          "rationale": "Correct: there is no additional tax on distributions made after the owner becomes disabled, reaches 65, or dies."
+        },
+        {
+          "id": "d",
+          "text": "The owner withdrew the money within the same calendar year it was contributed",
+          "rationale": "Incorrect: timing within the year is not an exception."
+        }
+      ],
+      "correct": "c",
+      "explanation": "HSA distributions for qualified medical expenses are tax-free. Non-medical distributions are included in income and generally also face an additional tax — but IRS Pub. 969 says there is no additional tax on distributions made after the account owner is disabled, reaches age 65, or dies.",
+      "memoryTip": "65, disabled or deceased: no HSA penalty.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-irs-p969"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q027",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.5.2.1",
+        "gov.5.3.1"
+      ],
+      "concepts": [
+        "medicare-part-a",
+        "medicare-part-b"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Which statement about Medicare Part A and Part B eligibility is generally true?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Part A is usually premium-free; Part B has a monthly premium",
+          "rationale": "Correct: Part A is premium-free for those with enough Medicare-taxed work; Part B requires a premium."
+        },
+        {
+          "id": "b",
+          "text": "Part B is usually premium-free; Part A has a monthly premium",
+          "rationale": "Incorrect: this reverses the usual rule."
+        },
+        {
+          "id": "c",
+          "text": "Both parts are available only to people with limited income",
+          "rationale": "Incorrect: Medicare is not means-tested."
+        },
+        {
+          "id": "d",
+          "text": "Only people under age 65 may enroll in Part B",
+          "rationale": "Incorrect: Part B is mainly for people 65 and older."
+        }
+      ],
+      "correct": "a",
+      "explanation": "People 65 and older who (or whose spouse) paid Medicare taxes long enough generally receive Part A without a premium. Part B is voluntary, and nearly everyone who enrolls pays a monthly premium. People under 65 can qualify through disability (generally after 24 months of disability benefits), ESRD or ALS.",
+      "memoryTip": "A is usually free; B costs a premium.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

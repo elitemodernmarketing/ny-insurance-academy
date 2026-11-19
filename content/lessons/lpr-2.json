@@ -1,0 +1,560 @@
+{
+ "sectionId": "lpr",
+ "lessons": [
+  {
+   "id": "lpr-l05",
+   "sectionId": "lpr",
+   "order": 5,
+   "title": "Using the Cash Value: Nonforfeiture Options, Loans, Withdrawals and Dividends",
+   "outlineIds": [
+    "lpr.4",
+    "lpr.4.1",
+    "lpr.4.2",
+    "lpr.4.3",
+    "lpr.5",
+    "lpr.5.1",
+    "lpr.5.2",
+    "lpr.5.3",
+    "lpr.6",
+    "lpr.6.1",
+    "lpr.6.2",
+    "lpr.6.3",
+    "lpr.6.4",
+    "lpr.6.5"
+   ],
+   "estMinutes": 35,
+   "intro": "Permanent life insurance builds cash value, and participating policies may pay dividends. That money belongs to the policyowner in several ways: it can be taken if premiums stop, borrowed, withdrawn, or used to buy more coverage. This lesson covers the three groups of options the exam loves to mix up: nonforfeiture options, loan and withdrawal options, and dividend options.",
+   "objectives": [
+    "Compare the three nonforfeiture options and identify New York's automatic-option and deferral rules.",
+    "Explain how policy loans and automatic premium loans affect the policy.",
+    "Distinguish a withdrawal (partial surrender) from a loan.",
+    "Describe the five dividend options and their tax treatment."
+   ],
+   "keyTerms": [
+    "nonforfeiture-options",
+    "cash-surrender-value",
+    "extended-term-option",
+    "reduced-paid-up-option",
+    "policy-loan",
+    "automatic-premium-loan",
+    "partial-surrender",
+    "dividend",
+    "dividend-options",
+    "paid-up-additions"
+   ],
+   "parts": [
+    {
+     "heading": "Nonforfeiture options: when premiums stop",
+     "body": "\"Nonforfeiture\" means you don't forfeit (lose) the [[cash-value]] you've built if you stop paying premiums on a permanent policy. There are three [[nonforfeiture-options]]:\n\n- **[[cash-surrender-value|Cash surrender value]]:** surrender the policy and take the net cash value (cash value minus loans and interest, plus any dividend values). Coverage ends.\n- **[[extended-term-option|Extended term]]:** the net cash value buys term insurance for the full face amount (minus loans) for as long as it will last.\n- **[[reduced-paid-up-option|Reduced paid-up]]:** the net cash value buys a smaller amount of paid-up permanent insurance that lasts for life and keeps building cash value.\n\nTerm policies usually have no cash value, so they have no nonforfeiture values.",
+     "simple": "Stop paying on a permanent policy and you keep what you've built: take the cash, keep full coverage for a while, or keep smaller coverage forever.",
+     "example": {
+      "title": "Example: Lou's three choices",
+      "body": "Lou has a $100,000 whole life policy with $30,000 of net cash value. He can take $30,000 in cash (coverage ends), keep $100,000 of term coverage for the number of years $30,000 will buy at his age, or keep a smaller paid-up whole life policy for life."
+     },
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "NY Insurance Law § 4221(a): after a premium default, the paid-up nonforfeiture benefit named in the policy takes effect automatically unless the owner elects another option within 60 days after the due date of the premium in default. The policy must show a table of values, and the insurer may defer paying a cash surrender value for up to six months.",
+       "sources": [
+        "ny-isc-4221"
+       ]
+      },
+      {
+       "kind": "memory-tip",
+       "text": "Extended term: same size, shorter time. Reduced paid-up: smaller size, all the time."
+      },
+      {
+       "kind": "exam-trap",
+       "text": "The automatic option is whichever the policy specifies — most commonly extended term."
+      }
+     ]
+    },
+    {
+     "heading": "Policy loans and automatic premium loans",
+     "body": "A [[policy-loan]] lets the owner borrow from the insurer using the cash value as security. There is no credit check and no required repayment schedule, but interest is charged. Any unpaid loan and interest is subtracted from the death benefit or the surrender value. If the loan balance grows larger than the cash value, the policy can terminate after notice.\n\nAn [[automatic-premium-loan]] (APL) provision, usually elected by the owner, borrows any premium still unpaid at the end of the grace period so the policy doesn't lapse by accident. Each APL is a regular policy loan with interest.",
+     "example": {
+      "title": "Example: loan at death",
+      "body": "Mae has a $250,000 policy and dies owing a $30,000 loan plus $2,000 interest. Her beneficiary receives $250,000 − $32,000 = $218,000."
+     },
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "NY Insurance Law § 3203(a)(8): an individual life policy (other than term insurance) must offer loans once three full years' premiums have been paid (three years from issue for flexible-premium policies), with the policy as the sole security.",
+       "sources": [
+        "ny-isc-3203"
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "Withdrawals (partial surrenders)",
+     "body": "In flexible policies such as [[universal-life]], the owner can make a [[partial-surrender|withdrawal]] — take part of the cash value out permanently. Unlike a loan:\n\n- there is no interest and no repayment,\n- the cash value drops permanently,\n- the death benefit usually drops too, and\n- a [[surrender-charge]] may apply in early years.\n\nA full surrender, by contrast, ends the policy.",
+     "callouts": [
+      {
+       "kind": "memory-tip",
+       "text": "Loan = borrow and owe. Withdrawal = take and it's gone."
+      }
+     ]
+    },
+    {
+     "heading": "Dividends and dividend options",
+     "body": "A [[participating-policy]] may pay a [[dividend]] — a non-guaranteed return of part of the premium when the insurer's mortality, interest and expense experience is better than assumed. Because a dividend is a return of premium, it is generally not taxable until total dividends exceed premiums paid.\n\nThe [[dividend-options]]:\n\n- **Cash** — the insurer sends a check.\n- **Reduction of premium** — the dividend is applied to the next premium.\n- **Accumulation at interest** — the insurer holds the dividends and credits interest. The interest is taxable.\n- **One-year term** — the dividend buys one year of term insurance, often limited to the amount of the cash value.\n- **[[paid-up-additions|Paid-up additions]]** — each dividend buys a small amount of paid-up permanent insurance at net rates with no evidence of insurability. Additions increase the death benefit and build their own cash value.",
+     "simple": "If the insurer does better than expected, it may give back some premium. You can take it as cash, use it to lower your bill, let it earn interest, or buy extra insurance with it.",
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "Dividends are NOT guaranteed and are not taxable as income (they are a return of premium) — but interest on accumulated dividends IS taxable."
+      },
+      {
+       "kind": "note",
+       "text": "New York Insurance Law § 3203(a)(6) requires insurers to ascertain and apportion any divisible surplus on participating policies annually.",
+       "sources": [
+        "ny-isc-3203"
+       ]
+      }
+     ]
+    }
+   ],
+   "activity": {
+    "type": "categorize",
+    "prompt": "Sort each choice into the group of options it belongs to.",
+    "categories": [
+     "Nonforfeiture option",
+     "Dividend option",
+     "Loan or withdrawal"
+    ],
+    "items": [
+     {
+      "text": "Extended term insurance",
+      "category": "Nonforfeiture option"
+     },
+     {
+      "text": "Reduced paid-up insurance",
+      "category": "Nonforfeiture option"
+     },
+     {
+      "text": "Cash surrender value",
+      "category": "Nonforfeiture option"
+     },
+     {
+      "text": "Paid-up additions",
+      "category": "Dividend option"
+     },
+     {
+      "text": "Accumulation at interest",
+      "category": "Dividend option"
+     },
+     {
+      "text": "One-year term",
+      "category": "Dividend option"
+     },
+     {
+      "text": "Automatic premium loan",
+      "category": "Loan or withdrawal"
+     },
+     {
+      "text": "Partial surrender",
+      "category": "Loan or withdrawal"
+     }
+    ]
+   },
+   "knowledgeChecks": [
+    {
+     "prompt": "Which nonforfeiture option provides lifetime coverage at a reduced face amount?",
+     "choices": [
+      "Extended term",
+      "Reduced paid-up",
+      "Cash surrender",
+      "One-year term"
+     ],
+     "answerIndex": 1,
+     "explanation": "Reduced paid-up buys permanent coverage for a smaller face amount."
+    },
+    {
+     "prompt": "Under New York law, how long may an insurer defer payment of a cash surrender value?",
+     "choices": [
+      "31 days",
+      "60 days",
+      "Six months",
+      "Two years"
+     ],
+     "answerIndex": 2,
+     "explanation": "NY Insurance Law § 4221(a) requires the insurer to reserve the right to defer payment for six months."
+    },
+    {
+     "prompt": "Which dividend option generates taxable income each year?",
+     "choices": [
+      "Reduction of premium",
+      "Paid-up additions",
+      "Accumulation at interest",
+      "Cash"
+     ],
+     "answerIndex": 2,
+     "explanation": "Interest credited on accumulated dividends is taxable."
+    },
+    {
+     "prompt": "How does a withdrawal from a universal life policy differ from a policy loan?",
+     "choices": [
+      "It accrues interest",
+      "It is not repaid and permanently reduces the cash value",
+      "It increases the death benefit",
+      "It is available only on term policies"
+     ],
+     "answerIndex": 1,
+     "explanation": "Withdrawals are permanent removals; loans are debts with interest."
+    }
+   ],
+   "summary": [
+    "Nonforfeiture options: cash surrender, extended term (same amount, limited time), reduced paid-up (smaller amount, for life).",
+    "NY: the policy's automatic paid-up option applies unless the owner elects another within 60 days of the premium default; cash value payment may be deferred up to six months.",
+    "Policy loans accrue interest and reduce the death benefit; an APL borrows the premium to prevent accidental lapse.",
+    "Withdrawals permanently reduce cash value and usually the death benefit, with no interest or repayment.",
+    "Dividend options: cash, reduce premium, accumulate at interest (interest taxable), one-year term, paid-up additions."
+   ],
+   "related": [
+    "lpr-l02",
+    "lpr-l04",
+    "lpr-l06"
+   ],
+   "sources": [
+    "ny-isc-3203",
+    "ny-isc-4221"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-l06",
+   "sectionId": "lpr",
+   "order": 6,
+   "title": "When the Insured Is Disabled or Seriously Ill: Disability Riders and Accelerated Benefits",
+   "outlineIds": [
+    "lpr.7",
+    "lpr.7.1",
+    "lpr.7.2",
+    "lpr.7.3",
+    "lpr.7.4",
+    "lpr.8",
+    "lpr.8.1",
+    "lpr.8.2"
+   ],
+   "estMinutes": 25,
+   "intro": "Life insurance is about death, but riders can make it useful during life, too. Disability riders keep a policy going (or pay income) when the insured — or the person paying for a child's policy — can no longer work. Accelerated benefits let a seriously ill insured use part of the death benefit while still living. New York regulates accelerated benefits closely.",
+   "objectives": [
+    "Explain how waiver of premium works, including the waiting period.",
+    "Distinguish waiver of premium, waiver of cost of insurance, disability income and payor benefit riders.",
+    "List the New York conditions that can qualify for accelerated benefits.",
+    "Describe New York's required disclosures and the effect of acceleration on the death benefit."
+   ],
+   "keyTerms": [
+    "rider",
+    "waiver-of-premium",
+    "waiver-of-cost-of-insurance",
+    "payor-benefit-rider",
+    "accelerated-death-benefit",
+    "total-disability"
+   ],
+   "parts": [
+    {
+     "heading": "Waiver of premium",
+     "body": "A [[rider]] adds benefits to a policy, usually for extra premium. The [[waiver-of-premium]] rider says: if the insured becomes totally disabled, the insurer will waive premiums for as long as the disability lasts.\n\n- A waiting period applies first (commonly six months).\n- Once the waiver is approved, premiums paid during the waiting period are typically refunded.\n- The policy continues exactly as if premiums were being paid — cash values grow and dividends continue.\n- The rider usually requires the disability to begin before an age stated in the rider, and the insured must meet the rider's definition of [[total-disability]].",
+     "simple": "If you become totally disabled, after a waiting period the insurer pays your premiums for you.",
+     "example": {
+      "title": "Example: Ned's back injury",
+      "body": "Ned becomes totally disabled in January. His rider has a six-month waiting period. He keeps paying premiums until July, when the waiver begins — and the insurer refunds the premiums he paid from January to July."
+     },
+     "callouts": []
+    },
+    {
+     "heading": "Waiver of cost of insurance, disability income and payor benefit",
+     "body": "- **[[waiver-of-cost-of-insurance|Waiver of cost of insurance]]** — common on universal life. It waives the monthly cost of insurance (and often other monthly charges) during total disability. It does not credit the planned premium, so the cash value isn't built up the way it would be under waiver of premium.\n- **Disability income rider** — pays the insured a monthly income during total disability, often stated as a set amount per $1,000 of face amount. It is usually combined with waiver of premium.\n- **[[payor-benefit-rider|Payor benefit]]** — used on juvenile policies. If the payor (usually a parent) dies or becomes totally disabled, premiums on the child's policy are waived until the child reaches the age stated in the rider. Because the risk is the payor's death or disability, the payor usually has to prove insurability.",
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "Waiver of premium = the INSURED's disability. Payor benefit = the PAYOR's death or disability on a child's policy."
+      }
+     ]
+    },
+    {
+     "heading": "Accelerated (living) benefits: when they are paid",
+     "body": "An [[accelerated-death-benefit]] pays part or all of the death benefit (or a special surrender value) to the owner while the insured is still alive. New York defines the qualifying conditions in Insurance Law § 1113(a)(1):\n\n- terminal illness with a life expectancy of 12 months or less;\n- a medical condition requiring extraordinary medical care or treatment, regardless of life expectancy;\n- certain chronic illness conditions certified by a licensed health care practitioner (tied to federal tax definitions);\n- residence in a nursing home for three months or more, expected to continue until death;\n- end-of-life or palliative care for three months or more, expected to continue until death.",
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "NY Insurance Law § 1113(a)(1)(A)–(F) lists the conditions under which a life policy may accelerate the death benefit.",
+       "sources": [
+        "ny-isc-1113"
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "Accelerated benefits: New York disclosures and the effect on the death benefit",
+     "body": "New York's § 3230 protects owners who accelerate benefits:\n\n- The original application must prominently state that receiving accelerated benefits may affect eligibility for public assistance programs and may be taxable, and must show any added premium or discount for the feature.\n- The application to accelerate must be completed and signed by the owner within 30 days of the date the insurer sends it, must include public-assistance and tax notices, a statement that the request is voluntary and free of coercion, and a statement of the remaining death benefit.\n- Within five days of receiving the request, the insurer must send an illustration of the effect on cash value and loans, the death benefit payable on death, the amount payable on acceleration, and a notice that other options such as a policy loan may be available.\n- The insurer may not pay until five days after sending that information, and the owner may rescind the request at any time during the process.\n\n**Effect:** whatever is accelerated reduces the death benefit (and may reduce cash values and loan values). The beneficiary receives what remains.",
+     "example": {
+      "title": "Example: Ola's acceleration",
+      "body": "Ola, terminally ill, accelerates $80,000 of her $200,000 policy. After receiving the required illustration, she waits the five days and receives her benefit. Her beneficiary will receive the reduced remaining death benefit (about $120,000, less any charges the policy imposes for acceleration)."
+     },
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "NY Insurance Law § 3230: disclosures within five days of the request; no payment for five days after they are sent; owner may rescind during the process; application to accelerate signed within 30 days of transmittal; group policies — only the certificateholder may accelerate.",
+       "sources": [
+        "ny-isc-3230",
+        "ny-isc-1113"
+       ]
+      },
+      {
+       "kind": "exam-trap",
+       "text": "Accelerated benefits are an advance on the death benefit from the insurer — not a sale of the policy to a third party (that is a viatical or life settlement)."
+      }
+     ]
+    }
+   ],
+   "activity": {
+    "type": "match",
+    "prompt": "Match each rider to the event that triggers it.",
+    "pairs": [
+     {
+      "left": "Waiver of premium",
+      "right": "The insured becomes totally disabled"
+     },
+     {
+      "left": "Payor benefit",
+      "right": "The parent paying for a child's policy dies or becomes disabled"
+     },
+     {
+      "left": "Waiver of cost of insurance",
+      "right": "Universal life insured is disabled; monthly charges are waived"
+     },
+     {
+      "left": "Disability income rider",
+      "right": "A monthly income is paid during the insured's disability"
+     },
+     {
+      "left": "Accelerated benefit",
+      "right": "The insured is terminally ill with 12 months or less to live"
+     }
+    ]
+   },
+   "knowledgeChecks": [
+    {
+     "prompt": "What usually happens to premiums paid during a waiver of premium waiting period once the waiver is approved?",
+     "choices": [
+      "They are forfeited",
+      "They are typically refunded",
+      "They are converted into a loan",
+      "They are added to the death benefit"
+     ],
+     "answerIndex": 1,
+     "explanation": "Most waiver of premium riders refund premiums paid during the waiting period once the claim is approved."
+    },
+    {
+     "prompt": "Under New York law, how soon after receiving an application to accelerate must the insurer send an illustration of its effect?",
+     "choices": [
+      "Within 24 hours",
+      "Within five days",
+      "Within 30 days",
+      "Within six months"
+     ],
+     "answerIndex": 1,
+     "explanation": "NY Insurance Law § 3230(d) requires the information within five days of receipt of the application."
+    },
+    {
+     "prompt": "How does receiving an accelerated benefit affect the policy's death benefit?",
+     "choices": [
+      "It doubles it",
+      "It has no effect",
+      "It reduces it",
+      "It converts it to term insurance"
+     ],
+     "answerIndex": 2,
+     "explanation": "Amounts accelerated reduce the death benefit available to the beneficiary."
+    }
+   ],
+   "summary": [
+    "Waiver of premium waives premiums during the insured's total disability after a waiting period, usually refunding waiting-period premiums.",
+    "Waiver of cost of insurance (universal life) waives only monthly charges; disability income riders pay monthly income.",
+    "The payor benefit waives a juvenile policy's premiums if the payor dies or becomes disabled.",
+    "NY accelerated benefit conditions include terminal illness (12 months or less), extraordinary medical care, chronic illness, and three months or more of nursing home or end-of-life care.",
+    "NY requires disclosures within five days, a five-day wait before payment and a right to rescind; acceleration reduces the death benefit."
+   ],
+   "related": [
+    "lpr-l05",
+    "lpr-l07"
+   ],
+   "sources": [
+    "ny-isc-3230",
+    "ny-isc-1113"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-l07",
+   "sectionId": "lpr",
+   "order": 7,
+   "title": "Riders That Add People or Add Coverage",
+   "outlineIds": [
+    "lpr.9",
+    "lpr.9.1",
+    "lpr.9.2",
+    "lpr.9.3",
+    "lpr.10",
+    "lpr.10.1",
+    "lpr.10.2",
+    "lpr.10.3",
+    "lpr.10.4",
+    "lpr.10.5"
+   ],
+   "estMinutes": 20,
+   "intro": "Riders let one policy do more: cover a spouse or the kids, pay extra for an accidental death, keep pace with inflation, or let the insured buy more coverage later without a medical exam. The exam often asks which rider fits a client's situation, so focus on what triggers each one and who it covers.",
+   "objectives": [
+    "Distinguish spouse/other-insured, children's and family term riders.",
+    "Explain how accidental death, guaranteed insurability, cost of living, return of premium and term riders change the death benefit.",
+    "Choose an appropriate rider for a client scenario."
+   ],
+   "keyTerms": [
+    "other-insured-rider",
+    "childrens-term-rider",
+    "family-term-rider",
+    "accidental-death-benefit",
+    "guaranteed-insurability-rider",
+    "cost-of-living-rider",
+    "return-of-premium-rider",
+    "term-rider"
+   ],
+   "parts": [
+    {
+     "heading": "Riders covering additional insureds",
+     "body": "- **[[other-insured-rider|Spouse / other-insured term rider]]:** adds term coverage on someone other than the base insured — most often a spouse. It is usually level term and commonly convertible to permanent coverage without evidence of insurability within a stated period.\n- **[[childrens-term-rider|Children's term rider]]:** covers all of the insured's eligible children for one premium, no matter how many there are. Children born or adopted later are typically added automatically, and each child can usually convert to permanent coverage at a stated age without evidence of insurability.\n- **[[family-term-rider|Family term rider]]:** combines spouse and children coverage in one rider attached to the primary insured's permanent policy.",
+     "simple": "These riders let you cover your spouse, your kids, or both under your own policy instead of buying separate policies.",
+     "callouts": [
+      {
+       "kind": "memory-tip",
+       "text": "Other-insured = one other person. Children's = all the kids. Family = spouse + kids."
+      }
+     ]
+    },
+    {
+     "heading": "Riders that increase the death benefit",
+     "body": "- **[[accidental-death-benefit|Accidental death benefit]] (double indemnity):** pays an extra amount — often equal to the face amount — if death results from an accident as defined in the rider, typically within a stated period after the accident (commonly 90 days) and before a stated age. Death from illness gets only the base amount.\n- **[[guaranteed-insurability-rider|Guaranteed insurability]]:** lets the owner buy more coverage on specified option dates or after events such as marriage or a birth, without evidence of insurability. The new coverage is priced at the insured's age when it is bought. The rider generally ends at an age stated in the rider.\n- **[[cost-of-living-rider|Cost of living]]:** automatically increases the death benefit in line with an inflation index such as the CPI, without evidence of insurability, for an added premium.\n- **[[return-of-premium-rider|Return of premium]]:** in its common term design, refunds base premiums if the insured is alive at the end of the term; another design adds premiums paid to the death benefit if death occurs within a set period. It adds significant cost.\n- **[[term-rider|Term rider]]:** adds level or decreasing term insurance on the base insured to a permanent policy — extra coverage for a period at low cost (for example, while children are young or a mortgage is outstanding).",
+     "example": {
+      "title": "Example: matching riders to needs",
+      "body": "Pam, 28, expects to have children and earn more later, but her family has a history of heart disease. A guaranteed insurability rider lets her add coverage later even if her health changes. Her neighbor Rob wants $500,000 of coverage only until his mortgage is paid off, on top of his $100,000 whole life policy — a decreasing term rider fits."
+     },
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "Guaranteed insurability guarantees the RIGHT to buy, not the original price. Cost of living increases happen automatically; guaranteed insurability purchases must be elected."
+      },
+      {
+       "kind": "exam-trap",
+       "text": "Waiver of premium is a disability rider; it never increases the death benefit."
+      }
+     ]
+    }
+   ],
+   "activity": {
+    "type": "match",
+    "prompt": "Match each client need to the best rider.",
+    "pairs": [
+     {
+      "left": "Extra benefit if death is caused by an accident",
+      "right": "Accidental death benefit"
+     },
+     {
+      "left": "Buy more coverage later without a medical exam",
+      "right": "Guaranteed insurability"
+     },
+     {
+      "left": "Death benefit that keeps pace with inflation",
+      "right": "Cost of living rider"
+     },
+     {
+      "left": "Premiums back if the insured outlives the term",
+      "right": "Return of premium rider"
+     },
+     {
+      "left": "Temporary extra coverage on the base insured",
+      "right": "Term rider"
+     },
+     {
+      "left": "Coverage on all of the insured's children for one premium",
+      "right": "Children's term rider"
+     },
+     {
+      "left": "Term coverage on the insured's spouse only",
+      "right": "Other-insured rider"
+     }
+    ]
+   },
+   "knowledgeChecks": [
+    {
+     "prompt": "A $150,000 policy with a double indemnity rider pays how much if the insured dies of cancer?",
+     "choices": [
+      "$150,000",
+      "$300,000",
+      "$75,000",
+      "Nothing"
+     ],
+     "answerIndex": 0,
+     "explanation": "Accidental death benefits pay extra only for qualifying accidental deaths; illness pays the base face amount."
+    },
+    {
+     "prompt": "Which rider covers both the insured's spouse and children?",
+     "choices": [
+      "Children's term rider",
+      "Family term rider",
+      "Payor benefit rider",
+      "Guaranteed insurability rider"
+     ],
+     "answerIndex": 1,
+     "explanation": "A family term rider combines spouse and children coverage."
+    },
+    {
+     "prompt": "Under a guaranteed insurability rider, the premium for added coverage is based on:",
+     "choices": [
+      "The insured's age at original issue",
+      "The insured's attained age when the option is exercised",
+      "A flat rate set by New York law",
+      "The beneficiary's age"
+     ],
+     "answerIndex": 1,
+     "explanation": "Insurability is guaranteed, but the added coverage is priced at the insured's age when purchased."
+    }
+   ],
+   "summary": [
+    "Other-insured riders cover another person (often a spouse); children's riders cover all children for one premium; family riders cover both.",
+    "Accidental death riders pay extra only for qualifying accidental deaths.",
+    "Guaranteed insurability allows future purchases without evidence of insurability, priced at attained age.",
+    "Cost of living riders raise coverage with inflation; return of premium riders refund premiums under stated conditions.",
+    "Term riders add temporary coverage on the base insured."
+   ],
+   "related": [
+    "lpr-l06",
+    "lpr-l03"
+   ],
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

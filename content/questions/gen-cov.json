@@ -1,0 +1,1355 @@
+{
+ "sectionId": "gen",
+ "questions": [
+  {
+   "id": "gen-q101",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "gen",
+   "outlineIds": [
+    "gen.1.1.2"
+   ],
+   "concepts": [
+    "exposure",
+    "law-of-large-numbers"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "An insurer measures the risk it carries in units such as each insured life or each $1,000 of coverage. These are:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Hazards",
+     "rationale": "Incorrect: a hazard is a condition that makes a loss more likely or more severe, not a unit of measurement."
+    },
+    {
+     "id": "b",
+     "text": "Perils",
+     "rationale": "Incorrect: a peril is the event that causes a loss, such as death or sickness."
+    },
+    {
+     "id": "c",
+     "text": "Exposure units",
+     "rationale": "Correct: exposure is the unit an insurer uses to measure how much risk it carries and to set rates."
+    },
+    {
+     "id": "d",
+     "text": "Retention limits",
+     "rationale": "Incorrect: a retention limit is the amount of risk an insurer keeps before reinsuring; it is not the basic unit of measuring risk."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Exposure is the unit of measure insurers use to determine how much risk they carry and what rates to charge. In life insurance, each insured life or each $1,000 of coverage can be an exposure unit. The more similar exposure units an insurer has, the more accurately it can predict losses (the law of large numbers).",
+   "memoryTip": "Exposure = what you COUNT to measure risk.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "gen-q102",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "gen",
+   "outlineIds": [
+    "gen.1.1.5"
+   ],
+   "concepts": [
+    "loss",
+    "peril",
+    "hazard"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Nora, who often climbs ladders without anyone holding them, falls while cleaning gutters. She breaks her hip, runs up $18,000 in medical bills and misses three months of work.",
+   "stem": "In insurance terms, Nora's medical bills and lost wages are the:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Loss",
+     "rationale": "Correct: a loss is the reduction in value that results from a peril, such as medical costs and lost income."
+    },
+    {
+     "id": "b",
+     "text": "Peril",
+     "rationale": "Incorrect: the peril is the event that caused the loss, which here is the fall (an accident)."
+    },
+    {
+     "id": "c",
+     "text": "Hazard",
+     "rationale": "Incorrect: the hazard is the condition that made the loss more likely, here climbing ladders without help."
+    },
+    {
+     "id": "d",
+     "text": "Exposure",
+     "rationale": "Incorrect: exposure is a unit insurers use to measure risk and set rates, not the financial result of an accident."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Hazard, peril and loss form a chain: the hazard (an unsafe habit) makes a loss more likely, the peril (the fall) causes it, and the loss is the resulting decrease in value: the medical bills and lost wages. Exam questions often describe all three in one story and ask you to label one.",
+   "memoryTip": "Hazard = condition, Peril = cause, Loss = cost.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "gen-q103",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "gen",
+   "outlineIds": [
+    "gen.1.2.1"
+   ],
+   "concepts": [
+    "risk-avoidance",
+    "risk-reduction"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [
+    "tricky"
+   ],
+   "scenario": "Ari is offered a free skydiving lesson. Worried about being injured, he turns it down and decides never to skydive.",
+   "stem": "Which method of handling risk is Ari using?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Reduction",
+     "rationale": "Incorrect: reduction lowers the chance or size of a loss while still doing the activity, such as using extra safety gear."
+    },
+    {
+     "id": "b",
+     "text": "Retention",
+     "rationale": "Incorrect: retention means accepting the risk and paying any loss yourself."
+    },
+    {
+     "id": "c",
+     "text": "Transfer",
+     "rationale": "Incorrect: transfer shifts the financial burden to someone else, such as an insurer."
+    },
+    {
+     "id": "d",
+     "text": "Avoidance",
+     "rationale": "Correct: by never doing the activity, Ari eliminates the risk entirely. That is avoidance."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Avoidance means not engaging in the risky activity at all, so the risk is eliminated rather than reduced, kept or shifted. If Ari skydived but chose an experienced instructor and extra safety gear, that would be reduction.",
+   "memoryTip": "Never does it = Avoids it.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "gen-q104",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "gen",
+   "outlineIds": [
+    "gen.1.2.2"
+   ],
+   "concepts": [
+    "risk-retention",
+    "deductible"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "To lower her premium, Bea chooses a health plan with a $2,000 annual deductible. She plans to pay her routine medical bills up to that amount from savings.",
+   "stem": "For the first $2,000 of covered costs each year, Bea is using which method of handling risk?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Avoidance",
+     "rationale": "Incorrect: Bea is not avoiding medical care or the risk of illness; she is planning how to pay for it."
+    },
+    {
+     "id": "b",
+     "text": "Retention",
+     "rationale": "Correct: by keeping the first $2,000 of each year's costs herself, Bea is retaining that part of the risk."
+    },
+    {
+     "id": "c",
+     "text": "Sharing",
+     "rationale": "Incorrect: sharing spreads losses among members of a group, such as partners who agree to split losses."
+    },
+    {
+     "id": "d",
+     "text": "Transfer",
+     "rationale": "Incorrect: costs above the deductible are transferred to the insurer, but the first $2,000 stays with Bea."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Retention means keeping a risk and paying any resulting loss yourself. Deductibles, copayments, elimination periods and self-insurance are all forms of retention. Bea retains the first $2,000 of costs and transfers costs above that to the insurer in exchange for her premium; a higher deductible means more retention and a lower premium.",
+   "memoryTip": "Deductible = the part of the risk you RETAIN.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "gen-q105",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "gen",
+   "outlineIds": [
+    "gen.1.2.3"
+   ],
+   "concepts": [
+    "risk-sharing",
+    "risk-transfer"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "tricky"
+   ],
+   "scenario": "Five dentists who own separate practices agree in writing that if any one of their offices is damaged, all five will contribute equally to the repair costs. They buy no insurance for this.",
+   "stem": "Which method of handling risk are the dentists using?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Transfer",
+     "rationale": "Incorrect: transfer shifts the loss to a separate party, such as an insurer, in exchange for a premium. Here the dentists keep the loss within their own group."
+    },
+    {
+     "id": "b",
+     "text": "Reduction",
+     "rationale": "Incorrect: reduction lowers the chance or size of a loss, such as installing sprinklers. The agreement does not make damage less likely."
+    },
+    {
+     "id": "c",
+     "text": "Sharing",
+     "rationale": "Correct: the members of a group agree to split the financial consequences of a loss among themselves. That is risk sharing."
+    },
+    {
+     "id": "d",
+     "text": "Avoidance",
+     "rationale": "Incorrect: the dentists still own offices that can be damaged, so the risk has not been eliminated."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Risk sharing spreads losses among the members of a group, each bearing a portion. It differs from transfer, which moves the loss to an outside party (such as an insurer) for a premium. Insurance itself relies on a similar idea of pooling, but in an insurance contract the risk is transferred to the insurer.",
+   "memoryTip": "Sharing stays INSIDE the group; transfer goes to an OUTSIDE party.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Identifies risk sharing",
+      "anyOf": [
+       "shar"
+      ]
+     },
+     {
+      "label": "Losses are split among group members",
+      "anyOf": [
+       "split",
+       "among",
+       "members",
+       "group",
+       "contribute"
+      ]
+     },
+     {
+      "label": "Not transferred to an outside party such as an insurer",
+      "anyOf": [
+       "no insur",
+       "not transfer",
+       "outside",
+       "insurer"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "gen-q106",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "gen",
+   "outlineIds": [
+    "gen.1.2.5"
+   ],
+   "concepts": [
+    "risk-transfer"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "A concert promoter hires a security company. The contract requires the security company to pay any injury claims caused by its guards' actions and to hold the promoter harmless.",
+   "stem": "Without buying insurance, how has the promoter handled the risk of those injury claims?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "By transferring it through a contract",
+     "rationale": "Correct: a hold-harmless clause shifts the financial burden of the loss to another party by contract, which is risk transfer."
+    },
+    {
+     "id": "b",
+     "text": "By retaining it through self-insurance",
+     "rationale": "Incorrect: retention would mean the promoter pays the losses itself. The contract shifts them to the security company."
+    },
+    {
+     "id": "c",
+     "text": "By sharing it among concert attendees",
+     "rationale": "Incorrect: the attendees have not agreed to split any losses; the burden was shifted to one party, the security company."
+    },
+    {
+     "id": "d",
+     "text": "By avoiding it by canceling the event",
+     "rationale": "Incorrect: the concert still takes place, so the risk has not been avoided."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Transfer means shifting the financial burden of a risk to someone else. It can be done by contract, such as a hold-harmless or indemnity clause in a lease or service agreement, or, most commonly, by an insurance contract in which the insurer accepts the risk for a premium.",
+   "memoryTip": "Transfer = somebody ELSE pays: by contract or by insurance.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "gen-q107",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "gen",
+   "outlineIds": [
+    "gen.2.1.3"
+   ],
+   "concepts": [
+    "fraternal-benefit-society",
+    "mutual-insurer",
+    "stock-insurer"
+   ],
+   "difficulty": 2,
+   "style": "comparison",
+   "tags": [],
+   "stem": "Which feature best distinguishes a fraternal benefit society from a mutual insurer?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "It is owned by outside stockholders who share in the profits",
+     "rationale": "Incorrect: ownership by stockholders describes a stock insurer, not a fraternal benefit society."
+    },
+    {
+     "id": "b",
+     "text": "It sells insurance to members and operates through a lodge system",
+     "rationale": "Correct: a fraternal benefit society is a nonprofit membership organization that operates through lodges with a representative form of government and insures its members."
+    },
+    {
+     "id": "c",
+     "text": "It issues participating policies that may pay policy dividends",
+     "rationale": "Incorrect: mutual insurers also typically issue participating policies, so this does not distinguish the two."
+    },
+    {
+     "id": "d",
+     "text": "It sells only by direct response with no agents involved",
+     "rationale": "Incorrect: fraternal benefit societies may use agents; the distinguishing features are membership and the lodge system."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Fraternal benefit societies are nonprofit organizations, often built around a religious, ethnic, social or occupational bond. They operate through a lodge system with a representative form of government and provide insurance to their members, along with social or charitable activities. Mutual insurers are owned by their policyowners; stock insurers are owned by stockholders.",
+   "memoryTip": "Fraternal = Fellowship: members and lodges.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "gen-q108",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "gen",
+   "outlineIds": [
+    "gen.2.2"
+   ],
+   "concepts": [
+    "medicare",
+    "medicaid",
+    "insurance"
+   ],
+   "difficulty": 2,
+   "style": "comparison",
+   "tags": [],
+   "stem": "Which statement best contrasts government insurance programs with private insurers?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Government programs individually underwrite each person first",
+     "rationale": "Incorrect: government social insurance programs are generally not individually underwritten; eligibility is set by law."
+    },
+    {
+     "id": "b",
+     "text": "Private insurers must accept every risk regardless of insurability",
+     "rationale": "Incorrect: private insurers sell coverage voluntarily and generally underwrite applicants."
+    },
+    {
+     "id": "c",
+     "text": "Private insurers are funded mainly through payroll and income taxes",
+     "rationale": "Incorrect: private insurers are funded by premiums; taxes fund government programs."
+    },
+    {
+     "id": "d",
+     "text": "Government programs are often compulsory and funded by taxes",
+     "rationale": "Correct: programs like Social Security and Medicare are often compulsory or need-based and funded by taxes or required contributions."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Private insurers (stock, mutual and fraternal) sell coverage voluntarily, compete for customers, underwrite applicants and must earn enough to stay solvent. Government insurers run social insurance programs, such as Social Security, Medicare and Medicaid, that cover risks private insurers can't or won't cover on a broad basis. These programs are often compulsory or need-based and are funded by taxes or required contributions rather than individually underwritten premiums.",
+   "memoryTip": "Private = voluntary + premiums. Government = required + taxes.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "gen-q109",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "gen",
+   "outlineIds": [
+    "gen.2.6"
+   ],
+   "concepts": [
+    "distribution-system"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "After seeing a television ad, Leo applies for a term life policy on the insurer's website and buys it online. No agent or broker is involved at any point.",
+   "stem": "Which distribution system did the insurer use?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Direct response",
+     "rationale": "Correct: direct response sells insurance by mail, phone, television or internet with no producer involved."
+    },
+    {
+     "id": "b",
+     "text": "Career (captive) agency",
+     "rationale": "Incorrect: a career agency system sells through agents who represent primarily one insurer; Leo dealt with no agent."
+    },
+    {
+     "id": "c",
+     "text": "Independent agency",
+     "rationale": "Incorrect: independent agents represent several insurers; no agent was involved here."
+    },
+    {
+     "id": "d",
+     "text": "Personal producing general agency",
+     "rationale": "Incorrect: a personal producing general agent is an experienced producer who sells for one or more insurers; no producer was involved."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Distribution (marketing) systems are the channels insurers use to reach buyers. Career (captive) agents represent primarily one insurer; independent agents and brokers place business with several insurers; personal producing general agents are experienced producers who sell for one or more insurers; and direct response sells by mail, telephone, television or internet with no producer.",
+   "memoryTip": "Direct response = Direct to you, no producer.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "gen-q110",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "gen",
+   "outlineIds": [
+    "gen.3.3.1"
+   ],
+   "concepts": [
+    "express-authority",
+    "implied-authority",
+    "apparent-authority"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "An agent's contract specifically authorizes her to solicit applications and collect initial premiums. This is:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Implied authority",
+     "rationale": "Incorrect: implied authority is unwritten authority reasonably necessary to carry out the express authority."
+    },
+    {
+     "id": "b",
+     "text": "Apparent authority",
+     "rationale": "Incorrect: apparent authority is what the public reasonably believes the agent has because of the insurer's conduct."
+    },
+    {
+     "id": "c",
+     "text": "Express authority",
+     "rationale": "Correct: authority specifically granted in the agent's contract is express authority."
+    },
+    {
+     "id": "d",
+     "text": "Fiduciary authority",
+     "rationale": "Incorrect: fiduciary responsibility concerns handling others' money in trust; it is not one of the three types of agent authority."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Agents have three types of authority. Express authority is specifically granted in writing in the agency contract, such as soliciting applications and collecting initial premiums. Implied authority is not written but is reasonably necessary to carry out the express authority. Apparent authority is what the public reasonably believes the agent has because of the insurer's conduct.",
+   "memoryTip": "Express = Explicitly written in the contract.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "gen-q111",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "gen",
+   "outlineIds": [
+    "gen.3.3.2"
+   ],
+   "concepts": [
+    "implied-authority",
+    "express-authority"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "tricky"
+   ],
+   "scenario": "Raj's agency contract authorizes him to solicit applications and collect initial premiums. It says nothing about medical exams. To complete applications, Raj routinely schedules paramedical exams for his applicants.",
+   "stem": "Raj's authority to schedule the exams is best described as:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Express authority",
+     "rationale": "Incorrect: express authority is specifically written in the contract, and the contract says nothing about exams."
+    },
+    {
+     "id": "b",
+     "text": "Implied authority",
+     "rationale": "Correct: scheduling exams is not written in the contract but is reasonably necessary to carry out his express authority to take applications."
+    },
+    {
+     "id": "c",
+     "text": "Apparent authority",
+     "rationale": "Incorrect: apparent authority arises from the public's reasonable belief created by the insurer's conduct, typically beyond actual authority. Raj is acting within his actual role."
+    },
+    {
+     "id": "d",
+     "text": "No authority at all",
+     "rationale": "Incorrect: the law recognizes unwritten authority that is reasonably necessary to carry out the authority actually granted."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Implied authority is authority that is not written in the agent's contract but is reasonably necessary to carry out the express authority. Because Raj is expressly authorized to take applications, he impliedly has authority to do what is reasonably needed to complete them, such as scheduling a paramedical exam.",
+   "memoryTip": "Implied = Implicit in doing the job you were given.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Identifies implied authority",
+      "anyOf": [
+       "implied"
+      ]
+     },
+     {
+      "label": "Not written in the contract",
+      "anyOf": [
+       "not written",
+       "not in the contract",
+       "unwritten",
+       "says nothing"
+      ]
+     },
+     {
+      "label": "Reasonably necessary to carry out express authority",
+      "anyOf": [
+       "necessary",
+       "needed",
+       "carry out",
+       "express"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "gen-q112",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "gen",
+   "outlineIds": [
+    "gen.3.4"
+   ],
+   "concepts": [
+    "field-underwriting",
+    "utmost-good-faith"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "While agent Mia is completing a life insurance application with a client, the client mentions a hospital stay last spring but asks Mia to leave it off the form so the premium stays low.",
+   "stem": "What is Mia's proper response?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Leave it off, since the insurer will find out anyway",
+     "rationale": "Incorrect: leaving out a known material fact misrepresents the risk and breaches the agent's duty to complete applications accurately."
+    },
+    {
+     "id": "b",
+     "text": "Record it only if the stay lasted longer than a week",
+     "rationale": "Incorrect: the agent must record the applicant's answers accurately; there is no length-of-stay exception."
+    },
+    {
+     "id": "c",
+     "text": "Suggest the client apply with another insurer instead",
+     "rationale": "Incorrect: changing insurers does not solve the problem; every application must be answered truthfully."
+    },
+    {
+     "id": "d",
+     "text": "Record it accurately and explain why full disclosure matters",
+     "rationale": "Correct: agents must complete applications carefully and accurately and explain products honestly; insurers rely on truthful answers to underwrite."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Although an agent represents the insurer, the agent owes duties to applicants and insureds too: complete applications carefully and accurately, report what you observe (field underwriting), explain products honestly and protect personal information. Insurance contracts are contracts of utmost good faith, so leaving out a material fact could later give the insurer grounds to contest or rescind the policy, hurting the client.",
+   "memoryTip": "Write down what is true, every time.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Record the answer accurately",
+      "anyOf": [
+       "record",
+       "accurate",
+       "include",
+       "disclose"
+      ]
+     },
+     {
+      "label": "Explain the consequences of omitting material facts",
+      "anyOf": [
+       "rescind",
+       "contest",
+       "misrepresent",
+       "material"
+      ]
+     },
+     {
+      "label": "Duty of honesty / utmost good faith",
+      "anyOf": [
+       "honest",
+       "good faith",
+       "truth"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "gen-q113",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "gen",
+   "outlineIds": [
+    "gen.4.1.1"
+   ],
+   "concepts": [
+    "offer-and-acceptance"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "tricky"
+   ],
+   "scenario": "Omar submits a signed application for a standard-rated policy along with the initial premium. After underwriting, the insurer issues the policy at a higher, substandard premium.",
+   "stem": "How is the insurer's action best described?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A counteroffer that Omar may accept or reject",
+     "rationale": "Correct: changing the terms of the applicant's offer is a counteroffer; Omar can accept it at delivery or decline it."
+    },
+    {
+     "id": "b",
+     "text": "An acceptance of Omar's original offer as submitted",
+     "rationale": "Incorrect: acceptance must match the offer. Issuing on different terms is not an acceptance of the original offer."
+    },
+    {
+     "id": "c",
+     "text": "A rejection that ends all dealings with Omar",
+     "rationale": "Incorrect: the insurer did not simply reject Omar; it proposed new terms he can accept."
+    },
+    {
+     "id": "d",
+     "text": "A binding contract because the premium was paid",
+     "rationale": "Incorrect: paying the initial premium is part of the offer; the contract forms only when the insurer's terms are accepted."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Usually the applicant makes the offer by submitting a signed application with the initial premium, and the insurer accepts by issuing the policy as applied for. If the insurer changes the terms, such as a higher rating or an exclusion, that is a counteroffer. The applicant becomes the party who must accept, typically by accepting the policy at delivery and paying any additional premium.",
+   "memoryTip": "Insurer changes the deal = counteroffer; ball is back in the applicant's court.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Identifies a counteroffer",
+      "anyOf": [
+       "counteroffer",
+       "counter-offer",
+       "counter offer"
+      ]
+     },
+     {
+      "label": "Insurer changed the terms of the offer",
+      "anyOf": [
+       "changed",
+       "different terms",
+       "higher",
+       "substandard"
+      ]
+     },
+     {
+      "label": "Applicant may accept or reject",
+      "anyOf": [
+       "accept",
+       "reject",
+       "decline"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "gen-q114",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "gen",
+   "outlineIds": [
+    "gen.4.1.3"
+   ],
+   "concepts": [
+    "competent-parties"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [],
+   "stem": "Which situation most clearly raises a problem with the competent-parties element of a contract?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The applicant has high blood pressure",
+     "rationale": "Incorrect: a health condition is an underwriting (physical hazard) issue, not a question of legal capacity to contract."
+    },
+    {
+     "id": "b",
+     "text": "The applicant chooses to pay monthly",
+     "rationale": "Incorrect: the premium payment mode has nothing to do with legal capacity."
+    },
+    {
+     "id": "c",
+     "text": "The applicant's agent works on commission",
+     "rationale": "Incorrect: how the agent is paid does not affect whether the parties are legally competent."
+    },
+    {
+     "id": "d",
+     "text": "The applicant is mentally unable to contract",
+     "rationale": "Correct: parties must be of legal age and sound mind. Someone mentally unable to understand the contract lacks capacity."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Competent parties is the \"A\" (ability to contract) in C-O-L-A. Both parties must have legal capacity: the applicant must be of legal age, of sound mind and not impaired, and the insurer must be authorized to issue the contract. Health conditions affect insurability and price, not legal competence.",
+   "memoryTip": "Competent = old enough and clear-headed enough to contract.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "gen-q115",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "gen",
+   "outlineIds": [
+    "gen.4.1.4"
+   ],
+   "concepts": [
+    "legal-purpose",
+    "insurable-interest"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Without her knowledge or consent, Victor applies for a large life policy on a wealthy stranger he read about online, hoping to profit when she dies.",
+   "stem": "Which element of a legal contract is missing?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Consideration",
+     "rationale": "Incorrect: Victor could still pay a premium, so consideration could exist. The problem is the purpose of the contract."
+    },
+    {
+     "id": "b",
+     "text": "Legal purpose",
+     "rationale": "Correct: without insurable interest and the insured's consent, the policy would be a wager on a stranger's life, which is not a legal purpose."
+    },
+    {
+     "id": "c",
+     "text": "Offer and acceptance",
+     "rationale": "Incorrect: Victor could submit an application (an offer); the defect is that the purpose is unlawful."
+    },
+    {
+     "id": "d",
+     "text": "Competent parties",
+     "rationale": "Incorrect: nothing suggests Victor lacks legal age or capacity."
+    }
+   ],
+   "correct": "b",
+   "explanation": "A contract must have a legal purpose. In life insurance, insurable interest and the insured's consent keep a policy from being a wager on someone's life. A stranger who would profit from an early death has no insurable interest, so a contract like Victor's would lack a legal purpose and be unenforceable.",
+   "memoryTip": "No insurable interest = a bet on a life = no legal purpose.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "gen-q116",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "gen",
+   "outlineIds": [
+    "gen.4.2.1"
+   ],
+   "concepts": [
+    "contract-of-adhesion"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "A health policy's wording on whether a certain therapy is covered can reasonably be read two ways. The insured sues, and the court rules that the coverage applies.",
+   "stem": "Which characteristic of insurance contracts best explains the court's ruling?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Aleatory",
+     "rationale": "Incorrect: aleatory describes the unequal, chance-dependent exchange of value, not how ambiguous wording is read."
+    },
+    {
+     "id": "b",
+     "text": "Conditional",
+     "rationale": "Incorrect: conditional means the insured must meet conditions such as proof of loss; it does not resolve ambiguous wording."
+    },
+    {
+     "id": "c",
+     "text": "Unilateral",
+     "rationale": "Incorrect: unilateral means only the insurer makes an enforceable promise; it does not decide how unclear terms are interpreted."
+    },
+    {
+     "id": "d",
+     "text": "Adhesion",
+     "rationale": "Correct: because the insurer drafts the contract and the insured can only accept or reject it, ambiguities are interpreted in favor of the insured."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Insurance policies are contracts of adhesion: the insurer writes all the terms and the applicant can only \"adhere\" by accepting or rejecting the contract as written. Because the insured had no chance to negotiate the wording, courts resolve ambiguities against the drafter, in favor of the insured.",
+   "memoryTip": "Adhesion: insurer wrote it, so insurer wears the ambiguity.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "gen-q117",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "gen",
+   "outlineIds": [
+    "gen.4.2.2"
+   ],
+   "concepts": [
+    "aleatory-contract"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Kim buys a $250,000 term life policy and pays the first monthly premium of $40. Two weeks later she dies in a car accident, and her beneficiary receives $250,000.",
+   "stem": "Which characteristic of insurance contracts does this best illustrate?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Aleatory",
+     "rationale": "Correct: the values exchanged were very unequal ($40 versus $250,000), and the outcome depended on an uncertain event."
+    },
+    {
+     "id": "b",
+     "text": "Adhesion",
+     "rationale": "Incorrect: adhesion refers to the insurer drafting the contract on a take-it-or-leave-it basis."
+    },
+    {
+     "id": "c",
+     "text": "Personal",
+     "rationale": "Incorrect: personal means the contract is based on a specific insured's characteristics; it does not describe the unequal exchange."
+    },
+    {
+     "id": "d",
+     "text": "Unilateral",
+     "rationale": "Incorrect: unilateral means only the insurer makes an enforceable promise; it does not explain the size of the payout."
+    }
+   ],
+   "correct": "a",
+   "explanation": "An aleatory contract involves an unequal exchange of value that depends on chance. One small premium can produce a large death benefit, while another policyowner may pay premiums for years and never have a claim. Neither side knows in advance what it will give or receive.",
+   "memoryTip": "Aleatory = chance decides who gets more.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "gen-q118",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "gen",
+   "outlineIds": [
+    "gen.4.2.2"
+   ],
+   "concepts": [
+    "aleatory-contract"
+   ],
+   "difficulty": 2,
+   "style": "negative",
+   "tags": [
+    "negative-wording"
+   ],
+   "stem": "Each of the following describes the aleatory nature of an insurance contract EXCEPT:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Performance depends on an uncertain future event",
+     "rationale": "Incorrect: this is a feature of an aleatory contract. Whether the insurer pays depends on whether a covered loss occurs."
+    },
+    {
+     "id": "b",
+     "text": "One party may receive far more value than it gives",
+     "rationale": "Incorrect: this is a feature of an aleatory contract. A small premium can produce a large benefit."
+    },
+    {
+     "id": "c",
+     "text": "Both parties exchange values known to be equal",
+     "rationale": "Correct: this does NOT describe an aleatory contract. An equal, known exchange describes a commutative contract, such as an ordinary purchase."
+    },
+    {
+     "id": "d",
+     "text": "An insured may pay for years and never collect",
+     "rationale": "Incorrect: this is a feature of an aleatory contract. The exchange can be unequal in the insurer's favor too."
+    }
+   ],
+   "correct": "c",
+   "explanation": "In an aleatory contract, the values exchanged are unequal and depend on chance. Most everyday purchases are commutative: you pay $5 and receive a $5 item, so both sides know in advance what they will give and get. Insurance is different because no one knows whether or when a covered loss will occur.",
+   "memoryTip": "Aleatory = Unequal + Uncertain. Equal and known = NOT aleatory.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "gen-q119",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "gen",
+   "outlineIds": [
+    "gen.4.2.3"
+   ],
+   "concepts": [
+    "personal-contract"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Carl owns a life insurance policy on his own life. He asks the insurer to substitute his younger brother as the insured under the same policy, without a new application.",
+   "stem": "Why will the insurer refuse?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The contract is aleatory, so its values must stay unequal",
+     "rationale": "Incorrect: aleatory describes the chance-based exchange of value, not who may be insured."
+    },
+    {
+     "id": "b",
+     "text": "The contract is personal, based on the insured's own traits",
+     "rationale": "Correct: the insurer underwrote and priced the contract on Carl's characteristics, so a different insured cannot be swapped in."
+    },
+    {
+     "id": "c",
+     "text": "The contract is unilateral, so only the insurer may change it",
+     "rationale": "Incorrect: unilateral means only the insurer makes an enforceable promise; it is not the reason the insured cannot be changed."
+    },
+    {
+     "id": "d",
+     "text": "The contract is conditional, so changes require a claim first",
+     "rationale": "Incorrect: conditional refers to conditions for payment, such as proof of loss; no claim is involved here."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Insurance is a personal contract: it is based on the characteristics of a specific insured, such as age, health and habits, that the insurer evaluated in underwriting. A new person would need to apply and be underwritten. Note that ownership of a life policy can usually be assigned to someone else; what cannot be changed is the person whose life is insured.",
+   "memoryTip": "Personal = tied to THIS person. New person, new application.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "gen-q120",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "gen",
+   "outlineIds": [
+    "gen.4.2.5"
+   ],
+   "concepts": [
+    "conditional-contract"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "A policy requires timely notice and proof of loss before the insurer must pay. This reflects which characteristic?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Aleatory",
+     "rationale": "Incorrect: aleatory describes an unequal, chance-dependent exchange of value."
+    },
+    {
+     "id": "b",
+     "text": "Adhesion",
+     "rationale": "Incorrect: adhesion means the insurer drafts the contract and the applicant accepts or rejects it."
+    },
+    {
+     "id": "c",
+     "text": "Personal",
+     "rationale": "Incorrect: personal means the contract is based on a specific insured's characteristics."
+    },
+    {
+     "id": "d",
+     "text": "Conditional",
+     "rationale": "Correct: the insurer must pay only if certain conditions are met, such as paying premiums and giving timely notice and proof of loss."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Insurance is a conditional contract: the insurer's duty to pay depends on the insured or claimant meeting conditions in the policy, such as paying premiums, giving timely notice of a claim and submitting proof of loss.",
+   "memoryTip": "Conditional = meet the conditions, then collect.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "gen-q121",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "gen",
+   "outlineIds": [
+    "gen.4.3.1"
+   ],
+   "concepts": [
+    "indemnity"
+   ],
+   "difficulty": 2,
+   "style": "comparison",
+   "tags": [],
+   "stem": "Why is life insurance usually called a valued contract rather than a contract of indemnity?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "It pays a stated face amount, since a life has no exact price",
+     "rationale": "Correct: a human life cannot be valued precisely, so life insurance pays the face amount stated in the policy."
+    },
+    {
+     "id": "b",
+     "text": "It reimburses only the actual expenses the family incurs",
+     "rationale": "Incorrect: reimbursing actual expenses is indemnity, as in medical expense insurance."
+    },
+    {
+     "id": "c",
+     "text": "It restores the beneficiary to the exact prior financial position",
+     "rationale": "Incorrect: restoring someone to their prior position is the goal of indemnity; life insurance pays a stated amount instead."
+    },
+    {
+     "id": "d",
+     "text": "It pays only after an adjuster measures the economic loss",
+     "rationale": "Incorrect: life insurance does not measure the loss; it pays the agreed face amount on proof of death."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Indemnity means insurance restores the insured to about the same financial position as before the loss, no better and no worse. Medical expense insurance that reimburses actual bills is an indemnity contract. Life insurance is usually a valued contract instead: because a human life has no exact dollar value, it pays the face amount stated in the policy.",
+   "memoryTip": "Indemnity = make you whole. Valued = pay the agreed amount.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "gen-q122",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "gen",
+   "outlineIds": [
+    "gen.4.3.2"
+   ],
+   "concepts": [
+    "utmost-good-faith"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "The principle that both the applicant and the insurer must be honest and disclose material facts is called:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Indemnity",
+     "rationale": "Incorrect: indemnity is the principle of restoring the insured to the pre-loss position, not the duty of honesty."
+    },
+    {
+     "id": "b",
+     "text": "Utmost good faith",
+     "rationale": "Correct: utmost good faith requires both parties to deal honestly and disclose material facts."
+    },
+    {
+     "id": "c",
+     "text": "Estoppel",
+     "rationale": "Incorrect: estoppel prevents a party from reasserting a right after the other party relied on its waiver or conduct."
+    },
+    {
+     "id": "d",
+     "text": "Adhesion",
+     "rationale": "Incorrect: adhesion describes the insurer drafting the contract on a take-it-or-leave-it basis."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Insurance contracts are contracts of utmost good faith. The insurer relies on the applicant's answers to underwrite, and the applicant relies on the insurer to describe the policy truthfully and pay valid claims. The rules on representations, misrepresentations, concealment and fraud all grow out of this principle.",
+   "memoryTip": "Utmost good faith = honesty on BOTH sides.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

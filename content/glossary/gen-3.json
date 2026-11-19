@@ -1,0 +1,1005 @@
+{
+  "sectionId": "gen",
+  "terms": [
+    {
+      "id": "offer-and-acceptance",
+      "term": "Offer and Acceptance",
+      "aliases": [
+        "agreement"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.1.1"
+      ],
+      "formal": "The element of a legal contract requiring that one party make a definite offer and the other party accept it on the same terms. In insurance, the applicant usually makes the offer by submitting a signed application (generally with the initial premium), and the insurer accepts by approving and issuing the policy as applied for.",
+      "plain": "A contract needs one side to offer and the other to say yes. In insurance, you (the applicant) usually make the offer when you send in the application with your first premium, and the insurer accepts when its underwriters approve you and issue the policy.",
+      "simpler": "Offer = 'Will you insure me?' Acceptance = 'Yes, here is your policy.'",
+      "examples": [
+        "Ana submits an application with her first premium (the offer); two weeks later the insurer approves it as applied for (the acceptance).",
+        "Leo submits an application with no money. The insurer issues a policy at a higher premium than he expected — that is a counteroffer, which Leo accepts by paying the premium when the policy is delivered."
+      ],
+      "examTip": "If the application is submitted WITHOUT premium, the applicant is only inviting an offer; the insurer makes the offer by issuing the policy, and the applicant accepts by paying at delivery. If the insurer changes the terms (e.g., rates it higher), that is a counteroffer.",
+      "misconception": "Submitting an application does not create a contract by itself; the insurer must accept the offer.",
+      "related": [
+        "consideration",
+        "competent-parties",
+        "legal-purpose",
+        "conditional-receipt",
+        "application"
+      ],
+      "confusedWith": [
+        "consideration"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "When an applicant submits a completed application along with the initial premium, the applicant has generally made:",
+        "choices": [
+          "An offer",
+          "An acceptance",
+          "A counteroffer",
+          "A warranty"
+        ],
+        "answerIndex": 0,
+        "explanation": "An application submitted with the premium is the applicant's offer; the insurer accepts by issuing the policy as applied for. A counteroffer comes from the insurer when it changes the terms; a warranty is a guaranteed statement."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "consideration",
+      "term": "Consideration",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.1.2"
+      ],
+      "formal": "The value each party gives to the other to make a contract binding. In insurance, the applicant's consideration is the premium (initial premium) and the statements made in the application; the insurer's consideration is its promise to pay covered losses.",
+      "plain": "Both sides must give something of value. You give the premium and honest answers on the application; the insurer gives its promise to pay if a covered loss happens.",
+      "simpler": "Consideration = what each side puts on the table.",
+      "examples": [
+        "Kim pays the first monthly premium and signs the application with truthful answers; this is her consideration.",
+        "The insurer's consideration is its promise to pay the $100,000 death benefit if Kim dies while the policy is in force."
+      ],
+      "examTip": "Applicant's consideration = premium + statements in the application. Insurer's consideration = promise to pay. Future premiums are conditions for keeping coverage, not part of the original consideration.",
+      "misconception": "Consideration is not just money. The applicant's statements in the application also count, and the insurer's consideration is a promise, not a payment.",
+      "related": [
+        "premium",
+        "offer-and-acceptance",
+        "consideration-clause"
+      ],
+      "confusedWith": [
+        "premium"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "What is the insurer's consideration in an insurance contract?",
+        "choices": [
+          "Its promise to pay covered losses",
+          "The initial premium",
+          "The statements in the application",
+          "The agent's commission"
+        ],
+        "answerIndex": 0,
+        "explanation": "The insurer gives its promise to pay. The initial premium and application statements are the applicant's consideration. The commission is unrelated to the contract's consideration."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "competent-parties",
+      "term": "Competent Parties",
+      "aliases": [
+        "legal capacity"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.1.3"
+      ],
+      "formal": "The element of a legal contract requiring that all parties have the legal capacity to enter into it: they must be of legal age (or otherwise permitted by law), mentally competent to understand the contract, and not under the influence of drugs or alcohol; the insurer must be authorized (licensed) to issue the contract.",
+      "plain": "Everyone signing the contract must legally be able to make a deal: adults of sound mind who understand what they're agreeing to, and an insurance company that is authorized to sell the insurance.",
+      "simpler": "Competent parties = both sides are legally able to sign.",
+      "examples": [
+        "A contract signed by someone who is legally declared mentally incompetent may not be enforceable.",
+        "An insurer that has no certificate of authority in a state is not a competent party to issue policies there."
+      ],
+      "examTip": "Competency applies to BOTH sides: the applicant (age, mental capacity, sobriety) and the insurer (licensed/authorized).",
+      "misconception": "Competent parties is not only about the applicant; an unauthorized insurer also fails this requirement.",
+      "related": [
+        "offer-and-acceptance",
+        "legal-purpose",
+        "admitted-insurer",
+        "juvenile-life-insurance"
+      ],
+      "confusedWith": [
+        "legal-purpose"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which element of a legal contract is missing if the applicant was intoxicated and unable to understand the agreement when signing?",
+        "choices": [
+          "Competent parties",
+          "Consideration",
+          "Legal purpose",
+          "Offer and acceptance"
+        ],
+        "answerIndex": 0,
+        "explanation": "A party must be able to understand the contract to be competent. Consideration is value exchanged, legal purpose concerns a lawful objective, and offer and acceptance is the agreement itself."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "legal-purpose",
+      "term": "Legal Purpose",
+      "aliases": [
+        "lawful purpose"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.1.4"
+      ],
+      "formal": "The element of a legal contract requiring that its object not be illegal or against public policy; in life insurance, this includes the requirement of insurable interest and consent of the insured.",
+      "plain": "A contract must be for something legal. An insurance policy bought to profit from a stranger's death, or to cover an illegal activity, is not enforceable.",
+      "simpler": "Legal purpose = the deal can't be for something against the law.",
+      "examples": [
+        "A policy purchased by someone with no insurable interest in the insured's life lacks a legal purpose — it amounts to a wager on a life.",
+        "A contract to insure illegal drug shipments would be void."
+      ],
+      "examTip": "Insurable interest and the insured's consent are what give a life insurance contract its legal purpose. Without them, the contract is treated like illegal gambling on someone's life.",
+      "misconception": "Legal purpose is not satisfied just because the paperwork is in order; the underlying objective must be lawful.",
+      "related": [
+        "insurable-interest",
+        "competent-parties",
+        "offer-and-acceptance",
+        "stoli"
+      ],
+      "confusedWith": [
+        "competent-parties"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which contract element requires that a life insurance policy be supported by insurable interest?",
+        "choices": [
+          "Legal purpose",
+          "Consideration",
+          "Competent parties",
+          "Acceptance"
+        ],
+        "answerIndex": 0,
+        "explanation": "Insurable interest keeps the contract from being an illegal wager, satisfying legal purpose. Consideration concerns value exchanged; competent parties concerns capacity; acceptance is the insurer's agreement."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "contract-of-adhesion",
+      "term": "Contract of Adhesion",
+      "aliases": [
+        "adhesion"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.2.1"
+      ],
+      "formal": "A contract prepared entirely by one party (the insurer) and offered on a take-it-or-leave-it basis, so the other party can only accept or reject it; ambiguities are therefore interpreted in favor of the party that did not draft it (the insured).",
+      "plain": "The insurer writes every word of the policy; you can't negotiate the wording. Because of that, if a court finds the language unclear, it reads it in the way that favors you.",
+      "simpler": "The insurer writes the rules, so any confusing rule is read in your favor.",
+      "examples": [
+        "Two reasonable readings of a policy exclusion are possible; a court adopts the reading that provides coverage to the insured.",
+        "Maria wants to change the suicide clause wording in her policy; she can't — she can only accept or decline the policy as written."
+      ],
+      "examTip": "Adhesion = insurer drafts it, and ambiguity favors the INSURED. Don't confuse with aleatory (unequal exchange based on chance).",
+      "misconception": "Adhesion does not mean the contract is unfair or unenforceable; it only affects how unclear wording is interpreted.",
+      "related": [
+        "aleatory-contract",
+        "unilateral-contract",
+        "conditional-contract",
+        "personal-contract"
+      ],
+      "confusedWith": [
+        "aleatory-contract"
+      ],
+      "pronunciation": "ad-HEE-zhun",
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Because the insurer drafts the policy, any ambiguity is interpreted in favor of the insured. This is because insurance is a:",
+        "choices": [
+          "Contract of adhesion",
+          "Aleatory contract",
+          "Personal contract",
+          "Conditional contract"
+        ],
+        "answerIndex": 0,
+        "explanation": "In a contract of adhesion one party drafts the terms, so ambiguities are construed against the drafter. Aleatory = unequal exchange based on chance; personal = between insurer and an individual; conditional = conditions must be met."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aleatory-contract",
+      "term": "Aleatory Contract",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.2.2"
+      ],
+      "formal": "A contract in which the values exchanged are unequal and performance by one party depends on an uncertain future event.",
+      "plain": "You might pay a little in premium and receive a lot in benefits, or pay premiums for years and receive nothing — it depends on whether a covered loss happens.",
+      "simpler": "Like buying a ticket where the outcome depends on chance: what each side ends up giving is unequal and unknown in advance.",
+      "examples": [
+        "Maria pays one monthly premium on a new term policy and dies in an accident the next week; her beneficiary receives the full face amount.",
+        "Tom pays premiums on a 20-year term policy and outlives the term; the insurer never pays a death claim."
+      ],
+      "examTip": "Exam questions describe an 'unequal exchange of value' or 'dependent on chance' — that is aleatory. Don't confuse it with adhesion (one party drafts the contract).",
+      "misconception": "Aleatory does not mean the contract is unfair or a gamble that is illegal; it only describes the unequal, chance-dependent exchange.",
+      "related": [
+        "contract-of-adhesion",
+        "conditional-contract",
+        "consideration"
+      ],
+      "confusedWith": [
+        "contract-of-adhesion"
+      ],
+      "pronunciation": "AY-lee-uh-tor-ee",
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which contract characteristic describes an unequal exchange of value that depends on an uncertain event?",
+        "choices": [
+          "Aleatory",
+          "Adhesion",
+          "Unilateral",
+          "Personal"
+        ],
+        "answerIndex": 0,
+        "explanation": "Aleatory contracts involve an unequal exchange based on chance. Adhesion = one party drafts the terms; unilateral = only the insurer makes a legally enforceable promise; personal = the contract is between the insurer and a specific individual."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "personal-contract",
+      "term": "Personal Contract",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.2.3"
+      ],
+      "formal": "A contract between the insurer and a particular individual, based on that individual's characteristics; it insures a person rather than property, and the insurer may approve or reject a change of the insured.",
+      "plain": "Insurance is written for a specific person after the insurer evaluates that person. You can't simply hand your coverage to someone else and expect the insurer to cover them instead.",
+      "simpler": "The policy is made to fit one person — it isn't a coupon anyone can use.",
+      "examples": [
+        "Juan can't transfer his health coverage to his brother; the insurer underwrote Juan, not his brother.",
+        "Because life insurance is a personal contract, the insurer evaluates each applicant's health and habits individually."
+      ],
+      "examTip": "Life insurance policies can be assigned to a new OWNER (life insurance is a notable exception regarding ownership), but the INSURED cannot be swapped. The contract is personal to the insured.",
+      "misconception": "A personal contract does not mean the policy can never be transferred; ownership of a life policy can usually be assigned. What cannot change is the person whose life is insured.",
+      "related": [
+        "insured",
+        "assignment",
+        "contract-of-adhesion"
+      ],
+      "confusedWith": [
+        "unilateral-contract"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Insurance is a personal contract because:",
+        "choices": [
+          "It is based on the characteristics of a specific insured",
+          "Only the insurer makes an enforceable promise",
+          "Ambiguities favor the insured",
+          "Benefits depend on an uncertain event"
+        ],
+        "answerIndex": 0,
+        "explanation": "A personal contract depends on the specific individual underwritten. The other choices describe unilateral, adhesion and aleatory contracts respectively."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "unilateral-contract",
+      "term": "Unilateral Contract",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.2.4"
+      ],
+      "formal": "A contract in which only one party (the insurer) makes a legally enforceable promise; the policyowner makes no promise to pay premiums and cannot be sued for failing to pay, though coverage may end if premiums stop.",
+      "plain": "Only the insurer promises something it can be forced to do. You don't promise to keep paying; if you stop, the policy just ends (or uses its cash value), but the insurer can't sue you for the premiums.",
+      "simpler": "One-sided promise: the insurer must pay if you hold up your end, but you're never forced to keep paying.",
+      "examples": [
+        "Rita stops paying premiums on her term policy; the coverage lapses, but the insurer cannot take her to court to collect premiums.",
+        "As long as premiums are paid and conditions are met, the insurer must pay covered claims."
+      ],
+      "examTip": "Unilateral = only the INSURER is legally bound to perform. Most commercial contracts are bilateral (both sides promise).",
+      "misconception": "Unilateral does not mean the policyowner has no obligations to keep coverage; paying premiums is a condition for coverage, just not an enforceable promise.",
+      "related": [
+        "conditional-contract",
+        "aleatory-contract",
+        "personal-contract"
+      ],
+      "confusedWith": [
+        "conditional-contract"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "An insurance contract is unilateral because:",
+        "choices": [
+          "Only the insurer makes a legally enforceable promise",
+          "The insurer drafts all the terms",
+          "The exchange of value is unequal",
+          "Benefits are paid only if conditions are met"
+        ],
+        "answerIndex": 0,
+        "explanation": "Unilateral means one enforceable promise, made by the insurer. Drafting = adhesion; unequal exchange = aleatory; conditions = conditional."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "conditional-contract",
+      "term": "Conditional Contract",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.2.5"
+      ],
+      "formal": "A contract under which the insurer's obligation to pay depends on the insured or beneficiary meeting certain conditions, such as paying premiums and submitting timely notice and proof of loss.",
+      "plain": "The insurer has to pay only if you follow the rules in the policy — pay your premiums on time, report claims, and provide proof of the loss.",
+      "simpler": "'We'll pay IF you do your part.'",
+      "examples": [
+        "A beneficiary must submit proof of death (such as a death certificate) before the life insurer pays.",
+        "A disability claim is delayed because the insured has not sent the required proof of loss."
+      ],
+      "examTip": "Conditional = certain conditions must be met before the insurer pays (premiums paid, notice of claim, proof of loss).",
+      "misconception": "Conditional does not mean the insurer can refuse for any reason; it can refuse only if the policy's stated conditions were not met.",
+      "related": [
+        "unilateral-contract",
+        "aleatory-contract",
+        "proof-of-loss",
+        "notice-of-claim"
+      ],
+      "confusedWith": [
+        "unilateral-contract"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A policy requires the insured to submit proof of loss before benefits are paid. This reflects which characteristic of insurance contracts?",
+        "choices": [
+          "Conditional",
+          "Adhesion",
+          "Aleatory",
+          "Personal"
+        ],
+        "answerIndex": 0,
+        "explanation": "The insurer's duty to pay depends on meeting conditions such as proof of loss — a conditional contract. The other characteristics describe drafting, unequal exchange and the individual nature of the contract."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "indemnity",
+      "term": "Indemnity",
+      "aliases": [
+        "principle of indemnity",
+        "reimbursement"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.3.1"
+      ],
+      "formal": "The legal principle that insurance should restore the insured to approximately the same financial position as before the loss, without allowing the insured to profit from the loss.",
+      "plain": "Insurance is meant to make you whole, not richer. Health insurance that reimburses your actual medical bills is an example. Life insurance is usually NOT an indemnity contract because a life has no exact dollar value; it pays a stated (valued) amount.",
+      "simpler": "Indemnity = put you back where you were, no more.",
+      "examples": [
+        "A medical expense policy reimburses $8,000 of covered hospital bills — the actual amount of the loss.",
+        "A $500,000 life policy pays $500,000 at death regardless of the insured's 'actual' economic value — a valued contract, not indemnity."
+      ],
+      "examTip": "Life insurance = VALUED contract (pays a stated amount). Medical expense insurance = INDEMNITY/reimbursement contract (pays the actual loss). Expect a question contrasting them.",
+      "misconception": "Indemnity does not mean the insurer pays whatever the insured asks; it means paying the actual loss, up to policy limits.",
+      "related": [
+        "loss",
+        "insurable-interest",
+        "medical-expense-insurance",
+        "reimbursement-vs-indemnity"
+      ],
+      "confusedWith": [
+        "utmost-good-faith"
+      ],
+      "pronunciation": "in-DEM-nih-tee",
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which principle states that insurance should restore the insured to the same financial position as before the loss, without profit?",
+        "choices": [
+          "Indemnity",
+          "Utmost good faith",
+          "Adhesion",
+          "Estoppel"
+        ],
+        "answerIndex": 0,
+        "explanation": "Indemnity means making the insured whole without profit. Utmost good faith requires honesty; adhesion concerns who drafts the contract; estoppel prevents a party from denying a right it led another to rely on."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "utmost-good-faith",
+      "term": "Utmost Good Faith",
+      "aliases": [
+        "uberrimae fidei"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.3.2"
+      ],
+      "formal": "The principle that both parties to an insurance contract are expected to deal honestly and disclose all material facts, without concealment or deception, because each relies heavily on the other's honesty.",
+      "plain": "Insurance only works if both sides are honest. The insurer relies on your answers to decide whether to insure you, and you rely on the insurer to describe the policy truthfully and pay claims fairly.",
+      "simpler": "Both sides must tell the whole truth.",
+      "examples": [
+        "An applicant answers all medical questions completely, even about a recent diagnosis.",
+        "An agent accurately explains a policy's exclusions instead of glossing over them."
+      ],
+      "examTip": "Utmost good faith is the foundation for the rules on representations, misrepresentations, concealment and fraud. It applies to BOTH parties.",
+      "misconception": "Utmost good faith is not only the applicant's duty; the insurer and its agents must also act honestly.",
+      "related": [
+        "representation",
+        "concealment",
+        "fraud",
+        "misrepresentation"
+      ],
+      "confusedWith": [
+        "indemnity"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "The principle that both the insurer and the applicant must be honest and disclose material facts is called:",
+        "choices": [
+          "Utmost good faith",
+          "Indemnity",
+          "Adhesion",
+          "Subrogation"
+        ],
+        "answerIndex": 0,
+        "explanation": "Utmost good faith requires honesty and full disclosure from both parties. Indemnity concerns restoring the insured without profit, adhesion concerns who drafts the policy, and subrogation is an insurer's right to recover from a responsible third party."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "representation",
+      "term": "Representation",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.3.3"
+      ],
+      "formal": "Under N.Y. Insurance Law § 3105(a), a statement as to past or present fact, made to the insurer by, or by the authority of, the applicant for insurance or the prospective insured, at or before the making of the insurance contract as an inducement to the making thereof.",
+      "plain": "A representation is an answer you give the insurer — usually on the application — about facts in your past or present (your health, job, hobbies) that the insurer uses to decide whether to insure you. You are stating it is true to the best of your knowledge.",
+      "simpler": "A representation is a fact you tell the insurer to help it decide.",
+      "examples": [
+        "On her application, Lily states she has never been treated for heart disease.",
+        "An applicant answers 'no' to a question about whether he has been hospitalized in the past five years."
+      ],
+      "examTip": "In New York, statements by an applicant for life, accident or health insurance are deemed representations and NOT warranties (§ 3204(c)). A representation must be material to void the policy if it turns out to be false.",
+      "misconception": "A representation is not a guarantee that a statement is absolutely true (that is a warranty); a false representation voids coverage only if it is material.",
+      "related": [
+        "misrepresentation",
+        "warranty",
+        "concealment",
+        "application",
+        "utmost-good-faith"
+      ],
+      "confusedWith": [
+        "warranty"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under NY Insurance Law § 3105, a representation is a statement made by the applicant about:",
+        "choices": [
+          "Past or present fact, at or before the making of the contract",
+          "A future promise to keep paying premiums",
+          "Facts the insurer guarantees to be true",
+          "The agent's opinion of the applicant's health"
+        ],
+        "answerIndex": 0,
+        "explanation": "§ 3105(a) defines a representation as a statement as to past or present fact made by or for the applicant at or before contracting, to induce the insurer to make the contract. It is not a future promise, an insurer guarantee, or the agent's opinion."
+      },
+      "sources": [
+        "ny-isc-3105",
+        "ny-isc-3204"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "misrepresentation",
+      "term": "Misrepresentation",
+      "aliases": [
+        "material misrepresentation"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.3.3"
+      ],
+      "formal": "Under N.Y. Insurance Law § 3105, a false representation; it avoids the contract or defeats recovery only if material, and it is material only if knowledge of the true facts would have led the insurer to refuse to make the contract. For hospital, medical, surgical or prescription drug expense insurance subject to Articles 32 or 43, the misrepresentation must also be intentional.",
+      "plain": "A misrepresentation is a false answer on the application. In New York, the insurer can undo the policy or deny a claim because of it only if the false statement was 'material' — meaning the insurer would have refused to make that contract had it known the truth. For certain hospital, medical, surgical and prescription drug expense policies, the false statement must also have been intentional.",
+      "simpler": "A false answer only matters if the insurer would have said 'no' had it known the truth.",
+      "examples": [
+        "Sam misstates the name of a doctor he once visited for a routine checkup. The insurer's underwriting would have been exactly the same with the correct name, so the misstatement is not material.",
+        "Tara hides a cancer diagnosis that would have led the insurer to decline her. The misrepresentation is material, and the insurer may seek to rescind during the contestable period."
+      ],
+      "examTip": "NY materiality test (§ 3105(b)(1)): would knowledge of the true facts have led the insurer to refuse to make such contract? If yes, it is material. § 3105(c) lets the insurer prove this with evidence of its practice for similar risks. A false 'no prior treatment' answer is treated, for materiality purposes, as a misrepresentation that the applicant did not have the condition treated (§ 3105(d)).",
+      "misconception": "Not every false statement voids a policy. Immaterial misstatements do not, and in NY most medical expense policies also require the misrepresentation to be intentional.",
+      "related": [
+        "representation",
+        "rescission",
+        "concealment",
+        "fraud",
+        "incontestability"
+      ],
+      "confusedWith": [
+        "concealment",
+        "fraud"
+      ],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "Under NY Insurance Law § 3105, when is a misrepresentation considered material?",
+        "choices": [
+          "When knowing the true facts would have led the insurer to refuse the contract",
+          "Whenever the applicant's statement is false in any detail",
+          "Only when the agent wrote down the answer",
+          "Only when the policy has been in force more than two years"
+        ],
+        "answerIndex": 0,
+        "explanation": "§ 3105(b)(1): no misrepresentation is material unless knowledge of the facts would have led the insurer to refuse to make the contract. Minor false details are not automatically material, who recorded the answer is not the test, and duration in force relates to incontestability, not materiality."
+      },
+      "sources": [
+        "ny-isc-3105"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "warranty",
+      "term": "Warranty",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.3.4"
+      ],
+      "formal": "Under N.Y. Insurance Law § 3106(a), any provision of an insurance contract which requires, as a condition precedent to the contract taking effect or to the insurer's liability, the existence of a fact which tends to diminish, or the non-existence of a fact which tends to increase, the risk of loss within the coverage. Under § 3106(b), a breach of warranty does not avoid the contract or defeat recovery unless it materially increases the risk of loss.",
+      "plain": "A warranty is a statement or condition written into the contract that is guaranteed to be true — something the coverage depends on. In New York, breaking a warranty voids coverage only if it materially increased the risk. Also, in New York the applicant's statements on a life, accident or health application are treated as representations, not warranties.",
+      "simpler": "A warranty is a promise built into the contract that something is (or isn't) true.",
+      "examples": [
+        "A commercial policy requires that a building's sprinkler system remain working; that condition is a warranty.",
+        "Under § 3106(b), if a warranty is breached in a way that does not materially increase the risk, the insurer cannot use the breach to avoid the contract."
+      ],
+      "examTip": "Representation = believed true to the best of knowledge; must be material to void. Warranty = guaranteed true, part of the contract. In NY life/health, applicant statements are representations (§ 3204(c)), and breach of any warranty must MATERIALLY increase the risk to avoid the contract (§ 3106(b)).",
+      "misconception": "In New York, a technical breach of warranty does not automatically void the contract; the breach must materially increase the risk of the loss.",
+      "related": [
+        "representation",
+        "misrepresentation",
+        "concealment"
+      ],
+      "confusedWith": [
+        "representation"
+      ],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "Under NY Insurance Law § 3106, a breach of warranty avoids an insurance contract only if the breach:",
+        "choices": [
+          "Materially increases the risk of loss within the coverage",
+          "Is discovered within the free-look period",
+          "Was made by the agent rather than the applicant",
+          "Involves a statement about the applicant's age"
+        ],
+        "answerIndex": 0,
+        "explanation": "§ 3106(b): a breach of warranty does not avoid the contract or defeat recovery unless it materially increases the risk of loss, damage or injury within the coverage. The other choices are not part of the statutory test."
+      },
+      "sources": [
+        "ny-isc-3106",
+        "ny-isc-3204"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "rescission",
+      "term": "Rescission",
+      "aliases": [
+        "rescind"
+      ],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.3.5"
+      ],
+      "formal": "The cancellation of a contract from its inception (ab initio), returning the parties to their positions as if the contract never existed — typically by the insurer refunding premiums — usually on grounds such as material misrepresentation, concealment or fraud.",
+      "plain": "Rescinding a policy means undoing it completely, as if it never existed. The insurer gives back the premiums and owes no benefits. Insurers usually try to rescind when they discover the applicant gave materially false information.",
+      "simpler": "Rescission = hitting 'undo' on the whole contract.",
+      "examples": [
+        "Eight months after issue, an insurer discovers that the applicant hid a major heart condition; it rescinds the policy and refunds all premiums paid.",
+        "A policyowner and insurer agree to rescind a policy issued in error, and all premiums are returned."
+      ],
+      "examTip": "Rescission voids the contract from the BEGINNING and normally comes with a refund of premiums. In life insurance, the insurer's ability to rescind for misrepresentation is limited by the incontestability provision (covered in the policy provisions section).",
+      "misconception": "Rescission is not the same as canceling going forward. Cancellation ends coverage from a future date; rescission erases the contract back to day one.",
+      "related": [
+        "misrepresentation",
+        "concealment",
+        "fraud",
+        "incontestability"
+      ],
+      "confusedWith": [
+        "cancellation-provision"
+      ],
+      "pronunciation": "ree-SIZH-un",
+      "difficulty": 2,
+      "practice": {
+        "prompt": "When an insurer rescinds a policy, it:",
+        "choices": [
+          "Voids the contract from its start and generally refunds premiums",
+          "Ends coverage at the next premium due date",
+          "Reduces the death benefit to match the correct age",
+          "Converts the policy to reduced paid-up insurance"
+        ],
+        "answerIndex": 0,
+        "explanation": "Rescission treats the contract as if it never existed, so premiums are returned. Ending coverage on a future date is cancellation or lapse; age adjustment is the misstatement-of-age provision; reduced paid-up is a nonforfeiture option."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "concealment",
+      "term": "Concealment",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.3.6"
+      ],
+      "formal": "The failure to disclose, or the intentional withholding of, a known material fact that would affect the insurer's decision to issue coverage or the terms of coverage.",
+      "plain": "Concealment is keeping quiet about something important that you know the insurer would want to know — not lying in an answer, but hiding a fact. If the fact is material, the insurer may be able to void the contract.",
+      "simpler": "Concealment = hiding something important by staying silent.",
+      "examples": [
+        "Raj knows he is scheduled for heart surgery next month but says nothing about it when the agent asks if there is anything else the insurer should know.",
+        "An applicant fails to mention that he has just taken up professional motor racing."
+      ],
+      "examTip": "Misrepresentation = a false STATEMENT. Concealment = SILENCE about a material fact. Both must involve material facts to affect the contract.",
+      "misconception": "Concealment does not require a spoken lie; withholding a material fact is enough.",
+      "related": [
+        "misrepresentation",
+        "utmost-good-faith",
+        "fraud",
+        "rescission"
+      ],
+      "confusedWith": [
+        "misrepresentation"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "An applicant knowingly fails to mention a material fact that the insurer would have wanted to know. This is:",
+        "choices": [
+          "Concealment",
+          "Warranty",
+          "Waiver",
+          "Estoppel"
+        ],
+        "answerIndex": 0,
+        "explanation": "Withholding a known material fact is concealment. A warranty is a guaranteed statement; waiver is giving up a known right; estoppel prevents a party from reasserting a right it gave up."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "fraud",
+      "term": "Fraud",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.3.7"
+      ],
+      "formal": "An intentional misrepresentation or concealment of a material fact, made with intent to deceive, which another party relies upon and which results in harm; in insurance it may be grounds for voiding the contract and may also be a crime.",
+      "plain": "Fraud is deliberate deception to get something you're not entitled to — like lying on an application on purpose to get coverage, or faking a claim. It requires intent to deceive.",
+      "simpler": "Fraud = lying on purpose to cheat someone.",
+      "examples": [
+        "An applicant has a friend take the paramedical exam in his place so the insurer will not discover his illness.",
+        "A beneficiary submits a forged death certificate to collect benefits."
+      ],
+      "examTip": "Key word: INTENT. A misrepresentation can be innocent; fraud is always intentional. Insurance fraud is also a crime in New York (covered in the regulation section).",
+      "misconception": "Fraud is not the same as any misstatement; an honest mistake is not fraud.",
+      "related": [
+        "misrepresentation",
+        "concealment",
+        "insurance-fraud",
+        "moral-hazard"
+      ],
+      "confusedWith": [
+        "misrepresentation"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "What distinguishes fraud from an ordinary misrepresentation?",
+        "choices": [
+          "Intent to deceive",
+          "The amount of the policy",
+          "Whether the agent recorded the answer",
+          "Whether the policy is participating"
+        ],
+        "answerIndex": 0,
+        "explanation": "Fraud requires an intentional deception; a misrepresentation can be innocent. Policy size, who recorded the answer and participating status do not define fraud."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "waiver",
+      "term": "Waiver",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.3.8"
+      ],
+      "formal": "The voluntary, intentional giving up (relinquishment) of a known legal right.",
+      "plain": "A waiver happens when someone knowingly gives up a right they have. For example, an insurer that knowingly issues a policy despite an incomplete answer on the application may be treated as having waived its right to rely on that missing information.",
+      "simpler": "Waiver = 'I know I have this right, and I'm letting it go.'",
+      "examples": [
+        "An insurer knowingly accepts a late premium without requiring reinstatement paperwork; it may have waived its right to insist on the reinstatement process for that payment.",
+        "An insurer issues a policy even though the applicant left a medical question blank; it may be held to have waived the right to that answer."
+      ],
+      "examTip": "Waiver comes FIRST (a right is given up); estoppel comes SECOND (the party is then prevented from taking that right back after the other side relied on it).",
+      "misconception": "A waiver must be of a KNOWN right. You cannot waive a right you didn't know you had.",
+      "related": [
+        "estoppel",
+        "apparent-authority",
+        "law-of-agency"
+      ],
+      "confusedWith": [
+        "estoppel"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "The voluntary giving up of a known right is called:",
+        "choices": [
+          "Waiver",
+          "Estoppel",
+          "Rescission",
+          "Concealment"
+        ],
+        "answerIndex": 0,
+        "explanation": "Waiver is the intentional relinquishment of a known right. Estoppel prevents a party from reasserting it; rescission voids a contract; concealment is withholding a material fact."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "estoppel",
+      "term": "Estoppel",
+      "aliases": [],
+      "sectionId": "gen",
+      "outlineIds": [
+        "gen.4.3.8"
+      ],
+      "formal": "A legal doctrine that prevents a party from asserting a right or position that is inconsistent with its earlier words or conduct, when another party reasonably relied on that earlier conduct to its detriment.",
+      "plain": "Estoppel stops someone from going back on what they did or said once the other person has relied on it. If an insurer waived a right and the policyowner relied on that, the insurer can be 'estopped' (blocked) from later enforcing that right.",
+      "simpler": "Estoppel = 'You let it go before, and I counted on that — you can't take it back now.'",
+      "examples": [
+        "For years an insurer has accepted Tom's premiums a week late without objection. If it suddenly denies a claim because a premium was late, a court may find the insurer estopped from doing so.",
+        "Having waived a missing application answer, the insurer is estopped from later denying a claim because of that blank answer."
+      ],
+      "examTip": "Waiver and estoppel go together: waiver = giving up a known right; estoppel = being barred from reclaiming it because the other party relied on the waiver.",
+      "misconception": "Estoppel is not a penalty for fraud; it protects someone who reasonably relied on the other party's conduct.",
+      "related": [
+        "waiver",
+        "apparent-authority",
+        "law-of-agency"
+      ],
+      "confusedWith": [
+        "waiver"
+      ],
+      "pronunciation": "es-TOP-ul",
+      "difficulty": 2,
+      "practice": {
+        "prompt": "An insurer that has repeatedly accepted late premiums is prevented from denying a claim on the ground of a late payment. Which legal concept applies?",
+        "choices": [
+          "Estoppel",
+          "Indemnity",
+          "Adhesion",
+          "Warranty"
+        ],
+        "answerIndex": 0,
+        "explanation": "Estoppel bars the insurer from reasserting a right inconsistent with its past conduct on which the insured relied. Indemnity, adhesion and warranty concern other contract principles."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "a": "representation",
+      "b": "warranty",
+      "keyDifference": "A representation is a statement of past or present fact the applicant believes to be true and must be material to void coverage; a warranty is a contract provision guaranteed to be true that conditions coverage. In New York, applicant statements on life, accident and health applications are representations, and even a breach of warranty must materially increase the risk to avoid the contract.",
+      "rows": [
+        {
+          "aspect": "NY definition",
+          "a": "§ 3105(a): statement of past or present fact made at or before contracting to induce the contract",
+          "b": "§ 3106(a): contract provision making the existence (or non-existence) of a risk-related fact a condition precedent"
+        },
+        {
+          "aspect": "When falsity/breach voids the contract (NY)",
+          "a": "Only if material — insurer would have refused the contract (§ 3105(b))",
+          "b": "Only if the breach materially increases the risk (§ 3106(b))"
+        },
+        {
+          "aspect": "Life/health applications (NY)",
+          "a": "Applicant statements are deemed representations (§ 3204(c))",
+          "b": "Applicant statements are NOT warranties (§ 3204(c))"
+        }
+      ],
+      "memoryTip": "Representation = 'to the best of my knowledge'; Warranty = 'I guarantee it.'"
+    },
+    {
+      "a": "waiver",
+      "b": "estoppel",
+      "keyDifference": "Waiver is voluntarily giving up a known right; estoppel is the legal result that prevents that party from reclaiming the right after another relied on it.",
+      "rows": [
+        {
+          "aspect": "What it is",
+          "a": "An act: relinquishing a known right",
+          "b": "A legal bar: you can't go back on your conduct"
+        },
+        {
+          "aspect": "Order",
+          "a": "Happens first",
+          "b": "Follows from the waiver (or other conduct) plus reliance"
+        },
+        {
+          "aspect": "Example",
+          "a": "Insurer knowingly accepts late premiums",
+          "b": "Insurer can't later deny a claim because a premium was late"
+        }
+      ],
+      "memoryTip": "Waive goodbye to the right, then you're Estopped from taking it back."
+    }
+  ]
+}

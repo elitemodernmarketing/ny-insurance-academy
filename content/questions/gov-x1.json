@@ -1,0 +1,880 @@
+{
+  "sectionId": "gov",
+  "questions": [
+    {
+      "id": "gov-q201",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.1.1",
+        "gov.3.1"
+      ],
+      "concepts": [
+        "workers-compensation",
+        "disability-benefits-law"
+      ],
+      "difficulty": 1,
+      "style": "comparison",
+      "tags": [],
+      "stem": "Which injury would be covered by the NY Disability Benefits Law rather than by workers' compensation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A cashier who breaks her wrist slipping on a wet floor at the store",
+          "rationale": "Incorrect: an on-the-job injury is a workers' comp claim."
+        },
+        {
+          "id": "b",
+          "text": "A carpenter who cuts his hand with a saw while on a job site",
+          "rationale": "Incorrect: this arises out of employment, so workers' comp applies."
+        },
+        {
+          "id": "c",
+          "text": "An office worker who injures her knee playing weekend softball",
+          "rationale": "Correct: an injury not arising out of employment falls under the DBL."
+        },
+        {
+          "id": "d",
+          "text": "A driver hurt in a crash while making a delivery for his employer",
+          "rationale": "Incorrect: injuries in the course of employment are workers' comp."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Workers' compensation covers injuries and illnesses arising out of and in the course of employment. The NY Disability Benefits Law (WCL § 201) covers disability from injury or sickness NOT arising out of employment — such as a weekend sports injury.",
+      "memoryTip": "Weekend softball = DBL; on the clock = workers' comp.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-wkc-201"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q202",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.2.4",
+        "gov.3.4",
+        "gov.2.3"
+      ],
+      "concepts": [
+        "social-security-disability",
+        "disability-benefits-law"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "scenario": "Tara, 50, works for a covered New York employer. She is diagnosed off the job with a serious illness that doctors expect to keep her from doing any work for at least two years. She has ample Social Security work credits.",
+      "stem": "Which statement best describes her income benefits?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "SSDI begins on the 8th day, and DBL begins after five months",
+          "rationale": "Incorrect: the waiting periods are reversed."
+        },
+        {
+          "id": "b",
+          "text": "DBL pays for up to 26 weeks, and SSDI may begin after a five-month wait",
+          "rationale": "Correct: DBL is short-term (day 8, up to 26 weeks); SSDI covers long-term total disability after five full months."
+        },
+        {
+          "id": "c",
+          "text": "Only workers' comp applies, because she is still employed",
+          "rationale": "Incorrect: her illness did not arise out of employment."
+        },
+        {
+          "id": "d",
+          "text": "Neither applies, because she has not been disabled for 12 months yet",
+          "rationale": "Incorrect: SSDI requires the condition be EXPECTED to last 12 months, and DBL has no such rule."
+        }
+      ],
+      "correct": "b",
+      "explanation": "NY DBL covers off-the-job disability starting on the 8th day (WCL § 204) for up to 26 weeks in 52 consecutive weeks (§ 205). SSDI pays for total disability expected to last at least 12 months, after a five-month waiting period, with the first benefit for the sixth full month. The two programs can overlap in time; DBL bridges the short term.",
+      "memoryTip": "DBL bridges the gap; SSDI carries the long haul.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "DBL: short-term, up to 26 weeks",
+            "anyOf": [
+              "26 weeks",
+              "short-term",
+              "eighth day",
+              "8th day"
+            ]
+          },
+          {
+            "label": "SSDI: five-month wait",
+            "anyOf": [
+              "five-month",
+              "5-month",
+              "five months",
+              "sixth"
+            ]
+          },
+          {
+            "label": "Expected 12+ months satisfies SSDI duration",
+            "anyOf": [
+              "expected",
+              "12 months",
+              "two years"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-wkc-204",
+        "ny-wkc-205",
+        "fed-ssa-disability-qualify"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q203",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.2.3"
+      ],
+      "concepts": [
+        "social-security-disability"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "SSA determines that Victor's disability began on October 20. He meets all other SSDI requirements.",
+      "stem": "For which month will his first SSDI benefit generally be paid?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "November",
+          "rationale": "Incorrect: November is the first full month of the waiting period."
+        },
+        {
+          "id": "b",
+          "text": "March",
+          "rationale": "Incorrect: March is the fifth full month — still part of the waiting period."
+        },
+        {
+          "id": "c",
+          "text": "October of the following year",
+          "rationale": "Incorrect: this confuses the 12-month duration rule with the waiting period."
+        },
+        {
+          "id": "d",
+          "text": "April",
+          "rationale": "Correct: the first benefit is for the sixth full month after onset."
+        }
+      ],
+      "correct": "d",
+      "explanation": "October is not a full month of disability (onset October 20). Full months: November (1), December (2), January (3), February (4), March (5) form the five-month waiting period. The first benefit is for the sixth full month, April.",
+      "memoryTip": "Skip the partial month, wait five, pay the sixth.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-ssa-disability-qualify"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q204",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.2.4"
+      ],
+      "concepts": [
+        "social-security-disability"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "What happens to SSDI benefits when the recipient reaches full retirement age?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They automatically become retirement benefits in the same amount",
+          "rationale": "Correct: SSA converts SSDI to retirement benefits, and the amount stays the same."
+        },
+        {
+          "id": "b",
+          "text": "They stop, and the person must reapply for retirement benefits",
+          "rationale": "Incorrect: no reapplication is needed; the conversion is automatic."
+        },
+        {
+          "id": "c",
+          "text": "They are reduced by half",
+          "rationale": "Incorrect: the amount remains the same."
+        },
+        {
+          "id": "d",
+          "text": "They continue as disability benefits for life",
+          "rationale": "Incorrect: they convert to retirement benefits."
+        }
+      ],
+      "correct": "a",
+      "explanation": "SSA: if you are receiving SSDI benefits when you reach full retirement age, your disability benefits automatically convert to retirement benefits, but the amount remains the same. Before then, benefits generally continue until the person can work again on a regular basis.",
+      "memoryTip": "At full retirement age, SSDI changes its name, not its amount.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-ssa-disability-qualify"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q205",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.3.3"
+      ],
+      "concepts": [
+        "disability-benefits-law"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "Kyle started a new job with a covered New York employer three weeks ago. He works the employer's normal full-time schedule. This weekend he breaks his leg playing basketball.",
+      "stem": "Is Kyle eligible for NY Disability Benefits Law benefits from this employer?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, from his very first day of employment with the employer",
+          "rationale": "Incorrect: eligibility requires four consecutive weeks of employment with the covered employer."
+        },
+        {
+          "id": "b",
+          "text": "No; he hasn't yet worked four consecutive weeks there",
+          "rationale": "Correct: WCL § 203 makes employees eligible after four or more consecutive weeks."
+        },
+        {
+          "id": "c",
+          "text": "No, because off-the-job sports injuries are excluded from DBL",
+          "rationale": "Incorrect: off-the-job sports injuries are typical DBL claims."
+        },
+        {
+          "id": "d",
+          "text": "Yes, but only after he completes 26 weeks of employment",
+          "rationale": "Incorrect: 26 weeks is the eligibility period for paid FAMILY LEAVE, not disability."
+        }
+      ],
+      "correct": "b",
+      "explanation": "WCL § 203: employees of a covered employer become eligible for disability benefits after four or more consecutive weeks of employment (26 consecutive weeks for paid family leave). A regular part-time employee becomes eligible on the 25th day of regular employment. Kyle, at three weeks, is not yet eligible with this employer (unless he is still within four weeks of eligible employment with a previous covered employer).",
+      "memoryTip": "DBL: 4 weeks on the job; PFL: 26 weeks.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Four consecutive weeks required",
+            "anyOf": [
+              "four",
+              "4 weeks",
+              "4 consecutive"
+            ]
+          },
+          {
+            "label": "26 weeks applies to family leave",
+            "anyOf": [
+              "26 weeks",
+              "family leave"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-wkc-203"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q206",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.3.4"
+      ],
+      "concepts": [
+        "disability-benefits-law"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "scenario": "Lena is out for six weeks after off-the-job surgery. Her employer voluntarily continues paying her full regular salary for the first four weeks; after that she receives no pay.",
+      "stem": "How do NY DBL benefits apply?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No DBL for the fully paid days; DBL may be payable after pay stops",
+          "rationale": "Correct: WCL § 205(3)(c) bars DBL for days of full employer pay at or above the benefit."
+        },
+        {
+          "id": "b",
+          "text": "DBL is paid for all six weeks, in addition to her full salary",
+          "rationale": "Incorrect: that would duplicate the employer's payments."
+        },
+        {
+          "id": "c",
+          "text": "DBL is never payable once the employer has paid any salary at all",
+          "rationale": "Incorrect: the bar applies only to the days for which she was paid."
+        },
+        {
+          "id": "d",
+          "text": "DBL is payable only if the surgery was related to her work",
+          "rationale": "Incorrect: work-related disability is workers' comp; DBL covers off-the-job disability."
+        }
+      ],
+      "correct": "a",
+      "explanation": "WCL § 205(3)(c): DBL benefits are not payable for any day of disability for which the employee receives from the employer remuneration equal to or greater than the DBL benefit. Once her salary stops, she can receive DBL (subject to the 8th-day start and 26-week maximum).",
+      "memoryTip": "Full pay from the boss means no DBL for those days.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-wkc-205",
+        "ny-wkc-204"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q207",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.4.1",
+        "gov.5.1"
+      ],
+      "concepts": [
+        "medicaid",
+        "medicare"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Oscar, 72, has Original Medicare and also qualifies for full Medicaid because of very low income. He receives an outpatient service that Medicare covers.",
+      "stem": "Which program pays first?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Medicaid, because it covers people with low income",
+          "rationale": "Incorrect: Medicaid never pays first for services Medicare covers."
+        },
+        {
+          "id": "b",
+          "text": "Medicaid and Medicare split the bill equally",
+          "rationale": "Incorrect: coordination is primary/secondary, not 50/50."
+        },
+        {
+          "id": "c",
+          "text": "Medicare pays first, and Medicaid may pay after",
+          "rationale": "Correct: Medicare is primary for Medicare-covered services."
+        },
+        {
+          "id": "d",
+          "text": "Neither, because dual eligibles must buy Medigap",
+          "rationale": "Incorrect: dual eligibles are not required to buy Medigap."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Medicare.gov: for people with both Medicare and Medicaid, generally Medicare pays first; Medicaid never pays first for services Medicare covers, and pays after other coverage in the rare cases where there is other insurance.",
+      "memoryTip": "Medicaid is the payer of last resort.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-medicare-who-pays-first"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q208",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.5.2.2",
+        "gov.5.3.2"
+      ],
+      "concepts": [
+        "medicare-part-a",
+        "medicare-part-b",
+        "initial-enrollment-period"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "Ines has been receiving Social Security retirement benefits since age 62. What happens with Medicare when she turns 65?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She must apply during her Initial Enrollment Period or lose Medicare",
+          "rationale": "Incorrect: people already receiving Social Security benefits are enrolled automatically."
+        },
+        {
+          "id": "b",
+          "text": "She is automatically enrolled in Parts A and B",
+          "rationale": "Correct: she is getting Social Security benefits at least 4 months before 65."
+        },
+        {
+          "id": "c",
+          "text": "She is enrolled in Part D only",
+          "rationale": "Incorrect: Part D requires choosing and joining a private drug plan."
+        },
+        {
+          "id": "d",
+          "text": "She must wait 24 months after turning 65",
+          "rationale": "Incorrect: the 24-month rule applies to disability-based Medicare."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Medicare.gov: if you get Social Security retirement or disability benefits at least 4 months before you turn 65, you are enrolled automatically in Part A and Part B, and your Medicare card is mailed about 3 months before coverage starts. Drug coverage (Part D) requires joining a plan.",
+      "memoryTip": "Already on Social Security at 65? Medicare A and B arrive automatically.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-medicare-before-65"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q209",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.5.3.3"
+      ],
+      "concepts": [
+        "medicare-part-b",
+        "coinsurance"
+      ],
+      "difficulty": 1,
+      "style": "calculation",
+      "tags": [
+        "math",
+        "rapid"
+      ],
+      "stem": "Part B approves $400 for an outpatient service; the deductible is met. What is the patient's usual 20% coinsurance?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$80",
+          "rationale": "Correct: 20% × $400 = $80."
+        },
+        {
+          "id": "b",
+          "text": "$40",
+          "rationale": "Incorrect: this is 10% of the approved amount."
+        },
+        {
+          "id": "c",
+          "text": "$320",
+          "rationale": "Incorrect: this is the 80% Medicare pays."
+        },
+        {
+          "id": "d",
+          "text": "$400",
+          "rationale": "Incorrect: Medicare pays most of the approved amount once the deductible is met."
+        }
+      ],
+      "correct": "a",
+      "explanation": "After the annual Part B deductible, the beneficiary generally pays 20% of the Medicare-approved amount and Medicare pays 80%. 20% × $400 = $80; Medicare pays $320.",
+      "memoryTip": "Part B: Medicare 80, you 20.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q210",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.5.4",
+        "gov.5.5"
+      ],
+      "concepts": [
+        "medicare-advantage",
+        "medicare-part-d"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [],
+      "stem": "Which beneficiary would need to join a separate stand-alone Part D plan to get Medicare drug coverage?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Al, in a Medicare Advantage plan that includes drug coverage",
+          "rationale": "Incorrect: his drug coverage is already built into the plan."
+        },
+        {
+          "id": "b",
+          "text": "Bea, with Original Medicare and a Medigap Plan G",
+          "rationale": "Correct: Original Medicare has no outpatient drug benefit, and Medigap sold after 2005 doesn't include drugs."
+        },
+        {
+          "id": "c",
+          "text": "Cal, in a Medicare Advantage HMO with Part D included",
+          "rationale": "Incorrect: Part D is included in his plan."
+        },
+        {
+          "id": "d",
+          "text": "Dee, who only wants extra coverage for her Part B coinsurance",
+          "rationale": "Incorrect: she is asking about Medigap, not drug coverage."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Original Medicare (Parts A and B) does not include outpatient prescription drug coverage, and Medigap policies sold after 2005 don't include drug coverage, so a person with Original Medicare + Medigap adds a stand-alone Part D plan. Medicare Advantage plans usually include Part D.",
+      "memoryTip": "Original + Medigap → add Part D. Advantage → usually built in.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-medicare-before-65",
+        "fed-medicare-medigap-chart",
+        "fed-medicare-snf"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q211",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.5.2.3"
+      ],
+      "concepts": [
+        "medicare-part-a",
+        "medicare-benefit-period"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "After a qualifying 4-day inpatient stay, June enters a skilled nursing facility for daily rehabilitation. She is now on day 35 of the SNF stay in the same benefit period.",
+      "stem": "What does June pay for day 35 under Original Medicare?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nothing, because the first 100 days are free",
+          "rationale": "Incorrect: only days 1–20 have no daily coinsurance."
+        },
+        {
+          "id": "b",
+          "text": "All costs, because Medicare covers only 20 days",
+          "rationale": "Incorrect: Part A covers up to 100 SNF days per benefit period."
+        },
+        {
+          "id": "c",
+          "text": "A daily coinsurance amount",
+          "rationale": "Correct: days 21–100 require a daily coinsurance."
+        },
+        {
+          "id": "d",
+          "text": "20% of the bill under Part B",
+          "rationale": "Incorrect: SNF care is a Part A benefit with its own cost sharing."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Medicare.gov: per benefit period, SNF days 1–20 have no daily coinsurance (after the Part A deductible), days 21–100 require a daily coinsurance, and from day 101 the beneficiary pays all costs. Day 35 falls in the 21–100 range.",
+      "memoryTip": "SNF: 1–20 free, 21–100 coinsurance, 101+ all yours.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-medicare-snf"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q212",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.6.1",
+        "gov.6.2"
+      ],
+      "concepts": [
+        "hsa",
+        "fsa"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Maya has both an HSA (with $3,000 in it) through her prior HDHP and a health FSA with her current employer. She quits her job in June, and her FSA plan has no grace period or carryover.",
+      "stem": "What happens to her accounts?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The HSA stays hers; unused FSA money is generally lost",
+          "rationale": "Correct: an HSA is individually owned; an FSA is use-it-or-lose-it."
+        },
+        {
+          "id": "b",
+          "text": "Both accounts belong to Maya and move with her to her next job",
+          "rationale": "Incorrect: the FSA is an employer plan; unused funds are generally forfeited."
+        },
+        {
+          "id": "c",
+          "text": "Both accounts and their balances are forfeited to the employer",
+          "rationale": "Incorrect: an HSA is the individual's own account."
+        },
+        {
+          "id": "d",
+          "text": "The HSA balance must be rolled into the employer's FSA",
+          "rationale": "Incorrect: no such rollover exists."
+        }
+      ],
+      "correct": "a",
+      "explanation": "An HSA is a tax-exempt trust or custodial account owned by the individual; balances carry over and stay with her regardless of employment. A health FSA is an employer-established plan and is generally 'use-it-or-lose-it'; without a grace period or carryover, unused funds are forfeited.",
+      "memoryTip": "HSA follows you; FSA stays with the employer.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "HSA is individually owned/portable",
+            "anyOf": [
+              "owned",
+              "portable",
+              "stays",
+              "hers"
+            ]
+          },
+          {
+            "label": "FSA is use-it-or-lose-it",
+            "anyOf": [
+              "forfeit",
+              "lose",
+              "use-it"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-irs-p969"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q213",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.6.3"
+      ],
+      "concepts": [
+        "hsa"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Who may contribute to an eligible individual's HSA?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only the account owner, from his or her own funds",
+          "rationale": "Incorrect: others may contribute too."
+        },
+        {
+          "id": "b",
+          "text": "Only the employer that sponsors the HDHP",
+          "rationale": "Incorrect: the individual and others may also contribute."
+        },
+        {
+          "id": "c",
+          "text": "Only the federal government, as a tax credit",
+          "rationale": "Incorrect: HSAs aren't government-funded."
+        },
+        {
+          "id": "d",
+          "text": "The owner, the employer, relatives or others",
+          "rationale": "Correct: any person may contribute for an eligible individual."
+        }
+      ],
+      "correct": "d",
+      "explanation": "IRS Pub. 969: any eligible individual can contribute to an HSA; for an employee's HSA, the employee, the employer, or both may contribute, and family members or any other person may also contribute on behalf of an eligible individual. Contributions must be made in cash, and annual limits (indexed) apply to the total.",
+      "memoryTip": "HSA: anyone can chip in for an eligible person.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-irs-p969"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "gov-q214",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "gov",
+      "outlineIds": [
+        "gov.7"
+      ],
+      "concepts": [
+        "healthy-new-york"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "ny-law",
+        "math"
+      ],
+      "scenario": "A qualifying small employer with 24 employees wants to buy a Healthy NY contract.",
+      "stem": "Under Insurance Law § 4326, at least how many employees must the contract insure?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "12",
+          "rationale": "Correct: the contract must insure not less than 50% of employees; 50% × 24 = 12."
+        },
+        {
+          "id": "b",
+          "text": "6",
+          "rationale": "Incorrect: this is 25% of the employees."
+        },
+        {
+          "id": "c",
+          "text": "18",
+          "rationale": "Incorrect: this is 75% of the employees."
+        },
+        {
+          "id": "d",
+          "text": "24",
+          "rationale": "Incorrect: 100% participation is not required."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Ins. Law § 4326: a qualifying group health insurance contract under Healthy NY 'must insure not less than fifty percent of the employees.' 50% × 24 = 12. The employer must also offer coverage to all its lower-wage employees, and at least one must accept.",
+      "memoryTip": "Healthy NY: at least half the employees enrolled.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-4326"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

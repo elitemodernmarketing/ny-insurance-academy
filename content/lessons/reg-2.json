@@ -1,0 +1,592 @@
+{
+ "sectionId": "reg",
+ "lessons": [
+  {
+   "id": "reg-l04",
+   "sectionId": "reg",
+   "order": 4,
+   "title": "Unfair and Prohibited Practices: Misrepresentation, Twisting, Advertising, Defamation, Discrimination and Rebating",
+   "outlineIds": [
+    "reg.2.3",
+    "reg.2.3.1",
+    "reg.2.3.2",
+    "reg.2.3.3",
+    "reg.2.3.4",
+    "reg.2.3.5"
+   ],
+   "estMinutes": 30,
+   "intro": "Most exam questions in this section describe a producer doing something to win a sale and ask you to name the violation. Learn the five big prohibited practices and the one-line test for each, and these questions become easy points.",
+   "objectives": [
+    "Identify misrepresentation and twisting under § 2123",
+    "Recognize false or misleading advertising and New York's producer advertising rules",
+    "Distinguish defamation of an insurer from misrepresentation",
+    "Explain unfair discrimination and why risk-based pricing is allowed",
+    "Apply the $25 rebating rule for life and health insurance"
+   ],
+   "keyTerms": [
+    "twisting",
+    "misrepresentation",
+    "false-advertising",
+    "defamation-of-insurer",
+    "unfair-discrimination",
+    "rebating"
+   ],
+   "parts": [
+    {
+     "heading": "Misrepresentation and twisting (§ 2123)",
+     "body": "§ 2123(a)(1) bars anyone — agents, brokers, navigators or others — from issuing or circulating any illustration, circular, statement or memorandum that **misrepresents the terms, benefits or advantages** of a life, accident or health policy or annuity, makes a **misleading estimate of future dividends**, misstates past dividends, or misrepresents an **insurer's financial condition** or legal reserve system. That is [[misrepresentation]].\n\n§ 2123(a)(2) bars any **incomplete comparison** of policies made to induce someone to **lapse, forfeit or surrender** a policy. This is [[twisting]]. A comparison is incomplete if it does not meet the regulatory comparison requirements, and the law does not presume the client knew the policy's terms (§ 2123(b)-(c)).\n\nReplacement itself is lawful when done right: § 2123(a)(3) requires replacements of individual life and annuity contracts to follow DFS regulation, including notice to the replaced insurer, exchange of cost information, and a **60-day period** after issuance during which the owner may return the new contract and reinstate the old one.\n\nA violator who knowingly receives commission on a sale induced by a § 2123 violation is liable for a civil penalty equal to that commission, recoverable by the person induced to buy (§ 2123(d)).",
+     "simple": "Don't lie about what a policy does, its dividends, or the company's finances. Don't use one-sided comparisons to get people to drop a policy (that's twisting). Replacing a policy is fine if you follow the rules — and the client gets 60 days to change their mind.",
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "§ 2123(a)(3)(D) requires the replacement regulation to give the owner a 60-day return period; Regulation 60 (11 NYCRR 51.6) sets it at 60 days from delivery of the replacement policy, with an unconditional full refund.",
+       "sources": [
+        "ny-isc-2123",
+        "ny-11nycrr-51"
+       ]
+      },
+      {
+       "kind": "exam-trap",
+       "text": "Replacement ≠ twisting. Replacement is a lawful transaction; twisting is replacement induced by misrepresentation or incomplete comparison."
+      }
+     ]
+    },
+    {
+     "heading": "False advertising",
+     "body": "[[false-advertising|Advertising]] is any public communication — print, broadcast, website, social media, sales illustrations. The § 2123(a)(1) prohibition on misleading circulars and statements applies fully to advertising, and § 2603 (\"issue or circulation of false literature\") is the outline's reference for this topic.\n\nNew York also sets specific producer advertising rules in § 2122:\n\n- Any producer ad that refers to an insurer must give the insurer's **full name** and the **city, town or village** of its principal U.S. office.\n- No producer may advertise in a way that **calls attention to an unauthorized insurer**.\n- Ads describing an insurer's financial condition must conform to § 1313.",
+     "simple": "Ads must be truthful. If an ad mentions an insurer, it must give the insurer's full name and home-office city. Never advertise an insurer that isn't authorized in New York.",
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "Producer ads referring to an insurer must state its full name and the city, town or village of its principal U.S. office (§ 2122(b)).",
+       "sources": [
+        "ny-isc-2122"
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "Defamation of an insurer (§ 2604)",
+     "body": "[[defamation-of-insurer|Defamation]] is wilfully making or spreading a statement — written, printed or spoken — that is **untrue** and **derogatory to an insurer's financial condition, solvency or financial standing**. Knowingly helping someone else spread it is also prohibited.\n\nCompare: misrepresentation is usually about a **policy**; defamation is about a **company's finances**.",
+     "simple": "Don't spread lies saying an insurance company is broke or unstable.",
+     "callouts": [
+      {
+       "kind": "memory-tip",
+       "text": "Defamation tears a company DOWN; false advertising puffs a policy UP."
+      }
+     ]
+    },
+    {
+     "heading": "Unfair discrimination (§ 4224(a)-(b))",
+     "body": "[[unfair-discrimination|Unfair discrimination]] means treating people of the **same class and equal expectation of life** (life insurance) or the **same class** (accident and health) differently in premiums, rates, dividends, benefits or terms. Insurers also may not refuse, limit or rate coverage **solely** because of a physical or mental disability or impairment unless the difference is permitted by law and based on **sound actuarial principles** or actual or reasonably anticipated experience — and in that case the insured can ask for the specific reasons. Refusing or rating coverage solely because someone was prescribed HIV pre-exposure prophylaxis (PrEP) is also prohibited.\n\nRisk classification is not discrimination: charging smokers more than nonsmokers, or older applicants more than younger ones, reflects real differences in risk.",
+     "simple": "Same risk, same price. Different price only for real, measurable differences in risk.",
+     "callouts": [
+      {
+       "kind": "note",
+       "text": "The outline also cites §§ 2606-2608 and 2612 (other protected characteristics and situations). Those texts were not reviewed for this lesson; the rule taught here is from § 4224.",
+       "sources": [
+        "ny-isc-4224"
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "Rebating ($25 rule)",
+     "body": "[[rebating|Rebating]] is giving a buyer anything of value **not specified in the policy** as an **inducement** to buy — part of the premium, part of the commission, special dividend favors, stocks or other securities, or gifts. For life, accident and health insurance and annuities, § 4224(c) allows only valuable consideration such as merchandise **not exceeding $25 in value**. (§ 2324(a) has the same $25 rule for other lines.)\n\nTwo important points:\n\n- **Receiving is also illegal.** No person may knowingly receive a rebate or other inducement not specified in the policy.\n- **Dividends are not rebates.** An insurer may equitably distribute policy dividends (§ 2324(c)), and an insurer may provide medical exams and nursing services to policyholders under reasonable rules (§ 4224(e)).",
+     "simple": "Anything worth more than $25 given to get someone to buy — cash back, paying their premium, a big gift — is an illegal rebate, and the buyer who knowingly takes it breaks the law too.",
+     "example": {
+      "title": "Example: the gift basket",
+      "body": "Agent Nora gives every new client a $20 calendar-and-pen set with her agency logo — allowed (not over $25). She then offers a prospect a $150 restaurant gift card if he buys a policy this week — an illegal rebate under § 4224(c)."
+     },
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "The exam outline cites § 2324 for rebating, but § 2324(e) says it does not apply to life, accident or health policies subject to § 4224. For life/health, § 4224(c) is the rule — and it uses the same $25 limit.",
+       "sources": [
+        "ny-isc-2324",
+        "ny-isc-4224"
+       ]
+      }
+     ]
+    }
+   ],
+   "activity": {
+    "type": "categorize",
+    "prompt": "Name the violation in each situation.",
+    "categories": [
+     "Twisting",
+     "Rebating",
+     "Defamation",
+     "Unfair discrimination"
+    ],
+    "items": [
+     {
+      "text": "Showing only premiums, not cash values, to persuade a client to surrender a policy",
+      "category": "Twisting"
+     },
+     {
+      "text": "Paying a client's first premium from the agent's commission",
+      "category": "Rebating"
+     },
+     {
+      "text": "Telling prospects a rival insurer is about to go bankrupt, which is false",
+      "category": "Defamation"
+     },
+     {
+      "text": "Charging two identical-risk applicants different rates as a personal favor",
+      "category": "Unfair discrimination"
+     },
+     {
+      "text": "Offering a $200 gift card if the prospect signs today",
+      "category": "Rebating"
+     },
+     {
+      "text": "Using a misleading side-by-side chart to get a client to lapse a policy",
+      "category": "Twisting"
+     }
+    ]
+   },
+   "knowledgeChecks": [
+    {
+     "prompt": "An agent promises a prospect a $100 gift card for buying a term policy. This is:",
+     "choices": [
+      "Rebating",
+      "Twisting",
+      "Defamation",
+      "Controlled business"
+     ],
+     "answerIndex": 0,
+     "explanation": "A valuable inducement over $25 not specified in the policy is a rebate (§ 4224(c))."
+    },
+    {
+     "prompt": "A false statement that an insurer is insolvent violates the rule against:",
+     "choices": [
+      "Defamation of an insurer",
+      "Unfair discrimination",
+      "Twisting",
+      "Commingling"
+     ],
+     "answerIndex": 0,
+     "explanation": "§ 2604 prohibits untrue statements derogatory to an insurer's financial condition or solvency."
+    },
+    {
+     "prompt": "Which is NOT unfair discrimination?",
+     "choices": [
+      "Charging smokers more than nonsmokers based on mortality data",
+      "Charging two equal risks different rates for no reason",
+      "Giving one policyholder special dividends as a favor",
+      "Refusing coverage solely because of a disability with no actuarial basis"
+     ],
+     "answerIndex": 0,
+     "explanation": "Risk-based classification supported by actuarial data is permitted; the others are prohibited by § 4224."
+    }
+   ],
+   "summary": [
+    "Misrepresentation: misstating policy terms, benefits, dividends or an insurer's finances (§ 2123(a)(1)).",
+    "Twisting: an incomplete comparison used to get a policy lapsed, forfeited or surrendered (§ 2123(a)(2)); replacement itself is lawful with a 60-day return period.",
+    "Ads must be truthful, name the insurer in full with its home-office city, and never promote unauthorized insurers (§ 2122).",
+    "Defamation: false statements damaging an insurer's financial reputation (§ 2604).",
+    "Unfair discrimination: different treatment of equal risks; rebating: inducements over $25 not in the policy — giving or knowingly receiving (§ 4224)."
+   ],
+   "related": [
+    "reg-l03",
+    "reg-l05"
+   ],
+   "sources": [
+    "ny-isc-2123",
+    "ny-isc-2122",
+    "ny-isc-2604",
+    "ny-isc-4224",
+    "ny-isc-2324",
+    "ny-11nycrr-51"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19",
+    "notes": "§§ 2603, 2606-2608, 2612 and Regulation 64 not retrieved; content relies on §§ 2122, 2123, 2604, 4224 and 2324."
+   }
+  },
+  {
+   "id": "reg-l05",
+   "sectionId": "reg",
+   "order": 5,
+   "title": "Producer Duties: Money, Commissions, Controlled Business and Compensation Disclosure",
+   "outlineIds": [
+    "reg.2.4",
+    "reg.2.4.1",
+    "reg.2.4.2",
+    "reg.2.4.3",
+    "reg.2.4.4",
+    "reg.2.4.5",
+    "reg.2.4.6",
+    "reg.2.11"
+   ],
+   "estMinutes": 25,
+   "intro": "Once you are licensed and selling, New York regulates how you handle clients' money, who you may pay or be paid by, how much of your business can come from your own circle, and what you must tell buyers about how you are paid.",
+   "objectives": [
+    "Explain fiduciary responsibility and commingling under § 2120",
+    "Apply the 10% controlled business rule",
+    "Identify lawful and unlawful commission arrangements",
+    "Describe the Regulation 194 compensation disclosure timeline",
+    "Describe a producer's duties when terminating another producer for cause"
+   ],
+   "keyTerms": [
+    "fiduciary-responsibility",
+    "commingling",
+    "controlled-business",
+    "sharing-commissions",
+    "producer-compensation-disclosure"
+   ],
+   "parts": [
+    {
+     "heading": "Fiduciary responsibility and commingling",
+     "body": "Every agent and broker is responsible **in a fiduciary capacity** for all funds received or collected as agent or broker (§ 2120(a)). That makes premiums you collect someone else's money held in trust.\n\n- You may **not mingle** those funds with your own (or with funds held in another capacity) without the principal's express consent — that is [[commingling]].\n- You do **not** need a separate bank account for each insurer, as long as each principal's funds are **reasonably ascertainable** from your books and records (§ 2120(c)).\n- Improperly withholding, misappropriating or converting money received in the business is a ground for revocation (§ 2110(a)(5)) and can also be a federal crime when it involves insurance funds (18 U.S.C. § 1033(b)).",
+     "simple": "Premiums you collect aren't yours. Keep them separate from your own money and keep records showing whose money is whose.",
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "One premium account for several insurers is fine if your records identify each insurer's funds. Depositing premiums in your personal account is commingling.",
+       "sources": [
+        "ny-isc-2120"
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "Controlled business",
+     "body": "[[controlled-business|Controlled business]] is insurance on the property and risks of the licensee's own circle — the spouse, corporations the licensee or spouse own more than 50% of (and their affiliates), and related firms. If more than **10% of aggregate net commissions** over the preceding (or next) 12 months comes from such business, the superintendent may refuse, suspend or revoke the license (§ 2103(i)).\n\nThe idea: a license is for serving the public, not mainly for insuring yourself and your relatives' companies.",
+     "simple": "No more than 10% of your commission income should come from insuring your spouse and the businesses you or your spouse control.",
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "More than 10% of aggregate net commissions in a 12-month period from controlled business can lead to refusal, suspension or revocation (§ 2103(i)).",
+       "sources": [
+        "ny-isc-2103"
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "Commissions: who may be paid",
+     "body": "- No one may accept a commission, service fee or other valuable consideration for **selling, soliciting or negotiating** insurance in New York if that person must be licensed and is not (§ 2102(e)(1)).\n- **Renewal or deferred commissions** may be paid to someone who was properly licensed at the time of the sale (§ 2102(e)(2)) — even if they are no longer licensed.\n- Sharing a commission **with the insured** to induce a sale is **rebating** (§ 4224(c)).\n- [[sharing-commissions|Commission sharing]] tied to coverage for New York governmental entities is limited to licensees who actually placed the coverage or rendered the services, with disclosure statements required (§ 2128).\n- A producer violating § 2102 faces a penalty of up to $500 per transaction (§ 2102(g)).",
+     "simple": "Only licensed people can be paid for selling, soliciting or negotiating. Renewals can still be paid if you were licensed when you made the sale. Giving part of your commission to the client is a rebate.",
+     "callouts": [
+      {
+       "kind": "memory-tip",
+       "text": "Licensed at the time of sale = can keep getting renewals."
+      }
+     ]
+    },
+    {
+     "heading": "Compensation disclosure (Regulation 194)",
+     "body": "Under 11 NYCRR 30.3, a producer selling an insurance contract must make a [[producer-compensation-disclosure]] to the purchaser, **orally or in a prominent writing, at or before application**:\n\n1. the producer's **role** in the sale;\n2. **whether** the producer will be compensated by the insurer or another third party based on the sale;\n3. that compensation **may vary** (by contract and insurer selected, volume of business, or profitability); and\n4. that the purchaser **may request** more information about the compensation.\n\nIf the purchaser asks **before issuance**, the producer must give a prominent written disclosure of the nature, amount and source of compensation, alternative quotes, material ownership interests, and whether the producer is barred from altering compensation — at or before issuance (or within **five business days** if time is of the essence). If asked **within 30 days after issuance**, the written disclosure is due within **five business days**. An oral basic disclosure must be followed in writing no later than issuance, and producers may not contradict or mislead about their role or pay.",
+     "simple": "Before the application, tell buyers what your role is, whether the insurer pays you, that your pay can vary, and that they can ask for details. If they ask, give details in writing quickly (generally within five business days).",
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "Basic compensation disclosure at or prior to application; detailed written disclosure on request (within five business days if requested within 30 days after issuance).",
+       "sources": [
+        "ny-11nycrr-30-3"
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "License information and termination duties",
+     "body": "Your license states your name, address, personal identification number, issue date, lines of authority and expiration date (§ 2103(j)(13)). The outline also lists license display rules (Regulation 125, 11 NYCRR 34.5); follow DFS's current display requirements.\n\nTermination duties run both ways. Under § 2112(d), an insurer **or a producer** that terminates the employment, contract or other business relationship of another producer **for cause** (conduct listed in § 2110(a)) must file a statement of the facts with the superintendent within **30 days** and send the terminated producer a copy within **15 days** after notifying the superintendent.",
+     "simple": "If you run an agency and fire a producer for misconduct, you must report it to DFS within 30 days and copy the producer within 15 days after that.",
+     "callouts": [
+      {
+       "kind": "note",
+       "text": "Regulation 125 display details were not verified for this course.",
+       "sources": [
+        "ny-isc-2112",
+        "ny-isc-2103"
+       ]
+      }
+     ]
+    }
+   ],
+   "activity": {
+    "type": "truefalse",
+    "prompt": "True or false?",
+    "statements": [
+     {
+      "text": "A New York agent must keep a separate bank account for each insurer's premiums.",
+      "answer": false,
+      "explanation": "§ 2120(c): not required if each principal's funds are reasonably ascertainable from the records."
+     },
+     {
+      "text": "A former agent may receive renewal commissions on policies sold while properly licensed.",
+      "answer": true,
+      "explanation": "§ 2102(e)(2) allows renewal or deferred commissions to persons licensed at the time of sale."
+     },
+     {
+      "text": "Under Regulation 194, the basic compensation disclosure may wait until the policy is delivered.",
+      "answer": false,
+      "explanation": "11 NYCRR 30.3(a): at or prior to the time of application."
+     },
+     {
+      "text": "If 15% of an agent's net commissions come from insuring companies she and her husband own, her license is at risk.",
+      "answer": true,
+      "explanation": "More than 10% from controlled business allows refusal, suspension or revocation (§ 2103(i))."
+     },
+     {
+      "text": "An agency that terminates a sub-producer for cause has no reporting duty; only insurers must report.",
+      "answer": false,
+      "explanation": "§ 2112(d) applies to insurers and insurance producers terminating a producer for cause."
+     }
+    ]
+   },
+   "knowledgeChecks": [
+    {
+     "prompt": "Mixing premium funds with personal funds without the principal's consent is:",
+     "choices": [
+      "Commingling",
+      "Rebating",
+      "Twisting",
+      "Controlled business"
+     ],
+     "answerIndex": 0,
+     "explanation": "§ 2120(a) prohibits mingling fiduciary funds with the producer's own funds."
+    },
+    {
+     "prompt": "When must a producer first tell a purchaser whether the insurer will compensate the producer?",
+     "choices": [
+      "At or prior to the time of application",
+      "Within 30 days after issuance",
+      "Only when the purchaser asks",
+      "At the first renewal"
+     ],
+     "answerIndex": 0,
+     "explanation": "11 NYCRR 30.3(a) requires the basic disclosure at or before application."
+    },
+    {
+     "prompt": "Who may NOT accept a commission for soliciting insurance in New York?",
+     "choices": [
+      "A person required to be licensed who is not licensed",
+      "A licensed broker who placed the policy",
+      "A licensed agent appointed by the insurer",
+      "A former agent receiving renewals on sales made while licensed"
+     ],
+     "answerIndex": 0,
+     "explanation": "§ 2102(e)(1) bars unlicensed persons who must be licensed from accepting compensation for selling, soliciting or negotiating."
+    }
+   ],
+   "summary": [
+    "Producers hold premiums as fiduciaries and may not commingle them with personal funds (§ 2120).",
+    "Controlled business over 10% of net commissions in 12 months jeopardizes the license (§ 2103(i)).",
+    "Only properly licensed persons may be paid for selling, soliciting or negotiating; renewals may go to those licensed at the time of sale (§ 2102(e)).",
+    "Regulation 194: disclose role and compensation basics at or before application; give written details on request.",
+    "Insurers and producers must report for-cause terminations of producers to DFS within 30 days (§ 2112(d))."
+   ],
+   "related": [
+    "reg-l04",
+    "reg-l06"
+   ],
+   "sources": [
+    "ny-isc-2120",
+    "ny-isc-2103",
+    "ny-isc-2102",
+    "ny-isc-4224",
+    "ny-isc-2128",
+    "ny-11nycrr-30-3",
+    "ny-isc-2112",
+    "ny-isc-2110"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19",
+    "notes": "§§ 2114-2116, 2119, 2121 and Regulations 9/18/29 (Part 20) and 125 not retrieved; content limited to verified sections."
+   }
+  },
+  {
+   "id": "reg-l06",
+   "sectionId": "reg",
+   "order": 6,
+   "title": "Fraud, Cybersecurity, Privacy and Federal Law",
+   "outlineIds": [
+    "reg.2.6",
+    "reg.2.8",
+    "reg.2.9",
+    "reg.2.10",
+    "reg.2.12",
+    "reg.3",
+    "reg.3.1",
+    "reg.3.2"
+   ],
+   "estMinutes": 20,
+   "intro": "Producers handle sensitive information and are often the first to spot fraud. This lesson covers New York's Insurance Frauds Prevention rules, the DFS cybersecurity regulation, the privacy topics on the outline, and the two federal laws the exam names.",
+   "objectives": [
+    "Define a fraudulent insurance act and the penalties New York attaches to it",
+    "State the producer's duty and deadline to report suspected fraud",
+    "State the 72-hour cybersecurity incident notice rule",
+    "Explain who needs a 1033 written consent and why"
+   ],
+   "keyTerms": [
+    "insurance-fraud",
+    "cybersecurity-regulation",
+    "nonpublic-personal-information",
+    "section-1033-waiver",
+    "fair-credit-reporting-act"
+   ],
+   "parts": [
+    {
+     "heading": "Insurance fraud in New York (Article 4)",
+     "body": "Under New York's Insurance Frauds Prevention Act, anyone who **knowingly and with intent to defraud** files an application for insurance or a statement of claim containing **materially false information**, or **conceals** material facts to mislead, commits a **fraudulent insurance act**, which is a crime. Insurers' application and claim forms carry a warning statement saying exactly this.\n\nPenalties: criminal liability **plus** a civil penalty the superintendent may levy of **up to $5,000 and the amount of the claim** for each violation (§ 403(c)).\n\n**Reporting (§ 405):** any licensee who has **reason to believe** a transaction may be fraudulent, or knows one is about to take place or has taken place, must send the superintendent the required information on the prescribed form **within 30 days after determining** that the transaction appears to be fraudulent.",
+     "simple": "Lying or hiding facts on an application or claim to cheat an insurer is a crime. If you suspect it, report it to DFS within 30 days of deciding it looks fraudulent.",
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "Report suspected insurance fraud to the superintendent within 30 days after determining the transaction appears fraudulent (§ 405(a)).",
+       "sources": [
+        "ny-isc-405"
+       ]
+      },
+      {
+       "kind": "exam-trap",
+       "text": "Proof is not required — \"reason to believe\" triggers the duty to report.",
+       "sources": [
+        "ny-isc-405"
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "DFS cybersecurity regulation (23 NYCRR 500)",
+     "body": "DFS's [[cybersecurity-regulation]] requires covered entities to run a cybersecurity program. Two rules to know from § 500.17:\n\n- **72 hours:** notify the superintendent as promptly as possible, and no later than 72 hours after **determining** that a cybersecurity incident occurred at the entity, an affiliate or a third-party service provider.\n- **April 15:** file an annual certification of material compliance for the prior year (or an acknowledgment of noncompliance with a remediation plan), and keep supporting records for five years.\n\nIf a covered entity makes an extortion (ransom) payment, it must notify DFS within 24 hours and explain why within 30 days.",
+     "simple": "If a covered business finds out it was hacked, it has 72 hours to tell DFS, and every year by April 15 it certifies whether it followed the cyber rules.",
+     "callouts": [
+      {
+       "kind": "note",
+       "text": "Which producers are covered entities or exempt depends on Part 500's definitions and exemptions, which were not reviewed for this lesson.",
+       "sources": [
+        "ny-reg-23nycrr-500-17"
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "Consumer privacy and credit reports (concepts)",
+     "body": "The outline lists New York's consumer privacy regulation (Regulation 169, 11 NYCRR Part 420) and the federal [[fair-credit-reporting-act|Fair Credit Reporting Act]] (15 U.S.C. §§ 1681-1681d).\n\n- [[nonpublic-personal-information|Nonpublic personal information]] is the private financial and health information clients give you. Protect it, and share it only as privacy rules permit.\n- The FCRA is the federal law that governs consumer reports and investigative consumer reports, which insurers may use in underwriting.\n\nThe detailed notice and opt-out requirements of these laws are covered in the glossary entries once verified.",
+     "simple": "Keep clients' private information private. Federal law (FCRA) governs the background and credit reports insurers use.",
+     "callouts": [
+      {
+       "kind": "note",
+       "text": "Regulation 169 and FCRA section texts were not retrieved for this course; no specific deadlines are taught here.",
+       "sources": [
+        "psi-ny-bulletin-2023"
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "Federal crimes: 18 U.S.C. § 1033 and the 1033 waiver",
+     "body": "18 U.S.C. § 1033 makes several insurance-related acts federal crimes, including knowingly making false material statements in financial reports to insurance regulators, and **embezzling or misappropriating** an insurance business's money or premiums (generally up to 10 years in prison, up to 15 if it helped push an insurer into conservation, rehabilitation or liquidation; up to one year if $5,000 or less).\n\n§ 1033(e) also bars any person convicted of a **felony involving dishonesty or breach of trust** from willfully engaging in the business of insurance — and makes it a crime for anyone in the business to **willfully permit** that person's participation (up to 5 years). The exception is the [[section-1033-waiver|1033 waiver]]: **written consent** from an insurance regulatory official authorized to regulate the insurer, specifically referring to § 1033(e).",
+     "simple": "Stealing insurance money or lying to regulators is a federal crime. People with dishonesty-related felony convictions need a regulator's written consent to work in insurance, and employers who knowingly hire them without it can be prosecuted.",
+     "callouts": [
+      {
+       "kind": "memory-tip",
+       "text": "1033: Dishonesty felony + insurance job → written regulator consent first.",
+       "sources": [
+        "fed-usc-18-1033"
+       ]
+      }
+     ]
+    }
+   ],
+   "activity": {
+    "type": "match",
+    "prompt": "Match each rule to its deadline or requirement.",
+    "pairs": [
+     {
+      "left": "Report suspected insurance fraud to DFS",
+      "right": "Within 30 days after determining it appears fraudulent"
+     },
+     {
+      "left": "Notify DFS of a cybersecurity incident",
+      "right": "No later than 72 hours after determining it occurred"
+     },
+     {
+      "left": "Annual Part 500 compliance certification",
+      "right": "By April 15"
+     },
+     {
+      "left": "Civil penalty for a fraudulent insurance act",
+      "right": "Up to $5,000 plus the amount of the claim"
+     },
+     {
+      "left": "Felon with dishonesty conviction working in insurance",
+      "right": "Needs written consent of an insurance regulator"
+     }
+    ]
+   },
+   "knowledgeChecks": [
+    {
+     "prompt": "A licensee who determines a claim appears fraudulent must report it to the superintendent within:",
+     "choices": [
+      "30 days",
+      "72 hours",
+      "10 business days",
+      "One year"
+     ],
+     "answerIndex": 0,
+     "explanation": "§ 405(a): within thirty days after the determination."
+    },
+    {
+     "prompt": "Under § 1033(e), who may grant a person with a dishonesty felony permission to work in insurance?",
+     "choices": [
+      "An insurance regulatory official authorized to regulate the insurer",
+      "The person's employer",
+      "A federal probation officer",
+      "Any licensed agent"
+     ],
+     "answerIndex": 0,
+     "explanation": "§ 1033(e)(2) requires written consent of an insurance regulatory official."
+    },
+    {
+     "prompt": "Under 23 NYCRR 500.17, the 72-hour cybersecurity notice period starts when the covered entity:",
+     "choices": [
+      "Determines that a cybersecurity incident has occurred",
+      "First suspects any unusual activity",
+      "Completes its forensic investigation",
+      "Files its annual certification"
+     ],
+     "answerIndex": 0,
+     "explanation": "§ 500.17(a)(1) runs the 72 hours from determining that an incident occurred."
+    }
+   ],
+   "summary": [
+    "A fraudulent insurance act (knowingly false or concealed material information on an application or claim, with intent to defraud) is a crime with civil penalties up to $5,000 plus the claim amount.",
+    "Licensees must report suspected fraud to DFS within 30 days after determining it appears fraudulent.",
+    "Covered entities notify DFS of cybersecurity incidents within 72 hours and certify compliance annually by April 15.",
+    "18 U.S.C. § 1033 criminalizes insurance embezzlement and false reports to regulators, and requires written regulator consent for people with dishonesty felonies to work in insurance."
+   ],
+   "related": [
+    "reg-l05",
+    "reg-l02"
+   ],
+   "sources": [
+    "ny-isc-403",
+    "ny-isc-405",
+    "ny-reg-23nycrr-500-17",
+    "fed-usc-18-1033",
+    "psi-ny-bulletin-2023"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19",
+    "notes": "Privacy (Reg 169) and FCRA taught only at concept level; specifics left to draft glossary entries pending verification."
+   }
+  }
+ ]
+}

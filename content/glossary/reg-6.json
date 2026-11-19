@@ -1,0 +1,259 @@
+{
+ "sectionId": "reg",
+ "terms": [
+  {
+   "id": "section-1033-waiver",
+   "term": "1033 Waiver (Written Consent)",
+   "aliases": [
+    "18 USC 1033 consent",
+    "Prohibited person consent"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.3.2"
+   ],
+   "formal": "Under 18 U.S.C. § 1033(e), an individual convicted of a criminal felony involving dishonesty or a breach of trust (or of an offense under § 1033) who willfully engages or participates in the business of insurance commits a federal crime, as does anyone in the insurance business who willfully permits that participation — unless the individual has the written consent of an insurance regulatory official authorized to regulate the insurer, which consent specifically refers to § 1033(e).",
+   "plain": "Federal law bars people with felony convictions for dishonesty or breach of trust from working in the insurance business unless a state insurance regulator gives written permission — the \"1033 waiver.\" Employers who knowingly let such a person participate without consent can also be prosecuted.",
+   "simpler": "A 1033 waiver is a regulator's written \"permission slip\" that lets someone with a dishonesty-related felony work in insurance.",
+   "examples": [
+    "Dana was convicted of felony embezzlement years ago. Before taking a job processing premium payments at an insurer, she must obtain written § 1033 consent from the insurance regulator.",
+    "An agency owner who knows a new hire has a felony fraud conviction and lets him handle client accounts without a 1033 consent risks federal prosecution."
+   ],
+   "examTip": "Who needs it: people convicted of felonies involving dishonesty or breach of trust. Who grants it: an insurance regulatory official, in writing. Penalty for participating (or knowingly permitting it) without consent: fine and/or up to 5 years in prison.",
+   "misconception": "The 1033 consent is not automatic after a sentence is served; the person must obtain written consent that specifically refers to § 1033(e).",
+   "related": [
+    "insurance-fraud",
+    "license-revocation"
+   ],
+   "confusedWith": [],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Under 18 U.S.C. § 1033, a person convicted of a felony involving dishonesty may work in the business of insurance only with:",
+    "choices": [
+     "Written consent of an insurance regulatory official",
+     "A letter of recommendation from an insurer",
+     "A new license examination",
+     "Approval of a federal judge"
+    ],
+    "answerIndex": 0,
+    "explanation": "§ 1033(e)(2): the person may engage in the business of insurance if he or she has the written consent of an insurance regulatory official authorized to regulate the insurer, specifically referring to the subsection."
+   },
+   "sources": [
+    "fed-usc-18-1033"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "cybersecurity-regulation",
+   "term": "NY Cybersecurity Regulation (23 NYCRR 500)",
+   "aliases": [
+    "Part 500",
+    "DFS cybersecurity rule",
+    "Regulation 23"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.12"
+   ],
+   "formal": "The New York DFS regulation (23 NYCRR Part 500) requiring covered entities regulated by DFS to maintain cybersecurity programs. Among its requirements, § 500.17 requires a covered entity to notify the superintendent electronically as promptly as possible but no later than 72 hours after determining that a cybersecurity incident has occurred, and to submit an annual certification of material compliance (or an acknowledgment of noncompliance) by April 15.",
+   "plain": "DFS requires the businesses it regulates to protect their systems and data. If a covered entity discovers a cybersecurity incident, it must notify DFS within 72 hours of determining that it happened, and each year it must certify (by April 15) whether it complied with the rule.",
+   "simpler": "Part 500 is New York's \"lock your digital doors and report break-ins fast\" rule: 72 hours to tell DFS.",
+   "examples": [
+    "An agency that is a covered entity determines on Monday at 9 a.m. that a hacker accessed its client database; it must notify DFS no later than Thursday at 9 a.m.",
+    "By April 15 each year, a covered insurer's highest-ranking executive and CISO sign its certification of compliance for the prior calendar year."
+   ],
+   "examTip": "72 hours from DETERMINING an incident occurred; annual compliance filing by April 15; ransom (extortion) payment notice within 24 hours.",
+   "misconception": "The 72-hour clock runs from when the entity determines that a cybersecurity incident occurred, not from when the incident first began.",
+   "related": [
+    "nonpublic-personal-information",
+    "superintendent"
+   ],
+   "confusedWith": [
+    "nonpublic-personal-information"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Under 23 NYCRR 500.17, a covered entity must notify the superintendent of a cybersecurity incident no later than:",
+    "choices": [
+     "72 hours after determining the incident occurred",
+     "30 days after the incident",
+     "10 business days after discovering it",
+     "At its next annual certification"
+    ],
+    "answerIndex": 0,
+    "explanation": "§ 500.17(a)(1): as promptly as possible but in no event later than 72 hours after determining that a cybersecurity incident has occurred."
+   },
+   "sources": [
+    "ny-reg-23nycrr-500-17"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "regulation-text",
+    "checkedOn": "2026-11-19",
+    "notes": "Only § 500.17 retrieved; covered-entity definitions and small-entity exemptions (§ 500.19) not stated."
+   }
+  },
+  {
+   "id": "producer-compensation-disclosure",
+   "term": "Producer Compensation Disclosure",
+   "aliases": [
+    "Regulation 194",
+    "Compensation transparency"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.11",
+    "reg.2.4.5"
+   ],
+   "formal": "Under 11 NYCRR § 30.3 (Insurance Regulation 194), an insurance producer selling an insurance contract must disclose to the purchaser, orally or in a prominent writing at or before the time of application: the producer's role in the sale; whether the producer will receive compensation from the insurer or another third party based on the sale; that compensation may vary based on factors such as the contract and insurer selected, volume of business or profitability; and that the purchaser may request information about the producer's compensation.",
+   "plain": "Before the application, you must tell the buyer what your role is, whether you're paid by the insurer, that your pay can vary depending on what they buy, and that they can ask for details. If they ask before the policy is issued, you must give the details in writing (generally by issuance, or within five business days if time is of the essence); if they ask within 30 days after issuance, within five business days.",
+   "simpler": "It's like a price tag on your own paycheck: customers have the right to know who pays you and can ask how much.",
+   "examples": [
+    "At the first appointment, agent Ruth explains that she is appointed by two insurers, will be paid commission by the insurer whose policy the client buys, that her commission may differ between the two products, and that the client may request details.",
+    "Ten days after the policy is issued, the client asks how much Ruth earned on the sale; Ruth must provide the details in a prominent writing within five business days."
+   ],
+   "examTip": "Timing: basic disclosure at or before APPLICATION. Detailed disclosure on request; if requested within 30 days after issuance, within 5 business days.",
+   "misconception": "An oral disclosure alone is not enough; if the basic disclosure is given orally, it must also be given in a prominent writing no later than issuance of the contract (§ 30.3(e)).",
+   "related": [
+    "sharing-commissions",
+    "insurance-agent",
+    "insurance-broker"
+   ],
+   "confusedWith": [],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Under Regulation 194, when must a producer first disclose his or her role and whether the producer is compensated by the insurer?",
+    "choices": [
+     "At or prior to the time of application",
+     "Only if the purchaser asks",
+     "Within 30 days after the policy is issued",
+     "At the first premium renewal"
+    ],
+    "answerIndex": 0,
+    "explanation": "11 NYCRR 30.3(a): orally or in a prominent writing at or prior to the time of application."
+   },
+   "sources": [
+    "ny-11nycrr-30-3"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "regulation-text",
+    "checkedOn": "2026-11-19",
+    "notes": "Exceptions in § 30.5 not retrieved."
+   }
+  },
+  {
+   "id": "nonpublic-personal-information",
+   "term": "Nonpublic Personal Information",
+   "aliases": [
+    "NPI",
+    "Nonpublic information"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.10"
+   ],
+   "formal": "Under New York Insurance Regulation 169 (11 NYCRR 420.3(r)), nonpublic personal information means nonpublic personal financial information and nonpublic personal health information. Financial information includes personally identifiable information a consumer provides on an application, account balance and payment history, the fact that someone is a licensee's customer, and information from a consumer report. Health information is any information (except age or gender) about an individual's physical, mental or behavioral health, health care, or payment for health care that identifies, or could reasonably be used to identify, the individual. Publicly available information is excluded.",
+   "plain": "NPI is the private financial and health information people give you, or that you learn, when they apply for or buy insurance — application answers, payment history, medical details, even the fact that they are your client. Information lawfully available to the public (government records, phone books, newspapers, open websites) is not NPI on its own.",
+   "simpler": "Treat a client's file like their diary: it stays locked unless the rules say you can share a page.",
+   "examples": [
+    "A client's Social Security number, income and medical history written on a life application are nonpublic personal information.",
+    "A client's name and phone number listed in a public phone book are publicly available information — but a list showing that those people are your insurance customers is nonpublic personal financial information."
+   ],
+   "examTip": "Reg 169: NPI = nonpublic personal FINANCIAL info + nonpublic personal HEALTH info. Even the fact that someone is your customer is protected. Age and gender alone are not \"health information.\"",
+   "misconception": "An applicant who never buys a policy is still a \"consumer\" whose information is protected (11 NYCRR 420.3(e)(2)(ii)). Protection does not depend on a sale.",
+   "related": [
+    "cybersecurity-regulation",
+    "fair-credit-reporting-act"
+   ],
+   "confusedWith": [
+    "cybersecurity-regulation"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Under Regulation 169, which item is nonpublic personal information?",
+    "choices": [
+     "The fact that a named individual bought a policy through your agency",
+     "A newspaper article about an insurer's earnings",
+     "A telephone-book listing of a resident's name and number",
+     "The text of the New York Insurance Law"
+    ],
+    "answerIndex": 0,
+    "explanation": "11 NYCRR 420.3(u)(2)(i)(c): the fact that an individual is or has been a licensee's customer is personally identifiable financial information. Newspapers, phone books and statutes are publicly available."
+   },
+   "sources": [
+    "ny-11nycrr-420-3"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "regulation-text",
+    "checkedOn": "2026-11-19",
+    "notes": "Definitions from 11 NYCRR 420.3; notice and opt-out sections 420.4-420.9 not retrieved."
+   }
+  },
+  {
+   "id": "fair-credit-reporting-act",
+   "term": "Fair Credit Reporting Act (FCRA)",
+   "aliases": [
+    "FCRA"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.3.1"
+   ],
+   "formal": "A federal law (15 U.S.C. § 1681 et seq.) that regulates consumer reporting agencies and users of consumer reports, including insurers that use investigative consumer reports in underwriting. Under 15 U.S.C. § 1681d, a person may not procure an investigative consumer report (information on a consumer's character, general reputation, personal characteristics and mode of living) unless it is clearly disclosed to the consumer in writing no later than three days after the report is first requested; on the consumer's written request, the nature and scope of the investigation must be disclosed in writing within five days.",
+   "plain": "When an insurer orders an investigative (inspection) report — where an outside firm may talk to neighbors, co-workers or others about the applicant's character and lifestyle — federal law requires telling the applicant in writing within three days of ordering it. If the applicant asks in writing, the insurer must explain the nature and scope of the investigation within five days.",
+   "simpler": "The FCRA is your right to know what the background check said and to fix mistakes in it.",
+   "examples": [
+    "An insurer orders an investigative consumer report on a life applicant on Monday and mails the required written disclosure by Thursday.",
+    "The applicant writes asking what the investigation covers; the insurer must send a written description of its nature and scope within five days of the request (or of the report request, if later)."
+   ],
+   "examTip": "FCRA investigative consumer report: written notice within 3 days of ordering; nature-and-scope disclosure within 5 days of the consumer's written request.",
+   "misconception": "The FCRA does not prohibit insurers from ordering investigative reports; it requires disclosure and gives the consumer the right to learn the nature and scope of the investigation.",
+   "related": [
+    "investigative-consumer-report",
+    "medical-information-bureau",
+    "nonpublic-personal-information"
+   ],
+   "confusedWith": [
+    "nonpublic-personal-information"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Under the FCRA, an insurer that orders an investigative consumer report on an applicant must disclose that fact in writing no later than:",
+    "choices": [
+     "Three days after the report is first requested",
+     "30 days after the policy is issued",
+     "Only if the applicant is declined",
+     "Ten days after the applicant signs the application"
+    ],
+    "answerIndex": 0,
+    "explanation": "15 U.S.C. § 1681d(a)(1)(A): the written disclosure must be mailed or otherwise delivered not later than three days after the report was first requested."
+   },
+   "sources": [
+    "fed-usc-15-1681d"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19",
+    "notes": "Verified against 15 U.S.C. § 1681d; adverse-action and permissible-purpose provisions (§§ 1681b, 1681m) not retrieved and not stated."
+   }
+  }
+ ],
+ "comparisons": []
+}

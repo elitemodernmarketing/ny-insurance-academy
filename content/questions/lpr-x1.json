@@ -1,0 +1,985 @@
+{
+ "sectionId": "lpr",
+ "questions": [
+  {
+   "id": "lpr-q201",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.2.1.2"
+   ],
+   "concepts": [
+    "per-stirpes"
+   ],
+   "difficulty": 3,
+   "style": "calculation",
+   "tags": [
+    "math",
+    "tricky"
+   ],
+   "scenario": "Rae's $900,000 policy names \"my children, per stirpes\": Ann, Bob and Cara. Ann died before Rae, leaving two children. Bob also died before Rae, leaving no descendants. Cara survives.",
+   "stem": "How are the proceeds divided?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Cara $300,000; Ann's two children $150,000 each; Bob's $300,000 to Rae's estate",
+     "rationale": "Incorrect: a predeceased beneficiary's share never goes to the insured's estate while other branches have living members."
+    },
+    {
+     "id": "b",
+     "text": "Cara $300,000; Ann's two children $300,000 each",
+     "rationale": "Incorrect: this gives Ann's branch two full shares instead of one."
+    },
+    {
+     "id": "c",
+     "text": "Cara $450,000; Ann's two children $225,000 each",
+     "rationale": "Correct: Bob's branch has no survivors, so the $900,000 is split between two branches."
+    },
+    {
+     "id": "d",
+     "text": "Cara and Ann's two children $300,000 each",
+     "rationale": "Incorrect: per stirpes does not split equally among every living descendant; it divides first by branch."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Per stirpes divides proceeds among the branches (children) that either survive or left surviving descendants. Bob died first with no descendants, so only two branches remain: Cara's and Ann's. Each branch receives $900,000 ÷ 2 = $450,000. Ann's $450,000 passes to her two children: $225,000 each.",
+   "memoryTip": "Count living branches, then split each branch's share among its descendants.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Only branches with survivors share",
+      "anyOf": [
+       "branch",
+       "two branches",
+       "no descendants"
+      ]
+     },
+     {
+      "label": "Each branch gets $450,000",
+      "anyOf": [
+       "450,000",
+       "half"
+      ]
+     },
+     {
+      "label": "Ann's children split her share: $225,000 each",
+      "anyOf": [
+       "225,000"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q202",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.9"
+   ],
+   "concepts": [
+    "misstatement-of-age"
+   ],
+   "difficulty": 3,
+   "style": "calculation",
+   "tags": [
+    "math",
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Tia told the insurer she was 52 when she was actually 49. Her $100,000 policy charged $1,500 a year; the premium at her correct age would have been $1,200. The error is discovered at her death.",
+   "stem": "What does the insurer pay?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$100,000, because the error favored the insurer",
+     "rationale": "Incorrect: the benefit is adjusted in either direction to what the premium would buy at the correct age."
+    },
+    {
+     "id": "b",
+     "text": "$80,000",
+     "rationale": "Incorrect: this applies the ratio backward ($100,000 × $1,200 ÷ $1,500)."
+    },
+    {
+     "id": "c",
+     "text": "$125,000",
+     "rationale": "Correct: $100,000 × ($1,500 ÷ $1,200) = $125,000."
+    },
+    {
+     "id": "d",
+     "text": "$100,000 plus a $300 refund of the excess premium",
+     "rationale": "Incorrect: New York adjusts the amount payable, not the premium refunded."
+    }
+   ],
+   "correct": "c",
+   "explanation": "NY Insurance Law § 3203(a)(5): the amount payable is what the premium paid would have purchased at the correct age. Tia overstated her age, so she paid more than the correct-age premium. $1,500 ÷ $1,200 = 1.25; 1.25 × $100,000 = $125,000.",
+   "memoryTip": "Misstated age cuts both ways: overstate it and the benefit goes up.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Benefit adjusted to correct age",
+      "anyOf": [
+       "correct age",
+       "adjust"
+      ]
+     },
+     {
+      "label": "Premium paid ÷ correct premium",
+      "anyOf": [
+       "1,500",
+       "1,200",
+       "1.25"
+      ]
+     },
+     {
+      "label": "Result $125,000",
+      "anyOf": [
+       "125,000"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3203"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q203",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.2.1.8"
+   ],
+   "concepts": [
+    "common-disaster-clause",
+    "contingent-beneficiary"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky"
+   ],
+   "scenario": "Jill owns a policy on her own life naming her husband Ken as primary beneficiary and her sister as contingent. The policy has no common disaster clause. Jill and Ken die in a house fire, and there is no evidence of which one died first.",
+   "stem": "Who most likely receives the proceeds?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Ken's estate, under Ken's will",
+     "rationale": "Incorrect: simultaneous death rules treat Ken as having died first, so his estate does not take."
+    },
+    {
+     "id": "b",
+     "text": "Ken and Jill's two estates, equally",
+     "rationale": "Incorrect: the proceeds are not split between the two estates."
+    },
+    {
+     "id": "c",
+     "text": "The insurer, since no one can prove who died first",
+     "rationale": "Incorrect: the proceeds are still payable."
+    },
+    {
+     "id": "d",
+     "text": "Jill's sister, the contingent beneficiary",
+     "rationale": "Correct: the insured is presumed to have survived the primary beneficiary."
+    }
+   ],
+   "correct": "d",
+   "explanation": "When there is no sufficient evidence of who died first, simultaneous death laws (based on the Uniform Simultaneous Death Act) generally presume the insured survived the beneficiary. Ken is treated as predeceasing Jill, so the proceeds go to Jill's contingent beneficiary, her sister.",
+   "memoryTip": "No proof of who died first? The insured is treated as the survivor.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "No evidence of order of death",
+      "anyOf": [
+       "no evidence",
+       "simultaneous",
+       "who died first"
+      ]
+     },
+     {
+      "label": "Insured presumed to survive the beneficiary",
+      "anyOf": [
+       "presum",
+       "survived",
+       "died first"
+      ]
+     },
+     {
+      "label": "Contingent beneficiary is paid",
+      "anyOf": [
+       "contingent",
+       "sister"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q204",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.2.1.4",
+    "lpr.2.1.5"
+   ],
+   "concepts": [
+    "beneficiary"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Mia is a single mother of two children, ages 3 and 6. She wants her $500,000 policy to support them if she dies, managed by her brother, without a court having to appoint a guardian of their property.",
+   "stem": "Which designation best meets Mia's goal?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Name a trust for the children, with her brother as trustee",
+     "rationale": "Correct: a trustee can receive and manage the money for the children under Mia's instructions."
+    },
+    {
+     "id": "b",
+     "text": "Name the two children directly as primary beneficiaries",
+     "rationale": "Incorrect: the insurer generally cannot pay minors directly, so a guardian may need to be appointed."
+    },
+    {
+     "id": "c",
+     "text": "Name her own estate and leave instructions in her will",
+     "rationale": "Incorrect: proceeds would go through probate, causing delay and exposure to creditors."
+    },
+    {
+     "id": "d",
+     "text": "Name her brother as beneficiary and ask him informally to help",
+     "rationale": "Incorrect: the money would legally belong to her brother, with no duty to use it for the children."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Insurers generally will not pay proceeds directly to minors, who cannot give a valid release. Naming a trust (or a custodian) for the children lets a trusted adult manage the money under the terms Mia sets, without a court-appointed guardian and without probate.",
+   "memoryTip": "Kids + life insurance = trust or custodian, not the kids directly.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Minors cannot receive proceeds directly",
+      "anyOf": [
+       "minor",
+       "cannot",
+       "release",
+       "guardian"
+      ]
+     },
+     {
+      "label": "A trust lets a trustee manage the money",
+      "anyOf": [
+       "trust",
+       "trustee"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q205",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.2.1.6",
+    "lpr.2.1.3"
+   ],
+   "concepts": [
+    "contingent-beneficiary",
+    "beneficiary"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "Which step best keeps life insurance proceeds out of probate if the primary beneficiary dies first?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Making the primary beneficiary designation irrevocable",
+     "rationale": "Incorrect: an irrevocable beneficiary who dies first still leaves no one entitled."
+    },
+    {
+     "id": "b",
+     "text": "Naming one or more contingent beneficiaries",
+     "rationale": "Correct: a contingent beneficiary takes when the primary has died, avoiding the estate."
+    },
+    {
+     "id": "c",
+     "text": "Choosing the life income settlement option",
+     "rationale": "Incorrect: settlement options affect how proceeds are paid, not who receives them."
+    },
+    {
+     "id": "d",
+     "text": "Assigning the policy to the primary beneficiary",
+     "rationale": "Incorrect: assignment transfers ownership; it does not name a backup payee."
+    }
+   ],
+   "correct": "b",
+   "explanation": "If no named beneficiary survives the insured, the proceeds are paid to the insured's estate and go through probate. Naming contingent (and even tertiary) beneficiaries provides a backup so that proceeds pass directly to a living person or entity.",
+   "memoryTip": "Always name a backup.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q206",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.2.1.6"
+   ],
+   "concepts": [
+    "contingent-beneficiary",
+    "primary-beneficiary"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Ugo named his wife as primary beneficiary, his mother as contingent, and a charity as tertiary beneficiary. His wife and his mother both died before him.",
+   "stem": "Who receives the proceeds?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Ugo's estate",
+     "rationale": "Incorrect: the estate takes only if no named beneficiary at any level survives."
+    },
+    {
+     "id": "b",
+     "text": "The estate of Ugo's wife",
+     "rationale": "Incorrect: a beneficiary who predeceases the insured has no claim."
+    },
+    {
+     "id": "c",
+     "text": "Ugo's mother and the charity, equally",
+     "rationale": "Incorrect: the tertiary beneficiary takes only if no contingent beneficiary survives."
+    },
+    {
+     "id": "d",
+     "text": "The charity named as tertiary beneficiary",
+     "rationale": "Correct: with the primary and contingent beneficiaries dead, the tertiary is next."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Succession runs primary → contingent → tertiary → estate. Ugo's wife (primary) and mother (contingent) both died before him, so the tertiary beneficiary, the charity, receives the proceeds.",
+   "memoryTip": "Go down the list until you find someone alive.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q207",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.2.1.7"
+   ],
+   "concepts": [
+    "irrevocable-beneficiary"
+   ],
+   "difficulty": 2,
+   "style": "negative",
+   "tags": [
+    "negative-wording"
+   ],
+   "scenario": "Lars owns a whole life policy on which his former wife is the irrevocable beneficiary.",
+   "stem": "Which action can the owner generally take WITHOUT the irrevocable beneficiary's consent?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Taking a loan against the cash value",
+     "rationale": "Incorrect choice: a loan reduces the beneficiary's vested interest, so consent is generally needed."
+    },
+    {
+     "id": "b",
+     "text": "Changing the premium mode from annual to monthly",
+     "rationale": "Correct: paying premiums more often does not reduce the beneficiary's interest."
+    },
+    {
+     "id": "c",
+     "text": "Absolutely assigning the policy to a buyer",
+     "rationale": "Incorrect choice: an assignment affects the vested interest, so consent is generally needed."
+    },
+    {
+     "id": "d",
+     "text": "Naming a different primary beneficiary",
+     "rationale": "Incorrect choice: changing an irrevocable designation requires the beneficiary's consent."
+    }
+   ],
+   "correct": "b",
+   "explanation": "An irrevocable beneficiary has a vested interest. The owner generally needs that beneficiary's written consent to change the beneficiary, assign the policy, borrow against it or surrender it. Administrative choices that do not reduce the beneficiary's interest, such as the premium mode, do not need consent.",
+   "memoryTip": "Consent is needed for anything that shrinks the beneficiary's share.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q208",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.1"
+   ],
+   "concepts": [
+    "ownership-provision",
+    "policyowner"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Nell owns a $250,000 policy on the life of her adult son Theo, with her daughter named as successor owner. Nell dies; Theo is alive and well.",
+   "stem": "What happens to the policy when Nell dies?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The insurer pays the death benefit to Nell's estate",
+     "rationale": "Incorrect: the insured, Theo, is alive; no death benefit is payable."
+    },
+    {
+     "id": "b",
+     "text": "The policy ends, and the cash value is paid to Theo",
+     "rationale": "Incorrect: the owner's death does not terminate the policy."
+    },
+    {
+     "id": "c",
+     "text": "It stays in force; ownership passes to the successor owner",
+     "rationale": "Correct: the policy continues, and the named successor (contingent) owner becomes owner."
+    },
+    {
+     "id": "d",
+     "text": "Theo automatically becomes owner and beneficiary",
+     "rationale": "Incorrect: ownership passes as the policy or Nell's estate directs, not automatically to the insured."
+    }
+   ],
+   "correct": "c",
+   "explanation": "A life policy pays only on the insured's death. When a third-party owner dies first, the policy stays in force and ownership passes to the successor (contingent) owner named in the policy — or, if none is named, to the owner's estate.",
+   "memoryTip": "Owner dies ≠ policy pays. Only the insured's death triggers the claim.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "No death benefit because the insured is alive",
+      "anyOf": [
+       "insured",
+       "alive",
+       "theo"
+      ]
+     },
+     {
+      "label": "Policy stays in force",
+      "anyOf": [
+       "in force",
+       "continues"
+      ]
+     },
+     {
+      "label": "Successor owner takes ownership",
+      "anyOf": [
+       "successor",
+       "contingent owner",
+       "daughter"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q209",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.2"
+   ],
+   "concepts": [
+    "assignment",
+    "ownership-provision"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Dev, the insured, absolutely assigned his whole life policy to his daughter as a gift. A year later he wants to name his new wife as beneficiary.",
+   "stem": "Can Dev change the beneficiary?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "No — after an absolute assignment, only his daughter can do that",
+     "rationale": "Correct: an absolute assignment transfers all ownership rights to the assignee."
+    },
+    {
+     "id": "b",
+     "text": "Yes — the insured always keeps the right to name beneficiaries",
+     "rationale": "Incorrect: beneficiary rights belong to the owner, not the insured."
+    },
+    {
+     "id": "c",
+     "text": "Yes — as long as he notifies the insurer in writing",
+     "rationale": "Incorrect: he no longer owns the policy, so notice alone gives him no rights."
+    },
+    {
+     "id": "d",
+     "text": "No — beneficiaries can never be changed after five years",
+     "rationale": "Incorrect: there is no such time limit."
+    }
+   ],
+   "correct": "a",
+   "explanation": "An absolute assignment permanently transfers all of the owner's rights to the assignee. Dev's daughter is now the policyowner and alone can change the beneficiary, borrow or surrender.",
+   "memoryTip": "Absolute assignment = new owner, new boss.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q210",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.2"
+   ],
+   "concepts": [
+    "assignment"
+   ],
+   "difficulty": 3,
+   "style": "concept",
+   "tags": [
+    "tricky"
+   ],
+   "stem": "An owner collaterally assigns a policy to a lender but no one notifies the insurer, which pays the death claim to the named beneficiary. Which is generally true?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The insurer must pay the lender again from its own funds",
+     "rationale": "Incorrect: an insurer that pays according to its records without notice of the assignment is generally protected."
+    },
+    {
+     "id": "b",
+     "text": "The assignment was void because the insured did not sign it",
+     "rationale": "Incorrect: assignment is an owner's right; the insured's signature is not what makes it valid."
+    },
+    {
+     "id": "c",
+     "text": "The insurer is generally protected, as it had no written notice",
+     "rationale": "Correct: assignment provisions typically bind the insurer only after written notice."
+    },
+    {
+     "id": "d",
+     "text": "The beneficiary must split the proceeds equally with the insurer",
+     "rationale": "Incorrect: there is no such split."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Assignment provisions typically state that the insurer is not bound by an assignment until it receives written notice, and that it is not responsible for the assignment's validity. A lender should therefore file the collateral assignment with the insurer.",
+   "memoryTip": "Unfiled assignment = invisible to the insurer.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q211",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.3.3"
+   ],
+   "concepts": [
+    "fixed-period-option"
+   ],
+   "difficulty": 2,
+   "style": "calculation",
+   "tags": [
+    "math"
+   ],
+   "scenario": "A beneficiary leaves $120,000 of proceeds with the insurer under the fixed-period option, paid monthly over 10 years.",
+   "stem": "What is the least the beneficiary will receive each month?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$500 per month, plus interest",
+     "rationale": "Incorrect: this would spread the money over 20 years, not 10."
+    },
+    {
+     "id": "b",
+     "text": "$1,200 per month, with no interest added",
+     "rationale": "Incorrect: the installments include interest, and $1,200 does not match a 10-year period."
+    },
+    {
+     "id": "c",
+     "text": "$12,000 per month for 10 months",
+     "rationale": "Incorrect: this confuses 10 months with 10 years."
+    },
+    {
+     "id": "d",
+     "text": "$1,000 per month, plus interest",
+     "rationale": "Correct: $120,000 ÷ 120 months = $1,000, increased by interest credited."
+    }
+   ],
+   "correct": "d",
+   "explanation": "A fixed-period option pays principal plus interest over the chosen period. Ten years of monthly payments is 120 payments: $120,000 ÷ 120 = $1,000 per month of principal, and interest credited on the unpaid balance makes each payment larger.",
+   "memoryTip": "Divide by the number of payments, then add interest.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q212",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.3.4"
+   ],
+   "concepts": [
+    "fixed-amount-option"
+   ],
+   "difficulty": 2,
+   "style": "calculation",
+   "tags": [
+    "math"
+   ],
+   "scenario": "A beneficiary chooses the fixed-amount option to receive $1,000 per month from $60,000 of proceeds.",
+   "stem": "For how long will the payments last?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "At least 60 months, and longer because of interest",
+     "rationale": "Correct: $60,000 ÷ $1,000 = 60 months of principal; interest extends the period."
+    },
+    {
+     "id": "b",
+     "text": "Exactly 60 months, because interest raises each payment",
+     "rationale": "Incorrect: under fixed amount, the payment is fixed; interest stretches the period."
+    },
+    {
+     "id": "c",
+     "text": "For the beneficiary's lifetime",
+     "rationale": "Incorrect: fixed-amount installments stop when principal and interest run out."
+    },
+    {
+     "id": "d",
+     "text": "Exactly 10 years, regardless of interest",
+     "rationale": "Incorrect: the period is not fixed under this option."
+    }
+   ],
+   "correct": "a",
+   "explanation": "With fixed-amount installments, the payment size is set ($1,000) and the duration varies. Principal alone covers $60,000 ÷ $1,000 = 60 payments; interest credited on the remaining balance makes the payments continue beyond 60 months.",
+   "memoryTip": "Fixed amount: interest buys extra months.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Principal covers 60 payments",
+      "anyOf": [
+       "60"
+      ]
+     },
+     {
+      "label": "Interest extends the period",
+      "anyOf": [
+       "interest",
+       "longer",
+       "extend"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q213",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.3.5.1",
+    "lpr.3.5"
+   ],
+   "concepts": [
+    "life-income-option",
+    "life-annuity-period-certain"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Ruth, 72, took $200,000 of policy proceeds as a life income with 10 years certain, naming her son to receive any remaining guaranteed payments. She dies after receiving payments for 4 years.",
+   "stem": "What happens after Ruth's death?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Payments stop immediately; nothing more is paid",
+     "rationale": "Incorrect: that is the result under a straight life income with no period certain."
+    },
+    {
+     "id": "b",
+     "text": "Her son receives the payments for the remaining 6 years",
+     "rationale": "Correct: the 10-year period certain guarantees 6 more years of payments."
+    },
+    {
+     "id": "c",
+     "text": "Her son receives payments for the rest of his own life",
+     "rationale": "Incorrect: the guarantee is for the remaining certain period only."
+    },
+    {
+     "id": "d",
+     "text": "Her son receives the original $200,000 in a lump sum",
+     "rationale": "Incorrect: the proceeds have been converted into an income; no refund of the original sum applies."
+    }
+   ],
+   "correct": "b",
+   "explanation": "A life income with a 10-year period certain pays for the payee's life, but if the payee dies within the first 10 years, payments continue to a named beneficiary for the rest of the 10 years. Ruth died after 4 years, so her son receives 6 more years of payments.",
+   "memoryTip": "Period certain = a minimum number of years, no matter what.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Period certain guarantees 10 years of payments",
+      "anyOf": [
+       "10 years",
+       "ten years",
+       "period certain"
+      ]
+     },
+     {
+      "label": "Son receives the remaining 6 years",
+      "anyOf": [
+       "6 years",
+       "six years",
+       "remaining"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q214",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.3.5.3"
+   ],
+   "concepts": [
+    "spendthrift-clause"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky"
+   ],
+   "scenario": "Sal received his late father's $150,000 death benefit as a lump sum and deposited it in his bank account. A creditor of Sal's later obtains a court judgment against him.",
+   "stem": "Does the policy's spendthrift clause protect the money from the judgment creditor?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Yes, because all life insurance proceeds are protected from creditors forever",
+     "rationale": "Incorrect: the clause protects only proceeds the insurer still holds."
+    },
+    {
+     "id": "b",
+     "text": "Yes, because the insured's policy included a spendthrift clause",
+     "rationale": "Incorrect: once paid out in a lump sum, the money is no longer under the clause."
+    },
+    {
+     "id": "c",
+     "text": "No, the clause covers only installments the insurer still holds",
+     "rationale": "Correct: a lump sum already paid and deposited is outside the clause."
+    },
+    {
+     "id": "d",
+     "text": "No, because spendthrift clauses are void in every state",
+     "rationale": "Incorrect: spendthrift clauses are generally enforceable for proceeds held under settlement options."
+    }
+   ],
+   "correct": "c",
+   "explanation": "A spendthrift clause protects proceeds held by the insurer under a settlement option from the beneficiary's creditors and from assignment by the beneficiary. Once proceeds are paid out — especially as a lump sum — the clause no longer applies to that money.",
+   "memoryTip": "Spendthrift protection ends at the insurer's door.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Spendthrift clause covers only proceeds still held by the insurer",
+      "anyOf": [
+       "held by the insurer",
+       "installment",
+       "settlement option"
+      ]
+     },
+     {
+      "label": "Lump sum already paid is not protected",
+      "anyOf": [
+       "lump sum",
+       "already paid",
+       "not protected"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

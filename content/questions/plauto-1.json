@@ -1,0 +1,1886 @@
+{
+ "sectionId": "plauto",
+ "questions": [
+  {
+   "id": "plauto-q001",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.1.1"
+   ],
+   "concepts": [
+    "financial-responsibility-law"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "What is New York's minimum bodily injury liability limit for injury to one person in one accident?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$25,000",
+     "rationale": "Correct: Veh & Traf Law § 311(4)(a) sets $25,000 for bodily injury to one person (death of one person is $50,000)."
+    },
+    {
+     "id": "b",
+     "text": "$10,000",
+     "rationale": "Incorrect: $10,000 is the minimum property damage limit."
+    },
+    {
+     "id": "c",
+     "text": "$50,000",
+     "rationale": "Incorrect: $50,000 is the per-person death limit and the per-accident injury limit for two or more people."
+    },
+    {
+     "id": "d",
+     "text": "$100,000",
+     "rationale": "Incorrect: $100,000 is the per-accident death limit for two or more people."
+    }
+   ],
+   "correct": "a",
+   "explanation": "New York's financial security law requires an owner's policy with at least $25,000 for bodily injury to one person, $50,000 for injury to two or more persons, $50,000 for death of one person, $100,000 for death of two or more, and $10,000 for property damage per accident (Veh & Traf Law § 311(4)(a)).",
+   "memoryTip": "25/50 to hurt, 50/100 to kill, 10 for the stuff.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-vat-311"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q002",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.1.1"
+   ],
+   "concepts": [
+    "financial-responsibility-law",
+    "split-limits"
+   ],
+   "difficulty": 3,
+   "style": "calculation",
+   "tags": [
+    "math",
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Max carries exactly New York's minimum auto liability limits. He causes an accident that injures three people (no one dies). Their bodily injury damages are: Ana $30,000, Ben $15,000 and Cy $10,000.",
+   "stem": "How much will the insurer pay in total for these bodily injury claims?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$55,000",
+     "rationale": "Incorrect: this pays Ana's full $30,000, ignoring the $25,000 per-person limit."
+    },
+    {
+     "id": "b",
+     "text": "$25,000",
+     "rationale": "Incorrect: $25,000 is the limit for one person, not the total for all injured people."
+    },
+    {
+     "id": "c",
+     "text": "$50,000",
+     "rationale": "Correct: Ana is capped at the $25,000 per-person limit; Ben ($15,000) and Cy ($10,000) are paid in full, for $50,000, which is within the $50,000 per-accident limit."
+    },
+    {
+     "id": "d",
+     "text": "$75,000",
+     "rationale": "Incorrect: this treats each person as having a separate $25,000 with no per-accident cap."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Apply the per-person limit first, then the per-accident limit. Ana: $30,000 claim, capped at $25,000. Ben: $15,000. Cy: $10,000. Total = $25,000 + $15,000 + $10,000 = $50,000, which does not exceed the $50,000 per-accident limit for injury to two or more persons. Ana's remaining $5,000 is Max's personal responsibility.",
+   "memoryTip": "Per person first, per accident second.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Per-person cap of $25,000 limits Ana's payment",
+      "anyOf": [
+       "25,000",
+       "per person",
+       "per-person"
+      ]
+     },
+     {
+      "label": "Per-accident cap of $50,000 is not exceeded",
+      "anyOf": [
+       "50,000",
+       "per accident",
+       "per-accident"
+      ]
+     },
+     {
+      "label": "Total paid is $50,000",
+      "anyOf": [
+       "50,000",
+       "$50,000"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-vat-311"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q003",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.1.1"
+   ],
+   "concepts": [
+    "financial-responsibility-law"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Lena negligently causes a collision in which one pedestrian is killed. A court values the death claim at $80,000. No one else is hurt.",
+   "stem": "If Lena's policy has exactly New York's minimum limits, what is the most it will pay for this death claim?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$25,000",
+     "rationale": "Incorrect: $25,000 is the minimum for bodily injury (not death) to one person."
+    },
+    {
+     "id": "b",
+     "text": "$50,000",
+     "rationale": "Correct: the minimum limit for death of one person in any one accident is $50,000."
+    },
+    {
+     "id": "c",
+     "text": "$80,000",
+     "rationale": "Incorrect: the policy pays only up to its limit, not the full damages."
+    },
+    {
+     "id": "d",
+     "text": "$100,000",
+     "rationale": "Incorrect: $100,000 is the death limit for two or more persons in one accident."
+    }
+   ],
+   "correct": "b",
+   "explanation": "NY sets separate death limits: $50,000 for death of one person and $100,000 for death of two or more persons in one accident (Veh & Traf Law § 311(4)(a)). With $80,000 of damages and one death, the minimum policy pays $50,000; the other $30,000 could be sought from Lena personally.",
+   "memoryTip": "In NY, death doubles the injury minimums: 50/100.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "NY death limit for one person is $50,000",
+      "anyOf": [
+       "50,000",
+       "fifty thousand"
+      ]
+     },
+     {
+      "label": "Policy pays only up to its limit; the excess is the driver's",
+      "anyOf": [
+       "limit",
+       "personally",
+       "excess"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-vat-311"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q004",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.1.1"
+   ],
+   "concepts": [
+    "financial-responsibility-law",
+    "auto-liability-coverage"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "math",
+    "ny-law"
+   ],
+   "scenario": "Eli carries New York's minimum liability limits. He rear-ends a new SUV, causing $14,000 of damage to it. No one is hurt.",
+   "stem": "What happens to the cost of repairing the other car?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Liability pays the full $14,000 because property damage is unlimited",
+     "rationale": "Incorrect: property damage liability has a limit, here the $10,000 minimum."
+    },
+    {
+     "id": "b",
+     "text": "Eli's collision coverage pays the other driver's $14,000",
+     "rationale": "Incorrect: collision pays for Eli's own car, never the other driver's car."
+    },
+    {
+     "id": "c",
+     "text": "MVAIC pays the $4,000 that exceeds Eli's policy limit",
+     "rationale": "Incorrect: MVAIC addresses bodily injury from uninsured vehicles; it does not pay property damage above an insured driver's limit."
+    },
+    {
+     "id": "d",
+     "text": "Liability pays $10,000; Eli is personally responsible for the remaining $4,000",
+     "rationale": "Correct: the minimum property damage limit is $10,000 per accident; damages above the limit are the insured's responsibility."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Veh & Traf Law § 311(4)(a) requires at least $10,000 for injury to or destruction of property of others in any one accident. Eli's policy pays its $10,000 limit; the remaining $14,000 − $10,000 = $4,000 is owed by Eli personally.",
+   "memoryTip": "Minimum PD = $10,000; above that, the driver pays.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-vat-311"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q005",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.1.3"
+   ],
+   "concepts": [
+    "proof-of-insurance"
+   ],
+   "difficulty": 2,
+   "style": "negative",
+   "tags": [
+    "negative-wording",
+    "ny-law"
+   ],
+   "stem": "Under Veh & Traf Law § 311(3), each of the following can serve as proof of financial security EXCEPT:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A letter from the owner's bank showing a large savings balance",
+     "rationale": "Correct: a bank statement is not one of the listed forms; the law accepts a policy, bond, DMV deposit or self-insurer status."
+    },
+    {
+     "id": "b",
+     "text": "An owner's policy of liability insurance",
+     "rationale": "Incorrect: this is the most common form of proof."
+    },
+    {
+     "id": "c",
+     "text": "A financial security bond executed with an authorized surety",
+     "rationale": "Incorrect: a financial security bond is a listed form."
+    },
+    {
+     "id": "d",
+     "text": "A financial security deposit filed with the DMV commissioner",
+     "rationale": "Incorrect: a deposit of cash or securities with the commissioner is a listed form."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Proof of financial security means an owner's policy of liability insurance, a financial security bond, a financial security deposit, or qualification as a self-insurer (Veh & Traf Law § 311(3)). Having money in the bank is not proof unless it is deposited with the commissioner as a financial security deposit.",
+   "memoryTip": "Policy, Bond, Deposit, Self-insure: the four ways to prove you can pay.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-vat-311"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q006",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.1.2"
+   ],
+   "concepts": [
+    "transportation-network-company"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Rosa drives her own car for a rideshare company in Buffalo. She has the app turned on and is waiting for a ride request; no passenger has been matched yet.",
+   "stem": "What minimum liability limits must be in place during this waiting period?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "25/50 bodily injury and $10,000 property damage",
+     "rationale": "Incorrect: these are the ordinary private passenger minimums, not the TNC logged-on minimums."
+    },
+    {
+     "id": "b",
+     "text": "$1,250,000 combined single limit",
+     "rationale": "Incorrect: that limit applies once the driver is engaged in a prearranged trip."
+    },
+    {
+     "id": "c",
+     "text": "75/150 bodily injury and $25,000 property damage",
+     "rationale": "Correct: § 1693(2) applies while logged on but not engaged in a prearranged trip."
+    },
+    {
+     "id": "d",
+     "text": "No coverage is required until a passenger is in the car",
+     "rationale": "Incorrect: coverage is required from the moment the driver logs on to the digital network."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Veh & Traf Law § 1693(2)(a) requires at least $75,000 for bodily injury or death of one person, $150,000 for two or more, and $25,000 for property damage while a TNC driver is logged on but not engaged in a prearranged trip, plus coverage satisfying § 3420 and the no-fault law. It can come from the driver's insurance, the TNC's group policy, or a combination.",
+   "memoryTip": "App on, no rider: 75/150/25.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Driver is logged on but not engaged",
+      "anyOf": [
+       "logged on",
+       "logged onto",
+       "waiting",
+       "not engaged"
+      ]
+     },
+     {
+      "label": "Limits are 75/150/25",
+      "anyOf": [
+       "75",
+       "150",
+       "25,000"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-vat-1693"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q007",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.1.2"
+   ],
+   "concepts": [
+    "transportation-network-company",
+    "sum-coverage"
+   ],
+   "difficulty": 3,
+   "style": "concept",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "stem": "While a New York TNC driver is engaged in a prearranged trip, which coverage requirement applies?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "At least $1,250,000 liability, with only the basic 25/50 UM coverage",
+     "rationale": "Incorrect: the statute specifically requires $1.25 million of SUM coverage during a trip."
+    },
+    {
+     "id": "b",
+     "text": "At least $1,250,000 liability plus $1,250,000 of SUM coverage",
+     "rationale": "Correct: § 1693(3) requires both a $1.25 million liability limit and $1.25 million of supplementary uninsured/underinsured motorist coverage."
+    },
+    {
+     "id": "c",
+     "text": "At least 75/150/25 liability plus collision coverage",
+     "rationale": "Incorrect: 75/150/25 is the logged-on-only requirement, and physical damage coverage is not mandated."
+    },
+    {
+     "id": "d",
+     "text": "At least 250/500 liability plus OBEL",
+     "rationale": "Incorrect: these figures are not the TNC requirement."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Under Veh & Traf Law § 1693(3)(a), from acceptance of a trip through its completion, coverage must be at least $1,250,000 for bodily injury, death and property damage, plus coverage satisfying § 3420 and Article 51 (no-fault), including $1,250,000 of supplementary uninsured/underinsured motorist insurance.",
+   "memoryTip": "Passenger on board: $1.25 million both ways (liability and SUM).",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-vat-1693"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q008",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.1.2"
+   ],
+   "concepts": [
+    "transportation-network-company"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Dev drives for a rideshare company. Unknown to the company, his personal auto policy lapsed for nonpayment last month. While carrying a passenger on a prearranged trip, he causes an accident that injures the passenger.",
+   "stem": "Which statement about coverage for this accident is correct?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The TNC's group policy must cover it from the first dollar and defend the claim",
+     "rationale": "Correct: § 1693(5) makes the TNC group policy respond from the first dollar when the driver's insurance has lapsed or does not provide the required coverage."
+    },
+    {
+     "id": "b",
+     "text": "The injured passenger must first get a denial from the driver's personal insurer",
+     "rationale": "Incorrect: § 1693(6) says group coverage is not dependent on a denial by the insurer that registered the vehicle."
+    },
+    {
+     "id": "c",
+     "text": "Only MVAIC can pay the passenger, because the driver's own personal auto policy had lapsed",
+     "rationale": "Incorrect: the TNC group policy is required to respond; MVAIC is a last resort when no insurance applies."
+    },
+    {
+     "id": "d",
+     "text": "No coverage applies because the driver violated the financial security law",
+     "rationale": "Incorrect: the statute specifically requires the TNC group policy to step in."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Veh & Traf Law § 1693(5): if the TNC driver's own insurance has lapsed or does not provide the required coverage, the TNC's group policy must provide the coverage beginning with the first dollar of a claim and has the duty to defend. Subdivision (6) adds that group coverage cannot be made dependent on a denial by the driver's personal insurer.",
+   "memoryTip": "Driver's policy gone? The TNC's group policy pays from dollar one.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "TNC group policy responds",
+      "anyOf": [
+       "group policy",
+       "TNC",
+       "company's policy"
+      ]
+     },
+     {
+      "label": "From the first dollar, including defense",
+      "anyOf": [
+       "first dollar",
+       "defend",
+       "defense"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-vat-1693"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q009",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.1.2",
+    "plauto.1.9"
+   ],
+   "concepts": [
+    "transportation-network-company"
+   ],
+   "difficulty": 3,
+   "style": "concept",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "stem": "For NY auto cancellation rules (§ 3425), how is a car's rideshare use treated in deciding 'predominantly non-business' use?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "It automatically makes the car a business vehicle",
+     "rationale": "Incorrect: the statute specifically excludes TNC use from that determination."
+    },
+    {
+     "id": "b",
+     "text": "It counts only if the driver gives more than ten rides a week",
+     "rationale": "Incorrect: no such ride-count test exists in § 3425."
+    },
+    {
+     "id": "c",
+     "text": "It is counted, and the policy must be rewritten as commercial",
+     "rationale": "Incorrect: the statute protects the personal policy's status by excluding TNC use."
+    },
+    {
+     "id": "d",
+     "text": "It is not counted in that determination",
+     "rationale": "Correct: § 3425(a)(1) says TNC use shall not be included in determining whether the vehicle is used predominantly for non-business purposes."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Insurance Law § 3425(a)(1) defines covered 'automobile insurance' as a policy on a vehicle predominantly used for non-business purposes with a natural person as named insured, and expressly says that use of the vehicle by a TNC driver under Veh & Traf Article 44-B is not included in determining predominant non-business use. The personal policy therefore keeps § 3425's cancellation and nonrenewal protections.",
+   "memoryTip": "Rideshare use doesn't turn a personal policy into a business policy under § 3425.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3425"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q010",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.1.4"
+   ],
+   "concepts": [
+    "iies"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Under Veh & Traf Law § 313(2) as currently in effect, what must an insurer do when an owner's auto liability policy terminates?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Notify the State Police within 48 hours",
+     "rationale": "Incorrect: the filing goes to the DMV commissioner, and no 48-hour rule exists."
+    },
+    {
+     "id": "b",
+     "text": "File a notice of termination with DMV no later than 30 days after the effective date",
+     "rationale": "Correct: § 313(2)(a) requires the insurer to file the termination with the DMV commissioner within 30 days after it takes effect."
+    },
+    {
+     "id": "c",
+     "text": "Ask the insured to return the vehicle's license plates directly to the insurer",
+     "rationale": "Incorrect: the insurer reports to DMV; it does not collect plates."
+    },
+    {
+     "id": "d",
+     "text": "File the termination notice with DMV at least 30 days before the effective date",
+     "rationale": "Incorrect: the filing is due after termination, not before it."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Veh & Traf Law § 313(2)(a) (effective until December 31, 2028) requires the insurer to file a notice of termination with the commissioner no later than 30 days following the effective date of cancellation or other termination; § 313(2)(b) requires new policies to be reported within 7 days. This reporting feeds DMV's insurance database (the outline calls it IIES), which DMV uses to identify uninsured vehicles.",
+   "memoryTip": "Policy ends, DMV hears within 30 days.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-vat-313"
+   ],
+   "nySpecific": true,
+   "timeSensitive": true,
+   "reviewDue": "2027-11-19",
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19",
+    "notes": "Relies on § 313(2) text effective until 2028-12-31."
+   }
+  },
+  {
+   "id": "plauto-q011",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.1.4"
+   ],
+   "concepts": [
+    "iies",
+    "financial-responsibility-law"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "An insurer properly mails a cancellation notice to Rob, effective May 1, but has not yet filed the termination with DMV. On May 3 Rob injures a pedestrian. Rob has bought no other insurance.",
+   "stem": "For an injured third party, when is the termination effective?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "On the date printed in the notice mailed to the insured, regardless of any DMV filing",
+     "rationale": "Incorrect: as to people outside the insured's household, the DMV filing (or replacement coverage) matters."
+    },
+    {
+     "id": "b",
+     "text": "Only when the insured surrenders the license plates to DMV",
+     "rationale": "Incorrect: plate surrender is not the trigger in § 313(3)."
+    },
+    {
+     "id": "c",
+     "text": "Once the insurer files the termination with DMV, or other coverage is obtained",
+     "rationale": "Correct: § 313(3) delays effectiveness as to third parties until the notice is filed with the commissioner or other coverage is procured."
+    },
+    {
+     "id": "d",
+     "text": "Thirty days after the insured receives the notice",
+     "rationale": "Incorrect: § 313(3) ties effectiveness to the filing, not to a 30-day period after receipt."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Veh & Traf Law § 313(3): a cancellation or termination that must be reported to DMV is not effective as to persons other than the named insured and household members until the insurer files notice with the commissioner, or until another policy covering the same risk is procured. A notice filed within the required period is effective as of the date certified in it.",
+   "memoryTip": "To outsiders, a cancellation counts once DMV has it on file.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Filing with DMV controls effectiveness as to third parties",
+      "anyOf": [
+       "DMV",
+       "commissioner",
+       "filed",
+       "filing"
+      ]
+     },
+     {
+      "label": "Or replacement coverage procured",
+      "anyOf": [
+       "another policy",
+       "other insurance",
+       "replacement"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-vat-313"
+   ],
+   "nySpecific": true,
+   "timeSensitive": true,
+   "reviewDue": "2027-11-19",
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19",
+    "notes": "Relies on § 313(3) text effective until 2028-12-31 (replacement text keeps the same rule without the time reference)."
+   }
+  },
+  {
+   "id": "plauto-q012",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.1.5"
+   ],
+   "concepts": [
+    "auto-id-card"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "Who issues the insurance identification card for an owner who has qualified with DMV as a self-insurer?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The owner's agent or broker",
+     "rationale": "Incorrect: producers do not issue the card for self-insurers."
+    },
+    {
+     "id": "b",
+     "text": "The Department of Financial Services",
+     "rationale": "Incorrect: DFS regulates insurers but does not issue these cards."
+    },
+    {
+     "id": "c",
+     "text": "The vehicle's lienholder",
+     "rationale": "Incorrect: lenders do not issue insurance ID cards."
+    },
+    {
+     "id": "d",
+     "text": "The Department of Motor Vehicles",
+     "rationale": "Correct: for a financial security deposit or self-insurer, § 311(10) says the card is issued by the department."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Veh & Traf Law § 311(10): ordinarily the insurance identification card is issued by or for the insurer (or bonding company or authorized risk retention group). If the owner filed a financial security deposit or qualified as a self-insurer, the card is issued by the department (DMV).",
+   "memoryTip": "No insurer? Then DMV issues the card.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-vat-311"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q013",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.1.4",
+    "plauto.1.9.2"
+   ],
+   "concepts": [
+    "financial-responsibility-law",
+    "iies"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Jon's auto policy is being cancelled for nonpayment, and his car is still registered in New York. His insurer mails him a cancellation notice.",
+   "stem": "What must this notice tell Jon?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "That proof of insurance must be kept continuously while the car is registered",
+     "rationale": "Correct: § 313(1)(a) requires every termination notice to include this statement and a notice of the penalties for failing to keep coverage."
+    },
+    {
+     "id": "b",
+     "text": "That he may keep driving for 60 days without insurance after cancellation",
+     "rationale": "Incorrect: there is no such grace period; coverage must be continuous."
+    },
+    {
+     "id": "c",
+     "text": "That DMV will automatically buy a replacement policy for him at no cost",
+     "rationale": "Incorrect: DMV does not buy insurance for owners."
+    },
+    {
+     "id": "d",
+     "text": "That his registration is permanently revoked as of the notice date",
+     "rationale": "Incorrect: the notice warns of consequences but does not itself revoke registration."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Veh & Traf Law § 313(1)(a) requires every notice or acknowledgement of termination sent to the insured to state, in at least 12-point type, that proof of financial security must be maintained continuously throughout the registration period, along with a prescribed notice describing the penalties for failing to do so and how to avoid them. A lapse in coverage on a registered car exposes the owner to DMV action.",
+   "memoryTip": "Registered car = continuously insured car.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-vat-313"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q014",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.2",
+    "plauto.1.2.1",
+    "plauto.1.2.2"
+   ],
+   "concepts": [
+    "ny-auto-insurance-plan"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "The NY Automobile Insurance Plan is intended for applicants who are:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Injured by hit-and-run drivers who left the scene of an accident",
+     "rationale": "Incorrect: hit-and-run victims are helped by UM coverage or MVAIC, not the assigned risk plan."
+    },
+    {
+     "id": "b",
+     "text": "Entitled to coverage in good faith but unable to buy it normally",
+     "rationale": "Correct: this is the eligibility language of § 5301(a)."
+    },
+    {
+     "id": "c",
+     "text": "Looking for the lowest possible premium from a preferred insurer",
+     "rationale": "Incorrect: the plan is a residual market for hard-to-place risks, not a discount program."
+    },
+    {
+     "id": "d",
+     "text": "Owners of commercial fleets that are too large for one insurer",
+     "rationale": "Incorrect: the plan serves applicants who cannot obtain coverage normally, not only fleets."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Insurance Law § 5301(a) requires all insurers licensed to write motor vehicle insurance in New York to participate in a plan for the equitable apportionment among them of applicants who are in good faith entitled to, but unable to procure, such insurance through ordinary methods.",
+   "memoryTip": "Can't buy it normally? The Plan assigns you an insurer.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-5301"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q015",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.2.3"
+   ],
+   "concepts": [
+    "ny-auto-insurance-plan"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Under Insurance Law § 5303, the assigned risk plan must make physical damage coverage available up to what amount?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The full replacement cost of any vehicle, with no deductible",
+     "rationale": "Incorrect: the statute caps the required availability at $10,000 ACV and requires a deductible."
+    },
+    {
+     "id": "b",
+     "text": "$25,000 actual cash value, with a $1,000 deductible",
+     "rationale": "Incorrect: these figures are not in § 5303."
+    },
+    {
+     "id": "c",
+     "text": "$10,000 actual cash value, with a deductible of at least $100",
+     "rationale": "Correct: § 5303(a)(2) sets the physical damage availability at up to $10,000 ACV, subject to a deductible of not less than $100."
+    },
+    {
+     "id": "d",
+     "text": "Physical damage is never available through the plan",
+     "rationale": "Incorrect: the plan must make physical damage coverage available."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Insurance Law § 5303(a) requires the plan to make available: liability up to 50/100/10; physical damage up to $10,000 actual cash value with a deductible of at least $100; medical payments up to $1,000 for private passenger vehicles not for hire; and supplementary uninsured motorists insurance. Section 5303(b) also requires availability of twice the basic level of first party benefits.",
+   "memoryTip": "Plan physical damage: up to $10K ACV, at least a $100 deductible.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-5303"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q016",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.2.3"
+   ],
+   "concepts": [
+    "ny-auto-insurance-plan"
+   ],
+   "difficulty": 2,
+   "style": "negative",
+   "tags": [
+    "negative-wording",
+    "ny-law"
+   ],
+   "stem": "Insurance Law § 5303 requires the assigned risk plan to make each of the following available EXCEPT:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Liability limits up to 50/100 for bodily injury and $10,000 for property damage",
+     "rationale": "Incorrect: § 5303(a)(1) requires these limits to be available."
+    },
+    {
+     "id": "b",
+     "text": "Medical payments up to $1,000 for private passenger vehicles not for hire",
+     "rationale": "Incorrect: § 5303(a)(3) requires this."
+    },
+    {
+     "id": "c",
+     "text": "Supplementary uninsured motorists insurance",
+     "rationale": "Incorrect: § 5303(a)(4) requires SUM to be available."
+    },
+    {
+     "id": "d",
+     "text": "A personal umbrella policy with $1,000,000 limits",
+     "rationale": "Correct: umbrella coverage is not among the coverages § 5303 requires the plan to make available."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Section 5303(a) lists liability up to 50/100/10, physical damage up to $10,000 ACV, medical payments up to $1,000, and SUM; § 5303(b) adds twice the dollar level of basic first party benefits. A personal umbrella policy is not part of the plan's required offerings.",
+   "memoryTip": "Plan menu: liability, physical damage, MedPay, SUM, extra PIP — no umbrella.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-5303"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q017",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.3.1"
+   ],
+   "concepts": [
+    "personal-injury-protection"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "Under NY's mandatory PIP endorsement, written notice of the accident must be given within how many days?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "30 days",
+     "rationale": "Correct: notice is due as soon as reasonably practicable, but in no event more than 30 days after the accident (absent a clear and reasonable justification)."
+    },
+    {
+     "id": "b",
+     "text": "10 days",
+     "rationale": "Incorrect: the endorsement sets 30 days."
+    },
+    {
+     "id": "c",
+     "text": "45 days",
+     "rationale": "Incorrect: 45 days is the proof-of-claim deadline for health service expenses, counted from the date of service."
+    },
+    {
+     "id": "d",
+     "text": "90 days",
+     "rationale": "Incorrect: 90 days is the proof-of-claim deadline for work loss and other necessary expenses."
+    }
+   ],
+   "correct": "a",
+   "explanation": "11 NYCRR 65-1.1 (Regulation 68) requires written notice of the accident as soon as reasonably practicable, but in no event more than 30 days after the date of the accident, unless the injured person gives written proof of a clear and reasonable justification for missing the deadline.",
+   "memoryTip": "Notice 30, Medical 45, Wages 90.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-11nycrr-65-1-1"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "regulation-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q018",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.3.1",
+    "plauto.1.3.2"
+   ],
+   "concepts": [
+    "personal-injury-protection"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Ivy was injured in a car accident on January 10 and gave her insurer timely written notice. She receives physical therapy (by referral) on March 1 and wants her PIP coverage to pay for it.",
+   "stem": "By what deadline must proof of claim for the March 1 treatment be submitted?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "30 days after the January 10 accident, the notice deadline",
+     "rationale": "Incorrect: 30 days after the accident is the deadline for notice of the accident, not for medical proof of claim."
+    },
+    {
+     "id": "b",
+     "text": "45 days after March 1, the date the services were rendered",
+     "rationale": "Correct: proof of claim for health service expenses is due no later than 45 days after the services are rendered."
+    },
+    {
+     "id": "c",
+     "text": "90 days after March 1, the date of the therapy session",
+     "rationale": "Incorrect: 90 days applies to work loss and other necessary expenses, not health services."
+    },
+    {
+     "id": "d",
+     "text": "One year after the accident, as long as notice was timely",
+     "rationale": "Incorrect: no one-year deadline applies to submitting medical proof of claim."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Under 11 NYCRR 65-1.1, proof of claim for health service expenses must be submitted as soon as reasonably practicable but no later than 45 days after the date services are rendered. Each treatment date starts its own 45-day clock. Late submission is excused only with written proof of a clear and reasonable justification.",
+   "memoryTip": "Medical bills: 45 days from each date of service.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Health service proof deadline is 45 days",
+      "anyOf": [
+       "45"
+      ]
+     },
+     {
+      "label": "Measured from the date services are rendered",
+      "anyOf": [
+       "date of service",
+       "services are rendered",
+       "rendered",
+       "treatment date"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-11nycrr-65-1-1"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "regulation-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q019",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.3.1",
+    "plauto.1.3.4"
+   ],
+   "concepts": [
+    "personal-injury-protection"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Under Regulation 68, proof of claim for PIP work loss benefits must be submitted no later than:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "30 days after the date of the accident",
+     "rationale": "Incorrect: 30 days is the notice-of-accident deadline."
+    },
+    {
+     "id": "b",
+     "text": "45 days after the date of the accident",
+     "rationale": "Incorrect: 45 days applies to health service expenses, measured from the date of service."
+    },
+    {
+     "id": "c",
+     "text": "90 days after the work loss is incurred",
+     "rationale": "Correct: work loss and other necessary expenses have a 90-day proof-of-claim deadline."
+    },
+    {
+     "id": "d",
+     "text": "Three years after the date of the accident",
+     "rationale": "Incorrect: three years is the maximum duration of lost earnings benefits, not a filing deadline."
+    }
+   ],
+   "correct": "c",
+   "explanation": "11 NYCRR 65-1.1: written proof of claim for work loss benefits and for other necessary expenses is due as soon as reasonably practicable but no later than 90 days after the work loss is incurred or the other necessary services are rendered.",
+   "memoryTip": "Wages wait longest: 90 days.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-11nycrr-65-1-1"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "regulation-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q020",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.3.4"
+   ],
+   "concepts": [
+    "personal-injury-protection",
+    "basic-economic-loss"
+   ],
+   "difficulty": 2,
+   "style": "calculation",
+   "tags": [
+    "math",
+    "ny-law"
+   ],
+   "scenario": "Tara earns $1,800 a month. After a covered New York car accident she cannot work for 3 months. She has no other income replacement benefits, and her policy has no deductible.",
+   "stem": "How much will Tara's PIP coverage pay for her lost earnings?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$5,400",
+     "rationale": "Incorrect: this pays 100% of lost earnings and ignores the 20% reduction."
+    },
+    {
+     "id": "b",
+     "text": "$6,000",
+     "rationale": "Incorrect: this applies the $2,000 monthly cap as if it were automatic, but Tara's actual loss is lower."
+    },
+    {
+     "id": "c",
+     "text": "$1,440",
+     "rationale": "Incorrect: this is only one month of benefits."
+    },
+    {
+     "id": "d",
+     "text": "$4,320",
+     "rationale": "Correct: 80% of $1,800 is $1,440 a month; $1,440 × 3 = $4,320."
+    }
+   ],
+   "correct": "d",
+   "explanation": "First-party benefits equal basic economic loss less 20% of lost earnings (Ins. Law § 5102(b)(1)); lost earnings count up to $2,000 per month for up to three years (§ 5102(a)(2)). Tara: $1,800 × 80% = $1,440 per month, below the $2,000 cap. For 3 months: $1,440 × 3 = $4,320.",
+   "memoryTip": "PIP wage benefit = 80% of what you lost, capped monthly.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Lost earnings are reduced by 20%",
+      "anyOf": [
+       "20%",
+       "80%",
+       "20 percent"
+      ]
+     },
+     {
+      "label": "Monthly amount below the $2,000 cap",
+      "anyOf": [
+       "2,000",
+       "cap",
+       "1,440"
+      ]
+     },
+     {
+      "label": "Total for three months is $4,320",
+      "anyOf": [
+       "4,320"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-5102"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q021",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.3.6"
+   ],
+   "concepts": [
+    "personal-injury-protection",
+    "basic-economic-loss"
+   ],
+   "difficulty": 2,
+   "style": "calculation",
+   "tags": [
+    "math",
+    "ny-law"
+   ],
+   "scenario": "After a covered New York car accident, Omar cannot do his own housework. For 30 days he pays a helper $40 a day to clean and shop for him.",
+   "stem": "How much will PIP pay toward the cost of the helper?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$750",
+     "rationale": "Correct: other reasonable and necessary expenses are paid up to $25 per day; $25 × 30 days = $750."
+    },
+    {
+     "id": "b",
+     "text": "$1,200",
+     "rationale": "Incorrect: this pays the full $40 per day, above the $25 daily limit."
+    },
+    {
+     "id": "c",
+     "text": "$960",
+     "rationale": "Incorrect: this applies a 20% reduction, which applies to lost earnings, not to other expenses."
+    },
+    {
+     "id": "d",
+     "text": "$0",
+     "rationale": "Incorrect: substitute household help is a covered 'other reasonable and necessary expense.'"
+    }
+   ],
+   "correct": "a",
+   "explanation": "Basic economic loss includes 'all other reasonable and necessary expenses incurred, up to twenty-five dollars per day for not more than one year from the date of the accident' (Ins. Law § 5102(a)(3)). Paying someone to do household chores the injured person can't do is the classic example (substitution services). $25 × 30 = $750.",
+   "memoryTip": "Substitute services: $25 a day, for up to a year.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Other necessary expenses are capped at $25 per day",
+      "anyOf": [
+       "25"
+      ]
+     },
+     {
+      "label": "Benefit lasts up to one year from the accident",
+      "anyOf": [
+       "one year",
+       "1 year"
+      ]
+     },
+     {
+      "label": "$25 × 30 = $750",
+      "anyOf": [
+       "750"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-5102"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q022",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.3.5"
+   ],
+   "concepts": [
+    "personal-injury-protection"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "What death benefit does NY PIP pay to the estate of a covered person killed in an auto accident?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$50,000, the same as the basic economic loss limit",
+     "rationale": "Incorrect: $50,000 is the basic economic loss limit; the death benefit is separate and much smaller."
+    },
+    {
+     "id": "b",
+     "text": "$2,000, in addition to basic economic loss benefits",
+     "rationale": "Correct: § 5103(a)(4) provides a $2,000 death benefit in addition to first-party benefits for basic economic loss."
+    },
+    {
+     "id": "c",
+     "text": "$25,000, the same as the minimum liability limit",
+     "rationale": "Incorrect: this confuses the death benefit with liability minimums."
+    },
+    {
+     "id": "d",
+     "text": "Nothing, because death losses are excluded from no-fault",
+     "rationale": "Incorrect: basic economic loss excludes death losses, but § 5103(a)(4) adds a separate death benefit."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Insurance Law § 5103(a)(4) requires payment to the estate of a covered person of a death benefit of $2,000 for death arising from use or operation of the vehicle, in addition to any first-party benefits for basic economic loss. Section 5102(a)(4) excludes loss on account of death from basic economic loss, which is why the separate death benefit exists.",
+   "memoryTip": "Death benefit: $2,000 on top.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-5103",
+    "ny-isc-5102"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q023",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.3",
+    "plauto.1.3.2",
+    "plauto.1.3.6"
+   ],
+   "concepts": [
+    "basic-economic-loss"
+   ],
+   "difficulty": 1,
+   "style": "negative",
+   "tags": [
+    "negative-wording",
+    "ny-law"
+   ],
+   "stem": "Each of the following is an element of basic economic loss under NY no-fault EXCEPT:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Necessary hospital and surgical expenses",
+     "rationale": "Incorrect: these are listed medical expenses in § 5102(a)(1)."
+    },
+    {
+     "id": "b",
+     "text": "Loss of earnings from work",
+     "rationale": "Incorrect: lost earnings up to $2,000 per month are part of basic economic loss."
+    },
+    {
+     "id": "c",
+     "text": "Compensation for pain and suffering",
+     "rationale": "Correct: pain and suffering is non-economic loss, recoverable only by suit for a serious injury."
+    },
+    {
+     "id": "d",
+     "text": "Other reasonable and necessary expenses up to $25 per day",
+     "rationale": "Incorrect: this is § 5102(a)(3)."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Basic economic loss (Ins. Law § 5102(a)) covers medical and rehabilitation expenses, loss of earnings, and other reasonable and necessary expenses, up to $50,000 per person. 'Non-economic loss' — pain and suffering and similar non-monetary detriment (§ 5102(c)) — is not a no-fault benefit.",
+   "memoryTip": "No-fault pays bills and wages, not pain.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-5102"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q024",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.3"
+   ],
+   "concepts": [
+    "personal-injury-protection",
+    "no-fault-law"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Under Insurance Law § 5106, what happens if an insurer does not pay a PIP claim within 30 days after receiving proof of loss?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The claim is automatically denied",
+     "rationale": "Incorrect: missing the deadline makes the payment overdue; it does not deny the claim."
+    },
+    {
+     "id": "b",
+     "text": "The insured may cancel the policy and receive a full premium refund",
+     "rationale": "Incorrect: no such remedy appears in § 5106."
+    },
+    {
+     "id": "c",
+     "text": "The claim is transferred to MVAIC",
+     "rationale": "Incorrect: MVAIC handles claims for qualified persons when no insurer is available, not late payments."
+    },
+    {
+     "id": "d",
+     "text": "The payment is overdue and bears interest at 2% per month",
+     "rationale": "Correct: overdue payments bear interest at 2% per month, and the claimant may also recover a reasonable attorney's fee."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Insurance Law § 5106(a): first-party benefits are paid as the loss is incurred and are overdue if not paid within 30 days after the claimant supplies proof of the fact and amount of loss. Overdue payments bear interest at 2% per month, and the claimant may also recover a reasonable attorney's fee. Disputes may go to simplified arbitration (§ 5106(b)).",
+   "memoryTip": "30 days to pay, or 2% a month interest.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-5106"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q025",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.3.7"
+   ],
+   "concepts": [
+    "serious-injury-threshold"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "A driver runs a red light and hits Pia's car in Albany. Pia sprains her wrist; it heals completely in three weeks with no lasting limitation. Her medical bills were $1,400, which her PIP paid. The other driver admits fault.",
+   "stem": "Can Pia sue the other driver for pain and suffering?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "No, because a sprain that heals in three weeks is not a serious injury",
+     "rationale": "Correct: Pia's injury does not fit any § 5102(d) category, so § 5104 bars recovery for non-economic loss."
+    },
+    {
+     "id": "b",
+     "text": "Yes, because the other driver admitted being 100% at fault for the crash",
+     "rationale": "Incorrect: fault alone does not open the door; NY requires a serious injury for pain-and-suffering recovery."
+    },
+    {
+     "id": "c",
+     "text": "Yes, because her medical bills exceeded $1,000",
+     "rationale": "Incorrect: NY uses a verbal threshold (injury categories), not a dollar threshold."
+    },
+    {
+     "id": "d",
+     "text": "No, because no-fault states never allow pain-and-suffering suits",
+     "rationale": "Incorrect: suits are allowed when the injury is a serious injury."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Insurance Law § 5104(a) bars recovery for non-economic loss between covered persons except for a serious injury. Section 5102(d) defines serious injury by category (death, dismemberment, significant disfigurement, fracture, loss of a fetus, permanent loss of use, permanent consequential limitation, significant limitation of use). A sprain that heals completely in three weeks fits none of them. Pia's PIP still pays her medical bills and lost earnings.",
+   "memoryTip": "No serious injury, no pain-and-suffering suit — no matter who caused it.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "NY limits pain-and-suffering suits to serious injuries",
+      "anyOf": [
+       "serious injury",
+       "threshold"
+      ]
+     },
+     {
+      "label": "A healed sprain is not in the statutory list",
+      "anyOf": [
+       "not a serious",
+       "sprain",
+       "does not qualify",
+       "not listed"
+      ]
+     },
+     {
+      "label": "Verbal, not dollar, threshold",
+      "anyOf": [
+       "verbal",
+       "not a dollar",
+       "not monetary",
+       "category"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-5102",
+    "ny-isc-5104"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19",
+    "notes": "Categories from § 5102(d) 2026-05-29 revision."
+   }
+  },
+  {
+   "id": "plauto-q026",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.3.7"
+   ],
+   "concepts": [
+    "serious-injury-threshold"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "New York's no-fault tort limitation is called a 'verbal threshold' because it:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Requires the injured person to give oral notice of the claim",
+     "rationale": "Incorrect: 'verbal' refers to the word-based definition, and PIP notice must be written."
+    },
+    {
+     "id": "b",
+     "text": "Lets a court set any threshold it chooses",
+     "rationale": "Incorrect: the categories are fixed by statute."
+    },
+    {
+     "id": "c",
+     "text": "Describes qualifying injuries by type rather than by a dollar amount",
+     "rationale": "Correct: § 5102(d) lists categories of injury, such as a fracture or dismemberment."
+    },
+    {
+     "id": "d",
+     "text": "Applies only when the medical bills exceed $50,000",
+     "rationale": "Incorrect: a dollar threshold is a monetary threshold, which NY does not use."
+    }
+   ],
+   "correct": "c",
+   "explanation": "A monetary threshold allows suits once medical bills pass a dollar amount; a verbal threshold, like New York's, allows suits for non-economic loss only when the injury fits a list of statutory descriptions (Ins. Law §§ 5102(d), 5104(a)).",
+   "memoryTip": "Verbal = words (a list), not dollars.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-5102",
+    "ny-isc-5104"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q027",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.3"
+   ],
+   "concepts": [
+    "personal-injury-protection",
+    "no-fault-law"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Ned, driving while intoxicated, crashes his insured car into a tree. He is taken by ambulance to a general hospital emergency room and later needs weeks of outpatient therapy. He is later convicted of driving while intoxicated.",
+   "stem": "How does § 5103(b) apply to Ned's no-fault claim?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The insurer must pay all of his basic economic loss because no-fault ignores fault",
+     "rationale": "Incorrect: no-fault ignores fault, but § 5103(b) still permits specific exclusions such as intoxicated operation."
+    },
+    {
+     "id": "b",
+     "text": "The insurer may exclude him, but not for necessary emergency hospital services",
+     "rationale": "Correct: § 5103(b)(2) allows the intoxication exclusion except for necessary emergency health services in a general hospital, including the ambulance."
+    },
+    {
+     "id": "c",
+     "text": "The insurer may exclude him from every benefit, including emergency care",
+     "rationale": "Incorrect: the statute preserves coverage for necessary emergency hospital services and related ambulance care."
+    },
+    {
+     "id": "d",
+     "text": "MVAIC must pay his claim instead",
+     "rationale": "Incorrect: MVAIC is not a substitute for an insurer's permitted exclusion."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Insurance Law § 5103(b) lets an insurer exclude a person who is injured as a result of operating a motor vehicle while intoxicated or impaired by drugs, but the insurer may not exclude necessary emergency health services in a general hospital, including attendant ambulance services. Other permitted exclusions include intentional self-injury, injuries while committing a felony, racing, and occupying a vehicle known to be stolen.",
+   "memoryTip": "Drunk-driving exclusion stops at the ER door.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Intoxicated operation is a permitted exclusion",
+      "anyOf": [
+       "intoxicat",
+       "exclude",
+       "exclusion"
+      ]
+     },
+     {
+      "label": "Emergency hospital care (and ambulance) is still covered",
+      "anyOf": [
+       "emergency",
+       "hospital",
+       "ambulance"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-5103"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q028",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.4.1"
+   ],
+   "concepts": [
+    "obel",
+    "basic-economic-loss"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Zoe bought OBEL on her New York auto policy. After a severe crash, her medical bills and lost earnings are about to use up her $50,000 of basic no-fault benefits.",
+   "stem": "How can Zoe's OBEL coverage be used?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The insurer decides how to apply an extra $50,000 of benefits",
+     "rationale": "Incorrect: OBEL is $25,000, and the claimant (not the insurer) chooses the option."
+    },
+    {
+     "id": "b",
+     "text": "It pays an additional $25,000 for her pain and suffering damages",
+     "rationale": "Incorrect: OBEL pays economic loss categories, not non-economic loss."
+    },
+    {
+     "id": "c",
+     "text": "Zoe picks how an extra $25,000 is applied, and the choice is final",
+     "rationale": "Correct: OBEL adds $25,000 above the $50,000 basic limit, and the claimant selects one benefit option, which is then fixed."
+    },
+    {
+     "id": "d",
+     "text": "It raises her lost-earnings cap to $4,000 per month for three years",
+     "rationale": "Incorrect: OBEL adds a $25,000 layer; it does not change the monthly cap."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Insurance Law § 5102(a)(5) and 11 NYCRR 65-1.2: OBEL provides an additional $25,000 above the basic $50,000. When basic benefits are likely to be exhausted, the insurer sends a form, and the claimant chooses: basic economic loss generally, lost earnings, psychiatric/physical/occupational therapy and rehabilitation, or a combination of lost earnings and therapy. Once selected, the option cannot be changed.",
+   "memoryTip": "OBEL: extra $25K, your pick, no take-backs.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "OBEL adds $25,000",
+      "anyOf": [
+       "25,000",
+       "$25,000"
+      ]
+     },
+     {
+      "label": "Above the $50,000 basic limit",
+      "anyOf": [
+       "50,000",
+       "exhaust",
+       "used up"
+      ]
+     },
+     {
+      "label": "Claimant chooses the option and cannot change it",
+      "anyOf": [
+       "choose",
+       "select",
+       "cannot change"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-5102",
+    "ny-11nycrr-65-1-2"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "regulation-text",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

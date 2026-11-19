@@ -1,0 +1,552 @@
+{
+ "sectionId": "lpr",
+ "terms": [
+  {
+   "id": "policy-provision",
+   "term": "Policy Provision",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1"
+   ],
+   "formal": "A clause in an insurance contract that states a right, duty, benefit, condition or limitation of the parties. Some provisions are required by law (standard or mandatory provisions); others are optional and chosen by the insurer or the policyowner.",
+   "plain": "A provision is simply one of the \"rules\" written into the policy — how premiums are paid, how long you have to pay late, when the insurer can no longer challenge the policy, and so on.",
+   "simpler": "Think of the policy as a rulebook; each provision is one rule in the book.",
+   "examples": [
+    "The grace-period clause in Ana's whole life policy is a required provision because New York law says every individual life policy must include one.",
+    "An accidental death benefit rider Ben adds for an extra premium is an optional benefit, not a required provision."
+   ],
+   "examTip": "Know which provisions New York requires in individual life policies (grace period, incontestability, entire contract, misstatement of age, reinstatement, free look, policy loans) versus optional riders that cost extra.",
+   "misconception": "A provision is not the same thing as a rider. Provisions are part of the base contract; riders are add-ons that modify it.",
+   "related": [
+    "rider",
+    "grace-period",
+    "incontestability",
+    "entire-contract-provision"
+   ],
+   "confusedWith": [
+    "rider"
+   ],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "What is a policy provision?",
+    "choices": [
+     "A clause in the contract stating a right, duty or condition of the parties",
+     "An optional add-on that always requires an extra premium",
+     "The amount paid to the beneficiary at the insured's death",
+     "A notice the producer gives the applicant before the sale"
+    ],
+    "answerIndex": 0,
+    "explanation": "A provision is any clause of the contract that sets out a right, duty, benefit or limitation. An add-on bought for extra premium is a rider; the amount paid at death is the face amount or death benefit."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ownership-provision",
+   "term": "Ownership Provision",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.1"
+   ],
+   "formal": "The policy provision identifying the policyowner — the person or entity who holds all contractual rights under the policy, such as naming and changing beneficiaries, assigning the policy, borrowing against or surrendering it, choosing options and receiving dividends.",
+   "plain": "The owner is the person in charge of the policy. The owner may be the insured, but does not have to be — a parent, spouse, business or trust can own a policy on someone else's life.",
+   "simpler": "The owner holds the \"remote control\" for the policy: they can change the beneficiary, borrow money from it, or cancel it.",
+   "examples": [
+    "Carla buys a policy on her own life; she is both owner and insured.",
+    "A company owns a key-person policy on its chief engineer; the company, not the engineer, can change the beneficiary or surrender the policy."
+   ],
+   "examTip": "When an exam question asks who can change the beneficiary or take a loan, the answer is the policyowner — not the insured and not the beneficiary (unless the beneficiary designation is irrevocable, which limits the owner).",
+   "misconception": "The insured is not automatically the owner. Rights belong to whoever is named as owner, and the insured has no rights unless he or she is also the owner.",
+   "related": [
+    "policyowner",
+    "insured",
+    "assignment",
+    "beneficiary",
+    "irrevocable-beneficiary"
+   ],
+   "confusedWith": [
+    "insured"
+   ],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "Who normally has the right to change a revocable beneficiary designation?",
+    "choices": [
+     "The policyowner",
+     "The insured, even if not the owner",
+     "The primary beneficiary",
+     "The producer who sold the policy"
+    ],
+    "answerIndex": 0,
+    "explanation": "All contractual rights, including changing a revocable beneficiary, belong to the policyowner. The insured has rights only if he or she is also the owner; a revocable beneficiary has no vested rights."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "assignment",
+   "term": "Assignment",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.2"
+   ],
+   "formal": "The transfer of some or all of the policyowner's rights to another party. An absolute assignment transfers all ownership rights permanently; a collateral assignment transfers limited rights temporarily as security for a debt.",
+   "plain": "Assignment means handing over policy rights to someone else. Giving the whole policy away is an absolute assignment. Pledging the policy to a bank so it can be repaid from the policy if you die is a collateral assignment.",
+   "simpler": "Absolute assignment is like giving someone your car title. Collateral assignment is like letting a lender hold the title until your loan is paid off.",
+   "examples": [
+    "Dev gives his policy to his daughter as a gift by absolute assignment; she becomes the new owner.",
+    "Erin collaterally assigns her $500,000 policy to a bank for a $100,000 business loan. If she dies owing $80,000, the bank receives $80,000 and her beneficiary receives the remaining $420,000."
+   ],
+   "examTip": "Collateral assignment = temporary and limited to the debt; the lender is paid first and the beneficiary gets the rest. Policies typically require written notice to the insurer, which is not responsible for the validity of the assignment.",
+   "misconception": "A collateral assignee does not receive the entire death benefit — only the amount of the outstanding debt.",
+   "related": [
+    "ownership-provision",
+    "policyowner",
+    "irrevocable-beneficiary",
+    "policy-loan"
+   ],
+   "confusedWith": [
+    "policy-loan"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Mia pledges her life policy to a lender as security for a loan. What type of transfer is this?",
+    "choices": [
+     "Collateral assignment",
+     "Absolute assignment",
+     "Irrevocable beneficiary designation",
+     "Policy loan"
+    ],
+    "answerIndex": 0,
+    "explanation": "Pledging a policy as security for a debt is a collateral assignment: temporary and limited to the amount owed. An absolute assignment permanently transfers all rights; a policy loan is borrowed from the insurer itself, not from an outside lender."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "entire-contract-provision",
+   "term": "Entire Contract Provision",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.3",
+    "lpr.1.11"
+   ],
+   "formal": "The required provision stating that the policy, together with the application if a copy is attached to the policy when issued, constitutes the entire contract between the parties. New York law also bars incorporating any other writing by reference unless it is attached, and allows the contract to be modified only in a writing signed by a person the insurer specifies.",
+   "plain": "Everything that counts must be in the policy packet you receive. The insurer cannot rely on some outside document or an application you never got a copy of, and a producer cannot change your policy by just saying so.",
+   "simpler": "If it isn't stapled into the policy, it isn't part of the deal.",
+   "examples": [
+    "Frank's application was not attached to his policy. In New York, the insurer cannot introduce that application as evidence against him in a dispute.",
+    "A producer tells Gina that her policy will cover a certain risk the policy excludes. Because only an authorized written change signed by a person the insurer names can modify the contract, the producer's statement does not change the policy."
+   ],
+   "examTip": "NY Insurance Law § 3203(a)(4) and § 3204: policy + attached application = entire contract; nothing is incorporated by reference unless attached; changes only in writing signed by a person specified by the insurer — not by a producer.",
+   "misconception": "The entire contract provision does not mean the policy can never change; it means changes must be in a writing signed by the insurer's specified officer and become part of the contract.",
+   "related": [
+    "application",
+    "representation",
+    "incontestability",
+    "policy-provision"
+   ],
+   "confusedWith": [
+    "incontestability"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Under New York law, what makes up the entire contract of an individual life policy?",
+    "choices": [
+     "The policy plus the application, if a copy is attached at issue",
+     "The policy, the producer's sales notes and the underwriting manual",
+     "Only the policy declarations page and the premium receipt",
+     "Any document the insurer keeps on file about the insured"
+    ],
+    "answerIndex": 0,
+    "explanation": "NY Insurance Law § 3203(a)(4) and § 3204(a) make the policy plus the attached application the entire contract; outside writings count only if attached or endorsed on the policy."
+   },
+   "sources": [
+    "ny-isc-3203",
+    "ny-isc-3204"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "free-look",
+   "term": "Free-Look (Right to Examine)",
+   "aliases": [
+    "Right to Examine",
+    "Free Look"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.4"
+   ],
+   "formal": "A required provision allowing the policyowner to return a newly delivered policy with a written request for cancellation within a stated period and receive a refund of all premiums paid, including policy fees and other charges. For New York individual life policies the period must be not less than 10 nor more than 30 days from delivery, and 30 days for policies sold by mail order.",
+   "plain": "After the policy is delivered, you get a short trial period to read it. If you change your mind, you send it back with a written cancellation request and get your money back in full.",
+   "simpler": "Like a store's return window: bring it back within the window and you get a full refund.",
+   "examples": [
+    "Hana receives her policy on June 1. Her policy gives her 10 days; she returns it with a written cancellation request on June 8 and receives a full refund of her premium.",
+    "Ivan bought a policy by mail order with no producer involved. His policy must give him 30 days to return it."
+   ],
+   "examTip": "The free-look period starts at DELIVERY, not at application or issue. NY range: 10–30 days; mail order: 30 days. The refund is the full premium, including fees.",
+   "misconception": "The free look is not a grace period. A grace period applies to late premiums on an in-force policy; the free look applies only to a newly delivered policy.",
+   "related": [
+    "policy-delivery",
+    "grace-period",
+    "replacement"
+   ],
+   "confusedWith": [
+    "grace-period"
+   ],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "When does the free-look period on a New York individual life policy begin?",
+    "choices": [
+     "When the policy is delivered to the policyowner",
+     "When the application is signed",
+     "When the first premium is due",
+     "When underwriting is completed"
+    ],
+    "answerIndex": 0,
+    "explanation": "NY Insurance Law § 3203(a)(11) measures the 10-to-30-day free-look period from the date the policy was delivered to the policyowner."
+   },
+   "sources": [
+    "ny-isc-3203"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "grace-period",
+   "term": "Grace Period",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.6",
+    "lpr.1.5"
+   ],
+   "formal": "A required period after a premium due date during which the policy stays in full force even though the premium has not been paid. In New York, fixed-premium individual life policies have a grace period of 31 days (or one month); flexible-premium policies have 61 days beginning when the insurer determines the net cash surrender value is insufficient. If the insured dies during the grace period, the insurer may deduct the unpaid premium from the proceeds.",
+   "plain": "If you miss a premium, you are still covered for a little while so you have time to pay. If you die during that time, your beneficiary is paid, minus the premium you owed.",
+   "simpler": "A grace period is a cushion: your coverage does not drop the instant a payment is late.",
+   "examples": [
+    "Jack's fixed premium was due May 1. He dies May 20 without paying; the insurer pays the death benefit minus the unpaid premium.",
+    "Kim's universal life cash value can no longer cover monthly charges. Her policy gives her 61 days from that determination to pay before it lapses."
+   ],
+   "examTip": "NY: 31 days (or one month) for fixed-premium policies; 61 days for flexible-premium (universal life) policies. Coverage continues; the unpaid premium is subtracted from a death claim.",
+   "misconception": "Coverage during the grace period is not free. The premium is still owed, and it is deducted if a death claim is paid.",
+   "related": [
+    "reinstatement",
+    "automatic-premium-loan",
+    "free-look",
+    "universal-life",
+    "nonforfeiture-options"
+   ],
+   "confusedWith": [
+    "free-look"
+   ],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "How long is the grace period on a New York fixed-premium individual life policy?",
+    "choices": [
+     "31 days (or one month)",
+     "10 days",
+     "61 days",
+     "3 years"
+    ],
+    "answerIndex": 0,
+    "explanation": "NY Insurance Law § 3203(a)(1) gives fixed-premium policies a 31-day (or one-month) grace period. 61 days applies to flexible-premium policies; 10 days is the minimum free look; 3 years is the reinstatement window."
+   },
+   "sources": [
+    "ny-isc-3203"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reinstatement",
+   "term": "Reinstatement",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.7"
+   ],
+   "formal": "A provision allowing a policyowner to restore a lapsed policy. In New York, an individual life policy must allow reinstatement at any time within three years from the date of default (unless the cash surrender value has been taken or extended term insurance has expired) if the owner applies, provides evidence of insurability satisfactory to the insurer, pays all overdue premiums with interest of not more than 6% per year compounded annually, and pays or reinstates any other policy debt.",
+   "plain": "If your policy lapsed because you stopped paying, you can usually bring it back within three years — but you must prove you are still insurable and catch up on the missed premiums with interest.",
+   "simpler": "Reinstatement is like reopening a closed account: you pay what you owe and show you still qualify.",
+   "examples": [
+    "Lena's whole life policy lapsed 14 months ago. She applies, passes a medical exam, and pays the overdue premiums plus interest; her original policy is restored.",
+    "Marco cashed in (surrendered) his policy for its cash value. He cannot reinstate it, because the cash surrender value has been taken."
+   ],
+   "examTip": "NY reinstatement: within 3 years of default; evidence of insurability; back premiums plus interest (max 6% compounded annually); repay or reinstate loans. Not available if the policy was surrendered for cash or extended term has expired.",
+   "misconception": "Reinstatement is not automatic and is not the same as buying a new policy: the original policy (and its original issue age) is restored, but only after the insurer is satisfied with the evidence of insurability.",
+   "related": [
+    "grace-period",
+    "nonforfeiture-options",
+    "cash-surrender-value",
+    "extended-term-option",
+    "incontestability"
+   ],
+   "confusedWith": [
+    "grace-period"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Which requirement applies to reinstating a lapsed New York individual life policy?",
+    "choices": [
+     "Evidence of insurability satisfactory to the insurer",
+     "A new free-look period of 60 days",
+     "Payment of overdue premiums without any interest",
+     "The beneficiary's written consent"
+    ],
+    "answerIndex": 0,
+    "explanation": "NY Insurance Law § 3203(a)(10) requires an application, evidence of insurability, overdue premiums with interest of up to 6% compounded annually, and payment or reinstatement of other indebtedness, within three years of default."
+   },
+   "sources": [
+    "ny-isc-3203"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "incontestability",
+   "term": "Incontestable Clause",
+   "aliases": [
+    "Incontestability"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.8"
+   ],
+   "formal": "A required provision stating that after a policy has been in force during the insured's lifetime for a specified period, the insurer cannot contest its validity based on misstatements in the application. In New York, an individual life policy becomes incontestable after being in force during the insured's lifetime for two years from its date of issue, except for nonpayment of premiums and violation of policy conditions relating to service in the armed forces.",
+   "plain": "The insurer has two years to check your application. After that, it generally cannot cancel the policy or deny a claim because of something wrong in the application.",
+   "simpler": "It's a two-year \"speak now or forever hold your peace\" rule for the insurer.",
+   "examples": [
+    "Nina left out a past heart condition on her application. The insurer discovers it three years after issue, while she is alive; the policy is incontestable and cannot be voided for that misstatement.",
+    "Omar dies 18 months after his policy was issued. The insurer may still investigate and contest material misstatements in his application."
+   ],
+   "examTip": "NY: 2 years from issue during the insured's lifetime. Exceptions: nonpayment of premium and armed-forces service conditions. Increases that required evidence of insurability have their own 2-year period from the increase.",
+   "misconception": "The incontestable clause does not force the insurer to pay for excluded causes or adjust for a misstated age. Misstatement of age is handled by adjusting benefits, not by contesting the policy.",
+   "related": [
+    "misstatement-of-age",
+    "representation",
+    "misrepresentation",
+    "entire-contract-provision",
+    "suicide-exclusion"
+   ],
+   "confusedWith": [
+    "suicide-exclusion",
+    "misstatement-of-age"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "A New York life policy becomes incontestable after it has been in force during the insured's lifetime for how long?",
+    "choices": [
+     "Two years from the date of issue",
+     "One year from the date of application",
+     "Three years from the date of delivery",
+     "Five years from the date of issue"
+    ],
+    "answerIndex": 0,
+    "explanation": "NY Insurance Law § 3203(a)(3) sets the incontestable period at two years from the date of issue, measured during the insured's lifetime."
+   },
+   "sources": [
+    "ny-isc-3203"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "misstatement-of-age",
+   "term": "Misstatement of Age",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.9"
+   ],
+   "formal": "A required provision stating that if the insured's age was misstated, the amount payable is the amount the premium paid would have purchased at the correct age. In New York, § 3203(a)(5) requires this adjustment for age.",
+   "plain": "If the insured's age was wrong on the application, the policy is not cancelled. Instead, the benefit is recalculated to what the premiums actually paid would have bought at the true age.",
+   "simpler": "You get what you paid for at your real age — no more, no less.",
+   "examples": [
+    "Paul said he was 40 but was really 45. His $100,000 policy's premium of $800 a year would have bought only $80,000 at age 45 (premium at 45: $1,000), so the insurer pays $80,000.",
+    "Rita understated her age by two years; the error is found after she dies four years after issue. Even though the policy is incontestable, the death benefit is still adjusted for her correct age."
+   ],
+   "examTip": "Age misstatement = ADJUST benefits, not void the policy, and the adjustment applies even after the incontestable period. Formula: face × (premium paid ÷ correct premium).",
+   "misconception": "A misstated age is not grounds for rescinding the policy, and the incontestable clause does not prevent the adjustment.",
+   "related": [
+    "incontestability",
+    "face-amount",
+    "premium"
+   ],
+   "confusedWith": [
+    "incontestability"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "An insured understated his age. The error is discovered at his death. What does the insurer do?",
+    "choices": [
+     "Pays what the premiums paid would have bought at the correct age",
+     "Denies the claim because of the misrepresentation on the application",
+     "Pays the full face amount because the policy is incontestable",
+     "Refunds all of the premiums paid, with interest, to the estate"
+    ],
+    "answerIndex": 0,
+    "explanation": "NY Insurance Law § 3203(a)(5): benefits are adjusted to what the premium would have purchased at the correct age. The policy is neither voided nor paid in full."
+   },
+   "sources": [
+    "ny-isc-3203"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "suicide-exclusion",
+   "term": "Suicide Exclusion",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.10"
+   ],
+   "formal": "A permitted policy exclusion under which the insurer does not pay the face amount if the insured dies by suicide within a specified period after issue. In New York, an individual life policy may exclude suicide only within two years from the date of issue; if an excluded death occurs, the insurer's liability is limited to an amount set by statute (based on premiums paid or the policy reserve) rather than the face amount.",
+   "plain": "If the insured dies by suicide in the first two years, the beneficiary does not get the full death benefit — typically a much smaller amount such as a return of premiums. After two years, suicide is covered like any other death.",
+   "simpler": "For the first two years the policy \"doesn't count\" suicide as a covered death; after that, it does.",
+   "examples": [
+    "Sam's policy was issued 14 months before his suicide; the insurer pays a limited amount, not the $250,000 face amount.",
+    "Tara's policy was issued three years before her suicide; her beneficiary receives the full face amount."
+   ],
+   "examTip": "NY: suicide may be excluded only within 2 years of issue. Other permitted exclusions in § 3203(b)–(c): war/military service, aviation as specified, hazardous occupations (within 2 years of issue), and residence in a specified foreign country.",
+   "misconception": "The suicide exclusion and the incontestable clause both use two years in New York, but they are different rules: one limits a cause of death, the other limits challenges to the application.",
+   "related": [
+    "incontestability",
+    "exclusion",
+    "policy-provision"
+   ],
+   "confusedWith": [
+    "incontestability"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Under New York law, an individual life policy may exclude death by suicide that occurs within what period?",
+    "choices": [
+     "Two years from the date of issue",
+     "One year from the date of application",
+     "Five years from the date of issue",
+     "The entire life of the policy"
+    ],
+    "answerIndex": 0,
+    "explanation": "NY Insurance Law § 3203(b)(1)(B) permits excluding suicide within two years from the date of issue of the policy."
+   },
+   "sources": [
+    "ny-isc-3203"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "proof-of-death",
+   "term": "Proof of Death",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.12"
+   ],
+   "formal": "The documentation a claimant submits so the insurer can pay a death claim — typically a certified copy of the death certificate together with a claimant's statement (claim form), and sometimes additional records the policy or insurer requires.",
+   "plain": "To collect, the beneficiary usually sends the insurer a claim form plus an official death certificate.",
+   "simpler": "Before paying, the insurer needs official paperwork showing the insured has died.",
+   "examples": [
+    "After her husband's death, Uma files a claimant's statement and a certified death certificate with the insurer.",
+    "A death happened within the contestable period, so the insurer also requests medical records before paying."
+   ],
+   "examTip": "Proof of death is usually a certified death certificate plus a claimant's statement. The claim is generally filed by the beneficiary (or estate), and the insurer pays after receiving due proof.",
+   "misconception": "The producer cannot waive the need for proof of death or decide the claim; claims are handled by the insurer.",
+   "related": [
+    "beneficiary",
+    "settlement-options",
+    "death-benefit-taxation"
+   ],
+   "confusedWith": [],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "What is most commonly submitted as proof of death for a life insurance claim?",
+    "choices": [
+     "A certified death certificate with a claimant's statement",
+     "The original application signed by the insured",
+     "An attending physician's statement from the time of application",
+     "The producer's field underwriting report"
+    ],
+    "answerIndex": 0,
+    "explanation": "A certified death certificate plus the claimant's statement (claim form) is the standard proof of death. The application and underwriting documents relate to issuing the policy, not paying the claim."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ],
+ "comparisons": []
+}

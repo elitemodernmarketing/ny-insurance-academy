@@ -1,0 +1,1661 @@
+{
+ "sectionId": "lpr",
+ "questions": [
+  {
+   "id": "lpr-q001",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.4"
+   ],
+   "concepts": [
+    "free-look"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Rachel bought a whole life policy through a mail-order solicitation with no producer involved. The policy was delivered to her on April 2. On April 27 she mails it back with a written request to cancel.",
+   "stem": "What is Rachel entitled to?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Nothing, because the free-look period for all policies is 10 days",
+     "rationale": "Incorrect: 10 days is the minimum for policies sold through a producer; mail-order policies must allow 30 days."
+    },
+    {
+     "id": "b",
+     "text": "A refund of all premiums paid, including any policy fees",
+     "rationale": "Correct: a mail-order policy must allow 30 days to return it, and the refund includes premiums, fees and other charges."
+    },
+    {
+     "id": "c",
+     "text": "The policy's cash surrender value only",
+     "rationale": "Incorrect: a newly issued policy has little or no cash value; the free look refunds premiums, not cash value."
+    },
+    {
+     "id": "d",
+     "text": "A refund of premiums minus a cancellation charge",
+     "rationale": "Incorrect: New York requires a refund of any premium paid, including policy fees and other charges — no deduction."
+    }
+   ],
+   "correct": "b",
+   "explanation": "NY Insurance Law § 3203(a)(11) requires a free-look period of 10 to 30 days from delivery, and a mail-order policy must allow 30 days. If the owner surrenders the policy with a written cancellation request within that period, the insurer refunds all premiums, including policy fees and charges.",
+   "memoryTip": "Mail order = a full month to look.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Mail-order policies get 30 days",
+      "anyOf": [
+       "30 day",
+       "thirty",
+       "mail order",
+       "mail-order"
+      ]
+     },
+     {
+      "label": "Returned within the free-look period",
+      "anyOf": [
+       "within",
+       "free look",
+       "free-look"
+      ]
+     },
+     {
+      "label": "Full refund including fees",
+      "anyOf": [
+       "full refund",
+       "all premium",
+       "fees",
+       "refund"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3203"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q002",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.6"
+   ],
+   "concepts": [
+    "grace-period"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Leo's $150,000 whole life policy has a fixed quarterly premium due on September 1. He has not paid it when he dies on September 24.",
+   "stem": "What will the beneficiary receive?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Nothing, because the policy lapsed on the premium due date",
+     "rationale": "Incorrect: the 31-day grace period keeps the policy in force after the due date."
+    },
+    {
+     "id": "b",
+     "text": "The cash surrender value only",
+     "rationale": "Incorrect: the death occurred while the policy was still in force, so the death benefit is payable."
+    },
+    {
+     "id": "c",
+     "text": "$150,000 minus the unpaid quarterly premium",
+     "rationale": "Correct: death within the grace period is covered, and the insurer may deduct the unpaid premium from the proceeds."
+    },
+    {
+     "id": "d",
+     "text": "$150,000 plus a refund of the last premium paid",
+     "rationale": "Incorrect: there is no refund of an earlier premium; the unpaid premium is subtracted."
+    }
+   ],
+   "correct": "c",
+   "explanation": "NY Insurance Law § 3203(a)(1) gives a fixed-premium policy a 31-day (or one-month) grace period during which the policy continues in full force. Under § 3203(a)(2), if death occurs during the grace period, the insurer may deduct the unpaid premium from the policy proceeds.",
+   "memoryTip": "Late is not lapsed — until day 31.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Death within the 31-day grace period",
+      "anyOf": [
+       "grace",
+       "31",
+       "one month"
+      ]
+     },
+     {
+      "label": "Policy still in force",
+      "anyOf": [
+       "in force",
+       "covered",
+       "still"
+      ]
+     },
+     {
+      "label": "Unpaid premium deducted from the proceeds",
+      "anyOf": [
+       "deduct",
+       "minus",
+       "subtract"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3203"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q003",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.6"
+   ],
+   "concepts": [
+    "grace-period",
+    "universal-life"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "In New York, how long is the grace period for a flexible-premium life policy such as universal life?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "31 days after each scheduled premium due date",
+     "rationale": "Incorrect: 31 days applies to fixed-premium policies."
+    },
+    {
+     "id": "b",
+     "text": "10 days after the policy is delivered to the owner",
+     "rationale": "Incorrect: this describes the minimum free-look period."
+    },
+    {
+     "id": "c",
+     "text": "Three years after the date of the premium default",
+     "rationale": "Incorrect: three years is the reinstatement window."
+    },
+    {
+     "id": "d",
+     "text": "61 days after the cash value is found insufficient",
+     "rationale": "Correct: § 3203(a)(1) gives flexible-premium policies a 61-day grace period measured from that determination."
+    }
+   ],
+   "correct": "d",
+   "explanation": "For policies in which premium amount and frequency may vary, NY Insurance Law § 3203(a)(1) provides a 61-day grace period beginning when the insurer determines the net cash surrender value is insufficient to pay the policy charges.",
+   "memoryTip": "Flexible premium, flexible clock: 61 days.",
+   "version": 2,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3203"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q004",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.7"
+   ],
+   "concepts": [
+    "reinstatement"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "When a New York individual life policy is reinstated, what is the maximum interest rate the insurer may charge on overdue premiums?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "6% per year, compounded annually",
+     "rationale": "Correct: § 3203(a)(10) caps interest on overdue premiums at six percent per year compounded annually."
+    },
+    {
+     "id": "b",
+     "text": "10% per year, simple interest",
+     "rationale": "Incorrect: the statutory cap is lower than 10%."
+    },
+    {
+     "id": "c",
+     "text": "The insurer's current policy loan rate, whatever it is",
+     "rationale": "Incorrect: the statute sets a specific maximum."
+    },
+    {
+     "id": "d",
+     "text": "No interest may be charged",
+     "rationale": "Incorrect: interest may be charged, up to the statutory cap."
+    }
+   ],
+   "correct": "a",
+   "explanation": "To reinstate within three years of default, the owner applies, provides evidence of insurability, pays all overdue premiums with interest at a rate not exceeding 6% per year compounded annually, and pays or reinstates any other policy debt (NY Insurance Law § 3203(a)(10)).",
+   "memoryTip": "Reinstate = 3 years back, 6% max.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3203"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q005",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.7"
+   ],
+   "concepts": [
+    "reinstatement",
+    "cash-surrender-value"
+   ],
+   "difficulty": 2,
+   "style": "negative",
+   "tags": [
+    "negative-wording",
+    "ny-law"
+   ],
+   "stem": "Under New York law, in which situation is the owner NOT entitled to reinstate the policy?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The policy lapsed 20 months ago and the insured can show good health",
+     "rationale": "Incorrect: this is within the three-year window, so reinstatement is available with evidence of insurability."
+    },
+    {
+     "id": "b",
+     "text": "The owner surrendered the policy and received its cash surrender value",
+     "rationale": "Correct: reinstatement is not required once the cash surrender value has been exhausted (taken)."
+    },
+    {
+     "id": "c",
+     "text": "The policy is running under extended term insurance that has not yet expired",
+     "rationale": "Incorrect: reinstatement is unavailable only after the extended term period has expired."
+    },
+    {
+     "id": "d",
+     "text": "The owner has an outstanding policy loan he is willing to repay",
+     "rationale": "Incorrect: the owner may reinstate by paying or reinstating the policy debt."
+    }
+   ],
+   "correct": "b",
+   "explanation": "NY Insurance Law § 3203(a)(10) requires reinstatement within three years of default \"unless the cash surrender value has been exhausted or the period of extended insurance has expired.\" Surrendering for cash ends the contract.",
+   "memoryTip": "Cashed out = can't come back.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3203"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q006",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.8"
+   ],
+   "concepts": [
+    "incontestability",
+    "misrepresentation"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Two and a half years after Mona's policy was issued, the insurer learns she did not disclose a past hospitalization on her application. Mona is alive and has paid every premium.",
+   "stem": "Can the insurer rescind the policy because of the omission?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Yes, because any misstatement voids a policy at any time",
+     "rationale": "Incorrect: the incontestable clause limits how long the insurer may contest the application."
+    },
+    {
+     "id": "b",
+     "text": "Yes, but only if it refunds all premiums with interest",
+     "rationale": "Incorrect: refunding premiums does not reopen a contest after the incontestable period."
+    },
+    {
+     "id": "c",
+     "text": "No, because it has been in force for over two years during her life",
+     "rationale": "Correct: after two years from issue during the insured's lifetime, the policy is incontestable (except for nonpayment of premium and certain armed-forces conditions)."
+    },
+    {
+     "id": "d",
+     "text": "No, because past hospitalizations are never material facts",
+     "rationale": "Incorrect: health history is usually material; the reason the insurer cannot contest is the passage of time."
+    }
+   ],
+   "correct": "c",
+   "explanation": "NY Insurance Law § 3203(a)(3): a policy is incontestable after it has been in force during the insured's lifetime for two years from its date of issue, except for nonpayment of premiums and violation of conditions relating to military service. After that, misstatements in the application cannot be used to void the policy.",
+   "memoryTip": "Two clean years alive = no more contest.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Incontestable after two years from issue",
+      "anyOf": [
+       "two years",
+       "2 years",
+       "2-year",
+       "incontestable"
+      ]
+     },
+     {
+      "label": "Measured during the insured's lifetime",
+      "anyOf": [
+       "lifetime",
+       "alive",
+       "living"
+      ]
+     },
+     {
+      "label": "Misstatement can no longer void the policy",
+      "anyOf": [
+       "cannot",
+       "can't",
+       "no longer",
+       "may not"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3203"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q007",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.8"
+   ],
+   "concepts": [
+    "incontestability"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "Even after a New York life policy becomes incontestable, the insurer may still deny or terminate coverage for which reason?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A material misstatement of medical history on the application",
+     "rationale": "Incorrect: this is exactly what the incontestable clause bars after two years."
+    },
+    {
+     "id": "b",
+     "text": "Concealment of the insured's smoking habit",
+     "rationale": "Incorrect: misstatements about smoking are application issues barred after the contestable period."
+    },
+    {
+     "id": "c",
+     "text": "A change in the insured's occupation after issue",
+     "rationale": "Incorrect: a later job change is not grounds to contest a life policy."
+    },
+    {
+     "id": "d",
+     "text": "Nonpayment of premiums",
+     "rationale": "Correct: nonpayment of premiums is a statutory exception to incontestability."
+    }
+   ],
+   "correct": "d",
+   "explanation": "NY Insurance Law § 3203(a)(3) excepts nonpayment of premiums and violation of policy conditions relating to service in the armed forces from the incontestable clause.",
+   "memoryTip": "Incontestable never means \"free coverage.\"",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3203"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q008",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.9"
+   ],
+   "concepts": [
+    "misstatement-of-age"
+   ],
+   "difficulty": 3,
+   "style": "calculation",
+   "tags": [
+    "math",
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Owen's $50,000 policy shows an annual premium of $600 based on the age he gave. At his death, the insurer finds he was older; the premium at his correct age would have been $750.",
+   "stem": "How much will the insurer pay?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$40,000",
+     "rationale": "Correct: $50,000 × ($600 ÷ $750) = $40,000."
+    },
+    {
+     "id": "b",
+     "text": "$50,000",
+     "rationale": "Incorrect: the benefit must be adjusted to what the premium would have bought at the correct age."
+    },
+    {
+     "id": "c",
+     "text": "$62,500",
+     "rationale": "Incorrect: this inverts the ratio ($50,000 × $750 ÷ $600); an older true age buys less coverage, not more."
+    },
+    {
+     "id": "d",
+     "text": "$50,000 minus $150 of premium shortfall",
+     "rationale": "Incorrect: New York adjusts the benefit amount, not just the premium difference."
+    }
+   ],
+   "correct": "a",
+   "explanation": "NY Insurance Law § 3203(a)(5): if age is misstated, the amount payable is what the premium paid would have purchased at the correct age. Calculation: $600 paid ÷ $750 correct premium = 0.8; 0.8 × $50,000 = $40,000.",
+   "memoryTip": "Paid ÷ should-have-paid × face.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Benefit adjusted, not denied",
+      "anyOf": [
+       "adjust",
+       "reduce",
+       "correct age"
+      ]
+     },
+     {
+      "label": "Ratio of premium paid to correct premium",
+      "anyOf": [
+       "600",
+       "750",
+       "ratio",
+       "0.8",
+       "80%"
+      ]
+     },
+     {
+      "label": "Result $40,000",
+      "anyOf": [
+       "40,000",
+       "40000"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3203"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q009",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.10"
+   ],
+   "concepts": [
+    "suicide-exclusion"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Nate's $300,000 policy was issued 15 months ago with a standard suicide exclusion. He dies by suicide.",
+   "stem": "How will the insurer most likely respond to the claim?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Pay the full $300,000, since suicide is always covered",
+     "rationale": "Incorrect: New York permits excluding suicide within two years of issue."
+    },
+    {
+     "id": "b",
+     "text": "Pay a limited amount instead of the face amount",
+     "rationale": "Correct: an excluded suicide within two years results in a limited payment set by statute, not the face amount."
+    },
+    {
+     "id": "c",
+     "text": "Pay double the face amount as an accidental death",
+     "rationale": "Incorrect: suicide is not an accidental death."
+    },
+    {
+     "id": "d",
+     "text": "Rescind the policy for misrepresentation on the application",
+     "rationale": "Incorrect: the issue is an exclusion for cause of death, not a misstatement on the application."
+    }
+   ],
+   "correct": "b",
+   "explanation": "NY Insurance Law § 3203(b)(1)(B) allows a policy to exclude suicide within two years from the date of issue. When an excluded death occurs, the insurer pays a limited amount defined by § 3203(b)(3) (based on premiums paid or the reserve), not the face amount.",
+   "memoryTip": "Suicide clause: two years, then fully covered.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Suicide within two years of issue is excluded",
+      "anyOf": [
+       "two years",
+       "2 years",
+       "within two"
+      ]
+     },
+     {
+      "label": "Face amount not paid",
+      "anyOf": [
+       "not the face",
+       "not pay the full",
+       "limited"
+      ]
+     },
+     {
+      "label": "Limited return such as premiums or reserve",
+      "anyOf": [
+       "premium",
+       "reserve",
+       "limited amount"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3203"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q010",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.10"
+   ],
+   "concepts": [
+    "exclusion",
+    "suicide-exclusion"
+   ],
+   "difficulty": 3,
+   "style": "negative",
+   "tags": [
+    "negative-wording",
+    "ny-law"
+   ],
+   "stem": "Which cause of death may a New York individual life policy NOT exclude?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Suicide within two years of the issue date",
+     "rationale": "Incorrect: this exclusion is expressly permitted by § 3203(b)."
+    },
+    {
+     "id": "b",
+     "text": "Aviation under conditions specified in the policy",
+     "rationale": "Incorrect: aviation exclusions are expressly permitted."
+    },
+    {
+     "id": "c",
+     "text": "Death from heart disease diagnosed three years after issue",
+     "rationale": "Correct: ordinary illness is not among the causes of death New York allows a life policy to exclude."
+    },
+    {
+     "id": "d",
+     "text": "Death resulting from war while serving in the armed forces",
+     "rationale": "Incorrect: war and military-service exclusions are permitted under § 3203(c)."
+    }
+   ],
+   "correct": "c",
+   "explanation": "NY Insurance Law § 3203(b)–(c) limits life policy exclusions to listed causes: war and military service, suicide within two years of issue, aviation as specified, hazardous occupations (within two years of issue), and residence in a specified foreign country. Death from ordinary illness cannot be excluded.",
+   "memoryTip": "Life insurance pays for illness — exclusions are a short, specific list.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3203"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q011",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.3"
+   ],
+   "concepts": [
+    "entire-contract-provision"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "When delivering Pia's policy, the producer tells her that the policy's aviation exclusion \"won't apply to you.\" Nothing in writing changes the policy.",
+   "stem": "Is the insurer bound by the producer's promise?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Yes, because producers have authority to modify policies they deliver",
+     "rationale": "Incorrect: in New York the contract can be modified only by a writing signed by a person the insurer specifies in the policy."
+    },
+    {
+     "id": "b",
+     "text": "Yes, because oral statements at delivery become part of the contract",
+     "rationale": "Incorrect: the entire contract is the policy plus the attached application."
+    },
+    {
+     "id": "c",
+     "text": "Only if the producer later confirms the promise in an email to Pia",
+     "rationale": "Incorrect: an email from the producer is not a written modification signed by the person the insurer specifies."
+    },
+    {
+     "id": "d",
+     "text": "No; only a writing signed by the insurer's designee can change it",
+     "rationale": "Correct: the policy plus the attached application is the entire contract, and only a writing signed by a person the insurer specifies in the policy can modify it (§ 3203(a)(4), § 3204(a))."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Under NY Insurance Law § 3203(a)(4) and § 3204(a), the policy and the attached application form the entire contract; nothing outside is incorporated unless attached, and the contract cannot be modified or rights waived except in a writing signed by a person specified by the insurer in the policy.",
+   "memoryTip": "If it isn't in the packet — or signed by the right officer — it isn't in the contract.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Entire contract = policy plus attached application",
+      "anyOf": [
+       "entire contract",
+       "attached application",
+       "policy and application"
+      ]
+     },
+     {
+      "label": "Producer cannot change the contract",
+      "anyOf": [
+       "producer",
+       "agent",
+       "cannot modify",
+       "no authority"
+      ]
+     },
+     {
+      "label": "Changes require a writing signed by a person the insurer specifies",
+      "anyOf": [
+       "writing",
+       "signed",
+       "officer"
+      ]
+     }
+    ]
+   },
+   "version": 2,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3203",
+    "ny-isc-3204"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q012",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.11"
+   ],
+   "concepts": [
+    "representation",
+    "warranty"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "Under New York law, statements made by an applicant for life insurance are deemed to be:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Representations, not warranties",
+     "rationale": "Correct: § 3204(c) deems applicant statements representations and not warranties."
+    },
+    {
+     "id": "b",
+     "text": "Warranties that must be literally true",
+     "rationale": "Incorrect: New York expressly treats them as representations."
+    },
+    {
+     "id": "c",
+     "text": "Conditions precedent that void the policy if any detail is wrong",
+     "rationale": "Incorrect: representations need only be substantially true; the warranty standard does not apply."
+    },
+    {
+     "id": "d",
+     "text": "Opinions with no legal effect",
+     "rationale": "Incorrect: material misrepresentations can still allow the insurer to contest during the contestable period."
+    }
+   ],
+   "correct": "a",
+   "explanation": "NY Insurance Law § 3204(c): \"All statements made by, or by the authority of, the applicant for the issuance, reinstatement or renewal of any such policy … shall be deemed representations and not warranties.\" A representation is a statement believed true to the best of the applicant's knowledge.",
+   "memoryTip": "Applicants REPRESENT; they don't WARRANT.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3204"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q013",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.11",
+    "lpr.1.3"
+   ],
+   "concepts": [
+    "entire-contract-provision",
+    "application"
+   ],
+   "difficulty": 3,
+   "style": "concept",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "stem": "An insurer did not attach a copy of the application to a New York life policy when it was issued. What is the effect?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The policy is void and all premiums must be refunded",
+     "rationale": "Incorrect: the policy remains valid; the consequence falls on the insurer's ability to use the application."
+    },
+    {
+     "id": "b",
+     "text": "The application cannot be used as evidence in a dispute",
+     "rationale": "Correct: § 3204(a)(2) bars using the application as evidence unless a true copy was attached when issued."
+    },
+    {
+     "id": "c",
+     "text": "The incontestable period is extended to five years",
+     "rationale": "Incorrect: nothing in the law extends the incontestable period for this reason."
+    },
+    {
+     "id": "d",
+     "text": "The policyowner must re-sign a new application before any claim is paid",
+     "rationale": "Incorrect: no such requirement exists."
+    }
+   ],
+   "correct": "b",
+   "explanation": "NY Insurance Law § 3204(a)(2): \"No application for the issuance of any such policy … shall be admissible in evidence unless a true copy was attached to such policy … when issued.\" This is why the application must be attached to be part of the entire contract.",
+   "memoryTip": "No copy attached = no using it against the owner.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3204"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q014",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.1"
+   ],
+   "concepts": [
+    "ownership-provision",
+    "policyowner"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Ivan's business partner owns a life policy on Ivan's life. The partner named Ivan's wife as revocable beneficiary.",
+   "stem": "Who may change the revocable beneficiary designation?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Ivan, because he is the insured",
+     "rationale": "Incorrect: the insured has no contractual rights unless he is also the owner."
+    },
+    {
+     "id": "b",
+     "text": "Ivan's wife, because she is the beneficiary",
+     "rationale": "Incorrect: a revocable beneficiary has no right to change the designation."
+    },
+    {
+     "id": "c",
+     "text": "The business partner who owns the policy",
+     "rationale": "Correct: the policyowner holds the right to change a revocable beneficiary."
+    },
+    {
+     "id": "d",
+     "text": "The producer, with the insurer's approval",
+     "rationale": "Incorrect: producers do not hold policy ownership rights."
+    }
+   ],
+   "correct": "c",
+   "explanation": "All contractual rights — changing beneficiaries, assigning, borrowing, surrendering — belong to the policyowner. Here the business partner owns the policy on Ivan's life, so only the partner can change the revocable beneficiary.",
+   "memoryTip": "Owner holds the remote control.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q015",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.2"
+   ],
+   "concepts": [
+    "assignment"
+   ],
+   "difficulty": 2,
+   "style": "calculation",
+   "tags": [
+    "math"
+   ],
+   "scenario": "Quinn collaterally assigned his $250,000 policy to a bank to secure a business loan. When he dies, $60,000 is still owed. His spouse is the beneficiary.",
+   "stem": "How are the proceeds paid at Quinn's death?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$250,000 to the bank",
+     "rationale": "Incorrect: a collateral assignee receives only the amount of the outstanding debt."
+    },
+    {
+     "id": "b",
+     "text": "$250,000 to Quinn's spouse; the bank must collect from the estate",
+     "rationale": "Incorrect: the collateral assignment gives the bank first claim on the proceeds up to the debt."
+    },
+    {
+     "id": "c",
+     "text": "$125,000 each to the bank and the spouse",
+     "rationale": "Incorrect: there is no equal split; the bank receives only the debt owed."
+    },
+    {
+     "id": "d",
+     "text": "$60,000 to the bank and $190,000 to Quinn's spouse",
+     "rationale": "Correct: the lender is repaid the $60,000 debt first; the remaining $190,000 goes to the beneficiary."
+    }
+   ],
+   "correct": "d",
+   "explanation": "A collateral assignment transfers limited rights as security for a debt. At death the assignee receives the amount owed ($60,000), and the beneficiary receives the balance: $250,000 − $60,000 = $190,000.",
+   "memoryTip": "Collateral = lender gets what it's owed, family gets the rest.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Collateral assignee paid only the debt",
+      "anyOf": [
+       "60,000",
+       "debt",
+       "amount owed"
+      ]
+     },
+     {
+      "label": "Beneficiary receives the remainder",
+      "anyOf": [
+       "190,000",
+       "remainder",
+       "balance",
+       "rest"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q016",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.5"
+   ],
+   "concepts": [
+    "premium-mode",
+    "premium"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "Why does paying a life insurance premium monthly usually cost more per year than paying it annually?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Extra billing costs and lost interest on later-paid premiums",
+     "rationale": "Correct: more frequent modes add a charge to cover extra billing costs and lost interest."
+    },
+    {
+     "id": "b",
+     "text": "Monthly payers are considered higher mortality risks",
+     "rationale": "Incorrect: premium mode does not change the insured's risk classification."
+    },
+    {
+     "id": "c",
+     "text": "New York law imposes a penalty on monthly premium modes",
+     "rationale": "Incorrect: the extra cost is an insurer pricing practice, not a legal penalty."
+    },
+    {
+     "id": "d",
+     "text": "Monthly payments do not receive any grace period",
+     "rationale": "Incorrect: every premium mode receives a grace period."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Premiums can be paid annually, semiannually, quarterly or monthly (premium mode). Modes other than annual typically carry a modal charge because the insurer has more transactions to process and receives the money later, so it earns less interest.",
+   "memoryTip": "Pay more often, pay a little more.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q017",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.1.12"
+   ],
+   "concepts": [
+    "proof-of-death"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "What does a beneficiary normally submit to the insurer to file a death claim?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The insured's original application and medical exam results",
+     "rationale": "Incorrect: these are underwriting documents, not claim documents."
+    },
+    {
+     "id": "b",
+     "text": "A claimant's statement and a certified copy of the death certificate",
+     "rationale": "Correct: this is the standard proof of death."
+    },
+    {
+     "id": "c",
+     "text": "A statement of good health signed by the insured",
+     "rationale": "Incorrect: a statement of good health is a delivery document."
+    },
+    {
+     "id": "d",
+     "text": "A notice from the producer approving the claim",
+     "rationale": "Incorrect: producers do not approve claims; the insurer does."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Proof of death typically consists of a completed claimant's statement (claim form) and a certified death certificate. The insurer may request more information — for example, when death occurs during the contestable period.",
+   "memoryTip": "Claim form + death certificate = proof of death.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q018",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.2.1.2"
+   ],
+   "concepts": [
+    "per-stirpes"
+   ],
+   "difficulty": 2,
+   "style": "calculation",
+   "tags": [
+    "math"
+   ],
+   "scenario": "Hilda's $480,000 policy names \"my children, per stirpes.\" She had three children; one, Eric, died before her, leaving two children. The other two children survive Hilda.",
+   "stem": "How much does each grandchild receive?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$0, because only the named children can receive proceeds",
+     "rationale": "Incorrect: under per stirpes, a deceased child's share passes to his or her descendants."
+    },
+    {
+     "id": "b",
+     "text": "$100,000 each",
+     "rationale": "Incorrect: the grandchildren split their father's one-third share; they do not each receive a full share."
+    },
+    {
+     "id": "c",
+     "text": "$80,000 each",
+     "rationale": "Correct: Eric's one-third share ($160,000) passes down his branch and is split between his two children."
+    },
+    {
+     "id": "d",
+     "text": "$60,000 each",
+     "rationale": "Incorrect: this would be a per capita split among all five survivors, which is not what per stirpes does."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Per stirpes divides by family branch. Each of the three children's branches gets one-third of $480,000 = $160,000. Eric died first, so his $160,000 goes to his two children: $80,000 each. The two living children receive $160,000 each.",
+   "memoryTip": "Stirpes = stems: each branch keeps its share.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Each branch receives one-third",
+      "anyOf": [
+       "one-third",
+       "1/3",
+       "160,000"
+      ]
+     },
+     {
+      "label": "Predeceased child's share goes to his children",
+      "anyOf": [
+       "grandchildren",
+       "his children",
+       "descendants",
+       "branch"
+      ]
+     },
+     {
+      "label": "Each grandchild receives $80,000",
+      "anyOf": [
+       "80,000",
+       "80000"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q019",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.2.1.2"
+   ],
+   "concepts": [
+    "per-capita"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Glen's $300,000 policy names his four nieces and nephews, per capita. One nephew died before Glen, leaving a daughter.",
+   "stem": "How are the proceeds distributed?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Each of the four nieces and nephews receives $75,000",
+     "rationale": "Incorrect: per capita divides only among the named beneficiaries living at the insured's death."
+    },
+    {
+     "id": "b",
+     "text": "$75,000 each to the three survivors, with $75,000 to the deceased nephew's children",
+     "rationale": "Incorrect: passing a share to a deceased beneficiary's children is per stirpes."
+    },
+    {
+     "id": "c",
+     "text": "$75,000 each to the three survivors, with $75,000 to Glen's estate",
+     "rationale": "Incorrect: the deceased beneficiary's share is redistributed to the survivors, not paid to the estate."
+    },
+    {
+     "id": "d",
+     "text": "$100,000 each to the three surviving nieces and nephews",
+     "rationale": "Correct: per capita splits $300,000 equally among the three living beneficiaries."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Per capita (\"by the head\") divides the proceeds equally among the named beneficiaries who are alive when the insured dies. $300,000 ÷ 3 survivors = $100,000 each; the predeceased nephew's children receive nothing.",
+   "memoryTip": "Per capita: count the living heads.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Per capita = equal shares among living named beneficiaries",
+      "anyOf": [
+       "per capita",
+       "living",
+       "surviv"
+      ]
+     },
+     {
+      "label": "Three survivors",
+      "anyOf": [
+       "three",
+       "3"
+      ]
+     },
+     {
+      "label": "$100,000 each",
+      "anyOf": [
+       "100,000",
+       "100000"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q020",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.2.1.3"
+   ],
+   "concepts": [
+    "beneficiary"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [],
+   "stem": "What is a major disadvantage of naming the insured's estate as beneficiary?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Probate delays and exposure to the estate's creditors",
+     "rationale": "Correct: proceeds payable to the estate become part of it, subject to probate and creditors' claims."
+    },
+    {
+     "id": "b",
+     "text": "The insurer will pay only half the face amount",
+     "rationale": "Incorrect: the full proceeds are payable; only the route they take differs."
+    },
+    {
+     "id": "c",
+     "text": "The policy becomes contestable again for two more years",
+     "rationale": "Incorrect: the beneficiary choice has no effect on contestability."
+    },
+    {
+     "id": "d",
+     "text": "The estate must wait until the incontestable period ends before collecting",
+     "rationale": "Incorrect: there is no such waiting rule."
+    }
+   ],
+   "correct": "a",
+   "explanation": "When the estate is the beneficiary (or no named beneficiary survives), the proceeds pass through probate, which can delay payment and add costs, and are available to the deceased's creditors. Naming individuals or a trust avoids this.",
+   "memoryTip": "Estate = probate + creditors.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q021",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.2.1.4"
+   ],
+   "concepts": [
+    "beneficiary",
+    "contingent-beneficiary"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Julia names her 9-year-old son as sole beneficiary without setting up a trust or custodian. She dies unexpectedly.",
+   "stem": "What is the most likely way the insurer will pay the 9-year-old's share?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Directly to the child as a lump-sum check",
+     "rationale": "Incorrect: a minor cannot give the insurer a valid release, so insurers generally do not pay a minor directly."
+    },
+    {
+     "id": "b",
+     "text": "To a guardian of the child's property or a custodian",
+     "rationale": "Correct: proceeds for a minor are generally paid to a guardian, custodian or trustee who manages the money."
+    },
+    {
+     "id": "c",
+     "text": "To the producer, to hold until the child turns 18",
+     "rationale": "Incorrect: the producer has no authority to hold claim proceeds."
+    },
+    {
+     "id": "d",
+     "text": "The child's share is forfeited back to the insurer",
+     "rationale": "Incorrect: the minor's share is not forfeited."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Because minors generally cannot legally sign a binding release, insurers usually pay a minor's proceeds to a court-appointed guardian, a custodian under a transfers-to-minors arrangement, or a trust. Owners who want to leave money to children often name a trust or custodian in advance.",
+   "memoryTip": "Kids can't sign for checks — a guardian, custodian or trustee does.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Minors cannot give a valid release",
+      "anyOf": [
+       "release",
+       "minor",
+       "cannot sign",
+       "legal capacity"
+      ]
+     },
+     {
+      "label": "Paid to a guardian, custodian or trustee",
+      "anyOf": [
+       "guardian",
+       "custodian",
+       "trust"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q022",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.2.1.5"
+   ],
+   "concepts": [
+    "beneficiary"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [],
+   "stem": "Why might a policyowner name a trust as beneficiary of a life policy?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "To guarantee the proceeds are taxed at a lower rate",
+     "rationale": "Incorrect: naming a trust does not guarantee lower income tax; death proceeds are generally income-tax-free anyway."
+    },
+    {
+     "id": "b",
+     "text": "To stop premiums from being owed while the trust exists",
+     "rationale": "Incorrect: premiums are owed regardless of the beneficiary."
+    },
+    {
+     "id": "c",
+     "text": "To have a trustee manage the proceeds under the trust's terms",
+     "rationale": "Correct: a trust gives control over how and when beneficiaries (such as minors) receive money."
+    },
+    {
+     "id": "d",
+     "text": "To make the policy incontestable from the date of issue",
+     "rationale": "Incorrect: incontestability depends on time in force, not on the beneficiary."
+    }
+   ],
+   "correct": "c",
+   "explanation": "A trust beneficiary lets a trustee manage the proceeds and distribute them under the trust's instructions — useful for minors, beneficiaries with special needs, or spreading payments over time.",
+   "memoryTip": "Trust = the money comes with instructions.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q023",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.2.1.6"
+   ],
+   "concepts": [
+    "contingent-beneficiary",
+    "primary-beneficiary"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "The primary beneficiary died before the insured, and the contingent beneficiary is living. Who receives the proceeds?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The primary beneficiary's estate",
+     "rationale": "Incorrect: a predeceased primary beneficiary has no claim; his or her estate does not take."
+    },
+    {
+     "id": "b",
+     "text": "The insured's estate",
+     "rationale": "Incorrect: the estate takes only if no named beneficiary survives."
+    },
+    {
+     "id": "c",
+     "text": "The insurer keeps them",
+     "rationale": "Incorrect: proceeds always go to a beneficiary or the estate."
+    },
+    {
+     "id": "d",
+     "text": "The contingent beneficiary",
+     "rationale": "Correct: the contingent beneficiary is next in line when no primary beneficiary survives."
+    }
+   ],
+   "correct": "d",
+   "explanation": "The order of succession is primary, then contingent (secondary), then tertiary, then the insured's estate. With the primary beneficiary dead, the living contingent beneficiary receives the proceeds.",
+   "memoryTip": "Primary gone? Next in line.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q024",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.2.1.7"
+   ],
+   "concepts": [
+    "irrevocable-beneficiary"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "tricky"
+   ],
+   "scenario": "As part of his divorce, Kurt named his former wife as irrevocable beneficiary of his whole life policy. Years later he wants to surrender the policy for its cash value.",
+   "stem": "What does Kurt need before he can surrender the policy?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "His former wife's written consent",
+     "rationale": "Correct: an irrevocable beneficiary has a vested interest, so the owner generally needs her consent to surrender the policy."
+    },
+    {
+     "id": "b",
+     "text": "Only a signed surrender form; beneficiaries have no say",
+     "rationale": "Incorrect: that is true of a revocable beneficiary, not an irrevocable one."
+    },
+    {
+     "id": "c",
+     "text": "A court order in every case",
+     "rationale": "Incorrect: the beneficiary's written consent is the normal requirement."
+    },
+    {
+     "id": "d",
+     "text": "Approval from the producer who sold the policy",
+     "rationale": "Incorrect: producers do not approve surrenders."
+    }
+   ],
+   "correct": "a",
+   "explanation": "An irrevocable beneficiary has a vested interest. The owner generally cannot change the beneficiary, assign the policy, borrow against it or surrender it without that beneficiary's consent.",
+   "memoryTip": "Irrevocable = they co-sign big moves.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Irrevocable beneficiary has a vested interest",
+      "anyOf": [
+       "vested",
+       "irrevocable"
+      ]
+     },
+     {
+      "label": "Owner needs beneficiary consent",
+      "anyOf": [
+       "consent",
+       "permission",
+       "sign"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

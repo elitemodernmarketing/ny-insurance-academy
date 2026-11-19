@@ -1,0 +1,624 @@
+{
+  "sectionId": "grp",
+  "terms": [
+    {
+      "id": "master-policy",
+      "term": "Master Policy (Group Contract)",
+      "aliases": [
+        "group contract",
+        "master contract"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.1",
+        "grp.1.1"
+      ],
+      "formal": "The single insurance contract issued to the group policyholder (such as an employer, union, or trustees of a fund) that sets out the terms of coverage for all insured members of the group; the policyholder, not the individual members, is the party to the contract.",
+      "plain": "In group insurance there is one main contract, the master policy, between the insurer and the organization (usually the employer). Employees are covered under it but do not own it; they get certificates showing their coverage.",
+      "simpler": "Like a building's master lease signed by the landlord and the business; each worker who uses the office is covered by it but did not sign it.",
+      "examples": [
+        "Orion Tech signs a group health master policy with an insurer. Orion is the policyholder; its 300 enrolled employees are insured members.",
+        "Under New York Insurance Law § 4235(c)(1)(A), a group policy issued to an employer treats the employer (or trustees of a fund it establishes) as the policyholder."
+      ],
+      "examTip": "Group = ONE master contract + many certificates. The employer/union/trust is the policyholder; employees are insureds, not policyowners.",
+      "misconception": "Employees are not parties to the master policy and do not receive their own policies; they receive certificates of coverage.",
+      "related": [
+        "certificate-of-coverage",
+        "eligible-group",
+        "experience-rating"
+      ],
+      "confusedWith": [
+        "certificate-of-coverage"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "In group health insurance, who is the policyholder of the master policy issued to an employer group?",
+        "choices": [
+          "The employer",
+          "Each covered employee",
+          "The employees' union representative only",
+          "The plan's largest claimant"
+        ],
+        "answerIndex": 0,
+        "explanation": "NY Insurance Law § 4235(c)(1)(A): a policy issued to an employer, which employer (or fund trustees) shall be deemed the policyholder. Employees receive certificates."
+      },
+      "sources": [
+        "ny-isc-4235"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "certificate-of-coverage",
+      "term": "Certificate of Coverage",
+      "aliases": [
+        "certificate of insurance",
+        "evidence of coverage",
+        "certificate"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.1.2"
+      ],
+      "formal": "The document given to each insured member of a group plan that summarizes the coverage provided under the master policy, including benefits, exclusions, and the member's rights; it is evidence of coverage, not a separate contract.",
+      "plain": "Your certificate is your personal summary of the group plan: what is covered, what is not, and how to file claims. The real contract is the master policy held by your employer.",
+      "simpler": "Like a membership card plus rule book that proves you belong to the club, while the club's charter is kept by the club itself.",
+      "examples": [
+        "When Dana enrolls in her employer's health plan, she receives a certificate describing her deductible, covered services and continuation rights.",
+        "Jorge's certificate explains how to convert to an individual policy if he leaves his job."
+      ],
+      "examTip": "Certificate = individual member's evidence of coverage. Master policy = the actual contract with the policyholder.",
+      "misconception": "A certificate of coverage is not an individual policy, and the employee cannot change its terms; changes are made to the master policy.",
+      "related": [
+        "master-policy",
+        "eligible-group"
+      ],
+      "confusedWith": [
+        "master-policy"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "In a group plan, the document each covered employee receives describing the coverage is the:",
+        "choices": [
+          "Master policy",
+          "Certificate of coverage",
+          "Conditional receipt",
+          "Policy summary of the insurer's finances"
+        ],
+        "answerIndex": 1,
+        "explanation": "Members receive certificates; the master policy is held by the group policyholder. A conditional receipt relates to application premium; the last choice is not a group document."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "experience-rating",
+      "term": "Experience Rating",
+      "aliases": [
+        "experience-rated"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.1.3"
+      ],
+      "formal": "A premium rating method under which a group's rates are based in whole or in part on that group's own past claims and expense experience, as opposed to community rating, which charges the same rate to all persons in a pool regardless of their own claims history or health status.",
+      "plain": "With experience rating, a group with low claims pays less and a group with high claims pays more, because the price is based on the group's own track record. With community rating, everyone in the pool pays the same rate. In New York, individual and small group health coverage must be community rated.",
+      "simpler": "Experience rating is like a driver's safe-driver discount based on your own record; community rating is like a flat bus fare everyone pays.",
+      "examples": [
+        "A 600-employee manufacturer had far fewer claims than expected last year; under experience rating, its renewal premium increase is smaller than average.",
+        "A 12-employee New York accounting firm buys small group health coverage; by law the insurer must use community rating, so the firm's own claims history does not set its rate."
+      ],
+      "examTip": "Experience = YOUR group's history. Community = the WHOLE pool's history. NY: individual and small group (§ 3231/§ 4317) must be community rated; large groups may be experience rated.",
+      "misconception": "Experience rating does not mean premiums change for one sick employee mid-year; it affects rates at renewal based on the group's overall experience.",
+      "related": [
+        "community-rating",
+        "small-employer",
+        "persistency",
+        "master-policy"
+      ],
+      "confusedWith": [
+        "community-rating"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A large group's renewal premium is based mainly on that group's own claims history. This is:",
+        "choices": [
+          "Coordination of benefits",
+          "Community rating",
+          "Experience rating",
+          "Retrospective review"
+        ],
+        "answerIndex": 2,
+        "explanation": "Experience rating uses the group's own claims; community rating uses the whole pool; COB coordinates two plans; retrospective review is a utilization review after care."
+      },
+      "sources": [
+        "ny-isc-3231",
+        "ny-isc-4317"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "eligible-group",
+      "term": "Eligible Group",
+      "aliases": [
+        "eligible groups"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.1.4",
+        "grp.2",
+        "grp.2.1",
+        "grp.2.1.1"
+      ],
+      "formal": "A group that New York law permits to be the subject of a group accident and health policy; under Insurance Law § 4235(c), a policy may be issued only to a group that fits one of the statutory descriptions, such as an employer (or trustees of an employer fund), trustees of a trade association fund, a labor union, trustees of a multiple-employer or union fund, or a creditor for its debtors.",
+      "plain": "Not just any collection of people can buy group health insurance. New York law lists the kinds of groups that qualify, such as employers, unions and certain trusts. The group must exist for a reason other than buying insurance, and employer coverage must be based on job classes, not hand-picked individuals.",
+      "simpler": "Like a team that already exists and then buys uniforms together, rather than strangers forming a 'team' just to get a uniform discount.",
+      "examples": [
+        "A dental practice with 15 employees buys group health insurance for all full-time staff; as an employer group it fits § 4235(c)(1)(A).",
+        "A labor union buys a group health policy covering its members; the union is the policyholder under § 4235(c)(1)(C)."
+      ],
+      "examTip": "Employer groups must insure all employees or classes defined by employment conditions, 'based upon some plan which will preclude individual selection' — this protects against adverse selection.",
+      "misconception": "An eligible group is not defined only by size; it is defined by the type of relationship (employer, union, trust, creditor) set out in the statute.",
+      "related": [
+        "master-policy",
+        "association-group",
+        "blanket-insurance",
+        "professional-employer-organization"
+      ],
+      "confusedWith": [],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under NY Insurance Law § 4235, an employer group policy must cover employees based on:",
+        "choices": [
+          "Whichever employees the insurer selects",
+          "Each employee's health status",
+          "Only employees who pass a medical exam",
+          "Classes determined by conditions of employment, in a way that precludes individual selection"
+        ],
+        "answerIndex": 3,
+        "explanation": "§ 4235(c)(1)(A) requires insuring all employees or classes based on employment conditions, 'based upon some plan which will preclude individual selection'."
+      },
+      "sources": [
+        "ny-isc-4235"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "blanket-insurance",
+      "term": "Blanket Insurance",
+      "aliases": [
+        "blanket accident and health"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.2.1.5",
+        "grp.2"
+      ],
+      "formal": "Accident and health insurance issued to a policyholder (such as a common carrier, school, fire district or qualifying association) that covers a class of persons who are not individually named and whose membership changes, such as all passengers of a carrier or all students of a school (NY Insurance Law § 4237).",
+      "plain": "Blanket coverage protects everyone in a defined, constantly changing group, such as all bus passengers, students, or volunteer firefighters, without listing them by name. Individuals usually do not apply or receive their own certificates.",
+      "simpler": "Like a blanket thrown over whoever happens to be on the couch: it covers everyone there right now, without a list of names.",
+      "examples": [
+        "A motorbus company buys a blanket accident policy covering all persons who become its passengers while they ride.",
+        "A town's volunteer fire company is covered under a blanket accident policy issued in the name of the fire district."
+      ],
+      "examTip": "Blanket = no names, changing members (passengers, students, sports teams, volunteer firefighters). Group = identified members who enroll and receive certificates.",
+      "misconception": "Blanket insurance is not the same as a group employer health plan; members are covered because of an activity or status (riding the bus, attending the school), not individual enrollment.",
+      "related": [
+        "eligible-group",
+        "master-policy"
+      ],
+      "confusedWith": [
+        "eligible-group"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A policy issued to an airline that covers all persons who become its passengers, without naming them, is:",
+        "choices": [
+          "Blanket insurance",
+          "Franchise insurance",
+          "Individual insurance",
+          "A self-funded plan"
+        ],
+        "answerIndex": 0,
+        "explanation": "NY Insurance Law § 4237 allows blanket coverage of all persons who may become passengers of a carrier, with the carrier as policyholder."
+      },
+      "sources": [
+        "ny-isc-4237"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "professional-employer-organization",
+      "term": "Professional Employer Organization (PEO)",
+      "aliases": [
+        "PEO",
+        "employee leasing"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.2.1.2"
+      ],
+      "formal": "A firm that enters into a co-employment arrangement with client businesses, taking on employer responsibilities such as payroll, tax filing and employee benefits, and often sponsoring a group health plan that covers the worksite employees of many client companies.",
+      "plain": "A PEO is an outside company that becomes a 'co-employer' of a small business's workers and handles HR tasks like payroll and benefits. Because it pools employees from many clients, it can offer a group health plan to all of them.",
+      "simpler": "Like a staffing department you share with dozens of other small businesses, so you can buy benefits together.",
+      "examples": [
+        "A 9-person design studio signs with a PEO; its employees are enrolled in the PEO's group health plan along with employees of other client businesses.",
+        "A restaurant owner uses a PEO to run payroll and offer health coverage, rather than administering a plan on its own."
+      ],
+      "examTip": "PEO = co-employment; the PEO handles payroll/benefits for many small client employers and can make group coverage available to their workers.",
+      "misconception": "A PEO is not an insurance company and not a TPA only; it is a co-employer that may sponsor the benefit plan.",
+      "related": [
+        "eligible-group",
+        "small-employer",
+        "administrative-services-only"
+      ],
+      "confusedWith": [
+        "administrative-services-only"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A company that becomes co-employer of a small business's workers and handles their payroll and benefits is a(n):",
+        "choices": [
+          "Administrative services only provider",
+          "Professional employer organization",
+          "Stop-loss carrier",
+          "Blanket policyholder"
+        ],
+        "answerIndex": 1,
+        "explanation": "PEOs co-employ client workers and handle payroll and benefits. An ASO provider administers a self-funded employer's plan; stop-loss protects a self-funded plan; blanket policyholders are carriers, schools, etc."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "association-group",
+      "term": "Association Group",
+      "aliases": [
+        "trade association group",
+        "professional association"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.2.1.3"
+      ],
+      "formal": "A group formed by an association of persons or employers sharing a common interest, occupation or profession (such as a trade, professional or alumni association) that sponsors or purchases group insurance for its members; to be an eligible group the association generally must exist for purposes other than obtaining insurance.",
+      "plain": "An association group is a professional, trade or alumni organization that offers insurance to its members. The association has to be a real organization with its own purpose, not something created just to buy insurance.",
+      "simpler": "Like a professional club that negotiates a group discount for its members because it already exists for other reasons.",
+      "examples": [
+        "A statewide association of electricians sponsors a group disability plan for its members.",
+        "Alumni of a university can enroll in group term life insurance offered through the alumni association."
+      ],
+      "examTip": "Association groups: alumni, professional and trade associations. Key requirement: the association was not formed solely to obtain insurance.",
+      "misconception": "Belonging to an association does not automatically guarantee coverage at the same rate as an employer group; associations carry adverse selection risk because membership is voluntary.",
+      "related": [
+        "eligible-group",
+        "blanket-insurance",
+        "adverse-selection"
+      ],
+      "confusedWith": [
+        "blanket-insurance"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A professional society that offers group coverage to its members is best described as a(n):",
+        "choices": [
+          "Creditor group",
+          "Blanket group",
+          "Association group",
+          "Single-employer group"
+        ],
+        "answerIndex": 2,
+        "explanation": "A professional, trade or alumni association that sponsors coverage for members is an association group. Blanket covers unnamed classes; creditor groups cover debtors; single-employer groups cover an employer's employees."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "erisa",
+      "term": "ERISA",
+      "aliases": [
+        "Employee Retirement Income Security Act",
+        "Employee Retirement Income Security Act of 1974"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.3.1",
+        "grp.3.1.1",
+        "grp.3.1.2",
+        "grp.3.1.3"
+      ],
+      "formal": "The federal Employee Retirement Income Security Act of 1974, which sets minimum standards for most private-sector employer-sponsored retirement and welfare benefit plans (including group health plans), including fiduciary responsibilities, reporting and disclosure to participants and the government, and claims and appeal procedures; it generally does not apply to government or church plans.",
+      "plain": "ERISA is the federal law that sets ground rules for benefit plans offered by private employers. People who run the plan must act in the participants' best interest (fiduciary duty), and the plan must give participants information such as a summary plan description and file reports.",
+      "simpler": "Think of ERISA as the referee for private employer benefit plans: it makes sure plan managers play fair and keep participants informed.",
+      "examples": [
+        "A private manufacturer's group health plan must give employees a summary plan description explaining benefits and claim procedures under ERISA.",
+        "A plan administrator who uses plan assets to pay the company's own bills violates ERISA fiduciary duties."
+      ],
+      "examTip": "ERISA applies to PRIVATE employers' plans (not government or church plans). Three outline themes: applicability, fiduciary responsibilities (act solely in participants' interest), reporting and disclosure (e.g., summary plan description). COBRA is part of ERISA for private plans.",
+      "misconception": "ERISA does not require an employer to offer a health plan; it regulates plans that employers choose to offer.",
+      "related": [
+        "cobra",
+        "self-funded-plan",
+        "fiduciary-responsibility",
+        "nondiscrimination-rules"
+      ],
+      "confusedWith": [
+        "hipaa"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which federal law sets fiduciary standards and reporting and disclosure requirements for private employer-sponsored benefit plans?",
+        "choices": [
+          "The Affordable Care Act",
+          "HIPAA",
+          "FMLA",
+          "ERISA"
+        ],
+        "answerIndex": 3,
+        "explanation": "ERISA (1974) governs private employee benefit plans, including fiduciary duties and reporting/disclosure. HIPAA addresses portability and privacy; FMLA provides leave; the ACA reformed health insurance markets."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "fmla",
+      "term": "Family and Medical Leave Act (FMLA)",
+      "aliases": [
+        "FMLA",
+        "Family and Medical Leave Act"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.3.2"
+      ],
+      "formal": "A federal law that entitles eligible employees of covered employers to take unpaid, job-protected leave (up to 12 workweeks in a 12-month period, or up to 26 workweeks for military caregiver leave) for qualifying family and medical reasons, and requires continuation of their group health benefits under the same terms and conditions as if they had not taken leave. Covered private employers have 50 or more employees.",
+      "plain": "FMLA lets eligible workers take up to 12 weeks of unpaid leave for things like a new baby, their own serious illness, or caring for a seriously ill family member, and their group health coverage continues as if they were still working.",
+      "simpler": "Like pressing 'pause' on your job: you are not paid, but your seat and your health coverage are held for you.",
+      "examples": [
+        "Elena, who has worked at a 200-employee firm for three years, takes 10 weeks of FMLA leave after giving birth; her group health coverage continues on the same terms.",
+        "Marcus takes FMLA leave to care for his father, who has a serious health condition; his employer must keep his health benefits in place during the leave."
+      ],
+      "examTip": "FMLA numbers: private employers with 50+ employees; employee eligibility = 12 months of employment, 1,250 hours, worksite with 50 employees within 75 miles; up to 12 workweeks (26 for military caregiver). Health coverage continues during leave; it is not a COBRA event.",
+      "misconception": "FMLA leave is unpaid; FMLA is not a disability income benefit and does not by itself pay wages.",
+      "related": [
+        "cobra",
+        "erisa",
+        "group-life-insurance"
+      ],
+      "confusedWith": [
+        "cobra"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "During FMLA leave, an eligible employee's group health coverage:",
+        "choices": [
+          "Continues under the same terms as if the employee were working",
+          "Ends and is replaced by COBRA",
+          "Ends unless the employee converts to an individual policy",
+          "Continues only if the employee pays 102% of the premium"
+        ],
+        "answerIndex": 0,
+        "explanation": "DOL: the FMLA 'requires continuation of their group health benefits under the same terms and conditions as if the employee had not taken leave'."
+      },
+      "sources": [
+        "fed-dol-fmla"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "medicare-secondary-payer",
+      "term": "Medicare Secondary Payer Rules",
+      "aliases": [
+        "MSP",
+        "working aged rules"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.3.3",
+        "grp.3.3.1"
+      ],
+      "formal": "Federal rules that determine when an employer group health plan pays before Medicare: generally, for a person age 65 or older covered through current employment (their own or a spouse's) with an employer of 20 or more employees, and for a person under 65 on Medicare due to disability covered through current employment with an employer of 100 or more employees ('large group health plan'), the group plan pays first and Medicare pays second. Medicare generally pays first for retiree coverage and for COBRA coverage (age 65+).",
+      "plain": "If you are working and on Medicare, your employer plan often has to pay first. For people 65+, that happens when the employer has 20 or more employees; for people on Medicare because of a disability, when the employer has 100 or more. Retiree coverage pays after Medicare.",
+      "simpler": "Think of a line at a cashier: the active-employee plan of a big enough employer stands first in line, and Medicare steps up second.",
+      "examples": [
+        "Ruth, 67, still works full time for a 300-employee hospital and is covered by its group plan. The group plan pays her claims first, and Medicare pays second.",
+        "Ken, 68, is retired and has retiree health coverage from his former employer; Medicare pays first and the retiree plan pays second."
+      ],
+      "examTip": "Working aged (65+): employer 20+ employees → group plan primary. Disability (under 65): employer 100+ → group plan primary. Retiree coverage and COBRA (65+) → Medicare primary. Medicaid never pays first for Medicare-covered services.",
+      "misconception": "Medicare is not always the primary payer once someone turns 65; current employment with a large enough employer reverses the order.",
+      "related": [
+        "coordination-of-benefits",
+        "medicare-carve-out",
+        "working-aged",
+        "medicare"
+      ],
+      "confusedWith": [
+        "coordination-of-benefits"
+      ],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "Ruth, 67, is covered by her current employer's group health plan; the employer has 300 employees. Which pays her claims first?",
+        "choices": [
+          "Medicare Part A",
+          "The employer group health plan",
+          "Medicare Part B",
+          "Medicaid"
+        ],
+        "answerIndex": 1,
+        "explanation": "Medicare.gov: for people 65+ with coverage from current employment with an employer of 20 or more employees, the group health plan pays first and Medicare pays second."
+      },
+      "sources": [
+        "fed-medicare-gov-coordination"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19",
+        "notes": "Thresholds taken from Medicare.gov 'Who pays first?' decision tool questions and answers; see excerpt."
+      }
+    },
+    {
+      "id": "medicare-carve-out",
+      "term": "Medicare Carve-Out",
+      "aliases": [
+        "carve-out"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.3.3.2"
+      ],
+      "formal": "A provision in an employer's group health plan for retirees (or others eligible for Medicare) that reduces the plan's benefits by the amount Medicare pays, so the group plan pays only what Medicare does not; it is one way group plans coordinate with Medicare, alongside Medicare supplement-type (complementary) arrangements.",
+      "plain": "A carve-out means the employer's retiree plan subtracts whatever Medicare pays and only covers what is left (up to its own benefit). It keeps the employer from paying for things Medicare already covered.",
+      "simpler": "Like splitting a dinner bill: Medicare pays its part first, and the retiree plan covers only what is left on its share.",
+      "examples": [
+        "A retiree has a $1,000 covered hospital bill. Medicare pays $800; the employer's carve-out plan, which would have paid $900 on its own, pays only $100 more so total plan payment does not exceed its benefit.",
+        "An employer adds a Medicare carve-out to its retiree medical plan to lower plan costs once retirees become eligible for Medicare."
+      ],
+      "examTip": "Carve-out = group plan pays its normal benefit MINUS what Medicare paid. Supplement (complementary) = fills Medicare's gaps such as deductibles and coinsurance.",
+      "misconception": "A Medicare carve-out is not a Medigap policy; it is a feature of the employer group plan itself.",
+      "related": [
+        "medicare-secondary-payer",
+        "medicare-supplement",
+        "coordination-of-benefits"
+      ],
+      "confusedWith": [
+        "medicare-supplement"
+      ],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "An employer retiree plan that reduces its benefits by the amount Medicare pays is using a:",
+        "choices": [
+          "Stop-loss provision",
+          "Medicare Select policy",
+          "Medicare carve-out",
+          "Conversion privilege"
+        ],
+        "answerIndex": 2,
+        "explanation": "A carve-out subtracts Medicare's payment from the plan's benefit. Medicare Select is a type of Medigap policy; stop-loss protects self-funded plans; conversion lets a person get an individual policy."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "nondiscrimination-rules",
+      "term": "Nondiscrimination Rules",
+      "aliases": [
+        "highly compensated nondiscrimination",
+        "Section 105(h)"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.3.4"
+      ],
+      "formal": "Federal tax rules that prohibit certain employer health and benefit plans (for example, self-insured medical reimbursement plans and cafeteria plans) from discriminating in favor of highly compensated individuals in eligibility or benefits; if a plan discriminates, the highly compensated individuals may lose some or all of the tax-favored treatment of their benefits.",
+      "plain": "Nondiscrimination rules stop employers from designing tax-favored health benefits mainly for executives and other highly paid people. If a plan favors the highly paid, those people can end up paying tax on the benefits.",
+      "simpler": "Like a rule that the company's tax-free perks must be open fairly to the whole team, not just the bosses.",
+      "examples": [
+        "A self-insured employer plan covers only the top five executives' medical expenses; under the nondiscrimination rules, the executives may owe tax on reimbursements they receive.",
+        "An employer opens its health plan to all full-time employees on the same terms, satisfying the eligibility tests."
+      ],
+      "examTip": "Nondiscrimination = can't favor HIGHLY COMPENSATED employees. The usual consequence falls on the highly compensated individuals (loss of tax-free treatment), not on rank-and-file employees.",
+      "misconception": "These rules do not require identical benefits for every employee; reasonable classifications based on employment (such as full-time vs. part-time) are allowed.",
+      "related": [
+        "self-funded-plan",
+        "erisa",
+        "hipaa"
+      ],
+      "confusedWith": [],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "Federal nondiscrimination rules for certain employer health plans primarily prevent plans from favoring:",
+        "choices": [
+          "Employees with dependents",
+          "Employees over age 40",
+          "Part-time employees",
+          "Highly compensated individuals"
+        ],
+        "answerIndex": 3,
+        "explanation": "Nondiscrimination rules (for example, for self-insured medical reimbursement plans) target plans that favor highly compensated individuals."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ],
+  "comparisons": []
+}

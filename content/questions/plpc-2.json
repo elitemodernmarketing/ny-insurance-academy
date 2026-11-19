@@ -1,0 +1,2441 @@
+{
+  "sectionId": "plpc",
+  "questions": [
+    {
+      "id": "plpc-q031",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.2",
+        "plpc.2.1"
+      ],
+      "concepts": [
+        "declarations-page"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Which part of a policy shows the named insured, policy period, limits and premium?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Insuring agreement",
+          "rationale": "Incorrect: the insuring agreement states the insurer's promise."
+        },
+        {
+          "id": "b",
+          "text": "Declarations",
+          "rationale": "Correct: the declarations hold the information unique to the specific policy."
+        },
+        {
+          "id": "c",
+          "text": "Conditions",
+          "rationale": "Incorrect: conditions set rules such as notice of loss and cancellation."
+        },
+        {
+          "id": "d",
+          "text": "Definitions",
+          "rationale": "Incorrect: definitions explain the meaning of policy terms."
+        }
+      ],
+      "correct": "b",
+      "explanation": "The declarations personalize the policy: who is insured, what property or vehicles, where, the policy period, limits, deductibles, premium and the forms attached.",
+      "memoryTip": "Dec page = the policy's ID card.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q032",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.2.2",
+        "plpc.2.3",
+        "plpc.2.5",
+        "plpc.2.6"
+      ],
+      "concepts": [
+        "insuring-agreement",
+        "policy-conditions",
+        "exclusion"
+      ],
+      "difficulty": 2,
+      "style": "application",
+      "tags": [],
+      "stem": "A homeowners policy requires the insured to show the damaged property to the insurer and submit a sworn proof of loss. Where is this requirement found?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Exclusions",
+          "rationale": "Incorrect: exclusions remove coverage for certain perils, property or losses."
+        },
+        {
+          "id": "b",
+          "text": "Definitions",
+          "rationale": "Incorrect: definitions give the meaning of words like 'insured' or 'occurrence'."
+        },
+        {
+          "id": "c",
+          "text": "Conditions",
+          "rationale": "Correct: duties after loss are policy conditions that must be met for coverage to respond."
+        },
+        {
+          "id": "d",
+          "text": "Declarations",
+          "rationale": "Incorrect: declarations list facts specific to the policy, not duties."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Policy structure: declarations (facts of the policy), definitions (meanings of terms in quotation marks or bold), insuring agreement (the promise), additional or supplementary coverages (extras such as debris removal or claim expenses), conditions (rules and duties) and exclusions (what is not covered). Endorsements modify any of these.",
+      "memoryTip": "Duties = Conditions.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q033",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.2.4",
+        "plpc.2.7"
+      ],
+      "concepts": [
+        "endorsement",
+        "insuring-agreement"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "tricky"
+      ],
+      "stem": "A homeowner wants to add coverage for sewer backup, which her policy form excludes. What is the usual way to add it?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Attach an endorsement to the policy",
+          "rationale": "Correct: endorsements add, remove or change coverage in an existing policy."
+        },
+        {
+          "id": "b",
+          "text": "Ask the agent to issue a certificate of insurance",
+          "rationale": "Incorrect: a certificate only evidences coverage and cannot alter the policy."
+        },
+        {
+          "id": "c",
+          "text": "Rely on the liberalization clause",
+          "rationale": "Incorrect: liberalization applies only when the insurer broadens its form without extra premium."
+        },
+        {
+          "id": "d",
+          "text": "Rewrite the insuring agreement herself",
+          "rationale": "Incorrect: the insured cannot unilaterally change the contract wording."
+        }
+      ],
+      "correct": "a",
+      "explanation": "An endorsement is the tool for modifying a policy, including adding coverages the form excludes (such as water backup). When an endorsement conflicts with the printed form, the endorsement controls.",
+      "memoryTip": "Need a change? Endorse it.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q034",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3",
+        "plpc.3.1"
+      ],
+      "concepts": [
+        "named-insured",
+        "first-named-insured",
+        "additional-insured",
+        "insured"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [
+        "tricky"
+      ],
+      "stem": "Which party is generally responsible for paying the premium and receiving notice of cancellation on a policy that lists several named insureds?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Every additional insured equally",
+          "rationale": "Incorrect: additional insureds receive coverage but do not administer the policy."
+        },
+        {
+          "id": "b",
+          "text": "The certificate holder",
+          "rationale": "Incorrect: a certificate holder receives evidence of coverage only."
+        },
+        {
+          "id": "c",
+          "text": "Any resident relative of the household",
+          "rationale": "Incorrect: resident relatives may be insureds by definition but do not administer the policy."
+        },
+        {
+          "id": "d",
+          "text": "The first named insured",
+          "rationale": "Correct: the first named insured handles premium payments, return premiums, notices and policy changes."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Insured categories: named insured (on the declarations), first named insured (listed first, with administrative rights and duties), additional insured (added by endorsement), and defined insureds (included by the policy definition, such as resident relatives).",
+      "memoryTip": "First named = the policy's point of contact.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q035",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.2",
+        "plpc.3.3"
+      ],
+      "concepts": [
+        "policy-period",
+        "policy-territory"
+      ],
+      "difficulty": 1,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Lena's personal auto policy expires at 12:01 a.m. on July 1. On June 30 she causes an accident in Pennsylvania. She reports it to her insurer on July 3.",
+      "stem": "Is the accident covered by Lena's policy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No; the claim was reported after expiration",
+          "rationale": "Incorrect: occurrence coverage looks at when the accident happened, not when it was reported."
+        },
+        {
+          "id": "b",
+          "text": "Yes; it occurred within the period and territory",
+          "rationale": "Correct: the accident happened before expiration and within the territory; late reporting does not change when it occurred."
+        },
+        {
+          "id": "c",
+          "text": "No; coverage stops at the state line",
+          "rationale": "Incorrect: a personal auto policy's territory includes the U.S., its territories and possessions, Puerto Rico and Canada."
+        },
+        {
+          "id": "d",
+          "text": "Yes, but only for property damage",
+          "rationale": "Incorrect: nothing limits coverage to property damage here."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Two separate questions: WHEN (policy period: did the accident happen between the start and end dates?) and WHERE (policy territory: did it happen within the covered area?). Both are satisfied, so the loss is covered subject to the policy's other terms.",
+      "memoryTip": "Period = when; territory = where.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Occurred within the policy period",
+            "anyOf": [
+              "period",
+              "june 30",
+              "before expiration",
+              "before it expired"
+            ]
+          },
+          {
+            "label": "Within the policy territory",
+            "anyOf": [
+              "territory",
+              "united states",
+              "pennsylvania"
+            ]
+          },
+          {
+            "label": "Reporting date does not control",
+            "anyOf": [
+              "report",
+              "when it happened",
+              "occurred"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q036",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.4"
+      ],
+      "concepts": [
+        "named-insured"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "Under New York Insurance Law § 3425, what is the 'required policy period' for a homeowners (personal lines) policy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "One year from the policy's effective date",
+          "rationale": "Incorrect: one year is the required policy period for covered automobile insurance."
+        },
+        {
+          "id": "b",
+          "text": "Sixty days from the policy's effective date",
+          "rationale": "Incorrect: sixty days is the period after which cancellation grounds become limited."
+        },
+        {
+          "id": "c",
+          "text": "Three years from issuance or voluntary renewal",
+          "rationale": "Correct: § 3425(a)(7) defines it as three years from the date first issued or voluntarily renewed."
+        },
+        {
+          "id": "d",
+          "text": "Six months from first issuance",
+          "rationale": "Incorrect: no six-month required policy period exists in the statute."
+        }
+      ],
+      "correct": "c",
+      "explanation": "For personal lines insurance (homeowners, dwelling, renters, personal umbrella), § 3425(a)(7) sets a three-year required policy period. During it, under § 3425(e), the insurer may nonrenew or conditionally renew only on a ground for which the policy could have been cancelled. Auto insurance has a one-year required policy period.",
+      "memoryTip": "Home = 3-year promise; auto = 1-year.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3425-personal-lines"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q037",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.4"
+      ],
+      "concepts": [
+        "named-insured"
+      ],
+      "difficulty": 3,
+      "style": "negative",
+      "tags": [
+        "ny-law",
+        "negative-wording",
+        "tricky"
+      ],
+      "stem": "A New York homeowners policy has been in force for eight months. Which of the following is NOT a permitted ground for the insurer to cancel it?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The insured filed two small claims last year",
+          "rationale": "Correct: claim frequency by itself is not one of the § 3425(c)(2) cancellation grounds."
+        },
+        {
+          "id": "b",
+          "text": "Nonpayment of premium",
+          "rationale": "Incorrect: nonpayment is a permitted ground under § 3425(c)(2)(A)."
+        },
+        {
+          "id": "c",
+          "text": "Fraud in presenting a claim",
+          "rationale": "Incorrect: fraud or material misrepresentation in obtaining the policy or presenting a claim is permitted."
+        },
+        {
+          "id": "d",
+          "text": "Physical changes making the home uninsurable",
+          "rationale": "Incorrect: post-issuance physical changes that make the property uninsurable under objective standards are a permitted ground."
+        }
+      ],
+      "correct": "a",
+      "explanation": "After a covered personal lines policy has been in effect for 60 days, § 3425(c)(2) allows cancellation only for nonpayment of premium; conviction of a crime increasing the hazard; fraud or material misrepresentation in obtaining the policy or presenting a claim; willful or reckless acts or omissions increasing the hazard; physical changes making the property uninsurable; or a Superintendent determination that continuation would violate the Insurance Law.",
+      "memoryTip": "After 60 days, cancel only for a listed reason.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Policy past the first 60 days",
+            "anyOf": [
+              "60 days",
+              "sixty"
+            ]
+          },
+          {
+            "label": "Only statutory grounds allowed",
+            "anyOf": [
+              "listed",
+              "statutory",
+              "only for",
+              "3425"
+            ]
+          },
+          {
+            "label": "Claims history alone is not a ground",
+            "anyOf": [
+              "claim",
+              "not a ground",
+              "not permitted"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3425-personal-lines"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q038",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.4"
+      ],
+      "concepts": [
+        "named-insured"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "ny-law",
+        "rapid"
+      ],
+      "stem": "How far before a NY personal lines policy expires must a notice of nonrenewal be mailed or delivered?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "At least 10 but not more than 20 days",
+          "rationale": "Incorrect: this window does not appear in § 3425 for nonrenewals."
+        },
+        {
+          "id": "b",
+          "text": "At least 60 but not more than 120 days",
+          "rationale": "Incorrect: this is the commercial lines window under § 3426(e)."
+        },
+        {
+          "id": "c",
+          "text": "At least 90 but not more than 180 days",
+          "rationale": "Incorrect: no such window appears in the statute."
+        },
+        {
+          "id": "d",
+          "text": "At least 45 but not more than 60 days",
+          "rationale": "Correct: § 3425(d)(1) requires notice at least 45 but not more than 60 days in advance."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Under § 3425(d)(1), unless the insurer mails or delivers written notice of nonrenewal (or conditional renewal) at least 45 but not more than 60 days before the end of the policy period, with the specific reasons, the named insured is entitled to renew upon timely payment of the renewal premium.",
+      "memoryTip": "Personal lines nonrenewal: 45 to 60.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3425-personal-lines"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q039",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.4"
+      ],
+      "concepts": [
+        "named-insured"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "Sam forgot to pay his New York homeowners renewal installment. His insurer mails him a notice of cancellation for nonpayment that states the amount due.",
+      "stem": "When must Sam's payment reach the insurer or an authorized agent to be considered timely under New York law?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Within 15 days after the notice was mailed",
+          "rationale": "Correct: § 3425(a)(10) treats payment as timely if made within fifteen days after mailing of a nonpayment cancellation notice."
+        },
+        {
+          "id": "b",
+          "text": "Within 5 days after the notice was mailed",
+          "rationale": "Incorrect: the statute allows fifteen days, not five."
+        },
+        {
+          "id": "c",
+          "text": "Within 31 days after the premium due date",
+          "rationale": "Incorrect: thirty-one days is the life insurance grace period, not this rule."
+        },
+        {
+          "id": "d",
+          "text": "By the next policy anniversary",
+          "rationale": "Incorrect: waiting until the anniversary would not cure the nonpayment."
+        }
+      ],
+      "correct": "a",
+      "explanation": "§ 3425(a)(10): payment to the insurer, or to an agent or broker authorized to receive it, is timely if made within fifteen days after the insurer mails the notice of cancellation for nonpayment. The notice itself must state the amount due (§ 3425(c)(2)(A)).",
+      "memoryTip": "Nonpayment notice mailed? Pay within 15 days.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Fifteen-day window",
+            "anyOf": [
+              "15",
+              "fifteen"
+            ]
+          },
+          {
+            "label": "Measured from mailing of the notice",
+            "anyOf": [
+              "mail",
+              "notice"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3425-personal-lines"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q040",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.4"
+      ],
+      "concepts": [
+        "first-named-insured"
+      ],
+      "difficulty": 3,
+      "style": "comparison",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "stem": "How do New York's cancellation and nonrenewal rules for commercial lines (§ 3426) differ from those for personal lines (§ 3425)?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Commercial policies may be cancelled for any reason at any time",
+          "rationale": "Incorrect: after 60 days, § 3426(c) also limits cancellation to listed grounds."
+        },
+        {
+          "id": "b",
+          "text": "Commercial nonrenewal notice is 60 to 120 days ahead",
+          "rationale": "Correct: § 3426(e)(3) requires 60–120 days' notice (30–120 for excess liability or jumbo risks), versus 45–60 days for personal lines."
+        },
+        {
+          "id": "c",
+          "text": "Personal lines notices go to the first-named insured only",
+          "rationale": "Incorrect: the 'first-named insured and agent or broker' language comes from § 3426, the commercial law."
+        },
+        {
+          "id": "d",
+          "text": "Commercial policies have a three-year required policy period",
+          "rationale": "Incorrect: § 3426 sets a one-year required policy period; three years applies to personal lines."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Commercial lines (§ 3426): one-year required policy period; during the first 60 days cancellation is effective 20 days after notice; after 60 days, cancellation is limited to listed grounds with 15 days' notice to the first-named insured and its agent or broker; nonrenewal or conditional renewal notice must be given 60–120 days before expiration. Personal lines (§ 3425): three-year required policy period for homeowners-type policies and 45–60 days' nonrenewal notice.",
+      "memoryTip": "Commercial = 60–120 days' heads-up; personal = 45–60.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Commercial nonrenewal window 60–120 days",
+            "anyOf": [
+              "60",
+              "120"
+            ]
+          },
+          {
+            "label": "Personal lines window 45–60 days",
+            "anyOf": [
+              "45"
+            ]
+          },
+          {
+            "label": "Both limit cancellation after 60 days",
+            "anyOf": [
+              "listed",
+              "grounds",
+              "limited"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3426",
+        "ny-isc-3425-personal-lines"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q041",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.5",
+        "plpc.3.5.1"
+      ],
+      "concepts": [
+        "pro-rata-cancellation",
+        "earned-premium"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "stem": "An insurer cancels a $1,460 annual policy after it has been in force for 73 days. Using the pro rata method, what is the return premium?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$292",
+          "rationale": "Incorrect: $292 is the earned premium the insurer keeps."
+        },
+        {
+          "id": "b",
+          "text": "$1,051",
+          "rationale": "Incorrect: this applies an extra 10% reduction, which is a short rate approach, not pro rata."
+        },
+        {
+          "id": "c",
+          "text": "$1,168",
+          "rationale": "Correct: earned = $1,460 × 73/365 = $292; return = $1,460 − $292 = $1,168."
+        },
+        {
+          "id": "d",
+          "text": "$1,387",
+          "rationale": "Incorrect: this subtracts 73 dollars rather than 73 days' worth of premium."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Pro rata: earned premium = annual premium × days in force ÷ 365 = $1,460 × 73 ÷ 365 = $292. Return premium = $1,460 − $292 = $1,168. No penalty applies when the insurer cancels.",
+      "memoryTip": "Insurer cancels: pro rata, no penalty.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q042",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.5.1"
+      ],
+      "concepts": [
+        "short-rate-cancellation",
+        "pro-rata-cancellation"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "math",
+        "tricky",
+        "ny-law"
+      ],
+      "stem": "An insured cancels a $1,200 annual policy after 3 months. The insurer's filed rule refunds 90% of the pro rata unearned premium when the insured cancels. What is the refund?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$900",
+          "rationale": "Incorrect: $900 is the pro rata refund, which ignores the short rate reduction."
+        },
+        {
+          "id": "b",
+          "text": "$1,080",
+          "rationale": "Incorrect: this takes 90% of the full annual premium."
+        },
+        {
+          "id": "c",
+          "text": "$300",
+          "rationale": "Incorrect: $300 is the earned premium for three months."
+        },
+        {
+          "id": "d",
+          "text": "$810",
+          "rationale": "Correct: pro rata unearned = $1,200 × 9/12 = $900; 90% × $900 = $810."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Pro rata unearned premium = $1,200 × 9 ÷ 12 = $900. The short rate rule returns 90% of that: $900 × 0.90 = $810. The insurer keeps $390 ($300 earned + $90 penalty). In New York, when an insured cancels, § 3428(a) says the earned premium the insurer keeps is determined by the applicable rate filing or, if none, the contract.",
+      "memoryTip": "Short rate = pro rata refund minus a penalty.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Compute pro rata unearned first",
+            "anyOf": [
+              "900",
+              "9/12",
+              "unearned"
+            ]
+          },
+          {
+            "label": "Apply the short rate factor",
+            "anyOf": [
+              "90%",
+              "810",
+              "short rate"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3428"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q043",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.5.1"
+      ],
+      "concepts": [
+        "flat-cancellation"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "A policy cancelled effective on its inception date, with the entire premium returned, is a",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Flat cancellation",
+          "rationale": "Correct: flat cancellation voids coverage from inception, so no premium is earned."
+        },
+        {
+          "id": "b",
+          "text": "Pro rata cancellation",
+          "rationale": "Incorrect: pro rata keeps premium for the time coverage was in force."
+        },
+        {
+          "id": "c",
+          "text": "Short rate cancellation",
+          "rationale": "Incorrect: short rate keeps more than the earned premium."
+        },
+        {
+          "id": "d",
+          "text": "Conditional renewal",
+          "rationale": "Incorrect: conditional renewal changes terms at renewal; it is not a cancellation."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Flat cancellation is effective on the start date. Because no coverage was ever provided, the full premium is returned.",
+      "memoryTip": "Flat = from the first day = full refund.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q044",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.6"
+      ],
+      "concepts": [
+        "policy-deductible",
+        "per-occurrence-limit"
+      ],
+      "difficulty": 1,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "stem": "A detached garage insured for $20,000 suffers a $26,000 fire loss. The policy deductible is $1,000. How much does the insurer pay?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$25,000",
+          "rationale": "Incorrect: the payment cannot exceed the $20,000 limit."
+        },
+        {
+          "id": "b",
+          "text": "$20,000",
+          "rationale": "Correct: $26,000 − $1,000 = $25,000, which exceeds the $20,000 limit, so the limit is paid."
+        },
+        {
+          "id": "c",
+          "text": "$19,000",
+          "rationale": "Incorrect: the deductible is applied to the loss, not to the limit."
+        },
+        {
+          "id": "d",
+          "text": "$26,000",
+          "rationale": "Incorrect: this ignores both the deductible and the limit."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Apply the deductible to the loss first: $26,000 − $1,000 = $25,000. Then compare to the limit: the most payable is $20,000. Because the loss after the deductible exceeds the limit, the insurer pays $20,000.",
+      "memoryTip": "Loss minus deductible, then cap at the limit.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q045",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.6",
+        "plpc.3.7"
+      ],
+      "concepts": [
+        "self-insured-retention",
+        "policy-deductible",
+        "umbrella-policy"
+      ],
+      "difficulty": 3,
+      "style": "comparison",
+      "tags": [
+        "tricky"
+      ],
+      "stem": "Which statement best distinguishes a self-insured retention (SIR) from a deductible?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "An SIR applies only to property, a deductible only to liability",
+          "rationale": "Incorrect: SIRs are typically used with liability coverage such as umbrellas."
+        },
+        {
+          "id": "b",
+          "text": "A deductible always increases the policy limit",
+          "rationale": "Incorrect: deductibles reduce the payment; they do not increase limits."
+        },
+        {
+          "id": "c",
+          "text": "With an SIR, the insured pays first, often including defense",
+          "rationale": "Correct: under an SIR the insurer's obligation begins only after the insured has paid the retention."
+        },
+        {
+          "id": "d",
+          "text": "An SIR is paid by the insurer and later recovered",
+          "rationale": "Incorrect: that describes how some deductibles work, not an SIR."
+        }
+      ],
+      "correct": "c",
+      "explanation": "With a deductible, the insurer typically handles the claim and the deductible reduces the payment. With an SIR, the insured itself pays (and usually manages) the claim, often including defense costs, until the retention is satisfied; then the policy responds. Personal umbrella policies commonly apply an SIR when no underlying coverage applies.",
+      "memoryTip": "SIR: you handle it first. Deductible: the insurer handles it, you share.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q046",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.8",
+        "plpc.3.8.3"
+      ],
+      "concepts": [
+        "other-insurance-clause"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "stem": "Two policies cover the same building and share losses pro rata. Policy A has a $150,000 limit and Policy B has a $50,000 limit. A $40,000 covered loss occurs. How much does Policy A pay?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$20,000",
+          "rationale": "Incorrect: this splits the loss equally rather than by limits."
+        },
+        {
+          "id": "b",
+          "text": "$40,000",
+          "rationale": "Incorrect: pro rata sharing divides the loss between the two policies."
+        },
+        {
+          "id": "c",
+          "text": "$10,000",
+          "rationale": "Incorrect: $10,000 is Policy B's share."
+        },
+        {
+          "id": "d",
+          "text": "$30,000",
+          "rationale": "Correct: A's share = $150,000 ÷ $200,000 = 75%; 75% × $40,000 = $30,000."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Pro rata share = (this policy's limit ÷ total limits) × loss. Total limits = $200,000. A pays $150,000 ÷ $200,000 × $40,000 = $30,000; B pays $10,000. The insured collects the $40,000 loss once, consistent with indemnity.",
+      "memoryTip": "Share of limits = share of the loss.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q047",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.8.1",
+        "plpc.3.8.2"
+      ],
+      "concepts": [
+        "other-insurance-clause",
+        "excess-liability-insurance"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Ari borrows a friend's car and causes an accident. A $70,000 judgment is entered against him. The car owner's policy (primary for the car) has a $50,000 limit; Ari's own auto policy applies as excess with a $100,000 limit.",
+      "stem": "How is the $70,000 judgment paid?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$50,000 by the primary, $20,000 by the excess",
+          "rationale": "Correct: primary pays first up to its limit; excess pays the remainder."
+        },
+        {
+          "id": "b",
+          "text": "$35,000 by each policy",
+          "rationale": "Incorrect: equal shares apply only when policies share by contribution, not primary/excess."
+        },
+        {
+          "id": "c",
+          "text": "$70,000 by the excess policy alone",
+          "rationale": "Incorrect: excess insurance responds only after the primary is exhausted."
+        },
+        {
+          "id": "d",
+          "text": "$50,000 by primary; the insured pays $20,000",
+          "rationale": "Incorrect: the excess policy covers the amount above the primary limit."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Primary insurance pays first, up to its limit ($50,000). Excess insurance pays only the amount above the primary limit ($20,000), up to its own limit.",
+      "memoryTip": "Primary first, excess after.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Primary pays first up to its limit",
+            "anyOf": [
+              "primary",
+              "first",
+              "50,000"
+            ]
+          },
+          {
+            "label": "Excess pays the remainder",
+            "anyOf": [
+              "excess",
+              "remainder",
+              "20,000"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q048",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.9",
+        "plpc.3.9.2",
+        "plpc.3.9.7"
+      ],
+      "concepts": [
+        "split-limits",
+        "bodily-injury",
+        "property-damage"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "math",
+        "tricky"
+      ],
+      "stem": "An auto policy has split limits of 100/300/50. In one accident, three people suffer bodily injury of $150,000, $120,000 and $60,000, and property damage is $70,000. What is the total the insurer pays?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$350,000",
+          "rationale": "Incorrect: this pays $300,000 BI and $50,000 PD without applying the per person cap."
+        },
+        {
+          "id": "b",
+          "text": "$310,000",
+          "rationale": "Correct: BI = $100,000 + $100,000 + $60,000 = $260,000 (within $300,000); PD = $50,000; total $310,000."
+        },
+        {
+          "id": "c",
+          "text": "$400,000",
+          "rationale": "Incorrect: this pays all damages in full, ignoring the limits."
+        },
+        {
+          "id": "d",
+          "text": "$260,000",
+          "rationale": "Incorrect: this omits the $50,000 property damage payment."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Apply the per person limit first: $150,000 → $100,000; $120,000 → $100,000; $60,000 → $60,000. BI total $260,000, under the $300,000 per accident limit. PD: $70,000 capped at $50,000. Total = $260,000 + $50,000 = $310,000.",
+      "memoryTip": "Per person first, then per accident, then PD.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Apply per person limit",
+            "anyOf": [
+              "per person",
+              "100,000"
+            ]
+          },
+          {
+            "label": "Check per accident BI limit",
+            "anyOf": [
+              "300,000",
+              "per accident",
+              "260,000"
+            ]
+          },
+          {
+            "label": "Cap property damage",
+            "anyOf": [
+              "50,000",
+              "property damage"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q049",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.9.8",
+        "plpc.3.9.1"
+      ],
+      "concepts": [
+        "combined-single-limit",
+        "per-occurrence-limit"
+      ],
+      "difficulty": 1,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "stem": "A $300,000 combined single limit applies to an accident causing $320,000 of bodily injury to one person and $25,000 of property damage. How much does the policy pay?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$345,000",
+          "rationale": "Incorrect: this ignores the single limit."
+        },
+        {
+          "id": "b",
+          "text": "$320,000",
+          "rationale": "Incorrect: this exceeds the $300,000 limit."
+        },
+        {
+          "id": "c",
+          "text": "$300,000",
+          "rationale": "Correct: the CSL is one per-accident limit for BI and PD together, so total payment is capped at $300,000."
+        },
+        {
+          "id": "d",
+          "text": "$325,000",
+          "rationale": "Incorrect: the CSL is a single cap for all damages from the accident."
+        }
+      ],
+      "correct": "c",
+      "explanation": "A combined single limit is one pot per occurrence for bodily injury and property damage combined. Damages total $345,000, so the policy pays its $300,000 limit; the insured is personally exposed to the remaining $45,000.",
+      "memoryTip": "CSL = one pot per accident.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q050",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.9.3",
+        "plpc.3.9.4",
+        "plpc.3.9.5",
+        "plpc.3.9.6"
+      ],
+      "concepts": [
+        "aggregate-limit",
+        "sublimit"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "tricky"
+      ],
+      "stem": "A contractor's liability policy is endorsed so that a separate aggregate limit applies to each construction job. This is a",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Per location aggregate",
+          "rationale": "Incorrect: per location aggregates apply separately to each premises the insured owns or rents."
+        },
+        {
+          "id": "b",
+          "text": "Sublimit",
+          "rationale": "Incorrect: a sublimit caps a particular type of loss within a larger limit."
+        },
+        {
+          "id": "c",
+          "text": "Per person limit",
+          "rationale": "Incorrect: a per person limit caps payment for one injured individual."
+        },
+        {
+          "id": "d",
+          "text": "Per project aggregate",
+          "rationale": "Correct: a per project aggregate gives each job its own aggregate limit."
+        }
+      ],
+      "correct": "d",
+      "explanation": "An aggregate is the most payable during the policy period. Per project aggregates (contractors) and per location aggregates (multi-premises businesses) keep one job or one site from exhausting the whole aggregate. A sublimit is a smaller cap inside a broader limit.",
+      "memoryTip": "Per project = per job; per location = per premises.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q051",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.10"
+      ],
+      "concepts": [
+        "ordinance-or-law-coverage"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "A kitchen fire damages Priya's 1960s home. Repairing it as it was would cost $40,000, but the town requires new wiring and fire-rated drywall to meet current code, adding $12,000.",
+      "stem": "Which coverage addresses the $12,000 extra cost?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ordinance or law coverage",
+          "rationale": "Correct: it pays increased costs to comply with building codes when repairing a covered loss."
+        },
+        {
+          "id": "b",
+          "text": "Additional living expense",
+          "rationale": "Incorrect: ALE covers increased living costs while the home is uninhabitable."
+        },
+        {
+          "id": "c",
+          "text": "Liberalization",
+          "rationale": "Incorrect: liberalization extends broadened policy terms automatically."
+        },
+        {
+          "id": "d",
+          "text": "Functional replacement cost",
+          "rationale": "Incorrect: functional replacement uses cheaper materials; it does not pay code upgrades."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Without ordinance or law coverage, a property policy pays to restore the building as it was. The extra cost required by current codes (and demolition of undamaged parts when required) is paid under ordinance or law coverage, up to its limit.",
+      "memoryTip": "Code upgrade after a covered loss = ordinance or law.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Building code compliance cost",
+            "anyOf": [
+              "code",
+              "ordinance",
+              "law"
+            ]
+          },
+          {
+            "label": "Triggered by a covered loss",
+            "anyOf": [
+              "covered loss",
+              "fire",
+              "repair"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q052",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.11"
+      ],
+      "concepts": [
+        "vacancy-clause"
+      ],
+      "difficulty": 3,
+      "style": "comparison",
+      "tags": [
+        "tricky"
+      ],
+      "stem": "Which situation describes a VACANT dwelling rather than an unoccupied one?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The family is on a three-month trip, furniture in place",
+          "rationale": "Incorrect: contents remain and the absence is temporary, so it is unoccupied."
+        },
+        {
+          "id": "b",
+          "text": "The owners moved out and removed all furnishings",
+          "rationale": "Correct: vacant means no occupants and no contents needed for living there."
+        },
+        {
+          "id": "c",
+          "text": "A tenant is in the hospital for several weeks",
+          "rationale": "Incorrect: the tenant's belongings remain; the unit is unoccupied, not vacant."
+        },
+        {
+          "id": "d",
+          "text": "A college student is away at school for the semester",
+          "rationale": "Incorrect: the home is still furnished and lived in by others."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Vacant: empty of both people and the property needed to live there. Unoccupied: belongings remain, but no one is there at the moment. Vacancy beyond a stated period (60 consecutive days in many standard forms) can suspend coverage for perils such as vandalism and glass breakage.",
+      "memoryTip": "Vacant = no people + no stuff.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q053",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.12",
+        "plpc.3.12.1"
+      ],
+      "concepts": [
+        "duties-after-loss"
+      ],
+      "difficulty": 1,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "A tree falls on Tom's garage during a storm, leaving a hole in the roof. More rain is expected tonight.",
+      "stem": "What should Tom do FIRST to comply with his duties after loss?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Have the garage torn down before an adjuster sees it",
+          "rationale": "Incorrect: the insured must show the damaged property to the insurer."
+        },
+        {
+          "id": "b",
+          "text": "Wait until he can file a lawsuit against the insurer",
+          "rationale": "Incorrect: suit is not a duty after loss and comes only after compliance with conditions."
+        },
+        {
+          "id": "c",
+          "text": "Notify the insurer and protect the garage from more damage",
+          "rationale": "Correct: prompt notice and reasonable protection of the property are core duties after loss."
+        },
+        {
+          "id": "d",
+          "text": "Leave the roof open so the adjuster sees all damage",
+          "rationale": "Incorrect: the insured must make reasonable repairs to prevent further damage."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Typical duties after loss: give prompt notice; notify police for theft; protect the property from further damage (reasonable repair costs are generally covered); prepare an inventory; show the damage and provide records; give a signed, sworn proof of loss when required; and cooperate.",
+      "memoryTip": "Notify, protect, document, cooperate.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Prompt notice to insurer",
+            "anyOf": [
+              "notify",
+              "notice",
+              "report"
+            ]
+          },
+          {
+            "label": "Protect from further damage",
+            "anyOf": [
+              "protect",
+              "tarp",
+              "temporary",
+              "further damage"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q054",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.12.2"
+      ],
+      "concepts": [
+        "assignment",
+        "named-insured"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "stem": "What happens to Uma's homeowners policy when she sells the house to Victor?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It automatically transfers to Victor along with the deed",
+          "rationale": "Incorrect: the policy insures Uma, not the house itself."
+        },
+        {
+          "id": "b",
+          "text": "Victor may use it until the policy period ends",
+          "rationale": "Incorrect: without the insurer's consent, Victor is not an insured."
+        },
+        {
+          "id": "c",
+          "text": "It converts into a mortgage clause for Victor's bank",
+          "rationale": "Incorrect: the mortgage clause protects a lender named by the insured, not a new owner."
+        },
+        {
+          "id": "d",
+          "text": "It does not transfer without the insurer's written consent",
+          "rationale": "Correct: property policies are personal contracts; assignment requires the insurer's written consent."
+        }
+      ],
+      "correct": "d",
+      "explanation": "P&C insurance is a personal contract between the insurer and a specific insured, whose character and habits affect the risk. Most property policies say assignment of the policy is not valid without the insurer's written consent. Victor must buy his own coverage. (Assignment of a claim payment after a loss is treated differently.)",
+      "memoryTip": "The policy follows the person, not the property.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Personal contract",
+            "anyOf": [
+              "personal",
+              "person"
+            ]
+          },
+          {
+            "label": "Insurer's written consent needed",
+            "anyOf": [
+              "consent",
+              "written",
+              "approval"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q055",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.12.3",
+        "plpc.3.13.3"
+      ],
+      "concepts": [
+        "abandonment",
+        "salvage"
+      ],
+      "difficulty": 3,
+      "style": "comparison",
+      "tags": [
+        "tricky"
+      ],
+      "stem": "Which statement correctly contrasts abandonment and salvage?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The insurer may take salvage; the insured may not abandon property",
+          "rationale": "Correct: salvage is the insurer's option; the abandonment clause bars the insured from forcing property on the insurer."
+        },
+        {
+          "id": "b",
+          "text": "The insured may abandon property, and the insurer must accept it",
+          "rationale": "Incorrect: the abandonment clause prohibits this."
+        },
+        {
+          "id": "c",
+          "text": "Salvage lets the insured keep property after a total loss payment",
+          "rationale": "Incorrect: after paying full value, the insurer may claim the damaged property."
+        },
+        {
+          "id": "d",
+          "text": "Both terms describe recovery from a negligent third party",
+          "rationale": "Incorrect: recovery from a third party is subrogation."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Abandonment: the insured cannot give damaged property to the insurer and demand full payment. Salvage: once the insurer pays (often as a total loss), it may take the damaged property and sell it to reduce its loss. Subrogation is recovery from a responsible person.",
+      "memoryTip": "Insured can't dump it; insurer can take it.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q056",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.13",
+        "plpc.3.13.1"
+      ],
+      "concepts": [
+        "liberalization-clause"
+      ],
+      "difficulty": 1,
+      "style": "application",
+      "tags": [],
+      "stem": "Mid-term, an insurer revises its homeowners form to broaden a coverage with no additional premium. A current policyholder then has a loss that only the broader wording covers. The loss is",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Not covered until the policy renews",
+          "rationale": "Incorrect: the liberalization clause applies the broadening immediately."
+        },
+        {
+          "id": "b",
+          "text": "Covered under the liberalization clause",
+          "rationale": "Correct: no-cost broadening applies automatically to existing policies."
+        },
+        {
+          "id": "c",
+          "text": "Covered only if the insured buys an endorsement",
+          "rationale": "Incorrect: no endorsement is needed when there is no added premium."
+        },
+        {
+          "id": "d",
+          "text": "Covered under the other insurance clause",
+          "rationale": "Incorrect: other insurance deals with sharing losses among policies."
+        }
+      ],
+      "correct": "b",
+      "explanation": "The liberalization clause automatically gives existing policies the benefit of form revisions that broaden coverage without additional premium. It does not apply to changes that restrict coverage or cost more.",
+      "memoryTip": "Free upgrade = automatic.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q057",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.13.2"
+      ],
+      "concepts": [
+        "subrogation",
+        "bailee-clause",
+        "policy-deductible"
+      ],
+      "difficulty": 1,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "A plumber negligently leaves a torch burning in Will's basement, starting a fire. Will's homeowners insurer pays him $30,000 less his $1,000 deductible.",
+      "stem": "After paying Will's claim, what right does Will's insurer have against the plumber?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Salvage",
+          "rationale": "Incorrect: salvage is recovery from selling damaged property."
+        },
+        {
+          "id": "b",
+          "text": "Liberalization",
+          "rationale": "Incorrect: liberalization concerns broadening of policy forms."
+        },
+        {
+          "id": "c",
+          "text": "Subrogation",
+          "rationale": "Correct: the insurer steps into Will's shoes to recover from the negligent third party."
+        },
+        {
+          "id": "d",
+          "text": "Abandonment",
+          "rationale": "Incorrect: abandonment bars the insured from forcing property on the insurer."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Subrogation transfers to the insurer, to the extent of its payment, the insured's right to recover from the party who caused the loss. If the insurer recovers, it often also reimburses the insured's deductible. The insured must not do anything after the loss to impair this right.",
+      "memoryTip": "Insurer pays you, then pursues them.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Insurer steps into the insured's rights",
+            "anyOf": [
+              "steps into",
+              "shoes",
+              "insured's right",
+              "subrogat"
+            ]
+          },
+          {
+            "label": "Recover from the negligent plumber",
+            "anyOf": [
+              "plumber",
+              "third party",
+              "negligent",
+              "at fault"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q058",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.13.4",
+        "plpc.1.6.1",
+        "plpc.1.6.2"
+      ],
+      "concepts": [
+        "replacement-cost",
+        "actual-cash-value"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "math",
+        "tricky"
+      ],
+      "stem": "A covered loss destroys a 10-year-old deck. Replacement cost is $12,000 and depreciation is $5,000. The policy pays replacement cost but only ACV until the insured actually rebuilds. The deductible is $1,000. How much is paid BEFORE the deck is rebuilt?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$6,000",
+          "rationale": "Correct: ACV = $12,000 − $5,000 = $7,000; minus $1,000 deductible = $6,000 now; the $5,000 holdback is paid after rebuilding."
+        },
+        {
+          "id": "b",
+          "text": "$11,000",
+          "rationale": "Incorrect: $11,000 is the total after rebuilding, not the initial payment."
+        },
+        {
+          "id": "c",
+          "text": "$7,000",
+          "rationale": "Incorrect: this is the ACV before the deductible."
+        },
+        {
+          "id": "d",
+          "text": "$5,000",
+          "rationale": "Incorrect: $5,000 is the depreciation holdback, paid only after rebuilding."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Loss settlement option: pay ACV first, then the depreciation holdback when repair or replacement is completed. ACV = $12,000 − $5,000 = $7,000; less the $1,000 deductible = $6,000 now. After rebuilding, the insurer pays the $5,000 holdback, for a total of $11,000.",
+      "memoryTip": "Rebuild to collect the holdback.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "ACV paid first",
+            "anyOf": [
+              "7,000",
+              "acv",
+              "actual cash value"
+            ]
+          },
+          {
+            "label": "Deductible subtracted",
+            "anyOf": [
+              "1,000",
+              "deductible"
+            ]
+          },
+          {
+            "label": "Holdback after rebuilding",
+            "anyOf": [
+              "holdback",
+              "rebuild",
+              "5,000"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q059",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.13.5"
+      ],
+      "concepts": [
+        "duty-to-defend"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "A neighbor sues Yara, claiming her dog bit him. Yara's dog was at the vet that day, and the claim appears false. The allegation is the type of bodily injury her homeowners liability coverage insures.",
+      "stem": "What must Yara's liability insurer do?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Refuse to defend until she proves the claim is false",
+          "rationale": "Incorrect: the insured does not have to prove the suit false before a defense is owed."
+        },
+        {
+          "id": "b",
+          "text": "Defend her even though the claim appears groundless",
+          "rationale": "Correct: the duty to defend applies to suits seeking potentially covered damages, even groundless or false ones."
+        },
+        {
+          "id": "c",
+          "text": "Pay the full demand without investigating",
+          "rationale": "Incorrect: the insurer may investigate and settle as it considers appropriate."
+        },
+        {
+          "id": "d",
+          "text": "Defend her but deduct legal fees from the limit",
+          "rationale": "Incorrect: in typical personal liability forms, defense costs are paid in addition to the limit."
+        }
+      ],
+      "correct": "b",
+      "explanation": "A liability insurer must defend suits alleging damages potentially covered by the policy, even if the allegations are groundless, false or fraudulent. Defense costs are typically paid in addition to the limit, and the duty ends when the limit has been exhausted by payment of judgments or settlements.",
+      "memoryTip": "Potentially covered = must defend.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Potentially covered allegation",
+            "anyOf": [
+              "potentially",
+              "covered"
+            ]
+          },
+          {
+            "label": "Groundless suits still defended",
+            "anyOf": [
+              "groundless",
+              "false",
+              "even if"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q060",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.13.6"
+      ],
+      "concepts": [
+        "property-coinsurance-clause"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "stem": "A building has a replacement cost of $500,000 at the time of loss and an 80% coinsurance clause. It is insured for $300,000. An $80,000 loss occurs and the deductible is $1,000. How much does the insurer pay?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$79,000",
+          "rationale": "Incorrect: this ignores the coinsurance penalty."
+        },
+        {
+          "id": "b",
+          "text": "$60,000",
+          "rationale": "Incorrect: the deductible has not been subtracted."
+        },
+        {
+          "id": "c",
+          "text": "$47,000",
+          "rationale": "Incorrect: this divides by the full value instead of the required amount."
+        },
+        {
+          "id": "d",
+          "text": "$59,000",
+          "rationale": "Correct: required = $400,000; $300,000 ÷ $400,000 × $80,000 = $60,000; minus $1,000 = $59,000."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Required insurance = 80% × $500,000 = $400,000. Carried ÷ required = $300,000 ÷ $400,000 = 0.75. 0.75 × $80,000 = $60,000. Subtract the $1,000 deductible: $59,000.",
+      "memoryTip": "Did ÷ Should × Loss − Deductible.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Required amount computed",
+            "anyOf": [
+              "400,000",
+              "80%"
+            ]
+          },
+          {
+            "label": "Ratio applied to loss",
+            "anyOf": [
+              "75%",
+              "0.75",
+              "60,000"
+            ]
+          },
+          {
+            "label": "Deductible subtracted",
+            "anyOf": [
+              "59,000",
+              "deductible"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q061",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.13.6"
+      ],
+      "concepts": [
+        "property-coinsurance-clause"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "stem": "A home with a replacement cost of $250,000 has an 80% coinsurance requirement and is insured for $210,000. A $30,000 loss occurs with a $500 deductible. How much is paid?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$29,500",
+          "rationale": "Correct: required = $200,000; $210,000 meets it, so the loss is paid in full less the deductible."
+        },
+        {
+          "id": "b",
+          "text": "$25,200",
+          "rationale": "Incorrect: this applies a penalty even though the requirement is met."
+        },
+        {
+          "id": "c",
+          "text": "$30,000",
+          "rationale": "Incorrect: the deductible still applies."
+        },
+        {
+          "id": "d",
+          "text": "$24,700",
+          "rationale": "Incorrect: this applies a penalty and then the deductible; no penalty applies."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Required = 80% × $250,000 = $200,000. Carried $210,000 ≥ required, so there is no penalty. Payment = $30,000 − $500 = $29,500.",
+      "memoryTip": "Meet the requirement and the penalty disappears.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q062",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.14",
+        "plpc.3.14.1"
+      ],
+      "concepts": [
+        "mortgage-clause",
+        "loss-payable-clause"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Xavier intentionally burns his mortgaged house. His insurer denies his claim. The house's standard mortgage clause names Bay Mortgage Co., which is owed $180,000.",
+      "stem": "Who, if anyone, will receive payment?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No one, because arson voids the policy for all",
+          "rationale": "Incorrect: the mortgagee has separate protection under the mortgage clause."
+        },
+        {
+          "id": "b",
+          "text": "Xavier, because he is the named insured",
+          "rationale": "Incorrect: Xavier's own claim is barred by his intentional act."
+        },
+        {
+          "id": "c",
+          "text": "The mortgage company, up to its interest",
+          "rationale": "Correct: the standard mortgage clause protects the mortgagee even when the insured's claim is denied for the insured's own acts."
+        },
+        {
+          "id": "d",
+          "text": "Xavier and the lender in equal shares",
+          "rationale": "Incorrect: Xavier recovers nothing; the lender recovers its interest."
+        }
+      ],
+      "correct": "c",
+      "explanation": "The standard mortgage clause acts as a separate agreement with the lender: if the insurer denies the owner's claim because of the owner's acts or neglect, the mortgagee can still be paid up to its interest, provided it meets its own obligations. The insurer may then be subrogated to the lender's rights against the owner.",
+      "memoryTip": "Mortgage clause: the bank is protected from the borrower's bad acts.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Insured's claim denied for intentional act",
+            "anyOf": [
+              "arson",
+              "intentional",
+              "denied"
+            ]
+          },
+          {
+            "label": "Mortgagee protected separately",
+            "anyOf": [
+              "mortgagee",
+              "lender",
+              "mortgage clause",
+              "separate"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q063",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.14.2",
+        "plpc.3.14.3"
+      ],
+      "concepts": [
+        "loss-payable-clause",
+        "bailee-clause"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "All of these parties typically hold or finance an insured's property. Which one is NOT protected by the insured's property policy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "An auto lender named as loss payee",
+          "rationale": "Incorrect: a loss payee is included in claim payments for its interest."
+        },
+        {
+          "id": "b",
+          "text": "A dry cleaner holding the insured's coat",
+          "rationale": "Correct: the no benefit to bailee clause keeps bailees from benefiting from the owner's insurance."
+        },
+        {
+          "id": "c",
+          "text": "A mortgagee named in the mortgage clause",
+          "rationale": "Incorrect: the mortgage clause protects the lender's interest."
+        },
+        {
+          "id": "d",
+          "text": "A leasing company named as loss payee",
+          "rationale": "Incorrect: a lessor named as loss payee shares in payments for its interest."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Loss payees and mortgagees are named in the policy to protect their financial interests. A bailee, such as a dry cleaner, repair shop or mover, holds property for a service and is expected to carry its own coverage; the no benefit to bailee clause preserves the insurer's subrogation rights against it.",
+      "memoryTip": "Bailees bring their own insurance.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q064",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.4"
+      ],
+      "concepts": [
+        "certificate-of-insurance",
+        "binder"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "Which statement correctly distinguishes a binder from a certificate of insurance under New York law?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A binder is temporary coverage; a certificate only evidences it",
+          "rationale": "Correct: a binder provides coverage until the policy issues; § 501(a) excludes binders from the definition of a certificate."
+        },
+        {
+          "id": "b",
+          "text": "A certificate can add coverage the policy lacks",
+          "rationale": "Incorrect: § 502(c) says a certificate cannot amend, extend or alter coverage."
+        },
+        {
+          "id": "c",
+          "text": "A binder must always be issued in writing",
+          "rationale": "Incorrect: binders may be oral or written."
+        },
+        {
+          "id": "d",
+          "text": "A certificate makes the holder an additional insured automatically",
+          "rationale": "Incorrect: certificate holders gain no rights beyond those in the policy."
+        }
+      ],
+      "correct": "a",
+      "explanation": "A binder is a temporary contract of insurance issued pending the formal policy. A certificate of insurance is evidence of existing coverage. New York Insurance Law § 501(a) excludes policies and binders from the definition of a certificate, and § 502(c) says a certificate cannot amend, extend or alter the policy or confer rights beyond it.",
+      "memoryTip": "Binder binds; certificate certifies.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-501",
+        "ny-isc-502"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q065",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.4"
+      ],
+      "concepts": [
+        "certificate-of-insurance",
+        "additional-insured"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "scenario": "A building owner hiring a contractor insists that the contractor's certificate of insurance state that the owner is 'fully covered for all claims,' although the contractor's policy has no additional insured endorsement for the owner.",
+      "stem": "Under New York law, what is the effect of the language the owner wrote on the certificate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It makes the owner an additional insured",
+          "rationale": "Incorrect: only an endorsement to the policy can add an additional insured."
+        },
+        {
+          "id": "b",
+          "text": "It binds the insurer because the producer signed it",
+          "rationale": "Incorrect: a producer's signature on a certificate does not change the policy."
+        },
+        {
+          "id": "c",
+          "text": "It converts the certificate into a binder",
+          "rationale": "Incorrect: certificates and binders are distinct; a certificate is not a contract of coverage."
+        },
+        {
+          "id": "d",
+          "text": "None; a certificate cannot extend the policy's coverage",
+          "rationale": "Correct: § 502(c) bars a certificate from amending, extending or altering coverage or conferring rights beyond the policy."
+        }
+      ],
+      "correct": "d",
+      "explanation": "New York Insurance Law § 502: a certificate may not amend, extend or alter the coverage of the referenced policy, and confers no rights beyond those in the policy. Persons may not wilfully require language on a certificate that the policy does not contain, and the Superintendent may impose penalties for wilful violations (§ 503).",
+      "memoryTip": "A certificate is a snapshot, not a policy change.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Certificate cannot change coverage",
+            "anyOf": [
+              "cannot amend",
+              "cannot extend",
+              "alter",
+              "does not change",
+              "502"
+            ]
+          },
+          {
+            "label": "Policy endorsement needed for additional insured",
+            "anyOf": [
+              "endorsement",
+              "additional insured"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-502",
+        "ny-isc-503"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q066",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.4"
+      ],
+      "concepts": [
+        "binder"
+      ],
+      "difficulty": 1,
+      "style": "scenario",
+      "tags": [
+        "rapid"
+      ],
+      "scenario": "Zoe's agent, who has binding authority, binds homeowners coverage effective on her closing date. The policy has not yet been printed when the house is damaged by fire that night.",
+      "stem": "Which document provides Zoe's coverage on the night of the fire?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The application",
+          "rationale": "Incorrect: an application is a request for coverage, not coverage itself."
+        },
+        {
+          "id": "b",
+          "text": "The binder",
+          "rationale": "Correct: the binder is a temporary contract of insurance in force until the policy is issued."
+        },
+        {
+          "id": "c",
+          "text": "A certificate of insurance",
+          "rationale": "Incorrect: a certificate only evidences coverage that already exists."
+        },
+        {
+          "id": "d",
+          "text": "The premium receipt",
+          "rationale": "Incorrect: a receipt shows payment; it is not the contract of insurance."
+        }
+      ],
+      "correct": "b",
+      "explanation": "A binder puts coverage in force immediately, before the formal policy is issued. It is subject to the terms of the policy that will be issued.",
+      "memoryTip": "Binder = coverage now, policy later.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# 11 NYCRR § 52.29 (Regulation 62) — Replacement of accident and health coverage with individual long term care / nursing home / home care insurance; purchase of multiple A&H policies
+
+- Source URL: https://www.law.cornell.edu/regulations/new-york/11-NYCRR-52.29
+- Revision shown on source: LII quarterly update (no prior version listed); no amendment date shown
+- Retrieved/verified: 2026-11-19 (via Firecrawl scrape of Cornell LII State Regulations)
+
+Verbatim excerpts used by the content (quotes trimmed with "…"):
+
+- (a) "Application forms shall include a question designed to elicit information as to whether a long term care insurance … policy is intended to replace any other accident and health insurance policy presently in force. The application form must require a list of all existing accident and health insurance policies and require identification of those being replaced."
+- (b) The application taken by an agent "shall include, or have attached thereto, a statement signed by the agent as follows: \"I have reviewed the current accident and health insurance coverage of the applicant and find that the indicated replacement, or the additional coverage of the type and amount applied for, is appropriate for the applicant's needs.\""
+- (c) "Upon determining that a sale will involve replacement, an insurer, other than a direct response insurer, or its agent, shall furnish the applicant, prior to issuance or delivery of the long term care insurance … policy, a notice regarding replacement of accident and health insurance coverage. One copy of such notice shall be provided to the applicant and an additional copy signed by the applicant shall be retained by the insurer. A direct response insurer shall deliver to the applicant at the time of the issuance of the policy the notice regarding replacement …"
+- (d) Notice text (agent-sold): "1. Health conditions which you may presently have may be considered preexisting conditions and may not be immediately or fully covered under the new policy. … 2. You should be aware that the premium rate for the replacement policy may be higher than what you are paying for the existing policy … If the premium for your existing policy is based on your age when it was issued, you have built up equity in that policy which may be lost if you terminate it. 3. You may wish to secure the advice of your present insurer or its agent regarding the proposed replacement of your present policy. … 4. … be certain to truthfully and completely answer all questions on the application concerning your medical/health history."
+- (e) Direct response notice: "Your new policy provides thirty (30) days within which you may decide without cost whether you desire to keep the policy."

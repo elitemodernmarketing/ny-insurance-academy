@@ -1,0 +1,498 @@
+{
+ "complianceCases": [
+  {
+   "id": "reg-cc-gift-card-closer",
+   "title": "The Gift Card Closer",
+   "narrative": "Tasha, a licensed life agent in Rochester, is competing for a $500,000 term policy sale. To close the deal, she tells the prospect, Dev, that if he signs the application this week she will mail him a $250 gift card from her favorite restaurant. The gift card is not mentioned anywhere in the policy. Dev signs and accepts the card.",
+   "question": "What compliance issue does this raise?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Rebating — a valuable inducement over $25 not specified in the policy, and Dev knowingly received it",
+     "rationale": "Correct: § 4224(c) bars inducements not specified in the policy other than items not exceeding $25, and also bars knowingly receiving them."
+    },
+    {
+     "id": "b",
+     "text": "Twisting — Tasha induced Dev to drop his existing coverage",
+     "rationale": "Incorrect: nothing suggests Dev lapsed or surrendered another policy."
+    },
+    {
+     "id": "c",
+     "text": "No issue — agents may give gifts as long as they pay for them personally",
+     "rationale": "Incorrect: the source of the money does not matter; the value limit does."
+    },
+    {
+     "id": "d",
+     "text": "Controlled business — Dev is a close personal contact",
+     "rationale": "Incorrect: controlled business concerns commissions from the licensee's spouse and controlled companies."
+    }
+   ],
+   "correct": "a",
+   "issue": "rebating",
+   "explanation": "For life, accident and health insurance, § 4224(c) prohibits giving or offering any valuable consideration or inducement not specified in the policy, except merchandise or similar items not exceeding $25 in value. A $250 gift card offered to induce a purchase is an illegal rebate. Dev also violated the law by knowingly receiving it.",
+   "outlineIds": [
+    "reg.2.3.5"
+   ],
+   "concepts": [
+    "rebating"
+   ],
+   "sources": [
+    "ny-isc-4224"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-cc-premium-only-chart",
+   "title": "The Premium-Only Chart",
+   "narrative": "Marcus meets with Ellen, 58, who has owned a whole life policy for 20 years with substantial cash value and a paid-up additions rider. Marcus prepares a one-page chart showing only that his company's new universal life policy has a lower annual premium. He does not mention her current cash value, the new policy's surrender charges, or that the new policy would start a new contestable period. Ellen surrenders her old policy and buys the new one.",
+   "question": "Which prohibited practice best describes Marcus's conduct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Defamation of an insurer",
+     "rationale": "Incorrect: Marcus made no false statement about the other insurer's financial condition."
+    },
+    {
+     "id": "b",
+     "text": "Twisting — an incomplete comparison used to induce surrender of an existing policy",
+     "rationale": "Correct: § 2123(a)(2) prohibits incomplete comparisons made to induce a lapse, forfeiture or surrender."
+    },
+    {
+     "id": "c",
+     "text": "Rebating",
+     "rationale": "Incorrect: Marcus offered no inducement outside the policy."
+    },
+    {
+     "id": "d",
+     "text": "No issue — replacing a policy is always allowed if the new premium is lower",
+     "rationale": "Incorrect: replacement must follow DFS rules and cannot be induced by an incomplete comparison."
+    }
+   ],
+   "correct": "b",
+   "issue": "twisting",
+   "explanation": "§ 2123(a)(2) prohibits any incomplete comparison of policies made to induce a person to lapse, forfeit or surrender a policy. Marcus left out the key facts that make the old policy valuable and the new one costly. Lawful replacement requires full disclosure under DFS regulation, and the owner gets 60 days from delivery to return the replacement for a full refund (§ 2123(a)(3)(D); Reg 60, 11 NYCRR 51.6).",
+   "outlineIds": [
+    "reg.2.3.1"
+   ],
+   "concepts": [
+    "twisting",
+    "replacement"
+   ],
+   "sources": [
+    "ny-isc-2123",
+    "ny-11nycrr-51"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-cc-guaranteed-dividends",
+   "title": "\"The Dividends Are Guaranteed\"",
+   "narrative": "Priya sells participating whole life policies. In her presentation she tells a young couple, \"This policy's dividends are guaranteed to pay your premiums after year ten,\" and hands them a homemade flyer repeating that claim. The insurer's actual illustration states that dividends are not guaranteed.",
+   "question": "What is the compliance problem?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Unfair discrimination",
+     "rationale": "Incorrect: Priya did not treat equal risks differently."
+    },
+    {
+     "id": "b",
+     "text": "Commingling",
+     "rationale": "Incorrect: no funds were mixed."
+    },
+    {
+     "id": "c",
+     "text": "Misrepresentation — a misleading estimate of future dividends in a statement and circular",
+     "rationale": "Correct: § 2123(a)(1) bars misrepresenting policy terms or making misleading estimates of future dividends."
+    },
+    {
+     "id": "d",
+     "text": "No issue — dividends usually do cover premiums eventually",
+     "rationale": "Incorrect: presenting a non-guaranteed element as guaranteed is misleading."
+    }
+   ],
+   "correct": "c",
+   "issue": "misrepresentation",
+   "explanation": "§ 2123(a)(1) prohibits issuing or circulating any statement or circular that misrepresents the terms, benefits or advantages of a policy, or that makes any misleading estimate as to dividends to be received in the future. Calling non-guaranteed dividends \"guaranteed\" — orally or in a flyer — is misrepresentation, and intentionally misrepresenting policy terms is also a ground for license discipline (§ 2110(a)(6)).",
+   "outlineIds": [
+    "reg.2.3.1",
+    "reg.2.3.2"
+   ],
+   "concepts": [
+    "misrepresentation",
+    "false-advertising"
+   ],
+   "sources": [
+    "ny-isc-2123",
+    "ny-isc-2110"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-cc-mystery-insurer-ad",
+   "title": "The Mystery-Insurer Ad",
+   "narrative": "Sam, a licensed agent, runs a social media ad: \"Life coverage from a TOP-RATED national insurer — rates 40% lower than New York companies!\" The ad does not name the insurer. The insurer Sam has in mind is a company based in another country that is not authorized to do business in New York.",
+   "question": "Which issue does the ad raise?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Rebating",
+     "rationale": "Incorrect: the ad offers no inducement outside a policy."
+    },
+    {
+     "id": "b",
+     "text": "Controlled business",
+     "rationale": "Incorrect: controlled business concerns commissions from the producer's own circle."
+    },
+    {
+     "id": "c",
+     "text": "Defamation of an insurer",
+     "rationale": "Incorrect: the ad does not make false statements about a particular insurer's finances."
+    },
+    {
+     "id": "d",
+     "text": "Advertising violations — the ad fails to name the insurer and promotes an unauthorized insurer",
+     "rationale": "Correct: § 2122 requires the insurer's full name and principal-office city, and bars calling attention to an unauthorized insurer."
+    }
+   ],
+   "correct": "d",
+   "issue": "advertising",
+   "explanation": "Under § 2122(b), a producer's ad that refers to an insurer must state the insurer's full name and the city, town or village of its principal U.S. office. § 2122(a)(2) prohibits any advertisement that calls attention to an unauthorized insurer, and § 2117 separately bars aiding an unauthorized insurer ($500 per transaction).",
+   "outlineIds": [
+    "reg.2.3.2",
+    "reg.2.7"
+   ],
+   "concepts": [
+    "false-advertising",
+    "unauthorized-insurer"
+   ],
+   "sources": [
+    "ny-isc-2122",
+    "ny-isc-2117"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-cc-rent-money",
+   "title": "Borrowing From the Premium Account",
+   "narrative": "Agency owner Lou collects $9,000 in annual premiums from clients in early March. Short on cash, he deposits the checks into his personal checking account to cover the office rent, planning to send the insurers their money when his own commissions arrive in April. The insurers never consented.",
+   "question": "What compliance issue does this create?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Breach of fiduciary duty — commingling premium funds with personal funds",
+     "rationale": "Correct: § 2120(a) makes Lou a fiduciary for the premiums and bars mingling them with his own funds without consent."
+    },
+    {
+     "id": "b",
+     "text": "No issue, because Lou intends to repay the insurers in April",
+     "rationale": "Incorrect: intent to repay does not cure commingling or misuse of fiduciary funds."
+    },
+    {
+     "id": "c",
+     "text": "Rebating, because clients' premiums were delayed",
+     "rationale": "Incorrect: no inducement was given to clients."
+    },
+    {
+     "id": "d",
+     "text": "Twisting, because the insurers were paid late",
+     "rationale": "Incorrect: twisting involves inducing a policy lapse through incomplete comparisons."
+    }
+   ],
+   "correct": "a",
+   "issue": "fiduciary",
+   "explanation": "§ 2120(a) makes agents and brokers responsible in a fiduciary capacity for all funds collected and forbids mingling them with their own funds without the principal's express consent. Using the money for rent goes further: improperly withholding or misappropriating funds is a ground for revocation (§ 2110(a)(5)) and willful misappropriation of insurance premiums can be a federal crime (18 U.S.C. § 1033(b)).",
+   "outlineIds": [
+    "reg.2.4.3"
+   ],
+   "concepts": [
+    "fiduciary-responsibility",
+    "commingling"
+   ],
+   "sources": [
+    "ny-isc-2120",
+    "ny-isc-2110",
+    "fed-usc-18-1033"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-cc-gym-referrals",
+   "title": "The Gym Buddy's Cut",
+   "narrative": "Agent Kim's friend Ray, who holds no insurance license, works the front desk at a gym. Kim gives Ray a stack of brochures and applications for her insurer's disability policy and promises him 20% of her commission on every policy sold to a gym member he talks into applying. Ray urges members to apply and collects his share.",
+   "question": "What is the main compliance issue?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Unfair discrimination against non-gym members",
+     "rationale": "Incorrect: nothing suggests unequal treatment of equal risks."
+    },
+    {
+     "id": "b",
+     "text": "Licensing — Ray is soliciting without a license and accepting commissions he cannot lawfully receive",
+     "rationale": "Correct: § 2102 requires a license to solicit, and § 2102(e)(1) bars unlicensed persons from accepting commissions for soliciting."
+    },
+    {
+     "id": "c",
+     "text": "No issue, because Kim is the licensed agent of record",
+     "rationale": "Incorrect: Ray's own conduct requires a license."
+    },
+    {
+     "id": "d",
+     "text": "Rebating, because gym members get a discount",
+     "rationale": "Incorrect: no inducement is given to the buyers."
+    }
+   ],
+   "correct": "b",
+   "issue": "licensing",
+   "explanation": "Urging people to apply for a particular insurer's policy is solicitation (§ 2101(o)), which requires a license (§ 2102(a)). § 2102(e)(1) prohibits anyone required to be licensed but not licensed from accepting a commission for selling, soliciting or negotiating. Kim also risks discipline: knowingly accepting business from an unlicensed individual is a ground for revocation (§ 2110(a)(12)). Violations of § 2102 carry up to $500 per transaction.",
+   "outlineIds": [
+    "reg.1.2.6",
+    "reg.2.4.2",
+    "reg.1.5.2"
+   ],
+   "concepts": [
+    "solicit",
+    "sharing-commissions",
+    "license-revocation"
+   ],
+   "sources": [
+    "ny-isc-2101",
+    "ny-isc-2102",
+    "ny-isc-2110"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-cc-friends-rate",
+   "title": "The Friends-and-Family Rate",
+   "narrative": "An underwriter at a New York life insurer approves two applicants for the same 20-year term policy. Both are 35-year-old nonsmokers in excellent health and fall in the same underwriting class. Because one applicant is the underwriter's college roommate, the underwriter assigns him a lower premium than the other applicant, with no actuarial justification.",
+   "question": "What compliance issue does this create?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Twisting",
+     "rationale": "Incorrect: no existing policy was replaced."
+    },
+    {
+     "id": "b",
+     "text": "Controlled business",
+     "rationale": "Incorrect: controlled business concerns producers' commissions, not underwriting rates."
+    },
+    {
+     "id": "c",
+     "text": "Unfair discrimination between individuals of the same class and equal expectation of life",
+     "rationale": "Correct: § 4224(a)(1) prohibits this."
+    },
+    {
+     "id": "d",
+     "text": "No issue, because the insurer may set any rate it wants for friends",
+     "rationale": "Incorrect: rates for equal risks must be the same; personal favoritism is unfair discrimination."
+    }
+   ],
+   "correct": "c",
+   "issue": "unfair-discrimination",
+   "explanation": "§ 4224(a)(1) prohibits a life insurer from making or permitting any unfair discrimination between individuals of the same class and equal expectation of life in premiums or rates. Price differences must reflect real risk differences supported by actuarial principles or experience — not personal relationships.",
+   "outlineIds": [
+    "reg.2.3.4"
+   ],
+   "concepts": [
+    "unfair-discrimination"
+   ],
+   "sources": [
+    "ny-isc-4224"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-cc-stolen-laptop",
+   "title": "The Hacked Client Database",
+   "narrative": "At 10 a.m. on Tuesday, the IT consultant for a mid-size New York agency that is a covered entity under the DFS cybersecurity regulation confirms that an outsider accessed the agency's client database, which contains Social Security numbers and medical information from life and health applications. The owner wants to wait until the end of the month to see whether any client complains before telling anyone.",
+   "question": "What does New York's cybersecurity regulation require?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Nothing unless a client actually suffers identity theft",
+     "rationale": "Incorrect: the notice duty is triggered by determining a cybersecurity incident occurred."
+    },
+    {
+     "id": "b",
+     "text": "Notice only in the agency's April 15 annual certification",
+     "rationale": "Incorrect: the annual certification is separate from incident notice."
+    },
+    {
+     "id": "c",
+     "text": "Notice to the superintendent within 30 days of the end of the month",
+     "rationale": "Incorrect: the deadline is much shorter."
+    },
+    {
+     "id": "d",
+     "text": "Notice to the superintendent as promptly as possible and no later than 72 hours after determining the incident occurred",
+     "rationale": "Correct: 23 NYCRR 500.17(a)(1)."
+    }
+   ],
+   "correct": "d",
+   "issue": "privacy",
+   "explanation": "Under 23 NYCRR 500.17(a)(1), a covered entity must notify the superintendent electronically as promptly as possible but no later than 72 hours after determining that a cybersecurity incident has occurred, and must update DFS with material new information. Waiting a month to see if clients complain would violate the regulation. The data involved — Social Security numbers and medical information — is exactly the kind of nonpublic information the regulation protects.",
+   "outlineIds": [
+    "reg.2.12",
+    "reg.2.10"
+   ],
+   "concepts": [
+    "cybersecurity-regulation",
+    "nonpublic-personal-information"
+   ],
+   "sources": [
+    "ny-reg-23nycrr-500-17"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "regulation-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-cc-double-claim",
+   "title": "The Double-Dipped Claim",
+   "narrative": "Agent Rosa services a client's disability income policy. While helping him file a claim, she notices that his medical bills appear to have been altered and that he recently filed an identical claim with another insurer for the same dates. After reviewing the documents, she concludes the claim appears fraudulent, but she worries about losing the client.",
+   "question": "What must Rosa do under New York law?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Report the suspected fraud to the superintendent on the prescribed form within 30 days after her determination",
+     "rationale": "Correct: § 405(a) requires licensees with reason to believe a transaction may be fraudulent to report within thirty days."
+    },
+    {
+     "id": "b",
+     "text": "Nothing, because only the insurer's claims department may report fraud",
+     "rationale": "Incorrect: § 405(a) applies to any licensee."
+    },
+    {
+     "id": "c",
+     "text": "Wait until a court convicts the client before reporting",
+     "rationale": "Incorrect: the duty is triggered by reason to believe, not a conviction."
+    },
+    {
+     "id": "d",
+     "text": "Warn the client privately and submit the claim as is",
+     "rationale": "Incorrect: submitting a claim she believes is fraudulent and staying silent breaches her reporting duty."
+    }
+   ],
+   "correct": "a",
+   "issue": "fraud",
+   "explanation": "Knowingly filing a claim with materially false information with intent to defraud is a fraudulent insurance act and a crime, with civil penalties up to $5,000 plus the claim amount per violation (§ 403). Under § 405(a), a licensee who has reason to believe a transaction may be fraudulent must send the superintendent the required information on the prescribed form within 30 days after determining it appears fraudulent.",
+   "outlineIds": [
+    "reg.2.6",
+    "reg.2.9"
+   ],
+   "concepts": [
+    "insurance-fraud"
+   ],
+   "sources": [
+    "ny-isc-405",
+    "ny-isc-403"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-cc-logo-tote",
+   "title": "The Logo Tote Bag",
+   "narrative": "At a community health fair, agent Ben hands every visitor who stops at his booth a canvas tote bag printed with his agency's logo; each bag cost him about $12. He gives them to everyone, whether or not they buy anything. He also gives each person who requests one a copy of the insurer's buyer's guide and explains, before taking any application, his role, that the insurer pays him a commission that can vary by product, and that they can ask him for details.",
+   "question": "Is there a compliance violation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Yes — rebating, because any gift to a prospect is illegal",
+     "rationale": "Incorrect: § 4224(c) permits merchandise not exceeding $25 in value."
+    },
+    {
+     "id": "b",
+     "text": "No violation — the gift is within the $25 limit and his compensation disclosure meets Regulation 194",
+     "rationale": "Correct: both practices are permitted."
+    },
+    {
+     "id": "c",
+     "text": "Yes — controlled business, because he gives bags to people he knows",
+     "rationale": "Incorrect: controlled business concerns commissions from the licensee's own circle."
+    },
+    {
+     "id": "d",
+     "text": "Yes — a Regulation 194 violation, because he mentioned his commission before the application",
+     "rationale": "Incorrect: Regulation 194 requires that disclosure at or before application."
+    }
+   ],
+   "correct": "b",
+   "issue": "none",
+   "explanation": "§ 4224(c) allows valuable consideration such as merchandise not exceeding $25 in value, so a $12 logo tote is not a rebate. Under 11 NYCRR 30.3(a), the producer must disclose his role, whether the insurer compensates him, that compensation may vary, and that the buyer may request more information at or before application — exactly what Ben did.",
+   "outlineIds": [
+    "reg.2.3.5",
+    "reg.2.11"
+   ],
+   "concepts": [
+    "rebating",
+    "producer-compensation-disclosure"
+   ],
+   "sources": [
+    "ny-isc-4224",
+    "ny-11nycrr-30-3"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

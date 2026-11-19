@@ -1,0 +1,1140 @@
+{
+ "sectionId": "lip",
+ "questions": [
+  {
+   "id": "lip-q019",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.4.3"
+   ],
+   "concepts": [
+    "juvenile-life-insurance"
+   ],
+   "difficulty": 2,
+   "style": "application",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Jordan is 15 years old and lives in New York. He has a part-time job and wants to buy a small life insurance policy on his own life, naming his mother as beneficiary.",
+   "stem": "Under New York law, may Jordan apply for and own a life insurance policy on his own life?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "No, because a minor must be 18 to own a life policy",
+     "rationale": "Incorrect: NY lowers the age of competence for life insurance contracts."
+    },
+    {
+     "id": "b",
+     "text": "Only if a court appoints a guardian to sign for him",
+     "rationale": "Incorrect: no court approval is required for a minor above the statutory age."
+    },
+    {
+     "id": "c",
+     "text": "Yes, because he is older than 14 years 6 months",
+     "rationale": "Correct: § 3207(a) deems such a minor competent to contract for and own a policy on his own life."
+    },
+    {
+     "id": "d",
+     "text": "Only if a parent is named as the owner of the policy",
+     "rationale": "Incorrect: the minor himself may be the owner."
+    }
+   ],
+   "correct": "c",
+   "explanation": "NY Insurance Law § 3207(a) says a minor above age 14 years 6 months is competent to contract for, own and exercise all rights in a life policy on his own life (or on someone in whom he has an insurable interest). The beneficiary must be the minor or the minor's parent, spouse, brother, sister, child or grandparent.",
+   "memoryTip": "14½ and up: the minor can own the policy.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Age threshold of 14 years 6 months",
+      "anyOf": [
+       "14",
+       "fourteen"
+      ]
+     },
+     {
+      "label": "Minor may own the policy",
+      "anyOf": [
+       "own",
+       "contract",
+       "competent"
+      ]
+     },
+     {
+      "label": "Beneficiary limited to close family such as a parent",
+      "anyOf": [
+       "parent",
+       "mother",
+       "family"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3207"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q020",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.4.3"
+   ],
+   "concepts": [
+    "juvenile-life-insurance"
+   ],
+   "difficulty": 3,
+   "style": "calculation",
+   "tags": [
+    "math",
+    "ny-law"
+   ],
+   "scenario": "Dev has $400,000 of life insurance in force on his own life. He wants to buy a policy on his 10-year-old daughter, Maya, who depends on him for support and has no other life insurance.",
+   "stem": "What is the maximum total amount of life insurance an insurer may knowingly issue on Maya's life?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$100,000",
+     "rationale": "Incorrect: this is 25% of Dev's coverage, which applies only to a child under 4 years 6 months."
+    },
+    {
+     "id": "b",
+     "text": "$50,000",
+     "rationale": "Incorrect: $50,000 applies only when it is greater than the percentage limit."
+    },
+    {
+     "id": "c",
+     "text": "$400,000",
+     "rationale": "Incorrect: the child's coverage cannot equal 100% of the parent's coverage under § 3207(b)."
+    },
+    {
+     "id": "d",
+     "text": "$200,000",
+     "rationale": "Correct: 50% × $400,000 = $200,000, which is greater than $50,000."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Under § 3207(b), for a child under 14 years 6 months, the limit is the greater of $50,000 or 50% of the life insurance in force on the person effectuating the coverage (25% if the child is under 4 years 6 months). Maya is 10, so: 50% × $400,000 = $200,000; $200,000 > $50,000, so the limit is $200,000.",
+   "memoryTip": "Child cap = the BIGGER of $50,000 or half the parent's coverage (a quarter if under 4½).",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3207"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q021",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.4.3"
+   ],
+   "concepts": [
+    "juvenile-life-insurance"
+   ],
+   "difficulty": 3,
+   "style": "calculation",
+   "tags": [
+    "math",
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Luis has $120,000 of life insurance in force. He wants to insure his 3-year-old daughter, Ava, who depends on him for support and has no other coverage.",
+   "stem": "What is the maximum total amount of life insurance that may be issued on Ava under NY Insurance Law § 3207?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$50,000",
+     "rationale": "Correct: 25% × $120,000 = $30,000, but the limit is whichever is greater, so the $50,000 limit applies."
+    },
+    {
+     "id": "b",
+     "text": "$30,000",
+     "rationale": "Incorrect: $30,000 is the 25% figure, but the statute uses whichever limit is greater."
+    },
+    {
+     "id": "c",
+     "text": "$60,000",
+     "rationale": "Incorrect: 50% applies only to children at least 4 years 6 months old."
+    },
+    {
+     "id": "d",
+     "text": "$120,000",
+     "rationale": "Incorrect: the child's coverage is not allowed to equal the parent's full coverage."
+    }
+   ],
+   "correct": "a",
+   "explanation": "For a child under 4 years 6 months, the percentage limit is 25% of the coverage on the person effectuating the insurance: 25% × $120,000 = $30,000. Section 3207(b) applies whichever limit is GREATER — $50,000 or the percentage — so the maximum is $50,000.",
+   "memoryTip": "Never less than $50,000 total: it's 'whichever is greater'.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "25% applies because the child is under 4½",
+      "anyOf": [
+       "25",
+       "quarter",
+       "4"
+      ]
+     },
+     {
+      "label": "25% of $120,000 is $30,000",
+      "anyOf": [
+       "30,000",
+       "30000"
+      ]
+     },
+     {
+      "label": "Greater of the two limits is $50,000",
+      "anyOf": [
+       "50,000",
+       "50000",
+       "greater"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3207"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q022",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.4.3"
+   ],
+   "concepts": [
+    "juvenile-life-insurance",
+    "insurable-interest"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Under NY law, who may effectuate (apply for) a life policy on a child under 14 years 6 months?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Any adult whom the child names in a signed writing",
+     "rationale": "Incorrect: the law requires an insurable interest or a support relationship."
+    },
+    {
+     "id": "b",
+     "text": "A person with an insurable interest or on whom the child depends",
+     "rationale": "Correct: § 3207(b) allows policies effectuated by such persons."
+    },
+    {
+     "id": "c",
+     "text": "Only a guardian who has been appointed by a court",
+     "rationale": "Incorrect: parents and others with an insurable interest may effectuate the policy."
+    },
+    {
+     "id": "d",
+     "text": "The producer, acting on the child's behalf with consent",
+     "rationale": "Incorrect: a producer has no insurable interest in the child."
+    }
+   ],
+   "correct": "b",
+   "explanation": "NY Insurance Law § 3207(b) permits policies on a minor under 14 years 6 months if they are effectuated by a person with an insurable interest in the child or by a person on whom the child depends for support and maintenance, subject to the amount limits in that subsection.",
+   "memoryTip": "Young child's policy: bought by someone with a real stake in the child.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3207"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q023",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.5",
+    "lip.5.1"
+   ],
+   "concepts": [
+    "group-life-insurance",
+    "master-policy",
+    "certificate-of-coverage"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "In an employer-sponsored group life plan, who is the policyholder of the master policy?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The employer",
+     "rationale": "Correct: the employer (or a trustee of an employer fund) is the policyholder; employees receive certificates."
+    },
+    {
+     "id": "b",
+     "text": "Each covered employee",
+     "rationale": "Incorrect: employees are insured persons who receive certificates, not the master policyholder."
+    },
+    {
+     "id": "c",
+     "text": "The insurer",
+     "rationale": "Incorrect: the insurer issues the policy; it is not the policyholder."
+    },
+    {
+     "id": "d",
+     "text": "The producer who sold the plan",
+     "rationale": "Incorrect: the producer has no ownership role."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Group life insurance is written under one master policy issued to the group policyholder — here, the employer. Each insured employee receives a certificate describing his or her coverage, and benefits are paid to beneficiaries the employee designates.",
+   "memoryTip": "Master policy to the boss; certificates to the staff.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q024",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.5.3"
+   ],
+   "concepts": [
+    "group-life-insurance",
+    "eligible-group"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [],
+   "stem": "How does an insurer typically underwrite a group life plan?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "By requiring a medical exam for every single member",
+     "rationale": "Incorrect: group plans usually avoid individual medical underwriting for basic coverage."
+    },
+    {
+     "id": "b",
+     "text": "By evaluating the group as a whole rather than each member",
+     "rationale": "Correct: group underwriting looks at the group's characteristics, not each member's health."
+    },
+    {
+     "id": "c",
+     "text": "By underwriting only the oldest member of the group",
+     "rationale": "Incorrect: the insurer considers the group as a whole."
+    },
+    {
+     "id": "d",
+     "text": "By reviewing each member's personal credit report",
+     "rationale": "Incorrect: credit reports are not the basis of group life underwriting."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Group underwriting focuses on the group: why it exists (it must be formed for a purpose other than buying insurance), its size, age and sex mix, industry, and how benefit amounts are set. Amounts are set by a plan that prevents individual selection — for example, a multiple of salary — rather than by each member's choice.",
+   "memoryTip": "Group underwriting: judge the team, not each player.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q025",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.5.2",
+    "lip.5.3"
+   ],
+   "concepts": [
+    "eligible-group",
+    "group-life-insurance"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Under NY Insurance Law § 4216, an association may be issued a group life policy only if it was formed principally for purposes other than obtaining insurance and has been in active existence for at least:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Six months",
+     "rationale": "Incorrect: the statute requires a longer period."
+    },
+    {
+     "id": "b",
+     "text": "Five years",
+     "rationale": "Incorrect: the statute requires less than five years."
+    },
+    {
+     "id": "c",
+     "text": "Two years",
+     "rationale": "Correct: § 4216(b)(10) requires at least two years of active existence."
+    },
+    {
+     "id": "d",
+     "text": "Ten years",
+     "rationale": "Incorrect: the statute requires far less than ten years."
+    }
+   ],
+   "correct": "c",
+   "explanation": "NY Insurance Law § 4216(b)(10) allows group life for associations whose members share the same profession, trade or occupation, that were organized in good faith for purposes principally other than obtaining insurance, and that have been in active existence for at least two years. This prevents groups formed just to buy insurance (adverse selection).",
+   "memoryTip": "Association groups: real purpose + 2 years old.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-4216"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q026",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.5.3"
+   ],
+   "concepts": [
+    "group-life-insurance",
+    "eligible-group"
+   ],
+   "difficulty": 3,
+   "style": "application",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Northgate Bakery in Buffalo is setting up a group life plan for its 40 eligible employees. Each employee who enrolls will pay part of the premium through payroll deduction.",
+   "stem": "If the employees will pay part of the premium, what minimum participation does NY Insurance Law § 4216 require?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "100% of all eligible employees in the class, with no exceptions",
+     "rationale": "Incorrect: full participation is the rule when the employer pays the whole premium (all eligible employees in the class are insured), not for contributory plans."
+    },
+    {
+     "id": "b",
+     "text": "At least 75% of eligible employees or ten of them, whichever is more",
+     "rationale": "Incorrect: the contributory test in § 4216(b)(1) is 50% of eligible employees or five of them, whichever is fewer, not 75% or ten."
+    },
+    {
+     "id": "c",
+     "text": "At least ten enrolled employees, regardless of the size of the group",
+     "rationale": "Incorrect: the statute uses a percentage-or-number test, and the number is five."
+    },
+    {
+     "id": "d",
+     "text": "At least 50% of eligible employees or five of them, whichever is fewer",
+     "rationale": "Correct: § 4216(b)(1) sets this minimum for contributory employer plans."
+    }
+   ],
+   "correct": "d",
+   "explanation": "When employees contribute to the premium (a contributory plan), § 4216(b)(1) requires the policy to insure a minimum of 50% of the eligible employees or five of them, whichever is fewer. Minimum participation protects against adverse selection: without it, mainly the people who expect to need the coverage would enroll.",
+   "memoryTip": "Contributory: half the eligibles, or five, whichever is fewer.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Plan is contributory (employees pay part)",
+      "anyOf": [
+       "contribut",
+       "employees pay",
+       "payroll"
+      ]
+     },
+     {
+      "label": "50% of eligible employees",
+      "anyOf": [
+       "50",
+       "fifty",
+       "half"
+      ]
+     },
+     {
+      "label": "Or five, whichever is fewer",
+      "anyOf": [
+       "five",
+       "5",
+       "fewer"
+      ]
+     },
+     {
+      "label": "Purpose: limit adverse selection",
+      "anyOf": [
+       "adverse",
+       "selection"
+      ]
+     }
+    ]
+   },
+   "version": 2,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-4216"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q027",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.5.4"
+   ],
+   "concepts": [
+    "conversion-privilege",
+    "group-life-insurance"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Kim leaves her New York employer on September 1. She had $150,000 of group life coverage through work and has since developed a heart condition.",
+   "stem": "Under New York law, which statement best describes Kim's conversion right?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Within 31 days, a permanent policy with no evidence of insurability, at her attained age",
+     "rationale": "Correct: § 3220(a)(6) gives 31 days, no evidence of insurability, attained-age premium and a non-term form."
+    },
+    {
+     "id": "b",
+     "text": "She may apply within 31 days for an individual term policy at the employer's group rate",
+     "rationale": "Incorrect: the converted policy may not be term (except an optional first year), and she pays individual rates."
+    },
+    {
+     "id": "c",
+     "text": "She may apply within 90 days, but only if she passes a medical exam",
+     "rationale": "Incorrect: conversion requires no evidence of insurability, and the period is 31 days."
+    },
+    {
+     "id": "d",
+     "text": "She may convert only if she was covered under the plan for five years",
+     "rationale": "Incorrect: § 3220 sets no minimum period of group coverage before an employee whose employment ends may convert."
+    }
+   ],
+   "correct": "a",
+   "explanation": "NY Insurance Law § 3220(a)(6): when group life coverage ends because employment ends, the employee may obtain an individual policy without evidence of insurability by applying and paying the first premium within 31 days. The premium is based on her attained age and class of risk; the policy may be any form the insurer customarily issues except term insurance (she may elect one year of term first), up to the amount of group coverage that ended.",
+   "memoryTip": "Leave the job → 31 days → permanent policy, no medical, at today's age.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3220"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q028",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.5.4"
+   ],
+   "concepts": [
+    "conversion-privilege"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Ben had $80,000 of group life coverage through his New York employer. He resigned on June 1 and died on June 20 without having applied to convert his coverage.",
+   "stem": "What, if anything, will the group insurer pay?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Nothing, because Ben never applied for an individual policy",
+     "rationale": "Incorrect: NY requires the group policy to pay a death benefit during the conversion period even without an application."
+    },
+    {
+     "id": "b",
+     "text": "A refund of the group premiums deducted from Ben's pay",
+     "rationale": "Incorrect: a refund is not the required benefit."
+    },
+    {
+     "id": "c",
+     "text": "The amount Ben was entitled to convert, paid as a death benefit",
+     "rationale": "Correct: § 3220(a)(6) requires payment of the convertible amount if death occurs during the 31-day period."
+    },
+    {
+     "id": "d",
+     "text": "Only the cash value of the group coverage",
+     "rationale": "Incorrect: group term coverage generally has no cash value; the death benefit is owed."
+    }
+   ],
+   "correct": "c",
+   "explanation": "NY Insurance Law § 3220(a)(6) requires every group life policy to provide that if the employee or member dies during the 31-day conversion period, before an individual policy takes effect, the insurer pays the amount of insurance he was entitled to apply for, as a death benefit.",
+   "memoryTip": "Die during the 31 days → paid as if converted.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Death occurred within the 31-day conversion period",
+      "anyOf": [
+       "31",
+       "thirty-one",
+       "conversion period"
+      ]
+     },
+     {
+      "label": "Insurer pays the convertible amount",
+      "anyOf": [
+       "80,000",
+       "amount",
+       "death benefit"
+      ]
+     },
+     {
+      "label": "No application needed",
+      "anyOf": [
+       "without",
+       "never applied",
+       "even though"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3220"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q029",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.5.4"
+   ],
+   "concepts": [
+    "conversion-privilege"
+   ],
+   "difficulty": 3,
+   "style": "negative",
+   "tags": [
+    "negative-wording",
+    "tricky",
+    "ny-law"
+   ],
+   "stem": "Under NY Insurance Law § 3220, a person converting group life coverage may choose any form the insurer customarily issues EXCEPT:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Straight whole life",
+     "rationale": "Incorrect: permanent forms such as straight whole life are allowed."
+    },
+    {
+     "id": "b",
+     "text": "Term insurance",
+     "rationale": "Correct: the statute excludes term insurance as the converted policy form (although the owner may elect one year of term before the permanent policy starts)."
+    },
+    {
+     "id": "c",
+     "text": "20-pay whole life",
+     "rationale": "Incorrect: limited-payment whole life is an allowed permanent form."
+    },
+    {
+     "id": "d",
+     "text": "Life paid-up at 65",
+     "rationale": "Incorrect: this limited-payment whole life form is allowed."
+    }
+   ],
+   "correct": "b",
+   "explanation": "§ 3220(a)(6) entitles the converting person to 'a policy of life insurance only, in any one of the forms customarily issued by such insurer, except term insurance.' The person may, at his option, have the permanent policy preceded by term insurance for one year.",
+   "memoryTip": "Group conversion → permanent, not term.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3220"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q030",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.5.4"
+   ],
+   "concepts": [
+    "conversion-privilege"
+   ],
+   "difficulty": 3,
+   "style": "application",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Rosa's group life coverage ended when she was laid off. Neither her employer nor the insurer notified her of her conversion privilege until 30 days after her coverage ended.",
+   "stem": "How long does Rosa have to exercise her conversion privilege?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Her right expired 31 days after her coverage ended",
+     "rationale": "Incorrect: late notice extends the conversion period under § 3220(a)(8)."
+    },
+    {
+     "id": "b",
+     "text": "90 days from the date she received the notice",
+     "rationale": "Incorrect: 90 days is the outside limit for giving notice, not the extension."
+    },
+    {
+     "id": "c",
+     "text": "One year from the date her coverage ended",
+     "rationale": "Incorrect: no one-year period applies."
+    },
+    {
+     "id": "d",
+     "text": "45 days after the notice was given",
+     "rationale": "Correct: notice given more than 15 but less than 90 days after the event extends the period to 45 days after the notice."
+    }
+   ],
+   "correct": "d",
+   "explanation": "§ 3220(a)(8) requires notice of the conversion privilege within 15 days before or after the event. If notice is given more than 15 days but less than 90 days after the event, the time to convert is extended to 45 days after the notice. If no notice is given within 90 days, the privilege expires at the end of those 90 days.",
+   "memoryTip": "Late notice (15–90 days) → 45 days from the notice.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3220"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   },
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Notice came more than 15 but less than 90 days after the event",
+      "anyOf": [
+       "15",
+       "90",
+       "late"
+      ]
+     },
+     {
+      "label": "Conversion period extended to 45 days after notice",
+      "anyOf": [
+       "45"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "lip-q031",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.6"
+   ],
+   "concepts": [
+    "credit-life-insurance"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "In credit life insurance, who is the insured, and who receives the benefit?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The creditor is insured; the debtor's family receives the benefit",
+     "rationale": "Incorrect: the roles are reversed."
+    },
+    {
+     "id": "b",
+     "text": "The debtor is insured; the debtor's employer receives the benefit",
+     "rationale": "Incorrect: the employer has no role in credit life."
+    },
+    {
+     "id": "c",
+     "text": "The debtor is insured; the creditor receives the benefit, up to the debt",
+     "rationale": "Correct: credit life insures the borrower and pays the lender to retire the loan."
+    },
+    {
+     "id": "d",
+     "text": "The creditor is insured; the insurer keeps the benefit",
+     "rationale": "Incorrect: the creditor is not the insured, and the insurer does not keep the benefit."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Credit life insures the life of the debtor (borrower). If the debtor dies, the benefit goes to the creditor (lender) to pay off the remaining balance, so the debt does not burden the debtor's family or estate. The amount generally follows the declining loan balance.",
+   "memoryTip": "Debtor is the life; creditor gets the check.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q032",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.6"
+   ],
+   "concepts": [
+    "credit-life-insurance",
+    "group-life-insurance"
+   ],
+   "difficulty": 3,
+   "style": "application",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Elena was insured under her bank's group credit life policy for a personal loan. She died owing $9,000, but because of a timing difference the bank received a $9,400 benefit.",
+   "stem": "Under NY Insurance Law § 4216, what happens to any benefit the bank receives in excess of the actual debt?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "It is paid to the beneficiary Elena named or, if none, to her estate",
+     "rationale": "Correct: § 4216(b)(3)(F) directs the excess to the debtor's named beneficiary or estate."
+    },
+    {
+     "id": "b",
+     "text": "The bank keeps it as compensation for collection costs",
+     "rationale": "Incorrect: the creditor may apply only the amount up to the actual indebtedness."
+    },
+    {
+     "id": "c",
+     "text": "It is returned to the insurer as unearned premium",
+     "rationale": "Incorrect: the excess is not returned to the insurer."
+    },
+    {
+     "id": "d",
+     "text": "It is split equally between the bank and Elena's estate",
+     "rationale": "Incorrect: the statute does not split the excess."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Under group credit life, benefits are payable to the creditor policyholder, but the creditor must apply only the amount up to the actual indebtedness to the debt. Any amount above the debt is payable to a beneficiary named by the debtor or, if none, to the debtor's estate (or under a facility-of-payment clause). The law also caps the amount of insurance at no more than the unpaid debt (subject to statutory dollar limits).",
+   "memoryTip": "Creditor gets the debt; the debtor's people get the rest.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Creditor may keep only the actual debt",
+      "anyOf": [
+       "debt",
+       "indebtedness",
+       "9,000"
+      ]
+     },
+     {
+      "label": "Excess goes to the debtor's named beneficiary",
+      "anyOf": [
+       "beneficiary"
+      ]
+     },
+     {
+      "label": "If no beneficiary, to the estate",
+      "anyOf": [
+       "estate"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-4216"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q033",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.6"
+   ],
+   "concepts": [
+    "credit-life-insurance",
+    "master-policy"
+   ],
+   "difficulty": 2,
+   "style": "comparison",
+   "tags": [],
+   "stem": "What is the main difference between individual credit life and group credit life?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Individual credit life pays the debtor's family; group credit life pays the creditor",
+     "rationale": "Incorrect: both forms are designed to pay off the debt to the creditor."
+    },
+    {
+     "id": "b",
+     "text": "Group credit is a master policy issued to the creditor; individual credit is a policy for one debtor",
+     "rationale": "Correct: the form of the contract and the policyholder differ."
+    },
+    {
+     "id": "c",
+     "text": "Only individual credit life may be used to cover mortgage loans",
+     "rationale": "Incorrect: group credit plans can cover mortgage and other debt."
+    },
+    {
+     "id": "d",
+     "text": "Group credit life is always permanent insurance with cash value",
+     "rationale": "Incorrect: credit life is typically decreasing term with no cash value."
+    }
+   ],
+   "correct": "b",
+   "explanation": "With group credit life, the creditor (lender) is the policyholder of a master policy covering its borrowers, who are the insured debtors. With individual credit life, a separate policy is issued for a single debtor's loan. In both cases the purpose is to repay the debt if the debtor dies.",
+   "memoryTip": "Group credit: lender holds the master policy.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q034",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.4.4"
+   ],
+   "concepts": [
+    "indexed-universal-life"
+   ],
+   "difficulty": 3,
+   "style": "calculation",
+   "tags": [
+    "math"
+   ],
+   "scenario": "Amir owns a fixed indexed universal life policy with a 100% participation rate, a 9% cap and a 0% floor. During the crediting period, the linked index rises 12%.",
+   "stem": "What interest rate is credited to the cash value for that period?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "9%",
+     "rationale": "Correct: 100% × 12% = 12%, which is limited by the 9% cap."
+    },
+    {
+     "id": "b",
+     "text": "12%",
+     "rationale": "Incorrect: the cap limits the credit to 9%."
+    },
+    {
+     "id": "c",
+     "text": "0%",
+     "rationale": "Incorrect: the floor applies only when the index result is below the floor."
+    },
+    {
+     "id": "d",
+     "text": "3%",
+     "rationale": "Incorrect: 3% is the part of the index gain that is NOT credited."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Indexed life credits interest using the index change adjusted by the participation rate, cap and floor. 100% participation × 12% index gain = 12%; the cap limits it to 9%. Policy charges are still deducted separately. If the index had fallen, the 0% floor would prevent an index loss.",
+   "memoryTip": "Participation first, then the cap; the floor only matters in a down year.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q035",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.5.1",
+    "lip.5.3"
+   ],
+   "concepts": [
+    "group-life-insurance"
+   ],
+   "difficulty": 2,
+   "style": "negative",
+   "tags": [
+    "negative-wording"
+   ],
+   "stem": "All of these are typical characteristics of group life insurance EXCEPT:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A master policy issued to the sponsoring organization",
+     "rationale": "Incorrect: a master policy is a standard group feature."
+    },
+    {
+     "id": "b",
+     "text": "Certificates issued to covered members",
+     "rationale": "Incorrect: members receive certificates of coverage."
+    },
+    {
+     "id": "c",
+     "text": "Coverage usually written as annually renewable term",
+     "rationale": "Incorrect: most group life is annually renewable term."
+    },
+    {
+     "id": "d",
+     "text": "A medical exam required for every member to join",
+     "rationale": "Correct: group plans usually do not require individual medical exams for basic coverage."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Group life is written under a master policy owned by the sponsor; members get certificates; coverage is usually annually renewable term; and the group, not each member, is underwritten — so basic coverage is normally issued without individual medical exams.",
+   "memoryTip": "Group = no individual medical for basic coverage.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

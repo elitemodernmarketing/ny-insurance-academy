@@ -1,0 +1,393 @@
+{
+ "complianceCases": [
+  {
+   "id": "plreg-cc-gas-card-auto",
+   "title": "The Gas Card Giveaway",
+   "narrative": "Marcus, a licensed Personal Lines agent in Buffalo, runs a promotion: every customer who switches a personal auto policy to his agency gets a $100 gas card. The card is not mentioned in any policy. Over a month, twelve customers switch and accept the cards.",
+   "question": "What compliance issue does this raise?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Rebating: an inducement over $25 not specified in the policy, which the customers knowingly received",
+     "rationale": "Correct: § 2324(a) bars inducements not specified in the policy except items not exceeding $25, and bars knowingly receiving them."
+    },
+    {
+     "id": "b",
+     "text": "No issue: rebating rules apply only to life and health insurance",
+     "rationale": "Incorrect: § 2324 is the rebating statute for property and casualty lines, including auto."
+    },
+    {
+     "id": "c",
+     "text": "Twisting: Marcus induced customers to drop their old policies",
+     "rationale": "Incorrect: the problem is the gift, not a misleading comparison of policies."
+    },
+    {
+     "id": "d",
+     "text": "No issue, because Marcus pays for the cards from his own commission",
+     "rationale": "Incorrect: paying from commission is itself a way of rebating."
+    }
+   ],
+   "correct": "a",
+   "issue": "rebating",
+   "explanation": "For property and casualty insurance, § 2324(a) prohibits giving any valuable consideration or inducement not specified in the policy, other than items such as merchandise not exceeding $25 in value, and also prohibits the insured from knowingly receiving a rebate. Each violation carries a $500 penalty under § 2324(f), and rebating is also a ground for license action (§ 2103(i)).",
+   "outlineIds": [
+    "plreg.2.3.5"
+   ],
+   "concepts": [
+    "rebating"
+   ],
+   "sources": [
+    "ny-isc-2324"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-cc-flood-promise",
+   "title": "\"You're Covered for the River\"",
+   "narrative": "The Okafors are buying a house near a creek in Ithaca. Their agent, wanting to close the sale quickly, tells them their new homeowners policy \"covers any water damage, including the creek flooding.\" She knows the policy excludes flood and does not suggest separate flood coverage.",
+   "question": "What is the compliance issue?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Defamation: she made a false statement about an insurer",
+     "rationale": "Incorrect: defamation concerns false statements about an insurer's financial condition."
+    },
+    {
+     "id": "b",
+     "text": "Unfair discrimination: she treated the Okafors differently",
+     "rationale": "Incorrect: nothing shows different treatment of similar risks."
+    },
+    {
+     "id": "c",
+     "text": "Misrepresentation: intentionally misstating the terms of a proposed policy",
+     "rationale": "Correct: § 2110(a)(6) makes intentional misrepresentation of the terms of an actual or proposed insurance contract a ground for suspension or revocation."
+    },
+    {
+     "id": "d",
+     "text": "No issue: an agent's spoken statements are not part of the policy",
+     "rationale": "Incorrect: the law disciplines producers who misrepresent policy terms, whether spoken or written."
+    }
+   ],
+   "correct": "c",
+   "issue": "misrepresentation",
+   "explanation": "Telling buyers a homeowners policy covers flood when it does not misrepresents the terms of the proposed contract. § 2110(a)(6) lists intentional misrepresentation of the terms of an actual or proposed insurance contract as a ground to refuse to renew, suspend or revoke a license after notice and hearing.",
+   "outlineIds": [
+    "plreg.2.3.1"
+   ],
+   "concepts": [
+    "misrepresentation",
+    "license-revocation"
+   ],
+   "sources": [
+    "ny-isc-2110"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-cc-pipe-denials",
+   "title": "The Burst-Pipe Script",
+   "narrative": "Claim representatives at an insurer are trained to tell every homeowner who reports a sudden burst pipe that \"water damage is never covered,\" even though the company's homeowners form covers sudden and accidental discharge. Hundreds of claimants drop their claims after hearing this.",
+   "question": "What compliance issue does this raise?",
+   "options": [
+    {
+     "id": "a",
+     "text": "No issue, because claimants can always sue the insurer",
+     "rationale": "Incorrect: forcing claimants to sue is itself listed as an unfair practice; misrepresenting coverage is prohibited."
+    },
+    {
+     "id": "b",
+     "text": "An unfair claim settlement practice: knowingly misrepresenting policy provisions to claimants",
+     "rationale": "Correct: § 2601(a)(1) lists knowingly misrepresenting pertinent facts or policy provisions to claimants, done as a general business practice."
+    },
+    {
+     "id": "c",
+     "text": "Rebating, because the insurer keeps money that belongs to claimants",
+     "rationale": "Incorrect: rebating concerns inducements to buy insurance."
+    },
+    {
+     "id": "d",
+     "text": "A licensing issue only for the individual claim representatives",
+     "rationale": "Incorrect: § 2601 is aimed at the insurer's business practice."
+    }
+   ],
+   "correct": "b",
+   "issue": "misrepresentation",
+   "explanation": "§ 2601(a) prohibits unfair claim settlement practices committed without just cause and with such frequency as to indicate a general business practice, including knowingly misrepresenting pertinent facts or policy provisions to claimants. Each instance may be treated as a separate violation for monetary penalties (§ 2601(c)).",
+   "outlineIds": [
+    "plreg.2.2.3",
+    "plreg.2.3.1"
+   ],
+   "concepts": [
+    "unfair-claims-settlement-practices",
+    "misrepresentation"
+   ],
+   "sources": [
+    "ny-isc-2601"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-cc-payroll-premiums",
+   "title": "Borrowing From the Premium Account",
+   "narrative": "Business is slow at Tara's agency. She deposits $14,000 in customers' homeowners and auto premiums into her personal checking account and uses it to meet payroll, planning to send the money to the insurers when renewals pick up next month.",
+   "question": "What compliance issue does this raise?",
+   "options": [
+    {
+     "id": "a",
+     "text": "No issue, as long as the insurers are paid within 90 days",
+     "rationale": "Incorrect: the violation is mixing and using the funds, regardless of later repayment."
+    },
+    {
+     "id": "b",
+     "text": "Rebating, because customers get coverage before the insurer is paid",
+     "rationale": "Incorrect: no inducement was given to buyers."
+    },
+    {
+     "id": "c",
+     "text": "Controlled business, because she is insuring her own payroll",
+     "rationale": "Incorrect: controlled business concerns commissions from the licensee's own and related risks."
+    },
+    {
+     "id": "d",
+     "text": "Fiduciary violation: commingling premium funds and using them for her own business",
+     "rationale": "Correct: § 2120(a) requires agents to hold premiums in a fiduciary capacity and not mingle them with their own funds."
+    }
+   ],
+   "correct": "d",
+   "issue": "fiduciary",
+   "explanation": "Under § 2120(a), agents and brokers are responsible in a fiduciary capacity for all funds received as agent or broker and may not mingle them with their own funds without the principal's express consent. Improperly withholding or misappropriating money received in the business is also a ground for revocation (§ 2110(a)(5)), and 11 NYCRR 20.4 requires premium-account records showing every receipt and disbursement.",
+   "outlineIds": [
+    "plreg.2.4.3"
+   ],
+   "concepts": [
+    "fiduciary-responsibility",
+    "commingling"
+   ],
+   "sources": [
+    "ny-isc-2120",
+    "ny-isc-2110",
+    "ny-11nycrr-20-4"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-cc-mystery-carrier-ad",
+   "title": "The Mystery Carrier Billboard",
+   "narrative": "A Personal Lines agency puts up a billboard: \"Home + Auto bundles from an A-rated national carrier. Save up to 30%! Call Lakeside Agency.\" The billboard never names the insurer.",
+   "question": "What compliance issue does this raise?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Advertising: an ad referring to an insurer must give its full name and principal-office city",
+     "rationale": "Correct: § 2122(b) requires producer ads that refer to an insurer to state its full name and the city, town or village of its principal U.S. office."
+    },
+    {
+     "id": "b",
+     "text": "Rebating, because the advertised savings are an illegal inducement",
+     "rationale": "Incorrect: savings from the insurer's filed rates are not a rebate by the producer."
+    },
+    {
+     "id": "c",
+     "text": "Defamation, because it implies other insurers are inferior",
+     "rationale": "Incorrect: nothing false is said about any insurer's finances."
+    },
+    {
+     "id": "d",
+     "text": "No issue: ads only need to name the agency, not the insurer",
+     "rationale": "Incorrect: once an ad refers to an insurer, § 2122(b) requires its name and city."
+    }
+   ],
+   "correct": "a",
+   "issue": "advertising",
+   "explanation": "§ 2122(b) requires every agent and broker, in all advertisements that refer to an insurer, to set forth the insurer's full name and the city, town or village of its principal office in the United States. Producers also may not advertise in a way that calls attention to an unauthorized insurer (§ 2122(a)(2)).",
+   "outlineIds": [
+    "plreg.2.3.2"
+   ],
+   "concepts": [
+    "false-advertising"
+   ],
+   "sources": [
+    "ny-isc-2122"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-cc-csr-binder",
+   "title": "The Saturday Binder",
+   "narrative": "On a busy Saturday, Kyle, an unlicensed receptionist at an auto insurance agency, takes a call from a car buyer. He urges her to choose one of the agency's insurers, explains the liability limits, and emails her a signed binder so she can drive the car off the lot. The agency pays Kyle $15 for each policy he writes.",
+   "question": "What compliance issue does this raise?",
+   "options": [
+    {
+     "id": "a",
+     "text": "No issue, because binders are temporary and need no license",
+     "rationale": "Incorrect: issuing coverage and urging a purchase are licensed acts, temporary or not."
+    },
+    {
+     "id": "b",
+     "text": "No issue, because the agency, not an insurer, paid Kyle",
+     "rationale": "Incorrect: the source of the payment does not matter under § 2102(e)."
+    },
+    {
+     "id": "c",
+     "text": "Licensing: Kyle solicited, negotiated and bound coverage without a license and was paid for it",
+     "rationale": "Correct: § 2102(a) bars acting as a producer without a license, and § 2102(e)(1) bars unlicensed persons from accepting commissions for selling, soliciting or negotiating."
+    },
+    {
+     "id": "d",
+     "text": "Rebating, because the buyer got coverage the same day",
+     "rationale": "Incorrect: prompt coverage is not an inducement outside the policy."
+    }
+   ],
+   "correct": "c",
+   "issue": "licensing",
+   "explanation": "Urging a person to apply for a particular insurer's coverage is soliciting and explaining coverage terms is negotiating (§ 2101(m), (o)); exchanging coverage for premium on an insurer's behalf is selling (§ 2101(n)). No one may act as a producer without a license (§ 2102(a)), and no person required to be licensed may accept a commission without one (§ 2102(e)(1)). Knowingly accepting business from an unlicensed person is also a ground for discipline of the agency's licensees (§ 2110(a)(12)).",
+   "outlineIds": [
+    "plreg.1.2.2",
+    "plreg.2.4.2"
+   ],
+   "concepts": [
+    "producer",
+    "solicit",
+    "negotiate",
+    "sell"
+   ],
+   "sources": [
+    "ny-isc-2101",
+    "ny-isc-2102",
+    "ny-isc-2110"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-cc-dealer-list",
+   "title": "The Car Dealer's Request",
+   "narrative": "A local car dealer asks agent Priya for a spreadsheet of her auto customers, including their names, policy expiration dates, payment histories and the vehicles listed on their applications, so the dealer can send trade-in offers. Priya is about to email it.",
+   "question": "What compliance issue does this raise?",
+   "options": [
+    {
+     "id": "a",
+     "text": "No issue, because the dealer is a business, not a competitor",
+     "rationale": "Incorrect: who receives the data does not change its protected status."
+    },
+    {
+     "id": "b",
+     "text": "Privacy: application details and payment history are nonpublic personal information",
+     "rationale": "Correct: under Regulation 169, application information, payment history and the fact that someone is a customer are personally identifiable financial information."
+    },
+    {
+     "id": "c",
+     "text": "No issue, because vehicle information is publicly available",
+     "rationale": "Incorrect: information the customer provided on an application is nonpublic."
+    },
+    {
+     "id": "d",
+     "text": "Rebating, because customers may receive trade-in offers",
+     "rationale": "Incorrect: the issue is disclosure of private information, not an inducement."
+    }
+   ],
+   "correct": "b",
+   "issue": "privacy",
+   "explanation": "11 NYCRR 420.3 defines nonpublic personal information to include personally identifiable financial information such as information a consumer provides on an application, payment history, and the fact that an individual is a customer. An agent of an insurer is relieved of separate privacy-notice duties only if it does not disclose consumers' information to anyone other than the insurer (its principal) and affiliates as permitted (§ 420.3(p)(2)). Sending this list to a dealer would breach those protections.",
+   "outlineIds": [
+    "plreg.2.10"
+   ],
+   "concepts": [
+    "nonpublic-personal-information"
+   ],
+   "sources": [
+    "ny-11nycrr-420-3"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "regulation-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-cc-signed-fee",
+   "title": "The Signed Service Fee",
+   "narrative": "Broker Elena places a homeowners policy for a client with a complicated older house. Before doing the work, she gives the client a written agreement stating a $150 service fee in addition to the commission included in the premium. The client signs it, and Elena files a copy, which she keeps for several years.",
+   "question": "What compliance issue does this raise?",
+   "options": [
+    {
+     "id": "a",
+     "text": "None: a broker may charge a fee based on a signed written memorandum stating the amount",
+     "rationale": "Correct: § 2119(c) permits broker compensation beyond commissions when based on a signed written memorandum specifying the amount, kept for three years."
+    },
+    {
+     "id": "b",
+     "text": "Rebating, because the client pays more than the insurer's premium",
+     "rationale": "Incorrect: § 2119(d) allows charging more than the premium when a proper memorandum exists; rebating is giving value to the buyer."
+    },
+    {
+     "id": "c",
+     "text": "Licensing, because brokers may never charge fees",
+     "rationale": "Incorrect: § 2119 expressly allows fees with a signed memorandum."
+    },
+    {
+     "id": "d",
+     "text": "Fiduciary, because the fee must be held in trust for the insurer",
+     "rationale": "Incorrect: the agreed service fee is the broker's compensation, not premium."
+    }
+   ],
+   "correct": "a",
+   "issue": "none",
+   "explanation": "§ 2119(c) bars a broker from receiving compensation from an insured, other than commissions deductible from premiums, unless it is based on a written memorandum signed by the party to be charged that specifies the amount; a copy must be kept for three years. § 2119(d) bars charging more than the insurer's premium unless such a right to compensation exists. Elena followed the rule.",
+   "outlineIds": [
+    "plreg.2.4.5"
+   ],
+   "concepts": [
+    "insurance-broker",
+    "producer-compensation-disclosure"
+   ],
+   "sources": [
+    "ny-isc-2119"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

@@ -1,0 +1,746 @@
+{
+  "sectionId": "grp",
+  "terms": [
+    {
+      "id": "fully-insured-plan",
+      "term": "Fully Insured Plan",
+      "aliases": [
+        "conventional insured plan",
+        "insured plan"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.4",
+        "grp.4.1"
+      ],
+      "formal": "A conventional group health arrangement in which the employer pays premiums to an insurer, and the insurer assumes the financial risk of paying covered claims under the group policy, subject to state insurance law.",
+      "plain": "In a fully insured plan, the employer buys a group policy and pays premiums; the insurance company pays the claims and carries the risk if claims are higher than expected.",
+      "simpler": "Like renting an apartment with all utilities included: you pay a set amount, and the landlord eats the cost if the bills run high.",
+      "examples": [
+        "A 75-employee firm pays a monthly premium to an insurer for group health coverage. When one employee has a $400,000 transplant, the insurer pays the claim.",
+        "Because the plan is insured, the group policy must follow New York's insurance laws, including state-mandated benefits."
+      ],
+      "examTip": "Fully insured = insurer bears the claim risk; employer pays premiums. Self-funded = employer bears the risk (often with stop-loss) and may hire an ASO/TPA.",
+      "misconception": "Fully insured does not mean employees pay nothing; employers often require employee contributions toward the premium.",
+      "related": [
+        "self-funded-plan",
+        "stop-loss-coverage",
+        "master-policy"
+      ],
+      "confusedWith": [
+        "self-funded-plan"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "In which arrangement does the insurer, rather than the employer, bear the risk of paying covered group health claims?",
+        "choices": [
+          "Fully insured plan",
+          "Self-funded plan",
+          "Administrative services only arrangement",
+          "Minimum premium plan with no insurer"
+        ],
+        "answerIndex": 0,
+        "explanation": "In a fully insured plan the insurer assumes claim risk in exchange for premiums. Self-funded and ASO arrangements leave the claim risk with the employer."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "self-funded-plan",
+      "term": "Self-Funded (Self-Insured) Plan",
+      "aliases": [
+        "self-insured plan",
+        "self-funding",
+        "partially self-insured plan"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.4",
+        "grp.4.2"
+      ],
+      "formal": "A group health plan in which the employer (plan sponsor) pays covered claims from its own funds rather than buying a group insurance policy to pay them; the employer bears the claim risk, often purchases stop-loss coverage to limit large losses, and frequently hires an insurer or third-party administrator to process claims.",
+      "plain": "In a self-funded plan, the employer itself pays employees' medical claims. To avoid being wiped out by huge claims, it usually buys stop-loss insurance, and it often pays an insurer or administrator just to handle the paperwork.",
+      "simpler": "Like being your own insurance company for routine bills, but buying a backup policy in case of a disaster.",
+      "examples": [
+        "A 2,000-employee retailer pays its employees' medical claims from a company account and hires an insurer under an ASO contract to process them.",
+        "A partially self-insured employer pays claims up to $150,000 per person and buys specific stop-loss coverage for amounts above that."
+      ],
+      "examTip": "Self-funded = employer pays claims and bears risk. 'Partially self-insured' = self-funded + stop-loss. Private self-funded plans are governed mainly by ERISA rather than state insurance law.",
+      "misconception": "Self-funding does not mean employees file claims directly with the employer's accounting department; an ASO provider or TPA usually administers claims.",
+      "related": [
+        "fully-insured-plan",
+        "stop-loss-coverage",
+        "administrative-services-only",
+        "erisa"
+      ],
+      "confusedWith": [
+        "fully-insured-plan"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "An employer that pays its employees' health claims from its own funds and buys stop-loss coverage for very large claims has a:",
+        "choices": [
+          "Fully insured plan",
+          "Partially self-funded plan",
+          "Blanket plan",
+          "Conversion plan"
+        ],
+        "answerIndex": 1,
+        "explanation": "Paying claims from employer funds is self-funding; adding stop-loss makes it partially self-insured. In a fully insured plan the insurer pays claims."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "stop-loss-coverage",
+      "term": "Stop-Loss Coverage",
+      "aliases": [
+        "excess loss insurance",
+        "specific stop-loss",
+        "aggregate stop-loss"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.4.2.1"
+      ],
+      "formal": "Insurance purchased by a self-funded plan sponsor (employer) that reimburses the employer for claims above a specified threshold, either per individual (specific stop-loss) or for total plan claims over a period (aggregate stop-loss); it protects the employer, not the individual employee.",
+      "plain": "Stop-loss insurance is a safety net for an employer that pays its own health claims. If one person's claims (or the whole plan's claims) go over a set amount, the stop-loss insurer pays the employer back for the excess.",
+      "simpler": "Like a homeowner who pays small repairs personally but buys a policy for anything over $10,000.",
+      "examples": [
+        "A self-funded employer has $100,000 specific stop-loss. An employee's claims reach $250,000; the stop-loss carrier reimburses the employer $150,000.",
+        "A self-funded plan's aggregate stop-loss reimburses the employer when total annual claims exceed 125% of expected claims."
+      ],
+      "examTip": "Stop-loss protects the EMPLOYER (plan sponsor) in a self-funded plan. Don't confuse it with the out-of-pocket maximum (sometimes called a 'stop-loss limit'), which protects the INSURED.",
+      "misconception": "Stop-loss coverage is not health insurance for employees; employees' claims are still paid by the self-funded plan.",
+      "related": [
+        "self-funded-plan",
+        "administrative-services-only",
+        "out-of-pocket-maximum"
+      ],
+      "confusedWith": [
+        "out-of-pocket-maximum"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Specific stop-loss coverage in a self-funded plan reimburses:",
+        "choices": [
+          "The insurer for administrative expenses",
+          "The employee for out-of-pocket costs above a set amount",
+          "The employer for any one person's claims above a set amount",
+          "The employee's spouse for claims denied by the plan"
+        ],
+        "answerIndex": 2,
+        "explanation": "Specific stop-loss reimburses the plan sponsor (employer) for an individual's claims above the attachment point. The insured's protection is the out-of-pocket maximum."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "administrative-services-only",
+      "term": "Administrative Services Only (ASO)",
+      "aliases": [
+        "ASO",
+        "third-party administration"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.4.2.2"
+      ],
+      "formal": "An arrangement in which a self-funded employer pays an insurer or administrator a fee to provide administrative services, such as claims processing, network access and member services, while the employer retains the financial risk of paying claims.",
+      "plain": "Under an ASO contract, an insurance company does the paperwork and runs the plan for an employer that pays its own claims. The insurer is paid a fee, but it does not take on the risk of high claims.",
+      "simpler": "Like hiring a property manager: they handle tenants and repairs, but the owner pays the bills.",
+      "examples": [
+        "A city school district self-funds its health plan and hires an insurer under an ASO contract to process claims and provide its provider network.",
+        "When claims run higher than expected, the ASO administrator processes the claims, but the employer must fund them."
+      ],
+      "examTip": "ASO = insurer provides SERVICES only, no risk. The employer pays claims. Often paired with stop-loss coverage.",
+      "misconception": "Using a well-known insurer's ID cards and network under an ASO contract does not make the plan fully insured.",
+      "related": [
+        "self-funded-plan",
+        "stop-loss-coverage",
+        "fully-insured-plan"
+      ],
+      "confusedWith": [
+        "fully-insured-plan"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under an administrative services only (ASO) arrangement, who bears the risk of paying covered claims?",
+        "choices": [
+          "Each employee",
+          "The insurer providing the services",
+          "The stop-loss carrier for all claims",
+          "The employer"
+        ],
+        "answerIndex": 3,
+        "explanation": "The ASO provider is paid for administration only; the self-funded employer bears claim risk (stop-loss may cover only large excess amounts)."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "persistency",
+      "term": "Persistency",
+      "aliases": [
+        "persistency factor"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.6.1.3",
+        "grp.6.1"
+      ],
+      "formal": "The tendency of a group (or individual policies) to remain in force with the same insurer over time; insurers consider a group's persistency in underwriting because frequent changes of carriers increase acquisition and administrative costs.",
+      "plain": "Persistency is about staying power. An insurer prefers a group that keeps its coverage for years instead of switching carriers every year or two, because setting up a new group is expensive.",
+      "simpler": "Like a landlord preferring a tenant with a history of long leases over one who moves every few months.",
+      "examples": [
+        "An underwriter notes that a 200-employee firm has changed health insurers four times in five years, a poor persistency record.",
+        "A group that has renewed with the same carrier for ten years shows strong persistency."
+      ],
+      "examTip": "Group underwriting factors: characteristics of the group (reason for existence, size, age/sex mix, industry), plan design, PERSISTENCY (how long the group stays), and administrative capability.",
+      "misconception": "Persistency is not about how long individual employees stay employed; it focuses on how long the group keeps its coverage in force.",
+      "related": [
+        "experience-rating",
+        "eligible-group",
+        "underwriting"
+      ],
+      "confusedWith": [],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A group that has switched health insurers several times in a few years has a poor record of:",
+        "choices": [
+          "Persistency",
+          "Coordination of benefits",
+          "Community rating",
+          "Utilization review"
+        ],
+        "answerIndex": 0,
+        "explanation": "Persistency measures how long coverage stays in force with the insurer. The other terms describe coordination, rating and medical necessity review."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "open-enrollment-group",
+      "term": "Group Open Enrollment",
+      "aliases": [
+        "annual enrollment period"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.6.2.1"
+      ],
+      "formal": "A period, usually once a year, during which eligible employees and dependents may enroll in, drop or change group health coverage without providing evidence of insurability, outside of the initial eligibility period and special enrollment events.",
+      "plain": "Group open enrollment is the time each year when employees can join the company plan or change their choices without proving good health.",
+      "simpler": "Like the annual window when you can change your phone plan without a penalty.",
+      "examples": [
+        "Leah declined the company health plan when she was hired. During the annual open enrollment in November, she enrolls for coverage beginning January 1.",
+        "During open enrollment, Raj switches from the employer's PPO option to its HMO option."
+      ],
+      "examTip": "In group plans, enrolling late (outside the first eligibility period, open enrollment or a special enrollment event) can make someone a 'late enrollee'. Open enrollment lets people join without evidence of insurability.",
+      "misconception": "Group open enrollment is not the same as New York's 'open enrollment' rating rule for individuals and small groups, which requires insurers to accept applicants at all times throughout the year.",
+      "related": [
+        "open-enrollment-period",
+        "probationary-period",
+        "special-enrollment-period"
+      ],
+      "confusedWith": [
+        "open-enrollment-period"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "The annual period when employees can enroll in or change group health coverage without evidence of insurability is:",
+        "choices": [
+          "The probationary period",
+          "Group open enrollment",
+          "The grace period",
+          "The elimination period"
+        ],
+        "answerIndex": 1,
+        "explanation": "Open enrollment is the annual window to enroll or change plans. A probationary period is the initial waiting period; grace period concerns late premium; elimination period is a disability waiting period."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "probationary-period",
+      "term": "Probationary Period",
+      "aliases": [
+        "waiting period"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.6.2.3",
+        "grp.6.2.2"
+      ],
+      "formal": "In group insurance, the waiting period a new employee must complete before becoming eligible to enroll in the group plan; federal law defines a waiting period as the period that must pass before an individual is eligible to be covered for benefits under the terms of the plan.",
+      "plain": "The probationary period is how long a new hire must wait before being allowed into the group health plan, such as 30 days after the start date.",
+      "simpler": "Like a new member's waiting week before getting gym access.",
+      "examples": [
+        "New employees at Pine Co. become eligible for the group health plan after a 30-day probationary period.",
+        "Gina starts work on March 1; after her plan's waiting period she enrolls during the eligibility period that follows."
+      ],
+      "examTip": "Probationary (waiting) period = time before ELIGIBILITY for a new employee. Eligibility period = the window to enroll after the probationary period ends. Elimination period = waiting before disability benefits are paid.",
+      "misconception": "A probationary period is not a preexisting condition exclusion; it applies to all new employees equally regardless of health.",
+      "related": [
+        "open-enrollment-group",
+        "eligible-group",
+        "elimination-period"
+      ],
+      "confusedWith": [
+        "elimination-period"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "The waiting period a new employee must complete before becoming eligible for group health coverage is the:",
+        "choices": [
+          "Grace period",
+          "Elimination period",
+          "Probationary period",
+          "Free-look period"
+        ],
+        "answerIndex": 2,
+        "explanation": "Federal law defines a waiting period as the time that must pass before the individual is eligible for coverage. An elimination period applies to disability benefits; grace and free-look periods concern premiums and cancellation."
+      },
+      "sources": [
+        "fed-usc-42-300gg-3"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "coordination-of-benefits",
+      "term": "Coordination of Benefits (COB)",
+      "aliases": [
+        "COB",
+        "birthday rule"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.6.3"
+      ],
+      "formal": "A group health provision, regulated in New York by 11 NYCRR § 52.23 (Regulation 62), that determines the order in which plans pay when a person is covered by more than one plan: the primary plan pays its benefits as if no other plan existed, and the secondary plan may reduce its benefits so that total payments do not exceed total allowable expenses.",
+      "plain": "When you have two health plans, COB decides which one pays first. The primary plan pays as if it were the only plan; the secondary plan then pays some or all of what's left, but the two together never pay more than the allowable expense.",
+      "simpler": "Like two friends splitting a check: one pays first, the other covers what's left, and nobody gets paid more than the bill.",
+      "examples": [
+        "Kim is covered as an employee under her own plan and as a dependent under her husband's plan. Her own plan is primary for her claims.",
+        "Their son is covered under both parents' plans. Kim's birthday is in March and her husband's is in July, so Kim's plan is primary for the son under the birthday rule."
+      ],
+      "examTip": "NY Reg 62 rules: plan with no COB provision is primary; plan covering the person as employee/subscriber pays before plan covering the person as a dependent; children: parent whose birthday (month and day, not year) falls earlier in the year; active employee before laid-off/retired; then longer coverage before shorter.",
+      "misconception": "COB does not let an insured collect more than 100% of allowable expenses, and the 'birthday rule' does not look at which parent is older.",
+      "related": [
+        "medicare-secondary-payer",
+        "other-insurance-provision",
+        "concurrent-review"
+      ],
+      "confusedWith": [
+        "medicare-secondary-payer",
+        "other-insurance-provision"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under New York's coordination of benefits rules, a dependent child covered by both parents' plans is primary under the plan of the parent:",
+        "choices": [
+          "Who enrolled the child first",
+          "Who is older",
+          "Who has the higher income",
+          "Whose birthday (month and day) falls earlier in the year"
+        ],
+        "answerIndex": 3,
+        "explanation": "11 NYCRR 52.23: the plan of the parent whose birthday falls earlier in the year pays first; 'birthday' refers only to month and day, not year of birth."
+      },
+      "sources": [
+        "ny-11nycrr-52-23"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "extension-of-benefits",
+      "term": "Extension of Benefits",
+      "aliases": [
+        "extended benefits"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.6.4.2",
+        "grp.6.4"
+      ],
+      "formal": "A group health provision under which a person who is totally disabled on the date group coverage terminates continues to receive benefits for that disabling condition for a limited period after termination, so that a change of insurer or loss of coverage does not cut off treatment already under way.",
+      "plain": "If you are totally disabled when your group coverage ends, an extension of benefits provision keeps paying for the condition that disabled you for a limited time after the coverage ends.",
+      "simpler": "Like a store honoring a repair already in progress even after your warranty contract expires.",
+      "examples": [
+        "An employer switches health insurers on July 1 while an employee is hospitalized and totally disabled; the prior plan's extension of benefits continues to cover that disabling condition for the extension period.",
+        "Ned is totally disabled when his group coverage terminates; expenses for unrelated new conditions are not covered under the extension."
+      ],
+      "examTip": "Extension of benefits applies only to a person TOTALLY DISABLED at termination and only for the DISABLING CONDITION, for a limited time. It is different from COBRA or state continuation, which continue the whole plan for a premium.",
+      "misconception": "Extension of benefits is not continuation coverage; it covers only the disabling condition, not all future medical expenses, and usually requires no premium.",
+      "related": [
+        "cobra",
+        "ny-continuation",
+        "conversion-privilege"
+      ],
+      "confusedWith": [
+        "cobra",
+        "ny-continuation"
+      ],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "A group health provision that continues coverage, after termination, only for the condition causing a person's total disability is:",
+        "choices": [
+          "Extension of benefits",
+          "COBRA continuation",
+          "Conversion privilege",
+          "Coordination of benefits"
+        ],
+        "answerIndex": 0,
+        "explanation": "Extension of benefits covers only the disabling condition of someone totally disabled at termination. COBRA continues the whole plan for a premium; conversion issues an individual policy; COB coordinates two plans."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19",
+        "notes": "Concept only; no NY-specific extension period is stated because it was not verified."
+      }
+    },
+    {
+      "id": "cobra",
+      "term": "COBRA Continuation",
+      "aliases": [
+        "COBRA",
+        "Consolidated Omnibus Budget Reconciliation Act"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.6.4.3",
+        "grp.3.1.1"
+      ],
+      "formal": "Continuation coverage required by the federal Consolidated Omnibus Budget Reconciliation Act for group health plans of employers with 20 or more employees: qualified beneficiaries who would lose coverage because of a qualifying event may elect to continue identical coverage, without evidence of insurability, for up to 18 months (termination of employment or reduction in hours) or 36 months (other qualifying events such as death, divorce or a child losing dependent status), paying up to 102% of the plan's cost (150% during a disability extension).",
+      "plain": "COBRA lets workers and their families keep their employer's group health plan for a limited time after events like a job loss, cut in hours, divorce or death. The person usually pays the full premium plus up to 2%.",
+      "simpler": "Like keeping your seat on the team bus after leaving the team, as long as you pay your own fare.",
+      "examples": [
+        "Jon, who works for a 60-employee firm, is laid off. He elects COBRA and keeps his group health coverage for up to 18 months, paying 102% of the premium.",
+        "When Ana divorces her husband, who is covered by his employer's 200-employee plan, she may elect COBRA for up to 36 months."
+      ],
+      "examTip": "COBRA: employers with 20+ employees; 18 months (termination/reduced hours); 29 months (disability extension); 36 months (death, divorce, Medicare entitlement of employee, loss of dependent status); premium up to 102%; ends early for nonpayment, employer ending all group health plans, or other group coverage/Medicare after election.",
+      "misconception": "COBRA does not require the employer to pay the premium, and it is not available to employees fired for gross misconduct.",
+      "related": [
+        "ny-continuation",
+        "extension-of-benefits",
+        "erisa",
+        "fmla"
+      ],
+      "confusedWith": [
+        "ny-continuation",
+        "extension-of-benefits"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under COBRA, a qualified beneficiary who loses coverage because of termination of employment may generally continue coverage for up to:",
+        "choices": [
+          "12 months",
+          "18 months",
+          "36 months",
+          "60 months"
+        ],
+        "answerIndex": 1,
+        "explanation": "29 U.S.C. § 1162(2)(A)(i): 18 months for termination or reduction in hours; 36 months applies to other qualifying events."
+      },
+      "sources": [
+        "fed-usc-29-1162",
+        "fed-dol-cobra"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ny-continuation",
+      "term": "New York State Continuation",
+      "aliases": [
+        "NY continuation",
+        "mini-COBRA",
+        "state continuation"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.6.4.3"
+      ],
+      "formal": "Continuation coverage required by New York Insurance Law § 3221(m) for insured group hospital, surgical or medical expense policies: an employee or member whose coverage ends because of termination of employment or membership may continue coverage for himself or herself and eligible dependents without evidence of insurability, by electing in writing within 60 days, for up to 36 months, paying up to 102% of the group premium; continuation ends earlier if the person becomes entitled to Medicare or covered under other group coverage.",
+      "plain": "New York's own continuation law ('mini-COBRA') lets people keep their insured group health coverage after leaving a job, even when federal COBRA does not apply (for example, small employers). It can last up to 36 months, and the person pays up to 102% of the premium.",
+      "simpler": "Like New York's own version of COBRA that also reaches small employers and lasts up to three years.",
+      "examples": [
+        "Mia works for a New York bakery with 12 employees, too small for federal COBRA. When she leaves, she elects state continuation in writing within 60 days and keeps her insured group coverage.",
+        "Leo is on state continuation and becomes entitled to Medicare; his continuation coverage ends."
+      ],
+      "examTip": "NY continuation: insured group plans (including small employers not subject to COBRA); elect in writing within 60 days (after termination or after notice is mailed, whichever is later); up to 36 months; premium up to 102%; ends on Medicare entitlement or new group coverage.",
+      "misconception": "State continuation applies to insured group policies; it does not regulate self-funded ERISA plans, which follow federal COBRA.",
+      "related": [
+        "cobra",
+        "extension-of-benefits",
+        "small-employer",
+        "conversion-privilege"
+      ],
+      "confusedWith": [
+        "cobra"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under New York Insurance Law § 3221(m), state continuation of group health coverage may last up to:",
+        "choices": [
+          "12 months",
+          "18 months",
+          "36 months",
+          "29 months"
+        ],
+        "answerIndex": 2,
+        "explanation": "Insurance Law § 3221(m) allows state continuation for up to 36 months. 18 and 29 months are federal COBRA periods."
+      },
+      "sources": [
+        "ny-isc-3221"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19",
+        "notes": "36-month duration and 102% premium captured as extracted phrases from § 3221(m) (see research/statutes/ISC-3221.md); 60-day written election and Medicare/other-group termination verified verbatim."
+      }
+    },
+    {
+      "id": "small-employer",
+      "term": "Small Employer",
+      "aliases": [
+        "small group",
+        "small employer group"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.7",
+        "grp.7.1",
+        "grp.7.2",
+        "grp.7.3",
+        "grp.7.4"
+      ],
+      "formal": "For New York health insurance rating purposes, a group of between one and one hundred employees or members (exclusive of spouses and dependents) for policies issued or renewed on or after January 1, 2016 (Insurance Law §§ 3231(a)(1), 4317(a)(1)); small group coverage must be community rated, must be accepted at all times throughout the year (open enrollment), and cannot be terminated because of claims experience.",
+      "plain": "In New York, a 'small group' for health insurance is an employer with 1 to 100 employees (not counting spouses and dependents). Insurers must accept these groups at any time of year, charge community rates instead of rates based on the group's health, and can't drop them because of claims.",
+      "simpler": "Like a public pool where every small business pays the same entry price and can't be turned away for having a sick swimmer.",
+      "examples": [
+        "A 40-employee New York law firm applies for small group coverage in July; the insurer must accept it and use community rates.",
+        "After a costly year of claims, an insurer may not terminate a 15-employee group's coverage because of its claims experience."
+      ],
+      "examTip": "NY small group: 1–100 employees (statute, policies issued/renewed on or after 1/1/2016). Guaranteed issue year-round ('open enrollment'), community rated, renewable (no termination for claims experience). Note: 11 NYCRR 360.2(f) (Reg 145) still reads 'two to 50'.",
+      "misconception": "A small group's rate is not based on its own claims; community rating pools all small groups, so one high-cost employee does not drive that group's premium.",
+      "related": [
+        "community-rating",
+        "guaranteed-issue",
+        "experience-rating",
+        "small-group"
+      ],
+      "confusedWith": [
+        "small-group"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under current New York Insurance Law § 3231, a small group for health insurance purposes is a group of:",
+        "choices": [
+          "Fewer than 20 employees",
+          "Between 2 and 25 employees",
+          "Between 51 and 100 employees only",
+          "Between 1 and 100 employees, exclusive of spouses and dependents"
+        ],
+        "answerIndex": 3,
+        "explanation": "§ 3231(a)(1): 'between one and one hundred employees or members … for policies issued or renewed on or after January first, two thousand sixteen exclusive of spouses and dependents'."
+      },
+      "sources": [
+        "ny-isc-3231",
+        "ny-isc-4317",
+        "ny-11nycrr-360"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19",
+        "notes": "Statute (1–100) differs from the older regulation text in 11 NYCRR 360.2(f) ('two to 50'); content follows the statute. Flagged for lead."
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "a": "experience-rating",
+      "b": "community-rating",
+      "keyDifference": "Experience rating prices a group by its own claims history; community rating charges everyone in the pool the same rate regardless of their own claims, health, age or sex.",
+      "rows": [
+        {
+          "aspect": "Basis for the premium",
+          "a": "The group's own past claims and expenses",
+          "b": "The experience of the entire pool of covered persons"
+        },
+        {
+          "aspect": "Effect of a group's high claims",
+          "a": "Higher renewal premium for that group",
+          "b": "Spread across the whole pool"
+        },
+        {
+          "aspect": "New York use",
+          "a": "Large groups",
+          "b": "Required for individual and small group health coverage (§ 3231 / § 4317)"
+        }
+      ],
+      "memoryTip": "Experience = your own report card; community = the class average."
+    },
+    {
+      "a": "cobra",
+      "b": "ny-continuation",
+      "keyDifference": "COBRA is federal and applies to employers with 20 or more employees (18 or 36 months); New York continuation applies to insured group policies, including small employers, for up to 36 months.",
+      "rows": [
+        {
+          "aspect": "Source of law",
+          "a": "Federal (ERISA/PHSA)",
+          "b": "NY Insurance Law § 3221(m)"
+        },
+        {
+          "aspect": "Who must offer it",
+          "a": "Group health plans of employers with 20+ employees",
+          "b": "Insured group hospital/surgical/medical policies in NY"
+        },
+        {
+          "aspect": "Maximum duration",
+          "a": "18 months (job loss/reduced hours); 29 (disability); 36 (other events)",
+          "b": "Up to 36 months"
+        },
+        {
+          "aspect": "Premium",
+          "a": "Up to 102% (150% during disability extension)",
+          "b": "Up to 102%"
+        },
+        {
+          "aspect": "Election",
+          "a": "Election under COBRA notice rules",
+          "b": "In writing within 60 days"
+        }
+      ],
+      "memoryTip": "COBRA = federal, 20+; NY = state, insured plans, up to 36."
+    },
+    {
+      "a": "fully-insured-plan",
+      "b": "self-funded-plan",
+      "keyDifference": "In a fully insured plan the insurer bears claim risk in exchange for premiums; in a self-funded plan the employer pays claims and bears the risk, often limiting it with stop-loss coverage.",
+      "rows": [
+        {
+          "aspect": "Who pays claims",
+          "a": "Insurer",
+          "b": "Employer (plan sponsor)"
+        },
+        {
+          "aspect": "Who bears risk",
+          "a": "Insurer",
+          "b": "Employer (above-threshold risk may be shifted to stop-loss)"
+        },
+        {
+          "aspect": "Typical administration",
+          "a": "Insurer administers its own policy",
+          "b": "ASO provider or TPA administers for a fee"
+        },
+        {
+          "aspect": "Main regulator",
+          "a": "State insurance law plus federal law",
+          "b": "Federal law (ERISA) for private plans"
+        }
+      ],
+      "memoryTip": "Fully insured = insurer's wallet; self-funded = employer's wallet."
+    },
+    {
+      "a": "stop-loss-coverage",
+      "b": "out-of-pocket-maximum",
+      "keyDifference": "Stop-loss coverage protects a self-funded EMPLOYER against large claims; the out-of-pocket maximum protects the INSURED by capping his or her cost-sharing.",
+      "rows": [
+        {
+          "aspect": "Who is protected",
+          "a": "Employer / plan sponsor",
+          "b": "Insured member"
+        },
+        {
+          "aspect": "What it limits",
+          "a": "Employer's claim costs above an attachment point",
+          "b": "Member's deductible, coinsurance and copayments for the year"
+        },
+        {
+          "aspect": "Where it appears",
+          "a": "Separate policy bought by a self-funded plan",
+          "b": "Built into the health plan's benefits"
+        }
+      ],
+      "memoryTip": "Stop-loss stops the BOSS's loss; out-of-pocket max stops YOUR loss."
+    }
+  ]
+}

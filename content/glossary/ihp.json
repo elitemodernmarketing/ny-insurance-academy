@@ -1,0 +1,856 @@
+{
+  "sectionId": "ihp",
+  "terms": [
+    {
+      "id": "time-limit-on-certain-defenses",
+      "term": "Time Limit on Certain Defenses",
+      "aliases": [
+        "Incontestable clause (health)",
+        "Time limit on defenses"
+      ],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.1.2"
+      ],
+      "formal": "A required individual accident and health policy provision under N.Y. Insurance Law § 3216(d)(1)(B): after two years from the date of issue, no misstatement in the application, except a fraudulent misstatement, may be used to void the policy or deny a claim for a loss or disability that begins after the two-year period; and a claim for loss beginning after two years may not be denied because a condition not excluded by name or specific description existed before coverage began.",
+      "plain": "The insurer has two years to dig into what you said on the application. After that, honest mistakes on the application can no longer be used to cancel the policy or deny a claim. Fraud is the exception.",
+      "simpler": "Think of it as a two-year window for the insurer to find application mistakes. Once the window closes, innocent mistakes are forgiven forever.",
+      "examples": [
+        "Three years after issue, Ana files a disability claim. The insurer finds she forgot to list a minor knee sprain on her application. Because more than two years have passed and the omission was not fraudulent, the insurer cannot deny the claim on that basis.",
+        "Within 18 months of issue, the insurer discovers a material misstatement about Raj's medical history. Because the two-year period has not expired, the insurer may still contest the policy."
+      ],
+      "examTip": "Health = TWO years from the date of issue, and fraudulent misstatements are the exception. If the stem says the misstatement was fraudulent, the time limit does not protect the insured.",
+      "misconception": "It is not a blanket protection for fraud. The standard (d)(1)(B) wording carves out fraudulent misstatements; only the optional 'Incontestable' version for policies continuable to at least age 50 omits that carve-out.",
+      "related": [
+        "incontestability",
+        "misrepresentation",
+        "preexisting-condition",
+        "consideration-clause"
+      ],
+      "confusedWith": [
+        "incontestability"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under the NY time limit on certain defenses provision, after how long can nonfraudulent application misstatements no longer be used to deny a claim?",
+        "choices": [
+          "Two years from the date of issue",
+          "One year from the date of issue",
+          "Three years from the date of issue",
+          "31 days from the date of issue"
+        ],
+        "answerIndex": 0,
+        "explanation": "N.Y. Insurance Law § 3216(d)(1)(B) uses two years from the date of issue. One year, three years and 31 days are other policy time periods (proof of loss outer limit, legal actions, grace period) and do not apply here."
+      },
+      "sources": [
+        "ny-isc-3216"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "notice-of-claim",
+      "term": "Notice of Claim",
+      "aliases": [],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.1"
+      ],
+      "formal": "A required provision (N.Y. Insurance Law § 3216(d)(1)(E)) stating that written notice of claim must be given to the insurer within twenty days after the occurrence or commencement of any covered loss, or as soon thereafter as is reasonably possible; notice to an authorized agent or broker with enough information to identify the insured counts as notice to the insurer.",
+      "plain": "When something happens that you will claim for, you must tell the insurer in writing within 20 days, or as soon as you reasonably can. Telling the insurer's authorized agent counts.",
+      "simpler": "It's the 'tell us quickly' rule: give the insurer a heads-up within about three weeks so it can start the claim.",
+      "examples": [
+        "Leo breaks his wrist on May 1. He should send written notice of claim by about May 21, or as soon as reasonably possible after that if he was unable to.",
+        "Maya is hospitalized and unconscious for a month after an accident; her notice given as soon as she reasonably could is still valid because of the 'as soon as reasonably possible' language."
+      ],
+      "examTip": "Notice of claim = 20 days. Claim forms = insurer has 15 days to send them. Proof of loss = 90 days. Learn the order: notice (20) → forms (15) → proof (90).",
+      "misconception": "Notice of claim is not the same as proof of loss. Notice simply alerts the insurer; proof of loss is the detailed documentation that comes later.",
+      "related": [
+        "proof-of-loss",
+        "unfair-claims-settlement-practices"
+      ],
+      "confusedWith": [
+        "proof-of-loss"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Under NY's required notice of claim provision, written notice should be given within how many days after a covered loss begins?",
+        "choices": [
+          "15 days",
+          "20 days",
+          "90 days",
+          "60 days"
+        ],
+        "answerIndex": 1,
+        "explanation": "§ 3216(d)(1)(E) requires written notice within 20 days (or as soon as reasonably possible). 15 days is the insurer's deadline to furnish claim forms, 90 days is the proof-of-loss period, and 60 days is the waiting period before a lawsuit."
+      },
+      "sources": [
+        "ny-isc-3216"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "proof-of-loss",
+      "term": "Proof of Loss",
+      "aliases": [
+        "Proofs of loss"
+      ],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.1",
+        "di.1.1.4"
+      ],
+      "formal": "A required provision (N.Y. Insurance Law § 3216(d)(1)(G)): written proof of loss must be furnished within ninety days after the end of the period for which the insurer is liable for periodic (continuing-loss) benefits, and within one hundred twenty days after the date of loss for any other loss; late proof does not invalidate a claim if it was not reasonably possible to furnish it on time, provided it is furnished as soon as reasonably possible and, except in the absence of legal capacity, no later than one year from when it was otherwise required.",
+      "plain": "After notifying the insurer, you must send written documentation proving the loss. For ongoing disability payments, you generally have 90 days after the period you are claiming for; for other losses, 120 days after the loss. If you truly couldn't meet the deadline, you get some leeway, but generally no more than one extra year.",
+      "simpler": "Notice says 'something happened.' Proof of loss says 'here is the evidence.' You get about three months to send the evidence, with a one-year outside limit unless you were legally incapacitated.",
+      "examples": [
+        "Tara receives monthly disability benefits for March. She must send written proof covering March within 90 days after March ends.",
+        "Ben had an accident on June 1 and claims a lump-sum benefit. He has 120 days after June 1 to file proof of loss, unless it was not reasonably possible to do so."
+      ],
+      "examTip": "In disability income questions, 'proof of loss' is the step where the claimant documents the disability (often with a physician's statement). The NY periods: 90 days (periodic benefits) / 120 days (other losses) / one-year outer limit.",
+      "misconception": "Missing the 90-day deadline does not automatically kill the claim; if it was not reasonably possible to comply, the claim stays valid as long as proof is given as soon as reasonably possible and within the one-year outer limit (unless legally incapacitated).",
+      "related": [
+        "notice-of-claim",
+        "total-disability",
+        "elimination-period"
+      ],
+      "confusedWith": [
+        "notice-of-claim"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under NY Insurance Law § 3216, proof of loss for periodic disability benefits is due within how long after the end of the period for which the insurer is liable?",
+        "choices": [
+          "20 days",
+          "15 days",
+          "90 days",
+          "Two years"
+        ],
+        "answerIndex": 2,
+        "explanation": "§ 3216(d)(1)(G) gives 90 days after the end of the liability period for continuing-loss claims (120 days after the loss for other claims). 20 days is notice of claim; 15 days is the claim-forms deadline; two years is the time limit on certain defenses."
+      },
+      "sources": [
+        "ny-isc-3216"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "unpaid-premium-provision",
+      "term": "Unpaid Premium Provision",
+      "aliases": [
+        "Unpaid premium"
+      ],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.2.3"
+      ],
+      "formal": "An optional provision under N.Y. Insurance Law § 3216(d)(2)(G): 'Upon the payment of a claim under this policy, any premium then due and unpaid or covered by any note or written order may be deducted therefrom.'",
+      "plain": "If you owe a premium when the insurer pays your claim, the insurer can subtract the premium you owe from the claim check.",
+      "simpler": "The insurer settles up: claim payment minus what you still owe.",
+      "examples": [
+        "During the grace period, Carla's $150 quarterly premium is unpaid when she files a $2,000 claim. The insurer pays $1,850 and treats the premium as paid.",
+        "Dev has paid all premiums on time; when his claim is paid, nothing is deducted."
+      ],
+      "examTip": "The unpaid premium provision works hand in hand with the grace period: coverage continues during grace, and the overdue premium is simply deducted from any claim.",
+      "misconception": "The insurer cannot deny the claim just because a premium is due and unpaid during the grace period; it deducts the premium instead.",
+      "related": [
+        "grace-period",
+        "cancellation-provision"
+      ],
+      "confusedWith": [
+        "grace-period"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A claim is paid while a premium is due and unpaid. Under the unpaid premium provision, the insurer:",
+        "choices": [
+          "Must deny the claim",
+          "Must cancel the policy after paying the claim",
+          "Must refund all premiums paid that year",
+          "May deduct the unpaid premium from the claim payment"
+        ],
+        "answerIndex": 3,
+        "explanation": "§ 3216(d)(2)(G) allows the insurer to deduct any premium then due and unpaid from the claim payment. It does not authorize denial, automatic cancellation or a refund."
+      },
+      "sources": [
+        "ny-isc-3216"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "cancellation-provision",
+      "term": "Cancellation Provision",
+      "aliases": [
+        "Cancellation"
+      ],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.2.4",
+        "di.2.3.4"
+      ],
+      "formal": "An optional provision under N.Y. Insurance Law § 3216(d)(2)(H): within the first ninety days after the date of issue, the insurer may cancel by written notice stating when, not less than ten days thereafter, cancellation is effective; the insurer must promptly return the pro-rata unearned premium, and cancellation is without prejudice to claims originating before the effective date. The insurer may also give the insured a right to cancel at any time with a short-rate refund.",
+      "plain": "In New York, if a policy includes a cancellation clause, the insurer may cancel only during the first 90 days after issue, with at least 10 days' written notice, and must refund the unused premium on a pro-rata basis. Claims that started before the cancellation still get paid.",
+      "simpler": "The insurer gets a short 90-day 'trial window' to back out, must warn you at least 10 days ahead, and must give back the unused premium.",
+      "examples": [
+        "Sixty days after issue, an insurer sends Omar written notice that his policy will be cancelled in 10 days. It refunds the pro-rata unearned premium, and it still pays the claim from an accident that happened before the cancellation date.",
+        "Eight months after issue, an insurer wants to cancel Priya's policy using the cancellation provision. Under the NY wording, that is too late: the insurer's cancellation right applies only within the first 90 days after issue."
+      ],
+      "examTip": "NY wording: insurer cancellation only within the first 90 days after issue, at least 10 days' notice, pro-rata refund. If the insured cancels, a short-rate refund may be used. A noncancelable or guaranteed renewable policy would not give the insurer a cancellation right like this.",
+      "misconception": "The NY cancellation provision does not let the insurer cancel at any time during the policy's life; it is limited to the first ninety days after the date of issue.",
+      "related": [
+        "noncancelable",
+        "guaranteed-renewable",
+        "renewability-clause",
+        "free-look"
+      ],
+      "confusedWith": [
+        "free-look",
+        "renewability-clause"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under NY Insurance Law § 3216(d)(2)(H), an insurer using the cancellation provision may cancel the policy:",
+        "choices": [
+          "Only within the first 90 days after issue, with at least 10 days' written notice",
+          "At any time, with at least 10 days' written notice",
+          "Only on a policy anniversary, with 31 days' notice",
+          "Only for nonpayment of premium"
+        ],
+        "answerIndex": 0,
+        "explanation": "The NY cancellation wording limits insurer cancellation to the first 90 days after the date of issue and requires notice stating an effective date not less than 10 days later, with a pro-rata refund of unearned premium."
+      },
+      "sources": [
+        "ny-isc-3216"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "conformity-with-state-statutes",
+      "term": "Conformity with State Statutes",
+      "aliases": [],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.2.5"
+      ],
+      "formal": "An optional provision under N.Y. Insurance Law § 3216(d)(2)(I): 'Any provision of this policy which, on its effective date, is in conflict with the statutes of the state in which the insured resides on such date is hereby amended to conform to the minimum requirements of such statutes.'",
+      "plain": "If any part of the policy breaks the law of the state where the insured lives on the policy's effective date, that part is automatically rewritten to meet the state's minimum legal requirements.",
+      "simpler": "The policy auto-corrects itself to follow the law of the insured's home state.",
+      "examples": [
+        "A policy gives a shorter claim period than the insured's state law allows. The provision is automatically amended to meet the state minimum.",
+        "Gwen lived in New York when her policy took effect. Any conflicting term is read as amended to meet New York's minimum statutory requirements."
+      ],
+      "examTip": "The test date is the policy's effective date and the state is where the insured resides on that date, not where the insurer is headquartered.",
+      "misconception": "The provision does not void the whole policy when a term conflicts with state law; it amends only the conflicting term to the statutory minimum.",
+      "related": [
+        "policy-provision",
+        "time-limit-on-certain-defenses"
+      ],
+      "confusedWith": [],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A policy term conflicts with the law of the state where the insured lived on the effective date. Under the conformity with state statutes provision:",
+        "choices": [
+          "The entire policy is void",
+          "The term is amended to meet the state's minimum requirements",
+          "The insurer's home-state law controls",
+          "The insured must buy a new policy"
+        ],
+        "answerIndex": 1,
+        "explanation": "§ 3216(d)(2)(I) amends the conflicting provision to conform to the minimum requirements of the statutes of the insured's state of residence on the effective date."
+      },
+      "sources": [
+        "ny-isc-3216"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "illegal-occupation",
+      "term": "Illegal Occupation Provision",
+      "aliases": [
+        "Illegal occupation"
+      ],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.2.6"
+      ],
+      "formal": "An optional provision under N.Y. Insurance Law § 3216(d)(2)(J): the insurer is not liable for any loss to which a contributing cause was the insured's commission of or attempt to commit a felony, or the insured's being engaged in an illegal occupation.",
+      "plain": "If you are hurt while committing (or trying to commit) a felony, or while working in an illegal occupation, and that activity contributed to the loss, the insurer does not have to pay.",
+      "simpler": "No benefits for injuries you get because you were doing something seriously illegal.",
+      "examples": [
+        "Victor is injured in a crash while fleeing the scene of an armed robbery he committed. The felony contributed to the loss, so the insurer may deny the claim.",
+        "Nina, an accountant, gets the flu. Even if she once had a traffic ticket, nothing illegal contributed to this sickness, so the provision does not apply."
+      ],
+      "examTip": "Key words: 'contributing cause' and 'felony' or 'illegal occupation'. The illegal act must have contributed to the loss.",
+      "misconception": "The provision does not exclude every loss of a person who has a criminal record; the felony or illegal occupation must be a contributing cause of the loss.",
+      "related": [
+        "intoxicants-and-narcotics",
+        "exclusion"
+      ],
+      "confusedWith": [
+        "intoxicants-and-narcotics"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "The illegal occupation provision lets the insurer deny a loss when a contributing cause was:",
+        "choices": [
+          "The insured changing to a more hazardous legal job",
+          "The insured traveling outside the country",
+          "The insured committing or attempting a felony",
+          "The insured's preexisting condition"
+        ],
+        "answerIndex": 2,
+        "explanation": "§ 3216(d)(2)(J) applies to losses where the insured's commission or attempted commission of a felony, or engagement in an illegal occupation, contributed. A more hazardous legal job is handled by the change of occupation provision instead."
+      },
+      "sources": [
+        "ny-isc-3216"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "intoxicants-and-narcotics",
+      "term": "Intoxicants and Narcotics Provision",
+      "aliases": [
+        "Intoxicants and narcotics"
+      ],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.2.7"
+      ],
+      "formal": "An optional provision under N.Y. Insurance Law § 3216(d)(2)(K): the insurer is not liable for any loss sustained or contracted in consequence of the insured's being intoxicated or under the influence of any narcotic unless administered on the advice of a physician.",
+      "plain": "If a loss happens because you were drunk or high on narcotics, the insurer does not have to pay, unless the narcotic was given to you on a doctor's advice.",
+      "simpler": "No benefits for losses caused by being intoxicated, except when the drug was medically prescribed or administered on a doctor's advice.",
+      "examples": [
+        "Ken is injured falling down stairs while intoxicated. The loss resulted from his intoxication, so the insurer may deny the claim.",
+        "After surgery, Lila is given a narcotic pain medication on her physician's advice and becomes dizzy and falls. The physician exception applies, so the provision does not bar her claim."
+      ],
+      "examTip": "Watch for the physician exception: a narcotic 'administered on the advice of a physician' does not trigger this exclusion.",
+      "misconception": "The provision does not exclude all losses involving medication; drugs administered on a physician's advice are expressly carved out.",
+      "related": [
+        "illegal-occupation",
+        "exclusion"
+      ],
+      "confusedWith": [
+        "illegal-occupation"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Under the intoxicants and narcotics provision, which loss would still be covered?",
+        "choices": [
+          "A fall caused by the insured being intoxicated",
+          "An injury caused by using a non-prescribed narcotic",
+          "A crash caused by the insured driving drunk",
+          "A fall caused by a narcotic administered on a physician's advice"
+        ],
+        "answerIndex": 3,
+        "explanation": "§ 3216(d)(2)(K) excludes losses resulting from intoxication or being under the influence of a narcotic 'unless administered on the advice of a physician.'"
+      },
+      "sources": [
+        "ny-isc-3216"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "insuring-clause",
+      "term": "Insuring Clause",
+      "aliases": [
+        "Insuring agreement"
+      ],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.3.2"
+      ],
+      "formal": "The policy provision, usually on the first page, that states the insurer's basic promise to pay benefits, identifies the parties, and describes the scope of coverage, such as loss resulting from accidental bodily injury or sickness, subject to the policy's terms.",
+      "plain": "This is the insurer's main promise: 'We will pay these benefits if these kinds of losses happen.' Everything else in the policy explains or limits that promise.",
+      "simpler": "The headline promise of the policy: what the insurer agrees to pay for.",
+      "examples": [
+        "Hector's policy opens with a statement that the insurer will pay benefits for loss resulting from accidental bodily injury or sickness, subject to the policy terms. That is the insuring clause.",
+        "An accident-only policy's insuring clause mentions only accidental bodily injury, which signals that sickness is not covered."
+      ],
+      "examTip": "Insuring clause = the insurer's promise and scope of coverage. Consideration clause = what the insured gives (premium and application). Don't swap them.",
+      "misconception": "The insuring clause does not list every exclusion; exclusions and limitations appear elsewhere in the policy.",
+      "related": [
+        "consideration-clause",
+        "accidental-bodily-injury",
+        "sickness",
+        "exclusion"
+      ],
+      "confusedWith": [
+        "consideration-clause"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which policy provision states the insurer's basic promise to pay and the scope of coverage?",
+        "choices": [
+          "Insuring clause",
+          "Consideration clause",
+          "Entire contract provision",
+          "Conformity with state statutes"
+        ],
+        "answerIndex": 0,
+        "explanation": "The insuring clause states the insurer's promise and scope of coverage. The consideration clause describes the premium and application; the entire contract provision defines what makes up the contract; conformity amends conflicting terms."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "consideration-clause",
+      "term": "Consideration Clause",
+      "aliases": [],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.3.3"
+      ],
+      "formal": "The policy provision identifying the consideration the insured gives in exchange for the insurer's promise, typically the payment of premium and the statements in the application; NY Insurance Law § 3216(c)(1) requires that the entire money and other considerations for the policy be expressed in the policy.",
+      "plain": "This clause says what you give in return for coverage: the premium you pay and the information in your application. It also usually states how often premiums are due.",
+      "simpler": "Your side of the deal: pay the premium and give truthful application answers.",
+      "examples": [
+        "Irene's policy states that it is issued in consideration of the application and payment of the first premium, with later premiums due monthly. That is the consideration clause.",
+        "Because NY requires all consideration to be expressed in the policy, an insurer cannot collect an extra fee that is not stated in the policy."
+      ],
+      "examTip": "Consideration from the insured = premium + application statements. The insurer's consideration is its promise to pay (insuring clause).",
+      "misconception": "Consideration is not only the money; the statements in the application are part of what the applicant gives.",
+      "related": [
+        "consideration",
+        "insuring-clause",
+        "entire-contract-provision"
+      ],
+      "confusedWith": [
+        "insuring-clause"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "In an individual health policy, the consideration clause typically identifies:",
+        "choices": [
+          "The insurer's promise to pay benefits",
+          "The premium and the statements in the application",
+          "The diseases excluded from coverage",
+          "The insurer's right to cancel"
+        ],
+        "answerIndex": 1,
+        "explanation": "The consideration clause describes what the insured gives: premium payments and the application. The insurer's promise is the insuring clause; exclusions and cancellation are separate provisions."
+      },
+      "sources": [
+        "ny-isc-3216",
+        "general-insurance-principles"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19",
+        "notes": "§ 3216(c)(1) verifies the NY rule; the premium-plus-application description is a general principle."
+      }
+    },
+    {
+      "id": "renewability-clause",
+      "term": "Renewability Clause",
+      "aliases": [
+        "Renewal provision"
+      ],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.3.4"
+      ],
+      "formal": "The policy provision describing whether and on what terms the insured may renew coverage and whether the insurer may change premiums or refuse renewal (e.g., noncancelable, guaranteed renewable, conditionally renewable, optionally renewable). NY Insurance Law § 3216(c)(11) requires any age limit or period after which the policy may not be renewed to be stated in a renewal provision on the first page, and § 3216(g) bars insurers from refusing to renew hospital, surgical or medical expense policies except for listed reasons such as nonpayment or fraud.",
+      "plain": "This clause answers two questions: Can the insurer refuse to renew my policy? Can it raise my premium? The answers range from 'never' (noncancelable) to 'whenever it chooses at renewal' (optionally renewable).",
+      "simpler": "It's the 'can I keep this policy, and at what price?' clause.",
+      "examples": [
+        "Jon's disability policy says it is guaranteed renewable to age 65 with premiums that may change by class. The renewability clause tells him the insurer cannot drop him before 65 but may raise rates for his whole class.",
+        "Kim's NY individual medical expense policy cannot be nonrenewed because she developed diabetes; § 3216(g) prohibits refusing renewal because of health."
+      ],
+      "examTip": "Rank renewability from strongest to weakest for the insured: noncancelable → guaranteed renewable → conditionally renewable → optionally renewable (→ cancelable).",
+      "misconception": "Renewability is not the same as the cancellation provision: cancellation ends coverage mid-term (NY: only in the first 90 days), while renewability is about continuing coverage at the end of each term.",
+      "related": [
+        "noncancelable",
+        "guaranteed-renewable",
+        "conditionally-renewable",
+        "optionally-renewable",
+        "cancellation-provision"
+      ],
+      "confusedWith": [
+        "cancellation-provision"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under NY Insurance Law § 3216(g), an insurer may NOT refuse to renew an individual medical expense policy because of:",
+        "choices": [
+          "Nonpayment of premiums",
+          "Fraud in applying for the policy",
+          "The insured's physical or mental condition or health",
+          "Discontinuance of a class of policies under the statute's rules"
+        ],
+        "answerIndex": 2,
+        "explanation": "§ 3216(g)(1) says no insurer shall refuse to renew such a policy 'because of the physical or mental condition or the health of any person covered.' Nonpayment, fraud and a properly handled class discontinuance are permitted reasons."
+      },
+      "sources": [
+        "ny-isc-3216"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "noncancelable",
+      "term": "Noncancelable",
+      "aliases": [
+        "Noncancelable and guaranteed renewable",
+        "Non-can"
+      ],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.3.4.1",
+        "di.2.3.4"
+      ],
+      "formal": "A renewability classification under which the insured has the right to continue the policy in force by timely payment of the premiums set forth in the policy to a stated age, and the insurer may make no unilateral change in any provision, including the premium. Under 11 NYCRR 52.17(a)(5) (Reg 62), the term may be used in NY only if the insured can continue the policy until age 65 or, for disability income policies, alternatively until receipt of Social Security retirement benefits.",
+      "plain": "As long as you pay on time, the insurer can't cancel, can't change the benefits, and can't raise your premium, until the age stated in the policy (often 65).",
+      "simpler": "Locked in: same coverage, same price, as long as you keep paying.",
+      "examples": [
+        "Lena, a surgeon, buys a noncancelable disability income policy at age 35. Even if the insurer's claims soar, her premium stays the same until the policy's stated age.",
+        "Because noncancelable policies give the insurer no pricing flexibility, they usually cost more than guaranteed renewable policies with the same benefits."
+      ],
+      "examTip": "Noncancelable = guaranteed renewal + guaranteed premium. Guaranteed renewable = guaranteed renewal only (premium can rise by class). NY Reg 62 allows the label only when the insured can keep the policy at least to age 65 (or, for disability income, until Social Security retirement benefits begin).",
+      "misconception": "Noncancelable does not mean the insured can never lose coverage; the policy can still lapse if the insured stops paying premiums.",
+      "related": [
+        "guaranteed-renewable",
+        "renewability-clause",
+        "disability-income-insurance"
+      ],
+      "confusedWith": [
+        "guaranteed-renewable"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which renewability type guarantees both renewal and that premiums will not increase?",
+        "choices": [
+          "Guaranteed renewable",
+          "Conditionally renewable",
+          "Optionally renewable",
+          "Noncancelable"
+        ],
+        "answerIndex": 3,
+        "explanation": "Only noncancelable locks both the right to renew and the premium. Guaranteed renewable allows class-wide premium increases; conditionally and optionally renewable allow nonrenewal in some circumstances."
+      },
+      "sources": [
+        "ny-11nycrr-52"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "guaranteed-renewable",
+      "term": "Guaranteed Renewable",
+      "aliases": [],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.3.4.2",
+        "di.2.3.5"
+      ],
+      "formal": "A renewability classification under which the insurer must renew the policy as long as premiums are paid, may not unilaterally change any policy provision, but may change premium rates by classes. Under 11 NYCRR 52.17(a)(6)-(7) (Reg 62), the term may be used in NY only if the insured can continue the policy until age 65 (or, for disability income, until receipt of Social Security retirement benefits), and the insurer's right to change rates must be stated so it is not minimized or obscured.",
+      "plain": "The insurer must keep renewing your policy as long as you pay, but it may raise premiums for everyone in your class (for example, everyone with the same policy form in your state).",
+      "simpler": "You can always keep it, but the price could go up for your whole group.",
+      "examples": [
+        "Marco's guaranteed renewable disability policy has a rate increase approved for all policyholders in his class. His premium goes up, but the insurer cannot drop him.",
+        "The insurer cannot single out Marco for a higher premium because he filed a large claim; increases must apply to the whole class."
+      ],
+      "examTip": "'Premiums may change by class' is the giveaway for guaranteed renewable. If premiums are fixed too, it is noncancelable. NY Reg 62 requires the right to continue to at least age 65 (or Social Security retirement for disability income).",
+      "misconception": "Guaranteed renewable does not lock in the premium; that feature belongs to noncancelable policies.",
+      "related": [
+        "noncancelable",
+        "renewability-clause",
+        "conditionally-renewable"
+      ],
+      "confusedWith": [
+        "noncancelable"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under a guaranteed renewable policy, the insurer may:",
+        "choices": [
+          "Raise premiums for an entire class of insureds",
+          "Refuse to renew because of a large claim",
+          "Raise one insured's premium because of poor health",
+          "Change the benefits at each renewal"
+        ],
+        "answerIndex": 0,
+        "explanation": "A guaranteed renewable policy must be renewed and its provisions cannot be changed, but premiums may be adjusted on a class basis. Individual-based increases, benefit changes and claim-based nonrenewal are not allowed."
+      },
+      "sources": [
+        "ny-11nycrr-52"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "conditionally-renewable",
+      "term": "Conditionally Renewable",
+      "aliases": [],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.3.4"
+      ],
+      "formal": "A renewability classification under which the insurer may refuse to renew the policy only for specific reasons or conditions stated in the policy (such as the insured's retirement or change of employment, or nonrenewal of all policies in a class), but not because of the insured's deteriorating health.",
+      "plain": "The insurer can decline to renew, but only for the specific reasons written in the policy, never just because your health got worse.",
+      "simpler": "Renewable unless one of the listed 'exit conditions' happens.",
+      "examples": [
+        "Nora's conditionally renewable policy may be nonrenewed if she stops working full time; after she retires, the insurer declines to renew.",
+        "Nora is diagnosed with a serious illness while still working full time; the insurer cannot refuse renewal for that reason under a conditionally renewable policy."
+      ],
+      "examTip": "Conditionally renewable = nonrenewal only for stated conditions other than health. Optionally renewable = insurer's choice at each renewal date.",
+      "misconception": "Conditionally renewable does not let the insurer drop a single insured simply because that person filed claims or became sick.",
+      "related": [
+        "optionally-renewable",
+        "guaranteed-renewable",
+        "renewability-clause"
+      ],
+      "confusedWith": [
+        "optionally-renewable"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A policy that the insurer may refuse to renew only for reasons stated in the policy, other than health, is:",
+        "choices": [
+          "Optionally renewable",
+          "Conditionally renewable",
+          "Noncancelable",
+          "Guaranteed renewable"
+        ],
+        "answerIndex": 1,
+        "explanation": "Conditionally renewable policies permit nonrenewal only for stated conditions. Optionally renewable gives the insurer broad discretion at renewal; noncancelable and guaranteed renewable do not allow nonrenewal while premiums are paid."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "optionally-renewable",
+      "term": "Optionally Renewable",
+      "aliases": [],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.3.4",
+        "ihp.1.3"
+      ],
+      "formal": "A renewability classification under which the insurer reserves the right to refuse renewal on the policy anniversary or premium due date. Under N.Y. Insurance Law § 3216(d)(1)(C), a policy in which the insurer reserves the right to refuse renewal must state that the grace period applies unless the insurer has delivered or mailed written notice of its intention not to renew not less than thirty days before the renewal date.",
+      "plain": "The insurer gets to decide at each renewal whether to keep you. In New York, if it chooses not to renew, it must send written notice at least 30 days before the renewal date.",
+      "simpler": "Renewal is the insurer's choice, but it has to warn you at least a month ahead in New York.",
+      "examples": [
+        "Oscar's optionally renewable accident policy renews each January 1. The insurer mails a nonrenewal notice on November 15, more than 30 days before renewal, so it may decline to renew.",
+        "If the insurer waits until December 20 to send the notice, it has not given 30 days' notice before the January 1 renewal date."
+      ],
+      "examTip": "Optionally renewable gives the insurer the most control of any renewable type. NY requires at least 30 days' written notice of nonrenewal under § 3216(d)(1)(C).",
+      "misconception": "Optionally renewable does not let the insurer cancel in the middle of a premium period; its option is exercised at renewal.",
+      "related": [
+        "conditionally-renewable",
+        "renewability-clause",
+        "grace-period",
+        "cancellation-provision"
+      ],
+      "confusedWith": [
+        "conditionally-renewable",
+        "cancellation-provision"
+      ],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "In NY, an insurer that reserves the right to refuse renewal must give written notice of nonrenewal at least how long before the renewal date?",
+        "choices": [
+          "10 days",
+          "90 days",
+          "30 days",
+          "180 days"
+        ],
+        "answerIndex": 2,
+        "explanation": "§ 3216(d)(1)(C) requires notice 'not less than thirty days prior to the renewal date.' 10 days is the minimum cancellation notice; 90 and 180 days relate to discontinuing classes or leaving the individual market under § 3216(g)."
+      },
+      "sources": [
+        "ny-isc-3216"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "other-insurance-provision",
+      "term": "Other Insurance with This Insurer",
+      "aliases": [
+        "Other insurance in this insurer"
+      ],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.2",
+        "ihp.2.2"
+      ],
+      "formal": "An optional provision under N.Y. Insurance Law § 3216(d)(2)(C): if other policies previously issued by the same insurer are in force concurrently and the aggregate indemnity exceeds a stated maximum, the excess insurance is void and premiums for the excess are returned; alternatively, insurance is limited to the one policy elected by the insured (or beneficiary or estate) and premiums for the others are returned.",
+      "plain": "An insurer may cap the total benefits you can collect from several of its own similar policies. Coverage above the cap is void, and you get back the premiums you paid for it.",
+      "simpler": "You can't stack the same insurer's policies past its limit; you get a refund for the extra.",
+      "examples": [
+        "Pia owns two accident policies from the same insurer, together paying $6,000 a month; the policies cap the aggregate at $4,000. The extra $2,000 of coverage is void and its premiums are refunded.",
+        "Under the alternate wording, Pia's beneficiary chooses which one policy to keep, and premiums for the others are returned."
+      ],
+      "examTip": "Distinguish: 'Other insurance in THIS insurer' (§ 3216(d)(2)(C)) vs 'Insurance with OTHER insurers' (§ 3216(d)(2)(D) expense incurred; (E) other benefits), which prorate benefits when the insurer was not notified of other coverage.",
+      "misconception": "The provision does not deny all benefits when the insured owns multiple policies; it voids only the excess over the stated maximum and refunds those premiums.",
+      "related": [
+        "coordination-of-benefits",
+        "relation-of-earnings"
+      ],
+      "confusedWith": [
+        "coordination-of-benefits"
+      ],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "Under the 'other insurance in this insurer' provision, coverage above the insurer's stated aggregate maximum is:",
+        "choices": [
+          "Paid in full",
+          "Paid at 50%",
+          "Converted to a group certificate",
+          "Void, with premiums for the excess returned"
+        ],
+        "answerIndex": 3,
+        "explanation": "§ 3216(d)(2)(C) voids the excess insurance and requires return of the premiums paid for it (or, under the alternative wording, limits coverage to one elected policy)."
+      },
+      "sources": [
+        "ny-isc-3216"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "a": "noncancelable",
+      "b": "guaranteed-renewable",
+      "keyDifference": "Both guarantee the insured's right to renew to a stated age while premiums are paid; only noncancelable also guarantees the premium will not increase. Guaranteed renewable premiums can rise for an entire class.",
+      "rows": [
+        {
+          "aspect": "Insurer may refuse renewal?",
+          "a": "No (while premiums are paid, to the stated age)",
+          "b": "No (while premiums are paid, to the stated age)"
+        },
+        {
+          "aspect": "Insurer may raise premium?",
+          "a": "No, premium is fixed in the policy",
+          "b": "Yes, but only for an entire class"
+        },
+        {
+          "aspect": "Insurer may change benefits?",
+          "a": "No",
+          "b": "No"
+        },
+        {
+          "aspect": "Relative cost",
+          "a": "Highest",
+          "b": "Lower than noncancelable"
+        }
+      ],
+      "memoryTip": "NON-can = NO changes at all. Guaranteed renewable = Guaranteed to stay, but the price can climb (by class)."
+    },
+    {
+      "a": "notice-of-claim",
+      "b": "proof-of-loss",
+      "keyDifference": "Notice of claim is the quick written heads-up (NY: within 20 days); proof of loss is the detailed written documentation (NY: within 90 days after the liability period for periodic benefits, 120 days after the loss otherwise).",
+      "rows": [
+        {
+          "aspect": "Purpose",
+          "a": "Alerts the insurer a claim is coming",
+          "b": "Documents the occurrence, character and extent of the loss"
+        },
+        {
+          "aspect": "NY time limit",
+          "a": "20 days, or as soon as reasonably possible",
+          "b": "90 days (periodic) / 120 days (other); one-year outer limit unless legally incapacitated"
+        },
+        {
+          "aspect": "Order",
+          "a": "First step",
+          "b": "After the insurer furnishes claim forms (within 15 days) or after 15 days pass"
+        }
+      ],
+      "memoryTip": "Notice is a Note (20 days); Proof is Paperwork (90 days)."
+    }
+  ]
+}

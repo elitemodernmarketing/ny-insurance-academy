@@ -1,0 +1,366 @@
+{
+  "sectionId": "ltc",
+  "terms": [
+    {
+      "id": "activities-of-daily-living",
+      "term": "Activities of Daily Living (ADLs)",
+      "aliases": [
+        "ADLs"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.7",
+        "ltc.1.2"
+      ],
+      "formal": "The basic self-care tasks used to measure functional capacity for long-term care benefit eligibility. Federal tax law (IRC § 7702B(c)(2)(B)) lists six: eating, toileting, transferring, bathing, dressing and continence. A tax-qualified LTC contract pays benefits for a chronically ill individual certified as unable to perform at least 2 ADLs without substantial assistance for at least 90 days.",
+      "plain": "ADLs are the six everyday things you need to do to take care of yourself — eat, use the toilet, move from bed to chair (transfer), bathe, dress, and control your bladder and bowels (continence). Needing hands-on or standby help with at least two of them, expected to last 90 days or more, is the usual trigger for LTC benefits.",
+      "simpler": "If you need help with two of the six basic 'take care of yourself' tasks for a long time, your LTC policy starts paying.",
+      "examples": [
+        "After a stroke, Irene cannot bathe or dress herself without help, and her doctor expects this to last at least 90 days; she meets the 2-of-6 ADL trigger.",
+        "Oscar needs help only with cooking and shopping. Those are not ADLs (they are 'instrumental' activities), so he has not met an ADL-based benefit trigger."
+      ],
+      "examTip": "Memorize the six ADLs with 'BATTED': Bathing, (continence = Accidents), Transferring, Toileting, Eating, Dressing. The tax-qualified trigger is 2 of 6 for at least 90 days — OR a severe cognitive impairment.",
+      "misconception": "Cooking, cleaning, shopping, managing money and taking medications are NOT among the six ADLs; they are instrumental activities of daily living (IADLs).",
+      "related": [
+        "cognitive-impairment",
+        "custodial-care",
+        "long-term-care-insurance"
+      ],
+      "confusedWith": [
+        "cognitive-impairment"
+      ],
+      "pronunciation": "A-D-L",
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which of the following is one of the six activities of daily living used to trigger tax-qualified LTC benefits?",
+        "choices": [
+          "Transferring",
+          "Grocery shopping",
+          "Managing finances",
+          "Housekeeping"
+        ],
+        "answerIndex": 0,
+        "explanation": "The six ADLs in IRC § 7702B are eating, toileting, transferring, bathing, dressing and continence. Shopping, finances and housekeeping are instrumental activities, not ADLs."
+      },
+      "sources": [
+        "fed-usc-26-7702b"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "cognitive-impairment",
+      "term": "Cognitive Impairment",
+      "aliases": [
+        "severe cognitive impairment"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.2"
+      ],
+      "formal": "A deficiency in short- or long-term memory, orientation, or reasoning (for example from Alzheimer's disease or other dementia). Under IRC § 7702B(c)(2)(A)(iii), a person requiring substantial supervision to protect him or her from threats to health and safety due to severe cognitive impairment is a chronically ill individual eligible for tax-qualified LTC benefits, even if he or she can physically perform the ADLs.",
+      "plain": "Someone with dementia may be able to walk, dress and eat but still be unsafe alone — wandering off, leaving the stove on. A severe cognitive impairment that requires substantial supervision is a separate trigger for LTC benefits; the ADL test does not have to be met.",
+      "simpler": "Your body may work fine, but if your mind can't keep you safe, the policy still pays.",
+      "examples": [
+        "Walter, who has Alzheimer's disease, can dress and feed himself but wanders out of the house at night; he needs substantial supervision, so he qualifies for benefits on the cognitive-impairment trigger.",
+        "A licensed health care practitioner certifies that Edna's severe dementia requires constant supervision; her LTC policy begins benefits even though she can still perform her ADLs."
+      ],
+      "examTip": "Two independent ways to qualify for tax-qualified LTC benefits: (1) unable to perform 2 of 6 ADLs for 90+ days, OR (2) severe cognitive impairment requiring substantial supervision. In New York, LTC policies may not exclude Alzheimer's disease or demonstrable organic brain disease.",
+      "misconception": "A person with dementia does not have to fail two ADLs to qualify. Severe cognitive impairment requiring substantial supervision is a stand-alone trigger.",
+      "related": [
+        "activities-of-daily-living",
+        "long-term-care-insurance",
+        "custodial-care"
+      ],
+      "confusedWith": [
+        "activities-of-daily-living"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "An insured with Alzheimer's disease can bathe and dress himself but needs constant supervision to stay safe. Under federal tax-qualified LTC rules, he:",
+        "choices": [
+          "Qualifies for benefits based on severe cognitive impairment",
+          "Does not qualify because he can perform his ADLs",
+          "Qualifies only after a 3-day hospital stay",
+          "Qualifies only if he also fails two ADLs"
+        ],
+        "answerIndex": 0,
+        "explanation": "IRC § 7702B treats a person who requires substantial supervision due to severe cognitive impairment as chronically ill, independent of the ADL test. No prior hospital stay is required."
+      },
+      "sources": [
+        "fed-usc-26-7702b",
+        "ny-11nycrr-52-25"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "reimbursement-vs-indemnity",
+      "term": "Reimbursement vs. Indemnity (Cash) Benefits",
+      "aliases": [
+        "expense-incurred benefit",
+        "per diem benefit",
+        "cash benefit"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.8",
+        "ltc.1.8.1",
+        "ltc.1.6"
+      ],
+      "formal": "Two methods of paying LTC benefits: a reimbursement (expense-incurred) policy pays the actual covered charges incurred, up to the daily or monthly maximum; an indemnity (per diem or cash) policy pays a fixed daily or monthly amount once the insured qualifies, regardless of the actual charges.",
+      "plain": "With reimbursement, you send in the bills and the insurer pays what you actually spent, up to your limit. With indemnity (cash), the insurer pays the set amount once you qualify, even if your care cost less.",
+      "simpler": "Reimbursement = 'show me the receipt.' Indemnity = 'here's your fixed amount.'",
+      "examples": [
+        "Lena has a $200-per-day reimbursement policy. Her home care costs $150 on Monday, so the policy pays $150.",
+        "Victor has a $200-per-day indemnity policy. His care costs $150 that day, but the policy pays the full $200 because benefits don't depend on actual charges."
+      ],
+      "examTip": "If the policy pays 'the lesser of actual charges or the daily maximum', it is reimbursement. If it pays the full stated amount regardless of cost, it is indemnity (per diem). Indemnity is more flexible but usually costs more.",
+      "misconception": "'Indemnity' here does not mean the policy restores you to your exact financial position. In LTC, indemnity/per diem means a flat amount is paid regardless of the bill.",
+      "related": [
+        "long-term-care-insurance",
+        "inflation-protection",
+        "hospital-indemnity"
+      ],
+      "confusedWith": [
+        "indemnity"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "An LTC policy pays its full $150 daily benefit even though the insured's care cost only $110 that day. This policy pays benefits on which basis?",
+        "choices": [
+          "Indemnity (per diem)",
+          "Reimbursement (expense-incurred)",
+          "Coinsurance",
+          "Pro rata"
+        ],
+        "answerIndex": 0,
+        "explanation": "Paying a fixed amount regardless of actual charges is indemnity/per diem. A reimbursement policy would have paid only the $110 actually incurred."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "inflation-protection",
+      "term": "Inflation Protection",
+      "aliases": [
+        "COLA (LTC)",
+        "benefit increase option"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.8",
+        "ltc.1.8.2"
+      ],
+      "formal": "An LTC policy feature that increases the daily and lifetime benefit maximums over time to account for rising costs of care. Under 11 NYCRR 52.25(c)(3), an insurer may not offer LTC insurance in New York unless it also offers, at the time of purchase, an inflation protection option no less favorable than one of the regulation's listed designs.",
+      "plain": "Care costs go up every year. Inflation protection makes your benefits grow too, so a policy bought at 55 is still meaningful at 85. New York requires insurers to OFFER this option when you buy; you may accept or decline it.",
+      "simpler": "It's a raise for your policy's benefits so they keep up with rising prices.",
+      "examples": [
+        "Ana buys a policy with a $200 daily benefit and 5% compound inflation protection. After one year her daily benefit is $210; after two years it is $220.50.",
+        "Ray declines the inflation option at purchase to keep premiums low. Twenty years later his $150 daily benefit is still $150, though care costs have risen."
+      ],
+      "examTip": "NY rule: the insurer must OFFER inflation protection at the time of purchase (it is not mandatory to buy). One acceptable design increases benefits 5% (or by CPI-U) compounded annually; another guarantees periodic increases without evidence of insurability unless the option has been declined three consecutive times.",
+      "misconception": "Inflation protection is not automatically included in every policy. The insurer must offer it, but the applicant may decline it.",
+      "related": [
+        "long-term-care-insurance",
+        "ltc-nonforfeiture",
+        "cost-of-living-adjustment"
+      ],
+      "confusedWith": [
+        "cost-of-living-adjustment"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under New York regulation, what must an insurer do regarding inflation protection when selling an LTC policy?",
+        "choices": [
+          "Offer the applicant the option to buy it at the time of purchase",
+          "Include it automatically in every policy at no extra cost",
+          "Offer it only after the insured's first claim",
+          "Offer it only to applicants under age 50"
+        ],
+        "answerIndex": 0,
+        "explanation": "11 NYCRR 52.25(c)(3) requires the insurer to offer, at the time of purchase, an inflation protection option no less favorable than one of the listed designs. Purchase is the applicant's choice."
+      },
+      "sources": [
+        "ny-11nycrr-52-25"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-nonforfeiture",
+      "term": "LTC Nonforfeiture Benefit",
+      "aliases": [
+        "reduced paid-up LTC benefit"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.8",
+        "ltc.1.8.3"
+      ],
+      "formal": "A benefit that preserves some value for an LTC policyowner who stops paying premiums after the policy has been in force. Under 11 NYCRR 52.25(c)(7), an insurer may not offer an LTC policy unless the policy provides, at the option of the insured or policyholder, some type of nonforfeiture value, such as reduced paid-up insurance.",
+      "plain": "If you pay LTC premiums for years and then stop, a nonforfeiture benefit means you don't lose everything — you keep a smaller, paid-up amount of coverage. In New York, the policy must give you the option of having this feature.",
+      "simpler": "You stop paying, but you still keep a smaller piece of the coverage you paid for.",
+      "examples": [
+        "Hal paid LTC premiums for 15 years, then could no longer afford them. Because he chose the nonforfeiture option, he keeps reduced paid-up coverage instead of losing the policy.",
+        "A policy lists the reduced paid-up percentages that will apply to its nursing home benefits if premiums stop."
+      ],
+      "examTip": "Link the word 'nonforfeiture' to 'reduced paid-up insurance.' NY: the policy must provide some type of nonforfeiture value at the option of the insured or policyholder (11 NYCRR 52.25(c)(7)).",
+      "misconception": "A nonforfeiture benefit is not a cash refund of premiums. That is the separate return-of-premium option.",
+      "related": [
+        "inflation-protection",
+        "long-term-care-insurance",
+        "estate-recovery"
+      ],
+      "confusedWith": [
+        "inflation-protection"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which LTC policy feature allows a policyowner who stops paying premiums to keep a reduced level of paid-up coverage?",
+        "choices": [
+          "Nonforfeiture benefit",
+          "Inflation protection",
+          "Guarantee of insurability",
+          "Shared care"
+        ],
+        "answerIndex": 0,
+        "explanation": "A nonforfeiture benefit (such as reduced paid-up insurance) preserves value when premiums stop. Inflation protection increases benefits; guarantee of insurability allows buying more coverage without proof of health; shared care lets spouses share benefits."
+      },
+      "sources": [
+        "ny-11nycrr-52-25"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "shared-care",
+      "term": "Shared Care",
+      "aliases": [
+        "shared benefit rider"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.8",
+        "ltc.1.8.6"
+      ],
+      "formal": "An optional LTC benefit, usually for spouses or partners who each own a policy, that allows one person to draw on the other's unused benefits (or a shared pool of benefits) after exhausting his or her own.",
+      "plain": "Shared care lets a couple share their benefits. If one partner needs a lot of care and uses up his own benefit, he can tap into his partner's benefit.",
+      "simpler": "Two policies, one shared bucket of benefits for the couple.",
+      "examples": [
+        "Sam and Jill each have three years of LTC benefits with a shared care rider. Sam needs five years of care, so after his three years run out he uses two years of Jill's benefits.",
+        "A couple chooses a shared benefit pool instead of each buying a longer benefit period, because they expect that both will not need lengthy care."
+      ],
+      "examTip": "Shared care = couples sharing benefit pools. Note the trade-off: if one partner uses the other's benefits, less remains for the surviving partner.",
+      "misconception": "Shared care does not double the total benefits; it lets partners redistribute the benefits they already bought.",
+      "related": [
+        "long-term-care-insurance",
+        "inflation-protection"
+      ],
+      "confusedWith": [
+        "respite-care"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "An optional LTC benefit that lets one spouse use the other spouse's unused benefits is called:",
+        "choices": [
+          "Shared care",
+          "Respite care",
+          "Return of premium",
+          "Guarantee of insurability"
+        ],
+        "answerIndex": 0,
+        "explanation": "Shared care lets partners draw from each other's (or a joint) benefit pool. Respite care relieves caregivers; return of premium refunds premiums; guarantee of insurability allows future purchases without evidence of health."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "hybrid-ltc",
+      "term": "Hybrid (Linked-Benefit) LTC",
+      "aliases": [
+        "linked-benefit policy",
+        "combination LTC",
+        "life/LTC hybrid",
+        "annuity/LTC hybrid"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.10"
+      ],
+      "formal": "A product that combines long-term care benefits with a life insurance policy or an annuity, so that the contract pays LTC benefits if needed and otherwise provides a death benefit or annuity value.",
+      "plain": "A hybrid policy is two products in one: life insurance (or an annuity) plus LTC coverage. If you need care, you use the LTC benefits; if you never do, your beneficiaries still receive a death benefit or you keep the annuity value.",
+      "simpler": "It answers the worry 'What if I pay for LTC insurance and never use it?' — the money still goes somewhere.",
+      "examples": [
+        "Eva buys a $300,000 universal life policy with an LTC rider. When she needs care at 82, the policy accelerates part of the death benefit to pay for it; the remainder goes to her children when she dies.",
+        "Marcus funds an annuity with an LTC rider; if he needs care, LTC benefits are paid on top of the annuity value, and if not, he keeps the annuity's accumulated value."
+      ],
+      "examTip": "Look for 'combines', 'linked', or 'accelerates the death benefit for long-term care' — that's a hybrid. The appeal: benefits are paid one way or another (care or death/annuity value).",
+      "misconception": "A hybrid policy is not just a life policy that pays more when you need care; LTC benefits paid out generally reduce the death benefit or annuity value that remains.",
+      "related": [
+        "long-term-care-insurance",
+        "reimbursement-vs-indemnity"
+      ],
+      "confusedWith": [],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A universal life policy that can pay part of its death benefit early to cover long-term care expenses is an example of a:",
+        "choices": [
+          "Hybrid (linked-benefit) policy",
+          "Medicare supplement policy",
+          "Shared care rider",
+          "Partnership dollar-for-dollar policy"
+        ],
+        "answerIndex": 0,
+        "explanation": "Combining life insurance (or an annuity) with LTC benefits is a hybrid/linked-benefit product. The other choices describe Medigap, couples' benefit sharing, and a NY Partnership asset-protection design."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ],
+  "comparisons": []
+}

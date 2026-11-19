@@ -1,0 +1,831 @@
+{
+  "sectionId": "plho",
+  "lessons": [
+    {
+      "id": "plho-l01",
+      "sectionId": "plho",
+      "order": 1,
+      "title": "Homeowners Basics: Eligibility, the Six Forms and Key Definitions",
+      "outlineIds": [
+        "plho.1",
+        "plho.2",
+        "plho.2.1",
+        "plho.3"
+      ],
+      "estMinutes": 30,
+      "intro": "The homeowners policy is the most heavily tested topic on the Personal Lines exam — about a quarter of the questions. Start here: who can buy one, how the six forms (HO-2, HO-3, HO-4, HO-5, HO-6 and HO-8) differ, and the definitions that decide who and where the policy covers.",
+      "objectives": [
+        "Explain the purpose of a homeowners policy and who is eligible",
+        "Match each homeowners form to the person it fits and the perils it covers",
+        "Apply the definitions of insured, resident relative, residence premises, insured location, occurrence, bodily injury, property damage and business"
+      ],
+      "keyTerms": [
+        "ho-broad-form",
+        "ho-special-form",
+        "ho-contents-broad-form",
+        "ho-comprehensive-form",
+        "ho-unit-owners-form",
+        "ho-modified-coverage-form",
+        "residence-premises",
+        "resident-relative",
+        "insured-location",
+        "occurrence",
+        "bodily-injury",
+        "property-damage"
+      ],
+      "parts": [
+        {
+          "heading": "Purpose and eligibility",
+          "body": "A homeowners policy is a **package policy**: it combines property insurance (**Section I** — Coverages A, B, C and D) with liability insurance (**Section II** — Coverages E and F) in one contract.\n\nEligibility depends on the form:\n\n- **Owner-occupants** of a one-family dwelling, or of a two- to four-family dwelling where they live in one unit — HO-2, HO-3, HO-5 or HO-8\n- **Tenants** (renters) — HO-4\n- **Condominium or cooperative unit owners** — HO-6\n\nA landlord insuring a house he does not live in uses a [[dwelling-policy]] instead. Insurers also apply their own underwriting rules (for example, about the home's condition, value or business use).",
+          "simple": "Homeowners insurance covers your home and belongings (Section I) and protects you if you are sued (Section II). Owners who live in the home, renters and condo owners each have their own form.",
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Section I = Stuff (A–D). Section II = Suits (E–F)."
+            }
+          ]
+        },
+        {
+          "heading": "The six forms",
+          "body": "- **[[ho-broad-form|HO-2 Broad form]]** — broad [[named-perils-coverage|named perils]] on the dwelling, other structures and personal property.\n- **[[ho-special-form|HO-3 Special form]]** — [[open-perils-coverage|open perils]] on the dwelling and other structures; broad named perils on personal property. The most common form.\n- **[[ho-contents-broad-form|HO-4 Contents broad form]]** — for tenants: personal property (broad named perils), loss of use, a limited amount for building additions and alterations the tenant made, and Section II. No Coverage A or B.\n- **[[ho-comprehensive-form|HO-5 Comprehensive form]]** — open perils on the dwelling, other structures **and** personal property.\n- **[[ho-unit-owners-form|HO-6 Unit-owners form]]** — for condo/co-op owners: personal property, a limited Coverage A for the parts of the unit the owner is responsible for (fixtures, improvements, alterations), loss of use, loss assessment and Section II.\n- **[[ho-modified-coverage-form|HO-8 Modified coverage form]]** — for older homes whose replacement cost far exceeds market value: a short named-perils list, limited theft coverage, and repair with common, functionally equivalent materials (or actual cash value).\n\nThe broad named perils for personal property include fire or lightning, windstorm or hail, explosion, riot, aircraft, vehicles, smoke, vandalism, theft, falling objects, weight of ice/snow/sleet, accidental discharge of water or steam, sudden tearing apart of heating or water systems, freezing, artificially generated electrical current and volcanic eruption.",
+          "example": {
+            "title": "Example: Lucy's TV",
+            "body": "Lucy knocks her TV off its stand. Under HO-3 the TV (Coverage C) is not covered — accidental breakage is not a named peril. Under HO-5, personal property is open perils, so the loss is covered unless excluded."
+          },
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "HO-3 is open perils only on Coverages A and B. Personal property is still named perils unless the form is HO-5."
+            },
+            {
+              "kind": "memory-tip",
+              "text": "2 = names everything; 3 = opens the house; 4 = renter; 5 = opens everything; 6 = condo; 8 = old home."
+            }
+          ]
+        },
+        {
+          "heading": "Who is an insured",
+          "body": "The named insured is the person in the declarations (and a spouse living in the household). Insureds also commonly include:\n\n- **[[resident-relative|Resident relatives]]** — related by blood, marriage or adoption **and** living in the household\n- Other persons under a stated age in the care of a household insured (such as a foster child)\n- Full-time students who lived in the household before leaving for school, within the form's age limits\n- For Section II: persons legally responsible for an insured's animals or small watercraft, and certain employees operating covered vehicles\n\nA relative who lives in his own home is **not** an insured, and neither is a paying boarder who is not related.",
+          "example": {
+            "title": "Example: Mia at college",
+            "body": "Mia, 19, moved from her parents' home into a dorm to study full time. She is still an insured under her parents' policy, so her dorm belongings are covered (subject to the form's limits for property at other residences)."
+          }
+        },
+        {
+          "heading": "Where and what: premises, location, occurrence, injury and damage",
+          "body": "- **[[residence-premises|Residence premises]]** — the dwelling where the named insured lives (one-family, or a two- to four-family dwelling where the named insured lives in one unit), with its grounds and structures, shown in the declarations.\n- **[[insured-location|Insured location]]** — broader: the residence premises plus other residences listed or acquired, nonowned premises where an insured temporarily lives (a hotel room), vacant non-farm land owned or rented, land where a home is being built for the insured, cemetery plots, and premises occasionally rented for non-business use (a party hall).\n- **[[occurrence|Occurrence]]** — an accident, including repeated exposure to the same harmful conditions, causing bodily injury or property damage during the policy period.\n- **[[bodily-injury|Bodily injury]]** — physical harm, sickness or disease, including required care and resulting death. Not libel or slander.\n- **[[property-damage|Property damage]]** — physical injury to, destruction of or loss of use of tangible property.\n- **Business** — a trade, profession or occupation engaged in full time, part time or occasionally, or other activities for compensation, with carve-outs such as volunteer work, small amounts of income and certain unpaid home day care. Business activities trigger low special limits in Section I and the business exclusion in Section II.",
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "Residence premises requires that you live there. A rental house you own is not your residence premises."
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "match",
+        "prompt": "Match each homeowners form to who or what it is designed for.",
+        "pairs": [
+          {
+            "left": "HO-2",
+            "right": "Owner-occupant wanting named perils on everything"
+          },
+          {
+            "left": "HO-3",
+            "right": "Owner-occupant; open perils on the dwelling"
+          },
+          {
+            "left": "HO-4",
+            "right": "Tenant renting an apartment"
+          },
+          {
+            "left": "HO-5",
+            "right": "Owner-occupant; open perils on dwelling and contents"
+          },
+          {
+            "left": "HO-6",
+            "right": "Condominium unit owner"
+          },
+          {
+            "left": "HO-8",
+            "right": "Older home worth far less than its rebuilding cost"
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Which form covers personal property on an open-perils basis?",
+          "choices": [
+            "HO-2",
+            "HO-3",
+            "HO-5",
+            "HO-8"
+          ],
+          "answerIndex": 2,
+          "explanation": "HO-5 is open perils on Coverages A, B and C."
+        },
+        {
+          "prompt": "Which person is NOT an insured under Paul's homeowners policy?",
+          "choices": [
+            "His wife who lives with him",
+            "His nephew who lives with him",
+            "His married daughter who owns her own home",
+            "His son away at college full time"
+          ],
+          "answerIndex": 2,
+          "explanation": "Relatives must live in the household (with a student exception) to be insureds."
+        },
+        {
+          "prompt": "Libel and slander claims are",
+          "choices": [
+            "Bodily injury",
+            "Property damage",
+            "Personal injury, requiring an endorsement",
+            "Always excluded by law"
+          ],
+          "answerIndex": 2,
+          "explanation": "Defamation is a personal injury offense covered only by the personal injury endorsement."
+        }
+      ],
+      "summary": [
+        "Homeowners = package: Section I property (A–D) + Section II liability (E–F).",
+        "HO-2 named perils; HO-3 open on A/B; HO-4 renters; HO-5 open on everything; HO-6 condo; HO-8 older homes.",
+        "Insureds are the named insured, resident relatives and certain others; residence premises requires that the named insured live there.",
+        "Occurrence includes repeated exposure; bodily injury is physical; property damage includes loss of use of tangible property."
+      ],
+      "related": [
+        "plho-l02",
+        "pldwl-l01"
+      ],
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-l02",
+      "sectionId": "plho",
+      "order": 2,
+      "title": "Section I: Coverages A–D, Special Limits and Additional Coverages",
+      "outlineIds": [
+        "plho.4",
+        "plho.4.1",
+        "plho.4.2",
+        "plho.4.3",
+        "plho.4.4",
+        "plho.4.5"
+      ],
+      "estMinutes": 30,
+      "intro": "Section I protects the property: the house, detached structures, your belongings and your ability to live at home. This lesson walks through each coverage, how its limit is usually set, the special limits that surprise policyholders, and the additional coverages that come with the policy.",
+      "objectives": [
+        "Describe what Coverages A, B, C and D each insure",
+        "Calculate common Coverage B, C and D limits from a percentage of Coverage A",
+        "Apply special limits of liability and identify property not covered",
+        "Recognize the Section I additional coverages"
+      ],
+      "keyTerms": [
+        "coverage-a-dwelling",
+        "coverage-b-other-structures",
+        "coverage-c-personal-property",
+        "coverage-d-loss-of-use",
+        "special-limits-of-liability",
+        "additional-living-expense",
+        "fair-rental-value"
+      ],
+      "parts": [
+        {
+          "heading": "Coverage A and Coverage B",
+          "body": "**[[coverage-a-dwelling|Coverage A — Dwelling]]** insures the house on the residence premises, structures attached to it (attached garage, deck) and materials on or next to the premises for its construction or repair. Land is never covered.\n\n**[[coverage-b-other-structures|Coverage B — Other structures]]** insures structures separated from the dwelling by clear space or connected only by a fence or utility line — a detached garage, shed, fence or gazebo. On HO-2, HO-3 and HO-5 it is commonly 10% of Coverage A, as **additional** insurance. Structures used for business or rented to someone who is not a tenant of the dwelling (other than as a private garage) are commonly not covered.",
+          "example": {
+            "title": "Example: Dan's garage",
+            "body": "Coverage A is $300,000; Coverage B is 10%, or $30,000. A fire causes $36,000 of damage to the detached garage. The insurer pays $30,000; Dan absorbs $6,000. His Coverage A limit is unaffected."
+          },
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "A = Attached; B = Beside."
+            }
+          ]
+        },
+        {
+          "heading": "Coverage C — Personal property",
+          "body": "[[coverage-c-personal-property|Coverage C]] insures personal property owned or used by an insured **anywhere in the world**. At the insured's request it can also cover property of guests or residence employees at a residence the insured occupies. On HO-2/3/5 it is commonly 50% of Coverage A; property usually kept at a secondary residence is commonly limited to a small percentage of Coverage C.\n\n**[[special-limits-of-liability|Special limits]]** are lower caps inside Coverage C for certain categories — for example money, securities, watercraft, trailers, business property on and off premises, and **theft** of jewelry, watches and furs, firearms, and silverware. The cap applies per loss to the category as a whole. Theft-only caps do not apply to losses by other perils such as fire.\n\n**Property not covered** includes animals, most motor vehicles (with exceptions such as vehicles used to service the premises), aircraft and hovercraft, property of unrelated roomers and boarders, property regularly rented to others, business data and credit cards except as provided.",
+          "example": {
+            "title": "Example: Noor's stolen jewelry",
+            "body": "Burglars take $7,000 of jewelry. Coverage C is $150,000, but the theft-of-jewelry special limit shown is $1,500, so the insurer pays $1,500. Scheduling the jewelry would have avoided the cap."
+          },
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "A high Coverage C limit does not help with a special-limit item. The answer is to schedule the item."
+            }
+          ]
+        },
+        {
+          "heading": "Coverage D — Loss of use",
+          "body": "[[coverage-d-loss-of-use|Coverage D]] pays when a covered loss makes the residence unfit to live in:\n\n- **[[additional-living-expense|Additional living expense]]** — the increase in living costs to keep the household's normal standard of living\n- **[[fair-rental-value|Fair rental value]]** — rent lost on a part of the residence rented to others, minus expenses that stop\n- **Civil authority** — loss of use for a limited time when officials prohibit use of the premises because of covered damage to neighboring property\n\nOn HO-2/3/5 it is commonly 30% of Coverage A; on HO-4 and HO-6 it is based on Coverage C.",
+          "example": {
+            "title": "Example: The Diaz family",
+            "body": "Normal costs $2,500 a month; displaced costs $4,000 a month for 3 months. ALE = ($4,000 − $2,500) × 3 = $4,500."
+          }
+        },
+        {
+          "heading": "Section I additional coverages",
+          "body": "These come with the policy, often with their own small limits, and generally apply only when the underlying cause is covered:\n\n- **Debris removal** — removing debris of covered property (and certain fallen trees)\n- **Reasonable repairs** — protecting property from further damage\n- **Trees, shrubs and other plants** — named perils that commonly exclude windstorm; small per-tree limit\n- **Fire department service charge**\n- **Property removed** to protect it from a covered peril\n- **Credit card, electronic fund transfer card, forgery and counterfeit money**\n- **Loss assessment** — the insured's share of an association assessment\n- **Collapse**, **glass or safety glazing**, **landlord's furnishings**\n- **Ordinance or law** — increased costs of building-code compliance, commonly a percentage of Coverage A\n- **Grave markers**\n\nOn the exam, any specific dollar or percentage limit you need will be given in the question.",
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "A tree blown over by wind with nothing damaged is not covered under the trees additional coverage; a tree hit by a stranger's car is."
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "categorize",
+        "prompt": "Sort each item into the Section I coverage that pays for it.",
+        "categories": [
+          "Coverage A — Dwelling",
+          "Coverage B — Other structures",
+          "Coverage C — Personal property",
+          "Coverage D — Loss of use"
+        ],
+        "items": [
+          {
+            "text": "Attached garage",
+            "category": "Coverage A — Dwelling"
+          },
+          {
+            "text": "Built-in kitchen cabinets",
+            "category": "Coverage A — Dwelling"
+          },
+          {
+            "text": "Detached tool shed",
+            "category": "Coverage B — Other structures"
+          },
+          {
+            "text": "Backyard fence",
+            "category": "Coverage B — Other structures"
+          },
+          {
+            "text": "Laptop stolen from a hotel room",
+            "category": "Coverage C — Personal property"
+          },
+          {
+            "text": "Living room furniture",
+            "category": "Coverage C — Personal property"
+          },
+          {
+            "text": "Hotel bill after a covered fire",
+            "category": "Coverage D — Loss of use"
+          },
+          {
+            "text": "Lost rent from a rented upstairs unit",
+            "category": "Coverage D — Loss of use"
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Coverage A is $250,000 and Coverage C is 50% of A. What is Coverage C?",
+          "choices": [
+            "$25,000",
+            "$75,000",
+            "$125,000",
+            "$250,000"
+          ],
+          "answerIndex": 2,
+          "explanation": "0.50 × $250,000 = $125,000."
+        },
+        {
+          "prompt": "Which item is property not covered under Coverage C?",
+          "choices": [
+            "A bicycle",
+            "A family pet",
+            "A guest's suitcase at the insured's request",
+            "Clothing"
+          ],
+          "answerIndex": 1,
+          "explanation": "Animals are property not covered."
+        },
+        {
+          "prompt": "Which pays when officials order the insured out of an undamaged home because of covered damage next door?",
+          "choices": [
+            "Coverage B",
+            "Coverage D (civil authority)",
+            "Coverage F",
+            "Debris removal"
+          ],
+          "answerIndex": 1,
+          "explanation": "Civil authority is part of Coverage D."
+        }
+      ],
+      "summary": [
+        "Coverage A = dwelling and attached structures; Coverage B = detached structures, commonly 10% of A.",
+        "Coverage C covers personal property worldwide, subject to special limits and a list of property not covered.",
+        "Coverage D pays ALE, fair rental value and civil authority losses.",
+        "Additional coverages (debris removal, trees, loss assessment, ordinance or law, etc.) add limited extra protection."
+      ],
+      "related": [
+        "plho-l01",
+        "plho-l03"
+      ],
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-l03",
+      "sectionId": "plho",
+      "order": 3,
+      "title": "Perils, Section I Exclusions and Conditions (Including Replacement Cost)",
+      "outlineIds": [
+        "plho.6",
+        "plho.7",
+        "plho.8"
+      ],
+      "estMinutes": 30,
+      "intro": "Whether a homeowners claim is paid depends on three questions: Was the cause a covered peril? Does an exclusion apply? Did the insured meet the conditions? This lesson also teaches the most-tested calculation in the section — replacement cost and the 80% insurance-to-value requirement.",
+      "objectives": [
+        "Contrast named-perils and open-perils coverage",
+        "Identify the Section I exclusions and the excluded causes under open perils",
+        "Explain the key Section I conditions and Sections I and II conditions",
+        "Calculate a replacement cost loss settlement when the insured is underinsured"
+      ],
+      "keyTerms": [
+        "named-perils-coverage",
+        "open-perils-coverage",
+        "replacement-cost",
+        "actual-cash-value",
+        "property-coinsurance-clause",
+        "duties-after-loss",
+        "mortgage-clause",
+        "policy-deductible"
+      ],
+      "parts": [
+        {
+          "heading": "Perils insured against",
+          "body": "**Named perils** cover a loss only if it was caused by a peril listed in the policy. **Open perils** cover any direct physical loss unless the policy excludes it, so the insurer must point to an exclusion to deny a claim.\n\nOn HO-3, the dwelling and other structures are open perils, but the form still excludes maintenance-type and predictable losses, such as wear and tear, deterioration, mechanical breakdown, rust, mold (with limited exceptions), settling and cracking, damage by birds, rodents, insects or the insured's own animals, constant seepage over time, freezing of an unheated home when reasonable care was not taken, and vandalism once the home has been vacant for an extended period.\n\nPersonal property under HO-2/3/4/6 uses the broad named perils. Under the windstorm peril, rain or snow damage **inside** the building is covered only if wind or hail first creates an opening.",
+          "example": {
+            "title": "Example: Tess's open window",
+            "body": "Tess leaves a window open in a windy rainstorm and rain ruins her sofa. The wind did not create the opening, so the windstorm peril does not apply and the sofa is not covered."
+          },
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Named: prove it's on the list. Open: the insurer must prove it's excluded."
+            }
+          ]
+        },
+        {
+          "heading": "Section I exclusions",
+          "body": "These apply to every form, open or named perils:\n\n- **Ordinance or law** (except the additional coverage)\n- **Earth movement** — earthquake, landslide, sinkhole; ensuing fire or explosion is covered\n- **Water damage** — flood, surface water, waves, overflow of a body of water; water backing up through sewers or drains or overflowing from a sump; water below the surface seeping through foundations. Ensuing fire, explosion or theft is covered\n- **Power failure** off the premises\n- **Neglect** — failing to protect property at and after a loss\n- **War**, **nuclear hazard**, **intentional loss**, **governmental action**\n\nMany of these apply regardless of any other cause contributing at the same time or in sequence. HO-3 also excludes weather, faulty planning or construction, and acts or decisions of others when they combine with an excluded cause.",
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "Flood is excluded even on HO-5. Flood coverage comes from a separate flood policy (see [[nfip]])."
+            }
+          ]
+        },
+        {
+          "heading": "Conditions and replacement cost",
+          "body": "**Section I conditions** include insurable interest and limit, the deductible, [[duties-after-loss|duties after loss]] (prompt notice, police report for theft, protect property, inventory, show the damage, sworn proof of loss when requested), loss settlement, loss to a pair or set, appraisal, other insurance and service agreements, suit against the insurer, the insurer's option to repair or replace, loss payment, no abandonment, the [[mortgage-clause|mortgage clause]], no benefit to bailee, recovered property, policy period and concealment or fraud.\n\n**Loss settlement for Coverages A and B:**\n\n- If the limit is **at least 80%** of the full [[replacement-cost]] of the building at the time of loss, the insurer pays the full cost to repair or replace, without depreciation, up to the limit.\n- If it is **less than 80%**, the insurer pays the **greater** of (a) the [[actual-cash-value]] of the loss or (b) (limit carried ÷ 80% of replacement cost) × replacement cost of the loss.\n- Insurers commonly pay ACV first and the remaining amount after the repair or replacement is actually completed.\n\nPersonal property is settled at actual cash value unless the replacement cost endorsement is added.\n\n**Sections I and II conditions** include liberalization, waiver or change of provisions, cancellation, nonrenewal, assignment (requires the insurer's consent), subrogation and death of the named insured.",
+          "example": {
+            "title": "Example: Raj is underinsured",
+            "body": "Replacement cost of the home: $400,000; 80% = $320,000. Raj carries $240,000. Fire damage: $40,000 at replacement cost, $25,000 ACV. $240,000 ÷ $320,000 = 0.75; 0.75 × $40,000 = $30,000. $30,000 is greater than $25,000, so the insurer pays $30,000 (before the deductible)."
+          },
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Did ÷ Should × Loss — never less than ACV."
+            },
+            {
+              "kind": "exam-trap",
+              "text": "The mortgage clause protects the lender even if the insured's own claim is denied for arson or fraud, as long as the lender meets its own obligations."
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "sequence",
+        "prompt": "Put the steps of a replacement cost settlement for an underinsured dwelling in order.",
+        "steps": [
+          "Find the full replacement cost of the dwelling",
+          "Multiply it by 80% to find the insurance required",
+          "Divide the limit carried by the insurance required",
+          "Multiply that ratio by the replacement cost of the loss",
+          "Compare the result with the actual cash value of the loss and pay the greater amount"
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Which cause of loss is excluded even under HO-5?",
+          "choices": [
+            "Theft",
+            "Flood",
+            "Fire",
+            "Smoke"
+          ],
+          "answerIndex": 1,
+          "explanation": "Water damage (flood) is a Section I exclusion in every form."
+        },
+        {
+          "prompt": "A home with $300,000 replacement cost is insured for $240,000. A $20,000 covered roof loss is settled at",
+          "choices": [
+            "$16,000",
+            "$20,000",
+            "ACV only",
+            "$12,000"
+          ],
+          "answerIndex": 1,
+          "explanation": "$240,000 is 80% of $300,000, so full replacement cost is paid."
+        },
+        {
+          "prompt": "Insured and insurer disagree only about the amount of loss. Which condition applies?",
+          "choices": [
+            "Subrogation",
+            "Appraisal",
+            "Liberalization",
+            "Abandonment"
+          ],
+          "answerIndex": 1,
+          "explanation": "Appraisal settles disputes about the amount of loss."
+        }
+      ],
+      "summary": [
+        "Named perils require a listed cause; open perils cover anything not excluded.",
+        "Section I exclusions (flood, earth movement, neglect, war, nuclear, power failure, intentional loss, governmental action, ordinance or law) apply to all forms.",
+        "Replacement cost on A and B requires insurance of at least 80% of replacement cost; otherwise the greater of ACV or the proportional amount is paid.",
+        "Duties after loss, appraisal, pair or set, and the mortgage clause are frequently tested conditions."
+      ],
+      "related": [
+        "plho-l02",
+        "plho-l04"
+      ],
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-l04",
+      "sectionId": "plho",
+      "order": 4,
+      "title": "Section II: Personal Liability, Medical Payments and Liability Exclusions",
+      "outlineIds": [
+        "plho.5",
+        "plho.5.1",
+        "plho.5.2",
+        "plho.5.3",
+        "plho.7"
+      ],
+      "estMinutes": 25,
+      "intro": "Section II protects the insured's finances when someone else is hurt or their property is damaged. You will learn how Coverage E and Coverage F differ, what the Section II additional coverages pay, and the exclusions that send claims to other policies.",
+      "objectives": [
+        "Explain Coverage E personal liability, including defense and the per-occurrence limit",
+        "Explain Coverage F medical payments to others and who it excludes",
+        "Identify the Section II additional coverages",
+        "Apply the main Section II exclusions"
+      ],
+      "keyTerms": [
+        "coverage-e-personal-liability",
+        "coverage-f-medical-payments",
+        "occurrence",
+        "bodily-injury",
+        "property-damage",
+        "duty-to-defend"
+      ],
+      "parts": [
+        {
+          "heading": "Coverage E — Personal liability",
+          "body": "[[coverage-e-personal-liability|Coverage E]] pays, up to the limit **per occurrence**, damages an insured is **legally liable** to pay for [[bodily-injury]] or [[property-damage]] caused by an [[occurrence]]. The insurer also provides a defense at its own expense — even if the suit is groundless — and defense costs are paid **in addition to** the limit. The duty to defend ends when the limit has been used up paying judgments or settlements.\n\nCoverage applies anywhere in the world, not only at home: a dog bite in a park or a golf ball through a window are classic covered claims.",
+          "example": {
+            "title": "Example: Ben's judgment",
+            "body": "Ben's Coverage E limit is $300,000. A guest wins a $350,000 judgment; defense cost $40,000. The insurer pays $300,000 plus the $40,000 defense. Ben owes the remaining $50,000."
+          },
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "Coverage E never pays for the insured's own injuries or own property."
+            }
+          ]
+        },
+        {
+          "heading": "Coverage F — Medical payments to others",
+          "body": "[[coverage-f-medical-payments|Coverage F]] pays necessary medical expenses, **regardless of fault**, for people injured on an insured location with permission, or away from it if the injury is caused by an insured's activities, a residence employee in the course of employment, or an animal owned by an insured. The limit is **per person**, and expenses must be incurred within a set period after the accident (commonly three years).\n\nCoverage F does **not** pay for the named insured or regular residents of the household (except residence employees).",
+          "example": {
+            "title": "Example: Mo's porch railing",
+            "body": "Two guests are hurt when Mo's railing gives way: $1,500 and $600 of medical bills, with a $1,000 per-person limit. Coverage F pays $1,000 + $600 = $1,600."
+          },
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "E = legally liable, per occurrence. F = fault-free, per person."
+            }
+          ]
+        },
+        {
+          "heading": "Section II additional coverages",
+          "body": "- **Claim expenses** — defense costs, certain bond premiums, reasonable expenses the insured incurs at the insurer's request (including some lost earnings) and interest on judgments, all in addition to the limit\n- **First aid expenses** — first aid the insured provides to others\n- **Damage to property of others** — replacement cost of others' property damaged by an insured, **regardless of legal liability**, up to a modest limit (excluding intentional damage by an insured above a certain age, the insured's own property and some other items)\n- **Loss assessment** — the insured's share of an association assessment arising from a covered liability claim",
+          "example": {
+            "title": "Example: Kai's borrowed camera",
+            "body": "Kai, 14, drops a friend's borrowed camera in a lake. His family is not legally liable, but damage to property of others can pay to replace it up to the limit."
+          }
+        },
+        {
+          "heading": "Section II exclusions",
+          "body": "Coverages E and F do not apply to:\n\n- **Motor vehicles** (with narrow exceptions such as vehicles used to service the premises or in dead storage), **aircraft**, **hovercraft**, and **watercraft** above stated size or power thresholds when owned by or rented to an insured\n- **Expected or intended** injury (with an exception for reasonable force to protect people or property)\n- **Business** activities and **professional services**\n- **Rental** of premises (with exceptions, such as occasional rental of the residence)\n- Premises an insured owns or rents that are **not an insured location**\n- **War**, **communicable disease**, **sexual molestation, corporal punishment or abuse**, and **controlled substances**\n\nCoverage E alone also excludes liability assumed by contract (with exceptions), property owned by an insured, property rented to or in the care of an insured (except fire, smoke or explosion damage), bodily injury to an insured, and injury to anyone eligible for **workers' compensation** benefits. Coverage F also excludes injuries to residents of the household other than residence employees.",
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "Driving accidents go to the auto policy; malpractice goes to a professional liability policy; business injuries go to a commercial policy or home business endorsement."
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "truefalse",
+        "prompt": "True or false?",
+        "statements": [
+          {
+            "text": "Coverage E defense costs reduce the liability limit.",
+            "answer": false,
+            "explanation": "Defense costs are paid in addition to the limit."
+          },
+          {
+            "text": "Coverage F pays medical bills of a guest even if the insured was not at fault.",
+            "answer": true,
+            "explanation": "Coverage F is no-fault."
+          },
+          {
+            "text": "Coverage F pays for the named insured's own child injured at home.",
+            "answer": false,
+            "explanation": "Insureds and regular residents are excluded."
+          },
+          {
+            "text": "Coverage E can apply to a dog bite that happens away from the residence premises.",
+            "answer": true,
+            "explanation": "Personal liability coverage follows insureds anywhere."
+          },
+          {
+            "text": "Liability from an insured's car accident on a public road is covered under Section II.",
+            "answer": false,
+            "explanation": "Motor vehicle liability is excluded."
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Coverage E limits apply",
+          "choices": [
+            "Per person",
+            "Per occurrence",
+            "Per policy year only",
+            "Per claim adjuster"
+          ],
+          "answerIndex": 1,
+          "explanation": "Personal liability is written per occurrence."
+        },
+        {
+          "prompt": "Which is a Section II additional coverage?",
+          "choices": [
+            "Debris removal",
+            "Damage to property of others",
+            "Fair rental value",
+            "Ordinance or law"
+          ],
+          "answerIndex": 1,
+          "explanation": "Damage to property of others is a Section II additional coverage."
+        },
+        {
+          "prompt": "A dentist is sued for treating a neighbor at home for a fee. Section II",
+          "choices": [
+            "Covers the claim under Coverage E",
+            "Excludes it as professional services",
+            "Covers it under Coverage F",
+            "Covers it only if the neighbor is a relative"
+          ],
+          "answerIndex": 1,
+          "explanation": "Professional services are excluded."
+        }
+      ],
+      "summary": [
+        "Coverage E: legal liability, per occurrence, defense in addition to the limit, worldwide.",
+        "Coverage F: no-fault medical payments to others, per person; never for insureds or household residents.",
+        "Section II additional coverages: claim expenses, first aid, damage to property of others, loss assessment.",
+        "Key exclusions: motor vehicles, large watercraft, aircraft, intentional acts, business, professional services, workers' compensation-eligible injuries."
+      ],
+      "related": [
+        "plho-l03",
+        "plho-l05",
+        "pldwl-l02"
+      ],
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-l05",
+      "sectionId": "plho",
+      "order": 5,
+      "title": "Homeowners Endorsements on the Exam Outline",
+      "outlineIds": [
+        "plho.9",
+        "plho.9.1",
+        "plho.9.2",
+        "plho.9.3",
+        "plho.9.4",
+        "plho.9.5",
+        "plho.9.6",
+        "plho.9.7",
+        "plho.9.8",
+        "plho.9.9"
+      ],
+      "estMinutes": 25,
+      "intro": "Endorsements tailor the homeowners policy to the insured's real life — valuables, a home business, an earthquake zone, a nanny, a basement sump pump. Each endorsement on the outline fills a specific gap in the standard form. Learn the gap and you will know the endorsement.",
+      "objectives": [
+        "Match each outline endorsement to the coverage gap it fills",
+        "Explain why New York household employers may need workers' compensation for residence employees",
+        "Calculate a percentage earthquake deductible and a replacement cost payment for personal property"
+      ],
+      "keyTerms": [
+        "endorsement",
+        "scheduled-personal-property",
+        "earthquake-endorsement",
+        "identity-fraud-endorsement",
+        "personal-property-replacement-cost",
+        "home-business-endorsement",
+        "personal-injury-endorsement",
+        "residence-employees-endorsement",
+        "water-backup-endorsement"
+      ],
+      "parts": [
+        {
+          "heading": "New York special provisions",
+          "body": "The homeowners program uses national forms written for many states. A state **special provisions** [[endorsement]] amends those forms so they comply with that state's law — for example, provisions on cancellation, nonrenewal and claim handling. In New York, the Special Provisions — New York endorsement is attached to homeowners policies for this purpose. For the exam, know its purpose; the exact New York rules come from New York statutes and regulations covered elsewhere in the course.",
+          "callouts": [
+            {
+              "kind": "note",
+              "text": "When a national form and a state special provisions endorsement conflict, the endorsement controls — that is its job."
+            }
+          ]
+        },
+        {
+          "heading": "Property endorsements",
+          "body": "- **[[earthquake-endorsement|Earthquake]]** — removes the earth movement exclusion for earthquake (and commonly volcanic tremors). The deductible is usually a **percentage of the limit**, and shocks within a short window (commonly 72 hours) count as one earthquake. Flood or tidal wave caused by a quake stays excluded.\n- **[[scheduled-personal-property|Scheduled personal property]]** — lists valuables (jewelry, furs, cameras, musical instruments, silverware, fine arts, golf equipment, stamps, coins) with their own amounts, commonly on open perils worldwide, free of Coverage C special limits.\n- **[[personal-property-replacement-cost|Personal property replacement cost]]** — changes Coverage C from actual cash value to replacement cost (antiques, fine arts and collectibles excluded); the amount above ACV is commonly paid after replacement.\n- **[[water-backup-endorsement|Water back-up and sump discharge or overflow]]** — adds a stated limit for water backing up through sewers or drains or overflowing from a sump, even from mechanical breakdown. Flood is still excluded.",
+          "example": {
+            "title": "Example: Hugo's earthquake deductible",
+            "body": "Coverage A $300,000; deductible 5% of Coverage A = $15,000. Earthquake damage $40,000. Payment = $40,000 − $15,000 = $25,000."
+          },
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "Percentage deductibles are based on the LIMIT, not the loss."
+            }
+          ]
+        },
+        {
+          "heading": "Liability, business and identity endorsements",
+          "body": "- **[[home-business-endorsement|Home business]]** — for an eligible business owned by an insured and run from the residence premises: business property, loss of business income and business liability (including products and completed operations) that the homeowners form limits or excludes.\n- **[[personal-injury-endorsement|Personal injury (New York)]]** — adds offenses such as false arrest or detention, malicious prosecution, wrongful eviction, libel, slander and invasion of privacy to Coverage E.\n- **[[identity-fraud-endorsement|Identity fraud expense]]** — reimburses costs of restoring identity (notary fees, certified mail, loan reapplication fees, reasonable attorney fees, some lost wages), not the stolen money.",
+          "example": {
+            "title": "Example: Kara's candles",
+            "body": "Kara sells candles from home and keeps $8,000 of inventory. Business property special limits and the Section II business exclusion leave big gaps; a home business endorsement fills them for an eligible business."
+          }
+        },
+        {
+          "heading": "Workers' compensation for residence employees (New York)",
+          "body": "Homeowners Section II excludes bodily injury to anyone eligible for workers' compensation benefits. In New York, the Workers' Compensation Law lists domestic workers (other than farm workers) employed by the same employer for a minimum of forty hours per week among covered employments. A New York household that employs, for example, a full-time nanny or housekeeper can use the [[residence-employees-endorsement|workers' compensation — certain residence employees — New York]] endorsement to provide that coverage through the homeowners policy.",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "NY Workers' Compensation Law § 3(1), Group 12: domestic workers, other than those employed on farms, employed by the same employer for a minimum of forty hours per week are a covered employment.",
+              "sources": [
+                "ny-wkc-3"
+              ]
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "match",
+        "prompt": "Match each situation to the endorsement that addresses it.",
+        "pairs": [
+          {
+            "left": "A $9,000 ring lost at the beach",
+            "right": "Scheduled personal property"
+          },
+          {
+            "left": "Sewer water backs up through a floor drain",
+            "right": "Water back-up and sump discharge or overflow"
+          },
+          {
+            "left": "A customer sues over a product made at home",
+            "right": "Home business"
+          },
+          {
+            "left": "A neighbor sues for slander",
+            "right": "Personal injury (New York)"
+          },
+          {
+            "left": "Costs of clearing a stolen identity",
+            "right": "Identity fraud expense"
+          },
+          {
+            "left": "A full-time nanny injured on the job in NY",
+            "right": "Workers' compensation for residence employees"
+          },
+          {
+            "left": "Ground shaking cracks the foundation",
+            "right": "Earthquake"
+          },
+          {
+            "left": "A 6-year-old sofa paid at new-item cost",
+            "right": "Personal property replacement cost"
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Which endorsement changes Coverage C from ACV to replacement cost?",
+          "choices": [
+            "Scheduled personal property",
+            "Personal property replacement cost",
+            "Home business",
+            "Special provisions"
+          ],
+          "answerIndex": 1,
+          "explanation": "That is the personal property replacement cost endorsement."
+        },
+        {
+          "prompt": "A river overflows into a home with a water back-up endorsement. The flood damage is",
+          "choices": [
+            "Covered by the endorsement",
+            "Still excluded as flood",
+            "Covered under Coverage F",
+            "Covered as earthquake"
+          ],
+          "answerIndex": 1,
+          "explanation": "The endorsement covers drain and sump water only; flood remains excluded."
+        },
+        {
+          "prompt": "Under NY Workers' Compensation Law, domestic workers are a covered employment when employed by the same employer at least",
+          "choices": [
+            "10 hours a week",
+            "20 hours a week",
+            "40 hours a week",
+            "60 hours a week"
+          ],
+          "answerIndex": 2,
+          "explanation": "WCL § 3(1), Group 12, uses a minimum of forty hours per week."
+        }
+      ],
+      "summary": [
+        "Each endorsement fills a specific gap in the standard homeowners form.",
+        "Earthquake, water back-up, scheduled property and personal property replacement cost broaden Section I.",
+        "Home business, personal injury and identity fraud expense address liability, business and identity exposures.",
+        "In NY, domestic workers employed 40+ hours a week by one employer are a covered employment under WCL § 3, which is why the residence employees endorsement exists."
+      ],
+      "related": [
+        "plho-l04",
+        "plho-l02"
+      ],
+      "sources": [
+        "ny-wkc-3",
+        "general-insurance-principles"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19",
+        "notes": "NY fact (WCL § 3 Group 12 domestic workers 40 hrs/week) verified; remaining content is general principle."
+      }
+    }
+  ]
+}

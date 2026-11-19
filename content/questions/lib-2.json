@@ -1,0 +1,1688 @@
+{
+  "sectionId": "lib",
+  "questions": [
+    {
+      "id": "lib-q018",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1.1"
+      ],
+      "concepts": [
+        "false-advertising"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "A New York agent prepares a postcard that says, 'Protect your family with a policy from Hudson Mutual — call me today!'",
+      "stem": "Under NY Insurance Law § 2122, what must the postcard also include?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The agent's commission rate on the advertised policy",
+          "rationale": "Incorrect: § 2122 does not require disclosing commission rates in advertisements."
+        },
+        {
+          "id": "b",
+          "text": "A statement that the state guaranty corporation protects the policy",
+          "rationale": "Incorrect: using the guaranty corporation in sales material is prohibited by § 7718."
+        },
+        {
+          "id": "c",
+          "text": "The insurer's full name and the location of its principal U.S. office",
+          "rationale": "Correct: § 2122(b) requires every advertisement that refers to an insurer to state the insurer's full name and the location of its principal office in the United States."
+        },
+        {
+          "id": "d",
+          "text": "The Superintendent's written approval number for the postcard",
+          "rationale": "Incorrect: § 2122 contains no prior-approval number requirement."
+        }
+      ],
+      "correct": "c",
+      "explanation": "NY Insurance Law § 2122(b): every agent and broker shall, in all advertisements, public announcements, signs, pamphlets, circulars and cards which refer to an insurer, set forth the insurer's name in full and the name of the city, town or village in which it has its principal office in the United States. 'Hudson Mutual' alone is not the full name and omits the location.",
+      "memoryTip": "Name the insurer in FULL and say WHERE it lives.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-2122"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q019",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1.1"
+      ],
+      "concepts": [
+        "false-advertising",
+        "unauthorized-insurer"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "ny-law",
+        "negative-wording"
+      ],
+      "stem": "Under NY Insurance Law § 2122, a producer's advertising in New York may NOT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Call attention to an unauthorized insurer",
+          "rationale": "Correct: § 2122(a)(2) prohibits any producer or other person from calling attention to an unauthorized insurer in an advertisement or public announcement."
+        },
+        {
+          "id": "b",
+          "text": "State the full name of the insurer it refers to",
+          "rationale": "Not the answer: stating the insurer's full name is required, not prohibited."
+        },
+        {
+          "id": "c",
+          "text": "List the city of the insurer's principal U.S. office",
+          "rationale": "Not the answer: this is also required by § 2122(b)."
+        },
+        {
+          "id": "d",
+          "text": "Describe an insurer's financial condition in a way that conforms to § 1313",
+          "rationale": "Not the answer: § 2122(a)(1) allows financial-condition statements that conform to § 1313."
+        }
+      ],
+      "correct": "a",
+      "explanation": "§ 2122(a)(1) bars producer advertising about an insurer's financial condition unless it conforms to § 1313; § 2122(a)(2) bars advertising that calls attention to any unauthorized insurer; § 2122(b) requires the insurer's full name and principal-office location in any ad referring to an insurer.",
+      "memoryTip": "Advertise only the authorized — and name them in full.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-2122"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q020",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1.2"
+      ],
+      "concepts": [
+        "lifeguaranty-corporation"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "scenario": "A nervous prospect asks a producer what happens if the insurer goes broke. The producer replies, 'Don't worry — buy today, because the New York guaranty corporation will cover you no matter what.'",
+      "stem": "How does NY Insurance Law § 7718 treat this statement?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Permitted, because the statement about the corporation is true",
+          "rationale": "Incorrect: § 7718 prohibits using the corporation's existence to induce a purchase regardless of accuracy — and 'no matter what' also overstates protection."
+        },
+        {
+          "id": "b",
+          "text": "Prohibited, because it uses the guaranty corporation to induce a sale",
+          "rationale": "Correct: § 7718 bars any statement that uses the existence of the corporation for sales, solicitation or inducement to purchase."
+        },
+        {
+          "id": "c",
+          "text": "Permitted, as long as the producer also gives a buyer's guide",
+          "rationale": "Incorrect: a buyer's guide does not create an exception to § 7718."
+        },
+        {
+          "id": "d",
+          "text": "Permitted in oral sales presentations, but not in printed materials",
+          "rationale": "Incorrect: § 7718 applies to statements made 'in any other way,' not just print."
+        }
+      ],
+      "correct": "b",
+      "explanation": "NY Insurance Law § 7718 prohibits any person, including an insurer, agent or broker, from making any advertisement, announcement or statement — in print, broadcast 'or in any other way' — that uses the existence of the guaranty corporation for sales, solicitation or inducement to purchase covered insurance. The narrow exception lets a member insurer provide corporation-prepared, Superintendent-approved written information to a policyholder who requests it in writing.",
+      "memoryTip": "The safety net exists — but it's never a sales pitch.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Using the guaranty corporation to sell is prohibited",
+            "anyOf": [
+              "prohibited",
+              "not allowed",
+              "cannot",
+              "may not",
+              "violation"
+            ]
+          },
+          {
+            "label": "Applies to any form of statement",
+            "anyOf": [
+              "any",
+              "oral",
+              "verbal",
+              "statement"
+            ]
+          }
+        ]
+      },
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-7718"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q021",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1.3",
+        "lib.7.1.4"
+      ],
+      "concepts": [
+        "buyers-guide",
+        "policy-summary"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "Under NY Insurance Law § 3209, for a life policy not marketed with an illustration, when are the buyer's guide and policy summary provided?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Both at or before the time of application",
+          "rationale": "Incorrect: the policy summary describes the policy as issued, so it comes upon delivery."
+        },
+        {
+          "id": "b",
+          "text": "Both upon delivery of the policy to the owner",
+          "rationale": "Incorrect: the buyer's guide must be given at or before the application is taken (except certain mail sales)."
+        },
+        {
+          "id": "c",
+          "text": "Policy summary at application; buyer's guide at delivery",
+          "rationale": "Incorrect: this reverses the timing."
+        },
+        {
+          "id": "d",
+          "text": "Buyer's guide by application; summary at delivery",
+          "rationale": "Correct: this matches § 3209(b)(1)(A) and (B)."
+        }
+      ],
+      "correct": "d",
+      "explanation": "§ 3209(b)(1) requires (A) a copy of the buyer's guide and the preliminary information at or prior to the time an application is taken, and (B) a policy summary upon delivery of the policy. Under § 3209(l), policies marketed with a compliant illustration do not need the preliminary information or policy summary.",
+      "memoryTip": "Guide BEFORE you apply; Summary when the policy ARRIVES.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3209"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q022",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1"
+      ],
+      "concepts": [
+        "producer",
+        "insurance-agent"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "Under NY Insurance Law § 3209(h), what must an agent or broker tell a prospect before beginning a life insurance sales presentation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "That he is acting as an agent or broker, and the insurer's full name",
+          "rationale": "Correct: § 3209(h) requires exactly these disclosures before the presentation starts."
+        },
+        {
+          "id": "b",
+          "text": "The exact commission the producer will earn on the sale",
+          "rationale": "Incorrect: § 3209(h) does not require disclosing commission amounts before the presentation."
+        },
+        {
+          "id": "c",
+          "text": "The insurer's current financial strength rating from each agency",
+          "rationale": "Incorrect: § 3209(h) does not require a rating disclosure."
+        },
+        {
+          "id": "d",
+          "text": "The contents of the prospect's Medical Information Bureau file",
+          "rationale": "Incorrect: MIB information is not disclosed by the producer at the start of a sales presentation."
+        }
+      ],
+      "correct": "a",
+      "explanation": "§ 3209(h): an agent or broker shall inform a prospective purchaser, prior to commencing a life insurance sales presentation, that he is acting as a life insurance agent or broker, and inform the prospective purchaser of the full name of the insurer he is representing. Where no agent or broker is involved, the insurer identifies its full name.",
+      "memoryTip": "Say WHO you are and WHOM you represent before you pitch.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3209"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q023",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1.5"
+      ],
+      "concepts": [
+        "suitability"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "Under NY Regulation 187, what must a producer do BEFORE recommending a life insurance or annuity sales transaction?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Obtain the insurer's written approval of the specific recommendation",
+          "rationale": "Incorrect: the regulation places the duty on the producer to gather information and act in the consumer's best interest; prior insurer approval is not the requirement."
+        },
+        {
+          "id": "b",
+          "text": "Recommend whichever available product pays the lowest commission",
+          "rationale": "Incorrect: compensation is permitted as long as it does not influence the recommendation; there is no lowest-commission rule."
+        },
+        {
+          "id": "c",
+          "text": "Make reasonable efforts to obtain the consumer's suitability information",
+          "rationale": "Correct: 11 NYCRR 224.4(d) requires reasonable efforts to obtain suitability information prior to the recommendation."
+        },
+        {
+          "id": "d",
+          "text": "File the proposed recommendation with the Superintendent for review",
+          "rationale": "Incorrect: recommendations are documented, not filed with the Superintendent."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Reg 187 (11 NYCRR 224.4(d)) requires the producer, before recommending a sales transaction, to make reasonable efforts to obtain the consumer's suitability information — such as age, income, financial situation and needs, objectives, intended use, time horizon, existing assets, liquidity needs, risk tolerance and tax status (224.3(g)). The recommendation must then be in the consumer's best interest and documented.",
+      "memoryTip": "Facts first, then the recommendation.",
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-224"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q024",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1.5"
+      ],
+      "concepts": [
+        "suitability"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "scenario": "Victor walks into a producer's office and insists on buying a specific universal life policy he read about online. He refuses to answer questions about his income or assets. The producer does not recommend the policy, but Victor still wants to buy it.",
+      "stem": "Under NY Regulation 187, what should the producer do?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Refuse the sale, because a policy may never be sold without suitability information",
+          "rationale": "Incorrect: Reg 187 contemplates transactions where the consumer refuses information and none is recommended."
+        },
+        {
+          "id": "b",
+          "text": "Document Victor's refusal to provide information and that the transaction was not recommended",
+          "rationale": "Correct: 224.4(f)(3) and (4) require documenting the refusal and that the transaction is not based on a recommendation."
+        },
+        {
+          "id": "c",
+          "text": "Complete the suitability questions with reasonable estimates and recommend the policy",
+          "rationale": "Incorrect: inventing information would misrepresent the consumer's situation and create an unsupported recommendation."
+        },
+        {
+          "id": "d",
+          "text": "Process the sale with no documentation, since Reg 187 does not apply to walk-in customers",
+          "rationale": "Incorrect: Reg 187 still requires documentation in this situation."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Under 11 NYCRR 224.4(e)(1), the producer has no best-interest obligation under 224.4(a)–(b) when the consumer refuses relevant suitability information and the transaction is not recommended, or when the consumer enters a transaction not based on a recommendation. But 224.4(f) still requires the producer to document the refusal and that the transaction was not recommended, and the insurer's issuance must be suitable based on the information actually known to it (224.4(e)(2)).",
+      "memoryTip": "No info, no recommendation — but always a paper trail.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Document the refusal to provide information",
+            "anyOf": [
+              "document",
+              "record",
+              "refusal"
+            ]
+          },
+          {
+            "label": "Document that the transaction was not recommended",
+            "anyOf": [
+              "not recommended",
+              "no recommendation",
+              "not based on a recommendation"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-224"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q025",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1.6"
+      ],
+      "concepts": [
+        "illustration",
+        "participating-policy"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "A whole life illustration shows a cash value column based on the insurer's current dividend scale. How should the producer describe those values?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "As guaranteed values that are part of the contract",
+          "rationale": "Incorrect: values based on dividends are non-guaranteed; only the guaranteed columns are contractual."
+        },
+        {
+          "id": "b",
+          "text": "As non-guaranteed projections that may be higher or lower",
+          "rationale": "Correct: dividends are not guaranteed, so values depending on them are projections."
+        },
+        {
+          "id": "c",
+          "text": "As the minimum the client will receive",
+          "rationale": "Incorrect: the guaranteed column, not the dividend-based column, shows the minimum."
+        },
+        {
+          "id": "d",
+          "text": "As values the insurer must pay unless it becomes insolvent",
+          "rationale": "Incorrect: non-guaranteed elements can be reduced even when the insurer is solvent."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Illustrations must distinguish guaranteed elements (contractual minimums) from non-guaranteed elements such as dividends or current interest rates. Dividend-based values reflect current assumptions and can change. Presenting non-guaranteed values as guaranteed would be a misrepresentation.",
+      "memoryTip": "Guaranteed = floor. Illustrated = forecast.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q026",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1.7"
+      ],
+      "concepts": [
+        "replacement"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "scenario": "Owen keeps his existing whole life policy in force, but plans to take a policy loan against its cash value to pay the first-year premium on a new universal life policy.",
+      "stem": "Under NY Regulation 60, is this a replacement?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No, because the existing policy is not being surrendered or lapsed",
+          "rationale": "Incorrect: Reg 60's definition reaches far beyond surrender."
+        },
+        {
+          "id": "b",
+          "text": "No, because both the old and new policies are life insurance",
+          "rationale": "Incorrect: replacing life insurance with life insurance is exactly what Reg 60 governs."
+        },
+        {
+          "id": "c",
+          "text": "Yes; borrowing against the old policy in the deal is a replacement",
+          "rationale": "Correct: 11 NYCRR 51.2(a)(5) includes existing policies made subject to borrowing of any portion of the loan value."
+        },
+        {
+          "id": "d",
+          "text": "Only if the policy loan exceeds half of the existing cash value",
+          "rationale": "Incorrect: Reg 60 includes borrowing of 'any portion' of the loan value; there is no 50% threshold."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Under 11 NYCRR 51.2(a), replacement occurs when new life insurance or annuities are purchased and, as part of the transaction, existing coverage has been or is likely to be lapsed, surrendered, converted to paid-up or extended term, reduced, reissued with cash released, assigned as collateral or borrowed against (any portion of the loan value), or continued with stopped or reduced premiums.",
+      "memoryTip": "If the old policy pays for the new one in ANY way, it's a replacement.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Borrowing against existing policy counts",
+            "anyOf": [
+              "loan",
+              "borrow"
+            ]
+          },
+          {
+            "label": "Replacement procedures apply",
+            "anyOf": [
+              "replacement",
+              "Regulation 60",
+              "Reg 60",
+              "disclosure"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-51"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q027",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1.7"
+      ],
+      "concepts": [
+        "replacement"
+      ],
+      "difficulty": 3,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "Under NY Regulation 60, when a replacement is likely, when must the producer present the 'IMPORTANT Notice Regarding Replacement or Change of Life Insurance Policies or Annuity Contracts' to the applicant?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Within 10 days after the policy is delivered",
+          "rationale": "Incorrect: 10 days after delivery is when the replacing insurer sends the Disclosure Statement to the existing insurer."
+        },
+        {
+          "id": "b",
+          "text": "Within 20 days after the existing insurer is notified",
+          "rationale": "Incorrect: 20 days is the existing insurer's deadline to furnish information for the Disclosure Statement."
+        },
+        {
+          "id": "c",
+          "text": "Before the end of the 60-day right to return",
+          "rationale": "Incorrect: the notice must be given at the start of the sale, not after delivery."
+        },
+        {
+          "id": "d",
+          "text": "No later than the time the applicant signs the application",
+          "rationale": "Correct: 11 NYCRR 51.5(c)(4) requires the notice no later than when the applicant signs the application, with a copy left with the applicant."
+        }
+      ],
+      "correct": "d",
+      "explanation": "11 NYCRR 51.5 requires the producer, where replacement is likely, to present the IMPORTANT Notice no later than when the applicant signs the application and leave a copy; have the applicant acknowledge receipt; and before delivery submit a signed Disclosure Statement giving the primary reasons for the new policy and why the existing coverage cannot meet the applicant's objectives. Under 51.6, the replacing insurer sends the Disclosure Statement to the existing insurer within 10 days of delivery, and the existing insurer furnishes requested information within 20 days.",
+      "memoryTip": "Notice at the SIGNATURE; Disclosure Statement before DELIVERY.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-51"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q028",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1.7"
+      ],
+      "concepts": [
+        "replacement",
+        "free-look"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "Priya replaced her old whole life policy with a new one from a different insurer. On day 45 after the new policy was delivered, she decides she wants her old coverage back.",
+      "stem": "Under NY Regulation 60, what are Priya's rights?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Return the new policy for a full refund and have the old one restored",
+          "rationale": "Correct: 11 NYCRR 51.6(d) gives a 60-day right to return a replacement policy and requires the replaced insurer to reinstate the original without new underwriting."
+        },
+        {
+          "id": "b",
+          "text": "None, because the standard 10-day free-look period has already expired",
+          "rationale": "Incorrect: replacement policies in New York carry a 60-day right to return."
+        },
+        {
+          "id": "c",
+          "text": "Cancel the new policy but receive only its current cash value",
+          "rationale": "Incorrect: for a non-variable policy the refund is an unconditional full refund of premiums."
+        },
+        {
+          "id": "d",
+          "text": "Return the policy, but the old insurer may require new evidence of insurability",
+          "rationale": "Incorrect: the old policy is restored without underwriting or a new contestable or suicide period."
+        }
+      ],
+      "correct": "a",
+      "explanation": "11 NYCRR 51.6(d): an insurer issuing a replacement policy must give the owner the right to return it within 60 days of delivery for an unconditional full refund of premiums (for variable or market value adjustment contracts, the cash surrender benefit plus fees and charges deducted). During this period the replaced insurer must reinstate the original policy as of the replacement date without underwriting or a new contestable or suicide period, upon written proof of cancellation, return of any funds released, and payment of premium due.",
+      "memoryTip": "Replacement gets a 60-day 'undo' button.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "60-day right to return",
+            "anyOf": [
+              "60",
+              "sixty"
+            ]
+          },
+          {
+            "label": "Full refund of premiums",
+            "anyOf": [
+              "refund",
+              "full refund"
+            ]
+          },
+          {
+            "label": "Old policy restored without underwriting",
+            "anyOf": [
+              "reinstate",
+              "restore",
+              "without underwriting"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-51"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q029",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1.9"
+      ],
+      "concepts": [
+        "senior-designation"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "A producer who focuses on retirees completed a weekend sales-techniques seminar run by a marketing company. The company has no competency testing, no disciplinary process and no continuing education. It awarded him the title 'Certified Senior Retirement Specialist.'",
+      "stem": "Under NY Regulation 199, may he use this title when selling annuities and life insurance to seniors?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, because he actually attended and completed the seminar",
+          "rationale": "Incorrect: completing the course does not cure the problems with the issuing organization."
+        },
+        {
+          "id": "b",
+          "text": "No; it came from a sales-training firm lacking reasonable standards",
+          "rationale": "Correct: 11 NYCRR 225.2(a)(2)(iv) prohibits designations from such organizations."
+        },
+        {
+          "id": "c",
+          "text": "Yes, as long as he also discloses his commission to each client",
+          "rationale": "Incorrect: commission disclosure does not make a prohibited designation permissible."
+        },
+        {
+          "id": "d",
+          "text": "No, because producers may never use any senior-related designation",
+          "rationale": "Incorrect: Reg 199 bars misleading uses, not every senior designation."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Reg 199 (11 NYCRR 225.2) prohibits producers from using a senior-specific certification or designation in a misleading way, including one obtained from an organization that is primarily engaged in sales or marketing instruction, or lacks reasonable standards for competency, discipline or continuing education. Words like 'senior,' 'retirement' or 'elder' combined with 'certified' or 'specialist' signal a senior-specific designation. Violations are unfair or deceptive acts (225.3).",
+      "memoryTip": "A senior title must be EARNED from a REAL credentialing body.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-225"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q030",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.2.1"
+      ],
+      "concepts": [
+        "backdating"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "scenario": "Ana applies for life insurance on May 1. Her insurer prices on age nearest birthday, and her nearest-birthday age went up on April 15. She asks to date the policy back so she keeps the lower age.",
+      "stem": "Under NY Insurance Law § 3208, which statement is correct?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The producer may write April 1 as the date on the application",
+          "rationale": "Incorrect: § 3208(b) forbids dating an application earlier than the date it was actually made if that reduces the premium."
+        },
+        {
+          "id": "b",
+          "text": "The policy may never take effect before the application date",
+          "rationale": "Incorrect: § 3208(a) allows backdating up to six months before the application."
+        },
+        {
+          "id": "c",
+          "text": "The insurer may backdate the policy, since it is within six months",
+          "rationale": "Correct: the prohibition applies only to dates more than six months before the application date."
+        },
+        {
+          "id": "d",
+          "text": "The insurer may backdate up to one year if Ana pays the extra premium",
+          "rationale": "Incorrect: the NY limit is six months, not one year."
+        }
+      ],
+      "correct": "c",
+      "explanation": "§ 3208(a) prohibits an insurer from knowingly issuing a life policy that purports to take effect more than six months before the application date if that reduces the premium below what the insured's age (nearest birthday on the application date) would require. Backdating within six months is permitted; the owner pays premium from the earlier policy date. § 3208(b) separately bars agents and brokers from putting an earlier date on the application itself.",
+      "memoryTip": "Policy date back ≤ 6 months; application date — never faked.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Six-month limit",
+            "anyOf": [
+              "six months",
+              "6 months"
+            ]
+          },
+          {
+            "label": "Measured from the application date",
+            "anyOf": [
+              "application date",
+              "date of application",
+              "before the application"
+            ]
+          },
+          {
+            "label": "Application itself cannot be pre-dated",
+            "anyOf": [
+              "application date",
+              "cannot date the application",
+              "earlier than"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3208"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q031",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.3.4",
+        "lib.7.3.3",
+        "lib.7.3.2"
+      ],
+      "concepts": [
+        "statement-of-good-health",
+        "policy-delivery"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Ben applied for life insurance without paying any premium. The policy was issued as applied for, and his producer is now delivering it.",
+      "stem": "What should the producer obtain at delivery before coverage begins?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The first premium and a signed statement of good health",
+          "rationale": "Correct: because no premium was paid with the application, coverage begins at delivery once the premium is paid and the insured confirms his health is unchanged."
+        },
+        {
+          "id": "b",
+          "text": "A conditional receipt dated back to the application",
+          "rationale": "Incorrect: conditional receipts are issued at application when premium is paid then."
+        },
+        {
+          "id": "c",
+          "text": "A new medical examination",
+          "rationale": "Incorrect: a statement of good health, not a new exam, is the standard requirement."
+        },
+        {
+          "id": "d",
+          "text": "A new application with a later date",
+          "rationale": "Incorrect: the policy was issued as applied for; a new application is unnecessary."
+        }
+      ],
+      "correct": "a",
+      "explanation": "When the initial premium is not paid with the application, the policy generally takes effect at delivery when the producer collects the premium and obtains a statement of good health confirming the insured's health has not changed since applying. When premium is paid with the application, a conditional receipt may make coverage effective earlier.",
+      "memoryTip": "No money up front? Collect it — plus a 'still healthy' signature — at delivery.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q032",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.3.5",
+        "lib.7.3.1"
+      ],
+      "concepts": [
+        "policy-delivery",
+        "substandard-risk",
+        "offer-and-acceptance"
+      ],
+      "difficulty": 2,
+      "style": "application",
+      "tags": [],
+      "scenario": "Carla applied for a standard-rate policy, but the insurer issued it with a table rating and a higher premium.",
+      "stem": "What should the producer do at delivery?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Leave the policy with Carla and collect only the original standard premium",
+          "rationale": "Incorrect: the rated premium differs from what she applied for, and she must accept the change."
+        },
+        {
+          "id": "b",
+          "text": "Return the policy to the insurer without showing it to Carla or explaining why",
+          "rationale": "Incorrect: Carla has the right to consider the counteroffer."
+        },
+        {
+          "id": "c",
+          "text": "Explain the rating, then get Carla's signed amendment and the higher premium",
+          "rationale": "Correct: a policy issued other than as applied for is a counteroffer that the applicant must accept."
+        },
+        {
+          "id": "d",
+          "text": "Lower the rated premium by backdating the policy one year to a younger age",
+          "rationale": "Incorrect: backdating is not a remedy for a rating, and NY limits backdating to six months."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Policy delivery includes reviewing the policy with the owner and explaining any changes. A policy issued with a rating, exclusion or other modification is a counteroffer; the applicant accepts it by signing an amendment and paying the required premium.",
+      "memoryTip": "Changed policy = counteroffer = explain + signature.",
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q033",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.2.1",
+        "lib.7.3.2"
+      ],
+      "concepts": [
+        "conditional-receipt"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Dev applies for life insurance on June 1, pays the first premium and receives a conditional receipt. He completes the medical exam on June 5 and dies in a car accident on June 12, before the policy is issued. Underwriting confirms he qualified as applied for.",
+      "stem": "What happens to the death claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is denied, because the policy had not been delivered",
+          "rationale": "Incorrect: the conditional receipt provides coverage before delivery if the applicant was insurable."
+        },
+        {
+          "id": "b",
+          "text": "It is paid, because Dev met the insurer's conditions under the receipt",
+          "rationale": "Correct: coverage under the conditional receipt was effective once he was found insurable as applied for."
+        },
+        {
+          "id": "c",
+          "text": "Only the premium is refunded",
+          "rationale": "Incorrect: premium refunds apply when the applicant is not insurable as applied for."
+        },
+        {
+          "id": "d",
+          "text": "It is paid only if Dev's death occurred after the policy date chosen by the underwriter",
+          "rationale": "Incorrect: under a conditional receipt, coverage is effective as of the application or exam date, whichever is later."
+        }
+      ],
+      "correct": "b",
+      "explanation": "A conditional receipt makes coverage effective as of the application date (or the medical exam date, if later), provided the applicant is found insurable under the insurer's normal rules. Dev qualified, so the insurer pays the claim even though the policy was never delivered.",
+      "memoryTip": "Insurable + premium paid = covered from the receipt date.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q034",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.8.1.5"
+      ],
+      "concepts": [
+        "medical-information-bureau"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "An underwriter's MIB check shows a code suggesting a heart condition that the applicant did not disclose. What is the proper next step?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Decline the applicant based on the MIB code alone, without further review",
+          "rationale": "Incorrect: an MIB report may not be the sole basis for an adverse decision."
+        },
+        {
+          "id": "b",
+          "text": "Rate the policy as substandard automatically, based on the MIB code",
+          "rationale": "Incorrect: this is also an adverse action based solely on the MIB report."
+        },
+        {
+          "id": "c",
+          "text": "Ignore the code, since the applicant already answered the health question",
+          "rationale": "Incorrect: MIB codes are meant to prompt further investigation of possible omissions."
+        },
+        {
+          "id": "d",
+          "text": "Investigate further, such as by requesting an attending physician statement",
+          "rationale": "Correct: MIB information is a lead for additional underwriting, not a decision."
+        }
+      ],
+      "correct": "d",
+      "explanation": "The Medical Information Bureau is a nonprofit membership organization that shares coded information among insurers to detect omissions or misrepresentations. An insurer should not decline or rate an applicant solely because of an MIB report; it uses the code as a signal to gather more information, such as an APS or additional tests.",
+      "memoryTip": "MIB is a flashlight, not a verdict.",
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q035",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.8.1.4",
+        "lib.8.1.2",
+        "lib.8.1.3"
+      ],
+      "concepts": [
+        "investigative-consumer-report",
+        "agent-report",
+        "attending-physician-statement"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Which underwriting source gathers information on lifestyle and reputation through interviews with neighbors and associates?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Attending physician statement",
+          "rationale": "Incorrect: an APS comes from the applicant's treating doctor."
+        },
+        {
+          "id": "b",
+          "text": "Agent's report on the application",
+          "rationale": "Incorrect: the agent's report is the producer's own observations."
+        },
+        {
+          "id": "c",
+          "text": "Investigative consumer report",
+          "rationale": "Correct: investigative consumer (inspection) reports are based on interviews and are regulated by the FCRA."
+        },
+        {
+          "id": "d",
+          "text": "Policy summary",
+          "rationale": "Incorrect: a policy summary is a disclosure document for the buyer, not an underwriting source."
+        }
+      ],
+      "correct": "c",
+      "explanation": "An investigative consumer report, often called an inspection report, collects information on character, general reputation, personal characteristics and mode of living through personal interviews. The Fair Credit Reporting Act regulates these reports and gives consumers notice and dispute rights.",
+      "memoryTip": "Inspection = interviews about how you live.",
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q036",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.8.1.6"
+      ],
+      "concepts": [
+        "underwriting",
+        "unfair-discrimination"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "Under NY Insurance Law § 2611, before an insurer requires an applicant to take an HIV-related test, it must:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Obtain the consent of the applicant's personal physician only",
+          "rationale": "Incorrect: the written informed consent of the individual proposed for insurance is required."
+        },
+        {
+          "id": "b",
+          "text": "Notify the Department of Health of the applicant's name and address",
+          "rationale": "Incorrect: § 2611 does not require reporting the applicant's name before testing."
+        },
+        {
+          "id": "c",
+          "text": "Obtain the policyowner's verbal permission during the interview",
+          "rationale": "Incorrect: consent must be written and come from the individual to be tested."
+        },
+        {
+          "id": "d",
+          "text": "Get the person's written informed consent and give AIDS/HIV information",
+          "rationale": "Correct: § 2611(a) requires both."
+        }
+      ],
+      "correct": "d",
+      "explanation": "§ 2611(a) prohibits an insurer from requesting or requiring an HIV-related test without the written informed consent of the individual proposed for insurance and without providing general information about AIDS and HIV transmission. The dated authorization must describe the test and its purpose, explain that a positive result may indicate the person may develop AIDS, let the individual designate who receives specific results after an adverse underwriting decision, give the Department of Health toll-free number, and be signed.",
+      "memoryTip": "HIV test in NY = written consent + information first.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-2611"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q037",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.8.1.6"
+      ],
+      "concepts": [
+        "underwriting"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "scenario": "After an HIV-related test, an insurer offers Marco coverage only at a higher-than-standard rate. Marco has not yet said who should receive his specific test results.",
+      "stem": "Under NY Insurance Law § 2611, what must the insurer do?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Notify him and ask him to elect in writing who receives the results",
+          "rationale": "Correct: § 2611(c) requires this notice and written election."
+        },
+        {
+          "id": "b",
+          "text": "Send the specific test results directly to Marco's employer",
+          "rationale": "Incorrect: results go only to Marco or his written designee."
+        },
+        {
+          "id": "c",
+          "text": "Nothing, because a rated offer is not an adverse underwriting decision",
+          "rationale": "Incorrect: § 2611(d)(1) defines an offer at a higher than standard rate as an adverse underwriting decision."
+        },
+        {
+          "id": "d",
+          "text": "Report the results to the MIB before telling Marco anything",
+          "rationale": "Incorrect: § 2611 requires notice and an election by the individual."
+        }
+      ],
+      "correct": "a",
+      "explanation": "§ 2611(d)(1) defines 'adverse underwriting decision' as a declination of coverage as applied for or an offer at a higher than standard rate. When such a decision is based in whole or part on an HIV-related test, § 2611(c) requires the insurer to notify the individual and ask him to elect in writing whether specific results are disclosed to him directly or to a person he designates (for example, a physician).",
+      "memoryTip": "Rated or declined = adverse; the applicant picks who hears the results.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Higher-than-standard rate is an adverse decision",
+            "anyOf": [
+              "adverse",
+              "higher than standard",
+              "rated"
+            ]
+          },
+          {
+            "label": "Applicant elects who receives results",
+            "anyOf": [
+              "elect",
+              "designate",
+              "choose",
+              "physician"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-2611"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q038",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.8.2.3",
+        "lib.8.2",
+        "lib.8.2.1",
+        "lib.8.2.2",
+        "lib.8.2.4"
+      ],
+      "concepts": [
+        "substandard-risk",
+        "standard-risk",
+        "preferred-risk"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "An applicant who is insurable but only at an extra premium is classified as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Substandard",
+          "rationale": "Correct: substandard (rated) risks pay more or receive modified benefits."
+        },
+        {
+          "id": "b",
+          "text": "Preferred",
+          "rationale": "Incorrect: preferred risks pay less than standard."
+        },
+        {
+          "id": "c",
+          "text": "Standard",
+          "rationale": "Incorrect: standard risks pay the regular rate."
+        },
+        {
+          "id": "d",
+          "text": "Declined",
+          "rationale": "Incorrect: declined applicants are not offered coverage at any premium."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Risk classes, from best to worst: preferred (below-average mortality, lowest rates), standard (average), substandard or rated (above-average mortality, extra premium or modified benefits), and declined (not insurable).",
+      "memoryTip": "Sub-standard = above-standard price.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q039",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.8.1.7"
+      ],
+      "concepts": [
+        "unfair-discrimination",
+        "underwriting"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "Which underwriting practice would be considered unfair discrimination?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Charging a smoker more than a nonsmoker of the same age and health",
+          "rationale": "Incorrect: smoking is an actuarially justified risk factor."
+        },
+        {
+          "id": "b",
+          "text": "Charging different rates to equal risks in the same class",
+          "rationale": "Correct: treating individuals of the same class and expectation of life differently is unfair discrimination."
+        },
+        {
+          "id": "c",
+          "text": "Declining an applicant who is awaiting the results of major surgery",
+          "rationale": "Incorrect: this is based on sound underwriting evidence."
+        },
+        {
+          "id": "d",
+          "text": "Charging an extra premium for a documented hazardous occupation",
+          "rationale": "Incorrect: occupation is a legitimate risk factor."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Underwriting must classify risks based on sound actuarial principles or actual or reasonably anticipated experience. Unfair discrimination occurs when people of the same class and equal life expectancy are charged different rates or given different terms, or when selection is based on factors that are not risk-related.",
+      "memoryTip": "Same risk, same price.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q040",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1.8"
+      ],
+      "concepts": [
+        "nonpublic-personal-information",
+        "fair-credit-reporting-act"
+      ],
+      "difficulty": 2,
+      "style": "application",
+      "tags": [],
+      "scenario": "A producer has just taken a detailed application, including medical history, from a client. A friend who sells mortgages asks for the client's contact and financial details to send her a marketing offer.",
+      "stem": "What is the producer's proper course of action?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Share the information, since the client is already the producer's customer",
+          "rationale": "Incorrect: being a customer does not authorize sharing personal information with an unrelated marketer."
+        },
+        {
+          "id": "b",
+          "text": "Share only the medical history, since it is less sensitive than finances",
+          "rationale": "Incorrect: medical information is among the most sensitive personal information."
+        },
+        {
+          "id": "c",
+          "text": "Decline and use the information only for the authorized insurance purpose",
+          "rationale": "Correct: personal information collected for underwriting must be kept confidential and used only for authorized purposes."
+        },
+        {
+          "id": "d",
+          "text": "Share it with the friend after the policy's free-look period ends",
+          "rationale": "Incorrect: the free-look period has no bearing on privacy obligations."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Producers gather sensitive personal, financial and medical information during field underwriting. That information must be protected and used only for purposes the client has authorized (such as underwriting and servicing the policy) and as permitted by privacy laws; it may not be passed to unrelated third parties for marketing without proper notice and consent.",
+      "memoryTip": "Collected for insurance, used for insurance.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q041",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.2.1",
+        "lib.2"
+      ],
+      "concepts": [
+        "survivor-protection"
+      ],
+      "difficulty": 1,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Tasha, 34, is a single mother of two whose salary pays all household bills. She wants to be sure her children could stay in their home and continue school if she died.",
+      "stem": "Which personal use of life insurance is Tasha's main goal?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Estate conservation",
+          "rationale": "Incorrect: Tasha has no large existing estate to preserve."
+        },
+        {
+          "id": "b",
+          "text": "Cash accumulation",
+          "rationale": "Incorrect: her goal is protection if she dies, not building savings."
+        },
+        {
+          "id": "c",
+          "text": "Business continuation",
+          "rationale": "Incorrect: no business is involved."
+        },
+        {
+          "id": "d",
+          "text": "Survivor protection",
+          "rationale": "Correct: she wants to replace her income for dependents if she dies."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Survivor protection uses the death benefit to replace the insured's income and cover expenses for dependents. It is the most basic reason people buy life insurance, and term insurance often meets it affordably.",
+      "memoryTip": "Protect the people who depend on your paycheck.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q042",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.4.3",
+        "lib.4"
+      ],
+      "concepts": [
+        "business-continuation",
+        "buy-sell-agreement"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "Which statement best describes the purpose of a business continuation plan funded with life insurance?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It keeps the business running and pays a deceased owner's heirs a fair price",
+          "rationale": "Correct: surviving owners keep control and the heirs receive cash at an agreed price."
+        },
+        {
+          "id": "b",
+          "text": "It provides retirement income to all owners and employees of the business",
+          "rationale": "Incorrect: that describes a retirement plan, not business continuation."
+        },
+        {
+          "id": "c",
+          "text": "It replaces the deceased owner's personal health insurance for the family",
+          "rationale": "Incorrect: business continuation concerns ownership and operations."
+        },
+        {
+          "id": "d",
+          "text": "It guarantees the business will never need to borrow money after a death",
+          "rationale": "Incorrect: no plan can guarantee that."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Business continuation planning — usually through life-insurance-funded buy-sell agreements and key person coverage — lets a business survive the death of an owner or key person: surviving owners keep the business, and the deceased owner's family receives a fair cash price instead of an illiquid business interest.",
+      "memoryTip": "Keep the doors open and pay the family fairly.",
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q043",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.8.1.1"
+      ],
+      "concepts": [
+        "application",
+        "representation"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "What is the primary source of underwriting information for an individual life insurance applicant?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Medical Information Bureau report",
+          "rationale": "Incorrect: MIB supplements the application with coded alerts."
+        },
+        {
+          "id": "b",
+          "text": "The application",
+          "rationale": "Correct: the signed application is the basic source the insurer relies on."
+        },
+        {
+          "id": "c",
+          "text": "The investigative consumer report",
+          "rationale": "Incorrect: inspection reports supplement and verify the application."
+        },
+        {
+          "id": "d",
+          "text": "The policy summary",
+          "rationale": "Incorrect: the policy summary is a disclosure given to the buyer at delivery."
+        }
+      ],
+      "correct": "b",
+      "explanation": "The application — with personal, occupational, financial and medical information signed by the applicant (and the proposed insured, if different) — is the primary underwriting source. The agent's report, APS, MIB, inspection reports and medical tests supplement it. When attached to the policy, the application becomes part of the entire contract.",
+      "memoryTip": "Everything starts with the application.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q044",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1.7"
+      ],
+      "concepts": [
+        "replacement"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "ny-law",
+        "negative-wording"
+      ],
+      "stem": "Under NY Regulation 60, each of the following, done as part of buying a new life policy, is a replacement of the existing policy EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Converting the existing policy to reduced paid-up insurance",
+          "rationale": "Not the answer: changing an existing policy into paid-up insurance is listed in 11 NYCRR 51.2(a)(2)."
+        },
+        {
+          "id": "b",
+          "text": "Stopping premium payments on the existing policy",
+          "rationale": "Not the answer: continuing a policy with stopped or reduced premiums is listed in 51.2(a)(6)."
+        },
+        {
+          "id": "c",
+          "text": "Keeping the existing policy fully in force, unchanged",
+          "rationale": "Correct: if the existing coverage is not lapsed, reduced, borrowed against or otherwise affected, the new purchase is not a replacement."
+        },
+        {
+          "id": "d",
+          "text": "Assigning the existing policy as collateral for a loan",
+          "rationale": "Not the answer: assigning existing coverage as collateral is listed in 51.2(a)(5)."
+        }
+      ],
+      "correct": "c",
+      "explanation": "11 NYCRR 51.2(a) defines replacement as buying new life insurance or annuities when existing coverage has been or is likely to be lapsed, surrendered, forfeited or terminated; converted to paid-up or extended term or otherwise reduced in value; reduced in amount or duration; reissued with cash released; assigned as collateral or borrowed against; or continued with stopped or reduced premiums. Buying new coverage while leaving the existing policy untouched is additional coverage, not a replacement — though the producer still completes the Definition of Replacement form with the application.",
+      "memoryTip": "Old policy untouched = additional coverage, not replacement.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-51"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

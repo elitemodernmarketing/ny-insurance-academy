@@ -1,0 +1,785 @@
+New York Life, Accident, and Health
+Insurance Agent/Broker
+Series 17-55
+150 items - 2.5 Hour Time Limit
+Insurance Regulation 7%
+Licensing
+Process (2103(d–i))
+Definitions
+Producer definition (2101(k))
+Who should be licensed (2101(k)(1))
+Home state (2101(l))
+Negotiate (2101(m))
+Sell (2101(n))
+Solicit (2101(o))
+Types of licensees
+Agents (2101(a, k); 2103; Reg 6,
+Part 22.2; Reg 7, Part 23.2)
+=====PAGE 24=====
+24
+Brokers (2101(c, h, k); 2104)
+Consultants (2107)
+Adjusters (2101(g), 2108)
+Nonresident (2101(d, e); 2103(g)(5,
+11); 2136)
+Business entities (2101(p),
+2103(j)(2))
+Temporary (2109; Regs 9, 18, 29,
+Part 20.1)
+Maintenance and duration
+Renewal (2103(j); Reg 5, Part 21.2)
+Continuing education (2132)
+Assumed names (2102(f))
+Change of address (all addresses,
+including email) (2134; Reg 5, Part
+21.4; Reg 6, Part 22.3; Reg 7, Part
+23.4)
+Reporting of actions (2110(i))
+Disciplinary actions
+Hearings - Notice and Process (2405,
+2406, Financial Services 305)
+Suspension, revocation, and
+nonrenewal (2110)
+Penalties (2127, 109)
+State Regulation
+Superintendent's general duties and
+powers (2404, Financial Services 201,
+202, 301)
+Company regulation
+Certificate of authority (1102(a-b))
+Solvency (307)
+Unfair claim settlement practices
+(2601; Reg 64, Parts 216.3 to .6)
+Appointment of agent (2112(a–c))
+Termination of agent appointment
+(2112(d); Regs 9, 18, 29, Part 20.2)
+Unfair and prohibited practices
+Misrepresentation (2123; Reg 64,
+Part 216.3)
+False advertising (2603)
+Defamation of insurer (2604)
+Unfair discrimination (2606–2608,
+2612)
+Rebating (2324)
+Licensee regulation
+Controlled business (2103(i))
+Sharing commissions (2121, 2128)
+Fiduciary responsibility (2120; Regs
+9, 18, 29, Parts 20.3, 20.4)
+License display (Reg 125, Part 34.5)
+Commissions and compensation
+(2102(e), 2114–2116, 2119; Regs 9,
+18, 29, Part 20.6; 194 Part 30)
+Termination responsibilities of
+producer (2112)
+Examination of books and records (2404;
+Reg 152, Parts 243.0 to .3)
+Insurance Frauds Prevention Act (401–
+405, Financial Services 403-405)
+Aiding Unauthorized Insurer (2117)
+Prohibitions (403)
+Reporting (405)
+Consumer privacy regulation (Reg 169,
+Part 420.0 to .4)
+Producer Compensation Transparency
+(Reg 194, Parts 30.1 to 30.5)
+Cyber Security Requirements for
+Financial Services Companies (Reg 23)
+Federal Regulation
+Fair Credit Reporting Act (15 USC 1681–
+1681d)
+Fraud and false statements including
+1033 waiver (18 USC 1033, 1034)
+General Insurance 4%
+Concepts
+Risk management key terms
+Risk (pure and speculative)
+Exposure
+Hazard (physical, moral, morale)
+Peril
+Loss
+Methods of handling risk
+Avoidance
+Retention
+Sharing
+Reduction
+Transfer (by contractual liability or
+insurance contract)
+Elements of insurable risks
+Adverse selection
+Law of large numbers
+Reinsurance
+Insurers
+Types of insurers
+Stock companies
+Mutual companies
+Fraternal benefit societies
+Private versus government insurers
+Admitted versus nonadmitted insurers
+Domestic, foreign, and alien insurers
+Financial status (independent rating
+services)
+Marketing (distribution) systems
+Agents and general rules of agency
+Insurer as principal
+Agent/insurer relationship
+Authority and powers of agents
+Express
+Implied
+Apparent
+Responsibilities to the applicant/insured
+Contracts
+Elements of a legal contract
+Offer and acceptance
+Consideration
+Competent parties
+Legal purpose
+Characteristics of insurance contracts
+Contract of adhesion
+Aleatory contract
+Personal contract
+Unilateral contract
+Conditional contract
+Legal concepts and interpretations
+affecting contracts
+Indemnity
+Utmost good faith
+Representations/misrepresentations
+(3105)
+Warranties (3106)
+Rescission
+Concealment
+Fraud
+Waiver and estoppel
+Life Insurance Basics 8%
+Insurable interest (3205)
+Personal uses of life insurance
+Survivor protection
+Estate creation
+Cash accumulation
+Liquidity
+Estate conservation
+Determining amount of personal life
+insurance
+Human life value approach
+Needs approach
+Types of information gathered
+Determining lump-sum needs
+Planning for income needs
+Business uses of life insurance
+Buy-sell funding
+Key person
+Business continuation
+Differences in life insurance policies
+Group versus individual
+Permanent versus term
+Participating versus nonparticipating
+Fixed versus variable life
+Regulation of variable products
+(SEC, NASD, and New York) (4240;
+Reg 47, Part 50.3; Reg 77, Part
+54.3)
+=====PAGE 25=====
+25
+Factors in premium determination
+Mortality, Investment Return, and
+Expense
+Mode of premium
+Licensee responsibilities
+Solicitation and sales presentations
+Advertising (2122)
+Life Insurance Company Guaranty
+Corporation (7718)
+Policy summary (3209; Reg 74, Part
+53-2.2)
+Buyer's guide (3209; Reg 74, Part
+53-2.6)
+Suitability in Life Insurance and
+Annuities (Reg 187 224.2-224.4)
+Illustrations (Reg 74, Part 53-3.1 to
+.6)
+Replacement (2123(a)(2, 3); Reg 60,
+Parts 51.1 to .8)
+Use and disclosure of insurance
+information
+Use of Senior-Specific Certifications
+and Professional Designations in the
+Sale of Life Insurance and Annuities
+(Reg 199, Part 225)
+Field underwriting
+Application procedures including
+backdating of policies (3208)
+Delivery
+Policy review
+Effective date of coverage
+Premium collection
+Statement of good health
+Amendments
+Individual underwriting by the insurer
+Information sources and regulation
+Application
+Agent report
+Attending physician statement
+Investigative consumer (inspection)
+report
+Medical Information Bureau (MIB)
+Medical examinations and lab tests
+including HIV (2611)
+Selection criteria and unfair
+discrimination
+Classification of risks
+Preferred
+Standard
+Substandard
+Declined
+Life Insurance Policies 8%
+Term life insurance
+Level term
+Renewable term
+Convertible term
+Level premium term
+Whole life insurance
+Continuous premium (straight life)
+Limited payment
+Single premium
+Flexible premium policies
+Universal life
+Specialized policies
+Joint life (first-to-die)
+Survivorship life (second-to-die)
+Life insurance on minors (3207(b))
+Fixed (equity) indexed life
+Group life insurance
+Characteristics of group plans
+Types of plan sponsors
+Group underwriting requirements
+Conversion to individual policy (3220)
+Credit life insurance (individual versus
+group)
+Life Insurance Policy Provisions, Options,
+and Riders 10%
+Required provisions (3203)
+Ownership
+Assignment
+Entire contract (3203(a)(4), 3204)
+Right to examine (free look)
+(3203(a)(11))
+Payment of premiums
+Grace period (3203(a)(1))
+Reinstatement (3203(a)(10))
+Incontestability (3203(a)(3))
+Misstatement of age (3203(a)(5))
+Exclusions (3203(b,c))
+Statements of the applicant (3204)
+Proof of Death
+Beneficiaries
+Designation options
+Individuals
+Classes (per stirpes/per capita)
+Estates
+Minors
+Trusts
+Succession
+Revocable versus irrevocable
+Common disaster clause
+Settlement options
+Cash payment
+Interest only
+Fixed-period installments
+Fixed-amount installments
+Life income
+Single life
+Joint and survivor
+Spendthrift clause
+Nonforfeiture options
+Cash surrender value (net cash value)
+Extended term
+Reduced paid-up insurance
+Policy loan and withdrawal options
+Policy loans
+Automatic premium loans
+Withdrawals or partial surrenders
+Dividend options
+Cash payment
+Reduction of premium payments
+Accumulation at interest
+One-year term option
+Paid-up additions
+Disability riders
+Waiver of premium
+Waiver of cost of insurance
+Disability income benefit
+Payor benefit life/disability (juvenile
+insurance)
+Accelerated (living) benefit
+provisions/riders (3230)
+Conditions for payment
+Effect on death benefit
+Riders covering additional insureds
+Spouse/other-insured term rider
+Children's term rider
+Family term rider
+Riders affecting the death benefit
+amount
+Accidental death
+Guaranteed insurability
+Cost of living
+Return of premium
+Term rider
+Annuities 7%
+Annuity principles and concepts
+Accumulation period versus annuity
+period
+Owner, annuitant, and beneficiary
+Insurance aspects of annuities
+Required provisions (3219, 4220, 4223)
+Immediate versus deferred annuities
+Single premium immediate annuities
+(SPIAs)
+Deferred annuities
+=====PAGE 26=====
+26
+Premium payment options
+Nonforfeiture
+Surrender and withdrawal charges
+Death benefits
+Annuity (benefit) payment options
+Life contingency options
+Pure or straight life versus life with
+guaranteed minimum
+Single life versus multiple life
+Annuities certain (types)
+Annuity products
+Fixed annuities
+General account assets
+Interest rate guarantees (minimum
+versus current)
+Level benefit payment amount
+Fixed (equity) indexed annuities
+Differences in variable annuity products
+and licensing requirements
+Personal Uses of annuities
+Tax-deferred growth
+Retirement income
+Guaranteed Minimum Withdrawal
+Benefit (GMWB)
+Education funds
+Federal Tax Considerations for Life
+Insurance and Annuities 2%
+Taxation of personal life insurance
+Amounts available to policyowner
+Cash value increases
+Dividends
+Policy loans
+Surrenders
+Amounts received by beneficiary
+Settlement options
+Rollovers and transfers (IRAs and
+qualified plans)
+Section 1035 exchanges
+Qualified Plans 2%
+General requirements
+Defined contribution versus defined
+benefit plan
+Plan types, characteristics, and
+purchasers
+Self-employed plans (Keogh plans)
+SIMPLE
+SEP
+401K
+457
+Life Settlement 3%
+Definitions (7802)
+Life Settlement contract
+(7802(k)(1)(2)(3))
+Life Settlement Broker (7802(j))
+Business of Life Settlement (7802 (c)(1))
+Financing transaction(7802(f))
+Owner(7802(n))
+Life expectancy(7802(i))
+Broker License Requirements (2137;
+2102(a) (1))
+Advertising (7809)
+Privacy (7810)
+HIPAA
+Personal & Financial information privacy
+Prohibited Practices (7814)
+Stranger-originated life insurance (7815)
+Insurable interest provisions
+Trust owned policies
+Accident and Health Insurance Basics 5%
+Definitions of perils
+Accidental injury
+Sickness
+Principal types of losses and benefits
+Loss of income from disability
+Hospital and medical expense
+Long-term care expense
+Classes of accident and health insurance
+coverage
+Individual and group
+Private versus government
+Limited versus comprehensive
+Types of Limited Policies
+Limited benefits and amounts
+Required notice to insured
+Types of limited policies
+Accident-only
+Specified (dread) disease
+Hospital indemnity (income)
+Dental insurance
+Vision care
+Common exclusions from coverage
+Workers' Compensation
+Cosmetic
+Experimental/investigation
+Medical Necessity
+Licensee responsibilities in individual
+accident and health insurance
+Marketing requirements
+Advertising (Reg 34, Parts 215.1 to
+.18)
+Sales presentations
+Outline of coverage
+Application procedures
+Requirements at delivery of policy
+Considerations in replacing accident and
+health insurance
+Benefits, limitations, and exclusions
+Licensee liability for errors and
+omissions
+Community rating of policies (4317; Reg
+145, Part 360)
+Definition of small group
+Individual Health Insurance Policy
+General Provisions 4%
+Required provisions
+Entire contract; changes (3216(d)(1)(A))
+Time limit on certain defenses
+(3216(d)(1)(B))
+Grace period (3216(d)(1)C)
+Reinstatement (3216(d)(1)(D))
+Other provisions
+Coordination of benefits
+Other benefits (3216(d)(2)(E))
+Unpaid premium (3216(d)(2)(G))
+Cancellation (3216(d)(2)(H))
+Conformity with state statutes
+(3216(d)(2)(I))
+Illegal occupation (3216(d)(2)(J))
+Intoxicants and narcotics (3216(d)(2)(K))
+Other general provisions
+Right to examine (free look)
+Insuring clause
+Consideration clause
+Renewability clause (3216(g))
+Noncancelable
+Guaranteed renewable
+Disability Income and Related Insurance
+6%
+Qualifying for disability benefits
+Inability to perform duties
+Own occupation
+Any occupation
+Presumptive disability
+Proof of Loss
+Individual disability income insurance
+Basic total disability plan
+Income benefits
+Elimination and benefit periods
+Waiver of premium feature
+Coordination of benefits
+Individual premium consideration
+Additional Monthly Benefit (AMB)
+Social Insurance Supplement (SIS)
+Occupational versus
+nonoccupational coverage
+Noncancelable (3216(d)(2)(H))
+=====PAGE 27=====
+27
+Guaranteed renewability
+Other provisions affecting income
+benefits
+Cost of Living Adjustment (COLA)
+rider
+Future Increase Option (FIO) rider
+Relation of earnings to insurance
+(3216(d)(2)(F))
+Benefits
+Accidental death and
+dismemberment
+Rehabilitation benefit
+Medical reimbursement benefit
+(nondisabling injury)
+Partial disability benefit
+Residual disability benefit
+Total disability benefit
+24-hour coverage versus limited/at-
+work coverage
+Exclusions
+Group disability income insurance
+Group versus individual plans
+Short-Term Disability (STD)
+Long-Term Disability (LTD)
+Business disability insurance
+Key person disability income
+Disability buy-sell policy
+Business overhead expense policy
+Medical Plans 6%
+Medical plan concepts
+Fee-for-service basis versus prepaid
+basis
+Specified coverages versus
+comprehensive care
+Benefit schedule versus
+usual/reasonable/customary charges
+Any provider versus limited choice of
+providers
+Insureds versus subscribers/participants
+Types of plans
+Major medical insurance (indemnity
+plans)
+Characteristics
+Common limitations
+Exclusions from coverage
+Provisions affecting cost to insured
+Health Maintenance Organizations
+(HMOs)
+General characteristics
+Preventive care services (4303(j))
+Primary Care Physician (PCP)
+Referral (specialty) physician
+Emergency care
+Hospital services
+Other basic services
+Preferred Provider Organizations
+(PPOs), Point-of-Service (POS) plans
+and Exclusive Provider
+Organizations (EPOs)
+General characteristics
+In-network and out-of-network
+provider access
+Primary Care Physician (PCP)
+referral
+Indemnity plan features
+Catastrophic
+Cost containment in health care delivery
+Utilization review (Art. 49)
+Prospective review
+Concurrent review
+Retrospective review
+New York mandated benefits and offers
+(individual and/or group)
+Dependent child age limit
+(3216(a)(4);4235(f)(1)(2))
+Policy extension for handicapped
+children (3216(c)(4)(A))
+Newborn child coverage (3216(c)(4)(c)
+New York required benefits (individual
+and/or group)
+New York mandated offers (individual
+and/or group)
+HIPAA (Health Insurance Portability and
+Accountability Act) requirements
+Eligibility
+Guaranteed issue
+Renewability
+Privacy protections
+Federal Patient Protection and
+Affordable Care Act 6%
+Affordable Care Act
+Preexisting conditions
+Insurance exchanges
+Eligibility (individual and small
+employer)
+APTC (advance premium tax credit)
+Cost share reeducation
+Benchmark plan
+State vs. Federal
+Metal levels
+Catastrophic
+Medical loss ratio
+Actuarial value
+Enrollment period
+Individual mandate
+Employer shared responsibility
+Annual lifetime dollar limits
+10 Essential benefits
+Long-Term Care (LTC) Insurance 6%
+Benefits
+LTC, Medicare and Medicaid compared
+Eligibility for benefits
+Levels of care
+Skilled care
+Intermediate care
+Custodial care
+Types of care
+Home health care
+Adult day care
+Respite care
+Nursing home facility care
+Assisted living
+Benefit periods
+Benefit amounts
+Activities of Daily Living (ADLs)
+Optional benefits
+Reimbursement versus
+indemnity/cash
+Inflation protection (COLA) (Reg 62,
+Part 52.25(c)(3))
+Nonforfeiture benefits (Reg 62, Part
+52.25(c)(7))
+Guarantee of insurability
+Return of premium
+Shared care
+Individual, group, and association
+plans
+Hybrid plans
+Exclusions (Reg 62, Part 52.25(b)(2))
+Underwriting considerations
+Suitability
+New York regulations and required
+provisions
+Renewability (Reg 62, Part 52.25(b)(1))
+Required disclosure provisions (Reg 62,
+Part 52.65)
+Prohibited practices
+Replacement (Reg 62, Part 52.29)
+New York State Partnership for Long
+Term Care (Reg 144, Part 39)
+Dollar for dollar or time element
+Medicaid Estate Recovery Act (OBRA '93)
+New York Tax credit
+Group Health and Blanket Insurance 5%
+Characteristics of group insurance
+Group contract
+Certificate of coverage
+Experience rating versus community
+rating
+Definition of eligible group (4235(b)(c))
+Types of eligible groups (4235)
+Employment-related groups
+Individual employer groups
+=====PAGE 28=====
+28
+Professional employer organizations
+Associations (alumni, professional,
+and other)
+Customer groups (depositors,
+creditor-debtor, and others)
+Blanket customer groups (teams,
+passengers, and others)
+Regulation of employer group insurance
+plans
+Employee Retirement Income Security
+Act (ERISA)
+Applicability
+Fiduciary responsibilities
+Reporting and disclosure
+Family Medical Leave Act (FMLA)
+Relationship with Medicare
+Medicare secondary rules
+Medicare carve-outs and
+supplements
+Nondiscrimination rules (highly-
+compensated)
+Types of funding and administration
+Conventional fully-insured plans
+Partially self-insured plans
+Stop-loss coverage
+Administrative Services Only (ASO)
+arrangements
+Marketing considerations
+Advertising
+Regulatory jurisdiction/place of delivery
+Employer group health insurance
+Insurer underwriting criteria
+Characteristics of group
+Plan design factors
+Persistency factors
+Administrative capability
+Eligibility for coverage
+Annual open enrollment
+Employee eligibility
+Probationary period
+Dependent eligibility
+Coordination of benefits provision (Reg
+62, Part 52.23)
+Change of insurance companies or loss of
+coverage
+Events that terminate coverage
+Extension of benefits
+Continuation of coverage under
+COBRA and New York continuations
+Conversion privilege (3221(e))
+Small employer medical plans
+Definition of small employer (Reg 145,
+Part 360.2(f))
+Benefit plans offered
+Availability of coverage (Reg 145, Part
+360.2(e), .3)
+Renewability (Reg 145, Part 360.2(e))
+Government Insurance Plans 5%
+Workers' Compensation
+Eligibility
+Benefits
+Social Security Disability
+Qualifications for disability benefits
+Definition of disability
+Waiting period
+Disability income benefits
+New York State Disability Benefits Law
+Purpose
+Definitions
+Employment covered
+Benefits
+Medicaid
+Eligibility and benefits
+Child Health Plus
+Eligibility and benefits
+Medicare
+Nature, financing, and administration
+Part A - Hospital Insurance
+Individual eligibility requirements
+Enrollment
+Coverages and cost-sharing amounts
+Part B - Medical Insurance
+Individual eligibility requirements
+Enrollment
+Coverages and cost-sharing amounts
+Exclusions
+Part C - Medicare Advantage
+Part D - Prescription Drug Insurance
+Flexible Spending Accounts (FSAs) and
+Health Savings Accounts (HSAs)
+Definition
+Eligibility
+Contribution
+Healthy New York (4326)
+Private Insurance for Senior Citizens and
+Special Needs Individuals 6%
+Medicare supplements
+Purpose
+Open enrollment (Reg 193, Part 58))
+Standardized Medicare supplement plans
+Core benefits
+Additional benefits
+New York regulations and required
+provisions
+Standards for marketing (Reg 193,
+Part 58)
+Permitted compensation
+arrangements (Reg 193, Part 58)
+Appropriateness of recommended
+purchase or replacement (Reg 193,
+Part 58)
+Replacement (Reg 193, Part 58)
+Disclosure statement (Reg 193, Part
+58)
+Renewability (Reg 193, Part 58)
+Other Medicare options for individuals
+Disabled individuals
+Individuals with kidney failure
+Employer group health plans
+Employees age 65 or older
+New York Life, Accident, and Health

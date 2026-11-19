@@ -1,0 +1,878 @@
+{
+  "sectionId": "grp",
+  "lessons": [
+    {
+      "id": "grp-l01",
+      "sectionId": "grp",
+      "order": 1,
+      "title": "How Group Insurance Works and Who Can Buy It",
+      "outlineIds": [
+        "grp.1",
+        "grp.1.1",
+        "grp.1.2",
+        "grp.1.3",
+        "grp.1.4",
+        "grp.2",
+        "grp.2.1",
+        "grp.2.1.1",
+        "grp.2.1.2",
+        "grp.2.1.3",
+        "grp.2.1.4",
+        "grp.2.1.5"
+      ],
+      "estMinutes": 25,
+      "intro": "Group insurance covers many people under one contract. This lesson explains the master policy and certificates, how group premiums are rated, which groups New York allows to buy group coverage, and how blanket coverage differs.",
+      "objectives": [
+        "Distinguish the master policy from the certificate of coverage",
+        "Compare experience rating and community rating",
+        "Explain New York's eligible group rules under Insurance Law § 4235",
+        "Identify employer, PEO, association, customer and blanket groups"
+      ],
+      "keyTerms": [
+        "master-policy",
+        "certificate-of-coverage",
+        "experience-rating",
+        "community-rating",
+        "eligible-group",
+        "professional-employer-organization",
+        "association-group",
+        "blanket-insurance"
+      ],
+      "parts": [
+        {
+          "heading": "One contract, many certificates",
+          "body": "Group insurance is written as one [[master-policy|master policy]] issued to the group policyholder, such as an employer. Each covered person receives a [[certificate-of-coverage|certificate of coverage]] summarizing the benefits. The certificate is evidence of coverage, not a separate contract.",
+          "simple": "The employer holds the contract; you get a certificate that shows you're covered.",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "Under Insurance Law § 4235(c)(1)(A), a policy issued to an employer (or trustees of an employer fund) treats the employer or trustees as the policyholder.",
+              "sources": [
+                "ny-isc-4235"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Experience rating vs. community rating",
+          "body": "[[experience-rating|Experience rating]] bases a group's premium on its own claims history; a low-claim group pays less. [[community-rating|Community rating]] charges everyone in the pool the same rate regardless of their own claims, age, sex or health status.",
+          "simple": "Experience = your group's own track record. Community = everyone pays the same.",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "New York requires individual and small group (1–100 employees) hospital/medical coverage to be community rated (Insurance Law § 3231; § 4317 for Article 43 corporations). Large groups may be experience rated.",
+              "sources": [
+                "ny-isc-3231",
+                "ny-isc-4317"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Eligible groups in New York",
+          "body": "Not every collection of people qualifies. Under § 4235(c), a group policy must fit a statutory description, including:\n\n- **Employer groups** (individual employers or trustees of an employer fund)\n- **Trustees of a trade association fund** for employees of member employers\n- **Labor unions** and **multiple-employer or union trust funds**\n- **Creditor groups** (a creditor insuring its debtors)\n\nAn employer plan must cover all employees or **classes based on conditions of employment**, using a plan that **precludes individual selection**. If employees contribute (a contributory plan), a hospital/medical plan must insure at least **50% of eligible employees** (or 50 employees, if that is fewer — whichever number is smaller).",
+          "example": {
+            "title": "Example: Elm Street Foods",
+            "body": "Elm Street Foods has 80 eligible employees and a contributory hospital/medical plan. It must insure at least 50% of 80 = 40 employees."
+          },
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "Eligible groups and participation: Insurance Law § 4235(c)(1).",
+              "sources": [
+                "ny-isc-4235"
+              ]
+            },
+            {
+              "kind": "exam-trap",
+              "text": "Groups formed just to buy insurance are a red flag for adverse selection; eligible groups exist for another purpose."
+            }
+          ]
+        },
+        {
+          "heading": "PEOs, associations, customer groups and blanket coverage",
+          "body": "- A [[professional-employer-organization|professional employer organization (PEO)]] co-employs the workers of many small client businesses and can offer them a group plan.\n- An [[association-group]] (alumni, professional or trade association) offers coverage to members; the association should exist for purposes other than insurance.\n- **Customer groups** include depositors and creditor-debtor groups.\n- [[blanket-insurance|Blanket insurance]] covers a changing class of unnamed people, such as all passengers of a carrier, students of a school, members of a sports team or volunteer firefighters. The carrier, school or fire district is the policyholder.",
+          "simple": "Blanket = everybody on the bus or team is covered, without a list of names.",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "Blanket accident and health policies: Insurance Law § 4237 (e.g., carriers of passengers, schools, fire districts and fire companies).",
+              "sources": [
+                "ny-isc-4237"
+              ]
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "match",
+        "prompt": "Match each group type to its example.",
+        "pairs": [
+          {
+            "left": "Employer group",
+            "right": "A dental practice covering all full-time staff"
+          },
+          {
+            "left": "Blanket group",
+            "right": "All passengers of a bus line, not individually named"
+          },
+          {
+            "left": "Creditor group",
+            "right": "A lender insuring its borrowers"
+          },
+          {
+            "left": "Association group",
+            "right": "A professional society offering coverage to members"
+          },
+          {
+            "left": "PEO",
+            "right": "A co-employer providing payroll and benefits to many small businesses"
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Who receives a certificate of coverage in a group plan?",
+          "choices": [
+            "The employer",
+            "Each insured member",
+            "The state",
+            "The producer"
+          ],
+          "answerIndex": 1,
+          "explanation": "Members receive certificates; the employer holds the master policy."
+        },
+        {
+          "prompt": "In New York, small group health coverage must be:",
+          "choices": [
+            "Experience rated",
+            "Community rated",
+            "Rated by each employee's health",
+            "Rated by the producer"
+          ],
+          "answerIndex": 1,
+          "explanation": "§ 3231 requires community rating for small groups."
+        },
+        {
+          "prompt": "A contributory NY group hospital/medical plan with 60 eligible employees must insure at least:",
+          "choices": [
+            "15",
+            "30",
+            "50",
+            "60"
+          ],
+          "answerIndex": 1,
+          "explanation": "50% of 60 = 30, which is fewer than 50."
+        }
+      ],
+      "summary": [
+        "Group coverage uses one master policy; members receive certificates.",
+        "Experience rating uses the group's own claims; community rating charges the pool the same rate.",
+        "NY requires community rating for individual and small group coverage.",
+        "§ 4235 lists eligible groups and requires employer classes that preclude individual selection.",
+        "Blanket insurance covers changing, unnamed classes such as passengers or students."
+      ],
+      "related": [
+        "grp-l02"
+      ],
+      "sources": [
+        "ny-isc-4235",
+        "ny-isc-3231",
+        "ny-isc-4317",
+        "ny-isc-4237",
+        "general-insurance-principles"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-l02",
+      "sectionId": "grp",
+      "order": 2,
+      "title": "Federal Rules for Employer Plans: ERISA, FMLA, Medicare and Nondiscrimination",
+      "outlineIds": [
+        "grp.3",
+        "grp.3.1",
+        "grp.3.1.1",
+        "grp.3.1.2",
+        "grp.3.1.3",
+        "grp.3.2",
+        "grp.3.3",
+        "grp.3.3.1",
+        "grp.3.3.2",
+        "grp.3.4"
+      ],
+      "estMinutes": 25,
+      "intro": "Employer group health plans live under several federal laws at once. This lesson covers ERISA, the Family and Medical Leave Act, how employer plans coordinate with Medicare, and the nondiscrimination rules for highly compensated employees.",
+      "objectives": [
+        "Explain who ERISA applies to, fiduciary duties and reporting/disclosure",
+        "Describe FMLA leave and its effect on group health coverage",
+        "Apply the Medicare secondary payer rules",
+        "Describe Medicare carve-outs and nondiscrimination rules"
+      ],
+      "keyTerms": [
+        "erisa",
+        "fiduciary-responsibility",
+        "fmla",
+        "medicare-secondary-payer",
+        "medicare-carve-out",
+        "nondiscrimination-rules"
+      ],
+      "parts": [
+        {
+          "heading": "ERISA",
+          "body": "[[erisa|ERISA]] (1974) sets minimum standards for most **private-sector** employee benefit plans, including group health plans, whether insured or self-funded. Government and church plans are generally exempt.\n\n- **Fiduciary responsibilities:** people who manage the plan or its assets must act prudently and **solely in the interest of participants and beneficiaries**.\n- **Reporting and disclosure:** plans must give participants information such as a summary plan description and file reports with the government.\n- COBRA continuation is part of ERISA for private plans.",
+          "simple": "ERISA is the rulebook for private employers' benefit plans: run them honestly for the workers and keep everyone informed.",
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "ERISA does not require employers to offer benefits; it regulates the plans they choose to offer."
+            }
+          ]
+        },
+        {
+          "heading": "FMLA",
+          "body": "The [[fmla|Family and Medical Leave Act]] gives eligible employees of covered employers up to **12 workweeks** of unpaid, job-protected leave in a 12-month period (26 for military caregiver leave) for reasons such as birth or adoption, the employee's own serious health condition, or caring for a spouse, child or parent with a serious health condition.\n\nPrivate employers with **50 or more employees** are covered. An employee is eligible after 12 months of employment and 1,250 hours of service, at a worksite with 50 employees within 75 miles. **Group health coverage continues on the same terms** during leave.",
+          "simple": "FMLA lets you take up to 12 weeks of unpaid leave and keeps your health coverage going.",
+          "callouts": [
+            {
+              "kind": "note",
+              "text": "Source: U.S. Department of Labor, FMLA.",
+              "sources": [
+                "fed-dol-fmla"
+              ]
+            },
+            {
+              "kind": "exam-trap",
+              "text": "FMLA leave is not a COBRA qualifying event; coverage simply continues."
+            }
+          ]
+        },
+        {
+          "heading": "Medicare and employer plans",
+          "body": "The [[medicare-secondary-payer|Medicare secondary payer]] rules decide who pays first:\n\n- Age 65+ with coverage from **current employment** and an employer of **20 or more employees**: the group plan pays first, Medicare second. Fewer than 20: Medicare first.\n- Under 65 on Medicare because of **disability**, with current-employment coverage from an employer of **100 or more** employees: the group plan pays first.\n- **Retiree** coverage and **COBRA** (age 65+): Medicare pays first.\n\nRetiree plans often use a [[medicare-carve-out|Medicare carve-out]] (the plan's benefit minus what Medicare paid) or a supplement-type design that fills Medicare's gaps.",
+          "simple": "Working for a big enough employer? Your job's plan pays before Medicare. Retired? Medicare pays first.",
+          "example": {
+            "title": "Example: Walter, 66",
+            "body": "Walter works for a 12-employee firm. Because the employer has fewer than 20 employees, Medicare pays first and the group plan pays second."
+          },
+          "callouts": [
+            {
+              "kind": "note",
+              "text": "Source: Medicare.gov, 'Who pays first?'.",
+              "sources": [
+                "fed-medicare-gov-coordination"
+              ]
+            },
+            {
+              "kind": "memory-tip",
+              "text": "Working aged: 20. Disabled: 100."
+            }
+          ]
+        },
+        {
+          "heading": "Nondiscrimination rules",
+          "body": "Federal [[nondiscrimination-rules|nondiscrimination rules]] stop certain tax-favored employer plans (such as self-insured medical reimbursement plans) from favoring **highly compensated individuals** in eligibility or benefits. If a plan discriminates, the highly compensated individuals can lose some tax-free treatment. Reasonable classes based on employment, such as full-time vs. part-time, are allowed.",
+          "simple": "Tax-favored health benefits can't be designed mainly for the bosses.",
+          "callouts": []
+        }
+      ],
+      "activity": {
+        "type": "categorize",
+        "prompt": "Who pays first: the employer group plan or Medicare?",
+        "categories": [
+          "Group plan pays first",
+          "Medicare pays first"
+        ],
+        "items": [
+          {
+            "text": "Age 67, working for a 300-employee employer, covered by its plan",
+            "category": "Group plan pays first"
+          },
+          {
+            "text": "Age 67, working for a 12-employee employer, covered by its plan",
+            "category": "Medicare pays first"
+          },
+          {
+            "text": "Age 70, retired, with retiree coverage from a former employer",
+            "category": "Medicare pays first"
+          },
+          {
+            "text": "Age 55 on Medicare due to disability, covered through a current employer with 500 employees",
+            "category": "Group plan pays first"
+          },
+          {
+            "text": "Age 66 on COBRA coverage",
+            "category": "Medicare pays first"
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "ERISA generally does NOT apply to:",
+          "choices": [
+            "A private company's health plan",
+            "A state government's employee health plan",
+            "A private company's 401(k)",
+            "A private self-funded plan"
+          ],
+          "answerIndex": 1,
+          "explanation": "Government plans are generally exempt."
+        },
+        {
+          "prompt": "During FMLA leave, group health coverage:",
+          "choices": [
+            "Ends",
+            "Continues on the same terms",
+            "Converts to COBRA",
+            "Converts to an individual policy"
+          ],
+          "answerIndex": 1,
+          "explanation": "FMLA requires continuation on the same terms."
+        },
+        {
+          "prompt": "An employee over 65 works for a 50-employee employer and has its group plan. Who pays first?",
+          "choices": [
+            "Medicare",
+            "The group plan",
+            "Medicaid",
+            "Whichever is billed first"
+          ],
+          "answerIndex": 1,
+          "explanation": "20 or more employees: the group plan is primary."
+        }
+      ],
+      "summary": [
+        "ERISA governs private employer plans: fiduciary duties and reporting/disclosure.",
+        "FMLA: up to 12 weeks unpaid leave at employers with 50+ employees; health coverage continues.",
+        "Working aged (20+ employees) and disabled (100+ employees) rules make the group plan primary.",
+        "Retiree coverage and COBRA (65+) are secondary to Medicare.",
+        "Nondiscrimination rules bar favoring highly compensated individuals."
+      ],
+      "related": [
+        "grp-l01",
+        "grp-l03"
+      ],
+      "sources": [
+        "fed-dol-fmla",
+        "fed-medicare-gov-coordination",
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-l03",
+      "sectionId": "grp",
+      "order": 3,
+      "title": "Funding, Marketing and Underwriting a Group Plan",
+      "outlineIds": [
+        "grp.4",
+        "grp.4.1",
+        "grp.4.2",
+        "grp.4.2.1",
+        "grp.4.2.2",
+        "grp.5",
+        "grp.5.1",
+        "grp.5.2",
+        "grp.6",
+        "grp.6.1",
+        "grp.6.1.1",
+        "grp.6.1.2",
+        "grp.6.1.3",
+        "grp.6.1.4"
+      ],
+      "estMinutes": 25,
+      "intro": "Who carries the risk of a group health plan, how is it marketed, and what does an insurer look at before accepting a group? This lesson covers fully insured and self-funded plans, stop-loss and ASO arrangements, advertising and jurisdiction, and group underwriting factors.",
+      "objectives": [
+        "Compare fully insured and self-funded plans",
+        "Explain stop-loss coverage and ASO arrangements",
+        "Describe advertising and place-of-delivery rules for group plans",
+        "List the main group underwriting criteria"
+      ],
+      "keyTerms": [
+        "fully-insured-plan",
+        "self-funded-plan",
+        "stop-loss-coverage",
+        "administrative-services-only",
+        "persistency"
+      ],
+      "parts": [
+        {
+          "heading": "Fully insured vs. self-funded",
+          "body": "In a conventional [[fully-insured-plan|fully insured plan]], the employer pays premiums and the insurer pays claims and bears the risk.\n\nIn a [[self-funded-plan|self-funded (self-insured) plan]], the employer pays claims from its own funds and bears the risk. Most self-funded employers are **partially self-insured**: they buy [[stop-loss-coverage]] to cap their exposure and hire an insurer or TPA under an [[administrative-services-only|administrative services only (ASO)]] contract to process claims.",
+          "simple": "Insured: the insurance company's money pays claims. Self-funded: the employer's money pays claims, with a safety net.",
+          "example": {
+            "title": "Example: Specific stop-loss",
+            "body": "A self-funded employer has a $75,000 specific stop-loss attachment point. An employee's claims total $180,000. The stop-loss carrier reimburses the employer $180,000 - $75,000 = $105,000."
+          },
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "Stop-loss protects the EMPLOYER, not the employee. The employee's protection is the plan's out-of-pocket maximum."
+            }
+          ]
+        },
+        {
+          "heading": "Marketing: advertising and jurisdiction",
+          "body": "Group plans are marketed to the employer or other policyholder, often through producers. Advertising for group coverage must not misrepresent benefits, and insurers are responsible for advertisements of their products, including materials prepared by their producers.\n\n**Regulatory jurisdiction / place of delivery:** a group policy is generally governed by the law of the state where the master policy is delivered to the policyholder (its situs), even if some certificate holders live in other states.",
+          "simple": "Ads must tell the truth. The state where the master policy is delivered generally sets the rules.",
+          "callouts": []
+        },
+        {
+          "heading": "Group underwriting criteria",
+          "body": "Group underwriting evaluates the **group**, not each individual's health. Main factors:\n\n- **Characteristics of the group:** reason the group exists (not just to buy insurance), size, age and sex mix, industry and occupational hazards, stability of membership\n- **Plan design factors:** benefit levels, cost-sharing, and whether the plan is contributory (employees pay part) or noncontributory, which affects participation\n- **[[persistency|Persistency]]:** how long the group tends to keep its coverage; frequent carrier changes are a negative\n- **Administrative capability:** whether the policyholder can handle enrollment, record keeping and premium remittance",
+          "simple": "Insurers look at what kind of group it is, how the plan is designed, whether the group sticks around, and whether the employer can run it.",
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Group underwriting = Character, Design, Persistency, Administration."
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "categorize",
+        "prompt": "Who bears the claim risk?",
+        "categories": [
+          "Insurer bears risk",
+          "Employer bears risk"
+        ],
+        "items": [
+          {
+            "text": "Conventional fully insured group policy",
+            "category": "Insurer bears risk"
+          },
+          {
+            "text": "Self-funded plan administered under an ASO contract",
+            "category": "Employer bears risk"
+          },
+          {
+            "text": "Claims below the stop-loss attachment point in a partially self-insured plan",
+            "category": "Employer bears risk"
+          },
+          {
+            "text": "Premium-paying employer group policy with no self-funding",
+            "category": "Insurer bears risk"
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "In an ASO arrangement, the insurer:",
+          "choices": [
+            "Bears the claim risk",
+            "Processes claims for a fee",
+            "Is the plan sponsor",
+            "Sells individual policies"
+          ],
+          "answerIndex": 1,
+          "explanation": "ASO = administrative services only; the employer bears risk."
+        },
+        {
+          "prompt": "A self-funded employer's claims for one employee reach $120,000 with a $50,000 specific stop-loss attachment point. The stop-loss carrier reimburses:",
+          "choices": [
+            "$50,000",
+            "$70,000",
+            "$120,000",
+            "$170,000"
+          ],
+          "answerIndex": 1,
+          "explanation": "$120,000 - $50,000 = $70,000."
+        },
+        {
+          "prompt": "A group that changes insurers every year has poor:",
+          "choices": [
+            "Persistency",
+            "Community rating",
+            "Coordination of benefits",
+            "Actuarial value"
+          ],
+          "answerIndex": 0,
+          "explanation": "Persistency measures how long coverage stays with an insurer."
+        }
+      ],
+      "summary": [
+        "Fully insured: insurer bears risk. Self-funded: employer bears risk.",
+        "Stop-loss reimburses a self-funded employer for claims above an attachment point.",
+        "ASO providers administer self-funded plans for a fee without bearing risk.",
+        "A group policy is generally governed by the law of its place of delivery.",
+        "Group underwriting looks at group characteristics, plan design, persistency and administrative capability."
+      ],
+      "related": [
+        "grp-l02",
+        "grp-l04"
+      ],
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-l04",
+      "sectionId": "grp",
+      "order": 4,
+      "title": "Eligibility, Coordination of Benefits and Losing Group Coverage",
+      "outlineIds": [
+        "grp.6.2",
+        "grp.6.2.1",
+        "grp.6.2.2",
+        "grp.6.2.3",
+        "grp.6.2.4",
+        "grp.6.3",
+        "grp.6.4",
+        "grp.6.4.1",
+        "grp.6.4.2",
+        "grp.6.4.3",
+        "grp.6.4.4"
+      ],
+      "estMinutes": 35,
+      "intro": "This lesson follows an employee through the life of group coverage: becoming eligible, enrolling, coordinating with a second plan, and what happens when coverage ends, including extension of benefits, COBRA, New York continuation and conversion.",
+      "objectives": [
+        "Explain open enrollment, employee eligibility, probationary periods and dependent eligibility",
+        "Apply New York's coordination of benefits rules",
+        "Identify events that terminate group coverage",
+        "Compare extension of benefits, COBRA, New York continuation and conversion"
+      ],
+      "keyTerms": [
+        "open-enrollment-group",
+        "probationary-period",
+        "coordination-of-benefits",
+        "extension-of-benefits",
+        "cobra",
+        "ny-continuation",
+        "conversion-privilege"
+      ],
+      "parts": [
+        {
+          "heading": "Becoming eligible and enrolling",
+          "body": "- **Employee eligibility:** usually based on employment class, such as full-time employees.\n- **[[probationary-period|Probationary (waiting) period]]:** the time a new employee waits before becoming eligible.\n- **[[open-enrollment-group|Annual open enrollment]]:** a yearly window to enroll or change options without evidence of insurability.\n- **Special enrollment:** at least 30 days to enroll after losing other coverage or gaining a dependent through marriage, birth or adoption.\n- **Dependent eligibility:** spouse and children; in New York, group hospital/medical coverage covers married or unmarried children to age 26, and newborns from the moment of birth.",
+          "simple": "Wait out the probationary period, enroll when eligible or at open enrollment, and add family members when life changes.",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "Group dependent age 26 and newborn coverage: Insurance Law § 4235(f)(1)–(2).",
+              "sources": [
+                "ny-isc-4235"
+              ]
+            },
+            {
+              "kind": "note",
+              "text": "Waiting period and special enrollment: 42 U.S.C. § 300gg-3.",
+              "sources": [
+                "fed-usc-42-300gg-3"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Coordination of benefits",
+          "body": "When a person has two plans, [[coordination-of-benefits|coordination of benefits (COB)]] decides the order. The primary plan pays as if no other plan existed; the secondary plan may reduce its benefits so total payments do not exceed 100% of allowable expenses. New York's order rules include:\n\n1. A plan with no COB provision is primary.\n2. The plan covering the person as an **employee/subscriber** pays before the plan covering the person as a **dependent**.\n3. Children of married or cohabiting parents: the **birthday rule** — the plan of the parent whose birthday (month and day only) comes first in the year.\n4. **Active** employee coverage before laid-off or retired coverage.\n5. Otherwise, the plan that has covered the person **longer**.",
+          "example": {
+            "title": "Example: The birthday rule",
+            "body": "Jenny (born April 3) and Mark (born September 12, and older) both cover their son. Jenny's plan is primary because April comes before September; age doesn't matter."
+          },
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "New York COB rules: 11 NYCRR § 52.23 (Regulation 62).",
+              "sources": [
+                "ny-11nycrr-52-23"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "When coverage ends; extension of benefits",
+          "body": "Common events that terminate group coverage: termination of employment, reduction of hours below the eligibility class, nonpayment of the required contribution, a dependent losing eligibility (such as reaching the age limit or divorce), and termination of the group policy.\n\n[[extension-of-benefits|Extension of benefits]] protects someone who is **totally disabled** when coverage ends: benefits continue for the **disabling condition** for a limited time. It is not the same as continuation.",
+          "simple": "If you're totally disabled when the plan ends, treatment for that condition keeps being covered for a while.",
+          "callouts": []
+        },
+        {
+          "heading": "COBRA, New York continuation and conversion",
+          "body": "- **[[cobra|COBRA]]** (employers with 20+ employees): continue identical group coverage for **18 months** after termination of employment or reduced hours, **36 months** after other events such as divorce or death, and **29 months** with a disability extension. Premium up to **102%** (150% during the disability extension).\n- **[[ny-continuation|New York continuation]]** (insured group policies, including small employers): elect in writing within **60 days**; up to **36 months**; premium up to 102%; ends on Medicare entitlement or other group coverage.\n- **[[conversion-privilege|Conversion]]** (§ 3221(e)): an employee whose group hospital/medical coverage ends may get an **individual policy without evidence of insurability** by applying within **60 days**, unless the employer replaced the plan with similar continuous coverage.",
+          "simple": "COBRA is the federal way to keep your group plan for a while; New York's continuation covers smaller employers too; conversion swaps you into your own individual policy.",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "NY continuation: Insurance Law § 3221(m). NY conversion: § 3221(e).",
+              "sources": [
+                "ny-isc-3221"
+              ]
+            },
+            {
+              "kind": "note",
+              "text": "COBRA durations and premium: 29 U.S.C. § 1162.",
+              "sources": [
+                "fed-usc-29-1162"
+              ]
+            },
+            {
+              "kind": "memory-tip",
+              "text": "COBRA: job events 18, family events 36. NY continuation: up to 36."
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "sequence",
+        "prompt": "Put New York's coordination of benefits rules in the order they are applied.",
+        "steps": [
+          "A plan without a COB provision is primary",
+          "Employee/subscriber coverage pays before dependent coverage",
+          "For children of married parents, apply the birthday rule",
+          "Active employee coverage pays before laid-off or retired coverage",
+          "Longer coverage pays before shorter coverage"
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Under COBRA, a spouse who loses coverage because of divorce may continue for up to:",
+          "choices": [
+            "18 months",
+            "29 months",
+            "36 months",
+            "12 months"
+          ],
+          "answerIndex": 2,
+          "explanation": "Divorce is a 36-month qualifying event."
+        },
+        {
+          "prompt": "An employee of a 9-person NY firm with an insured plan leaves her job. Her continuation right comes from:",
+          "choices": [
+            "Federal COBRA",
+            "NY Insurance Law § 3221(m)",
+            "FMLA",
+            "HIPAA"
+          ],
+          "answerIndex": 1,
+          "explanation": "COBRA applies to employers with 20+ employees; NY continuation applies to insured group policies."
+        },
+        {
+          "prompt": "Under NY's birthday rule, which parent's plan is primary for a child?",
+          "choices": [
+            "The older parent's",
+            "The parent whose birthday comes first in the year",
+            "The father's",
+            "The parent with the higher salary"
+          ],
+          "answerIndex": 1,
+          "explanation": "Month and day only; the year is ignored."
+        },
+        {
+          "prompt": "Under § 3221(e), a NY group health conversion application must be made within:",
+          "choices": [
+            "31 days",
+            "60 days",
+            "90 days",
+            "1 year"
+          ],
+          "answerIndex": 1,
+          "explanation": "§ 3221(e)(1): within sixty days after termination."
+        }
+      ],
+      "summary": [
+        "Eligibility runs through probationary periods, open enrollment and special enrollment.",
+        "NY COB: no-COB plan first, employee before dependent, birthday rule, active before retired, longer before shorter.",
+        "Extension of benefits covers only the disabling condition of someone totally disabled at termination.",
+        "COBRA: 18/29/36 months at up to 102%; employers with 20+ employees.",
+        "NY continuation: insured plans, elect within 60 days, up to 36 months; conversion within 60 days without evidence of insurability."
+      ],
+      "related": [
+        "grp-l03",
+        "grp-l05"
+      ],
+      "sources": [
+        "ny-isc-4235",
+        "ny-11nycrr-52-23",
+        "ny-isc-3221",
+        "fed-usc-29-1162",
+        "fed-dol-cobra",
+        "fed-usc-42-300gg-3",
+        "general-insurance-principles"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-l05",
+      "sectionId": "grp",
+      "order": 5,
+      "title": "New York Small Employer Health Plans",
+      "outlineIds": [
+        "grp.7",
+        "grp.7.1",
+        "grp.7.2",
+        "grp.7.3",
+        "grp.7.4"
+      ],
+      "estMinutes": 15,
+      "intro": "Small businesses get special protection in New York. This lesson explains how New York defines a small group, how small group coverage must be offered and priced, and why insurers can't drop a small group for having high claims.",
+      "objectives": [
+        "Define a small group under current New York law",
+        "Explain open enrollment (guaranteed availability) for small groups",
+        "Explain community rating and renewability protections",
+        "Describe the benefit plans offered to small employers"
+      ],
+      "keyTerms": [
+        "small-employer",
+        "community-rating",
+        "guaranteed-issue",
+        "essential-health-benefits"
+      ],
+      "parts": [
+        {
+          "heading": "Who counts as a small employer",
+          "body": "Under Insurance Law § 3231(a)(1) (and § 4317(a)(1) for Article 43 corporations), a **small group** covers **between 1 and 100 employees or members**, exclusive of spouses and dependents, for policies issued or renewed on or after January 1, 2016. Insurers may choose to treat individual proprietors as small groups if they do so consistently.",
+          "simple": "In New York, a small business for health insurance means 1 to 100 employees.",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "Small group = 1–100 employees (Insurance Law §§ 3231(a)(1), 4317(a)(1)).",
+              "sources": [
+                "ny-isc-3231",
+                "ny-isc-4317"
+              ]
+            },
+            {
+              "kind": "note",
+              "text": "Older regulation text in 11 NYCRR 360.2(f) (Regulation 145) still refers to groups of two to 50; the current statute controls.",
+              "sources": [
+                "ny-11nycrr-360"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Availability: open enrollment",
+          "body": "Small groups (and individuals) applying for hospital and/or medical coverage **must be accepted at all times throughout the year** for any such coverage the insurer offers to small groups in New York. New York calls this **open enrollment**; it is a form of [[guaranteed-issue]].",
+          "simple": "An insurer has to say yes to a small group, any day of the year.",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "Open enrollment: § 3231(a)(2); 11 NYCRR 360.2(e).",
+              "sources": [
+                "ny-isc-3231",
+                "ny-11nycrr-360"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Rating and renewability",
+          "body": "Small group coverage must be [[community-rating|community rated]]: everyone covered under a policy form pays the same premium based on the whole pool, **without regard to age, sex, health status, tobacco usage or occupation**. Insurers set separate community rates for individuals and small groups and may vary rates by geographic region.\n\n**Renewability:** once accepted, a small group **cannot be terminated because of its claims experience**. Termination must be for permitted reasons such as nonpayment of premium or fraud.",
+          "simple": "All small groups in the pool pay the same rate, and a group can't be dropped for being expensive.",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "Community rating and no termination for claims experience: § 3231(a)(3)–(4), (b)(2), (c)(1).",
+              "sources": [
+                "ny-isc-3231"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Benefit plans offered",
+          "body": "Small employers can choose among the comprehensive plans insurers offer in the small group market. Under the ACA, small group plans cover the ten [[essential-health-benefits]] and are offered at metal levels (Bronze, Silver, Gold, Platinum). Small employers can also shop through the exchange's small business program.",
+          "simple": "Small businesses pick from standard ACA-style plans that cover the ten essential benefits.",
+          "callouts": []
+        }
+      ],
+      "activity": {
+        "type": "truefalse",
+        "prompt": "True or false under current New York law?",
+        "statements": [
+          {
+            "text": "A business with 85 employees is a small group for health insurance purposes.",
+            "answer": true,
+            "explanation": "§ 3231(a)(1): 1 to 100 employees for policies issued or renewed on or after 1/1/2016."
+          },
+          {
+            "text": "An insurer may refuse a small group application in November because it accepts new groups only in January.",
+            "answer": false,
+            "explanation": "Small groups must be accepted at all times throughout the year."
+          },
+          {
+            "text": "An insurer may set a small group's rate based on its employees' health status.",
+            "answer": false,
+            "explanation": "Community rating prohibits rating by health status."
+          },
+          {
+            "text": "An insurer may terminate a small group for nonpayment of premium.",
+            "answer": true,
+            "explanation": "Nonpayment is a permitted reason; claims experience is not."
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Under § 3231, a NY small group includes:",
+          "choices": [
+            "1–100 employees",
+            "2–25 employees",
+            "20–100 employees",
+            "Fewer than 20 employees"
+          ],
+          "answerIndex": 0,
+          "explanation": "Between one and one hundred employees, exclusive of spouses and dependents."
+        },
+        {
+          "prompt": "Once accepted, a NY small group cannot be terminated because of:",
+          "choices": [
+            "Nonpayment of premium",
+            "Fraud",
+            "Claims experience",
+            "Discontinuance of the product with notice"
+          ],
+          "answerIndex": 2,
+          "explanation": "§ 3231(a)(3) bars termination due to claims experience."
+        }
+      ],
+      "summary": [
+        "NY small group: 1–100 employees (exclusive of spouses and dependents).",
+        "Small groups must be accepted at all times throughout the year (open enrollment).",
+        "Small group coverage is community rated, without regard to age, sex, health status, tobacco use or occupation.",
+        "A small group cannot be terminated because of claims experience.",
+        "Small group plans cover essential health benefits at ACA metal levels."
+      ],
+      "related": [
+        "grp-l04"
+      ],
+      "sources": [
+        "ny-isc-3231",
+        "ny-isc-4317",
+        "ny-11nycrr-360",
+        "general-insurance-principles"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

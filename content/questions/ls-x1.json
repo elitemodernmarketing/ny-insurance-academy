@@ -1,0 +1,704 @@
+{
+  "sectionId": "ls",
+  "questions": [
+    {
+      "id": "ls-q201",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ls",
+      "outlineIds": [
+        "ls.1.1"
+      ],
+      "concepts": [
+        "life-settlement"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "scenario": "Vic signs an agreement today with a provider: he will receive $90,000 (less than his policy's $400,000 death benefit) in three years, and ownership of the policy will transfer to the provider at that time.",
+      "stem": "Under NY Insurance Law § 7802(k), is this agreement a life settlement contract?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No, because no money changes hands until after the policy is transferred",
+          "rationale": "Incorrect: § 7802(k)(2) covers the agreement regardless of when compensation is provided."
+        },
+        {
+          "id": "b",
+          "text": "No, because the transfer of ownership is scheduled for a future date",
+          "rationale": "Incorrect: § 7802(k)(2) covers the agreement regardless of when the transfer is effectuated."
+        },
+        {
+          "id": "c",
+          "text": "Yes, but only once the provider actually pays Vic the agreed amount",
+          "rationale": "Incorrect: the agreement itself is the life settlement contract; timing of payment does not change that."
+        },
+        {
+          "id": "d",
+          "text": "Yes, because timing of payment and transfer does not change the definition",
+          "rationale": "Correct: § 7802(k)(2) includes such agreements regardless of when compensation is paid or the transfer occurs."
+        }
+      ],
+      "correct": "d",
+      "explanation": "§ 7802(k)(1) defines a life settlement contract as an agreement giving an owner compensation less than the expected death benefit for transferring any portion of the policy or its benefits. § 7802(k)(2) adds that it includes such an agreement regardless of the date the compensation is provided and regardless of the date the assignment, transfer or sale is effectuated — so delaying payment or transfer cannot avoid the law.",
+      "memoryTip": "Delay doesn't dodge the definition.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Yes, it is a life settlement contract",
+            "anyOf": [
+              "yes",
+              "is a life settlement"
+            ]
+          },
+          {
+            "label": "Timing of payment does not matter",
+            "anyOf": [
+              "regardless of the date",
+              "timing",
+              "when compensation",
+              "future payment"
+            ]
+          },
+          {
+            "label": "Compensation less than death benefit for transfer",
+            "anyOf": [
+              "less than",
+              "death benefit"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-7802"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ls-q202",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ls",
+      "outlineIds": [
+        "ls.1.2",
+        "ls.2"
+      ],
+      "concepts": [
+        "life-settlement-broker"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "scenario": "Pam is an accredited financial planner. Her website says she is a 'life settlement specialist,' and she negotiates sales of clients' policies, earning a fee only when a settlement closes.",
+      "stem": "Under NY Insurance Law § 7802(j), is Pam a life settlement broker?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No, because accredited financial planners are always excluded from the definition",
+          "rationale": "Incorrect: the planner exclusion applies only if she does not advertise in the business and is paid regardless of a settlement."
+        },
+        {
+          "id": "b",
+          "text": "Yes, because she negotiates settlements for pay that depends on a sale and she advertises",
+          "rationale": "Correct: she fails both conditions of the exclusion, so she meets the broker definition and needs a § 2137 license."
+        },
+        {
+          "id": "c",
+          "text": "No, because only persons who buy policies from owners are brokers",
+          "rationale": "Incorrect: buying from owners is what a provider does; brokers solicit and negotiate for compensation."
+        },
+        {
+          "id": "d",
+          "text": "Yes, but only if she also takes ownership of the policies she negotiates",
+          "rationale": "Incorrect: taking ownership is not part of the broker definition."
+        }
+      ],
+      "correct": "b",
+      "explanation": "§ 7802(j) defines a life settlement broker as a person who, for compensation, solicits, negotiates or offers to negotiate a life settlement contract. Attorneys, CPAs and accredited financial planners are excluded only if they are retained in a professional capacity, do not advertise as being in the business of life settlements, and are compensated without regard to whether a settlement happens. Pam advertises and is paid only on success, so she is a broker and must be licensed under § 2137.",
+      "memoryTip": "Advertise it or get paid on success = broker.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "She is a broker",
+            "anyOf": [
+              "broker"
+            ]
+          },
+          {
+            "label": "Advertises as being in the business",
+            "anyOf": [
+              "advertis"
+            ]
+          },
+          {
+            "label": "Paid only if a settlement occurs",
+            "anyOf": [
+              "only when",
+              "only if",
+              "contingent",
+              "depends on",
+              "success"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-7802",
+        "ny-isc-2137"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ls-q203",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ls",
+      "outlineIds": [
+        "ls.2"
+      ],
+      "concepts": [
+        "life-settlement-broker"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "When a corporation holds a NY life settlement broker license, who may act individually as brokers under it?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only officers and directors named in the license as sub-licensees",
+          "rationale": "Correct: § 2137(b) limits a corporate license to officers and directors named as sub-licensees."
+        },
+        {
+          "id": "b",
+          "text": "Any employee the corporation assigns to handle owner accounts",
+          "rationale": "Incorrect: unnamed employees are not authorized to act as brokers under the corporate license."
+        },
+        {
+          "id": "c",
+          "text": "Any shareholder who owns at least ten percent of the voting shares",
+          "rationale": "Incorrect: share ownership must be disclosed but does not authorize anyone to act as a broker."
+        },
+        {
+          "id": "d",
+          "text": "Any licensed life producer who refers clients to the corporation",
+          "rationale": "Incorrect: a producer license is separate, and § 7814(a)(8) restricts referral compensation."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Under § 2137(b), a license issued to a firm or association authorizes only the members named as sub-licensees, and a license issued to a corporation authorizes only the officers and directors named as sub-licensees, to act individually as life settlement brokers. Each sub-licensee acts only in the name of the licensee.",
+      "memoryTip": "Corporate license: named officers and directors only.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-2137"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ls-q204",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ls",
+      "outlineIds": [
+        "ls.2"
+      ],
+      "concepts": [
+        "life-settlement-broker"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "Omar passed the NY life settlement broker exam and held the license for several years. He let it terminate 14 months ago and now applies for a new broker license.",
+      "stem": "What does § 2137 say about Omar's examination requirement?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "He must retake the exam because his license has terminated",
+          "rationale": "Incorrect: § 2137(f)(1)(C) excuses the exam for a former licensee who applies within two years."
+        },
+        {
+          "id": "b",
+          "text": "He is excused only if he also holds a CLU designation",
+          "rationale": "Incorrect: the CLU waiver is a separate, discretionary exemption; Omar qualifies under another one."
+        },
+        {
+          "id": "c",
+          "text": "He is not required to take it, because he reapplies within two years",
+          "rationale": "Correct: a former broker who passed the exam and reapplies within two years after termination is exempt."
+        },
+        {
+          "id": "d",
+          "text": "He is excused only if he has been a life producer for a year",
+          "rationale": "Incorrect: that is a different exemption; Omar qualifies as a recently licensed former broker."
+        }
+      ],
+      "correct": "c",
+      "explanation": "§ 2137(f)(1)(C) says no written examination or prelicensing education is required of an applicant who passed the broker exam and was licensed as a life settlement broker (or was licensed without passing it), provided the applicant applies within two years following the date the license terminated.",
+      "memoryTip": "Back within two years — no retest.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-2137"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ls-q205",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ls",
+      "outlineIds": [
+        "ls.4.1",
+        "ls.4"
+      ],
+      "concepts": [
+        "life-settlement-provider",
+        "hipaa"
+      ],
+      "difficulty": 3,
+      "style": "concept",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "stem": "Under NY Insurance Law § 7813(f), medical information obtained in a life settlement is subject to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only the privacy terms the owner and provider negotiate in the contract",
+          "rationale": "Incorrect: the statute imposes confidentiality rules; the parties cannot simply contract them away."
+        },
+        {
+          "id": "b",
+          "text": "The rules for health care providers, with Article 78 governing if stricter",
+          "rationale": "Correct: § 7813(f) applies health-care-provider confidentiality rules, and Article 78 controls where it is more protective."
+        },
+        {
+          "id": "c",
+          "text": "No special rules once the insured has signed a release of records",
+          "rationale": "Incorrect: the signed consent permits release, but the information stays subject to confidentiality laws."
+        },
+        {
+          "id": "d",
+          "text": "The rules for consumer credit reports under the Fair Credit Reporting Act",
+          "rationale": "Incorrect: § 7813(f) refers to health care provider and medical confidentiality laws, not credit reporting law."
+        }
+      ],
+      "correct": "b",
+      "explanation": "§ 7813(a) requires a provider to obtain the insured's written consent before medical records are released. § 7813(f) then makes all medical information obtained subject to the provisions applicable to health care providers under the public health law and all applicable medical-confidentiality laws — and where Article 78 provides greater confidentiality, Article 78 governs. This fits with the HIPAA principle that providers need written authorization to release records to third parties.",
+      "memoryTip": "Medical info stays as protected as at the doctor's office.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-7813",
+        "fed-hhs-hipaa-privacy-summary"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ls-q206",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ls",
+      "outlineIds": [
+        "ls.6.1",
+        "ls.6"
+      ],
+      "concepts": [
+        "stoli",
+        "life-settlement",
+        "insurable-interest"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "Bea bought a policy on her own life 12 years ago to protect her children. Now retired, she sells it to a licensed provider through a licensed broker.",
+      "stem": "How should Bea's sale be classified under New York law?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A lawful life settlement, since the policy began with insurable interest",
+          "rationale": "Correct: § 7815(b) excludes lawful life settlements from STOLI; the policy was originated for her own family."
+        },
+        {
+          "id": "b",
+          "text": "STOLI, because the investor buying it has no insurable interest in Bea",
+          "rationale": "Incorrect: STOLI is judged at or before policy issuance; a buyer's later lack of insurable interest doesn't make a lawful settlement STOLI."
+        },
+        {
+          "id": "c",
+          "text": "STOLI, because any transfer of a policy to a stranger is prohibited",
+          "rationale": "Incorrect: lawful life settlements under Article 78 are expressly permitted."
+        },
+        {
+          "id": "d",
+          "text": "Neither, because policies older than two years cannot be sold at all",
+          "rationale": "Incorrect: the two-year limit in § 7813(j) restricts EARLY settlements; older policies may be settled."
+        }
+      ],
+      "correct": "a",
+      "explanation": "STOLI (§ 7815(a)) is an arrangement at or prior to policy issuance to obtain a policy for the intended benefit of someone without insurable interest. § 7815(b) states that lawful life settlement contracts are not STOLI. Bea bought the policy years ago to protect her family, so a later sale to a licensed provider is a lawful life settlement.",
+      "memoryTip": "STOLI is about the policy's birth, not its later sale.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Lawful life settlement, not STOLI",
+            "anyOf": [
+              "lawful",
+              "life settlement",
+              "not stoli"
+            ]
+          },
+          {
+            "label": "Insurable interest existed at issue",
+            "anyOf": [
+              "insurable interest",
+              "at issue",
+              "originat",
+              "own family"
+            ]
+          },
+          {
+            "label": "STOLI is judged at or before issuance",
+            "anyOf": [
+              "at or prior",
+              "before issu",
+              "origination"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-7815",
+        "ny-isc-7813"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ls-q207",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ls",
+      "outlineIds": [
+        "ls.6.2",
+        "ls.1.1"
+      ],
+      "concepts": [
+        "life-settlement",
+        "stoli"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "scenario": "Ned owns a policy on his father's life. He transfers it for cash to an irrevocable trust established primarily for the benefit of the father's grandchildren.",
+      "stem": "Under NY Insurance Law § 7802(k)(3), how is this transfer treated?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "As a life settlement contract that requires a licensed provider",
+          "rationale": "Incorrect: § 7802(k)(3)(H) excludes it from the definition of a life settlement contract."
+        },
+        {
+          "id": "b",
+          "text": "As stranger-originated life insurance prohibited by § 7815",
+          "rationale": "Incorrect: the trust is for close relatives with insurable interest, and § 7815(b) excludes § 7802(k)(3) practices."
+        },
+        {
+          "id": "c",
+          "text": "As excluded, because it is a trust primarily for close relatives",
+          "rationale": "Correct: § 7802(k)(3)(H) excludes agreements with trusts established primarily for the benefit of closely related parties."
+        },
+        {
+          "id": "d",
+          "text": "As a financing transaction between a provider and a financing entity",
+          "rationale": "Incorrect: there is no licensed provider or financing entity involved."
+        }
+      ],
+      "correct": "c",
+      "explanation": "§ 7802(k)(3)(H) excludes from the life settlement definition agreements where all parties are closely related to the insured by blood or law (or have a lawful substantial economic interest in the insured's continued life), or are trusts established primarily for the benefit of such parties. § 7815(b) confirms that § 7802(k)(3) practices are not STOLI unless used to evade regulation.",
+      "memoryTip": "Family trusts buying family policies aren't settlements.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Excluded from life settlement definition",
+            "anyOf": [
+              "exclud",
+              "not a life settlement"
+            ]
+          },
+          {
+            "label": "Trust primarily for close relatives",
+            "anyOf": [
+              "close",
+              "related",
+              "grandchildren",
+              "family"
+            ]
+          },
+          {
+            "label": "Not STOLI",
+            "anyOf": [
+              "not stoli",
+              "7815(b)"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-7802",
+        "ny-isc-7815"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ls-q208",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ls",
+      "outlineIds": [
+        "ls.5"
+      ],
+      "concepts": [
+        "financing-transaction"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "Iris took a premium finance loan secured by her policy. Under the loan terms, the policy is later sold. After the lender is repaid principal, interest and reasonable costs, $40,000 of sale proceeds remains.",
+      "stem": "Under NY Insurance Law § 7814(a)(4), what must happen to the extra $40,000?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The lender may keep it as compensation for the risk of the loan",
+          "rationale": "Incorrect: amounts beyond principal, interest and reasonable costs may not be kept by the lender."
+        },
+        {
+          "id": "b",
+          "text": "It must be paid to the life settlement broker who arranged the sale",
+          "rationale": "Incorrect: the statute directs excess amounts to the original owner, not to a broker."
+        },
+        {
+          "id": "c",
+          "text": "It must be paid to the superintendent as a penalty",
+          "rationale": "Incorrect: the statute requires the excess to be remitted to the original owner or the owner's estate."
+        },
+        {
+          "id": "d",
+          "text": "It must be remitted to Iris or, if she has died, her estate",
+          "rationale": "Correct: proceeds beyond principal, interest and reasonable costs go to the original owner or her estate."
+        }
+      ],
+      "correct": "d",
+      "explanation": "§ 7814(a)(4) bars a premium finance lender (and its affiliates) from receiving proceeds, fees or other consideration beyond the amounts needed to pay principal, interest and reasonable costs of the loan (other than commissions earned by a licensed producer). Any excess — including when the policy is sold under the loan terms — must be remitted to the original owner, or to the owner's estate if the owner is not living.",
+      "memoryTip": "Excess goes back to the original owner.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-7814",
+        "ny-isc-7802"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ls-q209",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ls",
+      "outlineIds": [
+        "ls.5"
+      ],
+      "concepts": [
+        "life-settlement-broker",
+        "life-settlement-provider"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording",
+        "ny-law"
+      ],
+      "stem": "Under NY Insurance Law § 7814(e), a life settlement intermediary may NOT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Maintain an electronic system that relays offers between owners and providers",
+          "rationale": "Incorrect choice: that is exactly what an intermediary does under § 7802(l), so it is permitted."
+        },
+        {
+          "id": "b",
+          "text": "Deliver a provider's purchase offer to an owner or broker",
+          "rationale": "Incorrect choice: delivering offers is part of the intermediary definition in § 7802(l)."
+        },
+        {
+          "id": "c",
+          "text": "Pass an owner's offer to sell along to a provider",
+          "rationale": "Incorrect choice: delivering an owner's or broker's offer to a provider is permitted."
+        },
+        {
+          "id": "d",
+          "text": "Negotiate the settlement on behalf of an owner",
+          "rationale": "Correct choice: § 7814(e) bars intermediaries from representing, soliciting, negotiating or acting for an owner, provider or broker."
+        }
+      ],
+      "correct": "d",
+      "explanation": "A life settlement intermediary (§ 7802(l)) maintains a facility or system for offers and counteroffers and delivers offers between owners or brokers and providers. Under § 7814(e) it may not represent, solicit, negotiate or act on behalf of an owner, provider or broker, and may not act as a provider or broker.",
+      "memoryTip": "Intermediary = message board, not a negotiator.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-7814",
+        "ny-isc-7802"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ls-q210",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ls",
+      "outlineIds": [
+        "ls.1.6",
+        "ls.5"
+      ],
+      "concepts": [
+        "life-expectancy",
+        "life-settlement-provider"
+      ],
+      "difficulty": 2,
+      "style": "application",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "A licensed provider bought Hal's policy last month. Its reviewers estimate Hal's life expectancy at 8 months.",
+      "stem": "Under NY Insurance Law § 7813(k), how often may the provider contact Hal to check his health status?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No more than once a month",
+          "rationale": "Correct: for an insured with a life expectancy of one year or less, contacts are limited to no more than once per month."
+        },
+        {
+          "id": "b",
+          "text": "No more than once every three months",
+          "rationale": "Incorrect: that limit applies when the insured's life expectancy is more than one year."
+        },
+        {
+          "id": "c",
+          "text": "No more than once a year",
+          "rationale": "Incorrect: the statute does not use an annual limit."
+        },
+        {
+          "id": "d",
+          "text": "Never, once the settlement is complete",
+          "rationale": "Incorrect: limited health-status contacts by licensed providers or brokers are permitted."
+        }
+      ],
+      "correct": "a",
+      "explanation": "§ 7813(k) limits post-settlement contacts to determine the insured's health status to licensed providers or brokers (or their authorized representatives): no more than once every three months if the insured's life expectancy is more than one year, and no more than once per month if it is one year or less. Separately, § 7814(b) forbids requiring a post-settlement medical exam.",
+      "memoryTip": "LE ≤ 1 year: monthly; > 1 year: quarterly.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-7813",
+        "ny-isc-7802"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

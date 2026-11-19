@@ -1,0 +1,317 @@
+{
+  "sectionId": "ltc",
+  "lessons": [
+    {
+      "id": "ltc-l01",
+      "sectionId": "ltc",
+      "order": 1,
+      "title": "Long-Term Care Basics: Levels of Care, Settings, and Who Pays",
+      "outlineIds": ["ltc.1", "ltc.1.1", "ltc.1.2", "ltc.1.3", "ltc.1.3.1", "ltc.1.3.2", "ltc.1.3.3", "ltc.1.4", "ltc.1.4.1", "ltc.1.4.2", "ltc.1.4.3", "ltc.1.4.4", "ltc.1.4.5", "ltc.1.7"],
+      "estMinutes": 25,
+      "intro": "Most people assume that health insurance or Medicare will take care of them if they can no longer live independently. They won't. Long-term care — help with everyday living over months or years — is one of the biggest uninsured financial risks older Americans face. In this lesson you'll learn what long-term care is, the levels and settings of care, how a policy decides you qualify for benefits, and how LTC insurance fits beside Medicare and Medicaid.",
+      "objectives": [
+        "Distinguish skilled, intermediate and custodial care",
+        "Identify the main LTC care settings: home health, adult day care, respite, nursing home and assisted living",
+        "Explain the ADL and cognitive-impairment benefit triggers",
+        "Compare LTC insurance, Medicare and Medicaid as payers of long-term care"
+      ],
+      "keyTerms": ["long-term-care-insurance", "skilled-care", "intermediate-care", "custodial-care", "activities-of-daily-living", "cognitive-impairment", "home-health-care", "adult-day-care", "respite-care", "nursing-home-care", "assisted-living"],
+      "parts": [
+        {
+          "heading": "What long-term care is",
+          "body": "[[long-term-care-insurance|Long-term care]] (LTC) is help with the basic tasks of everyday life for someone with a chronic illness, disability or dementia. Unlike a hospital stay, the goal is usually not to cure anything — it's to help the person live safely day after day, often for years.\n\nMost long-term care is **non-medical**: help bathing, dressing, eating, using the bathroom, or moving from a bed to a chair. That's why ordinary health insurance and Medicare, which pay for *medical* treatment, largely don't cover it.",
+          "simple": "Long-term care is everyday help for people who can't fully take care of themselves anymore. It's usually not medical treatment, so regular health insurance doesn't pay for it.",
+          "callouts": [
+            { "kind": "note", "text": "Medicare.gov: Long-term care, also called custodial care, includes help with activities of daily living like dressing, bathing and using the bathroom. Medicare and most health insurance, including Medigap, don't pay for it.", "sources": ["fed-medicare-ltc"] }
+          ]
+        },
+        {
+          "heading": "Three levels of care",
+          "body": "Exam questions sort care into three levels, based on **how much professional skill** is needed and **how often**:\n\n- **[[skilled-care|Skilled care]]** — daily, 24-hour nursing or rehabilitative care ordered by a physician and performed by (or supervised by) licensed professionals such as RNs and therapists. Example: IV medication, wound care, daily physical therapy after surgery.\n- **[[intermediate-care|Intermediate care]]** — the same kind of licensed care, but only *occasionally* (not daily) for a stable patient.\n- **[[custodial-care|Custodial care]]** — help with daily living that someone without medical training can provide. New York's LTC regulation describes custodial care services as help in transferring, eating, dressing, bathing, toileting and similar activities.\n\nThe level is set by what the person **needs**, not by the building. A nursing home resident who only needs help bathing and eating is receiving custodial care.",
+          "simple": "Skilled = a nurse or therapist every day. Intermediate = a nurse sometimes. Custodial = a helper for everyday tasks.",
+          "example": { "title": "Example: same building, different care", "body": "Rosa and Pearl live in the same nursing home. Rosa is recovering from a hip replacement and gets daily physical therapy and nurse wound care — skilled care. Pearl has no acute illness but needs help getting up, bathing and eating — custodial care." },
+          "callouts": [
+            { "kind": "exam-trap", "text": "Medicare covers skilled care in a skilled nursing facility only on a short-term basis after a qualifying 3-day inpatient hospital stay. It does not cover custodial care when that's all you need.", "sources": ["fed-medicare-snf", "fed-medicare-ltc"] },
+            { "kind": "memory-tip", "text": "Skilled = needs a Skill (license). Custodial = Custody of daily life." }
+          ]
+        },
+        {
+          "heading": "Where care happens",
+          "body": "LTC policies commonly pay for care in several settings:\n\n- **[[home-health-care|Home health care]]** — nurses, therapists or aides come to the insured's home.\n- **[[adult-day-care|Adult day care]]** — supervised daytime care at a community center; the person goes home at night.\n- **[[respite-care|Respite care]]** — short-term care that gives the unpaid family caregiver a break.\n- **[[nursing-home-care|Nursing home care]]** — 24-hour care in a licensed facility, at any of the three levels.\n- **[[assisted-living|Assisted living]]** — housing plus help with daily activities, without continuous skilled nursing.\n\nMost people prefer to stay home as long as possible, so home and community care are important parts of modern LTC coverage.",
+          "simple": "Care can come to your home, happen at a day center, give your family a break, or take place in assisted living or a nursing home."
+        },
+        {
+          "heading": "Qualifying for benefits: ADLs and cognitive impairment",
+          "body": "A policy needs an objective way to decide when benefits start — the **benefit trigger**. Federal tax law (IRC § 7702B) sets the standard for tax-qualified LTC policies. A licensed health care practitioner must certify that the person is **chronically ill**, meaning either:\n\n- unable to perform at least **2 of the 6 [[activities-of-daily-living|activities of daily living]]** without substantial assistance, for at least **90 days**; or\n- needs substantial supervision to stay safe because of **severe [[cognitive-impairment|cognitive impairment]]**.\n\nThe six ADLs are **eating, toileting, transferring, bathing, dressing and continence**. Chores like cooking, shopping, housekeeping and managing money or medications are *not* among them.",
+          "simple": "You qualify if you need help with two of six basic self-care tasks for at least 90 days, or if dementia means you need someone watching over you.",
+          "advanced": "Tax-qualified services must also be provided under a plan of care prescribed by a licensed health care practitioner, and the chronic-illness certification must have been made within the preceding 12 months. A contract must consider at least 5 of the 6 ADLs to be tax-qualified.",
+          "callouts": [
+            { "kind": "ny-rule", "text": "New York LTC policies may exclude mental or nervous disorders, but may NOT exclude or limit benefits for Alzheimer's disease or demonstrable organic brain disease (11 NYCRR 52.25(b)(2)(ii)).", "sources": ["ny-11nycrr-52-25"] },
+            { "kind": "memory-tip", "text": "Two of six for ninety — or a mind that needs watching." }
+          ]
+        },
+        {
+          "heading": "LTC insurance vs. Medicare vs. Medicaid",
+          "body": "Three possible payers, three very different roles:\n\n- **Medicare** pays for medical care. For long-term care, its role is limited to short-term skilled nursing facility care after a qualifying hospital stay, plus hospice and some home health care. It does **not** pay for long-term custodial care.\n- **[[medicaid|Medicaid]]** is a joint federal-state program for people with limited income and resources. It *does* pay for long-term custodial care — but only after the person meets strict financial limits, often by spending down savings.\n- **LTC insurance** is private coverage you buy in advance to pay for long-term care, protecting your savings and giving you more choice of care setting.",
+          "simple": "Medicare: short-term skilled care only. Medicaid: pays for long-term care once your money is mostly gone. LTC insurance: your own plan so you don't have to spend everything first.",
+          "callouts": [
+            { "kind": "note", "text": "Medicare.gov: although you're not eligible for long-term care under Medicare, you may be eligible through Medicaid (if you meet your state's requirements), or you can choose to buy private long-term care insurance.", "sources": ["fed-medicare-ltc"] }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "categorize",
+        "prompt": "Sort each situation by the level of care it describes.",
+        "categories": ["Skilled care", "Intermediate care", "Custodial care"],
+        "items": [
+          { "text": "Daily IV antibiotics given by a registered nurse", "category": "Skilled care" },
+          { "text": "Daily physical therapy after a hip replacement", "category": "Skilled care" },
+          { "text": "A nurse checks a stable diabetic resident twice a week", "category": "Intermediate care" },
+          { "text": "Occasional therapy visits to maintain mobility for a stable patient", "category": "Intermediate care" },
+          { "text": "An aide helps a resident bathe and dress each morning", "category": "Custodial care" },
+          { "text": "Supervision and help eating for a person with dementia", "category": "Custodial care" }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Which of these is one of the six activities of daily living?",
+          "choices": ["Continence", "Cooking", "Paying bills", "Driving"],
+          "answerIndex": 0,
+          "explanation": "The six ADLs are eating, toileting, transferring, bathing, dressing and continence. Cooking, paying bills and driving are instrumental activities."
+        },
+        {
+          "prompt": "Which payer covers long-term custodial care for people who meet strict income and asset limits?",
+          "choices": ["Medicaid", "Medicare Part A", "Medicare Part B", "Medigap"],
+          "answerIndex": 0,
+          "explanation": "Medicaid pays for long-term care for those who qualify financially. Medicare and Medigap do not pay for long-term custodial care."
+        },
+        {
+          "prompt": "A family caregiver needs a two-week break, and the LTC policy pays for short-term care during that time. This is:",
+          "choices": ["Respite care", "Adult day care", "Intermediate care", "Assisted living"],
+          "answerIndex": 0,
+          "explanation": "Respite care gives temporary relief to the regular unpaid caregiver."
+        }
+      ],
+      "summary": [
+        "Long-term care is mostly non-medical help with daily living over a long period.",
+        "Skilled care is daily licensed care; intermediate care is occasional licensed care; custodial care is help with daily living.",
+        "Care settings include home health care, adult day care, respite care, nursing homes and assisted living.",
+        "Tax-qualified benefit triggers: unable to perform 2 of 6 ADLs for 90+ days, or severe cognitive impairment needing substantial supervision.",
+        "Medicare does not pay for long-term custodial care; Medicaid does for those who qualify financially; LTC insurance is private protection bought in advance."
+      ],
+      "related": ["ltc-l02", "ltc-l03"],
+      "sources": ["fed-medicare-ltc", "fed-medicare-snf", "fed-usc-26-7702b", "ny-11nycrr-52-25"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "regulation-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "ltc-l02",
+      "sectionId": "ltc",
+      "order": 2,
+      "title": "Designing an LTC Policy: Benefits, Optional Features, Exclusions and Underwriting",
+      "outlineIds": ["ltc.1.5", "ltc.1.6", "ltc.1.8", "ltc.1.8.1", "ltc.1.8.2", "ltc.1.8.3", "ltc.1.8.4", "ltc.1.8.5", "ltc.1.8.6", "ltc.1.9", "ltc.1.10", "ltc.1.11", "ltc.1.12", "ltc.1.13"],
+      "estMinutes": 30,
+      "intro": "Every LTC policy is built from a few decisions: how much it pays, for how long, how it pays, and which optional features to add. New York adds rules about what insurers must offer and what they may never exclude. This lesson walks through the building blocks and the New York rules you need for the exam.",
+      "objectives": [
+        "Explain how the benefit amount, benefit period and elimination period affect protection and premium",
+        "Distinguish reimbursement from indemnity (per diem) benefits",
+        "Describe the optional benefits: inflation protection, nonforfeiture, guarantee of insurability, return of premium and shared care",
+        "State New York's permitted LTC exclusions and preexisting-condition limit",
+        "Apply suitability and underwriting principles to LTC sales"
+      ],
+      "keyTerms": ["reimbursement-vs-indemnity", "inflation-protection", "ltc-nonforfeiture", "shared-care", "hybrid-ltc", "elimination-period", "benefit-period"],
+      "parts": [
+        {
+          "heading": "Benefit amount, benefit period and elimination period",
+          "body": "Three dials set the size of an LTC policy:\n\n- **Benefit amount** — the daily or monthly maximum the policy will pay (for example, $200 a day). Many policies pay a lower amount for home care than for facility care.\n- **[[benefit-period|Benefit period]]** — how long benefits last (for example, 3 years, or a total 'pool' of dollars). Longer periods cost more.\n- **[[elimination-period|Elimination period]]** — the number of days of care the insured pays for before benefits begin. A longer elimination period lowers the premium.\n\nA buyer who can comfortably self-fund the first few months can lower the premium with a longer elimination period while keeping long-term protection intact.",
+          "simple": "How much per day, for how long, and how many days you wait before it starts — those three choices set the price.",
+          "callouts": [
+            { "kind": "ny-rule", "text": "NY: a period of care must be separated by at least 30 days of nonpayment of benefits to be considered two separate periods of care (11 NYCRR 52.25(c)(9)).", "sources": ["ny-11nycrr-52-25"] }
+          ]
+        },
+        {
+          "heading": "How benefits are paid: reimbursement vs. indemnity",
+          "body": "- A **reimbursement** (expense-incurred) policy pays the *actual* covered charges, up to the daily maximum.\n- An **indemnity** (per diem or cash) policy pays the *full stated amount* once the insured qualifies, regardless of actual charges.\n\nSee [[reimbursement-vs-indemnity]]. Indemnity is more flexible (the money can be used for informal care, for example) and usually costs more.",
+          "example": { "title": "Example: $180 daily maximum, $140 bill", "body": "Kay's reimbursement policy pays $140 (the actual charge). Lou's indemnity policy pays $180 (the full daily amount). Difference: $180 − $140 = $40." },
+          "callouts": [
+            { "kind": "memory-tip", "text": "Reimburse = receipts; Indemnity = fixed amount." }
+          ]
+        },
+        {
+          "heading": "Optional benefits",
+          "body": "- **[[inflation-protection|Inflation protection]]** increases benefit maximums over time. Compound increases grow on the already-increased benefit: $200 × 1.05 × 1.05 × 1.05 = $231.53 after three years.\n- **[[ltc-nonforfeiture|Nonforfeiture]]** keeps some value — such as reduced paid-up coverage — if the insured stops paying premiums.\n- **Guarantee of insurability** lets the insured buy additional coverage at set times without proving good health.\n- **Return of premium** refunds some or all premiums on death or surrender, as the policy specifies.\n- **[[shared-care|Shared care]]** lets spouses or partners draw on each other's benefits.",
+          "simple": "Optional add-ons can make benefits grow, keep value if you stop paying, let you buy more later, refund premiums, or let a couple share benefits.",
+          "callouts": [
+            { "kind": "ny-rule", "text": "NY: an insurer may not offer LTC insurance unless it also offers, at the time of purchase, an inflation protection option — for example, benefit increases of 5% (or by CPI-U) compounded annually, or a guaranteed right to periodic increases without evidence of insurability unless declined three consecutive times (11 NYCRR 52.25(c)(3)).", "sources": ["ny-11nycrr-52-25"] },
+            { "kind": "ny-rule", "text": "NY: no insurer may offer an LTC policy unless it provides, at the option of the insured or policyholder, some type of nonforfeiture value, such as reduced paid-up insurance (11 NYCRR 52.25(c)(7)).", "sources": ["ny-11nycrr-52-25"] },
+            { "kind": "exam-trap", "text": "Inflation protection must be OFFERED, not automatically included — the applicant may decline it." }
+          ]
+        },
+        {
+          "heading": "Individual, group, association and hybrid plans",
+          "body": "LTC coverage is sold as **individual** policies, through **employer groups** (certificates under a master policy), and through **associations**. Group and association plans may offer simplified enrollment, but the covered person usually loses the group coverage when he or she leaves the group — unless conversion or continuation rights apply.\n\n**[[hybrid-ltc|Hybrid (linked-benefit)]]** products combine LTC benefits with life insurance or an annuity. If care is needed, LTC benefits are paid (usually reducing the death benefit or annuity value); if not, the death benefit or annuity value remains.",
+          "callouts": [
+            { "kind": "ny-rule", "text": "NY: when group LTC coverage ends (for example, on leaving employment), the insured may convert without evidence of insurability by applying and paying the first premium within 45 days; the insurer may offer continuation instead (11 NYCRR 52.25(b)(4)).", "sources": ["ny-11nycrr-52-25"] }
+          ]
+        },
+        {
+          "heading": "Exclusions, underwriting and suitability",
+          "body": "New York lets an LTC policy exclude coverage only for a short list of reasons (11 NYCRR 52.25(b)(2)):\n\n- preexisting conditions — only for up to **6 months** after the effective date, for conditions treated or advised within **6 months** before it;\n- mental or nervous disorders (but **not** Alzheimer's disease or organic brain disease);\n- alcoholism and drug addiction;\n- war, felony/riot/insurrection, military service, suicide or self-inflicted injury, and aviation as a non-fare-paying passenger;\n- care covered by Medicare or other government programs (except Medicaid), workers' comp, or no-fault; care by immediate family; care for which no charge is normally made;\n- care outside the United States.\n\n**Underwriting** happens at application. New York prohibits **post-claims underwriting** — waiting until a claim to investigate health history. Policies may not require a prior hospital stay before paying benefits.\n\n**Suitability**: LTC insurance fits people with assets to protect who can keep paying premiums, which may rise on a class basis. Someone with very low income and few assets may be better served by Medicaid if care is needed.",
+          "simple": "New York allows only a few exclusions — and never Alzheimer's. Insurers must check your health when you apply, not after you file a claim. And the policy has to be affordable for you over the long run.",
+          "callouts": [
+            { "kind": "ny-rule", "text": "NY prohibits post-claims underwriting; if listed medications were known (or should have been known) to relate to a condition, the policy can't be rescinded for that condition (11 NYCRR 52.25(d)).", "sources": ["ny-11nycrr-52-25"] },
+            { "kind": "exam-trap", "text": "Requiring a prior hospitalization or a prior level of care before LTC benefits are paid is prohibited in New York (11 NYCRR 52.25(c)(1)(i)).", "sources": ["ny-11nycrr-52-25"] }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "match",
+        "prompt": "Match each optional LTC benefit to what it does.",
+        "pairs": [
+          { "left": "Inflation protection", "right": "Increases benefit maximums over time to keep up with care costs" },
+          { "left": "Nonforfeiture benefit", "right": "Keeps reduced paid-up coverage if premiums stop" },
+          { "left": "Guarantee of insurability", "right": "Allows buying more coverage later without proof of health" },
+          { "left": "Return of premium", "right": "Refunds some or all premiums on death or surrender" },
+          { "left": "Shared care", "right": "Lets spouses draw on each other's benefits" }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Under New York regulation, the longest an LTC policy may exclude a preexisting condition after the effective date is:",
+          "choices": ["6 months", "12 months", "24 months", "There is no limit"],
+          "answerIndex": 0,
+          "explanation": "11 NYCRR 52.25(b)(2)(i) allows a preexisting-condition exclusion of no more than six months after the effective date."
+        },
+        {
+          "prompt": "Which change would lower an LTC premium while keeping the length of coverage the same?",
+          "choices": ["A longer elimination period", "A longer benefit period", "Adding compound inflation protection", "Adding a return-of-premium rider"],
+          "answerIndex": 0,
+          "explanation": "A longer elimination period lowers the premium; the other choices increase it."
+        },
+        {
+          "prompt": "An LTC insurer reviews an insured's health history for the first time after a claim is filed. In New York this is:",
+          "choices": ["Prohibited post-claims underwriting", "A permitted contestability review", "Required by Regulation 62", "Allowed if premiums are refunded"],
+          "answerIndex": 0,
+          "explanation": "New York prohibits post-claims underwriting for LTC insurance."
+        }
+      ],
+      "summary": [
+        "Benefit amount, benefit period and elimination period are the main premium drivers.",
+        "Reimbursement pays actual charges up to the maximum; indemnity pays the stated amount regardless of charges.",
+        "NY insurers must offer inflation protection at purchase and must provide a nonforfeiture option.",
+        "NY permits only listed exclusions; Alzheimer's and organic brain disease can never be excluded, and preexisting-condition exclusions are limited to 6 months.",
+        "Post-claims underwriting and prior-hospitalization requirements are prohibited; suitability depends on assets and the ability to keep paying premiums."
+      ],
+      "related": ["ltc-l01", "ltc-l03"],
+      "sources": ["ny-11nycrr-52-25", "general-insurance-principles"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "regulation-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "ltc-l03",
+      "sectionId": "ltc",
+      "order": 3,
+      "title": "New York LTC Rules, the Partnership, Estate Recovery and the Tax Credit",
+      "outlineIds": ["ltc.2", "ltc.2.1", "ltc.2.2", "ltc.2.3", "ltc.2.4", "ltc.2.5", "ltc.2.6", "ltc.2.7", "ltc.2.8"],
+      "estMinutes": 30,
+      "intro": "New York regulates LTC insurance closely because buyers pay premiums for decades before they claim. This lesson covers New York's renewability rule, required disclosure statement, prohibited practices, replacement rules, the NY State Partnership for Long-Term Care, Medicaid estate recovery and the state LTC insurance tax credit.",
+      "objectives": [
+        "Define guaranteed renewable as it applies to New York LTC policies",
+        "Identify key items in the NY required disclosure statement",
+        "Describe New York's LTC replacement procedures and compensation limits",
+        "Explain how the NY Partnership protects assets (total asset vs. dollar-for-dollar)",
+        "Explain Medicaid estate recovery and the NY LTC tax credit"
+      ],
+      "keyTerms": ["ltc-partnership", "dollar-for-dollar", "estate-recovery", "ltc-tax-credit", "guaranteed-renewable"],
+      "parts": [
+        {
+          "heading": "Renewability and the required disclosure statement",
+          "body": "Every individual LTC policy in New York must be **[[guaranteed-renewable|guaranteed renewable]]**: the insured can keep it in force by paying premiums on time, and the insurer can't change any provision — except that **premium rates may be revised on a class basis** (11 NYCRR 52.25(b)(1)).\n\nBuyers receive a **required disclosure statement** (11 NYCRR 52.65) summarizing the policy. Among other things it must:\n\n- explain the free-look (right to return) provision;\n- state **'THIS IS NOT MEDICARE SUPPLEMENT INSURANCE'**;\n- describe benefits (LTC insurance is designed to provide at least **24 consecutive months** of coverage, including all levels of nursing home care and home care) and state that Alzheimer's disease is covered;\n- describe limitations and exclusions;\n- state that premiums may increase with the Superintendent's approval, show a 10-year premium rate history, and promise at least **90 days' notice** of any premium change;\n- describe nonforfeiture benefits.\n\nThe disclosure statement is a summary — **not** the contract.",
+          "simple": "In New York your LTC policy can't be taken away as long as you pay, but prices can rise for everyone in your class. You also get a plain-language summary that warns it isn't Medigap.",
+          "callouts": [
+            { "kind": "ny-rule", "text": "Nursing-home-only and home-care-only policies (minimum 12 months) must state that they do NOT provide long term care insurance as DFS defines it (11 NYCRR 52.65).", "sources": ["ny-11nycrr-52-65"] }
+          ]
+        },
+        {
+          "heading": "Prohibited practices and replacement",
+          "body": "New York LTC rules prohibit, among other things:\n\n- **post-claims underwriting**;\n- requiring a **prior hospitalization** or prior level of care, an acute condition, or Medicare-certified providers before paying benefits;\n- excluding **Alzheimer's** or organic brain disease.\n\n**Replacement** (11 NYCRR 52.29): the application must ask whether the new policy will replace other accident and health coverage and must list existing policies. The producer signs a statement that the replacement or additional coverage is **appropriate for the applicant's needs**. When a sale involves replacement, the applicant must receive a **notice regarding replacement** before the policy is issued or delivered; the insurer keeps a copy the applicant has signed. The notice warns about new preexisting-condition limits and possibly higher premiums.\n\n**Compensation**: an insurer may pay a higher first-year commission than renewal commission, but **in a replacement, compensation may not exceed the replacing insurer's renewal compensation** (11 NYCRR 52.25(e)(3)).",
+          "callouts": [
+            { "kind": "ny-rule", "text": "Replacement notice must be furnished before issuance or delivery; a direct response insurer delivers it with the policy, which carries a 30-day review period (11 NYCRR 52.29).", "sources": ["ny-11nycrr-52-29"] },
+            { "kind": "exam-trap", "text": "Replacement compensation = renewal level. There is no first-year bonus for replacing a policy.", "sources": ["ny-11nycrr-52-25"] }
+          ]
+        },
+        {
+          "heading": "The NY State Partnership for Long-Term Care",
+          "body": "The **[[ltc-partnership|Partnership]]** (Social Services Law § 367-f; Regulation 144, 11 NYCRR Part 39) links private LTC insurance with Medicaid. Partnership policies must be approved by the Superintendent of Financial Services and carry a numbered program logo. The idea:\n\n1. Buy an approved Partnership policy.\n2. Use it until its benefits are **exhausted** as the program requires.\n3. Then qualify for **Medicaid extended coverage** without spending down the assets the program protects.\n\nTwo asset-protection models appear in the statute:\n\n- **Total asset protection** — Medicaid disregards the person's resources entirely.\n- **[[dollar-for-dollar|Dollar-for-dollar]]** — for Partnership policies whose nursing-facility benefit is **less than two years**, Medicaid disregards an amount of resources **equal to the benefits the policy paid**.\n\nProtected resources are also shielded from Medicaid estate recovery. New York may sign reciprocity agreements with other states' partnership programs.",
+          "simple": "Buy an approved Partnership policy, use it up, and then Medicaid can take over without making you spend the savings the program protects.",
+          "example": { "title": "Example: dollar-for-dollar", "body": "Hank's Partnership policy (nursing home benefit under two years) paid $160,000 before it ran out. He has $200,000 in assets. Medicaid disregards $160,000; only the remaining $40,000 is subject to the usual Medicaid resource rules." },
+          "advanced": "Regulation 144 sets minimum benefit standards for Partnership plan designs. For example, the 1.5/3/50 design must pay on an expense-incurred basis (per diem is not permitted), allow two home-care days to substitute for one nursing-home day, include lifetime 3.5% or 5% compound inflation protection (mandatory unless purchased at or after age 80), use level premiums, and permit an elimination period of no more than 60 days. Minimum daily benefit amounts are indexed each January, so they are not taught here.",
+          "callouts": [
+            { "kind": "ny-rule", "text": "SSL § 367-f: Medicaid extended coverage is provided if the person is or was covered by an approved Partnership policy and has exhausted its coverage and benefits as the program requires.", "sources": ["ny-sos-367-f"] },
+            { "kind": "note", "text": "The outline's phrase 'time element' is not used in the statute. Here it is read as the duration-based total-asset model (policies with at least two years of nursing-facility benefit), compared with dollar-for-dollar." }
+          ]
+        },
+        {
+          "heading": "Medicaid estate recovery (OBRA '93)",
+          "body": "The Omnibus Budget Reconciliation Act of 1993 made **[[estate-recovery|estate recovery]]** mandatory. Under 42 U.S.C. § 1396p(b), each state must seek to recover, from the estate of a Medicaid recipient who was **55 or older** when the assistance was received, the Medicaid paid for **nursing facility services, home and community-based services, and related hospital and prescription drug services**.\n\nLimits: recovery may occur only **after the death of the surviving spouse**, and only when there is **no surviving child under 21** or **blind or permanently and totally disabled** child. Assets protected under a qualified Partnership are exempt.",
+          "simple": "If Medicaid paid for your long-term care after 55, the state tries to get repaid from your estate — but not while your spouse is alive, not if you have a young or disabled child, and not from Partnership-protected assets."
+        },
+        {
+          "heading": "The New York LTC insurance tax credit",
+          "body": "New York's personal income tax includes a **[[ltc-tax-credit|long-term care insurance credit]]** (Tax Law § 606(aa)) equal to **20 percent of the premiums** paid during the year for an LTC policy that qualifies under Insurance Law § 1117. A credit that exceeds the year's tax may be **carried over** to later years. Current law also sets a dollar cap and an income limit, which can change.",
+          "example": { "title": "Example", "body": "Bea pays $2,000 in premiums for a qualifying policy: 20% × $2,000 = $400 credit against her New York income tax." },
+          "callouts": [
+            { "kind": "ny-rule", "text": "NY Tax Law § 606(aa): credit = 20% of qualifying LTC premiums; excess credit carries over to following years.", "sources": ["ny-tax-606-aa"] },
+            { "kind": "memory-tip", "text": "NY LTC credit = one-fifth of the premium." }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "truefalse",
+        "prompt": "True or false? Test your knowledge of New York LTC rules.",
+        "statements": [
+          { "text": "A New York LTC insurer may raise one insured's premium because she filed several claims.", "answer": false, "explanation": "Guaranteed renewable: premium rates may be revised only on a class basis." },
+          { "text": "The NY LTC disclosure statement must say 'THIS IS NOT MEDICARE SUPPLEMENT INSURANCE.'", "answer": true, "explanation": "Item 4 of the 11 NYCRR 52.65 form contains this statement." },
+          { "text": "A Partnership policyowner qualifies for Medicaid extended coverage as soon as the policy is issued.", "answer": false, "explanation": "The policy's benefits must first be exhausted as the program requires." },
+          { "text": "Under OBRA '93, estate recovery may occur while the recipient's spouse is still living.", "answer": false, "explanation": "Recovery may be made only after the death of the surviving spouse." },
+          { "text": "In a New York LTC replacement, the producer's compensation may not exceed the replacing insurer's renewal compensation.", "answer": true, "explanation": "11 NYCRR 52.25(e)(3)." }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Under the dollar-for-dollar Partnership model, the assets Medicaid disregards equal:",
+          "choices": ["The benefits the Partnership policy paid", "The premiums the insured paid", "All of the insured's assets", "Half of the insured's assets"],
+          "answerIndex": 0,
+          "explanation": "SSL § 367-f(1)(a)(i): resources equivalent to the value of benefits received are disregarded."
+        },
+        {
+          "prompt": "NY's LTC insurance tax credit equals what share of qualifying premiums?",
+          "choices": ["20%", "10%", "25%", "50%"],
+          "answerIndex": 0,
+          "explanation": "Tax Law § 606(aa): twenty percent of premiums paid during the taxable year."
+        },
+        {
+          "prompt": "Estate recovery under OBRA '93 applies to Medicaid long-term care paid for recipients who were at least what age?",
+          "choices": ["55", "65", "21", "70"],
+          "answerIndex": 0,
+          "explanation": "42 U.S.C. § 1396p(b)(1)(B): individuals 55 years of age or older when the assistance was received."
+        }
+      ],
+      "summary": [
+        "NY individual LTC policies must be guaranteed renewable; premiums may change only on a class basis.",
+        "The 52.65 disclosure statement is a summary, says it is not Medicare supplement insurance, and discloses rate history and 90-day notice of premium changes.",
+        "Replacement requires an application question, a producer's appropriateness statement and a replacement notice before delivery; replacement compensation is capped at renewal level.",
+        "The NY Partnership gives Medicaid extended coverage after the policy is exhausted, with total-asset or dollar-for-dollar protection and protection from estate recovery.",
+        "OBRA '93 estate recovery targets recipients 55+, waits for the surviving spouse's death, and is barred while there is a child under 21 or a blind or disabled child.",
+        "NY's LTC tax credit is 20% of qualifying premiums, with carryover of unused credit."
+      ],
+      "related": ["ltc-l01", "ltc-l02"],
+      "sources": ["ny-11nycrr-52-25", "ny-11nycrr-52-65", "ny-11nycrr-52-29", "ny-sos-367-f", "ny-11nycrr-39-4", "fed-usc-42-1396p", "ny-tax-606-aa"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "regulation-text", "checkedOn": "2026-11-19" }
+    }
+  ]
+}

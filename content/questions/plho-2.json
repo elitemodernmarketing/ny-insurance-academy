@@ -1,0 +1,2722 @@
+{
+  "sectionId": "plho",
+  "questions": [
+    {
+      "id": "plho-q035",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.5.1"
+      ],
+      "concepts": [
+        "coverage-e-personal-liability",
+        "negligence"
+      ],
+      "difficulty": 1,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "A dinner guest slips on Tim's icy front steps, which he had not salted, and breaks her hip. She sues Tim for her medical bills and lost wages.",
+      "stem": "Which homeowners coverage responds to the lawsuit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Coverage A — Dwelling",
+          "rationale": "Incorrect: Coverage A pays for damage to the house, not injuries to others."
+        },
+        {
+          "id": "b",
+          "text": "Coverage D — Loss of use",
+          "rationale": "Incorrect: loss of use pays the insured's living costs."
+        },
+        {
+          "id": "c",
+          "text": "Coverage C — Personal property",
+          "rationale": "Incorrect: Coverage C pays for the insured's belongings."
+        },
+        {
+          "id": "d",
+          "text": "Coverage E — Personal liability",
+          "rationale": "Correct: the guest alleges Tim was negligent; Coverage E defends and pays damages Tim is legally liable for."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Coverage E pays sums the insured is legally obligated to pay for bodily injury or property damage caused by an occurrence, and provides a defense. A guest's fall on icy steps that Tim failed to clear is a classic premises liability claim.",
+      "memoryTip": "Guest sues → Coverage E.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q036",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.5.1"
+      ],
+      "concepts": [
+        "coverage-e-personal-liability",
+        "duty-to-defend"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "tricky"
+      ],
+      "stem": "How are defense costs treated under homeowners Coverage E?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They are deducted from the limit of liability",
+          "rationale": "Incorrect: defense is paid in addition, not out of the limit."
+        },
+        {
+          "id": "b",
+          "text": "They are paid only if the insured wins the case",
+          "rationale": "Incorrect: the insurer defends regardless of the outcome, until the limit is exhausted by payments."
+        },
+        {
+          "id": "c",
+          "text": "They are paid in addition to the limit of liability",
+          "rationale": "Correct: defense costs do not reduce the Coverage E limit."
+        },
+        {
+          "id": "d",
+          "text": "They are the insured's responsibility in all cases",
+          "rationale": "Incorrect: the insurer provides a defense at its expense."
+        }
+      ],
+      "correct": "c",
+      "explanation": "The insurer provides a defense at its expense with counsel of its choice, even if the suit is groundless, false or fraudulent. Defense costs are paid in addition to the limit; the duty to defend ends when the limit has been exhausted by payment of judgments or settlements.",
+      "memoryTip": "Defense is on top of the limit.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Defense is outside/in addition to the limit",
+            "anyOf": [
+              "in addition",
+              "outside",
+              "on top",
+              "does not reduce"
+            ]
+          },
+          {
+            "label": "Duty ends when limit is paid out",
+            "anyOf": [
+              "exhaust",
+              "used up",
+              "paid out"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q037",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.5.1"
+      ],
+      "concepts": [
+        "coverage-e-personal-liability",
+        "strict-liability"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "While Lena walks her dog in a public park, the dog bites a jogger, who needs stitches and threatens to sue. Lena has an HO-3 with no animal exclusion.",
+      "stem": "Does Lena's homeowners Section II coverage apply?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No, because the bite happened away from any insured location",
+          "rationale": "Incorrect: Coverage E covers an insured's liability anywhere unless an exclusion applies."
+        },
+        {
+          "id": "b",
+          "text": "Yes, liability coverage follows the insured and her dog away from home",
+          "rationale": "Correct: Coverage E is not limited to the residence premises."
+        },
+        {
+          "id": "c",
+          "text": "No, because dog bites are always excluded under homeowners policies",
+          "rationale": "Incorrect: standard forms do not exclude dog bites; some insurers add breed exclusions by endorsement."
+        },
+        {
+          "id": "d",
+          "text": "Only under Coverage C, because the dog is Lena's own property",
+          "rationale": "Incorrect: animals are not covered property, and the claim is for injury to another person."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Section II covers an insured's personal liability anywhere in the world, subject to exclusions. An injury caused by an animal owned by an insured is a typical covered claim (Coverage E if Lena is liable; Coverage F can pay medical bills regardless of fault).",
+      "memoryTip": "Liability coverage travels with you (and your dog).",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Coverage E applies anywhere",
+            "anyOf": [
+              "anywhere",
+              "worldwide",
+              "away from home",
+              "not limited"
+            ]
+          },
+          {
+            "label": "Animal owned by insured",
+            "anyOf": [
+              "dog",
+              "animal"
+            ]
+          },
+          {
+            "label": "Coverage F may pay medical bills",
+            "anyOf": [
+              "Coverage F",
+              "medical payments"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q038",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.5.1"
+      ],
+      "concepts": [
+        "coverage-e-personal-liability",
+        "per-occurrence-limit"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "math",
+        "tricky"
+      ],
+      "scenario": "Ben's HO-3 has a Coverage E limit of $300,000 per occurrence. A guest seriously injured at his home wins a $350,000 judgment. The insurer spent $40,000 defending the suit.",
+      "stem": "How much of the judgment must Ben pay personally?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$90,000",
+          "rationale": "Incorrect: this wrongly takes the $40,000 defense costs out of the limit."
+        },
+        {
+          "id": "b",
+          "text": "$50,000",
+          "rationale": "Correct: the $350,000 judgment exceeds the $300,000 per-occurrence limit by $50,000; defense costs are paid in addition."
+        },
+        {
+          "id": "c",
+          "text": "$0",
+          "rationale": "Incorrect: the judgment exceeds the limit, so Ben owes the excess."
+        },
+        {
+          "id": "d",
+          "text": "$350,000",
+          "rationale": "Incorrect: the insurer pays up to its $300,000 limit."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Coverage E pays up to $300,000 for the occurrence. $350,000 − $300,000 = $50,000 owed by Ben. The $40,000 of defense costs is paid by the insurer in addition to the limit, so it does not increase Ben's share.",
+      "memoryTip": "Limit pays first; excess is yours; defense is extra.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Per-occurrence limit $300,000",
+            "anyOf": [
+              "300,000",
+              "per occurrence"
+            ]
+          },
+          {
+            "label": "Excess = $50,000",
+            "anyOf": [
+              "50,000"
+            ]
+          },
+          {
+            "label": "Defense paid in addition",
+            "anyOf": [
+              "in addition",
+              "defense"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q039",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.5.2"
+      ],
+      "concepts": [
+        "coverage-f-medical-payments",
+        "resident-relative"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Ana's 10-year-old daughter, who lives with her, slips on the pool deck at home and needs stitches. Ana has an HO-3 with Coverage F.",
+      "stem": "Will Coverage F pay Ana's daughter's medical bills?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No, Coverage F does not cover insureds or household residents",
+          "rationale": "Correct: medical payments to others excludes the insured's own household."
+        },
+        {
+          "id": "b",
+          "text": "Yes, Coverage F pays her bills regardless of anyone's fault",
+          "rationale": "Incorrect: it is no-fault, but only for people other than insureds and regular residents."
+        },
+        {
+          "id": "c",
+          "text": "Yes, but only up to half of the per-person limit for family",
+          "rationale": "Incorrect: there is no partial coverage for household members."
+        },
+        {
+          "id": "d",
+          "text": "Yes, under Coverage E instead of Coverage F",
+          "rationale": "Incorrect: Coverage E excludes bodily injury to insureds."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Coverage F pays medical expenses of others, not of the named insured or regular residents of the household (other than residence employees). Ana's daughter is an insured, so her bills belong on the family's health insurance.",
+      "memoryTip": "F = Friends and visitors, not Family.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Daughter is an insured/resident",
+            "anyOf": [
+              "insured",
+              "resident",
+              "household"
+            ]
+          },
+          {
+            "label": "Coverage F excludes insureds",
+            "anyOf": [
+              "exclude",
+              "not cover",
+              "others only"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q040",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.5.2"
+      ],
+      "concepts": [
+        "coverage-f-medical-payments"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Two guests are hurt when a porch railing at Mo's home gives way. Guest 1 has $1,500 of medical expenses and Guest 2 has $600. Mo's Coverage F limit is $1,000 per person.",
+      "stem": "How much will Coverage F pay in total?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$2,100",
+          "rationale": "Incorrect: this ignores the $1,000 per-person limit on the first guest."
+        },
+        {
+          "id": "b",
+          "text": "$1,000",
+          "rationale": "Incorrect: the limit applies per person, not per accident."
+        },
+        {
+          "id": "c",
+          "text": "$2,000",
+          "rationale": "Incorrect: this pays the limit to each guest regardless of actual expenses."
+        },
+        {
+          "id": "d",
+          "text": "$1,600",
+          "rationale": "Correct: $1,000 (capped) + $600 = $1,600."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Coverage F limits apply per person. Guest 1: $1,500 of expenses, capped at $1,000. Guest 2: $600, fully paid. Total = $1,000 + $600 = $1,600.",
+      "memoryTip": "Coverage F caps each person separately.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Per-person limit",
+            "anyOf": [
+              "per person",
+              "each person"
+            ]
+          },
+          {
+            "label": "Arithmetic",
+            "anyOf": [
+              "1,600",
+              "1,000 + 600"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q041",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.5.2"
+      ],
+      "concepts": [
+        "coverage-f-medical-payments"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "A guest is hurt at the insured's home though the insured was not negligent. Which coverage pays her medical bills?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Coverage E — Personal liability for others",
+          "rationale": "Incorrect: Coverage E requires legal liability."
+        },
+        {
+          "id": "b",
+          "text": "Coverage D — Loss of use at the home",
+          "rationale": "Incorrect: loss of use pays living costs."
+        },
+        {
+          "id": "c",
+          "text": "Coverage F — Medical payments to others",
+          "rationale": "Correct: Coverage F pays regardless of the insured's fault."
+        },
+        {
+          "id": "d",
+          "text": "Coverage B — Other structures on site",
+          "rationale": "Incorrect: Coverage B covers detached buildings."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Coverage F pays necessary medical expenses for others injured on the insured location with permission (or by an insured's activities), without regard to fault — often heading off a lawsuit.",
+      "memoryTip": "No fault needed → Coverage F.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q042",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.5.3"
+      ],
+      "concepts": [
+        "coverage-e-personal-liability",
+        "property-damage"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Kai, 14, borrows a friend's camera and accidentally drops it in a lake. Kai's parents want to make it right, though they are not legally obligated to pay. Kai is an insured under his parents' HO-3.",
+      "stem": "Which homeowners coverage is designed for this situation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Damage to property of others (Section II)",
+          "rationale": "Correct: it pays for property of others damaged by an insured, regardless of legal liability, up to a modest limit."
+        },
+        {
+          "id": "b",
+          "text": "Coverage C — the insured's personal property",
+          "rationale": "Incorrect: Coverage C covers the insured's own property and, at request, guests' property at the residence."
+        },
+        {
+          "id": "c",
+          "text": "Coverage E — only if the friend sues and wins",
+          "rationale": "Incorrect: the additional coverage pays without proof of legal liability."
+        },
+        {
+          "id": "d",
+          "text": "Coverage F — Medical payments to others",
+          "rationale": "Incorrect: Coverage F pays medical bills, not property damage."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Damage to property of others is a Section II additional coverage that pays replacement cost (up to a modest limit) for property of others damaged by an insured, regardless of fault. It excludes damage caused intentionally by an insured of a certain age or older, property owned by an insured, and certain other items.",
+      "memoryTip": "Borrowed and broken → damage to property of others.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q043",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.5.3"
+      ],
+      "concepts": [
+        "coverage-e-personal-liability"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "Which item is paid under the Section II \"claim expenses\" additional coverage?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lost earnings the insured has at the insurer's request",
+          "rationale": "Correct: claim expenses include such expenses, subject to a daily limit on lost earnings."
+        },
+        {
+          "id": "b",
+          "text": "The injured guest's emergency room bills",
+          "rationale": "Incorrect: that is Coverage F."
+        },
+        {
+          "id": "c",
+          "text": "The insured's own hotel costs after a house fire",
+          "rationale": "Incorrect: that is Coverage D."
+        },
+        {
+          "id": "d",
+          "text": "The cost of repairing the insured's own home and roof",
+          "rationale": "Incorrect: that is Coverage A."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Claim expenses, paid in addition to the limit, include the insurer's defense expenses, premiums on certain bonds, reasonable expenses the insured incurs at the insurer's request (including some loss of earnings) and interest on judgments.",
+      "memoryTip": "Claim expenses = costs of handling the claim.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q044",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.5.3"
+      ],
+      "concepts": [
+        "coverage-f-medical-payments"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Which Section II additional coverage pays for emergency first aid the insured provides to others?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Loss assessment",
+          "rationale": "Incorrect: loss assessment pays association assessments."
+        },
+        {
+          "id": "b",
+          "text": "First aid expenses",
+          "rationale": "Correct: first aid to others for bodily injury covered under the policy is a Section II additional coverage."
+        },
+        {
+          "id": "c",
+          "text": "Debris removal",
+          "rationale": "Incorrect: debris removal is a Section I additional coverage."
+        },
+        {
+          "id": "d",
+          "text": "Reasonable repairs",
+          "rationale": "Incorrect: reasonable repairs is a Section I additional coverage."
+        }
+      ],
+      "correct": "b",
+      "explanation": "First aid expenses pays expenses the insured incurs for first aid to others for bodily injury covered by the policy — but not first aid to an insured.",
+      "memoryTip": "First aid to others → first aid expenses.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q045",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.6"
+      ],
+      "concepts": [
+        "open-perils-coverage",
+        "named-perils-coverage",
+        "ho-special-form"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [],
+      "stem": "How does open-perils coverage on an HO-3 dwelling differ from named-perils coverage on HO-2?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Open perils covers only the perils listed on the declarations",
+          "rationale": "Incorrect: that describes named perils."
+        },
+        {
+          "id": "b",
+          "text": "Open perils covers flood and earthquake automatically",
+          "rationale": "Incorrect: open-perils forms still exclude flood and earth movement."
+        },
+        {
+          "id": "c",
+          "text": "Open perils covers any direct physical loss unless excluded",
+          "rationale": "Correct: with open perils the insurer must point to an exclusion to deny a loss."
+        },
+        {
+          "id": "d",
+          "text": "Open perils pays actual cash value only",
+          "rationale": "Incorrect: perils and valuation are different features."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Named perils: a loss is covered only if caused by a listed peril. Open perils: a direct physical loss is covered unless the policy excludes it, so the burden shifts to the insurer to show an exclusion applies.",
+      "memoryTip": "Named = must be on the list; Open = must not be excluded.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q046",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.6"
+      ],
+      "concepts": [
+        "named-perils-coverage",
+        "coverage-c-personal-property"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Tess leaves her living room window open during a windy rainstorm. Rain blows in and ruins her sofa. The building itself is not damaged. She has an HO-3.",
+      "stem": "How does the HO-3 treat damage to the sofa?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Not covered, because the wind did not first create an opening",
+          "rationale": "Correct: interior damage from rain under the windstorm peril requires the wind or hail to first damage the building and create an opening."
+        },
+        {
+          "id": "b",
+          "text": "Covered, because windstorm is a named peril",
+          "rationale": "Incorrect: the windstorm peril has a condition for interior rain damage that was not met."
+        },
+        {
+          "id": "c",
+          "text": "Covered, because personal property is open perils on HO-3",
+          "rationale": "Incorrect: personal property is named perils on HO-3."
+        },
+        {
+          "id": "d",
+          "text": "Covered under Coverage A as water damage to the building",
+          "rationale": "Incorrect: the sofa is personal property, not part of the dwelling."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Under the windstorm or hail peril, damage to property inside a building from rain, snow, sleet, sand or dust is covered only if the wind or hail first damages the building, creating an opening. An open window left by the insured is not such an opening.",
+      "memoryTip": "Rain inside counts only if the wind made the hole.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Windstorm peril requires an opening",
+            "anyOf": [
+              "opening",
+              "first damage",
+              "hole"
+            ]
+          },
+          {
+            "label": "Open window does not qualify",
+            "anyOf": [
+              "open window",
+              "left open"
+            ]
+          },
+          {
+            "label": "Contents are named perils on HO-3",
+            "anyOf": [
+              "named peril",
+              "Coverage C"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q047",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.6",
+        "plho.7"
+      ],
+      "concepts": [
+        "ho-special-form",
+        "open-perils-coverage"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "Under HO-3 Coverage A, each of the following causes of loss is excluded EXCEPT",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Smoke from a sudden kitchen grease fire",
+          "rationale": "Correct: sudden and accidental smoke damage is covered."
+        },
+        {
+          "id": "b",
+          "text": "Wear and tear",
+          "rationale": "Incorrect: wear, tear and deterioration are excluded."
+        },
+        {
+          "id": "c",
+          "text": "Damage by rodents or insects",
+          "rationale": "Incorrect: birds, rodents, vermin and insects are excluded causes."
+        },
+        {
+          "id": "d",
+          "text": "Settling and cracking of the foundation",
+          "rationale": "Incorrect: settling, shrinking, bulging or expansion is excluded."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Open-perils coverage on HO-3 still excludes maintenance-type and predictable losses: wear and tear, mechanical breakdown, rust, mold (with limited exceptions), settling and cracking, damage by birds, rodents, insects or the insured's pets, and constant seepage. Sudden smoke damage from a fire is covered.",
+      "memoryTip": "Sudden events covered; slow decay excluded.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q048",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.7"
+      ],
+      "concepts": [
+        "flood-definition",
+        "nfip"
+      ],
+      "difficulty": 1,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Heavy rain causes a nearby river to overflow, and two feet of water pours into the Grays' basement through the windows. They have an HO-3 without endorsements.",
+      "stem": "Is the basement damage covered by the Grays' HO-3?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No, flood and surface water are excluded",
+          "rationale": "Correct: water damage from flood is a Section I exclusion in all homeowners forms."
+        },
+        {
+          "id": "b",
+          "text": "Yes, because HO-3 is open perils on the dwelling",
+          "rationale": "Incorrect: open perils still applies the water damage exclusion."
+        },
+        {
+          "id": "c",
+          "text": "Yes, under the water back-up coverage included in every HO-3",
+          "rationale": "Incorrect: water back-up coverage is an optional endorsement and still excludes flood."
+        },
+        {
+          "id": "d",
+          "text": "Yes, but only at actual cash value",
+          "rationale": "Incorrect: the loss is excluded, not paid at a lower value."
+        }
+      ],
+      "correct": "a",
+      "explanation": "The water damage exclusion removes flood, surface water, waves and tidal water, overflow of a body of water, and water seeping through foundations. Flood coverage must come from a separate flood policy, such as one written through the National Flood Insurance Program.",
+      "memoryTip": "Flood → separate flood policy.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q049",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.7"
+      ],
+      "concepts": [
+        "ho-special-form",
+        "proximate-cause"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "An earthquake cracks the walls of Jay's home and ruptures a gas line, which starts a fire that damages the kitchen. Jay has an HO-3 without an earthquake endorsement.",
+      "stem": "How does the HO-3 respond?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nothing is covered, because the earthquake started the chain of events",
+          "rationale": "Incorrect: the earth movement exclusion carves back ensuing fire and explosion."
+        },
+        {
+          "id": "b",
+          "text": "The fire damage is covered, though earthquake damage itself is excluded",
+          "rationale": "Correct: earth movement is excluded, but ensuing fire or explosion is covered."
+        },
+        {
+          "id": "c",
+          "text": "Everything is covered, because HO-3 is open perils",
+          "rationale": "Incorrect: earth movement remains excluded on open perils."
+        },
+        {
+          "id": "d",
+          "text": "Only the cracked walls are covered, not the fire damage",
+          "rationale": "Incorrect: it is the reverse: ensuing fire is covered, quake damage is not."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Earth movement (earthquake, landslide, sinkhole) is excluded, but direct loss by ensuing fire or explosion is covered. The cracks caused by the quake itself are not covered without an earthquake endorsement.",
+      "memoryTip": "Quake shakes = excluded; fire after = covered.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Earth movement excluded",
+            "anyOf": [
+              "earth movement",
+              "earthquake excluded"
+            ]
+          },
+          {
+            "label": "Ensuing fire covered",
+            "anyOf": [
+              "ensuing",
+              "resulting fire",
+              "fire is covered"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q050",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.7",
+        "plho.8"
+      ],
+      "concepts": [
+        "ho-special-form",
+        "duties-after-loss"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "A covered windstorm tears shingles off Rob's roof. Although he could easily have covered the area with a tarp, he leaves for two weeks without doing anything. Rain causes extensive additional damage to ceilings and floors.",
+      "stem": "How will the insurer most likely treat the additional water damage?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It must pay, because windstorm caused the original damage",
+          "rationale": "Incorrect: the later damage resulted from the insured's failure to protect the property."
+        },
+        {
+          "id": "b",
+          "text": "It must pay, but only at actual cash value",
+          "rationale": "Incorrect: the issue is neglect, not valuation."
+        },
+        {
+          "id": "c",
+          "text": "It must pay under Coverage D",
+          "rationale": "Incorrect: loss of use does not pay for property damage."
+        },
+        {
+          "id": "d",
+          "text": "It may deny it under the neglect exclusion",
+          "rationale": "Correct: failing to use reasonable means to protect property after a loss is excluded."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Neglect — the insured's failure to use all reasonable means to save and preserve property at and after a loss — is excluded. The duties after loss require the insured to protect the property and make reasonable repairs, which the policy reimburses.",
+      "memoryTip": "Tarp the roof or own the extra damage.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q051",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.7"
+      ],
+      "concepts": [
+        "coverage-e-personal-liability",
+        "personal-auto-policy"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "An insured causes an accident while driving her own car on a public road. Which policy should respond?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Her homeowners Coverage E",
+          "rationale": "Incorrect: motor vehicle liability is excluded from Section II."
+        },
+        {
+          "id": "b",
+          "text": "Her homeowners Coverage F",
+          "rationale": "Incorrect: Coverage F also excludes motor vehicle injuries."
+        },
+        {
+          "id": "c",
+          "text": "Her personal auto policy",
+          "rationale": "Correct: homeowners Section II excludes most motor vehicle liability."
+        },
+        {
+          "id": "d",
+          "text": "Her dwelling policy",
+          "rationale": "Incorrect: dwelling policies have no liability coverage."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Homeowners Section II excludes liability arising from the ownership, maintenance or use of motor vehicles, with narrow exceptions (for example, certain vehicles used to service the premises, in dead storage, or designed for the disabled). Auto liability belongs on an auto policy.",
+      "memoryTip": "Cars on the road → auto policy.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q052",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.7"
+      ],
+      "concepts": [
+        "coverage-e-personal-liability",
+        "watercraft-policy"
+      ],
+      "difficulty": 3,
+      "style": "comparison",
+      "tags": [
+        "tricky"
+      ],
+      "stem": "Which watercraft liability exposure is most likely covered under homeowners Section II?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A large inboard powerboat the insured owns",
+          "rationale": "Incorrect: owned watercraft with large inboard engines are excluded."
+        },
+        {
+          "id": "b",
+          "text": "A canoe the insured rents for a weekend trip",
+          "rationale": "Correct: small non-motorized, non-owned watercraft are commonly within Section II coverage."
+        },
+        {
+          "id": "c",
+          "text": "A 40-foot sailboat the insured owns",
+          "rationale": "Incorrect: owned sailing vessels above the form's length limit are excluded."
+        },
+        {
+          "id": "d",
+          "text": "A boat the insured uses in a fishing charter business",
+          "rationale": "Incorrect: business use is excluded."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Section II excludes liability arising from watercraft above stated horsepower or length thresholds that are owned by or rented to an insured, and any watercraft used in a business. Small boats such as a rented canoe remain covered. Larger boats need a watercraft policy or endorsement.",
+      "memoryTip": "Small and simple = covered; big, powerful or business = excluded.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Small/non-motorized watercraft covered",
+            "anyOf": [
+              "canoe",
+              "small",
+              "non-motorized"
+            ]
+          },
+          {
+            "label": "Large owned craft excluded",
+            "anyOf": [
+              "large",
+              "horsepower",
+              "length",
+              "owned"
+            ]
+          },
+          {
+            "label": "Business use excluded",
+            "anyOf": [
+              "business"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q053",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.7"
+      ],
+      "concepts": [
+        "coverage-e-personal-liability",
+        "occurrence"
+      ],
+      "difficulty": 1,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "During an argument over a property line, Ned punches his neighbor in the face, breaking his nose. The neighbor sues Ned.",
+      "stem": "Will Coverage E pay the neighbor's claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, because the neighbor was injured on the residence premises",
+          "rationale": "Incorrect: location does not override the intentional act exclusion."
+        },
+        {
+          "id": "b",
+          "text": "No, injury expected or intended by an insured is excluded",
+          "rationale": "Correct: deliberately punching someone is an intentional act, not an accident."
+        },
+        {
+          "id": "c",
+          "text": "Yes, but only under Coverage F",
+          "rationale": "Incorrect: Coverage F also excludes intentional injury."
+        },
+        {
+          "id": "d",
+          "text": "Yes, because the insured did not intend serious injury",
+          "rationale": "Incorrect: the exclusion applies even if the injury is more severe than intended."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Section II excludes bodily injury or property damage that is expected or intended by an insured, even if the resulting injury is of a different kind or degree than intended. (Most forms make an exception for reasonable force used to protect persons or property.)",
+      "memoryTip": "Meant to do it → not covered.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q054",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.7"
+      ],
+      "concepts": [
+        "coverage-e-personal-liability"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Dr. Ortiz, a dentist, treats a neighbor's tooth in her home kitchen as a favor for a fee. The neighbor develops a serious infection and sues her for malpractice.",
+      "stem": "Will Dr. Ortiz's homeowners Coverage E defend the suit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, because the patient was injured at her own home",
+          "rationale": "Incorrect: location does not override the professional services exclusion."
+        },
+        {
+          "id": "b",
+          "text": "Yes, because Coverage E covers all of her negligence claims",
+          "rationale": "Incorrect: Coverage E has several exclusions, including professional services."
+        },
+        {
+          "id": "c",
+          "text": "Yes, under Coverage F, regardless of who was at fault",
+          "rationale": "Incorrect: Coverage F also excludes professional services."
+        },
+        {
+          "id": "d",
+          "text": "No, liability from rendering professional services is excluded",
+          "rationale": "Correct: professional liability requires a malpractice or professional liability policy."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Homeowners Section II excludes bodily injury or property damage arising out of rendering or failing to render professional services. Professionals need professional liability insurance.",
+      "memoryTip": "Professional work → professional liability policy.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q055",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.7"
+      ],
+      "concepts": [
+        "coverage-e-personal-liability"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "Homeowners Section II would exclude each of the following claims EXCEPT",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A customer injured by a product the insured sells from her business",
+          "rationale": "Incorrect: liability arising from business activities is excluded."
+        },
+        {
+          "id": "b",
+          "text": "A pedestrian hit by the insured's car on a public street",
+          "rationale": "Incorrect: motor vehicle liability is excluded."
+        },
+        {
+          "id": "c",
+          "text": "A guest bitten by the insured's dog at the insured's home",
+          "rationale": "Correct: injury caused by an insured's animal is a covered liability exposure."
+        },
+        {
+          "id": "d",
+          "text": "A person the insured intentionally pushed down the stairs",
+          "rationale": "Incorrect: intentional injury is excluded."
+        }
+      ],
+      "correct": "c",
+      "explanation": "The main Section II exclusions are business, professional services, motor vehicles, watercraft and aircraft (with exceptions), expected or intended injury, rental of premises (with exceptions), war, communicable disease, abuse and controlled substances. A dog bite at home is not excluded under the standard form.",
+      "memoryTip": "Dog bite at home = classic covered claim.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q056",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.8"
+      ],
+      "concepts": [
+        "replacement-cost",
+        "property-coinsurance-clause"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Ava's home has a full replacement cost of $300,000, and her HO-3 Coverage A limit is $240,000. A covered windstorm causes roof damage costing $20,000 to replace; its actual cash value is $12,000. Ignore the deductible.",
+      "stem": "How much will the insurer pay for the roof?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$16,000",
+          "rationale": "Incorrect: this applies an 80% factor to the loss; the requirement is met, so no reduction applies."
+        },
+        {
+          "id": "b",
+          "text": "$12,000",
+          "rationale": "Incorrect: this is the ACV, but the insured qualifies for replacement cost."
+        },
+        {
+          "id": "c",
+          "text": "$15,000",
+          "rationale": "Incorrect: this applies a 75% ratio that does not fit these facts."
+        },
+        {
+          "id": "d",
+          "text": "$20,000",
+          "rationale": "Correct: $240,000 is exactly 80% of $300,000, so full replacement cost is paid."
+        }
+      ],
+      "correct": "d",
+      "explanation": "80% × $300,000 = $240,000 required. The limit carried is $240,000, so the requirement is met and the insurer pays the full replacement cost of $20,000 (up to the limit).",
+      "memoryTip": "Meet 80% → full replacement cost.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q057",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.8"
+      ],
+      "concepts": [
+        "replacement-cost",
+        "actual-cash-value",
+        "property-coinsurance-clause"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "math",
+        "tricky"
+      ],
+      "scenario": "Raj's home has a full replacement cost of $400,000, but his HO-3 Coverage A limit is only $240,000. A covered fire causes $40,000 of damage at replacement cost; the actual cash value of the damage is $25,000. Ignore the deductible.",
+      "stem": "Under the replacement cost loss settlement condition, how much will the insurer pay?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$40,000",
+          "rationale": "Incorrect: full replacement cost requires insurance of at least 80% of replacement cost."
+        },
+        {
+          "id": "b",
+          "text": "$25,000",
+          "rationale": "Incorrect: the insured receives the greater of ACV or the proportional amount."
+        },
+        {
+          "id": "c",
+          "text": "$30,000",
+          "rationale": "Correct: $240,000 ÷ $320,000 = 0.75; 0.75 × $40,000 = $30,000, which is more than the $25,000 ACV."
+        },
+        {
+          "id": "d",
+          "text": "$24,000",
+          "rationale": "Incorrect: this divides by the full $400,000 instead of 80% of it."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Required: 80% × $400,000 = $320,000. Carried: $240,000. Ratio: $240,000 ÷ $320,000 = 0.75. Proportional payment: 0.75 × $40,000 = $30,000. ACV of the loss is $25,000. The insurer pays the greater, $30,000.",
+      "memoryTip": "Did ÷ Should × Loss; never less than ACV.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "80% requirement = $320,000",
+            "anyOf": [
+              "320,000",
+              "80%"
+            ]
+          },
+          {
+            "label": "Ratio 0.75",
+            "anyOf": [
+              "0.75",
+              "75%"
+            ]
+          },
+          {
+            "label": "Pays greater of ACV or proportional amount",
+            "anyOf": [
+              "greater",
+              "30,000"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q058",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.8"
+      ],
+      "concepts": [
+        "replacement-cost",
+        "actual-cash-value"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "After a large covered loss to the dwelling, insurers commonly handle replacement cost payment how?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pay full replacement cost immediately whether or not the home is rebuilt",
+          "rationale": "Incorrect: the amount above ACV is commonly held until repairs are made."
+        },
+        {
+          "id": "b",
+          "text": "Pay only actual cash value, never the holdback",
+          "rationale": "Incorrect: the holdback is paid once repairs are completed."
+        },
+        {
+          "id": "c",
+          "text": "Pay only after the insured sells the damaged home",
+          "rationale": "Incorrect: sale of the home is not part of the loss settlement process."
+        },
+        {
+          "id": "d",
+          "text": "Pay actual cash value first and the rest after repair or replacement is completed",
+          "rationale": "Correct: this holdback approach is common in replacement cost loss settlement."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Replacement cost conditions commonly let the insurer pay no more than actual cash value until the actual repair or replacement is complete; the remaining amount (the holdback, essentially the depreciation) is then paid. The insured may initially claim ACV and later claim the additional amount within the time the policy allows.",
+      "memoryTip": "ACV now, the rest when you rebuild.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q059",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.8"
+      ],
+      "concepts": [
+        "duties-after-loss"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "After a theft, which duty does a homeowners policy impose on the insured?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Wait 30 days before notifying the insurer",
+          "rationale": "Incorrect: notice must be prompt."
+        },
+        {
+          "id": "b",
+          "text": "Hire a public adjuster",
+          "rationale": "Incorrect: hiring a public adjuster is optional."
+        },
+        {
+          "id": "c",
+          "text": "Replace the stolen items before filing a claim",
+          "rationale": "Incorrect: that is not a condition of coverage."
+        },
+        {
+          "id": "d",
+          "text": "Notify the police",
+          "rationale": "Correct: theft losses must be reported to the police."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Duties after loss include prompt notice to the insurer, notifying the police in case of theft, notifying the credit card company in case of card loss, protecting property from further damage, preparing an inventory, showing the damaged property, providing records, and submitting a sworn proof of loss when requested.",
+      "memoryTip": "Theft → call the police.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q060",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.8"
+      ],
+      "concepts": [
+        "duties-after-loss"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "An insured and insurer agree a fire is covered but disagree about the dollar amount of the loss. Which policy condition provides a way to settle it?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Appraisal",
+          "rationale": "Correct: appraisal resolves disputes over the amount of loss."
+        },
+        {
+          "id": "b",
+          "text": "Subrogation",
+          "rationale": "Incorrect: subrogation lets the insurer recover from a responsible third party."
+        },
+        {
+          "id": "c",
+          "text": "Abandonment",
+          "rationale": "Incorrect: the insured may not abandon property to the insurer."
+        },
+        {
+          "id": "d",
+          "text": "Liberalization",
+          "rationale": "Incorrect: liberalization extends broader coverage changes to existing policies."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Under appraisal, each party selects an appraiser, the appraisers choose an umpire, and an agreement by any two sets the amount of loss. Each side pays its own appraiser and shares the umpire's cost. Appraisal decides amount, not whether the loss is covered.",
+      "memoryTip": "Fight over HOW MUCH → appraisal.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q061",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.8"
+      ],
+      "concepts": [
+        "mortgage-clause"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "The insurer denies Zack's fire claim after proving he set the fire on purpose. First Bank holds the mortgage on the home and is listed as mortgagee.",
+      "stem": "How does the mortgage clause affect the lender's claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The lender's claim is denied along with the owner's claim",
+          "rationale": "Incorrect: the mortgage clause separates the lender's rights from the insured's conduct."
+        },
+        {
+          "id": "b",
+          "text": "The lender is paid only if the owner is found not guilty",
+          "rationale": "Incorrect: the lender's rights do not depend on the owner's criminal case."
+        },
+        {
+          "id": "c",
+          "text": "The lender can still be paid if it meets its own obligations under the clause",
+          "rationale": "Correct: the mortgage clause protects the mortgagee even when the insured's claim is denied."
+        },
+        {
+          "id": "d",
+          "text": "The lender must sue the owner, because the policy does not protect it",
+          "rationale": "Incorrect: the lender is protected under the policy's mortgage clause."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Under the mortgage clause, a denial of the insured's claim does not defeat a valid claim of the mortgagee, provided the mortgagee notifies the insurer of known changes in ownership, occupancy or substantial increase in hazard, pays any premium due if the insured fails to, and submits proof of loss when asked. If the insurer pays the lender, it may take over the lender's rights against the owner.",
+      "memoryTip": "Owner's fraud doesn't sink the bank.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Mortgagee protected despite insured's act",
+            "anyOf": [
+              "mortgagee",
+              "lender",
+              "still be paid",
+              "protected"
+            ]
+          },
+          {
+            "label": "Lender must meet its own obligations",
+            "anyOf": [
+              "notify",
+              "premium",
+              "proof of loss"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q062",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.8"
+      ],
+      "concepts": [
+        "actual-cash-value"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "A thief steals one of Bea's matched diamond earrings from her hotel room; the other earring is left behind. Before the theft the pair had an ACV of $2,000; the single remaining earring is worth $600. The jewelry theft special limit is not exceeded.",
+      "stem": "How will the loss to a pair or set condition most likely settle this claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pay the full value of both of the earrings",
+          "rationale": "Incorrect: the remaining earring still has value."
+        },
+        {
+          "id": "b",
+          "text": "Pay nothing, because one earring still remains",
+          "rationale": "Incorrect: the loss of one piece reduces the set's value, and that reduction is payable."
+        },
+        {
+          "id": "c",
+          "text": "Replace both earrings with a brand-new pair",
+          "rationale": "Incorrect: the insurer may repair/replace part of the set, but is not required to replace both."
+        },
+        {
+          "id": "d",
+          "text": "Pay the drop in the set's value caused by the loss",
+          "rationale": "Correct: the pair or set condition does not require paying for the whole set."
+        }
+      ],
+      "correct": "d",
+      "explanation": "If part of a pair or set is lost or damaged, the insurer may repair or replace any part to restore the set to its prior value, or pay the difference between the actual cash value of the property before and after the loss.",
+      "memoryTip": "Lose one of a pair → paid for the drop in value.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q063",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.8"
+      ],
+      "concepts": [
+        "policy-deductible"
+      ],
+      "difficulty": 1,
+      "style": "calculation",
+      "tags": [
+        "math",
+        "rapid"
+      ],
+      "stem": "A covered loss to an HO-3 dwelling is $6,500 and the deductible is $1,000. What does the insurer pay?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$6,500",
+          "rationale": "Incorrect: the deductible must be subtracted."
+        },
+        {
+          "id": "b",
+          "text": "$7,500",
+          "rationale": "Incorrect: the deductible is subtracted, not added."
+        },
+        {
+          "id": "c",
+          "text": "$1,000",
+          "rationale": "Incorrect: this is the insured's share."
+        },
+        {
+          "id": "d",
+          "text": "$5,500",
+          "rationale": "Correct: $6,500 − $1,000 = $5,500."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Section I deductibles reduce the amount the insurer pays for each covered loss: $6,500 − $1,000 = $5,500.",
+      "memoryTip": "Loss minus deductible.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q064",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.9.1",
+        "plho.8"
+      ],
+      "concepts": [
+        "endorsement",
+        "ho-special-form"
+      ],
+      "difficulty": 3,
+      "style": "concept",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "stem": "Which statement best describes the Special Provisions — New York endorsement on a homeowners policy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It adds flood coverage required for all New York homes",
+          "rationale": "Incorrect: flood is not added by this endorsement."
+        },
+        {
+          "id": "b",
+          "text": "It amends national form provisions to follow New York law",
+          "rationale": "Correct: state special provisions endorsements conform the national form to state requirements."
+        },
+        {
+          "id": "c",
+          "text": "It removes Section II liability from New York policies",
+          "rationale": "Incorrect: it does not remove liability coverage."
+        },
+        {
+          "id": "d",
+          "text": "It replaces the homeowners form with a dwelling form in New York",
+          "rationale": "Incorrect: it amends the homeowners form; it does not replace it."
+        }
+      ],
+      "correct": "b",
+      "explanation": "The New York special provisions endorsement amends the standard homeowners form so that provisions such as cancellation, nonrenewal and certain claim conditions comply with New York law and regulation. The specific New York rules (for example, notice periods) are set by statute and regulation and are not stated here.",
+      "memoryTip": "NY special provisions = NY's edits to the national form.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "draft",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19",
+        "notes": "Draft: the specific New York changes made by HO 01 31 (e.g., cancellation/nonrenewal under Ins. Law § 3425) were not verified against statute or the endorsement in this batch."
+      }
+    },
+    {
+      "id": "plho-q065",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.9.2"
+      ],
+      "concepts": [
+        "earthquake-endorsement",
+        "policy-deductible"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "math",
+        "tricky"
+      ],
+      "scenario": "Hugo's HO-3 has Coverage A of $300,000 and an earthquake endorsement with a deductible equal to 5% of the Coverage A limit. An earthquake causes $40,000 of damage to the dwelling.",
+      "stem": "How much will the earthquake endorsement pay for the dwelling damage?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$25,000",
+          "rationale": "Correct: 5% × $300,000 = $15,000 deductible; $40,000 − $15,000 = $25,000."
+        },
+        {
+          "id": "b",
+          "text": "$40,000",
+          "rationale": "Incorrect: the percentage deductible must be subtracted."
+        },
+        {
+          "id": "c",
+          "text": "$38,000",
+          "rationale": "Incorrect: this subtracts 5% of the loss instead of 5% of the limit."
+        },
+        {
+          "id": "d",
+          "text": "$15,000",
+          "rationale": "Incorrect: this is the deductible, not the payment."
+        }
+      ],
+      "correct": "a",
+      "explanation": "The earthquake deductible stated in the scenario is 5% of the Coverage A limit: 0.05 × $300,000 = $15,000. The covered loss is $40,000, so the endorsement pays $40,000 − $15,000 = $25,000.",
+      "memoryTip": "Percentage deductibles use the LIMIT, not the loss.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Deductible = 5% of the limit",
+            "anyOf": [
+              "15,000",
+              "5% of",
+              "limit"
+            ]
+          },
+          {
+            "label": "Payment = loss minus deductible",
+            "anyOf": [
+              "25,000"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q066",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.9.3"
+      ],
+      "concepts": [
+        "identity-fraud-endorsement"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "A thief uses Yuri's stolen personal information to open credit cards and drain $3,000 from his account. Yuri spends days off work, sends certified letters and pays notary fees to clear his record.",
+      "stem": "Which of Yuri's losses would an identity fraud expense endorsement most likely reimburse?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The $3,000 the thief withdrew from his bank account",
+          "rationale": "Incorrect: the endorsement does not reimburse money stolen by the thief."
+        },
+        {
+          "id": "b",
+          "text": "The purchases the thief charged to new credit cards",
+          "rationale": "Incorrect: it pays recovery expenses, not the fraudulent debts."
+        },
+        {
+          "id": "c",
+          "text": "His certified mail, notary fees and lost wages",
+          "rationale": "Correct: the endorsement pays expenses of restoring identity and credit, up to its limit."
+        },
+        {
+          "id": "d",
+          "text": "The cost of a new wallet and phone that were stolen",
+          "rationale": "Incorrect: stolen property is a Coverage C theft matter."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Identity fraud expense coverage pays the insured's expenses incurred as a direct result of identity fraud — such as notarizing affidavits, certified mail, loan reapplication fees, reasonable attorney fees with consent and some lost wages — after a deductible and up to a limit. It does not pay the stolen money or fraudulent charges.",
+      "memoryTip": "It pays for the cleanup, not the theft.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q067",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.9.4"
+      ],
+      "concepts": [
+        "scheduled-personal-property",
+        "special-limits-of-liability"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Grace scheduled her $9,000 engagement ring on a scheduled personal property endorsement attached to her HO-3. She takes it off at the beach and cannot find it again; there is no evidence of theft.",
+      "stem": "Why is Grace's loss covered?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Coverage C covers lost items as one of its named perils",
+          "rationale": "Incorrect: \"losing\" an item is not a named peril under HO-3 Coverage C."
+        },
+        {
+          "id": "b",
+          "text": "Scheduled items are commonly insured on open perils",
+          "rationale": "Correct: scheduling covers losses such as misplacing an item, which named perils on Coverage C would not."
+        },
+        {
+          "id": "c",
+          "text": "The jewelry theft special limit pays for lost jewelry",
+          "rationale": "Incorrect: nothing was stolen, and the special limit would cap payment anyway."
+        },
+        {
+          "id": "d",
+          "text": "Coverage E covers the insured's own lost property",
+          "rationale": "Incorrect: liability coverage never pays for the insured's own property."
+        }
+      ],
+      "correct": "b",
+      "explanation": "The scheduled personal property endorsement lists items with their own amounts of insurance and commonly covers them against open perils worldwide, so losing a ring (mysterious disappearance) is covered, and the Coverage C special limits do not apply.",
+      "memoryTip": "Scheduled = its own limit and open perils.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Scheduled items are open perils",
+            "anyOf": [
+              "open peril",
+              "all risk",
+              "loss"
+            ]
+          },
+          {
+            "label": "Coverage C would not cover a lost ring",
+            "anyOf": [
+              "not a named",
+              "named peril",
+              "special limit"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q068",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.9.4"
+      ],
+      "concepts": [
+        "scheduled-personal-property",
+        "special-limits-of-liability"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "What is the usual way to fully insure an expensive fur coat above the Coverage C theft special limit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Raise the Coverage A limit on the home",
+          "rationale": "Incorrect: Coverage A covers the dwelling, not personal property."
+        },
+        {
+          "id": "b",
+          "text": "Schedule it on a personal property schedule",
+          "rationale": "Correct: scheduling gives the item its own limit apart from the special limits."
+        },
+        {
+          "id": "c",
+          "text": "Add a home business endorsement to the policy",
+          "rationale": "Incorrect: that endorsement is for business exposures."
+        },
+        {
+          "id": "d",
+          "text": "Increase the Coverage F medical limit",
+          "rationale": "Incorrect: Coverage F pays others' medical expenses."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Special limits cap theft of items like jewelry, watches and furs. Scheduling lists the item at its value with broader coverage.",
+      "memoryTip": "Valuables → schedule them.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q069",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.9.5"
+      ],
+      "concepts": [
+        "personal-property-replacement-cost",
+        "actual-cash-value"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "A covered fire destroys Uma's 6-year-old sofa. A new sofa of like kind and quality costs $1,500; the old sofa's actual cash value was $400. Ignore the deductible.",
+      "stem": "With a personal property replacement cost endorsement, how much is paid for the sofa once Uma replaces it?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$1,500",
+          "rationale": "Correct: the endorsement pays replacement cost without deduction for depreciation."
+        },
+        {
+          "id": "b",
+          "text": "$400",
+          "rationale": "Incorrect: this is the ACV, paid without the endorsement."
+        },
+        {
+          "id": "c",
+          "text": "$1,100",
+          "rationale": "Incorrect: this is the depreciation, not the payment."
+        },
+        {
+          "id": "d",
+          "text": "$1,900",
+          "rationale": "Incorrect: this adds ACV to replacement cost."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Without the endorsement, Coverage C pays ACV ($400). The personal property replacement cost endorsement changes settlement to replacement cost: $1,500 for a new sofa of like kind and quality, commonly payable once it is actually replaced.",
+      "memoryTip": "PPRC = new for old on your belongings.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q070",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.9.6"
+      ],
+      "concepts": [
+        "home-business-endorsement",
+        "special-limits-of-liability"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Kara makes and sells candles from her home, keeps about $8,000 of inventory there and occasionally has customers visit. She has an HO-3 with no endorsements.",
+      "stem": "What is the best recommendation for Kara?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rely on Coverage E, which covers business liability",
+          "rationale": "Incorrect: Section II excludes business activities."
+        },
+        {
+          "id": "b",
+          "text": "Add a home business endorsement",
+          "rationale": "Correct: it extends coverage for business property and business liability, including products, for an eligible home business."
+        },
+        {
+          "id": "c",
+          "text": "Rely on Coverage C, which fully covers business inventory",
+          "rationale": "Incorrect: business property is subject to low special limits."
+        },
+        {
+          "id": "d",
+          "text": "Add an identity fraud expense endorsement",
+          "rationale": "Incorrect: that endorsement does not address business exposures."
+        }
+      ],
+      "correct": "b",
+      "explanation": "A homeowners policy limits business property to low special limits and excludes business liability under Section II. A home business endorsement fills these gaps for an eligible business owned by an insured and operated from the residence premises.",
+      "memoryTip": "Business at home → home business endorsement.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Business property special limit is low",
+            "anyOf": [
+              "special limit",
+              "inventory",
+              "business property"
+            ]
+          },
+          {
+            "label": "Section II business exclusion",
+            "anyOf": [
+              "business exclusion",
+              "excludes business",
+              "products"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q071",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.9.7"
+      ],
+      "concepts": [
+        "personal-injury-endorsement",
+        "bodily-injury"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Which claim calls for a personal injury endorsement on a homeowners policy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A guest breaks a leg on the insured's front stairs",
+          "rationale": "Incorrect: that is bodily injury, already covered by Coverage E."
+        },
+        {
+          "id": "b",
+          "text": "The insured's tree falls on a neighbor's car",
+          "rationale": "Incorrect: that is property damage under Coverage E."
+        },
+        {
+          "id": "c",
+          "text": "A shopper sues for false detention at a yard sale",
+          "rationale": "Correct: false arrest or detention is a personal injury offense."
+        },
+        {
+          "id": "d",
+          "text": "The insured's kitchen is damaged by fire",
+          "rationale": "Incorrect: that is a Section I property loss."
+        }
+      ],
+      "correct": "c",
+      "explanation": "The personal injury endorsement adds coverage for offenses such as false arrest, detention or imprisonment; malicious prosecution; wrongful eviction or entry; libel and slander; and violation of privacy. Bodily injury and property damage are already covered by Coverage E.",
+      "memoryTip": "Reputation or freedom harmed → personal injury.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q072",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.9.8",
+        "plho.7"
+      ],
+      "concepts": [
+        "residence-employees-endorsement",
+        "coverage-e-personal-liability"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "scenario": "The Lees, who live in New York, employ a nanny 45 hours a week. She is not a farm worker. Their HO-3 has no endorsements.",
+      "stem": "Why might the Lees need the New York workers' compensation endorsement for residence employees?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Coverage E pays the nanny's work injuries, so it is optional",
+          "rationale": "Incorrect: Section II excludes injury to persons eligible for workers' compensation."
+        },
+        {
+          "id": "b",
+          "text": "Coverage F pays all of a residence employee's work injuries",
+          "rationale": "Incorrect: Coverage F is not a substitute for workers' compensation."
+        },
+        {
+          "id": "c",
+          "text": "NY law covers domestic workers employed 40+ hours a week",
+          "rationale": "Correct: WCL § 3(1), Group 12, lists such domestic workers among covered employments."
+        },
+        {
+          "id": "d",
+          "text": "NY law exempts every household employer from workers' comp",
+          "rationale": "Incorrect: domestic workers employed at least 40 hours a week are a covered employment."
+        }
+      ],
+      "correct": "c",
+      "explanation": "New York Workers' Compensation Law § 3(1), Group 12, lists domestic workers (other than farm workers) employed by the same employer for a minimum of forty hours per week among covered employments. Homeowners Section II excludes injury to anyone eligible for workers' compensation benefits, so the endorsement provides the required coverage.",
+      "memoryTip": "40-hour nanny in NY → workers' comp endorsement.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "NY WCL covers domestic workers 40+ hours/week",
+            "anyOf": [
+              "40",
+              "forty",
+              "domestic worker"
+            ]
+          },
+          {
+            "label": "Section II excludes WC-eligible injuries",
+            "anyOf": [
+              "exclude",
+              "workers' compensation"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-wkc-3"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q073",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.9.9",
+        "plho.7"
+      ],
+      "concepts": [
+        "water-backup-endorsement",
+        "flood-definition"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Ruth has an HO-3 with a water back-up and sump discharge endorsement. In April, an overloaded city sewer pushes water up through her basement floor drain. In June, a nearby creek overflows its banks and floods the same basement.",
+      "stem": "Which loss does the water back-up and sump discharge endorsement cover?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only the first loss, from the backed-up floor drain",
+          "rationale": "Correct: the endorsement covers water backing up through drains or sewers or overflowing from a sump."
+        },
+        {
+          "id": "b",
+          "text": "Only the second loss, from the creek overflow",
+          "rationale": "Incorrect: creek overflow is flood, which stays excluded."
+        },
+        {
+          "id": "c",
+          "text": "Both losses, because water damage is now fully covered",
+          "rationale": "Incorrect: flood and surface water remain excluded."
+        },
+        {
+          "id": "d",
+          "text": "Neither loss, because all water in basements is excluded",
+          "rationale": "Incorrect: the endorsement adds back drain and sump losses."
+        }
+      ],
+      "correct": "a",
+      "explanation": "The water back-up and sump discharge endorsement adds coverage (up to its limit) for water that backs up through sewers or drains or overflows or discharges from a sump. Flood, surface water and overflow of a body of water remain excluded and require flood insurance.",
+      "memoryTip": "Drain or sump = endorsement; creek or river = flood policy.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Drain back-up covered by endorsement",
+            "anyOf": [
+              "drain",
+              "sewer",
+              "back up",
+              "backup"
+            ]
+          },
+          {
+            "label": "Creek overflow is flood, excluded",
+            "anyOf": [
+              "flood",
+              "excluded",
+              "creek"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q074",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.4.5"
+      ],
+      "concepts": [
+        "coverage-a-dwelling"
+      ],
+      "difficulty": 1,
+      "style": "negative",
+      "tags": [
+        "negative-wording",
+        "rapid"
+      ],
+      "stem": "Each of the following is a Section I additional coverage EXCEPT",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Debris removal",
+          "rationale": "Incorrect: debris removal is a Section I additional coverage."
+        },
+        {
+          "id": "b",
+          "text": "Reasonable repairs",
+          "rationale": "Incorrect: reasonable repairs is a Section I additional coverage."
+        },
+        {
+          "id": "c",
+          "text": "Fire department service charge",
+          "rationale": "Incorrect: this is a Section I additional coverage."
+        },
+        {
+          "id": "d",
+          "text": "Medical payments to others",
+          "rationale": "Correct: medical payments to others is Coverage F in Section II, not a Section I additional coverage."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Section I additional coverages include debris removal, reasonable repairs, trees/shrubs/plants, fire department service charge, property removed, credit card/forgery/counterfeit money, loss assessment, collapse, glass, landlord's furnishings, ordinance or law and grave markers. Medical payments to others is Coverage F.",
+      "memoryTip": "Section I extras fix property; Coverage F pays people.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q075",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.3"
+      ],
+      "concepts": [
+        "resident-relative",
+        "insured"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "Each of the following is an insured under Paul's homeowners policy EXCEPT",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Paul's wife, who lives with him in the same home",
+          "rationale": "Incorrect: a spouse who lives in the household is an insured."
+        },
+        {
+          "id": "b",
+          "text": "Paul's 12-year-old nephew, who lives in Paul's home",
+          "rationale": "Incorrect: a relative living in the household is an insured."
+        },
+        {
+          "id": "c",
+          "text": "Paul's adult son, who has his own apartment across town",
+          "rationale": "Correct: a relative who does not live in Paul's household is not a resident relative."
+        },
+        {
+          "id": "d",
+          "text": "A foster child under 21 living in Paul's care",
+          "rationale": "Incorrect: persons under 21 in the care of a household insured are commonly insureds."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Insureds include the named insured and resident relatives, other persons under the form's age limit in the care of a household insured, and certain full-time students. Relatives living in their own homes are not insureds.",
+      "memoryTip": "Related AND resident.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q076",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.8"
+      ],
+      "concepts": [
+        "duties-after-loss"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording",
+        "tricky"
+      ],
+      "stem": "After a covered loss, a homeowners policy requires the insured to do each of the following EXCEPT",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Finish permanent repairs before the insurer can inspect",
+          "rationale": "Correct: the insured must show the damaged property; only reasonable temporary repairs are expected."
+        },
+        {
+          "id": "b",
+          "text": "Give prompt notice of the loss to the insurer",
+          "rationale": "Incorrect: prompt notice is a basic duty after loss."
+        },
+        {
+          "id": "c",
+          "text": "Protect the property from further damage",
+          "rationale": "Incorrect: protecting property is required, and reasonable repair costs are reimbursed."
+        },
+        {
+          "id": "d",
+          "text": "Prepare an inventory of the damaged personal property",
+          "rationale": "Incorrect: an inventory is required."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Duties after loss include prompt notice, protecting property, keeping records, preparing an inventory, showing the damaged property as often as reasonably required and submitting a sworn proof of loss when requested. Completing permanent repairs before inspection would destroy evidence of the loss.",
+      "memoryTip": "Protect it, list it, show it.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

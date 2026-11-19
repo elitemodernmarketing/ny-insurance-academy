@@ -1,0 +1,1095 @@
+{
+  "sectionId": "ploth",
+  "questions": [
+    {
+      "id": "ploth-q001",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "ploth",
+      "outlineIds": [
+        "ploth.1.1.1"
+      ],
+      "concepts": [
+        "umbrella-policy"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Lena has a personal auto policy with a $250,000 liability limit and a $1,000,000 personal umbrella that lists her auto policy as required underlying insurance. She causes a crash and a court awards the injured driver $700,000 for a covered claim.",
+      "stem": "How much will the umbrella insurer pay?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$700,000",
+          "rationale": "Incorrect: the auto policy pays first, up to its $250,000 limit; the umbrella pays only the amount above that."
+        },
+        {
+          "id": "b",
+          "text": "$450,000",
+          "rationale": "Correct: $700,000 judgment − $250,000 paid by the underlying auto policy = $450,000, well within the $1,000,000 umbrella limit."
+        },
+        {
+          "id": "c",
+          "text": "$250,000",
+          "rationale": "Incorrect: $250,000 is what the underlying auto insurer pays, not the umbrella."
+        },
+        {
+          "id": "d",
+          "text": "$350,000",
+          "rationale": "Incorrect: this splits the judgment in half; the umbrella pays the full amount above the underlying limit."
+        }
+      ],
+      "correct": "b",
+      "explanation": "A personal umbrella sits above the underlying liability limits. The auto insurer pays its $250,000 limit; the umbrella pays the excess: $700,000 − $250,000 = $450,000. Lena pays nothing out of pocket because the excess is within the umbrella's $1,000,000 limit.",
+      "memoryTip": "Underlying pays first; the umbrella picks up what's left over.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Underlying auto pays its limit first",
+            "anyOf": [
+              "underlying",
+              "auto pays",
+              "250,000",
+              "first"
+            ]
+          },
+          {
+            "label": "Umbrella pays the excess",
+            "anyOf": [
+              "excess",
+              "above",
+              "remaining",
+              "450,000"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ploth-q002",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "ploth",
+      "outlineIds": [
+        "ploth.1.1.1"
+      ],
+      "concepts": [
+        "umbrella-policy",
+        "self-insured-retention"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "math",
+        "tricky"
+      ],
+      "scenario": "Omar is sued over a defamatory post in his community newsletter. His homeowners liability coverage does not cover the claim, but his personal umbrella covers this type of personal injury claim subject to a $1,000 self-insured retention. The covered settlement is $30,000.",
+      "stem": "How is the $30,000 settlement paid?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Umbrella pays $30,000; Omar pays nothing",
+          "rationale": "Incorrect: when the umbrella drops down for a claim the underlying policies don't cover, the insured first pays the self-insured retention."
+        },
+        {
+          "id": "b",
+          "text": "Homeowners pays $30,000 because the umbrella is excess",
+          "rationale": "Incorrect: the homeowners policy does not cover this claim at all, so there is nothing for the umbrella to sit above."
+        },
+        {
+          "id": "c",
+          "text": "Omar pays all $30,000 because underlying does not apply",
+          "rationale": "Incorrect: this is exactly the gap an umbrella's drop-down coverage is designed to fill when the umbrella covers the claim."
+        },
+        {
+          "id": "d",
+          "text": "Omar pays $1,000 and the umbrella pays $29,000",
+          "rationale": "Correct: the umbrella drops down over the self-insured retention: $30,000 − $1,000 = $29,000."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Besides paying above underlying limits, an umbrella can 'drop down' to cover some claims the underlying policies exclude. In that case the insured retains a self-insured retention (SIR) first. Here: $30,000 − $1,000 SIR = $29,000 paid by the umbrella; Omar pays $1,000.",
+      "memoryTip": "Gap claim? Insured pays the SIR, umbrella drops down for the rest.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Underlying policy does not cover the claim",
+            "anyOf": [
+              "not cover",
+              "excluded",
+              "gap",
+              "doesn't cover"
+            ]
+          },
+          {
+            "label": "Umbrella drops down",
+            "anyOf": [
+              "drop down",
+              "drop-down",
+              "drops down"
+            ]
+          },
+          {
+            "label": "Insured pays the self-insured retention",
+            "anyOf": [
+              "retention",
+              "SIR",
+              "1,000"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ploth-q003",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "ploth",
+      "outlineIds": [
+        "ploth.1.1",
+        "ploth.1.1.1"
+      ],
+      "concepts": [
+        "umbrella-policy"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "math",
+        "tricky"
+      ],
+      "scenario": "Ken's umbrella requires underlying auto liability of $300,000 per occurrence. To save money, Ken lowered his auto liability limit to $100,000 without telling the umbrella insurer. He then causes an accident and owes a covered $600,000 judgment.",
+      "stem": "Assuming the umbrella pays as if the required underlying coverage were in force, how much must Ken pay personally?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$0",
+          "rationale": "Incorrect: the umbrella will not fill the gap Ken created by carrying less than the required underlying limit."
+        },
+        {
+          "id": "b",
+          "text": "$100,000",
+          "rationale": "Incorrect: $100,000 is what Ken's auto insurer pays, not Ken's personal share."
+        },
+        {
+          "id": "c",
+          "text": "$200,000",
+          "rationale": "Correct: auto pays $100,000; umbrella pays $600,000 − $300,000 required underlying = $300,000; Ken pays the $200,000 gap."
+        },
+        {
+          "id": "d",
+          "text": "$300,000",
+          "rationale": "Incorrect: $300,000 is the umbrella's share, not the gap between the required and actual underlying limits."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Umbrellas require the insured to maintain specified underlying limits. If the insured fails to, the umbrella generally pays only what it would have paid had the required underlying coverage been in force. Auto pays $100,000. Umbrella pays $600,000 − $300,000 = $300,000. Total paid by insurers = $400,000, so Ken owes $600,000 − $400,000 = $200,000 (the difference between the $300,000 required and $100,000 carried).",
+      "memoryTip": "Drop your underlying, and you become the underlying for the gap.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Umbrella requires underlying limits to be maintained",
+            "anyOf": [
+              "required underlying",
+              "maintain",
+              "300,000"
+            ]
+          },
+          {
+            "label": "Umbrella pays as if required coverage were in force",
+            "anyOf": [
+              "as if",
+              "in force",
+              "only above 300"
+            ]
+          },
+          {
+            "label": "Insured pays the gap",
+            "anyOf": [
+              "gap",
+              "200,000",
+              "difference"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ploth-q004",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "ploth",
+      "outlineIds": [
+        "ploth.1"
+      ],
+      "concepts": [
+        "excess-liability-insurance",
+        "umbrella-policy"
+      ],
+      "difficulty": 1,
+      "style": "comparison",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "A liability policy that only adds limits and follows the underlying policy's terms is called:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Follow-form excess liability",
+          "rationale": "Correct: straight (follow-form) excess adds limits only and mirrors the underlying policy's coverage and exclusions."
+        },
+        {
+          "id": "b",
+          "text": "A personal umbrella with drop-down",
+          "rationale": "Incorrect: an umbrella can broaden coverage by dropping down for claims the underlying excludes."
+        },
+        {
+          "id": "c",
+          "text": "Primary liability coverage",
+          "rationale": "Incorrect: primary coverage pays first; it does not sit above another policy."
+        },
+        {
+          "id": "d",
+          "text": "A self-insured retention",
+          "rationale": "Incorrect: an SIR is an amount the insured pays, not an insurance policy."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Excess liability policies provide additional limits above an underlying policy and generally follow its form, so they do not cover anything the underlying excludes. An umbrella may also provide broader coverage above a self-insured retention.",
+      "memoryTip": "Excess = taller only; umbrella = taller and wider.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ploth-q005",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "ploth",
+      "outlineIds": [
+        "ploth.2.1"
+      ],
+      "concepts": [
+        "nfip"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Eligibility to buy NFIP flood insurance depends primarily on whether the property is located in:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A designated high-risk flood zone",
+          "rationale": "Incorrect: high-risk zones affect whether coverage is REQUIRED for government-backed mortgages, not whether it may be bought."
+        },
+        {
+          "id": "b",
+          "text": "A state that has a FAIR Plan",
+          "rationale": "Incorrect: FAIR Plans are state property residual markets and have nothing to do with NFIP eligibility."
+        },
+        {
+          "id": "c",
+          "text": "A community that participates in the NFIP",
+          "rationale": "Correct: FEMA states flood insurance is available to anyone living in a participating NFIP community."
+        },
+        {
+          "id": "d",
+          "text": "A coastal county bordering salt water",
+          "rationale": "Incorrect: inland properties in participating communities are eligible too."
+        }
+      ],
+      "correct": "c",
+      "explanation": "NFIP coverage is available to property owners, renters and businesses in communities that participate in the program. Homes and businesses in high-risk areas with mortgages from government-backed lenders are required to carry it.",
+      "memoryTip": "The COMMUNITY joins, then its residents can buy.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-fema-flood-insurance"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ploth-q006",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "ploth",
+      "outlineIds": [
+        "ploth.2.1",
+        "ploth.2.2"
+      ],
+      "concepts": [
+        "nfip"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Two neighbors in a participating community buy NFIP policies on the same day. Ana buys hers voluntarily after hearing a storm forecast. Ben buys his at the closing on his new home because his government-backed lender requires flood coverage. A river flood damages both homes 10 days later.",
+      "stem": "Which statement best describes their coverage?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Both are covered because the policies were bound before the flood",
+          "rationale": "Incorrect: NFIP policies typically have a waiting period, so Ana's voluntarily purchased policy is not yet in effect."
+        },
+        {
+          "id": "b",
+          "text": "Neither is covered until the waiting period ends",
+          "rationale": "Incorrect: the waiting period typically does not apply when coverage is purchased as required by a government-backed lender."
+        },
+        {
+          "id": "c",
+          "text": "Ana is covered; Ben must wait because his lender ordered it",
+          "rationale": "Incorrect: this reverses the rule; the lender-required purchase is the exception to the waiting period."
+        },
+        {
+          "id": "d",
+          "text": "Ben is likely covered; Ana's policy is not yet in effect",
+          "rationale": "Correct: the typical 30-day waiting period applies to Ana, but not to coverage bought as required by a government-backed lender."
+        }
+      ],
+      "correct": "d",
+      "explanation": "FEMA: there is typically a 30-day waiting period for an NFIP policy to go into effect, unless the coverage is purchased as required by a government-backed lender or relates to a community flood map change. Ana's voluntary purchase 10 days before the flood is still in the waiting period; Ben's lender-required purchase is an exception.",
+      "memoryTip": "Buy flood before the forecast — 30 days, unless the lender makes you buy it.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "NFIP has a typical 30-day waiting period",
+            "anyOf": [
+              "30-day",
+              "30 day",
+              "waiting period",
+              "thirty"
+            ]
+          },
+          {
+            "label": "Lender-required purchase is an exception",
+            "anyOf": [
+              "lender",
+              "required by",
+              "exception",
+              "mortgage"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-fema-flood-insurance"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ploth-q007",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "ploth",
+      "outlineIds": [
+        "ploth.2.2"
+      ],
+      "concepts": [
+        "nfip"
+      ],
+      "difficulty": 1,
+      "style": "application",
+      "tags": [],
+      "scenario": "Maya rents an apartment in a participating NFIP community. Her renters policy excludes flood, and her landlord insures the building.",
+      "stem": "What flood coverage can Maya buy for herself through the NFIP?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Contents coverage for her own belongings",
+          "rationale": "Correct: the NFIP insures renters, and a flood policy can cover buildings, contents, or both; a renter buys contents coverage."
+        },
+        {
+          "id": "b",
+          "text": "Building coverage on the apartment building",
+          "rationale": "Incorrect: Maya has no ownership interest in the building; the owner insures it."
+        },
+        {
+          "id": "c",
+          "text": "None, because renters are not eligible",
+          "rationale": "Incorrect: FEMA states the NFIP provides flood insurance to renters as well as owners and businesses."
+        },
+        {
+          "id": "d",
+          "text": "Only liability coverage for flood damage",
+          "rationale": "Incorrect: NFIP flood policies insure property (building and contents), not liability."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Most renters and homeowners policies do not cover flood. NFIP flood insurance is a separate policy that can cover buildings, the contents in a building, or both, and it is available to owners, renters and businesses in participating communities.",
+      "memoryTip": "Own it? Insure the building. Rent it? Insure your stuff.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-fema-flood-insurance"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ploth-q008",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "ploth",
+      "outlineIds": [
+        "ploth.2.3"
+      ],
+      "concepts": [
+        "flood-definition",
+        "water-backup-endorsement"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky",
+        "negative-wording"
+      ],
+      "scenario": "On a dry, sunny day, a blockage in the municipal line causes sewage to back up through the floor drain into Dev's basement. No water collects anywhere outside, and no other property is affected. Dev has an NFIP Dwelling Form policy.",
+      "stem": "Why is this loss NOT a flood under the NFIP definition?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Flood coverage never applies to anything in a basement",
+          "rationale": "Incorrect: basement coverage is limited, not eliminated; the real problem is that no 'flood' occurred."
+        },
+        {
+          "id": "b",
+          "text": "Sewage is not considered water under the policy",
+          "rationale": "Incorrect: the issue is not the type of water but the absence of a general inundation of land."
+        },
+        {
+          "id": "c",
+          "text": "The loss was caused by a municipal employee",
+          "rationale": "Incorrect: who caused the blockage does not decide whether a flood occurred."
+        },
+        {
+          "id": "d",
+          "text": "There was no general inundation of 2+ acres or 2+ properties",
+          "rationale": "Correct: a flood requires a general and temporary inundation of normally dry land affecting two or more acres or two or more properties."
+        }
+      ],
+      "correct": "d",
+      "explanation": "The Standard Flood Insurance Policy defines flood as a general and temporary condition of partial or complete inundation of two or more acres of normally dry land or of two or more properties (one of which is the insured's). A sewer back-up confined to one home with no inundation outside is not a flood; it is the kind of loss a homeowners water back-up endorsement is designed for.",
+      "memoryTip": "One house wet = not a flood. Neighborhood wet = flood.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Flood requires general and temporary inundation",
+            "anyOf": [
+              "general",
+              "inundation",
+              "dry land"
+            ]
+          },
+          {
+            "label": "Two or more acres or properties",
+            "anyOf": [
+              "two or more",
+              "2 or more",
+              "acres",
+              "properties"
+            ]
+          },
+          {
+            "label": "Back-up confined to one home",
+            "anyOf": [
+              "one home",
+              "only his",
+              "confined",
+              "single"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-cfr-44-61-app-a1",
+        "fed-cfr-44-59-1"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ploth-q009",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "ploth",
+      "outlineIds": [
+        "ploth.2.3"
+      ],
+      "concepts": [
+        "flood-definition"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "After days of record rain, the Hudson River overflows its banks and water covers the streets and yards of a riverside neighborhood, entering the Riveras' basement and first floor.",
+      "stem": "Under the NFIP definition, this event is best described as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A water back-up loss, not a flood",
+          "rationale": "Incorrect: water came from the overflow of inland waters across normally dry land, not from a drain back-up."
+        },
+        {
+          "id": "b",
+          "text": "A flood from overflow of inland or tidal waters",
+          "rationale": "Correct: overflow of inland or tidal waters causing a general inundation of normally dry land is the first cause listed in the flood definition."
+        },
+        {
+          "id": "c",
+          "text": "Earth movement, because the river bank gave way",
+          "rationale": "Incorrect: nothing indicates earth movement; the loss is from rising water overflowing the river."
+        },
+        {
+          "id": "d",
+          "text": "A windstorm loss, because rain was involved",
+          "rationale": "Incorrect: rising floodwater, not wind, caused the damage."
+        }
+      ],
+      "correct": "b",
+      "explanation": "44 CFR 59.1 defines flood as a general and temporary condition of partial or complete inundation of normally dry land from (1) overflow of inland or tidal waters, (2) unusual and rapid accumulation or runoff of surface waters from any source, or (3) mudflow, plus certain shoreline collapse caused by erosion or unusually high water.",
+      "memoryTip": "River over its banks + neighborhood under water = textbook flood.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-cfr-44-59-1"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ploth-q010",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "ploth",
+      "outlineIds": [
+        "ploth.2.3"
+      ],
+      "concepts": [
+        "flood-definition"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "Each of the following is part of the NFIP definition of flood EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Unusual and rapid runoff of surface waters from any source",
+          "rationale": "Incorrect choice: rapid accumulation or runoff of surface waters is expressly part of the definition."
+        },
+        {
+          "id": "b",
+          "text": "Mudflow caused by flooding, like a river of liquid mud",
+          "rationale": "Incorrect choice: mudflow (mudslide) proximately caused by flooding is included."
+        },
+        {
+          "id": "c",
+          "text": "Water leaking from a burst pipe inside a single home",
+          "rationale": "Correct: water confined to one dwelling is not a general and temporary inundation of normally dry land."
+        },
+        {
+          "id": "d",
+          "text": "Collapse of shoreline land from erosion by unusual waves",
+          "rationale": "Incorrect choice: certain shoreline collapse or subsidence caused by abnormal water levels or waves is included."
+        }
+      ],
+      "correct": "c",
+      "explanation": "The NFIP flood definition (44 CFR 59.1) covers overflow of inland or tidal waters, unusual and rapid accumulation or runoff of surface waters, mudflow, and collapse or subsidence of land along a shore from erosion or unusually high water. A plumbing leak inside one home is an internal water loss, not a flood.",
+      "memoryTip": "Flood comes from OUTSIDE and affects more than you.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-cfr-44-59-1"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ploth-q011",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "ploth",
+      "outlineIds": [
+        "ploth.2.4.1"
+      ],
+      "concepts": [
+        "flood-dwelling-form"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Which NFIP form is written on a one-to-four family house outside condominium ownership?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "General Property Form",
+          "rationale": "Incorrect: that form is for nonresidential buildings and larger residential buildings."
+        },
+        {
+          "id": "b",
+          "text": "Residential Condominium Building Association Policy",
+          "rationale": "Incorrect: the RCBAP is for a condominium association's building."
+        },
+        {
+          "id": "c",
+          "text": "Dwelling Property Basic Form",
+          "rationale": "Incorrect: that is a private dwelling property form, not an NFIP flood form."
+        },
+        {
+          "id": "d",
+          "text": "Dwelling Form",
+          "rationale": "Correct: the SFIP Dwelling Form insures a one-to-four family residential building not under a condominium form of ownership."
+        }
+      ],
+      "correct": "d",
+      "explanation": "The Standard Flood Insurance Policy Dwelling Form states that it insures a one-to-four family residential building not under a condominium form of ownership (and contents, if purchased). Don't confuse it with the private DP-1/DP-2/DP-3 dwelling property forms.",
+      "memoryTip": "1-to-4 family home = Dwelling Form.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-cfr-44-61-app-a1"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ploth-q012",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "ploth",
+      "outlineIds": [
+        "ploth.2.4.2"
+      ],
+      "concepts": [
+        "flood-general-property-form"
+      ],
+      "difficulty": 2,
+      "style": "application",
+      "tags": [],
+      "scenario": "Mr. Ortiz owns a 12-unit rental apartment building (not a condominium) and, next door, a small grocery store building. He wants NFIP coverage on both buildings.",
+      "stem": "Which NFIP form would be used for these buildings?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The General Property Form for both buildings",
+          "rationale": "Correct: nonresidential buildings and residential buildings too large for the Dwelling Form (and not condo associations) use the General Property Form."
+        },
+        {
+          "id": "b",
+          "text": "The Dwelling Form for both buildings",
+          "rationale": "Incorrect: the Dwelling Form is limited to one-to-four family residential buildings."
+        },
+        {
+          "id": "c",
+          "text": "The RCBAP for the apartments; Dwelling Form for the store",
+          "rationale": "Incorrect: the apartment building is not a condominium, and a store is not a dwelling."
+        },
+        {
+          "id": "d",
+          "text": "Dwelling Form for apartments; General Property for the store",
+          "rationale": "Incorrect: a 12-unit building exceeds the one-to-four family limit of the Dwelling Form."
+        }
+      ],
+      "correct": "a",
+      "explanation": "The NFIP uses three Standard Flood Insurance Policy forms: the Dwelling Form (one-to-four family residences), the General Property Form (nonresidential buildings and residential buildings of five or more units that are not condominium associations), and the RCBAP (residential condominium association buildings).",
+      "memoryTip": "Big or business = General Property.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Dwelling Form limited to 1-4 family",
+            "anyOf": [
+              "one-to-four",
+              "1-4",
+              "four family",
+              "up to four"
+            ]
+          },
+          {
+            "label": "General Property for commercial or larger residential",
+            "anyOf": [
+              "general property",
+              "commercial",
+              "nonresidential",
+              "five or more"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ploth-q013",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "ploth",
+      "outlineIds": [
+        "ploth.2.4.3",
+        "ploth.2.4.4"
+      ],
+      "concepts": [
+        "flood-rcbap"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky",
+        "negative-wording"
+      ],
+      "scenario": "The Harbor View Condominium Association carries a Residential Condominium Building Association Policy (RCBAP). A coastal flood damages the building's lobby and the drywall in Priya's unit, and ruins Priya's sofa and clothing. Priya has no flood policy of her own.",
+      "stem": "Which loss is NOT covered by the association's RCBAP?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Damage to the building's lobby",
+          "rationale": "Incorrect choice: common areas of the building are part of the association's insured building."
+        },
+        {
+          "id": "b",
+          "text": "Priya's sofa and clothing",
+          "rationale": "Correct: the RCBAP insures the building and the association's commonly owned contents, not unit owners' personal belongings."
+        },
+        {
+          "id": "c",
+          "text": "Drywall in Priya's unit",
+          "rationale": "Incorrect choice: the RCBAP insures the residential condominium building, including the units that are part of it."
+        },
+        {
+          "id": "d",
+          "text": "Building elements that make up the condo",
+          "rationale": "Incorrect choice: building elements are what the RCBAP is designed to cover."
+        }
+      ],
+      "correct": "b",
+      "explanation": "An RCBAP is purchased by the residential condominium association to insure the condo building (units and common elements) and association-owned contents. Each unit owner's personal property is the owner's responsibility; Priya would need her own flood coverage for her belongings.",
+      "memoryTip": "Association policy = association's building and stuff, not your sofa.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "RCBAP is bought by the association for the building",
+            "anyOf": [
+              "association",
+              "building"
+            ]
+          },
+          {
+            "label": "Unit owners' belongings not covered",
+            "anyOf": [
+              "belongings",
+              "personal property",
+              "contents",
+              "sofa"
+            ]
+          },
+          {
+            "label": "Unit owner needs own policy",
+            "anyOf": [
+              "own policy",
+              "own coverage",
+              "separate"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ploth-q014",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "ploth",
+      "outlineIds": [
+        "ploth.2.2",
+        "ploth.2.4.1"
+      ],
+      "concepts": [
+        "flood-dwelling-form",
+        "nfip"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "A homeowner with an NFIP Dwelling Form policy stores furniture and a home gym in a finished basement. What should the agent explain?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Basement items are fully covered once contents coverage is bought",
+          "rationale": "Incorrect: the Dwelling Form limits coverage for property in a basement regardless of the flood zone."
+        },
+        {
+          "id": "b",
+          "text": "Basement items are covered only in high-risk flood zones",
+          "rationale": "Incorrect: the basement limitation applies regardless of the zone."
+        },
+        {
+          "id": "c",
+          "text": "Coverage for property in a basement is limited by the policy",
+          "rationale": "Correct: the SFIP Dwelling Form restricts coverage for items in a basement regardless of the zone."
+        },
+        {
+          "id": "d",
+          "text": "A finished basement counts as a separate dwelling",
+          "rationale": "Incorrect: finishing a basement does not change how the policy treats it."
+        }
+      ],
+      "correct": "c",
+      "explanation": "The Standard Flood Insurance Policy limits coverage for property below the lowest elevated floor of certain elevated buildings and for property 'in a basement regardless of the zone.' Agents should warn clients that finished basements and their contents are not fully covered.",
+      "memoryTip": "Flood + basement = limited coverage. Store valuables upstairs.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-cfr-44-61-app-a1"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ploth-q015",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "ploth",
+      "outlineIds": [
+        "ploth.3.1"
+      ],
+      "concepts": [
+        "watercraft-policy"
+      ],
+      "difficulty": 1,
+      "style": "application",
+      "tags": [],
+      "scenario": "Ray, who has a homeowners policy, just bought a 24-foot powerboat with a large outboard motor. He plans to take friends waterskiing.",
+      "stem": "What is the best recommendation for Ray?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rely on the homeowners policy, which covers all boats",
+          "rationale": "Incorrect: homeowners watercraft coverage is limited, and liability for larger or higher-powered boats is commonly excluded."
+        },
+        {
+          "id": "b",
+          "text": "Buy a boatowners policy with physical damage and liability",
+          "rationale": "Correct: a watercraft policy covers the boat itself and liability arising from its use, filling the homeowners gaps."
+        },
+        {
+          "id": "c",
+          "text": "Buy NFIP flood insurance on the boat",
+          "rationale": "Incorrect: NFIP policies insure buildings and contents, not boats in use on the water."
+        },
+        {
+          "id": "d",
+          "text": "Add the boat to his personal auto policy",
+          "rationale": "Incorrect: a personal auto policy covers autos, not watercraft."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Homeowners policies provide only limited physical damage coverage for boats and exclude liability for many larger or more powerful watercraft. A boatowners (or yacht) policy combines physical damage on the hull, motor, equipment and trailer with watercraft liability and medical payments.",
+      "memoryTip": "Big boat? Get a boat policy.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ploth-q016",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "ploth",
+      "outlineIds": [
+        "ploth.3.1"
+      ],
+      "concepts": [
+        "watercraft-policy"
+      ],
+      "difficulty": 2,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "On a yacht policy, protection and indemnity (P&I) coverage refers to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Physical damage to the hull and machinery",
+          "rationale": "Incorrect: that is hull coverage."
+        },
+        {
+          "id": "b",
+          "text": "Theft of the yacht's trailer and equipment",
+          "rationale": "Incorrect: equipment and trailer losses are property coverages, not P&I."
+        },
+        {
+          "id": "c",
+          "text": "Medical expenses of the owner's family only",
+          "rationale": "Incorrect: P&I is liability coverage for injury or damage to others."
+        },
+        {
+          "id": "d",
+          "text": "Liability from owning or operating the yacht",
+          "rationale": "Correct: P&I is the liability portion of a yacht (marine) policy."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Yacht policies borrow ocean marine terms: 'hull' covers physical damage to the vessel and its machinery, while 'protection and indemnity' (P&I) is the liability coverage for bodily injury and property damage to others arising from the yacht's ownership or use.",
+      "memoryTip": "Hull = the boat; P&I = the people and property you hurt.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

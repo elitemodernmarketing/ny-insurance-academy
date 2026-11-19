@@ -1,0 +1,564 @@
+{
+  "sectionId": "grp",
+  "questions": [
+    {
+      "id": "grp-q201",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.6.3"
+      ],
+      "concepts": [
+        "coordination-of-benefits"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "scenario": "Hank retired from Acme and kept Acme's retiree health coverage, which he has had for 30 years. He then took a part-time job at a store that covers him under its group plan as an active employee. He is not eligible for Medicare.",
+      "stem": "Under New York's coordination of benefits rules, which plan pays Hank's claims first?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "His retiree plan, because he has been covered by it longer",
+          "rationale": "Incorrect: the active/inactive rule is applied before the longer/shorter coverage rule."
+        },
+        {
+          "id": "b",
+          "text": "Both pay 50% of each claim",
+          "rationale": "Incorrect: COB uses a primary/secondary order, not an even split."
+        },
+        {
+          "id": "c",
+          "text": "Whichever of the two plans has the lower annual deductible",
+          "rationale": "Incorrect: plan design does not decide the order."
+        },
+        {
+          "id": "d",
+          "text": "His new employer's plan, which covers him as an active employee",
+          "rationale": "Correct: active-employee coverage pays before retiree coverage."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Both plans cover Hank as an employee (not as a dependent), so the employee/dependent rule does not decide the order. 11 NYCRR § 52.23 then provides that a plan covering a person as an employee who is neither laid off nor retired pays before a plan covering that person as a laid-off or retired employee. The longer/shorter rule applies only if no earlier rule decides.",
+      "memoryTip": "Active beats retired; length of coverage is the last tie-breaker.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Both plans cover him as an employee",
+            "anyOf": [
+              "employee"
+            ]
+          },
+          {
+            "label": "Active coverage before retired coverage",
+            "anyOf": [
+              "active",
+              "retired"
+            ]
+          },
+          {
+            "label": "Longer/shorter rule only applies last",
+            "anyOf": [
+              "longer",
+              "last",
+              "tie"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52-23"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q202",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.6.3"
+      ],
+      "concepts": [
+        "coordination-of-benefits"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "rapid",
+        "ny-law"
+      ],
+      "stem": "Under 11 NYCRR § 52.23, if one of a person's two plans has no coordination of benefits (order of benefit determination) provision, that plan is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Primary",
+          "rationale": "Correct: a plan with no order of benefit determination rules is a primary plan."
+        },
+        {
+          "id": "b",
+          "text": "Always secondary",
+          "rationale": "Incorrect: a plan without COB rules cannot claim secondary status."
+        },
+        {
+          "id": "c",
+          "text": "Excluded from paying any benefits",
+          "rationale": "Incorrect: it must pay its full benefits as primary."
+        },
+        {
+          "id": "d",
+          "text": "Required to split costs equally with the other plan",
+          "rationale": "Incorrect: there is no 50/50 split rule."
+        }
+      ],
+      "correct": "a",
+      "explanation": "11 NYCRR § 52.23(g): a plan is a primary plan if it has no order of benefit determination rules, or rules that differ from those permitted. A primary plan pays as if the other plan did not exist.",
+      "memoryTip": "No COB clause = pays first.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52-23"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q203",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.6.3"
+      ],
+      "concepts": [
+        "coordination-of-benefits"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "ny-law",
+        "math"
+      ],
+      "scenario": "A dependent child's covered claim has an allowable expense of $1,000. The primary plan pays $800. On its own, the secondary plan would have paid $900.",
+      "stem": "How much will the secondary plan pay?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$900",
+          "rationale": "Incorrect: paying its full $900 would bring total payments to $1,700, more than the $1,000 allowable expense."
+        },
+        {
+          "id": "b",
+          "text": "$100",
+          "rationale": "Incorrect: this would leave $100 of the allowable expense unpaid even though the secondary plan's own benefit is larger."
+        },
+        {
+          "id": "c",
+          "text": "$200",
+          "rationale": "Correct: the secondary plan pays the remaining $200 so total payments equal the $1,000 allowable expense."
+        },
+        {
+          "id": "d",
+          "text": "$180",
+          "rationale": "Incorrect: this applies 20% to $900 rather than covering the remaining allowable expense."
+        }
+      ],
+      "correct": "c",
+      "explanation": "The primary plan pays as if no other plan existed: $800. Under 11 NYCRR § 52.23, a secondary plan may reduce its benefits so that total benefits from all plans are not more than total allowable expenses. Remaining allowable expense: $1,000 - $800 = $200. The secondary plan's own benefit ($900) exceeds $200, so it pays $200. Total = $1,000.",
+      "memoryTip": "Secondary fills the gap, up to its own benefit, never past 100%.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Primary pays $800 as if no other plan",
+            "anyOf": [
+              "800"
+            ]
+          },
+          {
+            "label": "Total limited to allowable expense $1,000",
+            "anyOf": [
+              "1,000",
+              "1000",
+              "allowable"
+            ]
+          },
+          {
+            "label": "Secondary pays $200",
+            "anyOf": [
+              "200"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52-23"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q204",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.6.4.3"
+      ],
+      "concepts": [
+        "cobra"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Rita elected COBRA after being laid off from a 300-employee company. Within the first 60 days of her COBRA coverage, Social Security determined she was disabled, and she notified the plan before her 18 months ended.",
+      "stem": "What is the maximum COBRA period, and the most the plan may charge after month 18?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "18 months; 102% of the applicable premium for all months",
+          "rationale": "Incorrect: a timely Social Security disability determination extends the 18 months."
+        },
+        {
+          "id": "b",
+          "text": "29 months; up to 150% of the premium after month 18",
+          "rationale": "Correct: the disability extension is 29 months, and premiums may rise to 150% after month 18."
+        },
+        {
+          "id": "c",
+          "text": "36 months; 102% of the applicable premium for all months",
+          "rationale": "Incorrect: 36 months applies to other qualifying events, such as divorce or death."
+        },
+        {
+          "id": "d",
+          "text": "Lifetime; 100% of the applicable premium",
+          "rationale": "Incorrect: COBRA coverage is always time-limited."
+        }
+      ],
+      "correct": "b",
+      "explanation": "29 U.S.C. § 1162(2)(A)(viii): if a qualified beneficiary is determined under the Social Security Act to have been disabled during the first 60 days of continuation coverage and gives notice before the 18 months end, the 18-month period becomes 29 months for all qualified beneficiaries. § 1162(3) allows the plan to charge up to 150% of the applicable premium for months after the 18th.",
+      "memoryTip": "Disabled: 18 becomes 29, and 102% can become 150%.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Disability extension to 29 months",
+            "anyOf": [
+              "29"
+            ]
+          },
+          {
+            "label": "Premium up to 150% after month 18",
+            "anyOf": [
+              "150"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-29-1162"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q205",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.6.4.3"
+      ],
+      "concepts": [
+        "cobra"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Under COBRA, a continuation premium payment is considered timely if it is made:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Within 10 days after the due date",
+          "rationale": "Incorrect: the statutory grace is 30 days."
+        },
+        {
+          "id": "b",
+          "text": "Within 30 days after the due date",
+          "rationale": "Correct: § 1162(2)(C) treats payment within 30 days after the due date as timely."
+        },
+        {
+          "id": "c",
+          "text": "Within 60 days after the due date",
+          "rationale": "Incorrect: 60 days is not the COBRA premium grace period."
+        },
+        {
+          "id": "d",
+          "text": "Only on or before the due date, with no grace",
+          "rationale": "Incorrect: the statute allows 30 days."
+        }
+      ],
+      "correct": "b",
+      "explanation": "29 U.S.C. § 1162(2)(C): payment of any premium is timely 'if made within 30 days after the date due or within such longer period as applies to or under the plan'. Separately, the plan may not require the first payment before 45 days after the initial election.",
+      "memoryTip": "COBRA premium grace: 30 days (first payment: 45 days after election).",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-29-1162"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q206",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.6.4.4"
+      ],
+      "concepts": [
+        "conversion-privilege"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "scenario": "On March 31, Maple Tools' insured group medical policy with Insurer A ends. On April 1, Maple Tools begins a similar self-funded plan covering the same employees with no gap.",
+      "stem": "Do employees have a conversion right under NY Insurance Law § 3221(e) when the old policy terminates?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, every employee may convert within 60 days of any termination",
+          "rationale": "Incorrect: the right does not apply when the group policy is replaced with similar, continuous coverage."
+        },
+        {
+          "id": "b",
+          "text": "Yes, but only employees over age 50",
+          "rationale": "Incorrect: age is not part of the conversion rule."
+        },
+        {
+          "id": "c",
+          "text": "No; the employer replaced it with similar, continuous coverage",
+          "rationale": "Correct: § 3221(e)(1) excludes this situation from the conversion right."
+        },
+        {
+          "id": "d",
+          "text": "No, because conversion is available only under group life insurance",
+          "rationale": "Incorrect: § 3221(e) provides conversion for group hospital/medical coverage."
+        }
+      ],
+      "correct": "c",
+      "explanation": "§ 3221(e)(1) grants a conversion right when group hospital, medical or surgical coverage ends because employment or membership ends or the policy terminates, 'unless the policyholder has replaced the group policy with similar and continuous coverage for the same group whether insured or self-insured'. Here the employer did exactly that, so employees simply move to the new plan.",
+      "memoryTip": "Seamless replacement plan = no conversion needed.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Conversion applies when coverage ends",
+            "anyOf": [
+              "conversion"
+            ]
+          },
+          {
+            "label": "Exception: replaced with similar and continuous coverage",
+            "anyOf": [
+              "similar",
+              "continuous",
+              "replaced"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3221"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q207",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.4.2.1"
+      ],
+      "concepts": [
+        "stop-loss-coverage",
+        "self-funded-plan"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [],
+      "stem": "How does aggregate stop-loss differ from specific stop-loss coverage?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Aggregate caps the plan's total claims; specific caps any one person's claims",
+          "rationale": "Correct: aggregate protects against high total claims, specific against one large claimant."
+        },
+        {
+          "id": "b",
+          "text": "Aggregate protects employees; specific protects the employer",
+          "rationale": "Incorrect: both types protect the self-funded employer, not employees."
+        },
+        {
+          "id": "c",
+          "text": "Aggregate applies to fully insured plans; specific to self-funded plans",
+          "rationale": "Incorrect: both are used by self-funded plans."
+        },
+        {
+          "id": "d",
+          "text": "Aggregate pays the deductible; specific pays the coinsurance",
+          "rationale": "Incorrect: stop-loss does not pay employees' cost-sharing."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Both forms of stop-loss reimburse a self-funded employer. Specific (individual) stop-loss reimburses claims above an attachment point for any one covered person. Aggregate stop-loss reimburses the employer when the plan's total claims for a period exceed a set level.",
+      "memoryTip": "Specific = one person; aggregate = all claims combined.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "grp-q208",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "grp",
+      "outlineIds": [
+        "grp.6.2.3",
+        "grp.6.2.2"
+      ],
+      "concepts": [
+        "probationary-period",
+        "hipaa"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "A group plan's normal probationary period for new full-time employees is 30 days. The employer proposes a 180-day probationary period for Dana, a new full-time hire, because she disclosed a heart condition.",
+      "stem": "Which statement about the plan's proposal is correct?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is allowed, because probationary periods may vary by health risk",
+          "rationale": "Incorrect: eligibility rules may not be based on health status-related factors."
+        },
+        {
+          "id": "b",
+          "text": "It is allowed, if Dana agrees in writing",
+          "rationale": "Incorrect: an employee's agreement does not make health-based eligibility rules permissible."
+        },
+        {
+          "id": "c",
+          "text": "It is not allowed, because group plans may not have any waiting period",
+          "rationale": "Incorrect: uniform waiting (probationary) periods are permitted."
+        },
+        {
+          "id": "d",
+          "text": "It is not allowed; the waiting period can't be longer because of her health",
+          "rationale": "Correct: waiting periods must apply uniformly, not based on health status."
+        }
+      ],
+      "correct": "d",
+      "explanation": "A probationary (waiting) period is the time that must pass before an individual is eligible for coverage. Group plans may use one, but federal nondiscrimination rules that originated with HIPAA bar setting eligibility rules, including waiting periods, based on health status-related factors such as medical condition or claims history.",
+      "memoryTip": "Same waiting period for every new hire in the class.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Waiting periods must be uniform",
+            "anyOf": [
+              "uniform",
+              "same",
+              "all new"
+            ]
+          },
+          {
+            "label": "Cannot be based on health status",
+            "anyOf": [
+              "health status",
+              "heart condition",
+              "health"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

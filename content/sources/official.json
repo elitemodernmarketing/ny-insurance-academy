@@ -1,0 +1,51 @@
+{
+  "sources": [
+    {
+      "id": "psi-ny-bulletin-2023",
+      "title": "New York Department of Financial Services Insurance Candidate Information Bulletin (Examinations by PSI Services LLC), Updated 4/28/2023",
+      "publisher": "PSI Services LLC / NY DFS",
+      "url": "https://test-takers.psiexams.com/api/content/bulletin/7208",
+      "kind": "official-outline",
+      "citation": "Series 17-55 Examination Content Outline, pp. 23-28; exam format and 70% passing requirement",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/official/psi-bulletin-ny-2023-04-28_fulltext.txt",
+      "notes": "Bulletin 7228 served an identical PDF on 2026-11-19; no newer NY edition located."
+    },
+    {
+      "id": "dfs-prelicensing-criteria",
+      "title": "NY DFS Prelicensing Education Program Criteria (Prelicensing Course Standards)",
+      "publisher": "New York State Department of Financial Services",
+      "url": "https://www.dfs.ny.gov/apps_and_licensing/insurance_education_providers/prelicensing/criteria",
+      "kind": "agency-guidance",
+      "citation": "Appendix: Prelicensing Course Standards — Life/A&H Agent (combined) 40 minimum approvable hours",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/official/dfs-prelicensing-course-standards.md"
+    },
+    {
+      "id": "dfs-agents-brokers",
+      "title": "Information for Insurance Agents and Brokers",
+      "publisher": "New York State Department of Financial Services",
+      "url": "https://www.dfs.ny.gov/apps_and_licensing/agents_and_brokers/home",
+      "kind": "agency-guidance",
+      "retrievedOn": "2026-11-19",
+      "notes": "States 15 CE credits are required to renew certain licenses once in effect more than 2 years; PSI is the exam vendor."
+    },
+    {
+      "id": "ny-isc-3203",
+      "title": "NY Insurance Law § 3203 — Individual life insurance policies; standard provisions",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/3203",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 3203 (revision from 2014-09-22)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-3203.md"
+    },
+    {
+      "id": "general-insurance-principles",
+      "title": "General insurance principles (industry-standard concepts; not state-specific law)",
+      "publisher": "NY Insurance Licensing Academy content team",
+      "kind": "general",
+      "notes": "Used for widely accepted, non-jurisdictional definitions. Records citing only this source must not be nySpecific or timeSensitive."
+    }
+  ]
+}

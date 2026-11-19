@@ -1,0 +1,698 @@
+{
+  "sectionId": "di",
+  "lessons": [
+    {
+      "id": "di-l01",
+      "sectionId": "di",
+      "order": 1,
+      "title": "Qualifying for Disability Benefits: Own Occupation, Any Occupation and Proof",
+      "outlineIds": [
+        "di.1",
+        "di.1.1",
+        "di.1.1.1",
+        "di.1.1.2",
+        "di.1.1.3",
+        "di.1.1.4"
+      ],
+      "estMinutes": 20,
+      "intro": "A disability income policy pays only if the insured meets the policy's definition of disability. Two people with the same injury can get different answers depending on that definition. This lesson covers the main definitions, presumptive disability, and how a claimant proves the loss.",
+      "objectives": [
+        "Define total disability and explain why the definition matters",
+        "Distinguish own-occupation from any-occupation definitions",
+        "Explain presumptive disability",
+        "Describe proof of loss and continuing proof for disability claims under NY law"
+      ],
+      "keyTerms": [
+        "total-disability",
+        "own-occupation",
+        "any-occupation",
+        "presumptive-disability",
+        "proof-of-loss",
+        "notice-of-claim"
+      ],
+      "parts": [
+        {
+          "heading": "Inability to perform duties",
+          "body": "**[[total-disability|Total disability]]** means the insured can't perform the duties of an occupation as the policy defines it. The two main definitions:\n\n- **[[own-occupation|Own occupation]]**: disabled if unable to perform the material and substantial duties of your **own** occupation, even if you could do other work. Most favorable to the insured; highest premium.\n- **[[any-occupation|Any occupation]]**: disabled only if unable to perform **any** occupation for which you are reasonably suited by **education, training or experience**. Stricter; lower premium.\n\nMany group long-term disability plans use own occupation for an initial period (such as 24 months) and any occupation after that.",
+          "simple": "Own occupation asks, 'Can you do YOUR job?' Any occupation asks, 'Can you do ANY job that fits your background?'",
+          "example": {
+            "title": "Example: the surgeon and the roofer",
+            "body": "A surgeon with a hand tremor who could teach is disabled under own occupation. A roofer who can work as a cost estimator, a job that fits his experience, is not disabled under any occupation."
+          },
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "'Reasonably suited by education, training or experience' signals the any-occupation definition."
+            }
+          ]
+        },
+        {
+          "heading": "Presumptive disability",
+          "body": "**[[presumptive-disability|Presumptive disability]]** provisions treat certain catastrophic losses as total disability automatically, typically the total and permanent loss of **sight, speech, hearing, or the use of two limbs**. Full benefits are paid **even if the insured returns to work**. Many policies also waive the elimination period for these losses; check the policy.",
+          "simple": "Some losses are so severe that the policy says 'you're disabled,' no questions asked, even if you go back to work.",
+          "callouts": []
+        },
+        {
+          "heading": "Proof of loss",
+          "body": "To collect, the claimant follows the NY claim provisions (see the policy provisions section):\n\n- Written **[[notice-of-claim|notice of claim]]** within 20 days (or as soon as reasonably possible).\n- Written **[[proof-of-loss|proof of loss]]**, typically including a physician's statement describing the disability, within **90 days after the end of each period** for which the insurer is liable for periodic benefits; late proof is excused if filing on time was not reasonably possible, generally up to one year.\n- For policies that can pay loss-of-time benefits for **at least two years**, the insurer may require **notice of continuance** of the disability **at least once every six months**.\n- The insurer may require **physical examinations** at its own expense as often as reasonably required while the claim is pending.",
+          "simple": "Tell the insurer quickly, send proof (usually from your doctor) within 90 days of each benefit period, and for long claims, confirm every six months that you're still disabled.",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "N.Y. Ins. Law § 3216(d)(1)(E), (G), (J): notice within 20 days; proof within 90 days after each liability period; optional notice of continuance at least every six months for benefits payable two years or more; insurer-paid examinations during a claim.",
+              "sources": [
+                "ny-isc-3216"
+              ]
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "categorize",
+        "prompt": "Under each definition, is the insured totally disabled?",
+        "categories": [
+          "Disabled under own occupation only",
+          "Disabled under both definitions"
+        ],
+        "items": [
+          {
+            "text": "Surgeon who can't operate but can teach",
+            "category": "Disabled under own occupation only"
+          },
+          {
+            "text": "Concert pianist who loses finger dexterity but can manage a music store",
+            "category": "Disabled under own occupation only"
+          },
+          {
+            "text": "Accountant in a coma for six months",
+            "category": "Disabled under both definitions"
+          },
+          {
+            "text": "Pilot who loses his medical certificate but can work as a flight dispatcher",
+            "category": "Disabled under own occupation only"
+          },
+          {
+            "text": "Electrician who is bedridden and unable to do any work",
+            "category": "Disabled under both definitions"
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Which definition of total disability is most favorable to the insured?",
+          "choices": [
+            "Any occupation",
+            "Own occupation",
+            "Nonoccupational",
+            "At-work only"
+          ],
+          "answerIndex": 1,
+          "explanation": "Own occupation pays when the insured can't do his or her own job."
+        },
+        {
+          "prompt": "Under presumptive disability, an insured who loses the use of both legs and returns to work:",
+          "choices": [
+            "Still receives full total disability benefits",
+            "Loses all benefits",
+            "Gets a partial benefit only",
+            "Must re-qualify under any occupation"
+          ],
+          "answerIndex": 0,
+          "explanation": "Presumptive disability pays full benefits regardless of work."
+        },
+        {
+          "prompt": "For a NY policy paying benefits for up to 5 years, the insurer may require notice that the disability continues:",
+          "choices": [
+            "Every 20 days",
+            "Every week",
+            "Never",
+            "At least once every six months"
+          ],
+          "answerIndex": 3,
+          "explanation": "§ 3216(d)(1)(E) optional notice of continuance."
+        }
+      ],
+      "summary": [
+        "Total disability depends on the policy's definition.",
+        "Own occupation: can't do your own job (most favorable). Any occupation: can't do any job you're reasonably suited for (stricter).",
+        "Presumptive disability pays full benefits for specified catastrophic losses even if the insured works.",
+        "NY claim rules: notice within 20 days, proof within 90 days after each liability period, optional six-month notice of continuance for long-duration benefits."
+      ],
+      "related": [
+        "di-l02"
+      ],
+      "sources": [
+        "ny-isc-3216"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19",
+        "notes": "NY claim timing verified in § 3216; occupation definitions are general principles."
+      }
+    },
+    {
+      "id": "di-l02",
+      "sectionId": "di",
+      "order": 2,
+      "title": "Building an Individual Disability Income Policy",
+      "outlineIds": [
+        "di.2",
+        "di.2.1",
+        "di.2.1.1",
+        "di.2.1.2",
+        "di.2.1.3",
+        "di.2.2",
+        "di.2.3",
+        "di.2.3.1",
+        "di.2.3.2",
+        "di.2.3.3",
+        "di.2.3.4",
+        "di.2.3.5",
+        "di.2.4",
+        "di.2.4.1",
+        "di.2.4.2",
+        "di.2.4.3"
+      ],
+      "estMinutes": 35,
+      "intro": "An individual disability income policy is built from a few dials: how much it pays, how long you wait, how long it pays, and which riders and guarantees you add. Each choice changes the premium. This lesson walks through the dials and the New York rules that control over-insurance and renewability.",
+      "objectives": [
+        "Explain income benefits, elimination periods and benefit periods, and their effect on premium",
+        "Describe the waiver of premium feature",
+        "Explain AMB, SIS, COLA and FIO riders",
+        "Distinguish occupational from nonoccupational coverage and noncancelable from guaranteed renewable",
+        "Calculate a benefit under NY's relation of earnings to insurance provision"
+      ],
+      "keyTerms": [
+        "disability-income-insurance",
+        "elimination-period",
+        "benefit-period",
+        "waiver-of-premium",
+        "coordination-of-benefits",
+        "additional-monthly-benefit",
+        "social-insurance-supplement",
+        "occupational-coverage",
+        "noncancelable",
+        "guaranteed-renewable",
+        "cost-of-living-adjustment",
+        "future-increase-option",
+        "relation-of-earnings"
+      ],
+      "parts": [
+        {
+          "heading": "The basic total disability plan",
+          "body": "- **Income benefit**: a stated weekly or monthly amount, usually limited by underwriting to a portion of earnings so the insured keeps an incentive to return to work.\n- **[[elimination-period|Elimination period]]**: the waiting period after disability begins before benefits accrue (a time deductible). Longer elimination period = **lower** premium.\n- **[[benefit-period|Benefit period]]**: the maximum time benefits are paid (for example, 2 years, 5 years, to age 65). Longer benefit period = **higher** premium.\n- **[[waiver-of-premium|Waiver of premium]]**: after the insured has been totally disabled for the period stated in the policy (commonly 90 days), premiums are waived while the disability continues; many policies refund premiums paid during that period.",
+          "simple": "Pick a monthly amount, a waiting period and a payout length. Waiting longer makes it cheaper; paying longer makes it pricier. Premiums stop while you're disabled.",
+          "example": {
+            "title": "Example: elimination period math",
+            "body": "Dee has a $2,000 monthly benefit, a 3-month elimination period and a 2-year benefit period. She is disabled for 7 months. Benefits: (7 − 3) × $2,000 = $8,000."
+          },
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Elimination = Entry wait; Benefit period = how long the Benefits last."
+            }
+          ]
+        },
+        {
+          "heading": "Coordination of benefits and riders",
+          "body": "**[[coordination-of-benefits|Coordination of benefits]]** prevents over-insurance when more than one plan applies, mainly in group coverage. Individual DI uses the relation of earnings provision instead (below).\n\nRiders that change the premium and benefits:\n\n- **[[additional-monthly-benefit|Additional monthly benefit (AMB)]]**: extra monthly income for a limited period early in a disability (commonly the first year), while Social Security benefits may not yet be paid.\n- **[[social-insurance-supplement|Social insurance supplement (SIS)]]**: pays when social insurance (Social Security, workers' compensation, state disability) is denied or low, and is **reduced by** social insurance actually received.\n- **[[cost-of-living-adjustment|Cost of living adjustment (COLA)]]**: increases benefits **during** a long disability, often tied to the CPI.\n- **[[future-increase-option|Future increase option (FIO)]]**: lets the insured buy more coverage **before** disability at set times **without evidence of insurability** (income proof usually still required).",
+          "simple": "AMB: a temporary top-up. SIS: fills the gap when government benefits don't come. COLA: raises your check while you're disabled. FIO: lets you buy more coverage later without a health exam.",
+          "example": {
+            "title": "Example: SIS offset",
+            "body": "Finn's $1,500 SIS rider is reduced by his $1,000 Social Security benefit, so it pays $500 a month."
+          },
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "COLA = during the claim. FIO = before the claim."
+            }
+          ]
+        },
+        {
+          "heading": "Occupational vs nonoccupational; noncancelable vs guaranteed renewable",
+          "body": "- **[[occupational-coverage|Occupational]]** coverage pays for disabilities on or off the job; **nonoccupational** coverage pays only off the job, because workers' compensation covers job-related disabilities. Individual DI is commonly occupational; group STD is commonly nonoccupational.\n- **[[noncancelable|Noncancelable]]**: the insured can keep the policy by paying the premiums stated in the policy, and the insurer can't change anything, including the rate.\n- **[[guaranteed-renewable|Guaranteed renewable]]**: renewal is guaranteed, but premiums may change **by class**.\n\nNY Reg 62 lets a policy use either label only if the insured can continue it until **age 65**, or, for disability income, until receipt of **Social Security retirement benefits**.",
+          "simple": "Occupational covers you on and off the job. Noncancelable locks the price; guaranteed renewable doesn't.",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "NY Reg 62 (11 NYCRR 52.17(a)(5)-(6)): noncancelable and guaranteed renewable require the right to continue to age 65 or, for disability income, until Social Security retirement benefits; guaranteed renewable may change premium rates only by class.",
+              "sources": [
+                "ny-11nycrr-52"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Relation of earnings to insurance (NY)",
+          "body": "This optional provision (§ 3216(d)(2)(F)) stops a person from being insured for more than he or she earns:\n\n1. Find the **greater** of (a) monthly earnings when disability began or (b) average monthly earnings over the **two years** before disability.\n2. If total monthly loss-of-time benefits under all valid coverage exceed that figure, this insurer pays only **its benefit × (earnings ÷ total benefits)**.\n3. The insurer refunds premium paid during those two years for the excess.\n4. Total benefits can't be reduced below the **lesser of $200** or the total monthly benefits.\n\nThe provision may be used only in a policy the insured can continue to at least **age 50** (or for at least **five years** if issued after age 44). Reg 62 also bars reducing DI benefits before 65 because of changes in income or employment except under this provision or change of occupation.",
+          "simple": "If your disability checks would add up to more than your paycheck, each policy with this clause pays a proportional share, and you get some premium back.",
+          "example": {
+            "title": "Example: Hugo's two policies",
+            "body": "Hugo earned $5,000 a month at disability; his 2-year average was $6,000. Use $6,000 (the greater). He has two $4,000 policies, $8,000 total. Policy A pays $4,000 × ($6,000 ÷ $8,000) = $3,000 and refunds excess premium."
+          },
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "N.Y. Ins. Law § 3216(d)(2)(F): greater of current or 2-year average monthly earnings; proportional reduction; not below the lesser of $200 or total benefits; only in policies continuable to age 50 (or five years if issued after 44).",
+              "sources": [
+                "ny-isc-3216"
+              ]
+            },
+            {
+              "kind": "ny-rule",
+              "text": "NY Reg 62 (11 NYCRR 52.17(c)(3)): no reduction of DI benefits before age 65 because of changes in employment status or income except under change of occupation or relation of earnings.",
+              "sources": [
+                "ny-11nycrr-52"
+              ]
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "match",
+        "prompt": "Match each feature to its description.",
+        "pairs": [
+          {
+            "left": "Elimination period",
+            "right": "Waiting time before benefits begin"
+          },
+          {
+            "left": "Benefit period",
+            "right": "Maximum time benefits are paid"
+          },
+          {
+            "left": "AMB rider",
+            "right": "Temporary extra benefit early in a disability"
+          },
+          {
+            "left": "SIS rider",
+            "right": "Benefit reduced by social insurance received"
+          },
+          {
+            "left": "COLA rider",
+            "right": "Benefit increases during a long disability"
+          },
+          {
+            "left": "Future increase option",
+            "right": "Buy more coverage later without proof of health"
+          },
+          {
+            "left": "Waiver of premium",
+            "right": "No premiums due while disabled"
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Lengthening the elimination period will generally:",
+          "choices": [
+            "Raise the premium",
+            "Lengthen the benefit period",
+            "Lower the premium",
+            "Remove the waiver of premium"
+          ],
+          "answerIndex": 2,
+          "explanation": "A longer waiting period reduces expected claims and premium."
+        },
+        {
+          "prompt": "Under NY's relation of earnings provision, which earnings figure is used?",
+          "choices": [
+            "The lesser of the two",
+            "The greater of earnings at disability or the 2-year average",
+            "Earnings at issue",
+            "The highest month ever"
+          ],
+          "answerIndex": 1,
+          "explanation": "§ 3216(d)(2)(F) uses the greater figure."
+        },
+        {
+          "prompt": "A rider that lets a young professional buy more DI coverage later without a medical exam is:",
+          "choices": [
+            "Future increase option",
+            "COLA",
+            "SIS",
+            "AMB"
+          ],
+          "answerIndex": 0,
+          "explanation": "The FIO waives evidence of insurability."
+        }
+      ],
+      "summary": [
+        "Elimination period = waiting time (longer = cheaper); benefit period = duration (longer = costlier).",
+        "Waiver of premium stops premiums during qualifying total disability.",
+        "AMB tops up early benefits; SIS is offset by social insurance; COLA raises benefits during disability; FIO buys more coverage before disability.",
+        "Noncancelable fixes the premium; guaranteed renewable lets premiums change by class (NY: both require the right to continue to 65 or, for DI, Social Security retirement).",
+        "NY relation of earnings: benefit × (greater earnings ÷ total benefits), floor of the lesser of $200 or total benefits."
+      ],
+      "related": [
+        "di-l01",
+        "di-l03",
+        "ihp-l03"
+      ],
+      "sources": [
+        "ny-isc-3216",
+        "ny-11nycrr-52"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "di-l03",
+      "sectionId": "di",
+      "order": 3,
+      "title": "Disability Benefits, Partial and Residual Disability, and Exclusions",
+      "outlineIds": [
+        "di.2.5",
+        "di.2.5.1",
+        "di.2.5.2",
+        "di.2.5.3",
+        "di.2.5.4",
+        "di.2.5.5",
+        "di.2.5.6",
+        "di.2.5.7",
+        "di.2.6"
+      ],
+      "estMinutes": 25,
+      "intro": "Disability policies pay more than a single monthly check for total disability. They can pay partial benefits when someone works reduced hours, residual benefits when income drops, lump sums for accidental death or dismemberment, and the costs of rehabilitation. This lesson covers those benefits, the difference between 24-hour and at-work coverage, and common exclusions.",
+      "objectives": [
+        "Compare total, partial and residual disability benefits",
+        "Calculate a residual disability benefit",
+        "Describe AD&D, rehabilitation and medical reimbursement benefits, including NY's 90-day AD&D rule",
+        "Distinguish 24-hour from limited/at-work coverage and identify common exclusions"
+      ],
+      "keyTerms": [
+        "total-disability",
+        "partial-disability",
+        "residual-disability",
+        "ad-and-d",
+        "rehabilitation-benefit",
+        "occupational-coverage",
+        "exclusion"
+      ],
+      "parts": [
+        {
+          "heading": "Total, partial and residual disability",
+          "body": "- **[[total-disability|Total disability]] benefit**: the full monthly benefit when the insured meets the policy's total disability definition.\n- **[[partial-disability|Partial disability]] benefit**: when the insured can perform some but not all duties (or works part time); usually a **flat percentage** of the total benefit (often 50%) for a limited time, frequently after a period of total disability.\n- **[[residual-disability|Residual disability]] benefit**: when the insured works but **earns less** because of the disability; the benefit is **proportional to the income lost**:\n\n**Residual benefit = (pre-disability income − current income) ÷ pre-disability income × total benefit**",
+          "simple": "Total: you can't work, full check. Partial: you can do some work, a set fraction. Residual: you work but earn less, and the check matches your percentage of lost income.",
+          "example": {
+            "title": "Example: Kim's residual benefit",
+            "body": "Kim earned $9,000 a month and now earns $5,400. Loss = $3,600 ÷ $9,000 = 40%. Total benefit $4,500 × 40% = $1,800 a month."
+          },
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Partial = a set Portion; Residual = Reflects the Reduction."
+            }
+          ]
+        },
+        {
+          "heading": "Other benefits: AD&D, rehabilitation and medical reimbursement",
+          "body": "- **[[ad-and-d|Accidental death and dismemberment]]**: a principal sum for accidental death (and typically for loss of two limbs or both eyes) and a capital sum, a portion of the principal sum, for a single limb or eye. In NY individual policies, AD&D must be payable if the loss occurs **within 90 days** of the accident.\n- **[[rehabilitation-benefit|Rehabilitation benefit]]**: pays for approved vocational or physical rehabilitation to help the insured return to work, usually without reducing disability benefits.\n- **Medical reimbursement benefit (nondisabling injury)**: pays medical expenses for an accidental injury that does **not** cause disability, often up to a stated multiple of the monthly benefit.",
+          "simple": "AD&D pays a lump sum for accidental death or loss of limbs or sight. Rehab benefits pay for retraining. Medical reimbursement pays the bill for a minor injury that doesn't keep you from working.",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "NY Reg 62 (11 NYCRR 52.17(b)(1)): AD&D benefits payable if the loss occurs within 90 days from the date of the accident, irrespective of total disability. Specific dismemberment benefits may not replace other benefits unless larger (52.17(b)(3), (c)(1)).",
+              "sources": [
+                "ny-11nycrr-52"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "24-hour vs limited/at-work coverage",
+          "body": "- **24-hour coverage** protects the insured around the clock, on and off the job (occupational coverage).\n- **Limited or at-work coverage** applies only to disabilities from injuries sustained while working.\n- **Nonoccupational** coverage is the reverse: off the job only, because workers' compensation covers work injuries.",
+          "simple": "24-hour coverage protects you all the time; at-work coverage only while working; nonoccupational coverage only when you're off the job.",
+          "callouts": []
+        },
+        {
+          "heading": "Exclusions",
+          "body": "NY Reg 62 limits exclusions to listed categories. Those common in disability income policies include:\n\n- war or act of war (declared or undeclared); service in the armed forces;\n- participation in a felony, riot or insurrection;\n- suicide, attempted suicide or intentionally self-inflicted injury;\n- aviation other than as a fare-paying passenger on a scheduled or charter flight operated by a scheduled airline;\n- disabilities from a preexisting condition, within the limits the law allows.\n\nOrdinary sicknesses and injuries outside these categories are not permissible exclusions.",
+          "simple": "Disability policies usually exclude war, military service, self-inflicted injuries, crimes and riots, and some private flying.",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "NY Reg 62 (11 NYCRR 52.16(c)(4)): permitted exclusions include war, felony/riot/insurrection, armed forces service, suicide or intentionally self-inflicted injury, and aviation other than as a fare-paying passenger on a scheduled or charter flight.",
+              "sources": [
+                "ny-11nycrr-52"
+              ]
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "categorize",
+        "prompt": "Which benefit applies?",
+        "categories": [
+          "Partial disability",
+          "Residual disability",
+          "Medical reimbursement (nondisabling)",
+          "AD&D"
+        ],
+        "items": [
+          {
+            "text": "Works half-days for three months; paid 50% of the total benefit",
+            "category": "Partial disability"
+          },
+          {
+            "text": "Back at work but income down 30%; paid 30% of the benefit",
+            "category": "Residual disability"
+          },
+          {
+            "text": "Stitches after a kitchen accident; no time lost from work",
+            "category": "Medical reimbursement (nondisabling)"
+          },
+          {
+            "text": "Loses a hand in a workshop accident; lump-sum capital sum paid",
+            "category": "AD&D"
+          },
+          {
+            "text": "Income drops from $10,000 to $7,500 a month; paid 25% of the benefit",
+            "category": "Residual disability"
+          },
+          {
+            "text": "Dies 60 days after a car crash; principal sum paid",
+            "category": "AD&D"
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Pre-disability income $8,000; current income $6,000; total benefit $4,000. The residual benefit is:",
+          "choices": [
+            "$1,000",
+            "$2,000",
+            "$3,000",
+            "$4,000"
+          ],
+          "answerIndex": 0,
+          "explanation": "($8,000 − $6,000) ÷ $8,000 = 25%; 25% × $4,000 = $1,000."
+        },
+        {
+          "prompt": "Under NY Reg 62, AD&D benefits must be payable if the loss occurs within:",
+          "choices": [
+            "30 days of the accident",
+            "24 hours of the accident",
+            "90 days of the accident",
+            "One year of the accident"
+          ],
+          "answerIndex": 2,
+          "explanation": "11 NYCRR 52.17(b)(1)."
+        },
+        {
+          "prompt": "Coverage that applies on and off the job is called:",
+          "choices": [
+            "At-work coverage",
+            "Nonoccupational coverage",
+            "Limited coverage",
+            "24-hour coverage"
+          ],
+          "answerIndex": 3,
+          "explanation": "24-hour (occupational) coverage applies around the clock."
+        }
+      ],
+      "summary": [
+        "Partial disability pays a set percentage of the total benefit; residual pays the percentage of income lost.",
+        "Residual benefit = (pre-disability income − current income) ÷ pre-disability income × total benefit.",
+        "NY: AD&D payable if the loss occurs within 90 days of the accident.",
+        "Rehabilitation and medical reimbursement benefits support return to work and minor injuries.",
+        "24-hour coverage is on and off the job; common exclusions include war, military service, felony or riot, self-inflicted injury and some aviation."
+      ],
+      "related": [
+        "di-l02",
+        "di-l04"
+      ],
+      "sources": [
+        "ny-11nycrr-52"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "di-l04",
+      "sectionId": "di",
+      "order": 4,
+      "title": "Group and Business Disability Insurance",
+      "outlineIds": [
+        "di.3",
+        "di.3.1",
+        "di.3.2",
+        "di.3.3",
+        "di.4",
+        "di.4.1",
+        "di.4.2",
+        "di.4.3"
+      ],
+      "estMinutes": 25,
+      "intro": "Disability insurance isn't only for individuals. Employers provide short-term and long-term disability plans, and businesses buy disability coverage to protect themselves when an owner or key employee can't work. This lesson compares group with individual plans and explains the three business uses on the exam.",
+      "objectives": [
+        "Compare group and individual disability income plans",
+        "Distinguish short-term from long-term disability",
+        "Explain key person, disability buy-sell and business overhead expense coverage",
+        "Apply NY Reg 62's premium-refund rule for business overhead policies"
+      ],
+      "keyTerms": [
+        "short-term-disability",
+        "long-term-disability",
+        "key-person-disability",
+        "disability-buy-sell",
+        "business-overhead-expense"
+      ],
+      "parts": [
+        {
+          "heading": "Group vs individual disability plans",
+          "body": "Group disability plans are issued to an employer under a master policy. Compared with individual policies, group plans typically:\n\n- are underwritten on the **group as a whole**, usually without individual medical exams;\n- cost **less per unit** of coverage;\n- **offset** (integrate) benefits with Social Security and other income;\n- end when **employment ends** (individual policies stay with the insured).\n\nCommonly, when the employer pays the premium, benefits are taxable income to the employee; when an individual pays premiums personally with after-tax money, benefits are generally received tax-free.",
+          "simple": "Group disability is cheaper and easier to get, but it's tied to your job and often reduced by Social Security. An individual policy goes wherever you go.",
+          "callouts": []
+        },
+        {
+          "heading": "Short-term vs long-term disability",
+          "body": "- **[[short-term-disability|Short-term disability (STD)]]**: short elimination period (often a few days) and short benefit period (weeks to about a year or two). Often **nonoccupational**.\n- **[[long-term-disability|Long-term disability (LTD)]]**: long elimination period (commonly 90 days or more, often matching the end of STD) and long benefit period (years, often to age 65). Often uses own occupation for an initial period, then any occupation.",
+          "simple": "STD starts fast and ends fast; LTD waits longer and lasts longer, often until 65.",
+          "example": {
+            "title": "Example: STD hands off to LTD",
+            "body": "Ben's STD pays 60% of salary from day 8 for up to 26 weeks. His LTD has a 180-day elimination period, so it starts paying about when STD ends."
+          },
+          "callouts": [
+            {
+              "kind": "note",
+              "text": "New York also has a statutory Disability Benefits Law program for off-the-job disabilities; it is covered in the government programs section."
+            }
+          ]
+        },
+        {
+          "heading": "Business disability insurance",
+          "body": "- **[[key-person-disability|Key person disability income]]**: the business owns the policy, pays the premium and is the beneficiary; benefits offset lost revenue and the cost of replacing a key employee.\n- **[[disability-buy-sell|Disability buy-sell]]**: funds a buy-sell agreement so the remaining owners (or the business) can buy a totally disabled owner's interest, by lump sum or installments. Typically has a **long elimination period** (often a year or more) so only long-lasting disabilities trigger a buyout.\n- **[[business-overhead-expense|Business overhead expense (BOE)]]**: reimburses fixed overhead such as **rent, utilities and employees' salaries** (not the owner's own salary) while the owner is disabled, usually for a limited benefit period. Commonly, BOE premiums are deductible business expenses and benefits are taxable.\n\nNY Reg 62: policies that limit benefits to specified items, such as BOE, must refund premium (pro rata or short-rate) if none of the covered items exist, for example the owner closes the office, provided timely notice is given; the refund may be limited to one year's premium.",
+          "simple": "Key person: pays the business when a vital employee is disabled. Buy-sell: pays for buying out a disabled owner. BOE: pays the office bills while the owner recovers.",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "NY Reg 62 (11 NYCRR 52.17(c)(2)): BOE-type policies must provide a premium refund if none of the items to be indemnified exist, given timely notice; refund may be limited to one year's premium.",
+              "sources": [
+                "ny-11nycrr-52"
+              ]
+            },
+            {
+              "kind": "exam-trap",
+              "text": "BOE never pays the owner's own salary; that is personal disability income insurance."
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "match",
+        "prompt": "Match each business need to the right coverage.",
+        "pairs": [
+          {
+            "left": "Pay the office rent while the dentist recovers",
+            "right": "Business overhead expense"
+          },
+          {
+            "left": "Fund the purchase of a disabled partner's share",
+            "right": "Disability buy-sell"
+          },
+          {
+            "left": "Protect the firm when its top engineer is disabled",
+            "right": "Key person disability income"
+          },
+          {
+            "left": "Employer plan paying from day 8 for 26 weeks",
+            "right": "Short-term disability"
+          },
+          {
+            "left": "Employer plan paying to age 65 after 180 days",
+            "right": "Long-term disability"
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "In key person disability insurance, the beneficiary is:",
+          "choices": [
+            "The key employee",
+            "The business",
+            "The employee's family",
+            "The state"
+          ],
+          "answerIndex": 1,
+          "explanation": "The business owns, pays for and receives the benefits."
+        },
+        {
+          "prompt": "Which expense does BOE NOT cover?",
+          "choices": [
+            "Office rent",
+            "Utilities",
+            "Staff salaries",
+            "The disabled owner's own salary"
+          ],
+          "answerIndex": 3,
+          "explanation": "BOE pays business overhead, not the owner's income."
+        },
+        {
+          "prompt": "Why do disability buy-sell policies have long elimination periods?",
+          "choices": [
+            "To make sure only long-lasting disabilities trigger a buyout",
+            "Because federal law requires it",
+            "To match the free-look period",
+            "Because benefits are paid monthly"
+          ],
+          "answerIndex": 0,
+          "explanation": "A buyout is permanent, so it should follow a long-term disability."
+        }
+      ],
+      "summary": [
+        "Group DI is group-underwritten, cheaper, often offset by Social Security, and tied to employment.",
+        "STD: short wait, short duration; LTD: long wait, long duration (often to 65).",
+        "Key person: business is owner and beneficiary. Buy-sell: funds a buyout, long elimination period. BOE: pays overhead, not the owner's salary.",
+        "NY Reg 62: BOE-type policies must refund premium (up to a year's premium) if covered items no longer exist and timely notice is given."
+      ],
+      "related": [
+        "di-l03"
+      ],
+      "sources": [
+        "ny-11nycrr-52"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19",
+        "notes": "NY BOE refund rule verified; group/business descriptions and tax treatment are general principles."
+      }
+    }
+  ]
+}

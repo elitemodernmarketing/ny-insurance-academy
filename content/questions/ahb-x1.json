@@ -1,0 +1,1154 @@
+{
+  "sectionId": "ahb",
+  "questions": [
+    {
+      "id": "ahb-q201",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.3.1",
+        "ahb.3"
+      ],
+      "concepts": [
+        "master-policy",
+        "certificate-of-coverage"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "In group health insurance, the employee covered under the plan typically receives:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A certificate of coverage summarizing the master policy",
+          "rationale": "Correct: the employer holds the master policy; each covered member receives a certificate."
+        },
+        {
+          "id": "b",
+          "text": "The master policy itself, signed by the employer",
+          "rationale": "Incorrect: the master policy is issued to and held by the group sponsor (the employer)."
+        },
+        {
+          "id": "c",
+          "text": "An individually underwritten policy in his or her own name",
+          "rationale": "Incorrect: that describes individual coverage, not group coverage."
+        },
+        {
+          "id": "d",
+          "text": "Nothing, because only the employer is insured",
+          "rationale": "Incorrect: the employees are the insured persons; they receive certificates."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Group coverage is issued to the group sponsor (such as an employer) under one master policy; covered members receive certificates of coverage. Individual coverage is a separate contract with each insured, usually individually underwritten.",
+      "memoryTip": "Group: one master policy, many certificates.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q202",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.4.1",
+        "ahb.3.3"
+      ],
+      "concepts": [
+        "limited-policy",
+        "hospital-indemnity",
+        "major-medical"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [],
+      "scenario": "Gina has a major medical policy and a limited benefit policy that pays $100 per day of hospital confinement. She spends 5 days in the hospital and the bill is $30,000.",
+      "stem": "Which statement best explains how Gina's two policies will respond?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The limited policy pays the full $30,000 bill because it is the newer policy",
+          "rationale": "Incorrect: a limited policy pays only its stated limited benefit, not the actual charges."
+        },
+        {
+          "id": "b",
+          "text": "The limited policy pays its set $100 a day; major medical pays toward the actual bill",
+          "rationale": "Correct: limited policies pay fixed, limited amounts; comprehensive coverage pays a broad range of actual expenses."
+        },
+        {
+          "id": "c",
+          "text": "Major medical pays nothing at all because a limited policy is also in force",
+          "rationale": "Incorrect: owning a limited policy does not cancel or reduce comprehensive coverage."
+        },
+        {
+          "id": "d",
+          "text": "Both policies pay only $100 a day, since both are individual health plans",
+          "rationale": "Incorrect: major medical reimburses covered expenses rather than a flat daily amount."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Limited policies cover narrow risks or pay limited, fixed amounts (here, $100 per hospital day). Comprehensive coverage such as major medical pays a broad range of covered medical expenses, subject to deductibles, coinsurance and limits. A limited policy supplements comprehensive coverage; it does not replace it.",
+      "memoryTip": "Limited pays the label amount; major medical pays the bill.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Limited policy pays a fixed amount",
+            "anyOf": [
+              "$100",
+              "fixed",
+              "set amount",
+              "500"
+            ]
+          },
+          {
+            "label": "Major medical pays actual covered charges",
+            "anyOf": [
+              "actual",
+              "bill",
+              "covered expenses"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q203",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.4.2",
+        "ahb.6.1.1"
+      ],
+      "concepts": [
+        "limited-policy",
+        "false-advertising"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "Hal prepares a flyer promoting an individual limited benefits health policy in New York. The flyer highlights the daily benefit but never says the coverage is limited.",
+      "stem": "What does NY Reg 34 require Hal's flyer to include?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only the insurer's phone number and the form number of the policy advertised",
+          "rationale": "Incorrect: contact details do not satisfy the required coverage-type statement."
+        },
+        {
+          "id": "b",
+          "text": "A statement that the policy meets NY's minimum standards for major medical",
+          "rationale": "Incorrect: that would misdescribe a limited benefits policy."
+        },
+        {
+          "id": "c",
+          "text": "The 'limited benefits health insurance only' statement in a prominent place and style",
+          "rationale": "Correct: 11 NYCRR 215.5(c) requires the coverage-type statement prominently in the ad."
+        },
+        {
+          "id": "d",
+          "text": "Nothing more, because printed flyers are exempt from NY advertising rules",
+          "rationale": "Incorrect: printed materials used to sell A&H coverage are advertisements under Reg 34."
+        }
+      ],
+      "correct": "c",
+      "explanation": "11 NYCRR 215.5(c) (Reg 34): an advertisement of a policy must contain, in a prominent place and style, the appropriate statement for the coverage provided. For limited benefits coverage: 'This policy provides limited benefits health insurance only. It does NOT provide basic hospital, basic medical or major medical insurance,' plus the expected benefit ratio statement for individual policies.",
+      "memoryTip": "If it's limited, the ad must say so, prominently.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-215"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q204",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.4.2"
+      ],
+      "concepts": [
+        "limited-policy",
+        "medicare-supplement"
+      ],
+      "difficulty": 3,
+      "style": "concept",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "stem": "When a NY limited benefits policy is issued to someone 65 or older, where must the policy itself show the special notice?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "On the last page, directly above the officer's signature",
+          "rationale": "Incorrect: the policy notice goes at the top of the first page."
+        },
+        {
+          "id": "b",
+          "text": "Only in the outline of coverage, never in the policy",
+          "rationale": "Incorrect: Reg 62 requires the notice on the policy itself."
+        },
+        {
+          "id": "c",
+          "text": "Anywhere in the exclusions section, in standard type",
+          "rationale": "Incorrect: placement and enlarged bold print are both specified."
+        },
+        {
+          "id": "d",
+          "text": "In the top quarter of the first page, in enlarged bold print",
+          "rationale": "Correct: 11 NYCRR 52.16(k)(2) requires the notice in the top quarter of the first page, in bold print at least four points larger."
+        }
+      ],
+      "correct": "d",
+      "explanation": "11 NYCRR 52.16(k): for limited benefits coverage offered to persons 65 or older, the application must carry the notice immediately above the applicant's signature, and the policy must carry it in the top quarter of the first page; both in bold print at least four points larger than the largest print used (excluding company name, logo and address). The notice says the coverage does not meet Medicare supplement or LTC requirements.",
+      "memoryTip": "65+: notice above the signature AND at the top of page one.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q205",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.4.3.1"
+      ],
+      "concepts": [
+        "accident-only-policy",
+        "free-look"
+      ],
+      "difficulty": 3,
+      "style": "application",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "stem": "Which policy is exempt from NY's individual A&H free-look notice requirement?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A single-premium nonrenewable accident-only policy",
+          "rationale": "Correct: § 3216(c)(10) excludes single premium nonrenewable policies insuring against accidents only."
+        },
+        {
+          "id": "b",
+          "text": "A guaranteed renewable disability income policy",
+          "rationale": "Incorrect: individual DI policies must carry the free-look notice."
+        },
+        {
+          "id": "c",
+          "text": "An individual major medical policy sold by an agent",
+          "rationale": "Incorrect: this policy needs the standard 10-to-20-day free look."
+        },
+        {
+          "id": "d",
+          "text": "A long-term care policy sold by mail order",
+          "rationale": "Incorrect: LTC and mail-order contracts must allow a 30-day free look."
+        }
+      ],
+      "correct": "a",
+      "explanation": "N.Y. Insurance Law § 3216(c)(10) requires a 10-to-20-day free-look notice on individual A&H policies (30 days for mail order, Medicare supplement and LTC), but it does not apply to single premium nonrenewable policies insuring against accidents only or accidental bodily injuries only, such as a trip accident policy.",
+      "memoryTip": "One-shot accident-only policy: no free look required.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3216"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q206",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.4.3.2"
+      ],
+      "concepts": [
+        "specified-disease-policy"
+      ],
+      "difficulty": 1,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "Each of the following is true of a specified (dread) disease policy EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It pays benefits only for the diseases it names",
+          "rationale": "Incorrect: this IS true of a specified disease policy."
+        },
+        {
+          "id": "b",
+          "text": "It pays for any illness that requires hospitalization",
+          "rationale": "Correct: this is NOT true; it pays only for the diseases named in the policy."
+        },
+        {
+          "id": "c",
+          "text": "It is a type of limited policy",
+          "rationale": "Incorrect: this IS true; it covers a narrow risk."
+        },
+        {
+          "id": "d",
+          "text": "It is meant to supplement comprehensive coverage",
+          "rationale": "Incorrect: this IS true; it should not replace major medical."
+        }
+      ],
+      "correct": "b",
+      "explanation": "A specified (dread) disease policy, such as a cancer policy, pays only for diseases named in the policy. It is a limited policy designed to supplement, not replace, comprehensive coverage. Illnesses not named are not covered.",
+      "memoryTip": "Named disease only; everything else is outside the policy.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q207",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.4.3.3"
+      ],
+      "concepts": [
+        "hospital-indemnity"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Ivo's hospital indemnity policy pays $250 per day of inpatient confinement, for up to 30 days per confinement. He is hospitalized for 35 consecutive days.",
+      "stem": "How much will the policy pay?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$8,750",
+          "rationale": "Incorrect: this pays all 35 days and ignores the 30-day maximum."
+        },
+        {
+          "id": "b",
+          "text": "$6,250",
+          "rationale": "Incorrect: this subtracts 5 days from 30 instead of capping at 30."
+        },
+        {
+          "id": "c",
+          "text": "$7,500",
+          "rationale": "Correct: the policy pays up to 30 days: 30 × $250 = $7,500."
+        },
+        {
+          "id": "d",
+          "text": "$250",
+          "rationale": "Incorrect: the benefit is paid for each day of confinement, up to the maximum."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Hospital indemnity pays a fixed amount per day of confinement up to the policy's maximum number of days, regardless of actual charges. Calculation: days payable = lesser of 35 or 30 = 30; 30 × $250 = $7,500.",
+      "memoryTip": "Indemnity = daily amount × days, capped at the maximum.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Cap at 30 days",
+            "anyOf": [
+              "30 days",
+              "maximum",
+              "cap"
+            ]
+          },
+          {
+            "label": "Multiply by daily amount",
+            "anyOf": [
+              "250"
+            ]
+          },
+          {
+            "label": "Result",
+            "anyOf": [
+              "7,500",
+              "7500"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q208",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.4.3.4",
+        "ahb.5"
+      ],
+      "concepts": [
+        "dental-insurance",
+        "exclusion"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "scenario": "Jill, who has an individual medical expense policy in New York, chips two healthy front teeth in a bicycle accident and has them repaired three months later.",
+      "stem": "Under NY Reg 62, may Jill's individual medical policy exclude this dental treatment?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, because all dental care may be excluded from medical policies",
+          "rationale": "Incorrect: the dental exclusion does not reach accidental injury to sound natural teeth within 12 months."
+        },
+        {
+          "id": "b",
+          "text": "Yes, because dental care is covered only by a dental policy",
+          "rationale": "Incorrect: the regulation limits how a medical policy may exclude dental care."
+        },
+        {
+          "id": "c",
+          "text": "No, but only if Jill also owns a separate stand-alone dental policy",
+          "rationale": "Incorrect: owning a dental policy is not the test."
+        },
+        {
+          "id": "d",
+          "text": "No; it treats accidental injury to sound natural teeth within 12 months",
+          "rationale": "Correct: 11 NYCRR 52.16(c)(9) carves this out of the permitted dental exclusion."
+        }
+      ],
+      "correct": "d",
+      "explanation": "11 NYCRR 52.16(c)(9) permits excluding dental care or treatment, except care due to accidental injury to sound natural teeth within 12 months of the accident and care needed due to congenital disease or anomaly. Routine dental care is commonly excluded from medical policies, which is why stand-alone dental insurance exists.",
+      "memoryTip": "Medical policies may skip routine dental, but not accident repair within a year.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Accidental injury",
+            "anyOf": [
+              "accident"
+            ]
+          },
+          {
+            "label": "Sound natural teeth",
+            "anyOf": [
+              "sound natural teeth",
+              "healthy teeth"
+            ]
+          },
+          {
+            "label": "Within 12 months",
+            "anyOf": [
+              "12 months",
+              "twelve months",
+              "within a year"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q209",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.4.3.5",
+        "ahb.5"
+      ],
+      "concepts": [
+        "vision-insurance",
+        "exclusion"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "Why do many people buy separate vision care coverage in New York?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Medical policies may exclude eyeglasses and exams to fit them",
+          "rationale": "Correct: 11 NYCRR 52.16(c)(10) lets policies exclude eyeglasses and examinations for their prescription or fitting."
+        },
+        {
+          "id": "b",
+          "text": "NY law forbids medical policies from covering any eye care",
+          "rationale": "Incorrect: medical policies may cover eye disease and injury; the permitted exclusion is for eyeglasses and fittings."
+        },
+        {
+          "id": "c",
+          "text": "Vision policies must also cover hospital stays",
+          "rationale": "Incorrect: vision care policies are limited to eye exams and eyewear."
+        },
+        {
+          "id": "d",
+          "text": "Vision coverage is required for anyone over 65",
+          "rationale": "Incorrect: no such requirement exists."
+        }
+      ],
+      "correct": "a",
+      "explanation": "NY Reg 62 (11 NYCRR 52.16(c)(10)) permits health policies to exclude eyeglasses, hearing aids, and examinations for their prescription or fitting. Stand-alone vision care insurance fills that gap with routine eye exams and eyewear allowances.",
+      "memoryTip": "Medical won't buy your glasses; vision coverage does.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q210",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.5"
+      ],
+      "concepts": [
+        "exclusion"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "scenario": "Kay is injured in turbulence while a ticketed passenger on a scheduled airline flight. Lou is injured landing the small private plane he pilots. Both have NY individual health policies.",
+      "stem": "Which of these injuries may the policy exclude under NY Reg 62's aviation rule?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Kay's, because all air travel injuries may be excluded",
+          "rationale": "Incorrect: injuries as a fare-paying passenger on a scheduled airline flight may not be excluded under the aviation category."
+        },
+        {
+          "id": "b",
+          "text": "Lou's, because he was not a fare-paying airline passenger",
+          "rationale": "Correct: 11 NYCRR 52.16(c)(4)(iii) permits excluding aviation other than as a fare-paying passenger on a scheduled or charter flight operated by a scheduled airline."
+        },
+        {
+          "id": "c",
+          "text": "Both, because aviation is always an extra-hazardous activity",
+          "rationale": "Incorrect: the regulation protects fare-paying passengers on scheduled or charter airline flights."
+        },
+        {
+          "id": "d",
+          "text": "Neither, because NY prohibits every aviation exclusion",
+          "rationale": "Incorrect: Reg 62 permits an aviation exclusion other than for fare-paying airline passengers."
+        }
+      ],
+      "correct": "b",
+      "explanation": "11 NYCRR 52.16(c)(4)(iii) allows exclusion of illness or injury arising out of aviation, other than as a fare-paying passenger on a scheduled or charter flight operated by a scheduled airline. Kay, a ticketed passenger on an airline flight, is protected; Lou, piloting his own small plane, is not.",
+      "memoryTip": "Paying airline passenger: covered. Flying your own plane: may be excluded.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Fare-paying passenger on a scheduled airline is protected",
+            "anyOf": [
+              "fare-paying",
+              "passenger",
+              "scheduled"
+            ]
+          },
+          {
+            "label": "Private piloting may be excluded",
+            "anyOf": [
+              "pilot",
+              "private plane",
+              "Lou"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q211",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.5"
+      ],
+      "concepts": [
+        "exclusion"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "Mo's NY individual health policy uses the territorial exclusion that Regulation 62 permits. During one year he is treated for illnesses while traveling in four places.",
+      "stem": "Which loss may the policy exclude under Reg 62's territorial limit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Treatment Mo receives in Mexico",
+          "rationale": "Incorrect: Mexico is within the permitted territory."
+        },
+        {
+          "id": "b",
+          "text": "Treatment Mo receives in Canada",
+          "rationale": "Incorrect: Canada is within the permitted territory."
+        },
+        {
+          "id": "c",
+          "text": "Treatment Mo receives in France",
+          "rationale": "Correct: 11 NYCRR 52.16(c)(12) permits excluding coverage outside the U.S., its possessions, Canada and Mexico."
+        },
+        {
+          "id": "d",
+          "text": "Treatment Mo receives in Puerto Rico",
+          "rationale": "Incorrect: U.S. possessions are within the permitted territory."
+        }
+      ],
+      "correct": "c",
+      "explanation": "NY Reg 62 (11 NYCRR 52.16(c)(12)) permits a policy to exclude coverage while the insured is outside the United States, its possessions, or Canada and Mexico. Treatment in France falls outside that area.",
+      "memoryTip": "Covered zone: U.S., possessions, Canada, Mexico.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q212",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.1.2",
+        "ahb.1"
+      ],
+      "concepts": [
+        "sickness",
+        "accidental-bodily-injury"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Which of these losses is caused by sickness rather than accidental injury?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A broken wrist from a fall on an icy sidewalk",
+          "rationale": "Incorrect: this is an accidental injury."
+        },
+        {
+          "id": "b",
+          "text": "A burn from a grease fire while cooking dinner",
+          "rationale": "Incorrect: this is an accidental injury."
+        },
+        {
+          "id": "c",
+          "text": "A concussion from a rear-end car collision",
+          "rationale": "Incorrect: this is an accidental injury."
+        },
+        {
+          "id": "d",
+          "text": "Hospitalization for newly diagnosed diabetes",
+          "rationale": "Correct: diabetes is a disease, so the loss is caused by sickness."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Health insurance covers two perils. Sickness is illness or disease, such as diabetes; accidental injury is bodily harm from an unexpected event, such as a fall, burn or collision.",
+      "memoryTip": "Disease = sickness; sudden outside event = accident.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q213",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.6.1.4"
+      ],
+      "concepts": [
+        "application",
+        "misrepresentation"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "While reviewing a completed health application with Nell, her producer notices that Nell checked 'No' to a question about recent surgery, although she mentioned a knee surgery earlier in the interview.",
+      "stem": "What is the proper way to handle the correction?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Have the applicant correct the answer and initial the change",
+          "rationale": "Correct: changes to answers should be made and initialed by the applicant."
+        },
+        {
+          "id": "b",
+          "text": "The producer quietly fixes it with correction fluid",
+          "rationale": "Incorrect: concealing changes makes the application unreliable and may look like alteration."
+        },
+        {
+          "id": "c",
+          "text": "The producer changes it and signs the applicant's initials",
+          "rationale": "Incorrect: a producer must never sign for the applicant."
+        },
+        {
+          "id": "d",
+          "text": "Leave the wrong answer; the insurer will sort it out",
+          "rationale": "Incorrect: the producer should not submit an answer known to be wrong."
+        }
+      ],
+      "correct": "a",
+      "explanation": "The application is the applicant's statement and becomes part of the contract. Errors should be corrected by the applicant, who initials the change, so it is clear the applicant made it. Producers must never alter answers, hide changes, or sign for the applicant.",
+      "memoryTip": "Applicant's answers, applicant's initials.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q214",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.6.1.5"
+      ],
+      "concepts": [
+        "policy-delivery",
+        "statement-of-good-health"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Ola applied for an individual health policy but paid no premium with the application. The policy has now been issued, and her producer meets her to deliver it and collect the first premium.",
+      "stem": "What should the producer obtain when delivering the policy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A new medical exam before the policy can be delivered",
+          "rationale": "Incorrect: a new exam is not the normal delivery requirement."
+        },
+        {
+          "id": "b",
+          "text": "A signed statement that Ola's health hasn't changed since applying",
+          "rationale": "Correct: when premium is collected at delivery, insurers commonly require a statement of good health."
+        },
+        {
+          "id": "c",
+          "text": "Nothing, because the policy took effect when it was issued",
+          "rationale": "Incorrect: without premium paid at application, coverage generally begins on delivery with premium and the health statement."
+        },
+        {
+          "id": "d",
+          "text": "A second application with all questions answered again",
+          "rationale": "Incorrect: the original application stands; a health statement is used instead."
+        }
+      ],
+      "correct": "b",
+      "explanation": "When no premium was paid with the application, coverage typically does not begin until the policy is delivered, the first premium is paid, and the applicant signs a statement of continued good health. At delivery the producer also reviews the policy, its exclusions and the free-look right.",
+      "memoryTip": "No premium up front? Collect it, plus a good-health statement, at delivery.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q215",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.7.1",
+        "ahb.7"
+      ],
+      "concepts": [
+        "replacement"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "Each of the following is a potential DISADVANTAGE of replacing an existing health policy EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "New preexisting-condition limits on the new policy",
+          "rationale": "Incorrect: this IS a potential disadvantage."
+        },
+        {
+          "id": "b",
+          "text": "A new two-year contestable period under the new policy",
+          "rationale": "Incorrect: this IS a potential disadvantage."
+        },
+        {
+          "id": "c",
+          "text": "A lower premium for comparable benefits",
+          "rationale": "Correct: this is an advantage, not a disadvantage, of replacement."
+        },
+        {
+          "id": "d",
+          "text": "Loss of a noncancelable renewal guarantee on the old one",
+          "rationale": "Incorrect: this IS a potential disadvantage."
+        }
+      ],
+      "correct": "c",
+      "explanation": "When replacing A&H coverage, compare benefits, limitations and exclusions. Disadvantages may include new preexisting-condition limits or waiting periods, a new period under the time limit on certain defenses, and weaker renewability. A lower premium for comparable coverage may be a legitimate reason to replace.",
+      "memoryTip": "Replacement risks: new waits, new contest period, weaker guarantees.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q216",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.6.1.1"
+      ],
+      "concepts": [
+        "false-advertising"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "stem": "In a NY individual A&H advertisement, the 'expected benefit ratio' statement tells the reader:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The percentage of each claim the insured must pay out of pocket",
+          "rationale": "Incorrect: that describes coinsurance, not the expected benefit ratio."
+        },
+        {
+          "id": "b",
+          "text": "The share of applicants the insurer expects to approve",
+          "rationale": "Incorrect: the ratio is about benefits paid, not underwriting approvals."
+        },
+        {
+          "id": "c",
+          "text": "The insurer's profit margin after paying all expenses",
+          "rationale": "Incorrect: the ratio measures expected benefits relative to premiums."
+        },
+        {
+          "id": "d",
+          "text": "The share of future premiums the insurer expects to pay out as benefits",
+          "rationale": "Correct: 11 NYCRR 215.5(c) defines it as the portion of future premiums the company expects to return as benefits."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Reg 34's required statements for individual policies include: 'The expected benefit ratio for this policy is __ percent. This ratio is the portion of future premiums which the company expects to return as benefits, when averaged over all people with this policy.' The ratio disclosure does not apply to group policies.",
+      "memoryTip": "Benefit ratio = how much of your premium comes back as benefits.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-215"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q217",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.8",
+        "ahb.8.1"
+      ],
+      "concepts": [
+        "community-rating",
+        "small-group"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "scenario": "An insurer offers a NY small employer group a year-end premium rebate because its employees filed very few claims and passed wellness screenings.",
+      "stem": "Under NY Reg 145, may the insurer give this rebate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No; health-based rebates are prohibited under community rating",
+          "rationale": "Correct: 11 NYCRR 360.2(b) prohibits refunds, rebates, credits or dividends based on such factors."
+        },
+        {
+          "id": "b",
+          "text": "Yes, because rebates are paid after the premium is set",
+          "rationale": "Incorrect: Reg 145 prohibits rebates based on health status even after rating."
+        },
+        {
+          "id": "c",
+          "text": "Yes, if the same rebate is offered to all young groups",
+          "rationale": "Incorrect: age is also a prohibited factor, so this would not cure the problem."
+        },
+        {
+          "id": "d",
+          "text": "No, but only because the group has fewer than 50 employees",
+          "rationale": "Incorrect: the problem is the health-based rebate, not the group's size."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Community rating means everyone on a policy form pays the same premium based on the whole pool, without regard to age, sex, health status, tobacco usage or occupation (§§ 3231, 4317). Reg 145 (11 NYCRR 360.2(b)) adds that refunds, rebates, credits or dividends based on such factors are also prohibited.",
+      "memoryTip": "No back-door discounts for healthy groups.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Community rating applies to small groups",
+            "anyOf": [
+              "community"
+            ]
+          },
+          {
+            "label": "Rebates based on health factors prohibited",
+            "anyOf": [
+              "rebate",
+              "refund",
+              "credit",
+              "dividend"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-360",
+        "ny-isc-3231"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q218",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.6.1.2",
+        "ahb.4.1"
+      ],
+      "concepts": [
+        "limited-policy",
+        "misrepresentation"
+      ],
+      "difficulty": 1,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Pam is presenting a limited benefits policy that pays fixed amounts for hospital stays and certain surgeries to a client who already has major medical coverage.",
+      "stem": "Which statement should Pam make to describe the policy accurately?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It's complete health coverage, so the client can drop her plan",
+          "rationale": "Incorrect: calling a limited policy complete coverage is a misrepresentation."
+        },
+        {
+          "id": "b",
+          "text": "It pays set amounts for listed events and won't replace major medical",
+          "rationale": "Correct: an accurate presentation explains the limited, fixed benefits and that it is not comprehensive."
+        },
+        {
+          "id": "c",
+          "text": "It pays every medical bill the client has, after a deductible",
+          "rationale": "Incorrect: a limited policy pays only stated amounts for listed events."
+        },
+        {
+          "id": "d",
+          "text": "It's the same as major medical but at a much lower price",
+          "rationale": "Incorrect: this overstates the coverage and misleads the client."
+        }
+      ],
+      "correct": "b",
+      "explanation": "During a sales presentation the producer must describe benefits, limitations and exclusions accurately. A limited policy pays fixed amounts for specified events and supplements, rather than replaces, comprehensive coverage. Overstating coverage is a misrepresentation that can lead to discipline and liability.",
+      "memoryTip": "Sell limited coverage as limited coverage.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

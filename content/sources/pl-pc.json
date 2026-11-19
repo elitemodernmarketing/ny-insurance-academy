@@ -1,0 +1,105 @@
+{
+  "sources": [
+    {
+      "id": "ny-isc-3425-personal-lines",
+      "title": "NY Insurance Law § 3425 — Cancellation and renewal provisions: personal lines (homeowners/dwelling) provisions",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/3425",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 3425(a)(2), (a)(7), (b), (c)(2), (d), (e), (i), (n) (revision from 2026-07-03)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-3425-personal-lines.md",
+      "notes": "Same statute as source ny-isc-3425 (auto-focused excerpt registered by the auto author); this entry points to the personal lines excerpts."
+    },
+    {
+      "id": "ny-isc-3426",
+      "title": "NY Insurance Law § 3426 — Commercial lines insurance; cancellation and renewal provisions",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/3426",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 3426 (revision from 2022-03-04)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-3426.md"
+    },
+    {
+      "id": "ny-isc-3428",
+      "title": "NY Insurance Law § 3428 — Cancellation of insurance contracts; return premiums; financed insurance premiums",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/3428",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 3428 (revision from 2014-09-22)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-3428.md"
+    },
+    {
+      "id": "ny-isc-3429",
+      "title": "NY Insurance Law § 3429 — Geographical location of risks; fire, fire and extended coverage policies; private passenger automobile insurance policies",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/3429",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 3429 (revision from 2014-09-22)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-3429.md"
+    },
+    {
+      "id": "ny-isc-3430",
+      "title": "NY Insurance Law § 3430 — Right of insured, agent or broker aggrieved on basis of geographical location of property or risks",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/3430",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 3430 (revision from 2014-09-22)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-3430.md"
+    },
+    {
+      "id": "ny-isc-3433",
+      "title": "NY Insurance Law § 3433 — Termination of contracts or accounts of licensed agents or brokers; prohibition; geographical location",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/3433",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 3433 (revision from 2014-09-22)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-3433.md"
+    },
+    {
+      "id": "ny-isc-2802",
+      "title": "NY Insurance Law § 2802 — Use of credit information",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/2802",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 2802 (revision from 2014-09-22)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-2802.md"
+    },
+    {
+      "id": "ny-isc-501",
+      "title": "NY Insurance Law § 501 — Certificates of insurance: definitions",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/501",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 501 (revision from 2015-07-31)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-501.md"
+    },
+    {
+      "id": "ny-isc-503",
+      "title": "NY Insurance Law § 503 — Certificates of insurance: enforcement",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/503",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 503 (revision from 2015-07-31)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-503.md"
+    },
+    {
+      "id": "ny-isc-504",
+      "title": "NY Insurance Law § 504 — Certificates of insurance: rules and regulations",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/504",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 504 (revision from 2015-07-31)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-504.md"
+    }
+  ]
+}

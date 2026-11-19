@@ -1,0 +1,579 @@
+{
+  "sectionId": "lib",
+  "lessons": [
+    {
+      "id": "lib-l04",
+      "sectionId": "lib",
+      "order": 4,
+      "title": "Selling Ethically in New York: Advertising, the Guaranty Corporation and Required Disclosures",
+      "outlineIds": [
+        "lib.7",
+        "lib.7.1",
+        "lib.7.1.1",
+        "lib.7.1.2",
+        "lib.7.1.3",
+        "lib.7.1.4",
+        "lib.7.1.8"
+      ],
+      "estMinutes": 25,
+      "intro": "New York regulates what you say in ads, what you must never use as a sales pitch, and what documents a buyer must receive and when. This lesson covers the producer's responsibilities from the first postcard to the policy summary.",
+      "objectives": [
+        "Apply NY Insurance Law § 2122 advertising rules",
+        "Explain why § 7718 bars using the guaranty corporation in sales",
+        "State when the buyer's guide, preliminary information and policy summary are provided under § 3209",
+        "Describe the producer's duty to protect clients' personal information"
+      ],
+      "keyTerms": [
+        "lifeguaranty-corporation",
+        "buyers-guide",
+        "policy-summary",
+        "illustration",
+        "false-advertising"
+      ],
+      "parts": [
+        {
+          "heading": "Advertising rules (§ 2122)",
+          "body": "NY Insurance Law § 2122 sets three rules for producer advertising:\n\n- Any ad that describes an insurer's **financial condition** must conform to § 1313.\n- No producer or other person may advertise or call attention to an **unauthorized insurer**.\n- Every agent and broker ad, sign, pamphlet, circular or card that refers to an insurer must state the insurer's **full name** and the **city, town or village of its principal office in the United States**.\n\nBefore a life sales presentation, § 3209(h) also requires the agent or broker to say that he or she is acting as a life insurance agent or broker and to give the **full name of the insurer** represented.",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "NY Ins. Law § 2122(b): ads referring to an insurer must give its name in full and the city, town or village of its principal U.S. office.",
+              "sources": [
+                "ny-isc-2122"
+              ]
+            },
+            {
+              "kind": "ny-rule",
+              "text": "NY Ins. Law § 3209(h): before a life sales presentation, identify yourself as an agent or broker and name the insurer you represent.",
+              "sources": [
+                "ny-isc-3209"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "The Life Insurance Company Guaranty Corporation (§ 7718)",
+          "body": "New York's [[lifeguaranty-corporation|guaranty corporation]] (Insurance Law Article 77) protects covered policyholders if a member insurer becomes insolvent. But § 7718 says no person — insurer, agent, broker or affiliate — may use the **existence of the corporation** in any advertisement, announcement or statement, in any medium, **for sales, solicitation or inducement to purchase**.\n\nThe narrow exception: a member insurer may give a policyholder written information prepared by the corporation and approved by the Superintendent, in response to the policyholder's written request.",
+          "simple": "There's a safety net if an insurer fails, but you can never use it to make a sale.",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "NY Ins. Law § 7718 prohibits using the guaranty corporation's existence for sales, solicitation or inducement to purchase covered insurance.",
+              "sources": [
+                "ny-isc-7718"
+              ]
+            },
+            {
+              "kind": "exam-trap",
+              "text": "Even a TRUE statement about the guaranty corporation is prohibited if it is used to sell."
+            }
+          ]
+        },
+        {
+          "heading": "Buyer's guide, preliminary information and policy summary (§ 3209)",
+          "body": "For individual life insurance, § 3209 requires:\n\n- **At or before the application:** the [[buyers-guide|buyer's guide]] (a generic consumer booklet in language set by the Superintendent, consistent with the NAIC guide) and **preliminary information** about the proposed policy (insurer and producer names, generic policy name, initial amount and premium, guaranteed cash values at the 10th and 20th years, loan interest rate and cost indexes).\n- **Upon delivery:** the [[policy-summary|policy summary]], a separate document titled \"Statement of Policy Cost and Benefit Information,\" with premiums, guaranteed death benefits, guaranteed cash values, dividends (labeled not guaranteed) and cost indexes.\n\nMail sales without an agent must include the buyer's guide in the first solicitation unless the policy offers at least a 30-day unconditional refund, in which case the guide may come with the policy. If the policy is marketed with an [[illustration]] that complies with the illustration regulation, the preliminary information and policy summary are not required (§ 3209(l)). Credit life and group life are generally outside § 3209.",
+          "example": {
+            "title": "Example: Mei's purchase",
+            "body": "At the application interview, Mei's producer gives her the buyer's guide and preliminary information. When the policy is delivered, he hands her the policy summary and explains the guaranteed and non-guaranteed figures."
+          },
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "NY Ins. Law § 3209(b)(1): buyer's guide and preliminary information at or prior to application; policy summary upon delivery.",
+              "sources": [
+                "ny-isc-3209"
+              ]
+            },
+            {
+              "kind": "memory-tip",
+              "text": "Guide = General, before you apply. Summary = Specific, when it arrives."
+            }
+          ]
+        },
+        {
+          "heading": "Using and protecting insurance information",
+          "body": "During field underwriting you collect sensitive personal, financial and medical information. Treat it as confidential: use it only for the insurance transaction and servicing the client has authorized, share it only as permitted by law and the client's authorization, and never pass it to unrelated marketers. Consumer reports used in underwriting are governed by the federal [[fair-credit-reporting-act|Fair Credit Reporting Act]], and the privacy of [[nonpublic-personal-information|nonpublic personal information]] is covered in the Insurance Regulation section.",
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Collected for insurance, used for insurance."
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "categorize",
+        "prompt": "When is each item provided or required in a New York life sale (policy not sold with an illustration)?",
+        "categories": [
+          "Before or at application",
+          "Upon delivery"
+        ],
+        "items": [
+          {
+            "text": "Buyer's guide",
+            "category": "Before or at application"
+          },
+          {
+            "text": "Preliminary information",
+            "category": "Before or at application"
+          },
+          {
+            "text": "Producer identifies as agent or broker and names the insurer",
+            "category": "Before or at application"
+          },
+          {
+            "text": "Policy summary",
+            "category": "Upon delivery"
+          },
+          {
+            "text": "Statement of Policy Cost and Benefit Information",
+            "category": "Upon delivery"
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Under § 2122, an advertisement referring to an insurer must include:",
+          "choices": [
+            "The insurer's full name and the location of its principal U.S. office",
+            "The producer's commission",
+            "The insurer's guaranty corporation membership",
+            "A buyer's guide"
+          ],
+          "answerIndex": 0,
+          "explanation": "§ 2122(b) requires the insurer's full name and the city, town or village of its principal U.S. office."
+        },
+        {
+          "prompt": "Which is prohibited by § 7718?",
+          "choices": [
+            "Telling a prospect to buy because the guaranty corporation backs the policy",
+            "Giving a buyer's guide at application",
+            "Delivering a policy summary",
+            "Naming the insurer in an ad"
+          ],
+          "answerIndex": 0,
+          "explanation": "Using the guaranty corporation's existence to induce a sale is prohibited."
+        },
+        {
+          "prompt": "A policy summary is titled:",
+          "choices": [
+            "Statement of Policy Cost and Benefit Information",
+            "Buyer's Guide to Life Insurance",
+            "IMPORTANT Notice Regarding Replacement",
+            "Definition of Replacement"
+          ],
+          "answerIndex": 0,
+          "explanation": "§ 3209(e)(1) requires that title."
+        }
+      ],
+      "summary": [
+        "§ 2122: ads must name the insurer in full with its principal-office location; no ads for unauthorized insurers.",
+        "§ 7718: never use the guaranty corporation to sell.",
+        "§ 3209: buyer's guide + preliminary information at or before application; policy summary upon delivery (unless sold with a compliant illustration).",
+        "§ 3209(h): identify yourself as an agent or broker and name the insurer before presenting.",
+        "Protect clients' personal information and use it only for authorized purposes."
+      ],
+      "related": [
+        "lib-l03",
+        "lib-l05"
+      ],
+      "sources": [
+        "ny-isc-2122",
+        "ny-isc-7718",
+        "ny-isc-3209"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-l05",
+      "sectionId": "lib",
+      "order": 5,
+      "title": "Best Interest, Illustrations, Replacement and Senior Designations",
+      "outlineIds": [
+        "lib.7.1.5",
+        "lib.7.1.6",
+        "lib.7.1.7",
+        "lib.7.1.9"
+      ],
+      "estMinutes": 35,
+      "intro": "New York holds life and annuity producers to a best-interest standard, controls how illustrations are used, sets detailed replacement procedures, and bans misleading 'senior expert' titles. These rules are favorite exam topics.",
+      "objectives": [
+        "Describe the Reg 187 best-interest duties, including documentation",
+        "Distinguish guaranteed and non-guaranteed illustration values",
+        "Identify transactions that count as replacement under Reg 60 and the required forms and timing",
+        "Recognize prohibited uses of senior-specific designations under Reg 199"
+      ],
+      "keyTerms": [
+        "suitability",
+        "illustration",
+        "replacement",
+        "senior-designation",
+        "twisting"
+      ],
+      "parts": [
+        {
+          "heading": "Best interest under Regulation 187 (11 NYCRR 224)",
+          "body": "When a producer recommends a life insurance or annuity sales transaction, the producer must act in the consumer's **best interest** ([[suitability]]). That means:\n\n- The recommendation is based on the consumer's **suitability information** and reflects the care, skill, prudence and diligence of a prudent person.\n- **Only the consumer's interests** are considered. Compensation is allowed, but it must not influence the recommendation.\n- The transaction is suitable, and the producer reasonably believes the consumer was informed of favorable and unfavorable features and will benefit from them.\n\n**Before recommending**, make reasonable efforts to obtain suitability information — for cash value products, items such as age, income, financial situation and needs, financial experience and objectives, intended use, time horizon, existing assets and insurance, liquidity needs, liquid net worth, risk tolerance, willingness to accept non-guaranteed elements and tax status.\n\n**At the recommendation**, disclose the basis in a reasonable summary format and **document** it. If the consumer refuses to give information, or buys something you did not recommend, document that too.\n\nOther rules: don't recommend unless the consumer can afford the commitment; don't recommend products you don't understand; don't discourage a consumer from filing a complaint; don't call yourself a financial planner or advisor unless properly licensed or certified and actually providing those services.",
+          "simple": "Get the client's facts, recommend only what's truly best for them, explain the pros and cons, and write down why.",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "11 NYCRR 224.4(a): in recommending a sales transaction, the producer 'shall act in the best interest of the consumer.' 224.4(d): make reasonable efforts to obtain suitability information before recommending.",
+              "sources": [
+                "ny-11nycrr-224"
+              ]
+            },
+            {
+              "kind": "exam-trap",
+              "text": "Best interest does not forbid commissions; it forbids letting compensation influence the recommendation."
+            }
+          ]
+        },
+        {
+          "heading": "Illustrations",
+          "body": "An [[illustration]] projects premiums, cash values and death benefits over time. It must clearly separate **guaranteed** values (contract minimums) from **non-guaranteed** values (current dividends or interest that can change). The Superintendent sets the content, format and use of illustrations by regulation under § 3209(k). A policy marketed with a compliant illustration does not need the separate preliminary information and policy summary (§ 3209(l)).\n\nNever present non-guaranteed values as promises or show only the most favorable column.",
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Guaranteed = floor. Illustrated = forecast."
+            }
+          ]
+        },
+        {
+          "heading": "Replacement under Regulation 60 (11 NYCRR 51)",
+          "body": "[[replacement|Replacement]] means buying new life insurance or annuities in New York when, as part of the transaction, existing coverage has been or is likely to be:\n\n- lapsed, surrendered (fully or partly), forfeited, assigned to the replacing insurer or otherwise terminated;\n- converted to paid-up or extended term, or reduced in value through nonforfeiture options, dividends or cash values;\n- reduced in amount or duration, or reissued with cash values released;\n- assigned as collateral or **borrowed against** (any portion of the loan value); or\n- continued with stopped or reduced premiums.\n\n**Producer duties (§ 51.5):**\n\n- With **every** application, a 'Definition of Replacement' form signed by the applicant and producer (copy left with the applicant).\n- If replacement is involved: list the policies to be replaced; notify both insurers; request information for the Disclosure Statement; present the **'IMPORTANT Notice Regarding Replacement…' no later than when the applicant signs the application**, and get the applicant's acknowledgment; submit sales materials with the application.\n- **Before delivery**, submit a producer-signed **Disclosure Statement** giving the primary reasons for the new policy and why the existing policy cannot meet the applicant's objectives.\n\n**Insurer duties (§ 51.6):** deliver the Disclosure Statement to the owner no later than delivery; send it to the existing insurer within 10 days of delivery; the existing insurer furnishes requested information within 20 days. The replacing insurer must give a **60-day right to return** the new policy for a full refund, during which the old insurer must restore the original policy without new underwriting or new contestable or suicide periods.",
+          "example": {
+            "title": "Example: borrowing to buy",
+            "body": "Owen keeps his old whole life policy but borrows against it to pay the new policy's first premium. Under § 51.2(a)(5), that is a replacement — all the forms apply."
+          },
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "11 NYCRR 51.6(d): 60-day right to return a replacement policy for an unconditional full refund (cash surrender value plus fees for variable or MVA contracts).",
+              "sources": [
+                "ny-11nycrr-51"
+              ]
+            },
+            {
+              "kind": "exam-trap",
+              "text": "Replacement is legal when it benefits the client and procedures are followed. Replacing through misrepresentation is [[twisting]]."
+            },
+            {
+              "kind": "ny-rule",
+              "text": "Reg 187 also requires that a replacement be suitable, considering surrender charges, new contestable or surrender periods, lost benefits and any other replacement in the preceding 36 months (11 NYCRR 224.4(b)(3)(iv)).",
+              "sources": [
+                "ny-11nycrr-224"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Senior-specific certifications (Regulation 199, 11 NYCRR 225)",
+          "body": "A producer may not use a [[senior-designation|senior-specific certification or designation]] in a way that misleads buyers into thinking he or she has special training in advising seniors. Prohibited uses include a designation that is:\n\n- not actually earned, or that the producer is ineligible to use;\n- nonexistent or **self-conferred**;\n- implying qualifications the producer doesn't have; or\n- from an organization primarily engaged in **sales or marketing instruction**, or lacking reasonable standards for competency, discipline or continuing education.\n\nWords such as 'senior,' 'retirement' or 'elder' combined with 'certified,' 'specialist,' 'advisor,' 'consultant' or 'planner' signal a senior-specific designation. Violations are unfair or deceptive acts and practices (§ 225.3).",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "11 NYCRR 225.2(a)(2)(ii): a nonexistent or self-conferred designation is a prohibited use.",
+              "sources": [
+                "ny-11nycrr-225"
+              ]
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "sequence",
+        "prompt": "Put the Regulation 60 replacement steps in the correct order.",
+        "steps": [
+          "Applicant and producer sign the Definition of Replacement with the application",
+          "Producer presents the IMPORTANT Notice no later than when the application is signed",
+          "Producer submits the application, list of policies to be replaced and sales materials",
+          "Producer submits the signed Disclosure Statement to the replacing insurer before delivery",
+          "Insurer delivers the Disclosure Statement to the owner no later than policy delivery",
+          "Owner has 60 days from delivery to return the new policy for a full refund"
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Under Reg 60, which transaction is a replacement?",
+          "choices": [
+            "Taking a loan on an existing policy to fund a new one",
+            "Buying a first policy with no existing coverage",
+            "Adding a rider to an existing policy at the same insurer with no new purchase",
+            "Changing a beneficiary"
+          ],
+          "answerIndex": 0,
+          "explanation": "§ 51.2(a)(5) includes borrowing any portion of an existing policy's loan value as part of buying new coverage."
+        },
+        {
+          "prompt": "Under Reg 187, what must a producer document if a consumer buys a policy the producer did not recommend?",
+          "choices": [
+            "That the transaction was not based on a recommendation",
+            "Nothing",
+            "The consumer's medical history",
+            "The commission rate"
+          ],
+          "answerIndex": 0,
+          "explanation": "11 NYCRR 224.4(f)(4)."
+        },
+        {
+          "prompt": "Which senior designation use is prohibited under Reg 199?",
+          "choices": [
+            "A self-conferred 'Certified Elder Planner' title",
+            "An accredited designation used accurately",
+            "A job title showing rank in a licensed firm, used without misleading",
+            "Listing a college degree accurately"
+          ],
+          "answerIndex": 0,
+          "explanation": "Self-conferred designations are expressly prohibited."
+        },
+        {
+          "prompt": "How long does a New York owner have to return a replacement policy for a full refund?",
+          "choices": [
+            "60 days from delivery",
+            "10 days from delivery",
+            "30 days from application",
+            "20 days from notice"
+          ],
+          "answerIndex": 0,
+          "explanation": "11 NYCRR 51.6(d)."
+        }
+      ],
+      "summary": [
+        "Reg 187: act in the consumer's best interest; gather suitability information first; disclose and document; compensation may not influence the recommendation.",
+        "Illustrations must separate guaranteed from non-guaranteed values.",
+        "Reg 60 replacement includes surrenders, reductions, conversions, loans and premium stoppage on existing coverage.",
+        "Definition of Replacement with every application; IMPORTANT Notice by application signing; Disclosure Statement before delivery; 60-day right to return.",
+        "Reg 199 bans misleading senior designations — unearned, self-conferred, overstated or from sales-training outfits."
+      ],
+      "related": [
+        "lib-l04",
+        "lib-l06"
+      ],
+      "sources": [
+        "ny-11nycrr-224",
+        "ny-11nycrr-51",
+        "ny-11nycrr-225",
+        "ny-isc-3209"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-l06",
+      "sectionId": "lib",
+      "order": 6,
+      "title": "From Application to Delivery: Field Underwriting, Underwriting and Risk Classes",
+      "outlineIds": [
+        "lib.7.2",
+        "lib.7.2.1",
+        "lib.7.3",
+        "lib.7.3.1",
+        "lib.7.3.2",
+        "lib.7.3.3",
+        "lib.7.3.4",
+        "lib.7.3.5",
+        "lib.8",
+        "lib.8.1",
+        "lib.8.1.1",
+        "lib.8.1.2",
+        "lib.8.1.3",
+        "lib.8.1.4",
+        "lib.8.1.5",
+        "lib.8.1.6",
+        "lib.8.1.7",
+        "lib.8.2",
+        "lib.8.2.1",
+        "lib.8.2.2",
+        "lib.8.2.3",
+        "lib.8.2.4"
+      ],
+      "estMinutes": 35,
+      "intro": "Every policy starts with an application and ends up in a client's hands. In between, the producer screens the risk, the insurer gathers information and classifies the applicant, and the producer delivers the result. This lesson walks through each step, including New York's backdating and HIV-testing rules.",
+      "objectives": [
+        "Describe the producer's field underwriting duties and NY's backdating limit",
+        "Explain when coverage begins with a conditional receipt or at delivery",
+        "Identify the main underwriting information sources and NY's HIV-testing consent rule",
+        "Classify applicants as preferred, standard, substandard or declined"
+      ],
+      "keyTerms": [
+        "field-underwriting",
+        "application",
+        "backdating",
+        "conditional-receipt",
+        "policy-delivery",
+        "statement-of-good-health",
+        "underwriting",
+        "agent-report",
+        "attending-physician-statement",
+        "investigative-consumer-report",
+        "medical-information-bureau",
+        "preferred-risk",
+        "standard-risk",
+        "substandard-risk",
+        "declined-risk"
+      ],
+      "parts": [
+        {
+          "heading": "Field underwriting and the application",
+          "body": "[[field-underwriting|Field underwriting]] is the producer's first screening: soliciting appropriate prospects, completing the [[application]] accurately, having the right people sign (the proposed insured and, if different, the owner), collecting the initial premium when possible, and reporting observations in the [[agent-report|agent's report]]. Corrections should be initialed by the applicant — never altered by the producer.\n\n**Backdating ([[backdating]]).** Under NY Insurance Law § 3208, an insurer may not knowingly issue a life policy that takes effect **more than six months before the application date** if doing so lowers the premium below what the insured's age (birthday nearest the application date) would require. Separately, an agent or broker may **never** date an application earlier than the day it was actually made if that lowers the premium. A violation does not by itself void the policy.",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "NY Ins. Law § 3208(a)–(b): policy date no more than six months before the application date when it reduces premium; applications may not be pre-dated by producers.",
+              "sources": [
+                "ny-isc-3208"
+              ]
+            },
+            {
+              "kind": "exam-trap",
+              "text": "Backdating within six months is allowed — the owner simply pays premium from the earlier policy date."
+            }
+          ]
+        },
+        {
+          "heading": "When coverage starts: receipts and delivery",
+          "body": "**Premium paid with the application.** The producer gives a [[conditional-receipt|conditional receipt]]. Coverage is effective as of the application date (or exam date, if later) **if** the applicant is insurable as applied for under the insurer's rules.\n\n**No premium with the application.** Coverage generally begins at [[policy-delivery|delivery]], when the producer collects the first premium and a signed [[statement-of-good-health|statement of good health]] confirming the insured's health hasn't changed.\n\n**At delivery** the producer should:\n\n- review the policy with the owner (coverage, riders, exclusions);\n- explain any changes — a policy issued other than as applied for (for example, with a rating) is a **counteroffer** the applicant accepts by signing an **amendment**;\n- collect any premium due;\n- provide required disclosures such as the policy summary, and remind the owner of the free-look right.",
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Money up front → conditional receipt. Money at delivery → statement of good health."
+            }
+          ]
+        },
+        {
+          "heading": "Where underwriters get information",
+          "body": "[[underwriting|Underwriting]] sources include:\n\n- **Application** — the primary source.\n- **[[agent-report|Agent's report]]** — the producer's observations; not part of the contract.\n- **[[attending-physician-statement|Attending physician statement (APS)]]** — details from the applicant's own doctor.\n- **[[investigative-consumer-report|Investigative consumer (inspection) report]]** — lifestyle, reputation and finances from interviews; regulated by the federal Fair Credit Reporting Act, which gives consumers notice and dispute rights.\n- **[[medical-information-bureau|MIB]]** — coded medical information shared among member insurers to detect omissions; it cannot be the sole basis for declining or rating.\n- **Medical exams and lab tests**, including HIV testing.\n\n**HIV testing in New York (§ 2611).** An insurer may not request or require an HIV-related test without the individual's **written informed consent** and without providing general information about AIDS and HIV transmission. The dated authorization must describe the test and its purpose, explain what a positive result may mean, let the person designate who receives specific results after an adverse decision, give the Department of Health toll-free number, and be signed. An **adverse underwriting decision** means a declination or an offer at a **higher than standard rate**; after one based on an HIV test, the insurer must notify the person and ask him or her to elect in writing who receives the results.\n\n**Selection criteria** must be based on sound actuarial principles or experience. Treating people of the same class and life expectancy differently is [[unfair-discrimination|unfair discrimination]].",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "NY Ins. Law § 2611(a): no HIV-related test without the individual's written informed consent and general information about AIDS and HIV transmission.",
+              "sources": [
+                "ny-isc-2611"
+              ]
+            },
+            {
+              "kind": "exam-trap",
+              "text": "Under § 2611, a rated (higher than standard) offer counts as an adverse underwriting decision, not just a decline."
+            }
+          ]
+        },
+        {
+          "heading": "Risk classification",
+          "body": "After review, the underwriter places the applicant in a class:\n\n- **[[preferred-risk|Preferred]]** — better than average; lowest premiums.\n- **[[standard-risk|Standard]]** — average risk; standard rates.\n- **[[substandard-risk|Substandard (rated)]]** — higher risk but insurable; table rating, flat extra premium or modified benefits.\n- **[[declined-risk|Declined]]** — not insurable at any premium (perhaps for now).",
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Preferred < Standard < Substandard in price; Declined = no policy."
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "match",
+        "prompt": "Match each underwriting source to what it provides.",
+        "pairs": [
+          {
+            "left": "Application",
+            "right": "Primary source of underwriting information, signed by the applicant"
+          },
+          {
+            "left": "Agent's report",
+            "right": "Producer's personal observations about the applicant"
+          },
+          {
+            "left": "Attending physician statement",
+            "right": "Treating doctor's details on a disclosed condition"
+          },
+          {
+            "left": "Inspection report",
+            "right": "Lifestyle and reputation from interviews, regulated by the FCRA"
+          },
+          {
+            "left": "MIB",
+            "right": "Coded medical alerts shared among member insurers"
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Under § 3208, a NY life policy may not be dated more than how long before the application if that reduces the premium?",
+          "choices": [
+            "Six months",
+            "One year",
+            "Three months",
+            "31 days"
+          ],
+          "answerIndex": 0,
+          "explanation": "§ 3208(a) sets a six-month limit."
+        },
+        {
+          "prompt": "An applicant pays no premium with the application. What should the producer collect at delivery?",
+          "choices": [
+            "The premium and a statement of good health",
+            "A conditional receipt",
+            "A new application",
+            "An inspection report"
+          ],
+          "answerIndex": 0,
+          "explanation": "Coverage begins at delivery once premium is paid and good health is confirmed."
+        },
+        {
+          "prompt": "Under § 2611, which is an adverse underwriting decision?",
+          "choices": [
+            "An offer at a higher than standard rate",
+            "Issuing at preferred rates",
+            "Requesting an APS",
+            "Delivering the policy"
+          ],
+          "answerIndex": 0,
+          "explanation": "§ 2611(d)(1) includes declinations and offers above standard rate."
+        },
+        {
+          "prompt": "An applicant who is insurable only at an extra premium is:",
+          "choices": [
+            "Substandard",
+            "Preferred",
+            "Standard",
+            "Declined"
+          ],
+          "answerIndex": 0,
+          "explanation": "Substandard (rated) risks pay more or get modified benefits."
+        }
+      ],
+      "summary": [
+        "Producers do field underwriting: accurate applications, proper signatures, premium collection, agent's report.",
+        "NY § 3208: policy may be backdated up to six months to save age; applications may never be pre-dated.",
+        "Conditional receipt = coverage from application/exam date if insurable; otherwise coverage starts at delivery with premium and statement of good health.",
+        "Rated or changed policies are counteroffers accepted by signed amendment.",
+        "NY § 2611 requires written informed consent for HIV testing; classes are preferred, standard, substandard, declined."
+      ],
+      "related": [
+        "lib-l05"
+      ],
+      "sources": [
+        "ny-isc-3208",
+        "ny-isc-2611",
+        "general-insurance-principles"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

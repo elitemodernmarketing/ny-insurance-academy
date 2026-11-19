@@ -1,0 +1,1051 @@
+{
+ "sectionId": "plauto",
+ "terms": [
+  {
+   "id": "financial-responsibility-law",
+   "term": "NY Motor Vehicle Financial Responsibility Law",
+   "aliases": [
+    "Motor Vehicle Financial Security Act",
+    "compulsory auto insurance law"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.1",
+    "plauto.1.1.1"
+   ],
+   "formal": "New York's Motor Vehicle Financial Security Act (Vehicle & Traffic Law Article 6) requires every registered motor vehicle to carry continuous proof of financial security, usually an owner's policy of liability insurance with at least 25/50 bodily injury, 50/100 death and $10,000 property damage limits.",
+   "plain": "To register and keep a car on the road in New York, the owner must keep auto liability insurance (or another approved form of financial security) in force the whole time the car is registered. The policy must meet the state's minimum limits.",
+   "simpler": "Think of it as the entry ticket for a New York license plate: no continuous insurance, no registration.",
+   "examples": [
+    "Dana registers a sedan in Albany. Her insurer's policy must provide at least $25,000 for injury to one person, $50,000 for injury to two or more, $50,000/$100,000 for death, and $10,000 for property damage in any one accident.",
+    "Luis lets his policy lapse while his car is still registered. Every termination notice his insurer sends must warn him that proof of financial security has to be maintained continuously throughout the registration period."
+   ],
+   "examTip": "Know the minimums as 25/50 for bodily injury, 50/100 for death, and 10 for property damage. The PSI outline cites Veh & Traf 333, but the limits themselves are written in Veh & Traf § 311(4)(a).",
+   "misconception": "Students often think New York's minimum is just 25/50/10 with nothing said about death. NY separately sets higher death limits: $50,000 for one person and $100,000 for two or more.",
+   "related": [
+    "proof-of-insurance",
+    "auto-id-card",
+    "iies",
+    "auto-liability-coverage",
+    "split-limits"
+   ],
+   "confusedWith": [
+    "proof-of-insurance"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Under New York's financial security law, what is the minimum property damage liability limit per accident?",
+    "choices": [
+     "$10,000",
+     "$25,000",
+     "$5,000",
+     "$50,000"
+    ],
+    "answerIndex": 0,
+    "explanation": "Veh & Traf Law § 311(4)(a) requires at least $10,000 because of injury to or destruction of property of others in any one accident. $25,000 is the one-person bodily injury limit, and $50,000 is the one-person death limit (also the two-or-more-person injury limit)."
+   },
+   "sources": [
+    "ny-vat-311",
+    "ny-vat-313"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "transportation-network-company",
+   "term": "Transportation Network Company (Ridesharing)",
+   "aliases": [
+    "TNC",
+    "rideshare"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.1.2"
+   ],
+   "formal": "A company that uses a digital network (app) to connect passengers with drivers who use their personal vehicles for prearranged trips, regulated by NY Vehicle & Traffic Law Article 44-B. The TNC driver, or the TNC through a group policy, must keep insurance that recognizes the driver is a TNC driver while the driver is logged on to the app and while on a prearranged trip.",
+   "plain": "Ridesharing apps such as the ones people use to book a ride are TNCs. When a driver has the app on, special insurance rules apply. The driver's own policy, a group policy bought by the company, or both together must provide higher limits than an ordinary personal auto policy.",
+   "simpler": "When the app is on, the car is \"at work,\" so it needs work-level insurance.",
+   "examples": [
+    "Priya is logged on to a rideshare app waiting for a request. NY requires at least 75/150 bodily injury and $25,000 property damage liability, plus no-fault and uninsured motorist coverage, for that period.",
+    "Once Priya accepts a ride and picks up her passenger, the required liability limit rises to at least $1.25 million, along with $1.25 million of supplementary uninsured/underinsured motorist coverage."
+   ],
+   "examTip": "Two periods matter: logged on but not engaged (at least 75/150/25), and engaged in a prearranged trip (at least $1,250,000). The TNC group policy must pay from the first dollar if the driver's own coverage has lapsed or does not apply.",
+   "misconception": "A personal auto policy is not automatically enough for rideshare driving. Also, in NY, rideshare use does not count when deciding whether the car is used predominantly for non-business purposes under the auto cancellation law.",
+   "related": [
+    "financial-responsibility-law",
+    "personal-injury-protection",
+    "sum-coverage",
+    "auto-id-card"
+   ],
+   "confusedWith": [],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "A New York TNC driver is carrying a passenger on a prearranged trip. What is the minimum liability limit that must be in force?",
+    "choices": [
+     "At least $1,250,000",
+     "At least 75/150/25",
+     "The basic 25/50/10 limits",
+     "At least 250/500"
+    ],
+    "answerIndex": 0,
+    "explanation": "Veh & Traf Law § 1693(3) requires at least $1,250,000 while the driver is engaged in a prearranged trip. 75/150/25 applies while the driver is logged on but not yet engaged. 25/50/10 is the ordinary minimum for private passenger cars."
+   },
+   "sources": [
+    "ny-vat-1693",
+    "ny-isc-3455",
+    "ny-isc-3425"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "proof-of-insurance",
+   "term": "Required Proof of Insurance",
+   "aliases": [
+    "proof of financial security"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.1.3"
+   ],
+   "formal": "Proof of financial security under Veh & Traf Law § 311(3): proof of ability to pay damages for liability arising from owning, maintaining or using a motor vehicle, shown by an owner's policy of liability insurance, a financial security bond, a financial security deposit, or qualification as a self-insurer.",
+   "plain": "New York needs evidence that a car's owner can pay if the car injures someone or damages property. Almost everyone shows this with an auto liability policy, but the law also accepts a surety bond, a cash or securities deposit with DMV, or approved self-insurance.",
+   "simpler": "It is the receipt that proves you can pay for the damage your car might cause.",
+   "examples": [
+    "A large company with a fleet qualifies with DMV as a self-insurer, so its proof of financial security is that self-insurer status rather than an insurance policy.",
+    "Kim buys a personal auto policy. The policy is her proof of financial security, and her insurer issues an insurance identification card showing that coverage."
+   ],
+   "examTip": "Memorize the four forms: an owner's liability policy, a financial security bond, a financial security deposit, or self-insurer status. A health policy or a homeowners policy is never proof of auto financial security.",
+   "misconception": "Proof of insurance is not just the ID card. The card is evidence of the policy, and the policy (or bond, deposit or self-insurance) is the actual financial security.",
+   "related": [
+    "financial-responsibility-law",
+    "auto-id-card",
+    "iies"
+   ],
+   "confusedWith": [
+    "auto-id-card"
+   ],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "Which of the following is NOT one of the forms of proof of financial security listed in Veh & Traf Law § 311(3)?",
+    "choices": [
+     "A homeowners policy with personal liability coverage",
+     "An owner's policy of liability insurance",
+     "A financial security bond",
+     "Qualification as a self-insurer"
+    ],
+    "answerIndex": 0,
+    "explanation": "Section 311(3) lists an owner's policy of liability insurance, a financial security bond, a financial security deposit, and self-insurer status. Homeowners liability coverage does not cover auto liability and is not listed."
+   },
+   "sources": [
+    "ny-vat-311"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "iies",
+   "term": "Insurance Information and Enforcement System (IIES)",
+   "aliases": [
+    "insured vehicle database"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.1.4"
+   ],
+   "formal": "The DMV's electronic system for tracking whether registered vehicles are insured. Under Veh & Traf Law § 313(2), insurers must report to DMV when an owner's liability policy is issued and when it terminates, and DMV uses the data to identify uninsured vehicles.",
+   "plain": "Insurers report new auto policies and cancellations to DMV electronically. DMV matches those reports against its registrations, so a car whose insurance ends shows up as uninsured. The termination does not take effect against third parties until the insurer has filed it with DMV (or the car has other coverage).",
+   "simpler": "IIES is DMV's insurance radar: insurers report coverage on and off, and DMV can spot a car with no insurance.",
+   "examples": [
+    "Tom cancels his policy effective June 1. Under the rules in effect until the end of 2028, his insurer must file the termination with DMV within 30 days of the cancellation's effective date.",
+    "A new policy takes effect for Ana's car. Under the same rules, her insurer must report the issuance to DMV within 7 days of the effective date."
+   ],
+   "examTip": "For the current rules, know three things: insurers report terminations to DMV no later than 30 days after the effective date, they report new policies within 7 days, and a termination is not effective against third parties until it is filed. These subdivisions are scheduled to be replaced by an online verification system on December 31, 2028.",
+   "misconception": "IIES does not mean DMV cancels your policy. The insurer cancels it; IIES is how DMV learns about it and can act against an uninsured registration.",
+   "related": [
+    "financial-responsibility-law",
+    "proof-of-insurance",
+    "auto-id-card"
+   ],
+   "confusedWith": [],
+   "difficulty": 3,
+   "practice": {
+    "prompt": "Under Veh & Traf Law § 313(2) as currently in effect, when must an insurer notify DMV that an owner's auto liability policy has terminated?",
+    "choices": [
+     "No later than 30 days after the termination takes effect",
+     "At least 30 days before the termination takes effect",
+     "Within 7 days after the policy was first issued",
+     "Only if the owner asks the insurer to notify DMV"
+    ],
+    "answerIndex": 0,
+    "explanation": "Section 313(2)(a) requires the insurer to file a notice of termination with DMV no later than 30 days following the effective date of the cancellation or other termination. The 7-day rule applies to reporting new policies."
+   },
+   "sources": [
+    "ny-vat-313"
+   ],
+   "nySpecific": true,
+   "timeSensitive": true,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19",
+    "notes": "Veh & Traf § 313(2)-(4) as effective until 2028-12-31; replacement online-verification text takes effect 2028-12-31. 'IIES' is the outline/DMV name; the statute does not use the acronym."
+   },
+   "reviewDue": "2027-11-19"
+  },
+  {
+   "id": "auto-id-card",
+   "term": "Auto Insurance ID Card",
+   "aliases": [
+    "insurance identification card"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.1.5"
+   ],
+   "formal": "An insurance identification card (Veh & Traf Law § 311(10)) issued by or for an authorized insurer, bonding company or authorized risk retention group, in a form the DMV commissioner prescribes or approves, stating that an owner's policy of liability insurance or a financial security bond has been issued on the vehicle(s) listed. Its content and validity period are set by the commissioner.",
+   "plain": "Your insurer gives you an ID card that shows your car is insured. DMV decides what the card must say and how long it is valid. If you are a self-insurer or made a deposit with DMV, the card comes from DMV itself.",
+   "simpler": "It is your car's insurance badge: it shows a policy exists, but the policy is what actually pays.",
+   "examples": [
+    "When Ray buys a policy for his pickup, his insurer issues an insurance ID card listing the vehicle and the policy.",
+    "A rideshare driver must carry proof of the TNC coverage while logged on, and that card is in addition to the regular Article 6 ID card for the car."
+   ],
+   "examTip": "Who issues the card is a common question: the insurer (or bonding company or authorized risk retention group) issues it, except for a self-insurer or deposit filer, whose card comes from DMV.",
+   "misconception": "The ID card is not the policy and does not create coverage. It is evidence that a policy or bond exists for that vehicle.",
+   "related": [
+    "proof-of-insurance",
+    "financial-responsibility-law",
+    "transportation-network-company"
+   ],
+   "confusedWith": [
+    "proof-of-insurance"
+   ],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "Under New York law, who issues the insurance identification card for a vehicle insured under an ordinary auto liability policy?",
+    "choices": [
+     "The insurer that issued the policy (or someone on its behalf)",
+     "The Department of Financial Services",
+     "The county clerk where the car is registered",
+     "The vehicle's manufacturer"
+    ],
+    "answerIndex": 0,
+    "explanation": "Veh & Traf Law § 311(10) defines the card as issued by or on behalf of the insurance company (or bonding company or authorized risk retention group). DMV issues the card only for self-insurers or financial security deposit filers."
+   },
+   "sources": [
+    "ny-vat-311",
+    "ny-vat-1693"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ny-auto-insurance-plan",
+   "term": "NY Automobile Insurance Plan (Assigned Risk)",
+   "aliases": [
+    "NYAIP",
+    "assigned risk plan",
+    "auto residual market"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.2",
+    "plauto.1.2.1",
+    "plauto.1.2.2",
+    "plauto.1.2.3",
+    "plauto.1.2.4"
+   ],
+   "formal": "The residual-market mechanism required by Insurance Law Article 53: all insurers licensed to write motor vehicle insurance in New York must participate in a superintendent-approved plan that equitably apportions among them applicants who are in good faith entitled to insurance but cannot get it through ordinary methods.",
+   "plain": "If a driver cannot find any insurer willing to cover them in the regular market, they can apply to the Plan. The Plan assigns the driver to one of the participating insurers, which then has to provide the coverage. Every auto insurer licensed in NY shares this burden.",
+   "simpler": "It is a rotation system: drivers nobody volunteers to insure get assigned to insurers in turn.",
+   "examples": [
+    "After several accidents, Marco is turned down by every company he contacts. His producer submits an application to the NY Automobile Insurance Plan, which assigns him to a participating insurer.",
+    "Through the Plan, an applicant can get liability limits up to 50/100/10, physical damage up to $10,000 actual cash value with a deductible of at least $100, medical payments up to $1,000, and SUM coverage."
+   ],
+   "examTip": "The key eligibility phrase is \"in good faith entitled to but unable to procure it through ordinary methods.\" Participation is mandatory for every insurer licensed to write auto insurance in NY.",
+   "misconception": "The assigned risk plan is not MVAIC. The Plan sells insurance to hard-to-place drivers. MVAIC pays victims when there is no insurance at all, such as hit-and-run or uninsured cars.",
+   "related": [
+    "maic",
+    "financial-responsibility-law",
+    "personal-auto-policy"
+   ],
+   "confusedWith": [
+    "maic"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Which insurers must participate in New York's assigned risk plan for auto insurance?",
+    "choices": [
+     "All insurers licensed to write motor vehicle insurance in NY",
+     "Only insurers that volunteer to join",
+     "Only mutual insurers and reciprocal exchanges",
+     "Only insurers that also write homeowners insurance"
+    ],
+    "answerIndex": 0,
+    "explanation": "Insurance Law § 5301(a) requires all insurers licensed to write motor vehicle insurance in New York to subscribe to and participate in the plan."
+   },
+   "sources": [
+    "ny-isc-5301",
+    "ny-isc-5303"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "no-fault-law",
+   "term": "No-Fault (Comprehensive Motor Vehicle Insurance Reparations Act)",
+   "aliases": [
+    "Article 51",
+    "no-fault insurance"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.3"
+   ],
+   "formal": "Insurance Law Article 51 (§§ 5101–5108). It requires every owner's auto liability policy to provide first-party benefits for basic economic loss regardless of fault, and it limits lawsuits between covered persons: there is no recovery for basic economic loss, and no recovery for non-economic loss (pain and suffering) unless the injury is a serious injury.",
+   "plain": "In New York, after a car accident your own policy pays your medical bills and part of your lost pay, up to a set limit, no matter who caused the crash. In exchange, you generally cannot sue the other driver for pain and suffering unless your injury is serious under the law's definition.",
+   "simpler": "Each car's insurer looks after the injuries connected to that car first, and the courtroom is saved for serious cases.",
+   "examples": [
+    "Kevin is rear-ended at a light. His own no-fault (PIP) coverage pays his doctor bills even though the other driver was clearly at fault.",
+    "A pedestrian struck by an insured NY car collects no-fault benefits from that car's insurer."
+   ],
+   "examTip": "No-fault is a trade: guaranteed prompt payment of economic loss from your own coverage, in return for limits on suing for pain and suffering (the serious-injury or verbal threshold).",
+   "misconception": "No-fault does not mean nobody is ever at fault or that you can never sue. Fault still matters for property damage claims, for economic loss above the no-fault limit, and for pain and suffering once the serious-injury threshold is met.",
+   "related": [
+    "personal-injury-protection",
+    "basic-economic-loss",
+    "serious-injury-threshold",
+    "obel",
+    "additional-pip"
+   ],
+   "confusedWith": [
+    "personal-injury-protection"
+   ],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "What is the main trade-off under New York's no-fault law?",
+    "choices": [
+     "Prompt payment of economic loss regardless of fault, in exchange for limits on suits for pain and suffering",
+     "Lower premiums in exchange for higher deductibles on collision coverage",
+     "Unlimited medical benefits in exchange for giving up property damage claims",
+     "Mandatory arbitration of all auto claims in exchange for no premium increases"
+    ],
+    "answerIndex": 0,
+    "explanation": "Article 51 guarantees first-party benefits for basic economic loss without regard to fault, and § 5104 bars suits for non-economic loss unless there is a serious injury."
+   },
+   "sources": [
+    "ny-isc-5102",
+    "ny-isc-5103",
+    "ny-isc-5104"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "personal-injury-protection",
+   "term": "Personal Injury Protection (PIP)",
+   "aliases": [
+    "PIP",
+    "first party benefits",
+    "no-fault benefits"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.3",
+    "plauto.1.3.1",
+    "plauto.1.3.2",
+    "plauto.1.3.3",
+    "plauto.1.3.4",
+    "plauto.1.3.5",
+    "plauto.1.3.6"
+   ],
+   "formal": "The mandatory no-fault coverage in every New York owner's auto policy. It pays first-party benefits for basic economic loss (up to $50,000 per person) to covered persons injured from use or operation of the vehicle: necessary medical and rehabilitation expenses, lost earnings up to $2,000 per month for up to three years (reduced by 20% of lost earnings), other reasonable and necessary expenses up to $25 per day for up to one year, plus a separate $2,000 death benefit.",
+   "plain": "PIP is the part of your NY auto policy that pays injured people right away, regardless of fault. It covers medical bills, most of your lost wages (up to a monthly cap), everyday help you have to pay for while hurt (like hiring someone to clean or drive you), and a small death benefit.",
+   "simpler": "PIP is a first-aid fund attached to each insured car: it pays the injured people's basic costs quickly, then fault gets sorted out later.",
+   "examples": [
+    "Jada earns $1,500 a month and misses two months of work after a crash. PIP reduces lost earnings by 20%, so it pays $1,200 a month ($1,500 − $300), or $2,400 for the two months.",
+    "While his arm is in a cast, Omar pays a neighbor $40 a day to drive him to work. PIP's 'other reasonable and necessary expenses' benefit pays up to $25 per day, for no more than one year from the accident."
+   ],
+   "examTip": "Know the PIP numbers: $50,000 per person total; lost earnings capped at $2,000 a month for 3 years and reduced by 20%; other expenses $25 a day for 1 year; $2,000 death benefit on top. Know the deadlines too: written notice within 30 days of the accident, medical proof of claim within 45 days of service, work-loss and other proof within 90 days.",
+   "misconception": "PIP does not pay for vehicle damage or for pain and suffering. It also does not pay 100% of lost wages; the law subtracts 20% of lost earnings.",
+   "related": [
+    "no-fault-law",
+    "basic-economic-loss",
+    "obel",
+    "additional-pip",
+    "auto-medical-payments",
+    "serious-injury-threshold"
+   ],
+   "confusedWith": [
+    "auto-medical-payments"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Under New York no-fault law, what monthly cap applies to loss of earnings within basic economic loss?",
+    "choices": [
+     "$2,000",
+     "$1,000",
+     "$2,500",
+     "$3,000"
+    ],
+    "answerIndex": 0,
+    "explanation": "Insurance Law § 5102(a)(2) includes loss of earnings in basic economic loss up to $2,000 per month for not more than three years; § 5102(b)(1) separately subtracts 20% of lost earnings when first-party benefits are paid."
+   },
+   "sources": [
+    "ny-isc-5102",
+    "ny-isc-5103",
+    "ny-isc-5106",
+    "ny-11nycrr-65-1-1"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "basic-economic-loss",
+   "term": "Basic Economic Loss",
+   "aliases": [],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.3.2",
+    "plauto.1.3.3",
+    "plauto.1.3.4",
+    "plauto.1.3.6"
+   ],
+   "formal": "Defined in Insurance Law § 5102(a): up to $50,000 per person of combined necessary medical, hospital, surgical, dental, ambulance, prescription, psychiatric, physical and occupational therapy and rehabilitation expenses; loss of earnings (and substitute services for income-producing work) up to $2,000 per month for up to three years; and other reasonable and necessary expenses up to $25 per day for up to one year. It does not include loss on account of death.",
+   "plain": "Basic economic loss is the list of out-of-pocket losses no-fault pays for, with a combined limit of $50,000 for each injured person. It includes medical care, rehab, lost pay, and small daily expenses such as paying someone to do chores you can no longer do.",
+   "simpler": "It is the injured person's $50,000 bucket. Medical bills, lost pay and daily-help costs all come out of the same bucket.",
+   "examples": [
+    "After a crash, Leah's hospital bills ($30,000), physical therapy ($8,000) and lost earnings benefits ($12,000) total $50,000, which uses up her basic economic loss limit.",
+    "Medical expenses are payable without a time limit, but only if within one year after the accident it is ascertainable that further expenses may result from the injury."
+   ],
+   "examTip": "Basic economic loss is one combined $50,000 per-person limit, not $50,000 for each category. The 20% earnings reduction and any deductible are subtracted when the insurer computes the first-party benefits it actually pays.",
+   "misconception": "Pain and suffering is not part of basic economic loss. It is 'non-economic loss,' which is recoverable only by lawsuit and only for a serious injury.",
+   "related": [
+    "personal-injury-protection",
+    "no-fault-law",
+    "obel",
+    "serious-injury-threshold"
+   ],
+   "confusedWith": [
+    "obel"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "What is the per-person limit of basic economic loss under New York no-fault?",
+    "choices": [
+     "$50,000 combined",
+     "$50,000 for medical plus $50,000 for lost earnings",
+     "$25,000 combined",
+     "$100,000 combined"
+    ],
+    "answerIndex": 0,
+    "explanation": "Insurance Law § 5102(a) defines basic economic loss as up to $50,000 per person of the combined items. OBEL can add another $25,000 on top."
+   },
+   "sources": [
+    "ny-isc-5102"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "serious-injury-threshold",
+   "term": "Serious Injury Threshold (Verbal Threshold)",
+   "aliases": [
+    "verbal threshold",
+    "tort limitation"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.3.7"
+   ],
+   "formal": "The tort limitation in Insurance Law § 5104: in a suit between covered persons for injuries from negligent use of a motor vehicle in New York, there is no recovery for non-economic loss unless the plaintiff has a 'serious injury' as defined in § 5102(d). That definition lists death; dismemberment; significant disfigurement; a fracture; loss of a fetus; permanent loss of use of a body organ, member, function or system; permanent consequential limitation of use of a body organ or member; and significant limitation of use of a body function or system.",
+   "plain": "You can sue another driver for pain and suffering only if your injury fits the law's list of serious injuries. The test uses words (a list of injury types) rather than a dollar amount, which is why it is called a verbal threshold.",
+   "simpler": "It is a gate with a word list on it. If your injury is on the list (like a broken bone), the gate to a pain-and-suffering lawsuit opens.",
+   "examples": [
+    "Sam breaks his wrist when another driver runs a red light. A fracture is a serious injury, so Sam may sue for pain and suffering.",
+    "Nora has a sore neck that heals in two weeks without lasting limitation. She has no serious injury, so she cannot recover pain and suffering from the other driver; her PIP still pays her medical bills."
+   ],
+   "examTip": "NY uses a verbal threshold (a list of injury types), not a dollar (monetary) threshold. A fracture is the classic qualifying example. In court, fault is decided before the jury decides whether the injury is serious.",
+   "misconception": "Meeting the threshold does not mean the other driver automatically pays. It only removes the bar on suing for non-economic loss; the injured person still must prove the other driver was at fault.",
+   "related": [
+    "no-fault-law",
+    "personal-injury-protection",
+    "basic-economic-loss",
+    "uninsured-motorist-coverage"
+   ],
+   "confusedWith": [],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Which injury meets New York's statutory definition of a 'serious injury'?",
+    "choices": [
+     "A fracture",
+     "A sprain that heals in a few weeks",
+     "Any injury with more than $2,000 of medical bills",
+     "Any injury that causes one missed day of work"
+    ],
+    "answerIndex": 0,
+    "explanation": "Insurance Law § 5102(d) lists a fracture as a serious injury. New York uses a verbal (descriptive) threshold rather than a dollar amount of medical bills."
+   },
+   "sources": [
+    "ny-isc-5102",
+    "ny-isc-5104"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19",
+    "notes": "Category list taken from § 5102(d) as revised 2026-05-29; that text does not contain the older '90 of 180 days' category, so content does not test it."
+   }
+  },
+  {
+   "id": "obel",
+   "term": "Optional Basic Economic Loss (OBEL)",
+   "aliases": [
+    "OBEL"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.4",
+    "plauto.1.4.1"
+   ],
+   "formal": "An optional no-fault coverage (Insurance Law § 5102(a)(5); 11 NYCRR 65-1.2) that adds $25,000 of benefits per person, payable after the $50,000 of basic economic loss is exhausted. The claimant chooses how it applies: to basic economic loss generally, to lost earnings, to psychiatric, physical or occupational therapy and rehabilitation, or to a combination of lost earnings and therapy. Once chosen, the option cannot be changed.",
+   "plain": "OBEL is an extra $25,000 layer of no-fault money you can buy. When an injured person is about to use up the regular $50,000, the insurer asks them to pick what the extra money will pay for.",
+   "simpler": "It is a $25,000 spare tank that kicks in when the main $50,000 tank runs dry, and the injured person decides what it fuels.",
+   "examples": [
+    "Ben buys OBEL. After a serious crash his basic $50,000 no-fault benefits run out, and he directs the additional $25,000 to lost earnings.",
+    "A passenger in Ben's car is also a no-fault claimant, so she can also make an OBEL election if her basic benefits are about to be exhausted."
+   ],
+   "examTip": "OBEL = an additional $25,000, sits above the $50,000 basic limit, and the claimant picks the benefit category (once).",
+   "misconception": "OBEL does not raise the monthly lost-earnings cap or pay pain and suffering. It adds another $25,000 of economic-loss benefits after the first $50,000.",
+   "related": [
+    "basic-economic-loss",
+    "personal-injury-protection",
+    "additional-pip"
+   ],
+   "confusedWith": [
+    "additional-pip"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "How much additional coverage does Optional Basic Economic Loss (OBEL) provide in New York?",
+    "choices": [
+     "$25,000 above the $50,000 basic limit",
+     "$50,000 above the $50,000 basic limit",
+     "$2,000 per month of additional lost earnings",
+     "Unlimited medical expenses"
+    ],
+    "answerIndex": 0,
+    "explanation": "Insurance Law § 5102(a)(5) and 11 NYCRR 65-1.2 describe OBEL as an additional $25,000 payable after the initial $50,000 of basic economic loss is exhausted."
+   },
+   "sources": [
+    "ny-isc-5102",
+    "ny-11nycrr-65-1-2"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "regulation-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "additional-pip",
+   "term": "Additional Personal Injury Protection",
+   "aliases": [
+    "APIP",
+    "additional first party benefits"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.4",
+    "plauto.1.4.2"
+   ],
+   "formal": "Optional no-fault coverage, bought for an additional premium, that pays 'additional first party benefits' on top of the mandatory PIP benefits. Under Insurance Law § 5106, additional first party benefits are paid as the loss is incurred, become overdue if not paid within 30 days after proof of loss, and disputes about them can go to the same simplified no-fault arbitration as basic PIP.",
+   "plain": "Additional PIP is extra no-fault coverage you can add to your policy to get more benefits than the required minimum. It follows the same fast-payment rules as regular PIP: if the insurer does not pay within 30 days of getting proof, the payment is overdue and earns interest.",
+   "simpler": "Basic PIP is the standard first-aid kit; additional PIP is the bigger kit you can choose to buy.",
+   "examples": [
+    "Grace adds additional PIP to her policy because her income is high and the basic benefits would replace only part of it.",
+    "Grace's insurer receives proof of her additional PIP claim on March 1 and has not paid by March 31; the payment is overdue and bears interest at 2% per month."
+   ],
+   "examTip": "Additional PIP is optional, unlike basic PIP, which is mandatory. Its claims follow the same § 5106 rules: payable as incurred, overdue after 30 days from proof, 2% per month interest, arbitration option.",
+   "misconception": "Additional PIP is not the same as OBEL. OBEL is a specific additional $25,000 that the claimant directs after the basic $50,000 is used up; additional PIP is a separate optional package of extra first-party benefits.",
+   "related": [
+    "personal-injury-protection",
+    "obel",
+    "no-fault-law"
+   ],
+   "confusedWith": [
+    "obel"
+   ],
+   "difficulty": 3,
+   "practice": {
+    "prompt": "Under Insurance Law § 5106, when does a payment of additional first party benefits become overdue?",
+    "choices": [
+     "If not paid within 30 days after the claimant supplies proof of loss",
+     "If not paid within 10 days after the accident",
+     "If not paid within 90 days after the claimant files suit",
+     "Never; optional benefits have no payment deadline"
+    ],
+    "answerIndex": 0,
+    "explanation": "Section 5106(a) applies to both first party benefits and additional first party benefits: they are overdue if not paid within 30 days after proof of the fact and amount of loss is supplied."
+   },
+   "sources": [
+    "ny-isc-5106"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19",
+    "notes": "Only the § 5106 rules were verified. The specific APIP benefit amounts (11 NYCRR Part 65) were not retrieved, so no APIP figures are taught."
+   }
+  },
+  {
+   "id": "maic",
+   "term": "Motor Vehicle Accident Indemnification Corporation (MVAIC)",
+   "aliases": [
+    "MVAIC"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.5"
+   ],
+   "formal": "The corporation created by Insurance Law Article 52 (§§ 5201–5225), whose members are all insurers authorized to write auto liability insurance in NY and self-insurers, that compensates 'qualified persons' injured or killed through no fault of their own by uninsured, unidentified (hit-and-run), stolen, unregistered or non-permissively operated vehicles, or vehicles whose insurer disclaims or denies coverage. It also provides no-fault benefits to qualified persons when no other insurer is available for an accident in New York.",
+   "plain": "MVAIC is New York's safety net for accident victims who have no insurance of their own to turn to and were hurt by a car with no valid insurance. It pays people who are not covered by any auto policy, for example a pedestrian without a car who is hit by an uninsured driver.",
+   "simpler": "MVAIC is the state's backstop: when no insurance company is on the hook, MVAIC steps in for the innocent victim.",
+   "examples": [
+    "Elena does not own a car and lives with no one who does. She is hit in a crosswalk by an uninsured driver, so she can claim no-fault benefits through MVAIC as a qualified person.",
+    "The owner of an uninsured car is injured while riding as a passenger in his own car; he is not a qualified person for MVAIC."
+   ],
+   "examTip": "MVAIC pays qualified persons, meaning NY residents who are not insureds under a policy's UM coverage and are not the owner of the uninsured vehicle (or the owner's spouse riding in it). If you have your own auto policy, your own UM coverage, not MVAIC, usually responds.",
+   "misconception": "MVAIC is not an insurer that sells policies, and it is not the assigned risk plan. It pays claims; it does not write coverage.",
+   "related": [
+    "uninsured-motorist-coverage",
+    "ny-auto-insurance-plan",
+    "no-fault-law"
+   ],
+   "confusedWith": [
+    "ny-auto-insurance-plan",
+    "uninsured-motorist-coverage"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Who is generally eligible to collect from MVAIC?",
+    "choices": [
+     "A 'qualified person' injured by an uninsured or unidentified vehicle",
+     "Any driver whose own collision deductible is too high",
+     "Insurers that need reinsurance for high-risk drivers",
+     "The owner of an uninsured vehicle injured while riding in it"
+    ],
+    "answerIndex": 0,
+    "explanation": "Insurance Law §§ 5201 and 5202(b) direct MVAIC payments to qualified persons, and the definition excludes the owner of the uninsured vehicle (and the owner's spouse) when riding in it."
+   },
+   "sources": [
+    "ny-isc-5201",
+    "ny-isc-5202",
+    "ny-isc-5106"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "uninsured-motorist-coverage",
+   "term": "Uninsured Motorist Coverage",
+   "aliases": [
+    "UM coverage",
+    "UM"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.6",
+    "plauto.1.6.1",
+    "plauto.1.6.2",
+    "plauto.1.6.3",
+    "plauto.1.6.4"
+   ],
+   "formal": "Coverage that Insurance Law § 3420(f)(1) requires in every NY auto bodily-injury liability policy. It pays the insured, up to 25/50 for injury and 50/100 for death, the bodily injury damages the insured is legally entitled to recover from the owner or operator of an uninsured, hit-and-run, stolen, unregistered or non-permissive vehicle, or a vehicle whose insurer denies coverage, for accidents in New York. It covers bodily injury only, not property damage.",
+   "plain": "If a driver with no insurance (or a hit-and-run driver) injures you in New York, your own policy's uninsured motorist coverage pays what that driver should have paid, up to the minimum limits. It covers injuries, not damage to your car.",
+   "simpler": "UM coverage lets your own insurer stand in the shoes of the at-fault driver who has no insurance.",
+   "examples": [
+    "A hit-and-run driver sideswipes Carla's car and fractures her arm. Because the other car made physical contact, Carla can claim under her uninsured motorist coverage.",
+    "An uninsured driver dents Raj's fender but hurts no one. UM coverage pays nothing because it is bodily injury only; Raj's collision coverage would pay for the car."
+   ],
+   "examTip": "Remember four facts: UM is mandatory, it covers bodily injury only, its limits are 25/50 injury and 50/100 death, and a hit-and-run claim requires physical contact with the insured or the insured's vehicle. UM pays non-economic loss only for a serious injury and does not duplicate PIP.",
+   "misconception": "UM does not repair your car, and it does not pay for pain and suffering unless the injury is a serious injury under the no-fault law.",
+   "related": [
+    "sum-coverage",
+    "maic",
+    "serious-injury-threshold",
+    "auto-liability-coverage"
+   ],
+   "confusedWith": [
+    "sum-coverage"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "New York's mandatory uninsured motorist coverage applies to which type of loss?",
+    "choices": [
+     "Bodily injury only",
+     "Property damage only",
+     "Both bodily injury and property damage",
+     "Collision damage to the insured's car"
+    ],
+    "answerIndex": 0,
+    "explanation": "Insurance Law § 3420(f)(1) requires coverage for damages 'because of bodily injury, sickness or disease, including death' caused by an uninsured motor vehicle. It does not cover property damage."
+   },
+   "sources": [
+    "ny-isc-3420"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "sum-coverage",
+   "term": "Supplementary Uninsured/Underinsured Motorist (SUM) Coverage",
+   "aliases": [
+    "SUM",
+    "SUM coverage",
+    "underinsured motorist coverage"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.7",
+    "plauto.1.7.1",
+    "plauto.1.7.2",
+    "plauto.1.7.3",
+    "plauto.1.7.4"
+   ],
+   "formal": "Optional bodily-injury coverage under Insurance Law § 3420(f)(2) that raises uninsured motorist protection above the 25/50 minimum and adds underinsured protection. Limits may be up to the policy's own bodily injury liability limits, subject to a maximum of 250/500 (or a $500,000 combined single limit). It applies in any state or Canadian province when the other vehicle's bodily injury limits are lower than the insured's own bodily injury liability limits, and only after the other vehicle's liability limits are exhausted by payment. Under Regulation 35-A, limits never stack across vehicles.",
+   "plain": "SUM protects you when the driver who hurts you has no insurance or too little. You can buy it up to the same limits as your own liability coverage. It kicks in when the other driver's liability limits are lower than yours and have been fully paid out.",
+   "simpler": "SUM tops you up: if the at-fault driver's insurance is smaller than yours, your own SUM fills the gap, up to your own limits.",
+   "examples": [
+    "Mia carries 100/300 liability and 100/300 SUM. A driver with 25/50 limits seriously injures her and his insurer pays its full $25,000. Mia can then pursue the rest of her damages, up to her SUM limit, from her own insurer.",
+    "Joe owns three cars on one policy, each showing 100/300 SUM. After one accident his SUM limit is still 100/300, because Regulation 35-A forbids adding limits together across vehicles."
+   ],
+   "examTip": "Know the triggers and caps: SUM can't exceed your own bodily injury limits (maximum 250/500 or $500,000 CSL); it applies when the other driver's BI limits are less than your own BI limits; the other driver's limits must be exhausted by payment first; it applies anywhere in the US or Canada; and limits do not stack. Insurers must notify insureds of SUM's availability when the policy is issued and at least once a year.",
+   "misconception": "SUM is not mandatory the way basic UM is; the insured chooses whether to buy it and in what amount, up to their own BI limits. It also does not cover property damage.",
+   "related": [
+    "uninsured-motorist-coverage",
+    "auto-liability-coverage",
+    "split-limits",
+    "transportation-network-company"
+   ],
+   "confusedWith": [
+    "uninsured-motorist-coverage"
+   ],
+   "difficulty": 3,
+   "practice": {
+    "prompt": "Under § 3420(f)(2), when does SUM coverage treat another vehicle as underinsured?",
+    "choices": [
+     "When its BI liability limits are less than the insured's own BI limits",
+     "When its BI limits are less than the injured person's total damages",
+     "When its property damage limit is below $10,000",
+     "When its driver has no collision coverage"
+    ],
+    "answerIndex": 0,
+    "explanation": "Insurance Law § 3420(f)(2)(A) provides SUM coverage when the limits of the other vehicle's bodily injury liability coverage are in a lesser amount than the bodily injury liability limits of the insured's own policy."
+   },
+   "sources": [
+    "ny-isc-3420",
+    "ny-11nycrr-60-2-3"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19",
+    "notes": "§ 3420(f)(2-a), which for new policies sets SUM equal to BI limits unless waived in writing, is scheduled for repeal 2029-06-30; content teaches only rules common to (f)(2) and (f)(2-a)."
+   }
+  },
+  {
+   "id": "mandatory-auto-inspection",
+   "term": "Mandatory Inspection Requirements",
+   "aliases": [
+    "Regulation 79",
+    "pre-insurance inspection"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.8"
+   ],
+   "formal": "Under Regulation 79 (11 NYCRR Part 67, § 67.2), unless the insurer waives or defers the inspection under § 67.4, an insurer may not issue a new policy, or change an existing policy, to provide auto physical damage coverage for a new, additional or replacement private passenger automobile until the insurer's authorized representative has inspected the automobile.",
+   "plain": "Before a NY insurer adds collision or comprehensive coverage on a private passenger car, someone working for the insurer usually has to look at the car first. The inspection records the car's condition so the insurer is not asked later to pay for damage that already existed.",
+   "simpler": "It is a 'before' photo of the car taken before physical damage coverage starts.",
+   "examples": [
+    "Anita adds comprehensive and collision for a used car she just bought. Unless the inspection is waived or deferred, the insurer must inspect the car before the physical damage coverage is added.",
+    "Ken buys only liability coverage on his old car. Regulation 79 inspection applies to physical damage coverage, so it is not triggered by liability-only coverage."
+   ],
+   "examTip": "Inspection is tied to physical damage coverage (collision/comprehensive) on private passenger autos, for new, additional or replacement vehicles, with waiver or deferral possible under the regulation.",
+   "misconception": "The inspection rule is not a safety or emissions inspection by DMV. It is an insurance inspection to document the car's condition.",
+   "related": [
+    "collision-coverage",
+    "comprehensive-coverage"
+   ],
+   "confusedWith": [],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "New York's Regulation 79 inspection requirement applies when an insurer is about to provide which coverage?",
+    "choices": [
+     "Physical damage coverage on a private passenger auto",
+     "Liability coverage only",
+     "No-fault (PIP) coverage",
+     "Supplemental spousal liability coverage"
+    ],
+    "answerIndex": 0,
+    "explanation": "11 NYCRR 67.2 bars issuing or modifying a policy 'providing automobile physical damage insurance' for a new, additional or replacement private passenger automobile until it is inspected, unless waived or deferred."
+   },
+   "sources": [
+    "ny-11nycrr-67-2"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "regulation-text",
+    "checkedOn": "2026-11-19",
+    "notes": "Waiver/deferral details (§ 67.4) not retrieved; content does not list them."
+   }
+  },
+  {
+   "id": "choice-of-repair-shop",
+   "term": "Choice of Repair Shop",
+   "aliases": [],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.10"
+   ],
+   "formal": "Insurance Law § 2610: an insurer providing collision or comprehensive coverage may not require that repairs be made at a particular place or shop. Except for claims solely involving window glass, the insurer may not recommend or suggest a shop unless the insured expressly asks, and it must give the insured a copy of its repair estimate with a printed notice (at least 12-point type) of the right to use the shop of the insured's choice.",
+   "plain": "In New York, you decide where your car gets fixed after a collision or comprehensive claim. The insurer can't force you to use its favorite shop, and it can't even suggest one unless you ask. Its estimate must tell you about this right in print.",
+   "simpler": "Your car, your mechanic.",
+   "examples": [
+    "After a covered collision, the adjuster tells Dev he must take his car to a specific body shop or the claim will be delayed. That violates § 2610.",
+    "Ellie asks her insurer, 'Can you recommend a shop near me?' Because she expressly requested it, the insurer may suggest one."
+   ],
+   "examTip": "Three rules: no requiring a shop, no recommending one unless the insured asks (glass-only claims are the exception), and a printed right-to-choose disclosure on the estimate.",
+   "misconception": "The right to choose a shop does not mean the insurer must pay any price the shop charges; the policy still pays the covered amount of the loss.",
+   "related": [
+    "collision-coverage",
+    "comprehensive-coverage"
+   ],
+   "confusedWith": [],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "Under NY Insurance Law § 2610, when may an insurer recommend a particular repair shop on a collision claim?",
+    "choices": [
+     "Only when the insured expressly requests a recommendation",
+     "Whenever the shop gives the insurer a discount",
+     "Whenever the repair estimate is over $1,000",
+     "At any time, as long as it does not require that shop"
+    ],
+    "answerIndex": 0,
+    "explanation": "Section 2610(b) bars the insurer from recommending or suggesting a shop (except on glass-only claims) unless the insured expressly requests it."
+   },
+   "sources": [
+    "ny-isc-2610"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "spousal-liability-coverage",
+   "term": "Supplemental Spousal Liability",
+   "aliases": [
+    "SSL",
+    "spousal liability"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.11"
+   ],
+   "formal": "Coverage under Insurance Law § 3420(g) for an insured's liability for the death of or injuries to the insured's spouse, up to the policy's liability limits, even where the injured spouse must prove the insured spouse's culpable conduct. Without an express provision, a liability policy does not cover such claims. Insurers must give notice of the coverage on the front of the premium notice in boldface type. Under the version in effect until July 31, 2027, it is included automatically for a first named insured who lists a spouse on the application unless declined in writing; under the version effective July 31, 2027, it is provided on written request.",
+   "plain": "Normally an auto policy won't pay if you injure your own spouse through careless driving and your spouse sues you. Supplemental spousal liability (SSL) closes that gap so your liability coverage applies to your spouse's claim.",
+   "simpler": "SSL makes your spouse a 'third party' your liability coverage will protect you against.",
+   "examples": [
+    "Rafael causes a crash and his wife, a passenger, is badly hurt. She sues him for negligence. Without SSL, his liability coverage would not respond; with SSL, it does, up to his liability limits.",
+    "Each year, Rafael's premium notice must show in boldface on its front an explanation of SSL coverage and its premium."
+   ],
+   "examTip": "Key facts: without an express provision a policy does not cover liability to the insured's own spouse; SSL provides coverage up to the policy's liability limits; and the insurer must give boldface notice on the front of the premium notice. Whether it is automatic (opt-out) or on request depends on the date: opt-out until July 31, 2027, on request afterward.",
+   "misconception": "SSL is a liability coverage, not a first-party benefit; the injured spouse's own medical bills are first handled by no-fault PIP.",
+   "related": [
+    "auto-liability-coverage",
+    "personal-injury-protection"
+   ],
+   "confusedWith": [],
+   "difficulty": 3,
+   "practice": {
+    "prompt": "Without supplemental spousal liability coverage, how does a New York auto liability policy treat a negligence claim by the insured's spouse?",
+    "choices": [
+     "The policy does not cover it unless the policy expressly provides coverage",
+     "The policy covers it automatically at the minimum limits",
+     "The policy covers it only if the spouse was a pedestrian",
+     "The policy covers it only through collision coverage"
+    ],
+    "answerIndex": 0,
+    "explanation": "Insurance Law § 3420(g) says no policy is deemed to insure against liability for death of or injury to the insured's spouse unless an express provision is included; SSL is that provision."
+   },
+   "sources": [
+    "ny-isc-3420"
+   ],
+   "nySpecific": true,
+   "timeSensitive": true,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19",
+    "notes": "§ 3420(g) has two versions: opt-out coverage until 2027-07-31; on-request coverage from 2027-07-31. Re-check after that date."
+   },
+   "reviewDue": "2027-06-30"
+  }
+ ],
+ "comparisons": [
+  {
+   "a": "personal-injury-protection",
+   "b": "auto-medical-payments",
+   "keyDifference": "PIP is New York's mandatory no-fault coverage with statutory benefits (medical, lost earnings, other expenses, death benefit). Medical payments is an optional policy coverage that pays only medical and funeral expenses for people in the insured's car (or the insured family as pedestrians or occupants).",
+   "rows": [
+    {
+     "aspect": "Required in NY?",
+     "a": "Yes — every owner's auto liability policy (Ins. Law § 5103)",
+     "b": "No — optional coverage"
+    },
+    {
+     "aspect": "What it pays",
+     "a": "Basic economic loss up to $50,000: medical, rehab, lost earnings (less 20%), other expenses, plus a $2,000 death benefit",
+     "b": "Reasonable medical and funeral expenses only"
+    },
+    {
+     "aspect": "Fault",
+     "a": "Paid regardless of fault",
+     "b": "Paid regardless of fault"
+    },
+    {
+     "aspect": "Effect on lawsuits",
+     "a": "Part of the no-fault system that limits suits to serious injuries",
+     "b": "No effect on the right to sue"
+    }
+   ],
+   "memoryTip": "PIP = Pays Income Plus medical; MedPay = Medical only."
+  },
+  {
+   "a": "uninsured-motorist-coverage",
+   "b": "sum-coverage",
+   "keyDifference": "Basic UM is mandatory at 25/50 (50/100 death) and covers in-state accidents with uninsured or hit-and-run vehicles. SUM is optional, can be bought up to the insured's own BI limits, applies anywhere in the US or Canada, and also covers underinsured drivers.",
+   "rows": [
+    {
+     "aspect": "Required?",
+     "a": "Mandatory in every NY auto BI policy",
+     "b": "Optional; the insured chooses it, up to the policy's own BI limits"
+    },
+    {
+     "aspect": "Limits",
+     "a": "25/50 injury; 50/100 death",
+     "b": "Up to own BI limits, maximum 250/500 or $500,000 CSL"
+    },
+    {
+     "aspect": "Covers underinsured drivers?",
+     "a": "No — uninsured, hit-and-run, stolen, unregistered, coverage-denied vehicles",
+     "b": "Yes — when the other vehicle's BI limits are lower than the insured's own BI limits"
+    },
+    {
+     "aspect": "Where",
+     "a": "Accidents in New York",
+     "b": "Any state or Canadian province"
+    },
+    {
+     "aspect": "Type of loss",
+     "a": "Bodily injury only",
+     "b": "Bodily injury only"
+    }
+   ],
+   "memoryTip": "UM is the floor everyone gets; SUM is the step stool you can buy to reach your own limits."
+  },
+  {
+   "a": "maic",
+   "b": "ny-auto-insurance-plan",
+   "keyDifference": "MVAIC pays claims to innocent victims when no insurance is available; the NY Automobile Insurance Plan sells (assigns) insurance policies to drivers who cannot buy coverage in the regular market.",
+   "rows": [
+    {
+     "aspect": "Who it helps",
+     "a": "Qualified persons injured by uninsured, unidentified, stolen or unregistered vehicles",
+     "b": "Applicants in good faith entitled to insurance but unable to get it normally"
+    },
+    {
+     "aspect": "What it does",
+     "a": "Pays bodily injury claims and no-fault benefits",
+     "b": "Assigns the applicant to a participating insurer that issues a policy"
+    },
+    {
+     "aspect": "Law",
+     "a": "Insurance Law Article 52 (§§ 5201–5225)",
+     "b": "Insurance Law Article 53 (§§ 5301–5304)"
+    },
+    {
+     "aspect": "Participants",
+     "a": "Members are all authorized auto liability insurers and self-insurers (§ 5202(h))",
+     "b": "All insurers licensed to write auto insurance in NY share the assigned risks (§ 5301)"
+    }
+   ],
+   "memoryTip": "MVAIC pays victims; the Plan places drivers."
+  }
+ ]
+}

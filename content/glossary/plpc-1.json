@@ -1,0 +1,1773 @@
+{
+  "sectionId": "plpc",
+  "terms": [
+    {
+      "id": "redlining",
+      "term": "Redlining (Geographic Underwriting Prohibition)",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.2.2"
+      ],
+      "formal": "The practice of refusing to issue or renew, or cancelling, coverage (or terminating an agent's or broker's contract) based solely on the geographic location of the risk or of the producer; New York Insurance Law §§ 3429, 3430 and 3433 prohibit it for fire, fire and extended coverage and personal auto insurance.",
+      "plain": "An insurer in New York may not say \"no\" to a home or car just because of the neighborhood or ZIP code it is in. It can still decline a risk for sound underwriting reasons tied to actual or expected losses, but location by itself is not a lawful reason. Insurers also may not drop an agent or broker simply because of where the producer or its clients are located.",
+      "simpler": "Imagine a map with a red line drawn around a neighborhood and everyone inside is refused. That is exactly what the law forbids.",
+      "examples": [
+        "An insurer refuses every fire insurance application from one ZIP code without looking at the condition of each building. That is a refusal based solely on location and is prohibited.",
+        "An insurer declines a particular house because its wiring is unsafe and its roof is failing. That decision is based on the property's own hazards, which is sound underwriting, not redlining."
+      ],
+      "examTip": "Key word: SOLELY. Location by itself is never enough; a decision based on sound underwriting and actuarial principles tied to actual or anticipated loss experience is allowed. An aggrieved insured (or agent/broker) may file a complaint with the Superintendent (§ 3430).",
+      "misconception": "Redlining rules do not force an insurer to accept every applicant. They only forbid using geography as the sole reason.",
+      "related": [
+        "unfair-discrimination",
+        "insurance-risk-score",
+        "fair-plan"
+      ],
+      "confusedWith": [
+        "unfair-discrimination"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under New York law, an insurer may NOT refuse to renew a homeowner's fire policy based solely on which of the following?",
+        "choices": [
+          "The geographic location of the property within New York",
+          "Unrepaired fire damage to the dwelling",
+          "Nonpayment of premium",
+          "Fraud in the application"
+        ],
+        "answerIndex": 0,
+        "explanation": "§ 3429 bars refusing to issue or renew, or cancelling, fire and auto policies based solely on the geographical location of the risk. Physical condition, nonpayment and fraud are legitimate grounds."
+      },
+      "sources": [
+        "ny-isc-3429",
+        "ny-isc-3430",
+        "ny-isc-3433"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "insurance-risk-score",
+      "term": "Insurance Risk Score (Credit Scoring)",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.2.3"
+      ],
+      "formal": "A score calculated from information in a consumer's credit report and used by an insurer to underwrite or rate personal lines risks; New York Insurance Law Article 28 (§ 2802) limits how insurers may build and use such scores.",
+      "plain": "Insurers have found that certain credit-history patterns correlate with how often people file claims. An insurance risk score turns credit-report information into a number the insurer can use, along with other factors, to underwrite or price a policy. In New York, the score may not be calculated using income, gender, address, ZIP code, ethnic group, religion, marital status or nationality; a personal lines policy may not be denied solely on credit information; and credit information may not be used to cancel or nonrenew a policy or to raise the premium at renewal.",
+      "simpler": "It is a credit-based number that helps the insurer predict claims, and New York puts firm guardrails on how it can be used.",
+      "examples": [
+        "An insurer's homeowners rating plan uses an insurance risk score as one rating factor, alongside the home's age, construction and claims history.",
+        "An applicant with no credit history is treated as having neutral credit (or rated without credit) rather than being penalized for the missing file, as New York law requires."
+      ],
+      "examTip": "NY § 2802 key points: no denial SOLELY on credit; no use of credit to cancel, nonrenew or raise premium on renewal; no income, gender, address/ZIP, ethnicity, religion, marital status or nationality in the score; on request, re-score at least every 36 months without increasing premium.",
+      "misconception": "An insurance risk score is not a lender's credit score, and in New York it can never be the sole reason to deny a personal lines policy.",
+      "related": [
+        "fair-credit-reporting-act",
+        "redlining",
+        "manual-rating",
+        "unfair-discrimination"
+      ],
+      "confusedWith": [
+        "fair-credit-reporting-act"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under New York law, an insurer using credit information for personal lines may NOT",
+        "choices": [
+          "Consider credit as one of several rating factors",
+          "Treat a consumer with no credit file as having neutral credit",
+          "Re-rate a policy using a newer credit report at the consumer's request",
+          "Use credit information to nonrenew a policy"
+        ],
+        "answerIndex": 3,
+        "explanation": "§ 2802(c) bars using credit information to cancel or nonrenew a personal lines policy or to increase the premium on renewal. Credit may be one factor among others; neutral treatment and consumer-requested re-rating are expressly contemplated."
+      },
+      "sources": [
+        "ny-isc-2802"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "manual-rating",
+      "term": "Class (Manual) Rating",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.3.1"
+      ],
+      "formal": "A rating method that groups exposures with similar characteristics into classes and applies a published rate per unit of exposure taken from the insurer's rate manual.",
+      "plain": "Instead of pricing each home or car from scratch, the insurer sorts risks into classes (for example, by construction type, protection class, territory, or driver class) and looks up the rate for that class in its rate manual. Everyone in the same class pays the same rate per unit of exposure. This is the most common way personal lines policies are priced.",
+      "simpler": "It is like a price list: find your class in the book and read off the rate.",
+      "examples": [
+        "Two frame houses in the same territory with the same fire protection class and the same amount of insurance get the same base rate from the manual.",
+        "A personal auto rate is looked up by territory, vehicle type and driver class rather than negotiated individually."
+      ],
+      "examTip": "Class rating = manual rating. When a question describes many similar risks priced from a published table, choose class/manual rating.",
+      "misconception": "Class rating does not mean every policyholder pays the same total premium; the rate per unit is the same, but exposures (amount of insurance, number of cars) differ.",
+      "related": [
+        "schedule-rating",
+        "judgment-rating",
+        "loss-costs",
+        "law-of-large-numbers"
+      ],
+      "confusedWith": [
+        "schedule-rating"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which rating method places similar risks into groups and charges each group a published rate?",
+        "choices": [
+          "Class (manual) rating",
+          "Judgment rating",
+          "Schedule rating",
+          "Retrospective rating"
+        ],
+        "answerIndex": 0,
+        "explanation": "Class or manual rating groups similar exposures and uses a rate from the manual. Judgment rating relies on the underwriter's opinion; schedule rating adds or subtracts debits and credits for specific features."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "schedule-rating",
+      "term": "Schedule Rating",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.3.1"
+      ],
+      "formal": "A merit-rating method that starts from a base (manual) rate and applies debits and credits for specific physical or management characteristics of the individual risk.",
+      "plain": "Schedule rating adjusts a starting rate up or down for features the underwriter can see in the particular risk. A sprinkler system or new roof might earn a credit; poor housekeeping or an old heating system might add a debit. It is most often used for larger or commercial risks that differ from the average member of their class.",
+      "simpler": "Start with the price list, then add points for bad features and subtract points for good ones.",
+      "examples": [
+        "A building with a monitored alarm and sprinklers receives credits that lower its base rate.",
+        "A building with combustible storage near the furnace receives a debit that raises its rate."
+      ],
+      "examTip": "Look for the words debits and credits applied to the features of one specific risk: that is schedule rating.",
+      "misconception": "Schedule rating is not the same as judgment rating; schedule rating follows a defined list of charges and credits, while judgment rating relies on the underwriter's overall opinion without a manual.",
+      "related": [
+        "manual-rating",
+        "judgment-rating"
+      ],
+      "confusedWith": [
+        "judgment-rating"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "An underwriter starts with a base rate and then applies credits for sprinklers and a debit for poor housekeeping. This is",
+        "choices": [
+          "Judgment rating",
+          "Class rating",
+          "Loss cost rating",
+          "Schedule rating"
+        ],
+        "answerIndex": 3,
+        "explanation": "Debits and credits applied to the specific characteristics of an individual risk describe schedule rating."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "judgment-rating",
+      "term": "Judgment Rating",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.3.1"
+      ],
+      "formal": "A rating method in which the rate is set largely by the underwriter's experience and judgment, used when risks are too unique or too few for reliable class statistics.",
+      "plain": "Some risks are so unusual that there is no class to put them in and no table to look up. The underwriter sets a price based on knowledge, experience and the details of that one risk. This is common in ocean marine and other specialty lines, and rare in standard personal lines.",
+      "simpler": "No price list exists, so an expert decides the price.",
+      "examples": [
+        "An underwriter prices coverage for a one-of-a-kind exhibition of artwork traveling by ship using personal judgment.",
+        "A specialty insurer sets a rate for an unusual private collection that does not fit any rating class."
+      ],
+      "examTip": "Judgment rating = no manual, few comparable risks, underwriter's opinion. Contrast with manual (table) and schedule (debits/credits).",
+      "misconception": "Judgment rating is not arbitrary or unfair discrimination; it still must reflect the underwriter's honest evaluation of the risk.",
+      "related": [
+        "manual-rating",
+        "schedule-rating"
+      ],
+      "confusedWith": [
+        "schedule-rating"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which rating method is most likely for a unique risk with no comparable class statistics?",
+        "choices": [
+          "Judgment rating",
+          "Class rating",
+          "Manual rating",
+          "Pure premium rating"
+        ],
+        "answerIndex": 0,
+        "explanation": "When there are too few similar risks to build a class, the underwriter sets the rate by judgment."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "loss-costs",
+      "term": "Loss Costs",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.3.2"
+      ],
+      "formal": "The portion of a rate that covers expected losses and loss adjustment expenses, typically developed by an advisory/rating organization from pooled industry data, to which each insurer adds its own expense and profit loadings.",
+      "plain": "Rating organizations collect loss data from many insurers and calculate how much, on average, must be collected per unit of exposure just to pay claims and the cost of settling them. That figure is the loss cost. Each insurer then adds its own charges for expenses and profit (its loss cost multiplier) to arrive at its final rate.",
+      "simpler": "Loss cost is the part of the price that pays the claims; the insurer adds its own overhead and profit on top.",
+      "examples": [
+        "A rating organization publishes a loss cost of $0.30 per $100 of coverage for a class; Insurer A multiplies it by its own factor to cover expenses and profit.",
+        "Two insurers using the same published loss costs end up with different final rates because their expense loadings differ."
+      ],
+      "examTip": "Loss costs do NOT include the insurer's own operating expenses or profit; those are added by each insurer.",
+      "misconception": "A loss cost is not the final premium the customer pays. It is only the claims-related building block.",
+      "related": [
+        "pure-premium",
+        "expense-loading",
+        "rating-service",
+        "manual-rating"
+      ],
+      "confusedWith": [
+        "pure-premium"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Advisory organizations typically publish loss costs. What must each insurer add to produce its final rate?",
+        "choices": [
+          "A coinsurance penalty",
+          "The policy limit",
+          "Its own expense and profit loadings",
+          "The insured's deductible"
+        ],
+        "answerIndex": 2,
+        "explanation": "Loss costs cover expected losses (and loss adjustment). Each insurer adds its own expense and profit provisions to reach a final rate."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pure-premium",
+      "term": "Pure Premium",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.3.3"
+      ],
+      "formal": "The part of the gross rate needed to pay expected losses (and, in many definitions, loss adjustment expenses), calculated as losses divided by units of exposure.",
+      "plain": "If an insurer expects to pay $50,000 in losses on 1,000 similar houses, it needs $50 per house just to pay those losses. That $50 is the pure premium. It contains no money for commissions, overhead, taxes or profit.",
+      "simpler": "Pure premium is the money set aside only to pay claims.",
+      "examples": [
+        "Losses of $200,000 spread over 4,000 car-years give a pure premium of $50 per car-year.",
+        "A home insurer's pure premium for a territory rises after a series of windstorms increases expected losses."
+      ],
+      "examTip": "Gross rate = pure premium (losses) + loading (expenses, profit, contingencies). If asked which part pays claims, pick pure premium.",
+      "misconception": "Pure premium does not mean the cheapest premium a customer can buy; it is an internal rate component.",
+      "related": [
+        "loss-costs",
+        "expense-loading",
+        "premium"
+      ],
+      "confusedWith": [
+        "loss-costs"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Expected losses of $300,000 are spread over 6,000 exposure units. What is the pure premium per unit?",
+        "choices": [
+          "$50",
+          "$20",
+          "$500",
+          "$5"
+        ],
+        "answerIndex": 0,
+        "explanation": "$300,000 / 6,000 = $50 per exposure unit. Pure premium = losses / exposure units."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "expense-loading",
+      "term": "Expense and Profit Loading",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.3.3"
+      ],
+      "formal": "The portion of the gross rate added to the pure premium to pay the insurer's operating expenses (acquisition costs such as commissions, general expenses, premium taxes and fees) and to provide for profit and contingencies.",
+      "plain": "After figuring out what claims will cost, the insurer adds money to keep the lights on and make a reasonable profit: producer commissions, salaries, rent, premium taxes and a margin for unexpected results. That added amount is the loading. Pure premium plus loading equals the gross rate.",
+      "simpler": "The loading is the overhead and profit added to the claims money.",
+      "examples": [
+        "A rate of $100 consists of a $65 pure premium and a $35 loading for commissions, taxes, overhead and profit.",
+        "An insurer that lowers its acquisition costs can reduce its loading and charge a lower gross rate."
+      ],
+      "examTip": "Producer commissions are part of the expense loading, not the pure premium.",
+      "misconception": "Loading is not a penalty charged to a bad risk; every rate contains a loading.",
+      "related": [
+        "pure-premium",
+        "loss-costs"
+      ],
+      "confusedWith": [
+        "pure-premium"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Producer commissions are paid from which component of the rate?",
+        "choices": [
+          "The pure premium",
+          "The loss reserve",
+          "The deductible",
+          "The expense loading"
+        ],
+        "answerIndex": 3,
+        "explanation": "Commissions are an acquisition expense included in the loading. The pure premium is reserved for expected losses."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "negligence",
+      "term": "Negligence",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.4",
+        "plpc.1.4.1"
+      ],
+      "formal": "The failure to use the degree of care that a reasonably prudent person would use under the same circumstances, resulting in injury or damage to another; a negligent act requires a legal duty, a breach of that duty, damages, and a proximate causal link between the breach and the damages.",
+      "plain": "Negligence is carelessness that the law will make you pay for. To win, the injured person must show four things: (1) you owed them a duty of care, (2) you breached it by acting or failing to act as a reasonable person would, (3) they were actually harmed, and (4) your breach was the proximate cause of that harm. Most personal liability claims under homeowners and auto policies are based on negligence.",
+      "simpler": "If you were careless, someone got hurt, and your carelessness caused it, you may have to pay. That is negligence.",
+      "examples": [
+        "A homeowner knows a stair railing is loose, does nothing, and a guest falls when it gives way. All four elements are present.",
+        "A driver texting while driving rear-ends another car, injuring the other driver."
+      ],
+      "examTip": "Memorize the four elements: Duty, Breach, Damages, Proximate cause (\"D-B-D-P\"). Missing any one element defeats the claim.",
+      "misconception": "Negligence does not require intent to harm. Intentional harm is a separate kind of wrong and is usually excluded by liability policies.",
+      "related": [
+        "proximate-cause",
+        "contributory-negligence",
+        "comparative-negligence",
+        "assumption-of-risk",
+        "strict-liability"
+      ],
+      "confusedWith": [
+        "strict-liability"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which of the following is NOT one of the elements of a negligent act?",
+        "choices": [
+          "Damages proximately caused by the breach",
+          "Intent to cause harm",
+          "A legal duty owed",
+          "A breach of that duty"
+        ],
+        "answerIndex": 1,
+        "explanation": "Negligence requires duty, breach, damages and proximate cause. Intent is not required; intentional acts are a different category."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "contributory-negligence",
+      "term": "Contributory Negligence",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.4.2"
+      ],
+      "formal": "A defense under which an injured party who was even slightly negligent in contributing to his or her own injury is barred from recovering anything from the negligent defendant.",
+      "plain": "Under pure contributory negligence, if you were partly to blame for your own injury, even 1%, you collect nothing. It is a harsh rule that most states have replaced with comparative negligence, but it still appears on licensing exams as one of the classic defenses.",
+      "simpler": "If you helped cause your own accident at all, you get nothing.",
+      "examples": [
+        "A pedestrian who jaywalks is hit by a speeding driver. Under a contributory negligence rule, the pedestrian's own carelessness bars any recovery.",
+        "A guest ignores a posted warning and is injured; under contributory negligence even minor fault by the guest defeats the claim."
+      ],
+      "examTip": "Contributory = all-or-nothing (any fault bars recovery). Comparative = recovery reduced by your percentage of fault.",
+      "misconception": "Contributory negligence does not reduce the award proportionally; that is comparative negligence.",
+      "related": [
+        "comparative-negligence",
+        "assumption-of-risk",
+        "negligence"
+      ],
+      "confusedWith": [
+        "comparative-negligence"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under a pure contributory negligence rule, a plaintiff found 10% at fault recovers",
+        "choices": [
+          "10% of the damages",
+          "The full damages",
+          "Nothing",
+          "90% of the damages"
+        ],
+        "answerIndex": 2,
+        "explanation": "Contributory negligence bars recovery entirely if the plaintiff contributed to the injury at all."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "comparative-negligence",
+      "term": "Comparative Negligence",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.4.2"
+      ],
+      "formal": "A rule that apportions fault between the parties and reduces the injured party's recovery by his or her own percentage of fault.",
+      "plain": "Comparative negligence divides the blame. If a jury finds damages of $100,000 and decides you were 30% responsible for your own injury, you recover $70,000. Under a \"pure\" comparative system you can recover something even if you were mostly at fault; some states use a modified version that bars recovery once your fault reaches a stated threshold.",
+      "simpler": "Blame is split by percentage, and your award shrinks by your share of the blame.",
+      "examples": [
+        "Damages are $50,000 and the injured driver is 20% at fault: recovery is $40,000.",
+        "Damages are $10,000 and the plaintiff is 60% at fault: under a pure comparative rule the plaintiff still recovers $4,000."
+      ],
+      "examTip": "Comparative negligence questions are often arithmetic: Recovery = Total damages × (100% − plaintiff's fault %).",
+      "misconception": "Comparative negligence does not wipe out a claim just because the plaintiff was partly at fault (that is contributory negligence).",
+      "related": [
+        "contributory-negligence",
+        "negligence",
+        "assumption-of-risk"
+      ],
+      "confusedWith": [
+        "contributory-negligence"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Damages are $80,000 and the plaintiff is found 25% at fault. Under pure comparative negligence the plaintiff recovers",
+        "choices": [
+          "Nothing",
+          "$60,000",
+          "$20,000",
+          "$80,000"
+        ],
+        "answerIndex": 1,
+        "explanation": "$80,000 × (100% − 25%) = $60,000."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "assumption-of-risk",
+      "term": "Assumption of Risk",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.4.2"
+      ],
+      "formal": "A defense to negligence asserting that the injured party knew of and voluntarily accepted a known danger, and therefore cannot recover for injuries resulting from it.",
+      "plain": "If you knowingly and willingly expose yourself to a danger, you may be unable to blame someone else when that danger hurts you. A spectator at a baseball game who is hit by a foul ball, or a person who voluntarily rides with a driver they know is impaired, may face this defense.",
+      "simpler": "You knew the danger and chose it anyway, so you cannot blame someone else for it.",
+      "examples": [
+        "A fan sitting behind first base is struck by a foul ball; the stadium argues the fan assumed a known, inherent risk of the game.",
+        "A neighbor who insists on helping to remove a beehive despite warnings is stung and sues; the homeowner raises assumption of risk."
+      ],
+      "examTip": "Two parts: the plaintiff KNEW of the danger and VOLUNTARILY accepted it.",
+      "misconception": "Assumption of risk is not the same as contributory negligence; the plaintiff need not have been careless, only aware and willing.",
+      "related": [
+        "contributory-negligence",
+        "comparative-negligence",
+        "negligence"
+      ],
+      "confusedWith": [
+        "contributory-negligence"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A person who knowingly and voluntarily accepts a known danger may be barred from recovery by which defense?",
+        "choices": [
+          "Vicarious liability",
+          "Strict liability",
+          "Proximate cause",
+          "Assumption of risk"
+        ],
+        "answerIndex": 3,
+        "explanation": "Assumption of risk applies when the injured party knew of the danger and voluntarily accepted it."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "compensatory-damages",
+      "term": "Compensatory Damages",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.5",
+        "plpc.1.5.1"
+      ],
+      "formal": "Damages awarded to make an injured party whole by compensating for actual losses; they are divided into special damages (measurable out-of-pocket losses) and general damages (non-economic losses such as pain and suffering).",
+      "plain": "Compensatory damages are meant to repay what the victim actually lost. Some losses have receipts, like medical bills and lost wages (special damages). Others do not, like pain, suffering and disfigurement (general damages). Together they try to put the victim back where they were before the injury.",
+      "simpler": "Compensatory damages pay the victim back for real harm, with or without a receipt.",
+      "examples": [
+        "An injured cyclist is awarded $12,000 for medical bills and lost pay and $30,000 for pain and suffering; all $42,000 is compensatory.",
+        "A homeowner whose fence is destroyed by a careless driver recovers the cost of rebuilding it."
+      ],
+      "examTip": "Compensatory = special + general. Punitive damages are NOT compensatory; they punish.",
+      "misconception": "Compensatory damages are not limited to items with a receipt; general damages are also compensatory.",
+      "related": [
+        "special-damages",
+        "general-damages",
+        "punitive-damages",
+        "indemnity"
+      ],
+      "confusedWith": [
+        "punitive-damages"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Compensatory damages are made up of which two types?",
+        "choices": [
+          "Punitive damages and general damages",
+          "Special damages and punitive damages",
+          "Direct loss and indirect loss",
+          "Special damages and general damages"
+        ],
+        "answerIndex": 3,
+        "explanation": "Compensatory damages include special (economic, measurable) and general (non-economic) damages. Punitive damages punish rather than compensate."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "special-damages",
+      "term": "Special Damages",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.5.1"
+      ],
+      "formal": "Compensatory damages for specific, measurable economic losses, such as medical expenses, lost wages and the cost to repair or replace property.",
+      "plain": "Special damages are the losses you can add up from bills and pay stubs: hospital charges, physical therapy, lost earnings and repair estimates. Because they can be documented, they are relatively easy to calculate.",
+      "simpler": "If you can show a bill or receipt for it, it is a special damage.",
+      "examples": [
+        "$8,500 in hospital bills and $3,000 in lost wages after a slip-and-fall.",
+        "$4,200 to repair a neighbor's garage after a homeowner's tree falls on it through the homeowner's negligence."
+      ],
+      "examTip": "Special = Specific dollar amounts. General = pain, suffering and other non-economic harm.",
+      "misconception": "Special damages are not \"special\" because they are unusual; the name means they are particular, itemized amounts.",
+      "related": [
+        "general-damages",
+        "compensatory-damages"
+      ],
+      "confusedWith": [
+        "general-damages"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which of the following is an example of special damages?",
+        "choices": [
+          "Lost wages",
+          "Pain and suffering",
+          "Mental anguish",
+          "Damages meant to punish the defendant"
+        ],
+        "answerIndex": 0,
+        "explanation": "Lost wages are measurable economic losses, so they are special damages. Pain and mental anguish are general damages; punishment is punitive."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "general-damages",
+      "term": "General Damages",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.5.1"
+      ],
+      "formal": "Compensatory damages for non-economic losses that cannot be precisely measured in money, such as pain and suffering, mental anguish, disfigurement and loss of enjoyment of life.",
+      "plain": "Some harm has no price tag: chronic pain, scarring, emotional distress, or no longer being able to enjoy a hobby. A judge or jury assigns a dollar value to these losses. They are still compensatory because they make up for harm the victim actually suffered.",
+      "simpler": "General damages pay for hurt you cannot attach a receipt to.",
+      "examples": [
+        "A jury awards $50,000 for the pain and permanent scarring caused by a dog bite.",
+        "A driver injured in a crash receives an amount for the anxiety and loss of enjoyment of life that followed."
+      ],
+      "examTip": "If the item has no invoice (pain, suffering, disfigurement), it is general damages.",
+      "misconception": "General damages are not punitive; they compensate the victim rather than punish the wrongdoer.",
+      "related": [
+        "special-damages",
+        "compensatory-damages",
+        "punitive-damages"
+      ],
+      "confusedWith": [
+        "special-damages"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Pain and suffering awarded to an injured person is classified as",
+        "choices": [
+          "Consequential loss",
+          "General damages",
+          "Special damages",
+          "Punitive damages"
+        ],
+        "answerIndex": 1,
+        "explanation": "Pain and suffering are non-economic, so they are general (compensatory) damages."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "punitive-damages",
+      "term": "Punitive Damages",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.5.2"
+      ],
+      "formal": "Damages awarded in addition to compensatory damages to punish a defendant for grossly negligent, reckless, malicious or intentional conduct and to deter similar conduct.",
+      "plain": "Punitive (or exemplary) damages are not meant to repay the victim. They are a penalty, awarded when the defendant's behavior was outrageous, such as extreme recklessness or intentional harm. Whether insurance may pay punitive damages depends on state law and the policy; the key idea for the exam is their purpose: to punish and deter.",
+      "simpler": "Punitive damages are a fine paid to the victim to punish very bad behavior.",
+      "examples": [
+        "A jury awards $25,000 in compensatory damages plus $100,000 in punitive damages against a driver who caused a crash while racing on a public street.",
+        "A landlord who knowingly ignored repeated warnings about a dangerous condition is ordered to pay punitive damages on top of the victim's medical costs."
+      ],
+      "examTip": "Purpose words in questions: punish, deter, make an example. Those signal punitive damages.",
+      "misconception": "Punitive damages are not a type of compensatory damage and are not based on the victim's actual loss.",
+      "related": [
+        "compensatory-damages",
+        "general-damages"
+      ],
+      "confusedWith": [
+        "general-damages"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "The main purpose of punitive damages is to",
+        "choices": [
+          "Reimburse medical bills",
+          "Compensate for pain and suffering",
+          "Pay for property repairs",
+          "Punish the wrongdoer and deter similar conduct"
+        ],
+        "answerIndex": 3,
+        "explanation": "Punitive damages punish and deter. Medical bills and repairs are special damages; pain and suffering is general damages."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "absolute-liability",
+      "term": "Absolute Liability",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.5.3"
+      ],
+      "formal": "Liability imposed regardless of fault or negligence, and without the usual defenses, for injuries caused by inherently or ultra-hazardous activities or conditions.",
+      "plain": "Some activities are so dangerous that the law says: if you do this and someone is hurt, you pay, period. Blasting with explosives, keeping wild animals, and certain hazardous-materials activities are classic examples. The injured person does not have to prove carelessness.",
+      "simpler": "If you do something extremely dangerous and it hurts someone, you pay even if you were very careful.",
+      "examples": [
+        "A demolition company uses dynamite with every precaution, but flying debris damages a nearby house; the company is liable regardless of care.",
+        "A person keeps a pet tiger, which escapes and injures a neighbor; liability does not depend on proving negligence."
+      ],
+      "examTip": "Absolute liability = ultra-hazardous activity + no need to prove fault. Many texts use 'absolute' and 'strict' liability almost interchangeably; when a question emphasizes extreme, inherently dangerous activities, pick absolute.",
+      "misconception": "Absolute liability does not require the defendant to have done anything careless; extreme care is no defense.",
+      "related": [
+        "strict-liability",
+        "negligence",
+        "vicarious-liability"
+      ],
+      "confusedWith": [
+        "strict-liability"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Liability imposed on a blasting contractor without proof of negligence because the activity is ultra-hazardous is called",
+        "choices": [
+          "Vicarious liability",
+          "Contributory negligence",
+          "Comparative negligence",
+          "Absolute liability"
+        ],
+        "answerIndex": 3,
+        "explanation": "Ultra-hazardous activities such as blasting create absolute liability: no showing of fault is needed."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "strict-liability",
+      "term": "Strict Liability",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.5.4"
+      ],
+      "formal": "Liability imposed without proof of negligence because of the nature of the activity or product involved, such as manufacturing a defective product or owning certain dangerous animals; limited defenses (such as misuse or assumption of risk) may still apply.",
+      "plain": "With strict liability, the injured person does not have to prove you were careless, only that the situation the law covers (for example, a defective product) caused the injury. Product manufacturers are a common example: if a defective space heater starts a fire, the maker can be liable even though it was careful.",
+      "simpler": "You can be responsible for harm even without being careless, because the law puts the risk on you.",
+      "examples": [
+        "A defective ladder collapses and injures the buyer; the manufacturer is liable without proof of negligence.",
+        "A homeowner's dog with a known history of biting injures a visitor; many jurisdictions impose liability without proof of negligence for animals with known dangerous tendencies."
+      ],
+      "examTip": "Strict liability: no fault needed, but some defenses can remain. Absolute liability: no fault needed and essentially no defenses (ultra-hazardous activities).",
+      "misconception": "Strict liability is not the same as vicarious liability. Vicarious liability makes you answer for someone ELSE'S fault.",
+      "related": [
+        "absolute-liability",
+        "vicarious-liability",
+        "negligence"
+      ],
+      "confusedWith": [
+        "absolute-liability",
+        "negligence"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A manufacturer is held liable for injuries caused by its defective product even though no negligence was proven. This is",
+        "choices": [
+          "Assumption of risk",
+          "Strict liability",
+          "Vicarious liability",
+          "Comparative negligence"
+        ],
+        "answerIndex": 1,
+        "explanation": "Liability without proof of fault for a defective product is strict liability."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "vicarious-liability",
+      "term": "Vicarious Liability",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.5.5"
+      ],
+      "formal": "Liability imposed on one party for the negligent acts of another because of the relationship between them, such as employer–employee, principal–agent, or (by statute in some situations) vehicle owner–permissive driver.",
+      "plain": "Vicarious liability makes one person answer for another person's carelessness. An employer can be sued when an employee causes an accident while doing the employer's work. A parent or vehicle owner may be liable in some situations because of the relationship with the person who actually caused the harm. The person who pays did not personally do anything wrong.",
+      "simpler": "You can be blamed for what someone acting for you did.",
+      "examples": [
+        "A pizza shop's delivery driver runs a red light while delivering an order; the injured person sues the shop as well as the driver.",
+        "A car owner lends the car to a friend, who causes a crash; the owner may be held responsible because of the owner–permissive driver relationship."
+      ],
+      "examTip": "Look for a RELATIONSHIP (employer, principal, owner) plus someone ELSE'S negligence. That signals vicarious liability.",
+      "misconception": "Vicarious liability does not mean the defendant was personally careless; the liability is imputed from another person.",
+      "related": [
+        "negligence",
+        "strict-liability",
+        "law-of-agency"
+      ],
+      "confusedWith": [
+        "strict-liability"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "An employer is sued because its employee negligently injured a customer while on the job. The employer's liability is",
+        "choices": [
+          "Contributory liability",
+          "Vicarious liability",
+          "Absolute liability",
+          "Strict liability"
+        ],
+        "answerIndex": 1,
+        "explanation": "Liability that flows to the employer because of its relationship with the negligent employee is vicarious liability."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "proximate-cause",
+      "term": "Proximate Cause",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.5.7",
+        "plpc.1.4.1"
+      ],
+      "formal": "The cause that, in a natural and continuous sequence unbroken by any new, independent cause, produces a loss or injury, and without which the loss would not have occurred.",
+      "plain": "Proximate cause is the event that sets off an unbroken chain leading to the loss. In property insurance, if a covered peril starts the chain, the resulting damage is generally treated as caused by that peril. For example, if lightning (covered) strikes a house, starts a fire, and firefighters' water ruins the furniture, the lightning is the proximate cause of all of it. In liability, proximate cause is the element that ties the defendant's breach to the victim's harm.",
+      "simpler": "Follow the chain of events back to the domino that started them all falling: that is the proximate cause.",
+      "examples": [
+        "A windstorm tears off part of a roof and rain then pours in and ruins the contents. The wind is the proximate cause of the water damage because it opened the roof.",
+        "A driver's negligence causes a crash that knocks down a utility pole, which then falls on a parked car. The driver's negligence is the proximate cause of the parked car's damage."
+      ],
+      "examTip": "Proximate cause is about an UNBROKEN chain of events. A new, independent cause breaks the chain.",
+      "misconception": "The proximate cause is not necessarily the last event before the loss (that is the immediate cause); it is the one that set the whole sequence in motion.",
+      "related": [
+        "direct-loss",
+        "negligence",
+        "peril",
+        "named-perils-coverage"
+      ],
+      "confusedWith": [
+        "direct-loss"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Lightning strikes a house, starting a fire, and the fire department's water damages the contents. What is the proximate cause of the water damage?",
+        "choices": [
+          "Water",
+          "The fire department",
+          "Vandalism",
+          "Lightning"
+        ],
+        "answerIndex": 3,
+        "explanation": "Lightning started an unbroken chain of events (fire, then firefighting water), so lightning is the proximate cause of all the resulting damage."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "named-perils-coverage",
+      "term": "Named Perils Coverage",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.5.6",
+        "plpc.1.5.8"
+      ],
+      "formal": "Property coverage that insures only against loss caused by the perils specifically listed in the policy; a loss from any unlisted peril is not covered.",
+      "plain": "A named perils policy gives you a list, such as fire, lightning, windstorm, hail, explosion, theft. If your loss was caused by something on the list, it is covered (subject to the rest of the policy). If the cause is not on the list, there is no coverage. The insured has the burden of showing that a listed peril caused the loss.",
+      "simpler": "If the cause is on the list, you are covered. If it is not on the list, you are not.",
+      "examples": [
+        "A named perils policy lists windstorm but not flood; wind damage to a roof is covered, but rising floodwater in the basement is not.",
+        "A basic dwelling form covers fire and lightning; a dog chewing the furniture is not a listed peril and is not covered."
+      ],
+      "examTip": "Burden of proof: under named perils, the INSURED must show a listed peril caused the loss. Under open perils, the INSURER must show an exclusion applies.",
+      "misconception": "Named perils does not mean every common cause of loss is included; anything not named is excluded by default.",
+      "related": [
+        "open-perils-coverage",
+        "peril",
+        "proximate-cause"
+      ],
+      "confusedWith": [
+        "open-perils-coverage"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Under a named perils policy, a loss is covered only if",
+        "choices": [
+          "It exceeds the deductible by 80%",
+          "The insured was not negligent",
+          "It was caused by a peril listed in the policy",
+          "It is not specifically excluded"
+        ],
+        "answerIndex": 2,
+        "explanation": "Named perils coverage applies only to causes of loss that are listed. 'Covered unless excluded' describes open perils."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "open-perils-coverage",
+      "term": "Open (Special) Perils Coverage",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.5.8"
+      ],
+      "formal": "Property coverage that insures against risk of direct physical loss from any cause except those specifically excluded; often called special form or, historically, all-risk coverage.",
+      "plain": "Instead of listing what is covered, an open perils policy covers every cause of direct physical loss unless the policy excludes it. Common exclusions include flood, earth movement, wear and tear, and intentional loss. Because the insured does not have to prove a specific listed peril, open perils is broader than named perils, and the insurer must show that an exclusion applies to deny a claim.",
+      "simpler": "Everything is covered unless the policy says it is not.",
+      "examples": [
+        "Paint accidentally spilled across a hardwood floor is covered under open perils (absent an exclusion), even though \"spilled paint\" is not a named peril anywhere.",
+        "A homeowner with special form coverage on the dwelling has a claim denied only after the insurer shows the damage was caused by excluded wear and tear."
+      ],
+      "examTip": "Open perils = \"covered unless excluded\" and the burden is on the INSURER to prove an exclusion. Avoid the phrase \"all-risk\" meaning everything is covered: exclusions still apply.",
+      "misconception": "Open perils is not \"all risks covered.\" Flood, earth movement, wear and tear and other exclusions still apply.",
+      "related": [
+        "named-perils-coverage",
+        "peril",
+        "exclusion"
+      ],
+      "confusedWith": [
+        "named-perils-coverage"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Under an open perils policy, who generally must prove whether an exclusion applies to deny a loss?",
+        "choices": [
+          "The insured",
+          "The mortgagee",
+          "The producer",
+          "The insurer"
+        ],
+        "answerIndex": 3,
+        "explanation": "Open perils covers any direct physical loss not excluded, so the insurer must show that an exclusion applies."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "direct-loss",
+      "term": "Direct Loss",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.5.9"
+      ],
+      "formal": "Physical damage to or destruction of property caused directly by an insured peril, or the immediate result of that peril in an unbroken chain of events.",
+      "plain": "Direct loss is the damage to the thing itself: the burned walls, the smashed window, the wind-torn roof. Property policies are built mainly to cover direct physical loss. Losses that flow later from that damage, such as lost rent or extra living expenses, are indirect (consequential) losses.",
+      "simpler": "Direct loss is the damage you can see and touch on the property itself.",
+      "examples": [
+        "A kitchen fire chars the cabinets and walls; the cost to repair them is direct loss.",
+        "Hail dents a car's hood and cracks the windshield; the repairs are direct loss."
+      ],
+      "examTip": "Ask: is this the physical damage itself (direct) or a financial result of the damage (indirect/consequential)?",
+      "misconception": "Direct loss does not include loss of income or additional living expenses that result from the damage.",
+      "related": [
+        "consequential-loss",
+        "proximate-cause"
+      ],
+      "confusedWith": [
+        "consequential-loss"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which of the following is a direct loss after a house fire?",
+        "choices": [
+          "Extra commuting costs",
+          "The cost to rebuild the burned garage",
+          "Hotel bills while the house is repaired",
+          "Rent lost from a tenant"
+        ],
+        "answerIndex": 1,
+        "explanation": "Physical damage to the property itself is direct loss. Hotel bills, lost rent and extra costs are indirect (consequential) losses."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "consequential-loss",
+      "term": "Consequential (Indirect) Loss",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.5.10"
+      ],
+      "formal": "A financial loss that results from a direct physical loss, such as loss of use, additional living expense, loss of rents, loss of business income, or spoilage, rather than damage to the property itself.",
+      "plain": "When property is damaged, money problems often follow: you may need to live in a hotel, lose rent from a tenant, or have food spoil when the power fails. These follow-on losses are called consequential or indirect losses. Policies cover them only when they include specific coverage, such as Coverage D (loss of use) in a homeowners policy or fair rental value in a dwelling policy.",
+      "simpler": "It is the money you lose because of the damage, not the damage itself.",
+      "examples": [
+        "After a fire makes a home unlivable, the family spends $3,000 extra on a rental apartment and restaurant meals.",
+        "A landlord loses three months of rent while a burned rental unit is rebuilt."
+      ],
+      "examTip": "Indirect loss = consequential loss. Typical examples: additional living expense, fair rental value, loss of rents, business income.",
+      "misconception": "Consequential losses are not automatically covered just because the property damage is covered; the policy must provide specific coverage for them.",
+      "related": [
+        "direct-loss",
+        "additional-living-expense",
+        "fair-rental-value",
+        "coverage-d-loss-of-use"
+      ],
+      "confusedWith": [
+        "direct-loss"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Additional living expenses incurred while a damaged home is repaired are an example of",
+        "choices": [
+          "Salvage",
+          "Consequential (indirect) loss",
+          "Direct loss",
+          "Special damages"
+        ],
+        "answerIndex": 1,
+        "explanation": "Additional living expenses flow from the direct damage, so they are an indirect, or consequential, loss."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "specific-insurance",
+      "term": "Specific Insurance",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.5.11"
+      ],
+      "formal": "Property insurance in which a separate amount of insurance applies to each specifically described item or location, so that each limit can be used only for loss to that item or location.",
+      "plain": "With specific insurance, each building or item has its own limit. If you insure your house for $300,000 and your detached garage for $30,000 specifically, a $40,000 garage loss is capped at $30,000, even if the house limit has plenty left over. Specific coverage is the normal approach in personal lines (for example, separate limits for the dwelling and other structures).",
+      "simpler": "Each item has its own bucket of money, and you cannot borrow from another bucket.",
+      "examples": [
+        "A dwelling policy lists $250,000 on the home and $25,000 on a barn; a $35,000 barn loss pays at most $25,000.",
+        "A scheduled personal property endorsement lists a ring at $8,000 and a watch at $4,000; each limit applies only to that item."
+      ],
+      "examTip": "Specific = one limit per item or location. Blanket = one limit spread over several items or locations.",
+      "misconception": "Specific insurance does not let the insured shift an unused limit from one item to another.",
+      "related": [
+        "blanket-property-coverage",
+        "scheduled-personal-property",
+        "sublimit"
+      ],
+      "confusedWith": [
+        "blanket-property-coverage"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A policy that sets a separate amount of insurance for each described building is",
+        "choices": [
+          "Blanket insurance",
+          "Excess insurance",
+          "Self-insured retention",
+          "Specific insurance"
+        ],
+        "answerIndex": 3,
+        "explanation": "A separate limit for each item or location describes specific insurance. Blanket insurance applies one limit across several items or locations."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "blanket-property-coverage",
+      "term": "Blanket Property Coverage",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.5.11"
+      ],
+      "formal": "Property insurance in which a single amount of insurance applies to two or more items of property, kinds of property, or locations combined, rather than a separate limit for each.",
+      "plain": "Blanket coverage puts several buildings or categories of property under one shared limit. If a business owns three warehouses and buys a $3 million blanket limit, a large loss at one location can use more of the limit than that building's individual value. Blanket coverage is more common in commercial insurance and usually requires a high coinsurance percentage or a statement of values.",
+      "simpler": "One big bucket of money covers several things, and any of them can draw from it.",
+      "examples": [
+        "A landlord with four rental buildings buys one $2 million blanket limit; a $700,000 fire at one building can be paid from the shared limit.",
+        "A blanket limit on all business personal property at three locations responds wherever the inventory happens to be when the loss occurs."
+      ],
+      "examTip": "Blanket = one limit, several items or locations. Good for values that move between locations.",
+      "misconception": "Blanket coverage does not create unlimited coverage; the total paid for all items in one loss still cannot exceed the single blanket limit.",
+      "related": [
+        "specific-insurance",
+        "property-coinsurance-clause"
+      ],
+      "confusedWith": [
+        "specific-insurance"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A single amount of insurance covering three buildings at different locations is an example of",
+        "choices": [
+          "Blanket coverage",
+          "Specific coverage",
+          "A sublimit",
+          "Split limits"
+        ],
+        "answerIndex": 0,
+        "explanation": "One limit applying to several buildings or locations is blanket coverage."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "construction-classes",
+      "term": "Basic Types of Construction",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.5.12"
+      ],
+      "formal": "Underwriting and rating categories for buildings based on the materials used in walls, floors and roofs, commonly frame, joisted masonry (masonry), noncombustible, masonry noncombustible, modified fire-resistive and fire-resistive.",
+      "plain": "How a building is built affects how easily it burns, so underwriters sort buildings by construction type. A wood-frame house burns more readily than a brick building, and a concrete-and-steel high-rise resists fire best of all. Construction type, together with occupancy, protection (fire department and hydrants) and exposure, helps set property rates.",
+      "simpler": "Wood burns easily, brick resists better, and concrete and protected steel resist best; rates follow that order.",
+      "examples": [
+        "A typical suburban wood-frame home is frame construction and usually carries a higher fire rate than a similar brick home.",
+        "An office tower of reinforced concrete is fire-resistive construction, the best class for fire."
+      ],
+      "examTip": "Order from most to least combustible: frame, joisted masonry, noncombustible, masonry noncombustible, modified fire-resistive, fire-resistive. Remember the property-rating factors as COPE: Construction, Occupancy, Protection, Exposure.",
+      "misconception": "Brick veneer over a wood frame is still treated as frame construction; the outer layer of brick does not make the structure masonry.",
+      "related": [
+        "manual-rating",
+        "hazard",
+        "physical-hazard"
+      ],
+      "confusedWith": [],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which construction type is generally the MOST susceptible to fire damage?",
+        "choices": [
+          "Masonry noncombustible",
+          "Modified fire-resistive",
+          "Frame",
+          "Fire-resistive"
+        ],
+        "answerIndex": 2,
+        "explanation": "Frame (wood) construction is the most combustible class; fire-resistive is the least."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "actual-cash-value",
+      "term": "Actual Cash Value (ACV)",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.6",
+        "plpc.1.6.1",
+        "plpc.3.13.4"
+      ],
+      "formal": "A loss valuation method commonly defined as replacement cost at the time of loss minus depreciation (physical wear, age and obsolescence).",
+      "plain": "Actual cash value pays what the damaged property was worth in its used condition. The usual formula is: what it would cost to replace today minus depreciation. A 10-year-old sofa does not get you a brand-new sofa; it gets you the value of a 10-year-old sofa. ACV is the traditional measure of indemnity in property insurance.",
+      "simpler": "ACV pays what your used item was worth, not what a new one costs.",
+      "examples": [
+        "A roof costs $20,000 to replace today and is 40% depreciated: ACV = $20,000 − $8,000 = $12,000.",
+        "A five-year-old TV that would cost $1,000 new, depreciated 50%, has an ACV of $500."
+      ],
+      "examTip": "Formula: ACV = Replacement cost − Depreciation. Depreciation includes age, wear and tear and obsolescence.",
+      "misconception": "ACV is not the original purchase price; it starts from today's replacement cost.",
+      "related": [
+        "replacement-cost",
+        "market-value",
+        "indemnity"
+      ],
+      "confusedWith": [
+        "replacement-cost",
+        "market-value"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A furnace would cost $6,000 to replace today and has depreciated 30%. What is its actual cash value?",
+        "choices": [
+          "$4,200",
+          "$6,000",
+          "$1,800",
+          "$7,800"
+        ],
+        "answerIndex": 0,
+        "explanation": "ACV = $6,000 − ($6,000 × 30%) = $6,000 − $1,800 = $4,200."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "replacement-cost",
+      "term": "Replacement Cost",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.6.2",
+        "plpc.3.13.4"
+      ],
+      "formal": "A loss valuation method that pays the cost to repair or replace damaged property with new property of like kind and quality, without deduction for depreciation, usually subject to the policy limit and to conditions such as actually repairing or replacing.",
+      "plain": "Replacement cost pays what it costs today to put back the same kind and quality of property, new, with no subtraction for age or wear. Many policies first pay actual cash value and then pay the rest (the depreciation holdback) once the insured actually repairs or replaces the property. In homeowners policies, full replacement cost on the dwelling usually requires carrying insurance equal to a stated percentage of replacement cost (commonly 80%).",
+      "simpler": "Replacement cost buys you new for old, without subtracting for age.",
+      "examples": [
+        "A 12-year-old roof destroyed by wind costs $18,000 to replace; replacement cost coverage pays $18,000 (less the deductible), not a depreciated amount.",
+        "A homeowner receives the ACV first and collects the depreciation holdback after the kitchen is actually rebuilt."
+      ],
+      "examTip": "Replacement cost = no depreciation deduction. ACV = replacement cost minus depreciation.",
+      "misconception": "Replacement cost does not guarantee payment above the policy limit; that is guaranteed replacement cost.",
+      "related": [
+        "actual-cash-value",
+        "guaranteed-replacement-cost",
+        "functional-replacement-cost",
+        "property-coinsurance-clause"
+      ],
+      "confusedWith": [
+        "actual-cash-value"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which valuation method pays to repair or replace damaged property with like kind and quality without deducting depreciation?",
+        "choices": [
+          "Market value",
+          "Stated amount",
+          "Replacement cost",
+          "Actual cash value"
+        ],
+        "answerIndex": 2,
+        "explanation": "Replacement cost pays new for old without depreciation. ACV subtracts depreciation."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "guaranteed-replacement-cost",
+      "term": "Guaranteed Replacement Cost",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.6.2.1"
+      ],
+      "formal": "A valuation option under which the insurer agrees to pay the full cost to rebuild the dwelling with like kind and quality even if that cost exceeds the stated policy limit, usually conditioned on insuring to full value and reporting alterations.",
+      "plain": "Normal replacement cost coverage stops at the policy limit. Guaranteed replacement cost removes that ceiling for the dwelling: if construction costs spike after a disaster and rebuilding costs more than the limit, the insurer still pays to rebuild. Insurers that offer it typically require the home to be insured to 100% of its estimated replacement cost and require the owner to report additions. Some insurers offer extended replacement cost instead, which pays a stated percentage above the limit.",
+      "simpler": "Guaranteed means the insurer pays to rebuild your house even if it costs more than the limit.",
+      "examples": [
+        "A house is insured for $400,000 with guaranteed replacement cost; after a regional storm, rebuilding costs $460,000, and the insurer pays the full $460,000.",
+        "With extended (not guaranteed) replacement cost of 25%, the same $400,000 limit would pay at most $500,000."
+      ],
+      "examTip": "Guaranteed replacement cost is the only option on this list that can pay MORE than the dwelling limit without a fixed cap.",
+      "misconception": "Guaranteed replacement cost usually does not override other limits such as ordinance or law; and it requires insuring to full value at the start.",
+      "related": [
+        "replacement-cost",
+        "functional-replacement-cost",
+        "ordinance-or-law-coverage"
+      ],
+      "confusedWith": [
+        "replacement-cost"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which loss settlement option can pay more than the dwelling limit to rebuild the home?",
+        "choices": [
+          "Functional replacement cost",
+          "Actual cash value",
+          "Stated amount",
+          "Guaranteed replacement cost"
+        ],
+        "answerIndex": 3,
+        "explanation": "Guaranteed replacement cost pays the full cost to rebuild even above the policy limit, subject to its conditions."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "functional-replacement-cost",
+      "term": "Functional Replacement Cost",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.6.2.2"
+      ],
+      "formal": "A valuation method that pays the cost to repair or replace damaged property with less costly materials that perform the same function, rather than with identical materials of like kind and quality.",
+      "plain": "Older homes often contain features that would be very expensive to reproduce today, such as ornate plaster walls, hand-carved woodwork or slate roofs. Functional replacement cost pays to replace them with modern materials that do the same job, such as drywall instead of plaster. It is often used for older homes whose market value is far below the cost to rebuild them exactly as they were. (The ISO homeowners program offers this through the Modified Coverage Form, HO-8.)",
+      "simpler": "It pays to put back something that works the same way, not an exact antique copy.",
+      "examples": [
+        "A 1910 home with hand-plastered walls is repaired with standard drywall after a fire.",
+        "A slate roof is replaced with quality asphalt shingles that serve the same purpose."
+      ],
+      "examTip": "Functional = same FUNCTION, cheaper modern materials. Common association: older homes and the modified coverage form (HO-8).",
+      "misconception": "Functional replacement cost is not ACV; it does not subtract depreciation, it changes the materials used.",
+      "related": [
+        "replacement-cost",
+        "guaranteed-replacement-cost",
+        "ho-modified-coverage-form"
+      ],
+      "confusedWith": [
+        "replacement-cost"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Replacing ornate plaster walls with drywall after a covered loss is an example of which valuation approach?",
+        "choices": [
+          "Agreed value",
+          "Market value",
+          "Functional replacement cost",
+          "Guaranteed replacement cost"
+        ],
+        "answerIndex": 2,
+        "explanation": "Functional replacement cost uses modern, less expensive materials that perform the same function."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "market-value",
+      "term": "Market Value",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.6.3"
+      ],
+      "formal": "The price a willing buyer would pay a willing seller for property in its current condition, with neither under pressure to act; for real estate it includes the value of the land and the effect of location.",
+      "plain": "Market value is what something would sell for today. For a house, market value reflects the neighborhood, the land and demand, which have nothing to do with the cost of rebuilding the building. That is why insurers usually value homes by replacement cost or ACV, not market value. Market value is used more often for items with active resale markets, such as autos (where ACV is usually tied to market data).",
+      "simpler": "Market value is what someone would actually pay you for it today.",
+      "examples": [
+        "A house that would sell for $650,000 sits on land worth $300,000; the building itself might cost $320,000 to rebuild, so market value is a poor measure of the insured loss.",
+        "A totaled car is valued by looking at what comparable used cars are selling for in the local market."
+      ],
+      "examTip": "Insurance-to-value on a home is based on replacement cost of the BUILDING, not market value, because market value includes land that does not burn.",
+      "misconception": "Market value is not the same as replacement cost; a home's market value can be far above or far below what it costs to rebuild.",
+      "related": [
+        "actual-cash-value",
+        "replacement-cost",
+        "agreed-value"
+      ],
+      "confusedWith": [
+        "actual-cash-value"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Why is market value a poor basis for insuring a house?",
+        "choices": [
+          "It cannot be measured",
+          "It ignores the policy deductible",
+          "It includes land value and location, which do not reflect rebuilding cost",
+          "It always exceeds replacement cost"
+        ],
+        "answerIndex": 2,
+        "explanation": "Market value reflects land and location. The insured exposure is the cost to rebuild the structure, which can differ greatly."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "agreed-value",
+      "term": "Agreed Value",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.6.4"
+      ],
+      "formal": "A valuation method in which the insurer and insured agree in advance on the value of the property, and that amount is paid in the event of a total loss without depreciation or proof of value at the time of loss.",
+      "plain": "For items whose value is hard to prove after a loss, such as fine art, collectibles or classic cars, the insurer and the insured settle on a value when the policy is written, often after an appraisal. If the item is totally destroyed, the insurer pays that agreed amount. Agreed value can also be used to suspend a coinsurance clause.",
+      "simpler": "You and the insurer agree on the price up front, so there is no argument after a total loss.",
+      "examples": [
+        "A collector's car is insured on an agreed value of $85,000 after an appraisal; it is stolen and never recovered, and the insurer pays $85,000.",
+        "A painting appraised and scheduled at $40,000 is destroyed by fire and the insurer pays $40,000."
+      ],
+      "examTip": "Agreed value pays the agreed amount on a total loss. Stated amount pays the LESSER of the stated amount or ACV (or the cost to repair or replace).",
+      "misconception": "Agreed value is not the same as stated amount; with stated amount the insurer can still pay less than the stated figure.",
+      "related": [
+        "stated-amount",
+        "market-value",
+        "scheduled-personal-property"
+      ],
+      "confusedWith": [
+        "stated-amount"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "An antique painting appraised at policy inception is destroyed. The insurer pays the amount set when the policy was written. This valuation is",
+        "choices": [
+          "Actual cash value",
+          "Functional replacement cost",
+          "Agreed value",
+          "Stated amount"
+        ],
+        "answerIndex": 2,
+        "explanation": "Agreed value pays the pre-agreed amount on a total loss without re-valuing the property."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "stated-amount",
+      "term": "Stated Amount",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.6.5"
+      ],
+      "formal": "A valuation method, common in auto physical damage for customized or unusual vehicles, in which the policy shows an amount of insurance but the insurer pays the least of the stated amount, the actual cash value, or the cost to repair or replace.",
+      "plain": "Stated amount sounds like a promise to pay a set figure, but it is really a ceiling. The policy lists an amount, and the insurer pays the lowest of that amount, the property's actual cash value, or the repair or replacement cost. So if the vehicle's ACV at the time of loss is lower than the stated amount, the insured receives the lower ACV.",
+      "simpler": "The stated amount is the most you can get, not a guaranteed payout.",
+      "examples": [
+        "A customized van is insured for a stated amount of $40,000. At the time of a total loss its ACV is $34,000, so the insurer pays $34,000.",
+        "A show car with a $60,000 stated amount is damaged; repairs cost $9,000, which is the lowest figure, so $9,000 is paid (less the deductible)."
+      ],
+      "examTip": "Stated amount = \"least of\" (stated amount, ACV, repair/replace). Compare agreed value, which pays the agreed amount on a total loss.",
+      "misconception": "A stated amount is not an agreed value; the insured can collect less than the amount shown on the policy.",
+      "related": [
+        "agreed-value",
+        "actual-cash-value"
+      ],
+      "confusedWith": [
+        "agreed-value"
+      ],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "A vehicle is insured for a stated amount of $30,000. At the time of a total loss its ACV is $26,000. What does the insurer pay before the deductible?",
+        "choices": [
+          "$28,000",
+          "$4,000",
+          "$26,000",
+          "$30,000"
+        ],
+        "answerIndex": 2,
+        "explanation": "Stated amount coverage pays the least of the stated amount ($30,000) and the ACV ($26,000), so the insurer pays $26,000."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "declarations-page",
+      "term": "Declarations",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.2",
+        "plpc.2.1"
+      ],
+      "formal": "The section of a policy, usually the first page or pages, that identifies the specific insured, insured property or exposures, policy period, coverages, limits, deductibles, premium, forms and endorsements attached, and other information unique to that policy.",
+      "plain": "The declarations (\"dec page\") personalize a standard policy form. They answer who (the named insured), what (the property or vehicles), where (the location), when (the policy period), how much (limits, deductibles and premium) and which forms are attached. If you want to know the facts of a particular policy, look at the declarations.",
+      "simpler": "The dec page is the summary sheet that says whose policy this is, what it covers, for how long and for how much.",
+      "examples": [
+        "A homeowners declarations page lists the named insured, the residence premises, Coverage A through F limits, the deductible and the annual premium.",
+        "An auto declarations page lists each covered vehicle, the listed drivers, the liability limits and the physical damage deductibles."
+      ],
+      "examTip": "Mnemonic for policy structure: DICE = Declarations, Insuring agreement, Conditions, Exclusions (plus definitions and endorsements). Information unique to the insured is in the Declarations.",
+      "misconception": "The declarations do not describe what perils are covered or excluded in detail; that is in the insuring agreement and exclusions.",
+      "related": [
+        "insuring-agreement",
+        "policy-conditions",
+        "endorsement",
+        "named-insured"
+      ],
+      "confusedWith": [
+        "insuring-agreement"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Where in the policy would you find the named insured, the policy period and the limits of coverage?",
+        "choices": [
+          "Insuring agreement",
+          "Conditions",
+          "Exclusions",
+          "Declarations"
+        ],
+        "answerIndex": 3,
+        "explanation": "The declarations contain the information unique to the specific insured, including names, policy period, limits and premium."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "a": "named-perils-coverage",
+      "b": "open-perils-coverage",
+      "keyDifference": "Named perils covers only the causes of loss listed; open perils covers any cause of direct physical loss not excluded.",
+      "rows": [
+        {
+          "aspect": "How coverage is defined",
+          "a": "List of covered perils",
+          "b": "Everything except listed exclusions"
+        },
+        {
+          "aspect": "Burden of proof",
+          "a": "Insured shows a listed peril caused the loss",
+          "b": "Insurer shows an exclusion applies"
+        },
+        {
+          "aspect": "Breadth",
+          "a": "Narrower",
+          "b": "Broader"
+        },
+        {
+          "aspect": "Typical example",
+          "a": "Basic or broad form dwelling and contents coverage",
+          "b": "Special form dwelling coverage"
+        }
+      ],
+      "memoryTip": "Named = on the list. Open = open door unless something is excluded."
+    },
+    {
+      "a": "actual-cash-value",
+      "b": "replacement-cost",
+      "keyDifference": "ACV subtracts depreciation from the cost to replace; replacement cost pays the cost to replace with like kind and quality without subtracting depreciation.",
+      "rows": [
+        {
+          "aspect": "Formula",
+          "a": "Replacement cost − depreciation",
+          "b": "Current cost to repair or replace new"
+        },
+        {
+          "aspect": "Effect of age and wear",
+          "a": "Reduces the payment",
+          "b": "Ignored"
+        },
+        {
+          "aspect": "Typical conditions",
+          "a": "None about rebuilding",
+          "b": "Often must actually repair or replace; insurance-to-value requirement on dwellings"
+        }
+      ],
+      "memoryTip": "ACV = used value; RC = new for old."
+    },
+    {
+      "a": "negligence",
+      "b": "strict-liability",
+      "keyDifference": "Negligence requires proof of a careless breach of duty; strict liability imposes liability without proof of fault because of the activity or product involved.",
+      "rows": [
+        {
+          "aspect": "Must prove carelessness?",
+          "a": "Yes (duty, breach, damages, proximate cause)",
+          "b": "No"
+        },
+        {
+          "aspect": "Typical situations",
+          "a": "Slip-and-fall, auto accidents",
+          "b": "Defective products, certain dangerous animals"
+        },
+        {
+          "aspect": "Defenses",
+          "a": "Contributory/comparative negligence, assumption of risk",
+          "b": "Limited (e.g., misuse, assumption of risk)"
+        }
+      ],
+      "memoryTip": "Negligence asks 'were you careless?'; strict liability asks only 'did your product or activity cause it?'"
+    }
+  ]
+}

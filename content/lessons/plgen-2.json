@@ -1,0 +1,230 @@
+{
+  "sectionId": "plgen",
+  "lessons": [
+    {
+      "id": "plgen-l02",
+      "sectionId": "plgen",
+      "order": 2,
+      "title": "Insurers, Agents and Binding Authority",
+      "outlineIds": ["plgen.2", "plgen.2.1", "plgen.2.2", "plgen.2.2.1", "plgen.2.2.2", "plgen.2.2.3", "plgen.2.2.4", "plgen.2.3", "plgen.2.4", "plgen.2.5", "plgen.2.6", "plgen.2.7", "plgen.3", "plgen.3.1", "plgen.3.2", "plgen.3.3", "plgen.3.3.1", "plgen.3.3.2", "plgen.3.3.3", "plgen.3.4"],
+      "estMinutes": 30,
+      "intro": "Who actually stands behind a homeowners or auto policy, and when does what the agent says bind that company? This lesson sorts insurers by ownership, location and authorization, explains how personal lines insurance reaches the public, and covers the law of agency — the rules that decide when an agent's words and actions become the insurer's obligations.",
+      "objectives": [
+        "Compare stock, mutual, fraternal and Lloyd's-type insurers, and private versus government insurers",
+        "Classify insurers as domestic, foreign or alien and as admitted or nonadmitted",
+        "Explain what independent rating services measure",
+        "Describe the main personal lines distribution systems",
+        "Apply express, implied and apparent authority to binder and premium situations",
+        "Describe an agent's duties to the insurer and to the applicant or insured"
+      ],
+      "keyTerms": ["insurer", "stock-insurer", "mutual-insurer", "fraternal-benefit-society", "admitted-insurer", "nonadmitted-insurer", "domestic-insurer", "foreign-insurer", "alien-insurer", "rating-service", "distribution-system", "law-of-agency", "express-authority", "implied-authority", "apparent-authority"],
+      "parts": [
+        {
+          "heading": "Who owns the insurer",
+          "body": "- A [[stock-insurer|stock insurer]] is owned by **stockholders**, who supply capital and may receive dividends from profits. Policyholders are customers, not owners.\n- A [[mutual-insurer|mutual insurer]] is owned by its **policyholders**. It may return part of the premium as a policy dividend when results are good; such dividends are never guaranteed.\n- A [[fraternal-benefit-society|fraternal benefit society]] is a nonprofit social, religious or service organization with a lodge system that provides insurance to its **members**. Fraternals mainly offer life and health benefits, so you will rarely see one on a homeowners or auto policy.\n- A **Lloyd's association** is not a single company. Individual investors and syndicates (underwriting members) each accept a share of a risk; the association provides the marketplace. Lloyd's of London is the best-known example and is often used for unusual or high-value property risks.\n\n**Risk retention groups and risk purchasing groups** are mainly a commercial liability tool. In a risk retention group, businesses with similar liability exposures form and **own** their own insurer. In a risk purchasing group, similar businesses band together to **buy** liability insurance from an existing insurer as a group.",
+          "simple": "Stock company = owned by investors. Mutual = owned by policyholders. Fraternal = a membership organization that insures its members. Lloyd's = a marketplace where many individual underwriters each take a slice of the risk.",
+          "callouts": [
+            { "kind": "memory-tip", "text": "A risk RETENTION group RETAINS the risk in an insurer its members own; a risk PURCHASING group PURCHASES coverage from someone else." },
+            { "kind": "exam-trap", "text": "Lloyd's itself does not insure anything — the individual underwriting members and syndicates do." }
+          ]
+        },
+        {
+          "heading": "Where the insurer comes from and whether it is authorized",
+          "body": "Insurers are classified by **where they are incorporated** relative to the state you are in:\n\n- [[domestic-insurer|Domestic]]: incorporated in this state (a company formed under New York law is domestic in New York).\n- [[foreign-insurer|Foreign]]: incorporated in another U.S. state (a Connecticut company selling in New York is foreign there).\n- [[alien-insurer|Alien]]: incorporated outside the United States.\n\nInsurers are also classified by **authorization**:\n\n- An [[admitted-insurer|admitted (authorized) insurer]] holds a certificate of authority from the state and may do business there.\n- A [[nonadmitted-insurer|nonadmitted (unauthorized) insurer]] has no certificate of authority in the state. Its coverage can be used only in limited circumstances through specially licensed excess or surplus lines brokers (covered later in the course).\n\n**Private versus government insurers.** Most homeowners and auto coverage is written by private companies. Government programs step in where private insurance is unavailable or unaffordable — the best-known personal lines example is the **National Flood Insurance Program**, a federal program.",
+          "simple": "Domestic = from here. Foreign = from another state. Alien = from another country. Admitted = allowed by the state to sell here. Nonadmitted = not allowed, except through special brokers.",
+          "callouts": [
+            { "kind": "exam-trap", "text": "'Foreign' does NOT mean another country. A company from New Jersey is foreign in New York; a company from Bermuda is alien." },
+            { "kind": "memory-tip", "text": "Domestic = Down the street. Foreign = From another state. Alien = Across the ocean." }
+          ]
+        },
+        {
+          "heading": "Financial strength and how insurance is sold",
+          "body": "Independent [[rating-service|rating services]] such as A.M. Best, Standard & Poor's, Moody's and Fitch study insurers' finances and assign letter grades reflecting their ability to pay claims. A high rating suggests financial strength; it is an opinion, not a government guarantee.\n\nThe main personal lines [[distribution-system|distribution (marketing) systems]] are:\n\n- **Independent agency system** (American agency system): the agent represents several insurers, is paid by commission and usually **owns the expirations** — the renewal records — so the agent can move the client's business to another insurer.\n- **Exclusive (captive) agency system**: the agent represents one insurer (or a group under common ownership), and the **insurer** usually owns the expirations.\n- **Direct writing**: the insurer sells through its own salaried employees.\n- **Direct response**: sales by phone, mail or internet with no agent in the middle.\n- **Brokers**: licensed to represent the **insured** and shop the market for the buyer.",
+          "simple": "Rating companies grade insurers' financial strength. Insurance reaches buyers through independent agents (many companies), captive agents (one company), company employees, direct online/phone sales, or brokers who work for the buyer.",
+          "callouts": [
+            { "kind": "exam-trap", "text": "Who owns the expirations is the classic way to tell an independent agent (agent owns them) from an exclusive agent (insurer owns them)." }
+          ]
+        },
+        {
+          "heading": "The law of agency: insurer as principal",
+          "body": "The [[law-of-agency|law of agency]] governs the relationship in which one party (the **agent**) acts on behalf of another (the **principal**). For an insurance agent, the **insurer is the principal**. Key rules:\n\n- The agent represents the insurer, not the customer.\n- Acts of the agent within the scope of the agent's authority are treated as acts of the insurer, so the insurer is bound by them.\n- What the agent knows about the risk is generally presumed to be known by the insurer.\n- The agent owes the insurer loyalty, obedience to its instructions, reasonable care, and an accounting for all money received.\n\n**Three kinds of authority:**\n\n- [[express-authority|Express authority]]: authority spelled out in the agency contract — for example, written authority to **bind** homeowners coverage up to a stated limit.\n- [[implied-authority|Implied authority]]: authority not written down but reasonably necessary to carry out the express authority, such as collecting the first premium and delivering policies.\n- [[apparent-authority|Apparent authority]]: authority the **public reasonably believes** the agent has because of the insurer's own conduct — for example, an insurer that lets a terminated agent keep its binder forms and signage may be bound by a binder that agent issues to an unsuspecting customer.",
+          "simple": "The insurer is the boss (principal); the agent is its representative. The agent's power comes from the contract (express), from what is needed to do the job (implied), or from what the insurer led the public to believe (apparent).",
+          "example": {
+            "title": "Example: The Friday afternoon binder",
+            "body": "Rosa is an independent agent whose contract with Maple Insurance gives her written authority to bind auto coverage. A customer buys a car Friday afternoon, and Rosa issues a binder making coverage effective immediately. Maple is bound by the binder even though it has not reviewed the application, because Rosa acted within her express authority."
+          },
+          "callouts": [
+            { "kind": "exam-trap", "text": "Apparent authority is created by the PRINCIPAL's conduct, not by the agent's own claims. An agent cannot create authority just by saying they have it." },
+            { "kind": "memory-tip", "text": "Express = Explicitly written. Implied = Is needed to do the job. Apparent = Appears so to the public." }
+          ]
+        },
+        {
+          "heading": "Responsibilities to the applicant and insured",
+          "body": "Although an agent represents the insurer, the agent also owes duties to the people it serves:\n\n- Explain coverages, exclusions and options **accurately** — never misstate what a homeowners or auto policy covers.\n- Recommend coverage suited to the client's exposures (for example, mentioning that flood is excluded from a homeowners policy for a house near a river).\n- Submit applications accurately and promptly, and deliver policies and endorsements promptly.\n- Handle premiums and other funds as a **fiduciary** — holding them in trust, not mixing them with personal money.\n- Protect the client's personal information.\n\nAgents who fail at these duties may face **errors and omissions** (professional liability) claims as well as regulatory discipline. A **broker**, by contrast, represents the insured from the start and owes the customer a duty to place appropriate coverage.",
+          "simple": "Even though agents work for the insurer, they must be honest, explain coverage correctly, send paperwork on time, protect clients' money and keep their information private.",
+          "callouts": [
+            { "kind": "note", "text": "New York's specific producer rules — fiduciary accounts, rebating, compensation disclosure — are covered in the Insurance Regulation lessons." }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "match",
+        "prompt": "Match each situation to the type of authority it shows.",
+        "pairs": [
+          { "left": "Agency contract states the agent may bind homeowners coverage up to $500,000", "right": "Express authority" },
+          { "left": "Agent collects the initial premium when the policy is delivered, though the contract is silent", "right": "Implied authority" },
+          { "left": "Insurer lets a terminated agent keep using its forms and sign, and a customer relies on them", "right": "Apparent authority" },
+          { "left": "A company formed under Ohio law sells policies in New York", "right": "Foreign insurer" },
+          { "left": "A company formed in Bermuda insures a New York home", "right": "Alien insurer" }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "An insurer incorporated in Pennsylvania is licensed to sell auto insurance in New York. In New York it is a(n):",
+          "choices": ["Foreign admitted insurer", "Alien admitted insurer", "Domestic nonadmitted insurer", "Foreign nonadmitted insurer"],
+          "answerIndex": 0,
+          "explanation": "Formed in another U.S. state = foreign. Holding authority to do business in New York = admitted."
+        },
+        {
+          "prompt": "Which insurer is owned by its policyholders?",
+          "choices": ["Mutual insurer", "Stock insurer", "Lloyd's association", "Risk purchasing group"],
+          "answerIndex": 0,
+          "explanation": "Policyholders own a mutual insurer. Stockholders own a stock insurer; Lloyd's is a marketplace of individual underwriters; a purchasing group buys coverage from an existing insurer."
+        },
+        {
+          "prompt": "In the independent agency system, who typically owns the expirations?",
+          "choices": ["The agent", "The insurer", "The policyholder", "The rating service"],
+          "answerIndex": 0,
+          "explanation": "Ownership of expirations by the agent is the hallmark of the independent agency system; in exclusive agency systems the insurer owns them."
+        }
+      ],
+      "summary": [
+        "Stock insurers are owned by stockholders, mutuals by policyholders; fraternals insure members; Lloyd's is a marketplace of individual underwriters.",
+        "Domestic = this state, foreign = another state, alien = another country; admitted insurers hold a certificate of authority, nonadmitted insurers do not.",
+        "Rating services grade insurers' financial strength; distribution systems include independent agents, exclusive agents, direct writers, direct response and brokers.",
+        "The insurer is the principal; it is bound by an agent's acts within express, implied or apparent authority.",
+        "Agents owe the insurer loyalty and an accounting, and owe applicants accurate information, prompt service and fiduciary care of funds."
+      ],
+      "related": ["plgen-l01", "plgen-l03"],
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "plgen-l03",
+      "sectionId": "plgen",
+      "order": 3,
+      "title": "Insurance Contracts: Elements, Characteristics and Legal Concepts",
+      "outlineIds": ["plgen.4", "plgen.4.1", "plgen.4.1.1", "plgen.4.1.2", "plgen.4.1.3", "plgen.4.1.4", "plgen.4.2", "plgen.4.2.1", "plgen.4.2.2", "plgen.4.2.3", "plgen.4.2.4", "plgen.4.2.5", "plgen.4.3", "plgen.4.3.1", "plgen.4.3.2", "plgen.4.3.3", "plgen.4.3.4", "plgen.4.3.5", "plgen.4.3.6", "plgen.4.3.7", "plgen.4.3.8"],
+      "estMinutes": 30,
+      "intro": "A homeowners or auto policy is a legal contract, and the exam tests both general contract law and how New York treats false statements on an application. This lesson covers what makes the contract valid, what makes insurance contracts unusual, and the legal concepts — indemnity, representations, warranties, concealment, fraud, waiver and estoppel — that decide disputes.",
+      "objectives": [
+        "Identify the four elements of a legal contract in a personal lines sale",
+        "Recognize adhesion, aleatory, personal, unilateral and conditional characteristics",
+        "Explain the principle of indemnity using property examples",
+        "Apply New York's materiality rule for misrepresentations and its rule on breach of warranty",
+        "Distinguish concealment, fraud, rescission, waiver and estoppel"
+      ],
+      "keyTerms": ["offer-and-acceptance", "consideration", "competent-parties", "legal-purpose", "contract-of-adhesion", "aleatory-contract", "personal-contract", "unilateral-contract", "conditional-contract", "indemnity", "utmost-good-faith", "representation", "misrepresentation", "warranty", "rescission", "concealment", "fraud", "waiver", "estoppel"],
+      "parts": [
+        {
+          "heading": "Four elements of a legal contract",
+          "body": "A valid contract needs all four of these:\n\n- [[offer-and-acceptance|Offer and acceptance]]: in personal lines, the **applicant usually makes the offer** by submitting a signed application with the premium. The insurer **accepts** by issuing the policy — or, before that, when an agent with authority issues a [[binder]] that puts coverage in force temporarily.\n- [[consideration|Consideration]]: the value each side gives. The insured's consideration is the **premium and the promise to follow the policy conditions**; the insurer's is its promise to pay covered losses.\n- [[competent-parties|Competent parties]]: both sides must be legally capable — adults of sound mind, and an insurer authorized to make the contract.\n- [[legal-purpose|Legal purpose]]: the contract must not be against the law or public policy. A policy covering a car used to run an illegal operation, or insuring property in which the buyer has no insurable interest, fails this test.",
+          "simple": "A contract needs a deal (offer and acceptance), something of value on both sides (consideration), people able to make a deal (competent parties) and a lawful aim (legal purpose).",
+          "callouts": [
+            { "kind": "exam-trap", "text": "If the applicant submits the application WITHOUT the premium, the applicant has not made the offer; the insurer's later issuance of the policy is the offer, and the applicant accepts by paying the premium." },
+            { "kind": "memory-tip", "text": "COLA: Consideration, Offer & acceptance, Legal purpose, Able (competent) parties." }
+          ]
+        },
+        {
+          "heading": "What makes insurance contracts unusual",
+          "body": "- [[contract-of-adhesion|Adhesion]]: the insurer writes the contract and the buyer can only take it or leave it. Because of this, courts read **ambiguous wording against the insurer** that drafted it.\n- [[aleatory-contract|Aleatory]]: the values exchanged are unequal and depend on chance. A driver may pay one month's premium and have a $40,000 collision claim — or pay for 20 years with no claim.\n- [[personal-contract|Personal]]: the policy insures a **person**, not the property. That is why a homeowner who sells the house cannot simply hand the policy to the buyer; assignment generally requires the insurer's written consent.\n- [[unilateral-contract|Unilateral]]: only the **insurer** makes a legally enforceable promise (to pay covered losses). The insured does not promise to keep paying premiums — the policy simply ends if they stop.\n- [[conditional-contract|Conditional]]: the insurer's duty to pay depends on the insured meeting conditions, such as giving prompt notice of loss, protecting property from further damage and cooperating with the investigation.",
+          "simple": "Insurance contracts are written by the insurer (adhesion), depend on chance (aleatory), cover a person not a thing (personal), bind only the insurer to a promise (unilateral) and require the insured to follow rules to collect (conditional).",
+          "callouts": [
+            { "kind": "memory-tip", "text": "A-A-P-U-C: Adhesion, Aleatory, Personal, Unilateral, Conditional — 'An Agent Prepares Unusual Contracts.'" },
+            { "kind": "exam-trap", "text": "Adhesion = who WROTE it (the insurer). Aleatory = unequal, chance-based exchange. Do not swap them." }
+          ]
+        },
+        {
+          "heading": "Indemnity and utmost good faith",
+          "body": "[[indemnity|Indemnity]] means restoring the insured to about the **same financial position as before the loss — no better and no worse**. Property insurance should not create a profit. Several policy features enforce indemnity: settling at [[actual-cash-value]] where the policy says so, limits and deductibles, other-insurance clauses that stop a person from collecting twice, and [[subrogation]], which lets the insurer recover from a negligent third party after paying its insured.\n\n[[utmost-good-faith|Utmost good faith]] means each party is entitled to rely on the other's honesty. The applicant must answer questions truthfully and disclose material facts; the insurer must deal fairly and pay valid claims.",
+          "simple": "Indemnity = getting you back to where you were, not ahead. Utmost good faith = both sides must be honest with each other.",
+          "example": {
+            "title": "Example: Two policies, one fire",
+            "body": "Tom has two policies on his garage and suffers a $10,000 fire loss. Indemnity — carried out through the other-insurance clauses — means the insurers share the $10,000; Tom does not collect $20,000."
+          },
+          "callouts": [
+            { "kind": "exam-trap", "text": "Indemnity does not mean 'new for old' in every case. Replacement cost coverage is an optional or form-specific exception; the principle itself is about not profiting from a loss." }
+          ]
+        },
+        {
+          "heading": "Representations, warranties and New York's materiality rules",
+          "body": "A [[representation]] is a statement the applicant makes to the insurer to induce it to issue the contract. New York Insurance Law § 3105(a) defines it as a statement as to **past or present fact**, made by or for the applicant **at or before** the making of the contract. A [[misrepresentation]] is a false representation.\n\n**New York materiality rule (§ 3105(b)):** a misrepresentation does not void the policy or defeat a claim unless it was **material** — and it is material only if the insurer, **knowing the truth, would have refused to make the contract**. Evidence of the insurer's practice with similar risks is admissible to decide materiality (§ 3105(c)).\n\nA [[warranty]] is a policy provision that makes the existence (or non-existence) of a fact a **condition** of coverage — for example, a condition that a central-station alarm is maintained. Traditionally any breach of warranty voided the contract. **New York § 3106(b)** softens this: a breach of warranty does **not** void the contract or defeat recovery **unless it materially increases the risk** of the loss, and it affects only the kind of loss whose risk was increased.",
+          "simple": "Representations are statements on the application believed true. In New York, a false one only matters if the insurer would have said no had it known the truth. A warranty is a promise built into the policy; in New York, breaking it only matters if it really increased the risk of the loss.",
+          "example": {
+            "title": "Example: The unmentioned teenage driver",
+            "body": "Ellen's auto application says no one under 25 lives with her, but her 17-year-old son does and drives the car. If the insurer's underwriting rules show it would have refused the policy had it known, the misrepresentation is material under § 3105 and the insurer may rescind. If the insurer would have written the policy anyway, the statement is not material under the § 3105 test."
+          },
+          "callouts": [
+            { "kind": "ny-rule", "text": "NY § 3105(b)(1): no misrepresentation avoids a contract or defeats recovery unless material, and it is material only if knowledge of the true facts would have led the insurer to refuse to make the contract.", "sources": ["ny-isc-3105"] },
+            { "kind": "ny-rule", "text": "NY § 3106(b): a breach of warranty does not avoid the contract or defeat recovery unless the breach materially increases the risk of the loss, damage or injury within the coverage.", "sources": ["ny-isc-3106"] },
+            { "kind": "memory-tip", "text": "Representation = 'true to the best of my knowledge.' Warranty = 'guaranteed true' — but NY still asks whether it mattered." }
+          ]
+        },
+        {
+          "heading": "Concealment, fraud, rescission, waiver and estoppel",
+          "body": "- [[concealment|Concealment]] is **intentionally withholding** a material fact the insurer would want to know — for example, not mentioning that the home is used as a day care.\n- [[fraud|Fraud]] is an **intentional misstatement of a material fact** made to deceive another party, who relies on it and is harmed — such as inflating the value of stolen items on a claim. Fraud can void coverage and is a crime.\n- [[rescission|Rescission]] cancels the contract **from the beginning**, as though it never existed; the insurer generally returns the premium. It is the usual remedy for a material misrepresentation, concealment or fraud in the application.\n- [[waiver|Waiver]] is the **voluntary giving up of a known right**. If an insurer knowingly accepts a late premium without objection, it may waive its right to insist on timely payment for that installment.\n- [[estoppel|Estoppel]] is the legal result that **prevents** a party from reclaiming a right it has waived when the other party relied on that conduct.",
+          "simple": "Concealment = hiding something important. Fraud = lying on purpose to gain something. Rescission = undoing the contract as if it never existed. Waiver = giving up a right. Estoppel = once you've given it up and someone relied on that, you can't take it back.",
+          "callouts": [
+            { "kind": "memory-tip", "text": "Waiver is the act; estoppel is the consequence. 'You WAIVED it, so you're STOPPED from taking it back.'" }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "truefalse",
+        "prompt": "True or false?",
+        "statements": [
+          { "text": "In a contract of adhesion, ambiguous wording is interpreted in favor of the insurer.", "answer": false, "explanation": "Ambiguities are read against the party that drafted the contract — the insurer." },
+          { "text": "A homeowners policy is a personal contract, so it cannot simply be assigned to the buyer of the house without the insurer's consent.", "answer": true, "explanation": "The policy insures the person; the insurer has the right to choose whom it insures." },
+          { "text": "Under New York § 3105, any false statement on an application lets the insurer rescind the policy.", "answer": false, "explanation": "Only a material misrepresentation — one that would have led the insurer to refuse the contract — avoids it." },
+          { "text": "In New York, a breach of warranty defeats recovery only if it materially increases the risk of the loss.", "answer": true, "explanation": "That is § 3106(b)." },
+          { "text": "Only the insurer makes a legally enforceable promise in an insurance contract.", "answer": true, "explanation": "That is what makes the contract unilateral." },
+          { "text": "Estoppel is the voluntary giving up of a known right.", "answer": false, "explanation": "That is waiver. Estoppel prevents a party from reasserting a right it waived when another party relied on the waiver." }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Which element of a contract is satisfied when the applicant pays the premium and agrees to follow the policy conditions?",
+          "choices": ["Consideration", "Legal purpose", "Competent parties", "Utmost good faith"],
+          "answerIndex": 0,
+          "explanation": "The insured's consideration is the premium plus the promise to comply with policy conditions; the insurer's is its promise to pay covered losses."
+        },
+        {
+          "prompt": "Under New York Insurance Law, when is a misrepresentation on an application material?",
+          "choices": ["When knowing the truth would have led the insurer to refuse the contract", "Whenever the applicant signed the application", "Only when the applicant intended to deceive", "Whenever the premium would have changed by any amount"],
+          "answerIndex": 0,
+          "explanation": "§ 3105(b)(1) defines materiality by whether the insurer would have refused to make the contract had it known the facts."
+        },
+        {
+          "prompt": "Which principle keeps an insured from making a profit on a property loss?",
+          "choices": ["Indemnity", "Adhesion", "Waiver", "Unilateral contract"],
+          "answerIndex": 0,
+          "explanation": "Indemnity restores the insured to the pre-loss financial position, no better and no worse."
+        }
+      ],
+      "summary": [
+        "A valid contract needs offer and acceptance, consideration, competent parties and legal purpose; a binder can serve as temporary acceptance.",
+        "Insurance contracts are adhesion (ambiguities against the insurer), aleatory, personal, unilateral and conditional.",
+        "Indemnity restores the insured without profit; utmost good faith requires honesty from both sides.",
+        "NY § 3105: a misrepresentation matters only if material — the insurer would have refused the contract. NY § 3106: a breach of warranty matters only if it materially increased the risk.",
+        "Concealment hides facts, fraud deceives on purpose, rescission voids from inception, waiver gives up a right and estoppel prevents taking it back."
+      ],
+      "related": ["plgen-l02"],
+      "sources": ["ny-isc-3105", "ny-isc-3106", "general-insurance-principles"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    }
+  ]
+}

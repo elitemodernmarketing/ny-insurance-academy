@@ -1,0 +1,610 @@
+{
+ "sectionId": "reg",
+ "lessons": [
+  {
+   "id": "reg-l01",
+   "sectionId": "reg",
+   "order": 1,
+   "title": "Who Needs a License: Producers, Agents, Brokers and Other Licensees",
+   "outlineIds": [
+    "reg.1",
+    "reg.1.1",
+    "reg.1.2",
+    "reg.1.2.1",
+    "reg.1.2.2",
+    "reg.1.2.3",
+    "reg.1.2.4",
+    "reg.1.2.5",
+    "reg.1.2.6",
+    "reg.1.3",
+    "reg.1.3.1",
+    "reg.1.3.2",
+    "reg.1.3.3",
+    "reg.1.3.4",
+    "reg.1.3.5",
+    "reg.1.3.6",
+    "reg.1.3.7"
+   ],
+   "estMinutes": 30,
+   "intro": "Before you can sell a single policy in New York, the law needs to know who you are, what you are allowed to sell, and whom you represent. This lesson walks through the licensing definitions in Insurance Law § 2101, the steps to get licensed, and the different kinds of licensees you will see on the exam.",
+   "objectives": [
+    "Define producer, solicit, negotiate and sell using New York's statutory language",
+    "Distinguish agents, brokers, consultants and adjusters by whom they represent and what they may do",
+    "Describe the steps and timing for getting a New York license, including the 2-year application window",
+    "Explain home state, nonresident licensing and business entity licenses",
+    "Identify when New York issues a temporary license"
+   ],
+   "keyTerms": [
+    "producer",
+    "solicit",
+    "negotiate",
+    "sell",
+    "insurance-agent",
+    "insurance-broker",
+    "insurance-consultant",
+    "adjuster",
+    "home-state",
+    "nonresident-license",
+    "temporary-license"
+   ],
+   "parts": [
+    {
+     "heading": "The three licensed acts: solicit, negotiate, sell",
+     "body": "New York uses one umbrella word for licensed salespeople: [[producer]]. Under § 2101(k), a producer is an agent, broker, title agent, reinsurance intermediary, excess lines broker, or **anyone else required to be licensed to sell, solicit or negotiate insurance**.\n\nThose three verbs each have a precise definition:\n\n- [[solicit|Solicit]] (§ 2101(o)): attempting to sell insurance, or asking or urging a person to apply for a particular kind of insurance from a particular insurer.\n- [[negotiate|Negotiate]] (§ 2101(m)): conferring directly with, or offering advice directly to, a buyer about the substantive benefits, terms or conditions of a particular contract — when the person sells insurance or obtains it for buyers.\n- [[sell|Sell]] (§ 2101(n)): exchanging a contract of insurance, by any means, for money or its equivalent, on behalf of a licensed insurer.\n\nIf someone does any one of these for insurance, that person needs a license.",
+     "simple": "If you try to get people to apply (solicit), talk them through a specific policy's terms (negotiate), or complete the deal (sell), you need a license. People who do these things are called producers.",
+     "example": {
+      "title": "Example: who needs a license?",
+      "body": "Rita is a salaried customer-service clerk at an insurer. She answers billing questions, earns no sales commission and never urges anyone to buy. She is not a producer. Her co-worker Ben starts handing out applications at his gym and telling people to buy his company's term policy. Ben is soliciting and needs a license."
+     },
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "NY § 2101(k) excludes some people from \"producer\" — for example, insurer employees whose work is clerical, administrative, underwriting or claims-related and who receive no commission on policies sold.",
+       "sources": [
+        "ny-isc-2101"
+       ]
+      },
+      {
+       "kind": "memory-tip",
+       "text": "Solicit = the ASK. Negotiate = the TALK about terms. Sell = the DEAL."
+      }
+     ]
+    },
+    {
+     "heading": "Agents vs. brokers vs. consultants vs. adjusters",
+     "body": "The exam loves to ask **whom a licensee represents**.\n\n- An [[insurance-agent]] (§ 2101(a)) is an authorized agent of an insurer. The agent represents the **insurer** and must be appointed by at least one insurer to transact business.\n- An [[insurance-broker]] (§ 2101(c)) acts **on behalf of the insured** for compensation, soliciting, negotiating or placing coverage. The PSI bulletin describes brokers as representing the public and dealing with any NY-licensed insurer that works with brokers.\n- An [[insurance-consultant]] gives expert advice for a fee and **cannot** sell, solicit or negotiate — that would require an agent or broker license.\n- [[adjuster|Adjusters]] work on claims. An independent adjuster acts for the **insurer**; a public adjuster acts for the **insured** on property claims.",
+     "simple": "Agent = works for the insurance company. Broker = works for the customer. Consultant = paid advice only, no selling. Adjusters handle claims: independent ones for the insurer, public ones for the policyholder.",
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "\"Independent adjuster\" sounds neutral, but an independent adjuster works on behalf of the INSURER. The PUBLIC adjuster represents the insured."
+      },
+      {
+       "kind": "ny-rule",
+       "text": "A consultant cannot sell, solicit or negotiate a policy; doing so requires an agent or broker license (DFS/PSI licensing bulletin).",
+       "sources": [
+        "psi-ny-bulletin-2023"
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "Getting licensed: the process",
+     "body": "The DFS/PSI bulletin lists the steps:\n\n- Complete the required prelicensing education. For a life and accident & health agent license, § 2103(f)(2)(A) requires an approved course of **not less than 40 hours**.\n- Pass the state exam (§ 2103(f)(1) requires a personal written examination).\n- Submit the license application to the Department **within two years of passing the exam**, with the fee.\n- Be at least **18** years old when the license is issued (§ 2103(d)).\n- For an agent, an insurer must file an **appointment** within **15 days** of the agency contract or the first application submitted.\n\nThe superintendent may refuse to issue a license if the applicant is not trustworthy and competent, has given cause for revocation or suspension, or has not met a prerequisite (§ 2103(h)).",
+     "simple": "Take the course, pass the exam, apply within two years, be 18 or older. Then an insurer appoints you within 15 days of your contract or first application.",
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "License applications must be received within two years from the date of passing the examination.",
+       "sources": [
+        "psi-ny-bulletin-2023"
+       ]
+      },
+      {
+       "kind": "exam-trap",
+       "text": "Passing the exam does not guarantee a license. The Department still reviews the application and can refuse an applicant who is not trustworthy or competent."
+      }
+     ]
+    },
+    {
+     "heading": "Home state, nonresidents and business entities",
+     "body": "Your [[home-state]] (§ 2101(l)) is the state where you maintain your principal place of residence or principal place of business and are licensed as a producer. Declare New York and you are a resident licensee; declare another state and you can apply for a [[nonresident-license]].\n\n- A nonresident must be licensed and in good standing in the home state. The superintendent may waive the exam for nonresident agents (§ 2103(g)(5)).\n- A person previously licensed in another state for the same lines generally needs no NY exam or prelicensing course, if currently licensed there or applying within **90 days** of cancellation (§ 2103(g)(11)), provided the other state treats NY residents the same way.\n- A licensee who **moves to New York** must apply for a resident license within **90 days** of establishing legal residence.\n\nA **business entity** (§ 2101(p)) is a corporation, association, partnership, LLC, LLP or other legal entity. A firm or corporation can hold a license, but only its members, officers or directors named as **sub-licensees** may act under it, and the named sub-licensees are designated responsible for the entity's compliance (§ 2103(c), (e)). Entity licenses under § 2103(a) expire on June 30 of odd-numbered years (§ 2103(j)(2)).",
+     "simple": "Your home state is where you live or mainly do business and are licensed. Out-of-state producers get a nonresident license based on their home license. Move to New York? Apply for a resident license within 90 days. Agencies can be licensed too, through named people called sub-licensees.",
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "An individual or entity licensed in another state who moves to New York must apply to become a resident licensee within ninety days of establishing legal residence (§ 2103(g)(11)).",
+       "sources": [
+        "ny-isc-2103"
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "Temporary licenses in New York",
+     "body": "New York's [[temporary-license]] (§ 2109) exists so that someone can **keep an existing book of business running** when a licensed agent or broker:\n\n- dies (license to the executor/administrator, next of kin, surviving firm members, or a corporate officer);\n- is absent on U.S. armed forces service (license to a person the producer designates); or\n- becomes totally disabled (license to next of kin).\n\nNo exam is required. The temporary licensee may renew existing policies, collect premiums due and do acts incidental to continuing the business, but **may not solicit, negotiate or sell new insurance**. For death or disability, terms are up to **90 days**, renewable in 90-day terms up to **15 months** in total. For military absence, terms are up to **six months**, renewable, ending no later than 60 days after final discharge.",
+     "simple": "If a producer dies, becomes disabled or goes on military duty, someone can get a temporary license to look after existing clients. They can't sell new policies.",
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "Many states use temporary licenses for new trainees. New York's § 2109 temporary license is for death, disability or military service of a licensee — and never for writing new business.",
+       "sources": [
+        "ny-isc-2109"
+       ]
+      }
+     ]
+    }
+   ],
+   "activity": {
+    "type": "match",
+    "prompt": "Match each licensee to the party it represents or the role it plays.",
+    "pairs": [
+     {
+      "left": "Insurance agent",
+      "right": "Represents the insurer that appointed it"
+     },
+     {
+      "left": "Insurance broker",
+      "right": "Acts on behalf of the insured"
+     },
+     {
+      "left": "Insurance consultant",
+      "right": "Gives paid advice but cannot sell"
+     },
+     {
+      "left": "Public adjuster",
+      "right": "Helps the insured settle a property claim"
+     },
+     {
+      "left": "Independent adjuster",
+      "right": "Investigates claims on behalf of an insurer"
+     },
+     {
+      "left": "Temporary licensee (§ 2109)",
+      "right": "Continues a deceased, disabled or absent producer's existing business"
+     }
+    ]
+   },
+   "knowledgeChecks": [
+    {
+     "prompt": "Within what period after passing the exam must a New York license application be received?",
+     "choices": [
+      "Two years",
+      "90 days",
+      "One year",
+      "Six months"
+     ],
+     "answerIndex": 0,
+     "explanation": "The DFS/PSI bulletin: applications must be received within two years from the date of passing the examination."
+    },
+    {
+     "prompt": "Under § 2101(o), asking or urging a person to apply for a particular kind of insurance from a particular insurer is:",
+     "choices": [
+      "Soliciting",
+      "Negotiating",
+      "Selling",
+      "Adjusting"
+     ],
+     "answerIndex": 0,
+     "explanation": "That is the statutory definition of solicitation."
+    },
+    {
+     "prompt": "What may the holder of a New York temporary license issued after an agent's death do?",
+     "choices": [
+      "Renew the deceased agent's existing business and collect premiums due",
+      "Solicit new clients for any insurer",
+      "Sell new policies for up to 15 months",
+      "Act as a broker for the deceased agent's clients"
+     ],
+     "answerIndex": 0,
+     "explanation": "§ 2109(c) and (e)(4): the license covers renewals, premium collection and incidental acts; it does not authorize soliciting, negotiating or selling new insurance."
+    }
+   ],
+   "summary": [
+    "A producer is anyone required to be licensed to sell, solicit or negotiate insurance (§ 2101(k)).",
+    "Agents represent insurers and need an appointment; brokers act on behalf of insureds; consultants advise but cannot sell; independent adjusters work for insurers and public adjusters for insureds.",
+    "Complete prelicensing education, pass the exam, apply within two years, be at least 18.",
+    "Home state = principal residence or business where you are licensed; movers to NY apply for a resident license within 90 days.",
+    "New York temporary licenses cover death, disability or military absence of a licensee and never allow new sales."
+   ],
+   "related": [
+    "reg-l02"
+   ],
+   "sources": [
+    "ny-isc-2101",
+    "ny-isc-2103",
+    "ny-isc-2109",
+    "psi-ny-bulletin-2023"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-l02",
+   "sectionId": "reg",
+   "order": 2,
+   "title": "Keeping Your License: Renewal, CE, Reporting and Discipline",
+   "outlineIds": [
+    "reg.1.4",
+    "reg.1.4.1",
+    "reg.1.4.2",
+    "reg.1.4.3",
+    "reg.1.4.4",
+    "reg.1.4.5",
+    "reg.1.5",
+    "reg.1.5.1",
+    "reg.1.5.2",
+    "reg.1.5.3",
+    "reg.2.1"
+   ],
+   "estMinutes": 25,
+   "intro": "Getting licensed is the start, not the finish. New York expects you to renew on time, keep learning, keep the Department informed, and stay out of trouble. This lesson covers the maintenance rules and what happens when a producer breaks them.",
+   "objectives": [
+    "Explain when individual licenses expire and how renewal works",
+    "Describe the continuing education requirement and who is exempt the first time",
+    "List the deadlines for reporting address changes, name use and actions taken against you",
+    "Describe the superintendent's disciplinary powers, hearing notice and monetary penalties"
+   ],
+   "keyTerms": [
+    "continuing-education",
+    "license-revocation",
+    "superintendent",
+    "nonresident-license"
+   ],
+   "parts": [
+    {
+     "heading": "Renewal and expiration",
+     "body": "Individual agent licenses run on a **two-year cycle tied to your birthday** (§ 2103(j)(2)):\n\n- Born in an **odd** year → license expires on your birthday in odd-numbered years.\n- Born in an **even** year → license expires on your birthday in even-numbered years.\n- Each renewal is for the ensuing **24 months**.\n- Business entity licenses expire on **June 30 of odd-numbered years**.\n\nFile the renewal application **at least 60 days before** expiration or pay a late-filing fee (§ 2103(j)(10)). If you file any time **before** the license expires, the license stays in full force until the Department issues the renewal or until 5 days after it refuses and notifies you (§ 2103(j)(7)). Before refusing a renewal (other than for failing an exam), the superintendent must give notice and a hearing.\n\nIf all of an agent's appointments are terminated, the license becomes **inactive** (§ 2103(j)(4)); if no appointment is filed during a renewal term, the license expires at the end of that term (§ 2103(j)(6)).",
+     "simple": "Your license lasts two years and ends on your birthday (odd or even year matching your birth year). Renew 60 days early to avoid a late fee. As long as you file before it expires, you stay licensed while DFS processes it.",
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "Renewal application due not less than 60 days before expiration, or a late-filing fee applies; a timely filed renewal keeps the license in force pending a decision.",
+       "sources": [
+        "ny-isc-2103"
+       ]
+      },
+      {
+       "kind": "memory-tip",
+       "text": "Odd birth year, odd renewal year. Even birth year, even renewal year."
+      }
+     ]
+    },
+    {
+     "heading": "Continuing education (CE)",
+     "body": "Resident agents, brokers, consultants and public adjusters must complete [[continuing-education]] to renew. Per the DFS/PSI bulletin:\n\n- **15 CE credits** during each biennial licensing period.\n- CE applies once your license has been in effect for a **full two years**; a licensee who has held the license for less than the full two-year period is exempt that first time.\n- Credits must be earned **during** the licensing period and completed **before** the renewal is processed.\n- An approved course completed for credit **may not be repeated** for credit.\n- Nonresidents in good standing in their home state attest to home-state CE compliance instead of taking New York courses.",
+     "simple": "Every two years, take 15 hours of approved courses before you renew. Brand-new licensees get a pass on their first renewal.",
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "15 CE credits per biennial licensing period, once the license has been in effect for a full two years (DFS/PSI bulletin, 2023). CE requirements can change — confirm current rules with DFS.",
+       "sources": [
+        "psi-ny-bulletin-2023"
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "Keeping DFS informed: address, name and reportable actions",
+     "body": "- **Change of address:** tell the superintendent within **30 days** (§ 2134(a)). If you change your home state, you must also provide certification from the new home state within 30 days (§ 2134(b)).\n- **Names:** notify the superintendent when you change your legal name. Except for an individual's own legal name, you may not do business under **any name the superintendent has not approved in advance** (§ 2102(f)).\n- **Actions against you:** report any administrative action taken against you in another jurisdiction, or by another New York agency, within **30 days of the final disposition**, with a copy of the order (§ 2110(i)). Report any **criminal prosecution** within 30 days of the initial pretrial hearing date (§ 2110(j)).",
+     "simple": "Moved? Tell DFS in 30 days. Using a business name? Get DFS approval first. Disciplined elsewhere or charged with a crime? Report it within 30 days.",
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "An \"assumed name\" needs the superintendent's approval BEFORE you use it — after-the-fact notice is not enough.",
+       "sources": [
+        "ny-isc-2102"
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "The superintendent and discipline",
+     "body": "The [[superintendent]] of Financial Services heads DFS and administers the Insurance Law: issuing or refusing licenses, investigating, and disciplining licensees.\n\nUnder § 2110(a), after **notice and hearing**, the superintendent may **refuse to renew, revoke or suspend** a license for reasons including: violating insurance laws or regulations; materially untrue license applications; obtaining a license by fraud; fraudulent, coercive or dishonest practices; incompetence or untrustworthiness; misappropriating money; intentionally misrepresenting policy terms; a felony conviction; forging a name on an application; using notes on the licensing exam; knowingly accepting business from an unlicensed person; and failing to comply with child support or state income tax orders.\n\n- **Hearing notice:** the hearing must be held **not less than 10 days** after notice (§ 2110(b)).\n- **After revocation:** no new license of any kind for **one year** (§ 2110(e)).\n- **Nonresidents:** a nonresident license may be summarily revoked if the home-state license is suspended or revoked, with 10 days' written notice (§ 2110(f)).\n- **Penalty instead of revocation:** up to **$500 per offense, $2,500 aggregate** in one proceeding (§ 2127(a)); failing to pay within 20 days of the mailed order can lead to suspension or revocation (§ 2127(b)).\n- Surrendering or letting the license lapse does **not** end the superintendent's enforcement power (§ 2110(h)).",
+     "simple": "The superintendent can fine, suspend, revoke or refuse to renew your license after giving you notice and a hearing. Revocation means no license for a year. Fines instead of revocation max out at $500 per offense and $2,500 total.",
+     "example": {
+      "title": "Example: a costly shortcut",
+      "body": "Rob is found to have forged a client's signature on an application. After notice and a hearing held 14 days later, the superintendent revokes his license. Rob cannot obtain any New York insurance license for one year. Had the superintendent chosen a fine instead, the maximum in that one proceeding would have been $500 per offense, $2,500 total."
+     },
+     "callouts": [
+      {
+       "kind": "memory-tip",
+       "text": "10 days' notice → hearing. 1 year out after revocation. $500 / $2,500 fines. 30 days to report."
+      }
+     ]
+    }
+   ],
+   "activity": {
+    "type": "match",
+    "prompt": "Match each maintenance or discipline rule to its deadline or limit.",
+    "pairs": [
+     {
+      "left": "Report a change of address",
+      "right": "Within 30 days of the change"
+     },
+     {
+      "left": "File a license renewal to avoid a late fee",
+      "right": "At least 60 days before expiration"
+     },
+     {
+      "left": "Hearing after notice of revocation",
+      "right": "Not less than 10 days after notice"
+     },
+     {
+      "left": "Waiting period after revocation",
+      "right": "One year before any new license"
+     },
+     {
+      "left": "Penalty in lieu of revocation (one proceeding)",
+      "right": "Up to $500 per offense, $2,500 aggregate"
+     },
+     {
+      "left": "Report another state's final administrative action",
+      "right": "Within 30 days of final disposition"
+     }
+    ]
+   },
+   "knowledgeChecks": [
+    {
+     "prompt": "An agent born in 1993 will have a license that expires:",
+     "choices": [
+      "On her birthday in odd-numbered years",
+      "On December 31 of even-numbered years",
+      "On June 30 of odd-numbered years",
+      "Two years after her exam date"
+     ],
+     "answerIndex": 0,
+     "explanation": "§ 2103(j)(2): individuals born in odd years renew on their birthday in odd-numbered years."
+    },
+    {
+     "prompt": "Before an agent uses a business name other than her own legal name, she must:",
+     "choices": [
+      "Obtain the superintendent's approval",
+      "Notify her appointing insurers within 15 days",
+      "File the name with the county clerk only",
+      "Do nothing; names are unregulated"
+     ],
+     "answerIndex": 0,
+     "explanation": "§ 2102(f) requires the superintendent's prior approval of any name other than an individual licensee's own legal name."
+    },
+    {
+     "prompt": "Which is a ground for license revocation under § 2110?",
+     "choices": [
+      "Knowingly accepting insurance business from an unlicensed individual",
+      "Holding appointments with three insurers",
+      "Earning commissions from renewals",
+      "Living in another state with a NY nonresident license"
+     ],
+     "answerIndex": 0,
+     "explanation": "§ 2110(a)(12) lists knowingly accepting business from an individual who is not licensed."
+    }
+   ],
+   "summary": [
+    "Individual licenses expire every two years on the licensee's birthday (odd/even year matching birth year); file renewals at least 60 days early.",
+    "Resident licensees need 15 CE credits per two-year period once the license has been in effect a full two years.",
+    "Report address changes within 30 days; get prior approval for any name other than your legal name; report actions against you within 30 days.",
+    "The superintendent may suspend, revoke or refuse to renew after notice and a hearing at least 10 days later; revocation bars any license for one year; fines in lieu are capped at $500 per offense and $2,500 aggregate."
+   ],
+   "related": [
+    "reg-l01",
+    "reg-l05"
+   ],
+   "sources": [
+    "ny-isc-2103",
+    "ny-isc-2134",
+    "ny-isc-2102",
+    "ny-isc-2110",
+    "ny-isc-2127",
+    "psi-ny-bulletin-2023"
+   ],
+   "nySpecific": true,
+   "timeSensitive": true,
+   "reviewDue": "2027-11-19",
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19",
+    "notes": "CE credit count from PSI/DFS bulletin; § 2132 not retrieved. Hearing procedure taught from § 2110(b); §§ 2405-2406 and FSL § 305 not retrieved."
+   }
+  },
+  {
+   "id": "reg-l03",
+   "sectionId": "reg",
+   "order": 3,
+   "title": "Regulating Insurers: Authority, Solvency, Claims and Appointments",
+   "outlineIds": [
+    "reg.2",
+    "reg.2.2",
+    "reg.2.2.1",
+    "reg.2.2.2",
+    "reg.2.2.3",
+    "reg.2.2.4",
+    "reg.2.2.5",
+    "reg.2.5",
+    "reg.2.7"
+   ],
+   "estMinutes": 20,
+   "intro": "Producers are only half of the picture. New York also decides which insurance companies may operate here, watches whether they can pay claims, polices how they handle claims, and controls how they appoint and terminate agents.",
+   "objectives": [
+    "Explain why an insurer needs New York authority and what happens when producers help unauthorized insurers",
+    "Describe the purpose of solvency regulation",
+    "Identify unfair claim settlement practices, including the 30-working-day rule",
+    "Explain appointment and for-cause termination filing deadlines"
+   ],
+   "keyTerms": [
+    "certificate-of-authority",
+    "unauthorized-insurer",
+    "insurer-solvency",
+    "unfair-claims-settlement-practices",
+    "appointment"
+   ],
+   "parts": [
+    {
+     "heading": "Authority to do business",
+     "body": "Under § 1102(a), no company may do an insurance business in New York unless authorized by a license in force under the Insurance Law (or exempt). Industry calls this insurer license a [[certificate-of-authority]]; a company that has it is an **authorized (admitted)** insurer.\n\nProducers may not act for or aid an [[unauthorized-insurer]]. § 2117(a) bars acting as agent for, placing risks with, or in any way aiding an insurer not authorized in New York, apart from narrow exceptions such as licensed excess line brokers. The penalty is a **$500 forfeiture per transaction**, on top of other penalties (§ 2117(g)).",
+     "simple": "Insurance companies need New York's permission to sell here. Helping a company without that permission costs $500 per transaction and can cost you your license.",
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "Aiding an unauthorized insurer: $500 for each transaction, in addition to any other penalty (§ 2117(g)).",
+       "sources": [
+        "ny-isc-2117"
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "Solvency: can the company pay?",
+     "body": "[[insurer-solvency|Solvency]] means the insurer can meet its obligations — above all, pay claims when due. Regulators protect policyholders by requiring adequate reserves and capital, reviewing financial statements and examining insurers. A policy is only as good as the company's ability to pay.\n\nProducers have a related duty: never misrepresent an insurer's financial condition (§ 2123(a)(1)) and never spread false statements about a competitor's solvency (§ 2604, covered in the next lesson).",
+     "simple": "Regulators check that insurers have enough money to pay claims. Producers must be honest about any company's finances.",
+     "callouts": [
+      {
+       "kind": "note",
+       "text": "The outline cites Insurance Law § 307 (financial statements) for solvency. This lesson teaches the concept without filing dates or figures."
+      }
+     ]
+    },
+    {
+     "heading": "Unfair claim settlement practices",
+     "body": "§ 2601(a) forbids [[unfair-claims-settlement-practices]] — listed acts committed without just cause and frequently enough to show a general business practice, including:\n\n- knowingly misrepresenting pertinent facts or policy provisions to claimants;\n- failing to acknowledge claim communications with reasonable promptness;\n- failing to adopt reasonable standards for prompt investigation;\n- not attempting in good faith to settle claims where liability is reasonably clear; and\n- forcing policyholders to sue by offering substantially less than they ultimately recover.\n\nAfter receiving a properly executed **proof of loss**, the insurer must advise the claimant of acceptance or denial within **30 working days**. Each instance of noncompliance may be treated as a separate violation for monetary penalties; a violation is not a misdemeanor (§ 2601(c)).",
+     "simple": "Insurers must handle claims honestly and promptly. Once they have a completed proof of loss, they have 30 working days to say yes or no.",
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "30 WORKING days, not calendar days, after a properly executed proof of loss.",
+       "sources": [
+        "ny-isc-2601"
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "Appointing and terminating agents",
+     "body": "An insurer authorizes an agent by filing a certificate or notice of [[appointment]] (§ 2112(a)). The notice is due **within 15 days** from the date the agency contract is executed or the first insurance application is submitted (§ 2112(b)). An appointment stays valid until the insurer terminates it under the agency contract, the license is suspended or revoked, or the license expires without renewal (§ 2112(c)).\n\nWhen an insurer (or a producer) terminates a producer **for cause** — for conduct listed in § 2110(a) — it must:\n\n- file a statement of the facts with the superintendent **within 30 days**;\n- send the producer a copy **within 15 days** after notifying the superintendent, by certified mail (return receipt requested) or overnight delivery; and\n- promptly report any additional reportable information discovered later.\n\nThe producer may file written comments within 30 days after receiving the notification. Statements made in good faith are protected from civil liability absent fraud, bad faith or gross negligence, and failing to report can bring penalties (insurers may be fined up to $5,000).",
+     "simple": "Insurer appoints you within 15 days of your contract or first application. If it fires you for cause, it tells DFS within 30 days and sends you a copy within 15 days after that.",
+     "callouts": [
+      {
+       "kind": "memory-tip",
+       "text": "Appoint: 15. Terminate for cause: 30 to DFS, then 15 to the producer.",
+       "sources": [
+        "ny-isc-2112"
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "Books and records",
+     "body": "The outline also lists the examination of books and records (Insurance Law § 2404; Regulation 152, 11 NYCRR Part 243). The practical lesson: keep complete, accurate and retrievable records of every transaction, premium received and disclosure given. Your fiduciary records must show whose money you hold (§ 2120(c)), and they are what the Department reviews when it examines a licensee.",
+     "simple": "Keep good records of everything — the Department can examine them.",
+     "callouts": [
+      {
+       "kind": "note",
+       "text": "Specific record-retention periods under Regulation 152 were not verified for this course; follow your insurer's and DFS's current requirements."
+      }
+     ]
+    }
+   ],
+   "activity": {
+    "type": "categorize",
+    "prompt": "Sort each item: is it a duty of the INSURER or of the PRODUCER?",
+    "categories": [
+     "Insurer duty",
+     "Producer duty"
+    ],
+    "items": [
+     {
+      "text": "File a notice of appointment within 15 days",
+      "category": "Insurer duty"
+     },
+     {
+      "text": "Advise a claimant of acceptance or denial within 30 working days of proof of loss",
+      "category": "Insurer duty"
+     },
+     {
+      "text": "Hold a New York license (certificate of authority) before doing business",
+      "category": "Insurer duty"
+     },
+     {
+      "text": "Not place business with an unauthorized insurer",
+      "category": "Producer duty"
+     },
+     {
+      "text": "Report a change of address within 30 days",
+      "category": "Producer duty"
+     },
+     {
+      "text": "Hold premiums in a fiduciary capacity",
+      "category": "Producer duty"
+     }
+    ]
+   },
+   "knowledgeChecks": [
+    {
+     "prompt": "A for-cause termination statement must be filed with the superintendent within:",
+     "choices": [
+      "30 days",
+      "15 days",
+      "10 days",
+      "90 days"
+     ],
+     "answerIndex": 0,
+     "explanation": "§ 2112(d): within thirty days; the copy to the producer follows within fifteen days after the notification."
+    },
+    {
+     "prompt": "Which is an unfair claim settlement practice under § 2601 when done as a general business practice?",
+     "choices": [
+      "Offering substantially less than amounts ultimately recovered in lawsuits",
+      "Requesting a properly executed proof of loss",
+      "Denying a claim excluded by the policy after investigation",
+      "Paying a valid claim within 10 working days"
+     ],
+     "answerIndex": 0,
+     "explanation": "§ 2601(a)(5) lists compelling policyholders to sue by offering substantially less than they ultimately recover."
+    },
+    {
+     "prompt": "What does § 2117(g) impose for aiding an unauthorized insurer?",
+     "choices": [
+      "A $500 forfeiture for each transaction",
+      "A $25 fine per policy",
+      "A mandatory 5-year license suspension",
+      "No penalty if the client consents"
+     ],
+     "answerIndex": 0,
+     "explanation": "§ 2117(g): $500 per transaction in addition to other penalties."
+    }
+   ],
+   "summary": [
+    "Insurers need New York authority (§ 1102); aiding an unauthorized insurer costs $500 per transaction (§ 2117).",
+    "Solvency regulation protects policyholders by making sure insurers can pay claims.",
+    "Unfair claim practices are prohibited; insurers must accept or deny within 30 working days of a properly executed proof of loss.",
+    "Appointments are filed within 15 days; for-cause terminations are reported to DFS within 30 days with a copy to the producer within 15 days after that."
+   ],
+   "related": [
+    "reg-l02",
+    "reg-l04"
+   ],
+   "sources": [
+    "ny-isc-1102",
+    "ny-isc-2117",
+    "ny-isc-2601",
+    "ny-isc-2112",
+    "ny-isc-2120",
+    "ny-isc-2123",
+    "general-insurance-principles"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19",
+    "notes": "§§ 307 and 2404 and Regulation 152 not retrieved; those nodes are taught at concept level without NY specifics."
+   }
+  }
+ ]
+}

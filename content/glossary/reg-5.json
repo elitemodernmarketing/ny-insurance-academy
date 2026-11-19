@@ -1,0 +1,458 @@
+{
+ "sectionId": "reg",
+ "terms": [
+  {
+   "id": "superintendent",
+   "term": "Superintendent of Financial Services",
+   "aliases": [
+    "Superintendent",
+    "DFS Superintendent"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.1",
+    "reg.1.5.1"
+   ],
+   "formal": "The head of the New York State Department of Financial Services (DFS), who administers the Insurance Law. Among other powers, the superintendent issues and may refuse producer licenses (§ 2103(h)), may suspend, revoke or refuse to renew licenses after notice and hearing (§ 2110), may impose monetary penalties in lieu of revocation (§ 2127), approves any business name other than an individual's own legal name (§ 2102(f)), and receives reports of suspected insurance fraud (§ 405).",
+   "plain": "The superintendent is New York's top insurance regulator. The superintendent's department licenses producers, holds disciplinary hearings, fines or revokes licenses, and investigates fraud reports.",
+   "simpler": "If New York insurance were a sports league, the superintendent would be the commissioner who issues player cards, enforces the rules and hands out suspensions.",
+   "examples": [
+    "The superintendent refuses to issue a license to an applicant found untrustworthy after reviewing the application.",
+    "After a hearing, the superintendent orders an agent who commingled premiums to pay a penalty instead of revoking the license."
+   ],
+   "examTip": "Questions about who licenses, investigates, holds hearings or disciplines producers in New York point to the superintendent (DFS).",
+   "misconception": "The superintendent is not an elected legislator and does not write the Insurance Law; the Legislature passes the law and the superintendent administers and enforces it, including by regulation.",
+   "related": [
+    "license-revocation",
+    "certificate-of-authority",
+    "insurance-fraud"
+   ],
+   "confusedWith": [],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "Who may suspend or revoke a New York producer's license after notice and a hearing?",
+    "choices": [
+     "The Superintendent of Financial Services",
+     "The appointing insurer",
+     "The National Association of Insurance Commissioners",
+     "The county clerk"
+    ],
+    "answerIndex": 0,
+    "explanation": "§ 2110(a) gives this power to the superintendent. Insurers can terminate appointments but cannot revoke a state license."
+   },
+   "sources": [
+    "ny-isc-2110",
+    "ny-isc-2103",
+    "ny-isc-2127",
+    "ny-isc-2102",
+    "ny-isc-405"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "certificate-of-authority",
+   "term": "Certificate of Authority",
+   "aliases": [
+    "Insurer's license",
+    "Authorized insurer"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.2.1"
+   ],
+   "formal": "The license the superintendent issues to an insurer authorizing it to do an insurance business in New York. NY Insurance Law § 1102(a) provides that no person, firm, association, corporation or joint-stock company may do an insurance business in New York unless authorized by a license in force under the Insurance Law or exempted from that requirement.",
+   "plain": "Before an insurance company can sell policies in New York, it needs New York's permission — commonly called a certificate of authority. A company with it is an authorized (admitted) insurer; one without it is unauthorized.",
+   "simpler": "Producers need a license to sell; insurance companies need their own \"license\" to exist in the New York market.",
+   "examples": [
+    "A Connecticut-based life insurer obtains New York authority before its agents may sell its policies to New York residents.",
+    "An offshore company with no New York authority advertises policies online to New Yorkers; it is not authorized, and producers may not help it do business here."
+   ],
+   "examTip": "Producer license = the person. Certificate of authority (insurer's license under § 1102) = the company.",
+   "misconception": "A producer license does not authorize an insurer. Even a fully licensed agent may not place business with an insurer that lacks New York authority (§ 2117).",
+   "related": [
+    "unauthorized-insurer",
+    "admitted-insurer",
+    "superintendent"
+   ],
+   "confusedWith": [
+    "unauthorized-insurer"
+   ],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "Under NY Insurance Law § 1102, what must an insurer have before doing an insurance business in New York?",
+    "choices": [
+     "A license (certificate of authority) in force under the Insurance Law, unless exempt",
+     "An appointment from a licensed agent",
+     "A broker's license",
+     "Membership in a fraternal society"
+    ],
+    "answerIndex": 0,
+    "explanation": "§ 1102(a) requires a license in force under the Insurance Law, or an exemption, to do an insurance business in New York."
+   },
+   "sources": [
+    "ny-isc-1102",
+    "ny-isc-2117"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "insurer-solvency",
+   "term": "Insurer Solvency",
+   "aliases": [
+    "Solvency"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.2.2"
+   ],
+   "formal": "An insurer's financial ability to meet its obligations — chiefly, to pay claims and benefits when they come due — because its assets, including required reserves, adequately exceed its liabilities. State regulators monitor solvency through financial reporting, capital and reserve requirements, and periodic examinations.",
+   "plain": "A solvent insurer has enough money set aside to pay the claims it has promised to pay. Regulators watch insurers' finances closely because a policy is only as good as the company behind it.",
+   "simpler": "Solvency is like a bank account big enough to cover every check you've written, plus a cushion for surprises.",
+   "examples": [
+    "A regulator reviews an insurer's annual financial statements and finds its reserves are adequate to cover expected death claims.",
+    "An insurer whose liabilities exceed its assets is insolvent and may be taken over by regulators to protect policyholders."
+   ],
+   "examTip": "Solvency questions focus on the insurer's ability to pay claims; regulators protect it with reserve and capital requirements, financial reporting and examinations.",
+   "misconception": "Solvency is not the same as profitability. An insurer can have a bad year and still be solvent if its reserves and surplus remain adequate.",
+   "related": [
+    "certificate-of-authority",
+    "superintendent",
+    "defamation-of-insurer"
+   ],
+   "confusedWith": [],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "What is the main purpose of solvency regulation of insurers?",
+    "choices": [
+     "To make sure insurers can pay claims when due",
+     "To set producers' commission rates",
+     "To approve each individual policy sale",
+     "To guarantee insurers a profit"
+    ],
+    "answerIndex": 0,
+    "explanation": "Solvency regulation protects policyholders by ensuring insurers keep enough assets and reserves to pay claims."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19",
+    "notes": "General concept only; NY § 307 (annual statements) not retrieved, so no NY filing dates or figures are stated."
+   }
+  },
+  {
+   "id": "unfair-claims-settlement-practices",
+   "term": "Unfair Claims Settlement Practices",
+   "aliases": [],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.2.3"
+   ],
+   "formal": "Under NY Insurance Law § 2601(a), acts by an insurer that, if committed without just cause and with such frequency as to indicate a general business practice, are unfair claim settlement practices — including knowingly misrepresenting pertinent facts or policy provisions to claimants, failing to acknowledge claim communications with reasonable promptness, failing to adopt reasonable standards for prompt investigation, not attempting in good faith to settle claims where liability is reasonably clear, and compelling policyholders to sue by offering substantially less than amounts ultimately recovered.",
+   "plain": "Insurers must handle claims fairly and promptly. Lowballing, stalling, ignoring claimants or misstating what the policy covers — as a pattern — is an unfair claims settlement practice. After receiving a properly executed proof of loss, the insurer must tell the claimant whether the claim is accepted or denied within 30 working days.",
+   "simpler": "Claim handling must be honest, prompt and fair — not \"delay, deny, and make them sue.\"",
+   "examples": [
+    "An insurer routinely offers beneficiaries half of what courts later award, forcing them to sue; that is an unfair claims settlement practice.",
+    "An insurer regularly ignores claimants' letters for months; failing to acknowledge communications with reasonable promptness is listed in § 2601(a)(2)."
+   ],
+   "examTip": "§ 2601 targets acts done \"with such frequency as to indicate a general business practice.\" Also remember: 30 working days after proof of loss to accept or deny.",
+   "misconception": "A single mistake on one claim is not automatically a § 2601 violation; the statute addresses acts without just cause performed frequently enough to show a general business practice.",
+   "related": [
+    "superintendent",
+    "fiduciary-responsibility"
+   ],
+   "confusedWith": [],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Under § 2601, after receiving a properly executed proof of loss, an insurer must advise the claimant of acceptance or denial within:",
+    "choices": [
+     "30 working days",
+     "10 calendar days",
+     "60 days",
+     "90 days"
+    ],
+    "answerIndex": 0,
+    "explanation": "§ 2601(a)(4) requires the insurer to advise the claimant of acceptance or denial within thirty working days."
+   },
+   "sources": [
+    "ny-isc-2601"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "defamation-of-insurer",
+   "term": "Defamation of Insurer",
+   "aliases": [
+    "False statements as to insurers"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.3.3"
+   ],
+   "formal": "Under NY Insurance Law § 2604, wilfully making, circulating or transmitting any statement — written, printed or by word of mouth — that is untrue in fact and is directly or by inference derogatory to the financial condition, or affects the solvency or financial standing, of any insurer doing business in New York, or knowingly counseling, aiding or inducing another to circulate such a statement.",
+   "plain": "You may not spread false statements that an insurance company is financially weak or going under. It doesn't matter whether you say it, write it or post it, and helping someone else spread the rumor is also prohibited.",
+   "simpler": "Defamation of an insurer is bad-mouthing a competitor's finances with lies to win the sale.",
+   "examples": [
+    "To win a sale, an agent falsely tells a prospect, \"Rival Life is about to go bankrupt,\" when it is financially sound.",
+    "A producer forwards a fake online post claiming an insurer cannot pay claims and urges clients to share it."
+   ],
+   "examTip": "Defamation = false statement about an insurer's FINANCIAL condition or solvency. Misrepresentation = false statement about a POLICY's terms or benefits.",
+   "misconception": "Truthful, accurate comparisons of insurers' published financial ratings are not defamation; § 2604 covers statements untrue in fact.",
+   "related": [
+    "false-advertising",
+    "twisting",
+    "insurer-solvency"
+   ],
+   "confusedWith": [
+    "false-advertising"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "An agent tells prospects that a competing insurer is insolvent, knowing the statement is false. This violates the prohibition on:",
+    "choices": [
+     "Defamation of an insurer",
+     "Rebating",
+     "Controlled business",
+     "Commingling"
+    ],
+    "answerIndex": 0,
+    "explanation": "§ 2604 prohibits wilfully making untrue statements derogatory to an insurer's financial condition or solvency."
+   },
+   "sources": [
+    "ny-isc-2604"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "false-advertising",
+   "term": "False Advertising",
+   "aliases": [
+    "Misleading advertising",
+    "False literature"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.3.2",
+    "reg.2.3.1"
+   ],
+   "formal": "Issuing or circulating any illustration, circular, statement, memorandum or advertisement that misrepresents the terms, benefits or advantages of an insurance policy or annuity, misleads as to dividends, or misrepresents an insurer's financial condition (NY Insurance Law § 2123(a)(1)). New York also requires producers' advertisements that refer to an insurer to state the insurer's full name and the city, town or village of its principal U.S. office, and prohibits advertising that calls attention to an unauthorized insurer (§ 2122).",
+   "plain": "Every ad, flyer, website, social media post or sales illustration must be truthful and not misleading about what a policy does or costs, about dividends, or about the insurer's strength. Ads that mention an insurer must name it in full.",
+   "simpler": "If the ad promises something the policy doesn't deliver, it's false advertising — no matter how small the print.",
+   "examples": [
+    "A producer's social media ad says a whole life policy \"guarantees\" dividends that are actually not guaranteed; that is misleading as to dividends.",
+    "An agency flyer mentions \"a top New York insurer\" without giving the insurer's full name and principal office city; § 2122(b) requires both."
+   ],
+   "examTip": "Advertising = any public communication: print, broadcast, internet, social media, illustrations. Watch for \"guaranteed\" claims about non-guaranteed elements.",
+   "misconception": "Small print does not cure a misleading headline; the overall impression of the communication is what matters.",
+   "related": [
+    "defamation-of-insurer",
+    "twisting",
+    "misrepresentation"
+   ],
+   "confusedWith": [
+    "defamation-of-insurer"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Under § 2122, a New York agent's advertisement that refers to an insurer must include:",
+    "choices": [
+     "The insurer's full name and the city, town or village of its principal U.S. office",
+     "The agent's commission rate",
+     "The insurer's claim payment statistics",
+     "The superintendent's signature"
+    ],
+    "answerIndex": 0,
+    "explanation": "§ 2122(b) requires the full name of the insurer and the city, town or village of its principal office in the United States."
+   },
+   "sources": [
+    "ny-isc-2123",
+    "ny-isc-2122"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "sharing-commissions",
+   "term": "Sharing Commissions",
+   "aliases": [
+    "Commission sharing",
+    "Fee splitting"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.4.2",
+    "reg.2.4.5"
+   ],
+   "formal": "Dividing a commission or fee earned on an insurance sale with another person. Under NY Insurance Law § 2102(e), no person may accept a commission, service fee, brokerage or other valuable consideration for selling, soliciting or negotiating insurance in New York if that person is required to be licensed and is not; renewal or deferred commissions may be paid to someone who was properly licensed at the time of the sale. Giving part of a commission to the insured as an inducement is rebating (§ 4224(c), § 2324(a)).",
+   "plain": "You may split a commission only in lawful ways — for example, with another properly licensed producer who helped on the sale. Paying an unlicensed person for selling, soliciting or negotiating is prohibited, and giving part of your commission back to the client is an illegal rebate.",
+   "simpler": "Commission is like a referee's paycheck: only people actually certified to referee can be paid for refereeing.",
+   "examples": [
+    "Two licensed producers who jointly worked on a large group case agree to split the commission; that is permissible.",
+    "An agent pays her unlicensed brother-in-law a cut of each commission for urging his friends to apply; the brother-in-law is soliciting without a license and may not accept the payment."
+   ],
+   "examTip": "Sharing with the client = rebating. Sharing with an unlicensed person for selling/soliciting/negotiating = prohibited. Renewals can still be paid if the producer was licensed when the sale was made.",
+   "misconception": "A producer who later lets a license lapse can still receive renewal commissions on policies sold while properly licensed (§ 2102(e)(2)).",
+   "related": [
+    "rebating",
+    "producer",
+    "producer-compensation-disclosure"
+   ],
+   "confusedWith": [
+    "rebating"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Which commission payment is permitted under NY Insurance Law § 2102(e)?",
+    "choices": [
+     "A renewal commission paid to a former agent who was licensed when the policy was sold",
+     "A commission paid to an unlicensed friend who solicited the sale",
+     "Part of the commission given to the insured to encourage the purchase",
+     "A commission paid to an unlicensed person for negotiating policy terms"
+    ],
+    "answerIndex": 0,
+    "explanation": "§ 2102(e)(2) allows renewal or deferred commissions to persons licensed at the time of sale. Paying unlicensed persons for selling, soliciting or negotiating, or sharing with the insured (rebating), is prohibited."
+   },
+   "sources": [
+    "ny-isc-2102",
+    "ny-isc-4224",
+    "ny-isc-2324"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "insurance-fraud",
+   "term": "Insurance Fraud",
+   "aliases": [
+    "Fraudulent insurance act"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.6",
+    "reg.2.8",
+    "reg.2.9"
+   ],
+   "formal": "Under New York's Insurance Frauds Prevention provisions (Insurance Law Article 4), a fraudulent insurance act includes knowingly and with intent to defraud filing an application for insurance or a statement of claim containing materially false information, or concealing for the purpose of misleading information concerning any material fact. It is a crime, and the superintendent may also levy a civil penalty not exceeding $5,000 and the amount of the claim for each violation (§ 403(c)-(d)). Licensees who believe a transaction may be fraudulent must report it to the superintendent within 30 days after determining it appears fraudulent (§ 405(a)).",
+   "plain": "Lying on an application or claim — or hiding important facts — to cheat an insurer is a crime in New York. Producers are on the front line: if you have reason to believe a transaction is fraudulent, you must report it to DFS within 30 days of reaching that conclusion.",
+   "simpler": "Insurance fraud is cheating the system by lying on the paperwork. Spot it? Report it within 30 days.",
+   "examples": [
+    "An applicant knowingly hides a recent cancer diagnosis on a life application to get a lower premium.",
+    "An agent notices a client submitted the same disability claim to two insurers with altered medical bills, and reports it to DFS on the prescribed form within 30 days."
+   ],
+   "examTip": "Key IFPA numbers: civil penalty up to $5,000 plus the claim amount per violation; licensees report suspected fraud within 30 days after determining it appears fraudulent.",
+   "misconception": "You do not need proof beyond doubt to report; § 405 applies when a licensee has reason to believe a transaction may be fraudulent.",
+   "related": [
+    "fraud",
+    "section-1033-waiver",
+    "superintendent"
+   ],
+   "confusedWith": [
+    "fraud"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "A New York licensee determines that a claim appears to be fraudulent. Within what period must the licensee report it to the superintendent?",
+    "choices": [
+     "30 days",
+     "10 days",
+     "90 days",
+     "At the next license renewal"
+    ],
+    "answerIndex": 0,
+    "explanation": "§ 405(a) requires the report within thirty days after the licensee determines the transaction appears to be fraudulent."
+   },
+   "sources": [
+    "ny-isc-403",
+    "ny-isc-405"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ],
+ "comparisons": [
+  {
+   "a": "defamation-of-insurer",
+   "b": "false-advertising",
+   "keyDifference": "Defamation attacks an insurer's financial standing with untrue statements; false advertising misrepresents a policy's terms, benefits or dividends (or an insurer's condition) to promote a sale.",
+   "rows": [
+    {
+     "aspect": "Typical target",
+     "a": "A (usually competing) insurer's solvency or financial condition",
+     "b": "The policy being sold, its benefits, dividends or the insurer's strength"
+    },
+    {
+     "aspect": "NY source",
+     "a": "§ 2604",
+     "b": "§ 2123(a)(1); § 2122 advertising rules"
+    }
+   ],
+   "memoryTip": "Defamation tears an insurer DOWN; false advertising puffs a policy UP."
+  },
+  {
+   "a": "twisting",
+   "b": "rebating",
+   "keyDifference": "Twisting uses misrepresentation or incomplete comparisons to get a client to drop an existing policy; rebating gives the client something of value not in the policy to induce a purchase.",
+   "rows": [
+    {
+     "aspect": "Method",
+     "a": "Misleading or incomplete comparison",
+     "b": "Inducement: part of premium/commission, gifts over $25, special favors"
+    },
+    {
+     "aspect": "Usual setting",
+     "a": "Replacement of an existing policy",
+     "b": "Any new sale"
+    },
+    {
+     "aspect": "NY source",
+     "a": "§ 2123(a)(2)",
+     "b": "§ 4224(c) (life/A&H); § 2324(a) (other lines)"
+    }
+   ],
+   "memoryTip": "Twisting twists the FACTS; rebating gives back MONEY."
+  }
+ ]
+}

@@ -1,0 +1,509 @@
+{
+  "sectionId": "plpc",
+  "lessons": [
+    {
+      "id": "plpc-l04",
+      "sectionId": "plpc",
+      "order": 4,
+      "title": "Inside the Policy: Structure, Insureds, Cancellation, Earned Premium, Deductibles and Limits",
+      "outlineIds": [
+        "plpc.2",
+        "plpc.2.1",
+        "plpc.2.2",
+        "plpc.2.3",
+        "plpc.2.4",
+        "plpc.2.5",
+        "plpc.2.6",
+        "plpc.2.7",
+        "plpc.3",
+        "plpc.3.1",
+        "plpc.3.2",
+        "plpc.3.3",
+        "plpc.3.4",
+        "plpc.3.5",
+        "plpc.3.5.1",
+        "plpc.3.6",
+        "plpc.3.7",
+        "plpc.3.8",
+        "plpc.3.8.1",
+        "plpc.3.8.2",
+        "plpc.3.8.3",
+        "plpc.3.9",
+        "plpc.3.9.1",
+        "plpc.3.9.2",
+        "plpc.3.9.3",
+        "plpc.3.9.4",
+        "plpc.3.9.5",
+        "plpc.3.9.6",
+        "plpc.3.9.7",
+        "plpc.3.9.8"
+      ],
+      "estMinutes": 35,
+      "intro": "Every property and casualty policy is built from the same parts and shares a set of common provisions. Once you know where to look and how the numbers work, you can read any homeowners, dwelling or auto policy. This lesson covers policy structure, who is insured, when and where coverage applies, New York's cancellation and nonrenewal rules, how return premiums are computed, deductibles and self-insured retentions, other insurance, and limits of liability.",
+      "objectives": [
+        "Name the parts of a policy and what each contains",
+        "Distinguish named, first named, additional and defined insureds",
+        "Apply New York cancellation and nonrenewal rules for personal lines (§ 3425) and commercial lines (§ 3426)",
+        "Calculate pro rata, short rate and flat return premiums",
+        "Apply deductibles, SIRs, other insurance and limits (per occurrence, per person, aggregate, sublimit, split, CSL)"
+      ],
+      "keyTerms": [
+        "declarations-page",
+        "insuring-agreement",
+        "policy-conditions",
+        "endorsement",
+        "named-insured",
+        "first-named-insured",
+        "additional-insured",
+        "policy-period",
+        "policy-territory",
+        "earned-premium",
+        "pro-rata-cancellation",
+        "short-rate-cancellation",
+        "flat-cancellation",
+        "policy-deductible",
+        "self-insured-retention",
+        "other-insurance-clause",
+        "per-occurrence-limit",
+        "aggregate-limit",
+        "sublimit",
+        "split-limits",
+        "combined-single-limit"
+      ],
+      "parts": [
+        {
+          "heading": "The parts of a policy",
+          "body": "- [[declarations-page|Declarations]]: the facts unique to this policy: named insured, address, policy period, coverages, limits, deductibles, premium and attached forms.\n- **Definitions**: the meaning of key words (\"you\", \"insured\", \"occurrence\"). Defined words usually appear in bold or quotation marks and control how the rest of the policy is read.\n- [[insuring-agreement|Insuring agreement]]: the insurer's basic promise.\n- **Additional/supplementary coverages**: extras such as debris removal, reasonable repairs, or claim expenses and defense-related costs on the liability side.\n- [[policy-conditions|Conditions]]: rules and duties (notice of loss, cancellation, subrogation, appraisal).\n- [[exclusion|Exclusions]]: perils, property or losses not covered.\n- [[endorsement|Endorsements]]: attachments that add, remove or change coverage; they control over conflicting printed terms.",
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "DICE + definitions + endorsements: Declarations, Insuring agreement, Conditions, Exclusions."
+            }
+          ]
+        },
+        {
+          "heading": "Who is insured, when and where",
+          "body": "- [[named-insured|Named insured]]: the person or entity named in the declarations.\n- [[first-named-insured|First named insured]]: when several are named, the first one listed pays premiums, receives return premiums and notices, and may change or cancel the policy for all.\n- [[additional-insured|Additional insured]]: a party added by endorsement to receive coverage, often for liability arising out of the named insured's work or premises.\n- **Defined insureds**: people who qualify through the policy's definition, such as [[resident-relative|resident relatives]].\n\nThe [[policy-period]] is WHEN coverage applies (dates and time on the declarations); occurrence-based coverage responds to events during that period. The [[policy-territory]] is WHERE: a personal auto policy covers the U.S., its territories and possessions, Puerto Rico and Canada; homeowners personal property and liability coverages are generally worldwide.",
+          "callouts": []
+        },
+        {
+          "heading": "Cancellation and nonrenewal in New York",
+          "body": "**Personal lines (§ 3425)** covers homeowners-type policies on residences with up to four dwelling units, personal property of natural persons, personal liability (including personal umbrellas), and private passenger auto when a natural person is the named insured.\n\n- **First 60 days**: any cancellation notice must state the specific reason(s).\n- **After 60 days** (or from the effective date of a renewal), a personal lines policy may be cancelled only for: **nonpayment of premium** (notice must state the amount due); **conviction of a crime** increasing the hazard insured against; **fraud or material misrepresentation** in obtaining the policy or presenting a claim; **willful or reckless acts or omissions** increasing the hazard; **physical changes** making the property uninsurable under objective, uniformly applied standards; or a **Superintendent determination** that continuing would violate the law.\n- **Nonpayment**: payment is timely if made within **15 days after the notice of cancellation is mailed**.\n- **Required policy period**: **three years** for personal lines (one year for auto). During it, nonrenewal or conditional renewal is allowed only on a ground that would have permitted cancellation.\n- **Nonrenewal notice**: mailed or delivered **at least 45 but not more than 60 days** before the end of the policy period, with the specific reasons; otherwise the insured may renew by paying the renewal premium.\n- A copy of each notice goes to the insured's agent or broker within 7 days, and no insurer may refuse to issue or renew solely because of the applicant's **advanced age**.\n\n**Commercial lines (§ 3426)**: one-year required policy period; during the first 60 days, cancellation is effective 20 days after notice to the first-named insured and its agent or broker; after 60 days, only listed grounds and 15 days' notice; nonrenewal or conditional renewal notice **60 to 120 days** before expiration (30 to 120 for excess liability and jumbo risks).",
+          "simple": "New York homeowners policies come with a three-year promise. After the first 60 days the insurer can cancel only for a short list of serious reasons, and it must warn you 45 to 60 days before refusing to renew.",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "§ 3425: personal lines required policy period = 3 years; after 60 days cancellation only for listed reasons; nonrenewal notice 45–60 days before the end of the policy period with reasons; payment within 15 days after a nonpayment notice is mailed is timely.",
+              "sources": [
+                "ny-isc-3425-personal-lines"
+              ]
+            },
+            {
+              "kind": "ny-rule",
+              "text": "§ 3426 (commercial): 20 days' notice in the first 60 days; afterward listed grounds and 15 days' notice; nonrenewal notice 60–120 days before expiration.",
+              "sources": [
+                "ny-isc-3426"
+              ]
+            },
+            {
+              "kind": "exam-trap",
+              "text": "45–60 days is PERSONAL lines nonrenewal. 60–120 days is COMMERCIAL. Three years is the personal lines required policy period; auto is one year."
+            }
+          ]
+        },
+        {
+          "heading": "Earned premium and return premium",
+          "body": "[[earned-premium|Earned premium]] is the part of the premium for time already covered; the rest is unearned.\n\n- [[pro-rata-cancellation|Pro rata]]: refund all unearned premium, no penalty; customary when the **insurer** cancels.\n- [[short-rate-cancellation|Short rate]]: refund less than the pro rata amount, to recover the insurer's costs; customary when the **insured** cancels, if the policy or rate filing provides for it. In New York, when the insured cancels, the earned premium kept is set by the applicable rate filing or, if none, the contract (§ 3428(a)).\n- [[flat-cancellation|Flat]]: cancelled at inception, full refund.",
+          "example": {
+            "title": "Example: one policy, three refunds",
+            "body": "Annual premium $1,200, cancelled after 4 months. Pro rata refund: $1,200 × 8/12 = $800. Short rate refund using a rule that returns 90% of pro rata: $800 × 0.90 = $720. Flat cancellation (at inception): $1,200."
+          },
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "§ 3428(a): when the insured cancels, the insurer's retained earned premium is determined by the applicable rate filing, otherwise by the policy.",
+              "sources": [
+                "ny-isc-3428"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Deductibles, SIRs and other insurance",
+          "body": "A [[policy-deductible]] is the part of each covered loss the insured bears; subtract it from the loss, then apply the limit. A [[self-insured-retention]] (SIR) requires the insured to pay, and often handle, the first part of a liability claim (including defense) before the insurer responds; personal umbrellas commonly use one.\n\nThe [[other-insurance-clause]] decides how policies covering the same loss share it:\n- **Primary**: pays first, up to its limit.\n- **Excess**: pays only after primary limits are used up.\n- **Pro rata share**: each policy pays its limit ÷ total limits × loss.",
+          "example": {
+            "title": "Example: pro rata sharing",
+            "body": "Policy A $200,000 and Policy B $100,000 cover a $60,000 loss pro rata. A pays 2/3 ($40,000); B pays 1/3 ($20,000)."
+          },
+          "callouts": []
+        },
+        {
+          "heading": "Limits of liability",
+          "body": "- [[per-occurrence-limit|Per occurrence (accident)]]: most paid for one event, no matter how many claimants.\n- **Per person**: most paid for injury to any one person (the first number of a split limit).\n- [[aggregate-limit|Aggregate]]: most paid for all losses during the policy period; may apply **per project** (each job) or **per location** (each premises).\n- [[sublimit|Sublimit]]: a smaller cap inside a larger limit (for example, theft of jewelry).\n- [[split-limits|Split limits]]: e.g., 100/300/50 = $100,000 BI per person / $300,000 BI per accident / $50,000 PD per accident.\n- [[combined-single-limit|Combined single limit]]: one per-accident limit for BI and PD together.",
+          "example": {
+            "title": "Example: split limits",
+            "body": "Under 50/100/25, two people are hurt: $70,000 and $20,000; property damage is $30,000. BI: $50,000 + $20,000 = $70,000 (within $100,000). PD: $25,000. Total paid: $95,000. With a $125,000 CSL instead, the policy would pay all $120,000."
+          },
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Per person first, then per accident, then property damage."
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "truefalse",
+        "prompt": "True or false?",
+        "statements": [
+          {
+            "text": "In New York, a homeowners policy in force for 90 days may be cancelled because the insured filed one small claim.",
+            "answer": false,
+            "explanation": "After 60 days, § 3425(c)(2) limits cancellation to listed grounds; a claim by itself is not one of them."
+          },
+          {
+            "text": "A personal lines nonrenewal notice must be sent at least 45 but not more than 60 days before the policy period ends.",
+            "answer": true,
+            "explanation": "§ 3425(d)(1)."
+          },
+          {
+            "text": "Short rate cancellation returns more than a pro rata cancellation.",
+            "answer": false,
+            "explanation": "Short rate returns less; the insurer keeps a charge for its costs."
+          },
+          {
+            "text": "The first named insured is generally the one who receives return premiums and cancellation notices.",
+            "answer": true,
+            "explanation": "That is the role of the first named insured."
+          },
+          {
+            "text": "A combined single limit has separate per person and property damage caps.",
+            "answer": false,
+            "explanation": "A CSL is one limit for BI and PD combined; separate caps describe split limits."
+          },
+          {
+            "text": "An excess policy pays only after the primary policy's limit is used up.",
+            "answer": true,
+            "explanation": "Primary pays first; excess pays the remainder."
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "A $900 annual policy is cancelled by the insurer after 4 months. The pro rata refund is",
+          "choices": [
+            "$300",
+            "$600",
+            "$540",
+            "$900"
+          ],
+          "answerIndex": 1,
+          "explanation": "$900 × 8/12 = $600 unearned premium returned."
+        },
+        {
+          "prompt": "For New York personal lines, the required policy period is",
+          "choices": [
+            "One year",
+            "Six months",
+            "Three years",
+            "Five years"
+          ],
+          "answerIndex": 2,
+          "explanation": "§ 3425(a)(7): three years from first issuance or voluntary renewal."
+        },
+        {
+          "prompt": "A $40,000 loss with a $1,000 deductible on a $30,000 limit pays",
+          "choices": [
+            "$29,000",
+            "$39,000",
+            "$40,000",
+            "$30,000"
+          ],
+          "answerIndex": 3,
+          "explanation": "$40,000 − $1,000 = $39,000, capped at the $30,000 limit."
+        },
+        {
+          "prompt": "Under 25/50/10 split limits, the most paid for one injured person is",
+          "choices": [
+            "$25,000",
+            "$50,000",
+            "$10,000",
+            "$85,000"
+          ],
+          "answerIndex": 0,
+          "explanation": "The first number is the per person bodily injury limit."
+        }
+      ],
+      "summary": [
+        "Policy parts: declarations, definitions, insuring agreement, additional coverages, conditions, exclusions, endorsements (endorsements control).",
+        "Insureds: named, first named (administers the policy), additional (by endorsement), and defined insureds.",
+        "NY personal lines (§ 3425): 3-year required policy period; after 60 days cancel only for listed reasons; 45–60 days' nonrenewal notice with reasons; 15 days to pay after a nonpayment notice is mailed. Commercial (§ 3426): 60–120 days' nonrenewal notice.",
+        "Return premium: pro rata (no penalty), short rate (penalty, usually insured-initiated), flat (full refund at inception).",
+        "Deductible vs SIR; primary, excess and pro rata other insurance; per occurrence, per person, aggregate (per project/location), sublimit, split and combined single limits."
+      ],
+      "related": [
+        "plpc-l03",
+        "plpc-l05"
+      ],
+      "sources": [
+        "ny-isc-3425-personal-lines",
+        "ny-isc-3426",
+        "ny-isc-3428",
+        "general-insurance-principles"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-l05",
+      "sectionId": "plpc",
+      "order": 5,
+      "title": "Common Provisions After a Loss, Third-Party Interests, and Certificates vs. Binders",
+      "outlineIds": [
+        "plpc.3.10",
+        "plpc.3.11",
+        "plpc.3.12",
+        "plpc.3.12.1",
+        "plpc.3.12.2",
+        "plpc.3.12.3",
+        "plpc.3.13",
+        "plpc.3.13.1",
+        "plpc.3.13.2",
+        "plpc.3.13.3",
+        "plpc.3.13.4",
+        "plpc.3.13.5",
+        "plpc.3.13.6",
+        "plpc.3.14",
+        "plpc.3.14.1",
+        "plpc.3.14.2",
+        "plpc.3.14.3",
+        "plpc.4"
+      ],
+      "estMinutes": 35,
+      "intro": "This lesson finishes the common provisions: ordinance or law coverage, vacancy, the insured's duties after a loss, assignment and abandonment, the insurer's rights and duties (liberalization, subrogation, salvage, loss settlement, the duty to defend and coinsurance), the protections for lenders and the treatment of bailees, and the difference between a certificate of insurance and a binder under New York law.",
+      "objectives": [
+        "Explain ordinance or law coverage and the vacancy/unoccupancy distinction",
+        "List the insured's duties after loss and explain assignment and abandonment",
+        "Explain liberalization, subrogation, salvage, loss settlement options and the duty to defend",
+        "Calculate a coinsurance penalty",
+        "Compare the mortgage clause, loss payable clause and no benefit to bailee clause",
+        "Distinguish a certificate of insurance from a binder under NY Ins. Law §§ 501–504"
+      ],
+      "keyTerms": [
+        "ordinance-or-law-coverage",
+        "vacancy-clause",
+        "duties-after-loss",
+        "assignment",
+        "abandonment",
+        "liberalization-clause",
+        "subrogation",
+        "salvage",
+        "duty-to-defend",
+        "property-coinsurance-clause",
+        "mortgage-clause",
+        "loss-payable-clause",
+        "bailee-clause",
+        "certificate-of-insurance",
+        "binder"
+      ],
+      "parts": [
+        {
+          "heading": "Ordinance or law; vacancy vs. unoccupancy",
+          "body": "[[ordinance-or-law-coverage|Ordinance or law coverage]] pays the **extra cost of meeting current building codes** (and demolishing undamaged parts the law requires to come down) when repairing a covered loss. Without it, the policy pays only to restore what existed.\n\n[[vacancy-clause|Vacant]] means no occupants **and** no contents needed to live there. **Unoccupied** means belongings remain but no one is there for now. Standard forms restrict certain perils, commonly vandalism and glass breakage, once a building has been vacant for more than a stated number of consecutive days (60 in many standard forms).",
+          "callouts": []
+        },
+        {
+          "heading": "The insured's side: duties, assignment, abandonment",
+          "body": "[[duties-after-loss|Duties after loss]] (conditions the insured, and in practice the first named insured, must meet): prompt notice to the insurer; police report for theft; **protect the property from further damage**; inventory the damaged property; show the damage and provide records; give a signed, sworn proof of loss when required; cooperate.\n\n**Assignment**: a P&C policy is a personal contract, so it cannot be assigned (for example, to a buyer of the house) without the insurer's **written consent**. The life insurance meaning of [[assignment]] (transferring ownership rights) differs; in property policies, think 'the policy follows the person, not the property.'\n\n[[abandonment|Abandonment]]: the insured may **not** abandon damaged property to the insurer and demand its full value.",
+          "callouts": []
+        },
+        {
+          "heading": "The insurer's side: liberalization, subrogation, salvage, loss settlement, defense",
+          "body": "- [[liberalization-clause|Liberalization]]: if the insurer broadens its form **without extra premium**, existing policies get the broader coverage automatically.\n- [[subrogation|Subrogation]]: after paying, the insurer takes over the insured's right to recover from a responsible **third party**. The insured must not impair that right.\n- [[salvage|Salvage]]: after paying for property (often a total loss), the insurer may take and sell the damaged property.\n- **Loss settlement options**: [[actual-cash-value|ACV]], [[replacement-cost|replacement cost]] (often ACV first, the holdback after repair), or the insurer's option to repair or replace.\n- [[duty-to-defend|Duty to defend]]: the liability insurer must defend suits seeking potentially covered damages, even groundless ones; defense costs are usually in addition to the limit, and the duty ends when the limit is exhausted by payment of judgments or settlements.",
+          "example": {
+            "title": "Example: subrogation",
+            "body": "A contractor's torch starts a fire at Dana's home. Her insurer pays $40,000 minus her $1,000 deductible, then sues the contractor. If it recovers in full, it typically reimburses Dana's deductible too."
+          },
+          "callouts": []
+        },
+        {
+          "heading": "Coinsurance",
+          "body": "A [[property-coinsurance-clause|coinsurance clause]] requires insurance of at least a stated percentage (commonly 80%) of the property's value **at the time of loss**. If you carry less, payment = (amount carried ÷ amount required) × loss − deductible, never more than the limit.",
+          "example": {
+            "title": "Example: coinsurance penalty",
+            "body": "Value at loss $400,000; 80% required = $320,000; carried $240,000; loss $100,000; deductible $1,000. Ratio = 240/320 = 0.75. Payment = 0.75 × $100,000 − $1,000 = $74,000. Had she carried $320,000 or more, she would receive $99,000."
+          },
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Did ÷ Should × Loss − Deductible."
+            }
+          ]
+        },
+        {
+          "heading": "Third-party provisions: mortgagees, loss payees and bailees",
+          "body": "- [[mortgage-clause|Standard mortgage clause]]: the lender named in the declarations is paid as its interest appears and is protected **even if the insured's claim is denied** for the insured's acts or neglect (such as arson), provided the lender meets its obligations (for example, paying premium if the owner does not and reporting known changes). The lender also receives notice of cancellation or nonrenewal.\n- [[loss-payable-clause|Loss payable clause]]: used for financed or leased personal property (autos, equipment); the loss payee shares in claim payments, but under the simple form its rights are no greater than the insured's.\n- [[bailee-clause|No benefit to bailee]]: a bailee holding the insured's property for a service (dry cleaner, repair shop, mover) cannot benefit from the owner's policy, which preserves the insurer's subrogation rights.",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "§ 3425(n): when a personal lines insurer bills premiums to a mortgage escrow account, a notice of cancellation for nonpayment must be sent to both the insured mortgagor and the mortgage institution, or it has no effect.",
+              "sources": [
+                "ny-isc-3425-personal-lines"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Certificate of insurance vs. binder (NY Ins. Law §§ 501–504)",
+          "body": "A [[binder]] is a **temporary contract of insurance** issued by the insurer or an agent with binding authority, pending the formal policy. It may be oral or written and is subject to the policy's terms. Example: coverage bound effective on a home closing date.\n\nA [[certificate-of-insurance|certificate of insurance]] is **evidence** that coverage exists, issued to a certificate holder (a landlord, a client hiring a contractor). New York's Article 5:\n\n- **§ 501**: a certificate is any document prepared or issued by an insurer or producer as evidence of P&C coverage; it **does not include a policy or a binder**. A certificate holder is a person other than the policyholder identified on the certificate.\n- **§ 502**: no one may wilfully require a certificate (as a condition of a contract for work or payment) unless it is the insurer's own form or a standard or other form **approved by the Superintendent**; no one may wilfully require certificate language promising coverage the policy does not contain; and a certificate **cannot amend, extend or alter** the policy or confer rights beyond it.\n- **§ 503**: the Superintendent may impose penalties for wilful violations (by persons other than governmental entities). **§ 504**: the Superintendent may adopt implementing rules.",
+          "simple": "A binder IS coverage, for a short time. A certificate only SHOWS coverage and can never change it.",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "§ 501(a): 'certificate of insurance' excludes a policy and a binder. § 502(c): a certificate shall not amend, extend or alter the policy's coverage or confer rights beyond the policy.",
+              "sources": [
+                "ny-isc-501",
+                "ny-isc-502"
+              ]
+            },
+            {
+              "kind": "ny-rule",
+              "text": "§ 503: the Superintendent may penalize wilful violations of Article 5 after notice and hearing; § 504 authorizes implementing regulations.",
+              "sources": [
+                "ny-isc-503",
+                "ny-isc-504"
+              ]
+            },
+            {
+              "kind": "exam-trap",
+              "text": "Being a certificate holder does not make you an additional insured. Only an endorsement to the policy does."
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "categorize",
+        "prompt": "Sort each provision by whose interest it mainly concerns.",
+        "categories": [
+          "Insured's duties or limits",
+          "Insurer's rights",
+          "Third parties"
+        ],
+        "items": [
+          {
+            "text": "Duties after loss",
+            "category": "Insured's duties or limits"
+          },
+          {
+            "text": "Abandonment (insured may not abandon property)",
+            "category": "Insured's duties or limits"
+          },
+          {
+            "text": "Assignment requires insurer's written consent",
+            "category": "Insured's duties or limits"
+          },
+          {
+            "text": "Subrogation",
+            "category": "Insurer's rights"
+          },
+          {
+            "text": "Salvage",
+            "category": "Insurer's rights"
+          },
+          {
+            "text": "Coinsurance penalty for underinsurance",
+            "category": "Insurer's rights"
+          },
+          {
+            "text": "Standard mortgage clause",
+            "category": "Third parties"
+          },
+          {
+            "text": "Loss payable clause",
+            "category": "Third parties"
+          },
+          {
+            "text": "No benefit to bailee",
+            "category": "Third parties"
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Value $300,000, 80% coinsurance, insured for $180,000, loss $40,000, no deductible. Payment?",
+          "choices": [
+            "$30,000",
+            "$24,000",
+            "$40,000",
+            "$36,000"
+          ],
+          "answerIndex": 0,
+          "explanation": "Required = $240,000; 180/240 = 0.75; 0.75 × $40,000 = $30,000."
+        },
+        {
+          "prompt": "Under NY law, a certificate of insurance",
+          "choices": [
+            "Can extend coverage if signed by the producer",
+            "Is a type of binder",
+            "Cannot amend, extend or alter the policy",
+            "Makes the holder a named insured"
+          ],
+          "answerIndex": 2,
+          "explanation": "§ 502(c); § 501(a) excludes binders from the definition."
+        },
+        {
+          "prompt": "The mortgagee can collect even after the owner commits arson because of the",
+          "choices": [
+            "Loss payable clause",
+            "Standard mortgage clause",
+            "Liberalization clause",
+            "Abandonment clause"
+          ],
+          "answerIndex": 1,
+          "explanation": "The standard mortgage clause protects the lender from the insured's acts or neglect."
+        },
+        {
+          "prompt": "An insurer suing the negligent party who caused a covered loss is exercising",
+          "choices": [
+            "Salvage",
+            "Liberalization",
+            "Abandonment",
+            "Subrogation"
+          ],
+          "answerIndex": 3,
+          "explanation": "Subrogation is recovery from a responsible third party."
+        }
+      ],
+      "summary": [
+        "Ordinance or law pays code-upgrade costs after a covered loss; vacant = no people and no contents, unoccupied = contents remain.",
+        "Insured: duties after loss, no assignment without written consent, no abandonment.",
+        "Insurer: liberalization, subrogation, salvage, loss settlement options, duty to defend, coinsurance (Did ÷ Should × Loss − Deductible).",
+        "Mortgage clause protects the lender even if the insured's claim is denied; loss payee rights generally track the insured's; bailees get no benefit.",
+        "Binder = temporary coverage; certificate = evidence only and cannot change the policy (NY §§ 501–504)."
+      ],
+      "related": [
+        "plpc-l04"
+      ],
+      "sources": [
+        "ny-isc-501",
+        "ny-isc-502",
+        "ny-isc-503",
+        "ny-isc-504",
+        "ny-isc-3425-personal-lines",
+        "general-insurance-principles"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

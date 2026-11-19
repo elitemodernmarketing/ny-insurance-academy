@@ -1,0 +1,1715 @@
+{
+  "sectionId": "plpc",
+  "terms": [
+    {
+      "id": "insuring-agreement",
+      "term": "Insuring Agreement",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.2.3"
+      ],
+      "formal": "The part of the policy in which the insurer states its basic promise: what it will pay for or do (for example, pay for direct physical loss to covered property, or pay damages and defend the insured for covered liability claims), subject to the policy's other terms.",
+      "plain": "The insuring agreement is the heart of the contract: the insurer's promise. A property insuring agreement promises to pay for covered loss to covered property. A liability insuring agreement promises to pay sums the insured becomes legally obligated to pay for covered bodily injury or property damage and usually to defend the insured. Everything else in the policy (definitions, conditions, exclusions) shapes that promise.",
+      "simpler": "It is the sentence where the insurer says \"here is what we promise to do.\"",
+      "examples": [
+        "A homeowners policy promises to cover the dwelling and personal property against the perils described, in return for the premium and compliance with the policy.",
+        "A personal auto policy's liability section promises to pay damages for bodily injury or property damage for which an insured becomes legally responsible because of an auto accident."
+      ],
+      "examTip": "If a question asks where the insurer's promise to pay is found, answer the insuring agreement (not the declarations or conditions).",
+      "misconception": "The insuring agreement is not the whole story; coverage still depends on definitions, exclusions and conditions.",
+      "related": [
+        "declarations-page",
+        "policy-conditions",
+        "exclusion",
+        "duty-to-defend"
+      ],
+      "confusedWith": [
+        "declarations-page"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "The section of a policy that states the insurer's basic promise to pay is the",
+        "choices": [
+          "Insuring agreement",
+          "Declarations",
+          "Conditions",
+          "Endorsement"
+        ],
+        "answerIndex": 0,
+        "explanation": "The insuring agreement contains the insurer's promise. Declarations list the specific facts; conditions set the rules; endorsements modify the policy."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "policy-conditions",
+      "term": "Policy Conditions",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.2.5",
+        "plpc.2.2",
+        "plpc.2.4",
+        "plpc.2.6"
+      ],
+      "formal": "The provisions of a policy that set out the rights and duties of the insurer and the insured and the rules that must be followed for coverage to apply, such as notice of loss, duties after loss, cancellation, subrogation, appraisal and suit against the insurer.",
+      "plain": "Conditions are the ground rules of the contract. They tell the insured what to do after a loss (give prompt notice, protect property from further damage, cooperate), tell the insurer how it may cancel, and explain procedures like appraisal and subrogation. Failing to meet a condition can jeopardize coverage. A policy is commonly organized as declarations, definitions, insuring agreement, additional (supplementary) coverages, conditions and exclusions, with endorsements attached.",
+      "simpler": "Conditions are the rules both sides must follow for the promise to work.",
+      "examples": [
+        "A homeowners policy condition requires the insured to give prompt notice of a loss and show the damaged property to the insurer.",
+        "A cancellation condition explains how and when either party may end the policy before it expires."
+      ],
+      "examTip": "Policy parts to know: Declarations (who/what/when/how much), Definitions (meaning of words), Insuring agreement (the promise), Additional/supplementary coverages (extras such as debris removal or defense costs), Conditions (rules), Exclusions (what is taken away), Endorsements (changes).",
+      "misconception": "Conditions are not exclusions. An exclusion removes coverage for a type of loss; a condition sets a rule (such as notice) that must be followed.",
+      "related": [
+        "insuring-agreement",
+        "declarations-page",
+        "duties-after-loss",
+        "exclusion",
+        "endorsement"
+      ],
+      "confusedWith": [
+        "exclusion"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "The requirement that the insured give prompt notice of a loss is found in which part of the policy?",
+        "choices": [
+          "Declarations",
+          "Insuring agreement",
+          "Definitions",
+          "Conditions"
+        ],
+        "answerIndex": 3,
+        "explanation": "Duties such as prompt notice are policy conditions."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "endorsement",
+      "term": "Endorsement",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.2.7"
+      ],
+      "formal": "A written document attached to a policy that adds, removes or changes coverage or other policy terms; when an endorsement conflicts with the policy form, the endorsement generally controls.",
+      "plain": "An endorsement (sometimes called a rider) modifies the standard policy. It might add coverage (such as a water backup endorsement), remove coverage, change a limit, add an additional insured, or bring the policy into line with state law (state amendatory endorsements). Because it is a specific change made for the particular policy, it takes precedence over conflicting language in the main form.",
+      "simpler": "An endorsement is an add-on page that changes the policy.",
+      "examples": [
+        "A homeowner adds a scheduled personal property endorsement to cover an engagement ring for its appraised value.",
+        "A state amendatory endorsement replaces the form's cancellation condition with the rules required by state law."
+      ],
+      "examTip": "If the endorsement and the policy disagree, the endorsement wins. Handwritten or typed changes generally take precedence over printed text.",
+      "misconception": "An endorsement does not create a new policy; it modifies the existing one.",
+      "related": [
+        "declarations-page",
+        "policy-conditions",
+        "scheduled-personal-property"
+      ],
+      "confusedWith": [],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "When an endorsement conflicts with the printed policy form, which generally controls?",
+        "choices": [
+          "The endorsement",
+          "The printed form",
+          "Whichever favors the insurer",
+          "The declarations always override both"
+        ],
+        "answerIndex": 0,
+        "explanation": "Endorsements are specific modifications to the policy and generally take precedence over conflicting printed provisions."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "named-insured",
+      "term": "Named Insured",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.1"
+      ],
+      "formal": "The person or organization named in the declarations as the insured; the named insured has the broadest rights and duties under the policy, and personal lines forms often extend named-insured status to a resident spouse.",
+      "plain": "The named insured is the person whose name appears on the declarations page. That person can make changes, cancel the policy and receives notices. Many personal lines policies also cover others without naming them, such as resident relatives (\"defined insureds\" who meet the policy's definition of insured).",
+      "simpler": "The named insured is the person whose name is printed on the policy as the insured.",
+      "examples": [
+        "Maria is listed on the homeowners declarations; she is the named insured, and her resident son is an insured by definition.",
+        "The named insured on an auto policy requests a change of vehicles and an increase in liability limits."
+      ],
+      "examTip": "Know the categories: named insured (on the dec page), first named insured (listed first; handles premium, notices and cancellation), additional insured (added by endorsement), and defined insureds (included by the policy's definition, such as resident relatives).",
+      "misconception": "Being an 'insured' under the policy definition is not the same as being the named insured; only the named insured holds the full contractual rights.",
+      "related": [
+        "first-named-insured",
+        "additional-insured",
+        "insured",
+        "resident-relative"
+      ],
+      "confusedWith": [
+        "first-named-insured",
+        "insured"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "The person listed on the declarations page as the insured is the",
+        "choices": [
+          "Named insured",
+          "Additional insured",
+          "Certificate holder",
+          "Loss payee"
+        ],
+        "answerIndex": 0,
+        "explanation": "The named insured is the person or entity named in the declarations."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "first-named-insured",
+      "term": "First Named Insured",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.1",
+        "plpc.3.12"
+      ],
+      "formal": "When more than one person or entity is named in the declarations, the one listed first, who is generally responsible for paying premium and receiving return premiums, who receives notices of cancellation and nonrenewal, and who may request policy changes or cancel on behalf of all insureds.",
+      "plain": "When a policy names several insureds, it designates the first one listed as the spokesperson. The first named insured pays the premium, gets any refunds, receives cancellation and nonrenewal notices and can make changes or cancel for everyone. This saves the insurer from dealing with every named insured separately. New York's commercial cancellation law, for example, requires notices to go to the first-named insured and the insured's agent or broker.",
+      "simpler": "With several names on the policy, the first name is the one in charge of paying, getting notices and making changes.",
+      "examples": [
+        "A policy names \"Lee Properties LLC\" first and its two owners second and third; Lee Properties LLC pays the premium and receives the cancellation notice.",
+        "The first named insured asks to cancel the policy; the request binds all named insureds."
+      ],
+      "examTip": "First named insured = premium payer, refund receiver, notice receiver and the one who can cancel or change the policy.",
+      "misconception": "Being first named does not give that insured more coverage than the other named insureds; it gives administrative duties and rights.",
+      "related": [
+        "named-insured",
+        "additional-insured",
+        "duties-after-loss"
+      ],
+      "confusedWith": [
+        "named-insured"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which insured is generally responsible for paying the premium and receiving notices of cancellation?",
+        "choices": [
+          "The mortgagee",
+          "The first named insured",
+          "Any additional insured",
+          "The certificate holder"
+        ],
+        "answerIndex": 1,
+        "explanation": "The first named insured handles premium, return premium, notices and policy changes for all named insureds."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "additional-insured",
+      "term": "Additional Insured",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.1"
+      ],
+      "formal": "A person or organization added to a policy, usually by endorsement, to receive coverage as an insured, typically for liability arising out of the named insured's operations, premises or work, without becoming a named insured.",
+      "plain": "Sometimes another party needs protection under your policy. A landlord may require a tenant to add the landlord as an additional insured, or a client may require a contractor to add the client. The additional insured gets coverage as an insured for the specified situations, but does not pay the premium or control the policy.",
+      "simpler": "An additional insured is someone added to your policy so your coverage protects them too, for certain situations.",
+      "examples": [
+        "A homeowner hires a contractor who adds the homeowner as an additional insured on the contractor's liability policy for the remodeling job.",
+        "A condominium association requires unit owners' contractors to name the association as an additional insured."
+      ],
+      "examTip": "Additional insured = has coverage rights. Certificate holder = only receives evidence of insurance and gains no rights from the certificate.",
+      "misconception": "Being listed on a certificate of insurance does not make someone an additional insured; the policy must be endorsed.",
+      "related": [
+        "named-insured",
+        "certificate-of-insurance",
+        "endorsement"
+      ],
+      "confusedWith": [
+        "certificate-of-insurance"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A landlord who is added to a tenant's liability policy by endorsement to receive coverage is a(n)",
+        "choices": [
+          "Additional insured",
+          "First named insured",
+          "Loss payee",
+          "Bailee"
+        ],
+        "answerIndex": 0,
+        "explanation": "Adding a party by endorsement to receive coverage as an insured makes that party an additional insured."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "policy-period",
+      "term": "Policy Period",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.2"
+      ],
+      "formal": "The period of time, shown in the declarations with beginning and ending dates (and often a stated time of day), during which the policy provides coverage; under an occurrence-based form, the loss or injury must occur during the policy period.",
+      "plain": "The policy period is how long the coverage lasts, for example from 12:01 a.m. on March 1 of one year to 12:01 a.m. on March 1 of the next. Personal lines policies are usually written for six months or one year. For property and occurrence-based liability coverage, what matters is when the loss or injury happens, not when the claim is reported.",
+      "simpler": "It is the start date and end date of your coverage.",
+      "examples": [
+        "A homeowners policy runs from June 1 to June 1 of the next year; a fire on the following June 3 is not covered unless the policy was renewed.",
+        "A car accident occurs on the last day of a six-month auto policy period; it is covered even though the claim is reported after expiration."
+      ],
+      "examTip": "Occurrence coverage: the event must happen during the policy period. Watch for loss dates just before or after expiration.",
+      "misconception": "The policy period is not the same as the 'required policy period' in New York cancellation law, which is a separate statutory concept.",
+      "related": [
+        "policy-territory",
+        "declarations-page",
+        "occurrence"
+      ],
+      "confusedWith": [
+        "policy-territory"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Where would an insured find the beginning and ending dates of coverage?",
+        "choices": [
+          "The declarations",
+          "The insuring agreement",
+          "The exclusions",
+          "The loss payable clause"
+        ],
+        "answerIndex": 0,
+        "explanation": "The policy period is stated in the declarations."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "policy-territory",
+      "term": "Policy Territory",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.3"
+      ],
+      "formal": "The geographic area within which a loss or occurrence must take place to be covered, as stated in the policy.",
+      "plain": "The policy territory says where coverage applies. A personal auto policy typically covers accidents in the United States, its territories and possessions, Puerto Rico and Canada. Homeowners personal property and personal liability coverages usually apply anywhere in the world. Knowing the territory helps you answer \"does coverage follow me there?\"",
+      "simpler": "It is the map of where your policy works.",
+      "examples": [
+        "A family's luggage is stolen from a hotel in Italy; homeowners personal property coverage typically applies worldwide.",
+        "A driver from New York has a collision in Mexico; a standard personal auto policy generally does not cover it, so separate Mexican coverage is needed."
+      ],
+      "examTip": "Classic exam fact: a standard personal auto policy's territory does NOT include Mexico (beyond limited exceptions in some forms). Homeowners personal property and liability are generally worldwide.",
+      "misconception": "Policy territory is not where the insured lives; it is where the covered event must happen.",
+      "related": [
+        "policy-period",
+        "personal-auto-policy"
+      ],
+      "confusedWith": [
+        "policy-period"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "The policy provision that describes WHERE a covered loss must occur is the",
+        "choices": [
+          "Other insurance clause",
+          "Policy territory",
+          "Policy period",
+          "Insuring agreement"
+        ],
+        "answerIndex": 1,
+        "explanation": "The policy territory defines the geographic area of coverage. The policy period defines WHEN coverage applies."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "pro-rata-cancellation",
+      "term": "Pro Rata Cancellation",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.5",
+        "plpc.3.5.1"
+      ],
+      "formal": "A method of computing the return premium on cancellation under which the insurer keeps only the premium for the exact portion of the policy period that coverage was in force and refunds the entire unearned balance, with no penalty; customarily used when the insurer cancels.",
+      "plain": "Pro rata means \"in proportion.\" If a $1,200 annual policy is cancelled after 3 months, the insurer has earned 3/12 of the premium ($300) and refunds the other $900. No penalty is subtracted. Insurer-initiated cancellations are customarily computed pro rata, because the insured did not choose to end the contract.",
+      "simpler": "You pay only for the days you were covered and get the rest back.",
+      "examples": [
+        "A $730 annual policy is cancelled by the insurer after 100 days: earned = $730 × 100/365 = $200; refund = $530.",
+        "A $1,200 annual policy cancelled after 4 months returns $800 on a pro rata basis."
+      ],
+      "examTip": "Pro rata refund = Annual premium × (days remaining ÷ days in policy term). Insurer cancels → usually pro rata. Insured cancels → often short rate (if the policy or rate filing provides for it).",
+      "misconception": "Pro rata does not include a penalty; the insured gets back every dollar of unearned premium.",
+      "related": [
+        "short-rate-cancellation",
+        "flat-cancellation",
+        "earned-premium"
+      ],
+      "confusedWith": [
+        "short-rate-cancellation"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A $1,200 annual policy is cancelled by the insurer after exactly 3 months. Using pro rata, the return premium is",
+        "choices": [
+          "$900",
+          "$300",
+          "$810",
+          "$1,200"
+        ],
+        "answerIndex": 0,
+        "explanation": "Earned = $1,200 × 3/12 = $300; unearned (returned) = $1,200 − $300 = $900."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "short-rate-cancellation",
+      "term": "Short Rate Cancellation",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.5",
+        "plpc.3.5.1"
+      ],
+      "formal": "A method of computing the return premium, typically applied when the insured cancels mid-term, under which the insurer retains more than the pro rata earned premium (refunding less than the full unearned premium) to recover administrative costs of issuing the policy.",
+      "plain": "When you cancel your own policy early, the insurer may keep a little extra beyond what it actually earned, because it spent money setting up the policy. That penalty is built into a short rate table or a short rate factor (a common illustration is a refund of 90% of the pro rata unearned premium). Whether short rate applies depends on the policy and the insurer's filed rules; New York law says the earned premium kept when an insured cancels is determined by the applicable rate filing, or otherwise by the contract.",
+      "simpler": "If you quit early, you get back a bit less than a straight proportional refund.",
+      "examples": [
+        "A $1,000 annual policy is cancelled by the insured halfway through. Pro rata unearned is $500; under a short rate factor of 90%, the refund is $450.",
+        "An insured cancels after 2 months; the insurer applies its filed short rate table and keeps more than 2/12 of the premium."
+      ],
+      "examTip": "Short rate = insured cancels = smaller refund (penalty). Pro rata = insurer cancels = full unearned refund.",
+      "misconception": "Short rate does not mean the insured forfeits the entire unearned premium; it only reduces the refund.",
+      "related": [
+        "pro-rata-cancellation",
+        "flat-cancellation",
+        "earned-premium"
+      ],
+      "confusedWith": [
+        "pro-rata-cancellation"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "When an insured cancels mid-term and the refund is reduced to cover the insurer's costs, the refund method is",
+        "choices": [
+          "Pro rata",
+          "Flat",
+          "Retrospective",
+          "Short rate"
+        ],
+        "answerIndex": 3,
+        "explanation": "Short rate refunds less than the full unearned premium when the insured cancels."
+      },
+      "sources": [
+        "ny-isc-3428"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "flat-cancellation",
+      "term": "Flat Cancellation",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.5.1"
+      ],
+      "formal": "Cancellation of a policy effective on its inception date, so that no coverage is ever provided and no premium is earned; the full premium is returned.",
+      "plain": "A flat cancellation erases the policy from the start, as if it had never been in force. It is used, for example, when a policy was issued by mistake, or when the insured sells the property or replaces coverage before the policy takes effect. Because the insurer never provided any protection, it keeps no premium.",
+      "simpler": "Flat cancellation is canceling at the very start, so nothing is owed and everything is refunded.",
+      "examples": [
+        "A buyer's home purchase falls through before closing, and the homeowners policy that was to start on the closing date is cancelled flat.",
+        "A duplicate auto policy issued by mistake is cancelled flat on its effective date with a full refund."
+      ],
+      "examTip": "Flat = effective at inception = 100% refund, zero earned premium.",
+      "misconception": "Flat cancellation is not a short rate penalty; it involves no penalty at all.",
+      "related": [
+        "pro-rata-cancellation",
+        "short-rate-cancellation",
+        "earned-premium"
+      ],
+      "confusedWith": [
+        "pro-rata-cancellation"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A policy cancelled effective on its inception date, with all premium returned, has been cancelled",
+        "choices": [
+          "By nonrenewal",
+          "Flat",
+          "Pro rata",
+          "Short rate"
+        ],
+        "answerIndex": 1,
+        "explanation": "A flat cancellation takes effect at inception, so no premium is earned and the full premium is returned."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "earned-premium",
+      "term": "Earned Premium",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.5"
+      ],
+      "formal": "The portion of a policy's premium that applies to the part of the policy period that has already expired, i.e., premium for coverage already provided; the remainder is unearned premium.",
+      "plain": "Premium is paid in advance, but the insurer earns it day by day as it provides protection. After 3 months of a 12-month policy, 3/12 of the premium is earned and 9/12 is unearned. If the policy is cancelled, the unearned premium (less any short rate penalty, when one applies) goes back to the insured.",
+      "simpler": "Earned premium is the part you have already used up; unearned premium is the part not yet used.",
+      "examples": [
+        "A $600 annual policy is 4 months old: earned premium = $200; unearned = $400.",
+        "An insurer's financial statements show unearned premium as a liability because it still owes coverage for those future months."
+      ],
+      "examTip": "Earned = time that has passed. Unearned = time still to come = what is refunded on a pro rata cancellation.",
+      "misconception": "Earned premium is not the same as profit; it is simply premium for coverage already provided.",
+      "related": [
+        "pro-rata-cancellation",
+        "short-rate-cancellation",
+        "flat-cancellation",
+        "premium"
+      ],
+      "confusedWith": [
+        "pro-rata-cancellation"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A $900 annual policy has been in force for 4 months. How much premium has been earned?",
+        "choices": [
+          "$600",
+          "$225",
+          "$900",
+          "$300"
+        ],
+        "answerIndex": 3,
+        "explanation": "$900 × 4/12 = $300 earned; $600 remains unearned."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "policy-deductible",
+      "term": "Policy Deductible (Property and Liability)",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.6"
+      ],
+      "formal": "The amount of a covered property loss that the insured must bear before the insurer pays, applied per occurrence (or as stated) and subtracted from the loss before policy limits are applied; deductibles eliminate small claims and lower premiums.",
+      "plain": "A P&C deductible is the first part of each covered loss that you pay yourself. With a $1,000 deductible and a $6,000 covered loss, the insurer pays $5,000. Higher deductibles mean lower premiums. Deductibles mostly apply to property (first-party) coverages; personal liability coverage typically has no deductible. Some deductibles are a percentage of the insured value, such as windstorm or hurricane deductibles.",
+      "simpler": "It is the part of each loss you pay before insurance pays the rest.",
+      "examples": [
+        "A $15,000 kitchen fire with a $500 deductible: the insurer pays $14,500.",
+        "A $40,000 roof loss under a 2% windstorm deductible on a $400,000 dwelling limit: the deductible is $8,000, so the insurer pays $32,000."
+      ],
+      "examTip": "Subtract the deductible from the LOSS, then compare the result to the limit. A deductible is NOT the same as a health-plan annual deductible; P&C deductibles usually apply per loss.",
+      "misconception": "Paying a higher deductible does not reduce the policy limit; it reduces the amount paid on each loss.",
+      "related": [
+        "self-insured-retention",
+        "property-coinsurance-clause",
+        "deductible"
+      ],
+      "confusedWith": [
+        "self-insured-retention",
+        "deductible"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A covered fire loss is $12,000 and the policy has a $1,000 deductible. How much does the insurer pay?",
+        "choices": [
+          "$13,000",
+          "$10,000",
+          "$11,000",
+          "$12,000"
+        ],
+        "answerIndex": 2,
+        "explanation": "$12,000 loss − $1,000 deductible = $11,000."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "self-insured-retention",
+      "term": "Self-Insured Retention (SIR)",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.7"
+      ],
+      "formal": "An amount of loss, usually in liability coverage, that the insured must pay (including, typically, defense costs) before the policy responds; unlike a deductible, the insurer does not pay first and seek reimbursement, and the insured usually handles claims within the retention.",
+      "plain": "A self-insured retention is like a large deductible for liability, but it works differently. With an SIR, the insured itself pays and often manages claims (including legal defense) until the retention amount is used up; only then does the insurer step in. Personal umbrella policies commonly apply an SIR to losses that the umbrella covers but the underlying policies do not.",
+      "simpler": "With an SIR, you handle and pay the first part of a liability claim yourself before the insurance company gets involved.",
+      "examples": [
+        "A personal umbrella covers a claim the homeowners policy excludes; the insured pays the first $1,000 retention and the umbrella pays the rest up to its limit.",
+        "A business with a $50,000 SIR pays its own lawyers and settlements for smaller claims; larger claims above $50,000 go to the insurer."
+      ],
+      "examTip": "Key contrast: Deductible → insurer handles and pays the claim, then the deductible reduces payment (or is reimbursed by the insured). SIR → insured pays first (often including defense) and the insurer's obligation begins only after the SIR is satisfied.",
+      "misconception": "An SIR is not just another name for a deductible; it shifts claim handling and first-dollar payment to the insured.",
+      "related": [
+        "policy-deductible",
+        "umbrella-policy",
+        "duty-to-defend"
+      ],
+      "confusedWith": [
+        "policy-deductible"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which feature most clearly distinguishes a self-insured retention from a deductible?",
+        "choices": [
+          "It increases the policy limit",
+          "It is always waived after a covered loss",
+          "The insured pays and handles claims within the retention before the insurer responds",
+          "It applies only to property losses"
+        ],
+        "answerIndex": 2,
+        "explanation": "With an SIR the insured pays (and usually handles) the first portion of a claim before the insurer's duties begin."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "other-insurance-clause",
+      "term": "Other Insurance Clause",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.8",
+        "plpc.3.8.1",
+        "plpc.3.8.2",
+        "plpc.3.8.3"
+      ],
+      "formal": "A policy provision that determines how the policy shares a loss with other insurance covering the same loss, typically by making the policy primary, excess over other insurance, or sharing on a pro rata (proportional) or contribution-by-equal-shares basis.",
+      "plain": "When two policies cover the same loss, the insured should not collect twice (that would violate indemnity). The other insurance clause decides who pays what. Primary insurance pays first, up to its limit. Excess insurance pays only after the primary insurance is used up. Pro rata sharing splits the loss according to each policy's share of the total limits.",
+      "simpler": "If two policies cover the same loss, this clause decides how they split the bill.",
+      "examples": [
+        "Policy A has a $200,000 limit and Policy B has a $100,000 limit on the same building. On pro rata sharing, A pays 2/3 and B pays 1/3 of a $60,000 loss: $40,000 and $20,000.",
+        "A borrowed car's owner's auto policy pays first (primary); the driver's own policy pays any remaining amount as excess."
+      ],
+      "examTip": "Pro rata share formula: (This policy's limit ÷ Total of all limits) × Loss. Primary pays first; excess pays after primary is exhausted.",
+      "misconception": "The other insurance clause does not let the insured collect from each policy in full; total recovery is limited to the loss.",
+      "related": [
+        "indemnity",
+        "excess-liability-insurance",
+        "umbrella-policy"
+      ],
+      "confusedWith": [],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Two policies with limits of $300,000 and $100,000 share a $40,000 loss on a pro rata basis. How much does the $100,000 policy pay?",
+        "choices": [
+          "$40,000",
+          "$10,000",
+          "$20,000",
+          "$30,000"
+        ],
+        "answerIndex": 1,
+        "explanation": "$100,000 ÷ $400,000 = 25%; 25% × $40,000 = $10,000."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "per-occurrence-limit",
+      "term": "Per Occurrence Limit",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.9",
+        "plpc.3.9.1"
+      ],
+      "formal": "The maximum the insurer will pay for all damages arising out of a single occurrence or accident, regardless of the number of persons injured, claims made, or insureds involved.",
+      "plain": "A per occurrence (or per accident) limit is the most the policy pays for one event, no matter how many people are hurt or how many claims result. If a homeowner's deck collapses during a party and injures six guests, all six claims share the single per occurrence limit.",
+      "simpler": "It is the most the policy pays for any one accident.",
+      "examples": [
+        "A homeowners policy has a $300,000 personal liability limit per occurrence. A deck collapse injures four people with damages totaling $420,000; the insurer pays up to $300,000.",
+        "An auto liability policy's per-accident bodily injury limit caps payments for all people injured in one crash."
+      ],
+      "examTip": "Per occurrence = per EVENT. Per person = per injured individual. Aggregate = for the whole policy period.",
+      "misconception": "A per occurrence limit is not reduced to zero by one claim for the rest of the year unless the policy also has an aggregate limit.",
+      "related": [
+        "aggregate-limit",
+        "split-limits",
+        "combined-single-limit",
+        "occurrence"
+      ],
+      "confusedWith": [
+        "aggregate-limit"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "The maximum a policy will pay for all claims arising from one accident is the",
+        "choices": [
+          "Deductible",
+          "Per occurrence limit",
+          "Aggregate limit",
+          "Sublimit"
+        ],
+        "answerIndex": 1,
+        "explanation": "A per occurrence limit caps payment for a single event. An aggregate limit caps payment for the entire policy period."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aggregate-limit",
+      "term": "Aggregate Limit",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.9.5",
+        "plpc.3.9.3",
+        "plpc.3.9.4"
+      ],
+      "formal": "The maximum amount an insurer will pay for all covered losses during the policy period, regardless of the number of occurrences; aggregates may be written to apply separately per project or per location.",
+      "plain": "An aggregate is a total cap for the policy period. Each paid claim uses up part of it, and once it is exhausted the policy pays nothing more until it renews. Commercial liability policies often have aggregates. To keep one big job or one location from using up the whole aggregate, a policy can be endorsed so the aggregate applies separately per project (common for contractors) or per location (common for businesses with several premises).",
+      "simpler": "It is the total the policy will pay for everything during the whole policy term.",
+      "examples": [
+        "A policy has a $1,000,000 per occurrence limit and a $2,000,000 aggregate. After paying $900,000 and $800,000 on two claims, only $300,000 remains for the rest of the year.",
+        "A contractor's per-project aggregate endorsement gives each construction job its own aggregate limit."
+      ],
+      "examTip": "Aggregate = whole policy period. Per project / per location aggregates = a separate aggregate for each job or each premises.",
+      "misconception": "Personal homeowners liability is usually written per occurrence without an annual aggregate; do not assume every liability policy has one.",
+      "related": [
+        "per-occurrence-limit",
+        "sublimit",
+        "split-limits"
+      ],
+      "confusedWith": [
+        "per-occurrence-limit"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A policy has a $500,000 aggregate limit. It has already paid $350,000 in claims this policy period. What is the most it can pay on a new $200,000 claim?",
+        "choices": [
+          "$200,000",
+          "$500,000",
+          "$50,000",
+          "$150,000"
+        ],
+        "answerIndex": 3,
+        "explanation": "$500,000 − $350,000 = $150,000 remaining in the aggregate, so the insurer pays at most $150,000."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sublimit",
+      "term": "Sublimit",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.9.6"
+      ],
+      "formal": "A limit within a broader limit that caps the amount payable for a particular type of property, peril or coverage, and that does not increase the overall limit.",
+      "plain": "A sublimit puts a smaller cap on certain items inside a bigger coverage. A homeowners policy may cover personal property up to $150,000 but limit theft of jewelry to a much smaller amount. The sublimit is part of, not in addition to, the overall limit. To insure such items for more, the insured can schedule them.",
+      "simpler": "It is a small cap inside a bigger cap for certain kinds of property or losses.",
+      "examples": [
+        "A homeowners policy caps theft of jewelry at $1,500 even though personal property coverage is $100,000; a stolen $6,000 necklace pays $1,500 (subject to the deductible).",
+        "A policy limits mold remediation to $10,000 within the dwelling limit."
+      ],
+      "examTip": "Sublimits are INSIDE the main limit and do not add to it. Homeowners 'special limits of liability' are a classic example.",
+      "misconception": "A sublimit is not extra coverage on top of the main limit.",
+      "related": [
+        "special-limits-of-liability",
+        "scheduled-personal-property",
+        "aggregate-limit"
+      ],
+      "confusedWith": [
+        "special-limits-of-liability"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A homeowners policy covers personal property up to $80,000 but caps theft of firearms at a lower amount. That lower cap is a",
+        "choices": [
+          "Self-insured retention",
+          "Sublimit",
+          "Split limit",
+          "Combined single limit"
+        ],
+        "answerIndex": 1,
+        "explanation": "A cap on a specific category within the overall limit is a sublimit."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "split-limits",
+      "term": "Split Limits",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.9.7",
+        "plpc.3.9.2"
+      ],
+      "formal": "Separate liability limits for different types of loss, typically expressed as three numbers: bodily injury per person, bodily injury per accident (occurrence), and property damage per accident (for example, 100/300/50 in thousands of dollars).",
+      "plain": "Auto liability is often written with split limits like 100/300/50. That means up to $100,000 for bodily injury to any one person, up to $300,000 for all bodily injury in one accident, and up to $50,000 for property damage in one accident. Each limit applies separately; unused property damage limit cannot be used to pay bodily injury claims.",
+      "simpler": "Different buckets for each person hurt, all people hurt, and damaged property.",
+      "examples": [
+        "Under 50/100/25, one injured person with $80,000 in damages collects $50,000 (the per person cap).",
+        "Under 100/300/50, three people with $120,000, $90,000 and $150,000 in damages: payments are $100,000 + $90,000 + $100,000 = $290,000, within the $300,000 per accident limit."
+      ],
+      "examTip": "Read split limits as per person / per accident BI / PD. Always apply the per person limit first, then check the per accident total.",
+      "misconception": "The first number is not the total for the accident; it is the cap for each injured person.",
+      "related": [
+        "combined-single-limit",
+        "per-occurrence-limit",
+        "bodily-injury",
+        "property-damage"
+      ],
+      "confusedWith": [
+        "combined-single-limit"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under 25/50/10 split limits, one person is injured with $40,000 in damages. How much will the policy pay that person?",
+        "choices": [
+          "$40,000",
+          "$50,000",
+          "$10,000",
+          "$25,000"
+        ],
+        "answerIndex": 3,
+        "explanation": "The per person bodily injury limit is $25,000, so the policy pays $25,000 even though the per accident limit is $50,000."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "combined-single-limit",
+      "term": "Combined Single Limit (CSL)",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.9.8"
+      ],
+      "formal": "A single liability limit that applies per occurrence to bodily injury and property damage combined, without separate per person or property damage caps.",
+      "plain": "Instead of three separate buckets, a combined single limit gives one bucket per accident for all bodily injury and property damage together. A $300,000 CSL could pay $280,000 to one injured person and $20,000 for property damage, or any other mix, up to $300,000 total.",
+      "simpler": "One pot of money per accident for both injuries and property damage.",
+      "examples": [
+        "A $500,000 CSL pays a single $450,000 bodily injury claim in full, because there is no per person cap.",
+        "In one accident, $200,000 of bodily injury and $60,000 of property damage are both paid from a $300,000 CSL."
+      ],
+      "examTip": "CSL = one number (e.g., $300,000 CSL). Split limits = three numbers. CSL gives more flexibility for one large claim.",
+      "misconception": "A CSL is not the sum of split limits; a $300,000 CSL is one pool, not $300,000 per person.",
+      "related": [
+        "split-limits",
+        "per-occurrence-limit"
+      ],
+      "confusedWith": [
+        "split-limits"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A policy with a $300,000 combined single limit faces one accident with $250,000 of injury to one person and $30,000 of property damage. How much does it pay?",
+        "choices": [
+          "$280,000",
+          "$250,000",
+          "$300,000",
+          "$30,000"
+        ],
+        "answerIndex": 0,
+        "explanation": "A CSL pays BI and PD from one per-accident limit: $250,000 + $30,000 = $280,000, which is within $300,000."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ordinance-or-law-coverage",
+      "term": "Ordinance or Law Coverage",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.10"
+      ],
+      "formal": "Coverage for the increased costs of repairing, rebuilding or demolishing a damaged building that result from enforcement of building codes, zoning or other ordinances or laws in effect at the time of the loss, typically subject to a stated limit.",
+      "plain": "When an older home is damaged, local building codes may require upgrades during the repair, such as new electrical wiring, sprinklers or stronger framing. Basic property coverage pays to rebuild what was there; the extra cost to meet current codes (and to demolish undamaged parts the law requires to come down) is generally excluded unless the policy provides ordinance or law coverage. Homeowners forms commonly provide a limited amount, often expressed as a percentage of the dwelling limit, which can be increased by endorsement.",
+      "simpler": "It pays the extra cost of rebuilding to today's building code.",
+      "examples": [
+        "A fire damages a 1950s house; the town requires all new wiring to meet current code, costing $9,000 more than replacing the old wiring. Ordinance or law coverage pays the extra $9,000 up to its limit.",
+        "A storm damages 60% of a building and a local law requires the entire structure to be demolished and rebuilt; ordinance or law coverage helps pay demolition of the undamaged part."
+      ],
+      "examTip": "Ordinance or law = the COST OF CODE COMPLIANCE after a covered loss. Without it, the policy pays only to restore what existed.",
+      "misconception": "Ordinance or law coverage does not pay for code upgrades the owner chooses to make when there has been no covered loss.",
+      "related": [
+        "replacement-cost",
+        "guaranteed-replacement-cost"
+      ],
+      "confusedWith": [],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "After a covered fire, a homeowner must install code-required sprinklers that the old house did not have. Which coverage addresses this extra cost?",
+        "choices": [
+          "Liberalization",
+          "Loss of use",
+          "Other structures",
+          "Ordinance or law"
+        ],
+        "answerIndex": 3,
+        "explanation": "Ordinance or law coverage pays the increased cost of complying with building codes when repairing a covered loss."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "vacancy-clause",
+      "term": "Vacancy vs. Unoccupancy",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.11"
+      ],
+      "formal": "A policy provision that suspends or restricts coverage for certain perils (commonly vandalism, malicious mischief and glass breakage) after a building has been vacant beyond a stated number of consecutive days; vacant generally means empty of people and of the contents needed for its use, whereas unoccupied means contents remain but no one is currently living there.",
+      "plain": "Insurers treat empty buildings as riskier because no one is around to notice a fire or deter vandals. The distinction matters: a VACANT house has no occupants and no furnishings (for example, a house cleared out and up for sale). An UNOCCUPIED house still has its furniture and belongings but the residents are temporarily away (for example, a family on a two-month trip). Standard forms commonly restrict certain coverages only after a stated number of consecutive days of vacancy (60 days in many standard dwelling and homeowners forms).",
+      "simpler": "Vacant = empty of people and stuff. Unoccupied = stuff is there, people are temporarily away.",
+      "examples": [
+        "A homeowner moves out and removes all furniture while selling the house; after the stated vacancy period, a vandalism loss may not be covered.",
+        "A family travels for three months, leaving their furnished home; the home is unoccupied, not vacant."
+      ],
+      "examTip": "Vacant = no people AND no contents. Unoccupied = no people but contents remain. Vacancy restrictions typically hit vandalism and glass breakage first.",
+      "misconception": "An unoccupied home is not automatically treated as vacant; furniture and belongings still in place usually means unoccupied.",
+      "related": [
+        "policy-conditions",
+        "dp-basic-form"
+      ],
+      "confusedWith": [],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A house whose owners are on an extended trip, with all furniture still in place, is best described as",
+        "choices": [
+          "Vacant",
+          "Abandoned",
+          "Under construction",
+          "Unoccupied"
+        ],
+        "answerIndex": 3,
+        "explanation": "Contents remain and the absence is temporary, so the home is unoccupied, not vacant."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "duties-after-loss",
+      "term": "Duties After Loss",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.12.1"
+      ],
+      "formal": "Policy conditions requiring the insured, after a loss, to give prompt notice to the insurer (and to police in case of theft), protect the property from further damage, prepare an inventory, show the damaged property, provide records, submit a signed sworn proof of loss when requested, submit to examination under oath if required, and cooperate with the investigation.",
+      "plain": "After a loss, the insured has work to do. Typical duties: notify the insurer promptly; call the police for theft; take reasonable steps to protect the property from more damage (such as tarping a roof); make a list of damaged property; show the damage and provide records; send a signed, sworn proof of loss if asked; and cooperate. Not following these duties can hurt or even defeat the claim.",
+      "simpler": "After a loss, you must tell the insurer, protect what is left, and prove what happened.",
+      "examples": [
+        "After a storm tears a hole in the roof, the homeowner covers it with a tarp to prevent rain damage and saves receipts for the tarp.",
+        "After a burglary, the insured reports it to the police and gives the insurer an inventory of stolen items."
+      ],
+      "examTip": "Common trap: the insured must PROTECT the property from further damage; reasonable costs of doing so are typically reimbursed.",
+      "misconception": "Duties after loss are not optional suggestions; they are conditions of coverage.",
+      "related": [
+        "policy-conditions",
+        "abandonment",
+        "first-named-insured"
+      ],
+      "confusedWith": [
+        "abandonment"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which of the following is NOT a typical insured's duty after a property loss?",
+        "choices": [
+          "Giving prompt notice to the insurer",
+          "Protecting the property from further damage",
+          "Providing a sworn proof of loss if requested",
+          "Abandoning the damaged property to the insurer"
+        ],
+        "answerIndex": 3,
+        "explanation": "Policies require notice, protection of property and proof of loss, but the insured may not abandon damaged property to the insurer."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "abandonment",
+      "term": "Abandonment",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.12.3"
+      ],
+      "formal": "A property policy provision stating that the insured may not abandon damaged property to the insurer and require the insurer to take it over and pay its full value, unless the insurer agrees.",
+      "plain": "After a loss, the insured cannot simply hand the damaged property to the insurer and demand payment for the whole thing. The insured keeps ownership and responsibility for the damaged property. The insurer may choose to take salvage, but the insured cannot force it to.",
+      "simpler": "You cannot walk away from your damaged property and make the insurer take it.",
+      "examples": [
+        "A smoke-damaged sofa can be cleaned; the insured cannot leave it at the insurer's office and demand the price of a new one.",
+        "A flooded basement is damaged, but the homeowner cannot abandon the house to the insurer and insist on payment of the full value."
+      ],
+      "examTip": "Abandonment clause = insured CANNOT abandon. Salvage = INSURER may choose to take damaged property after paying for it.",
+      "misconception": "The abandonment clause does not stop the insurer from taking salvage; it stops the insured from forcing it.",
+      "related": [
+        "salvage",
+        "duties-after-loss"
+      ],
+      "confusedWith": [
+        "salvage"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under the abandonment provision of a property policy,",
+        "choices": [
+          "The insurer must accept damaged property",
+          "The insurer may cancel if the home is vacant",
+          "The insured must abandon salvage rights",
+          "The insured may not abandon damaged property to the insurer"
+        ],
+        "answerIndex": 3,
+        "explanation": "The abandonment clause prevents the insured from abandoning damaged property to the insurer without the insurer's consent."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "liberalization-clause",
+      "term": "Liberalization Clause",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.13.1"
+      ],
+      "formal": "A policy condition providing that if the insurer adopts a revision that broadens coverage under the policy form without additional premium, during the policy period (or within a stated period before it), the broader coverage automatically applies to the existing policy.",
+      "plain": "Insurers update their forms. If a new version gives broader coverage at no extra charge, the liberalization clause says existing policyholders automatically get the improvement without having to buy a new policy or an endorsement. Changes that reduce coverage or require extra premium do not automatically apply.",
+      "simpler": "If the insurer improves the policy for free, you get the improvement now.",
+      "examples": [
+        "Mid-term, an insurer revises its homeowners form to add a small coverage at no additional premium; an existing policyholder's claim gets the benefit of the broader wording.",
+        "An insurer's new form version adds a coverage but charges extra premium for it; liberalization does not give it automatically."
+      ],
+      "examTip": "Liberalization = automatic BROADENING with NO extra premium. It never automatically restricts coverage.",
+      "misconception": "Liberalization does not apply to a change that requires more premium or narrows coverage.",
+      "related": [
+        "policy-conditions",
+        "endorsement"
+      ],
+      "confusedWith": [],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "An insurer broadens its homeowners form mid-term at no additional premium. Under the liberalization clause, existing policies",
+        "choices": [
+          "Must be rewritten to receive it",
+          "Lose coverage until renewal",
+          "Receive it only after paying a fee",
+          "Automatically receive the broader coverage"
+        ],
+        "answerIndex": 3,
+        "explanation": "The liberalization clause automatically extends no-cost coverage broadening to existing policies."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "subrogation",
+      "term": "Subrogation",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.13.2"
+      ],
+      "formal": "The transfer to the insurer, to the extent of its payment, of the insured's right to recover from a third party who caused the loss; the insured must not impair the insurer's subrogation rights after a loss.",
+      "plain": "If someone else causes your loss and your insurer pays you, the insurer steps into your shoes and may sue the responsible person to get its money back. This keeps the at-fault party responsible and prevents the insured from collecting twice (once from the insurer and again from the wrongdoer). If the insurer recovers, it often reimburses the insured's deductible as well.",
+      "simpler": "After paying you, your insurer can go after the person who caused the damage.",
+      "examples": [
+        "A neighbor's contractor negligently starts a fire that damages Ana's home. Her insurer pays her claim and then sues the contractor to recover.",
+        "An at-fault driver hits Ben's car; Ben's collision coverage pays for repairs and his insurer recovers the amount from the at-fault driver's insurer."
+      ],
+      "examTip": "Subrogation = insurer recovers from a negligent THIRD PARTY. The insured must not waive or impair that right after a loss.",
+      "misconception": "Subrogation does not let the insurer sue its own insured for the loss it covered.",
+      "related": [
+        "salvage",
+        "indemnity",
+        "negligence"
+      ],
+      "confusedWith": [
+        "salvage"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "An insurer pays a homeowner for damage caused by a negligent contractor and then sues the contractor. This right is called",
+        "choices": [
+          "Abandonment",
+          "Subrogation",
+          "Salvage",
+          "Liberalization"
+        ],
+        "answerIndex": 1,
+        "explanation": "Subrogation transfers the insured's right of recovery against the responsible third party to the insurer that paid the loss."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "salvage",
+      "term": "Salvage",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.13.3"
+      ],
+      "formal": "Damaged property that an insurer takes over after paying a loss (often as a total loss), and the insurer's right to sell it to reduce the net cost of the claim.",
+      "plain": "When an insurer pays the full value of damaged property, it may take the damaged item and sell it for whatever it is worth. For example, after paying for a totaled car, the insurer can sell the wreck for parts. The money recovered offsets the claim payment. Salvage is the insurer's option; the insured cannot force it (see abandonment).",
+      "simpler": "After paying for your wrecked item, the insurer can take it and sell what is left.",
+      "examples": [
+        "After a total loss on a car, the insurer pays the ACV and sells the wreck at auction for $2,000.",
+        "A store's smoke-damaged inventory is paid for in full and then sold by the insurer to a salvage buyer."
+      ],
+      "examTip": "Salvage = recovery from the DAMAGED PROPERTY itself. Subrogation = recovery from a RESPONSIBLE PERSON.",
+      "misconception": "Salvage is not a right of the insured to keep the damaged property after being paid its full value; the insurer may claim it.",
+      "related": [
+        "subrogation",
+        "abandonment"
+      ],
+      "confusedWith": [
+        "subrogation",
+        "abandonment"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "An insurer pays the full value of a totaled car and then sells the wreck for parts. The insurer is exercising its right of",
+        "choices": [
+          "Subrogation",
+          "Liberalization",
+          "Coinsurance",
+          "Salvage"
+        ],
+        "answerIndex": 3,
+        "explanation": "Taking and selling damaged property after paying a loss is salvage."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "duty-to-defend",
+      "term": "Duty to Defend",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.13.5"
+      ],
+      "formal": "A liability insurer's obligation to provide and pay for the legal defense of an insured against suits seeking damages that are potentially covered by the policy, even if the suit is groundless, false or fraudulent; defense costs are typically paid in addition to the limit of liability, and the duty generally ends when the limit has been exhausted by payment of judgments or settlements.",
+      "plain": "Liability insurance does two things: pays damages and defends you. If someone sues you for something the policy might cover, the insurer must hire and pay lawyers to defend you, even if the claim is baseless. Under most personal liability forms, those defense costs do not reduce your limit, but the duty to defend ends once the insurer has paid out its full limit in settlements or judgments.",
+      "simpler": "If you are sued for something your policy might cover, the insurer must provide a lawyer and pay the legal bills.",
+      "examples": [
+        "A guest falsely claims a homeowner's dog bit her. The homeowner's insurer defends the suit even though the claim appears groundless.",
+        "An insurer spends $40,000 defending an auto accident case and then settles for the full $100,000 limit; the defense costs are paid in addition to the limit."
+      ],
+      "examTip": "Duty to defend is BROADER than the duty to pay: a potentially covered allegation triggers defense. Defense costs are usually outside (in addition to) the limit; the duty ends when the limit is exhausted.",
+      "misconception": "The insurer is not relieved of its duty to defend simply because it believes the suit is false or fraudulent.",
+      "related": [
+        "insuring-agreement",
+        "supplementary-payments",
+        "self-insured-retention"
+      ],
+      "confusedWith": [],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under a typical personal liability policy, which statement about the insurer's duty to defend is correct?",
+        "choices": [
+          "It applies only after a judgment is entered",
+          "It applies even if the suit is groundless, if the claim is potentially covered",
+          "Defense costs always reduce the limit of liability",
+          "It continues after the limit is paid out"
+        ],
+        "answerIndex": 1,
+        "explanation": "The insurer must defend potentially covered suits, even groundless ones. Defense costs are usually in addition to limits, and the duty ends when the limit is exhausted."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "property-coinsurance-clause",
+      "term": "Coinsurance Clause (Property)",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.13.6"
+      ],
+      "formal": "A property policy provision that requires the insured to carry insurance equal to at least a stated percentage (commonly 80%) of the property's value at the time of loss; if the insured carries less, the insurer pays only the proportion of the loss that the insurance carried bears to the insurance required.",
+      "plain": "The coinsurance clause rewards insuring to value. Formula: (Amount carried ÷ Amount required) × Loss − Deductible, but never more than the limit. If you were required to carry $240,000 (80% of a $300,000 replacement cost) but bought only $180,000, you carried 3/4 of what was required, so you collect 3/4 of the loss. In homeowners policies, the similar insurance-to-value provision decides whether a dwelling loss is paid at replacement cost or a lesser amount.",
+      "simpler": "If you underinsure, the insurer pays only part of your loss, in proportion to how much you underinsured.",
+      "examples": [
+        "Value $200,000, 80% coinsurance, insurance carried $120,000, loss $50,000: required = $160,000; payment = 120/160 × $50,000 = $37,500 (before deductible).",
+        "Value $200,000, 80% coinsurance, insurance carried $160,000: the requirement is met, so a $50,000 loss is paid in full (less deductible)."
+      ],
+      "examTip": "Did ÷ Should × Loss − Deductible (\"Did over Should\"). Required amount is based on value at the TIME OF LOSS. The payment can never exceed the policy limit. Do not confuse with health coinsurance (a percentage cost split).",
+      "misconception": "Coinsurance in property insurance is not a cost-sharing percentage of every claim like health coinsurance; if the requirement is met, the full covered loss is paid (up to the limit).",
+      "related": [
+        "replacement-cost",
+        "actual-cash-value",
+        "policy-deductible",
+        "coinsurance"
+      ],
+      "confusedWith": [
+        "coinsurance"
+      ],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "A building worth $400,000 at the time of loss is insured for $240,000 under an 80% coinsurance clause. A $100,000 loss occurs (ignore the deductible). How much is paid?",
+        "choices": [
+          "$60,000",
+          "$80,000",
+          "$75,000",
+          "$100,000"
+        ],
+        "answerIndex": 2,
+        "explanation": "Required = 80% × $400,000 = $320,000. Carried/required = $240,000/$320,000 = 75%. Payment = 75% × $100,000 = $75,000."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "mortgage-clause",
+      "term": "Standard Mortgage Clause",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.14",
+        "plpc.3.14.1"
+      ],
+      "formal": "A property policy provision that protects the mortgagee (lender) named in the declarations by making loss payable to the mortgagee as its interest may appear and by preserving the mortgagee's right to recover even if the insurer denies the insured's claim because of the insured's acts or neglect, provided the mortgagee meets certain obligations (such as paying premium on demand and notifying the insurer of a known change in ownership or increase in hazard); the mortgagee is also entitled to notice of cancellation or nonrenewal.",
+      "plain": "Banks that lend money on a home want to be sure the insurance will protect their collateral. The standard mortgage clause gives the lender its own protected interest: claim checks include the lender as its interest may appear, the lender gets advance notice if the policy is cancelled, and the lender can still collect even if the homeowner's own claim is denied (for example, for arson by the owner). In return, the lender may have to pay the premium if the owner does not, and tell the insurer of changes it knows about. If the insurer pays the lender but denies the owner, the insurer may be subrogated to the lender's rights.",
+      "simpler": "It protects the bank's share of the house even if the homeowner does something that voids his or her own coverage.",
+      "examples": [
+        "A homeowner intentionally sets fire to her house. Her claim is denied, but the lender named in the mortgage clause is paid up to the loan balance.",
+        "A claim check for fire damage is made payable to both the homeowner and the mortgage company."
+      ],
+      "examTip": "Mortgage clause = lender protected EVEN IF the insured's claim is denied (separate contract). Loss payable clause = payee protected only to the extent the insured is.",
+      "misconception": "The mortgage clause does not make the lender a named insured, and it does not give the homeowner coverage the homeowner would otherwise lose.",
+      "related": [
+        "loss-payable-clause",
+        "subrogation",
+        "named-insured"
+      ],
+      "confusedWith": [
+        "loss-payable-clause"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A homeowner's fire claim is denied because she committed arson. Under the standard mortgage clause, the lender",
+        "choices": [
+          "Can still recover up to its interest",
+          "Loses all rights to recover",
+          "Must repay the insurer",
+          "Becomes the named insured"
+        ],
+        "answerIndex": 0,
+        "explanation": "The mortgage clause protects the mortgagee even when the insured's own claim is denied for the insured's acts, subject to the mortgagee meeting its obligations."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "loss-payable-clause",
+      "term": "Loss Payable Clause",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.14.2"
+      ],
+      "formal": "A provision or endorsement that names a party with a financial interest in insured personal property (such as a lender or lessor of an auto or equipment) to be included in loss payments as its interest may appear; under a simple loss payable provision, the loss payee's rights are no greater than the insured's.",
+      "plain": "When a car or other personal property is financed or leased, the lender or lessor wants to be paid if the property is destroyed. A loss payable clause adds them to claim payments. Under the basic version, if the insured's claim is denied, the loss payee typically gets nothing either, because its rights depend on the insured's rights. (Some lender's loss payable endorsements give broader protection similar to a mortgage clause.)",
+      "simpler": "It puts the lender's name on the claim check for financed personal property, like a car.",
+      "examples": [
+        "A totaled financed car: the insurer pays the auto lender (loss payee) and the owner as their interests appear.",
+        "A leased piece of equipment is stolen; the lessor named as loss payee receives payment for its interest."
+      ],
+      "examTip": "Loss payable = personal property (autos, equipment); rights generally depend on the insured's. Mortgage clause = real property; mortgagee's rights survive the insured's misconduct.",
+      "misconception": "A loss payee is not automatically protected when the insured's own claim is denied; that protection is the hallmark of the mortgage clause.",
+      "related": [
+        "mortgage-clause",
+        "bailee-clause"
+      ],
+      "confusedWith": [
+        "mortgage-clause"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A bank that financed an insured's car is listed to receive claim payments for physical damage. This is done through a",
+        "choices": [
+          "Liberalization clause",
+          "No benefit to bailee clause",
+          "Loss payable clause",
+          "Standard mortgage clause"
+        ],
+        "answerIndex": 2,
+        "explanation": "A lender with an interest in personal property such as a car is protected through a loss payable clause."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "bailee-clause",
+      "term": "No Benefit to Bailee Clause",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.3.14.3"
+      ],
+      "formal": "A property policy provision stating that the insurance will not benefit a bailee, i.e., a person or business that has custody of the insured's property for a fee or service (such as a dry cleaner, repair shop, mover or storage company), thereby preserving the insurer's subrogation rights against a negligent bailee.",
+      "plain": "A bailee is someone who temporarily holds your property, like a dry cleaner, jeweler, or moving company. If your property is damaged while in their care, your insurer may pay you, but this clause makes sure the bailee cannot argue it is protected by your policy. The insurer can then go after the bailee (subrogation). Bailees are expected to carry their own bailee coverage.",
+      "simpler": "Your insurance protects you, not the business that is holding your stuff.",
+      "examples": [
+        "A dry cleaner ruins an insured's coat; the homeowners insurer pays the insured and then pursues the dry cleaner.",
+        "Furniture is damaged by a moving company; the mover cannot claim the benefit of the homeowner's policy."
+      ],
+      "examTip": "Bailee = holds someone else's property for a service. The clause protects the insurer's subrogation rights.",
+      "misconception": "The clause does not deny coverage to the insured; it denies any benefit to the bailee.",
+      "related": [
+        "subrogation",
+        "loss-payable-clause"
+      ],
+      "confusedWith": [
+        "loss-payable-clause"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A jeweler damages an insured's ring while cleaning it. The homeowner's policy will not protect the jeweler because of the",
+        "choices": [
+          "No benefit to bailee clause",
+          "Loss payable clause",
+          "Abandonment clause",
+          "Liberalization clause"
+        ],
+        "answerIndex": 0,
+        "explanation": "The no benefit to bailee clause prevents a bailee (the jeweler) from benefiting from the owner's insurance."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "certificate-of-insurance",
+      "term": "Certificate of Insurance",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.4"
+      ],
+      "formal": "A document issued by an insurer or producer as evidence that property/casualty insurance coverage exists on a particular date; in New York a certificate of insurance does not include a policy or a binder, cannot amend, extend or alter the policy's coverage, and confers no rights beyond those expressly provided in the policy.",
+      "plain": "A certificate of insurance is a summary that shows someone (the certificate holder, such as a landlord or a client who hired a contractor) that insurance is in place. It is evidence only. New York's Article 5 of the Insurance Law makes clear that the certificate cannot change the policy, and the certificate holder gets no rights the policy does not already give. People may not wilfully require a certificate that adds coverage terms the policy does not contain, and a required certificate must be on the insurer's form or a standard form approved by the Superintendent.",
+      "simpler": "A certificate is a receipt-like summary that proves insurance exists; it does not change the policy.",
+      "examples": [
+        "A homeowner asks a roofing contractor for a certificate showing the contractor's liability coverage before work begins.",
+        "A building owner demands that a certificate state the owner is covered for anything, even though the contractor's policy has no such provision. New York law prohibits wilfully requiring such language."
+      ],
+      "examTip": "Certificate = EVIDENCE of existing coverage, held by a certificate holder; it does not create coverage. Binder = TEMPORARY CONTRACT of insurance until the policy is issued.",
+      "misconception": "Being named as a certificate holder does not make someone an insured; only the policy (for example, by an additional insured endorsement) can do that.",
+      "related": [
+        "binder",
+        "additional-insured",
+        "endorsement"
+      ],
+      "confusedWith": [
+        "binder",
+        "additional-insured"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under New York law, a certificate of insurance",
+        "choices": [
+          "Is the same as a binder",
+          "Makes the certificate holder a named insured",
+          "Cannot amend, extend or alter the coverage in the policy",
+          "Can add coverage if the producer signs it"
+        ],
+        "answerIndex": 2,
+        "explanation": "§ 502(c): a certificate may not amend, extend or alter the referenced policy and confers no rights beyond those in the policy. § 501(a) excludes binders from the definition of certificate."
+      },
+      "sources": [
+        "ny-isc-501",
+        "ny-isc-502"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "binder",
+      "term": "Binder",
+      "aliases": [],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.4"
+      ],
+      "formal": "A temporary, legally binding agreement providing insurance coverage, issued by an insurer or an agent with binding authority, pending issuance of the formal policy; it may be oral or written and is subject to the terms of the policy that will be issued.",
+      "plain": "A binder puts coverage in force right away, before the actual policy is printed and delivered. For example, a homebuyer needs proof of coverage on the day of closing; the agent can bind coverage effective that day. The binder is real insurance for the time it is in force and is replaced by the policy when issued. Only someone with authority to bind (the insurer or an agent it has authorized) can issue one; a broker generally lacks that authority unless the insurer grants it.",
+      "simpler": "A binder is a temporary insurance contract that covers you until the real policy arrives.",
+      "examples": [
+        "A buyer's agent binds homeowners coverage effective at 12:01 a.m. on the closing date; the house burns that night and the loss is covered under the binder.",
+        "An agent with binding authority confirms by phone that a newly purchased car is covered starting immediately."
+      ],
+      "examTip": "Binder = temporary CONTRACT of coverage (can be oral). Certificate = evidence of coverage only; New York law expressly excludes binders from the definition of a certificate of insurance.",
+      "misconception": "A binder is not a quote or an application; it actually provides coverage, subject to the policy's terms.",
+      "related": [
+        "certificate-of-insurance",
+        "express-authority",
+        "insurance-agent",
+        "insurance-broker"
+      ],
+      "confusedWith": [
+        "certificate-of-insurance"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which document provides temporary insurance coverage until a formal policy is issued?",
+        "choices": [
+          "A binder",
+          "A certificate of insurance",
+          "A declarations page",
+          "A loss payable endorsement"
+        ],
+        "answerIndex": 0,
+        "explanation": "A binder is a temporary contract of insurance. A certificate of insurance is only evidence that coverage exists."
+      },
+      "sources": [
+        "ny-isc-501"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "a": "pro-rata-cancellation",
+      "b": "short-rate-cancellation",
+      "keyDifference": "Pro rata returns the full unearned premium; short rate returns less than the full unearned premium to cover the insurer's costs.",
+      "rows": [
+        {
+          "aspect": "Who usually cancels",
+          "a": "Insurer",
+          "b": "Insured (when the policy or rate filing provides for it)"
+        },
+        {
+          "aspect": "Penalty",
+          "a": "None",
+          "b": "Yes, the refund is reduced"
+        },
+        {
+          "aspect": "$1,200 annual policy cancelled after 6 months",
+          "a": "Refund $600",
+          "b": "Refund less than $600 (e.g., $540 at a 90% factor)"
+        }
+      ],
+      "memoryTip": "Short rate = shortchanged refund."
+    },
+    {
+      "a": "certificate-of-insurance",
+      "b": "binder",
+      "keyDifference": "A binder is a temporary contract that provides coverage until the policy is issued; a certificate of insurance is only evidence that a policy exists and cannot change it.",
+      "rows": [
+        {
+          "aspect": "Provides coverage itself?",
+          "a": "No, evidence only",
+          "b": "Yes, temporary coverage"
+        },
+        {
+          "aspect": "Can it change policy terms?",
+          "a": "No (NY Ins. Law § 502(c))",
+          "b": "It is subject to the terms of the policy to be issued"
+        },
+        {
+          "aspect": "Who receives it",
+          "a": "A certificate holder (third party, e.g., landlord or client)",
+          "b": "The applicant/insured"
+        },
+        {
+          "aspect": "Form",
+          "a": "Written document",
+          "b": "May be oral or written"
+        }
+      ],
+      "memoryTip": "Binder BINDS coverage; a certificate only CERTIFIES it exists."
+    },
+    {
+      "a": "subrogation",
+      "b": "salvage",
+      "keyDifference": "Subrogation recovers money from a responsible third party; salvage recovers value from the damaged property itself.",
+      "rows": [
+        {
+          "aspect": "Source of recovery",
+          "a": "The at-fault person or business",
+          "b": "Sale of damaged property"
+        },
+        {
+          "aspect": "Example",
+          "a": "Suing a negligent contractor who caused a fire",
+          "b": "Selling a totaled car for parts"
+        }
+      ],
+      "memoryTip": "Subrogation sues a person; salvage sells the stuff."
+    }
+  ]
+}

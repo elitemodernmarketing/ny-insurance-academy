@@ -1,0 +1,212 @@
+{
+  "sectionId": "reg",
+  "terms": [
+    {
+      "id": "twisting",
+      "term": "Twisting",
+      "aliases": [
+        "Incomplete comparison"
+      ],
+      "sectionId": "reg",
+      "outlineIds": [
+        "reg.2.3.1"
+      ],
+      "formal": "Inducing a policyowner to lapse, forfeit or surrender an existing policy by means of misrepresentation or an incomplete comparison of policies. NY Insurance Law § 2123(a)(2) prohibits making any incomplete comparison of policies for the purpose of inducing a person to lapse, forfeit or surrender an insurance policy.",
+      "plain": "Twisting is talking someone out of a policy they already own by showing them a one-sided or misleading comparison, usually so you can sell them a new one. It is a kind of misrepresentation that targets replacement sales.",
+      "simpler": "Twisting is \"twisting the facts\" to get someone to drop a good policy for yours.",
+      "examples": [
+        "An agent tells a client, \"Your old whole life policy is worthless; mine has a higher death benefit,\" while hiding that the new policy has a new two-year contestable period, a new suicide clause and higher premiums.",
+        "A producer compares only the premiums of two policies and leaves out the cash values and riders of the existing one to persuade the client to surrender it."
+      ],
+      "examTip": "Twisting = misrepresentation + replacement. Replacement itself is legal when properly disclosed; twisting is replacement achieved through misleading or incomplete comparisons.",
+      "misconception": "Not every replacement is twisting. A replacement that is in the client's interest and follows New York's disclosure rules is permitted.",
+      "related": [
+        "replacement",
+        "misrepresentation",
+        "rebating",
+        "license-revocation"
+      ],
+      "confusedWith": [
+        "rebating",
+        "replacement"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "An agent persuades a client to surrender an existing life policy by showing a comparison that omits the existing policy's cash value and riders. This is:",
+        "choices": [
+          "Twisting",
+          "Rebating",
+          "Controlled business",
+          "Defamation of an insurer"
+        ],
+        "answerIndex": 0,
+        "explanation": "§ 2123(a)(2) bars incomplete comparisons made to induce a person to lapse, forfeit or surrender a policy — the practice called twisting."
+      },
+      "sources": [
+        "ny-isc-2123"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19",
+        "notes": "§ 2123 does not use the word 'twisting'; the term is the standard industry label for the conduct described in § 2123(a)(2)."
+      }
+    },
+    {
+      "id": "rebating",
+      "term": "Rebating",
+      "aliases": [
+        "Rebate",
+        "Inducement"
+      ],
+      "sectionId": "reg",
+      "outlineIds": [
+        "reg.2.3.5"
+      ],
+      "formal": "Giving or offering, directly or indirectly, as an inducement to buy insurance, any part of the premium or commission, any special favor or advantage, or any valuable consideration not specified in the policy. For life, accident and health insurance, NY Insurance Law § 4224(c) prohibits such inducements other than valuable consideration (such as merchandise) not exceeding $25 in value; § 2324(a) contains the parallel rule for other lines.",
+      "plain": "Rebating is \"buying\" the sale: giving back part of your commission, paying part of the premium, or handing over anything of value that isn't in the policy, to get someone to buy. In New York, a small promotional item worth no more than $25 is allowed; anything beyond that is an illegal rebate. Knowingly accepting a rebate is also prohibited.",
+      "simpler": "If the gift is in the policy, fine. If it's outside the policy and worth more than $25, it's a rebate.",
+      "examples": [
+        "An agent offers to pay a client's first month's premium out of her own commission if the client signs today; that is rebating.",
+        "An agent gives each new client a branded pen and calendar worth about $10; that is within the $25 limit."
+      ],
+      "examTip": "Rebate test: (1) something of value, (2) not specified in the policy, (3) given as an inducement to insure — and (4) worth more than $25. Both the giver and a knowing receiver violate the law.",
+      "misconception": "Policy dividends paid by an insurer are not rebates; § 2324(c) expressly permits equitable distribution of dividends to policyholders.",
+      "related": [
+        "twisting",
+        "controlled-business",
+        "sharing-commissions",
+        "unfair-discrimination"
+      ],
+      "confusedWith": [
+        "twisting",
+        "sharing-commissions"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under New York law, which offer by a life agent to a prospect is an illegal rebate?",
+        "choices": [
+          "Paying the prospect's first annual premium from the agent's commission",
+          "Giving the prospect a $15 coffee mug with the agency logo",
+          "Explaining that the policy may pay dividends",
+          "Providing a free copy of the Buyer's Guide"
+        ],
+        "answerIndex": 0,
+        "explanation": "Paying part of the premium as an inducement is a rebate under § 4224(c). Merchandise not exceeding $25 is allowed, and dividends and required disclosures are not inducements outside the policy."
+      },
+      "sources": [
+        "ny-isc-4224",
+        "ny-isc-2324"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19",
+        "notes": "Outline cites § 2324, but § 2324(e) excludes life/A&H policies subject to § 4224; § 4224(c) contains the same $25 limit for life/A&H."
+      }
+    },
+    {
+      "id": "unfair-discrimination",
+      "term": "Unfair Discrimination",
+      "aliases": [],
+      "sectionId": "reg",
+      "outlineIds": [
+        "reg.2.3.4"
+      ],
+      "formal": "Treating individuals of the same class and equal expectation of life (life insurance) or of the same class (accident and health insurance) differently in premiums, rates, dividends, benefits or policy terms. NY Insurance Law § 4224(a)-(b) prohibits it, and also bars refusing, limiting or rating coverage solely because of a physical or mental disability or impairment unless permitted by law and based on sound actuarial principles or actual or reasonably anticipated experience.",
+      "plain": "Insurers may charge different prices for different risks, but they may not treat people who present the same risk differently. Different treatment must be backed by sound actuarial reasons or actual experience, not prejudice.",
+      "simpler": "Same risk, same price. Charging two people with the same risk different amounts for no actuarial reason is unfair discrimination.",
+      "examples": [
+        "Two 40-year-old nonsmokers in the same health class apply for the same term policy; charging one of them more for no risk-related reason is unfair discrimination.",
+        "Charging a higher premium to an applicant with a serious heart condition, based on sound actuarial data and as permitted by law, is not unfair discrimination."
+      ],
+      "examTip": "The phrase to remember is \"same class and equal expectation of life.\" Risk-based differences are fair; differences among equal risks are unfair.",
+      "misconception": "Charging different premiums is not automatically discrimination. Underwriting classes are lawful when they reflect real differences in risk.",
+      "related": [
+        "rebating",
+        "insurance-agent"
+      ],
+      "confusedWith": [
+        "rebating"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under § 4224, unfair discrimination in life insurance means treating differently individuals who are:",
+        "choices": [
+          "Of the same class and equal expectation of life",
+          "Of different ages",
+          "Insured by different insurers",
+          "Smokers and nonsmokers"
+        ],
+        "answerIndex": 0,
+        "explanation": "§ 4224(a)(1) prohibits unfair discrimination between individuals of the same class and of equal expectation of life. Age and smoking status are legitimate risk factors."
+      },
+      "sources": [
+        "ny-isc-4224"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "unauthorized-insurer",
+      "term": "Unauthorized Insurer",
+      "aliases": [
+        "Unlicensed insurer"
+      ],
+      "sectionId": "reg",
+      "outlineIds": [
+        "reg.2.7",
+        "reg.2.2.1"
+      ],
+      "formal": "An insurer that is not licensed or authorized to do an insurance business in New York. NY Insurance Law § 2117(a) prohibits anyone in New York from acting as agent for such an insurer, acting as broker in placing risks with it (except under limited statutory exceptions such as excess line placements), or in any way aiding it in effecting insurance; § 2117(g) imposes a forfeiture of $500 for each transaction.",
+      "plain": "If an insurance company doesn't have New York authority, you generally can't sell its policies, place business with it, or help it do business in New York. Each illegal transaction carries a $500 penalty on top of other penalties.",
+      "simpler": "Selling for an unlicensed insurer is like selling tickets for an airline that isn't allowed to fly here.",
+      "examples": [
+        "An agent places a client's life policy with an offshore insurer that holds no New York certificate of authority; the agent has aided an unauthorized insurer.",
+        "A licensed excess line broker places a hard-to-place commercial property risk with a nonadmitted insurer under § 2105 procedures; that is a statutory exception."
+      ],
+      "examTip": "Penalty for aiding an unauthorized insurer: $500 per transaction (§ 2117(g)), in addition to other penalties.",
+      "misconception": "An attorney may represent an unauthorized insurer in litigation or claim settlement in New York (§ 2117(f)); that is not \"aiding\" under the section.",
+      "related": [
+        "certificate-of-authority",
+        "nonadmitted-insurer",
+        "admitted-insurer"
+      ],
+      "confusedWith": [
+        "nonadmitted-insurer"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "What penalty does § 2117 impose for each transaction in which a person aids an unauthorized insurer?",
+        "choices": [
+          "$500 forfeiture per transaction",
+          "$25 per transaction",
+          "$10,000 per year",
+          "No monetary penalty, only a warning"
+        ],
+        "answerIndex": 0,
+        "explanation": "§ 2117(g): forfeiture of five hundred dollars for each transaction, in addition to any other penalty provided by law."
+      },
+      "sources": [
+        "ny-isc-2117"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ],
+  "comparisons": []
+}

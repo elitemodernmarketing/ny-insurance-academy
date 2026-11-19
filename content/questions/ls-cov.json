@@ -1,0 +1,240 @@
+{
+ "sectionId": "ls",
+ "questions": [
+  {
+   "id": "ls-q101",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ls",
+   "outlineIds": [
+    "ls.1.3"
+   ],
+   "concepts": [
+    "business-of-life-settlements",
+    "life-settlement"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "TrackRight LLC, based in New Jersey, never buys policies itself. For a fee, it monitors and tracks settled life insurance policies on New York insureds for investors, operating entirely by mail and online from outside New York.",
+   "stem": "Under NY Insurance Law § 7802(c), is TrackRight engaged in the business of life settlements?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "No; only buying policies from owners is part of that business",
+     "rationale": "Incorrect: the definition is much broader than purchasing; it includes offering, soliciting, negotiating, procuring, effectuating, monitoring and tracking."
+    },
+    {
+     "id": "b",
+     "text": "No; activity carried on from outside New York is excluded",
+     "rationale": "Incorrect: § 7802(c)(2) expressly includes acts effectuated in New York by mail or otherwise from outside the state."
+    },
+    {
+     "id": "c",
+     "text": "Yes; monitoring or tracking settlements is within the definition",
+     "rationale": "Correct: § 7802(c)(1) lists monitoring and tracking of life settlement contracts, and (c)(2) reaches acts directed into New York from outside the state."
+    },
+    {
+     "id": "d",
+     "text": "Yes, but only if TrackRight also acts as a licensed broker",
+     "rationale": "Incorrect: the definition does not depend on acting as a broker; monitoring or tracking alone is enough."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Under § 7802(c)(1), the business of life settlements means an activity involving, but not limited to, offering to enter into, soliciting, negotiating, procuring, effectuating, monitoring or tracking life settlement contracts. Under § 7802(c)(2), it also includes such acts effectuated in New York by mail or otherwise from outside the state, and business in substance equivalent to it done in a way designed to evade the law.",
+   "memoryTip": "Business of life settlements is BROAD: even monitoring and tracking, even from out of state.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Monitoring or tracking is included",
+      "anyOf": [
+       "monitor",
+       "track"
+      ]
+     },
+     {
+      "label": "Out-of-state activity directed into NY is included",
+      "anyOf": [
+       "outside",
+       "out of state",
+       "mail",
+       "new jersey"
+      ]
+     },
+     {
+      "label": "Definition is broad, not limited to buying",
+      "anyOf": [
+       "broad",
+       "not limited",
+       "not only"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-7802"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ls-q102",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ls",
+   "outlineIds": [
+    "ls.1.5"
+   ],
+   "concepts": [
+    "life-settlement",
+    "life-settlement-provider",
+    "life-settlement-broker"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "In a life settlement, NY Insurance Law § 7802(n) defines the \"owner\" as the:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Licensed provider that buys the policy from the seller",
+     "rationale": "Incorrect: the buyer is the life settlement provider (§ 7802(m)), not the owner."
+    },
+    {
+     "id": "b",
+     "text": "Investor that supplies funds for the provider's purchases",
+     "rationale": "Incorrect: an accredited investor that funds settlements is a financing entity (§ 7802(e))."
+    },
+    {
+     "id": "c",
+     "text": "Person who negotiates the settlement for compensation",
+     "rationale": "Incorrect: a person who negotiates a settlement for compensation is a life settlement broker (§ 7802(j))."
+    },
+    {
+     "id": "d",
+     "text": "Policyowner who enters or seeks to enter into a settlement",
+     "rationale": "Correct: § 7802(n) defines the owner as the owner of a policy who enters or seeks to enter into a life settlement contract, that is, the seller."
+    }
+   ],
+   "correct": "d",
+   "explanation": "In a life settlement, the owner is the seller: the owner of a policy who enters or seeks to enter into a life settlement contract (§ 7802(n)). The provider is the buyer (§ 7802(m)); the broker represents only the owner and is paid to negotiate (§§ 7802(j), 7813(l)); and the financing entity supplies investor money to providers (§ 7802(e)).",
+   "memoryTip": "Owner = seller. Provider = buyer. Broker = owner's representative.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-7802"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ls-q103",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "ls",
+   "outlineIds": [
+    "ls.4.1",
+    "ls.4"
+   ],
+   "concepts": [
+    "hipaa",
+    "life-settlement-provider"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "A licensed life settlement provider is evaluating an offer for Grace's policy and wants her medical records from her physicians to estimate her life expectancy.",
+   "stem": "What must the provider obtain before getting the records?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Grace's written consent to release her medical records",
+     "rationale": "Correct: § 7813(a) requires the provider to first obtain the insured's written consent to release medical records, consistent with HIPAA's written-authorization rule."
+    },
+    {
+     "id": "b",
+     "text": "A subpoena issued by the superintendent for the records",
+     "rationale": "Incorrect: no subpoena is required; the law requires the insured's written consent."
+    },
+    {
+     "id": "c",
+     "text": "The broker's oral assurance that Grace is seriously ill",
+     "rationale": "Incorrect: an assurance from the broker does not authorize release of medical records, and it is not in writing from the insured."
+    },
+    {
+     "id": "d",
+     "text": "Nothing, because doctors may share records with any buyer",
+     "rationale": "Incorrect: under the HIPAA Privacy Rule, doctors generally need the patient's written authorization to disclose records for purposes like this."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Under NY Insurance Law § 7813(a), a provider entering into a life settlement must first obtain the insured's written consent to the release of medical records, and § 7813(f) makes medical information subject to the confidentiality rules that apply to health care providers. This fits the federal HIPAA Privacy Rule: doctors and hospitals (covered entities) generally need the individual's written authorization before disclosing health information for purposes outside treatment, payment and health care operations.",
+   "memoryTip": "Health records for a settlement = the insured's WRITTEN consent first.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Written consent of the insured",
+      "anyOf": [
+       "written consent",
+       "written authorization",
+       "in writing",
+       "consent"
+      ]
+     },
+     {
+      "label": "Applies before medical records are released",
+      "anyOf": [
+       "before",
+       "first",
+       "release"
+      ]
+     },
+     {
+      "label": "HIPAA privacy / confidentiality connection",
+      "anyOf": [
+       "hipaa",
+       "privacy",
+       "confidential"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-7813",
+    "fed-hhs-hipaa-privacy-summary"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

@@ -1,0 +1,2183 @@
+{
+  "sectionId": "plho",
+  "questions": [
+    {
+      "id": "plho-q001",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.1"
+      ],
+      "concepts": [
+        "ho-special-form",
+        "residence-premises"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Who is eligible for an HO-3 homeowners policy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A landlord who rents out a house and lives elsewhere",
+          "rationale": "Incorrect: a non-owner-occupied rental is usually written on a dwelling policy."
+        },
+        {
+          "id": "b",
+          "text": "The owner-occupant of a one- to four-family dwelling",
+          "rationale": "Correct: HO-2, HO-3, HO-5 and HO-8 are written for owner-occupants of the dwelling."
+        },
+        {
+          "id": "c",
+          "text": "A tenant who rents an apartment in a large building",
+          "rationale": "Incorrect: a tenant uses the contents broad form (HO-4)."
+        },
+        {
+          "id": "d",
+          "text": "A small retail business operating from a storefront",
+          "rationale": "Incorrect: businesses use commercial policies, not homeowners forms."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Homeowners forms other than HO-4 and HO-6 are for people who own and live in the dwelling (a one-family home, or a two- to four-family dwelling where they live in a unit). Tenants use HO-4, condo or co-op unit owners use HO-6, and landlords of rentals use dwelling policies.",
+      "memoryTip": "Homeowners = you Own it AND live in it.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q002",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.1"
+      ],
+      "concepts": [
+        "ho-special-form",
+        "coverage-e-personal-liability"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Why is a homeowners policy called a \"package\" policy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It must always be purchased together with a personal auto policy",
+          "rationale": "Incorrect: homeowners policies can be sold on their own."
+        },
+        {
+          "id": "b",
+          "text": "It covers every peril without any exclusions",
+          "rationale": "Incorrect: all homeowners forms have exclusions."
+        },
+        {
+          "id": "c",
+          "text": "It combines property coverage and liability coverage in one policy",
+          "rationale": "Correct: Section I provides property coverages and Section II provides liability coverages."
+        },
+        {
+          "id": "d",
+          "text": "It insures several unrelated families in one policy",
+          "rationale": "Incorrect: it insures one named insured's household."
+        }
+      ],
+      "correct": "c",
+      "explanation": "A homeowners policy packages Section I (Coverages A–D: dwelling, other structures, personal property, loss of use) with Section II (Coverages E and F: personal liability and medical payments to others).",
+      "memoryTip": "Section I = Stuff; Section II = Suits.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q003",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.1",
+        "plho.2.1"
+      ],
+      "concepts": [
+        "ho-unit-owners-form"
+      ],
+      "difficulty": 1,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "The Parks just bought a condominium unit in a 40-unit building and will live there. The condominium association insures the building under a master policy.",
+      "stem": "Which homeowners form best fits the Parks?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "HO-4",
+          "rationale": "Incorrect: HO-4 is for tenants, who have no ownership interest in their unit's fixtures or the building."
+        },
+        {
+          "id": "b",
+          "text": "HO-6",
+          "rationale": "Correct: the unit-owners form is designed for condominium unit owners."
+        },
+        {
+          "id": "c",
+          "text": "HO-8",
+          "rationale": "Incorrect: HO-8 is for older homes whose replacement cost greatly exceeds market value."
+        },
+        {
+          "id": "d",
+          "text": "HO-2",
+          "rationale": "Incorrect: HO-2 is for owner-occupants of a dwelling building, not a condo unit."
+        }
+      ],
+      "correct": "b",
+      "explanation": "HO-6 covers the unit owner's personal property, the parts of the unit the owner is responsible for (Coverage A), loss of use, loss assessment and liability. The association's master policy covers the building.",
+      "memoryTip": "Condo = 6.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q004",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.2.1"
+      ],
+      "concepts": [
+        "ho-special-form",
+        "ho-broad-form"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [
+        "tricky"
+      ],
+      "stem": "What is the main difference between HO-2 and HO-3?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "HO-3 covers personal property on open perils; HO-2 uses named perils",
+          "rationale": "Incorrect: HO-3 personal property is on broad named perils, the same as HO-2."
+        },
+        {
+          "id": "b",
+          "text": "HO-2 includes liability coverage; HO-3 does not",
+          "rationale": "Incorrect: both forms include Section II liability."
+        },
+        {
+          "id": "c",
+          "text": "HO-3 covers the dwelling on open perils; HO-2 covers it on named perils",
+          "rationale": "Correct: this is the core difference; both use broad named perils for personal property."
+        },
+        {
+          "id": "d",
+          "text": "HO-2 is for tenants; HO-3 is for owner-occupants",
+          "rationale": "Incorrect: both are for owner-occupants; tenants use HO-4."
+        }
+      ],
+      "correct": "c",
+      "explanation": "HO-2 is named perils for Coverages A, B and C. HO-3 switches Coverages A and B to open perils and keeps Coverage C on broad named perils.",
+      "memoryTip": "HO-3 opens the house; HO-2 names everything.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q005",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.2.1",
+        "plho.6"
+      ],
+      "concepts": [
+        "ho-comprehensive-form",
+        "ho-special-form",
+        "open-perils-coverage"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "While moving furniture, Lucy accidentally knocks her new TV off its stand and the screen shatters. Compare an HO-3 and an HO-5.",
+      "stem": "How would the loss be treated under each form?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Covered under both HO-3 and HO-5",
+          "rationale": "Incorrect: HO-3 covers personal property only for named perils, and accidental dropping is not one."
+        },
+        {
+          "id": "b",
+          "text": "Covered under HO-3 but not under HO-5",
+          "rationale": "Incorrect: HO-5 is broader than HO-3 for personal property, not narrower."
+        },
+        {
+          "id": "c",
+          "text": "Covered under neither, because breakage is excluded",
+          "rationale": "Incorrect: accidental breakage of a TV is not a standard exclusion on an open-perils form."
+        },
+        {
+          "id": "d",
+          "text": "Covered under HO-5 but not under HO-3",
+          "rationale": "Correct: HO-5 insures personal property on open perils; under HO-3, accidental breakage is not a named peril for contents."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Under HO-3, personal property (Coverage C) is covered only for broad named perils such as fire, theft or falling objects; dropping a TV is none of these. HO-5 covers personal property on open perils, so the accidental breakage is covered unless an exclusion applies.",
+      "memoryTip": "Five covers the clumsy moment; Three does not.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "HO-3 contents are named perils",
+            "anyOf": [
+              "named peril",
+              "listed"
+            ]
+          },
+          {
+            "label": "Accidental breakage is not a named peril",
+            "anyOf": [
+              "not a named",
+              "not listed",
+              "breakage"
+            ]
+          },
+          {
+            "label": "HO-5 contents are open perils",
+            "anyOf": [
+              "open peril",
+              "HO-5",
+              "not excluded"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q006",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.2.1"
+      ],
+      "concepts": [
+        "ho-contents-broad-form"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording",
+        "rapid"
+      ],
+      "stem": "An HO-4 policy for a tenant includes each of the following EXCEPT",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Coverage A for the apartment building",
+          "rationale": "Correct: tenants do not insure the building; the landlord does."
+        },
+        {
+          "id": "b",
+          "text": "Coverage C for the tenant's personal property",
+          "rationale": "Incorrect: personal property is the heart of HO-4."
+        },
+        {
+          "id": "c",
+          "text": "Coverage D for additional living expense",
+          "rationale": "Incorrect: HO-4 includes loss of use."
+        },
+        {
+          "id": "d",
+          "text": "Coverage E for personal liability",
+          "rationale": "Incorrect: HO-4 includes Section II liability coverages."
+        }
+      ],
+      "correct": "a",
+      "explanation": "HO-4 (contents broad form) has no Coverage A or B. It provides Coverage C, Coverage D, a limited additional coverage for building additions and alterations made by the tenant, and Section II.",
+      "memoryTip": "Renters insure what they bring, not the building.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q007",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.2.1"
+      ],
+      "concepts": [
+        "ho-modified-coverage-form",
+        "functional-replacement-cost"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Ivy owns and lives in an 1890s home with ornate plaster work. Its market value is $180,000, but rebuilding it with the same materials would cost about $700,000.",
+      "stem": "Which form is designed for Ivy's situation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "HO-5",
+          "rationale": "Incorrect: HO-5 is the broadest form and would be priced on the very high replacement cost."
+        },
+        {
+          "id": "b",
+          "text": "HO-8",
+          "rationale": "Correct: the modified coverage form is for homes whose replacement cost greatly exceeds market value."
+        },
+        {
+          "id": "c",
+          "text": "HO-6",
+          "rationale": "Incorrect: HO-6 is for condominium unit owners."
+        },
+        {
+          "id": "d",
+          "text": "HO-4",
+          "rationale": "Incorrect: HO-4 is for tenants."
+        }
+      ],
+      "correct": "b",
+      "explanation": "HO-8 is meant for older homes where rebuilding with original materials would cost far more than the home's market value. It covers limited named perils and settles losses by repairing with common, functionally equivalent materials (or at actual cash value).",
+      "memoryTip": "Old house, low market value, high rebuild cost = HO-8.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q008",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.2.1",
+        "plho.4.3"
+      ],
+      "concepts": [
+        "ho-special-form",
+        "coverage-c-personal-property",
+        "named-perils-coverage"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Ella's painter accidentally spills a gallon of paint that soaks through her area rug and stains the hardwood floor underneath.",
+      "stem": "Under Ella's HO-3, which part of the loss is covered?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The rug only",
+          "rationale": "Incorrect: it is the reverse: contents need a named peril, and spilling is not one."
+        },
+        {
+          "id": "b",
+          "text": "Both the floor and the rug",
+          "rationale": "Incorrect: the rug is personal property, which HO-3 covers only for named perils."
+        },
+        {
+          "id": "c",
+          "text": "The floor damage only",
+          "rationale": "Correct: the floor is part of the dwelling (open perils), but the rug is personal property, and a paint spill is not a named peril."
+        },
+        {
+          "id": "d",
+          "text": "Neither, because accidental spills are excluded under HO-3",
+          "rationale": "Incorrect: accidental spills are not excluded for the dwelling, which is open perils."
+        }
+      ],
+      "correct": "c",
+      "explanation": "HO-3 covers the dwelling (Coverage A) for direct physical loss unless excluded — paint staining of the floor is not excluded. Personal property (Coverage C) is covered only for named perils, and accidental spilling is not one of them, so the rug is not covered.",
+      "memoryTip": "Same accident, two answers: building open, contents named.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Floor = Coverage A open perils",
+            "anyOf": [
+              "floor",
+              "Coverage A",
+              "open peril",
+              "dwelling"
+            ]
+          },
+          {
+            "label": "Rug = Coverage C named perils",
+            "anyOf": [
+              "rug",
+              "Coverage C",
+              "named peril"
+            ]
+          },
+          {
+            "label": "Spill is not a named peril",
+            "anyOf": [
+              "not a named",
+              "not listed",
+              "spill"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q009",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.2.1",
+        "plho.4.1"
+      ],
+      "concepts": [
+        "ho-unit-owners-form",
+        "coverage-a-dwelling"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Ravi owns a condo insured under an HO-6. He replaced the original kitchen cabinets with custom built-ins. A kitchen fire destroys the cabinets.",
+      "stem": "Which HO-6 coverage pays for the cabinets?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Coverage C — personal property",
+          "rationale": "Incorrect: built-in cabinets are part of the building, not personal property."
+        },
+        {
+          "id": "b",
+          "text": "Coverage D — loss of use",
+          "rationale": "Incorrect: loss of use pays living costs, not repairs."
+        },
+        {
+          "id": "c",
+          "text": "The association's master policy in all cases",
+          "rationale": "Incorrect: improvements the unit owner made are commonly the owner's responsibility."
+        },
+        {
+          "id": "d",
+          "text": "Coverage A — the unit-owner's improvements",
+          "rationale": "Correct: HO-6 Coverage A covers alterations, fixtures and improvements that are part of the owner's unit."
+        }
+      ],
+      "correct": "d",
+      "explanation": "In an HO-6, Coverage A is limited to the parts of the building the unit owner is responsible for, such as fixtures, improvements and alterations. Upgraded built-in cabinets fall here; furniture would be Coverage C.",
+      "memoryTip": "HO-6: what's nailed down and yours = A.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q010",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.2.1",
+        "plho.4.5"
+      ],
+      "concepts": [
+        "ho-contents-broad-form"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Jon rents an apartment and has an HO-4 with a Coverage C limit of $40,000. His form provides building additions and alterations coverage equal to 10% of the Coverage C limit. A covered fire destroys $5,000 of built-in shelving Jon installed. Ignore the deductible.",
+      "stem": "How much is available for the built-in shelving under this additional coverage?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$40,000",
+          "rationale": "Incorrect: that is the full Coverage C limit, not the additional coverage amount."
+        },
+        {
+          "id": "b",
+          "text": "$400",
+          "rationale": "Incorrect: this uses 1% instead of 10%."
+        },
+        {
+          "id": "c",
+          "text": "$5,000",
+          "rationale": "Incorrect: this is the size of the loss, not the amount available."
+        },
+        {
+          "id": "d",
+          "text": "$4,000",
+          "rationale": "Correct: 10% × $40,000 = $4,000."
+        }
+      ],
+      "correct": "d",
+      "explanation": "The scenario states the building additions and alterations coverage equals 10% of Coverage C: 0.10 × $40,000 = $4,000. The loss is $5,000, so $4,000 is available and the tenant bears the rest.",
+      "memoryTip": "Tenant improvements = a slice of C.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q011",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.2.1",
+        "plho.4.5"
+      ],
+      "concepts": [
+        "ho-unit-owners-form"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "A windstorm damages the roof of Ravi's condo complex. The association's master policy has a large deductible, so the association assesses each unit owner $800.",
+      "stem": "Which homeowners additional coverage can respond to Ravi's bill?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Loss assessment",
+          "rationale": "Correct: loss assessment pays the insured's share of an association assessment for a covered type of loss."
+        },
+        {
+          "id": "b",
+          "text": "Debris removal",
+          "rationale": "Incorrect: debris removal pays to remove debris of covered property, not association assessments."
+        },
+        {
+          "id": "c",
+          "text": "Medical payments to others",
+          "rationale": "Incorrect: Coverage F pays injured third parties' medical bills."
+        },
+        {
+          "id": "d",
+          "text": "Ordinance or law",
+          "rationale": "Incorrect: ordinance or law pays extra code-compliance costs for the insured's own dwelling."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Loss assessment is an additional coverage (and a Section II additional coverage for liability-related assessments). It is especially important for condo owners, whose associations may assess owners for losses to common property.",
+      "memoryTip": "Association sends a bill → loss assessment.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q012",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.3"
+      ],
+      "concepts": [
+        "resident-relative",
+        "insured"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Mia, 19, lived with her parents until last August, when she moved into a college dormitory to attend school full time. She returns home for holidays.",
+      "stem": "Is Mia an insured under her parents' homeowners policy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No, because she no longer lives at the residence premises full time",
+          "rationale": "Incorrect: the student exception keeps her an insured while temporarily away."
+        },
+        {
+          "id": "b",
+          "text": "No, because only the named insured is an insured",
+          "rationale": "Incorrect: resident relatives and certain students are also insureds."
+        },
+        {
+          "id": "c",
+          "text": "Yes, as a full-time student who lived in the household before school",
+          "rationale": "Correct: homeowners forms treat such students as insureds, subject to the form's age limits."
+        },
+        {
+          "id": "d",
+          "text": "Yes, but only for liability and never for her personal belongings",
+          "rationale": "Incorrect: as an insured, her personal property is also covered (with limits for property at a dorm)."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Insureds include the named insured, resident relatives, and full-time students who were residents before moving out to attend school (within the form's age limits). Mia's dorm items are covered under Coverage C, and she is an insured for liability.",
+      "memoryTip": "Away at school, still in the household for the policy.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Full-time student exception",
+            "anyOf": [
+              "student",
+              "school",
+              "college"
+            ]
+          },
+          {
+            "label": "Lived in household before leaving",
+            "anyOf": [
+              "resident before",
+              "lived",
+              "household"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q013",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.3"
+      ],
+      "concepts": [
+        "residence-premises"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Which can qualify as the \"residence premises\"?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A house the named insured owns but rents entirely to others",
+          "rationale": "Incorrect: the named insured must reside there."
+        },
+        {
+          "id": "b",
+          "text": "A vacant lot the named insured plans to build on",
+          "rationale": "Incorrect: a vacant lot can be an insured location but not the residence premises."
+        },
+        {
+          "id": "c",
+          "text": "A warehouse the named insured uses for storage",
+          "rationale": "Incorrect: it is not where the insured resides."
+        },
+        {
+          "id": "d",
+          "text": "A three-family dwelling where the named insured lives in one unit",
+          "rationale": "Correct: a two- to four-family dwelling qualifies if the named insured resides in one unit."
+        }
+      ],
+      "correct": "d",
+      "explanation": "The residence premises is the dwelling where the named insured lives (one-family, or a two- to four-family dwelling where the named insured lives in a unit) and that is shown in the declarations.",
+      "memoryTip": "Residence premises = where you live, as listed.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q014",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.3",
+        "plho.5.1"
+      ],
+      "concepts": [
+        "insured-location",
+        "coverage-e-personal-liability"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Leah rents a community hall for one evening to host her daughter's birthday party. A guest trips over a cord Leah set up and is injured.",
+      "stem": "How does Leah's homeowners policy treat the hall?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is excluded, because Leah does not own or regularly rent the hall",
+          "rationale": "Incorrect: ownership is not required for this part of the insured location definition."
+        },
+        {
+          "id": "b",
+          "text": "It becomes Leah's residence premises for the day",
+          "rationale": "Incorrect: residence premises is the dwelling where she lives, shown in the declarations."
+        },
+        {
+          "id": "c",
+          "text": "It is covered only under Coverage C",
+          "rationale": "Incorrect: the question is about liability for an injured guest."
+        },
+        {
+          "id": "d",
+          "text": "It is an insured location, so her Section II coverage can apply",
+          "rationale": "Correct: premises occasionally rented to an insured for non-business use are an insured location."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Insured location includes any part of a premises occasionally rented to an insured for other than business use — such as a hall rented for a family party. Liability for injuries there falls within Section II.",
+      "memoryTip": "Rented party hall = insured location.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Occasionally rented for non-business use",
+            "anyOf": [
+              "occasional",
+              "rented",
+              "non-business",
+              "party"
+            ]
+          },
+          {
+            "label": "Insured location",
+            "anyOf": [
+              "insured location"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q015",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.3"
+      ],
+      "concepts": [
+        "occurrence"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "In a homeowners policy, an \"occurrence\" is best described as",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Any act of the insured, whether intentional or accidental",
+          "rationale": "Incorrect: intentional acts are not accidents."
+        },
+        {
+          "id": "b",
+          "text": "Only a sudden event that lasts no more than a few seconds",
+          "rationale": "Incorrect: occurrence also includes gradual, repeated exposure."
+        },
+        {
+          "id": "c",
+          "text": "An accident, including repeated exposure to the same harmful conditions",
+          "rationale": "Correct: this matches the policy concept of occurrence."
+        },
+        {
+          "id": "d",
+          "text": "Any lawsuit that is filed against an insured during the policy period",
+          "rationale": "Incorrect: a lawsuit is a claim, not an occurrence."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Occurrence covers accidents, both sudden and those resulting from continuous or repeated exposure to substantially the same harmful conditions, that cause bodily injury or property damage during the policy period.",
+      "memoryTip": "Occurrence = accident, fast or slow.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q016",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.3",
+        "plho.5.1"
+      ],
+      "concepts": [
+        "bodily-injury",
+        "personal-injury-endorsement"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "tricky"
+      ],
+      "stem": "Which claim falls outside the homeowners definition of bodily injury?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A neighbor's claim that the insured slandered him",
+          "rationale": "Correct: slander is a personal injury offense, not physical harm."
+        },
+        {
+          "id": "b",
+          "text": "A guest's broken arm from a fall",
+          "rationale": "Incorrect: physical harm is bodily injury."
+        },
+        {
+          "id": "c",
+          "text": "An illness a visitor contracts at the home",
+          "rationale": "Incorrect: sickness or disease is included in bodily injury."
+        },
+        {
+          "id": "d",
+          "text": "A death resulting from an injury at the home",
+          "rationale": "Incorrect: death resulting from bodily harm is included."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Bodily injury means physical harm, sickness or disease, including required care, loss of services and resulting death. Slander, libel and false arrest are personal injury offenses covered only by a personal injury endorsement.",
+      "memoryTip": "Body hurt = BI; reputation hurt = PI.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q017",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.3"
+      ],
+      "concepts": [
+        "property-damage"
+      ],
+      "difficulty": 2,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Under homeowners liability coverage, \"property damage\" includes",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Damage to the insured's own home",
+          "rationale": "Incorrect: liability coverage excludes the insured's own property."
+        },
+        {
+          "id": "b",
+          "text": "Harm to a person's reputation",
+          "rationale": "Incorrect: that is a personal injury offense."
+        },
+        {
+          "id": "c",
+          "text": "Loss of use of tangible property",
+          "rationale": "Correct: loss of use of tangible property is part of the property damage concept."
+        },
+        {
+          "id": "d",
+          "text": "Loss of the insured's computer data",
+          "rationale": "Incorrect: data is not tangible property."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Property damage is physical injury to, destruction of, or loss of use of tangible property. It must be property of others for Coverage E to apply.",
+      "memoryTip": "PD = tangible things broken or unusable.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q018",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.3",
+        "plho.7"
+      ],
+      "concepts": [
+        "coverage-e-personal-liability",
+        "home-business-endorsement"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "Which activity is most likely to meet a homeowners policy's definition of \"business\"?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A part-time paid tutoring service the insured runs year-round",
+          "rationale": "Correct: business includes a trade, profession or occupation engaged in full or part time for compensation."
+        },
+        {
+          "id": "b",
+          "text": "Unpaid volunteer coaching for a youth league",
+          "rationale": "Incorrect: volunteer activities are commonly carved out of the business definition."
+        },
+        {
+          "id": "c",
+          "text": "Selling a few of the family's used items at one yard sale",
+          "rationale": "Incorrect: an occasional sale of personal items is not a trade or occupation."
+        },
+        {
+          "id": "d",
+          "text": "Trading babysitting with a neighbor without pay",
+          "rationale": "Incorrect: mutual exchange of child care without compensation is commonly not business."
+        }
+      ],
+      "correct": "a",
+      "explanation": "The homeowners definition of business includes any trade, profession or occupation engaged in on a full-time, part-time or occasional basis, and other activities for money or compensation, with carve-outs for volunteer work, small amounts of income and certain unpaid home care. Business activities trigger Section I limits and Section II exclusions.",
+      "memoryTip": "Paid and ongoing = business; volunteer or swap = not.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q019",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.4.1"
+      ],
+      "concepts": [
+        "coverage-a-dwelling"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Which property is insured under Coverage A of an HO-3?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A detached tool shed",
+          "rationale": "Incorrect: detached structures are Coverage B."
+        },
+        {
+          "id": "b",
+          "text": "A deck attached to the house",
+          "rationale": "Correct: structures attached to the dwelling are part of Coverage A."
+        },
+        {
+          "id": "c",
+          "text": "The land the house sits on",
+          "rationale": "Incorrect: land is never covered."
+        },
+        {
+          "id": "d",
+          "text": "The family's furniture",
+          "rationale": "Incorrect: furniture is Coverage C."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Coverage A covers the dwelling, structures attached to it, and materials and supplies on or next to the premises for its construction or repair. Land is not insured.",
+      "memoryTip": "A = Attached.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q020",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.4.2",
+        "plho.4.5",
+        "plho.6"
+      ],
+      "concepts": [
+        "coverage-b-other-structures",
+        "ho-special-form"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "During a windstorm, a tree in Dana's yard falls onto her detached garage, crushing part of the roof. Dana has an HO-3.",
+      "stem": "Which coverage pays to repair the garage?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Coverage A — Dwelling",
+          "rationale": "Incorrect: Coverage A covers the dwelling and attached structures."
+        },
+        {
+          "id": "b",
+          "text": "Coverage B — Other structures",
+          "rationale": "Correct: the garage is detached, so it is an other structure."
+        },
+        {
+          "id": "c",
+          "text": "Coverage C — Personal property",
+          "rationale": "Incorrect: a building is not personal property."
+        },
+        {
+          "id": "d",
+          "text": "Coverage E — Personal liability",
+          "rationale": "Incorrect: liability covers damage to others' property, not the insured's own garage."
+        }
+      ],
+      "correct": "b",
+      "explanation": "A detached garage is an other structure (Coverage B), which HO-3 covers on open perils. Separately, the debris removal additional coverage can pay to remove the tree because it damaged a covered structure.",
+      "memoryTip": "Detached garage = B; tree removal = additional coverage.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Detached garage is an other structure",
+            "anyOf": [
+              "detached",
+              "Coverage B",
+              "other structure"
+            ]
+          },
+          {
+            "label": "Tree removal under additional coverage",
+            "anyOf": [
+              "debris",
+              "tree removal",
+              "additional coverage"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q021",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.4.2"
+      ],
+      "concepts": [
+        "coverage-b-other-structures",
+        "coverage-a-dwelling"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Dan's HO-3 shows Coverage A of $300,000, and Coverage B is 10% of Coverage A. A covered fire causes $36,000 of damage to his detached garage. Ignore the deductible.",
+      "stem": "How much will the insurer pay for the detached garage?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$30,000",
+          "rationale": "Correct: 10% × $300,000 = $30,000, which caps the $36,000 loss."
+        },
+        {
+          "id": "b",
+          "text": "$36,000",
+          "rationale": "Incorrect: the loss exceeds the Coverage B limit."
+        },
+        {
+          "id": "c",
+          "text": "$3,600",
+          "rationale": "Incorrect: this applies 10% to the loss, not to the Coverage A limit."
+        },
+        {
+          "id": "d",
+          "text": "$6,000",
+          "rationale": "Incorrect: this is the amount Dan must absorb, not the payment."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Coverage B = 10% × $300,000 = $30,000. The covered loss is $36,000, so the insurer pays the $30,000 limit and Dan absorbs $6,000. Coverage B is additional insurance, so Coverage A remains $300,000.",
+      "memoryTip": "B is a slice of A, applied to the limit.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Coverage B = 10% of A",
+            "anyOf": [
+              "30,000",
+              "10%"
+            ]
+          },
+          {
+            "label": "Payment capped at limit",
+            "anyOf": [
+              "cap",
+              "limit",
+              "maximum"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q022",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.4.2"
+      ],
+      "concepts": [
+        "coverage-b-other-structures",
+        "home-business-endorsement"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Rita converted her detached garage into a hair salon that she operates for paying customers. A covered fire destroys the garage. She has an unendorsed HO-3.",
+      "stem": "How will Coverage B most likely respond?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It will pay in full, because Coverage B is open perils on HO-3",
+          "rationale": "Incorrect: open perils does not override the business-use limitation."
+        },
+        {
+          "id": "b",
+          "text": "It will pay, but only at actual cash value",
+          "rationale": "Incorrect: the issue is the business-use limitation, not valuation."
+        },
+        {
+          "id": "c",
+          "text": "It will pay under Coverage A instead, because the garage is on the premises",
+          "rationale": "Incorrect: detached structures are not Coverage A."
+        },
+        {
+          "id": "d",
+          "text": "It will not cover the garage, because it is used for business",
+          "rationale": "Correct: other structures used for business are commonly excluded from Coverage B."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Homeowners forms commonly exclude other structures used in whole or in part for business, or rented to someone who is not a tenant of the dwelling (except a private garage). A garage converted into a salon is used for business; a home business endorsement or commercial policy is needed.",
+      "memoryTip": "Business in the shed → no Coverage B.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Business use of other structure is excluded",
+            "anyOf": [
+              "business",
+              "salon"
+            ]
+          },
+          {
+            "label": "Solution is an endorsement or commercial coverage",
+            "anyOf": [
+              "endorsement",
+              "commercial",
+              "home business"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q023",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.4.3",
+        "plho.6"
+      ],
+      "concepts": [
+        "coverage-c-personal-property"
+      ],
+      "difficulty": 1,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Omar's personal laptop is stolen from his hotel room while he is on vacation in another state. He has an HO-3.",
+      "stem": "Is the laptop covered under Omar's HO-3?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, Coverage C covers personal property anywhere in the world",
+          "rationale": "Correct: theft is a named peril, and Coverage C is not limited to the residence premises."
+        },
+        {
+          "id": "b",
+          "text": "No, because it was stolen away from the residence premises",
+          "rationale": "Incorrect: Coverage C applies worldwide."
+        },
+        {
+          "id": "c",
+          "text": "No, because laptops are business property",
+          "rationale": "Incorrect: a personal laptop is ordinary personal property."
+        },
+        {
+          "id": "d",
+          "text": "Only if Omar bought travel insurance",
+          "rationale": "Incorrect: his homeowners policy already responds."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Coverage C insures personal property owned or used by an insured anywhere in the world. Theft is one of the broad named perils.",
+      "memoryTip": "Your stuff is covered wherever it travels.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q024",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.4.3"
+      ],
+      "concepts": [
+        "coverage-c-personal-property",
+        "coverage-a-dwelling"
+      ],
+      "difficulty": 1,
+      "style": "calculation",
+      "tags": [
+        "math",
+        "rapid"
+      ],
+      "stem": "Coverage A is $300,000 and Coverage C is 50% of A. What is the Coverage C limit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$30,000",
+          "rationale": "Incorrect: this is 10%, the common Coverage B percentage."
+        },
+        {
+          "id": "b",
+          "text": "$90,000",
+          "rationale": "Incorrect: this is 30%, the common Coverage D percentage."
+        },
+        {
+          "id": "c",
+          "text": "$300,000",
+          "rationale": "Incorrect: this is the Coverage A limit itself."
+        },
+        {
+          "id": "d",
+          "text": "$150,000",
+          "rationale": "Correct: 50% × $300,000 = $150,000."
+        }
+      ],
+      "correct": "d",
+      "explanation": "0.50 × $300,000 = $150,000. On HO-2, HO-3 and HO-5, Coverages B, C and D are commonly set as percentages of Coverage A.",
+      "memoryTip": "C is commonly half of A.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q025",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.4.3"
+      ],
+      "concepts": [
+        "special-limits-of-liability",
+        "scheduled-personal-property"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math",
+        "tricky"
+      ],
+      "scenario": "Burglars steal $7,000 of jewelry from Noor's home. Her HO-3 has Coverage C of $150,000 and a $1,500 special limit for theft of jewelry. The jewelry is not scheduled. Ignore the deductible.",
+      "stem": "How much will the insurer pay for the jewelry?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$1,500",
+          "rationale": "Correct: the special limit for theft of jewelry caps the payment."
+        },
+        {
+          "id": "b",
+          "text": "$7,000",
+          "rationale": "Incorrect: the special limit applies even though Coverage C is much higher."
+        },
+        {
+          "id": "c",
+          "text": "$5,500",
+          "rationale": "Incorrect: this subtracts the special limit from the loss instead of capping the loss."
+        },
+        {
+          "id": "d",
+          "text": "$0",
+          "rationale": "Incorrect: theft of jewelry is covered, subject to the special limit."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Special limits of liability are caps inside Coverage C. With a $1,500 limit for theft of jewelry, the insurer pays $1,500 of the $7,000 theft, even though Coverage C is $150,000. Scheduling the jewelry would have avoided the cap.",
+      "memoryTip": "Big bucket, small cup — schedule your valuables.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Special limit caps the theft loss",
+            "anyOf": [
+              "special limit",
+              "1,500",
+              "cap"
+            ]
+          },
+          {
+            "label": "Scheduling would avoid it",
+            "anyOf": [
+              "schedul"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q026",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.4.3"
+      ],
+      "concepts": [
+        "coverage-c-personal-property"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "Under Coverage C of an HO-3, which item is NOT covered personal property?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The insured's bicycle",
+          "rationale": "Incorrect: bicycles are ordinary personal property."
+        },
+        {
+          "id": "b",
+          "text": "The insured's registered private passenger car",
+          "rationale": "Correct: motor vehicles are property not covered; they are insured under an auto policy."
+        },
+        {
+          "id": "c",
+          "text": "A riding lawn mower used to service the premises",
+          "rationale": "Incorrect: motorized vehicles used to service the premises are commonly treated as covered personal property."
+        },
+        {
+          "id": "d",
+          "text": "A guest's suitcase in the guest room, at the insured's request",
+          "rationale": "Incorrect: property of guests at the residence can be covered at the insured's request."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Property not covered under Coverage C includes animals, most motorized land vehicles (with exceptions such as those used to service the premises or for the disabled), aircraft and hovercraft, property of unrelated roomers and boarders, property regularly rented out, business data, and credit cards except as provided.",
+      "memoryTip": "Cars belong on the auto policy.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q027",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.4.3"
+      ],
+      "concepts": [
+        "coverage-c-personal-property",
+        "resident-relative"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Hal rents a spare bedroom to Kay, an unrelated college student who pays him monthly rent. A burglar steals Kay's laptop from her room.",
+      "stem": "Is the boarder's laptop covered under Hal's HO-3?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, all property at the residence premises is covered",
+          "rationale": "Incorrect: Coverage C excludes certain property even on the premises."
+        },
+        {
+          "id": "b",
+          "text": "No, property of an unrelated roomer or boarder is not covered",
+          "rationale": "Correct: Coverage C excludes property of roomers and boarders who are not related to an insured."
+        },
+        {
+          "id": "c",
+          "text": "Yes, because theft is a named peril",
+          "rationale": "Incorrect: the peril is covered, but this property is not."
+        },
+        {
+          "id": "d",
+          "text": "Yes, but only up to the special limit for electronics",
+          "rationale": "Incorrect: the issue is whose property it is, not a special limit."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Coverage C insures property of insureds (and, at the insured's request, guests and residence employees). Property of roomers, boarders and other tenants not related to an insured is specifically not covered. The boarder needs her own HO-4.",
+      "memoryTip": "Paying boarder = buy your own renters policy.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Roomer/boarder property excluded",
+            "anyOf": [
+              "roomer",
+              "boarder",
+              "not related",
+              "unrelated"
+            ]
+          },
+          {
+            "label": "She needs her own policy",
+            "anyOf": [
+              "HO-4",
+              "renters",
+              "own policy"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q028",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.4.4"
+      ],
+      "concepts": [
+        "coverage-d-loss-of-use",
+        "additional-living-expense"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "A covered fire makes the Diaz home unfit to live in for 3 months. Their normal living costs are $2,500 per month. While displaced, their total living costs are $4,000 per month. The Coverage D limit is adequate.",
+      "stem": "How much will Coverage D pay for additional living expense?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$4,500",
+          "rationale": "Correct: ($4,000 − $2,500) × 3 = $4,500."
+        },
+        {
+          "id": "b",
+          "text": "$12,000",
+          "rationale": "Incorrect: this pays all living costs, not just the increase."
+        },
+        {
+          "id": "c",
+          "text": "$7,500",
+          "rationale": "Incorrect: this pays the normal costs, which the family would have had anyway."
+        },
+        {
+          "id": "d",
+          "text": "$1,500",
+          "rationale": "Incorrect: this is one month of the increase, not three."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Additional living expense pays the increase over normal living costs: $4,000 − $2,500 = $1,500 per month; × 3 months = $4,500.",
+      "memoryTip": "ALE = new costs minus normal costs.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Only the increase is paid",
+            "anyOf": [
+              "increase",
+              "difference",
+              "1,500"
+            ]
+          },
+          {
+            "label": "Multiply by months",
+            "anyOf": [
+              "3 months",
+              "three",
+              "4,500"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q029",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.4.4"
+      ],
+      "concepts": [
+        "coverage-d-loss-of-use"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "A covered fire badly damages the house next door. Fire officials order the Kims out of their undamaged home for several days because of the risk of collapse.",
+      "stem": "Which part of the homeowners policy can pay the Kims' added living costs?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nothing, because the Kims' home itself was not damaged by the fire",
+          "rationale": "Incorrect: civil authority coverage applies even though their home is undamaged."
+        },
+        {
+          "id": "b",
+          "text": "Coverage F, because neighbors were injured",
+          "rationale": "Incorrect: Coverage F pays others' medical bills."
+        },
+        {
+          "id": "c",
+          "text": "Coverage D, under the civil authority provision, for a limited time",
+          "rationale": "Correct: loss of use includes civil authority prohibitions caused by covered damage to neighboring premises."
+        },
+        {
+          "id": "d",
+          "text": "Coverage C, because their belongings were inaccessible",
+          "rationale": "Incorrect: Coverage C pays for damaged property, not living costs."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Coverage D includes a civil authority provision: if a civil authority prohibits use of the residence premises because of direct damage to neighboring premises by a covered peril, the policy pays loss of use for a limited period stated in the form.",
+      "memoryTip": "Officials say \"you can't go home\" → civil authority.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q030",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.4.4"
+      ],
+      "concepts": [
+        "coverage-d-loss-of-use",
+        "coverage-a-dwelling"
+      ],
+      "difficulty": 1,
+      "style": "calculation",
+      "tags": [
+        "math",
+        "rapid"
+      ],
+      "stem": "Coverage A is $200,000 and Coverage D is 30% of A. What is the Coverage D limit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$60,000",
+          "rationale": "Correct: 30% × $200,000 = $60,000."
+        },
+        {
+          "id": "b",
+          "text": "$20,000",
+          "rationale": "Incorrect: this is 10% of Coverage A."
+        },
+        {
+          "id": "c",
+          "text": "$100,000",
+          "rationale": "Incorrect: this is 50% of Coverage A."
+        },
+        {
+          "id": "d",
+          "text": "$6,000",
+          "rationale": "Incorrect: this is 3% of Coverage A."
+        }
+      ],
+      "correct": "a",
+      "explanation": "0.30 × $200,000 = $60,000.",
+      "memoryTip": "D is commonly 30% of A.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q031",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.4.5"
+      ],
+      "concepts": [
+        "coverage-a-dwelling",
+        "named-perils-coverage"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "A windstorm uproots one of Sal's ornamental trees, which falls harmlessly onto the lawn. Later, a delivery van driven by a stranger backs into and destroys a second tree. Sal has an HO-3.",
+      "stem": "How does the HO-3 treat Sal's two trees?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Both trees, because trees are part of Coverage A with the land",
+          "rationale": "Incorrect: trees are not part of Coverage A; land and landscaping are handled through the additional coverage."
+        },
+        {
+          "id": "b",
+          "text": "Only the tree hit by the van; wind is not a covered peril for trees",
+          "rationale": "Correct: that additional coverage uses named perils that commonly exclude windstorm."
+        },
+        {
+          "id": "c",
+          "text": "Neither tree, because landscaping is never insured by homeowners",
+          "rationale": "Incorrect: trees, shrubs and plants have an additional coverage."
+        },
+        {
+          "id": "d",
+          "text": "Only the tree lost to wind, because windstorm is a named peril",
+          "rationale": "Incorrect: windstorm is commonly not among the perils for trees, shrubs and plants."
+        }
+      ],
+      "correct": "b",
+      "explanation": "The trees, shrubs and other plants additional coverage pays for loss caused by certain named perils — commonly fire, lightning, explosion, riot, aircraft, vehicles not owned or operated by a resident, vandalism and theft — but not windstorm. The per-tree and total limits are small (often a percentage of Coverage A).",
+      "memoryTip": "Trees: vehicles yes, wind no.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Trees are an additional coverage with named perils",
+            "anyOf": [
+              "additional coverage",
+              "named peril"
+            ]
+          },
+          {
+            "label": "Windstorm not covered for trees",
+            "anyOf": [
+              "wind",
+              "windstorm"
+            ]
+          },
+          {
+            "label": "Vehicle damage covered",
+            "anyOf": [
+              "vehicle",
+              "van"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q032",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.4.5"
+      ],
+      "concepts": [
+        "coverage-c-personal-property"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "Which homeowners additional coverage addresses unauthorized charges on an insured's stolen credit card?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Loss assessment",
+          "rationale": "Incorrect: loss assessment pays association assessments."
+        },
+        {
+          "id": "b",
+          "text": "The identity fraud expense coverage built into every homeowners form",
+          "rationale": "Incorrect: identity fraud expense is an optional endorsement and pays recovery costs, not unauthorized charges."
+        },
+        {
+          "id": "c",
+          "text": "Credit card, electronic fund transfer card, forgery and counterfeit money",
+          "rationale": "Correct: this additional coverage pays for the insured's legal obligation from unauthorized use, up to a small limit."
+        },
+        {
+          "id": "d",
+          "text": "Coverage E — Personal liability, because a third party is involved",
+          "rationale": "Incorrect: liability coverage does not pay the insured's own card losses."
+        }
+      ],
+      "correct": "c",
+      "explanation": "The credit card, electronic fund transfer card or access device, forgery and counterfeit money additional coverage pays the insured's legal obligation for unauthorized use, losses from forgery of the insured's checks and acceptance of counterfeit money in good faith, up to a modest limit, with no deductible in many forms.",
+      "memoryTip": "Stolen card charges → credit card additional coverage.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q033",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.4.5"
+      ],
+      "concepts": [
+        "coverage-a-dwelling"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "A fire department charges the insured for responding to a covered fire. Which coverage pays the charge?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Coverage F — Medical payments to others at the premises",
+          "rationale": "Incorrect: Coverage F pays injured persons' medical bills."
+        },
+        {
+          "id": "b",
+          "text": "Coverage D — Loss of use, since the home was damaged",
+          "rationale": "Incorrect: loss of use pays living expenses."
+        },
+        {
+          "id": "c",
+          "text": "It is never covered by a homeowners policy",
+          "rationale": "Incorrect: it is a standard additional coverage."
+        },
+        {
+          "id": "d",
+          "text": "The fire department service charge additional coverage",
+          "rationale": "Correct: this additional coverage pays such charges up to a small limit."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Fire department service charge is a Section I additional coverage that pays charges assumed by contract or agreement when the fire department is called to save or protect covered property from a covered peril, usually with no deductible.",
+      "memoryTip": "Fire truck invoice → fire department service charge.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plho-q034",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plho",
+      "outlineIds": [
+        "plho.4.5",
+        "plho.7"
+      ],
+      "concepts": [
+        "ordinance-or-law-coverage",
+        "coverage-a-dwelling"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "A covered fire damages the Wongs' kitchen. Current building codes require the electrician to upgrade the wiring in the rebuilt area, which costs $6,000 more than restoring the old wiring.",
+      "stem": "Which part of the policy addresses the extra cost of the code upgrade?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Coverage D — Loss of use",
+          "rationale": "Incorrect: loss of use pays living costs, not construction upgrades."
+        },
+        {
+          "id": "b",
+          "text": "It is fully covered under Coverage A replacement cost",
+          "rationale": "Incorrect: replacement cost pays like kind and quality, not code upgrades."
+        },
+        {
+          "id": "c",
+          "text": "Coverage E — Personal liability",
+          "rationale": "Incorrect: no one has sued the insured."
+        },
+        {
+          "id": "d",
+          "text": "The ordinance or law additional coverage",
+          "rationale": "Correct: it pays increased costs to comply with building codes after a covered loss, up to a limit tied to Coverage A."
+        }
+      ],
+      "correct": "d",
+      "explanation": "The ordinance or law exclusion removes code-upgrade costs from the basic coverage, but the ordinance or law additional coverage gives back a limited amount (commonly a percentage of Coverage A) for increased costs caused by enforcing codes when repairing a covered loss.",
+      "memoryTip": "Code upgrade = ordinance or law.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+{
+ "sectionId": "qp",
+ "questions": [
+  {
+   "id": "qp-q201",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "qp",
+   "outlineIds": [
+    "qp.2.3"
+   ],
+   "concepts": [
+    "sep-plan"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Dina owns a small design firm with a SEP. In a profitable year, she wants to contribute to her own SEP-IRA but not to the SEP-IRA of her one eligible employee.",
+   "stem": "May Dina make the SEP contribution only for herself?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "No, she must also contribute for her eligible employee",
+     "rationale": "Correct: when an employer contributes to a SEP, it must contribute for all eligible employees on an equal basis."
+    },
+    {
+     "id": "b",
+     "text": "Yes, owners may choose which employees receive SEP money",
+     "rationale": "Incorrect: SEP contributions must be made equally for all eligible employees."
+    },
+    {
+     "id": "c",
+     "text": "Yes, if the employee signs a written waiver",
+     "rationale": "Incorrect: an employee waiver does not let the owner exclude an eligible employee."
+    },
+    {
+     "id": "d",
+     "text": "No, because SEP contributions are required every year",
+     "rationale": "Incorrect: SEP contributions are optional each year; the issue is equal treatment."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Per the IRS, a SEP employer does not have to contribute every year, but when it does, it must contribute to the SEP-IRAs of all eligible participants, and the employer must contribute equally for all eligible employees.",
+   "memoryTip": "SEP: skip a year if you like, but never skip a person.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "SEP contributions must be made for all eligible employees",
+      "anyOf": [
+       "all eligible",
+       "every eligible",
+       "equally",
+       "equal"
+      ]
+     },
+     {
+      "label": "Contributions are optional year to year",
+      "anyOf": [
+       "not required every year",
+       "optional",
+       "skip"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-irs-sep"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "qp-q202",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "qp",
+   "outlineIds": [
+    "qp.1.1"
+   ],
+   "concepts": [
+    "defined-benefit-plan"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "Which type of retirement plan requires an enrolled actuary to sign its annual funding schedule?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A SEP-IRA plan",
+     "rationale": "Incorrect: SEPs are IRA-based and have no actuarial funding requirement."
+    },
+    {
+     "id": "b",
+     "text": "A defined benefit plan",
+     "rationale": "Correct: the IRS notes an enrolled actuary must sign Schedule B of Form 5500."
+    },
+    {
+     "id": "c",
+     "text": "An individual Roth IRA",
+     "rationale": "Incorrect: Roth IRAs are individual accounts with no actuary."
+    },
+    {
+     "id": "d",
+     "text": "A 401(k) savings plan",
+     "rationale": "Incorrect: a 401(k) is a defined contribution plan with individual accounts."
+    }
+   ],
+   "correct": "b",
+   "explanation": "A defined benefit plan promises a fixed, formula-based benefit, so the employer must fund enough to pay it. The IRS states that an enrolled actuary must sign Schedule B of Form 5500 for these plans.",
+   "memoryTip": "Promised benefit → actuary checks the funding.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-irs-defined-benefit"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "qp-q203",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "qp",
+   "outlineIds": [
+    "qp.2.1"
+   ],
+   "concepts": [
+    "keogh-plan"
+   ],
+   "difficulty": 3,
+   "style": "concept",
+   "tags": [
+    "tricky"
+   ],
+   "stem": "According to the IRS, why is the term \"Keogh plan\" seldom used today?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Keogh plans were repealed and can no longer be set up by anyone",
+     "rationale": "Incorrect: self-employed people can still sponsor qualified plans."
+    },
+    {
+     "id": "b",
+     "text": "All existing Keogh plans were converted into Roth IRAs by law",
+     "rationale": "Incorrect: there was no such conversion."
+    },
+    {
+     "id": "c",
+     "text": "The law no longer treats corporate and other sponsors differently",
+     "rationale": "Correct: self-employed plans now follow the same rules as other qualified plans."
+    },
+    {
+     "id": "d",
+     "text": "Keogh plans are now available only to government workers",
+     "rationale": "Incorrect: government employers use plans such as 457(b) plans."
+    }
+   ],
+   "correct": "c",
+   "explanation": "The IRS explains that retirement plans for the self-employed were formerly called \"Keogh plans,\" after the law that first allowed unincorporated businesses to sponsor retirement plans. Because the law no longer distinguishes between corporate and other plan sponsors, the term is seldom used.",
+   "memoryTip": "Keogh = old label for a self-employed qualified plan.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-irs-self-employed-plans"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "qp-q204",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "qp",
+   "outlineIds": [
+    "qp.2.5"
+   ],
+   "concepts": [
+    "plan-457"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "A nonprofit community hospital that is tax-exempt under IRC 501(c) wants to offer a deferred compensation plan to some of its employees.",
+   "stem": "Is the hospital an eligible sponsor of a 457(b) plan?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "No, only state and local governments may sponsor 457(b) plans",
+     "rationale": "Incorrect: tax-exempt 501(c) organizations may also sponsor them."
+    },
+    {
+     "id": "b",
+     "text": "No, because hospitals must use defined benefit plans",
+     "rationale": "Incorrect: there is no such requirement."
+    },
+    {
+     "id": "c",
+     "text": "Only if it first converts into a for-profit company",
+     "rationale": "Incorrect: for-profit businesses are not eligible 457(b) sponsors."
+    },
+    {
+     "id": "d",
+     "text": "Yes, because it is a 501(c) tax-exempt organization",
+     "rationale": "Correct: 457(b) sponsors must be state or local governments or 501(c) tax-exempt organizations."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Per the IRS, the organization sponsoring a 457(b) plan must be a state or local government or a tax-exempt organization under IRC 501(c). A 501(c) nonprofit hospital qualifies.",
+   "memoryTip": "457: governments and tax-exempt nonprofits.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-irs-457b"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "qp-q205",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "qp",
+   "outlineIds": [
+    "qp.1"
+   ],
+   "concepts": [
+    "vesting"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky"
+   ],
+   "scenario": "Eva's employer contributions in a profit-sharing plan are 20% vested under the plan's schedule. Her employer decides to terminate the plan.",
+   "stem": "What happens to the unvested part of Eva's employer contributions?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "She becomes 100% vested because the plan is terminating",
+     "rationale": "Correct: all employees must be fully vested when the plan is terminated."
+    },
+    {
+     "id": "b",
+     "text": "She forfeits it, because she is only 20% vested",
+     "rationale": "Incorrect: plan termination requires full vesting."
+    },
+    {
+     "id": "c",
+     "text": "It is returned to the employer as a refund",
+     "rationale": "Incorrect: unvested amounts become vested on termination, not refunded."
+    },
+    {
+     "id": "d",
+     "text": "It vests only if she stays until normal retirement age",
+     "rationale": "Incorrect: termination of the plan triggers full vesting now."
+    }
+   ],
+   "correct": "a",
+   "explanation": "The IRS states that all employees must be 100% vested by the time they reach normal retirement age under the plan or when the plan is terminated. Eva's employer contributions become fully vested because the plan is ending.",
+   "memoryTip": "Plan ends → everyone fully vested.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Plan termination triggers full vesting",
+      "anyOf": [
+       "terminat",
+       "ends",
+       "ending"
+      ]
+     },
+     {
+      "label": "She becomes 100% vested",
+      "anyOf": [
+       "100%",
+       "fully vested",
+       "full vesting"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-irs-vesting"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "qp-q206",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "qp",
+   "outlineIds": [
+    "qp.1"
+   ],
+   "concepts": [
+    "required-minimum-distribution"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "Which statement about required minimum distributions (RMDs) is accurate?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Owners may never withdraw more than the RMD in a year",
+     "rationale": "Incorrect: the RMD is only a minimum."
+    },
+    {
+     "id": "b",
+     "text": "RMD rules do not apply to 457(b) plans",
+     "rationale": "Incorrect: the IRS lists 457(b) plans among those subject to RMD rules."
+    },
+    {
+     "id": "c",
+     "text": "Owners may withdraw more than the required minimum",
+     "rationale": "Correct: the IRS states you can withdraw more than the minimum."
+    },
+    {
+     "id": "d",
+     "text": "Missing an RMD has no tax consequence",
+     "rationale": "Incorrect: an excise tax may apply to amounts not distributed as required."
+    }
+   ],
+   "correct": "c",
+   "explanation": "The IRS explains that an RMD is the minimum amount that must be withdrawn each year, that you can withdraw more, that the rules apply to traditional, SEP and SIMPLE IRAs and to 401(k), 403(b), 457(b) and other defined contribution plans, and that failing to take an RMD may result in an excise tax.",
+   "memoryTip": "RMD is a floor, not a ceiling.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-irs-rmd"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

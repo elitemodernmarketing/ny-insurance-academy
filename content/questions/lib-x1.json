@@ -1,0 +1,1352 @@
+{
+  "sectionId": "lib",
+  "questions": [
+    {
+      "id": "lib-q201",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.1"
+      ],
+      "concepts": [
+        "insurable-interest"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "scenario": "Walter, a retired alumnus, agrees to let his former college — a Type B not-for-profit educational corporation — buy a life policy on him, with the college as owner and beneficiary. The college has no business relationship with him.",
+      "stem": "Under NY Insurance Law § 3205, may the college procure the policy and name itself beneficiary?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No, because the college has no family or business relationship with Walter",
+          "rationale": "Incorrect: § 3205(b)(3) creates a specific exception for Type B charitable, educational or religious corporations."
+        },
+        {
+          "id": "b",
+          "text": "Only if Walter's estate is also named as the contingent beneficiary",
+          "rationale": "Incorrect: the statute imposes no such condition."
+        },
+        {
+          "id": "c",
+          "text": "Yes, under the Type B charitable or educational corporation exception",
+          "rationale": "Correct: § 3205(b)(3) lets such a corporation procure life insurance on another and designate itself beneficiary."
+        },
+        {
+          "id": "d",
+          "text": "No, because only individuals may hold an insurable interest",
+          "rationale": "Incorrect: corporations can have insurable interests, and § 3205(b)(3) expressly covers this case."
+        }
+      ],
+      "correct": "c",
+      "explanation": "§ 3205(b)(2) generally bars procuring insurance on another person unless the payee has an insurable interest. § 3205(b)(3) is an express exception: a Type B charitable, educational or religious corporation formed under the Not-for-Profit Corporation Law may procure life insurance on another person and designate itself as beneficiary. (Walter's own written consent is still required under § 3205(c).)",
+      "memoryTip": "Charities get a built-in exception to insurable interest.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Statutory exception for Type B charitable/educational corporations",
+            "anyOf": [
+              "Type B",
+              "charitable",
+              "educational",
+              "exception"
+            ]
+          },
+          {
+            "label": "The college may name itself beneficiary",
+            "anyOf": [
+              "beneficiary",
+              "name itself",
+              "designate itself"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3205"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q202",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.1"
+      ],
+      "concepts": [
+        "insurable-interest"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "Under NY Insurance Law § 3205(d), before an employer obtains coverage on employees eligible for its ERISA benefit plan, the employer must:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Notify them in writing and obtain their written consent",
+          "rationale": "Correct: § 3205(d)(1)(A) requires written notice and written consent, plus the right to discontinue."
+        },
+        {
+          "id": "b",
+          "text": "Obtain approval from each employee's spouse",
+          "rationale": "Incorrect: spousal approval is not a § 3205(d) requirement."
+        },
+        {
+          "id": "c",
+          "text": "Name each employee's family as beneficiary",
+          "rationale": "Incorrect: the employer or trust is typically the beneficiary under this subsection."
+        },
+        {
+          "id": "d",
+          "text": "Pay each employee an equal share of the cash value",
+          "rationale": "Incorrect: the statute does not require sharing cash values."
+        }
+      ],
+      "correct": "a",
+      "explanation": "§ 3205(d) gives employers an insurable interest in employees and retirees eligible for an ERISA employee benefit plan, but only if the employer notifies prospective insureds in writing that coverage is being obtained, requires their written consent, gives each the right to have the coverage discontinued, and meets the other conditions (including nondiscriminatory selection).",
+      "memoryTip": "Employer-owned coverage on workers = written notice + written consent.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3205"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q203",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.3.1"
+      ],
+      "concepts": [
+        "human-life-value"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Marco, 45, earns $80,000 a year and spends about $20,000 a year on his own maintenance. He plans to work 20 more years.",
+      "stem": "Before discounting to present value, what is Marco's estimated human life value?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$1,600,000",
+          "rationale": "Incorrect: this uses gross income and ignores Marco's personal maintenance costs."
+        },
+        {
+          "id": "b",
+          "text": "$1,200,000",
+          "rationale": "Correct: ($80,000 − $20,000) × 20 years = $1,200,000."
+        },
+        {
+          "id": "c",
+          "text": "$400,000",
+          "rationale": "Incorrect: this totals only Marco's self-maintenance costs."
+        },
+        {
+          "id": "d",
+          "text": "$60,000",
+          "rationale": "Incorrect: this is one year's family share, not the total over his working years."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Human life value starts with the earnings that would support the family: $80,000 − $20,000 self-maintenance = $60,000 per year. Over 20 remaining working years: $60,000 × 20 = $1,200,000. In practice this total is then discounted to present value, which produces a smaller figure.",
+      "memoryTip": "HLV = (income − self-costs) × years, then discount.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q204",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.3.2.1"
+      ],
+      "concepts": [
+        "needs-approach"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [],
+      "stem": "In gathering information for a needs analysis, which item is qualitative rather than quantitative?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The balance remaining on the client's home mortgage",
+          "rationale": "Incorrect: a mortgage balance is a quantitative (numerical) fact."
+        },
+        {
+          "id": "b",
+          "text": "The client's current annual income from employment",
+          "rationale": "Incorrect: income is quantitative."
+        },
+        {
+          "id": "c",
+          "text": "The amount of group life coverage provided at work",
+          "rationale": "Incorrect: an existing coverage amount is quantitative."
+        },
+        {
+          "id": "d",
+          "text": "The client's wish that the spouse stay home with the kids",
+          "rationale": "Correct: goals, attitudes and priorities are qualitative information."
+        }
+      ],
+      "correct": "d",
+      "explanation": "A needs analysis gathers quantitative facts (income, debts, assets, existing coverage, ages) and qualitative facts (goals, values, attitudes, priorities). Qualitative information shapes what the plan should accomplish; quantitative information sizes it.",
+      "memoryTip": "Numbers are quantitative; wishes and values are qualitative.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q205",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.4.1"
+      ],
+      "concepts": [
+        "buy-sell-agreement"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [],
+      "stem": "In a cross-purchase buy-sell plan, who is the owner and beneficiary of each policy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Each owner holds and is beneficiary of a policy on each co-owner",
+          "rationale": "Correct: in a cross-purchase plan the owners insure one another personally."
+        },
+        {
+          "id": "b",
+          "text": "The business entity, which uses the proceeds to redeem the interest",
+          "rationale": "Incorrect: that describes an entity (stock redemption) plan."
+        },
+        {
+          "id": "c",
+          "text": "The insured owner, with his or her family as beneficiary",
+          "rationale": "Incorrect: the family receives the purchase price, not the policy proceeds directly."
+        },
+        {
+          "id": "d",
+          "text": "A key employee chosen by the owners to run the business",
+          "rationale": "Incorrect: key employees are not parties to a cross-purchase plan."
+        }
+      ],
+      "correct": "a",
+      "explanation": "In a cross-purchase plan, each owner applies for, owns, pays for and is the beneficiary of a policy on every other owner. At a death, the survivors use the proceeds to buy the deceased owner's interest from the estate. In an entity plan, the business owns the policies and buys the interest itself.",
+      "memoryTip": "Cross = owners criss-cross; entity = the business buys.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q206",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.4.2"
+      ],
+      "concepts": [
+        "key-person-insurance"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "Each of the following statements about key person life insurance is true EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The business is normally the policyowner",
+          "rationale": "Incorrect choice: the business owns key person coverage."
+        },
+        {
+          "id": "b",
+          "text": "The business pays the premiums",
+          "rationale": "Incorrect choice: the business is the premium payer."
+        },
+        {
+          "id": "c",
+          "text": "The key person's family is normally the beneficiary",
+          "rationale": "Correct: this is false — the business, which suffers the loss, is the beneficiary."
+        },
+        {
+          "id": "d",
+          "text": "The business has an insurable interest in the key person",
+          "rationale": "Incorrect choice: the business has a substantial economic interest in the key person's continued life."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Key person insurance protects the business against the financial loss caused by the death of an important employee or owner. The business applies for, owns, pays for and is the beneficiary of the policy; its insurable interest comes from its economic stake in the person's continued life.",
+      "memoryTip": "Key person: the company pays and the company collects.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q207",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.5.1"
+      ],
+      "concepts": [
+        "group-life-insurance",
+        "conversion-privilege"
+      ],
+      "difficulty": 1,
+      "style": "application",
+      "tags": [],
+      "stem": "Nadia is leaving her job and will lose her group term life coverage. She was recently diagnosed with a heart condition. What feature of group life matters most to her?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Converting to an individual policy without proof of insurability",
+          "rationale": "Correct: conversion lets her keep coverage despite her new health condition."
+        },
+        {
+          "id": "b",
+          "text": "The dividends she has earned on the group master policy",
+          "rationale": "Incorrect: individual members don't receive master-policy dividends."
+        },
+        {
+          "id": "c",
+          "text": "The cash value that has built up in her group term certificate",
+          "rationale": "Incorrect: group term coverage has no cash value."
+        },
+        {
+          "id": "d",
+          "text": "Her right to name the employer as beneficiary of the certificate",
+          "rationale": "Incorrect: this does nothing to preserve her coverage."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Group life is underwritten on the group, and members who lose eligibility generally may convert to an individual policy without proving insurability, within the time allowed by the policy and law. For someone whose health has worsened, the conversion privilege may be the only way to keep coverage at standard terms.",
+      "memoryTip": "Leaving the group? Convert — no health questions.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q208",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.5.3"
+      ],
+      "concepts": [
+        "participating-policy",
+        "misrepresentation"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "A producer tells a client, 'This participating whole life policy pays a guaranteed $500 dividend every year, so your premium is really $500 lower.'",
+      "stem": "What is wrong with the producer's statement?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nothing, because mutual insurers must pay dividends every year",
+          "rationale": "Incorrect: no insurer is required to declare a dividend every year."
+        },
+        {
+          "id": "b",
+          "text": "Dividends can be guaranteed only on nonparticipating policies",
+          "rationale": "Incorrect: nonparticipating policies pay no dividends at all."
+        },
+        {
+          "id": "c",
+          "text": "Dividends depend on the insurer's experience and cannot be guaranteed",
+          "rationale": "Correct: presenting dividends as guaranteed misrepresents the policy."
+        },
+        {
+          "id": "d",
+          "text": "Dividends must be paid in cash and cannot reduce premiums",
+          "rationale": "Incorrect: using dividends to reduce premiums is a standard dividend option."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Participating policy dividends are a return of part of the premium when the insurer's mortality, investment and expense experience is better than assumed. They are not guaranteed and can rise or fall. Describing non-guaranteed elements as guaranteed is a misrepresentation.",
+      "memoryTip": "Dividends are possible, never promised.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Dividends are not guaranteed",
+            "anyOf": [
+              "not guaranteed",
+              "cannot be guaranteed",
+              "non-guaranteed"
+            ]
+          },
+          {
+            "label": "Statement is a misrepresentation",
+            "anyOf": [
+              "misrepresent",
+              "misleading"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q209",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.6.1"
+      ],
+      "concepts": [
+        "mortality"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Why does a 55-year-old usually pay more than a 35-year-old for the same coverage?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Expense charges are higher for older applicants",
+          "rationale": "Incorrect: expenses are not the main driver of age-based pricing."
+        },
+        {
+          "id": "b",
+          "text": "Higher expected mortality at older ages",
+          "rationale": "Correct: death rates rise with age, so mortality cost is higher."
+        },
+        {
+          "id": "c",
+          "text": "Insurers earn less interest on older applicants' premiums",
+          "rationale": "Incorrect: the investment assumption doesn't depend on the applicant's age."
+        },
+        {
+          "id": "d",
+          "text": "Older applicants must buy participating policies",
+          "rationale": "Incorrect: age does not determine participating status."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Mortality — the expected rate of death at each age — is the primary premium factor tied to age. Because mortality rates increase with age, premiums for the same face amount increase with the insured's age.",
+      "memoryTip": "Older = higher mortality = higher premium.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q210",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1.3"
+      ],
+      "concepts": [
+        "policy-summary"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "Ivan has paid premiums for 12 years on a whole life policy issued in New York. He never received a policy summary and now writes to the insurer asking for one.",
+      "stem": "Under NY Insurance Law § 3209(c), how must the insurer respond?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Refuse, since summaries are only given at delivery",
+          "rationale": "Incorrect: § 3209(c) requires a summary on request for in-force premium-paying policies never given one."
+        },
+        {
+          "id": "b",
+          "text": "Provide it free of charge and refund one year's premium",
+          "rationale": "Incorrect: there is no premium refund requirement."
+        },
+        {
+          "id": "c",
+          "text": "Provide only a copy of the generic buyer's guide",
+          "rationale": "Incorrect: the buyer's guide is not a substitute for a policy summary."
+        },
+        {
+          "id": "d",
+          "text": "Provide a policy summary; a reasonable fee may be charged",
+          "rationale": "Correct: § 3209(c) requires the summary and allows a reasonable preparation fee."
+        }
+      ],
+      "correct": "d",
+      "explanation": "NY Insurance Law § 3209(c): every insurer must provide, to any policyholder who requests it, a policy summary for each in-force premium-paying policy for which no policy summary has ever been furnished, and may charge a reasonable fee for preparing it, subject to the Superintendent's rules.",
+      "memoryTip": "Never got a summary? Ask — the insurer must provide one (maybe for a fee).",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3209"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q211",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1.6",
+        "lib.7.1.3"
+      ],
+      "concepts": [
+        "illustration",
+        "policy-summary"
+      ],
+      "difficulty": 3,
+      "style": "application",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "stem": "A New York insurer markets a universal life policy using an illustration that complies with the illustration regulation. Under § 3209(l), what is the effect?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The preliminary information and policy summary are not required",
+          "rationale": "Correct: § 3209(l) exempts policies marketed with a compliant illustration."
+        },
+        {
+          "id": "b",
+          "text": "The policy summary must be delivered twice, at application and delivery",
+          "rationale": "Incorrect: there is no double-delivery rule."
+        },
+        {
+          "id": "c",
+          "text": "The buyer's guide replaces the illustration entirely",
+          "rationale": "Incorrect: the buyer's guide is generic and does not replace an illustration."
+        },
+        {
+          "id": "d",
+          "text": "The illustration becomes a guarantee of all values shown",
+          "rationale": "Incorrect: illustrations distinguish guaranteed from non-guaranteed values and are not guarantees."
+        }
+      ],
+      "correct": "a",
+      "explanation": "§ 3209(l): insurers must tell the Superintendent whether policy forms are marketed with or without an illustration. For policies marketed with an illustration that complies with the regulations under § 3209(k), no preliminary information or policy summary is required; policies marketed without an illustration must provide them.",
+      "memoryTip": "Compliant illustration replaces the preliminary info and summary.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3209"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q212",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1.8"
+      ],
+      "concepts": [
+        "fair-credit-reporting-act",
+        "investigative-consumer-report"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [],
+      "stem": "An applicant is declined partly because of information in a consumer report. What is the applicant generally entitled to learn?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The name of every other applicant the insurer declined",
+          "rationale": "Incorrect: other applicants' information is confidential."
+        },
+        {
+          "id": "b",
+          "text": "The underwriter's personal opinion of the applicant",
+          "rationale": "Incorrect: the FCRA does not require disclosure of an underwriter's opinions."
+        },
+        {
+          "id": "c",
+          "text": "The insurer's internal pricing formulas",
+          "rationale": "Incorrect: pricing formulas are proprietary."
+        },
+        {
+          "id": "d",
+          "text": "Which consumer reporting agency supplied the report",
+          "rationale": "Correct: the FCRA lets consumers learn the agency's identity and request their file."
+        }
+      ],
+      "correct": "d",
+      "explanation": "When an adverse action is based in whole or in part on a consumer report, the Fair Credit Reporting Act requires that the consumer be told and given the name of the consumer reporting agency, so the consumer can obtain and dispute the file.",
+      "memoryTip": "Adverse action from a report? You get the agency's name.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q213",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1.9"
+      ],
+      "concepts": [
+        "senior-designation"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "scenario": "Elena works for a licensed insurance agency whose official job title for her role is 'Retirement Products Manager.' She lists that title on her business card when meeting older clients, and does not claim any special senior credential.",
+      "stem": "Under NY Regulation 199, is this a prohibited use of a senior-specific designation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, because any title used with older clients is a designation",
+          "rationale": "Incorrect: § 225.2(d)(1) excludes job titles showing standing or specialization when not misleading."
+        },
+        {
+          "id": "b",
+          "text": "No, unless it is used in a way that would mislead a consumer",
+          "rationale": "Correct: a job title within a licensed firm is generally not a designation unless used misleadingly."
+        },
+        {
+          "id": "c",
+          "text": "Yes, because only accredited organizations may grant such job titles",
+          "rationale": "Incorrect: accreditation applies to certifying organizations, not internal job titles."
+        },
+        {
+          "id": "d",
+          "text": "No, because Reg 199 applies only to annuities",
+          "rationale": "Incorrect: Reg 199 covers life insurance and annuities."
+        }
+      ],
+      "correct": "b",
+      "explanation": "11 NYCRR 225.2(d)(1): a job title held within an organization licensed or registered by a state or federal financial services regulator is not a certification or designation when it shows seniority or standing, or an area of specialization — unless it is used in a manner that would confuse or mislead a reasonable consumer.",
+      "memoryTip": "Real job title, honestly used = not a senior designation.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Job titles within licensed firms are generally excluded",
+            "anyOf": [
+              "job title",
+              "title within",
+              "organization"
+            ]
+          },
+          {
+            "label": "Unless used in a misleading way",
+            "anyOf": [
+              "mislead",
+              "confuse"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-225"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q214",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.3.1"
+      ],
+      "concepts": [
+        "policy-delivery",
+        "free-look"
+      ],
+      "difficulty": 1,
+      "style": "application",
+      "tags": [],
+      "stem": "When is the best time for a producer to review the policy's coverage, beneficiary designation and free-look right with the client?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "At policy delivery",
+          "rationale": "Correct: delivery is the moment to review the issued contract with the owner."
+        },
+        {
+          "id": "b",
+          "text": "Only if the client files a complaint",
+          "rationale": "Incorrect: policy review is a routine service duty, not a complaint response."
+        },
+        {
+          "id": "c",
+          "text": "After the free-look period has ended",
+          "rationale": "Incorrect: the client should understand the free look while it can still be used."
+        },
+        {
+          "id": "d",
+          "text": "At the first premium anniversary",
+          "rationale": "Incorrect: waiting a year defeats the purpose of reviewing the policy at issue."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Delivery is when the producer reviews the issued policy with the owner — confirming coverage, riders, exclusions and beneficiary designations, explaining any changes, and pointing out the free-look period, which runs from delivery.",
+      "memoryTip": "Deliver in person, and review it together.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q215",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.3.3"
+      ],
+      "concepts": [
+        "fiduciary-responsibility",
+        "commingling"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [],
+      "stem": "A producer collects the first premium check at policy delivery. How must the producer handle it?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Deposit it in the producer's personal account until month-end",
+          "rationale": "Incorrect: mixing premiums with personal funds is commingling."
+        },
+        {
+          "id": "b",
+          "text": "Use part of it to pay the producer's commission first",
+          "rationale": "Incorrect: the producer may not divert premium funds."
+        },
+        {
+          "id": "c",
+          "text": "Hold it as a fiduciary and remit it to the insurer promptly",
+          "rationale": "Correct: premiums collected belong to the insurer and are held in trust."
+        },
+        {
+          "id": "d",
+          "text": "Return it to the client until the free look ends",
+          "rationale": "Incorrect: the premium is needed to put coverage in force."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Premiums a producer collects are held in a fiduciary capacity for the insurer or client. They must be kept separate from the producer's own money and remitted as required; mixing them with personal funds is commingling.",
+      "memoryTip": "Premium money is trust money.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q216",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.3.4"
+      ],
+      "concepts": [
+        "statement-of-good-health",
+        "policy-delivery"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Sofia applied without paying a premium. The policy was issued as applied for, but when the producer arrives to deliver it, Sofia mentions she was diagnosed with a serious illness last week.",
+      "stem": "What should the producer do?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Deliver the policy and collect the premium, since it was already issued",
+          "rationale": "Incorrect: coverage depends on the insured's health being unchanged at delivery."
+        },
+        {
+          "id": "b",
+          "text": "Not deliver the policy; report the change to the insurer for review",
+          "rationale": "Correct: the client cannot truthfully sign the statement of good health."
+        },
+        {
+          "id": "c",
+          "text": "Have the client sign the statement anyway, since the diagnosis is recent",
+          "rationale": "Incorrect: knowingly obtaining a false statement is misrepresentation."
+        },
+        {
+          "id": "d",
+          "text": "Deliver the policy but backdate it to the application date",
+          "rationale": "Incorrect: backdating does not cure a change in insurability."
+        }
+      ],
+      "correct": "b",
+      "explanation": "When no premium was paid with the application, coverage generally begins at delivery once the premium is paid and the insured signs a statement that his or her health has not changed. If the insured's health has changed, the producer should not deliver the policy and should return the matter to the insurer for underwriting review.",
+      "memoryTip": "Health changed before delivery? Stop and send it back to underwriting.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Health changed since the application",
+            "anyOf": [
+              "health",
+              "diagnosed",
+              "changed"
+            ]
+          },
+          {
+            "label": "Cannot sign statement of good health",
+            "anyOf": [
+              "statement of good health",
+              "cannot sign",
+              "truthfully"
+            ]
+          },
+          {
+            "label": "Do not deliver; return to insurer",
+            "anyOf": [
+              "not deliver",
+              "return",
+              "insurer",
+              "underwriting"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q217",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.8.1.2"
+      ],
+      "concepts": [
+        "agent-report"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "Which statement about the agent's report is NOT true?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is completed by the producer, not the applicant",
+          "rationale": "Incorrect choice: the producer completes it."
+        },
+        {
+          "id": "b",
+          "text": "It may note whether a replacement is involved in the sale",
+          "rationale": "Incorrect choice: agent's reports commonly ask about replacement."
+        },
+        {
+          "id": "c",
+          "text": "It records the producer's own observations of the applicant",
+          "rationale": "Incorrect choice: personal observations are its main content."
+        },
+        {
+          "id": "d",
+          "text": "It is attached to the policy as part of the contract",
+          "rationale": "Correct: this is false — the agent's report is not part of the contract."
+        }
+      ],
+      "correct": "d",
+      "explanation": "The agent's report is the producer's confidential field underwriting statement to the insurer — observations about the applicant, how long the producer has known them, financial information and whether replacement is involved. It is not answered by the applicant and is not part of the entire contract.",
+      "memoryTip": "Agent's report = the producer's memo, not the contract.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q218",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.8.1.3"
+      ],
+      "concepts": [
+        "attending-physician-statement"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [],
+      "stem": "How does an attending physician statement (APS) differ from a paramedical exam?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The APS summarizes the treating doctor's records; the exam is a new screening",
+          "rationale": "Correct: the APS draws on existing treatment history; a paramedical exam gathers new measurements."
+        },
+        {
+          "id": "b",
+          "text": "The APS is ordered only after a claim; the exam is done at application",
+          "rationale": "Incorrect: an APS is an underwriting tool ordered before issue."
+        },
+        {
+          "id": "c",
+          "text": "The APS is completed by the producer; the exam by the applicant",
+          "rationale": "Incorrect: the treating physician completes the APS."
+        },
+        {
+          "id": "d",
+          "text": "The APS is required for every applicant; the exam never is",
+          "rationale": "Incorrect: both are ordered based on age, amount and disclosed history."
+        }
+      ],
+      "correct": "a",
+      "explanation": "An APS is a report from a physician who has treated the applicant, describing diagnoses, treatment and prognosis; it requires the applicant's authorization. A paramedical exam is a new, limited examination (measurements, blood and urine samples) performed for the insurer.",
+      "memoryTip": "APS = past records; paramed = new readings.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q219",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.8.1.4"
+      ],
+      "concepts": [
+        "investigative-consumer-report",
+        "fair-credit-reporting-act"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "For a $3 million application, the insurer orders a report in which an outside firm interviews the applicant's neighbors and business associates about his lifestyle and finances.",
+      "stem": "Which statement about this report is correct?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The applicant must be told that such a report may be made",
+          "rationale": "Correct: the FCRA requires disclosure of an investigative consumer report."
+        },
+        {
+          "id": "b",
+          "text": "It may be kept secret because it is only for underwriting",
+          "rationale": "Incorrect: the FCRA gives consumers notice and dispute rights."
+        },
+        {
+          "id": "c",
+          "text": "It may include only medical records from the applicant's doctors",
+          "rationale": "Incorrect: inspection reports cover lifestyle, reputation and finances."
+        },
+        {
+          "id": "d",
+          "text": "It is the same thing as an MIB report",
+          "rationale": "Incorrect: MIB holds coded medical information shared among member insurers."
+        }
+      ],
+      "correct": "a",
+      "explanation": "An investigative consumer (inspection) report collects information on character, reputation, personal characteristics and mode of living through interviews. Under the Fair Credit Reporting Act, the consumer must be informed that such a report may be made and has rights to learn about it and dispute inaccurate information.",
+      "memoryTip": "Inspection report: interviews, plus notice to the applicant.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q220",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.8.2.1",
+        "lib.8.2.2"
+      ],
+      "concepts": [
+        "preferred-risk",
+        "standard-risk"
+      ],
+      "difficulty": 1,
+      "style": "comparison",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Compared with a standard risk, a preferred risk has:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Higher expected mortality and higher premiums",
+          "rationale": "Incorrect: that describes a substandard risk."
+        },
+        {
+          "id": "b",
+          "text": "Average expected mortality and standard premiums",
+          "rationale": "Incorrect: that describes a standard risk."
+        },
+        {
+          "id": "c",
+          "text": "Lower expected mortality and lower premiums",
+          "rationale": "Correct: preferred risks are better than average."
+        },
+        {
+          "id": "d",
+          "text": "No coverage available at any premium",
+          "rationale": "Incorrect: that describes a declined risk."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Preferred risks have better-than-average health, habits and history, so their expected mortality is lower and they pay less than standard risks. Standard risks are average; substandard risks pay more; declined risks are not insured.",
+      "memoryTip": "Preferred = better than average, pays less.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q221",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.8.1.6"
+      ],
+      "concepts": [
+        "underwriting"
+      ],
+      "difficulty": 3,
+      "style": "negative",
+      "tags": [
+        "ny-law",
+        "negative-wording"
+      ],
+      "stem": "Under NY Insurance Law § 2611(b), a written informed consent for an HIV-related test must include each of the following EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A general description of the HIV-related test",
+          "rationale": "Incorrect choice: required by § 2611(b)(1)."
+        },
+        {
+          "id": "b",
+          "text": "A statement of the purpose of the HIV-related test",
+          "rationale": "Incorrect choice: required by § 2611(b)(2)."
+        },
+        {
+          "id": "c",
+          "text": "A promise that results won't be used in underwriting",
+          "rationale": "Correct: the statute requires no such promise; results may affect underwriting."
+        },
+        {
+          "id": "d",
+          "text": "The Department of Health's statewide toll-free number",
+          "rationale": "Incorrect choice: required by § 2611(b)(5)."
+        }
+      ],
+      "correct": "c",
+      "explanation": "§ 2611(b) requires a dated written authorization including: a general description of the test; its purpose; a statement that a positive result indicates the person may develop AIDS and may want independent testing; a place to designate who receives specific results after an adverse underwriting decision; the Department of Health's toll-free number; and the signature of the person (or authorized representative). Results can be used in underwriting, which is why § 2611(c) addresses adverse decisions.",
+      "memoryTip": "Consent covers what, why, who hears results and where to call.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-2611"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q222",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1.2"
+      ],
+      "concepts": [
+        "lifeguaranty-corporation"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "scenario": "Grace, an existing policyholder, writes to her member insurer asking what protection exists if the insurer becomes insolvent.",
+      "stem": "Under NY Insurance Law § 7718, may the insurer respond?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No; no one may ever mention the guaranty corporation at all",
+          "rationale": "Incorrect: § 7718 has an express exception for this situation."
+        },
+        {
+          "id": "b",
+          "text": "Yes, but only by telephone and never in writing",
+          "rationale": "Incorrect: the exception specifically covers written information."
+        },
+        {
+          "id": "c",
+          "text": "Yes, and the producer may then reuse that letter in future sales",
+          "rationale": "Incorrect: using the corporation to induce sales remains prohibited."
+        },
+        {
+          "id": "d",
+          "text": "Yes, using corporation-prepared material the Superintendent approved",
+          "rationale": "Correct: this is the § 7718 exception for a written policyholder request."
+        }
+      ],
+      "correct": "d",
+      "explanation": "§ 7718 bars using the existence of the guaranty corporation for sales, solicitation or inducement to purchase. It does not prohibit a member insurer from furnishing written information, in a form prepared by the corporation and approved by the Superintendent, directly to a policyholder in response to the policyholder's written request.",
+      "memoryTip": "Written request in → approved corporation material out (never a sales tool).",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Exception for a written request from a policyholder",
+            "anyOf": [
+              "written request",
+              "request"
+            ]
+          },
+          {
+            "label": "Material prepared by the corporation and approved by the Superintendent",
+            "anyOf": [
+              "prepared by the corporation",
+              "approved",
+              "Superintendent"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-7718"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

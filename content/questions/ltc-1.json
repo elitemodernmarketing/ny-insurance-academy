@@ -1,0 +1,902 @@
+{
+  "sectionId": "ltc",
+  "questions": [
+    {
+      "id": "ltc-q001",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.3.1",
+        "ltc.1.3.2"
+      ],
+      "concepts": [
+        "skilled-care",
+        "intermediate-care"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "What mainly distinguishes intermediate care from skilled care?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is provided only in the insured's own home rather than a facility",
+          "rationale": "Incorrect: both levels can be delivered in facilities; the setting is not the distinction."
+        },
+        {
+          "id": "b",
+          "text": "Skilled services are needed occasionally, not daily",
+          "rationale": "Correct: intermediate care is intermittent skilled nursing or rehabilitative care for a stable patient; skilled care is daily, round-the-clock care."
+        },
+        {
+          "id": "c",
+          "text": "It can be ordered without a physician's involvement",
+          "rationale": "Incorrect: intermediate care is still ordered by a physician and delivered by licensed personnel."
+        },
+        {
+          "id": "d",
+          "text": "It is limited to help with bathing, dressing and eating",
+          "rationale": "Incorrect: help with bathing and dressing alone is custodial care."
+        }
+      ],
+      "correct": "b",
+      "explanation": "The three levels of care differ by intensity. Skilled care is daily, 24-hour care by licensed professionals under a physician's orders. Intermediate care is the same kind of licensed care, but only occasionally, for a stable patient. Custodial care is help with daily living that a non-licensed person can provide.",
+      "memoryTip": "Skilled = every day; Intermediate = in-and-out; Custodial = daily-living help.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q002",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.3.3"
+      ],
+      "concepts": [
+        "custodial-care",
+        "activities-of-daily-living"
+      ],
+      "difficulty": 1,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Pearl, 84, lives in a nursing home. She has no acute medical condition, but staff help her get out of bed, bathe, dress and eat every day.",
+      "stem": "Which level of care is Pearl receiving?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Skilled care",
+          "rationale": "Incorrect: Pearl does not need services that require a licensed nurse or therapist."
+        },
+        {
+          "id": "b",
+          "text": "Intermediate care",
+          "rationale": "Incorrect: intermediate care involves occasional skilled (licensed) services, which Pearl does not need."
+        },
+        {
+          "id": "c",
+          "text": "Custodial care",
+          "rationale": "Correct: help with transferring, bathing, dressing and eating is custodial (personal) care, regardless of the setting."
+        },
+        {
+          "id": "d",
+          "text": "Acute care",
+          "rationale": "Incorrect: acute care is short-term hospital treatment of a serious illness or injury."
+        }
+      ],
+      "correct": "c",
+      "explanation": "The level of care is defined by what the person needs, not by the building. Help with activities of daily living such as transferring, bathing, dressing and eating is custodial care, even inside a nursing home.",
+      "memoryTip": "Same building, different care: the NEED decides the level.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Identifies the needs as activities of daily living",
+            "anyOf": [
+              "ADL",
+              "daily living",
+              "bathing",
+              "dressing",
+              "eating"
+            ]
+          },
+          {
+            "label": "No licensed/skilled services needed",
+            "anyOf": [
+              "not skilled",
+              "no nurse",
+              "non-medical",
+              "not licensed",
+              "without a license"
+            ]
+          },
+          {
+            "label": "Concludes custodial care",
+            "anyOf": [
+              "custodial"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q003",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.4.3"
+      ],
+      "concepts": [
+        "respite-care"
+      ],
+      "difficulty": 1,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Diane has cared for her husband, who has Parkinson's disease, at home for three years. She needs surgery and will be unable to care for him for about ten days. His LTC policy pays for a short facility stay during that time.",
+      "stem": "Which LTC benefit is being used?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Adult day care",
+          "rationale": "Incorrect: adult day care is a daytime program at a center; the participant returns home each evening."
+        },
+        {
+          "id": "b",
+          "text": "Shared care",
+          "rationale": "Incorrect: shared care lets spouses draw on each other's benefits; it is not about temporary relief for a caregiver."
+        },
+        {
+          "id": "c",
+          "text": "Assisted living",
+          "rationale": "Incorrect: assisted living is an ongoing residential arrangement, not a short stay to relieve a caregiver."
+        },
+        {
+          "id": "d",
+          "text": "Respite care",
+          "rationale": "Correct: respite care provides short-term care so the regular unpaid caregiver can get relief."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Respite care is temporary care for the insured that gives the regular family caregiver a break — for rest, travel, or (as here) the caregiver's own medical needs.",
+      "memoryTip": "Respite = a REST for the caregiver.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q004",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.4.2"
+      ],
+      "concepts": [
+        "adult-day-care"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Supervised daytime care at a community center for an adult who lives at home is called:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Adult day care",
+          "rationale": "Correct: the participant attends a center during the day and returns home at night."
+        },
+        {
+          "id": "b",
+          "text": "Home health care",
+          "rationale": "Incorrect: home health care is delivered inside the insured's home."
+        },
+        {
+          "id": "c",
+          "text": "Intermediate care",
+          "rationale": "Incorrect: intermediate care is a level of care (occasional skilled services), not a setting."
+        },
+        {
+          "id": "d",
+          "text": "Hospice care",
+          "rationale": "Incorrect: hospice is comfort care for the terminally ill."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Adult day care provides supervision, meals, activities and personal care during the day at a community-based center, letting family caregivers work while the person continues to live at home.",
+      "memoryTip": "Adult DAY care: there by day, home by night.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q005",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.7",
+        "ltc.1.2"
+      ],
+      "concepts": [
+        "activities-of-daily-living"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording",
+        "tricky"
+      ],
+      "stem": "Each of the following is one of the six activities of daily living listed in federal tax law for long-term care benefit eligibility EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Maintaining continence",
+          "rationale": "Incorrect: continence is one of the six ADLs."
+        },
+        {
+          "id": "b",
+          "text": "Transferring",
+          "rationale": "Incorrect: transferring (for example, moving from bed to chair) is one of the six ADLs."
+        },
+        {
+          "id": "c",
+          "text": "Taking medications",
+          "rationale": "Correct: managing medications is an instrumental activity of daily living (IADL), not one of the six ADLs."
+        },
+        {
+          "id": "d",
+          "text": "Using the toilet",
+          "rationale": "Incorrect: toileting is one of the six ADLs."
+        }
+      ],
+      "correct": "c",
+      "explanation": "IRC § 7702B(c)(2)(B) lists six ADLs: eating, toileting, transferring, bathing, dressing and continence. Tasks such as taking medications, cooking, shopping or managing money are instrumental activities and are not part of that list.",
+      "memoryTip": "ADLs are what you do with your BODY (eat, toilet, transfer, bathe, dress, continence) — not chores or errands.",
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-26-7702b"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q006",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.2",
+        "ltc.1.7"
+      ],
+      "concepts": [
+        "activities-of-daily-living",
+        "cognitive-impairment"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Gerald owns a tax-qualified LTC policy. After a fall, his physician certifies that Gerald cannot bathe or dress without substantial help and that this is expected to last at least 90 days. He has no memory problems.",
+      "stem": "Has Gerald met the policy's benefit trigger?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No, because he must be unable to perform at least three ADLs",
+          "rationale": "Incorrect: the federal tax-qualified standard is at least two ADLs, not three."
+        },
+        {
+          "id": "b",
+          "text": "No, because he must also have a cognitive impairment",
+          "rationale": "Incorrect: cognitive impairment is an alternative trigger, not an additional requirement."
+        },
+        {
+          "id": "c",
+          "text": "Yes, but only if he was first hospitalized for at least three days",
+          "rationale": "Incorrect: a prior hospital stay is not part of the trigger; New York also prohibits requiring prior hospitalization for LTC benefits."
+        },
+        {
+          "id": "d",
+          "text": "Yes, because he cannot perform two ADLs for at least 90 days",
+          "rationale": "Correct: inability to perform at least 2 of the 6 ADLs for at least 90 days, certified by a licensed health care practitioner, meets the tax-qualified trigger."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Under IRC § 7702B(c)(2)(A), a chronically ill individual is certified as unable to perform at least 2 ADLs for at least 90 days due to loss of functional capacity, OR as requiring substantial supervision because of severe cognitive impairment. Either test alone is enough. Bathing and dressing are both ADLs.",
+      "memoryTip": "Two of six for ninety — or a mind that needs watching.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Two ADLs required",
+            "anyOf": [
+              "two ADL",
+              "2 ADL",
+              "two activities",
+              "2 of 6",
+              "two of six"
+            ]
+          },
+          {
+            "label": "Expected to last at least 90 days",
+            "anyOf": [
+              "90 days",
+              "ninety"
+            ]
+          },
+          {
+            "label": "Cognitive impairment is an alternative, not required",
+            "anyOf": [
+              "alternative",
+              "either",
+              "not required",
+              "or cognitive",
+              "separate trigger"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-26-7702b",
+        "ny-11nycrr-52-25"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q007",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.2"
+      ],
+      "concepts": [
+        "cognitive-impairment"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Nora, 79, has moderate-to-severe dementia. She can still feed, dress and bathe herself, but she has left the stove burning several times and has wandered away from home. Her physician certifies that she needs substantial supervision for her safety.",
+      "stem": "Under a tax-qualified LTC policy, Nora:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Qualifies for benefits because of severe cognitive impairment",
+          "rationale": "Correct: requiring substantial supervision due to severe cognitive impairment is an independent benefit trigger."
+        },
+        {
+          "id": "b",
+          "text": "Does not qualify because she can perform all six ADLs",
+          "rationale": "Incorrect: the ADL test is only one of the triggers; cognitive impairment is a separate route."
+        },
+        {
+          "id": "c",
+          "text": "Qualifies only for respite care benefits",
+          "rationale": "Incorrect: meeting the trigger makes her eligible for the policy's covered benefits generally, not only respite care."
+        },
+        {
+          "id": "d",
+          "text": "Is excluded because dementia is a mental or nervous disorder",
+          "rationale": "Incorrect: New York does not permit LTC policies to exclude Alzheimer's disease or demonstrable organic brain disease."
+        }
+      ],
+      "correct": "a",
+      "explanation": "IRC § 7702B(c)(2)(A)(iii) treats a person who requires substantial supervision to protect against threats to health and safety due to severe cognitive impairment as chronically ill. In New York, 11 NYCRR 52.25(b)(2)(ii) allows a mental or nervous disorder exclusion but expressly does not allow excluding Alzheimer's disease or demonstrable organic brain disease.",
+      "memoryTip": "Can do the tasks but can't be left alone? Cognitive trigger.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-26-7702b",
+        "ny-11nycrr-52-25"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q008",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.8.1",
+        "ltc.1.6"
+      ],
+      "concepts": [
+        "reimbursement-vs-indemnity"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Two friends each have an LTC policy with a $180 daily maximum. On the same day, each receives home care that costs $140. Kay's policy is a reimbursement (expense-incurred) policy; Lou's is an indemnity (per diem) policy.",
+      "stem": "How much does each policy pay for that day?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Kay $180; Lou $140",
+          "rationale": "Incorrect: this reverses the two methods."
+        },
+        {
+          "id": "b",
+          "text": "Kay $140; Lou $140",
+          "rationale": "Incorrect: an indemnity policy pays its fixed amount regardless of actual charges."
+        },
+        {
+          "id": "c",
+          "text": "Kay $140; Lou $180",
+          "rationale": "Correct: reimbursement pays actual charges up to the maximum ($140); indemnity pays the full daily amount ($180)."
+        },
+        {
+          "id": "d",
+          "text": "Kay $180; Lou $180",
+          "rationale": "Incorrect: a reimbursement policy never pays more than the expense actually incurred."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Reimbursement: lesser of actual charges ($140) or the $180 maximum = $140. Indemnity (per diem): pays the stated $180 once the insured qualifies, without regard to the $140 actually charged. Difference for the day: $180 − $140 = $40 more under the indemnity policy.",
+      "memoryTip": "Reimburse = receipts; Indemnity = fixed amount.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q009",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.8.2"
+      ],
+      "concepts": [
+        "inflation-protection"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "Under New York Regulation 62, which statement about inflation protection on a long-term care policy is correct?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Every LTC policy must automatically include inflation protection",
+          "rationale": "Incorrect: the insurer must offer it; the applicant may decline."
+        },
+        {
+          "id": "b",
+          "text": "The insurer must offer an inflation protection option at the time of purchase",
+          "rationale": "Correct: 11 NYCRR 52.25(c)(3) bars insurers from offering LTC coverage unless they also offer, at purchase, an inflation protection option meeting the regulation's standards."
+        },
+        {
+          "id": "c",
+          "text": "Inflation protection may be offered only after a claim begins",
+          "rationale": "Incorrect: the offer is made at the time of purchase, and increases apply without regard to claim status."
+        },
+        {
+          "id": "d",
+          "text": "Inflation protection increases premiums automatically each year by 5%",
+          "rationale": "Incorrect: the 5% compound figure is one acceptable design for increasing BENEFITS, not premiums."
+        }
+      ],
+      "correct": "b",
+      "explanation": "11 NYCRR 52.25(c)(3) requires LTC insurers to offer each applicant, at the time of purchase, the option to buy a policy whose daily and lifetime benefit maximums increase to account for rising costs. Acceptable designs include 5% (or CPI-U) increases compounded annually, or a guaranteed right to periodic increases without evidence of insurability unless the option is declined three consecutive times.",
+      "memoryTip": "NY: Must OFFER, applicant may REFUSE.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52-25"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q010",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.8.2"
+      ],
+      "concepts": [
+        "inflation-protection"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "math",
+        "tricky"
+      ],
+      "scenario": "Hiro buys an LTC policy with a $200 daily benefit and an inflation rider that increases the benefit 5% per year, compounded annually.",
+      "stem": "What will his daily benefit be after three annual increases?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$230.00",
+          "rationale": "Incorrect: $230 is the result of SIMPLE 5% increases ($10 per year), not compound increases."
+        },
+        {
+          "id": "b",
+          "text": "$215.76",
+          "rationale": "Incorrect: this does not correspond to three 5% compound increases."
+        },
+        {
+          "id": "c",
+          "text": "$300.00",
+          "rationale": "Incorrect: this would be a 50% increase."
+        },
+        {
+          "id": "d",
+          "text": "$231.53",
+          "rationale": "Correct: $200 × 1.05 × 1.05 × 1.05 = $231.525, rounded to $231.53."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Compound increases apply each year's 5% to the already-increased benefit. Year 1: $200 × 1.05 = $210.00. Year 2: $210.00 × 1.05 = $220.50. Year 3: $220.50 × 1.05 = $231.525 ≈ $231.53. Simple increases would add a flat $10 each year ($230).",
+      "memoryTip": "Compound grows on the growth; simple grows only on the original.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q011",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.8.3"
+      ],
+      "concepts": [
+        "ltc-nonforfeiture"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "Agnes paid premiums on her New York LTC policy for 12 years. Her retirement income dropped and she stopped paying premiums. When she bought the policy she elected the nonforfeiture option.",
+      "stem": "What is the most likely result?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She keeps a reduced level of paid-up LTC coverage",
+          "rationale": "Correct: a nonforfeiture value such as reduced paid-up insurance preserves some coverage after premiums stop."
+        },
+        {
+          "id": "b",
+          "text": "She receives a full refund of all premiums paid",
+          "rationale": "Incorrect: that describes a return-of-premium feature, not nonforfeiture."
+        },
+        {
+          "id": "c",
+          "text": "The policy remains in force with full benefits for life",
+          "rationale": "Incorrect: coverage continues only at a reduced level."
+        },
+        {
+          "id": "d",
+          "text": "The policy lapses with no remaining value",
+          "rationale": "Incorrect: avoiding this result is exactly the purpose of the nonforfeiture option."
+        }
+      ],
+      "correct": "a",
+      "explanation": "11 NYCRR 52.25(c)(7) states that no insurer may offer an LTC policy unless it provides, at the option of the insured or policyholder, some type of nonforfeiture value, such as reduced paid-up insurance. The reduced paid-up percentages must appear in the policy.",
+      "memoryTip": "Nonforfeiture = you don't forfeit everything when you stop paying.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52-25"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q012",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.11"
+      ],
+      "concepts": [
+        "cognitive-impairment",
+        "exclusion"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording",
+        "ny-law"
+      ],
+      "stem": "A New York LTC policy may exclude or limit coverage for each of the following EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Alzheimer's disease",
+          "rationale": "Correct: the regulation's mental/nervous disorder exclusion does not permit excluding or limiting benefits for Alzheimer's disease or demonstrable organic brain disease."
+        },
+        {
+          "id": "b",
+          "text": "Alcoholism and drug addiction",
+          "rationale": "Incorrect: this is a permitted exclusion under 11 NYCRR 52.25(b)(2)(iii)."
+        },
+        {
+          "id": "c",
+          "text": "Intentionally self-inflicted injury",
+          "rationale": "Incorrect: conditions arising out of suicide, attempted suicide or intentionally self-inflicted injury may be excluded."
+        },
+        {
+          "id": "d",
+          "text": "Care received outside the United States and its possessions",
+          "rationale": "Incorrect: coverage outside the U.S. and its possessions may be excluded."
+        }
+      ],
+      "correct": "a",
+      "explanation": "11 NYCRR 52.25(b)(2) bars LTC policies from excluding coverage by type of illness except for a short list: limited preexisting conditions; mental or nervous disorders (but NOT Alzheimer's disease or demonstrable organic brain disease); alcoholism and drug addiction; war, felony/riot, military service, suicide or self-inflicted injury, non-fare-paying aviation; services covered by Medicare, workers' comp and similar programs, or provided by immediate family; and care outside the U.S.",
+      "memoryTip": "LTC is FOR dementia — Alzheimer's can never be excluded.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52-25"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q013",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.1.11",
+        "ltc.1.12"
+      ],
+      "concepts": [
+        "long-term-care-insurance",
+        "preexisting-condition"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "scenario": "Five months before her New York LTC policy took effect, Celia's doctor treated her for a heart condition. Seven months after the effective date, she files a claim related to that condition.",
+      "stem": "How does New York's preexisting-condition rule for LTC insurance apply?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The claim may be denied because the condition was treated within 12 months before coverage began",
+          "rationale": "Incorrect: New York's look-back for LTC is six months, and in any case the exclusion period has already ended."
+        },
+        {
+          "id": "b",
+          "text": "The claim may be denied for the first 24 months of coverage",
+          "rationale": "Incorrect: an LTC preexisting-condition exclusion may last no more than six months after the effective date."
+        },
+        {
+          "id": "c",
+          "text": "The claim cannot be denied as preexisting, because the six-month exclusion period has ended",
+          "rationale": "Correct: the condition was treated within six months before coverage, but the exclusion may last no more than six months after the effective date, and seven months have passed."
+        },
+        {
+          "id": "d",
+          "text": "The claim must be denied because the condition was not disclosed in the outline of coverage",
+          "rationale": "Incorrect: the outline of coverage/disclosure statement is the insurer's document; it does not create an exclusion."
+        }
+      ],
+      "correct": "c",
+      "explanation": "11 NYCRR 52.25(b)(2)(i): the only permissible preexisting-condition limitation in an LTC policy excludes coverage for no more than six months after the effective date, for a condition for which medical advice or treatment was given within six months before the effective date. Celia's condition qualifies as preexisting, but her claim comes in month 7 — after the exclusion has expired.",
+      "memoryTip": "LTC preexisting in NY: 6 months back, 6 months forward.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Six-month look-back before the effective date",
+            "anyOf": [
+              "six months before",
+              "6 months before",
+              "look-back",
+              "lookback",
+              "within six months"
+            ]
+          },
+          {
+            "label": "Exclusion lasts no more than six months after the effective date",
+            "anyOf": [
+              "six months after",
+              "6 months after",
+              "no more than six",
+              "exclusion period"
+            ]
+          },
+          {
+            "label": "Claim at month 7 is outside the exclusion",
+            "anyOf": [
+              "seven months",
+              "7 months",
+              "expired",
+              "ended",
+              "has passed"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52-25"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ltc-q014",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.2.1"
+      ],
+      "concepts": [
+        "guaranteed-renewable",
+        "long-term-care-insurance"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "New York requires individual LTC policies to be guaranteed renewable. Under this requirement, what may the insurer change while the policy is in force?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The benefit amounts, if the insured's health declines",
+          "rationale": "Incorrect: the insurer has no unilateral right to change policy provisions, including benefits."
+        },
+        {
+          "id": "b",
+          "text": "Premium rates for an individual insured who files many claims",
+          "rationale": "Incorrect: rates may be revised only on a class basis, never singling out one insured."
+        },
+        {
+          "id": "c",
+          "text": "Nothing at all, including premium rates",
+          "rationale": "Incorrect: that describes noncancelable coverage; guaranteed renewable coverage allows class-wide rate changes."
+        },
+        {
+          "id": "d",
+          "text": "Premium rates, but only on a class basis",
+          "rationale": "Correct: under 11 NYCRR 52.25(b)(1) the insured may continue coverage by paying premiums, and the insurer may revise premium rates only on a class basis."
+        }
+      ],
+      "correct": "d",
+      "explanation": "11 NYCRR 52.25(b)(1) defines guaranteed renewable for LTC: the insured has the right to continue the coverage by timely payment of premiums, and the insurer has no unilateral right to change any provision while it is in force — except that premium rates may be revised on a class basis.",
+      "memoryTip": "Guaranteed renewable: coverage locked, price can move — but only for the whole class.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52-25"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

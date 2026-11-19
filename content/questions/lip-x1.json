@@ -1,0 +1,988 @@
+{
+ "sectionId": "lip",
+ "questions": [
+  {
+   "id": "lip-q201",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.1.1.3"
+   ],
+   "concepts": [
+    "level-term",
+    "renewable-term"
+   ],
+   "difficulty": 2,
+   "style": "comparison",
+   "tags": [
+    "tricky"
+   ],
+   "stem": "Compared with annually renewable term (ART) for the same face amount, how is a 20-year level premium term policy bought at age 35 typically priced?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Lower than ART in every one of the 20 years",
+     "rationale": "Incorrect: early in the term the level premium is above the one-year ART cost."
+    },
+    {
+     "id": "b",
+     "text": "Higher than ART in early years, lower than ART in later years",
+     "rationale": "Correct: the level premium averages a rising cost, so it starts above and ends below ART."
+    },
+    {
+     "id": "c",
+     "text": "Identical to ART in year one and then lower every year",
+     "rationale": "Incorrect: the level premium is set above the first-year ART cost."
+    },
+    {
+     "id": "d",
+     "text": "Higher than ART in all years because it builds cash value",
+     "rationale": "Incorrect: level term has no cash value, and it is cheaper than ART in later years."
+    }
+   ],
+   "correct": "b",
+   "explanation": "ART premiums rise every year with the insured's age. A level premium term policy charges one averaged premium for the whole term, so it costs more than ART at first and less than ART in the later years of the term.",
+   "memoryTip": "Level premium = pay a bit extra early to avoid big increases later.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q202",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.1.1.3",
+    "lip.1.1"
+   ],
+   "concepts": [
+    "level-term"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Marco, 38, wants $400,000 of coverage until his youngest child finishes college in 15 years. He wants a premium that will not change during that time and has a modest budget.",
+   "stem": "Which policy best meets Marco's needs?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Annually renewable term",
+     "rationale": "Incorrect: its premium rises every year, which Marco wants to avoid."
+    },
+    {
+     "id": "b",
+     "text": "15-year decreasing term",
+     "rationale": "Incorrect: the death benefit would shrink each year."
+    },
+    {
+     "id": "c",
+     "text": "15-year level premium term",
+     "rationale": "Correct: both the death benefit and the premium stay the same for 15 years."
+    },
+    {
+     "id": "d",
+     "text": "Single-premium whole life",
+     "rationale": "Incorrect: it requires a large lump sum and provides more permanence than he needs."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Level premium term keeps both the face amount and the premium constant for the whole term, which matches a fixed-length need on a fixed budget.",
+   "memoryTip": "Same need, same bill, set years → level premium term.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q203",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.1.1"
+   ],
+   "concepts": [
+    "level-term",
+    "term-life-insurance"
+   ],
+   "difficulty": 1,
+   "style": "negative",
+   "tags": [
+    "negative-wording",
+    "rapid"
+   ],
+   "stem": "Level term life insurance has each of the following features EXCEPT:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A face amount that stays the same during the term",
+     "rationale": "Incorrect: a constant face amount is what 'level' means."
+    },
+    {
+     "id": "b",
+     "text": "Protection limited to a stated period",
+     "rationale": "Incorrect: all term insurance is temporary."
+    },
+    {
+     "id": "c",
+     "text": "A guaranteed cash value that can be borrowed",
+     "rationale": "Correct: term insurance has no cash value or loan value."
+    },
+    {
+     "id": "d",
+     "text": "Expiration without value if the insured outlives it",
+     "rationale": "Incorrect: term coverage simply ends at the end of the term."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Level term is pure, temporary protection with a constant face amount. Like all term insurance, it builds no cash value, so there is nothing to borrow against and nothing is paid if the insured outlives the term.",
+   "memoryTip": "Term never builds cash value.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q204",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.2.2"
+   ],
+   "concepts": [
+    "limited-payment-life"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Nell, 45, wants life insurance that lasts her whole life, but she does not want to pay any premiums after she retires at 65.",
+   "stem": "Which policy best meets Nell's goals?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Straight whole life",
+     "rationale": "Incorrect: premiums would continue for her entire life, past retirement."
+    },
+    {
+     "id": "b",
+     "text": "Life paid-up at 65",
+     "rationale": "Correct: premiums end at 65, and coverage lasts for life."
+    },
+    {
+     "id": "c",
+     "text": "20-year level term",
+     "rationale": "Incorrect: coverage would end at 65 rather than last for life."
+    },
+    {
+     "id": "d",
+     "text": "Annually renewable term",
+     "rationale": "Incorrect: premiums rise yearly and there is no lifetime guarantee."
+    }
+   ],
+   "correct": "b",
+   "explanation": "A limited-payment policy such as life paid-up at 65 compresses premiums into the working years. After the last premium, the policy is paid up and coverage continues for the rest of the insured's life.",
+   "memoryTip": "Paid-up at 65: stop paying at retirement, stay covered for life.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q205",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.2.2"
+   ],
+   "concepts": [
+    "limited-payment-life"
+   ],
+   "difficulty": 2,
+   "style": "comparison",
+   "tags": [],
+   "stem": "Lou is choosing between a 10-pay and a 20-pay whole life policy, both issued at age 40 for $200,000. Which is true of the 10-pay policy?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Its coverage ends after 10 years",
+     "rationale": "Incorrect: both policies cover Lou for life; only premiums end."
+    },
+    {
+     "id": "b",
+     "text": "Its annual premium is lower because it is paid off sooner",
+     "rationale": "Incorrect: fewer payments mean each payment is larger."
+    },
+    {
+     "id": "c",
+     "text": "Its death benefit is smaller because fewer premiums are paid",
+     "rationale": "Incorrect: both have the same $200,000 face amount."
+    },
+    {
+     "id": "d",
+     "text": "Each premium is larger, and the cash value builds faster",
+     "rationale": "Correct: compressing payments into 10 years raises each premium and speeds cash value growth."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Both are limited-payment whole life policies with lifetime coverage. The 10-pay version collects the same lifetime cost in half the time, so each premium is larger and the cash value grows faster.",
+   "memoryTip": "Fewer payments → bigger payments → faster cash value.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q206",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.2.3"
+   ],
+   "concepts": [
+    "single-premium-whole-life",
+    "modified-endowment-contract"
+   ],
+   "difficulty": 3,
+   "style": "concept",
+   "tags": [],
+   "stem": "Why is a single-premium whole life policy generally treated as a modified endowment contract (MEC) under federal tax law?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "It is funded faster than the tax law's seven-pay test allows",
+     "rationale": "Correct: paying the full premium at once exceeds the seven-pay funding limit."
+    },
+    {
+     "id": "b",
+     "text": "It provides no death benefit until the policy matures",
+     "rationale": "Incorrect: it provides a death benefit from issue."
+    },
+    {
+     "id": "c",
+     "text": "It can be issued only to people over age 65",
+     "rationale": "Incorrect: it may be issued at many ages."
+    },
+    {
+     "id": "d",
+     "text": "It must pay all of its dividends in cash",
+     "rationale": "Incorrect: dividend options do not determine MEC status."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Federal tax law classifies a life policy as a MEC if premiums paid in the early years exceed what would pay up the policy in seven level annual premiums (the seven-pay test). A single premium funds the policy immediately, so SPWL generally becomes a MEC, which changes how loans and withdrawals are taxed.",
+   "memoryTip": "One big premium → fails the seven-pay test → MEC.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q207",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.2.3"
+   ],
+   "concepts": [
+    "single-premium-whole-life",
+    "cash-value"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "Which statement about single-premium whole life is accurate?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "It has a cash value from the first policy year",
+     "rationale": "Correct: the single premium funds the policy immediately, creating cash value at once."
+    },
+    {
+     "id": "b",
+     "text": "It requires annual premiums until age 100",
+     "rationale": "Incorrect: only one premium is paid."
+    },
+    {
+     "id": "c",
+     "text": "Its face amount declines each year",
+     "rationale": "Incorrect: that describes decreasing term."
+    },
+    {
+     "id": "d",
+     "text": "It covers the insured only for a stated term",
+     "rationale": "Incorrect: whole life coverage is lifetime coverage."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Single-premium whole life is paid up at issue with one lump sum. Because the policy is fully funded from the start, it has a cash value right away and needs no further premiums.",
+   "memoryTip": "One premium, instant cash value, lifetime coverage.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q208",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.2"
+   ],
+   "concepts": [
+    "cash-value",
+    "cash-surrender-value"
+   ],
+   "difficulty": 2,
+   "style": "calculation",
+   "tags": [
+    "math"
+   ],
+   "scenario": "Ana surrenders her whole life policy. It has a $40,000 cash value and an outstanding policy loan of $5,000. Assume no unpaid loan interest or surrender charge.",
+   "stem": "How much will Ana receive, and what happens to her coverage?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$45,000, and her coverage continues",
+     "rationale": "Incorrect: the loan is subtracted, and surrender ends the coverage."
+    },
+    {
+     "id": "b",
+     "text": "$40,000, and her coverage continues",
+     "rationale": "Incorrect: the loan is subtracted, and surrender ends the coverage."
+    },
+    {
+     "id": "c",
+     "text": "$40,000, and her coverage ends",
+     "rationale": "Incorrect: the outstanding loan is subtracted from the cash value."
+    },
+    {
+     "id": "d",
+     "text": "$35,000, and her coverage ends",
+     "rationale": "Correct: $40,000 cash value − $5,000 loan = $35,000; surrender ends the policy."
+    }
+   ],
+   "correct": "d",
+   "explanation": "On surrender, the owner receives the cash value minus any outstanding loans (and unpaid loan interest): $40,000 − $5,000 = $35,000. Surrendering cashes in the policy, so the life insurance ends.",
+   "memoryTip": "Surrender = cash value minus loans, and the coverage is gone.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q209",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.2"
+   ],
+   "concepts": [
+    "cash-value",
+    "face-amount"
+   ],
+   "difficulty": 2,
+   "style": "calculation",
+   "tags": [
+    "math",
+    "tricky"
+   ],
+   "scenario": "Rae dies owning a $250,000 traditional whole life policy with a $60,000 cash value. She had no policy loans, no riders and no paid-up additions.",
+   "stem": "How much will the beneficiary receive?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$250,000",
+     "rationale": "Correct: a traditional whole life policy pays the face amount; the cash value is part of it, not added to it."
+    },
+    {
+     "id": "b",
+     "text": "$310,000",
+     "rationale": "Incorrect: the cash value is not added to the face amount in a standard whole life policy."
+    },
+    {
+     "id": "c",
+     "text": "$190,000",
+     "rationale": "Incorrect: the cash value is not subtracted; only loans would be."
+    },
+    {
+     "id": "d",
+     "text": "$60,000",
+     "rationale": "Incorrect: the cash value is a living benefit, not the death benefit."
+    }
+   ],
+   "correct": "a",
+   "explanation": "In traditional whole life, the death benefit is the face amount. As cash value grows, it forms part of that face amount (reducing the insurer's net amount at risk); it is not paid on top. With no loans, the beneficiary receives $250,000.",
+   "memoryTip": "Whole life pays the face, not face + cash.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Beneficiary receives the face amount",
+      "anyOf": [
+       "250,000",
+       "250000",
+       "face"
+      ]
+     },
+     {
+      "label": "Cash value is not added on top",
+      "anyOf": [
+       "not added",
+       "part of",
+       "included"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q210",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.2.1"
+   ],
+   "concepts": [
+    "straight-life",
+    "whole-life-insurance"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [],
+   "stem": "When does a straight whole life policy endow (pay its face amount to a living insured)?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "When the insured reaches age 65",
+     "rationale": "Incorrect: whole life does not mature at a retirement age."
+    },
+    {
+     "id": "b",
+     "text": "After 20 annual premiums have been paid",
+     "rationale": "Incorrect: that describes when a 20-pay policy becomes paid up, not when it endows."
+    },
+    {
+     "id": "c",
+     "text": "At the policy's maturity age, such as 100 or 121",
+     "rationale": "Correct: whole life endows if the insured is alive at the policy's maturity age."
+    },
+    {
+     "id": "d",
+     "text": "When the cash value equals the total of all premiums paid",
+     "rationale": "Incorrect: that is not a maturity trigger."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Whole life is designed so the cash value grows to equal the face amount at the policy's maturity age, which is set by the mortality table used (for example, age 100 or 121). If the insured is alive then, the policy endows and the face amount is paid to the policyowner.",
+   "memoryTip": "Whole life endows at the end of the mortality table.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q211",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.3.1"
+   ],
+   "concepts": [
+    "universal-life"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "tricky"
+   ],
+   "stem": "In a universal life policy, what generally happens to the cost of insurance rate per $1,000 of net amount at risk as the insured ages?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "It increases with the insured's attained age",
+     "rationale": "Correct: mortality charges are based on attained age, so the rate rises over time."
+    },
+    {
+     "id": "b",
+     "text": "It decreases because the cash value grows",
+     "rationale": "Incorrect: cash value growth may reduce the amount at risk, but the rate itself rises."
+    },
+    {
+     "id": "c",
+     "text": "It stays level for life, as in whole life",
+     "rationale": "Incorrect: universal life is unbundled; its mortality charges are not level."
+    },
+    {
+     "id": "d",
+     "text": "It disappears once the policy reaches 10 years",
+     "rationale": "Incorrect: cost of insurance is charged for as long as there is an amount at risk."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Universal life deducts a monthly cost of insurance based on the insured's attained age and the net amount at risk. Because the rate per $1,000 rises as the insured ages, underfunded policies can lapse in later years when charges outgrow the cash value.",
+   "memoryTip": "UL mortality charges rise with age — underfunding catches up later.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q212",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.3.1"
+   ],
+   "concepts": [
+    "universal-life",
+    "face-amount"
+   ],
+   "difficulty": 3,
+   "style": "calculation",
+   "tags": [
+    "math",
+    "tricky"
+   ],
+   "scenario": "Joel's universal life policy has a $500,000 specified amount under Option A (level death benefit) and a current cash value of $80,000.",
+   "stem": "What is the insurer's net amount at risk under Option A?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$500,000",
+     "rationale": "Incorrect: that would be the amount at risk under Option B, where the cash value is added to the death benefit."
+    },
+    {
+     "id": "b",
+     "text": "$580,000",
+     "rationale": "Incorrect: this is the Option B death benefit, not the amount at risk under Option A."
+    },
+    {
+     "id": "c",
+     "text": "$420,000",
+     "rationale": "Correct: Option A death benefit $500,000 − cash value $80,000 = $420,000."
+    },
+    {
+     "id": "d",
+     "text": "$80,000",
+     "rationale": "Incorrect: this is the cash value, not the amount at risk."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Net amount at risk = death benefit − cash value. Under Option A (level), the death benefit is $500,000, so the amount at risk is $500,000 − $80,000 = $420,000. Under Option B the death benefit would be $580,000 and the amount at risk would stay $500,000.",
+   "memoryTip": "Option A: as cash value grows, the insurer's risk shrinks.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Option A death benefit is the $500,000 specified amount",
+      "anyOf": [
+       "500,000",
+       "level"
+      ]
+     },
+     {
+      "label": "Net amount at risk = death benefit minus cash value",
+      "anyOf": [
+       "minus",
+       "less",
+       "subtract",
+       "−"
+      ]
+     },
+     {
+      "label": "Result: $420,000",
+      "anyOf": [
+       "420,000",
+       "420000"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q213",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.3.1"
+   ],
+   "concepts": [
+    "universal-life",
+    "cash-value"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Jamal's universal life policy has a planned premium of $150 a month. After receiving a bonus, he sends an extra $3,000 this year, which stays within the policy's limits.",
+   "stem": "What is the effect of Jamal's extra payment?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The insurer must refund it because premiums are fixed",
+     "rationale": "Incorrect: universal life premiums are flexible, so extra payments are allowed."
+    },
+    {
+     "id": "b",
+     "text": "It is added to his cash value, increasing the amount earning interest",
+     "rationale": "Correct: excess premium goes into the cash value account."
+    },
+    {
+     "id": "c",
+     "text": "It permanently fixes his future premiums at the higher amount",
+     "rationale": "Incorrect: future premiums remain flexible."
+    },
+    {
+     "id": "d",
+     "text": "It converts the policy to single-premium whole life",
+     "rationale": "Incorrect: paying more does not change the policy type."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Universal life allows premiums above the planned amount (within federal tax limits). After any premium charge, the extra goes into the cash value, where it earns the current interest rate and helps cover future monthly deductions.",
+   "memoryTip": "UL: pay more, build more cash value.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q214",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.3.1"
+   ],
+   "concepts": [
+    "universal-life",
+    "partial-surrender"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "Which universal life feature lets the owner take cash out without creating a policy loan?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Partial withdrawal",
+     "rationale": "Correct: a partial withdrawal removes part of the cash value directly, with no loan created."
+    },
+    {
+     "id": "b",
+     "text": "Automatic premium loan",
+     "rationale": "Incorrect: that is a loan used to pay an overdue premium."
+    },
+    {
+     "id": "c",
+     "text": "Conversion privilege",
+     "rationale": "Incorrect: conversion exchanges term for permanent insurance."
+    },
+    {
+     "id": "d",
+     "text": "Reinstatement provision",
+     "rationale": "Incorrect: reinstatement restores a lapsed policy."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Universal life allows partial withdrawals (partial surrenders) of cash value. Unlike a loan, there is no loan balance or loan interest; the cash value is reduced and, under a level death benefit option, the death benefit is usually reduced as well.",
+   "memoryTip": "Withdrawal = take it out; loan = borrow it.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q215",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.4.4"
+   ],
+   "concepts": [
+    "indexed-universal-life"
+   ],
+   "difficulty": 2,
+   "style": "calculation",
+   "tags": [
+    "math"
+   ],
+   "scenario": "Lena's fixed indexed universal life policy has a 50% participation rate, an 11% cap and a 0% floor. The linked index rises 18% during the crediting period.",
+   "stem": "What rate is credited for the period?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "18%",
+     "rationale": "Incorrect: the participation rate and cap both limit the credit."
+    },
+    {
+     "id": "b",
+     "text": "11%",
+     "rationale": "Incorrect: the cap is not reached because 50% × 18% = 9%."
+    },
+    {
+     "id": "c",
+     "text": "9%",
+     "rationale": "Correct: 50% × 18% = 9%, which is below the 11% cap."
+    },
+    {
+     "id": "d",
+     "text": "0%",
+     "rationale": "Incorrect: the floor applies only when the formula result is below it."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Apply the participation rate first: 50% × 18% = 9%. Then compare with the cap: 9% is below 11%, so the full 9% is credited.",
+   "memoryTip": "Participation first; the cap only matters if the result is above it.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lip-q216",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lip",
+   "outlineIds": [
+    "lip.4.4"
+   ],
+   "concepts": [
+    "indexed-universal-life",
+    "universal-life"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky"
+   ],
+   "scenario": "The next year, the index linked to Lena's indexed universal life policy falls 20%. Her policy has a 0% floor, and monthly cost of insurance and expense charges apply as usual.",
+   "stem": "What happens to Lena's cash value for this period?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "It falls by 20%, exactly matching the index decline",
+     "rationale": "Incorrect: the floor prevents index losses from being credited."
+    },
+    {
+     "id": "b",
+     "text": "It cannot decrease at all during the period",
+     "rationale": "Incorrect: policy charges are still deducted even when 0% is credited."
+    },
+    {
+     "id": "c",
+     "text": "It is credited the cap rate to make up for the index loss",
+     "rationale": "Incorrect: the cap limits gains; it is not paid in down years."
+    },
+    {
+     "id": "d",
+     "text": "No index loss applies, but monthly charges still reduce it",
+     "rationale": "Correct: the 0% floor blocks index losses, while cost of insurance and expenses continue."
+    }
+   ],
+   "correct": "d",
+   "explanation": "The floor protects the cash value from index declines: the credited rate is 0%, not −20%. However, indexed universal life still deducts monthly cost of insurance and expense charges, so the cash value can still decrease when nothing is credited.",
+   "memoryTip": "Floor stops market losses, not policy charges.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Floor means 0% credited, not a 20% loss",
+      "anyOf": [
+       "floor",
+       "0%",
+       "zero"
+      ]
+     },
+     {
+      "label": "Monthly charges still deducted",
+      "anyOf": [
+       "charge",
+       "cost of insurance",
+       "deduct"
+      ]
+     },
+     {
+      "label": "Cash value can still decrease",
+      "anyOf": [
+       "decrease",
+       "reduce",
+       "fall",
+       "lower"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

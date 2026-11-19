@@ -1,0 +1,2829 @@
+{
+ "terms": [
+  {
+   "id": "producer",
+   "term": "Producer",
+   "owner": "reg"
+  },
+  {
+   "id": "insurance-agent",
+   "term": "Insurance Agent",
+   "owner": "reg"
+  },
+  {
+   "id": "insurance-broker",
+   "term": "Insurance Broker",
+   "owner": "reg"
+  },
+  {
+   "id": "insurance-consultant",
+   "term": "Insurance Consultant",
+   "owner": "reg"
+  },
+  {
+   "id": "adjuster",
+   "term": "Adjuster (Public and Independent)",
+   "owner": "reg"
+  },
+  {
+   "id": "nonresident-license",
+   "term": "Nonresident License",
+   "owner": "reg"
+  },
+  {
+   "id": "home-state",
+   "term": "Home State",
+   "owner": "reg"
+  },
+  {
+   "id": "solicit",
+   "term": "Solicit",
+   "owner": "reg"
+  },
+  {
+   "id": "negotiate",
+   "term": "Negotiate",
+   "owner": "reg"
+  },
+  {
+   "id": "sell",
+   "term": "Sell",
+   "owner": "reg"
+  },
+  {
+   "id": "temporary-license",
+   "term": "Temporary License",
+   "owner": "reg"
+  },
+  {
+   "id": "continuing-education",
+   "term": "Continuing Education (CE)",
+   "owner": "reg"
+  },
+  {
+   "id": "appointment",
+   "term": "Appointment",
+   "owner": "reg"
+  },
+  {
+   "id": "superintendent",
+   "term": "Superintendent of Financial Services",
+   "owner": "reg"
+  },
+  {
+   "id": "certificate-of-authority",
+   "term": "Certificate of Authority",
+   "owner": "reg"
+  },
+  {
+   "id": "insurer-solvency",
+   "term": "Insurer Solvency",
+   "owner": "reg"
+  },
+  {
+   "id": "unfair-claims-settlement-practices",
+   "term": "Unfair Claims Settlement Practices",
+   "owner": "reg"
+  },
+  {
+   "id": "twisting",
+   "term": "Twisting",
+   "owner": "reg"
+  },
+  {
+   "id": "rebating",
+   "term": "Rebating",
+   "owner": "reg"
+  },
+  {
+   "id": "defamation-of-insurer",
+   "term": "Defamation of Insurer",
+   "owner": "reg"
+  },
+  {
+   "id": "unfair-discrimination",
+   "term": "Unfair Discrimination",
+   "owner": "reg"
+  },
+  {
+   "id": "false-advertising",
+   "term": "False Advertising",
+   "owner": "reg"
+  },
+  {
+   "id": "controlled-business",
+   "term": "Controlled Business",
+   "owner": "reg"
+  },
+  {
+   "id": "fiduciary-responsibility",
+   "term": "Fiduciary Responsibility",
+   "owner": "reg"
+  },
+  {
+   "id": "commingling",
+   "term": "Commingling",
+   "owner": "reg"
+  },
+  {
+   "id": "sharing-commissions",
+   "term": "Sharing Commissions",
+   "owner": "reg"
+  },
+  {
+   "id": "insurance-fraud",
+   "term": "Insurance Fraud",
+   "owner": "reg"
+  },
+  {
+   "id": "unauthorized-insurer",
+   "term": "Unauthorized Insurer",
+   "owner": "reg"
+  },
+  {
+   "id": "fair-credit-reporting-act",
+   "term": "Fair Credit Reporting Act (FCRA)",
+   "owner": "reg"
+  },
+  {
+   "id": "section-1033-waiver",
+   "term": "1033 Waiver (Written Consent)",
+   "owner": "reg"
+  },
+  {
+   "id": "license-revocation",
+   "term": "License Suspension and Revocation",
+   "owner": "reg"
+  },
+  {
+   "id": "producer-compensation-disclosure",
+   "term": "Producer Compensation Disclosure",
+   "owner": "reg"
+  },
+  {
+   "id": "nonpublic-personal-information",
+   "term": "Nonpublic Personal Information",
+   "owner": "reg"
+  },
+  {
+   "id": "cybersecurity-regulation",
+   "term": "NY Cybersecurity Regulation (23 NYCRR 500)",
+   "owner": "reg"
+  },
+  {
+   "id": "insurance",
+   "term": "Insurance",
+   "owner": "gen"
+  },
+  {
+   "id": "insurer",
+   "term": "Insurer",
+   "owner": "gen"
+  },
+  {
+   "id": "insured",
+   "term": "Insured",
+   "owner": "gen"
+  },
+  {
+   "id": "policyowner",
+   "term": "Policyowner",
+   "owner": "gen"
+  },
+  {
+   "id": "premium",
+   "term": "Premium",
+   "owner": "gen"
+  },
+  {
+   "id": "risk",
+   "term": "Risk",
+   "owner": "gen"
+  },
+  {
+   "id": "pure-risk",
+   "term": "Pure Risk",
+   "owner": "gen"
+  },
+  {
+   "id": "speculative-risk",
+   "term": "Speculative Risk",
+   "owner": "gen"
+  },
+  {
+   "id": "exposure",
+   "term": "Exposure",
+   "owner": "gen"
+  },
+  {
+   "id": "hazard",
+   "term": "Hazard",
+   "owner": "gen"
+  },
+  {
+   "id": "physical-hazard",
+   "term": "Physical Hazard",
+   "owner": "gen"
+  },
+  {
+   "id": "moral-hazard",
+   "term": "Moral Hazard",
+   "owner": "gen"
+  },
+  {
+   "id": "morale-hazard",
+   "term": "Morale Hazard",
+   "owner": "gen"
+  },
+  {
+   "id": "peril",
+   "term": "Peril",
+   "owner": "gen"
+  },
+  {
+   "id": "loss",
+   "term": "Loss",
+   "owner": "gen"
+  },
+  {
+   "id": "risk-avoidance",
+   "term": "Risk Avoidance",
+   "owner": "gen"
+  },
+  {
+   "id": "risk-retention",
+   "term": "Risk Retention",
+   "owner": "gen"
+  },
+  {
+   "id": "risk-sharing",
+   "term": "Risk Sharing",
+   "owner": "gen"
+  },
+  {
+   "id": "risk-reduction",
+   "term": "Risk Reduction",
+   "owner": "gen"
+  },
+  {
+   "id": "risk-transfer",
+   "term": "Risk Transfer",
+   "owner": "gen"
+  },
+  {
+   "id": "insurable-risk",
+   "term": "Elements of an Insurable Risk",
+   "owner": "gen"
+  },
+  {
+   "id": "adverse-selection",
+   "term": "Adverse Selection",
+   "owner": "gen"
+  },
+  {
+   "id": "law-of-large-numbers",
+   "term": "Law of Large Numbers",
+   "owner": "gen"
+  },
+  {
+   "id": "reinsurance",
+   "term": "Reinsurance",
+   "owner": "gen"
+  },
+  {
+   "id": "stock-insurer",
+   "term": "Stock Insurance Company",
+   "owner": "gen"
+  },
+  {
+   "id": "mutual-insurer",
+   "term": "Mutual Insurance Company",
+   "owner": "gen"
+  },
+  {
+   "id": "fraternal-benefit-society",
+   "term": "Fraternal Benefit Society",
+   "owner": "gen"
+  },
+  {
+   "id": "admitted-insurer",
+   "term": "Admitted (Authorized) Insurer",
+   "owner": "gen"
+  },
+  {
+   "id": "nonadmitted-insurer",
+   "term": "Nonadmitted (Unauthorized) Insurer",
+   "owner": "gen"
+  },
+  {
+   "id": "domestic-insurer",
+   "term": "Domestic Insurer",
+   "owner": "gen"
+  },
+  {
+   "id": "foreign-insurer",
+   "term": "Foreign Insurer",
+   "owner": "gen"
+  },
+  {
+   "id": "alien-insurer",
+   "term": "Alien Insurer",
+   "owner": "gen"
+  },
+  {
+   "id": "rating-service",
+   "term": "Independent Rating Service",
+   "owner": "gen"
+  },
+  {
+   "id": "distribution-system",
+   "term": "Marketing (Distribution) System",
+   "owner": "gen"
+  },
+  {
+   "id": "law-of-agency",
+   "term": "Law of Agency",
+   "owner": "gen"
+  },
+  {
+   "id": "express-authority",
+   "term": "Express Authority",
+   "owner": "gen"
+  },
+  {
+   "id": "implied-authority",
+   "term": "Implied Authority",
+   "owner": "gen"
+  },
+  {
+   "id": "apparent-authority",
+   "term": "Apparent Authority",
+   "owner": "gen"
+  },
+  {
+   "id": "offer-and-acceptance",
+   "term": "Offer and Acceptance",
+   "owner": "gen"
+  },
+  {
+   "id": "consideration",
+   "term": "Consideration",
+   "owner": "gen"
+  },
+  {
+   "id": "competent-parties",
+   "term": "Competent Parties",
+   "owner": "gen"
+  },
+  {
+   "id": "legal-purpose",
+   "term": "Legal Purpose",
+   "owner": "gen"
+  },
+  {
+   "id": "contract-of-adhesion",
+   "term": "Contract of Adhesion",
+   "owner": "gen"
+  },
+  {
+   "id": "aleatory-contract",
+   "term": "Aleatory Contract",
+   "owner": "gen"
+  },
+  {
+   "id": "personal-contract",
+   "term": "Personal Contract",
+   "owner": "gen"
+  },
+  {
+   "id": "unilateral-contract",
+   "term": "Unilateral Contract",
+   "owner": "gen"
+  },
+  {
+   "id": "conditional-contract",
+   "term": "Conditional Contract",
+   "owner": "gen"
+  },
+  {
+   "id": "indemnity",
+   "term": "Indemnity",
+   "owner": "gen"
+  },
+  {
+   "id": "utmost-good-faith",
+   "term": "Utmost Good Faith",
+   "owner": "gen"
+  },
+  {
+   "id": "representation",
+   "term": "Representation",
+   "owner": "gen"
+  },
+  {
+   "id": "misrepresentation",
+   "term": "Misrepresentation",
+   "owner": "gen"
+  },
+  {
+   "id": "warranty",
+   "term": "Warranty",
+   "owner": "gen"
+  },
+  {
+   "id": "rescission",
+   "term": "Rescission",
+   "owner": "gen"
+  },
+  {
+   "id": "concealment",
+   "term": "Concealment",
+   "owner": "gen"
+  },
+  {
+   "id": "fraud",
+   "term": "Fraud",
+   "owner": "gen"
+  },
+  {
+   "id": "waiver",
+   "term": "Waiver",
+   "owner": "gen"
+  },
+  {
+   "id": "estoppel",
+   "term": "Estoppel",
+   "owner": "gen"
+  },
+  {
+   "id": "insurable-interest",
+   "term": "Insurable Interest",
+   "owner": "lib"
+  },
+  {
+   "id": "survivor-protection",
+   "term": "Survivor Protection",
+   "owner": "lib"
+  },
+  {
+   "id": "estate-creation",
+   "term": "Estate Creation",
+   "owner": "lib"
+  },
+  {
+   "id": "liquidity",
+   "term": "Liquidity",
+   "owner": "lib"
+  },
+  {
+   "id": "estate-conservation",
+   "term": "Estate Conservation",
+   "owner": "lib"
+  },
+  {
+   "id": "human-life-value",
+   "term": "Human Life Value Approach",
+   "owner": "lib"
+  },
+  {
+   "id": "needs-approach",
+   "term": "Needs Approach",
+   "owner": "lib"
+  },
+  {
+   "id": "buy-sell-agreement",
+   "term": "Buy-Sell Agreement",
+   "owner": "lib"
+  },
+  {
+   "id": "key-person-insurance",
+   "term": "Key Person Insurance",
+   "owner": "lib"
+  },
+  {
+   "id": "business-continuation",
+   "term": "Business Continuation",
+   "owner": "lib"
+  },
+  {
+   "id": "permanent-life-insurance",
+   "term": "Permanent Life Insurance",
+   "owner": "lib"
+  },
+  {
+   "id": "participating-policy",
+   "term": "Participating Policy",
+   "owner": "lib"
+  },
+  {
+   "id": "nonparticipating-policy",
+   "term": "Nonparticipating Policy",
+   "owner": "lib"
+  },
+  {
+   "id": "variable-life-insurance",
+   "term": "Variable Life Insurance",
+   "owner": "lib"
+  },
+  {
+   "id": "mortality",
+   "term": "Mortality",
+   "owner": "lib"
+  },
+  {
+   "id": "premium-mode",
+   "term": "Mode of Premium",
+   "owner": "lib"
+  },
+  {
+   "id": "policy-summary",
+   "term": "Policy Summary",
+   "owner": "lib"
+  },
+  {
+   "id": "buyers-guide",
+   "term": "Buyer's Guide",
+   "owner": "lib"
+  },
+  {
+   "id": "suitability",
+   "term": "Suitability / Best Interest",
+   "owner": "lib"
+  },
+  {
+   "id": "illustration",
+   "term": "Policy Illustration",
+   "owner": "lib"
+  },
+  {
+   "id": "replacement",
+   "term": "Replacement",
+   "owner": "lib"
+  },
+  {
+   "id": "lifeguaranty-corporation",
+   "term": "Life Insurance Company Guaranty Corporation of New York",
+   "owner": "lib"
+  },
+  {
+   "id": "senior-designation",
+   "term": "Senior-Specific Certification",
+   "owner": "lib"
+  },
+  {
+   "id": "field-underwriting",
+   "term": "Field Underwriting",
+   "owner": "lib"
+  },
+  {
+   "id": "application",
+   "term": "Application",
+   "owner": "lib"
+  },
+  {
+   "id": "backdating",
+   "term": "Backdating",
+   "owner": "lib"
+  },
+  {
+   "id": "conditional-receipt",
+   "term": "Conditional Receipt",
+   "owner": "lib"
+  },
+  {
+   "id": "policy-delivery",
+   "term": "Policy Delivery",
+   "owner": "lib"
+  },
+  {
+   "id": "statement-of-good-health",
+   "term": "Statement of Good Health",
+   "owner": "lib"
+  },
+  {
+   "id": "underwriting",
+   "term": "Underwriting",
+   "owner": "lib"
+  },
+  {
+   "id": "agent-report",
+   "term": "Agent's Report",
+   "owner": "lib"
+  },
+  {
+   "id": "attending-physician-statement",
+   "term": "Attending Physician Statement (APS)",
+   "owner": "lib"
+  },
+  {
+   "id": "investigative-consumer-report",
+   "term": "Investigative Consumer (Inspection) Report",
+   "owner": "lib"
+  },
+  {
+   "id": "medical-information-bureau",
+   "term": "Medical Information Bureau (MIB)",
+   "owner": "lib"
+  },
+  {
+   "id": "preferred-risk",
+   "term": "Preferred Risk",
+   "owner": "lib"
+  },
+  {
+   "id": "standard-risk",
+   "term": "Standard Risk",
+   "owner": "lib"
+  },
+  {
+   "id": "substandard-risk",
+   "term": "Substandard (Rated) Risk",
+   "owner": "lib"
+  },
+  {
+   "id": "declined-risk",
+   "term": "Declined Risk",
+   "owner": "lib"
+  },
+  {
+   "id": "term-life-insurance",
+   "term": "Term Life Insurance",
+   "owner": "lip"
+  },
+  {
+   "id": "level-term",
+   "term": "Level Term",
+   "owner": "lip"
+  },
+  {
+   "id": "decreasing-term",
+   "term": "Decreasing Term",
+   "owner": "lip"
+  },
+  {
+   "id": "renewable-term",
+   "term": "Renewable Term",
+   "owner": "lip"
+  },
+  {
+   "id": "convertible-term",
+   "term": "Convertible Term",
+   "owner": "lip"
+  },
+  {
+   "id": "whole-life-insurance",
+   "term": "Whole Life Insurance",
+   "owner": "lip"
+  },
+  {
+   "id": "straight-life",
+   "term": "Straight (Continuous Premium) Whole Life",
+   "owner": "lip"
+  },
+  {
+   "id": "limited-payment-life",
+   "term": "Limited-Payment Whole Life",
+   "owner": "lip"
+  },
+  {
+   "id": "single-premium-whole-life",
+   "term": "Single-Premium Whole Life",
+   "owner": "lip"
+  },
+  {
+   "id": "cash-value",
+   "term": "Cash Value",
+   "owner": "lip"
+  },
+  {
+   "id": "face-amount",
+   "term": "Face Amount",
+   "owner": "lip"
+  },
+  {
+   "id": "universal-life",
+   "term": "Universal Life",
+   "owner": "lip"
+  },
+  {
+   "id": "indexed-universal-life",
+   "term": "Indexed Universal Life (IUL)",
+   "owner": "lip"
+  },
+  {
+   "id": "joint-life",
+   "term": "Joint Life (First-to-Die)",
+   "owner": "lip"
+  },
+  {
+   "id": "survivorship-life",
+   "term": "Survivorship Life (Second-to-Die)",
+   "owner": "lip"
+  },
+  {
+   "id": "juvenile-life-insurance",
+   "term": "Life Insurance on Minors",
+   "owner": "lip"
+  },
+  {
+   "id": "group-life-insurance",
+   "term": "Group Life Insurance",
+   "owner": "lip"
+  },
+  {
+   "id": "conversion-privilege",
+   "term": "Conversion Privilege",
+   "owner": "lip"
+  },
+  {
+   "id": "credit-life-insurance",
+   "term": "Credit Life Insurance",
+   "owner": "lip"
+  },
+  {
+   "id": "policy-provision",
+   "term": "Policy Provision",
+   "owner": "lpr"
+  },
+  {
+   "id": "ownership-provision",
+   "term": "Ownership Provision",
+   "owner": "lpr"
+  },
+  {
+   "id": "assignment",
+   "term": "Assignment",
+   "owner": "lpr"
+  },
+  {
+   "id": "entire-contract-provision",
+   "term": "Entire Contract Provision",
+   "owner": "lpr"
+  },
+  {
+   "id": "free-look",
+   "term": "Free-Look (Right to Examine)",
+   "owner": "lpr"
+  },
+  {
+   "id": "grace-period",
+   "term": "Grace Period",
+   "owner": "lpr"
+  },
+  {
+   "id": "reinstatement",
+   "term": "Reinstatement",
+   "owner": "lpr"
+  },
+  {
+   "id": "incontestability",
+   "term": "Incontestable Clause",
+   "owner": "lpr"
+  },
+  {
+   "id": "misstatement-of-age",
+   "term": "Misstatement of Age",
+   "owner": "lpr"
+  },
+  {
+   "id": "suicide-exclusion",
+   "term": "Suicide Exclusion",
+   "owner": "lpr"
+  },
+  {
+   "id": "proof-of-death",
+   "term": "Proof of Death",
+   "owner": "lpr"
+  },
+  {
+   "id": "beneficiary",
+   "term": "Beneficiary",
+   "owner": "lpr"
+  },
+  {
+   "id": "primary-beneficiary",
+   "term": "Primary Beneficiary",
+   "owner": "lpr"
+  },
+  {
+   "id": "contingent-beneficiary",
+   "term": "Contingent Beneficiary",
+   "owner": "lpr"
+  },
+  {
+   "id": "per-stirpes",
+   "term": "Per Stirpes",
+   "owner": "lpr"
+  },
+  {
+   "id": "per-capita",
+   "term": "Per Capita",
+   "owner": "lpr"
+  },
+  {
+   "id": "revocable-beneficiary",
+   "term": "Revocable Beneficiary",
+   "owner": "lpr"
+  },
+  {
+   "id": "irrevocable-beneficiary",
+   "term": "Irrevocable Beneficiary",
+   "owner": "lpr"
+  },
+  {
+   "id": "common-disaster-clause",
+   "term": "Common Disaster Clause",
+   "owner": "lpr"
+  },
+  {
+   "id": "settlement-options",
+   "term": "Settlement Options",
+   "owner": "lpr"
+  },
+  {
+   "id": "interest-only-option",
+   "term": "Interest-Only Option",
+   "owner": "lpr"
+  },
+  {
+   "id": "fixed-period-option",
+   "term": "Fixed-Period Installments",
+   "owner": "lpr"
+  },
+  {
+   "id": "fixed-amount-option",
+   "term": "Fixed-Amount Installments",
+   "owner": "lpr"
+  },
+  {
+   "id": "life-income-option",
+   "term": "Life Income Option",
+   "owner": "lpr"
+  },
+  {
+   "id": "spendthrift-clause",
+   "term": "Spendthrift Clause",
+   "owner": "lpr"
+  },
+  {
+   "id": "nonforfeiture-options",
+   "term": "Nonforfeiture Options",
+   "owner": "lpr"
+  },
+  {
+   "id": "cash-surrender-value",
+   "term": "Cash Surrender Value",
+   "owner": "lpr"
+  },
+  {
+   "id": "extended-term-option",
+   "term": "Extended Term Option",
+   "owner": "lpr"
+  },
+  {
+   "id": "reduced-paid-up-option",
+   "term": "Reduced Paid-Up Option",
+   "owner": "lpr"
+  },
+  {
+   "id": "policy-loan",
+   "term": "Policy Loan",
+   "owner": "lpr"
+  },
+  {
+   "id": "automatic-premium-loan",
+   "term": "Automatic Premium Loan",
+   "owner": "lpr"
+  },
+  {
+   "id": "partial-surrender",
+   "term": "Withdrawal (Partial Surrender)",
+   "owner": "lpr"
+  },
+  {
+   "id": "dividend",
+   "term": "Policy Dividend",
+   "owner": "lpr"
+  },
+  {
+   "id": "dividend-options",
+   "term": "Dividend Options",
+   "owner": "lpr"
+  },
+  {
+   "id": "paid-up-additions",
+   "term": "Paid-Up Additions",
+   "owner": "lpr"
+  },
+  {
+   "id": "rider",
+   "term": "Rider",
+   "owner": "lpr"
+  },
+  {
+   "id": "waiver-of-premium",
+   "term": "Waiver of Premium",
+   "owner": "lpr"
+  },
+  {
+   "id": "waiver-of-cost-of-insurance",
+   "term": "Waiver of Cost of Insurance",
+   "owner": "lpr"
+  },
+  {
+   "id": "payor-benefit-rider",
+   "term": "Payor Benefit Rider",
+   "owner": "lpr"
+  },
+  {
+   "id": "accelerated-death-benefit",
+   "term": "Accelerated (Living) Benefit",
+   "owner": "lpr"
+  },
+  {
+   "id": "other-insured-rider",
+   "term": "Spouse / Other-Insured Term Rider",
+   "owner": "lpr"
+  },
+  {
+   "id": "childrens-term-rider",
+   "term": "Children's Term Rider",
+   "owner": "lpr"
+  },
+  {
+   "id": "family-term-rider",
+   "term": "Family Term Rider",
+   "owner": "lpr"
+  },
+  {
+   "id": "accidental-death-benefit",
+   "term": "Accidental Death Benefit (Double Indemnity)",
+   "owner": "lpr"
+  },
+  {
+   "id": "guaranteed-insurability-rider",
+   "term": "Guaranteed Insurability Rider",
+   "owner": "lpr"
+  },
+  {
+   "id": "cost-of-living-rider",
+   "term": "Cost of Living Rider (Life)",
+   "owner": "lpr"
+  },
+  {
+   "id": "return-of-premium-rider",
+   "term": "Return of Premium Rider",
+   "owner": "lpr"
+  },
+  {
+   "id": "term-rider",
+   "term": "Term Rider",
+   "owner": "lpr"
+  },
+  {
+   "id": "annuity",
+   "term": "Annuity",
+   "owner": "ann"
+  },
+  {
+   "id": "annuitant",
+   "term": "Annuitant",
+   "owner": "ann"
+  },
+  {
+   "id": "accumulation-period",
+   "term": "Accumulation Period",
+   "owner": "ann"
+  },
+  {
+   "id": "annuitization",
+   "term": "Annuity (Payout) Period / Annuitization",
+   "owner": "ann"
+  },
+  {
+   "id": "immediate-annuity",
+   "term": "Immediate Annuity (SPIA)",
+   "owner": "ann"
+  },
+  {
+   "id": "deferred-annuity",
+   "term": "Deferred Annuity",
+   "owner": "ann"
+  },
+  {
+   "id": "flexible-premium-annuity",
+   "term": "Flexible Premium Deferred Annuity",
+   "owner": "ann"
+  },
+  {
+   "id": "surrender-charge",
+   "term": "Surrender Charge",
+   "owner": "ann"
+  },
+  {
+   "id": "straight-life-annuity",
+   "term": "Straight (Pure) Life Annuity",
+   "owner": "ann"
+  },
+  {
+   "id": "life-annuity-period-certain",
+   "term": "Life Annuity with Period Certain",
+   "owner": "ann"
+  },
+  {
+   "id": "refund-annuity",
+   "term": "Refund Annuity (Cash or Installment)",
+   "owner": "ann"
+  },
+  {
+   "id": "joint-and-survivor",
+   "term": "Joint and Survivor Option",
+   "owner": "ann"
+  },
+  {
+   "id": "joint-life-annuity",
+   "term": "Joint Life Annuity",
+   "owner": "ann"
+  },
+  {
+   "id": "annuity-certain",
+   "term": "Annuity Certain",
+   "owner": "ann"
+  },
+  {
+   "id": "fixed-annuity",
+   "term": "Fixed Annuity",
+   "owner": "ann"
+  },
+  {
+   "id": "general-account",
+   "term": "General Account",
+   "owner": "ann"
+  },
+  {
+   "id": "separate-account",
+   "term": "Separate Account",
+   "owner": "ann"
+  },
+  {
+   "id": "guaranteed-minimum-rate",
+   "term": "Minimum Guaranteed Interest Rate",
+   "owner": "ann"
+  },
+  {
+   "id": "current-interest-rate",
+   "term": "Current Interest Rate",
+   "owner": "ann"
+  },
+  {
+   "id": "indexed-annuity",
+   "term": "Fixed (Equity) Indexed Annuity",
+   "owner": "ann"
+  },
+  {
+   "id": "variable-annuity",
+   "term": "Variable Annuity",
+   "owner": "ann"
+  },
+  {
+   "id": "accumulation-units",
+   "term": "Accumulation Units and Annuity Units",
+   "owner": "ann"
+  },
+  {
+   "id": "gmwb",
+   "term": "Guaranteed Minimum Withdrawal Benefit (GMWB)",
+   "owner": "ann"
+  },
+  {
+   "id": "tax-deferral",
+   "term": "Tax Deferral",
+   "owner": "ann"
+  },
+  {
+   "id": "cost-basis",
+   "term": "Cost Basis",
+   "owner": "tax"
+  },
+  {
+   "id": "exclusion-ratio",
+   "term": "Exclusion Ratio",
+   "owner": "tax"
+  },
+  {
+   "id": "section-1035-exchange",
+   "term": "Section 1035 Exchange",
+   "owner": "tax"
+  },
+  {
+   "id": "modified-endowment-contract",
+   "term": "Modified Endowment Contract (MEC)",
+   "owner": "tax"
+  },
+  {
+   "id": "rollover",
+   "term": "Rollover",
+   "owner": "tax"
+  },
+  {
+   "id": "trustee-to-trustee-transfer",
+   "term": "Trustee-to-Trustee Transfer",
+   "owner": "tax"
+  },
+  {
+   "id": "death-benefit-taxation",
+   "term": "Income Tax Treatment of Death Proceeds",
+   "owner": "tax"
+  },
+  {
+   "id": "qualified-plan",
+   "term": "Qualified Plan",
+   "owner": "qp"
+  },
+  {
+   "id": "defined-benefit-plan",
+   "term": "Defined Benefit Plan",
+   "owner": "qp"
+  },
+  {
+   "id": "defined-contribution-plan",
+   "term": "Defined Contribution Plan",
+   "owner": "qp"
+  },
+  {
+   "id": "keogh-plan",
+   "term": "Keogh (HR-10) Plan",
+   "owner": "qp"
+  },
+  {
+   "id": "simple-plan",
+   "term": "SIMPLE Plan",
+   "owner": "qp"
+  },
+  {
+   "id": "sep-plan",
+   "term": "Simplified Employee Pension (SEP)",
+   "owner": "qp"
+  },
+  {
+   "id": "plan-401k",
+   "term": "401(k) Plan",
+   "owner": "qp"
+  },
+  {
+   "id": "plan-457",
+   "term": "457 Plan",
+   "owner": "qp"
+  },
+  {
+   "id": "traditional-ira",
+   "term": "Traditional IRA",
+   "owner": "qp"
+  },
+  {
+   "id": "roth-ira",
+   "term": "Roth IRA",
+   "owner": "qp"
+  },
+  {
+   "id": "vesting",
+   "term": "Vesting",
+   "owner": "qp"
+  },
+  {
+   "id": "required-minimum-distribution",
+   "term": "Required Minimum Distribution (RMD)",
+   "owner": "qp"
+  },
+  {
+   "id": "life-settlement",
+   "term": "Life Settlement",
+   "owner": "ls"
+  },
+  {
+   "id": "life-settlement-broker",
+   "term": "Life Settlement Broker",
+   "owner": "ls"
+  },
+  {
+   "id": "life-settlement-provider",
+   "term": "Life Settlement Provider",
+   "owner": "ls"
+  },
+  {
+   "id": "financing-transaction",
+   "term": "Financing Transaction",
+   "owner": "ls"
+  },
+  {
+   "id": "life-expectancy",
+   "term": "Life Expectancy",
+   "owner": "ls"
+  },
+  {
+   "id": "stoli",
+   "term": "Stranger-Originated Life Insurance (STOLI)",
+   "owner": "ls"
+  },
+  {
+   "id": "viatical-settlement",
+   "term": "Viatical Settlement",
+   "owner": "ls"
+  },
+  {
+   "id": "accidental-bodily-injury",
+   "term": "Accidental Bodily Injury",
+   "owner": "ahb"
+  },
+  {
+   "id": "accidental-means",
+   "term": "Accidental Means",
+   "owner": "ahb"
+  },
+  {
+   "id": "sickness",
+   "term": "Sickness",
+   "owner": "ahb"
+  },
+  {
+   "id": "disability-income-insurance",
+   "term": "Disability Income Insurance",
+   "owner": "ahb"
+  },
+  {
+   "id": "medical-expense-insurance",
+   "term": "Medical Expense Insurance",
+   "owner": "ahb"
+  },
+  {
+   "id": "limited-policy",
+   "term": "Limited Benefit Policy",
+   "owner": "ahb"
+  },
+  {
+   "id": "accident-only-policy",
+   "term": "Accident-Only Policy",
+   "owner": "ahb"
+  },
+  {
+   "id": "specified-disease-policy",
+   "term": "Specified (Dread) Disease Policy",
+   "owner": "ahb"
+  },
+  {
+   "id": "hospital-indemnity",
+   "term": "Hospital Indemnity Policy",
+   "owner": "ahb"
+  },
+  {
+   "id": "dental-insurance",
+   "term": "Dental Insurance",
+   "owner": "ahb"
+  },
+  {
+   "id": "vision-insurance",
+   "term": "Vision Care Insurance",
+   "owner": "ahb"
+  },
+  {
+   "id": "exclusion",
+   "term": "Exclusion",
+   "owner": "ahb"
+  },
+  {
+   "id": "medical-necessity",
+   "term": "Medical Necessity",
+   "owner": "ahb"
+  },
+  {
+   "id": "experimental-treatment",
+   "term": "Experimental / Investigational Treatment",
+   "owner": "ahb"
+  },
+  {
+   "id": "outline-of-coverage",
+   "term": "Outline of Coverage",
+   "owner": "ahb"
+  },
+  {
+   "id": "errors-and-omissions",
+   "term": "Errors and Omissions (E&O)",
+   "owner": "ahb"
+  },
+  {
+   "id": "community-rating",
+   "term": "Community Rating",
+   "owner": "ahb"
+  },
+  {
+   "id": "small-group",
+   "term": "Small Group",
+   "owner": "ahb"
+  },
+  {
+   "id": "time-limit-on-certain-defenses",
+   "term": "Time Limit on Certain Defenses",
+   "owner": "ihp"
+  },
+  {
+   "id": "notice-of-claim",
+   "term": "Notice of Claim",
+   "owner": "ihp"
+  },
+  {
+   "id": "proof-of-loss",
+   "term": "Proof of Loss",
+   "owner": "ihp"
+  },
+  {
+   "id": "unpaid-premium-provision",
+   "term": "Unpaid Premium Provision",
+   "owner": "ihp"
+  },
+  {
+   "id": "cancellation-provision",
+   "term": "Cancellation Provision",
+   "owner": "ihp"
+  },
+  {
+   "id": "conformity-with-state-statutes",
+   "term": "Conformity with State Statutes",
+   "owner": "ihp"
+  },
+  {
+   "id": "illegal-occupation",
+   "term": "Illegal Occupation Provision",
+   "owner": "ihp"
+  },
+  {
+   "id": "intoxicants-and-narcotics",
+   "term": "Intoxicants and Narcotics Provision",
+   "owner": "ihp"
+  },
+  {
+   "id": "insuring-clause",
+   "term": "Insuring Clause",
+   "owner": "ihp"
+  },
+  {
+   "id": "consideration-clause",
+   "term": "Consideration Clause",
+   "owner": "ihp"
+  },
+  {
+   "id": "renewability-clause",
+   "term": "Renewability Clause",
+   "owner": "ihp"
+  },
+  {
+   "id": "noncancelable",
+   "term": "Noncancelable",
+   "owner": "ihp"
+  },
+  {
+   "id": "guaranteed-renewable",
+   "term": "Guaranteed Renewable",
+   "owner": "ihp"
+  },
+  {
+   "id": "conditionally-renewable",
+   "term": "Conditionally Renewable",
+   "owner": "ihp"
+  },
+  {
+   "id": "optionally-renewable",
+   "term": "Optionally Renewable",
+   "owner": "ihp"
+  },
+  {
+   "id": "other-insurance-provision",
+   "term": "Other Insurance with This Insurer",
+   "owner": "ihp"
+  },
+  {
+   "id": "total-disability",
+   "term": "Total Disability",
+   "owner": "di"
+  },
+  {
+   "id": "own-occupation",
+   "term": "Own Occupation",
+   "owner": "di"
+  },
+  {
+   "id": "any-occupation",
+   "term": "Any Occupation",
+   "owner": "di"
+  },
+  {
+   "id": "presumptive-disability",
+   "term": "Presumptive Disability",
+   "owner": "di"
+  },
+  {
+   "id": "elimination-period",
+   "term": "Elimination Period",
+   "owner": "di"
+  },
+  {
+   "id": "benefit-period",
+   "term": "Benefit Period",
+   "owner": "di"
+  },
+  {
+   "id": "additional-monthly-benefit",
+   "term": "Additional Monthly Benefit (AMB)",
+   "owner": "di"
+  },
+  {
+   "id": "social-insurance-supplement",
+   "term": "Social Insurance Supplement (SIS)",
+   "owner": "di"
+  },
+  {
+   "id": "occupational-coverage",
+   "term": "Occupational vs. Nonoccupational Coverage",
+   "owner": "di"
+  },
+  {
+   "id": "cost-of-living-adjustment",
+   "term": "Cost of Living Adjustment (COLA) Rider",
+   "owner": "di"
+  },
+  {
+   "id": "future-increase-option",
+   "term": "Future Increase Option (FIO)",
+   "owner": "di"
+  },
+  {
+   "id": "relation-of-earnings",
+   "term": "Relation of Earnings to Insurance",
+   "owner": "di"
+  },
+  {
+   "id": "ad-and-d",
+   "term": "Accidental Death and Dismemberment (AD&D)",
+   "owner": "di"
+  },
+  {
+   "id": "rehabilitation-benefit",
+   "term": "Rehabilitation Benefit",
+   "owner": "di"
+  },
+  {
+   "id": "partial-disability",
+   "term": "Partial Disability",
+   "owner": "di"
+  },
+  {
+   "id": "residual-disability",
+   "term": "Residual Disability",
+   "owner": "di"
+  },
+  {
+   "id": "short-term-disability",
+   "term": "Short-Term Disability (STD)",
+   "owner": "di"
+  },
+  {
+   "id": "long-term-disability",
+   "term": "Long-Term Disability (LTD)",
+   "owner": "di"
+  },
+  {
+   "id": "key-person-disability",
+   "term": "Key Person Disability Income",
+   "owner": "di"
+  },
+  {
+   "id": "disability-buy-sell",
+   "term": "Disability Buy-Sell Policy",
+   "owner": "di"
+  },
+  {
+   "id": "business-overhead-expense",
+   "term": "Business Overhead Expense (BOE)",
+   "owner": "di"
+  },
+  {
+   "id": "fee-for-service",
+   "term": "Fee-for-Service",
+   "owner": "med"
+  },
+  {
+   "id": "prepaid-plan",
+   "term": "Prepaid Plan",
+   "owner": "med"
+  },
+  {
+   "id": "usual-reasonable-customary",
+   "term": "Usual, Reasonable and Customary (URC)",
+   "owner": "med"
+  },
+  {
+   "id": "subscriber",
+   "term": "Subscriber",
+   "owner": "med"
+  },
+  {
+   "id": "major-medical",
+   "term": "Major Medical Insurance",
+   "owner": "med"
+  },
+  {
+   "id": "deductible",
+   "term": "Deductible",
+   "owner": "med"
+  },
+  {
+   "id": "coinsurance",
+   "term": "Coinsurance",
+   "owner": "med"
+  },
+  {
+   "id": "copayment",
+   "term": "Copayment",
+   "owner": "med"
+  },
+  {
+   "id": "out-of-pocket-maximum",
+   "term": "Out-of-Pocket Maximum",
+   "owner": "med"
+  },
+  {
+   "id": "hmo",
+   "term": "Health Maintenance Organization (HMO)",
+   "owner": "med"
+  },
+  {
+   "id": "primary-care-physician",
+   "term": "Primary Care Physician (PCP)",
+   "owner": "med"
+  },
+  {
+   "id": "referral",
+   "term": "Referral",
+   "owner": "med"
+  },
+  {
+   "id": "ppo",
+   "term": "Preferred Provider Organization (PPO)",
+   "owner": "med"
+  },
+  {
+   "id": "pos-plan",
+   "term": "Point-of-Service (POS) Plan",
+   "owner": "med"
+  },
+  {
+   "id": "epo",
+   "term": "Exclusive Provider Organization (EPO)",
+   "owner": "med"
+  },
+  {
+   "id": "in-network",
+   "term": "In-Network vs. Out-of-Network",
+   "owner": "med"
+  },
+  {
+   "id": "preventive-care",
+   "term": "Preventive Care",
+   "owner": "med"
+  },
+  {
+   "id": "utilization-review",
+   "term": "Utilization Review",
+   "owner": "med"
+  },
+  {
+   "id": "prospective-review",
+   "term": "Prospective Review",
+   "owner": "med"
+  },
+  {
+   "id": "concurrent-review",
+   "term": "Concurrent Review",
+   "owner": "med"
+  },
+  {
+   "id": "retrospective-review",
+   "term": "Retrospective Review",
+   "owner": "med"
+  },
+  {
+   "id": "mandated-benefit",
+   "term": "Mandated Benefit / Mandated Offer",
+   "owner": "med"
+  },
+  {
+   "id": "newborn-coverage",
+   "term": "Newborn Child Coverage",
+   "owner": "med"
+  },
+  {
+   "id": "handicapped-child-extension",
+   "term": "Coverage Extension for Disabled Children",
+   "owner": "med"
+  },
+  {
+   "id": "hipaa",
+   "term": "HIPAA",
+   "owner": "med"
+  },
+  {
+   "id": "guaranteed-issue",
+   "term": "Guaranteed Issue",
+   "owner": "med"
+  },
+  {
+   "id": "affordable-care-act",
+   "term": "Affordable Care Act (ACA)",
+   "owner": "aca"
+  },
+  {
+   "id": "preexisting-condition",
+   "term": "Preexisting Condition",
+   "owner": "aca"
+  },
+  {
+   "id": "health-insurance-exchange",
+   "term": "Health Insurance Exchange (Marketplace)",
+   "owner": "aca"
+  },
+  {
+   "id": "premium-tax-credit",
+   "term": "Advance Premium Tax Credit (APTC)",
+   "owner": "aca"
+  },
+  {
+   "id": "cost-sharing-reduction",
+   "term": "Cost-Sharing Reduction (CSR)",
+   "owner": "aca"
+  },
+  {
+   "id": "benchmark-plan",
+   "term": "Benchmark Plan",
+   "owner": "aca"
+  },
+  {
+   "id": "metal-levels",
+   "term": "Metal Levels",
+   "owner": "aca"
+  },
+  {
+   "id": "catastrophic-plan",
+   "term": "Catastrophic Plan",
+   "owner": "aca"
+  },
+  {
+   "id": "medical-loss-ratio",
+   "term": "Medical Loss Ratio (MLR)",
+   "owner": "aca"
+  },
+  {
+   "id": "actuarial-value",
+   "term": "Actuarial Value",
+   "owner": "aca"
+  },
+  {
+   "id": "open-enrollment-period",
+   "term": "Open Enrollment Period",
+   "owner": "aca"
+  },
+  {
+   "id": "special-enrollment-period",
+   "term": "Special Enrollment Period",
+   "owner": "aca"
+  },
+  {
+   "id": "individual-mandate",
+   "term": "Individual Mandate",
+   "owner": "aca"
+  },
+  {
+   "id": "employer-shared-responsibility",
+   "term": "Employer Shared Responsibility",
+   "owner": "aca"
+  },
+  {
+   "id": "essential-health-benefits",
+   "term": "Essential Health Benefits",
+   "owner": "aca"
+  },
+  {
+   "id": "lifetime-limit",
+   "term": "Annual and Lifetime Dollar Limits",
+   "owner": "aca"
+  },
+  {
+   "id": "long-term-care-insurance",
+   "term": "Long-Term Care Insurance",
+   "owner": "ltc"
+  },
+  {
+   "id": "skilled-care",
+   "term": "Skilled Care",
+   "owner": "ltc"
+  },
+  {
+   "id": "intermediate-care",
+   "term": "Intermediate Care",
+   "owner": "ltc"
+  },
+  {
+   "id": "custodial-care",
+   "term": "Custodial Care",
+   "owner": "ltc"
+  },
+  {
+   "id": "home-health-care",
+   "term": "Home Health Care",
+   "owner": "ltc"
+  },
+  {
+   "id": "adult-day-care",
+   "term": "Adult Day Care",
+   "owner": "ltc"
+  },
+  {
+   "id": "respite-care",
+   "term": "Respite Care",
+   "owner": "ltc"
+  },
+  {
+   "id": "nursing-home-care",
+   "term": "Nursing Home Care",
+   "owner": "ltc"
+  },
+  {
+   "id": "assisted-living",
+   "term": "Assisted Living",
+   "owner": "ltc"
+  },
+  {
+   "id": "activities-of-daily-living",
+   "term": "Activities of Daily Living (ADLs)",
+   "owner": "ltc"
+  },
+  {
+   "id": "cognitive-impairment",
+   "term": "Cognitive Impairment",
+   "owner": "ltc"
+  },
+  {
+   "id": "reimbursement-vs-indemnity",
+   "term": "Reimbursement vs. Indemnity (Cash) Benefits",
+   "owner": "ltc"
+  },
+  {
+   "id": "inflation-protection",
+   "term": "Inflation Protection",
+   "owner": "ltc"
+  },
+  {
+   "id": "ltc-nonforfeiture",
+   "term": "LTC Nonforfeiture Benefit",
+   "owner": "ltc"
+  },
+  {
+   "id": "shared-care",
+   "term": "Shared Care",
+   "owner": "ltc"
+  },
+  {
+   "id": "hybrid-ltc",
+   "term": "Hybrid (Linked-Benefit) LTC",
+   "owner": "ltc"
+  },
+  {
+   "id": "ltc-partnership",
+   "term": "NY State Partnership for Long-Term Care",
+   "owner": "ltc"
+  },
+  {
+   "id": "dollar-for-dollar",
+   "term": "Dollar-for-Dollar Asset Protection",
+   "owner": "ltc"
+  },
+  {
+   "id": "estate-recovery",
+   "term": "Medicaid Estate Recovery",
+   "owner": "ltc"
+  },
+  {
+   "id": "ltc-tax-credit",
+   "term": "NY Long-Term Care Insurance Tax Credit",
+   "owner": "ltc"
+  },
+  {
+   "id": "master-policy",
+   "term": "Master Policy (Group Contract)",
+   "owner": "grp"
+  },
+  {
+   "id": "certificate-of-coverage",
+   "term": "Certificate of Coverage",
+   "owner": "grp"
+  },
+  {
+   "id": "experience-rating",
+   "term": "Experience Rating",
+   "owner": "grp"
+  },
+  {
+   "id": "eligible-group",
+   "term": "Eligible Group",
+   "owner": "grp"
+  },
+  {
+   "id": "blanket-insurance",
+   "term": "Blanket Insurance",
+   "owner": "grp"
+  },
+  {
+   "id": "professional-employer-organization",
+   "term": "Professional Employer Organization (PEO)",
+   "owner": "grp"
+  },
+  {
+   "id": "association-group",
+   "term": "Association Group",
+   "owner": "grp"
+  },
+  {
+   "id": "erisa",
+   "term": "ERISA",
+   "owner": "grp"
+  },
+  {
+   "id": "fmla",
+   "term": "Family and Medical Leave Act (FMLA)",
+   "owner": "grp"
+  },
+  {
+   "id": "medicare-secondary-payer",
+   "term": "Medicare Secondary Payer Rules",
+   "owner": "grp"
+  },
+  {
+   "id": "medicare-carve-out",
+   "term": "Medicare Carve-Out",
+   "owner": "grp"
+  },
+  {
+   "id": "nondiscrimination-rules",
+   "term": "Nondiscrimination Rules",
+   "owner": "grp"
+  },
+  {
+   "id": "fully-insured-plan",
+   "term": "Fully Insured Plan",
+   "owner": "grp"
+  },
+  {
+   "id": "self-funded-plan",
+   "term": "Self-Funded (Self-Insured) Plan",
+   "owner": "grp"
+  },
+  {
+   "id": "stop-loss-coverage",
+   "term": "Stop-Loss Coverage",
+   "owner": "grp"
+  },
+  {
+   "id": "administrative-services-only",
+   "term": "Administrative Services Only (ASO)",
+   "owner": "grp"
+  },
+  {
+   "id": "persistency",
+   "term": "Persistency",
+   "owner": "grp"
+  },
+  {
+   "id": "open-enrollment-group",
+   "term": "Group Open Enrollment",
+   "owner": "grp"
+  },
+  {
+   "id": "probationary-period",
+   "term": "Probationary Period",
+   "owner": "grp"
+  },
+  {
+   "id": "coordination-of-benefits",
+   "term": "Coordination of Benefits (COB)",
+   "owner": "grp"
+  },
+  {
+   "id": "extension-of-benefits",
+   "term": "Extension of Benefits",
+   "owner": "grp"
+  },
+  {
+   "id": "cobra",
+   "term": "COBRA Continuation",
+   "owner": "grp"
+  },
+  {
+   "id": "ny-continuation",
+   "term": "New York State Continuation",
+   "owner": "grp"
+  },
+  {
+   "id": "small-employer",
+   "term": "Small Employer",
+   "owner": "grp"
+  },
+  {
+   "id": "workers-compensation",
+   "term": "Workers' Compensation",
+   "owner": "gov"
+  },
+  {
+   "id": "social-security-disability",
+   "term": "Social Security Disability Insurance (SSDI)",
+   "owner": "gov"
+  },
+  {
+   "id": "disability-benefits-law",
+   "term": "NY Disability Benefits Law (DBL)",
+   "owner": "gov"
+  },
+  {
+   "id": "medicaid",
+   "term": "Medicaid",
+   "owner": "gov"
+  },
+  {
+   "id": "child-health-plus",
+   "term": "Child Health Plus",
+   "owner": "gov"
+  },
+  {
+   "id": "medicare",
+   "term": "Medicare",
+   "owner": "gov"
+  },
+  {
+   "id": "medicare-part-a",
+   "term": "Medicare Part A",
+   "owner": "gov"
+  },
+  {
+   "id": "medicare-part-b",
+   "term": "Medicare Part B",
+   "owner": "gov"
+  },
+  {
+   "id": "medicare-advantage",
+   "term": "Medicare Advantage (Part C)",
+   "owner": "gov"
+  },
+  {
+   "id": "medicare-part-d",
+   "term": "Medicare Part D",
+   "owner": "gov"
+  },
+  {
+   "id": "medicare-benefit-period",
+   "term": "Medicare Benefit Period",
+   "owner": "gov"
+  },
+  {
+   "id": "initial-enrollment-period",
+   "term": "Medicare Initial Enrollment Period",
+   "owner": "gov"
+  },
+  {
+   "id": "fsa",
+   "term": "Flexible Spending Account (FSA)",
+   "owner": "gov"
+  },
+  {
+   "id": "hsa",
+   "term": "Health Savings Account (HSA)",
+   "owner": "gov"
+  },
+  {
+   "id": "high-deductible-health-plan",
+   "term": "High-Deductible Health Plan (HDHP)",
+   "owner": "gov"
+  },
+  {
+   "id": "healthy-new-york",
+   "term": "Healthy NY",
+   "owner": "gov"
+  },
+  {
+   "id": "medicare-supplement",
+   "term": "Medicare Supplement (Medigap)",
+   "owner": "sen"
+  },
+  {
+   "id": "medigap-open-enrollment",
+   "term": "Medigap Open Enrollment",
+   "owner": "sen"
+  },
+  {
+   "id": "standardized-medigap-plans",
+   "term": "Standardized Medigap Plans",
+   "owner": "sen"
+  },
+  {
+   "id": "medigap-core-benefits",
+   "term": "Medigap Core (Basic) Benefits",
+   "owner": "sen"
+  },
+  {
+   "id": "medicare-select",
+   "term": "Medicare SELECT",
+   "owner": "sen"
+  },
+  {
+   "id": "esrd",
+   "term": "End-Stage Renal Disease (ESRD) and Medicare",
+   "owner": "sen"
+  },
+  {
+   "id": "medicare-disabled-under-65",
+   "term": "Medicare for Disabled Individuals Under 65",
+   "owner": "sen"
+  },
+  {
+   "id": "working-aged",
+   "term": "Employer Group Coverage for Employees 65 or Older",
+   "owner": "sen"
+  },
+  {
+   "id": "business-of-life-settlements",
+   "term": "Business of Life Settlements",
+   "owner": "ls"
+  },
+  {
+   "id": "cold-lead-advertising",
+   "term": "Cold Lead Advertising",
+   "owner": "sen"
+  },
+  {
+   "id": "redlining",
+   "term": "Redlining (Geographic Underwriting Prohibition)",
+   "owner": "plpc"
+  },
+  {
+   "id": "insurance-risk-score",
+   "term": "Insurance Risk Score (Credit Scoring)",
+   "owner": "plpc"
+  },
+  {
+   "id": "manual-rating",
+   "term": "Class (Manual) Rating",
+   "owner": "plpc"
+  },
+  {
+   "id": "schedule-rating",
+   "term": "Schedule Rating",
+   "owner": "plpc"
+  },
+  {
+   "id": "judgment-rating",
+   "term": "Judgment Rating",
+   "owner": "plpc"
+  },
+  {
+   "id": "loss-costs",
+   "term": "Loss Costs",
+   "owner": "plpc"
+  },
+  {
+   "id": "pure-premium",
+   "term": "Pure Premium",
+   "owner": "plpc"
+  },
+  {
+   "id": "expense-loading",
+   "term": "Expense and Profit Loading",
+   "owner": "plpc"
+  },
+  {
+   "id": "negligence",
+   "term": "Negligence",
+   "owner": "plpc"
+  },
+  {
+   "id": "contributory-negligence",
+   "term": "Contributory Negligence",
+   "owner": "plpc"
+  },
+  {
+   "id": "comparative-negligence",
+   "term": "Comparative Negligence",
+   "owner": "plpc"
+  },
+  {
+   "id": "assumption-of-risk",
+   "term": "Assumption of Risk",
+   "owner": "plpc"
+  },
+  {
+   "id": "compensatory-damages",
+   "term": "Compensatory Damages",
+   "owner": "plpc"
+  },
+  {
+   "id": "special-damages",
+   "term": "Special Damages",
+   "owner": "plpc"
+  },
+  {
+   "id": "general-damages",
+   "term": "General Damages",
+   "owner": "plpc"
+  },
+  {
+   "id": "punitive-damages",
+   "term": "Punitive Damages",
+   "owner": "plpc"
+  },
+  {
+   "id": "absolute-liability",
+   "term": "Absolute Liability",
+   "owner": "plpc"
+  },
+  {
+   "id": "strict-liability",
+   "term": "Strict Liability",
+   "owner": "plpc"
+  },
+  {
+   "id": "vicarious-liability",
+   "term": "Vicarious Liability",
+   "owner": "plpc"
+  },
+  {
+   "id": "proximate-cause",
+   "term": "Proximate Cause",
+   "owner": "plpc"
+  },
+  {
+   "id": "named-perils-coverage",
+   "term": "Named Perils Coverage",
+   "owner": "plpc"
+  },
+  {
+   "id": "open-perils-coverage",
+   "term": "Open (Special) Perils Coverage",
+   "owner": "plpc"
+  },
+  {
+   "id": "direct-loss",
+   "term": "Direct Loss",
+   "owner": "plpc"
+  },
+  {
+   "id": "consequential-loss",
+   "term": "Consequential (Indirect) Loss",
+   "owner": "plpc"
+  },
+  {
+   "id": "specific-insurance",
+   "term": "Specific Insurance",
+   "owner": "plpc"
+  },
+  {
+   "id": "construction-classes",
+   "term": "Basic Types of Construction",
+   "owner": "plpc"
+  },
+  {
+   "id": "actual-cash-value",
+   "term": "Actual Cash Value (ACV)",
+   "owner": "plpc"
+  },
+  {
+   "id": "replacement-cost",
+   "term": "Replacement Cost",
+   "owner": "plpc"
+  },
+  {
+   "id": "guaranteed-replacement-cost",
+   "term": "Guaranteed Replacement Cost",
+   "owner": "plpc"
+  },
+  {
+   "id": "functional-replacement-cost",
+   "term": "Functional Replacement Cost",
+   "owner": "plpc"
+  },
+  {
+   "id": "market-value",
+   "term": "Market Value",
+   "owner": "plpc"
+  },
+  {
+   "id": "agreed-value",
+   "term": "Agreed Value",
+   "owner": "plpc"
+  },
+  {
+   "id": "stated-amount",
+   "term": "Stated Amount",
+   "owner": "plpc"
+  },
+  {
+   "id": "declarations-page",
+   "term": "Declarations",
+   "owner": "plpc"
+  },
+  {
+   "id": "insuring-agreement",
+   "term": "Insuring Agreement",
+   "owner": "plpc"
+  },
+  {
+   "id": "policy-conditions",
+   "term": "Policy Conditions",
+   "owner": "plpc"
+  },
+  {
+   "id": "endorsement",
+   "term": "Endorsement",
+   "owner": "plpc"
+  },
+  {
+   "id": "named-insured",
+   "term": "Named Insured",
+   "owner": "plpc"
+  },
+  {
+   "id": "first-named-insured",
+   "term": "First Named Insured",
+   "owner": "plpc"
+  },
+  {
+   "id": "additional-insured",
+   "term": "Additional Insured",
+   "owner": "plpc"
+  },
+  {
+   "id": "policy-period",
+   "term": "Policy Period",
+   "owner": "plpc"
+  },
+  {
+   "id": "policy-territory",
+   "term": "Policy Territory",
+   "owner": "plpc"
+  },
+  {
+   "id": "pro-rata-cancellation",
+   "term": "Pro Rata Cancellation",
+   "owner": "plpc"
+  },
+  {
+   "id": "short-rate-cancellation",
+   "term": "Short Rate Cancellation",
+   "owner": "plpc"
+  },
+  {
+   "id": "flat-cancellation",
+   "term": "Flat Cancellation",
+   "owner": "plpc"
+  },
+  {
+   "id": "earned-premium",
+   "term": "Earned Premium",
+   "owner": "plpc"
+  },
+  {
+   "id": "policy-deductible",
+   "term": "Policy Deductible (Property and Liability)",
+   "owner": "plpc"
+  },
+  {
+   "id": "self-insured-retention",
+   "term": "Self-Insured Retention (SIR)",
+   "owner": "plpc"
+  },
+  {
+   "id": "other-insurance-clause",
+   "term": "Other Insurance Clause",
+   "owner": "plpc"
+  },
+  {
+   "id": "per-occurrence-limit",
+   "term": "Per Occurrence Limit",
+   "owner": "plpc"
+  },
+  {
+   "id": "aggregate-limit",
+   "term": "Aggregate Limit",
+   "owner": "plpc"
+  },
+  {
+   "id": "sublimit",
+   "term": "Sublimit",
+   "owner": "plpc"
+  },
+  {
+   "id": "split-limits",
+   "term": "Split Limits",
+   "owner": "plpc"
+  },
+  {
+   "id": "combined-single-limit",
+   "term": "Combined Single Limit (CSL)",
+   "owner": "plpc"
+  },
+  {
+   "id": "ordinance-or-law-coverage",
+   "term": "Ordinance or Law Coverage",
+   "owner": "plpc"
+  },
+  {
+   "id": "vacancy-clause",
+   "term": "Vacancy vs. Unoccupancy",
+   "owner": "plpc"
+  },
+  {
+   "id": "duties-after-loss",
+   "term": "Duties After Loss",
+   "owner": "plpc"
+  },
+  {
+   "id": "abandonment",
+   "term": "Abandonment",
+   "owner": "plpc"
+  },
+  {
+   "id": "liberalization-clause",
+   "term": "Liberalization Clause",
+   "owner": "plpc"
+  },
+  {
+   "id": "subrogation",
+   "term": "Subrogation",
+   "owner": "plpc"
+  },
+  {
+   "id": "salvage",
+   "term": "Salvage",
+   "owner": "plpc"
+  },
+  {
+   "id": "duty-to-defend",
+   "term": "Duty to Defend",
+   "owner": "plpc"
+  },
+  {
+   "id": "property-coinsurance-clause",
+   "term": "Coinsurance Clause (Property)",
+   "owner": "plpc"
+  },
+  {
+   "id": "mortgage-clause",
+   "term": "Standard Mortgage Clause",
+   "owner": "plpc"
+  },
+  {
+   "id": "loss-payable-clause",
+   "term": "Loss Payable Clause",
+   "owner": "plpc"
+  },
+  {
+   "id": "bailee-clause",
+   "term": "No Benefit to Bailee Clause",
+   "owner": "plpc"
+  },
+  {
+   "id": "certificate-of-insurance",
+   "term": "Certificate of Insurance",
+   "owner": "plpc"
+  },
+  {
+   "id": "binder",
+   "term": "Binder",
+   "owner": "plpc"
+  },
+  {
+   "id": "dwelling-policy",
+   "term": "Dwelling Policy",
+   "owner": "pldwl"
+  },
+  {
+   "id": "dp-basic-form",
+   "term": "Dwelling Basic Form (DP-1)",
+   "owner": "pldwl"
+  },
+  {
+   "id": "dp-broad-form",
+   "term": "Dwelling Broad Form (DP-2)",
+   "owner": "pldwl"
+  },
+  {
+   "id": "dp-special-form",
+   "term": "Dwelling Special Form (DP-3)",
+   "owner": "pldwl"
+  },
+  {
+   "id": "fair-rental-value",
+   "term": "Fair Rental Value",
+   "owner": "pldwl"
+  },
+  {
+   "id": "additional-living-expense",
+   "term": "Additional Living Expense",
+   "owner": "pldwl"
+  },
+  {
+   "id": "other-structures",
+   "term": "Other Structures Coverage",
+   "owner": "pldwl"
+  },
+  {
+   "id": "personal-liability-supplement",
+   "term": "Personal Liability Supplement",
+   "owner": "pldwl"
+  },
+  {
+   "id": "broad-theft-endorsement",
+   "term": "Broad Theft Endorsement",
+   "owner": "pldwl"
+  },
+  {
+   "id": "dwelling-under-construction",
+   "term": "Dwelling Under Construction Endorsement",
+   "owner": "pldwl"
+  },
+  {
+   "id": "ho-special-form",
+   "term": "Homeowners Special Form (HO-3)",
+   "owner": "plho"
+  },
+  {
+   "id": "ho-broad-form",
+   "term": "Homeowners Broad Form (HO-2)",
+   "owner": "plho"
+  },
+  {
+   "id": "ho-contents-broad-form",
+   "term": "Contents Broad Form (HO-4)",
+   "owner": "plho"
+  },
+  {
+   "id": "ho-comprehensive-form",
+   "term": "Comprehensive Form (HO-5)",
+   "owner": "plho"
+  },
+  {
+   "id": "ho-unit-owners-form",
+   "term": "Unit-Owners Form (HO-6)",
+   "owner": "plho"
+  },
+  {
+   "id": "ho-modified-coverage-form",
+   "term": "Modified Coverage Form (HO-8)",
+   "owner": "plho"
+  },
+  {
+   "id": "coverage-a-dwelling",
+   "term": "Coverage A - Dwelling",
+   "owner": "plho"
+  },
+  {
+   "id": "coverage-b-other-structures",
+   "term": "Coverage B - Other Structures",
+   "owner": "plho"
+  },
+  {
+   "id": "coverage-c-personal-property",
+   "term": "Coverage C - Personal Property",
+   "owner": "plho"
+  },
+  {
+   "id": "coverage-d-loss-of-use",
+   "term": "Coverage D - Loss of Use",
+   "owner": "plho"
+  },
+  {
+   "id": "coverage-e-personal-liability",
+   "term": "Coverage E - Personal Liability",
+   "owner": "plho"
+  },
+  {
+   "id": "coverage-f-medical-payments",
+   "term": "Coverage F - Medical Payments to Others",
+   "owner": "plho"
+  },
+  {
+   "id": "residence-premises",
+   "term": "Residence Premises",
+   "owner": "plho"
+  },
+  {
+   "id": "resident-relative",
+   "term": "Resident Relative",
+   "owner": "plho"
+  },
+  {
+   "id": "insured-location",
+   "term": "Insured Location",
+   "owner": "plho"
+  },
+  {
+   "id": "occurrence",
+   "term": "Occurrence",
+   "owner": "plho"
+  },
+  {
+   "id": "bodily-injury",
+   "term": "Bodily Injury",
+   "owner": "plho"
+  },
+  {
+   "id": "property-damage",
+   "term": "Property Damage",
+   "owner": "plho"
+  },
+  {
+   "id": "special-limits-of-liability",
+   "term": "Special Limits of Liability (Personal Property)",
+   "owner": "plho"
+  },
+  {
+   "id": "scheduled-personal-property",
+   "term": "Scheduled Personal Property Endorsement",
+   "owner": "plho"
+  },
+  {
+   "id": "earthquake-endorsement",
+   "term": "Earthquake Endorsement",
+   "owner": "plho"
+  },
+  {
+   "id": "identity-fraud-endorsement",
+   "term": "Identity Fraud Expense Endorsement",
+   "owner": "plho"
+  },
+  {
+   "id": "home-business-endorsement",
+   "term": "Home Business Endorsement",
+   "owner": "plho"
+  },
+  {
+   "id": "personal-injury-endorsement",
+   "term": "Personal Injury Endorsement (NY)",
+   "owner": "plho"
+  },
+  {
+   "id": "water-backup-endorsement",
+   "term": "Water Back-Up and Sump Discharge Endorsement",
+   "owner": "plho"
+  },
+  {
+   "id": "personal-property-replacement-cost",
+   "term": "Personal Property Replacement Cost Endorsement",
+   "owner": "plho"
+  },
+  {
+   "id": "residence-employees-endorsement",
+   "term": "Workers' Compensation for Residence Employees Endorsement",
+   "owner": "plho"
+  },
+  {
+   "id": "financial-responsibility-law",
+   "term": "NY Motor Vehicle Financial Responsibility Law",
+   "owner": "plauto"
+  },
+  {
+   "id": "transportation-network-company",
+   "term": "Transportation Network Company (Ridesharing)",
+   "owner": "plauto"
+  },
+  {
+   "id": "proof-of-insurance",
+   "term": "Required Proof of Insurance",
+   "owner": "plauto"
+  },
+  {
+   "id": "iies",
+   "term": "Insurance Information and Enforcement System (IIES)",
+   "owner": "plauto"
+  },
+  {
+   "id": "auto-id-card",
+   "term": "Auto Insurance ID Card",
+   "owner": "plauto"
+  },
+  {
+   "id": "ny-auto-insurance-plan",
+   "term": "NY Automobile Insurance Plan (Assigned Risk)",
+   "owner": "plauto"
+  },
+  {
+   "id": "no-fault-law",
+   "term": "No-Fault (Comprehensive Motor Vehicle Insurance Reparations Act)",
+   "owner": "plauto"
+  },
+  {
+   "id": "personal-injury-protection",
+   "term": "Personal Injury Protection (PIP)",
+   "owner": "plauto"
+  },
+  {
+   "id": "basic-economic-loss",
+   "term": "Basic Economic Loss",
+   "owner": "plauto"
+  },
+  {
+   "id": "serious-injury-threshold",
+   "term": "Serious Injury Threshold (Verbal Threshold)",
+   "owner": "plauto"
+  },
+  {
+   "id": "obel",
+   "term": "Optional Basic Economic Loss (OBEL)",
+   "owner": "plauto"
+  },
+  {
+   "id": "additional-pip",
+   "term": "Additional Personal Injury Protection",
+   "owner": "plauto"
+  },
+  {
+   "id": "maic",
+   "term": "Motor Vehicle Accident Indemnification Corporation (MVAIC)",
+   "owner": "plauto"
+  },
+  {
+   "id": "uninsured-motorist-coverage",
+   "term": "Uninsured Motorist Coverage",
+   "owner": "plauto"
+  },
+  {
+   "id": "sum-coverage",
+   "term": "Supplementary Uninsured/Underinsured Motorist (SUM) Coverage",
+   "owner": "plauto"
+  },
+  {
+   "id": "mandatory-auto-inspection",
+   "term": "Mandatory Inspection Requirements",
+   "owner": "plauto"
+  },
+  {
+   "id": "choice-of-repair-shop",
+   "term": "Choice of Repair Shop",
+   "owner": "plauto"
+  },
+  {
+   "id": "spousal-liability-coverage",
+   "term": "Supplemental Spousal Liability",
+   "owner": "plauto"
+  },
+  {
+   "id": "personal-auto-policy",
+   "term": "Personal Auto Policy (PAP)",
+   "owner": "plauto"
+  },
+  {
+   "id": "auto-liability-coverage",
+   "term": "Auto Liability Coverage",
+   "owner": "plauto"
+  },
+  {
+   "id": "supplementary-payments",
+   "term": "Supplementary Payments (Auto)",
+   "owner": "plauto"
+  },
+  {
+   "id": "auto-medical-payments",
+   "term": "Auto Medical Payments Coverage",
+   "owner": "plauto"
+  },
+  {
+   "id": "collision-coverage",
+   "term": "Collision Coverage",
+   "owner": "plauto"
+  },
+  {
+   "id": "comprehensive-coverage",
+   "term": "Other Than Collision (Comprehensive) Coverage",
+   "owner": "plauto"
+  },
+  {
+   "id": "transportation-expenses",
+   "term": "Transportation Expenses Coverage",
+   "owner": "plauto"
+  },
+  {
+   "id": "towing-and-labor",
+   "term": "Towing and Labor Costs Coverage",
+   "owner": "plauto"
+  },
+  {
+   "id": "named-non-owner-coverage",
+   "term": "Named Non-Owner Coverage",
+   "owner": "plauto"
+  },
+  {
+   "id": "miscellaneous-type-vehicle",
+   "term": "Miscellaneous Type Vehicle Endorsement",
+   "owner": "plauto"
+  },
+  {
+   "id": "rental-vehicle-coverage",
+   "term": "Rental Vehicle Coverage Endorsement",
+   "owner": "plauto"
+  },
+  {
+   "id": "joint-ownership-coverage",
+   "term": "Joint Ownership Coverage Endorsement",
+   "owner": "plauto"
+  },
+  {
+   "id": "out-of-state-coverage",
+   "term": "Out of State Coverage",
+   "owner": "plauto"
+  },
+  {
+   "id": "umbrella-policy",
+   "term": "Personal Umbrella Policy",
+   "owner": "ploth"
+  },
+  {
+   "id": "excess-liability-insurance",
+   "term": "Excess Liability Insurance",
+   "owner": "ploth"
+  },
+  {
+   "id": "nfip",
+   "term": "National Flood Insurance Program (NFIP)",
+   "owner": "ploth"
+  },
+  {
+   "id": "flood-definition",
+   "term": "Flood (NFIP Definition)",
+   "owner": "ploth"
+  },
+  {
+   "id": "flood-dwelling-form",
+   "term": "Flood Dwelling Form",
+   "owner": "ploth"
+  },
+  {
+   "id": "flood-general-property-form",
+   "term": "Flood General Property Form",
+   "owner": "ploth"
+  },
+  {
+   "id": "flood-rcbap",
+   "term": "Residential Condominium Building Association Policy (RCBAP)",
+   "owner": "ploth"
+  },
+  {
+   "id": "watercraft-policy",
+   "term": "Watercraft Policy",
+   "owner": "ploth"
+  },
+  {
+   "id": "fair-plan",
+   "term": "NY Property Insurance Underwriting Association (FAIR PLAN)",
+   "owner": "ploth"
+  },
+  {
+   "id": "c-map",
+   "term": "Coastal Market Assistance Program (C-MAP)",
+   "owner": "ploth"
+  },
+  {
+   "id": "excess-lines",
+   "term": "Excess Lines",
+   "owner": "ploth"
+  },
+  {
+   "id": "excess-lines-export-list",
+   "term": "Export List",
+   "owner": "ploth"
+  },
+  {
+   "id": "excess-lines-affidavit",
+   "term": "Excess Lines Affidavit",
+   "owner": "ploth"
+  },
+  {
+   "id": "excess-lines-total-cost-form",
+   "term": "Total Cost Form",
+   "owner": "ploth"
+  },
+  {
+   "id": "no-guaranty-fund-disclosure",
+   "term": "No Guaranty Fund Disclosure",
+   "owner": "ploth"
+  },
+  {
+   "id": "blanket-property-coverage",
+   "term": "Blanket Property Coverage",
+   "owner": "plpc"
+  }
+ ]
+}

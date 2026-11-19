@@ -1,0 +1,550 @@
+{
+  "sectionId": "aca",
+  "lessons": [
+    {
+      "id": "aca-l01",
+      "sectionId": "aca",
+      "order": 1,
+      "title": "The ACA's Core Protections: Preexisting Conditions, Essential Benefits and No Dollar Caps",
+      "outlineIds": [
+        "aca.1",
+        "aca.1.1",
+        "aca.1.9",
+        "aca.1.10"
+      ],
+      "estMinutes": 20,
+      "intro": "The Affordable Care Act (2010) changed the basic rules of health insurance. This lesson covers three protections the exam tests constantly: no preexisting condition exclusions, the ten essential health benefits, and the ban on lifetime and annual dollar limits for those benefits.",
+      "objectives": [
+        "Explain the federal prohibition on preexisting condition exclusions",
+        "List the ten essential health benefit categories",
+        "Explain the ban on annual and lifetime dollar limits"
+      ],
+      "keyTerms": [
+        "affordable-care-act",
+        "preexisting-condition",
+        "essential-health-benefits",
+        "lifetime-limit"
+      ],
+      "parts": [
+        {
+          "heading": "No preexisting condition exclusions",
+          "body": "A [[preexisting-condition|preexisting condition exclusion]] limits or excludes benefits for a condition present before the enrollment date, **whether or not** the person was diagnosed or treated before then. Federal law now says a group health plan or an insurer offering group or individual coverage **may not impose any** preexisting condition exclusion.",
+          "simple": "If you were sick before your coverage started, the plan still has to cover that condition.",
+          "example": {
+            "title": "Example: Monique's diabetes",
+            "body": "Monique has had diabetes for ten years. Her new individual plan must cover her diabetes care from day one, like any other condition."
+          },
+          "callouts": [
+            {
+              "kind": "note",
+              "text": "Source: 42 U.S.C. § 300gg-3(a).",
+              "sources": [
+                "fed-usc-42-300gg-3"
+              ]
+            },
+            {
+              "kind": "exam-trap",
+              "text": "A uniform probationary (waiting) period for all new employees is not a preexisting condition exclusion."
+            }
+          ]
+        },
+        {
+          "heading": "The ten essential health benefits",
+          "body": "Individual and small group plans must cover at least these ten [[essential-health-benefits|categories]]:\n\n1. Ambulatory patient services\n2. Emergency services\n3. Hospitalization\n4. Maternity and newborn care\n5. Mental health and substance use disorder services, including behavioral health treatment\n6. Prescription drugs\n7. Rehabilitative and habilitative services and devices\n8. Laboratory services\n9. Preventive and wellness services and chronic disease management\n10. Pediatric services, including oral and vision care\n\nPlans may offer more; the list is a floor.",
+          "simple": "Ten kinds of care every ACA individual and small group plan must include, from doctor visits to maternity, mental health, drugs, labs and kids' dental and vision.",
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Kids get teeth and eyes (pediatric oral and vision); adults' dental and vision are not on the list."
+            },
+            {
+              "kind": "note",
+              "text": "Source: 42 U.S.C. § 18022(b)(1).",
+              "sources": [
+                "fed-usc-42-18022"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "No lifetime or annual dollar limits",
+          "body": "Before the ACA, many policies stopped paying after a lifetime maximum such as $1 million. Now group health plans and insurers offering group or individual coverage **may not set lifetime or annual dollar limits** on essential health benefits. Dollar limits are still allowed on benefits that are not essential health benefits.",
+          "simple": "No more 'we've paid enough, you're on your own' caps for essential care.",
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "Don't confuse the banned lifetime LIMIT (on what the plan pays) with the required out-of-pocket MAXIMUM (on what you pay)."
+            },
+            {
+              "kind": "note",
+              "text": "Source: 42 U.S.C. § 300gg-11.",
+              "sources": [
+                "fed-usc-42-300gg-11"
+              ]
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "categorize",
+        "prompt": "Is each item one of the ten essential health benefit categories?",
+        "categories": [
+          "Essential health benefit",
+          "Not an essential health benefit category"
+        ],
+        "items": [
+          {
+            "text": "Maternity and newborn care",
+            "category": "Essential health benefit"
+          },
+          {
+            "text": "Mental health and substance use disorder services",
+            "category": "Essential health benefit"
+          },
+          {
+            "text": "Pediatric oral and vision care",
+            "category": "Essential health benefit"
+          },
+          {
+            "text": "Laboratory services",
+            "category": "Essential health benefit"
+          },
+          {
+            "text": "Adult dental care",
+            "category": "Not an essential health benefit category"
+          },
+          {
+            "text": "Long-term custodial nursing home care",
+            "category": "Not an essential health benefit category"
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Under the ACA, may an individual health plan exclude a condition the applicant had before enrolling?",
+          "choices": [
+            "Yes, for 12 months",
+            "Yes, if it was diagnosed",
+            "No",
+            "Only for pregnancy"
+          ],
+          "answerIndex": 2,
+          "explanation": "Preexisting condition exclusions are prohibited."
+        },
+        {
+          "prompt": "Which is an essential health benefit category?",
+          "choices": [
+            "Adult vision care",
+            "Cosmetic surgery",
+            "Rehabilitative and habilitative services and devices",
+            "Long-term custodial care"
+          ],
+          "answerIndex": 2,
+          "explanation": "Rehabilitative and habilitative services and devices is category (G)."
+        },
+        {
+          "prompt": "Under the ACA, lifetime dollar limits on essential health benefits are:",
+          "choices": [
+            "Allowed up to $1 million",
+            "Prohibited",
+            "Allowed for group plans only",
+            "Allowed if disclosed"
+          ],
+          "answerIndex": 1,
+          "explanation": "42 U.S.C. § 300gg-11 prohibits them."
+        }
+      ],
+      "summary": [
+        "Group and individual coverage may not impose preexisting condition exclusions.",
+        "Individual and small group plans must cover ten essential health benefit categories.",
+        "Lifetime and annual dollar limits on essential health benefits are prohibited.",
+        "Dollar limits remain possible on benefits that are not essential health benefits."
+      ],
+      "related": [
+        "aca-l02"
+      ],
+      "sources": [
+        "fed-usc-42-300gg-3",
+        "fed-usc-42-18022",
+        "fed-usc-42-300gg-11"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aca-l02",
+      "sectionId": "aca",
+      "order": 2,
+      "title": "Exchanges, Subsidies, Metal Levels and Enrollment",
+      "outlineIds": [
+        "aca.1.2",
+        "aca.1.2.1",
+        "aca.1.2.2",
+        "aca.1.2.3",
+        "aca.1.2.4",
+        "aca.1.2.5",
+        "aca.1.2.6",
+        "aca.1.5",
+        "aca.1.3",
+        "aca.1.6"
+      ],
+      "estMinutes": 30,
+      "intro": "The ACA created health insurance exchanges, also called Marketplaces, where people compare plans and get financial help. This lesson explains who uses them, how the premium tax credit and cost-sharing reductions work, what the benchmark plan is, and how metal levels and catastrophic plans are defined.",
+      "objectives": [
+        "Describe the purpose of exchanges and who uses them",
+        "Explain the advance premium tax credit and the benchmark plan",
+        "Explain cost-sharing reductions and their Silver-plan requirement",
+        "State the actuarial values of the four metal levels",
+        "Describe catastrophic plan eligibility and enrollment periods"
+      ],
+      "keyTerms": [
+        "health-insurance-exchange",
+        "premium-tax-credit",
+        "cost-sharing-reduction",
+        "benchmark-plan",
+        "metal-levels",
+        "actuarial-value",
+        "catastrophic-plan",
+        "open-enrollment-period",
+        "special-enrollment-period"
+      ],
+      "parts": [
+        {
+          "heading": "Exchanges: state vs. federal",
+          "body": "A [[health-insurance-exchange|health insurance exchange]] (Marketplace) is a government-run marketplace where individuals and small employers compare and buy qualified health plans from private insurers. Some states operate their own **state-based exchange**; in states that do not, the **federally facilitated** Marketplace at HealthCare.gov is used.\n\nPremium tax credits and cost-sharing reductions are available only for plans bought through an exchange.",
+          "simple": "The exchange is the official store for health plans, and it's the only place to get the government's discounts.",
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "An employee offered affordable, minimum-value coverage by an employer generally cannot get a premium tax credit for a Marketplace plan.",
+              "sources": [
+                "fed-irs-esr"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Premium tax credit, CSR and the benchmark plan",
+          "body": "- The [[premium-tax-credit|advance premium tax credit]] lowers your **monthly premium**. It can be paid in advance to your insurer and is reconciled on your tax return. It can be used with **any metal level**.\n- [[cost-sharing-reduction|Cost-sharing reductions]] lower your **deductibles, copayments, coinsurance and out-of-pocket maximum**. You get them only if you qualify **and** enroll in a **Silver** plan.\n- The [[benchmark-plan]] is the **second lowest cost Silver plan** (SLCSP) available to you. Its premium is used to figure your premium tax credit, even if you buy a different plan.",
+          "simple": "Tax credit = cheaper premium, any metal. CSR = cheaper care, Silver only. Benchmark = second-cheapest Silver plan.",
+          "example": {
+            "title": "Example: Rosa's benchmark",
+            "body": "Rosa's Silver options cost $410, $455 and $470 a month. Her benchmark is the $455 plan (second lowest Silver). She can still buy a Bronze or Gold plan with her credit."
+          },
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Benchmark = 'second-best Silver medal'."
+            },
+            {
+              "kind": "note",
+              "text": "Sources: HealthCare.gov glossary (SLCSP, CSR).",
+              "sources": [
+                "fed-healthcare-gov-glossary"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Metal levels, actuarial value and catastrophic plans",
+          "body": "[[metal-levels|Metal levels]] are defined by [[actuarial-value|actuarial value]], the average share of covered costs the plan pays for a standard population:\n\n- Bronze: 60%\n- Silver: 70%\n- Gold: 80%\n- Platinum: 90%\n\nA [[catastrophic-plan]] does not meet a metal level. It may be sold only in the individual market, only to people under 30 or with a hardship or affordability exemption. It pays nothing until cost-sharing reaches the annual limit (except preventive services) but must cover at least three primary care visits.",
+          "simple": "Bronze pays about 60% of costs on average, up to Platinum at 90%. Catastrophic plans are bare-bones plans for people under 30 or with exemptions.",
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "60-70-80-90: Bronze, Silver, Gold, Platinum."
+            },
+            {
+              "kind": "note",
+              "text": "Source: 42 U.S.C. § 18022(d)-(e).",
+              "sources": [
+                "fed-usc-42-18022"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Enrollment periods",
+          "body": "Marketplace plans can be bought during the annual [[open-enrollment-period]]. Outside that window you need a [[special-enrollment-period]], triggered by a qualifying event such as losing other coverage, marriage, birth or adoption. In employer group plans, federal law gives at least 30 days to request special enrollment, and a newborn enrolled during that period is covered from the date of birth.",
+          "simple": "Sign up during open enrollment, or later if something big happens (like a new baby or losing coverage).",
+          "callouts": [
+            {
+              "kind": "note",
+              "text": "Exact Marketplace open enrollment dates can change from year to year; learn the concept rather than the dates."
+            },
+            {
+              "kind": "note",
+              "text": "Group special enrollment: 42 U.S.C. § 300gg-3(f).",
+              "sources": [
+                "fed-usc-42-300gg-3"
+              ]
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "match",
+        "prompt": "Match each metal level or plan to its description.",
+        "pairs": [
+          {
+            "left": "Bronze",
+            "right": "60% actuarial value"
+          },
+          {
+            "left": "Silver",
+            "right": "70% actuarial value; required for cost-sharing reductions"
+          },
+          {
+            "left": "Gold",
+            "right": "80% actuarial value"
+          },
+          {
+            "left": "Platinum",
+            "right": "90% actuarial value"
+          },
+          {
+            "left": "Catastrophic",
+            "right": "Under 30 or exemption; at least three primary care visits"
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Cost-sharing reductions require enrollment in which metal level?",
+          "choices": [
+            "Bronze",
+            "Silver",
+            "Gold",
+            "Any"
+          ],
+          "answerIndex": 1,
+          "explanation": "CSRs are available only with a Silver plan."
+        },
+        {
+          "prompt": "The premium tax credit is figured using the premium of the:",
+          "choices": [
+            "Lowest cost Bronze plan",
+            "Second lowest cost Silver plan",
+            "Lowest cost Gold plan",
+            "Plan the person enrolls in"
+          ],
+          "answerIndex": 1,
+          "explanation": "The SLCSP (benchmark) premium is used."
+        },
+        {
+          "prompt": "A Gold plan has an actuarial value of:",
+          "choices": [
+            "60%",
+            "70%",
+            "80%",
+            "90%"
+          ],
+          "answerIndex": 2,
+          "explanation": "Gold = 80%."
+        },
+        {
+          "prompt": "Who may buy an ACA catastrophic plan?",
+          "choices": [
+            "Anyone",
+            "People under 30 or with certain exemptions",
+            "People 65 and older",
+            "Small employers"
+          ],
+          "answerIndex": 1,
+          "explanation": "§ 18022(e)(2)."
+        }
+      ],
+      "summary": [
+        "Exchanges (Marketplaces) are state-based or federally facilitated; subsidies are available only through them.",
+        "The premium tax credit lowers premiums for any metal level; CSRs lower cost-sharing and require Silver.",
+        "The benchmark plan is the second lowest cost Silver plan.",
+        "Metal levels: Bronze 60%, Silver 70%, Gold 80%, Platinum 90% actuarial value.",
+        "Catastrophic plans: under 30 or exempt, individual market only, three primary care visits covered."
+      ],
+      "related": [
+        "aca-l01",
+        "aca-l03"
+      ],
+      "sources": [
+        "fed-healthcare-gov-glossary",
+        "fed-usc-42-18022",
+        "fed-irs-esr",
+        "fed-usc-42-300gg-3"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aca-l03",
+      "sectionId": "aca",
+      "order": 3,
+      "title": "Mandates and Accountability: Individual Mandate, Employer Responsibility and MLR",
+      "outlineIds": [
+        "aca.1.7",
+        "aca.1.8",
+        "aca.1.4"
+      ],
+      "estMinutes": 20,
+      "intro": "The ACA tried to keep coverage affordable by asking individuals, employers and insurers to share responsibility. This lesson covers the individual mandate (and what happened to its penalty), the employer shared responsibility rules, and the medical loss ratio.",
+      "objectives": [
+        "Explain the status of the individual mandate penalty",
+        "Describe applicable large employers and when an employer shared responsibility payment can apply",
+        "Explain medical loss ratio standards and rebates"
+      ],
+      "keyTerms": [
+        "individual-mandate",
+        "employer-shared-responsibility",
+        "medical-loss-ratio",
+        "premium-tax-credit"
+      ],
+      "parts": [
+        {
+          "heading": "The individual mandate",
+          "body": "The [[individual-mandate]] originally required people to have qualifying coverage or pay a penalty on their federal tax return. That fee applied **for plan years 2018 and earlier**. It no longer applies: there is **no federal tax penalty** for being uninsured (the penalty was reduced to $0 beginning in 2019).",
+          "simple": "The federal 'no insurance' fine is gone.",
+          "callouts": [
+            {
+              "kind": "note",
+              "text": "Source: HealthCare.gov glossary, 'Fee'.",
+              "sources": [
+                "fed-healthcare-gov-glossary"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Employer shared responsibility ('pay or play')",
+          "body": "An **applicable large employer (ALE)** is one that averaged at least **50 full-time employees, including full-time equivalents**, in the preceding calendar year. A full-time employee averages at least **30 hours per week** (130 hours per month).\n\nAn ALE must offer affordable, minimum-value coverage to at least **95%** of its full-time employees and their dependents, or it may owe a payment. Either payment is triggered only if **at least one full-time employee receives a premium tax credit** through the Marketplace. Payment amounts are indexed each year, so don't memorize them.",
+          "simple": "Employers with 50+ full-time workers must offer good, affordable coverage, or pay a penalty if a worker ends up getting a Marketplace tax credit.",
+          "example": {
+            "title": "Example: No credit, no payment",
+            "body": "A company with 70 full-time employees offers no coverage, but none of its employees gets a premium tax credit this year. It owes no employer shared responsibility payment."
+          },
+          "callouts": [
+            {
+              "kind": "note",
+              "text": "Source: IRS, Employer shared responsibility provisions.",
+              "sources": [
+                "fed-irs-esr"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Medical loss ratio",
+          "body": "The [[medical-loss-ratio|medical loss ratio (MLR)]] is the share of premium revenue an insurer spends on clinical services and quality improvement. Minimums:\n\n- **85%** in the large group market\n- **80%** in the small group and individual markets\n\n(States may set higher.) An insurer that falls short must pay a pro-rata **rebate** to enrollees equal to the shortfall percentage times premium revenue.",
+          "simple": "Insurers must spend most of your premium on care (80 or 85 cents of each dollar) or give money back.",
+          "example": {
+            "title": "Example: The $2 million rebate",
+            "body": "A small group insurer earned $100 million and spent $78 million on care and quality: MLR 78%. Shortfall = 80% - 78% = 2%. Rebate = 2% x $100 million = $2 million."
+          },
+          "callouts": [
+            {
+              "kind": "note",
+              "text": "Source: 42 U.S.C. § 300gg-18.",
+              "sources": [
+                "fed-usc-42-300gg-18"
+              ]
+            },
+            {
+              "kind": "memory-tip",
+              "text": "Large = 85, small/individual = 80."
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "truefalse",
+        "prompt": "True or false?",
+        "statements": [
+          {
+            "text": "There is currently a federal tax penalty for not having health coverage.",
+            "answer": false,
+            "explanation": "The fee applied for 2018 and earlier and no longer applies."
+          },
+          {
+            "text": "An employer with 30 full-time employees is an applicable large employer.",
+            "answer": false,
+            "explanation": "ALE status requires an average of at least 50 full-time employees including FTEs."
+          },
+          {
+            "text": "An employer shared responsibility payment requires that at least one full-time employee receive a premium tax credit.",
+            "answer": true,
+            "explanation": "IRS: at least one full-time employee must receive the credit."
+          },
+          {
+            "text": "The MLR standard for the large group market is 85%.",
+            "answer": true,
+            "explanation": "42 U.S.C. § 300gg-18(b)(1)(A)(i)."
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "For ACA employer purposes, a full-time employee works on average at least:",
+          "choices": [
+            "20 hours per week",
+            "30 hours per week",
+            "35 hours per week",
+            "40 hours per week"
+          ],
+          "answerIndex": 1,
+          "explanation": "30 hours per week or 130 hours per month."
+        },
+        {
+          "prompt": "An individual-market insurer has an MLR of 77%. It must:",
+          "choices": [
+            "Pay rebates to enrollees",
+            "Raise premiums",
+            "Do nothing, because 77% exceeds 75%",
+            "Switch to community rating"
+          ],
+          "answerIndex": 0,
+          "explanation": "The individual market standard is 80%; falling short requires rebates."
+        },
+        {
+          "prompt": "The ACA individual mandate federal penalty applied for plan years:",
+          "choices": [
+            "2014 to the present",
+            "2018 and earlier",
+            "2019 and later",
+            "Never"
+          ],
+          "answerIndex": 1,
+          "explanation": "HealthCare.gov: plan years 2018 and earlier."
+        }
+      ],
+      "summary": [
+        "The federal individual mandate penalty no longer applies (2018 and earlier only).",
+        "Applicable large employers have 50+ full-time employees including FTEs; full-time = 30 hours/week.",
+        "Employer payments are triggered only when a full-time employee receives a premium tax credit.",
+        "MLR minimums: 85% large group; 80% small group and individual; shortfalls are rebated."
+      ],
+      "related": [
+        "aca-l02"
+      ],
+      "sources": [
+        "fed-healthcare-gov-glossary",
+        "fed-irs-esr",
+        "fed-usc-42-300gg-18"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

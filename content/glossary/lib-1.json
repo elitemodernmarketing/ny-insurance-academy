@@ -1,0 +1,971 @@
+{
+  "sectionId": "lib",
+  "terms": [
+    {
+      "id": "insurable-interest",
+      "term": "Insurable Interest",
+      "aliases": [],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.1"
+      ],
+      "formal": "Under NY Insurance Law § 3205, for persons closely related by blood or by law, a substantial interest engendered by love and affection; for other persons, a lawful and substantial economic interest in the continued life, health or bodily safety of the insured, as distinguished from an interest that would arise only by, or be enhanced in value by, the insured's death.",
+      "plain": "The person buying insurance on someone else's life must be better off with that person alive — because of family love and affection or because of a real financial stake in their staying alive. It must exist when the policy is made.",
+      "simpler": "You can only bet on someone staying alive, not on them dying. A spouse, a business partner or an employer who depends on the person passes the test; a stranger does not.",
+      "examples": [
+        "Lena buys a policy on her husband, Omar. As a spouse, Lena has an insurable interest based on love and affection.",
+        "A bakery buys a policy on its head pastry chef, whose skills drive most of its sales. The bakery has a substantial economic interest in the chef's continued life."
+      ],
+      "examTip": "In New York the insurable interest must exist at the time the contract is made (§ 3205(b)(2)); it does not have to continue until the death claim. Anyone of lawful age may insure their own life and name anyone as beneficiary (§ 3205(b)(1)).",
+      "misconception": "Insurable interest is not required of the beneficiary when you insure your own life — you may name any person, firm or charity. The test applies when someone procures insurance on another person's life.",
+      "related": [
+        "stoli",
+        "beneficiary",
+        "policyowner",
+        "key-person-insurance"
+      ],
+      "confusedWith": [
+        "utmost-good-faith"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Under NY Insurance Law § 3205, when must a person who buys a policy on another person's life have an insurable interest?",
+        "choices": [
+          "At the time the contract is made",
+          "At the time of the insured's death",
+          "Throughout the life of the policy",
+          "Only when the policy is assigned"
+        ],
+        "answerIndex": 0,
+        "explanation": "§ 3205(b)(2) requires the payee to have an insurable interest 'at the time when such contract is made.' It need not exist at death or continue for the life of the policy."
+      },
+      "sources": [
+        "ny-isc-3205"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "survivor-protection",
+      "term": "Survivor Protection",
+      "aliases": [
+        "Family protection",
+        "Income replacement"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.2.1"
+      ],
+      "formal": "The use of life insurance to provide cash to dependents and other survivors after the insured's death, replacing lost income and paying debts and final expenses.",
+      "plain": "The most basic reason to buy life insurance: if you die, the money lets the people who depend on you keep paying the bills.",
+      "simpler": "It's a financial safety net for your family that only opens if you die.",
+      "examples": [
+        "Carlos, a 35-year-old father of two, buys a 20-year term policy so his children can stay in their home and finish school if he dies.",
+        "A single parent names her sister as beneficiary and trustee to raise her son if she dies."
+      ],
+      "examTip": "When a question asks for the PRIMARY purpose of life insurance for a young family with a limited budget, survivor protection (usually through term insurance) is the classic answer.",
+      "misconception": "Survivor protection is not only for wage earners; the death of a stay-at-home parent creates real costs (child care, household services) that insurance can cover.",
+      "related": [
+        "needs-approach",
+        "term-life-insurance",
+        "estate-creation"
+      ],
+      "confusedWith": [
+        "estate-conservation"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Providing cash to dependents to replace an insured's lost income after death is called:",
+        "choices": [
+          "Survivor protection",
+          "Estate conservation",
+          "Cash accumulation",
+          "Business continuation"
+        ],
+        "answerIndex": 0,
+        "explanation": "Survivor protection replaces lost income for dependents. Estate conservation preserves an existing estate from shrinkage; cash accumulation is a living benefit; business continuation keeps a business going."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "estate-creation",
+      "term": "Estate Creation",
+      "aliases": [
+        "Instant estate"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.2.2"
+      ],
+      "formal": "The ability of life insurance to create an immediate estate equal to the face amount upon payment of the first premium, which would otherwise take years of saving to accumulate.",
+      "plain": "With one premium payment, life insurance can create a large sum of money for your heirs right away — something that would take decades to save.",
+      "simpler": "It's like instantly having a big savings account for your family the day the policy starts, even though you have only paid a little.",
+      "examples": [
+        "Priya, 28, has $5,000 in savings. After her first premium on a $500,000 policy, her family would receive $500,000 if she died — an 'instant estate'.",
+        "A young couple uses life insurance so their children would inherit a meaningful sum even though they have not had time to build savings."
+      ],
+      "examTip": "'Creates an immediate estate' is the phrase the exam uses. Compare: estate CONSERVATION protects an estate that already exists.",
+      "misconception": "Estate creation does not mean the policy builds cash value quickly; it refers to the death benefit available immediately once coverage is in force.",
+      "related": [
+        "estate-conservation",
+        "survivor-protection",
+        "face-amount"
+      ],
+      "confusedWith": [
+        "estate-conservation"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which use of life insurance describes creating an immediate estate when the first premium is paid?",
+        "choices": [
+          "Estate creation",
+          "Estate conservation",
+          "Liquidity",
+          "Cash accumulation"
+        ],
+        "answerIndex": 0,
+        "explanation": "Estate creation refers to the instant estate (the face amount) created once coverage begins. Conservation protects an existing estate; liquidity supplies cash to settle it."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "liquidity",
+      "term": "Liquidity",
+      "aliases": [],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.2.4",
+        "lib.2.3"
+      ],
+      "formal": "The availability of cash on short notice; in life insurance, the prompt payment of death proceeds in cash, and the policyowner's access to cash values through loans or surrender.",
+      "plain": "Life insurance turns into cash quickly when it's needed — at death the proceeds arrive as money, and permanent policies let you borrow or withdraw cash value while you are alive.",
+      "simpler": "Cash you can actually get your hands on fast, instead of having to sell a house or a business.",
+      "examples": [
+        "After her father's death, Ana uses policy proceeds to pay funeral costs and debts so she does not have to sell the family house quickly at a low price.",
+        "Ben takes a policy loan against his whole life cash value to cover an emergency roof repair."
+      ],
+      "examTip": "Estates with mostly illiquid assets (real estate, a closely held business) need liquidity to pay debts, taxes and final expenses — life insurance supplies it.",
+      "misconception": "Liquidity is not the same as investment return; a policy can be liquid (cash available) even if its growth is modest.",
+      "related": [
+        "estate-conservation",
+        "cash-value",
+        "policy-loan"
+      ],
+      "confusedWith": [
+        "estate-creation"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "An estate consists mostly of farmland. Which benefit of life insurance helps the heirs pay final expenses without selling the land?",
+        "choices": [
+          "Liquidity",
+          "Mortality",
+          "Backdating",
+          "Adverse selection"
+        ],
+        "answerIndex": 0,
+        "explanation": "Life insurance pays cash promptly at death, providing liquidity so illiquid assets do not have to be sold at a loss."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "estate-conservation",
+      "term": "Estate Conservation",
+      "aliases": [
+        "Estate preservation"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.2.5"
+      ],
+      "formal": "The use of life insurance to preserve an existing estate for heirs by providing cash to pay estate taxes, debts and settlement costs so estate assets need not be sold.",
+      "plain": "If you already own valuable things, life insurance can pay the bills and taxes due at death so your heirs keep those things intact.",
+      "simpler": "Insurance acts like a shield so the family business or home is not sold off to pay what is owed when someone dies.",
+      "examples": [
+        "Mr. Ito owns a valuable family business. A policy on his life will pay estate settlement costs so his children can keep the business.",
+        "A wealthy widow buys life insurance so her art collection does not need to be sold to pay the costs of settling her estate."
+      ],
+      "examTip": "Keywords: 'preserve', 'protect', 'keep the estate intact', 'estate taxes'. Conservation protects an estate that exists; creation builds one that does not.",
+      "misconception": "Estate conservation is not mainly about growing wealth; it is about preventing shrinkage of wealth already accumulated.",
+      "related": [
+        "liquidity",
+        "estate-creation"
+      ],
+      "confusedWith": [
+        "estate-creation"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A client with a large estate buys life insurance so her heirs will not have to sell assets to pay estate settlement costs. This is:",
+        "choices": [
+          "Estate conservation",
+          "Estate creation",
+          "Human life value",
+          "Key person insurance"
+        ],
+        "answerIndex": 0,
+        "explanation": "Protecting an existing estate from forced sale to pay taxes and costs is estate conservation."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "human-life-value",
+      "term": "Human Life Value Approach",
+      "aliases": [
+        "HLV"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.3.1"
+      ],
+      "formal": "A method of determining the amount of life insurance by estimating the present value of the insured's future earnings that would have gone to support the family (earnings less personal maintenance costs) over the remaining working years.",
+      "plain": "It asks: how much money would this person have brought home for the family over the rest of their career? That economic value is what the insurance should replace.",
+      "simpler": "Treat the person like a money machine and ask what the family loses if the machine stops today.",
+      "examples": [
+        "Diego earns $60,000 a year and spends about $15,000 on himself. The $45,000 that supports his family for 25 more working years is discounted to today's value to find his human life value.",
+        "Two workers earn the same salary; the younger one usually has a higher human life value because more working years remain."
+      ],
+      "examTip": "Human life value focuses on lost EARNINGS (income-based). The needs approach focuses on the family's NEEDS (expenses and goals). Know which method matches each description.",
+      "misconception": "Human life value is not the total of all future salary; it subtracts the insured's own living costs and discounts future dollars to present value.",
+      "related": [
+        "needs-approach",
+        "survivor-protection"
+      ],
+      "confusedWith": [
+        "needs-approach"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which method of determining life insurance amounts calculates the present value of the insured's future earnings available to the family?",
+        "choices": [
+          "Human life value approach",
+          "Needs approach",
+          "Capital retention approach",
+          "Estate conservation"
+        ],
+        "answerIndex": 0,
+        "explanation": "Human life value measures the economic value of the insured's future earnings. The needs approach totals the family's specific needs instead."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "needs-approach",
+      "term": "Needs Approach",
+      "aliases": [
+        "Needs analysis",
+        "Total needs approach"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.3.2",
+        "lib.3.2.1",
+        "lib.3.2.2",
+        "lib.3.2.3"
+      ],
+      "formal": "A method of determining the amount of life insurance by analyzing the survivors' specific financial needs — lump-sum (cash) needs and ongoing income needs — and subtracting existing resources.",
+      "plain": "Add up what the family would need if the person died — final expenses, debts, a college fund, years of household income — then subtract savings and coverage they already have. The gap is the insurance needed.",
+      "simpler": "Make a shopping list of everything your family would need without you, total it, take away what you already have, and insure the rest.",
+      "examples": [
+        "Kim's family would need $20,000 for final expenses, $180,000 to pay off the mortgage and $100,000 for college: $300,000 of lump-sum needs. She has $50,000 of group life, so she still needs about $250,000 for lump-sum needs before counting income needs.",
+        "A producer gathers income, debts, assets, existing coverage, ages of children and goals (quantitative and qualitative facts) before recommending a face amount."
+      ],
+      "examTip": "Lump-sum needs: final expenses (cleanup fund), debts, mortgage, emergency fund, education. Income needs: readjustment period, dependency period, spouse's 'blackout period' before any retirement income begins. Existing assets and coverage are subtracted.",
+      "misconception": "The needs approach does not ignore existing assets; you subtract current savings, investments and existing life insurance from total needs.",
+      "related": [
+        "human-life-value",
+        "survivor-protection",
+        "suitability"
+      ],
+      "confusedWith": [
+        "human-life-value"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under the needs approach, which item would be classified as a lump-sum need rather than an income need?",
+        "choices": [
+          "Paying off the mortgage at death",
+          "Monthly living costs while children are dependents",
+          "Income for the surviving spouse until retirement benefits begin",
+          "Readjustment-period income after the death"
+        ],
+        "answerIndex": 0,
+        "explanation": "Paying off a mortgage is a one-time cash need. The other choices are ongoing income needs spread over a period of time."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "buy-sell-agreement",
+      "term": "Buy-Sell Agreement",
+      "aliases": [
+        "Buyout agreement",
+        "Cross-purchase plan",
+        "Entity purchase plan",
+        "Stock redemption plan"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.4.1",
+        "lib.4.3"
+      ],
+      "formal": "A legally binding agreement among business owners (or between the owners and the business) that sets the terms for buying a deceased or disabled owner's interest, commonly funded with life insurance on each owner.",
+      "plain": "Business partners agree in advance: if one dies, the others (or the business) will buy that person's share at an agreed price, and the family gets cash. Life insurance supplies the money.",
+      "simpler": "A 'if I die, you buy my share' promise between partners, with insurance in place so the money is there when it's needed.",
+      "examples": [
+        "Cross-purchase: partners Ava and Ben each buy a policy on the other. When Ava dies, Ben uses the proceeds to buy Ava's share from her estate.",
+        "Entity (stock redemption) plan: XYZ Corp. owns a policy on each of its three shareholders and uses the death proceeds to buy back the deceased owner's shares."
+      ],
+      "examTip": "Cross-purchase = owners insure EACH OTHER (with n owners, n × (n − 1) policies). Entity/stock redemption = the BUSINESS owns one policy per owner (n policies) and is the beneficiary.",
+      "misconception": "The insurance is not the agreement; the buy-sell agreement is the contract that sets price and terms, and life insurance just funds it.",
+      "related": [
+        "business-continuation",
+        "key-person-insurance",
+        "insurable-interest"
+      ],
+      "confusedWith": [
+        "key-person-insurance"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Four partners set up a cross-purchase buy-sell plan funded with individual policies. How many policies are needed?",
+        "choices": [
+          "12",
+          "4",
+          "8",
+          "16"
+        ],
+        "answerIndex": 0,
+        "explanation": "In a cross-purchase plan each owner insures every other owner: n × (n − 1) = 4 × 3 = 12 policies. An entity plan would need only 4."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "key-person-insurance",
+      "term": "Key Person Insurance",
+      "aliases": [
+        "Key employee insurance",
+        "Key man insurance"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.4.2"
+      ],
+      "formal": "Life insurance owned by a business on the life of an employee or owner whose death would cause the business significant financial loss; the business is applicant, owner, premium payer and beneficiary.",
+      "plain": "A company insures the person it can't easily replace. If that person dies, the company gets money to cover lost profits and the cost of finding and training a replacement.",
+      "simpler": "The business protects itself against losing its star player.",
+      "examples": [
+        "A software startup insures its chief engineer, whose code runs the whole product. The company is the beneficiary.",
+        "A restaurant buys a policy on its celebrity chef so it can survive lost business while it finds a new chef."
+      ],
+      "examTip": "Who is the beneficiary? The BUSINESS — not the key person's family. The employer's insurable interest comes from its economic stake in the employee's continued life.",
+      "misconception": "Key person coverage is not an employee benefit; it protects the business, so the employee's family generally receives nothing from it.",
+      "related": [
+        "insurable-interest",
+        "business-continuation",
+        "buy-sell-agreement"
+      ],
+      "confusedWith": [
+        "buy-sell-agreement"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "In key person life insurance, who is normally the beneficiary?",
+        "choices": [
+          "The business",
+          "The key person's spouse",
+          "The key person's estate",
+          "The other employees"
+        ],
+        "answerIndex": 0,
+        "explanation": "The business owns, pays for and is the beneficiary of key person coverage because it suffers the financial loss when the key person dies."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "business-continuation",
+      "term": "Business Continuation",
+      "aliases": [
+        "Business continuation plan"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.4.3"
+      ],
+      "formal": "Planning that allows a business to continue operating after the death or disability of an owner or key person, typically through buy-sell agreements and key person coverage funded by insurance.",
+      "plain": "A plan so the business keeps running smoothly if an owner dies — the surviving owners keep the business, and the deceased owner's family is paid fairly in cash.",
+      "simpler": "A 'what happens if the boss dies' plan that keeps the doors open.",
+      "examples": [
+        "A dental practice owned by two dentists uses a funded buy-sell agreement so the surviving dentist keeps the practice and the other's family gets cash.",
+        "A family hardware store buys key person coverage on its manager and a buy-sell plan among the owners."
+      ],
+      "examTip": "Business continuation is the broad goal; buy-sell agreements and key person insurance are the tools used to reach it.",
+      "misconception": "Business continuation does not only protect the surviving owners — it also guarantees the deceased owner's heirs a fair, prompt cash price for the business interest.",
+      "related": [
+        "buy-sell-agreement",
+        "key-person-insurance"
+      ],
+      "confusedWith": [],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which tool is most commonly used to fund a business continuation plan for a partnership?",
+        "choices": [
+          "A life-insurance-funded buy-sell agreement",
+          "A single premium immediate annuity",
+          "A conditional receipt",
+          "A group health plan"
+        ],
+        "answerIndex": 0,
+        "explanation": "Buy-sell agreements funded with life insurance give surviving owners cash to buy a deceased owner's interest so the business continues."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "permanent-life-insurance",
+      "term": "Permanent Life Insurance",
+      "aliases": [
+        "Cash value life insurance"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.5.2",
+        "lib.2.3"
+      ],
+      "formal": "Life insurance designed to remain in force for the insured's whole life (as long as required premiums are paid) and that builds a cash value; includes whole life, universal life and variable life.",
+      "plain": "Coverage meant to last your entire life, with a savings-like cash value that grows inside the policy. It costs more than term for the same death benefit.",
+      "simpler": "Term is like renting coverage for a while; permanent is like owning it — it costs more, but it lasts and builds value.",
+      "examples": [
+        "Grace, 40, buys a whole life policy to leave money to her grandchildren no matter when she dies.",
+        "Sam borrows against the cash value of his universal life policy to help pay for his daughter's wedding."
+      ],
+      "examTip": "Permanent = lifetime protection + cash value (living benefits). Term = temporary protection, usually no cash value, lowest initial premium per dollar of coverage.",
+      "misconception": "Permanent does not mean 'can never lapse'; universal life, for example, can lapse if premiums and cash value become insufficient.",
+      "related": [
+        "term-life-insurance",
+        "whole-life-insurance",
+        "cash-value",
+        "universal-life"
+      ],
+      "confusedWith": [
+        "term-life-insurance"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which feature distinguishes permanent life insurance from term life insurance?",
+        "choices": [
+          "Lifetime protection with a cash value",
+          "A death benefit payable to a beneficiary",
+          "Coverage that ends at a stated age",
+          "The lowest initial premium per $1,000"
+        ],
+        "answerIndex": 0,
+        "explanation": "Permanent policies are designed to last for life and accumulate cash value. Both types pay a death benefit; term has the lowest initial premium and expires."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "participating-policy",
+      "term": "Participating Policy",
+      "aliases": [
+        "Par policy"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.5.3"
+      ],
+      "formal": "A policy that entitles the policyowner to share in the insurer's divisible surplus through policy dividends, which are not guaranteed; typically issued by mutual insurers.",
+      "plain": "The insurer charges a somewhat higher premium than it expects to need. If its experience is better than expected, it returns part of the money to you as a dividend.",
+      "simpler": "Like a restaurant that charges a little extra up front and hands some back if dinner cost less than planned.",
+      "examples": [
+        "Jorge's mutual insurer declares a $300 dividend on his participating whole life policy; he uses it to buy paid-up additions.",
+        "In a bad year, a mutual insurer reduces its dividend scale; Jorge's next dividend is smaller."
+      ],
+      "examTip": "Dividends CANNOT be guaranteed. They are treated as a return of excess premium — that is why they are generally not taxable income until they exceed what you paid in (see the tax section).",
+      "misconception": "Policy dividends are not like stock dividends paid from profits to shareholders; they are a refund of premium overcharge to policyowners.",
+      "related": [
+        "nonparticipating-policy",
+        "dividend",
+        "dividend-options",
+        "mutual-insurer"
+      ],
+      "confusedWith": [
+        "nonparticipating-policy"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which statement about dividends on a participating policy is correct?",
+        "choices": [
+          "They are not guaranteed",
+          "They are guaranteed in the policy",
+          "They are paid to stockholders",
+          "They are fully taxable as ordinary income when declared"
+        ],
+        "answerIndex": 0,
+        "explanation": "Policy dividends depend on the insurer's actual experience and cannot be guaranteed. They go to policyowners and are generally treated as a return of premium."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "nonparticipating-policy",
+      "term": "Nonparticipating Policy",
+      "aliases": [
+        "Nonpar policy",
+        "Guaranteed-cost policy"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.5.3"
+      ],
+      "formal": "A policy that does not share in the insurer's surplus and pays no policy dividends; premiums are set to cover expected costs, typically issued by stock insurers.",
+      "plain": "No dividends. The premium is set more tightly up front, and what you pay is what you get.",
+      "simpler": "A fixed-price menu with no refunds and no surprises.",
+      "examples": [
+        "Hana buys a nonparticipating term policy from a stock insurer; her premium is generally lower than a comparable participating policy, but she will never receive a dividend.",
+        "A stock insurer's profits go to its shareholders rather than to nonparticipating policyowners."
+      ],
+      "examTip": "Mutual insurer → usually participating. Stock insurer → usually nonparticipating (though a stock insurer can issue participating policies).",
+      "misconception": "Nonparticipating does not mean the policy lacks cash value; a nonpar whole life policy still has guaranteed cash values.",
+      "related": [
+        "participating-policy",
+        "stock-insurer"
+      ],
+      "confusedWith": [
+        "participating-policy"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A policy that does not pay dividends to policyowners is called:",
+        "choices": [
+          "Nonparticipating",
+          "Participating",
+          "Variable",
+          "Convertible"
+        ],
+        "answerIndex": 0,
+        "explanation": "Nonparticipating policies do not share in surplus and pay no policy dividends."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "variable-life-insurance",
+      "term": "Variable Life Insurance",
+      "aliases": [
+        "Variable whole life",
+        "Variable universal life"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.5.4",
+        "lib.5.4.1"
+      ],
+      "formal": "Permanent life insurance whose cash value (and usually death benefit above a guaranteed minimum) varies with the performance of investment subaccounts held in the insurer's separate account; the policyowner bears the investment risk. It is both an insurance product and a security.",
+      "plain": "The policy's cash value is invested in funds you choose, like stock or bond funds. If they do well, values grow; if they do poorly, values fall. Because it's a security, the seller needs a securities registration as well as a life insurance license, and the buyer receives a prospectus.",
+      "simpler": "Life insurance with an investment account inside it — more upside, but you carry the risk.",
+      "examples": [
+        "Nia puts her variable life cash value into a stock subaccount. The market rises and her cash value grows; the next year it falls.",
+        "Before selling variable life, a producer must hold both a life insurance license and a FINRA securities registration, and must give the client a prospectus."
+      ],
+      "examTip": "Fixed products: insurer bears investment risk; assets in the general account. Variable products: policyowner bears investment risk; assets in a separate account. Regulated by the SEC/FINRA (formerly NASD) as securities AND by the state insurance department as insurance.",
+      "misconception": "The guaranteed minimum death benefit on variable whole life does not mean the cash value is guaranteed; cash value can fall to zero based on investment results.",
+      "related": [
+        "separate-account",
+        "permanent-life-insurance",
+        "universal-life",
+        "variable-annuity"
+      ],
+      "confusedWith": [
+        "universal-life",
+        "indexed-universal-life"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Who bears the investment risk in a variable life insurance policy?",
+        "choices": [
+          "The policyowner",
+          "The insurer",
+          "The beneficiary",
+          "FINRA"
+        ],
+        "answerIndex": 0,
+        "explanation": "In variable products the policyowner chooses subaccounts and bears investment risk. In fixed products the insurer bears that risk."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19",
+        "notes": "NY-specific variable product rules (Ins. Law § 4240; Regs 47 and 77) not taught here; only the dual SEC/FINRA + state regulation principle."
+      }
+    },
+    {
+      "id": "mortality",
+      "term": "Mortality",
+      "aliases": [
+        "Mortality rate",
+        "Mortality table"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.6.1"
+      ],
+      "formal": "The expected rate of death among a group of people at each age, shown in a mortality table; one of the three primary factors (with interest and expense) used to calculate life insurance premiums.",
+      "plain": "How likely people of a given age and risk class are to die in a year. The higher the chance of death, the higher the premium.",
+      "simpler": "The insurer's best guess of how many people out of every 1,000 will die this year.",
+      "examples": [
+        "Mortality rates rise with age, so a 60-year-old pays more for the same coverage than a 30-year-old.",
+        "Women generally have lower mortality rates than men of the same age, which is one reason their life premiums are often lower."
+      ],
+      "examTip": "Premium factors: Mortality (higher → premium up), Interest/investment return (higher → premium down), Expense/loading (higher → premium up). Interest is the only one that moves premium in the OPPOSITE direction.",
+      "misconception": "Mortality tables do not predict when one individual will die; they predict death rates for large groups (law of large numbers).",
+      "related": [
+        "law-of-large-numbers",
+        "premium",
+        "premium-mode",
+        "underwriting"
+      ],
+      "confusedWith": [],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which premium factor moves in the OPPOSITE direction from the premium?",
+        "choices": [
+          "Interest (investment return)",
+          "Mortality",
+          "Expense",
+          "Age of the insured"
+        ],
+        "answerIndex": 0,
+        "explanation": "The more the insurer expects to earn on premiums it holds, the less it must charge. Higher mortality or higher expenses raise premiums."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "premium-mode",
+      "term": "Mode of Premium",
+      "aliases": [
+        "Premium mode",
+        "Premium payment mode"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.6.2"
+      ],
+      "formal": "How often premiums are paid — annually, semiannually, quarterly or monthly. Modes more frequent than annual cost more in total because of added administrative expense and the insurer's lost investment income.",
+      "plain": "You can pay once a year or in smaller pieces. Paying in pieces is convenient, but it adds up to more over the year.",
+      "simpler": "Like buying a yearly bus pass versus paying monthly — monthly is easier on the wallet but costs more overall.",
+      "examples": [
+        "Lucia's annual premium is $1,200. Paying monthly, she pays $105 a month, or $1,260 a year — $60 more for the convenience.",
+        "A policyowner switches from quarterly to annual mode to save money."
+      ],
+      "examTip": "Annual mode is always the lowest total yearly cost. Monthly mode costs the most because of more billing and less money held by the insurer to invest.",
+      "misconception": "Changing the payment mode does not change the face amount or the underwriting class — only the timing and total cost of premium.",
+      "related": [
+        "premium",
+        "mortality",
+        "grace-period"
+      ],
+      "confusedWith": [],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which premium mode results in the lowest total annual cost?",
+        "choices": [
+          "Annual",
+          "Monthly",
+          "Quarterly",
+          "Semiannual"
+        ],
+        "answerIndex": 0,
+        "explanation": "Paying annually avoids extra billing expenses and gives the insurer the full premium to invest, so it costs least in total."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "policy-summary",
+      "term": "Policy Summary",
+      "aliases": [
+        "Statement of Policy Cost and Benefit Information"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1.3"
+      ],
+      "formal": "A separate written document, required by NY Insurance Law § 3209 for life policies not marketed with a compliant illustration, titled \"Statement of Policy Cost and Benefit Information,\" showing premiums, guaranteed death benefits, guaranteed cash surrender values, dividends, policy loan interest rate and cost indexes for the specific policy.",
+      "plain": "A personalized fact sheet about YOUR policy — what it costs, what it pays and what it's worth over the years. In New York, when required, you receive it upon delivery of the policy.",
+      "simpler": "The 'nutrition label' for your specific policy.",
+      "examples": [
+        "When the producer delivers Raj's whole life policy, she also hands him the policy summary showing his premiums and guaranteed cash values year by year.",
+        "A policyholder who never received a policy summary on an older in-force policy asks the insurer for one; the insurer may charge a reasonable fee."
+      ],
+      "examTip": "Buyer's guide = GENERIC consumer education, given at or before application. Policy summary = SPECIFIC to the policy, given upon delivery. If the policy is marketed with an illustration that complies with the regulations, § 3209(l) says no preliminary information or policy summary is required.",
+      "misconception": "The policy summary is not the policy itself and is not part of the contract; it is a separate disclosure document.",
+      "related": [
+        "buyers-guide",
+        "illustration",
+        "policy-delivery",
+        "free-look"
+      ],
+      "confusedWith": [
+        "buyers-guide",
+        "illustration"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under NY Insurance Law § 3209, when must the policy summary be provided for a life policy not sold with an illustration?",
+        "choices": [
+          "Upon delivery of the policy",
+          "At or before the time of application",
+          "Within 30 days after the first anniversary",
+          "Only if the applicant requests it in writing"
+        ],
+        "answerIndex": 0,
+        "explanation": "§ 3209(b)(1)(B) requires a policy summary upon delivery. The buyer's guide and preliminary information are due at or prior to the time of application."
+      },
+      "sources": [
+        "ny-isc-3209"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19",
+        "notes": "Reg 74 (11 NYCRR 53) details not separately verified; content limited to § 3209 text."
+      }
+    },
+    {
+      "id": "buyers-guide",
+      "term": "Buyer's Guide",
+      "aliases": [
+        "Life insurance buyer's guide"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1.4"
+      ],
+      "formal": "A separate document published by insurers in language promulgated by the Superintendent (consistent with the NAIC buyer's guide) that explains in general terms how to shop for and compare life insurance; under NY Insurance Law § 3209 it must be provided at or prior to the time an application is taken.",
+      "plain": "A generic consumer booklet that explains types of life insurance and how to compare costs. You get it before or when you apply, so you can shop wisely.",
+      "simpler": "A 'how to buy life insurance' handbook — not about your specific policy, but about life insurance in general.",
+      "examples": [
+        "Before taking Mei's application, her producer gives her the buyer's guide and the preliminary information about the policy.",
+        "An insurer selling by mail without an agent includes the buyer's guide in the initial solicitation, or — if the policy has at least a 30-day unconditional refund period — delivers it with the policy."
+      ],
+      "examTip": "Timing: buyer's guide at or before APPLICATION; policy summary upon DELIVERY. Generic vs specific is the key distinction.",
+      "misconception": "The buyer's guide does not recommend a specific company or policy; it is general education.",
+      "related": [
+        "policy-summary",
+        "illustration",
+        "suitability"
+      ],
+      "confusedWith": [
+        "policy-summary"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under NY Insurance Law § 3209, when must a producer give a prospective life insurance purchaser the buyer's guide?",
+        "choices": [
+          "At or prior to the time the application is taken",
+          "Upon delivery of the policy",
+          "After the free-look period ends",
+          "Only when replacing an existing policy"
+        ],
+        "answerIndex": 0,
+        "explanation": "§ 3209(b)(1)(A) requires the buyer's guide (with the preliminary information) at or prior to the time an application is taken. The policy summary comes upon delivery."
+      },
+      "sources": [
+        "ny-isc-3209"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lifeguaranty-corporation",
+      "term": "Life Insurance Company Guaranty Corporation of New York",
+      "aliases": [
+        "Life and Health Insurance Company Guaranty Corporation of New York",
+        "Guaranty corporation",
+        "Guaranty association"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.7.1.2"
+      ],
+      "formal": "The New York entity created under Insurance Law Article 77 (titled on the official site as \"The Life and Health Insurance Company Guaranty Corporation of New York Act\") to protect covered policyholders when a member life or health insurer becomes insolvent. Insurance Law § 7718 prohibits anyone who sells insurance from using its existence in advertising or sales.",
+      "plain": "A safety net that protects New York policyholders if their life or health insurer fails. But producers may NOT use it as a selling point — you can't say 'Don't worry, the guaranty corporation backs this policy.'",
+      "simpler": "There's a backup plan if an insurance company goes broke, but salespeople are not allowed to use that backup plan to make a sale.",
+      "examples": [
+        "A producer's flyer says, 'Your policy is protected by the New York guaranty corporation — buy with confidence!' This violates § 7718.",
+        "A policyholder sends her insurer a written request asking about guaranty protection. The insurer may send her written information in a form prepared by the corporation and approved by the Superintendent."
+      ],
+      "examTip": "§ 7718 applies to any person, insurer, agent or broker, in any medium. The narrow exception: a member insurer may furnish corporation-prepared, Superintendent-approved written information directly to a policyholder who requests it in writing.",
+      "misconception": "The guaranty corporation is not a government guarantee like FDIC insurance that producers may advertise; using it to induce a sale is prohibited.",
+      "related": [
+        "insurer-solvency",
+        "false-advertising",
+        "unfair-claims-settlement-practices"
+      ],
+      "confusedWith": [
+        "insurer-solvency"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under NY Insurance Law § 7718, a producer may:",
+        "choices": [
+          "Not use the existence of the guaranty corporation to induce a sale",
+          "Mention the guaranty corporation in advertising if the insurer is a member",
+          "Promise clients the guaranty corporation will pay any claim in full",
+          "Use the guaranty corporation in sales only with a buyer's guide"
+        ],
+        "answerIndex": 0,
+        "explanation": "§ 7718 prohibits any advertisement, announcement or statement that uses the existence of the corporation for sales, solicitation or inducement to purchase covered insurance."
+      },
+      "sources": [
+        "ny-isc-7718"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ],
+  "comparisons": []
+}

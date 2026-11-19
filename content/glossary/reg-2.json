@@ -1,0 +1,154 @@
+{
+  "sectionId": "reg",
+  "terms": [
+    {
+      "id": "temporary-license",
+      "term": "Temporary License",
+      "aliases": [],
+      "sectionId": "reg",
+      "outlineIds": [
+        "reg.1.3.7"
+      ],
+      "formal": "Under NY Insurance Law § 2109, a license the superintendent may issue without a written examination so that another person can continue the business of a licensed agent or broker who has died, become totally disabled, or is absent because of service in the U.S. armed forces.",
+      "plain": "If a producer dies, becomes totally disabled, or leaves for military service, New York can give a temporary license to someone (for example, the executor, next of kin, or a person the military member designates) to keep the existing business going: renewing policies and collecting premiums. The temporary licensee cannot sell new insurance.",
+      "simpler": "A temporary license is a caretaker's key: it lets someone keep the lights on in an existing book of business, not open new accounts.",
+      "examples": [
+        "After agent Ray dies, the executor of his estate receives a temporary license to collect renewal premiums on Ray's clients' policies.",
+        "Broker Lena is called to active military duty and designates her office manager, who receives a temporary license to service Lena's existing clients."
+      ],
+      "examTip": "In New York, temporary licenses are tied to death, disability or military service of a licensee — not to a new candidate waiting to pass the exam. For death or disability: 90-day terms, renewable up to 15 months in total.",
+      "misconception": "A New York temporary license does not let a holder write new business. § 2109 bars soliciting, negotiating or selling new insurance under it.",
+      "related": [
+        "insurance-agent",
+        "insurance-broker",
+        "license-revocation"
+      ],
+      "confusedWith": [],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which situation can lead to a New York temporary agent or broker license under § 2109?",
+        "choices": [
+          "The death of a licensed agent, so the estate can continue the existing business",
+          "A new candidate who has scheduled but not yet taken the licensing exam",
+          "An agent whose license was revoked for misappropriating premiums",
+          "A consultant who wants to begin selling policies"
+        ],
+        "answerIndex": 0,
+        "explanation": "§ 2109(a) lists death, armed-forces service and total disability of a licensee. It does not create a temporary license for exam candidates, revoked licensees or consultants."
+      },
+      "sources": [
+        "ny-isc-2109"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "license-revocation",
+      "term": "License Suspension and Revocation",
+      "aliases": [
+        "Revocation",
+        "Suspension",
+        "Nonrenewal"
+      ],
+      "sectionId": "reg",
+      "outlineIds": [
+        "reg.1.5.2",
+        "reg.1.5.1"
+      ],
+      "formal": "Under NY Insurance Law § 2110(a), after notice and hearing, the superintendent may refuse to renew, revoke, or suspend a producer's license for grounds including violating insurance laws, giving materially untrue information on the license application, fraudulent, coercive or dishonest practices, incompetence, untrustworthiness, misappropriating money received in the business, intentionally misrepresenting policy terms, a felony conviction, or forging a name on an application.",
+      "plain": "The superintendent can take away (revoke), pause (suspend), or refuse to renew a license for misconduct. Except in a nonresident summary case, the licensee gets notice and a hearing first, held not less than 10 days after the notice. After a revocation, the person generally cannot get any New York insurance license for one year.",
+      "simpler": "Suspension is a time-out; revocation is being sent home; nonrenewal is not being invited back next season. All of them normally come after a warning letter and a chance to tell your side.",
+      "examples": [
+        "Jamal keeps clients' premium checks for personal expenses; that is misappropriation, a ground for revocation under § 2110(a)(5).",
+        "Dee brings notes into the licensing exam; § 2110(a)(11) makes improper use of reference material during the exam a ground for discipline."
+      ],
+      "examTip": "Remember three numbers from § 2110: hearing not less than 10 days after notice; 1-year bar on any new license after revocation; 30 days to report administrative actions or criminal prosecutions.",
+      "misconception": "Letting a license lapse does not end the superintendent's power: § 2110(h) keeps enforcement authority even if the license was surrendered or expired.",
+      "related": [
+        "superintendent",
+        "fiduciary-responsibility",
+        "insurance-fraud"
+      ],
+      "confusedWith": [],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "If a New York producer's license is revoked, how long must the person generally wait before being entitled to obtain any license under the Insurance Law?",
+        "choices": [
+          "One year",
+          "Six months",
+          "Two years",
+          "Five years"
+        ],
+        "answerIndex": 0,
+        "explanation": "§ 2110(e)(1): no license for one year after revocation (or one year after a court affirms the revocation if it is judicially reviewed)."
+      },
+      "sources": [
+        "ny-isc-2110"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "continuing-education",
+      "term": "Continuing Education (CE)",
+      "aliases": [
+        "CE"
+      ],
+      "sectionId": "reg",
+      "outlineIds": [
+        "reg.1.4.2",
+        "reg.1.4.1"
+      ],
+      "formal": "Approved education that resident agents, brokers, consultants and public adjusters must complete as a condition of renewing their licenses. Per the DFS/PSI licensing bulletin, licensees must complete 15 CE credits during each biennial licensing period once the license has been in effect for a full two years.",
+      "plain": "To keep your license, you take approved courses each two-year license period. A brand-new licensee who has held the license for less than the full two-year period is exempt the first time; after that, CE is always required to renew.",
+      "simpler": "CE is the homework you keep doing after graduation so your license doesn't expire.",
+      "examples": [
+        "Nina's license has been in effect for two full years; she must complete her CE credits during the period before her renewal is processed.",
+        "Carlos, a nonresident licensee in good standing in Pennsylvania, attests on his NY renewal that he is CE-compliant in his home state instead of taking NY courses."
+      ],
+      "examTip": "CE credits must be earned during the licensing period, must be completed before the renewal is processed, and the same approved course cannot be repeated for credit.",
+      "misconception": "Nonresident licensees in good standing at home generally do not take NY-approved CE; they attest to home-state compliance. Residents must use NY-approved courses.",
+      "related": [
+        "nonresident-license",
+        "home-state"
+      ],
+      "confusedWith": [],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "According to the DFS licensing bulletin, how many CE credits must a resident Life/A&H agent complete each biennial licensing period once CE applies?",
+        "choices": [
+          "15",
+          "10",
+          "24",
+          "30"
+        ],
+        "answerIndex": 0,
+        "explanation": "The bulletin states licensees must complete 15 CE credits during each biennial licensing period after the license has been in effect for a full two years."
+      },
+      "sources": [
+        "psi-ny-bulletin-2023",
+        "dfs-agents-brokers"
+      ],
+      "nySpecific": true,
+      "timeSensitive": true,
+      "reviewDue": "2027-11-19",
+      "verification": {
+        "status": "verified",
+        "method": "official-outline",
+        "checkedOn": "2026-11-19",
+        "notes": "CE credit count from PSI/DFS bulletin p. 16 (updated 4/28/2023); § 2132 text not retrieved, so ethics/subject-specific hour splits are intentionally omitted. 15 CE credits re-confirmed on the DFS Agents & Brokers page retrieved 2026-11-19."
+      }
+    }
+  ],
+  "comparisons": []
+}

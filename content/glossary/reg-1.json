@@ -1,0 +1,333 @@
+{
+  "sectionId": "reg",
+  "terms": [
+    {
+      "id": "producer",
+      "term": "Producer",
+      "aliases": ["Insurance producer"],
+      "sectionId": "reg",
+      "outlineIds": ["reg.1.2.1", "reg.1.2.2"],
+      "formal": "Under NY Insurance Law § 2101(k), an insurance producer is an insurance agent, title insurance agent, insurance broker, reinsurance intermediary, excess lines broker, or any other person required to be licensed under New York law to sell, solicit or negotiate insurance.",
+      "plain": "\"Producer\" is the umbrella word for anyone who needs a license because they sell, solicit or negotiate insurance. Agents and brokers are both producers.",
+      "simpler": "Think of \"producer\" as the family name and \"agent\" and \"broker\" as two of the children. If your job is selling insurance to people, you are in the producer family and need a license.",
+      "examples": [
+        "Ana is licensed as a life agent appointed by one insurer; she is a producer.",
+        "A salaried clerk at an insurance company who only processes paperwork and earns no commission on sales is not a producer under § 2101(k)."
+      ],
+      "examTip": "If a question asks who must be licensed, look for the three verbs: sell, solicit or negotiate. Anyone doing those for insurance is a producer and needs a license.",
+      "misconception": "\"Producer\" is not a separate license type you apply for; it is a category that includes agents, brokers and the other listed licensees.",
+      "related": ["insurance-agent", "insurance-broker", "solicit", "negotiate", "sell"],
+      "confusedWith": ["insurance-agent"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Under New York law, which person is an insurance producer?",
+        "choices": [
+          "A licensed broker who places a client's life policy with an insurer",
+          "A salaried insurer employee who only does underwriting and receives no sales commission",
+          "An employer's HR clerk who enrolls employees in the company's group plan without compensation from the insurer",
+          "A newspaper that prints an insurer's advertisement"
+        ],
+        "answerIndex": 0,
+        "explanation": "§ 2101(k) lists brokers as producers. Underwriting employees without sales commissions, uncompensated employer benefit administrators and pure advertisers are specifically excluded."
+      },
+      "sources": ["ny-isc-2101", "psi-ny-bulletin-2023"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "insurance-agent",
+      "term": "Insurance Agent",
+      "aliases": ["Agent"],
+      "sectionId": "reg",
+      "outlineIds": ["reg.1.3.1"],
+      "formal": "Under NY Insurance Law § 2101(a), an authorized or acknowledged agent of an insurer, fraternal benefit society or HMO (or a sub-agent of such an agent) who acts in the solicitation of, negotiation for, or sale of an insurance, HMO or annuity contract, other than as a licensed insurance broker.",
+      "plain": "An agent works for the insurance company. The insurer appoints the agent, and the agent sells that insurer's policies. An agent may be appointed by more than one insurer but needs at least one appointment to do business.",
+      "simpler": "An agent is like a store employee who sells the store's products. The store (insurer) has authorized the agent to represent it.",
+      "examples": [
+        "Luis holds a NY life and accident & health license and is appointed by two insurers; he can sell policies from either of them as their agent.",
+        "Priya passes the exam and gets licensed but no insurer has appointed her yet; she cannot transact insurance business as an agent until an appointment is filed."
+      ],
+      "examTip": "Agent = represents the INSURER. Broker = represents the INSURED (the buyer). The exam often asks whose representative a producer is.",
+      "misconception": "Being licensed is not the same as being able to sell for a company. An agent also needs an appointment from each insurer whose products the agent sells.",
+      "related": ["producer", "appointment", "insurance-broker", "law-of-agency"],
+      "confusedWith": ["insurance-broker"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "In New York, an insurance agent primarily represents:",
+        "choices": ["The insurer that appointed the agent", "The applicant", "The Department of Financial Services", "The insured's employer"],
+        "answerIndex": 0,
+        "explanation": "§ 2101(a) defines an agent as an authorized or acknowledged agent of an insurer. A broker, by contrast, acts on behalf of the insured."
+      },
+      "sources": ["ny-isc-2101", "psi-ny-bulletin-2023"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "insurance-broker",
+      "term": "Insurance Broker",
+      "aliases": ["Broker"],
+      "sectionId": "reg",
+      "outlineIds": ["reg.1.3.2"],
+      "formal": "Under NY Insurance Law § 2101(c), any person, firm, association or corporation who, for compensation, acts or aids in soliciting, negotiating or selling any insurance or annuity contract or in placing risks or taking out insurance on behalf of an insured other than itself.",
+      "plain": "A broker works for the customer. The broker shops the customer's needs to insurers and places the coverage. The PSI bulletin describes a broker as representing the public and able to deal with any NY-licensed insurer that works with brokers.",
+      "simpler": "A broker is like a personal shopper who goes to many stores on your behalf, rather than a clerk who works for one store.",
+      "examples": [
+        "A small-business owner asks Marcus, a licensed broker, to find the best group health plan; Marcus requests quotes from several insurers on the owner's behalf.",
+        "Because Marcus acts for the business owner, he is the owner's representative, not the insurer's."
+      ],
+      "examTip": "Broker = buyer's representative. If the question says the producer acts \"on behalf of the insured,\" the answer is broker.",
+      "misconception": "A broker is not simply an agent with more companies. The key difference is whom the producer legally represents, not the number of insurers.",
+      "related": ["producer", "insurance-agent", "insurance-consultant"],
+      "confusedWith": ["insurance-agent"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A producer who solicits and places insurance on behalf of the insured, for compensation, is acting as a(n):",
+        "choices": ["Broker", "Agent", "Independent adjuster", "Consultant"],
+        "answerIndex": 0,
+        "explanation": "§ 2101(c) defines a broker as acting on behalf of an insured. Agents represent insurers, independent adjusters handle claims for insurers, and consultants give advice for a fee but cannot sell."
+      },
+      "sources": ["ny-isc-2101", "psi-ny-bulletin-2023"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "insurance-consultant",
+      "term": "Insurance Consultant",
+      "aliases": ["Consultant", "Life consultant"],
+      "sectionId": "reg",
+      "outlineIds": ["reg.1.3.3"],
+      "formal": "A licensee who provides expert and professional advice on insurance for a fee. A licensed consultant cannot sell, solicit or negotiate an insurance policy, because doing so requires an agent or broker license. A life consultant advises on life insurance, annuities and accident & health insurance.",
+      "plain": "A consultant gives paid advice about insurance but does not sell it. If the consultant wants to sell, the consultant also needs an agent or broker license.",
+      "simpler": "A consultant is like a home inspector: you pay for an expert opinion, but the inspector is not the one selling you the house.",
+      "examples": [
+        "A family pays Grace, a licensed life consultant, a fee to review whether their existing life policies meet their needs.",
+        "Grace recommends more coverage, but she cannot take the application for the new policy unless she also holds an agent or broker license."
+      ],
+      "examTip": "Consultant = ADVICE for a fee, never the sale. Watch for answer choices that let a consultant \"sell\" or \"solicit\" — they are wrong.",
+      "misconception": "A consultant license is not a higher-level sales license. It authorizes advice only.",
+      "related": ["insurance-broker", "insurance-agent", "producer"],
+      "confusedWith": ["insurance-broker"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "What may a licensed New York life insurance consultant do?",
+        "choices": [
+          "Give professional advice on life insurance, annuities and accident & health insurance",
+          "Solicit applications for any insurer licensed in New York",
+          "Bind coverage on behalf of an insurer",
+          "Adjust claims on behalf of an insurer"
+        ],
+        "answerIndex": 0,
+        "explanation": "Per the DFS/PSI licensing bulletin, consultants provide expert advice and cannot sell, solicit or negotiate; selling requires an agent or broker license. Adjusting claims requires an adjuster license."
+      },
+      "sources": ["psi-ny-bulletin-2023"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "official-outline", "checkedOn": "2026-11-19", "notes": "Consultant scope taken from the PSI/DFS bulletin licensing section (pp. 15-16); § 2107 itself not retrieved." }
+    },
+    {
+      "id": "adjuster",
+      "term": "Adjuster (Public and Independent)",
+      "aliases": ["Public adjuster", "Independent adjuster"],
+      "sectionId": "reg",
+      "outlineIds": ["reg.1.3.4"],
+      "formal": "Under NY Insurance Law § 2101(g), an \"independent adjuster\" acts for compensation on behalf of an insurer in investigating and adjusting claims; a \"public adjuster\" acts for compensation on behalf of an insured in negotiating or effecting the settlement of property loss claims.",
+      "plain": "Adjusters work on claims, not sales. An independent adjuster is hired by the insurance company to investigate a claim; a public adjuster is hired by the policyholder to help get a property claim settled.",
+      "simpler": "Same claim, two possible helpers: the insurer's helper (independent adjuster) and the policyholder's helper (public adjuster).",
+      "examples": [
+        "After a fire, an insurer hires an outside firm to inspect the damage and estimate the loss; that firm is acting as an independent adjuster.",
+        "The homeowner hires her own licensed public adjuster to negotiate the fire claim with the insurer."
+      ],
+      "examTip": "Public adjuster = the PUBLIC's (insured's) side. Independent adjuster = the insurer's side, even though the name sounds neutral.",
+      "misconception": "\"Independent\" does not mean the adjuster represents neither side. An independent adjuster works on behalf of the insurer.",
+      "related": ["producer", "insurance-broker"],
+      "confusedWith": ["insurance-broker"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Whom does a public adjuster represent in New York?",
+        "choices": ["The insured", "The insurer", "The Department of Financial Services", "The reinsurer"],
+        "answerIndex": 0,
+        "explanation": "§ 2101(g)(2): a public adjuster acts on behalf of an insured in negotiating the settlement of a property claim. An independent adjuster acts for the insurer."
+      },
+      "sources": ["ny-isc-2101", "psi-ny-bulletin-2023"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "home-state",
+      "term": "Home State",
+      "aliases": [],
+      "sectionId": "reg",
+      "outlineIds": ["reg.1.2.3", "reg.1.3.5"],
+      "formal": "Under NY Insurance Law § 2101(l), the District of Columbia or any U.S. state or territory in which an insurance producer maintains a principal place of residence or principal place of business and is licensed to act as an insurance producer.",
+      "plain": "Your home state is where you live or have your main business and hold your producer license. If you declare New York as your home state, you are a resident licensee; if another state, you are a nonresident licensee in New York.",
+      "simpler": "Your home state is your licensing \"home base.\" Other states' licenses are built on top of it.",
+      "examples": [
+        "Kim lives and is licensed in New Jersey and wants to sell in New York; New Jersey is her home state and she applies for a NY nonresident license.",
+        "Omar lives in Buffalo and holds a NY license; New York is his home state."
+      ],
+      "examTip": "Home state = principal residence OR principal place of business, AND licensed there as a producer.",
+      "misconception": "Home state is not simply where you were born or where most of your clients are; it turns on principal residence or principal place of business plus licensure.",
+      "related": ["nonresident-license", "producer"],
+      "confusedWith": ["nonresident-license"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which factor helps determine a producer's home state under New York law?",
+        "choices": [
+          "The state of the producer's principal place of residence or business",
+          "The state where the producer was born",
+          "The state where the appointing insurer is domiciled",
+          "The state where most of the producer's clients live"
+        ],
+        "answerIndex": 0,
+        "explanation": "§ 2101(l) defines home state by principal residence or principal place of business, where the producer is licensed."
+      },
+      "sources": ["ny-isc-2101", "psi-ny-bulletin-2023"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "nonresident-license",
+      "term": "Nonresident License",
+      "aliases": ["Non-resident license", "Nonresident agent", "Nonresident broker"],
+      "sectionId": "reg",
+      "outlineIds": ["reg.1.3.5"],
+      "formal": "A New York license issued to an individual who declares a state other than New York as home state and is licensed in good standing there for the lines of authority sought (§ 2101(d)-(e); § 2103(g)(5), (11)).",
+      "plain": "If you live and are licensed in another state, you can usually get a New York nonresident license without retaking New York's exam, as long as you stay in good standing at home. If you move to New York, you must apply for a resident license within 90 days.",
+      "simpler": "A nonresident license is like a visitor's pass that depends on your home-state license staying valid.",
+      "examples": [
+        "Beth, a Connecticut resident licensed there for life insurance, applies through NIPR for a New York nonresident life license.",
+        "Beth later moves to Westchester; she must apply to become a New York resident licensee within 90 days of establishing legal residence."
+      ],
+      "examTip": "Remember 90 days: the deadline to apply for a resident license after moving to NY, and the window after cancellation of a prior state license for the exam/education exemption.",
+      "misconception": "A nonresident license does not stand on its own; it depends on being licensed and in good standing in the home state.",
+      "related": ["home-state", "continuing-education"],
+      "confusedWith": ["home-state"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A licensed producer from another state moves to New York. Within how many days of establishing legal residence must the producer apply to become a resident licensee?",
+        "choices": ["90 days", "15 days", "30 days", "2 years"],
+        "answerIndex": 0,
+        "explanation": "§ 2103(g)(11): an individual licensed in another state who moves to New York \"shall make an application within ninety days of establishing legal residence to become a resident licensee.\""
+      },
+      "sources": ["ny-isc-2103", "ny-isc-2101", "psi-ny-bulletin-2023"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "solicit",
+      "term": "Solicit",
+      "aliases": ["Solicitation"],
+      "sectionId": "reg",
+      "outlineIds": ["reg.1.2.6"],
+      "formal": "Under NY Insurance Law § 2101(o), attempting to sell insurance or asking or urging a person to apply for a particular kind of insurance from a particular licensed insurer, fraternal benefit society or HMO.",
+      "plain": "Soliciting is trying to get someone to apply: \"You should apply for this policy from this company.\" It requires a license even if no sale happens.",
+      "simpler": "Soliciting is the ask. Selling is the deal closing. Negotiating is the conversation about the details in between.",
+      "examples": [
+        "An unlicensed friend tells co-workers, \"Apply for XYZ Life's term policy through me,\" and hands out applications; that is solicitation and requires a license.",
+        "Mentioning that life insurance is generally a good idea, without urging application to a particular insurer, is not solicitation under the definition."
+      ],
+      "examTip": "Key words for solicit: \"attempting to sell\" or \"asking or urging\" someone to apply to a particular insurer.",
+      "misconception": "A sale does not have to be completed for solicitation to occur; the attempt itself is the regulated act.",
+      "related": ["sell", "negotiate", "producer"],
+      "confusedWith": ["negotiate", "sell"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Urging a person to apply for a particular kind of insurance from a particular insurer is called:",
+        "choices": ["Soliciting", "Negotiating", "Selling", "Underwriting"],
+        "answerIndex": 0,
+        "explanation": "§ 2101(o) defines solicitation as attempting to sell or asking or urging a person to apply for a particular kind of insurance from a particular insurer."
+      },
+      "sources": ["ny-isc-2101"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "negotiate",
+      "term": "Negotiate",
+      "aliases": ["Negotiation"],
+      "sectionId": "reg",
+      "outlineIds": ["reg.1.2.4"],
+      "formal": "Under NY Insurance Law § 2101(m), conferring directly with or offering advice directly to a purchaser or prospective purchaser of a particular contract of insurance concerning any of its substantive benefits, terms or conditions, provided the person either sells insurance or obtains insurance from licensed insurers for purchasers.",
+      "plain": "Negotiating is talking with a buyer about the actual terms of a specific policy, such as its benefits, exclusions or options, when you are someone who sells or places insurance.",
+      "simpler": "Negotiating is the \"let's go over what this policy covers and which options fit you\" conversation.",
+      "examples": [
+        "An agent explains to a client the benefit period and elimination period options of a specific disability policy; she is negotiating.",
+        "A licensed broker advises a buyer on the exclusions in a particular group plan before placing it."
+      ],
+      "examTip": "Negotiate = conferring/advising on the substantive benefits, terms or conditions of a PARTICULAR contract.",
+      "misconception": "Negotiating does not mean haggling over price only; it covers advising on any substantive term of a specific contract.",
+      "related": ["solicit", "sell", "producer"],
+      "confusedWith": ["solicit"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under New York law, conferring directly with a prospective purchaser about the substantive terms of a particular insurance contract is:",
+        "choices": ["Negotiating", "Soliciting", "Selling", "Rebating"],
+        "answerIndex": 0,
+        "explanation": "§ 2101(m) defines negotiation as conferring with or advising a purchaser about the substantive benefits, terms or conditions of a particular contract."
+      },
+      "sources": ["ny-isc-2101"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "sell",
+      "term": "Sell",
+      "aliases": ["Sale"],
+      "sectionId": "reg",
+      "outlineIds": ["reg.1.2.5"],
+      "formal": "Under NY Insurance Law § 2101(n), to exchange a contract of insurance by any means, for money or its equivalent, on behalf of a licensed insurer, fraternal benefit society or HMO.",
+      "plain": "Selling is the actual exchange: the customer pays (or commits to pay) and gets the insurance contract from the insurer.",
+      "simpler": "Selling is the handshake moment when money is exchanged for the policy.",
+      "examples": [
+        "An agent collects the first premium and submits the signed application, and the insurer issues the policy; the agent has sold insurance.",
+        "A sale can happen online or by mail; \"by any means\" includes electronic transactions."
+      ],
+      "examTip": "Sell = exchange of a contract for money or its equivalent on behalf of an insurer.",
+      "misconception": "A sale is not limited to face-to-face meetings; the definition covers any means of exchange.",
+      "related": ["solicit", "negotiate", "producer"],
+      "confusedWith": ["solicit"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Exchanging a contract of insurance for money on behalf of a licensed insurer is the definition of:",
+        "choices": ["Selling", "Soliciting", "Negotiating", "Adjusting"],
+        "answerIndex": 0,
+        "explanation": "§ 2101(n) defines \"sell\" as exchanging an insurance contract by any means, for money or its equivalent, on behalf of a licensed insurer."
+      },
+      "sources": ["ny-isc-2101"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19" }
+    }
+  ],
+  "comparisons": [
+    {
+      "a": "insurance-agent",
+      "b": "insurance-broker",
+      "keyDifference": "An agent represents the insurer that appointed it; a broker represents the insured (the buyer).",
+      "rows": [
+        { "aspect": "Represents", "a": "The insurer(s) that appointed the agent", "b": "The insured / client" },
+        { "aspect": "Needs insurer appointment?", "a": "Yes — at least one appointment to transact business", "b": "No appointment; licensed under § 2104 to place business with insurers that deal with brokers" },
+        { "aspect": "Statutory definition", "a": "§ 2101(a)", "b": "§ 2101(c)" }
+      ],
+      "memoryTip": "Agent = Assigned to the company. Broker = Buyer's side."
+    },
+    {
+      "a": "insurance-broker",
+      "b": "insurance-consultant",
+      "keyDifference": "A broker can solicit, negotiate and sell for a client; a consultant only gives paid advice and cannot sell.",
+      "rows": [
+        { "aspect": "Can sell or solicit?", "a": "Yes", "b": "No — selling requires an agent or broker license" },
+        { "aspect": "Typical pay", "a": "Commission or other compensation for placing coverage", "b": "Fee for advice" }
+      ],
+      "memoryTip": "Consultant = Counsel only."
+    }
+  ]
+}

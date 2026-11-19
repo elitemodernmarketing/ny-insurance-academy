@@ -1,0 +1,197 @@
+{
+ "sources": [
+  {
+   "id": "ny-vat-311",
+   "title": "NY Vehicle & Traffic Law § 311 — Definitions (Motor Vehicle Financial Security Act): proof of financial security, minimum liability limits, insurance identification card",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/VAT/311",
+   "kind": "statute",
+   "citation": "N.Y. Veh. & Traf. Law § 311 (revision from 2024-03-08)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/VAT-311.md",
+   "notes": "The PSI outline cites \"Veh & Traf 333\" for required limits; the 25/50, 50/100, 10 limits are in § 311(4)(a)."
+  },
+  {
+   "id": "ny-vat-313",
+   "title": "NY Vehicle & Traffic Law § 313 — Notice of termination (cancellation/nonrenewal notice; insurer reporting to DMV)",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/VAT/313",
+   "kind": "statute",
+   "citation": "N.Y. Veh. & Traf. Law § 313 (revision from 2025-11-14)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/VAT-313.md",
+   "notes": "Subdivisions 2-4 change on 2028-12-31 (online insurance verification system replaces the filing/database provisions)."
+  },
+  {
+   "id": "ny-vat-1693",
+   "title": "NY Vehicle & Traffic Law § 1693 — Financial responsibility of transportation network companies (Article 44-B)",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/VAT/1693",
+   "kind": "statute",
+   "citation": "N.Y. Veh. & Traf. Law § 1693 (revision from 2017-06-30)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/VAT-1693.md"
+  },
+  {
+   "id": "ny-isc-3420",
+   "title": "NY Insurance Law § 3420 — Liability insurance; standard provisions — uninsured motorists (f)(1), SUM (f)(2), supplemental spousal liability (g)",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/3420",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 3420",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-3420.md",
+   "notes": "Subsection (g) changes on 2027-07-31 (spousal coverage reverts from opt-out to on-request); (f)(2-a) (SUM equal to BI limits unless waived, new policies) is repealed 2029-06-30."
+  },
+  {
+   "id": "ny-isc-3425",
+   "title": "NY Insurance Law § 3425 — Certain property/casualty insurance policies; cancellation and renewal provisions",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/3425",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 3425 (revision from 2026-07-03)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-3425.md"
+  },
+  {
+   "id": "ny-isc-3455",
+   "title": "NY Insurance Law § 3455 — Transportation network company group insurance policies",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/3455",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 3455 (revision from 2017-06-30)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-3455.md"
+  },
+  {
+   "id": "ny-isc-2610",
+   "title": "NY Insurance Law § 2610 — Collision or comprehensive coverage on motor vehicles; claims; repairs",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/2610",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 2610 (revision from 2017-06-23)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-2610.md"
+  },
+  {
+   "id": "ny-isc-5102",
+   "title": "NY Insurance Law § 5102 — Definitions (no-fault): basic economic loss, first party benefits, serious injury",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/5102",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 5102 (revision from 2026-05-29)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-5102.md"
+  },
+  {
+   "id": "ny-isc-5103",
+   "title": "NY Insurance Law § 5103 — Entitlement to first party benefits; additional financial security required",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/5103",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 5103 (revision from 2022-06-24)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-5103.md"
+  },
+  {
+   "id": "ny-isc-5104",
+   "title": "NY Insurance Law § 5104 — Causes of action for personal injury (no-fault tort limitation)",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/5104",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 5104 (revision from 2026-05-29)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-5104.md"
+  },
+  {
+   "id": "ny-isc-5106",
+   "title": "NY Insurance Law § 5106 — Fair claims settlement (no-fault payment and arbitration)",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/5106",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 5106 (revision from 2023-12-29)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-5106.md"
+  },
+  {
+   "id": "ny-isc-5201",
+   "title": "NY Insurance Law § 5201 — Title and purpose (Motor Vehicle Accident Indemnification Corporation Act)",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/5201",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 5201 (revision from 2014-09-22)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-5201.md"
+  },
+  {
+   "id": "ny-isc-5202",
+   "title": "NY Insurance Law § 5202 — Definitions (MVAIC): qualified person, financially irresponsible motorist",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/5202",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 5202 (revision from 2014-09-22)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-5202.md"
+  },
+  {
+   "id": "ny-isc-5301",
+   "title": "NY Insurance Law § 5301 — Participation in assigned risk plans",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/5301",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 5301 (revision from 2014-09-22)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-5301.md"
+  },
+  {
+   "id": "ny-isc-5303",
+   "title": "NY Insurance Law § 5303 — Coverage (assigned risk plan)",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/5303",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 5303 (revision from 2014-09-22)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-5303.md"
+  },
+  {
+   "id": "ny-11nycrr-65-1-1",
+   "title": "11 NYCRR § 65-1.1 — Regulation 68: Mandatory Personal Injury Protection endorsement (notice and proof-of-claim conditions)",
+   "publisher": "Legal Information Institute (Cornell Law School)",
+   "url": "https://www.law.cornell.edu/regulations/new-york/11-NYCRR-65-1.1",
+   "kind": "regulation",
+   "citation": "N.Y. Comp. Codes R. & Regs. tit. 11, § 65-1.1",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/11NYCRR-65-1.1-Reg68.md"
+  },
+  {
+   "id": "ny-11nycrr-65-1-2",
+   "title": "11 NYCRR § 65-1.2 — Regulation 68: Optional basic economic loss (OBEL) coverage",
+   "publisher": "Legal Information Institute (Cornell Law School)",
+   "url": "https://www.law.cornell.edu/regulations/new-york/11-NYCRR-65-1.2",
+   "kind": "regulation",
+   "citation": "N.Y. Comp. Codes R. & Regs. tit. 11, § 65-1.2",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/11NYCRR-65-1.2-OBEL.md"
+  },
+  {
+   "id": "ny-11nycrr-60-2-3",
+   "title": "11 NYCRR § 60-2.3 — Regulation 35-A: Requirements for SUM endorsements (non-stacking condition)",
+   "publisher": "Legal Information Institute (Cornell Law School)",
+   "url": "https://www.law.cornell.edu/regulations/new-york/11-NYCRR-60-2.3",
+   "kind": "regulation",
+   "citation": "N.Y. Comp. Codes R. & Regs. tit. 11, § 60-2.3",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/11NYCRR-60-2.3-Reg35A.md"
+  },
+  {
+   "id": "ny-11nycrr-67-2",
+   "title": "11 NYCRR § 67.2 — Regulation 79: Inspection requirement for private passenger automobiles",
+   "publisher": "Legal Information Institute (Cornell Law School)",
+   "url": "https://www.law.cornell.edu/regulations/new-york/11-NYCRR-67.2",
+   "kind": "regulation",
+   "citation": "N.Y. Comp. Codes R. & Regs. tit. 11, § 67.2",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/11NYCRR-67.2-Reg79.md"
+  }
+ ]
+}

@@ -1,0 +1,1247 @@
+{
+  "sectionId": "med",
+  "questions": [
+    {
+      "id": "med-q201",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.1.4"
+      ],
+      "concepts": [
+        "out-of-pocket-maximum",
+        "coinsurance",
+        "deductible"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "tricky",
+        "math"
+      ],
+      "scenario": "Omar's plan has a $1,500 deductible, 80/20 coinsurance and a $4,000 out-of-pocket maximum that includes the deductible. In March he had a $6,500 covered claim. In August of the same year he has a $12,000 covered claim.",
+      "stem": "How much will the insurer pay for Omar's August claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$9,600",
+          "rationale": "Incorrect: this is 80% of $12,000 and ignores that Omar reaches his out-of-pocket maximum."
+        },
+        {
+          "id": "b",
+          "text": "$10,500",
+          "rationale": "Correct: Omar has $1,500 of out-of-pocket room left, so he pays $1,500 and the insurer pays $10,500."
+        },
+        {
+          "id": "c",
+          "text": "$8,100",
+          "rationale": "Incorrect: this subtracts both a full 20% share and another deductible; the deductible was already met in March."
+        },
+        {
+          "id": "d",
+          "text": "$12,000",
+          "rationale": "Incorrect: Omar has not yet reached his maximum before this claim, so he still owes some cost-sharing."
+        }
+      ],
+      "correct": "b",
+      "explanation": "March claim: Omar pays the $1,500 deductible + 20% of $5,000 ($1,000) = $2,500. Out-of-pocket room left: $4,000 - $2,500 = $1,500. August claim: his 20% share would be 0.20 x $12,000 = $2,400, but it is capped at the $1,500 remaining. The insurer pays $12,000 - $1,500 = $10,500, and all further covered claims that year are paid in full.",
+      "memoryTip": "Track the cap across the year; the last claim only gets what room is left.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "March cost-sharing = $2,500",
+            "anyOf": [
+              "2,500",
+              "2500"
+            ]
+          },
+          {
+            "label": "Remaining room = $1,500",
+            "anyOf": [
+              "1,500",
+              "1500"
+            ]
+          },
+          {
+            "label": "Insurer pays $10,500",
+            "anyOf": [
+              "10,500",
+              "10500"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q202",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.1.4"
+      ],
+      "concepts": [
+        "coinsurance"
+      ],
+      "difficulty": 1,
+      "style": "calculation",
+      "tags": [
+        "rapid",
+        "math"
+      ],
+      "stem": "Ines has already met her deductible this year. Her plan pays 90% of covered expenses after the deductible. For a $3,000 covered bill, how much does Ines pay?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$0",
+          "rationale": "Incorrect: meeting the deductible does not end coinsurance."
+        },
+        {
+          "id": "b",
+          "text": "$2,700",
+          "rationale": "Incorrect: $2,700 is the insurer's 90% share."
+        },
+        {
+          "id": "c",
+          "text": "$900",
+          "rationale": "Incorrect: this would be a 30% coinsurance share."
+        },
+        {
+          "id": "d",
+          "text": "$300",
+          "rationale": "Correct: with the deductible met, Ines pays 10% of $3,000 = $300."
+        }
+      ],
+      "correct": "d",
+      "explanation": "After the deductible is met, coinsurance applies. A 90/10 split means the insurer pays 0.90 x $3,000 = $2,700 and Ines pays 0.10 x $3,000 = $300.",
+      "memoryTip": "Deductible met? Now just apply your percentage.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q203",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.3.2",
+        "med.1.3"
+      ],
+      "concepts": [
+        "in-network",
+        "usual-reasonable-customary",
+        "ppo"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "tricky",
+        "math"
+      ],
+      "scenario": "Pedro's PPO pays 60% of the allowed amount for out-of-network care; his deductible is already met. An out-of-network specialist charges $1,300, and the plan's allowed (URC) amount is $1,000.",
+      "stem": "What is Pedro's total out-of-pocket cost for the out-of-network visit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$700",
+          "rationale": "Correct: 40% of the $1,000 allowed amount ($400) plus the $300 balance bill = $700."
+        },
+        {
+          "id": "b",
+          "text": "$520",
+          "rationale": "Incorrect: this applies 40% to the full $1,300 bill instead of the $1,000 allowed amount."
+        },
+        {
+          "id": "c",
+          "text": "$400",
+          "rationale": "Incorrect: this is only his 40% coinsurance; he also owes the $300 the provider bills above the allowed amount."
+        },
+        {
+          "id": "d",
+          "text": "$300",
+          "rationale": "Incorrect: this is only the balance bill above the allowed amount."
+        }
+      ],
+      "correct": "a",
+      "explanation": "The PPO pays out-of-network care at 60% of its allowed (URC) amount: 0.60 x $1,000 = $600. Pedro pays his 40% coinsurance ($400). Because the provider is out of network, it may also bill him the $300 difference between its $1,300 charge and the $1,000 allowed amount. Total: $400 + $300 = $700. In network, a contracted provider would accept the negotiated rate and could not balance bill.",
+      "memoryTip": "Out of network: your coinsurance + the gap above the allowed amount.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Coinsurance on allowed amount: 40% of $1,000 = $400",
+            "anyOf": [
+              "400"
+            ]
+          },
+          {
+            "label": "Balance bill $300 above allowed amount",
+            "anyOf": [
+              "300",
+              "balance"
+            ]
+          },
+          {
+            "label": "Total $700",
+            "anyOf": [
+              "700"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q204",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.1.3"
+      ],
+      "concepts": [
+        "usual-reasonable-customary"
+      ],
+      "difficulty": 1,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "stem": "Ruth's policy pays surgical benefits from a schedule that lists $1,200 for her procedure. The surgeon charges $1,800. Ignoring any deductible, how much of the surgeon's charge is Ruth responsible for?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$1,200",
+          "rationale": "Incorrect: $1,200 is what the schedule pays."
+        },
+        {
+          "id": "b",
+          "text": "$360",
+          "rationale": "Incorrect: this applies a 20% coinsurance that the schedule does not use."
+        },
+        {
+          "id": "c",
+          "text": "$600",
+          "rationale": "Correct: the schedule pays $1,200, leaving $1,800 - $1,200 = $600."
+        },
+        {
+          "id": "d",
+          "text": "$0",
+          "rationale": "Incorrect: a schedule pays only the listed amount, not the full charge."
+        }
+      ],
+      "correct": "c",
+      "explanation": "A benefit schedule pays a fixed maximum listed in the policy for each procedure, regardless of the actual charge. The schedule pays $1,200, so Ruth owes the remaining $1,800 - $1,200 = $600.",
+      "memoryTip": "Schedule pays the listed amount; you pay the rest.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q205",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.3.1",
+        "med.2.2.3"
+      ],
+      "concepts": [
+        "ppo",
+        "hmo"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Gloria wants to see specialists without first getting a referral, and she wants some coverage if she sees a well-known surgeon who is outside the plan's network. She will accept a higher premium for that flexibility.",
+      "stem": "Which plan best matches Gloria's preferences?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "PPO",
+          "rationale": "Correct: a PPO usually needs no referrals and still pays reduced benefits out of network."
+        },
+        {
+          "id": "b",
+          "text": "EPO",
+          "rationale": "Incorrect: an EPO lets her skip referrals but generally pays nothing out of network."
+        },
+        {
+          "id": "c",
+          "text": "POS plan",
+          "rationale": "Incorrect: a POS plan uses a PCP to coordinate in-network care and referrals."
+        },
+        {
+          "id": "d",
+          "text": "HMO",
+          "rationale": "Incorrect: an HMO requires PCP referrals and generally pays nothing for non-emergency out-of-network care."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Gloria wants two things: no gatekeeper and some out-of-network coverage. A PPO typically offers both. HMOs and POS plans use a PCP and referrals; HMOs and EPOs generally do not cover non-emergency out-of-network care.",
+      "memoryTip": "No gatekeeper + out-of-network option = PPO.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "No referral / no gatekeeper",
+            "anyOf": [
+              "referral",
+              "gatekeeper",
+              "PCP"
+            ]
+          },
+          {
+            "label": "Out-of-network coverage at lower benefit",
+            "anyOf": [
+              "out-of-network",
+              "out of network"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q206",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.3.2"
+      ],
+      "concepts": [
+        "epo",
+        "in-network"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Victor is enrolled in an EPO. For a routine skin check, he goes to a dermatologist who is not in the EPO's network. It is not an emergency.",
+      "stem": "How will Victor's EPO most likely handle the bill?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pay it at the plan's reduced out-of-network benefit level",
+          "rationale": "Incorrect: reduced out-of-network benefits are a PPO or POS feature."
+        },
+        {
+          "id": "b",
+          "text": "Pay it in full, because an EPO never requires a referral",
+          "rationale": "Incorrect: not needing a referral does not make out-of-network care covered."
+        },
+        {
+          "id": "c",
+          "text": "Pay it after Victor obtains a referral afterward",
+          "rationale": "Incorrect: a referral does not convert out-of-network routine care into covered care."
+        },
+        {
+          "id": "d",
+          "text": "Deny it, since non-emergency out-of-network care isn't covered",
+          "rationale": "Correct: EPOs generally cover only network providers, except for emergencies."
+        }
+      ],
+      "correct": "d",
+      "explanation": "An exclusive provider organization covers services only from its network providers, except for emergencies. Victor's routine visit with an out-of-network dermatologist is generally not covered, even though the EPO would not have required a referral to see an in-network dermatologist.",
+      "memoryTip": "EPO: stay inside or pay it all.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q207",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.3.3",
+        "med.2.3.2"
+      ],
+      "concepts": [
+        "pos-plan",
+        "referral"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Nadia has a POS plan and has chosen a primary care physician. Without asking her PCP, she makes an appointment with a cardiologist who participates in the plan's network.",
+      "stem": "How will Nadia's POS plan most likely pay for the cardiologist visit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "At the in-network level, because the cardiologist is in the network",
+          "rationale": "Incorrect: in a POS plan, skipping the PCP referral generally drops the claim to the lower benefit level."
+        },
+        {
+          "id": "b",
+          "text": "At the lower out-of-network level, because she skipped the PCP referral",
+          "rationale": "Correct: POS plans give the highest benefits only for PCP-coordinated care."
+        },
+        {
+          "id": "c",
+          "text": "Not at all, because POS plans never cover specialist care",
+          "rationale": "Incorrect: POS plans cover specialist care, at a higher level with a referral."
+        },
+        {
+          "id": "d",
+          "text": "In full, because cardiology is an essential service",
+          "rationale": "Incorrect: the benefit level depends on following the plan's referral rules."
+        }
+      ],
+      "correct": "b",
+      "explanation": "A point-of-service plan pays its highest (HMO-style) benefits when the member's PCP coordinates care and makes referrals. When a member self-refers, the plan generally pays at its lower out-of-network (PPO-style) level, even if the specialist participates in the network.",
+      "memoryTip": "POS: the PCP's referral is the key to the best benefits.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "POS requires PCP referral for top benefits",
+            "anyOf": [
+              "referral",
+              "PCP",
+              "primary care"
+            ]
+          },
+          {
+            "label": "Self-referral paid at lower level",
+            "anyOf": [
+              "lower",
+              "out-of-network",
+              "reduced"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q208",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.2.6",
+        "med.2.2.4"
+      ],
+      "concepts": [
+        "hmo",
+        "referral"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "An HMO member needs a non-emergency knee replacement. To be covered, the surgery should generally be:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Performed at any hospital the member chooses, with claim forms filed afterward",
+          "rationale": "Incorrect: free choice of hospital with reimbursement is an indemnity feature."
+        },
+        {
+          "id": "b",
+          "text": "Paid by the member first and reimbursed at 80% of URC",
+          "rationale": "Incorrect: HMOs do not typically use URC reimbursement for network care."
+        },
+        {
+          "id": "c",
+          "text": "Arranged through the member's PCP and performed by network providers",
+          "rationale": "Correct: HMO hospital services are covered when coordinated through the PCP within the network."
+        },
+        {
+          "id": "d",
+          "text": "Approved only after the member meets a large annual deductible",
+          "rationale": "Incorrect: HMOs commonly use small copayments rather than large deductibles."
+        }
+      ],
+      "correct": "c",
+      "explanation": "HMOs provide hospital services as part of their basic services, but for non-emergency care the member must use network hospitals and specialists, usually through a PCP referral and any required plan authorization.",
+      "memoryTip": "HMO hospital care: through the PCP, inside the network.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q209",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.3.1.1",
+        "med.3.1.2"
+      ],
+      "concepts": [
+        "prospective-review",
+        "concurrent-review"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "Each of the following is a form of prospective review EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Preadmission certification of a scheduled surgery",
+          "rationale": "Incorrect: approval before admission is prospective."
+        },
+        {
+          "id": "b",
+          "text": "Discharge planning during an inpatient stay",
+          "rationale": "Correct: discharge planning occurs during the stay, which makes it part of concurrent review."
+        },
+        {
+          "id": "c",
+          "text": "A required second surgical opinion before elective surgery",
+          "rationale": "Incorrect: a second opinion obtained before surgery is prospective."
+        },
+        {
+          "id": "d",
+          "text": "Prior authorization of an outpatient MRI",
+          "rationale": "Incorrect: authorization before the service is prospective."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Prospective review happens before care: preadmission certification, prior authorization and second surgical opinions. Discharge planning happens while the patient is still being treated, so it is part of concurrent review.",
+      "memoryTip": "Before = prospective; during (including discharge planning) = concurrent.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-4900",
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q210",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.3.1"
+      ],
+      "concepts": [
+        "utilization-review",
+        "medical-necessity"
+      ],
+      "difficulty": 2,
+      "style": "definition",
+      "tags": [
+        "rapid",
+        "ny-law"
+      ],
+      "stem": "Under NY Insurance Law § 4900, a utilization review agent's determination that an admission or other health care service is not medically necessary is called a(n):",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Conversion determination",
+          "rationale": "Incorrect: conversion concerns getting an individual policy after group coverage ends."
+        },
+        {
+          "id": "b",
+          "text": "Coordination of benefits denial",
+          "rationale": "Incorrect: COB concerns which plan pays first, not medical necessity."
+        },
+        {
+          "id": "c",
+          "text": "Preexisting condition exclusion",
+          "rationale": "Incorrect: preexisting condition exclusions are prohibited and are unrelated to UR."
+        },
+        {
+          "id": "d",
+          "text": "Adverse determination",
+          "rationale": "Correct: § 4900 defines an adverse determination as a finding that a service is not medically necessary."
+        }
+      ],
+      "correct": "d",
+      "explanation": "NY Insurance Law § 4900 defines an adverse determination as a determination by a utilization review agent that an admission, extension of stay or other health care service, upon review based on the information provided, is not medically necessary.",
+      "memoryTip": "Adverse determination = 'not medically necessary'.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-4900"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q211",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.4.1"
+      ],
+      "concepts": [
+        "mandated-benefit"
+      ],
+      "difficulty": 3,
+      "style": "comparison",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "stem": "Under NY Insurance Law § 3216(a)(4), how does the dependent age rule for hospital/medical policies differ from the rule for other accident and health policies?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hospital/medical: any child to 26; other A&H: unmarried students may be covered to 23",
+          "rationale": "Correct: (iii) sets age 26 for hospital/medical/Rx; (ii) allows unmarried students to 23 for other policies."
+        },
+        {
+          "id": "b",
+          "text": "Both types must cover children to 26 only if they are full-time students",
+          "rationale": "Incorrect: the age-26 rule for hospital/medical coverage ignores student status."
+        },
+        {
+          "id": "c",
+          "text": "Hospital/medical: unmarried children only to 19; other A&H: any child to 26",
+          "rationale": "Incorrect: this reverses the rules."
+        },
+        {
+          "id": "d",
+          "text": "There is no difference; every A&H policy must cover any child to 26",
+          "rationale": "Incorrect: the age-26 requirement applies to hospital, medical, surgical and Rx policies."
+        }
+      ],
+      "correct": "a",
+      "explanation": "§ 3216(a)(4)(A) sets a general limiting age not exceeding 19, with exceptions: (iii) for hospital, medical, surgical or prescription drug policies, a married or unmarried child is a dependent until 26 regardless of financial dependence, residency, student status or employment; (ii) for other policies, an unmarried student may be a dependent until 23 (and (B) lets the insurer include unmarried children to 25).",
+      "memoryTip": "Medical coverage: 26 for everyone. Other A&H: students to 23.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3216-c4"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q212",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.4.2"
+      ],
+      "concepts": [
+        "handicapped-child-extension"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "Eli aged off his father Martin's New York health policy at the limiting age. Two years later, Eli is seriously injured and can no longer work. He is unmarried and now depends on Martin for support.",
+      "stem": "Can Martin keep Eli covered under the disabled-child extension?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, because Eli is unmarried and depends on Martin for support",
+          "rationale": "Incorrect: the incapacity must have begun before the limiting age."
+        },
+        {
+          "id": "b",
+          "text": "Yes, if Martin submits proof within 31 days of the injury",
+          "rationale": "Incorrect: the 31-day proof rule applies when the child reaches the limiting age while already incapacitated."
+        },
+        {
+          "id": "c",
+          "text": "No, because the incapacity began after Eli reached the limiting age",
+          "rationale": "Correct: the extension requires that the child became incapable before the limiting age."
+        },
+        {
+          "id": "d",
+          "text": "No, because the extension applies only to mental illness",
+          "rationale": "Incorrect: physical handicap also qualifies."
+        }
+      ],
+      "correct": "c",
+      "explanation": "NY Insurance Law § 3216(c)(4)(A) continues coverage for an unmarried child incapable of self-sustaining employment due to mental illness, developmental disability or physical handicap only if the child became so incapable before reaching the limiting age. Eli's injury happened after he had already aged off the policy.",
+      "memoryTip": "Disabled BEFORE the age limit, or no extension.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Incapacity must begin before the limiting age",
+            "anyOf": [
+              "before",
+              "prior to"
+            ]
+          },
+          {
+            "label": "Eli's injury came after aging off",
+            "anyOf": [
+              "after",
+              "two years later"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3216-c4"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q213",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.4.3"
+      ],
+      "concepts": [
+        "newborn-coverage"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "scenario": "The Parks have New York family coverage. They take physical custody of a newborn when the baby leaves the hospital and file an adoption petition 12 days after the birth. The birth mother has health insurance available for the baby's care.",
+      "stem": "Under New York law, how is the adopted baby's coverage under the Parks' family policy treated?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Effective from birth, but the initial hospital stay need not be covered",
+          "rationale": "Correct: adopted newborns are covered from birth, except the initial stay when the birth parent's coverage is available."
+        },
+        {
+          "id": "b",
+          "text": "Effective only from the date the adoption is finalized",
+          "rationale": "Incorrect: with custody and a timely petition, coverage is effective from the moment of birth."
+        },
+        {
+          "id": "c",
+          "text": "Not available, because adopted children are excluded from newborn coverage",
+          "rationale": "Incorrect: the statute expressly includes newly born adopted infants."
+        },
+        {
+          "id": "d",
+          "text": "Effective from birth, including the hospital stay, regardless of other coverage",
+          "rationale": "Incorrect: the statute does not require coverage of the initial stay when the birth parent's coverage is available."
+        }
+      ],
+      "correct": "a",
+      "explanation": "§ 3216(c)(4)(C) and § 4235(f)(2) cover a newly born adopted infant from the moment of birth if the insured takes physical custody upon the infant's release from the hospital and files the adoption petition within 30 days of birth. In adoption cases, coverage of the initial hospital stay is not required where a birth parent has insurance coverage available for the infant's care.",
+      "memoryTip": "Adopted newborn: covered from birth (custody + petition within 30 days); birth parent's plan may handle the first stay.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Custody at discharge and petition within 30 days",
+            "anyOf": [
+              "custody",
+              "30",
+              "petition"
+            ]
+          },
+          {
+            "label": "Coverage from moment of birth",
+            "anyOf": [
+              "moment of birth",
+              "from birth"
+            ]
+          },
+          {
+            "label": "Initial stay not required if birth parent has coverage",
+            "anyOf": [
+              "initial",
+              "hospital stay",
+              "birth parent"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3216-c4",
+        "ny-isc-4235"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q214",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.7.1",
+        "med.7"
+      ],
+      "concepts": [
+        "hipaa",
+        "special-enrollment-period"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Tasha declined her employer's group health plan because she and her son were covered under her husband's plan. Her husband loses his job, and their coverage ends on May 31.",
+      "stem": "Under the federal special enrollment rules that originated with HIPAA, what may Tasha do?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nothing until the plan's next annual open enrollment",
+          "rationale": "Incorrect: loss of other coverage triggers a special enrollment right."
+        },
+        {
+          "id": "b",
+          "text": "Enroll, but with a 12-month preexisting condition exclusion",
+          "rationale": "Incorrect: preexisting condition exclusions are prohibited."
+        },
+        {
+          "id": "c",
+          "text": "Enroll only after proving her son is in good health",
+          "rationale": "Incorrect: special enrollment does not depend on health status."
+        },
+        {
+          "id": "d",
+          "text": "Enroll herself and her son if she requests it within 30 days",
+          "rationale": "Correct: she may enroll if she asks within 30 days after the other coverage ended."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Under 42 U.S.C. § 300gg-3(f)(1), an eligible employee who declined coverage because of other coverage may enroll (with eligible dependents) when that other coverage ends because of loss of eligibility, such as a spouse's termination of employment, if the employee requests enrollment within 30 days.",
+      "memoryTip": "Lost other coverage? 30 days to jump in.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Loss of other coverage is a special enrollment event",
+            "anyOf": [
+              "loss",
+              "lost",
+              "special enrollment"
+            ]
+          },
+          {
+            "label": "Request within 30 days",
+            "anyOf": [
+              "30"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-42-300gg-3"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q215",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.7.4"
+      ],
+      "concepts": [
+        "hipaa"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "A health plan administrator emails an employer the names and diagnoses of employees who filed mental health claims so the employer can consider them when deciding on promotions. The employees did not authorize the disclosure.",
+      "stem": "Which statement best describes this disclosure under HIPAA's privacy protections?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is acceptable because the employer sponsors the group health plan",
+          "rationale": "Incorrect: sponsoring the plan does not let the employer use protected health information for job decisions."
+        },
+        {
+          "id": "b",
+          "text": "It violates HIPAA privacy protections for health information",
+          "rationale": "Correct: using an employee's health information for a promotion decision without authorization is improper."
+        },
+        {
+          "id": "c",
+          "text": "It is acceptable for employees who earn above a set salary level",
+          "rationale": "Incorrect: privacy protections do not depend on salary."
+        },
+        {
+          "id": "d",
+          "text": "It is acceptable if the information is sent by secure email",
+          "rationale": "Incorrect: secure transmission does not make an improper disclosure permissible."
+        }
+      ],
+      "correct": "b",
+      "explanation": "HIPAA's privacy protections limit how health plans, providers and clearinghouses use and disclose individually identifiable health information. Giving an employer an employee's diagnosis so it can be used in an employment decision, without the employee's authorization, is not a permitted use.",
+      "memoryTip": "Health info stays private, especially from the boss.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q216",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.7.2",
+        "med.7.3"
+      ],
+      "concepts": [
+        "guaranteed-issue",
+        "guaranteed-renewable"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [
+        "tricky"
+      ],
+      "stem": "What is the difference between guaranteed issue and guaranteed renewability?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Guaranteed issue fixes premiums for life; renewability lets the insurer cancel for claims",
+          "rationale": "Incorrect: neither concept fixes premiums, and renewability forbids termination for health status."
+        },
+        {
+          "id": "b",
+          "text": "Guaranteed issue applies only to life insurance; renewability applies only to health insurance",
+          "rationale": "Incorrect: both concepts apply to health coverage under HIPAA and New York law."
+        },
+        {
+          "id": "c",
+          "text": "Issue means accepting eligible applicants; renewability means continuing existing coverage",
+          "rationale": "Correct: issue is about getting coverage; renewability is about keeping it."
+        },
+        {
+          "id": "d",
+          "text": "They are two names for the same requirement",
+          "rationale": "Incorrect: they protect people at different stages."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Guaranteed issue requires an insurer to accept eligible applicants regardless of health status. Guaranteed renewability requires the insurer to renew existing coverage at the policyholder's option, except for limited reasons such as nonpayment of premium or fraud.",
+      "memoryTip": "Issue = get in; renew = stay in.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q217",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.1.1"
+      ],
+      "concepts": [
+        "prepaid-plan",
+        "fee-for-service"
+      ],
+      "difficulty": 2,
+      "style": "application",
+      "tags": [],
+      "scenario": "Dr. Okafor receives $50 per month for each of 600 HMO members assigned to her, whether or not they visit. Her colleague Dr. Ruiz is paid separately for each visit and test under fee-for-service contracts.",
+      "stem": "Compared with fee-for-service, which financial incentive does capitation create for the doctor?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "To perform more procedures, since each one is paid separately",
+          "rationale": "Incorrect: that is the incentive under fee-for-service."
+        },
+        {
+          "id": "b",
+          "text": "To keep members healthy and avoid unnecessary services",
+          "rationale": "Correct: the doctor receives the same amount regardless of how many services are delivered."
+        },
+        {
+          "id": "c",
+          "text": "To bill patients directly for every office visit",
+          "rationale": "Incorrect: capitated members typically pay only small copayments."
+        },
+        {
+          "id": "d",
+          "text": "To refer every patient to specialists quickly",
+          "rationale": "Incorrect: unnecessary referrals do not increase a capitated payment."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Under capitation, a provider receives a fixed amount per member per period. Extra services do not bring extra payment, so the incentive is to keep members healthy through preventive care and avoid unnecessary services. Under fee-for-service, each additional service generates additional payment.",
+      "memoryTip": "Capitation pays for members; fee-for-service pays for services.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q218",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.1.2",
+        "med.2.1.2"
+      ],
+      "concepts": [
+        "limited-policy",
+        "major-medical"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Hal owns a policy that pays only for hospital room and board and hospital services. After a three-day stay, he has four follow-up visits at his doctor's office, which the policy does not pay.",
+      "stem": "Why did Hal's policy pay for the hospital stay but not the follow-up office visits?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The visits were excluded because they occurred after discharge",
+          "rationale": "Incorrect: timing is not the reason; the policy simply does not cover physician office visits."
+        },
+        {
+          "id": "b",
+          "text": "Office visits always require a PCP referral under any type of policy",
+          "rationale": "Incorrect: referral rules belong to managed care plans, not this specified policy."
+        },
+        {
+          "id": "c",
+          "text": "Hal had not yet met his out-of-pocket maximum",
+          "rationale": "Incorrect: the out-of-pocket maximum caps cost-sharing on covered services."
+        },
+        {
+          "id": "d",
+          "text": "It covers only specified hospital services, not comprehensive care",
+          "rationale": "Correct: a specified coverage pays only for the services it names."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Specified (limited) coverages pay only for the services or conditions they list, such as hospital room and board. Comprehensive coverage, such as major medical, would cover a broad range of expenses including physician office visits.",
+      "memoryTip": "Specified = only what's named.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-q219",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.4"
+      ],
+      "concepts": [
+        "fee-for-service",
+        "major-medical"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Which feature is typical of a traditional indemnity plan rather than an HMO?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Free choice of provider, with expenses reimbursed after care",
+          "rationale": "Correct: indemnity plans pay fee-for-service and let insureds choose any provider."
+        },
+        {
+          "id": "b",
+          "text": "Capitation payments to the plan's network doctors",
+          "rationale": "Incorrect: capitation is an HMO payment method."
+        },
+        {
+          "id": "c",
+          "text": "A primary care physician who must approve specialist visits",
+          "rationale": "Incorrect: that is an HMO gatekeeper feature."
+        },
+        {
+          "id": "d",
+          "text": "Coverage limited to a defined service area",
+          "rationale": "Incorrect: service-area limits are an HMO feature."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Traditional indemnity plans let the insured use any licensed provider and reimburse covered expenses after care is received (fee-for-service), typically after a deductible and with coinsurance. HMOs use PCP gatekeepers, capitation and service areas.",
+      "memoryTip": "Indemnity = any doctor, paid back later.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

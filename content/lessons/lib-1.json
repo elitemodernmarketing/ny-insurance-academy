@@ -1,0 +1,515 @@
+{
+  "sectionId": "lib",
+  "lessons": [
+    {
+      "id": "lib-l01",
+      "sectionId": "lib",
+      "order": 1,
+      "title": "Why People Buy Life Insurance: Insurable Interest and Personal Uses",
+      "outlineIds": [
+        "lib.1",
+        "lib.2",
+        "lib.2.1",
+        "lib.2.2",
+        "lib.2.3",
+        "lib.2.4",
+        "lib.2.5"
+      ],
+      "estMinutes": 25,
+      "intro": "Before anyone can buy life insurance on someone else, the law asks a simple question: are you better off if that person stays alive? In this lesson you will learn New York's insurable interest rule and the five big personal reasons people buy life insurance.",
+      "objectives": [
+        "Explain New York's definition of insurable interest and when it must exist",
+        "Identify who may insure another person without that person's written consent",
+        "Distinguish survivor protection, estate creation, cash accumulation, liquidity and estate conservation"
+      ],
+      "keyTerms": [
+        "insurable-interest",
+        "survivor-protection",
+        "estate-creation",
+        "liquidity",
+        "estate-conservation",
+        "permanent-life-insurance"
+      ],
+      "parts": [
+        {
+          "heading": "Insurable interest in New York",
+          "body": "[[insurable-interest|Insurable interest]] keeps life insurance from becoming a bet on someone's death. NY Insurance Law § 3205 defines it two ways:\n\n- **Close relatives (by blood or by law):** a substantial interest based on **love and affection**.\n- **Everyone else:** a **lawful and substantial economic interest** in the insured's continued life, health or bodily safety — not an interest that arises only from, or grows because of, the insured's death.\n\nAny adult may insure **their own life** and name **anyone** as beneficiary. But no one may buy insurance on **another person** unless the benefits are payable to the insured (or the insured's estate) or to someone who had an insurable interest **at the time the contract is made**.",
+          "simple": "To buy a policy on someone else, you must be better off if they live — because you love them or because you depend on them financially. This must be true when the policy starts. You can insure yourself and name anyone.",
+          "example": {
+            "title": "Example: the divorced spouse",
+            "body": "Rosa bought a policy on her husband Ken while they were married. They later divorced and Ken died. Because Rosa had an insurable interest when the policy was issued, the policy is valid; insurable interest does not have to continue until death."
+          },
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "NY Ins. Law § 3205(b)(2): the payee must have an insurable interest 'at the time when such contract is made.' A person or estate that receives benefits from a policy made in violation can be sued by the insured or the insured's executor to recover them (§ 3205(b)(4)).",
+              "sources": [
+                "ny-isc-3205"
+              ]
+            },
+            {
+              "kind": "exam-trap",
+              "text": "Insurable interest is tested at the START of the policy, not at death. Don't pick 'claim denied because they divorced.'"
+            }
+          ]
+        },
+        {
+          "heading": "Consent of the insured",
+          "body": "Generally, a person's life cannot be insured unless that person, being of lawful age or competent, **applies for or consents in writing** before the contract is made (§ 3205(c)). Exceptions in the statute:\n\n- **Spouses:** a wife or husband may insure the other without written consent.\n- **Minors:** a person with an insurable interest in a child under age 14 years and 6 months (or a person on whom the child depends) may insure the child within the limits of § 3207.\n- **Group life** (and group or blanket accident and health) is outside this consent rule.\n\nEmployers also have an insurable interest in employees eligible for an ERISA employee benefit plan, but must notify them in writing and obtain their written consent (§ 3205(d)).",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "NY Ins. Law § 3205(c)(1): 'A wife or a husband may effectuate insurance upon the person of the other.'",
+              "sources": [
+                "ny-isc-3205"
+              ]
+            },
+            {
+              "kind": "note",
+              "text": "Stranger-originated life insurance ([[stoli]]) schemes try to get around insurable interest by having investors fund a policy on a stranger. The 'interest that arises only by death' language in § 3205 is aimed at exactly this."
+            }
+          ]
+        },
+        {
+          "heading": "The personal uses of life insurance",
+          "body": "People buy life insurance for five classic personal reasons:\n\n- **[[survivor-protection|Survivor protection]]** — replace income and pay bills for dependents.\n- **[[estate-creation|Estate creation]]** — the first premium creates an 'instant estate' equal to the face amount.\n- **Cash accumulation** — [[permanent-life-insurance|permanent]] policies build [[cash-value]] the owner can borrow or withdraw.\n- **[[liquidity|Liquidity]]** — proceeds arrive as cash quickly, so heirs don't have to sell assets at a loss.\n- **[[estate-conservation|Estate conservation]]** — protect an existing estate from shrinking when debts, taxes and settlement costs come due.",
+          "simple": "Life insurance can protect your family, create money for heirs right away, build savings (permanent policies), give quick cash, and keep a big estate from being sold off to pay bills.",
+          "example": {
+            "title": "Example: same policy, different purposes",
+            "body": "A 30-year-old parent buys term for survivor protection and estate creation. A 70-year-old business owner buys permanent coverage for liquidity and estate conservation, so her heirs can keep the business."
+          },
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Create vs conserve: CREATE an estate you don't have yet; CONSERVE the one you already have."
+            },
+            {
+              "kind": "exam-trap",
+              "text": "Cash accumulation is the only personal use that requires a cash value policy. Term can do survivor protection, estate creation and liquidity, but not cash accumulation."
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "match",
+        "prompt": "Match each situation to the personal use of life insurance it illustrates.",
+        "pairs": [
+          {
+            "left": "A young father wants his kids to stay in their home if he dies",
+            "right": "Survivor protection"
+          },
+          {
+            "left": "A 25-year-old with little savings creates a $500,000 estate with one premium",
+            "right": "Estate creation"
+          },
+          {
+            "left": "An owner borrows from her whole life policy for a down payment",
+            "right": "Cash accumulation"
+          },
+          {
+            "left": "Heirs pay final bills in cash instead of selling farmland quickly",
+            "right": "Liquidity"
+          },
+          {
+            "left": "A wealthy client protects her estate from forced sales to pay settlement costs",
+            "right": "Estate conservation"
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Under NY Insurance Law § 3205, which person may insure another WITHOUT that person's written consent?",
+          "choices": [
+            "A spouse",
+            "A neighbor",
+            "A creditor",
+            "A business partner"
+          ],
+          "answerIndex": 0,
+          "explanation": "§ 3205(c)(1) lets a wife or husband effectuate insurance on the other. Others generally need the insured's written application or consent."
+        },
+        {
+          "prompt": "Which interest does NOT qualify as an insurable interest under § 3205?",
+          "choices": [
+            "One that would arise only from the insured's death",
+            "Love and affection between siblings",
+            "An employer's economic stake in a key employee",
+            "A partner's stake in a co-owner's continued life"
+          ],
+          "answerIndex": 0,
+          "explanation": "The statute excludes an interest that would arise only by, or be enhanced in value by, the insured's death."
+        },
+        {
+          "prompt": "Which personal use requires a policy with cash value?",
+          "choices": [
+            "Cash accumulation",
+            "Survivor protection",
+            "Estate creation",
+            "Liquidity at death"
+          ],
+          "answerIndex": 0,
+          "explanation": "Only permanent (cash value) policies build funds the owner can use while living."
+        }
+      ],
+      "summary": [
+        "NY insurable interest = love and affection (close relatives) or a lawful, substantial economic interest in the insured's continued life.",
+        "It must exist when the contract is made; it need not exist at death.",
+        "Written consent of the insured is generally required, except spouses, certain minors and group coverage.",
+        "Five personal uses: survivor protection, estate creation, cash accumulation, liquidity, estate conservation."
+      ],
+      "related": [
+        "lib-l02"
+      ],
+      "sources": [
+        "ny-isc-3205",
+        "general-insurance-principles"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-l02",
+      "sectionId": "lib",
+      "order": 2,
+      "title": "How Much Coverage? Needs Analysis and Business Uses",
+      "outlineIds": [
+        "lib.3",
+        "lib.3.1",
+        "lib.3.2",
+        "lib.3.2.1",
+        "lib.3.2.2",
+        "lib.3.2.3",
+        "lib.4",
+        "lib.4.1",
+        "lib.4.2",
+        "lib.4.3"
+      ],
+      "estMinutes": 30,
+      "intro": "Recommending the right amount of coverage is one of a producer's most important jobs. You'll learn the two classic methods — human life value and the needs approach — and then see how businesses use life insurance to survive the death of an owner or key employee.",
+      "objectives": [
+        "Compare the human life value and needs approaches",
+        "Calculate a simple lump-sum need and identify income-need periods",
+        "Explain buy-sell agreements (cross-purchase vs entity) and key person insurance"
+      ],
+      "keyTerms": [
+        "human-life-value",
+        "needs-approach",
+        "buy-sell-agreement",
+        "key-person-insurance",
+        "business-continuation"
+      ],
+      "parts": [
+        {
+          "heading": "Human life value approach",
+          "body": "The [[human-life-value|human life value approach]] treats a person as an economic asset. It estimates the insured's future earnings over the remaining working years, subtracts what the insured would spend on themselves, and discounts the result to today's value.\n\n- Focus: the **earnings** the family would lose.\n- More remaining working years and higher earnings → higher human life value.",
+          "simple": "How much money would this person have brought home for the family for the rest of their career? That's what to insure.",
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Human life VALUE = the value of future paychecks."
+            }
+          ]
+        },
+        {
+          "heading": "The needs approach",
+          "body": "The [[needs-approach|needs approach]] starts from the family's needs instead of the insured's income.\n\n**1. Gather information.** Quantitative facts (income, debts, assets, existing coverage, ages of children) and qualitative facts (goals, attitudes, priorities).\n\n**2. Lump-sum (cash) needs.** Final expenses, debts, mortgage payoff, an emergency fund, education funds.\n\n**3. Income needs.** Planned in periods:\n\n- **Readjustment period** — right after death, while the family adjusts.\n- **Dependency period** — until the youngest child is independent.\n- **Blackout period** — after the children are grown and before the surviving spouse's retirement income begins.\n- **Retirement income** for the surviving spouse.\n\n**4. Subtract existing resources** (savings, investments, existing life insurance). The remaining gap is the additional coverage needed.",
+          "example": {
+            "title": "Example: Kim's lump-sum needs",
+            "body": "Final expenses $20,000 + mortgage $180,000 + college $100,000 = $300,000. Kim already has $50,000 of group life. Additional coverage for lump-sum needs: $300,000 − $50,000 = $250,000 (income needs are calculated separately)."
+          },
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "Don't forget to SUBTRACT existing assets and coverage — a common distractor is the total of needs before resources are subtracted."
+            }
+          ]
+        },
+        {
+          "heading": "Business uses of life insurance",
+          "body": "Businesses use life insurance to keep operating when an owner or key employee dies — the goal of [[business-continuation|business continuation]].\n\n- **[[buy-sell-agreement|Buy-sell agreement]]:** a binding agreement that surviving owners (or the business) will buy a deceased owner's interest at an agreed price, funded with life insurance.\n  - *Cross-purchase:* each owner buys a policy on every other owner. With n owners you need n × (n − 1) policies.\n  - *Entity (stock redemption):* the business owns one policy on each owner and buys back the interest.\n- **[[key-person-insurance|Key person insurance]]:** the business owns, pays for and is beneficiary of a policy on an employee whose death would hurt profits. The employer's insurable interest is its economic stake in that person's continued life.",
+          "simple": "Partners agree ahead of time to buy out a partner who dies, and insurance supplies the money. Companies also insure their most valuable people so they can survive losing them.",
+          "example": {
+            "title": "Example: counting policies",
+            "body": "Three partners using a cross-purchase plan need 3 × 2 = 6 policies. Using an entity plan, the partnership needs just 3."
+          },
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Entity = the company buys; cross = the owners criss-cross."
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "categorize",
+        "prompt": "Sort each item into the right part of a needs analysis.",
+        "categories": [
+          "Lump-sum need",
+          "Income need",
+          "Existing resource"
+        ],
+        "items": [
+          {
+            "text": "Funeral and final expenses",
+            "category": "Lump-sum need"
+          },
+          {
+            "text": "Paying off the mortgage",
+            "category": "Lump-sum need"
+          },
+          {
+            "text": "College education fund",
+            "category": "Lump-sum need"
+          },
+          {
+            "text": "Monthly living costs while children are at home",
+            "category": "Income need"
+          },
+          {
+            "text": "Blackout period income for the spouse",
+            "category": "Income need"
+          },
+          {
+            "text": "Readjustment period income",
+            "category": "Income need"
+          },
+          {
+            "text": "Group life insurance through work",
+            "category": "Existing resource"
+          },
+          {
+            "text": "Savings and investments",
+            "category": "Existing resource"
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Which method sizes life insurance based on the present value of the insured's future earnings?",
+          "choices": [
+            "Human life value approach",
+            "Needs approach",
+            "Entity purchase",
+            "Key person analysis"
+          ],
+          "answerIndex": 0,
+          "explanation": "Human life value measures lost earnings; the needs approach measures the family's needs."
+        },
+        {
+          "prompt": "Five owners want a cross-purchase buy-sell plan. How many policies are needed?",
+          "choices": [
+            "20",
+            "5",
+            "10",
+            "25"
+          ],
+          "answerIndex": 0,
+          "explanation": "n × (n − 1) = 5 × 4 = 20."
+        },
+        {
+          "prompt": "In key person insurance, the beneficiary is:",
+          "choices": [
+            "The business",
+            "The key person's family",
+            "The key person's estate",
+            "The other employees"
+          ],
+          "answerIndex": 0,
+          "explanation": "The business suffers the loss, so it owns and receives the proceeds."
+        }
+      ],
+      "summary": [
+        "Human life value = present value of future earnings available to the family.",
+        "Needs approach = lump-sum needs + income needs − existing resources.",
+        "Income needs: readjustment, dependency, blackout and retirement periods.",
+        "Buy-sell: cross-purchase (owners insure each other) vs entity (business insures each owner).",
+        "Key person: business is owner, payer and beneficiary."
+      ],
+      "related": [
+        "lib-l01",
+        "lib-l03"
+      ],
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-l03",
+      "sectionId": "lib",
+      "order": 3,
+      "title": "Comparing Policies and Understanding Premiums",
+      "outlineIds": [
+        "lib.5",
+        "lib.5.1",
+        "lib.5.2",
+        "lib.5.3",
+        "lib.5.4",
+        "lib.5.4.1",
+        "lib.6",
+        "lib.6.1",
+        "lib.6.2"
+      ],
+      "estMinutes": 25,
+      "intro": "Life policies differ in who owns them, how long they last, whether they pay dividends and who bears investment risk. Their price depends on three main factors and on how often you pay. This lesson gives you the big-picture map.",
+      "objectives": [
+        "Contrast group and individual, term and permanent, and participating and nonparticipating policies",
+        "Explain how variable life differs from fixed life and how it is regulated",
+        "Describe the three premium factors and the effect of premium mode"
+      ],
+      "keyTerms": [
+        "permanent-life-insurance",
+        "participating-policy",
+        "nonparticipating-policy",
+        "variable-life-insurance",
+        "mortality",
+        "premium-mode"
+      ],
+      "parts": [
+        {
+          "heading": "Group vs individual; term vs permanent",
+          "body": "**Group vs individual.** [[group-life-insurance|Group life]] is issued under one [[master-policy]] to an employer or other sponsor; members receive [[certificate-of-coverage|certificates]]. The group, not each person, is underwritten, so basic amounts usually need no medical evidence. Individual policies are owned by the individual and individually underwritten.\n\n**Term vs permanent.** [[term-life-insurance|Term]] covers a set period, usually has no cash value and has the lowest initial premium per $1,000 — ideal for large, temporary needs. [[permanent-life-insurance|Permanent]] insurance (whole life, universal life, variable life) is designed to last for life and builds [[cash-value]], so it costs more.",
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "Young family, tight budget, big temporary need → term is usually the most efficient answer."
+            }
+          ]
+        },
+        {
+          "heading": "Participating vs nonparticipating",
+          "body": "A [[participating-policy|participating]] policy can receive policy [[dividend|dividends]] — a return of part of the premium when the insurer's experience is better than assumed. Dividends **cannot be guaranteed**. Mutual insurers typically issue participating policies.\n\nA [[nonparticipating-policy|nonparticipating]] policy pays no dividends; its premium is set closer to expected cost. Stock insurers typically issue nonparticipating policies.",
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "PAR = PARticipates in surplus (sometimes)."
+            }
+          ]
+        },
+        {
+          "heading": "Fixed vs variable life",
+          "body": "In fixed products the insurer invests premiums in its [[general-account]] and bears the investment risk; cash values are guaranteed.\n\nIn [[variable-life-insurance|variable life]], cash values are held in a [[separate-account]] and invested in subaccounts the owner selects, so the **policyowner bears the investment risk**. Because it is both insurance and a security, variable life is regulated by the SEC and FINRA (formerly the NASD) as well as by the state insurance department. Sellers need a life license plus a securities registration, and buyers receive a prospectus.",
+          "advanced": "The PSI outline also cites NY Insurance Law § 4240 and Regulations 47 and 77 for variable products. The details of those provisions are not taught here; for the exam, focus on dual regulation and on who bears investment risk.",
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "A guaranteed minimum death benefit on variable whole life does NOT guarantee the cash value."
+            }
+          ]
+        },
+        {
+          "heading": "What determines the premium",
+          "body": "Three primary factors:\n\n- **[[mortality|Mortality]]** — expected death rates by age and class. Higher mortality → higher premium.\n- **Interest (investment return)** — what the insurer expects to earn on premiums it holds. Higher interest → **lower** premium.\n- **Expense (loading)** — costs of running the company and selling policies. Higher expense → higher premium.\n\n**[[premium-mode|Mode of premium]].** Premiums may be paid annually, semiannually, quarterly or monthly. Modes more frequent than annual cost more in total because of extra billing costs and lost interest.",
+          "example": {
+            "title": "Example: monthly vs annual",
+            "body": "Annual premium $1,000; monthly mode $88. Monthly total = $88 × 12 = $1,056, or $56 more per year."
+          },
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Interest is the odd one out: it moves premium in the opposite direction."
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "truefalse",
+        "prompt": "True or false?",
+        "statements": [
+          {
+            "text": "Policy dividends on a participating policy are guaranteed.",
+            "answer": false,
+            "explanation": "Dividends depend on actual experience and cannot be guaranteed."
+          },
+          {
+            "text": "In variable life, the policyowner bears the investment risk.",
+            "answer": true,
+            "explanation": "Cash values follow the subaccounts the owner chooses."
+          },
+          {
+            "text": "A higher assumed interest rate lowers the premium.",
+            "answer": true,
+            "explanation": "More investment earnings means less premium is needed."
+          },
+          {
+            "text": "Paying monthly costs the same per year as paying annually.",
+            "answer": false,
+            "explanation": "More frequent modes cost more in total."
+          },
+          {
+            "text": "Group life is usually underwritten on the group as a whole.",
+            "answer": true,
+            "explanation": "Basic group amounts typically require no individual medical evidence."
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Which premium factor, when it increases, LOWERS the premium?",
+          "choices": [
+            "Interest",
+            "Mortality",
+            "Expense",
+            "Age"
+          ],
+          "answerIndex": 0,
+          "explanation": "Higher investment return reduces the premium needed."
+        },
+        {
+          "prompt": "Variable life insurance is regulated by:",
+          "choices": [
+            "Both securities regulators and the state insurance department",
+            "Only the state insurance department",
+            "Only the SEC",
+            "Only FINRA"
+          ],
+          "answerIndex": 0,
+          "explanation": "It is both a security and an insurance product."
+        },
+        {
+          "prompt": "Which insurer typically issues participating policies?",
+          "choices": [
+            "Mutual insurer",
+            "Stock insurer",
+            "Reinsurer",
+            "Unauthorized insurer"
+          ],
+          "answerIndex": 0,
+          "explanation": "Mutual insurers are owned by policyowners and usually issue participating policies."
+        }
+      ],
+      "summary": [
+        "Group = master policy and certificates, group underwriting; individual = individually owned and underwritten.",
+        "Term = temporary, cheapest initially; permanent = lifetime with cash value.",
+        "Participating policies may pay non-guaranteed dividends; nonparticipating pay none.",
+        "Variable life: separate account, owner bears investment risk, dual SEC/FINRA and state regulation.",
+        "Premium factors: mortality, interest, expense; annual mode costs least."
+      ],
+      "related": [
+        "lib-l02",
+        "lib-l04"
+      ],
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

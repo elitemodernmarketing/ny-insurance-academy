@@ -1,0 +1,765 @@
+{
+  "sectionId": "ihp",
+  "questions": [
+    {
+      "id": "ihp-q201",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.1.1"
+      ],
+      "concepts": [
+        "entire-contract-provision"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "When selling Rex an individual health policy, the agent told him it would cover massage therapy. The policy, which Rex received with no riders, excludes massage therapy.",
+      "stem": "Must the insurer pay for the massage therapy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No; the policy and its attachments are the entire contract",
+          "rationale": "Correct: the agent's oral promise is not part of the contract, and agents cannot change or waive policy terms."
+        },
+        {
+          "id": "b",
+          "text": "Yes, because the agent's oral promise binds the insurer",
+          "rationale": "Incorrect: § 3216(d)(1)(A) says no agent or broker has authority to change the policy."
+        },
+        {
+          "id": "c",
+          "text": "Yes, if Rex can prove the agent made the promise",
+          "rationale": "Incorrect: even a proven oral promise does not add terms to the policy."
+        },
+        {
+          "id": "d",
+          "text": "No, unless Rex paid an extra premium to the agent",
+          "rationale": "Incorrect: only an executive officer's endorsed change can modify the policy."
+        }
+      ],
+      "correct": "a",
+      "explanation": "§ 3216(d)(1)(A): the policy, including endorsements and attached papers, constitutes the entire contract. Changes are valid only when approved by an executive officer and endorsed on or attached to the policy; no agent or broker may change the policy or waive its provisions. (Rex may have a complaint against the agent, but the policy controls coverage.)",
+      "memoryTip": "If it isn't in the policy, it isn't covered.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Entire contract provision",
+            "anyOf": [
+              "entire contract"
+            ]
+          },
+          {
+            "label": "Agent cannot change the policy",
+            "anyOf": [
+              "agent",
+              "no authority",
+              "cannot change"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3216"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ihp-q202",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.2.1"
+      ],
+      "concepts": [
+        "coordination-of-benefits"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Sam has covered expenses of $2,000. His primary plan pays $1,600. His secondary plan coordinates benefits.",
+      "stem": "Assuming the secondary plan's normal benefit would cover it, how much does the secondary plan pay?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$1,600",
+          "rationale": "Incorrect: that is what the primary plan paid; the secondary pays the balance."
+        },
+        {
+          "id": "b",
+          "text": "$400",
+          "rationale": "Correct: $2,000 − $1,600 paid by the primary plan = $400 remaining."
+        },
+        {
+          "id": "c",
+          "text": "$2,000",
+          "rationale": "Incorrect: paying the full bill again would over-insure the claimant."
+        },
+        {
+          "id": "d",
+          "text": "$0",
+          "rationale": "Incorrect: the secondary plan pays remaining covered expenses up to its normal benefit."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Under coordination of benefits, the primary plan pays first as if no other coverage existed; the secondary plan then pays the remaining allowable expense up to what it would normally pay, so total benefits do not exceed the expense. Calculation: $2,000 − $1,600 = $400.",
+      "memoryTip": "Primary pays first; secondary fills the gap, never more.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ihp-q203",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.2.2"
+      ],
+      "concepts": [
+        "other-insurance-provision",
+        "hospital-indemnity"
+      ],
+      "difficulty": 3,
+      "style": "comparison",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "stem": "Which NY 'insurance with other insurers' provision fits a fixed $200-a-day hospital indemnity benefit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The 'expense incurred' version, since a hospital stay was billed",
+          "rationale": "Incorrect: § 3216(d)(2)(D) applies to expense-incurred benefits, not fixed indemnity."
+        },
+        {
+          "id": "b",
+          "text": "Neither, because indemnity policies can never be prorated",
+          "rationale": "Incorrect: (E) specifically permits proration of such benefits."
+        },
+        {
+          "id": "c",
+          "text": "The 'other benefits' version for non-expense-incurred coverage",
+          "rationale": "Correct: § 3216(d)(2)(E) applies to benefits on other than an expense-incurred basis."
+        },
+        {
+          "id": "d",
+          "text": "The 'other insurance in this insurer' version in all cases",
+          "rationale": "Incorrect: that provision applies only to policies from the same insurer."
+        }
+      ],
+      "correct": "c",
+      "explanation": "§ 3216(d)(2)(D) applies to other valid coverage paying on a provision-of-service or expense-incurred basis; § 3216(d)(2)(E), captioned '--- OTHER BENEFITS' when both appear, applies to coverage on other than an expense-incurred basis, such as fixed daily indemnity. Under either, if the insurer had no written notice of the other coverage before the loss, it may prorate and return excess premium.",
+      "memoryTip": "Fixed amounts = 'other benefits'; reimbursed bills = 'expense incurred'.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3216"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ihp-q204",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.2.4"
+      ],
+      "concepts": [
+        "cancellation-provision"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "Eight months after her NY individual health policy was issued, Tess decides to cancel it and asks for a refund of unearned premium.",
+      "stem": "How will Tess's refund be calculated if her policy grants her a right to cancel?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pro rata, exactly as when the insurer cancels the policy",
+          "rationale": "Incorrect: pro-rata refunds apply when the insurer cancels."
+        },
+        {
+          "id": "b",
+          "text": "A full refund of all premium paid since the issue date",
+          "rationale": "Incorrect: only the unearned portion is refundable outside the free look."
+        },
+        {
+          "id": "c",
+          "text": "No refund, because only the insurer may cancel a policy",
+          "rationale": "Incorrect: the statute allows insurers to grant insureds a right to cancel."
+        },
+        {
+          "id": "d",
+          "text": "Using the short-rate table, since Tess is the one cancelling",
+          "rationale": "Correct: when the insured cancels, the refund of unearned premium may use the filed short-rate table."
+        }
+      ],
+      "correct": "d",
+      "explanation": "§ 3216(d)(2)(H): when the insurer cancels (only within the first 90 days after issue), it returns the pro-rata unearned premium. The insurer may also give the insured the right to cancel at any time, with the unearned premium refunded using the short-rate table last filed.",
+      "memoryTip": "Insurer cancels: pro rata. Insured cancels: short rate.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Insured is cancelling",
+            "anyOf": [
+              "Tess",
+              "insured cancels",
+              "insured is cancelling"
+            ]
+          },
+          {
+            "label": "Short-rate refund",
+            "anyOf": [
+              "short-rate",
+              "short rate"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3216"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ihp-q205",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.2.5"
+      ],
+      "concepts": [
+        "conformity-with-state-statutes"
+      ],
+      "difficulty": 3,
+      "style": "application",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "scenario": "Uli bought his individual health policy while living in New York. Two years later he moved to New Jersey, where he files a claim. A policy term conflicts with a statute.",
+      "stem": "Under the conformity with state statutes provision, a conflicting policy term is amended to meet the law of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The state where Uli lived on the policy's effective date",
+          "rationale": "Correct: § 3216(d)(2)(I) looks to the state of residence on the effective date."
+        },
+        {
+          "id": "b",
+          "text": "The state where Uli lives when he files the claim",
+          "rationale": "Incorrect: the test date is the policy's effective date, not the claim date."
+        },
+        {
+          "id": "c",
+          "text": "The state where the insurer has its home office",
+          "rationale": "Incorrect: the insurer's domicile is not the test."
+        },
+        {
+          "id": "d",
+          "text": "Whichever state gives the insurer the lowest benefit",
+          "rationale": "Incorrect: the provision protects the insured by applying statutory minimums."
+        }
+      ],
+      "correct": "a",
+      "explanation": "§ 3216(d)(2)(I): any provision which, on its effective date, conflicts with the statutes of the state in which the insured resides on such date is amended to conform to the minimum requirements of those statutes.",
+      "memoryTip": "Freeze-frame: the insured's home state on the effective date.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Residence on the effective date",
+            "anyOf": [
+              "effective date"
+            ]
+          },
+          {
+            "label": "New York law applies",
+            "anyOf": [
+              "New York",
+              "NY"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3216"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ihp-q206",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.2.6",
+        "ihp.2.7"
+      ],
+      "concepts": [
+        "illegal-occupation",
+        "intoxicants-and-narcotics"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording",
+        "ny-law"
+      ],
+      "stem": "Under NY's optional provisions, the insurer may deny each of these losses EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "An injury while committing a burglary",
+          "rationale": "Incorrect: a felony contributing to the loss may be excluded under (J)."
+        },
+        {
+          "id": "b",
+          "text": "An injury while lawfully working as a roofer",
+          "rationale": "Correct: a lawful hazardous job is not excluded; the change of occupation provision may adjust benefits instead."
+        },
+        {
+          "id": "c",
+          "text": "An injury caused by being intoxicated",
+          "rationale": "Incorrect: losses resulting from intoxication may be excluded under (K)."
+        },
+        {
+          "id": "d",
+          "text": "An injury while running an illegal gambling ring",
+          "rationale": "Incorrect: an illegal occupation contributing to the loss may be excluded under (J)."
+        }
+      ],
+      "correct": "b",
+      "explanation": "§ 3216(d)(2)(J) removes liability when a felony or illegal occupation contributed to the loss; (K) removes liability for losses resulting from intoxication or non-physician-advised narcotics. A lawful but hazardous occupation is handled by the change of occupation provision, which adjusts benefits to what the premium would buy at the riskier class, rather than excluding the loss.",
+      "memoryTip": "Illegal or intoxicated: may be excluded. Risky but legal: covered.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3216"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ihp-q207",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.3.1"
+      ],
+      "concepts": [
+        "free-look"
+      ],
+      "difficulty": 1,
+      "style": "scenario",
+      "tags": [
+        "rapid",
+        "ny-law"
+      ],
+      "scenario": "Vic received his individual health policy 8 days ago. The policy's free-look notice gives him 10 days. He sends it back with a written request to cancel.",
+      "stem": "What will Vic receive if he returns the policy now?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A pro-rata refund minus a cancellation charge",
+          "rationale": "Incorrect: free-look returns are refunded in full."
+        },
+        {
+          "id": "b",
+          "text": "A short-rate refund of the unearned premium",
+          "rationale": "Incorrect: short-rate refunds apply to later cancellations, not the free look."
+        },
+        {
+          "id": "c",
+          "text": "A full refund of the premium, including any policy fees",
+          "rationale": "Correct: § 3216(c)(10) requires a refund of any premium paid, including fees, within the free look."
+        },
+        {
+          "id": "d",
+          "text": "Nothing, because the policy was already delivered",
+          "rationale": "Incorrect: the free look runs from delivery."
+        }
+      ],
+      "correct": "c",
+      "explanation": "§ 3216(c)(10): the policy may be surrendered within the free-look period (10 to 20 days after delivery for most individual A&H policies) with a written cancellation request, and the insurer refunds any premium paid, including policy fees or other charges.",
+      "memoryTip": "Free look = full refund, fees included.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3216"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ihp-q208",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.3.2"
+      ],
+      "concepts": [
+        "insuring-clause",
+        "accident-only-policy"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [],
+      "stem": "An insuring clause promising benefits only for 'loss resulting from accidental bodily injury' tells you the policy:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Covers sickness after a waiting period",
+          "rationale": "Incorrect: sickness is not among the insured perils at all."
+        },
+        {
+          "id": "b",
+          "text": "Is guaranteed renewable for life",
+          "rationale": "Incorrect: renewability is stated in the renewability clause."
+        },
+        {
+          "id": "c",
+          "text": "Uses an accidental-means test",
+          "rationale": "Incorrect: 'accidental bodily injury' is the results-based definition."
+        },
+        {
+          "id": "d",
+          "text": "Does not cover loss from sickness",
+          "rationale": "Correct: the insuring clause defines the perils covered; only accidental injury is named."
+        }
+      ],
+      "correct": "d",
+      "explanation": "The insuring clause states the insurer's promise and the perils covered. A promise limited to loss from accidental bodily injury means the policy is accident-only; sickness is not covered.",
+      "memoryTip": "Read the insuring clause to see which perils are covered.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ihp-q209",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.3.3"
+      ],
+      "concepts": [
+        "consideration-clause"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "After issuing Wes's individual health policy, the insurer bills him a $75 'annual servicing fee' that is not mentioned anywhere in the policy.",
+      "stem": "Can the insurer collect the fee under NY law?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No; the policy must express all money and considerations for it",
+          "rationale": "Correct: § 3216(c)(1) requires the entire money and other considerations to be expressed in the policy."
+        },
+        {
+          "id": "b",
+          "text": "Yes, because servicing fees are not part of the premium",
+          "rationale": "Incorrect: any money charged for the policy must be expressed in it."
+        },
+        {
+          "id": "c",
+          "text": "Yes, if the agent mentioned the fee during the sale",
+          "rationale": "Incorrect: an oral mention does not put the fee in the policy."
+        },
+        {
+          "id": "d",
+          "text": "No, but only because the fee exceeds the premium amount",
+          "rationale": "Incorrect: the size of the fee is not the test."
+        }
+      ],
+      "correct": "a",
+      "explanation": "N.Y. Insurance Law § 3216(c)(1): no individual A&H policy may be delivered unless the entire money and other considerations for it are expressed in the policy. The consideration clause is where the insured's consideration (premium and application) is stated.",
+      "memoryTip": "If it isn't written in the policy, it can't be charged.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3216"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ihp-q210",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.3.4.1",
+        "ihp.3.4"
+      ],
+      "concepts": [
+        "noncancelable"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "Xavi, 40, owns a noncancelable disability income policy issued in New York. The insurer's claim costs on his policy form have risen sharply.",
+      "stem": "May the insurer raise Xavi's premium at renewal?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, if it raises rates for his whole class of insureds",
+          "rationale": "Incorrect: class-wide increases are allowed for guaranteed renewable, not noncancelable, policies."
+        },
+        {
+          "id": "b",
+          "text": "No; a noncancelable policy's premium cannot be changed",
+          "rationale": "Correct: the insurer may make no unilateral change to a noncancelable policy, including the rate."
+        },
+        {
+          "id": "c",
+          "text": "Yes, because his own claims under the policy were high",
+          "rationale": "Incorrect: individual claims never justify a change to a noncancelable policy."
+        },
+        {
+          "id": "d",
+          "text": "Yes, once he reaches age 50, under the policy's terms",
+          "rationale": "Incorrect: the guarantee runs to the policy's stated age, at least 65 under NY Reg 62."
+        }
+      ],
+      "correct": "b",
+      "explanation": "11 NYCRR 52.17(a)(5) (Reg 62): a noncancelable policy gives the insured the right to continue it by timely payment of the premiums set forth in the policy until at least age 65 (or Social Security retirement for DI), and the insurer has no right to make any unilateral change while it is in force.",
+      "memoryTip": "Non-can: the price in the policy is the price.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Noncancelable locks the premium",
+            "anyOf": [
+              "noncancelable",
+              "cannot change",
+              "no change"
+            ]
+          },
+          {
+            "label": "Class increases only for guaranteed renewable",
+            "anyOf": [
+              "guaranteed renewable",
+              "class"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ihp-q211",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.3.4"
+      ],
+      "concepts": [
+        "conditionally-renewable"
+      ],
+      "difficulty": 1,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Yara's conditionally renewable disability policy states that it may be nonrenewed if she stops working full time. She retires this year.",
+      "stem": "May the insurer refuse to renew Yara's conditionally renewable policy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No, because conditionally renewable policies are noncancelable",
+          "rationale": "Incorrect: these are different renewability classes."
+        },
+        {
+          "id": "b",
+          "text": "Yes, because her health has recently gotten worse",
+          "rationale": "Incorrect: health is not a permissible condition for nonrenewal."
+        },
+        {
+          "id": "c",
+          "text": "Yes, if retirement is a nonrenewal condition stated in the policy",
+          "rationale": "Correct: conditionally renewable policies may be nonrenewed for conditions stated in the policy."
+        },
+        {
+          "id": "d",
+          "text": "No, because only optionally renewable policies can end",
+          "rationale": "Incorrect: conditionally renewable policies may end for stated conditions."
+        }
+      ],
+      "correct": "c",
+      "explanation": "A conditionally renewable policy lets the insurer refuse renewal only for conditions stated in the policy, such as the insured's retirement or leaving employment, but not because the insured's health has declined.",
+      "memoryTip": "Conditional: only the stated conditions, never health.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ihp-q212",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ihp",
+      "outlineIds": [
+        "ihp.3.4"
+      ],
+      "concepts": [
+        "renewability-clause",
+        "guaranteed-issue"
+      ],
+      "difficulty": 3,
+      "style": "concept",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "stem": "Under § 3216(g), before discontinuing a class of individual medical expense policies, a NY insurer must:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Give 30 days' notice and refund a year's premium",
+          "rationale": "Incorrect: these are not the class-discontinuance rules."
+        },
+        {
+          "id": "b",
+          "text": "Give 180 days' notice and leave the state for five years",
+          "rationale": "Incorrect: 180 days and a five-year bar apply to leaving the whole individual market."
+        },
+        {
+          "id": "c",
+          "text": "Obtain each insured's written consent to discontinue",
+          "rationale": "Incorrect: consent is not required; notice and an offer are."
+        },
+        {
+          "id": "d",
+          "text": "Give 90 days' notice and offer other coverage it sells",
+          "rationale": "Correct: § 3216(g)(2) requires 90 days' notice and an offer of all other individual coverage."
+        }
+      ],
+      "correct": "d",
+      "explanation": "§ 3216(g)(2): to discontinue a class of hospital, surgical or medical expense policies, the insurer must give at least 90 days' prior written notice to the superintendent and each covered individual, offer all other individual coverage it sells, and act uniformly without regard to claims or health. Leaving the individual market entirely requires 180 days' notice (§ 3216(g)(3)) and bars new individual policies for five years (§ 3216(g)(4)).",
+      "memoryTip": "Drop a class: 90 days. Drop the market: 180 days plus a 5-year ban.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3216"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

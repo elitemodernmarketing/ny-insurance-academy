@@ -1,0 +1,1633 @@
+{
+  "sectionId": "ahb",
+  "questions": [
+    {
+      "id": "ahb-q001",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.1.1"
+      ],
+      "concepts": [
+        "accidental-bodily-injury",
+        "accidental-means"
+      ],
+      "difficulty": 1,
+      "style": "comparison",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Which accident definition looks only at whether the resulting injury was unexpected?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Accidental bodily injury",
+          "rationale": "Correct: the results test asks only whether the injury was unintended and unexpected."
+        },
+        {
+          "id": "b",
+          "text": "Accidental means",
+          "rationale": "Incorrect: accidental means requires the cause, as well as the result, to be accidental."
+        },
+        {
+          "id": "c",
+          "text": "Presumptive disability",
+          "rationale": "Incorrect: presumptive disability is a disability income concept for specified severe losses."
+        },
+        {
+          "id": "d",
+          "text": "Sickness",
+          "rationale": "Incorrect: sickness is the other A&H peril (illness or disease), not an accident definition."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Accidental bodily injury is a results-based definition: the injury must be unexpected and unintended, even if the act that led to it was intentional. Accidental means is narrower, requiring both an accidental cause and an accidental result.",
+      "memoryTip": "Bodily injury = the Bruise is the surprise.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q002",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.1.1"
+      ],
+      "concepts": [
+        "accidental-means",
+        "accidental-bodily-injury"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "scenario": "Nate, who lives in New York, owns an individual accident policy. He deliberately jumps off a 4-foot loading dock to save time and, unexpectedly, breaks his ankle.",
+      "stem": "Can the insurer deny the claim because Nate intentionally jumped?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, because the jump that caused the injury was intentional",
+          "rationale": "Incorrect: that reasoning applies an accidental-means test, which NY Reg 62 does not allow as the basis for individual accident benefits."
+        },
+        {
+          "id": "b",
+          "text": "Yes, because NY law excludes all recreational sports injuries",
+          "rationale": "Incorrect: NY Reg 62 does not list ordinary recreational sports as a permitted exclusion category."
+        },
+        {
+          "id": "c",
+          "text": "No; NY bars the accidental-means test, and the injury was unexpected",
+          "rationale": "Correct: 11 NYCRR 52.17(a)(8) bars predicating accident benefits on accidental means; the unexpected injury is an accidental bodily injury."
+        },
+        {
+          "id": "d",
+          "text": "No, because accident policies must also cover any sickness",
+          "rationale": "Incorrect: accident-only policies do not cover sickness; that is irrelevant to this injury."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Under 11 NYCRR 52.17(a)(8) (Reg 62), accident benefits in NY individual policies 'shall not be predicated upon loss occurring through accidental means or violent and external means.' The policy therefore looks at the result: Nate did not intend or expect to break his ankle, so the loss is an accidental bodily injury.",
+      "memoryTip": "NY: judge the injury, not the jump.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Injury was unexpected (results test)",
+            "anyOf": [
+              "unexpected",
+              "unintended",
+              "result"
+            ]
+          },
+          {
+            "label": "NY bars the accidental-means test",
+            "anyOf": [
+              "accidental means",
+              "Reg 62",
+              "52.17"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q003",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.1",
+        "ahb.1.2"
+      ],
+      "concepts": [
+        "sickness",
+        "accidental-bodily-injury"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [],
+      "stem": "The two perils insured against by accident and health insurance are:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Death and old age",
+          "rationale": "Incorrect: these are perils addressed by life insurance and annuities."
+        },
+        {
+          "id": "b",
+          "text": "Accidental injury and sickness",
+          "rationale": "Correct: A&H coverage responds to losses caused by accidents and by sickness (illness or disease)."
+        },
+        {
+          "id": "c",
+          "text": "Fire and theft",
+          "rationale": "Incorrect: these are property perils."
+        },
+        {
+          "id": "d",
+          "text": "Unemployment and retirement",
+          "rationale": "Incorrect: these are not perils covered by A&H insurance."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Health insurance protects against loss caused by two perils: accidental injury and sickness. Policies differ in which perils they cover; an accident-only policy, for example, covers accidental injury but not sickness.",
+      "memoryTip": "A&H = Accident & Health (sickness).",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q004",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.2",
+        "ahb.2.1",
+        "ahb.2.2",
+        "ahb.2.3"
+      ],
+      "concepts": [
+        "disability-income-insurance"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Which type of benefit is designed to replace earnings lost because of disability?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Medical expense benefits",
+          "rationale": "Incorrect: these pay or reimburse medical bills."
+        },
+        {
+          "id": "b",
+          "text": "Long-term care benefits",
+          "rationale": "Incorrect: these pay for extended care services, such as nursing home or home care."
+        },
+        {
+          "id": "c",
+          "text": "Dental benefits",
+          "rationale": "Incorrect: these pay for dental services."
+        },
+        {
+          "id": "d",
+          "text": "Disability income benefits",
+          "rationale": "Correct: disability income insurance replaces part of earned income while the insured is disabled."
+        }
+      ],
+      "correct": "d",
+      "explanation": "The outline lists three principal types of A&H losses and benefits: loss of income from disability (disability income), hospital and medical expense (medical expense insurance) and long-term care expense (LTC insurance).",
+      "memoryTip": "Disability income = paycheck replacement.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q005",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.3.2",
+        "ahb.3.1"
+      ],
+      "concepts": [
+        "medicaid",
+        "medical-expense-insurance"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Which is an example of government (public) health coverage rather than private insurance?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Medicaid",
+          "rationale": "Correct: Medicaid is a government program funded by federal and state governments."
+        },
+        {
+          "id": "b",
+          "text": "An individual major medical policy",
+          "rationale": "Incorrect: this is private insurance bought from an insurer."
+        },
+        {
+          "id": "c",
+          "text": "An employer-sponsored group health plan",
+          "rationale": "Incorrect: this is private group coverage."
+        },
+        {
+          "id": "d",
+          "text": "A specified disease policy",
+          "rationale": "Incorrect: this is a private limited policy."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Coverage classes on the outline include individual vs group, private vs government, and limited vs comprehensive. Medicare and Medicaid are government programs; policies sold by insurers to individuals or groups are private coverage.",
+      "memoryTip": "Government plans have government names: Medicare, Medicaid.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q006",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.3.3",
+        "ahb.4.3.2"
+      ],
+      "concepts": [
+        "specified-disease-policy",
+        "limited-policy",
+        "major-medical"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Olga is considering a cancer-only policy and asks her producer whether she can cancel her comprehensive major medical plan once the cancer policy is issued.",
+      "stem": "What is the most accurate explanation the producer can give Olga?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The cancer policy will cover all her medical bills, so she can drop her major medical plan",
+          "rationale": "Incorrect: a specified disease policy pays only for the named disease and is not comprehensive coverage."
+        },
+        {
+          "id": "b",
+          "text": "It is limited coverage for cancer only and should supplement her major medical plan",
+          "rationale": "Correct: specified disease policies are limited policies that cover only the named disease."
+        },
+        {
+          "id": "c",
+          "text": "The cancer policy also covers heart attacks, strokes and other serious illnesses",
+          "rationale": "Incorrect: unless named in the policy, other diseases are not covered."
+        },
+        {
+          "id": "d",
+          "text": "The cancer policy is a form of disability income insurance that replaces wages",
+          "rationale": "Incorrect: it pays benefits tied to a disease, not a periodic income for inability to work."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Limited policies cover only specified perils or pay limited amounts; comprehensive (major medical) coverage pays a broad range of medical expenses. A specified (dread) disease policy pays only for the diseases it names, so it supplements rather than replaces comprehensive coverage.",
+      "memoryTip": "Limited = slice; comprehensive = whole pie.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Specified disease covers only the named disease",
+            "anyOf": [
+              "only cancer",
+              "named disease",
+              "specified"
+            ]
+          },
+          {
+            "label": "It is limited, not comprehensive",
+            "anyOf": [
+              "limited",
+              "not comprehensive",
+              "supplement"
+            ]
+          },
+          {
+            "label": "Keep major medical",
+            "anyOf": [
+              "keep",
+              "don't cancel",
+              "do not cancel",
+              "supplement"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q007",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.4.2",
+        "ahb.4.1"
+      ],
+      "concepts": [
+        "limited-policy"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "Under NY Reg 62 and Reg 34, a limited benefits health policy must disclose that it:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Meets NY's minimum standards for basic hospital and major medical insurance",
+          "rationale": "Incorrect: that statement is for major medical policies; a limited policy does not meet those standards."
+        },
+        {
+          "id": "b",
+          "text": "Qualifies as Medicare supplement coverage for anyone over 65",
+          "rationale": "Incorrect: limited benefits policies are not Medicare supplement insurance."
+        },
+        {
+          "id": "c",
+          "text": "Provides limited benefits only, NOT basic hospital, basic medical or major medical",
+          "rationale": "Correct: this is the required statement in 11 NYCRR 52.54 and 215.5(c)(4)."
+        },
+        {
+          "id": "d",
+          "text": "Will refund all premiums paid if no claim is filed in five years",
+          "rationale": "Incorrect: Reg 62 generally prohibits return-of-premium benefits in these policies."
+        }
+      ],
+      "correct": "c",
+      "explanation": "NY requires limited benefits health insurance to carry a disclosure (in the disclosure statement and in advertising) that it 'provides limited benefits health insurance only' and does NOT provide basic hospital, basic medical or major medical insurance (11 NYCRR 52.54; 11 NYCRR 215.5(c)(4)).",
+      "memoryTip": "Limited policies must label themselves 'limited.'",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52",
+        "ny-11nycrr-215"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q008",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.4.2"
+      ],
+      "concepts": [
+        "limited-policy",
+        "medicare-supplement",
+        "long-term-care-insurance"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "scenario": "Pedro, age 70, applies in New York for a limited benefits health policy that pays a fixed amount per hospital day.",
+      "stem": "What additional NY notice must appear on Pedro's application?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A bold statement above his signature that the policy meets NY's Medicare supplement standards",
+          "rationale": "Incorrect: a limited benefits policy does not meet Medicare supplement standards; the notice says the opposite."
+        },
+        {
+          "id": "b",
+          "text": "A notice above his signature that he must also buy long-term care insurance from the same insurer",
+          "rationale": "Incorrect: there is no such requirement."
+        },
+        {
+          "id": "c",
+          "text": "No additional notice; the standard limited-benefits disclosure is enough for applicants of any age",
+          "rationale": "Incorrect: 11 NYCRR 52.16(k) adds a special notice when limited benefits coverage is offered to persons 65 or older."
+        },
+        {
+          "id": "d",
+          "text": "A bold notice above his signature that coverage is limited and may be unnecessary if he has Medigap or LTC",
+          "rationale": "Correct: 11 NYCRR 52.16(k)(1) requires this notice in bold print at least four points larger than the largest print in the application."
+        }
+      ],
+      "correct": "d",
+      "explanation": "11 NYCRR 52.16(k): when limited benefits health insurance is offered to persons 65 or older, the application must include, immediately above the applicant's signature in bold print at least four points larger than the largest print used, a statement that the coverage is limited benefits only, does not meet the minimum requirements for Medicare supplement or long-term care (or nursing home/home care) insurance in NY, and may be unnecessary if the applicant has or intends to buy Medicare supplement or LTC insurance. The policy must carry a similar notice in the top quarter of the first page.",
+      "memoryTip": "65+ and limited? Warn them above the signature.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Applicant is 65 or older",
+            "anyOf": [
+              "65",
+              "70",
+              "older"
+            ]
+          },
+          {
+            "label": "Notice above the signature in bold",
+            "anyOf": [
+              "signature",
+              "bold"
+            ]
+          },
+          {
+            "label": "Not Medicare supplement or LTC; may be unnecessary",
+            "anyOf": [
+              "Medicare supplement",
+              "long term care",
+              "long-term care",
+              "unnecessary"
+            ]
+          }
+        ]
+      },
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q009",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.4.3.1"
+      ],
+      "concepts": [
+        "accident-only-policy"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid",
+        "ny-law"
+      ],
+      "stem": "NY requires accident-only coverage to include which notice?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "THIS POLICY DOES NOT PROVIDE COVERAGE FOR SICKNESS",
+          "rationale": "Correct: Reg 62 (52.54) and Reg 34 (215.5(c)(6)) require this notice for accident insurance."
+        },
+        {
+          "id": "b",
+          "text": "THIS POLICY IS NONCANCELABLE",
+          "rationale": "Incorrect: renewability is not part of the required accident-only notice."
+        },
+        {
+          "id": "c",
+          "text": "THIS POLICY MEETS MAJOR MEDICAL STANDARDS",
+          "rationale": "Incorrect: accident-only insurance does not provide major medical coverage."
+        },
+        {
+          "id": "d",
+          "text": "THIS POLICY COVERS PREEXISTING CONDITIONS",
+          "rationale": "Incorrect: this is not a required accident-only notice."
+        }
+      ],
+      "correct": "a",
+      "explanation": "NY's required statement for accident insurance says it provides ACCIDENT insurance only, does NOT provide basic hospital, basic medical or major medical insurance, and adds 'IMPORTANT NOTICE - THIS POLICY DOES NOT PROVIDE COVERAGE FOR SICKNESS' (11 NYCRR 52.54(c); 11 NYCRR 215.5(c)(6)).",
+      "memoryTip": "Accident-only: shout 'NO SICKNESS' in capitals.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52",
+        "ny-11nycrr-215"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q010",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.4.3.3"
+      ],
+      "concepts": [
+        "hospital-indemnity"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Quin's hospital indemnity policy pays $150 per day of inpatient hospital confinement. She is hospitalized for 5 days. Her hospital charges are $20,000, of which her major medical plan pays $16,000.",
+      "stem": "How much will Quin's hospital indemnity policy pay?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$4,000, the amount of the hospital bill her major medical did not pay",
+          "rationale": "Incorrect: hospital indemnity does not reimburse actual charges."
+        },
+        {
+          "id": "b",
+          "text": "$750",
+          "rationale": "Correct: 5 days × $150 per day = $750, paid regardless of actual charges and other insurance."
+        },
+        {
+          "id": "c",
+          "text": "$150, because indemnity policies pay only one day",
+          "rationale": "Incorrect: the benefit is paid for each covered day of confinement."
+        },
+        {
+          "id": "d",
+          "text": "Nothing, because her major medical plan already paid the hospital",
+          "rationale": "Incorrect: hospital indemnity pays its fixed amount regardless of other insurance."
+        }
+      ],
+      "correct": "b",
+      "explanation": "A hospital indemnity policy pays a fixed amount for each day of covered hospital confinement, regardless of the actual charges. Calculation: 5 days × $150 per day = $750.",
+      "memoryTip": "Indemnity = days × daily amount.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q011",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.4.3.4",
+        "ahb.4.3.5"
+      ],
+      "concepts": [
+        "vision-insurance",
+        "dental-insurance"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Routine eye exams and an allowance toward eyeglasses are typically covered by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Dental insurance",
+          "rationale": "Incorrect: dental insurance covers dental services."
+        },
+        {
+          "id": "b",
+          "text": "Accident-only insurance",
+          "rationale": "Incorrect: accident-only insurance pays only for accidental injury."
+        },
+        {
+          "id": "c",
+          "text": "Vision care insurance",
+          "rationale": "Correct: vision care policies cover routine eye exams and eyewear allowances."
+        },
+        {
+          "id": "d",
+          "text": "Business overhead expense insurance",
+          "rationale": "Incorrect: BOE pays a business's fixed expenses during the owner's disability."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Dental and vision policies are limited policies that cover specific routine services. Eyeglasses and their fitting are a common exclusion from medical expense policies, which is why stand-alone vision care coverage exists.",
+      "memoryTip": "Eyes → vision plan; teeth → dental plan.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q012",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.5",
+        "ahb.5.2"
+      ],
+      "concepts": [
+        "exclusion"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording",
+        "ny-law"
+      ],
+      "stem": "Under NY Reg 62, an individual health policy may exclude each of the following EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Injury that the insured intentionally inflicted on himself",
+          "rationale": "Incorrect: 11 NYCRR 52.16(c)(4)(ii) permits this exclusion."
+        },
+        {
+          "id": "b",
+          "text": "Injury arising out of war or an act of war, declared or not",
+          "rationale": "Incorrect: 11 NYCRR 52.16(c)(4)(i) permits this exclusion."
+        },
+        {
+          "id": "c",
+          "text": "Purely cosmetic surgery done only to improve appearance",
+          "rationale": "Incorrect: 11 NYCRR 52.16(c)(5) permits a cosmetic surgery exclusion."
+        },
+        {
+          "id": "d",
+          "text": "Reconstructive surgery following surgery for an accidental injury",
+          "rationale": "Correct: Reg 62 says cosmetic surgery does not include this reconstructive surgery, so it cannot be excluded as cosmetic."
+        }
+      ],
+      "correct": "d",
+      "explanation": "11 NYCRR 52.16(c) lists the only permitted ways to limit or exclude coverage by type of illness, accident, treatment or condition, including war, felony or riot, suicide or intentionally self-inflicted injury, certain aviation, and cosmetic surgery. The cosmetic exclusion does not reach reconstructive surgery incidental to or following surgery for trauma, infection or other diseases of the involved part (or certain congenital conditions of a covered child).",
+      "memoryTip": "Cosmetic = vanity; reconstructive after trauma ≠ cosmetic.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q013",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.5.1"
+      ],
+      "concepts": [
+        "exclusion",
+        "workers-compensation"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "Rita injures her back lifting boxes at work. Her employer's workers' compensation coverage accepts the claim and pays her medical bills.",
+      "stem": "How will Rita's individual medical expense policy most likely treat the claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It may exclude expenses that workers' compensation pays for",
+          "rationale": "Correct: 11 NYCRR 52.16(c)(8) permits excluding benefits provided under workers' compensation."
+        },
+        {
+          "id": "b",
+          "text": "It must pay first, and workers' compensation pays nothing",
+          "rationale": "Incorrect: workers' compensation is the coverage designed for job-related injuries."
+        },
+        {
+          "id": "c",
+          "text": "It must pay double, because two coverages apply to the injury",
+          "rationale": "Incorrect: health policies do not pay duplicate benefits for losses covered by workers' compensation."
+        },
+        {
+          "id": "d",
+          "text": "It is void, because Rita was injured while at work",
+          "rationale": "Incorrect: an exclusion removes coverage for that loss; it does not void the policy."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Workers' compensation pays medical and wage-loss benefits for job-related injuries and illnesses. NY Reg 62 (11 NYCRR 52.16(c)(8)) allows policies to exclude benefits provided under any state or federal workers' compensation, employers' liability or occupational disease law, so the individual policy typically does not duplicate those payments.",
+      "memoryTip": "Hurt on the job? Workers' comp pays, not your health policy.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Injury is job-related",
+            "anyOf": [
+              "work",
+              "job",
+              "on the job"
+            ]
+          },
+          {
+            "label": "Workers' compensation pays",
+            "anyOf": [
+              "workers' compensation",
+              "workers compensation",
+              "workers comp"
+            ]
+          },
+          {
+            "label": "Health policy may exclude it",
+            "anyOf": [
+              "exclu",
+              "not pay",
+              "won't pay"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q014",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.5.4"
+      ],
+      "concepts": [
+        "medical-necessity"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [],
+      "stem": "An insurer denies two extra hospital days that the patient requested only for convenience. The denial is based on:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The experimental treatment exclusion",
+          "rationale": "Incorrect: nothing in the facts suggests unproven treatment."
+        },
+        {
+          "id": "b",
+          "text": "Lack of medical necessity",
+          "rationale": "Correct: care provided for convenience rather than for diagnosis or treatment is not medically necessary."
+        },
+        {
+          "id": "c",
+          "text": "The cosmetic surgery exclusion",
+          "rationale": "Incorrect: a hospital stay is not cosmetic surgery."
+        },
+        {
+          "id": "d",
+          "text": "The illegal occupation provision",
+          "rationale": "Incorrect: that provision applies to losses caused by felonies or illegal occupations."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Health policies commonly cover only medically necessary care: services appropriate to diagnose or treat the condition under accepted medical standards, not primarily for convenience.",
+      "memoryTip": "Convenient ≠ necessary.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q015",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.5.3"
+      ],
+      "concepts": [
+        "experimental-treatment"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "Which treatment is most likely to be excluded as experimental or investigational?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A routine appendectomy for acute appendicitis",
+          "rationale": "Incorrect: this is an established, accepted procedure."
+        },
+        {
+          "id": "b",
+          "text": "A standard course of antibiotics for pneumonia",
+          "rationale": "Incorrect: this is accepted standard care."
+        },
+        {
+          "id": "c",
+          "text": "A drug offered only in an early-phase clinical trial",
+          "rationale": "Correct: treatments still being tested and not accepted as standard care are typically excluded as experimental."
+        },
+        {
+          "id": "d",
+          "text": "Physical therapy prescribed after knee surgery",
+          "rationale": "Incorrect: post-surgical physical therapy is accepted treatment."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Experimental or investigational treatments are those not yet proven safe and effective or accepted as standard care for the condition, such as drugs available only in clinical trials. Health policies commonly exclude them.",
+      "memoryTip": "Still in testing = experimental.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q016",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.6.1.1"
+      ],
+      "concepts": [
+        "false-advertising",
+        "limited-policy"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "Under NY Reg 34, whether an A&H advertisement has the capacity or tendency to mislead is judged by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Whether an insurance expert could find the advertisement technically accurate",
+          "rationale": "Incorrect: Reg 34 bans wording whose meaning is clear only through familiarity with insurance terminology."
+        },
+        {
+          "id": "b",
+          "text": "Whether the insurer intended to deceive anyone who reads it",
+          "rationale": "Incorrect: the test is the ad's capacity or tendency to mislead, not the insurer's intent."
+        },
+        {
+          "id": "c",
+          "text": "The number of consumer complaints the insurer receives about it",
+          "rationale": "Incorrect: complaints are not the regulatory test."
+        },
+        {
+          "id": "d",
+          "text": "The overall impression it creates on an average person in its target audience",
+          "rationale": "Correct: this is the standard in 11 NYCRR 215.5(a)."
+        }
+      ],
+      "correct": "d",
+      "explanation": "11 NYCRR 215.5(a)-(b) (Reg 34): A&H advertisements must be complete and clear enough to avoid deception. The superintendent judges the overall impression on a person of average education and intelligence in the audience the ad targets. Ads must be truthful and not misleading in fact or implication, and may not use words whose meaning is clear only by implication or familiarity with insurance terminology.",
+      "memoryTip": "Ads are judged through the eyes of the average reader.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-215"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q017",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.6.1.1"
+      ],
+      "concepts": [
+        "false-advertising"
+      ],
+      "difficulty": 3,
+      "style": "concept",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "stem": "Under NY Reg 34, how long must an insurer keep each A&H advertisement in its advertising file?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Four years or until the next examination report, whichever is longer",
+          "rationale": "Correct: 11 NYCRR 215.17(a) sets this retention period."
+        },
+        {
+          "id": "b",
+          "text": "One year from the date the ad is first used",
+          "rationale": "Incorrect: this period is shorter than Reg 34 requires."
+        },
+        {
+          "id": "c",
+          "text": "Until the policy form is withdrawn, whichever is shorter",
+          "rationale": "Incorrect: Reg 34 uses the longer of two periods, not a 'shorter' test."
+        },
+        {
+          "id": "d",
+          "text": "Seven years from the date of the advertisement in all cases",
+          "rationale": "Incorrect: this is not the Reg 34 period."
+        }
+      ],
+      "correct": "a",
+      "explanation": "11 NYCRR 215.17(a): each insurer keeps a complete advertising file at its home or principal office, with notes on how each ad was distributed and the policy form number, for four years or until the next regular report on examination of the insurer, whichever is longer. Insurers also file an annual certificate of compliance with their annual statement (215.17(b)).",
+      "memoryTip": "Ad file: 4 years or next exam, whichever is longer.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-215"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q018",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.6.1.2",
+        "ahb.6.1.4"
+      ],
+      "concepts": [
+        "application",
+        "misrepresentation",
+        "field-underwriting"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "During an application interview for an individual health policy, Tom tells his producer, Sara, that he was treated for a heart condition last year. He asks her to leave it off the application.",
+      "stem": "What should Sara do?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Leave the condition off so the application is approved faster",
+          "rationale": "Incorrect: knowingly omitting a material fact is a misrepresentation that could lead the insurer to contest the policy or deny claims, and it is unethical."
+        },
+        {
+          "id": "b",
+          "text": "Record Tom's answers completely and accurately, including the heart condition",
+          "rationale": "Correct: the producer must record the applicant's answers truthfully; the insurer relies on them to underwrite."
+        },
+        {
+          "id": "c",
+          "text": "Tell Tom the condition doesn't matter because the time limit on certain defenses will protect him",
+          "rationale": "Incorrect: fraudulent misstatements are not protected, and claims during the first two years can be contested."
+        },
+        {
+          "id": "d",
+          "text": "Fill in the health questions herself later from memory",
+          "rationale": "Incorrect: the applicant must answer the questions; the producer should not guess or alter answers."
+        }
+      ],
+      "correct": "b",
+      "explanation": "During the sales presentation and application, the producer must describe the coverage accurately and record the applicant's answers completely and truthfully. Omitting a known material condition is misrepresentation that can lead to rescission or claim denial and exposes the producer to discipline and liability.",
+      "memoryTip": "Write what the applicant says, all of it.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Record answers accurately",
+            "anyOf": [
+              "accurate",
+              "truthful",
+              "complete",
+              "record"
+            ]
+          },
+          {
+            "label": "Omission is misrepresentation",
+            "anyOf": [
+              "misrepresent",
+              "material",
+              "conceal"
+            ]
+          },
+          {
+            "label": "Consequences for coverage",
+            "anyOf": [
+              "rescind",
+              "rescission",
+              "deny",
+              "contest"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q019",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.6.1.3",
+        "ahb.6.1.5"
+      ],
+      "concepts": [
+        "outline-of-coverage",
+        "policy-delivery"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "Under NY Reg 62, when must the required disclosure statement for an individual A&H policy be provided?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only after the free-look period has fully ended and the policy is accepted",
+          "rationale": "Incorrect: the disclosure helps the buyer evaluate the policy, so it comes at application or delivery."
+        },
+        {
+          "id": "b",
+          "text": "Only if the applicant requests it in writing before the policy is issued",
+          "rationale": "Incorrect: the disclosure is required, not optional."
+        },
+        {
+          "id": "c",
+          "text": "At delivery with the policy, or at application with a signed receipt",
+          "rationale": "Correct: this is the rule in 11 NYCRR 52.54(a)."
+        },
+        {
+          "id": "d",
+          "text": "Within 90 days after the policy is issued, with the first premium notice",
+          "rationale": "Incorrect: Reg 62 ties the disclosure to delivery or application, not to a later deadline."
+        }
+      ],
+      "correct": "c",
+      "explanation": "11 NYCRR 52.54(a): no individual A&H policy may be delivered in NY unless the appropriate disclosure form (52.55-52.62) accompanies or is incorporated in the policy when delivered, or is delivered to the applicant at the time of application with acknowledgment of receipt or certification of delivery provided to the insurer.",
+      "memoryTip": "Disclosure: at application (with a receipt) or with the policy.",
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-52"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q020",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.7",
+        "ahb.7.1",
+        "ahb.7.2"
+      ],
+      "concepts": [
+        "replacement",
+        "errors-and-omissions",
+        "preexisting-condition"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Uma, who has had her individual health policy for six years, wants to switch to a new insurer's policy with a lower premium. She has a chronic back condition.",
+      "stem": "What is the producer's best advice?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cancel the old policy now to avoid paying two premiums at once",
+          "rationale": "Incorrect: if the new application is declined or delayed, Uma could be left uninsured, a classic E&O exposure."
+        },
+        {
+          "id": "b",
+          "text": "Replace the policy, because a new policy always has fewer exclusions",
+          "rationale": "Incorrect: a new policy may have new waiting periods, preexisting-condition limits or exclusions."
+        },
+        {
+          "id": "c",
+          "text": "Avoid comparing benefits, since all individual health policies are standardized",
+          "rationale": "Incorrect: benefits, limitations and exclusions vary and must be compared."
+        },
+        {
+          "id": "d",
+          "text": "Compare benefits and exclusions; keep the old policy until the new one is in force",
+          "rationale": "Correct: this protects Uma from a coverage gap and from losing benefits she already has."
+        }
+      ],
+      "correct": "d",
+      "explanation": "When replacing A&H coverage, compare benefits, limitations and exclusions. A new policy may impose new preexisting-condition limits or waiting periods, and a new two-year period under the time limit on certain defenses begins. Keep the existing coverage until the replacement is approved and in force; letting it lapse too early can leave the client uninsured and expose the producer to an errors and omissions claim.",
+      "memoryTip": "Never drop the old coverage until the new one is in force.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Compare benefits, limitations and exclusions",
+            "anyOf": [
+              "compare",
+              "limitation",
+              "exclusion"
+            ]
+          },
+          {
+            "label": "New waiting/preexisting periods or new contestable period",
+            "anyOf": [
+              "preexisting",
+              "waiting",
+              "contestable",
+              "two years",
+              "new period"
+            ]
+          },
+          {
+            "label": "Keep old policy until new is in force",
+            "anyOf": [
+              "keep",
+              "until",
+              "in force",
+              "don't cancel",
+              "do not cancel"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q021",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.7.2"
+      ],
+      "concepts": [
+        "errors-and-omissions"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [],
+      "stem": "A producer's negligent failure to submit a client's application is the type of loss covered by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Errors and omissions insurance",
+          "rationale": "Correct: E&O covers clients' claims arising from a producer's negligent errors or omissions."
+        },
+        {
+          "id": "b",
+          "text": "Business overhead expense insurance",
+          "rationale": "Incorrect: BOE pays a business's fixed expenses when the owner is disabled."
+        },
+        {
+          "id": "c",
+          "text": "Key person disability insurance",
+          "rationale": "Incorrect: key person coverage protects a business when a key employee is disabled."
+        },
+        {
+          "id": "d",
+          "text": "Hospital indemnity insurance",
+          "rationale": "Incorrect: this pays a fixed daily amount for hospital confinement."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Errors and omissions insurance is professional liability coverage for producers. It responds to claims that a producer's negligent act, error or omission (such as failing to submit an application or giving incorrect advice) caused a client financial harm.",
+      "memoryTip": "E&O = Errors and Oops.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q022",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.8"
+      ],
+      "concepts": [
+        "community-rating"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "Vic, 24, smokes; Will, 61, has heart disease. Both live in the same NY rating region and buy the same individual medical expense policy form from the same insurer.",
+      "stem": "How will their premiums compare?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Will pays more because he is older and has heart disease",
+          "rationale": "Incorrect: NY community rating prohibits rating by age."
+        },
+        {
+          "id": "b",
+          "text": "The same premium; NY community rating ignores age, health and tobacco use",
+          "rationale": "Correct: §§ 3231(a)(4) and 4317(a)(4) define community rating this way."
+        },
+        {
+          "id": "c",
+          "text": "Vic pays more because he smokes and tobacco is a rating factor",
+          "rationale": "Incorrect: tobacco usage is not a permitted rating factor under NY community rating."
+        },
+        {
+          "id": "d",
+          "text": "The insurer may decline Will because of his heart disease",
+          "rationale": "Incorrect: individual coverage must be accepted at all times throughout the year (open enrollment)."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Under NY Insurance Law §§ 3231 and 4317, individual and small group hospital and/or medical coverage must be community rated: everyone on the same policy form in the same rating pool pays the same premium regardless of age, sex, health status, tobacco usage or occupation. Rates may differ by approved region and between the individual and small group pools.",
+      "memoryTip": "Same plan, same region, same price.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Community rating applies to individual coverage",
+            "anyOf": [
+              "community rat"
+            ]
+          },
+          {
+            "label": "No rating by age, health, tobacco",
+            "anyOf": [
+              "age",
+              "health",
+              "tobacco",
+              "smok"
+            ]
+          },
+          {
+            "label": "Same premium",
+            "anyOf": [
+              "same premium",
+              "same price",
+              "same rate"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3231",
+        "ny-isc-4317"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ahb-q023",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.8.1"
+      ],
+      "concepts": [
+        "small-group",
+        "community-rating"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky",
+        "ny-law"
+      ],
+      "scenario": "A NY employer with 80 employees (and 120 covered spouses and children) renews its group medical policy in 2026.",
+      "stem": "Is the firm a small group subject to NY community rating?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No, because small groups in NY are limited to 2 to 50 employees",
+          "rationale": "Incorrect: that is the older regulatory wording; the current statutes extend small group to 100 employees for policies issued or renewed on or after January 1, 2016."
+        },
+        {
+          "id": "b",
+          "text": "No, because the count includes spouses and dependents, making the group larger than 100",
+          "rationale": "Incorrect: the count is exclusive of spouses and dependents."
+        },
+        {
+          "id": "c",
+          "text": "Yes; since 2016 a small group may have up to 100 employees, not counting family",
+          "rationale": "Correct: §§ 3231(a)(1) and 4317(a)(1)."
+        },
+        {
+          "id": "d",
+          "text": "Yes, because every employer group in NY is community rated regardless of size",
+          "rationale": "Incorrect: the community rating requirement applies to individual and small group coverage."
+        }
+      ],
+      "correct": "c",
+      "explanation": "N.Y. Insurance Law §§ 3231(a)(1) and 4317(a)(1) define small group as a group covering between one and fifty employees or members, or between one and one hundred employees or members for policies issued or renewed on or after January 1, 2016, exclusive of spouses and dependents. Calculation: 80 employees ≤ 100, so the group is a small group and must be community rated.",
+      "memoryTip": "NY small group today: up to 100 employees, not counting family.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Count employees only",
+            "anyOf": [
+              "exclusive",
+              "not counting",
+              "spouses",
+              "dependents"
+            ]
+          },
+          {
+            "label": "Up to 100 since 2016",
+            "anyOf": [
+              "100",
+              "one hundred",
+              "2016"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3231",
+        "ny-isc-4317",
+        "ny-11nycrr-360"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "draft",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19",
+        "notes": "Statutes (rev. 2023-10-27) say 1-100 for policies issued/renewed on or after 1/1/2016, but Reg 145 (11 NYCRR 360.2(f)) still says 2-50. Held as draft until the lead confirms which size the exam expects."
+      }
+    },
+    {
+      "id": "ahb-q024",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.8.1",
+        "ahb.8"
+      ],
+      "concepts": [
+        "small-group",
+        "community-rating"
+      ],
+      "difficulty": 3,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "Which statement about NY small group health coverage is true?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Small groups may be rated on their own claims experience instead of the community pool",
+          "rationale": "Incorrect: small group hospital/medical coverage must be community rated."
+        },
+        {
+          "id": "b",
+          "text": "An insurer may terminate a small group at renewal if its claims have been unusually high",
+          "rationale": "Incorrect: once accepted, a small group cannot be terminated due to claims experience."
+        },
+        {
+          "id": "c",
+          "text": "Insurers may accept new small groups only during a single annual enrollment month",
+          "rationale": "Incorrect: small groups must be accepted at all times throughout the year."
+        },
+        {
+          "id": "d",
+          "text": "Small groups must be accepted all year and cannot be terminated due to claims experience",
+          "rationale": "Correct: §§ 3231(a)(2)-(3) and 4317(a)(2)-(3) require open enrollment and bar termination due to claims experience."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Under NY Insurance Law §§ 3231 and 4317, small group hospital and/or medical coverage must be community rated, small groups applying for coverage must be accepted at all times throughout the year, and once accepted a small group cannot be terminated because of its claims experience. Reg 145 (11 NYCRR 360.2(e)) calls this open enrollment.",
+      "memoryTip": "Small group: community rated, open all year, can't be dropped for claims.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Open enrollment all year",
+            "anyOf": [
+              "all times",
+              "throughout the year",
+              "open enrollment"
+            ]
+          },
+          {
+            "label": "No termination for claims",
+            "anyOf": [
+              "claims experience",
+              "cannot be terminated",
+              "can't be terminated"
+            ]
+          },
+          {
+            "label": "Community rated",
+            "anyOf": [
+              "community"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3231",
+        "ny-isc-4317",
+        "ny-11nycrr-360"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

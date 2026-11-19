@@ -1,0 +1,284 @@
+{
+  "sectionId": "sen",
+  "lessons": [
+    {
+      "id": "sen-l01",
+      "sectionId": "sen",
+      "order": 1,
+      "title": "Medicare Supplements: Purpose, Open Enrollment and Standardized Plans",
+      "outlineIds": ["sen.1", "sen.1.1", "sen.1.2", "sen.1.3", "sen.1.3.1", "sen.1.3.2"],
+      "estMinutes": 25,
+      "intro": "Original Medicare pays a lot, but not everything. Deductibles, the 20% Part B coinsurance and hospital coinsurance can add up quickly. Medicare supplement insurance — Medigap — fills those gaps. This lesson explains what Medigap is for, how New York's open enrollment rule goes far beyond federal law, and how the standardized lettered plans work.",
+      "objectives": [
+        "Explain the purpose of Medicare supplement insurance and how it relates to Original Medicare",
+        "Compare the federal Medigap open enrollment period with New York's year-round rule",
+        "Describe standardized Medigap plans, the core benefits and the additional benefits",
+        "Describe Medicare SELECT"
+      ],
+      "keyTerms": ["medicare-supplement", "medigap-open-enrollment", "standardized-medigap-plans", "medigap-core-benefits", "medicare-select"],
+      "parts": [
+        {
+          "heading": "Purpose of Medigap",
+          "body": "A **[[medicare-supplement|Medicare supplement (Medigap)]]** policy is private insurance that helps pay the beneficiary's share of costs under **Original Medicare** — copayments, coinsurance and deductibles. You generally must have **both Part A and Part B** to buy one.\n\nMedigap works **only with Original Medicare**. It doesn't work with a [[medicare-advantage|Medicare Advantage]] plan, and selling someone a Medigap policy that would duplicate Medicare Advantage benefits is prohibited in New York. Medigap also does **not** pay for long-term custodial care.",
+          "simple": "Medicare pays its part; Medigap pays some or all of your part. It only works with Original Medicare.",
+          "callouts": [
+            { "kind": "note", "text": "Medicare.gov: Medigap is extra insurance from a private company to help pay your share of out-of-pocket costs in Original Medicare.", "sources": ["fed-medicare-medigap"] },
+            { "kind": "exam-trap", "text": "Medigap does not cover long-term care. That's what LTC insurance (or Medicaid) is for.", "sources": ["fed-medicare-ltc"] }
+          ]
+        },
+        {
+          "heading": "Open enrollment: federal rule vs. New York rule",
+          "body": "**Federal rule:** a one-time, **6-month [[medigap-open-enrollment|Medigap Open Enrollment Period]]** that starts the first month a person has **Part B and is 65 or older**. During it, an insurer can't deny coverage because of preexisting health problems. Afterwards, outside of New York, a person may be underwritten or turned down.\n\n**New York rule (11 NYCRR 58.1(i)):** much broader. Issuers must accept applicants **at all times throughout the year** for any Medigap plan they sell, and may not deny, condition or price coverage based on **health status, claims experience, receipt of health care or medical condition**. This applies to people on Medicare **because of age or because of disability**. Applications may not ask health questions or require a physical exam.\n\nA permitted **preexisting-condition limitation** can still apply: no more than **6 months** after the effective date, for conditions treated or advised within **6 months** before. The insurer must **credit prior creditable coverage** (including Medigap, SELECT and Medicare Advantage) if it was continuous to within **63 days** of enrollment.",
+          "simple": "Federal law gives a 6-month guaranteed window at 65. New York keeps the door open all year, for age- and disability-based enrollees, with no health questions.",
+          "example": { "title": "Example: Celeste's prior coverage", "body": "Celeste had 10 years of employer coverage that ended 31 days before her Medigap policy began. Because the gap is no more than 63 days, the insurer must credit that coverage — which wipes out the 6-month preexisting limitation." },
+          "callouts": [
+            { "kind": "ny-rule", "text": "11 NYCRR 58.1(i)(1)-(2): 'Applicants must be accepted at all times throughout the year for any Medicare supplement insurance benefit plan available from an issuer,' whether enrolled in Medicare by age or by disability.", "sources": ["ny-11nycrr-58-1"] },
+            { "kind": "memory-tip", "text": "Medigap preexisting: 6 back, 6 forward, credit prior coverage if the gap is 63 days or less." }
+          ]
+        },
+        {
+          "heading": "Standardized plans, core benefits and additional benefits",
+          "body": "Medigap policies are **[[standardized-medigap-plans|standardized]]**: in most states there are 10 lettered plans (A–D, F, G and K–N). Policies with the same letter have **the same benefits** no matter which company sells them — **price is the only difference**.\n\n**[[medigap-core-benefits|Core (basic) benefits]]** are in every plan (Plan A has only these; Plans K and L pay some at a percentage):\n\n- Part A hospital coinsurance, plus coverage for an additional **365 days** of hospital care after Medicare hospital benefits are used up;\n- Part B coinsurance or copayment;\n- the first **3 pints of blood** each year;\n- Part A hospice coinsurance or copayment.\n\n**Additional benefits** found in some other plans include the Part A deductible, skilled nursing facility coinsurance, the Part B deductible, Part B excess charges and foreign travel emergency care.\n\nIn New York, every application must include the right to apply for **Plans A and B and either D or G**. **Plans C and F** may be sold only to people who first became eligible for Medicare **before January 1, 2020**.",
+          "simple": "Every Medigap plan has the same 'core'. Higher-letter plans add extras. Same letter = same benefits, so shop for price.",
+          "callouts": [
+            { "kind": "ny-rule", "text": "11 NYCRR 58.1(d)(3): applications must offer Plans A and B and either D or G; C and F only for people first eligible before January 1, 2020.", "sources": ["ny-11nycrr-58-1"] },
+            { "kind": "exam-trap", "text": "Plan A does NOT pay the Part A or Part B deductible. Deductibles are additional benefits." }
+          ]
+        },
+        {
+          "heading": "Medicare SELECT",
+          "body": "**[[medicare-select|Medicare SELECT]]** is a Medigap policy that may require the insured to use **network hospitals** (and in some cases network doctors) to receive full benefits. In exchange, premiums are usually lower. A person who buys a SELECT policy has the right to **change his or her mind within 12 months** and switch to a standard Medigap policy. New York's Part 58 rules apply to SELECT policies too.",
+          "callouts": [
+            { "kind": "note", "text": "Medicare.gov: 'If you buy a Medicare SELECT policy, you have the right to change your mind within 12 months and switch to a standard Medigap policy.'", "sources": ["fed-medicare-medigap"] }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "categorize",
+        "prompt": "Is each benefit a CORE benefit (in every standardized plan) or an ADDITIONAL benefit (only in some plans)?",
+        "categories": ["Core benefit", "Additional benefit"],
+        "items": [
+          { "text": "Part B coinsurance or copayment", "category": "Core benefit" },
+          { "text": "First 3 pints of blood", "category": "Core benefit" },
+          { "text": "Part A hospice coinsurance", "category": "Core benefit" },
+          { "text": "Part A hospital coinsurance plus 365 extra days", "category": "Core benefit" },
+          { "text": "Part A deductible", "category": "Additional benefit" },
+          { "text": "Skilled nursing facility coinsurance", "category": "Additional benefit" },
+          { "text": "Foreign travel emergency", "category": "Additional benefit" },
+          { "text": "Part B deductible", "category": "Additional benefit" }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "In New York, a Medigap issuer must accept applications:",
+          "choices": ["At all times throughout the year", "Only during the 6 months after Part B enrollment at 65", "Only from people age 65 or older", "Only after medical underwriting"],
+          "answerIndex": 0,
+          "explanation": "11 NYCRR 58.1(i) requires year-round acceptance for age- and disability-based Medicare enrollees."
+        },
+        {
+          "prompt": "Two companies sell Medigap Plan N. Their policies differ only in:",
+          "choices": ["Price", "Benefits", "Renewability", "Whether they work with Medicare Advantage"],
+          "answerIndex": 0,
+          "explanation": "Same-letter plans are standardized; price is the only difference."
+        },
+        {
+          "prompt": "A Medicare SELECT buyer may switch to a standard Medigap policy within:",
+          "choices": ["12 months", "30 days", "6 months", "24 months"],
+          "answerIndex": 0,
+          "explanation": "Medicare.gov: SELECT buyers may change their minds within 12 months."
+        }
+      ],
+      "summary": [
+        "Medigap is private insurance that pays the beneficiary's share of Original Medicare costs; it doesn't work with Medicare Advantage or cover long-term care.",
+        "Federal Medigap open enrollment is a one-time 6-month window; New York requires year-round acceptance without health underwriting, for age- and disability-based enrollees.",
+        "A Medigap preexisting limitation can last no more than 6 months, reduced by prior creditable coverage that ended within 63 days.",
+        "Same-letter plans have identical benefits; core benefits are in every plan; NY applications must offer A, B and D or G; C and F only for those eligible before 2020.",
+        "Medicare SELECT uses networks and allows a switch to standard Medigap within 12 months."
+      ],
+      "related": ["sen-l02", "sen-l03", "gov-l04"],
+      "sources": ["fed-medicare-medigap", "fed-medicare-ltc", "ny-11nycrr-58-1", "general-insurance-principles"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "regulation-text", "checkedOn": "2026-11-19", "notes": "Core/additional benefit lists taught from the federal standardized plan design (not fetched); NY rules verified in 11 NYCRR 58.1." }
+    },
+    {
+      "id": "sen-l02",
+      "sectionId": "sen",
+      "order": 2,
+      "title": "New York Medigap Rules: Marketing, Compensation, Suitability, Replacement, Disclosure and Renewability",
+      "outlineIds": ["sen.1.4", "sen.1.4.1", "sen.1.4.2", "sen.1.4.3", "sen.1.4.4", "sen.1.4.5", "sen.1.4.6"],
+      "estMinutes": 30,
+      "intro": "Older buyers are frequent targets of aggressive sales tactics, so New York's Regulation 193 (11 NYCRR Part 58) sets detailed rules for how Medigap is sold. This lesson covers the marketing standards and prohibited practices, permitted compensation, appropriateness of a recommendation, replacement procedures, required disclosures and renewability.",
+      "objectives": [
+        "Identify New York's Medigap marketing standards and the prohibited practices of twisting, high-pressure tactics and cold lead advertising",
+        "Apply the first-year and renewal compensation limits",
+        "Describe the agent's duty to determine appropriateness and the replacement procedures",
+        "State New York's Medigap renewability and cancellation rules"
+      ],
+      "keyTerms": ["medicare-supplement", "cold-lead-advertising", "twisting", "guaranteed-renewable"],
+      "parts": [
+        {
+          "heading": "Standards for marketing and prohibited practices",
+          "body": "Every Medigap issuer, directly or through its producers, must (11 NYCRR 58.1(g)(1)):\n\n- make sure any **comparison of policies is fair and accurate**;\n- make sure **excessive insurance** is not sold;\n- display on the first page: **'Notice to buyer: This policy may not cover all of your medical expenses.'**;\n- make every reasonable effort to find out whether the applicant **already has accident and health insurance**, and what kind and how much;\n- keep auditable compliance procedures.\n\nIn addition to the Insurance Law's general prohibitions, three practices are specifically prohibited (58.1(g)(2)):\n\n- **[[twisting|Twisting]]** — knowingly making a misleading representation or incomplete or fraudulent comparison to get someone to drop, surrender or replace a policy;\n- **High-pressure tactics** — inducing a purchase through force, fright, threat or undue pressure;\n- **[[cold-lead-advertising|Cold lead advertising]]** — marketing that fails to conspicuously disclose that it is an insurance solicitation and that an agent or insurer will make contact.",
+          "simple": "Be fair and accurate, don't oversell, warn that the policy may not cover everything, and never twist, pressure, or hide that you're selling insurance.",
+          "callouts": [
+            { "kind": "ny-rule", "text": "11 NYCRR 58.1(g)(2) prohibits twisting, high-pressure tactics and cold lead advertising in Medigap marketing.", "sources": ["ny-11nycrr-58-1"] },
+            { "kind": "memory-tip", "text": "The three Medigap sins: Twist, Pressure, Hide (cold lead)." }
+          ]
+        },
+        {
+          "heading": "Permitted compensation",
+          "body": "11 NYCRR 58.1(f) limits how producers may be paid for Medigap:\n\n- **First-year** compensation may be **no more than 200%** of the second-year compensation.\n- **Renewal** compensation must be the **same as the second year** and be paid for **at least five renewal years**.\n- In a **replacement**, compensation may not exceed the replacing insurer's **renewal** compensation.\n- 'Compensation' includes bonuses, gifts, prizes, awards and finder's fees.",
+          "example": { "title": "Example", "body": "Second-year commission = $150. Maximum first-year commission = 2 × $150 = $300. If the sale replaces another Medigap policy, the producer can receive only renewal-level compensation." },
+          "callouts": [
+            { "kind": "ny-rule", "text": "First-year Medigap compensation ≤ 200% of second-year; renewals equal to year two for at least five renewal years (11 NYCRR 58.1(f)).", "sources": ["ny-11nycrr-58-1"] }
+          ]
+        },
+        {
+          "heading": "Appropriateness, replacement and disclosure",
+          "body": "**Appropriateness (58.1(d)(4)):** when recommending a purchase or replacement, the agent must make **reasonable efforts to determine whether it is appropriate**, and must sign a statement on the application: *'I have reviewed the current health insurance coverage of the applicant and find that additional coverage of the type and amount applied for is appropriate for the applicant's needs.'* Selling someone a **second Medigap policy**, or one that **duplicates Medicare Advantage** benefits, is prohibited.\n\n**Application disclosures (58.1(d)(6)):** the application includes statements telling the applicant that **you do not need more than one Medicare supplement policy**, that you may be **eligible for Medicaid** and may not need Medigap, that Medigap can be suspended during Medicaid eligibility, and that **counseling services** may be available. It also asks about existing Medigap, Medicare Advantage, Medicaid and other coverage.\n\n**Replacement (58.1(e)):** if a sale will replace other coverage, the agent (or issuer) must give the applicant a **notice regarding replacement before the policy is issued or delivered**, signed by the applicant and agent. The notice tells the applicant the new policy has **30 days** to review it without cost and to terminate existing coverage only after careful consideration. The replacing issuer later reminds the insured that **duplicate coverage is unnecessary**.\n\n**Timing:** for people becoming eligible by age, an issuer may not solicit or accept applications **more than 90 days before the month of the 65th birthday**.",
+          "simple": "Check that the policy fits, sign that you checked, don't sell duplicates, give the replacement notice before delivery, and make sure the buyer knows one Medigap policy is enough.",
+          "callouts": [
+            { "kind": "ny-rule", "text": "Medigap policies must state a 30-day right to return for a full refund of premium, including fees (11 NYCRR 58.1(b)(11)).", "sources": ["ny-11nycrr-58-1"] }
+          ]
+        },
+        {
+          "heading": "Renewability and suspension",
+          "body": "Every Medigap policy must be **[[guaranteed-renewable|guaranteed renewable]]** (58.1(b)(1)). The issuer can't change any provision except to:\n\n- adjust benefits to match changes in Medicare's deductibles and coinsurance;\n- amend the policy to meet minimum standards; or\n- revise premium rates **on a class basis**.\n\nAn issuer may **cancel or nonrenew only for nonpayment of premium or material misrepresentation** — never because of the insured's health (58.1(c)).\n\n**Suspension for Medicaid:** at the insured's request, benefits and premiums are suspended for up to **24 months** while the insured is entitled to Medicaid, if the insured notifies the issuer **within 90 days**. If Medicaid ends, coverage is reinstated (notice within 90 days) with no new preexisting-condition waiting period. A similar suspension right applies to disability-based Medicare enrollees who become covered by an employer group plan.",
+          "callouts": [
+            { "kind": "ny-rule", "text": "11 NYCRR 58.1(c)(1)-(2): no cancellation or nonrenewal except for nonpayment of premium or material misrepresentation, and never because of health status.", "sources": ["ny-11nycrr-58-1"] },
+            { "kind": "exam-trap", "text": "Guaranteed renewable does NOT mean premiums never change — they may change on a class basis." }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "match",
+        "prompt": "Match each NY Medigap rule to its requirement.",
+        "pairs": [
+          { "left": "First-year compensation", "right": "No more than 200% of second-year compensation" },
+          { "left": "Renewal compensation", "right": "Same as year two, for at least five renewal years" },
+          { "left": "Replacement compensation", "right": "No more than the replacing insurer's renewal compensation" },
+          { "left": "Cancellation", "right": "Only for nonpayment of premium or material misrepresentation" },
+          { "left": "Medicaid suspension", "right": "Up to 24 months, with notice within 90 days" },
+          { "left": "Earliest solicitation (age-based)", "right": "90 days before the month of the 65th birthday" }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "A producer's misleading, incomplete comparison designed to make a client drop a policy is:",
+          "choices": ["Twisting", "Cold lead advertising", "High-pressure tactics", "Controlled business"],
+          "answerIndex": 0,
+          "explanation": "11 NYCRR 58.1(g)(2)(i) defines twisting."
+        },
+        {
+          "prompt": "If the second-year Medigap commission is $120, the most the first-year commission can be is:",
+          "choices": ["$240", "$120", "$180", "$360"],
+          "answerIndex": 0,
+          "explanation": "First-year compensation may be no more than 200% of second-year: 2 × $120 = $240."
+        },
+        {
+          "prompt": "When must the NY Medigap replacement notice be given?",
+          "choices": ["Before the new policy is issued or delivered", "Within 30 days after delivery", "Only if the applicant requests it", "At the first renewal"],
+          "answerIndex": 0,
+          "explanation": "11 NYCRR 58.1(e)(1): before issuance or delivery (direct response issuers follow a separate procedure)."
+        }
+      ],
+      "summary": [
+        "Marketing must be fair and accurate, avoid excessive insurance, and include the 'Notice to buyer' on page one; twisting, high-pressure tactics and cold lead advertising are prohibited.",
+        "Compensation: first year ≤ 200% of year two; renewals equal year two for at least 5 years; replacements limited to renewal-level pay.",
+        "Agents must make reasonable efforts to assess appropriateness and sign an appropriateness statement; duplicate Medigap or Medigap duplicating Medicare Advantage may not be sold.",
+        "Replacement notice goes to the applicant before issuance or delivery; there is a 30-day free look.",
+        "Medigap is guaranteed renewable, cancellable only for nonpayment or material misrepresentation, and can be suspended up to 24 months during Medicaid eligibility."
+      ],
+      "related": ["sen-l01", "sen-l03"],
+      "sources": ["ny-11nycrr-58-1"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "regulation-text", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "sen-l03",
+      "sectionId": "sen",
+      "order": 3,
+      "title": "Other Medicare Situations: Disability, Kidney Failure and Working Past 65",
+      "outlineIds": ["sen.2", "sen.2.1", "sen.2.2", "sen.2.3", "sen.2.3.1"],
+      "estMinutes": 20,
+      "intro": "Not everyone on Medicare is a 65-year-old retiree. Some beneficiaries are younger and disabled, some have permanent kidney failure, and many keep working — and keep their employer's health plan — after 65. This lesson explains how Medicare works in these situations and which coverage pays first.",
+      "objectives": [
+        "Explain how people under 65 become eligible for Medicare through disability, ESRD or ALS",
+        "Apply the Medicare secondary payer rules for working people 65 and older",
+        "Distinguish the 20-employee and 100-employee thresholds",
+        "Explain New York's Medigap rights for disability-based Medicare enrollees"
+      ],
+      "keyTerms": ["medicare-disabled-under-65", "esrd", "working-aged", "medicare-secondary-payer"],
+      "parts": [
+        {
+          "heading": "Disabled individuals under 65",
+          "body": "A person under 65 generally becomes entitled to Medicare after receiving **Social Security disability benefits for 24 months** (people with **ALS** have a faster route). Don't confuse this 24-month wait with SSDI's separate five-month cash-benefit waiting period.\n\nIf a disability-based beneficiary has group health coverage through **current employment** (his or her own or a family member's), the group plan pays first only if the employer has **100 or more employees** — a 'large group health plan.' Otherwise **Medicare pays first**.\n\nIn **New York**, Medigap issuers must accept disability-based Medicare enrollees **year-round** under the same open enrollment rule that applies at 65. If such a person later gets employer group coverage, the Medigap policy can be **suspended** and later reinstated.",
+          "simple": "Disabled and under 65? Medicare usually starts after 2 years of Social Security disability checks. A big employer's plan (100+ workers) pays first. In New York you can buy Medigap any time.",
+          "callouts": [
+            { "kind": "ny-rule", "text": "11 NYCRR 58.1(i)(2): NY Medigap open enrollment applies to applicants enrolled in Medicare by reason of age or by reason of disability.", "sources": ["ny-11nycrr-58-1"] },
+            { "kind": "note", "text": "Medicare.gov: 'When an employer has 100 or more employees, the health plan it offers is called a \"large group health plan.\"'", "sources": ["fed-medicare-who-pays-first"] }
+          ]
+        },
+        {
+          "heading": "Individuals with kidney failure (ESRD)",
+          "body": "**[[esrd|End-stage renal disease]]** — permanent kidney failure requiring regular dialysis or a kidney transplant — is a basis for Medicare at **any age**, for people who meet Social Security work requirements (personally or through a spouse or parent). There is no 24-month disability wait.\n\nWhen a person with ESRD also has employer group coverage, the **group plan pays first for a limited coordination period**, and then Medicare becomes the primary payer.",
+          "simple": "Permanent kidney failure can qualify someone for Medicare at any age. An employer plan pays first for a while, then Medicare takes over.",
+          "callouts": [
+            { "kind": "exam-trap", "text": "The three under-65 routes: disability (after 24 months of SS disability benefits), ESRD, and ALS." }
+          ]
+        },
+        {
+          "heading": "Employer group health plans and employees 65 or older",
+          "body": "Medicare's **secondary payer** rules decide which coverage pays first. For a beneficiary **65 or older** (see [[working-aged]]):\n\n- **Current employment** (own or spouse's) with an employer of **20 or more employees** → the **group health plan pays first**, Medicare second.\n- Current employment with an employer of **fewer than 20 employees** → **Medicare pays first**.\n- **Retiree coverage** from a former employer → **Medicare pays first**.\n- **COBRA** → **Medicare pays first**.\n\nOther coordination rules: workers' comp pays first for work-related care; no-fault and liability insurance pay first for accident-related care; Medicaid never pays first for Medicare-covered services.\n\nThe primary plan pays up to its limits; the secondary payer pays only costs the primary didn't cover. A Medigap policy is designed around Original Medicare, so an active employee whose large-employer plan is primary may not need Medigap until retirement.",
+          "simple": "Still working at 65 for a company with 20+ employees? The job's plan pays first. Smaller company, retiree plan or COBRA? Medicare pays first.",
+          "example": { "title": "Example: Owen and Irene", "body": "Owen, 67, works for a 60-employee company: the group plan pays first. Irene, 66, works for a 12-employee shop: Medicare pays first." },
+          "callouts": [
+            { "kind": "memory-tip", "text": "Aged: 20 rule. Disabled: 100 rule. Retired or COBRA: Medicare first." },
+            { "kind": "note", "text": "Medicare.gov: with group coverage through an employer with 20 or more employees, the group health plan pays first and Medicare pays second; with fewer than 20, Medicare pays first.", "sources": ["fed-medicare-who-pays-first"] }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "categorize",
+        "prompt": "For each Medicare beneficiary, who pays first?",
+        "categories": ["Group health plan pays first", "Medicare pays first"],
+        "items": [
+          { "text": "Age 67, actively working for a 300-employee company with group coverage", "category": "Group health plan pays first" },
+          { "text": "Age 66, actively working for a 10-employee company with group coverage", "category": "Medicare pays first" },
+          { "text": "Age 70, covered by a former employer's retiree plan", "category": "Medicare pays first" },
+          { "text": "Age 66, on COBRA after leaving a job", "category": "Medicare pays first" },
+          { "text": "Age 55, Medicare due to disability, spouse works for a 150-employee firm", "category": "Group health plan pays first" },
+          { "text": "Age 55, Medicare due to disability, spouse works for a 50-employee firm", "category": "Medicare pays first" }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "For a beneficiary 65 or older with group coverage from current employment, the group plan pays first if the employer has at least:",
+          "choices": ["20 employees", "100 employees", "50 employees", "2 employees"],
+          "answerIndex": 0,
+          "explanation": "The 20-employee threshold applies to the working aged; 100 applies to disability-based Medicare."
+        },
+        {
+          "prompt": "A person under 65 (without ESRD or ALS) generally becomes entitled to Medicare after receiving Social Security disability benefits for:",
+          "choices": ["24 months", "5 months", "12 months", "36 months"],
+          "answerIndex": 0,
+          "explanation": "Disability-based Medicare generally starts after 24 months of disability benefits."
+        }
+      ],
+      "summary": [
+        "Under-65 routes to Medicare: disability (generally after 24 months of SS disability benefits), ESRD at any age, and ALS.",
+        "For disability-based Medicare, a group plan from current employment pays first only for a large group health plan (100+ employees).",
+        "For beneficiaries 65+, current-employment group coverage pays first if the employer has 20+ employees; otherwise Medicare pays first.",
+        "Medicare pays first over retiree coverage and COBRA; workers' comp and no-fault pay first for their own claims.",
+        "New York's year-round Medigap open enrollment applies to disability-based enrollees too."
+      ],
+      "related": ["sen-l01", "gov-l04"],
+      "sources": ["fed-medicare-who-pays-first", "ny-11nycrr-58-1", "fed-ssa-disability-qualify"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "federal-source", "checkedOn": "2026-11-19", "notes": "ESRD coordination-period length intentionally omitted (not verified)." }
+    }
+  ]
+}

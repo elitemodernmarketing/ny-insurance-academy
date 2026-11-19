@@ -1,0 +1,1498 @@
+{
+  "sectionId": "aca",
+  "questions": [
+    {
+      "id": "aca-q201",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.2.6"
+      ],
+      "concepts": [
+        "metal-levels"
+      ],
+      "difficulty": 1,
+      "style": "application",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "A qualified health plan is designed to pay, on average, 80% of the full actuarial value of covered benefits for a standard population. What metal level is it?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Bronze",
+          "rationale": "Incorrect: Bronze is 60%."
+        },
+        {
+          "id": "b",
+          "text": "Silver",
+          "rationale": "Incorrect: Silver is 70%."
+        },
+        {
+          "id": "c",
+          "text": "Gold",
+          "rationale": "Correct: Gold is 80%."
+        },
+        {
+          "id": "d",
+          "text": "Platinum",
+          "rationale": "Incorrect: Platinum is 90%."
+        }
+      ],
+      "correct": "c",
+      "explanation": "42 U.S.C. § 18022(d)(1): Bronze 60%, Silver 70%, Gold 80%, Platinum 90% of the full actuarial value of the benefits.",
+      "memoryTip": "60-70-80-90 = B-S-G-P.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-42-18022"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aca-q202",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.5",
+        "aca.1.2.6"
+      ],
+      "concepts": [
+        "actuarial-value",
+        "metal-levels"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "stem": "For a standard population, a plan is expected to pay $8,400 of $12,000 in total covered costs. What is its actuarial value and metal level?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "70%, Silver",
+          "rationale": "Correct: $8,400 / $12,000 = 0.70 = 70%, the Silver level."
+        },
+        {
+          "id": "b",
+          "text": "60%, Bronze",
+          "rationale": "Incorrect: $8,400 / $12,000 is 70%, not 60%."
+        },
+        {
+          "id": "c",
+          "text": "80%, Gold",
+          "rationale": "Incorrect: Gold would require the plan to pay $9,600 of $12,000."
+        },
+        {
+          "id": "d",
+          "text": "30%, catastrophic",
+          "rationale": "Incorrect: 30% is the enrollees' average share, not the plan's."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Actuarial value = plan's expected payments / total covered costs for a standard population: $8,400 / $12,000 = 0.70 = 70%. Under § 18022(d), 70% is the Silver level. Enrollees would pay the other 30% on average through cost-sharing.",
+      "memoryTip": "AV = plan's share / total cost.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-42-18022"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aca-q203",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.5"
+      ],
+      "concepts": [
+        "actuarial-value"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "tricky",
+        "math"
+      ],
+      "stem": "For a standard population with $10,000 of average covered costs per person, about how much would enrollees in a Bronze plan pay on average through cost-sharing?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$6,000",
+          "rationale": "Incorrect: $6,000 is the plan's 60% share."
+        },
+        {
+          "id": "b",
+          "text": "$1,000",
+          "rationale": "Incorrect: that would be a 90% (Platinum) plan."
+        },
+        {
+          "id": "c",
+          "text": "$3,000",
+          "rationale": "Incorrect: that would be a 70% (Silver) plan."
+        },
+        {
+          "id": "d",
+          "text": "$4,000",
+          "rationale": "Correct: Bronze pays 60%, leaving 40% x $10,000 = $4,000 to enrollees on average."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Bronze plans have an actuarial value of 60%, so the plan pays 0.60 x $10,000 = $6,000 on average and enrollees pay the remaining 0.40 x $10,000 = $4,000 through deductibles, copayments and coinsurance. This is an average for a standard population, not what any one person will pay.",
+      "memoryTip": "Enrollee share = 100% minus the metal's AV.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-42-18022"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aca-q204",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.2.3",
+        "aca.1.2.2"
+      ],
+      "concepts": [
+        "cost-sharing-reduction",
+        "premium-tax-credit"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Felix qualifies for both a premium tax credit and cost-sharing reductions on the Marketplace. His main goal is to lower his deductible and copayments.",
+      "stem": "To lower his deductible and copayments, what must Felix do?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Choose any metal level and apply his premium tax credit",
+          "rationale": "Incorrect: the premium tax credit lowers premiums, not deductibles."
+        },
+        {
+          "id": "b",
+          "text": "Enroll in a Silver plan through the Marketplace",
+          "rationale": "Correct: cost-sharing reductions are available only with a Silver plan."
+        },
+        {
+          "id": "c",
+          "text": "Buy a Platinum plan directly from an insurer off the exchange",
+          "rationale": "Incorrect: CSRs are a Marketplace program available only with Silver plans."
+        },
+        {
+          "id": "d",
+          "text": "Decline the premium tax credit to receive CSRs instead",
+          "rationale": "Incorrect: he can receive both; the key is choosing a Silver plan."
+        }
+      ],
+      "correct": "b",
+      "explanation": "HealthCare.gov: cost-sharing reductions lower deductibles, copayments and coinsurance (and the out-of-pocket maximum), and a person who qualifies 'must enroll in a plan in the Silver category to get the extra savings'. The premium tax credit can be used with any metal level.",
+      "memoryTip": "Lower deductible via CSR? Pick Silver.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "CSRs lower deductibles/copays",
+            "anyOf": [
+              "cost-sharing reduction",
+              "CSR",
+              "extra savings"
+            ]
+          },
+          {
+            "label": "Silver plan required",
+            "anyOf": [
+              "Silver"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-healthcare-gov-glossary"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aca-q205",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.2.2"
+      ],
+      "concepts": [
+        "premium-tax-credit",
+        "benchmark-plan"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "After a year of Marketplace coverage with an advance premium tax credit, which form does the Marketplace send to help the enrollee figure the final premium tax credit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Form 5500",
+          "rationale": "Incorrect: Form 5500 is an employee benefit plan's annual report."
+        },
+        {
+          "id": "b",
+          "text": "Form W-2",
+          "rationale": "Incorrect: Form W-2 reports wages from an employer."
+        },
+        {
+          "id": "c",
+          "text": "Form 1099-R",
+          "rationale": "Incorrect: Form 1099-R reports retirement plan distributions."
+        },
+        {
+          "id": "d",
+          "text": "Form 1095-A",
+          "rationale": "Correct: the Marketplace sends Form 1095-A, which usually shows the SLCSP premium."
+        }
+      ],
+      "correct": "d",
+      "explanation": "HealthCare.gov: 'The Marketplace sends Form 1095-A to you early in the year after someone in your household had a Marketplace health plan.' In most cases the second lowest cost Silver plan premium needed to figure the final credit appears on that form.",
+      "memoryTip": "Marketplace coverage = 1095-A.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-healthcare-gov-glossary"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aca-q206",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.2.4"
+      ],
+      "concepts": [
+        "benchmark-plan",
+        "premium-tax-credit"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Leo qualifies for a premium tax credit and decides to enroll in a Bronze plan because it has the lowest premium.",
+      "stem": "Which plan's premium is used to figure Leo's premium tax credit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Bronze plan that he actually enrolled in",
+          "rationale": "Incorrect: the credit is based on the benchmark, not the plan he chooses."
+        },
+        {
+          "id": "b",
+          "text": "The second lowest cost Silver plan available to him",
+          "rationale": "Correct: the SLCSP is the benchmark even if he enrolls in another plan."
+        },
+        {
+          "id": "c",
+          "text": "The lowest cost Gold plan available to him",
+          "rationale": "Incorrect: Gold plans are not the benchmark."
+        },
+        {
+          "id": "d",
+          "text": "The lowest cost Bronze plan offered in his area",
+          "rationale": "Incorrect: the benchmark is a Silver plan."
+        }
+      ],
+      "correct": "b",
+      "explanation": "The premium tax credit is figured using the premium of the second lowest cost Silver plan (SLCSP) that applies to the person. HealthCare.gov notes that the SLCSP 'may not be the plan you enrolled in'. Leo can apply the resulting credit to his Bronze plan.",
+      "memoryTip": "Buy any metal; the credit is still measured against the #2 Silver.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Benchmark = second lowest cost Silver plan",
+            "anyOf": [
+              "second lowest",
+              "SLCSP",
+              "benchmark"
+            ]
+          },
+          {
+            "label": "Applies even though he chose Bronze",
+            "anyOf": [
+              "Bronze",
+              "may not be the plan",
+              "any metal"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-healthcare-gov-glossary"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aca-q207",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.2.5"
+      ],
+      "concepts": [
+        "health-insurance-exchange"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "Under NY Public Health Law § 268-b, NY State of Health is established as an office within which state agency?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Department of Health",
+          "rationale": "Correct: § 268-b establishes the office within the Department of Health."
+        },
+        {
+          "id": "b",
+          "text": "The Department of Financial Services",
+          "rationale": "Incorrect: DFS regulates insurers, but § 268-b places NY State of Health in the Department of Health."
+        },
+        {
+          "id": "c",
+          "text": "The Workers' Compensation Board",
+          "rationale": "Incorrect: the Board administers workers' compensation and disability benefits."
+        },
+        {
+          "id": "d",
+          "text": "The Department of Taxation and Finance",
+          "rationale": "Incorrect: the tax department does not operate the Marketplace."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Public Health Law § 268-b(1): 'There is hereby established an office within the department of health to be known as the \"NY State of Health, The official health plan Marketplace\".' New York therefore runs a state-based exchange.",
+      "memoryTip": "NY State of Health lives in the Department of Health.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-pbh-268-b"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aca-q208",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.2.1"
+      ],
+      "concepts": [
+        "health-insurance-exchange",
+        "small-employer"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording",
+        "ny-law"
+      ],
+      "stem": "Under NY Public Health Law § 268-b, the purposes of NY State of Health include all of the following EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Enabling eligible individuals to receive premium tax credits and cost-sharing reductions",
+          "rationale": "Incorrect: this is a listed purpose."
+        },
+        {
+          "id": "b",
+          "text": "Assisting eligible small employers in selecting qualified health plans",
+          "rationale": "Incorrect: this is a listed purpose."
+        },
+        {
+          "id": "c",
+          "text": "Licensing insurance producers who sell health plans",
+          "rationale": "Correct: producer licensing is not a listed Marketplace purpose."
+        },
+        {
+          "id": "d",
+          "text": "Facilitating enrollment in and purchase of qualified health plans",
+          "rationale": "Incorrect: this is a listed purpose."
+        }
+      ],
+      "correct": "c",
+      "explanation": "§ 268-b(2) lists the Marketplace's purposes: facilitating enrollment and the purchase and sale of qualified health plans; enrolling individuals in coverage they are eligible for; enabling premium tax credits, cost-sharing reductions and affordability programs; and assisting eligible small employers. Producer licensing is a separate insurance regulatory function.",
+      "memoryTip": "The Marketplace enrolls people and small employers; it doesn't license agents.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-pbh-268-b"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aca-q209",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.6"
+      ],
+      "concepts": [
+        "special-enrollment-period"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "For a group health plan, each of the following events gives an eligible employee a special enrollment right EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Loss of other group coverage because a spouse's job ended",
+          "rationale": "Incorrect: loss of other coverage is a special enrollment event."
+        },
+        {
+          "id": "b",
+          "text": "Marriage",
+          "rationale": "Incorrect: gaining a dependent through marriage is a special enrollment event."
+        },
+        {
+          "id": "c",
+          "text": "Deciding mid-year that a richer plan option would be better",
+          "rationale": "Correct: a change of mind is not a qualifying event; it waits for open enrollment."
+        },
+        {
+          "id": "d",
+          "text": "The birth of a child",
+          "rationale": "Incorrect: birth is a special enrollment event."
+        }
+      ],
+      "correct": "c",
+      "explanation": "42 U.S.C. § 300gg-3(f) gives special enrollment rights after loss of other coverage (including because of termination of employment, divorce or death), and when a person becomes a dependent through marriage, birth, adoption or placement for adoption. Simply wanting different coverage is handled at open enrollment.",
+      "memoryTip": "Special enrollment needs a life event, not a change of heart.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-42-300gg-3"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aca-q210",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.6"
+      ],
+      "concepts": [
+        "special-enrollment-period"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Ken is enrolled in his employer's group health plan. He marries on June 10 and submits a completed request to add his wife on June 20.",
+      "stem": "If Ken requests enrollment within the first 30 days, when must his new wife's coverage begin under the group plan?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "By the first day of the month after the request (July 1)",
+          "rationale": "Correct: this is the effective-date rule for marriage."
+        },
+        {
+          "id": "b",
+          "text": "At the start of the next plan year, January 1",
+          "rationale": "Incorrect: special enrollment avoids waiting for the next plan year."
+        },
+        {
+          "id": "c",
+          "text": "On the wedding date, June 10, the date of the event",
+          "rationale": "Incorrect: the date-of-event rule applies to birth and adoption, not marriage."
+        },
+        {
+          "id": "d",
+          "text": "After a new 90-day waiting period for the spouse",
+          "rationale": "Incorrect: special enrollees are not subject to a new waiting period here."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Under 42 U.S.C. § 300gg-3(f)(2)(C), when enrollment is requested during the first 30 days of the special enrollment period, coverage begins: for marriage, not later than the first day of the first month beginning after the completed request is received; for birth, on the date of birth; for adoption or placement, on that date.",
+      "memoryTip": "Marriage: first of next month. Birth/adoption: that day.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Marriage is a special enrollment event",
+            "anyOf": [
+              "marriage",
+              "special enrollment"
+            ]
+          },
+          {
+            "label": "Effective first day of following month (July 1)",
+            "anyOf": [
+              "first day",
+              "July 1",
+              "next month"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-42-300gg-3"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aca-q211",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.6"
+      ],
+      "concepts": [
+        "special-enrollment-period",
+        "newborn-coverage"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "When an employee uses a group health plan's special enrollment period to add a child placed with the family for adoption, coverage is effective:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only after the adoption is finally approved in court",
+          "rationale": "Incorrect: placement for adoption is enough."
+        },
+        {
+          "id": "b",
+          "text": "On the first day of the next plan year",
+          "rationale": "Incorrect: special enrollment avoids waiting for the next plan year."
+        },
+        {
+          "id": "c",
+          "text": "90 days after the enrollment request is received",
+          "rationale": "Incorrect: there is no 90-day delay in the statute."
+        },
+        {
+          "id": "d",
+          "text": "On the date of the adoption or placement for adoption",
+          "rationale": "Correct: federal law makes coverage effective on the date of adoption or placement."
+        }
+      ],
+      "correct": "d",
+      "explanation": "42 U.S.C. § 300gg-3(f)(2)(C)(iii): in the case of a dependent's adoption or placement for adoption, coverage becomes effective on the date of the adoption or placement for adoption (if enrollment is requested within the first 30 days).",
+      "memoryTip": "Adoption or placement day = coverage day.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-42-300gg-3"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aca-q212",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.4"
+      ],
+      "concepts": [
+        "medical-loss-ratio"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "tricky",
+        "math"
+      ],
+      "scenario": "An insurer's large group business earned $50 million in premium revenue (after excluded taxes and fees) and spent $41 million on clinical services and quality improvement.",
+      "stem": "Ignoring taxes, fees and other adjustments, what rebate must this large group insurer pay?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$9 million",
+          "rationale": "Incorrect: $9 million is the insurer's total non-claims spending, not the rebate."
+        },
+        {
+          "id": "b",
+          "text": "$1.5 million",
+          "rationale": "Correct: 85% - 82% = 3%; 3% x $50 million = $1.5 million."
+        },
+        {
+          "id": "c",
+          "text": "$0, because 82% is above the 80% standard",
+          "rationale": "Incorrect: 80% applies to small group and individual; the large group standard is 85%."
+        },
+        {
+          "id": "d",
+          "text": "$4.1 million",
+          "rationale": "Incorrect: this is 10% of claims, not the statutory rebate formula."
+        }
+      ],
+      "correct": "b",
+      "explanation": "MLR = $41 million / $50 million = 82%. The large group standard is 85%, a shortfall of 3 percentage points. Under 42 U.S.C. § 300gg-18(b)(1)(B), the rebate equals the shortfall times premium revenue: 0.03 x $50,000,000 = $1,500,000, paid pro rata to enrollees.",
+      "memoryTip": "Use 85% for large group, then shortfall x premium.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "MLR = 82%",
+            "anyOf": [
+              "82"
+            ]
+          },
+          {
+            "label": "Large group standard 85%",
+            "anyOf": [
+              "85"
+            ]
+          },
+          {
+            "label": "Rebate = 3% x $50M = $1.5M",
+            "anyOf": [
+              "1.5 million",
+              "1,500,000",
+              "$1.5"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-42-300gg-18"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aca-q213",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.4"
+      ],
+      "concepts": [
+        "medical-loss-ratio"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "An insurer selling individual coverage spent 81% of its premium revenue (after excluded taxes and fees) on clinical services and quality improvement. Its state has not set a higher percentage.",
+      "stem": "Does this individual-market insurer owe MLR rebates for the year?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, because every insurer must reach 85%",
+          "rationale": "Incorrect: 85% applies to the large group market."
+        },
+        {
+          "id": "b",
+          "text": "No, because MLR rules apply only to group coverage",
+          "rationale": "Incorrect: MLR rules apply to individual and group coverage."
+        },
+        {
+          "id": "c",
+          "text": "Yes, because rebates are paid whenever there is any profit",
+          "rationale": "Incorrect: rebates depend on the MLR standard, not profit."
+        },
+        {
+          "id": "d",
+          "text": "No, because it met the 80% individual-market standard",
+          "rationale": "Correct: 81% meets the 80% minimum, so no rebate is due under federal law."
+        }
+      ],
+      "correct": "d",
+      "explanation": "42 U.S.C. § 300gg-18 sets a minimum MLR of 80% for the individual and small group markets and 85% for the large group market (states may set higher). An individual-market MLR of 81% meets the federal 80% standard.",
+      "memoryTip": "Individual/small group: 80% is the bar.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-42-300gg-18"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aca-q214",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.4"
+      ],
+      "concepts": [
+        "medical-loss-ratio"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "In the medical loss ratio calculation, which spending counts toward meeting the standard?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Broker commissions, advertising and other marketing costs",
+          "rationale": "Incorrect: these are non-claims costs."
+        },
+        {
+          "id": "b",
+          "text": "Clinical services and activities that improve care quality",
+          "rationale": "Correct: these are the costs in § 300gg-18(a)(1) and (2) used for the MLR test."
+        },
+        {
+          "id": "c",
+          "text": "Dividends paid to the insurer's shareholders",
+          "rationale": "Incorrect: profit distributions do not count."
+        },
+        {
+          "id": "d",
+          "text": "Executive salaries, office rent and other overhead",
+          "rationale": "Incorrect: these are administrative non-claims costs."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Under 42 U.S.C. § 300gg-18, the MLR compares premium revenue spent on reimbursement for clinical services and activities that improve health care quality to total premium revenue (after excluded taxes and fees). Other non-claims costs, such as administration, marketing and profit, do not count.",
+      "memoryTip": "MLR counts care and quality, not overhead.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-42-300gg-18"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aca-q215",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.8"
+      ],
+      "concepts": [
+        "employer-shared-responsibility"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "To avoid the first type of employer shared responsibility payment, an applicable large employer must offer minimum essential coverage to at least what share of its full-time employees and their dependents?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "95%",
+          "rationale": "Correct: the IRS describes the 95% offer requirement."
+        },
+        {
+          "id": "b",
+          "text": "75%",
+          "rationale": "Incorrect: the IRS standard is 95%."
+        },
+        {
+          "id": "c",
+          "text": "50%",
+          "rationale": "Incorrect: 50 is the full-time employee threshold for ALE status, not the offer percentage."
+        },
+        {
+          "id": "d",
+          "text": "100%",
+          "rationale": "Incorrect: the standard is at least 95%, not 100%."
+        }
+      ],
+      "correct": "a",
+      "explanation": "IRS: an ALE member owes the first type of payment if it does not offer minimum essential coverage to at least 95 percent of its full-time employees (and their dependents) and at least one full-time employee receives a premium tax credit through the Marketplace.",
+      "memoryTip": "Offer to 95% of full-timers.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-irs-esr"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aca-q216",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.8"
+      ],
+      "concepts": [
+        "employer-shared-responsibility"
+      ],
+      "difficulty": 3,
+      "style": "concept",
+      "tags": [
+        "tricky"
+      ],
+      "stem": "For the ACA employer shared responsibility provisions, which family members count as an employee's dependents to whom coverage must be offered?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The employee's spouse and children of any age",
+          "rationale": "Incorrect: spouses are not counted as dependents for this purpose."
+        },
+        {
+          "id": "b",
+          "text": "Only children who are full-time students",
+          "rationale": "Incorrect: student status is not part of the definition."
+        },
+        {
+          "id": "c",
+          "text": "The employee's children who have not reached age 26",
+          "rationale": "Correct: the IRS defines dependents here as the employee's children under 26."
+        },
+        {
+          "id": "d",
+          "text": "Any relative living in the employee's household",
+          "rationale": "Incorrect: the definition is limited to children under 26."
+        }
+      ],
+      "correct": "c",
+      "explanation": "IRS: 'For purposes of the employer shared responsibility provisions, a dependent is an employee's child (including a child who has been legally adopted or placed for adoption) who has not reached the age of 26. Spouses are not considered dependents.'",
+      "memoryTip": "ESR dependents = kids under 26 (not spouses).",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-irs-esr"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aca-q217",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.8"
+      ],
+      "concepts": [
+        "employer-shared-responsibility"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Riverbend Bakery averaged 40 full-time employees, including full-time equivalents, last year. It offers no health coverage, and one employee buys a Marketplace plan with a premium tax credit.",
+      "stem": "Does Riverbend owe an employer shared responsibility payment?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, because an employee received a premium tax credit",
+          "rationale": "Incorrect: the payment applies only to applicable large employers."
+        },
+        {
+          "id": "b",
+          "text": "Yes, because every employer must offer coverage",
+          "rationale": "Incorrect: the ACA does not require small employers to offer coverage."
+        },
+        {
+          "id": "c",
+          "text": "No, because it is not an applicable large employer",
+          "rationale": "Correct: an average of 40 full-time employees (including FTEs) is below the 50 threshold."
+        },
+        {
+          "id": "d",
+          "text": "No, because employees who get tax credits must reimburse the employer",
+          "rationale": "Incorrect: there is no such reimbursement rule."
+        }
+      ],
+      "correct": "c",
+      "explanation": "IRS: only applicable large employers, those averaging at least 50 full-time employees including full-time equivalents in the preceding calendar year, are subject to the employer shared responsibility provisions. Riverbend averaged 40, so no payment applies even though an employee received a credit.",
+      "memoryTip": "Under 50 FT (incl. FTEs)? Not an ALE, no payment.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "ALE threshold is 50 full-time incl. FTEs",
+            "anyOf": [
+              "50"
+            ]
+          },
+          {
+            "label": "Riverbend (40) is not an ALE",
+            "anyOf": [
+              "not an ALE",
+              "not an applicable",
+              "below"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-irs-esr"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aca-q218",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.10"
+      ],
+      "concepts": [
+        "essential-health-benefits"
+      ],
+      "difficulty": 1,
+      "style": "application",
+      "tags": [],
+      "stem": "Physical therapy to help a patient regain the ability to walk after a stroke falls under which essential health benefit category?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rehabilitative and habilitative services and devices",
+          "rationale": "Correct: services that restore lost function are rehabilitative."
+        },
+        {
+          "id": "b",
+          "text": "Ambulatory patient services",
+          "rationale": "Incorrect: although outpatient, restoring function is the rehabilitative category."
+        },
+        {
+          "id": "c",
+          "text": "Mental health and substance use disorder services",
+          "rationale": "Incorrect: this category covers behavioral health and substance use treatment."
+        },
+        {
+          "id": "d",
+          "text": "Preventive and wellness services and chronic disease management",
+          "rationale": "Incorrect: therapy after a stroke treats an existing condition."
+        }
+      ],
+      "correct": "a",
+      "explanation": "42 U.S.C. § 18022(b)(1)(G) lists rehabilitative and habilitative services and devices. Rehabilitative care, such as physical therapy after a stroke, helps a person regain skills or function that were lost.",
+      "memoryTip": "Regain function = rehabilitative.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-42-18022"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aca-q219",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.7"
+      ],
+      "concepts": [
+        "individual-mandate"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Jordan had no health coverage and no exemption for all of 2017. He was also uninsured for all of 2021.",
+      "stem": "For which year could Jordan have owed the federal individual mandate penalty?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Neither year",
+          "rationale": "Incorrect: a penalty could apply for 2017, a year when the fee still applied."
+        },
+        {
+          "id": "b",
+          "text": "2021 only",
+          "rationale": "Incorrect: the federal fee no longer applied after 2018."
+        },
+        {
+          "id": "c",
+          "text": "Both 2017 and 2021",
+          "rationale": "Incorrect: there was no federal penalty for 2021."
+        },
+        {
+          "id": "d",
+          "text": "2017 only",
+          "rationale": "Correct: the federal fee applied for plan years 2018 and earlier."
+        }
+      ],
+      "correct": "d",
+      "explanation": "HealthCare.gov: the fee for not having qualifying health coverage applied for plan years 2018 and earlier and 'no longer applies'. Jordan could owe it for 2017 but not for 2021.",
+      "memoryTip": "Mandate penalty: through 2018 only.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-healthcare-gov-glossary"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aca-q220",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.10"
+      ],
+      "concepts": [
+        "essential-health-benefits",
+        "in-network"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "While traveling, Maya has severe chest pain and goes to the nearest emergency department, which is not in her ACA plan's network. She did not contact her plan beforehand.",
+      "stem": "Under the ACA's essential health benefit rules for emergency services, how must Maya's plan treat this visit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Deny it, because she did not get prior authorization",
+          "rationale": "Incorrect: emergency department services may not require prior authorization."
+        },
+        {
+          "id": "b",
+          "text": "Cover it with no prior authorization and in-network cost-sharing",
+          "rationale": "Correct: § 18022(b)(4)(E) bars prior authorization and requires in-network cost-sharing for ER care."
+        },
+        {
+          "id": "c",
+          "text": "Cover it only if she was admitted to the hospital",
+          "rationale": "Incorrect: emergency department services are covered whether or not she is admitted."
+        },
+        {
+          "id": "d",
+          "text": "Cover it, but at the plan's higher out-of-network coinsurance rate",
+          "rationale": "Incorrect: emergency cost-sharing must equal the in-network requirement."
+        }
+      ],
+      "correct": "b",
+      "explanation": "42 U.S.C. § 18022(b)(4)(E) provides that a qualified health plan covering essential health benefits must cover emergency department services without prior authorization, without stricter limits for non-contracted providers, and, if out of network, with the same copayment or coinsurance that would apply in network.",
+      "memoryTip": "ER care: no prior auth, in-network cost-sharing.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "No prior authorization for emergency services",
+            "anyOf": [
+              "prior authorization",
+              "no authorization"
+            ]
+          },
+          {
+            "label": "Out-of-network ER cost-sharing equals in-network",
+            "anyOf": [
+              "in-network",
+              "same cost-sharing",
+              "same copayment",
+              "same coinsurance"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-42-18022"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aca-q221",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.1"
+      ],
+      "concepts": [
+        "preexisting-condition"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Alicia starts a new job and enrolls in the employer's group health plan. She is three months pregnant on her enrollment date.",
+      "stem": "May Alicia's new group health plan refuse to cover her prenatal care and delivery because she was pregnant when she enrolled?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, for the first 12 months that her coverage is in force",
+          "rationale": "Incorrect: no preexisting condition exclusion may be imposed."
+        },
+        {
+          "id": "b",
+          "text": "Yes, unless she had prior creditable coverage with no gap",
+          "rationale": "Incorrect: prior coverage no longer matters; exclusions are banned."
+        },
+        {
+          "id": "c",
+          "text": "No, but only if the pregnancy was diagnosed after enrollment",
+          "rationale": "Incorrect: the protection applies even though she was already pregnant."
+        },
+        {
+          "id": "d",
+          "text": "No; preexisting condition exclusions, including pregnancy, are barred",
+          "rationale": "Correct: § 300gg-3 bars any preexisting condition exclusion."
+        }
+      ],
+      "correct": "d",
+      "explanation": "42 U.S.C. § 300gg-3(a) prohibits group health plans and insurers offering group or individual coverage from imposing any preexisting condition exclusion. Even before that general ban, federal law specifically barred treating pregnancy as a preexisting condition.",
+      "memoryTip": "Pregnant at enrollment? Still covered.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-42-300gg-3"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aca-q222",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.1"
+      ],
+      "concepts": [
+        "preexisting-condition"
+      ],
+      "difficulty": 3,
+      "style": "concept",
+      "tags": [
+        "tricky"
+      ],
+      "stem": "Under 42 U.S.C. § 300gg-3, genetic information showing an increased risk of a disease is treated as a preexisting condition:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Always, because the risk existed before enrollment",
+          "rationale": "Incorrect: genetic information alone is not treated as a condition."
+        },
+        {
+          "id": "b",
+          "text": "Not at all, unless the related condition is diagnosed",
+          "rationale": "Correct: genetic information is not a condition absent a diagnosis."
+        },
+        {
+          "id": "c",
+          "text": "Only in group plans with fewer than 50 employees",
+          "rationale": "Incorrect: plan size is not part of the rule."
+        },
+        {
+          "id": "d",
+          "text": "Only if the person has already received genetic counseling",
+          "rationale": "Incorrect: counseling does not change the rule."
+        }
+      ],
+      "correct": "b",
+      "explanation": "§ 300gg-3(b)(1)(B): 'Genetic information shall not be treated as a condition … in the absence of a diagnosis of the condition related to such information.' And today, no preexisting condition exclusion may be imposed at all.",
+      "memoryTip": "Genes aren't a diagnosis.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-42-300gg-3"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aca-q223",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.9"
+      ],
+      "concepts": [
+        "lifetime-limit",
+        "essential-health-benefits"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "An employer's group medical plan includes an optional adult dental rider with a $1,500 annual maximum benefit per person.",
+      "stem": "Is the $1,500 annual maximum permitted under the ACA's dollar-limit rules?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, because adult dental care is not an essential health benefit",
+          "rationale": "Correct: dollar limits are still allowed on benefits that are not EHBs."
+        },
+        {
+          "id": "b",
+          "text": "No, because no health plan may have any dollar limit on any benefit",
+          "rationale": "Incorrect: the ban covers essential health benefits only."
+        },
+        {
+          "id": "c",
+          "text": "No, because annual limits are banned while lifetime limits are allowed",
+          "rationale": "Incorrect: both lifetime and annual limits on EHBs are banned."
+        },
+        {
+          "id": "d",
+          "text": "Yes, but only if the rider is sold to large groups",
+          "rationale": "Incorrect: market size is not the test; whether the benefit is an EHB is."
+        }
+      ],
+      "correct": "a",
+      "explanation": "42 U.S.C. § 300gg-11(a) bars lifetime and annual dollar limits on essential health benefits, but § 300gg-11(b) allows annual or lifetime per-beneficiary limits on specific covered benefits that are not essential health benefits. Adult dental care is not among the ten EHB categories (pediatric oral care is).",
+      "memoryTip": "No dollar caps on EHBs; non-EHB extras can still be capped.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Dollar-limit ban applies to essential health benefits",
+            "anyOf": [
+              "essential health benefit",
+              "EHB"
+            ]
+          },
+          {
+            "label": "Adult dental is not an EHB, so a cap is allowed",
+            "anyOf": [
+              "adult dental",
+              "not an essential",
+              "allowed",
+              "permitted"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-42-300gg-11",
+        "fed-usc-42-18022"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "aca-q224",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.3"
+      ],
+      "concepts": [
+        "catastrophic-plan"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "In which market may an insurer offer an ACA catastrophic plan?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The small group market only",
+          "rationale": "Incorrect: catastrophic plans may not be offered as small group coverage."
+        },
+        {
+          "id": "b",
+          "text": "The large group market only",
+          "rationale": "Incorrect: catastrophic plans are not employer group products."
+        },
+        {
+          "id": "c",
+          "text": "The individual market only",
+          "rationale": "Correct: § 18022(e)(3) limits catastrophic plans to the individual market."
+        },
+        {
+          "id": "d",
+          "text": "Any market, if the employer has fewer than 50 employees",
+          "rationale": "Incorrect: employer size does not open other markets."
+        }
+      ],
+      "correct": "c",
+      "explanation": "42 U.S.C. § 18022(e)(3): 'If a health insurance issuer offers a health plan described in this subsection, the issuer may only offer the plan in the individual market.'",
+      "memoryTip": "Catastrophic = individual market only.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-42-18022"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

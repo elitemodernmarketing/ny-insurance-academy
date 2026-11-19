@@ -1,0 +1,24 @@
+{
+  "sources": [
+    {
+      "id": "ny-isc-2404",
+      "title": "NY Insurance Law § 2404 — Power of superintendent (examinations and investigations under Article 24)",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/2404",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 2404 (revision from 2014-09-22)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-2404.md"
+    },
+    {
+      "id": "ny-isc-307",
+      "title": "NY Insurance Law § 307 — Annual statements; audited financial statements",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/307",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 307 (revision from 2014-09-22)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-307.md"
+    }
+  ]
+}

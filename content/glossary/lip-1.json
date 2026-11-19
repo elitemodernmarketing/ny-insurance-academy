@@ -1,0 +1,379 @@
+{
+  "sectionId": "lip",
+  "terms": [
+    {
+      "id": "term-life-insurance",
+      "term": "Term Life Insurance",
+      "aliases": ["Term Insurance", "Temporary Life Insurance"],
+      "sectionId": "lip",
+      "outlineIds": ["lip.1"],
+      "formal": "Life insurance that provides a death benefit only if the insured dies within a stated period (the term); it generally builds no cash value and expires without value at the end of the term.",
+      "plain": "You buy protection for a set number of years, such as 10, 20 or 30. If the insured dies during that time, the beneficiary is paid. If the insured outlives the term, coverage simply ends.",
+      "simpler": "Like renting an apartment instead of buying a house: you get full use of it while you pay, but you build no ownership (equity) along the way.",
+      "examples": [
+        "Lena, 32, buys a 20-year, $500,000 term policy to protect her family while her children are young.",
+        "Carlos's 10-year term policy expires on his 55th birthday; because he is still alive, no benefit is paid and the coverage ends."
+      ],
+      "examTip": "Term = temporary protection, pure insurance, no cash value, lowest initial premium for the most coverage. If a question mentions cash value, loans or nonforfeiture values, it is not plain term.",
+      "misconception": "Term insurance is not 'wasted money' when the insured survives — the policyowner paid for protection during the term, just as with car insurance when there is no accident.",
+      "related": ["level-term", "decreasing-term", "renewable-term", "convertible-term", "whole-life-insurance", "face-amount"],
+      "confusedWith": ["whole-life-insurance"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which feature best describes term life insurance?",
+        "choices": [
+          "Temporary protection for a stated period with no cash value",
+          "Lifetime protection with a guaranteed cash value",
+          "Flexible premiums and an adjustable death benefit",
+          "Payment of the death benefit only after both of two insureds die"
+        ],
+        "answerIndex": 0,
+        "explanation": "Term insurance covers a set period and is pure protection with no cash value. Lifetime coverage with cash value is whole life; flexible premiums describe universal life; paying after two deaths is survivorship life."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "level-term",
+      "term": "Level Term",
+      "aliases": ["Level Premium Term"],
+      "sectionId": "lip",
+      "outlineIds": ["lip.1.1", "lip.1.1.3"],
+      "formal": "Term life insurance whose face amount stays the same throughout the term; in level premium term, the premium also stays the same for the entire term period.",
+      "plain": "The death benefit never changes during the term. With level premium term, the bill also stays the same every year of that term — for example, the same premium for all 20 years of a 20-year policy.",
+      "simpler": "A fixed-price subscription: same coverage, same price, for a set number of years.",
+      "examples": [
+        "Priya buys a 30-year level premium term policy for $750,000; her death benefit and her premium are the same in year 1 and year 30.",
+        "Owen's 10-year level term policy pays $250,000 whether he dies in year 2 or year 9."
+      ],
+      "examTip": "'Level' describes the face amount (and, for level premium term, the premium). Contrast with decreasing term, where the face amount shrinks over time.",
+      "misconception": "A level premium does not mean the cost of insurance is the same each year; the insurer averages the rising cost over the term, so early premiums are higher than the pure one-year cost and later ones are lower.",
+      "related": ["term-life-insurance", "decreasing-term", "renewable-term", "face-amount"],
+      "confusedWith": ["decreasing-term"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Under a 20-year level premium term policy, what happens to the death benefit and premium during the 20 years?",
+        "choices": [
+          "Both stay the same",
+          "The death benefit decreases while the premium stays the same",
+          "The death benefit stays the same while the premium rises each year",
+          "Both increase each year with the insured's age"
+        ],
+        "answerIndex": 0,
+        "explanation": "Level premium term keeps both the face amount and the premium level for the entire term. A shrinking benefit is decreasing term; a premium that rises yearly describes annually renewable term."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "decreasing-term",
+      "term": "Decreasing Term",
+      "aliases": ["Mortgage Protection Insurance"],
+      "sectionId": "lip",
+      "outlineIds": ["lip.1"],
+      "formal": "Term life insurance whose face amount declines on a schedule (for example, monthly or annually) over the policy term, usually while the premium remains level.",
+      "plain": "The death benefit starts high and shrinks over time, often to match a debt such as a mortgage that is being paid down. At the end of the term the benefit reaches zero.",
+      "simpler": "Like an umbrella that gets a little smaller each year because the storm you are protecting against (your debt) is also getting smaller.",
+      "examples": [
+        "The Nguyens buy a 30-year decreasing term policy that starts at $400,000 and declines roughly in step with their mortgage balance.",
+        "A small-business owner buys a 5-year decreasing term policy to cover an equipment loan that will be paid off in 5 years."
+      ],
+      "examTip": "Decreasing term = level premium, decreasing face amount. It is the classic fit for mortgage protection and is the usual form of credit life insurance.",
+      "misconception": "The premium does not drop as the benefit drops; in most decreasing term policies the premium stays level.",
+      "related": ["term-life-insurance", "level-term", "credit-life-insurance", "face-amount"],
+      "confusedWith": ["level-term"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A homeowner wants life coverage that shrinks as her mortgage balance is paid down. Which policy fits best?",
+        "choices": ["Decreasing term", "Level term", "Single-premium whole life", "Survivorship life"],
+        "answerIndex": 0,
+        "explanation": "Decreasing term's face amount declines over the term, matching a declining debt such as a mortgage. Level term keeps the benefit constant; single-premium whole life and survivorship life are permanent coverage, not matched to a declining debt."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "renewable-term",
+      "term": "Renewable Term",
+      "aliases": ["Annually Renewable Term", "ART", "Yearly Renewable Term"],
+      "sectionId": "lip",
+      "outlineIds": ["lip.1.1.1"],
+      "formal": "Term life insurance that gives the policyowner the right to renew coverage for another term at the end of each term without providing evidence of insurability, with the premium recalculated at the insured's attained age at each renewal.",
+      "plain": "When the term ends, you can keep the same type of coverage going for another term without a medical exam. The catch: the premium goes up at each renewal because the insured is older.",
+      "simpler": "Like a lease with an automatic renewal option — the landlord must let you stay, but the rent goes up each time you renew.",
+      "examples": [
+        "Hana's 10-year renewable term policy ends at age 45; she renews for another 10 years even though she was recently diagnosed with diabetes, and pays a higher premium based on age 45.",
+        "An annually renewable term (ART) policy renews every year, with a slightly higher premium each year."
+      ],
+      "examTip": "Renewable = same TERM coverage continued, no proof of insurability, premium based on attained age. Policies typically set a maximum age beyond which renewal is no longer allowed.",
+      "misconception": "Renewal does not change the policy into permanent insurance — that is conversion. Renewal also does not lock in the original premium.",
+      "related": ["term-life-insurance", "convertible-term", "level-term"],
+      "confusedWith": ["convertible-term"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "What is the main benefit of a renewable provision in a term policy?",
+        "choices": [
+          "Coverage can be continued for another term without evidence of insurability",
+          "The policy can be exchanged for whole life without evidence of insurability",
+          "The premium stays the same after each renewal",
+          "The policy builds cash value at each renewal"
+        ],
+        "answerIndex": 0,
+        "explanation": "Renewability continues term coverage without proof of insurability. Exchanging for whole life is conversion; renewal premiums rise with attained age; renewed term still has no cash value."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "convertible-term",
+      "term": "Convertible Term",
+      "aliases": ["Conversion Option"],
+      "sectionId": "lip",
+      "outlineIds": ["lip.1.1.2"],
+      "formal": "Term life insurance that gives the policyowner the right to exchange the term policy for a permanent (cash value) policy within a stated period without providing evidence of insurability.",
+      "plain": "You can swap your term policy for permanent coverage such as whole life without a medical exam. Your health at the time of the swap does not matter.",
+      "simpler": "Like renting a home with a guaranteed option to buy it later, even if your credit score has dropped.",
+      "examples": [
+        "Marcus converts his 20-year term policy to whole life in year 12 after a heart attack; the insurer cannot ask for new medical evidence.",
+        "Ella converts at age 50 and pays the whole life premium for age 50 (attained-age conversion)."
+      ],
+      "examTip": "Convertible = change TYPE (term to permanent), no evidence of insurability. With attained-age conversion the new premium is based on current age; with original-age (retroactive) conversion the premium is based on the original issue age, usually with a catch-up payment.",
+      "misconception": "Conversion does not require proving good health — that is the whole point. The new permanent premium is still higher than the term premium.",
+      "related": ["term-life-insurance", "renewable-term", "whole-life-insurance", "conversion-privilege"],
+      "confusedWith": ["renewable-term"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A term policyowner wants to switch to whole life but recently developed a serious illness. Which policy feature lets her do this without new medical underwriting?",
+        "choices": ["Conversion privilege", "Renewal privilege", "Guaranteed insurability rider", "Reinstatement provision"],
+        "answerIndex": 0,
+        "explanation": "A conversion privilege allows exchanging term for permanent coverage without evidence of insurability. Renewal continues term coverage; a guaranteed insurability rider lets you buy more coverage at set dates; reinstatement revives a lapsed policy and usually requires evidence of insurability."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "whole-life-insurance",
+      "term": "Whole Life Insurance",
+      "aliases": ["Ordinary Life", "Permanent Whole Life"],
+      "sectionId": "lip",
+      "outlineIds": ["lip.2"],
+      "formal": "Permanent life insurance that provides a level death benefit for the insured's entire life (to the policy's maturity age), with fixed premiums and a guaranteed, growing cash value.",
+      "plain": "Coverage lasts for life as long as premiums are paid as scheduled. Premiums are level, and part of each premium builds a cash value that the policyowner can borrow against or take if the policy is surrendered.",
+      "simpler": "Like buying a house instead of renting: it costs more each month, but you build equity (cash value) and you never have to move out.",
+      "examples": [
+        "Grace buys a $200,000 whole life policy at age 35 with a level annual premium; by age 65 the policy has built up a significant guaranteed cash value.",
+        "If the insured is still living when the policy reaches its maturity age, the policy endows and pays the face amount to the policyowner."
+      ],
+      "examTip": "Whole life = level premium, level death benefit, guaranteed cash value, lifetime protection. The three premium-payment forms are straight (continuous) life, limited-payment life and single-premium life.",
+      "misconception": "The cash value is not paid in addition to the face amount at death in a standard whole life policy; the beneficiary receives the face amount (less any loans).",
+      "related": ["straight-life", "limited-payment-life", "single-premium-whole-life", "cash-value", "permanent-life-insurance", "term-life-insurance"],
+      "confusedWith": ["universal-life", "term-life-insurance"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which feature is guaranteed in a traditional whole life policy?",
+        "choices": [
+          "A cash value that grows on a schedule stated in the policy",
+          "A premium that the policyowner can skip or change at will",
+          "A death benefit that rises with stock market performance",
+          "Coverage that ends at a stated age such as 65"
+        ],
+        "answerIndex": 0,
+        "explanation": "Whole life guarantees cash values, level premiums and lifetime protection. Flexible premiums describe universal life; market-linked benefits describe variable products; coverage ending at a stated age describes term."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "straight-life",
+      "term": "Straight (Continuous Premium) Whole Life",
+      "aliases": ["Straight Life", "Continuous Premium Whole Life", "Ordinary Whole Life"],
+      "sectionId": "lip",
+      "outlineIds": ["lip.2.1"],
+      "formal": "Whole life insurance on which level premiums are payable for the insured's entire lifetime (until death or the policy's maturity age).",
+      "plain": "You pay the same premium every year for as long as the insured lives (or until the policy matures). Because payments are spread over the longest possible period, each premium is the lowest of the whole life types.",
+      "simpler": "Paying for the house with the longest possible mortgage — the smallest monthly payment, but you keep paying for a very long time.",
+      "examples": [
+        "Diego, 30, buys straight whole life and expects to pay the same annual premium until he dies or the policy matures.",
+        "Compared with a 20-pay life policy of the same face amount, Ana's straight life policy has a lower annual premium but builds cash value more slowly."
+      ],
+      "examTip": "Of the whole life forms, straight life has the LOWEST annual premium and the SLOWEST cash value growth; single premium has the highest outlay and the fastest cash value.",
+      "misconception": "'Straight life' whole life insurance is not the same as a 'straight life annuity'. One is a life insurance premium schedule; the other is an annuity payout option with no refund.",
+      "related": ["whole-life-insurance", "limited-payment-life", "single-premium-whole-life", "cash-value"],
+      "confusedWith": ["straight-life-annuity", "limited-payment-life"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which type of whole life has the lowest annual premium for the same face amount?",
+        "choices": ["Straight (continuous premium) life", "20-pay life", "Life paid-up at 65", "Single-premium whole life"],
+        "answerIndex": 0,
+        "explanation": "Straight life spreads premiums over the insured's whole lifetime, so each annual premium is smallest. Limited-pay forms (20-pay, paid-up at 65) compress payments into fewer years; single premium requires one large payment."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "limited-payment-life",
+      "term": "Limited-Payment Whole Life",
+      "aliases": ["Limited Pay Life", "20-Pay Life", "Life Paid-Up at 65"],
+      "sectionId": "lip",
+      "outlineIds": ["lip.2.2"],
+      "formal": "Whole life insurance on which premiums are payable only for a limited number of years (such as 10 or 20) or until a stated age (such as 65), after which the policy is fully paid up while coverage continues for life.",
+      "plain": "You pay for a shorter period — for example, 20 years or until age 65 — and then you owe nothing more, but the coverage lasts for life. Because you pay over fewer years, each premium is higher and cash value grows faster than in straight life.",
+      "simpler": "Paying off a house with a shorter mortgage: bigger payments, but you finish sooner and still own it forever.",
+      "examples": [
+        "Sofia, 40, buys a 20-pay whole life policy; at 60 she stops paying premiums and remains covered for life.",
+        "A 'life paid-up at 65' policy lets Ben finish paying premiums before he retires."
+      ],
+      "examTip": "The shorter the premium-paying period, the higher each premium and the faster the cash value grows. The death benefit still lasts for the insured's whole life.",
+      "misconception": "A 20-pay life policy does not end after 20 years; only the premium payments end. Coverage continues for life.",
+      "related": ["whole-life-insurance", "straight-life", "single-premium-whole-life", "cash-value"],
+      "confusedWith": ["term-life-insurance", "straight-life"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Kevin owns a 20-pay whole life policy that he bought at age 35. What happens when he reaches 55 and has paid all 20 premiums?",
+        "choices": [
+          "The policy is paid up and coverage continues for life",
+          "The policy expires and pays its cash value",
+          "The policy converts to term insurance",
+          "Kevin must begin paying a higher premium"
+        ],
+        "answerIndex": 0,
+        "explanation": "A limited-payment policy is fully paid up after the stated premium period, and the whole life coverage continues. It does not expire, convert to term or require further premiums."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "single-premium-whole-life",
+      "term": "Single-Premium Whole Life",
+      "aliases": ["SPWL", "Single-Premium Life"],
+      "sectionId": "lip",
+      "outlineIds": ["lip.2.3"],
+      "formal": "Whole life insurance purchased with one lump-sum premium at issue, which makes the policy fully paid up immediately and creates an immediate cash value.",
+      "plain": "You pay for the whole policy at once. Coverage lasts for life with no further premiums, and the policy has cash value right away.",
+      "simpler": "Buying a house with cash — no monthly payments ever, and you have equity on day one.",
+      "examples": [
+        "After receiving an inheritance, Ruth pays a single premium of $60,000 for a paid-up whole life policy.",
+        "Because the single premium funds the policy immediately, Ruth's policy shows a cash value from the first year."
+      ],
+      "examTip": "Single premium = highest initial outlay, immediate cash value, fully paid up at issue. Under federal tax rules such a heavily funded policy is generally a modified endowment contract (MEC), which changes the tax treatment of loans and withdrawals (taught in the tax section).",
+      "misconception": "A single-premium policy is still life insurance with a death benefit for life; it is not an annuity, even though it is funded with a lump sum.",
+      "related": ["whole-life-insurance", "limited-payment-life", "straight-life", "cash-value", "modified-endowment-contract"],
+      "confusedWith": ["immediate-annuity"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which whole life policy creates an immediate cash value and requires no further premiums after issue?",
+        "choices": ["Single-premium whole life", "Straight life", "20-pay life", "Annually renewable term"],
+        "answerIndex": 0,
+        "explanation": "Single-premium whole life is paid up at issue with one premium and has immediate cash value. Straight life and 20-pay require ongoing premiums; annually renewable term has no cash value."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "cash-value",
+      "term": "Cash Value",
+      "aliases": ["Cash Surrender Value (general)", "Living Benefit"],
+      "sectionId": "lip",
+      "outlineIds": ["lip.2", "lip.3.1"],
+      "formal": "The savings element of a permanent life insurance policy that accumulates over time, belongs to the policyowner and can be accessed through policy loans, withdrawals (in some policies) or surrender.",
+      "plain": "Permanent policies build up a pool of money inside the policy. The policyowner can borrow against it or cash in the policy to receive it. Term insurance has none.",
+      "simpler": "Like the equity you build in a house as you pay the mortgage — money that belongs to you while you are still alive.",
+      "examples": [
+        "After 15 years, Ivan's whole life policy has $28,000 of cash value; he takes a policy loan against it to help pay tuition.",
+        "When Jen surrenders her policy, she receives the cash value minus any outstanding loans, and the coverage ends."
+      ],
+      "examTip": "Cash value is a policyowner right (a 'living benefit'). It powers nonforfeiture options, policy loans and surrender. If the policy is surrendered, coverage ends.",
+      "misconception": "In a traditional whole life policy, the beneficiary does not receive the cash value on top of the face amount; the cash value is part of the face amount paid at death.",
+      "related": ["whole-life-insurance", "universal-life", "cash-surrender-value", "policy-loan", "nonforfeiture-options"],
+      "confusedWith": ["face-amount", "cash-surrender-value"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Who owns and may access the cash value of a whole life policy while the insured is alive?",
+        "choices": ["The policyowner", "The primary beneficiary", "The insurer's agent", "The contingent beneficiary"],
+        "answerIndex": 0,
+        "explanation": "Cash value belongs to the policyowner, who may borrow against it or surrender the policy. Beneficiaries have no rights to it during the insured's lifetime (unless they are also the owner); the agent has none."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "face-amount",
+      "term": "Face Amount",
+      "aliases": ["Face Value", "Death Benefit", "Specified Amount"],
+      "sectionId": "lip",
+      "outlineIds": ["lip.1", "lip.2"],
+      "formal": "The amount of insurance stated on the face (first page) of a life insurance policy, payable on the insured's death or at maturity, before adjustments for loans, unpaid premiums or added benefits.",
+      "plain": "The basic amount of coverage — the number you think of when someone says 'a $250,000 policy'. Outstanding loans are subtracted, and riders or dividends can add to it.",
+      "simpler": "The headline number on the policy, like the price tag on an item before taxes and discounts.",
+      "examples": [
+        "Lucy's policy shows a face amount of $300,000; she has a $10,000 outstanding loan, so her beneficiary would receive $290,000 (plus any interest adjustments).",
+        "In a universal life policy, the face amount is often called the 'specified amount'."
+      ],
+      "examTip": "Face amount ≠ cash value. Face amount is what the policy promises at death; cash value is the savings element available to the owner while living.",
+      "misconception": "The face amount is not always exactly what the beneficiary receives; loans, unpaid premiums and riders can change the final payout.",
+      "related": ["cash-value", "term-life-insurance", "whole-life-insurance"],
+      "confusedWith": ["cash-value"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "What is the face amount of a life insurance policy?",
+        "choices": [
+          "The basic death benefit stated in the policy",
+          "The amount the owner receives on surrender",
+          "The total of all premiums paid",
+          "The policy's guaranteed interest rate"
+        ],
+        "answerIndex": 0,
+        "explanation": "The face amount is the stated death benefit. The amount received on surrender is the cash surrender value; total premiums and interest rates are different concepts."
+      },
+      "sources": ["general-insurance-principles"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "reviewed", "method": "general-principle", "checkedOn": "2026-11-19" }
+    }
+  ],
+  "comparisons": [
+    {
+      "a": "renewable-term",
+      "b": "convertible-term",
+      "keyDifference": "Renewal continues the SAME term coverage for another period; conversion EXCHANGES term for permanent coverage. Neither requires evidence of insurability.",
+      "rows": [
+        { "aspect": "What changes", "a": "The term period is extended; coverage stays term", "b": "The policy type changes from term to permanent (e.g. whole life)" },
+        { "aspect": "Evidence of insurability", "a": "Not required", "b": "Not required" },
+        { "aspect": "Premium", "a": "Rises at each renewal based on attained age", "b": "Permanent-policy premium, based on attained age (or original age with a catch-up payment)" },
+        { "aspect": "Cash value afterward", "a": "None", "b": "Yes, the new permanent policy builds cash value" }
+      ],
+      "memoryTip": "RE-new = RE-peat the term. CON-vert = CHANGE the type."
+    },
+    {
+      "a": "level-term",
+      "b": "decreasing-term",
+      "keyDifference": "Level term keeps the face amount constant for the whole term; decreasing term's face amount declines on a schedule, usually with a level premium.",
+      "rows": [
+        { "aspect": "Death benefit", "a": "Same throughout the term", "b": "Declines over the term" },
+        { "aspect": "Premium", "a": "Level (for level premium term)", "b": "Usually level" },
+        { "aspect": "Typical use", "a": "Income replacement for a set number of years", "b": "Covering a debt that is being paid down, such as a mortgage" }
+      ],
+      "memoryTip": "Level stays level; decreasing tracks a shrinking debt."
+    }
+  ]
+}

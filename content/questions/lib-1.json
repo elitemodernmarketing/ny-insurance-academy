@@ -1,0 +1,1096 @@
+{
+  "sectionId": "lib",
+  "questions": [
+    {
+      "id": "lib-q001",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.1"
+      ],
+      "concepts": [
+        "insurable-interest"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "scenario": "While married, Rosa bought a life policy on her husband, Ken, with his written consent and named herself owner and beneficiary. Three years later they divorced, Rosa kept paying the premiums, and Ken later died.",
+      "stem": "Under New York's insurable interest rule, how is the death claim handled?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Denied, because Rosa had no insurable interest at Ken's death",
+          "rationale": "Incorrect: New York tests insurable interest when the contract is made, not at the time of death."
+        },
+        {
+          "id": "b",
+          "text": "Paid to Rosa, because insurable interest existed when the policy was issued",
+          "rationale": "Correct: § 3205(b)(2) requires the payee to have an insurable interest 'at the time when such contract is made.' The later divorce does not void the policy."
+        },
+        {
+          "id": "c",
+          "text": "Paid to Ken's estate, because divorce automatically removes a spouse as beneficiary",
+          "rationale": "Incorrect: the question is about insurable interest; the policy's validity does not depend on the marriage continuing."
+        },
+        {
+          "id": "d",
+          "text": "Rescinded, with premiums refunded to Rosa",
+          "rationale": "Incorrect: there is no basis for rescission; the interest existed at inception."
+        }
+      ],
+      "correct": "b",
+      "explanation": "NY Insurance Law § 3205(b)(2) bars procuring insurance on another person unless the benefits are payable to the insured, the insured's personal representatives, or a person having an insurable interest 'at the time when such contract is made.' Rosa, as a spouse, had an insurable interest based on love and affection when the policy was issued, so the policy remains valid after the divorce.",
+      "memoryTip": "Insurable interest is checked at the START, not at the END.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Insurable interest is tested at inception",
+            "anyOf": [
+              "time the contract",
+              "inception",
+              "when the policy was issued",
+              "when issued",
+              "at the start",
+              "contract is made"
+            ]
+          },
+          {
+            "label": "Spouse had interest from love and affection",
+            "anyOf": [
+              "spouse",
+              "love and affection",
+              "married"
+            ]
+          },
+          {
+            "label": "Divorce does not void the policy",
+            "anyOf": [
+              "divorce does not",
+              "still valid",
+              "remains valid",
+              "paid"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3205"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q002",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.1"
+      ],
+      "concepts": [
+        "insurable-interest",
+        "stoli"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "ny-law",
+        "negative-wording"
+      ],
+      "stem": "Under NY Insurance Law § 3205, each of the following would have an insurable interest in the proposed insured EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A corporation insuring its top sales executive for key person needs",
+          "rationale": "Not the answer: the corporation has a lawful and substantial economic interest in the executive's continued life."
+        },
+        {
+          "id": "b",
+          "text": "A woman insuring the life of her adult brother",
+          "rationale": "Not the answer: persons closely related by blood have an interest engendered by love and affection."
+        },
+        {
+          "id": "c",
+          "text": "An unrelated investor who profits only from the insured's death",
+          "rationale": "Correct: an interest that arises only from, or is enhanced by, the insured's death is expressly excluded from the definition of insurable interest."
+        },
+        {
+          "id": "d",
+          "text": "A business partner funding a buy-sell agreement on a co-owner",
+          "rationale": "Not the answer: a partner has a substantial economic interest in the other partner's continued life."
+        }
+      ],
+      "correct": "c",
+      "explanation": "§ 3205(a)(1) defines insurable interest as love and affection for close relatives, and for others 'a lawful and substantial economic interest in the continued life, health or bodily safety of the person insured, as distinguished from an interest which would arise only by, or would be enhanced in value by, the death' of the insured. A stranger who benefits only from death has no insurable interest — the core problem with stranger-originated life insurance (STOLI).",
+      "memoryTip": "Insurable interest = better off if they LIVE.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3205"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q003",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.1"
+      ],
+      "concepts": [
+        "insurable-interest"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "scenario": "Jamal, an adult, wants to buy an individual life policy on his wife, Tara. Tara is traveling and has not signed the application or any written consent.",
+      "stem": "Under NY Insurance Law § 3205(c), may the policy be issued without Tara's written consent?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No; every adult insured must consent in writing to individual coverage",
+          "rationale": "Incorrect: § 3205(c) lists exceptions to the consent requirement, and one applies here."
+        },
+        {
+          "id": "b",
+          "text": "No; only a court-appointed guardian may consent for an absent spouse",
+          "rationale": "Incorrect: no guardian is involved; the statute directly allows this transaction."
+        },
+        {
+          "id": "c",
+          "text": "Yes, but only if Jamal names Tara's estate as beneficiary",
+          "rationale": "Incorrect: the spousal exception has no such beneficiary condition."
+        },
+        {
+          "id": "d",
+          "text": "Yes; a wife or husband may effectuate insurance on the other",
+          "rationale": "Correct: § 3205(c)(1) states 'A wife or a husband may effectuate insurance upon the person of the other' without the general written-consent requirement."
+        }
+      ],
+      "correct": "d",
+      "explanation": "§ 3205(c) generally requires that the insured apply for or consent in writing to individual insurance on his or her life, but lists exceptions: (1) a wife or husband may effectuate insurance on the other, and (2) certain persons may insure a minor under age 14 years and 6 months within the limits of § 3207. Group life is also outside the consent requirement.",
+      "memoryTip": "Spouses are the built-in exception to written consent.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "General rule requires written consent",
+            "anyOf": [
+              "consent in writing",
+              "written consent",
+              "consent"
+            ]
+          },
+          {
+            "label": "Spousal exception applies",
+            "anyOf": [
+              "spouse",
+              "husband",
+              "wife",
+              "exception"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3205"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q004",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.2.5",
+        "lib.2.2"
+      ],
+      "concepts": [
+        "estate-conservation",
+        "estate-creation"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Helen, 68, owns several rental buildings and a family business. She worries that her children would have to sell a building quickly at a discount to pay debts and settlement costs at her death.",
+      "stem": "Which personal use of life insurance best describes Helen's goal?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Estate conservation",
+          "rationale": "Correct: Helen already has a sizable estate and wants to preserve it from forced sale to pay costs at death."
+        },
+        {
+          "id": "b",
+          "text": "Estate creation",
+          "rationale": "Incorrect: estate creation builds an estate that does not yet exist; Helen's estate already exists."
+        },
+        {
+          "id": "c",
+          "text": "Cash accumulation",
+          "rationale": "Incorrect: cash accumulation is a living benefit of cash value growth, not protection of an estate at death."
+        },
+        {
+          "id": "d",
+          "text": "Key person protection",
+          "rationale": "Incorrect: key person coverage protects a business against the loss of an employee; here the concern is Helen's personal estate."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Estate conservation uses life insurance proceeds to pay debts, taxes and settlement costs so that existing estate assets do not have to be sold. Estate creation, by contrast, uses the face amount to create an estate for someone who has not yet accumulated one.",
+      "memoryTip": "Conserve what you HAVE; create what you DON'T.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Estate already exists",
+            "anyOf": [
+              "existing",
+              "already",
+              "preserve"
+            ]
+          },
+          {
+            "label": "Avoids forced sale of assets",
+            "anyOf": [
+              "sell",
+              "forced sale",
+              "liquidity",
+              "keep the"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q005",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.2.4"
+      ],
+      "concepts": [
+        "liquidity"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Life insurance's ability to provide cash promptly at death so assets need not be sold is called:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Indemnity",
+          "rationale": "Incorrect: indemnity means restoring someone to their prior financial position; life policies are valued contracts, not indemnity contracts."
+        },
+        {
+          "id": "b",
+          "text": "Liquidity",
+          "rationale": "Correct: liquidity is ready access to cash."
+        },
+        {
+          "id": "c",
+          "text": "Mortality",
+          "rationale": "Incorrect: mortality is the expected rate of death used in pricing."
+        },
+        {
+          "id": "d",
+          "text": "Adverse selection",
+          "rationale": "Incorrect: adverse selection is the tendency of higher risks to seek coverage."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Life insurance pays cash at death (and permanent policies offer access to cash values during life). This liquidity lets survivors pay expenses without selling illiquid assets such as real estate or a business interest.",
+      "memoryTip": "Liquid = cash that flows when needed.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q006",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.2.3"
+      ],
+      "concepts": [
+        "permanent-life-insurance",
+        "cash-value"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [],
+      "stem": "Which personal use of life insurance is available ONLY through policies that build cash value?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Survivor protection",
+          "rationale": "Incorrect: term and permanent policies both provide survivor protection through the death benefit."
+        },
+        {
+          "id": "b",
+          "text": "Estate creation",
+          "rationale": "Incorrect: any policy with a death benefit, including term, creates an immediate estate."
+        },
+        {
+          "id": "c",
+          "text": "Cash accumulation",
+          "rationale": "Correct: only permanent (cash value) policies accumulate funds the owner can borrow or withdraw while living."
+        },
+        {
+          "id": "d",
+          "text": "Paying final expenses",
+          "rationale": "Incorrect: any death benefit, including term, can pay final expenses."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Cash accumulation is a living benefit of permanent life insurance: cash value grows inside the policy and can be accessed through loans, withdrawals or surrender. Term insurance generally has no cash value, so it provides only death-benefit uses.",
+      "memoryTip": "Cash accumulation needs a policy with a CASH value.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q007",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.3.1"
+      ],
+      "concepts": [
+        "human-life-value",
+        "needs-approach"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [],
+      "stem": "A producer estimates a client's future earnings, subtracts what the client spends on himself, and discounts the result to present value. Which method is this?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Needs approach",
+          "rationale": "Incorrect: the needs approach totals the family's lump-sum and income needs and subtracts existing resources."
+        },
+        {
+          "id": "b",
+          "text": "Estate conservation analysis",
+          "rationale": "Incorrect: estate conservation is a use of insurance, not a method for sizing coverage from earnings."
+        },
+        {
+          "id": "c",
+          "text": "Premium mode analysis",
+          "rationale": "Incorrect: premium mode refers to how often premiums are paid."
+        },
+        {
+          "id": "d",
+          "text": "Human life value approach",
+          "rationale": "Correct: human life value measures the present value of the insured's future earnings available to the family."
+        }
+      ],
+      "correct": "d",
+      "explanation": "The human life value approach treats the insured as an economic asset: future earnings minus self-maintenance costs, over the remaining working years, discounted to today's dollars. The needs approach instead starts from the survivors' specific needs.",
+      "memoryTip": "Human life VALUE = value of future paychecks.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q008",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.3.2.2",
+        "lib.3.2"
+      ],
+      "concepts": [
+        "needs-approach"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Using the needs approach, a producer lists these needs for a client's family if he dies: final expenses $15,000; mortgage payoff $185,000; college fund $80,000; emergency fund $20,000. The client has $40,000 of group life insurance and $10,000 in savings.",
+      "stem": "How much additional life insurance is needed to cover the family's lump-sum needs?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$250,000",
+          "rationale": "Correct: total lump-sum needs of $300,000 minus $50,000 of existing resources = $250,000."
+        },
+        {
+          "id": "b",
+          "text": "$300,000",
+          "rationale": "Incorrect: this is total needs before subtracting existing coverage and savings."
+        },
+        {
+          "id": "c",
+          "text": "$260,000",
+          "rationale": "Incorrect: this subtracts only the group life insurance, not the savings."
+        },
+        {
+          "id": "d",
+          "text": "$350,000",
+          "rationale": "Incorrect: existing resources must be subtracted, not added."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Lump-sum needs: $15,000 + $185,000 + $80,000 + $20,000 = $300,000. Existing resources: $40,000 + $10,000 = $50,000. Additional insurance needed: $300,000 − $50,000 = $250,000 (before considering any ongoing income needs).",
+      "memoryTip": "Needs minus haves equals buys.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Total lump-sum needs of $300,000",
+            "anyOf": [
+              "300,000",
+              "300000",
+              "$300"
+            ]
+          },
+          {
+            "label": "Subtract existing resources of $50,000",
+            "anyOf": [
+              "50,000",
+              "50000",
+              "subtract"
+            ]
+          },
+          {
+            "label": "Result $250,000",
+            "anyOf": [
+              "250,000",
+              "250000",
+              "$250"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q009",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.3.2.3",
+        "lib.3.2.1"
+      ],
+      "concepts": [
+        "needs-approach",
+        "survivor-protection"
+      ],
+      "difficulty": 3,
+      "style": "concept",
+      "tags": [
+        "tricky"
+      ],
+      "stem": "In planning income needs under the needs approach, the period after the youngest child becomes independent and before the surviving spouse's retirement income begins is commonly called the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Readjustment period",
+          "rationale": "Incorrect: the readjustment period is the short period right after death when the family adjusts to the loss at roughly its prior income level."
+        },
+        {
+          "id": "b",
+          "text": "Blackout period",
+          "rationale": "Correct: the blackout period is the gap when dependency-related income has ended but retirement income has not yet started."
+        },
+        {
+          "id": "c",
+          "text": "Elimination period",
+          "rationale": "Incorrect: an elimination period is a waiting period in disability and long-term care policies."
+        },
+        {
+          "id": "d",
+          "text": "Grace period",
+          "rationale": "Incorrect: the grace period is the time after a premium due date during which coverage stays in force."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Income needs are usually planned in stages: a readjustment period right after death, a dependency period while children are at home, and the blackout period between the end of dependency and the start of the surviving spouse's retirement income, followed by retirement income needs.",
+      "memoryTip": "Blackout = the lights go out between kids leaving and retirement checks arriving.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q010",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.4.1"
+      ],
+      "concepts": [
+        "buy-sell-agreement"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Delta Corp. has three shareholders. The corporation buys one life policy on each shareholder, pays the premiums and is the beneficiary. When a shareholder dies, Delta Corp. will use the proceeds to buy the deceased shareholder's stock from the estate.",
+      "stem": "What type of arrangement is this?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cross-purchase (owner-to-owner) buy-sell plan",
+          "rationale": "Incorrect: in a cross-purchase plan the owners buy policies on each other personally."
+        },
+        {
+          "id": "b",
+          "text": "Key person (key employee) plan",
+          "rationale": "Incorrect: key person coverage replaces lost value of an employee; it does not buy out an ownership interest."
+        },
+        {
+          "id": "c",
+          "text": "Entity (stock redemption) buy-sell plan",
+          "rationale": "Correct: the business owns the policies, is the beneficiary and buys back the deceased owner's interest."
+        },
+        {
+          "id": "d",
+          "text": "Split-dollar (cost-sharing) plan",
+          "rationale": "Incorrect: split-dollar is an arrangement to share policy costs and benefits, not a buyout of an owner's shares."
+        }
+      ],
+      "correct": "c",
+      "explanation": "In an entity (stock redemption) plan, the business is the owner, premium payer and beneficiary of a policy on each owner, so it needs one policy per owner. In a cross-purchase plan, each owner insures every other owner.",
+      "memoryTip": "Entity = the company buys; cross = the owners criss-cross.",
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q011",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.4.2"
+      ],
+      "concepts": [
+        "key-person-insurance"
+      ],
+      "difficulty": 1,
+      "style": "application",
+      "tags": [],
+      "scenario": "A small engineering firm's lead designer brings in most of its contracts. The owners worry that profits would collapse for a year or more if she died.",
+      "stem": "Which coverage directly addresses the firm's concern?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A cross-purchase buy-sell plan among the owners",
+          "rationale": "Incorrect: a buy-sell plan transfers an owner's interest at death; the designer's loss of productivity is not an ownership transfer."
+        },
+        {
+          "id": "b",
+          "text": "Group term life for all employees",
+          "rationale": "Incorrect: group life benefits employees' families, not the firm."
+        },
+        {
+          "id": "c",
+          "text": "A conditional receipt",
+          "rationale": "Incorrect: a conditional receipt is a temporary coverage document given at application, not a business planning tool."
+        },
+        {
+          "id": "d",
+          "text": "Key person life insurance owned by the firm",
+          "rationale": "Correct: key person coverage pays the business when a valuable employee dies, offsetting lost profits and replacement costs."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Key person insurance is applied for, owned and paid for by the business, which is also the beneficiary. The proceeds help the business survive the loss of a person whose skills or relationships generate significant revenue.",
+      "memoryTip": "Key person: the company insures its MVP and keeps the check.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q012",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.5.1"
+      ],
+      "concepts": [
+        "group-life-insurance",
+        "master-policy",
+        "certificate-of-coverage"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [],
+      "stem": "How does group life insurance typically differ from individual life insurance?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A master policy is issued to the sponsor and the group is underwritten",
+          "rationale": "Correct: group coverage is issued under one master contract, with certificates for members, and is usually written without individual evidence of insurability."
+        },
+        {
+          "id": "b",
+          "text": "Each member owns a separate policy and must take a medical exam",
+          "rationale": "Incorrect: that describes individual coverage."
+        },
+        {
+          "id": "c",
+          "text": "Group coverage always builds cash value for each covered member",
+          "rationale": "Incorrect: most group life is annually renewable term with no cash value."
+        },
+        {
+          "id": "d",
+          "text": "Group coverage can never be converted when employment ends",
+          "rationale": "Incorrect: group life generally includes a conversion privilege to an individual policy when coverage ends."
+        }
+      ],
+      "correct": "a",
+      "explanation": "In group life, the policyowner is the employer or other group sponsor holding a master policy; insured members receive certificates of coverage. Underwriting focuses on the group as a whole, so individual medical evidence is usually not required for basic amounts. Individual policies are owned by the individual and individually underwritten.",
+      "memoryTip": "Group = one master policy, many certificates.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q013",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.5.2"
+      ],
+      "concepts": [
+        "term-life-insurance",
+        "permanent-life-insurance",
+        "survivor-protection"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Mika, 31, and her husband have two toddlers and a new mortgage. They calculate a need for $750,000 of coverage until the children finish school, but their budget for premiums is tight.",
+      "stem": "Which type of coverage most efficiently meets this need?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Single premium whole life paid in one lump sum",
+          "rationale": "Incorrect: a large single premium is unaffordable on a tight budget."
+        },
+        {
+          "id": "b",
+          "text": "Level term life covering the dependency years",
+          "rationale": "Correct: term provides the most death benefit per premium dollar for a temporary need."
+        },
+        {
+          "id": "c",
+          "text": "Limited-pay whole life fully paid up in 10 years",
+          "rationale": "Incorrect: compressing permanent premiums into 10 years makes them even higher."
+        },
+        {
+          "id": "d",
+          "text": "An immediate annuity bought with their savings",
+          "rationale": "Incorrect: an annuity provides income, not a death benefit to protect dependents."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Term insurance provides pure protection for a set period at the lowest initial premium per $1,000 of coverage, making it well suited to large, temporary needs such as raising children and paying a mortgage. Permanent insurance costs more because it lasts for life and builds cash value.",
+      "memoryTip": "Big need + small budget + temporary need = term.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Need is large and temporary",
+            "anyOf": [
+              "temporary",
+              "until the children",
+              "period",
+              "dependency"
+            ]
+          },
+          {
+            "label": "Term gives the most coverage per premium dollar",
+            "anyOf": [
+              "lowest premium",
+              "cheapest",
+              "affordable",
+              "most coverage",
+              "budget"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q014",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.5.3"
+      ],
+      "concepts": [
+        "participating-policy",
+        "nonparticipating-policy",
+        "mutual-insurer"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Policies that pay dividends to policyowners are typically issued by which type of insurer?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Reinsurers",
+          "rationale": "Incorrect: reinsurers insure other insurers, not individual policyowners."
+        },
+        {
+          "id": "b",
+          "text": "Stock insurers only",
+          "rationale": "Incorrect: stock insurers usually issue nonparticipating policies and pay dividends to stockholders."
+        },
+        {
+          "id": "c",
+          "text": "Mutual insurers",
+          "rationale": "Correct: mutual insurers are owned by policyowners and typically issue participating policies."
+        },
+        {
+          "id": "d",
+          "text": "Unauthorized insurers",
+          "rationale": "Incorrect: authorization status has nothing to do with participating policies."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Mutual insurers are owned by their policyowners and usually issue participating policies, returning divisible surplus as non-guaranteed dividends. Stock insurers usually issue nonparticipating policies, though they may also issue participating policies.",
+      "memoryTip": "Mutual → participating; stock → nonpar.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q015",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.5.4",
+        "lib.5.4.1"
+      ],
+      "concepts": [
+        "variable-life-insurance",
+        "separate-account"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "To sell variable life insurance, a producer generally needs:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only a life insurance license, because variable life is an insurance product",
+          "rationale": "Incorrect: variable life is also a security, so a securities registration is required."
+        },
+        {
+          "id": "b",
+          "text": "Only a FINRA securities registration, because variable life is a security",
+          "rationale": "Incorrect: it is also life insurance, so a state life insurance license is required."
+        },
+        {
+          "id": "c",
+          "text": "An insurance consultant license only",
+          "rationale": "Incorrect: a consultant license does not authorize selling securities products."
+        },
+        {
+          "id": "d",
+          "text": "Both a life insurance license and a FINRA securities registration",
+          "rationale": "Correct: variable products are regulated as both insurance and securities."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Variable life places cash values in a separate account invested in subaccounts, so the policyowner bears investment risk. It is regulated as a security by the SEC and FINRA (formerly the NASD) and as insurance by the state insurance department. The seller needs a state life license plus an appropriate securities registration, and the buyer must receive a prospectus.",
+      "memoryTip": "Variable = double-regulated: insurance + securities.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q016",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.6.1"
+      ],
+      "concepts": [
+        "mortality",
+        "premium"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "If an insurer expects to earn a higher investment return on premiums it holds, its premiums will tend to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Decrease",
+          "rationale": "Correct: higher expected interest earnings mean less premium is needed to fund future benefits."
+        },
+        {
+          "id": "b",
+          "text": "Increase",
+          "rationale": "Incorrect: increases come from higher mortality or expense assumptions."
+        },
+        {
+          "id": "c",
+          "text": "Stay the same, since only mortality affects premiums",
+          "rationale": "Incorrect: interest and expense are also primary premium factors."
+        },
+        {
+          "id": "d",
+          "text": "Become non-guaranteed",
+          "rationale": "Incorrect: investment assumptions do not change whether a premium is guaranteed."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Premiums are based on three primary factors: mortality, interest (investment return) and expense. Higher mortality or expense raises premiums; a higher assumed interest rate lowers them because invested premiums earn more toward future claims.",
+      "memoryTip": "More interest earned = less premium charged.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lib-q017",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "lib",
+      "outlineIds": [
+        "lib.6.2"
+      ],
+      "concepts": [
+        "premium-mode"
+      ],
+      "difficulty": 1,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "A policy's annual premium is $1,000. The insurer offers a monthly mode of $88 per month.",
+      "stem": "How much more does the policyowner pay per year by choosing the monthly mode?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$12",
+          "rationale": "Incorrect: this is not the difference between $1,056 and $1,000."
+        },
+        {
+          "id": "b",
+          "text": "$56",
+          "rationale": "Correct: $88 × 12 = $1,056; $1,056 − $1,000 = $56."
+        },
+        {
+          "id": "c",
+          "text": "$88",
+          "rationale": "Incorrect: this is one monthly payment, not the annual difference."
+        },
+        {
+          "id": "d",
+          "text": "Nothing; all modes cost the same per year",
+          "rationale": "Incorrect: modes more frequent than annual cost more in total."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Monthly payments total $88 × 12 = $1,056, which is $56 more than the $1,000 annual premium. More frequent modes cost more because of added billing expense and the insurer's lost investment earnings on premiums not yet received.",
+      "memoryTip": "Pay more often, pay more overall.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

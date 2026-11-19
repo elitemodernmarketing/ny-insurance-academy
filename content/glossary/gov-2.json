@@ -1,0 +1,213 @@
+{
+  "sectionId": "gov",
+  "terms": [
+    {
+      "id": "child-health-plus",
+      "term": "Child Health Plus",
+      "aliases": ["CHP", "CHPlus"],
+      "sectionId": "gov",
+      "outlineIds": ["gov.4.2", "gov.4.2.1"],
+      "formal": "New York State's health insurance program for children. Depending on family income, a child may be eligible for either Children's Medicaid or Child Health Plus; both are delivered through participating health plans across the state. Since January 1, 2014, applications are made through NY State of Health, the official health plan marketplace.",
+      "plain": "Child Health Plus is New York's health insurance for kids. Children whose family income is too high for Children's Medicaid can get coverage through CHP, which is offered by private health plans that contract with the state. Families apply through NY State of Health.",
+      "simpler": "Medicaid for kids if income is low; Child Health Plus for kids if income is a bit higher.",
+      "examples": [
+        "The Ortiz family earns too much for their children to qualify for Children's Medicaid, so they enroll the kids in Child Health Plus through NY State of Health.",
+        "A single parent with very low income applies through NY State of Health and learns her son qualifies for Children's Medicaid instead of CHP."
+      ],
+      "examTip": "CHP is New York's children's health insurance program and sits beside Children's Medicaid: family income decides which one a child gets. Applications go through NY State of Health (the marketplace).",
+      "misconception": "Child Health Plus is not the same as Children's Medicaid; it covers children whose family income places them outside Medicaid, and families apply through the NY State of Health marketplace rather than a separate paper application.",
+      "related": ["medicaid", "health-insurance-exchange"],
+      "confusedWith": ["medicaid"],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "In New York, what mainly decides whether a child is enrolled in Children's Medicaid or Child Health Plus?",
+        "choices": ["Family income", "The child's health status", "The parent's employer size", "Whether the child has a preexisting condition"],
+        "answerIndex": 0,
+        "explanation": "NY DOH: 'Depending on your family's income, your child may be eligible to join either Children's Medicaid or Child Health Plus.' Health status and preexisting conditions do not determine which program applies."
+      },
+      "sources": ["ny-doh-child-health-plus"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "federal-source", "checkedOn": "2026-11-19", "notes": "Verified against NY DOH program page (agency guidance). Age limit and premium schedule not verified and intentionally omitted." }
+    },
+    {
+      "id": "hsa",
+      "term": "Health Savings Account (HSA)",
+      "aliases": ["HSA"],
+      "sectionId": "gov",
+      "outlineIds": ["gov.6", "gov.6.1", "gov.6.2", "gov.6.3"],
+      "formal": "A tax-exempt trust or custodial account set up with a qualified HSA trustee to pay or reimburse qualified medical expenses. To contribute, a person must be covered by a high-deductible health plan (HDHP), have no other disqualifying health coverage, not be enrolled in Medicare, and not be claimable as a dependent. Contributions are deductible (or excluded if made by the employer), earnings grow tax-free, qualified distributions are tax-free, and unused balances carry over from year to year.",
+      "plain": "An HSA is your own savings account for medical bills that comes with a high-deductible health plan. Money goes in tax-free, grows tax-free, and comes out tax-free for medical expenses — and whatever you don't spend stays in the account year after year, even if you change jobs.",
+      "simpler": "A medical piggy bank you own, paired with a high-deductible plan, with triple tax advantages.",
+      "examples": [
+        "Nora has HDHP coverage through work. She and her employer both contribute to her HSA, and she uses it to pay her deductible tax-free.",
+        "Ben doesn't use all his HSA money this year; the balance simply carries over and keeps earning tax-free interest."
+      ],
+      "examTip": "HSA eligibility = HDHP + no other disqualifying coverage + not on Medicare + not someone's dependent. The account belongs to the individual (portable), balances roll over, and anyone (employee, employer, family) may contribute for an eligible person. Contribution limits are indexed annually — know the concept, not the dollar figure.",
+      "misconception": "An HSA is not 'use it or lose it' — that's an FSA. HSA money rolls over indefinitely and stays with you when you leave your job.",
+      "related": ["high-deductible-health-plan", "fsa", "deductible"],
+      "confusedWith": ["fsa"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which of the following would make a person INELIGIBLE to contribute to an HSA?",
+        "choices": ["Being enrolled in Medicare", "Having HDHP coverage through an employer", "Being self-employed", "Having an employer that also contributes to the HSA"],
+        "answerIndex": 0,
+        "explanation": "IRS Pub. 969 lists 'You aren't enrolled in Medicare' as an HSA eligibility requirement. HDHP coverage is required, self-employed people can have HSAs, and employers may contribute."
+      },
+      "sources": ["fed-irs-p969"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "federal-source", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "fsa",
+      "term": "Flexible Spending Account (FSA)",
+      "aliases": ["health FSA", "flexible spending arrangement"],
+      "sectionId": "gov",
+      "outlineIds": ["gov.6", "gov.6.1", "gov.6.2", "gov.6.3"],
+      "formal": "An employer-established benefit plan, often offered through a cafeteria plan, that reimburses employees for qualified medical expenses using pre-tax salary reductions (and any employer contributions). The employee elects an annual contribution at the start of the plan year. Health FSAs are generally 'use-it-or-lose-it,' although a plan may provide a grace period of up to 2½ months or a limited carryover. Self-employed persons are not eligible.",
+      "plain": "An FSA lets you set aside part of your paycheck, before taxes, to pay medical expenses. You choose the amount at the start of the year. Whatever you don't use by the deadline is generally lost, unless your employer's plan offers a short grace period or a small carryover.",
+      "simpler": "Pre-tax money from your paycheck for medical bills — spend it or lose it.",
+      "examples": [
+        "Kim elects $1,200 for her FSA; her employer deducts $50 from each of her 24 paychecks before taxes, and she uses the money for copayments and glasses.",
+        "Juan has money left in his FSA at year-end; his employer's plan offers a 2½-month grace period, so he uses it for a dental visit in February."
+      ],
+      "examTip": "FSA = employer-established, funded mainly by employee salary reduction, use-it-or-lose-it (possible grace period up to 2½ months OR a carryover), no HDHP required, not available to the self-employed. Contrast with HSA = individually owned, HDHP required, full rollover.",
+      "misconception": "An FSA does not belong to the employee the way an HSA does; unused funds are generally forfeited and the account doesn't follow the employee to a new job.",
+      "related": ["hsa", "high-deductible-health-plan"],
+      "confusedWith": ["hsa"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which feature is characteristic of a health FSA but NOT of an HSA?",
+        "choices": ["Unused funds are generally forfeited at the end of the plan year", "Coverage under a high-deductible health plan is required", "Unused balances roll over indefinitely", "The account is owned by the individual and is fully portable"],
+        "answerIndex": 0,
+        "explanation": "FSAs are generally use-it-or-lose-it. HDHP coverage, unlimited rollover and individual ownership are HSA features."
+      },
+      "sources": ["fed-irs-p969"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "federal-source", "checkedOn": "2026-11-19" }
+    },
+    {
+      "id": "high-deductible-health-plan",
+      "term": "High-Deductible Health Plan (HDHP)",
+      "aliases": ["HDHP", "HSA-qualified plan"],
+      "sectionId": "gov",
+      "outlineIds": ["gov.6.2"],
+      "formal": "A health plan with a higher annual deductible than typical plans and a cap on annual out-of-pocket expenses, both within limits set and adjusted annually by the IRS. HDHP coverage is a requirement for contributing to a health savings account; preventive care may be covered before the deductible is met.",
+      "plain": "An HDHP is a health plan with a big deductible — you pay more of your routine costs yourself — in exchange for lower premiums. It is the kind of plan you must have to put money into an HSA.",
+      "simpler": "Lower premium, higher deductible — and the ticket to opening an HSA.",
+      "examples": [
+        "Alicia picks her employer's HDHP because the premium is lower; she opens an HSA to save for the higher deductible.",
+        "Under Tim's HDHP, his annual physical is covered as preventive care even though he hasn't met his deductible yet."
+      ],
+      "examTip": "HDHP + HSA go together. The IRS sets minimum deductibles and maximum out-of-pocket limits and adjusts them each year — test questions focus on the concept, not the dollar figures.",
+      "misconception": "Any plan with a 'high' deductible is not automatically an HSA-qualified HDHP; it must meet the IRS's specific requirements.",
+      "related": ["hsa", "deductible", "out-of-pocket-maximum"],
+      "confusedWith": ["catastrophic-plan"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Coverage under which type of health plan is required to contribute to a health savings account?",
+        "choices": ["A high-deductible health plan", "A Medicare Advantage plan", "A health FSA", "A hospital indemnity plan"],
+        "answerIndex": 0,
+        "explanation": "IRS Pub. 969 requires HDHP coverage on the first day of the month to qualify for HSA contributions."
+      },
+      "sources": ["fed-irs-p969"],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "federal-source", "checkedOn": "2026-11-19", "notes": "HDHP-required-for-HSA verified; descriptive HDHP features taught generally without figures." }
+    },
+    {
+      "id": "healthy-new-york",
+      "term": "Healthy NY",
+      "aliases": ["Healthy New York"],
+      "sectionId": "gov",
+      "outlineIds": ["gov.7"],
+      "formal": "A New York program under Insurance Law § 4326 that makes standardized health insurance contracts available to qualifying small employers, to encourage small employers to offer coverage. A qualifying small employer has not more than 50 employees, had no group health insurance covering employees during the prior 12 months, and has at least 30 percent of its employees earning at or below an annually adjusted wage level. The contract must insure at least 50 percent of the employees and must be offered to all lower-wage employees.",
+      "plain": "Healthy NY helps small New York businesses that haven't been offering health insurance start doing so, using a standardized, more affordable plan. It is aimed at small employers with a significant share of lower-wage workers.",
+      "simpler": "A state-designed, budget-friendly health plan to help small businesses start covering their workers.",
+      "examples": [
+        "A 12-person bakery that hasn't offered group health insurance in the past year, and where many workers earn modest wages, may qualify to buy a Healthy NY contract.",
+        "A company that dropped its group health plan only six months ago would not yet qualify, because it had group coverage within the prior 12 months."
+      ],
+      "examTip": "Healthy NY (Ins. Law § 4326) = standardized benefits, qualifying SMALL employers (50 or fewer employees), no group health coverage in the prior 12 months, a minimum share of lower-wage workers, and at least 50% of employees must be insured. The wage threshold is indexed annually, so avoid memorizing a dollar figure.",
+      "misconception": "Healthy NY is not Medicaid or a free government plan; it is private health insurance with standardized benefits, bought by qualifying small employers.",
+      "related": ["small-employer", "community-rating", "medicaid"],
+      "confusedWith": ["child-health-plus"],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which employer is most likely to qualify for a Healthy NY contract?",
+        "choices": ["A 20-employee business with no group health coverage in the past 12 months and many lower-wage workers", "A 400-employee manufacturer with a self-funded plan", "A small firm that has had group health insurance continuously for five years", "An individual who is already enrolled in Medicare"],
+        "answerIndex": 0,
+        "explanation": "Ins. Law § 4326 targets employers with not more than 50 employees, no group health coverage in the prior 12 months, and at least 30% lower-wage employees."
+      },
+      "sources": ["ny-isc-4326"],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": { "status": "verified", "method": "statute-text", "checkedOn": "2026-11-19", "notes": "Statute extraction was partial; individual/sole-proprietor eligibility and employer contribution rules not verified and omitted." }
+    }
+  ],
+  "comparisons": [
+    {
+      "a": "medicare-part-a",
+      "b": "medicare-part-b",
+      "keyDifference": "Part A is hospital insurance (inpatient, short-term SNF, hospice, some home health); Part B is medical insurance (doctors, outpatient care, supplies, preventive services).",
+      "rows": [
+        { "aspect": "Nickname", "a": "Hospital Insurance", "b": "Medical Insurance" },
+        { "aspect": "Main services", "a": "Inpatient hospital, skilled nursing facility (short-term), hospice, some home health", "b": "Physicians, outpatient care, durable medical equipment, preventive services" },
+        { "aspect": "How cost sharing is measured", "a": "Per benefit period (deductible per benefit period; SNF day limits)", "b": "Annual deductible, then generally 20% coinsurance" },
+        { "aspect": "Premium", "a": "Premium-free for most people with enough work history", "b": "Monthly premium for nearly everyone" }
+      ],
+      "memoryTip": "A = Admitted (hospital); B = Bills from the doctor."
+    },
+    {
+      "a": "medicare",
+      "b": "medicaid",
+      "keyDifference": "Medicare is federal health insurance based mainly on age (65+), disability or ESRD; Medicaid is a joint federal-state program based on financial need, and it — not Medicare — pays for long-term custodial care for those who qualify.",
+      "rows": [
+        { "aspect": "Who runs it", "a": "Federal government (CMS)", "b": "Each state, within federal rules (joint federal-state funding)" },
+        { "aspect": "Eligibility basis", "a": "Age 65+, certain disabilities, ESRD", "b": "Limited income and resources" },
+        { "aspect": "Long-term custodial care", "a": "Not covered", "b": "Covered for those who qualify" },
+        { "aspect": "Who pays first when both apply", "a": "Medicare generally pays first", "b": "Medicaid never pays first for Medicare-covered services" }
+      ],
+      "memoryTip": "MediCARE = for the aged you CARE for; MedicAID = AID for those in need."
+    },
+    {
+      "a": "fsa",
+      "b": "hsa",
+      "keyDifference": "An FSA is an employer-established, use-it-or-lose-it account funded by salary reduction; an HSA is an individually owned, portable account that requires HDHP coverage and rolls over year to year.",
+      "rows": [
+        { "aspect": "Who owns it", "a": "Employer plan", "b": "The individual (portable)" },
+        { "aspect": "Plan required", "a": "None (employer-established benefit)", "b": "High-deductible health plan" },
+        { "aspect": "Unused funds", "a": "Generally forfeited (optional grace period up to 2½ months or limited carryover)", "b": "Carry over indefinitely" },
+        { "aspect": "Self-employed", "a": "Not eligible", "b": "May establish and contribute if otherwise eligible" },
+        { "aspect": "Medicare enrollees", "a": "Not addressed by the HSA rule", "b": "Cannot contribute once enrolled in Medicare" }
+      ],
+      "memoryTip": "FSA = Forfeit if Spent not Annually; HSA = Holds Savings Always."
+    },
+    {
+      "a": "workers-compensation",
+      "b": "disability-benefits-law",
+      "keyDifference": "Workers' comp covers job-related injury and illness; NY DBL covers injury and illness NOT arising out of employment.",
+      "rows": [
+        { "aspect": "Cause of disability", "a": "Arises out of and in the course of employment", "b": "Not work-related (off the job)" },
+        { "aspect": "Benefits", "a": "Medical care, wage replacement, rehabilitation, death benefits", "b": "Cash wage-replacement only: one-half of average weekly wage, up to a statutory maximum" },
+        { "aspect": "Waiting period / duration", "a": "Set by WC law", "b": "Begins the 8th day; maximum 26 weeks in 52 consecutive weeks" },
+        { "aspect": "Typical exam cue", "a": "'Injured at work'", "b": "'Injured skiing on the weekend'" }
+      ],
+      "memoryTip": "Work hurt → Workers' comp. Weekend hurt → DBL."
+    },
+    {
+      "a": "social-security-disability",
+      "b": "disability-benefits-law",
+      "keyDifference": "SSDI is a federal benefit for long-term total disability (12+ months or expected death) after a five-month wait; NY DBL is short-term, state-mandated off-the-job disability coverage starting on the 8th day and lasting up to 26 weeks.",
+      "rows": [
+        { "aspect": "Sponsor", "a": "Federal (Social Security Administration)", "b": "New York State law; employer-provided coverage" },
+        { "aspect": "Definition of disability", "a": "Can't do substantial gainful work — past work or any other work — for 12+ months or condition expected to result in death", "b": "Can't perform the regular duties of the job (or other work the employer offers at regular wages)" },
+        { "aspect": "Waiting period", "a": "Five full months", "b": "Seven days (benefits begin the 8th day)" },
+        { "aspect": "Duration", "a": "While disabled; converts to retirement benefits at full retirement age", "b": "Maximum 26 weeks in 52 consecutive weeks" }
+      ],
+      "memoryTip": "SSDI = Severe and Sustained; DBL = Do-it-Briefly (26 weeks)."
+    }
+  ]
+}

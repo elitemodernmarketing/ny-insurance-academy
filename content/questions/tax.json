@@ -1,0 +1,916 @@
+{
+  "sectionId": "tax",
+  "questions": [
+    {
+      "id": "tax-q001",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "tax",
+      "outlineIds": [
+        "tax.1.2"
+      ],
+      "concepts": [
+        "death-benefit-taxation"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "How are lump-sum life insurance death proceeds generally treated for the beneficiary's federal income tax?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Excluded from gross income",
+          "rationale": "Correct: IRC § 101(a)(1) excludes death proceeds paid by reason of the insured's death."
+        },
+        {
+          "id": "b",
+          "text": "Taxable as ordinary income",
+          "rationale": "Incorrect: death proceeds are generally excluded from income."
+        },
+        {
+          "id": "c",
+          "text": "Taxable only above the premiums paid",
+          "rationale": "Incorrect: that rule describes surrenders by the policyowner, not death proceeds."
+        },
+        {
+          "id": "d",
+          "text": "Taxable as a long-term capital gain",
+          "rationale": "Incorrect: death proceeds are not a capital gain; they are generally excluded."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Under IRC § 101(a)(1), gross income does not include amounts received under a life insurance contract, whether in a single sum or otherwise, if paid by reason of the insured's death. The IRS confirms beneficiaries generally don't have to report them.",
+      "memoryTip": "Death benefit = tax-free to the beneficiary.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-26-101",
+        "fed-irs-faq-life-proceeds"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "tax-q002",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "tax",
+      "outlineIds": [
+        "tax.1.2.1"
+      ],
+      "concepts": [
+        "death-benefit-taxation",
+        "fixed-period-option"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Nora is the beneficiary of a $200,000 policy. She elects a fixed-period settlement option paying her about $22,000 a year for 10 years.",
+      "stem": "How are the installment payments taxed?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fully excluded from income, because death proceeds are always tax-free",
+          "rationale": "Incorrect: interest earned while the insurer holds the proceeds is taxable."
+        },
+        {
+          "id": "b",
+          "text": "Each payment's principal portion is excluded; its interest portion is taxable",
+          "rationale": "Correct: § 101(d) prorates the excludable amount over the payments and includes the excess in income."
+        },
+        {
+          "id": "c",
+          "text": "Fully taxable as income, because she did not take a lump-sum payment",
+          "rationale": "Incorrect: choosing installments does not make the principal taxable."
+        },
+        {
+          "id": "d",
+          "text": "Only the payments received after she recovers the full $200,000 are taxable",
+          "rationale": "Incorrect: the interest portion is taxed as it is received, not deferred."
+        }
+      ],
+      "correct": "b",
+      "explanation": "IRC § 101(d)(1) prorates the amount held by the insurer over the payment period; that prorated amount is excluded each year and anything above it (the interest earned) is included in gross income.",
+      "memoryTip": "Settlement options: principal free, interest taxed.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Principal portion is excluded",
+            "anyOf": [
+              "principal",
+              "face amount",
+              "excluded",
+              "tax-free"
+            ]
+          },
+          {
+            "label": "Interest portion is taxable",
+            "anyOf": [
+              "interest",
+              "earnings",
+              "taxable"
+            ]
+          }
+        ]
+      },
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-26-101"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "tax-q003",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "tax",
+      "outlineIds": [
+        "tax.1.2.1"
+      ],
+      "concepts": [
+        "interest-only-option",
+        "death-benefit-taxation"
+      ],
+      "difficulty": 2,
+      "style": "application",
+      "tags": [],
+      "stem": "A beneficiary leaves $150,000 of death proceeds with the insurer under the interest-only option. Which amount is taxable each year?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The full $150,000 in the first year",
+          "rationale": "Incorrect: the proceeds themselves remain excludable."
+        },
+        {
+          "id": "b",
+          "text": "None of it, since the money came from life insurance",
+          "rationale": "Incorrect: interest on proceeds is taxable."
+        },
+        {
+          "id": "c",
+          "text": "The interest paid or credited to her",
+          "rationale": "Correct: § 101(c) includes interest on excluded proceeds held by the insurer."
+        },
+        {
+          "id": "d",
+          "text": "Only interest above the premiums the insured paid",
+          "rationale": "Incorrect: there is no premium offset for a beneficiary's interest income."
+        }
+      ],
+      "correct": "c",
+      "explanation": "IRC § 101(c): if an excluded amount is held under an agreement to pay interest on it, the interest payments are included in gross income. The IRS FAQ likewise says any interest a beneficiary receives is taxable.",
+      "memoryTip": "Leave it with the insurer → the interest is income.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-26-101",
+        "fed-irs-faq-life-proceeds"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "tax-q004",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "tax",
+      "outlineIds": [
+        "tax.1.2"
+      ],
+      "concepts": [
+        "death-benefit-taxation",
+        "life-settlement"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Pat, an investor unrelated to the insured, buys an existing $500,000 policy from its owner for $60,000 and then pays $40,000 of premiums before the insured dies. Assume no statutory exception applies.",
+      "stem": "What is the general federal income tax result when Pat receives the $500,000 death benefit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "All $500,000 is excluded because it is paid as a death benefit",
+          "rationale": "Incorrect: a transfer for valuable consideration limits the exclusion (unless an exception applies)."
+        },
+        {
+          "id": "b",
+          "text": "All $500,000 is taxable because Pat is unrelated to the insured",
+          "rationale": "Incorrect: Pat may exclude the consideration paid plus later premiums."
+        },
+        {
+          "id": "c",
+          "text": "Only interest that the insurer adds to the proceeds is taxable",
+          "rationale": "Incorrect: that describes proceeds held by the insurer, not a transfer for value."
+        },
+        {
+          "id": "d",
+          "text": "Exclusion generally limited to the $100,000 paid in; the rest is taxable",
+          "rationale": "Correct: § 101(a)(2) limits the exclusion after a transfer for valuable consideration."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Under the transfer-for-value rule in IRC § 101(a)(2), when a policy is transferred for valuable consideration, the exclusion is limited to the consideration paid plus premiums and certain other amounts later paid by the transferee, subject to statutory exceptions. Here $500,000 − ($60,000 + $40,000) = $400,000 would generally be taxable.",
+      "memoryTip": "Bought a policy? You only get back tax-free what you paid in.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-26-101",
+        "fed-irs-faq-life-proceeds"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      },
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Transfer for value limits the exclusion",
+            "anyOf": [
+              "transfer for value",
+              "valuable consideration",
+              "sold",
+              "bought"
+            ]
+          },
+          {
+            "label": "Excluded amount = price paid plus later premiums",
+            "anyOf": [
+              "60,000",
+              "40,000",
+              "100,000",
+              "consideration plus premiums"
+            ]
+          },
+          {
+            "label": "Remainder is taxable",
+            "anyOf": [
+              "400,000",
+              "taxable"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "tax-q005",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "tax",
+      "outlineIds": [
+        "tax.1.1.4"
+      ],
+      "concepts": [
+        "cost-basis"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Leah paid $40,000 in premiums on a whole life policy and received $5,000 of dividends in cash over the years. She surrenders the policy for its $50,000 cash value.",
+      "stem": "What amount must Leah include in income?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$15,000",
+          "rationale": "Correct: basis = $40,000 − $5,000 = $35,000; $50,000 − $35,000 = $15,000."
+        },
+        {
+          "id": "b",
+          "text": "$10,000",
+          "rationale": "Incorrect: this ignores the dividends that reduce basis."
+        },
+        {
+          "id": "c",
+          "text": "$50,000",
+          "rationale": "Incorrect: only the amount above basis is taxable."
+        },
+        {
+          "id": "d",
+          "text": "$0",
+          "rationale": "Incorrect: proceeds above cost are taxable on surrender."
+        }
+      ],
+      "correct": "a",
+      "explanation": "IRS Pub. 525: if you surrender a life policy for cash, include in income any proceeds above your cost; cost is generally total premiums less refunded premiums, rebates, dividends or unrepaid loans not included in income. Basis = $40,000 − $5,000 = $35,000. Taxable gain = $50,000 − $35,000 = $15,000.",
+      "memoryTip": "Surrender gain = cash out − (premiums − dividends).",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Basis is premiums minus dividends",
+            "anyOf": [
+              "35,000",
+              "35000",
+              "minus dividends",
+              "less dividends"
+            ]
+          },
+          {
+            "label": "Gain is cash value minus basis",
+            "anyOf": [
+              "15,000",
+              "15000"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-irs-pub525-life"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "tax-q006",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "tax",
+      "outlineIds": [
+        "tax.1.1.2"
+      ],
+      "concepts": [
+        "dividend",
+        "dividend-options",
+        "participating-policy"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "Which statement about participating policy dividends is correct for federal income tax?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Dividends used to pay premiums are taxable income",
+          "rationale": "Incorrect: the IRS says dividends the insurer keeps to pay premiums are not taxable."
+        },
+        {
+          "id": "b",
+          "text": "Dividends are taxable as qualified stock dividends",
+          "rationale": "Incorrect: policy dividends are a return of premium, not stock dividends."
+        },
+        {
+          "id": "c",
+          "text": "Interest credited on dividends left with the insurer is taxable",
+          "rationale": "Correct: interest on dividend accumulations is taxable interest income."
+        },
+        {
+          "id": "d",
+          "text": "Dividends are always taxable when the policy is a nonparticipating policy",
+          "rationale": "Incorrect: nonparticipating policies pay no dividends."
+        }
+      ],
+      "correct": "c",
+      "explanation": "IRS Pub. 550: insurance policy dividends the insurer keeps and uses to pay premiums are not taxable, but interest paid or credited on dividends left with the insurer is taxable interest. Dividends distributed on a contract other than a MEC are a partial return of premiums paid.",
+      "memoryTip": "The dividend is your money back; the interest on it is income.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-irs-pub550-ins-dividends"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "tax-q007",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "tax",
+      "outlineIds": [
+        "tax.1.1.1"
+      ],
+      "concepts": [
+        "cash-value",
+        "cost-basis"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "When is growth in a life policy's cash value generally taxed?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Every year as interest or dividends are credited to the policy",
+          "rationale": "Incorrect: the IRS taxes surrender proceeds above cost when the owner receives them, not the annual buildup."
+        },
+        {
+          "id": "b",
+          "text": "Never, under any circumstances, while the owner is alive",
+          "rationale": "Incorrect: proceeds above cost are taxable on surrender."
+        },
+        {
+          "id": "c",
+          "text": "When received, such as on surrender, to the extent above cost",
+          "rationale": "Correct: the owner includes in income proceeds that are more than cost when the policy is surrendered."
+        },
+        {
+          "id": "d",
+          "text": "Only when the insured dies and the beneficiary is paid",
+          "rationale": "Incorrect: death proceeds are generally excluded from income."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Cash value growth inside a life policy is not reported as it accumulates. IRS Pub. 525 says that on surrender for cash the owner includes in income any proceeds above the cost of the policy; this tax-deferred buildup is a key living benefit of permanent insurance.",
+      "memoryTip": "Growth grows tax-deferred; tax comes when you cash out above cost.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-irs-pub525-life"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "tax-q008",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "tax",
+      "outlineIds": [
+        "tax.3"
+      ],
+      "concepts": [
+        "section-1035-exchange"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "negative-wording"
+      ],
+      "stem": "Under IRC § 1035, each of the following exchanges can be made without recognizing gain EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Life insurance for an annuity",
+          "rationale": "Not the answer: allowed under § 1035(a)(1)."
+        },
+        {
+          "id": "b",
+          "text": "Annuity for another annuity",
+          "rationale": "Not the answer: allowed under § 1035(a)(3)."
+        },
+        {
+          "id": "c",
+          "text": "Life insurance for another life insurance policy",
+          "rationale": "Not the answer: allowed under § 1035(a)(1)."
+        },
+        {
+          "id": "d",
+          "text": "Annuity for a life insurance policy",
+          "rationale": "Correct: § 1035(a)(3) allows an annuity to be exchanged only for an annuity or a qualified LTC contract."
+        }
+      ],
+      "correct": "d",
+      "explanation": "IRC § 1035(a): life insurance may be exchanged for life insurance, an endowment, an annuity or a qualified long-term care contract; an annuity may be exchanged only for an annuity or qualified LTC contract. Moving from an annuity to life insurance is not a tax-free exchange.",
+      "memoryTip": "Life can step down to an annuity; an annuity can't step up to life.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-26-1035"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "tax-q009",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "tax",
+      "outlineIds": [
+        "tax.1.1.3",
+        "tax.1"
+      ],
+      "concepts": [
+        "modified-endowment-contract"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "A life policy entered into after June 21, 1988 becomes a modified endowment contract (MEC) when:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Payments in the first 7 years exceed the 7-pay limit",
+          "rationale": "Correct: failing the 7-pay test makes the contract a MEC under § 7702A."
+        },
+        {
+          "id": "b",
+          "text": "The owner takes any policy loan from the cash value",
+          "rationale": "Incorrect: a loan does not by itself make a policy a MEC."
+        },
+        {
+          "id": "c",
+          "text": "The insured reaches age 59½ while the policy is in force",
+          "rationale": "Incorrect: age has nothing to do with MEC status."
+        },
+        {
+          "id": "d",
+          "text": "Dividends are left with the insurer to accumulate at interest",
+          "rationale": "Incorrect: dividend options do not create MEC status."
+        }
+      ],
+      "correct": "a",
+      "explanation": "IRC § 7702A(b): a contract fails the 7-pay test if the accumulated amount paid at any time during the first 7 contract years exceeds the net level premiums that would have been paid by then for a policy paid up after 7 level annual premiums. A contract received in exchange for a MEC is also a MEC.",
+      "memoryTip": "Too much, too fast (in 7 years) = MEC.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-26-7702a"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "tax-q010",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "tax",
+      "outlineIds": [
+        "tax.3",
+        "tax.1"
+      ],
+      "concepts": [
+        "modified-endowment-contract",
+        "section-1035-exchange"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Omar owns a single-premium life policy that is a modified endowment contract. He completes a § 1035 exchange into a new flexible-premium universal life policy.",
+      "stem": "What is the status of the new policy?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is a new contract, so it starts fresh as a non-MEC",
+          "rationale": "Incorrect: § 7702A(a)(2) carries MEC status through exchanges."
+        },
+        {
+          "id": "b",
+          "text": "It is also a MEC, because it was received in exchange for a MEC",
+          "rationale": "Correct: a contract received in exchange for a MEC is itself a MEC."
+        },
+        {
+          "id": "c",
+          "text": "It is a MEC only if the new premium is larger",
+          "rationale": "Incorrect: the exchange rule applies regardless of premium size."
+        },
+        {
+          "id": "d",
+          "text": "It is no longer life insurance for tax purposes",
+          "rationale": "Incorrect: a MEC still meets the § 7702 definition of life insurance."
+        }
+      ],
+      "correct": "b",
+      "explanation": "IRC § 7702A(a) defines a MEC as a contract that fails the 7-pay test or 'which is received in exchange for a contract described in paragraph (1) or this paragraph.' Once a MEC, always a MEC — even after a § 1035 exchange.",
+      "memoryTip": "MEC status travels with the money.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-26-7702a",
+        "fed-usc-26-1035"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      },
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "MEC status carries over in an exchange",
+            "anyOf": [
+              "exchange",
+              "carries",
+              "always a MEC",
+              "received in exchange"
+            ]
+          },
+          {
+            "label": "New policy is a MEC",
+            "anyOf": [
+              "MEC",
+              "modified endowment"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "tax-q011",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "tax",
+      "outlineIds": [
+        "tax.2"
+      ],
+      "concepts": [
+        "rollover"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "math"
+      ],
+      "scenario": "Kayla leaves her job and takes a $20,000 eligible rollover distribution from her 401(k), paid to her. The plan withholds 20%.",
+      "stem": "To roll over the full $20,000 and avoid tax on any of it, what must Kayla do?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Deposit the $16,000 received; the withheld $4,000 counts automatically",
+          "rationale": "Incorrect: the withheld amount is not rolled over unless she replaces it."
+        },
+        {
+          "id": "b",
+          "text": "Deposit $20,000 within 60 days, adding $4,000 of other funds",
+          "rationale": "Correct: she must replace the 20% withheld to roll over the full distribution."
+        },
+        {
+          "id": "c",
+          "text": "Deposit the $16,000 she received at any time within 12 months",
+          "rationale": "Incorrect: the deadline is 60 days, not 12 months."
+        },
+        {
+          "id": "d",
+          "text": "Ask the IRS to waive the withholding before she deposits the funds",
+          "rationale": "Incorrect: withholding is mandatory on plan distributions paid to the participant."
+        }
+      ],
+      "correct": "b",
+      "explanation": "IRS: a retirement plan distribution paid to you is subject to mandatory 20% withholding even if you intend to roll it over. You have 60 days to roll it over, and to roll over the full amount you must use other funds to make up the amount withheld. 20% of $20,000 = $4,000; $16,000 received + $4,000 other funds = $20,000.",
+      "memoryTip": "Plan check to you: 20% withheld, 60 days, make up the gap.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-irs-rollovers"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      },
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "60-day deadline",
+            "anyOf": [
+              "60 days",
+              "60-day",
+              "sixty"
+            ]
+          },
+          {
+            "label": "Make up the 20% withheld from other funds",
+            "anyOf": [
+              "4,000",
+              "other funds",
+              "make up",
+              "20%"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "tax-q012",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "tax",
+      "outlineIds": [
+        "tax.2"
+      ],
+      "concepts": [
+        "trustee-to-trustee-transfer",
+        "rollover"
+      ],
+      "difficulty": 2,
+      "style": "comparison",
+      "tags": [
+        "tricky"
+      ],
+      "stem": "Pedro already did one IRA-to-IRA rollover this year. Which way of moving another IRA to a new custodian avoids the one-rollover-per-12-months limit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Taking a check and redepositing it within 60 days",
+          "rationale": "Incorrect: that is an IRA-to-IRA rollover subject to the once-per-12-months limit."
+        },
+        {
+          "id": "b",
+          "text": "Withdrawing cash and depositing it within 30 days",
+          "rationale": "Incorrect: this is still a rollover, regardless of how fast it's done."
+        },
+        {
+          "id": "c",
+          "text": "There is no way; all IRA moves count toward the limit",
+          "rationale": "Incorrect: direct transfers are not rollovers."
+        },
+        {
+          "id": "d",
+          "text": "A direct trustee-to-trustee transfer",
+          "rationale": "Correct: the IRS says direct transfers aren't rollovers, so the one-per-year limit doesn't apply."
+        }
+      ],
+      "correct": "d",
+      "explanation": "IRS: you can make only one IRA-to-IRA rollover in any 12-month period, but the limit does not apply to trustee-to-trustee transfers to another IRA, which also avoid tax withholding.",
+      "memoryTip": "Let the trustees move it — no limit, no withholding.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-irs-rollovers"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "tax-q013",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "tax",
+      "outlineIds": [
+        "tax.1.1.3",
+        "tax.1.1"
+      ],
+      "concepts": [
+        "modified-endowment-contract",
+        "policy-loan"
+      ],
+      "difficulty": 3,
+      "style": "concept",
+      "tags": [
+        "tricky"
+      ],
+      "stem": "How are policy loans and withdrawals from a modified endowment contract generally taxed while the insured is living?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gain is taxed first, with a possible 10% additional tax before 59½",
+          "rationale": "Correct: MEC distributions, including loans, are taxed income-first and may face an additional tax before 59½."
+        },
+        {
+          "id": "b",
+          "text": "Never taxable, because the contract is still life insurance",
+          "rationale": "Incorrect: MEC status removes the favorable treatment of lifetime distributions."
+        },
+        {
+          "id": "c",
+          "text": "Taxable only after the owner's full cost basis has been recovered",
+          "rationale": "Incorrect: that cost-first ordering is the treatment for non-MEC life insurance."
+        },
+        {
+          "id": "d",
+          "text": "Taxed at long-term capital gains rates when withdrawn",
+          "rationale": "Incorrect: gains in insurance contracts are ordinary income."
+        }
+      ],
+      "correct": "a",
+      "explanation": "For a MEC, IRC § 72(e)(10) applies the income-first rule of § 72(e)(2)(B) and treats loans and pledges as distributions (§ 72(e)(4)(A)). § 72(v) adds a 10% additional tax on the includible portion unless an exception applies, such as distributions on or after age 59½, disability, or substantially equal periodic payments. Non-MEC life policies instead recover cost first (§ 72(e)(5)(C)).",
+      "memoryTip": "MEC: gain comes out first — and early withdrawals can cost an extra 10%.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-26-72",
+        "fed-usc-26-7702a"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "tax-q014",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "tax",
+      "outlineIds": [
+        "tax.1.1.3"
+      ],
+      "concepts": [
+        "policy-loan",
+        "cost-basis"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "A policyowner borrows $10,000 from the cash value of a whole life policy that is not a MEC. How is the loan generally treated for federal income tax while the policy stays in force?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is fully taxable in the year borrowed",
+          "rationale": "Incorrect: a non-MEC policy loan is generally not a taxable distribution."
+        },
+        {
+          "id": "b",
+          "text": "It is not taxable income when borrowed",
+          "rationale": "Correct: a policy loan from a non-MEC is generally not income while the policy remains in force."
+        },
+        {
+          "id": "c",
+          "text": "It is taxable to the extent it exceeds the policy's dividends",
+          "rationale": "Incorrect: no such rule exists."
+        },
+        {
+          "id": "d",
+          "text": "It is subject to a 10% additional tax",
+          "rationale": "Incorrect: the additional tax applies to certain MEC distributions, not ordinary non-MEC loans."
+        }
+      ],
+      "correct": "b",
+      "explanation": "For life insurance that is not a MEC, IRC § 72(e)(5)(C) applies the cost-first rule and expressly turns off § 72(e)(4)(A), the provision that treats loans as distributions. So a non-MEC policy loan is generally not taxable when borrowed while the policy stays in force. If the policy is later surrendered or lapses with a loan outstanding, the IRS counts unrepaid loans in figuring the gain (Pub. 525 cost definition).",
+      "memoryTip": "Non-MEC loan: borrowed, not income — until the policy ends.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-usc-26-72",
+        "fed-irs-pub525-life"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

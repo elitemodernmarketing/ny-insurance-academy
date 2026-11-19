@@ -1,0 +1,84 @@
+{
+ "sources": [
+  {
+   "id": "ny-isc-3207",
+   "title": "NY Insurance Law \u00a7 3207 \u2014 Life insurance contracts by or for the benefit of minors; on the lives of minors, limitations on amount",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/3207",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law \u00a7 3207 (revision from 2014-09-22)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-3207.md"
+  },
+  {
+   "id": "ny-isc-3220",
+   "title": "NY Insurance Law \u00a7 3220 \u2014 Group life insurance policies; standard provisions",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/3220",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law \u00a7 3220 (revision from 2014-09-22)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-3220.md"
+  },
+  {
+   "id": "ny-isc-3219",
+   "title": "NY Insurance Law \u00a7 3219 \u2014 Annuity and pure endowment contracts; standard provisions",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/3219",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law \u00a7 3219 (revision from 2014-09-22)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-3219.md"
+  },
+  {
+   "id": "ny-isc-4223",
+   "title": "NY Insurance Law \u00a7 4223 \u2014 Standard nonforfeiture law for annuities",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/4223",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law \u00a7 4223 (revision from 2023-03-10)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-4223.md"
+  },
+  {
+   "id": "ny-isc-4220",
+   "title": "NY Insurance Law \u00a7 4220 \u2014 Life insurance and annuities; nonforfeiture benefits under defaulted contracts",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/4220",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law \u00a7 4220 (revision from 2014-09-22)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-4220.md",
+   "notes": "Legacy section: applies only to contracts issued before the \u00a7 4221 operative date; modern annuity nonforfeiture rules are in \u00a7 4223."
+  },
+  {
+   "id": "ny-isc-4216",
+   "title": "NY Insurance Law \u00a7 4216 \u2014 Group life insurance; premium requirements; notice of conversion",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/4216",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law \u00a7 4216 (revision from 2019-01-11)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-4216.md"
+  },
+  {
+   "id": "fed-sec-investor-variable-annuities",
+   "title": "Variable Annuities \u2014 Investor.gov (U.S. Securities and Exchange Commission)",
+   "publisher": "U.S. Securities and Exchange Commission",
+   "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/annuities/variable-annuities",
+   "kind": "federal",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/federal/sec-investor-gov-variable-annuities.md"
+  },
+  {
+   "id": "finra-annuities",
+   "title": "Annuities \u2014 FINRA investor education",
+   "publisher": "Financial Industry Regulatory Authority (FINRA)",
+   "url": "https://www.finra.org/investors/investing/investment-products/annuities",
+   "kind": "agency-guidance",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/federal/finra-annuities.md",
+   "notes": "FINRA is the SEC-overseen self-regulatory organization for broker-dealers; states variable annuities and RILAs are securities regulated by the SEC and FINRA."
+  }
+ ]
+}

@@ -1,0 +1,2013 @@
+{
+  "sectionId": "plpc",
+  "questions": [
+    {
+      "id": "plpc-q001",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.1"
+      ],
+      "concepts": [
+        "insurable-interest"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "In property insurance, when must the insured have an insurable interest in the property?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "At the time of the loss",
+          "rationale": "Correct: property insurance indemnifies a financial loss, so the insured must have a financial interest when the loss happens."
+        },
+        {
+          "id": "b",
+          "text": "Only when the policy is first applied for",
+          "rationale": "Incorrect: that is the life insurance rule. A person who sold the house before the fire suffered no loss."
+        },
+        {
+          "id": "c",
+          "text": "Only on the policy's renewal date",
+          "rationale": "Incorrect: renewal has nothing to do with when the interest is measured."
+        },
+        {
+          "id": "d",
+          "text": "Only if the property is mortgaged",
+          "rationale": "Incorrect: owners, mortgagees, tenants and others can all have an insurable interest with or without a mortgage."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Property and casualty insurance pays for financial loss. If the insured had no financial stake in the property when it was damaged, there is no loss to indemnify. Life insurance is different: insurable interest must exist when the policy is issued.",
+      "memoryTip": "Property: interest at the LOSS. Life: interest at the START.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q002",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.1"
+      ],
+      "concepts": [
+        "insurable-interest",
+        "indemnity"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "Carla owns a house financed with a mortgage from First Bank. The house is damaged by fire while the loan is still outstanding.",
+      "stem": "Who has an insurable interest in the house at the time of the fire?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only Carla, the owner",
+          "rationale": "Incorrect: the lender also has a financial interest because the house secures its loan."
+        },
+        {
+          "id": "b",
+          "text": "Only the bank, the mortgagee",
+          "rationale": "Incorrect: Carla, as owner, clearly suffers a financial loss if the house burns."
+        },
+        {
+          "id": "c",
+          "text": "Both Carla and the bank",
+          "rationale": "Correct: the owner would suffer financial loss and the mortgagee's loan is secured by the house, so both have an insurable interest."
+        },
+        {
+          "id": "d",
+          "text": "Neither, because the loan is unpaid",
+          "rationale": "Incorrect: an unpaid loan increases rather than removes the lender's interest, and ownership gives Carla an interest."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Insurable interest exists when a person would suffer a financial loss if the property were damaged. An owner and a mortgage lender each have such an interest. That is why the lender appears in the mortgage clause.",
+      "memoryTip": "Who loses money if it burns? Everyone who does has an insurable interest.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Owner has a financial stake",
+            "anyOf": [
+              "owner",
+              "Carla",
+              "ownership"
+            ]
+          },
+          {
+            "label": "Lender's loan is secured by the house",
+            "anyOf": [
+              "lender",
+              "bank",
+              "mortgagee",
+              "mortgage"
+            ]
+          },
+          {
+            "label": "Financial loss test",
+            "anyOf": [
+              "financial",
+              "loss",
+              "money"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q003",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.2",
+        "plpc.1.2.1"
+      ],
+      "concepts": [
+        "underwriting",
+        "adverse-selection"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "What is the primary purpose of underwriting in property and casualty insurance?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "To settle claims after a loss occurs",
+          "rationale": "Incorrect: claim settlement is the adjuster's job, not the underwriter's."
+        },
+        {
+          "id": "b",
+          "text": "To select and classify risks for pricing",
+          "rationale": "Correct: underwriters decide whether to accept a risk, on what terms, and in which rating class."
+        },
+        {
+          "id": "c",
+          "text": "To sell policies to as many people as possible",
+          "rationale": "Incorrect: that is the sales and marketing function; underwriting may decline risks."
+        },
+        {
+          "id": "d",
+          "text": "To invest the insurer's premium income",
+          "rationale": "Incorrect: investment is a separate insurer function."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Underwriting is risk selection and classification: deciding which applicants to accept, at what rate and with what coverage. Good underwriting guards against adverse selection and keeps rates adequate and fair.",
+      "memoryTip": "Underwriters choose and classify; adjusters settle; producers sell.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q004",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.2.2"
+      ],
+      "concepts": [
+        "redlining"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "An insurer instructs its agents to decline every homeowners fire application from two ZIP codes in a New York city, without inspecting or evaluating the individual homes.",
+      "stem": "Is the insurer's practice permitted under New York law?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes; insurers may choose any territory they like",
+          "rationale": "Incorrect: territory may be used in rating, but refusing coverage solely because of location is prohibited."
+        },
+        {
+          "id": "b",
+          "text": "Yes, if the agent discloses the reason in writing",
+          "rationale": "Incorrect: disclosure does not cure a refusal based solely on location."
+        },
+        {
+          "id": "c",
+          "text": "No; insurers must accept every fire applicant",
+          "rationale": "Incorrect: insurers may still decline risks for sound underwriting reasons tied to loss experience."
+        },
+        {
+          "id": "d",
+          "text": "No; it refuses coverage based solely on location",
+          "rationale": "Correct: § 3429 bars refusing to issue or renew fire or covered auto policies based solely on the geographic location of the risk."
+        }
+      ],
+      "correct": "d",
+      "explanation": "New York Insurance Law § 3429 prohibits refusing to issue or renew, or cancelling, fire, fire and extended coverage, or covered private passenger auto policies based solely on the geographical location of the risk. Decisions based on sound underwriting and actuarial principles reasonably related to actual or anticipated loss experience remain allowed.",
+      "memoryTip": "Location ALONE is never the reason.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Decision based solely on geography",
+            "anyOf": [
+              "solely",
+              "only",
+              "location",
+              "zip",
+              "geograph"
+            ]
+          },
+          {
+            "label": "Prohibited redlining",
+            "anyOf": [
+              "redlin",
+              "prohibit",
+              "3429",
+              "not permitted",
+              "illegal"
+            ]
+          },
+          {
+            "label": "Sound underwriting exception",
+            "anyOf": [
+              "underwriting",
+              "loss experience",
+              "actuarial"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3429",
+        "ny-isc-3430",
+        "ny-isc-3433"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q005",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.2.2"
+      ],
+      "concepts": [
+        "redlining"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "Under New York law, a person who cannot obtain homeowners insurance because of the geographic location of the property, not because of sound underwriting, may",
+      "choices": [
+        {
+          "id": "a",
+          "text": "File a complaint with the Superintendent",
+          "rationale": "Correct: § 3430 lets an aggrieved insured file a complaint with the Superintendent, who may investigate, inspect the property or hold a hearing."
+        },
+        {
+          "id": "b",
+          "text": "Sue the insurer for triple damages",
+          "rationale": "Incorrect: the statute provides a complaint process with the Superintendent, not a triple-damages remedy."
+        },
+        {
+          "id": "c",
+          "text": "Demand that the agent pay any loss",
+          "rationale": "Incorrect: nothing in the redlining law makes the agent personally liable for losses."
+        },
+        {
+          "id": "d",
+          "text": "Purchase coverage only from a nonadmitted insurer",
+          "rationale": "Incorrect: the remedy is a complaint to the Superintendent, not a forced excess line placement."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Insurance Law § 3430 gives an insured who is aggrieved by an inability to obtain homeowners (including fire) or covered auto insurance because of geographic location the right to file a complaint with the Superintendent. The Superintendent investigates and may require a physical inspection or hold a hearing. Agents and brokers terminated because of their location have the same complaint right.",
+      "memoryTip": "Redlined? Report it to the Superintendent (§ 3430).",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3429",
+        "ny-isc-3430",
+        "ny-isc-3433"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q006",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.2.2"
+      ],
+      "concepts": [
+        "redlining",
+        "insurance-agent"
+      ],
+      "difficulty": 3,
+      "style": "concept",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "stem": "New York's geographic underwriting prohibition also forbids an insurer from terminating an agent's contract based solely on which of the following?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The agent's failure to remit premiums",
+          "rationale": "Incorrect: failure to remit is a legitimate business reason, not a geographic one."
+        },
+        {
+          "id": "b",
+          "text": "The location of the agent or of the agent's risks",
+          "rationale": "Correct: § 3433 bars terminating or refusing to renew a producer's contract based solely on the location of the agent or broker or of the risks it places."
+        },
+        {
+          "id": "c",
+          "text": "The agent's poor loss ratio on business written",
+          "rationale": "Incorrect: loss experience is a sound underwriting reason the law does not prohibit."
+        },
+        {
+          "id": "d",
+          "text": "The agent's license being revoked",
+          "rationale": "Incorrect: an unlicensed producer cannot place business; this is not geographic discrimination."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Insurance Law § 3433 prohibits an insurer from terminating or refusing to renew the contract or account of a licensed agent or broker who placed fire or covered auto business when the decision is based solely on the geographic location of the producer or of the risks the producer writes. The Superintendent sets notice procedures by regulation.",
+      "memoryTip": "Redlining protects the neighborhood AND the producer who serves it.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Termination based solely on geography",
+            "anyOf": [
+              "solely",
+              "location",
+              "geograph"
+            ]
+          },
+          {
+            "label": "Applies to agents and brokers",
+            "anyOf": [
+              "agent",
+              "broker",
+              "producer"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-3429",
+        "ny-isc-3430",
+        "ny-isc-3433"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q007",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.2.3"
+      ],
+      "concepts": [
+        "insurance-risk-score"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "scenario": "Ken has insured his New York home with the same insurer for four years. His credit-based insurance score has dropped since the policy was first written.",
+      "stem": "Which action by the insurer would violate New York's rules on the use of credit information?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Using Ken's insurance score as one of several factors when he first applied",
+          "rationale": "Incorrect: credit may be one factor among others when the policy is written."
+        },
+        {
+          "id": "b",
+          "text": "Re-rating Ken at his request with a newer report and lowering his premium",
+          "rationale": "Incorrect: consumer-requested re-rating that does not increase premium is expressly contemplated."
+        },
+        {
+          "id": "c",
+          "text": "Raising Ken's premium at renewal because his credit score fell",
+          "rationale": "Correct: § 2802(c) bars using credit information to increase an insured's personal lines premium on renewal."
+        },
+        {
+          "id": "d",
+          "text": "Using the home's age and roof condition at renewal",
+          "rationale": "Incorrect: these are underwriting factors independent of credit information."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Insurance Law § 2802 lets insurers use credit information to underwrite or rate personal lines, but not to deny coverage solely on credit, not to cancel or nonrenew, and not to increase an insured's premium on renewal. On request, the insurer must re-underwrite and re-rate at least once every 36 months without increasing the premium.",
+      "memoryTip": "Credit can help price a NEW policy, but cannot punish an existing insured at renewal.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Credit cannot be used to raise premium at renewal",
+            "anyOf": [
+              "renewal",
+              "increase",
+              "raise"
+            ]
+          },
+          {
+            "label": "NY credit information law",
+            "anyOf": [
+              "2802",
+              "credit"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-2802"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q008",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.2.3"
+      ],
+      "concepts": [
+        "insurance-risk-score"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "ny-law",
+        "negative-wording"
+      ],
+      "stem": "Under New York law, an insurance score used for personal lines may NOT be calculated using which factor?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Payment history on credit accounts",
+          "rationale": "Incorrect: payment history is ordinary credit information, which the law permits insurers to use within limits."
+        },
+        {
+          "id": "b",
+          "text": "Length of credit history",
+          "rationale": "Incorrect: length of history is ordinary credit-report data, not a prohibited factor."
+        },
+        {
+          "id": "c",
+          "text": "Amounts owed on credit accounts",
+          "rationale": "Incorrect: outstanding balances are ordinary credit information."
+        },
+        {
+          "id": "d",
+          "text": "The consumer's ZIP code",
+          "rationale": "Correct: § 2802(a) prohibits a score calculated using income, gender, address, ZIP code, ethnic group, religion, marital status or nationality."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Section 2802(a) lists factors an insurance score may not use: income, gender, address, ZIP code, ethnic group, religion, marital status and nationality. Ordinary credit data such as payment history, balances and length of history can feed the score.",
+      "memoryTip": "No WHO or WHERE in the score: not who you are, not where you live.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-isc-2802"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q009",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.3",
+        "plpc.1.3.1"
+      ],
+      "concepts": [
+        "manual-rating",
+        "schedule-rating",
+        "judgment-rating"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Which rating method relies mainly on the underwriter's experience because no comparable class exists?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Judgment rating",
+          "rationale": "Correct: judgment rating is used for unique risks with too little data for a class rate."
+        },
+        {
+          "id": "b",
+          "text": "Manual rating",
+          "rationale": "Incorrect: manual (class) rating uses published class rates."
+        },
+        {
+          "id": "c",
+          "text": "Schedule rating",
+          "rationale": "Incorrect: schedule rating applies set debits and credits to a base rate."
+        },
+        {
+          "id": "d",
+          "text": "Experience rating",
+          "rationale": "Incorrect: experience rating adjusts a rate based on the insured's own past losses."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Rating types: manual or class rating (published rates for groups of similar risks), merit rating such as schedule rating (debits and credits for specific features) and experience rating (the insured's own loss history), and judgment rating (underwriter's opinion for unique risks).",
+      "memoryTip": "No class? Use judgment.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q010",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.3.1"
+      ],
+      "concepts": [
+        "schedule-rating"
+      ],
+      "difficulty": 1,
+      "style": "application",
+      "tags": [],
+      "stem": "An underwriter applies a 10% credit for a monitored alarm and a 5% debit for a wood stove to the base rate for a dwelling. This approach is",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Judgment rating",
+          "rationale": "Incorrect: judgment rating does not use a set list of credits and debits."
+        },
+        {
+          "id": "b",
+          "text": "Schedule rating",
+          "rationale": "Correct: credits and debits for specific physical features of one risk are schedule rating."
+        },
+        {
+          "id": "c",
+          "text": "Pure premium rating",
+          "rationale": "Incorrect: pure premium is a rate component, not a method of adjusting for features."
+        },
+        {
+          "id": "d",
+          "text": "Retrospective rating",
+          "rationale": "Incorrect: retrospective rating adjusts premium after the policy period based on actual losses."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Schedule rating starts from a base rate and applies charges (debits) and credits for features that make an individual risk better or worse than average.",
+      "memoryTip": "Schedule = a checklist of pluses and minuses.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q011",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.3.2",
+        "plpc.1.3.3"
+      ],
+      "concepts": [
+        "loss-costs",
+        "expense-loading",
+        "rating-service"
+      ],
+      "difficulty": 3,
+      "style": "concept",
+      "tags": [
+        "tricky"
+      ],
+      "stem": "An insurer uses loss costs published by an advisory organization. To develop its final rate, the insurer",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Uses the loss costs as its final rate",
+          "rationale": "Incorrect: loss costs exclude the insurer's own expenses and profit, so they are not a complete rate."
+        },
+        {
+          "id": "b",
+          "text": "Subtracts producer commissions from the loss costs",
+          "rationale": "Incorrect: commissions are added as an expense, not subtracted."
+        },
+        {
+          "id": "c",
+          "text": "Adds its own expense and profit provisions",
+          "rationale": "Correct: loss costs cover expected losses; each insurer applies its own factor for expenses and profit."
+        },
+        {
+          "id": "d",
+          "text": "Multiplies them by the insured's deductible",
+          "rationale": "Incorrect: deductibles are not used this way to build a rate."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Advisory organizations publish loss costs, the part of the rate needed for expected losses and loss adjustment. Each insurer adds its own loading for operating expenses (including commissions and taxes), profit and contingencies to reach a final rate.",
+      "memoryTip": "Loss costs + insurer's own loading = final rate.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q012",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.3.3"
+      ],
+      "concepts": [
+        "pure-premium",
+        "expense-loading"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "stem": "An insurer expects $450,000 of losses on 3,000 similar homes. Its expense and profit loading is $50 per home. What is the gross rate per home?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$150",
+          "rationale": "Incorrect: $150 is only the pure premium; the loading must be added."
+        },
+        {
+          "id": "b",
+          "text": "$100",
+          "rationale": "Incorrect: this subtracts the loading instead of adding it."
+        },
+        {
+          "id": "c",
+          "text": "$165",
+          "rationale": "Incorrect: this does not reflect the stated $50 loading."
+        },
+        {
+          "id": "d",
+          "text": "$200",
+          "rationale": "Correct: pure premium = $450,000 ÷ 3,000 = $150; gross rate = $150 + $50 = $200."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Pure premium = expected losses ÷ exposure units = $450,000 ÷ 3,000 = $150 per home. Gross rate = pure premium + loading = $150 + $50 = $200.",
+      "memoryTip": "Gross rate = pure premium + loading.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q013",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.4",
+        "plpc.1.4.1"
+      ],
+      "concepts": [
+        "negligence",
+        "proximate-cause"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "A guest trips on a broken step at Rosa's house but catches the railing. The guest is not injured and nothing is damaged. The guest later demands payment from Rosa for 'negligence.'",
+      "stem": "Which element of negligence is MISSING from the guest's claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Damages",
+          "rationale": "Correct: the guest was not harmed, so there are no damages to compensate."
+        },
+        {
+          "id": "b",
+          "text": "Duty",
+          "rationale": "Incorrect: a homeowner owes guests a duty of reasonable care."
+        },
+        {
+          "id": "c",
+          "text": "Breach",
+          "rationale": "Incorrect: leaving an unlit, broken step unrepaired could be a breach."
+        },
+        {
+          "id": "d",
+          "text": "A legal relationship between the parties",
+          "rationale": "Incorrect: this is not one of the four elements of negligence."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Negligence requires a duty, a breach of that duty, damages, and proximate cause linking the breach to the damages. Here the guest stumbled but was uninjured and nothing was damaged, so there is nothing to compensate.",
+      "memoryTip": "No harm, no negligence claim.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Four elements of negligence",
+            "anyOf": [
+              "duty",
+              "breach",
+              "proximate"
+            ]
+          },
+          {
+            "label": "No injury or loss means no damages",
+            "anyOf": [
+              "damage",
+              "not injured",
+              "no injury",
+              "uninjured",
+              "no harm"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q014",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.4.2"
+      ],
+      "concepts": [
+        "comparative-negligence"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "stem": "A jury finds total damages of $120,000 and decides the injured plaintiff was 30% at fault. Under pure comparative negligence, how much does the plaintiff recover?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$36,000",
+          "rationale": "Incorrect: this is the plaintiff's own 30% share, not the recovery."
+        },
+        {
+          "id": "b",
+          "text": "$84,000",
+          "rationale": "Correct: $120,000 × (100% − 30%) = $84,000."
+        },
+        {
+          "id": "c",
+          "text": "$120,000",
+          "rationale": "Incorrect: comparative negligence reduces the recovery by the plaintiff's fault."
+        },
+        {
+          "id": "d",
+          "text": "Nothing",
+          "rationale": "Incorrect: that would be the result under contributory negligence."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Comparative negligence reduces recovery by the plaintiff's percentage of fault: $120,000 × 70% = $84,000.",
+      "memoryTip": "Comparative: subtract your share of blame.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q015",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.4.2"
+      ],
+      "concepts": [
+        "contributory-negligence",
+        "comparative-negligence",
+        "assumption-of-risk"
+      ],
+      "difficulty": 3,
+      "style": "comparison",
+      "tags": [
+        "tricky"
+      ],
+      "stem": "Under which defense would a plaintiff found only 5% at fault recover NOTHING?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pure comparative negligence",
+          "rationale": "Incorrect: the plaintiff would recover 95% of damages."
+        },
+        {
+          "id": "b",
+          "text": "Vicarious liability",
+          "rationale": "Incorrect: this is a basis of liability, not a defense based on the plaintiff's fault."
+        },
+        {
+          "id": "c",
+          "text": "Contributory negligence",
+          "rationale": "Correct: under pure contributory negligence any fault by the plaintiff bars recovery entirely."
+        },
+        {
+          "id": "d",
+          "text": "Strict liability",
+          "rationale": "Incorrect: strict liability is a basis of liability imposed without fault, not a defense."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Contributory negligence is the all-or-nothing defense: if the plaintiff contributed to the injury at all, recovery is barred. Comparative negligence instead reduces the award by the plaintiff's share of fault.",
+      "memoryTip": "Contributory = Cut off completely.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Any plaintiff fault bars recovery",
+            "anyOf": [
+              "any fault",
+              "bars",
+              "all-or-nothing",
+              "nothing",
+              "complete"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q016",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.4.2"
+      ],
+      "concepts": [
+        "assumption-of-risk"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Dev warns a friend that the ladder against his garage has a cracked rung and asks him not to use it. The friend says he understands, climbs it anyway to retrieve a ball, and is injured when the rung breaks.",
+      "stem": "Which defense is the homeowner most likely to raise?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Comparative negligence only",
+          "rationale": "Incorrect: the key fact is that the friend knowingly and voluntarily accepted a known danger."
+        },
+        {
+          "id": "b",
+          "text": "Vicarious liability",
+          "rationale": "Incorrect: vicarious liability makes someone answer for another's acts; it is not a defense."
+        },
+        {
+          "id": "c",
+          "text": "Absolute liability",
+          "rationale": "Incorrect: absolute liability is a basis for imposing liability, not a defense."
+        },
+        {
+          "id": "d",
+          "text": "Assumption of risk",
+          "rationale": "Correct: the friend knew of the danger and voluntarily chose to proceed anyway."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Assumption of risk applies when the injured person knew of a specific danger and voluntarily accepted it. Here Dev warned his friend, the friend understood, and chose to climb anyway.",
+      "memoryTip": "Knew it + chose it = assumed it.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Plaintiff knew of the danger",
+            "anyOf": [
+              "knew",
+              "warned",
+              "aware",
+              "known"
+            ]
+          },
+          {
+            "label": "Voluntarily accepted it",
+            "anyOf": [
+              "voluntar",
+              "chose",
+              "anyway"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q017",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.5",
+        "plpc.1.5.1"
+      ],
+      "concepts": [
+        "special-damages",
+        "general-damages"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Medical bills and lost wages awarded to an injured person are",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Special damages",
+          "rationale": "Correct: they are specific, measurable economic losses."
+        },
+        {
+          "id": "b",
+          "text": "General damages",
+          "rationale": "Incorrect: general damages cover non-economic harm such as pain and suffering."
+        },
+        {
+          "id": "c",
+          "text": "Punitive damages",
+          "rationale": "Incorrect: punitive damages punish the defendant rather than compensate."
+        },
+        {
+          "id": "d",
+          "text": "Nominal damages",
+          "rationale": "Incorrect: nominal damages are a token amount when no real loss is proven."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Compensatory damages are divided into special damages (measurable out-of-pocket losses like bills and wages) and general damages (non-economic losses like pain and suffering).",
+      "memoryTip": "Special = specific bills.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q018",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.5.1",
+        "plpc.1.5.2"
+      ],
+      "concepts": [
+        "compensatory-damages",
+        "punitive-damages",
+        "general-damages"
+      ],
+      "difficulty": 2,
+      "style": "negative",
+      "tags": [
+        "tricky",
+        "negative-wording"
+      ],
+      "stem": "Which type of damages is NOT intended to compensate the injured party for a loss?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Special damages",
+          "rationale": "Incorrect: special damages compensate measurable economic losses."
+        },
+        {
+          "id": "b",
+          "text": "Punitive damages",
+          "rationale": "Correct: punitive damages punish the wrongdoer and deter similar conduct."
+        },
+        {
+          "id": "c",
+          "text": "General damages",
+          "rationale": "Incorrect: general damages compensate non-economic losses such as pain."
+        },
+        {
+          "id": "d",
+          "text": "Damages for property repair",
+          "rationale": "Incorrect: repair costs are compensatory special damages."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Special and general damages are both compensatory: they make the victim whole. Punitive damages are awarded on top of compensatory damages to punish outrageous conduct and deter others.",
+      "memoryTip": "Punitive punishes; compensatory compensates.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q019",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.5.3",
+        "plpc.1.5.4"
+      ],
+      "concepts": [
+        "absolute-liability",
+        "strict-liability"
+      ],
+      "difficulty": 2,
+      "style": "application",
+      "tags": [],
+      "stem": "A homeowner hires a company to blast rock for a new pool. Despite every precaution, flying rock damages a neighbor's car. The company is liable without proof of carelessness under",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Comparative negligence",
+          "rationale": "Incorrect: comparative negligence apportions fault; here no fault needs to be shown."
+        },
+        {
+          "id": "b",
+          "text": "Vicarious liability",
+          "rationale": "Incorrect: the company is liable for its own activity, not for another's acts."
+        },
+        {
+          "id": "c",
+          "text": "Absolute liability",
+          "rationale": "Correct: blasting is an ultra-hazardous activity, so liability attaches regardless of care."
+        },
+        {
+          "id": "d",
+          "text": "Assumption of risk",
+          "rationale": "Incorrect: the neighbor did not voluntarily accept the danger."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Ultra-hazardous activities such as blasting, keeping wild animals or handling certain hazardous materials create absolute liability: the injured party need not prove negligence and the defendant's care is no defense.",
+      "memoryTip": "Explosives and wild animals: you pay, period.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q020",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.5.5"
+      ],
+      "concepts": [
+        "vicarious-liability"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "A bakery employee, driving to deliver a wedding cake, runs a stop sign and strikes a pedestrian. The pedestrian sues both the driver and the bakery.",
+      "stem": "Why can the injured pedestrian sue the bakery?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Strict liability for a defective product",
+          "rationale": "Incorrect: no product defect caused the accident."
+        },
+        {
+          "id": "b",
+          "text": "Absolute liability for ultra-hazardous work",
+          "rationale": "Incorrect: delivering cakes is not an ultra-hazardous activity."
+        },
+        {
+          "id": "c",
+          "text": "The bakery assumed the risk",
+          "rationale": "Incorrect: assumption of risk is a defense raised against a plaintiff, not a basis for suing a defendant."
+        },
+        {
+          "id": "d",
+          "text": "Vicarious liability for its employee's acts",
+          "rationale": "Correct: an employer can be held liable for an employee's negligence within the scope of employment."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Vicarious liability imputes one person's negligence to another because of their relationship, most commonly employer and employee acting within the scope of employment.",
+      "memoryTip": "Vicarious = liable for someone else's carelessness.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Employer–employee relationship",
+            "anyOf": [
+              "employer",
+              "employee",
+              "relationship"
+            ]
+          },
+          {
+            "label": "Liability for another's negligence",
+            "anyOf": [
+              "vicarious",
+              "imputed",
+              "another",
+              "someone else"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q021",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.5.7"
+      ],
+      "concepts": [
+        "proximate-cause"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky"
+      ],
+      "scenario": "A windstorm tears shingles and sheathing off part of Jamal's roof. Rain then pours through the opening and soaks his living room furniture.",
+      "stem": "What is the proximate cause of the water damage to the furniture?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Windstorm",
+          "rationale": "Correct: the wind opened the roof, starting an unbroken chain of events that let rain ruin the contents."
+        },
+        {
+          "id": "b",
+          "text": "Rain",
+          "rationale": "Incorrect: rain is the immediate cause, but it entered only because the wind damaged the roof."
+        },
+        {
+          "id": "c",
+          "text": "Flood",
+          "rationale": "Incorrect: no rising surface water was involved."
+        },
+        {
+          "id": "d",
+          "text": "Wear and tear",
+          "rationale": "Incorrect: the roof failed because of the storm, not age."
+        }
+      ],
+      "correct": "a",
+      "explanation": "The proximate cause is the event that sets off an unbroken chain leading to the loss. Wind tore off the shingles, which allowed rain to enter. Property forms commonly cover interior rain damage only when wind or hail first creates an opening; here it did.",
+      "memoryTip": "Find the first domino: it is the proximate cause.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Unbroken chain of events",
+            "anyOf": [
+              "chain",
+              "sequence",
+              "unbroken",
+              "led to"
+            ]
+          },
+          {
+            "label": "Wind created the opening",
+            "anyOf": [
+              "wind",
+              "opening",
+              "roof"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q022",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.5.6",
+        "plpc.1.5.8"
+      ],
+      "concepts": [
+        "named-perils-coverage",
+        "open-perils-coverage",
+        "peril"
+      ],
+      "difficulty": 1,
+      "style": "comparison",
+      "tags": [],
+      "stem": "Which statement correctly compares named perils and open perils coverage?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Named perils covers any loss not excluded",
+          "rationale": "Incorrect: named perils covers only the listed perils."
+        },
+        {
+          "id": "b",
+          "text": "Open perils covers any direct loss not excluded",
+          "rationale": "Correct: open (special) perils covers all causes of direct physical loss except those excluded."
+        },
+        {
+          "id": "c",
+          "text": "Open perils has no exclusions at all",
+          "rationale": "Incorrect: open perils forms contain exclusions such as flood and wear and tear."
+        },
+        {
+          "id": "d",
+          "text": "Named perils places the burden on the insurer",
+          "rationale": "Incorrect: under named perils the insured must show a listed peril caused the loss."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Named perils: covered only if a listed peril caused the loss, and the insured bears the burden of showing that. Open perils: covered unless an exclusion applies, and the insurer bears the burden of proving the exclusion.",
+      "memoryTip": "Named = on the list. Open = not on the exclusion list.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q023",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.5.9",
+        "plpc.1.5.10"
+      ],
+      "concepts": [
+        "direct-loss",
+        "consequential-loss"
+      ],
+      "difficulty": 1,
+      "style": "negative",
+      "tags": [
+        "negative-wording",
+        "rapid"
+      ],
+      "stem": "After a covered fire, which of the following is NOT a consequential (indirect) loss?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Extra cost of living in a hotel",
+          "rationale": "Incorrect: additional living expense is an indirect loss."
+        },
+        {
+          "id": "b",
+          "text": "Rent lost from a tenant",
+          "rationale": "Incorrect: lost rental income is an indirect loss."
+        },
+        {
+          "id": "c",
+          "text": "Cost to repair the charred kitchen",
+          "rationale": "Correct: physical damage to the property itself is a direct loss."
+        },
+        {
+          "id": "d",
+          "text": "Food spoiled during a power outage",
+          "rationale": "Incorrect: spoilage resulting from the loss of power is a consequential loss."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Direct loss is the physical damage itself. Consequential (indirect) losses are the financial results that follow, such as additional living expense, lost rent and spoilage.",
+      "memoryTip": "Damage you can touch = direct; money lost afterward = indirect.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q024",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.5.11"
+      ],
+      "concepts": [
+        "specific-insurance",
+        "blanket-property-coverage"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "math"
+      ],
+      "scenario": "A farm owner insures the house for $300,000 and the barn for $40,000 under specific (not blanket) insurance. Fire causes $55,000 of damage to the barn only. Ignore the deductible.",
+      "stem": "How much will the insurer pay for the barn loss?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$40,000",
+          "rationale": "Correct: under specific insurance the barn's own $40,000 limit caps the payment."
+        },
+        {
+          "id": "b",
+          "text": "$55,000",
+          "rationale": "Incorrect: the house limit cannot be used for the barn under specific coverage."
+        },
+        {
+          "id": "c",
+          "text": "$50,000",
+          "rationale": "Incorrect: no rule splits the difference between limits."
+        },
+        {
+          "id": "d",
+          "text": "$28,000",
+          "rationale": "Incorrect: no coinsurance or proration applies in these facts."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Specific insurance gives each item its own limit. The barn is insured for $40,000, so a $55,000 barn loss pays $40,000 (deductible ignored), even though the house limit is untouched. Under a blanket limit covering both buildings, the full $55,000 could be paid.",
+      "memoryTip": "Specific = separate buckets; blanket = one shared bucket.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Separate limit per item",
+            "anyOf": [
+              "separate",
+              "own limit",
+              "specific",
+              "each"
+            ]
+          },
+          {
+            "label": "Barn limit caps payment",
+            "anyOf": [
+              "40,000",
+              "barn limit",
+              "cap"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q025",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.5.12"
+      ],
+      "concepts": [
+        "construction-classes"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "A house with wood walls covered by a brick veneer is classified for property rating as",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Masonry construction",
+          "rationale": "Incorrect: a veneer does not make the load-bearing structure masonry."
+        },
+        {
+          "id": "b",
+          "text": "Frame construction",
+          "rationale": "Correct: brick veneer over wood framing is treated as frame."
+        },
+        {
+          "id": "c",
+          "text": "Fire-resistive construction",
+          "rationale": "Incorrect: fire-resistive requires noncombustible, protected structural materials."
+        },
+        {
+          "id": "d",
+          "text": "Noncombustible construction",
+          "rationale": "Incorrect: the wood frame is combustible."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Construction class depends on the structural materials. Brick veneer is an outer layer only; the supporting walls are wood, so the building is frame, the most combustible class.",
+      "memoryTip": "Veneer is skin-deep; the frame decides.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q026",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.6",
+        "plpc.1.6.1"
+      ],
+      "concepts": [
+        "actual-cash-value"
+      ],
+      "difficulty": 2,
+      "style": "calculation",
+      "tags": [
+        "math"
+      ],
+      "stem": "A roof with a 20-year useful life is 8 years old when hail destroys it. Replacement today costs $15,000. The deductible is $500. Using straight-line depreciation, what does an ACV policy pay?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$9,000",
+          "rationale": "Incorrect: this is the ACV before the deductible is subtracted."
+        },
+        {
+          "id": "b",
+          "text": "$14,500",
+          "rationale": "Incorrect: this is replacement cost less the deductible, ignoring depreciation."
+        },
+        {
+          "id": "c",
+          "text": "$8,500",
+          "rationale": "Correct: depreciation = 8/20 = 40% × $15,000 = $6,000; ACV = $9,000; minus $500 deductible = $8,500."
+        },
+        {
+          "id": "d",
+          "text": "$5,500",
+          "rationale": "Incorrect: this is the depreciation amount minus the deductible, not the ACV."
+        }
+      ],
+      "correct": "c",
+      "explanation": "ACV = replacement cost − depreciation. Depreciation = 8 ÷ 20 = 40%; 40% × $15,000 = $6,000. ACV = $15,000 − $6,000 = $9,000. Payment = $9,000 − $500 deductible = $8,500.",
+      "memoryTip": "ACV = RC − depreciation; then subtract the deductible.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Depreciation computed",
+            "anyOf": [
+              "40%",
+              "6,000",
+              "8/20"
+            ]
+          },
+          {
+            "label": "ACV equals RC minus depreciation",
+            "anyOf": [
+              "9,000",
+              "minus depreciation"
+            ]
+          },
+          {
+            "label": "Deductible subtracted",
+            "anyOf": [
+              "500",
+              "deductible"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q027",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.6.2",
+        "plpc.1.6.2.1"
+      ],
+      "concepts": [
+        "guaranteed-replacement-cost",
+        "replacement-cost"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "tricky",
+        "math"
+      ],
+      "scenario": "Nina and Omar own identical homes, each insured to full value for $350,000. Nina has guaranteed replacement cost; Omar has standard replacement cost. After a regional storm, each home costs $380,000 to rebuild.",
+      "stem": "How much will each policy pay to rebuild (ignore deductibles)?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Both $350,000",
+          "rationale": "Incorrect: Nina's guaranteed replacement cost pays above the limit."
+        },
+        {
+          "id": "b",
+          "text": "Both $380,000",
+          "rationale": "Incorrect: Omar's standard replacement cost coverage is capped at his $350,000 limit."
+        },
+        {
+          "id": "c",
+          "text": "Nina $350,000; Omar $380,000",
+          "rationale": "Incorrect: this reverses the effect of the two options."
+        },
+        {
+          "id": "d",
+          "text": "Nina $380,000; Omar $350,000",
+          "rationale": "Correct: guaranteed replacement cost pays the full rebuilding cost above the limit; standard replacement cost stops at the limit."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Replacement cost coverage pays to rebuild with like kind and quality, without depreciation, but only up to the policy limit. Guaranteed replacement cost pays the full cost to rebuild even when it exceeds the limit, provided the insured met conditions such as insuring to full value.",
+      "memoryTip": "Guaranteed = the limit is not the ceiling for the dwelling.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Standard RC capped at limit",
+            "anyOf": [
+              "limit",
+              "capped",
+              "350,000"
+            ]
+          },
+          {
+            "label": "Guaranteed pays above limit",
+            "anyOf": [
+              "guaranteed",
+              "above",
+              "380,000",
+              "exceed"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q028",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.6.2.2",
+        "plpc.1.6.3"
+      ],
+      "concepts": [
+        "functional-replacement-cost",
+        "market-value"
+      ],
+      "difficulty": 2,
+      "style": "application",
+      "tags": [],
+      "stem": "The owner of a 100-year-old home with ornate plasterwork wants coverage that repairs with modern materials serving the same purpose. Which valuation fits?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Market value",
+          "rationale": "Incorrect: market value is the sale price of the property, including land."
+        },
+        {
+          "id": "b",
+          "text": "Functional replacement cost",
+          "rationale": "Correct: it pays to replace with less costly modern materials that perform the same function."
+        },
+        {
+          "id": "c",
+          "text": "Guaranteed replacement cost",
+          "rationale": "Incorrect: this rebuilds with like kind and quality, which would be very costly for ornate plaster."
+        },
+        {
+          "id": "d",
+          "text": "Agreed value",
+          "rationale": "Incorrect: agreed value fixes an amount in advance, typically for collectibles."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Functional replacement cost is designed for older homes whose exact reproduction would be very expensive. It replaces features with modern equivalents, such as drywall for plaster.",
+      "memoryTip": "Functional = same job, modern materials.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q029",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.6.4",
+        "plpc.1.6.5"
+      ],
+      "concepts": [
+        "agreed-value",
+        "stated-amount"
+      ],
+      "difficulty": 3,
+      "style": "calculation",
+      "tags": [
+        "math",
+        "tricky"
+      ],
+      "stem": "A customized pickup is insured on a stated amount basis for $45,000. When it is stolen and not recovered, its actual cash value is $38,000. Ignoring the deductible, the insurer pays",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$45,000",
+          "rationale": "Incorrect: that would be the result under agreed value, not stated amount."
+        },
+        {
+          "id": "b",
+          "text": "$41,500",
+          "rationale": "Incorrect: no averaging of the two amounts occurs."
+        },
+        {
+          "id": "c",
+          "text": "$38,000",
+          "rationale": "Correct: stated amount coverage pays the least of the stated amount, the ACV, or the cost to repair or replace."
+        },
+        {
+          "id": "d",
+          "text": "$7,000",
+          "rationale": "Incorrect: this is the difference between the amounts, not the payment."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Stated amount is a ceiling. The insurer pays the lowest of the stated amount ($45,000) and the ACV ($38,000) (or repair cost, if lower), so it pays $38,000. Under agreed value, the full agreed amount would be paid on a total loss.",
+      "memoryTip": "Stated amount = the most you could get, not what you will get.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Least of stated amount or ACV",
+            "anyOf": [
+              "least",
+              "lower",
+              "lesser"
+            ]
+          },
+          {
+            "label": "Contrast with agreed value",
+            "anyOf": [
+              "agreed"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "plpc-q030",
+      "series": [
+        "17-54"
+      ],
+      "sectionId": "plpc",
+      "outlineIds": [
+        "plpc.1.6.4"
+      ],
+      "concepts": [
+        "agreed-value"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Which valuation pays a pre-set amount on a total loss without depreciation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Actual cash value",
+          "rationale": "Incorrect: ACV deducts depreciation."
+        },
+        {
+          "id": "b",
+          "text": "Stated amount",
+          "rationale": "Incorrect: stated amount pays the least of several amounts."
+        },
+        {
+          "id": "c",
+          "text": "Market value",
+          "rationale": "Incorrect: market value is determined at the time of loss."
+        },
+        {
+          "id": "d",
+          "text": "Agreed value",
+          "rationale": "Correct: the insurer and insured agree on the value when the policy is written."
+        }
+      ],
+      "correct": "d",
+      "explanation": "Agreed value is used for property whose value is hard to establish after a loss, such as art and collectibles. The pre-agreed amount is paid on a total loss.",
+      "memoryTip": "Agreed = already decided.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

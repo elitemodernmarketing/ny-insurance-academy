@@ -1,0 +1,798 @@
+{
+ "sectionId": "ann",
+ "lessons": [
+  {
+   "id": "ann-l01",
+   "sectionId": "ann",
+   "order": 1,
+   "title": "Annuity Basics: Phases, Parties and Immediate vs. Deferred",
+   "outlineIds": [
+    "ann.1",
+    "ann.1.1",
+    "ann.1.2",
+    "ann.1.3",
+    "ann.3",
+    "ann.3.1",
+    "ann.3.2",
+    "ann.3.2.1"
+   ],
+   "estMinutes": 25,
+   "intro": "Life insurance protects your family if you die too soon. An annuity does the opposite job: it protects you if you live a long time and risk running out of money. In this lesson you'll learn how annuities work, who the parties are, and the difference between annuities that pay right away and those that grow first.",
+   "objectives": [
+    "Explain why an annuity is a form of insurance",
+    "Distinguish the accumulation period from the annuity (payout) period",
+    "Identify the roles of owner, annuitant and beneficiary",
+    "Compare immediate and deferred annuities and their premium payment options"
+   ],
+   "keyTerms": [
+    "annuity",
+    "annuitant",
+    "accumulation-period",
+    "annuitization",
+    "immediate-annuity",
+    "deferred-annuity",
+    "flexible-premium-annuity"
+   ],
+   "parts": [
+    {
+     "heading": "Why annuities are insurance",
+     "body": "An [[annuity]] is a contract with a life insurer: you pay a single premium or a series of premiums, and the insurer promises a stream of payments — for a set period or for life.\n\nThe insurance element is **longevity risk**. Nobody knows how long one person will live, but using mortality tables and the [[law-of-large-numbers|law of large numbers]], an insurer can predict how long a large group of annuitants will live on average. Annuitants who die early effectively help fund payments to those who live longer than expected. That pooling is what lets the insurer guarantee income for life.",
+     "simple": "An annuity is a personal pension you buy from an insurance company. Because the insurer pools lots of people, it can promise everyone an income that lasts as long as they live.",
+     "callouts": [
+      {
+       "kind": "memory-tip",
+       "text": "Life insurance: in case you die too soon. Annuity: in case you live too long."
+      }
+     ]
+    },
+    {
+     "heading": "Two phases: accumulation and payout",
+     "body": "A deferred annuity has two phases:\n\n- **[[accumulation-period|Accumulation period]]** — premiums go in and the value grows, tax-deferred.\n- **Annuity (payout) period** — the value is converted into income payments. Converting the value into a stream of payments is called **[[annuitization]]**. Under a life option, the decision to annuitize is generally irrevocable.\n\nAn immediate annuity skips the accumulation period and starts the payout phase right away.",
+     "simple": "First you fill the bucket (accumulation). Later you turn on the faucet (payout).",
+     "example": {
+      "title": "Example: Dana's timeline",
+      "body": "Dana pays into a deferred annuity from age 45 to 65 (accumulation). At 65 she annuitizes and begins receiving monthly checks (payout)."
+     },
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "Annuitizing is not the same as taking a withdrawal. A withdrawal removes some money while the contract keeps accumulating; annuitization converts the value into income payments."
+      }
+     ]
+    },
+    {
+     "heading": "Owner, annuitant and beneficiary",
+     "body": "Three roles appear in every annuity:\n\n- **Owner** — buys the contract and controls it: makes withdrawals, surrenders, chooses investments (in a variable annuity), changes the beneficiary and decides when to annuitize. The owner may be a person or an entity such as a trust.\n- **[[annuitant|Annuitant]]** — the person whose life expectancy determines life-contingent payments (the 'measuring life'). Must be a natural person.\n- **[[beneficiary|Beneficiary]]** — receives any death benefit if death occurs before or during payouts, depending on the contract and payout option.\n\nThe owner and annuitant are often the same person, but they don't have to be.",
+     "simple": "The owner controls it, the annuitant is the person it's measured on, and the beneficiary gets what's left if someone dies.",
+     "example": {
+      "title": "Example: Linda, Ray and Max",
+      "body": "Linda owns an annuity on which her husband Ray is the annuitant and their son Max is the beneficiary. Ray's age and sex determine the payout amount; Linda decides when to annuitize; Max receives any death benefit."
+     },
+     "callouts": [
+      {
+       "kind": "memory-tip",
+       "text": "Annuitant ≈ the 'insured' of an annuity."
+      }
+     ]
+    },
+    {
+     "heading": "Immediate vs. deferred, and premium payment options",
+     "body": "**[[immediate-annuity|Immediate annuities]]** (single premium immediate annuities, or **SPIAs**) are bought with **one lump sum** and begin paying soon after purchase — typically within one month to one year. They are used to turn savings into income right away.\n\n**[[deferred-annuity|Deferred annuities]]** begin payments at a future date. They can be funded in three ways:\n\n- **Single premium** (SPDA) — one lump sum\n- **Level or periodic premiums** — scheduled payments\n- **[[flexible-premium-annuity|Flexible premiums]]** (FPDA) — varying amounts at varying times, subject to minimums\n\nBecause an immediate annuity starts paying right away, it can only be funded with a single premium.",
+     "simple": "Immediate: one payment in, income starts right away. Deferred: money goes in now (once or over time), income starts later.",
+     "example": {
+      "title": "Example: Walter vs. Omar",
+      "body": "Walter, 66, uses $150,000 to buy a SPIA and gets his first check next month. Omar, 45, puts $40,000 into a deferred annuity and plans to add more until he retires at 67."
+     },
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "There is no 'flexible premium immediate annuity'. Periodic or flexible premiums mean a deferred annuity."
+      }
+     ]
+    }
+   ],
+   "activity": {
+    "type": "match",
+    "prompt": "Match each annuity term to its meaning.",
+    "pairs": [
+     {
+      "left": "Owner",
+      "right": "Controls the contract and can change the beneficiary"
+     },
+     {
+      "left": "Annuitant",
+      "right": "The measuring life for life-contingent payments"
+     },
+     {
+      "left": "Beneficiary",
+      "right": "Receives any death benefit"
+     },
+     {
+      "left": "Accumulation period",
+      "right": "Premiums are paid in and the value grows"
+     },
+     {
+      "left": "Annuitization",
+      "right": "Converting the value into a stream of payments"
+     },
+     {
+      "left": "SPIA",
+      "right": "One lump sum, payments begin within about a year"
+     }
+    ]
+   },
+   "knowledgeChecks": [
+    {
+     "prompt": "What risk does an annuity primarily protect against?",
+     "choices": [
+      "Dying too soon",
+      "Outliving one's money",
+      "Disability",
+      "Property loss"
+     ],
+     "answerIndex": 1,
+     "explanation": "Annuities protect against longevity risk — outliving income. Life insurance protects against dying too soon."
+    },
+    {
+     "prompt": "Whose life expectancy determines the payments in a life annuity?",
+     "choices": [
+      "The owner's, always",
+      "The annuitant's",
+      "The beneficiary's",
+      "The producer's"
+     ],
+     "answerIndex": 1,
+     "explanation": "The annuitant is the measuring life. The owner controls the contract; the beneficiary receives any death benefit."
+    },
+    {
+     "prompt": "Which annuity must be purchased with a single premium?",
+     "choices": [
+      "Flexible premium deferred annuity",
+      "Immediate annuity",
+      "Level premium deferred annuity",
+      "Any deferred annuity"
+     ],
+     "answerIndex": 1,
+     "explanation": "An immediate annuity begins paying almost at once, so it requires a single premium."
+    }
+   ],
+   "summary": [
+    "An annuity is insurance against outliving income; it pools longevity risk using mortality tables.",
+    "Deferred annuities have an accumulation period (pay-in) and an annuity period (payout); annuitizing under a life option is generally irrevocable.",
+    "The owner controls the contract, the annuitant is the measuring life, and the beneficiary receives any death benefit.",
+    "Immediate annuities (SPIAs) are single premium and start paying within about a year; deferred annuities may use single, periodic or flexible premiums."
+   ],
+   "related": [
+    "ann-l02",
+    "ann-l03"
+   ],
+   "sources": [
+    "general-insurance-principles",
+    "finra-annuities"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-l02",
+   "sectionId": "ann",
+   "order": 2,
+   "title": "New York Annuity Protections: Required Provisions, Nonforfeiture, Surrender Charges and Death Benefits",
+   "outlineIds": [
+    "ann.2",
+    "ann.3.2",
+    "ann.3.2.2",
+    "ann.3.2.3",
+    "ann.3.2.4"
+   ],
+   "estMinutes": 30,
+   "intro": "New York builds strong consumer protections into every individual annuity sold in the state. Insurance Law § 3219 lists the provisions each contract must contain, and § 4223 (the standard nonforfeiture law for annuities) makes sure owners of deferred annuities never simply forfeit what they have built up. This lesson walks through those rules, plus how surrender charges and death benefits work.",
+   "objectives": [
+    "List the standard provisions NY requires in individual annuity contracts (§ 3219)",
+    "Explain the nonforfeiture protections for deferred annuities (§ 4223)",
+    "Describe how surrender charges work and their limits",
+    "Explain the minimum death benefit before annuity payments begin"
+   ],
+   "keyTerms": [
+    "annuity",
+    "deferred-annuity",
+    "free-look",
+    "grace-period",
+    "surrender-charge",
+    "nonforfeiture-options",
+    "incontestability"
+   ],
+   "parts": [
+    {
+     "heading": "Required provisions (§ 3219)",
+     "body": "Every individual annuity delivered in New York must contain, in substance, these provisions (or ones the Superintendent finds more favorable):\n\n- **Grace period:** for contracts requiring payments, **31 days** after each payment due date (after the first). The contract stays in force; if death occurs during the grace period, the unpaid payment may be deducted.\n- **Incontestability:** after **two years** from issue (during the lifetime of the person whose statements were required), statements cannot be contested — **except those relating to age, sex and identity**, and except for nonpayment.\n- **Entire contract:** the contract plus the attached application is the entire contract.\n- **Misstatement of age or sex:** benefits are adjusted to what the payments would have purchased at the correct age or sex; under- or overpayments are settled with interest of not more than 6% a year.\n- **Dividends:** for participating contracts, divisible surplus is determined and apportioned annually.\n- **Nonforfeiture options:** options on stopping payments must follow § 4223.\n- **Reinstatement:** within **three years** of default (unless the cash surrender value was paid), by applying, paying overdue payments and debt with interest (overdue payments at not more than 6% a year), and providing evidence of insurability if the insurer requires it.\n- **Free look:** the holder may return the contract with a written cancellation request within a period of **not less than 10 nor more than 30 days** from delivery and receive a refund (generally of all consideration paid, including fees and charges). **Mail-order contracts: 30 days.**",
+     "simple": "New York annuities must include: a 31-day grace period, a 2-year contestable period (age, sex and identity can always be corrected), a 3-year reinstatement right, and a 10-to-30-day free look (30 days for mail order).",
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "NY Ins. Law § 3219(a)(9): free look of not less than 10 nor more than 30 days from delivery; 30 days for mail-order contracts.",
+       "sources": [
+        "ny-isc-3219"
+       ]
+      },
+      {
+       "kind": "ny-rule",
+       "text": "NY Ins. Law § 3219(a)(1), (2), (8): 31-day grace period; incontestable after 2 years except statements on age, sex and identity; reinstatement within 3 years of default.",
+       "sources": [
+        "ny-isc-3219"
+       ]
+      },
+      {
+       "kind": "exam-trap",
+       "text": "Annuity incontestability has an extra carve-out that life policies don't: statements about AGE, SEX and IDENTITY can be challenged after two years."
+      }
+     ]
+    },
+    {
+     "heading": "Nonforfeiture: what you keep if you stop paying (§ 4223)",
+     "body": "New York's standard nonforfeiture law for annuities, Insurance Law § 4223, protects owners of individual deferred annuities:\n\n- If payments stop, the company must grant a **paid-up annuity benefit** based on the value accumulated.\n- If the contract allows lump-sum settlements, it must offer a **cash surrender benefit** instead, at least at the times the law requires.\n- The company may reserve the right to **defer paying a cash surrender benefit for up to six months** after the owner demands it.\n- Values are built on the **actual accumulation amount**: net premiums, plus interest credited at no less than the contract's minimum rate, minus limited charges, withdrawals and loans.\n- At least once each contract year, the company must send the owner a **statement** of the paid-up annuity, cash surrender and death benefit values.\n\n§ 4223 does **not** apply to variable annuities, immediate annuities, deferred annuities after payments have begun, and certain group retirement-plan contracts.",
+     "simple": "If you stop paying into a New York deferred annuity, you don't lose what you've built. You get a smaller paid-up annuity or, if the contract allows, cash.",
+     "advanced": "§ 4223 also sets the floor for the minimum interest rate used in the actual accumulation amount: the lesser of 3% and the five-year constant maturity Treasury rate reduced by 1.25 percentage points, but not less than 1%. The minimum rate at issue must be stated in the contract. Older contracts issued before the nonforfeiture operative date are governed by § 4220, which likewise converts a defaulted deferred annuity into a paid-up annuity.",
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "NY Ins. Law § 4223(a)(1): on cessation of payments, a paid-up annuity benefit (or, where provided, a cash surrender benefit); payment of a cash surrender benefit may be deferred up to six months after demand.",
+       "sources": [
+        "ny-isc-4223"
+       ]
+      },
+      {
+       "kind": "ny-rule",
+       "text": "NY Ins. Law § 4223(b)(1): the nonforfeiture law does not apply to variable annuities or immediate annuities, among others.",
+       "sources": [
+        "ny-isc-4223"
+       ]
+      },
+      {
+       "kind": "note",
+       "text": "§ 4220 covers older contracts issued before the nonforfeiture operative date; modern deferred annuities follow § 4223.",
+       "sources": [
+        "ny-isc-4220"
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "Surrender and withdrawal charges",
+     "body": "A [[surrender-charge|surrender charge]] (withdrawal charge, or contingent deferred sales charge) is deducted if the owner surrenders a deferred annuity or withdraws more than a permitted 'free' amount during the early years. It is usually a percentage that **declines each year** until it reaches zero at the end of the surrender period. Many contracts allow a limited free withdrawal each year (for example, 10% of the value) without the charge.\n\nNew York's nonforfeiture law limits how much a surrender charge may reduce the cash surrender benefit. For a contract without a market-value adjustment or an equity index account, the withdrawal charge percentage cannot exceed **10%** (less any premium charge percentage). For an equity index account, that percentage must decline by one percentage point each year after the third contract year and reach zero after the tenth year.",
+     "simple": "Cash out early and you pay a fee that shrinks every year until it disappears. New York caps how big that fee can be.",
+     "example": {
+      "title": "Example: Gina surrenders in year 3",
+      "body": "Gina's schedule is 7%, 6%, 5%, … 0%. In year 3 she surrenders a $80,000 contract: 5% × $80,000 = $4,000 charge, so she receives $76,000 (before any income tax on gains)."
+     },
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "NY Ins. Law § 4223(e)(3): without a market-value adjustment or equity index account, the withdrawal charge percentage may not exceed 10% less any premium charge; for equity index accounts it declines 1% a year after year 3 and reaches zero after year 10.",
+       "sources": [
+        "ny-isc-4223"
+       ]
+      },
+      {
+       "kind": "exam-trap",
+       "text": "A surrender charge is the insurer's charge, not a tax. Federal tax rules on early withdrawals are a separate issue."
+      }
+     ]
+    },
+    {
+     "heading": "Death benefits before annuitization",
+     "body": "If the owner or annuitant dies during the accumulation period, deferred annuities generally pay a **death benefit** to the beneficiary.\n\nIn New York, for a contract that provides a cash surrender benefit before annuity payments begin, the death benefit may not be less than the **actual accumulation amount** (for an equity index account, not less than that account's value). In other words, surrender charges do not reduce the minimum death benefit. A contract that does not provide such death benefits must say so prominently.\n\nOnce payments begin, what (if anything) a beneficiary receives depends on the payout option chosen — covered in the next lesson.",
+     "simple": "If someone dies before payouts start, the beneficiary in New York gets at least the full accumulated value — without surrender charges taken out.",
+     "example": {
+      "title": "Example: Paula's beneficiary",
+      "body": "Paula dies in year 2 of a single premium deferred fixed annuity while a 6% surrender charge would apply to a surrender. Her beneficiary receives at least the full accumulated value, with no surrender charge deducted."
+     },
+     "callouts": [
+      {
+       "kind": "ny-rule",
+       "text": "NY Ins. Law § 4223(c)(1): before annuity payments begin, the death benefit may not be less than the actual accumulation amount (or the equity index account value).",
+       "sources": [
+        "ny-isc-4223"
+       ]
+      }
+     ]
+    }
+   ],
+   "activity": {
+    "type": "truefalse",
+    "prompt": "True or false: New York annuity rules.",
+    "statements": [
+     {
+      "text": "A NY annuity sold by mail order must allow a 30-day free look.",
+      "answer": true,
+      "explanation": "§ 3219(a)(9) requires 30 days for mail-order contracts."
+     },
+     {
+      "text": "After two years, a NY annuity is incontestable even as to the annuitant's age.",
+      "answer": false,
+      "explanation": "Statements relating to age, sex and identity are excluded from incontestability."
+     },
+     {
+      "text": "If the owner of a NY deferred annuity stops paying, the insurer must provide a paid-up annuity benefit.",
+      "answer": true,
+      "explanation": "§ 4223(a)(1)(A) requires a paid-up annuity benefit upon cessation of payments."
+     },
+     {
+      "text": "NY's standard nonforfeiture law for annuities applies to immediate annuities.",
+      "answer": false,
+      "explanation": "§ 4223(b)(1) excludes immediate annuities (and variable annuities, among others)."
+     },
+     {
+      "text": "Surrender charges reduce the minimum death benefit of a NY deferred annuity before payouts begin.",
+      "answer": false,
+      "explanation": "§ 4223(c)(1) sets the minimum death benefit at the actual accumulation amount, which is not reduced by surrender charges."
+     }
+    ]
+   },
+   "knowledgeChecks": [
+    {
+     "prompt": "Under NY § 3219, the free-look period for an individual annuity (not sold by mail) must be:",
+     "choices": [
+      "Exactly 10 days",
+      "Not less than 10 nor more than 30 days from delivery",
+      "60 days from application",
+      "Until the first payment"
+     ],
+     "answerIndex": 1,
+     "explanation": "§ 3219(a)(9) sets a period of not less than 10 nor more than 30 days from delivery."
+    },
+    {
+     "prompt": "How long may a NY insurer defer paying a deferred annuity's cash surrender benefit after demand?",
+     "choices": [
+      "30 days",
+      "Six months",
+      "One year",
+      "It may not defer payment"
+     ],
+     "answerIndex": 1,
+     "explanation": "§ 4223(a)(1)(B) permits deferral for six months after demand with surrender of the contract."
+    },
+    {
+     "prompt": "Within what period may a defaulted NY annuity requiring payments be reinstated (if its cash value was not paid)?",
+     "choices": [
+      "31 days",
+      "One year",
+      "Three years",
+      "Five years"
+     ],
+     "answerIndex": 2,
+     "explanation": "§ 3219(a)(8) allows reinstatement within three years from default."
+    }
+   ],
+   "summary": [
+    "NY § 3219 requires a 31-day grace period, 2-year incontestability (except age, sex, identity), entire contract, misstatement of age/sex adjustment, 3-year reinstatement and a 10-to-30-day free look (30 days for mail order).",
+    "NY § 4223 guarantees a paid-up annuity benefit or cash surrender benefit when payments stop; cash surrender payment may be deferred up to six months.",
+    "Surrender charges decline over time; NY limits the withdrawal charge percentage used in minimum cash surrender values.",
+    "Before payouts begin, a NY deferred annuity's death benefit may not be less than the actual accumulation amount.",
+    "§ 4223 does not apply to variable or immediate annuities."
+   ],
+   "related": [
+    "ann-l01",
+    "ann-l03"
+   ],
+   "sources": [
+    "ny-isc-3219",
+    "ny-isc-4223",
+    "ny-isc-4220"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-l03",
+   "sectionId": "ann",
+   "order": 3,
+   "title": "Annuity Payout Options: Life Contingent and Period Certain",
+   "outlineIds": [
+    "ann.4",
+    "ann.4.1",
+    "ann.4.2",
+    "ann.4.3",
+    "ann.4.4"
+   ],
+   "estMinutes": 20,
+   "intro": "When it's time to turn an annuity into income, the owner must choose how payments will be made. Every option is a trade-off: the more the insurer guarantees beyond the annuitant's own life, the smaller each payment. Learn the options and that one rule, and most exam questions answer themselves.",
+   "objectives": [
+    "Explain life-contingent payout options and why straight life pays the most",
+    "Distinguish life with period certain from refund annuities",
+    "Compare single-life and multiple-life options",
+    "Describe annuities certain and why they can be outlived"
+   ],
+   "keyTerms": [
+    "straight-life-annuity",
+    "life-annuity-period-certain",
+    "refund-annuity",
+    "joint-and-survivor",
+    "joint-life-annuity",
+    "annuity-certain"
+   ],
+   "parts": [
+    {
+     "heading": "Life-contingent options",
+     "body": "A **life contingency** means payments depend on whether the annuitant is alive. These options pay for life, so the annuitant cannot outlive them:\n\n- **[[straight-life-annuity|Straight (pure) life]]** — payments for life, nothing after death. Highest payment; no guarantee.\n- **[[life-annuity-period-certain|Life with period certain]]** — payments for life, but at least a set number of years (e.g. 10). If the annuitant dies early, a beneficiary receives the rest of the period.\n- **[[refund-annuity|Refund annuity]]** — payments for life, with a guarantee that at least the purchase price is paid out. The balance goes to the beneficiary either in a lump sum (**cash refund**) or by continued payments (**installment refund**).",
+     "simple": "Life options pay as long as you live. Straight life pays the most but nothing after death. Period certain guarantees a number of years. Refund guarantees you get back at least what you paid.",
+     "example": {
+      "title": "Example: three choices for Victor",
+      "body": "With $100,000, Victor could take straight life (largest check, nothing after death), life with 10-year certain (smaller check, at least 10 years of payments) or cash refund (smaller check, at least $100,000 paid in total)."
+     },
+     "callouts": [
+      {
+       "kind": "memory-tip",
+       "text": "More guarantees = smaller checks. Life only = biggest check, no leftovers."
+      },
+      {
+       "kind": "exam-trap",
+       "text": "Period certain guarantees YEARS; refund guarantees DOLLARS."
+      }
+     ]
+    },
+    {
+     "heading": "Pure life versus life with a guaranteed minimum",
+     "body": "Choosing between a pure life option and a guaranteed-minimum option (period certain or refund) is a trade-off between **income now** and **protection for heirs**:\n\n- A healthy annuitant with no dependents who wants maximum income may prefer straight life.\n- An annuitant who worries about dying early and 'losing' the premium may prefer a period certain or refund feature, accepting a smaller payment.",
+     "example": {
+      "title": "Example: Grace's 10-year certain",
+      "body": "Grace chose life with 10-year certain and died after 4 years. Her son receives the same payments for the remaining 6 years. If she had lived 25 years, she would have been paid for all 25, and nothing would be owed at her death."
+     },
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "The period certain is a MINIMUM, not a maximum: payments still continue for life if the annuitant outlives it."
+      }
+     ]
+    },
+    {
+     "heading": "Single life versus multiple life",
+     "body": "Options can cover one life or two (or more):\n\n- **[[joint-and-survivor|Joint and survivor]]** — payments continue until the **last** annuitant dies, either in full (100%) or reduced (e.g. 50% or two-thirds) after the first death. Common for married couples.\n- **[[joint-life-annuity|Joint life]]** — payments stop entirely at the **first** death. Pays more per month than joint and survivor, but leaves the survivor with nothing from the annuity.\n\nAdding a second life lowers each payment compared with a single-life option, and a higher survivor percentage lowers it further.",
+     "simple": "Joint and survivor keeps paying as long as either person is alive. Joint life stops when the first person dies.",
+     "callouts": [
+      {
+       "kind": "memory-tip",
+       "text": "'And survivor' = the Survivor keeps getting paid."
+      }
+     ]
+    },
+    {
+     "heading": "Annuities certain",
+     "body": "An **[[annuity-certain|annuity certain]]** has **no life contingency**. It pays for a stated period (**fixed period**) or pays a stated amount until the money runs out (**fixed amount**), whether the annuitant lives or dies. If the annuitant dies early, the beneficiary receives the remaining payments; if the annuitant lives longer, payments still stop at the end.\n\nThat makes the annuity certain the one common option that **can be outlived**. It is useful for bridging a specific gap — for example, income from retirement until a pension or Social Security starts.",
+     "simple": "An annuity certain is a set number of payments. It doesn't care how long you live, so it can run out while you're still alive.",
+     "example": {
+      "title": "Example: Owen's 5-year bridge",
+      "body": "Owen retires at 62 and chooses a 5-year annuity certain to provide income until his pension begins at 67."
+     },
+     "callouts": []
+    }
+   ],
+   "activity": {
+    "type": "match",
+    "prompt": "Match each payout option to its guarantee.",
+    "pairs": [
+     {
+      "left": "Straight life",
+      "right": "Payments for life only; nothing after death"
+     },
+     {
+      "left": "Life with 10-year certain",
+      "right": "Payments for life, at least 10 years in total"
+     },
+     {
+      "left": "Cash refund",
+      "right": "Lump sum to the beneficiary of any unpaid purchase price"
+     },
+     {
+      "left": "Installment refund",
+      "right": "Payments continue until the purchase price is returned"
+     },
+     {
+      "left": "Joint and survivor",
+      "right": "Payments continue until the last of two annuitants dies"
+     },
+     {
+      "left": "Joint life",
+      "right": "Payments stop at the first of two deaths"
+     },
+     {
+      "left": "Annuity certain",
+      "right": "Payments for a fixed period, regardless of life or death"
+     }
+    ]
+   },
+   "knowledgeChecks": [
+    {
+     "prompt": "Which payout option provides the largest periodic payment?",
+     "choices": [
+      "Life with 20-year certain",
+      "Straight life",
+      "Joint and 100% survivor",
+      "Installment refund"
+     ],
+     "answerIndex": 1,
+     "explanation": "Straight life has no guarantees beyond the annuitant's life, so each payment is largest."
+    },
+    {
+     "prompt": "A couple wants income that continues as long as either spouse is alive. Which option fits?",
+     "choices": [
+      "Joint life",
+      "Joint and survivor",
+      "Straight life on one spouse",
+      "5-year annuity certain"
+     ],
+     "answerIndex": 1,
+     "explanation": "Joint and survivor continues to the last death; joint life stops at the first."
+    },
+    {
+     "prompt": "Which option can an annuitant outlive?",
+     "choices": [
+      "Straight life",
+      "Life with period certain",
+      "Annuity certain",
+      "Cash refund"
+     ],
+     "answerIndex": 2,
+     "explanation": "An annuity certain pays for a set period only, so a long-lived annuitant can outlive it."
+    }
+   ],
+   "summary": [
+    "Life-contingent options pay for the annuitant's lifetime and cannot be outlived.",
+    "Straight life pays the most per period but nothing after death.",
+    "Life with period certain guarantees a minimum number of years; refund annuities guarantee at least the purchase price (cash or installment).",
+    "Joint and survivor pays until the last death; joint life stops at the first death.",
+    "An annuity certain pays for a fixed period or amount and can be outlived."
+   ],
+   "related": [
+    "ann-l02",
+    "ann-l04"
+   ],
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "ann-l04",
+   "sectionId": "ann",
+   "order": 4,
+   "title": "Annuity Products and Personal Uses: Fixed, Indexed, Variable and GMWB",
+   "outlineIds": [
+    "ann.5",
+    "ann.5.1",
+    "ann.5.2",
+    "ann.5.3",
+    "ann.5.4",
+    "ann.5.5",
+    "ann.5.6",
+    "ann.6",
+    "ann.6.1",
+    "ann.6.2",
+    "ann.6.3",
+    "ann.6.4"
+   ],
+   "estMinutes": 30,
+   "intro": "Annuities come in three main product types. The key question for each is simple: who bears the investment risk? With a fixed annuity, the insurer does. With a variable annuity, the owner does. Indexed annuities sit in between. This lesson compares the products, explains why variable annuities need a securities registration to sell, and shows how people use annuities in real financial plans.",
+   "objectives": [
+    "Describe fixed annuities, the general account, and guaranteed versus current interest rates",
+    "Explain how fixed indexed annuities credit interest",
+    "Describe variable annuities, separate accounts, accumulation and annuity units, and licensing requirements",
+    "Identify personal uses of annuities, including tax-deferred growth, retirement income, GMWB riders and education funding"
+   ],
+   "keyTerms": [
+    "fixed-annuity",
+    "general-account",
+    "guaranteed-minimum-rate",
+    "current-interest-rate",
+    "indexed-annuity",
+    "variable-annuity",
+    "separate-account",
+    "accumulation-units",
+    "gmwb",
+    "tax-deferral"
+   ],
+   "parts": [
+    {
+     "heading": "Fixed annuities and the general account",
+     "body": "In a **[[fixed-annuity|fixed annuity]]**, premiums go into the insurer's **[[general-account|general account]]** — its main, conservatively invested portfolio. The insurer guarantees principal and a **[[guaranteed-minimum-rate|minimum interest rate]]**, and usually credits a higher **[[current-interest-rate|current rate]]** that can change over time but never drops below the minimum.\n\nWhen a fixed annuity is annuitized, payments are a **level, guaranteed dollar amount**. The insurer bears the investment risk. The owner's main risk is **inflation**: level payments typically have no cost-of-living adjustment, so their purchasing power declines over time.",
+     "simple": "A fixed annuity is the safe, predictable kind. The insurer promises a minimum interest rate and a steady paycheck. The downside is that a fixed paycheck buys less as prices rise.",
+     "example": {
+      "title": "Example: Ruth's rates",
+      "body": "Ruth's contract guarantees 1.5% and currently credits 4.5%. The insurer can lower the current rate next year, but never below 1.5%."
+     },
+     "callouts": [
+      {
+       "kind": "memory-tip",
+       "text": "Fixed = insurer Fixes the risk."
+      }
+     ]
+    },
+    {
+     "heading": "Fixed (equity) indexed annuities",
+     "body": "A **[[indexed-annuity|fixed indexed annuity]]** is a fixed annuity whose credited interest is linked to a market index, such as the S&P 500. A formula adjusts the index change using factors such as:\n\n- **Participation rate** — the share of the index gain used\n- **Cap** — the maximum rate credited\n- **Margin (spread)** — a percentage subtracted from the index gain\n- **Floor** — the minimum credited rate, which protects against index losses\n\nThe owner shares in some of the market's upside with protection against index losses, and is not invested directly in the stocks. Indexed annuities carry more risk and potential return than traditional fixed annuities, and less than variable annuities. Because fixed indexed annuities are fixed annuities, a life insurance license is sufficient to sell them.",
+     "simple": "An indexed annuity gives you part of a stock index's gains, up to a limit, and a floor so index drops don't reduce your account.",
+     "example": {
+      "title": "Example: Rita's year",
+      "body": "Participation 60%, cap 7%, floor 0%. The index rises 15%: 60% × 15% = 9%, capped at 7% → 7% credited. If the index had fallen, the 0% floor would apply."
+     },
+     "callouts": [
+      {
+       "kind": "note",
+       "text": "NY Ins. Law § 4223(c)(4)(D): an equity index formula is based on the percentage change in an equity index adjusted by factors such as participation rates, margins, caps and floors.",
+       "sources": [
+        "ny-isc-4223"
+       ]
+      },
+      {
+       "kind": "exam-trap",
+       "text": "Fixed indexed annuities are not the same as registered index-linked annuities (RILAs), which can lose value and are registered securities."
+      }
+     ]
+    },
+    {
+     "heading": "Variable annuities and licensing",
+     "body": "A **[[variable-annuity|variable annuity]]** invests premiums in a **[[separate-account|separate account]]**, divided into subaccounts (similar to mutual funds) chosen by the owner. Values rise and fall with investment results, and the owner can lose money, including principal. The owner bears the investment risk.\n\n- **[[accumulation-units|Accumulation units]]**: during accumulation, each premium buys units whose value changes daily.\n- **Annuity units**: at annuitization, accumulation units convert to a **fixed number** of annuity units; each variable payment = number of units × current unit value, so payments vary.\n- Common features: a death benefit (often at least the premiums paid minus withdrawals) and optional living-benefit riders for an extra charge.\n\n**Licensing:** because the owner bears the investment risk, variable annuities are **securities**. They are regulated by state insurance departments **and** by the SEC and FINRA, and they are sold with a **prospectus**. A producer needs a **life insurance license plus securities registration** to sell them.",
+     "simple": "A variable annuity is like a set of mutual funds inside an annuity. It can grow more but can also lose money. Selling one requires both an insurance license and a securities registration.",
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "Fixed and fixed indexed annuities: life license only. Variable annuities: life license PLUS securities registration."
+      },
+      {
+       "kind": "note",
+       "text": "Investor.gov (SEC) and FINRA both state that variable annuities are regulated by state insurance regulators as well as by the SEC (and FINRA).",
+       "sources": [
+        "fed-sec-investor-variable-annuities",
+        "finra-annuities"
+       ]
+      }
+     ]
+    },
+    {
+     "heading": "Personal uses: tax deferral, retirement income, GMWB and education",
+     "body": "**[[tax-deferral|Tax-deferred growth]]:** interest and gains inside an annuity are not taxed until withdrawn, annuitized or paid as a death benefit. Gains are then taxed as **ordinary income** (not capital gains). Non-qualified annuities are bought with after-tax dollars. Holding an annuity inside an IRA or 401(k) adds no extra tax deferral.\n\n**Retirement income:** annuitizing converts savings into income the annuitant cannot outlive, shifting longevity risk to the insurer.\n\n**[[gmwb|Guaranteed minimum withdrawal benefit (GMWB)]]:** an optional rider (for an extra charge), usually on a variable annuity, that guarantees the owner can withdraw a set amount each year — for a period or, in lifetime versions, for life — even if poor investment results reduce the account value to zero, **without annuitizing**. Withdrawals above the allowed amount can reduce the guarantee.\n\n**Education funds:** a deferred annuity can accumulate money for future costs such as college. But gains are taxable as ordinary income when withdrawn, a federal tax penalty may apply to withdrawals before age 59½, and surrender charges may apply in early years — so timing matters.",
+     "simple": "People use annuities to grow money without yearly taxes, to create lifetime retirement income, to guarantee withdrawals with a GMWB rider, and sometimes to save for long-term goals like college.",
+     "example": {
+      "title": "Example: Hector's GMWB",
+      "body": "Hector's GMWB allows $10,000 a year for life. After a severe market drop, his account reaches zero, but the insurer keeps paying $10,000 a year under the rider."
+     },
+     "callouts": [
+      {
+       "kind": "exam-trap",
+       "text": "Tax-deferred is not tax-free: annuity gains are taxed as ordinary income when they come out."
+      },
+      {
+       "kind": "note",
+       "text": "Tax details (cost basis, exclusion ratio, early-withdrawal penalties) are covered in the federal tax section."
+      }
+     ]
+    }
+   ],
+   "activity": {
+    "type": "categorize",
+    "prompt": "Sort each feature into the annuity product it best describes.",
+    "categories": [
+     "Fixed annuity",
+     "Fixed indexed annuity",
+     "Variable annuity"
+    ],
+    "items": [
+     {
+      "text": "Level, guaranteed payout amount",
+      "category": "Fixed annuity"
+     },
+     {
+      "text": "Declared current rate with a guaranteed minimum",
+      "category": "Fixed annuity"
+     },
+     {
+      "text": "Interest linked to an index with a cap and a floor",
+      "category": "Fixed indexed annuity"
+     },
+     {
+      "text": "Participation rate determines share of index gain",
+      "category": "Fixed indexed annuity"
+     },
+     {
+      "text": "Separate-account subaccounts chosen by the owner",
+      "category": "Variable annuity"
+     },
+     {
+      "text": "Sold with a prospectus; requires securities registration",
+      "category": "Variable annuity"
+     },
+     {
+      "text": "Accumulation units and annuity units",
+      "category": "Variable annuity"
+     }
+    ]
+   },
+   "knowledgeChecks": [
+    {
+     "prompt": "Who bears the investment risk in a variable annuity?",
+     "choices": [
+      "The insurer",
+      "The owner",
+      "The producer",
+      "The state guaranty fund"
+     ],
+     "answerIndex": 1,
+     "explanation": "Variable annuity values depend on separate-account investments, so the owner bears the risk."
+    },
+    {
+     "prompt": "An indexed annuity has 50% participation and a 6% cap. The index rises 10%. What is credited?",
+     "choices": [
+      "10%",
+      "6%",
+      "5%",
+      "0%"
+     ],
+     "answerIndex": 2,
+     "explanation": "50% × 10% = 5%, which is under the 6% cap, so 5% is credited."
+    },
+    {
+     "prompt": "What does a GMWB rider guarantee?",
+     "choices": [
+      "A minimum interest rate on a fixed annuity",
+      "A set level of withdrawals even if the account value is depleted by market losses",
+      "That surrender charges will be waived",
+      "That gains will be tax-free"
+     ],
+     "answerIndex": 1,
+     "explanation": "A GMWB guarantees withdrawals despite poor investment results; it does not waive surrender charges or taxes."
+    },
+    {
+     "prompt": "Which license(s) does a producer need to sell a variable annuity?",
+     "choices": [
+      "A life license only",
+      "A securities registration only",
+      "A life license plus securities registration",
+      "A property and casualty license"
+     ],
+     "answerIndex": 2,
+     "explanation": "Variable annuities are both insurance contracts and securities."
+    }
+   ],
+   "summary": [
+    "Fixed annuities: general account, insurer bears risk, guaranteed minimum plus current rate, level payments; main owner risk is inflation.",
+    "Fixed indexed annuities credit interest by an index formula (participation rate, cap, margin, floor) and protect against index losses.",
+    "Variable annuities: separate account, owner bears risk, accumulation and annuity units, prospectus; selling requires a life license plus securities registration.",
+    "Annuity gains grow tax-deferred and are taxed as ordinary income when withdrawn.",
+    "A GMWB rider guarantees withdrawals without annuitizing, even if the account value falls to zero."
+   ],
+   "related": [
+    "ann-l01",
+    "ann-l03"
+   ],
+   "sources": [
+    "fed-sec-investor-variable-annuities",
+    "finra-annuities",
+    "ny-isc-4223",
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

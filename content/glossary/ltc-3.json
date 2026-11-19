@@ -1,0 +1,211 @@
+{
+  "sectionId": "ltc",
+  "terms": [
+    {
+      "id": "ltc-partnership",
+      "term": "NY State Partnership for Long-Term Care",
+      "aliases": [
+        "NYSPLTC",
+        "Partnership policy",
+        "Partnership for Long Term Care"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.2.5",
+        "ltc.2.6"
+      ],
+      "formal": "A New York program (Social Services Law § 367-f; Regulation 144, 11 NYCRR Part 39) that links private LTC insurance to Medicaid. A person who bought a Superintendent-approved Partnership policy and has exhausted its benefits as the program requires receives 'Medicaid extended coverage': Medicaid eligibility that disregards all of the person's resources (total asset protection) or, for policies whose nursing-facility benefit is less than two years, resources equal to the benefits the policy paid (dollar-for-dollar protection). Protected resources are also shielded from Medicaid estate recovery.",
+      "plain": "The Partnership is a deal between New York and LTC insurers: buy an approved Partnership policy, use up its benefits, and then Medicaid can pay for your continuing care without making you spend down the assets the Partnership protects — and the state can't later take those protected assets from your estate.",
+      "simpler": "Your private policy pays first; when it runs out, Medicaid takes over while you keep your protected savings.",
+      "examples": [
+        "Rita buys an approved Partnership policy with a program logo. After she exhausts its benefits in a nursing home, she qualifies for Medicaid extended coverage without first spending down the assets the program protects.",
+        "Sid's Partnership policy has a nursing-home benefit of less than two years. It paid $150,000 in benefits, so Medicaid disregards $150,000 of his assets when he applies."
+      ],
+      "examTip": "Partnership = private LTC insurance + Medicaid asset protection. You must EXHAUST the Partnership policy first. Policies are approved by the Superintendent of Financial Services and carry a program logo. Two models: total asset vs dollar-for-dollar.",
+      "misconception": "A Partnership policy does not make you eligible for Medicaid immediately or regardless of your situation. You must first exhaust the policy's benefits, and Medicaid's other eligibility rules (such as income standards) still apply.",
+      "related": [
+        "dollar-for-dollar",
+        "medicaid",
+        "estate-recovery",
+        "long-term-care-insurance"
+      ],
+      "confusedWith": [
+        "dollar-for-dollar"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under New York's Partnership for Long-Term Care, when does Medicaid extended coverage begin for a Partnership policyowner?",
+        "choices": [
+          "After the insured has exhausted the Partnership policy's benefits as the program requires",
+          "As soon as the policy is issued",
+          "When the insured reaches age 65",
+          "After the insured has spent all of his or her assets"
+        ],
+        "answerIndex": 0,
+        "explanation": "SSL § 367-f(2) provides Medicaid extended coverage to a person who is or was covered by an approved Partnership policy and has exhausted its coverage and benefits as the program requires. Avoiding a full spend-down of protected assets is the whole point."
+      },
+      "sources": [
+        "ny-sos-367-f",
+        "ny-11nycrr-39-4"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "dollar-for-dollar",
+      "term": "Dollar-for-Dollar Asset Protection",
+      "aliases": [
+        "dollar-for-dollar model"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.2.6",
+        "ltc.2.5"
+      ],
+      "formal": "A Partnership asset-protection model under which, when the insured applies for Medicaid after exhausting a Partnership policy, Medicaid disregards an amount of the insured's resources equal to the value of the benefits the policy paid. Under NY Social Services Law § 367-f(1)(a)(i), this model applies to Partnership policies whose nursing-facility benefit is less than two years; other Partnership policies receive total asset protection (all resources disregarded).",
+      "plain": "For every dollar your Partnership policy paid out in benefits, you may keep one dollar of your assets and still qualify for Medicaid.",
+      "simpler": "The policy paid $100,000? You get to keep $100,000.",
+      "examples": [
+        "Lou's Partnership policy (nursing-home benefit under two years) paid $180,000 before it was exhausted. He has $210,000 in savings, so Medicaid disregards $180,000 and he must deal with only the remaining $30,000 under the usual Medicaid rules.",
+        "Ines owns a Partnership policy that qualifies for total asset protection instead, so Medicaid disregards all of her resources once her policy is exhausted."
+      ],
+      "examTip": "Two NY Partnership models: Dollar-for-Dollar (assets protected = benefits paid; tied to the shorter nursing-home benefit) and Total Asset (all assets disregarded). In both, the policy must be exhausted first, and protected assets are also shielded from Medicaid estate recovery.",
+      "misconception": "Dollar-for-dollar does not protect the amount of PREMIUM you paid; it protects an amount equal to the BENEFITS the policy paid.",
+      "related": [
+        "ltc-partnership",
+        "estate-recovery",
+        "medicaid"
+      ],
+      "confusedWith": [
+        "ltc-partnership"
+      ],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "Under a dollar-for-dollar Partnership policy, the amount of assets Medicaid disregards equals:",
+        "choices": [
+          "The total benefits paid by the Partnership policy",
+          "The total premiums the insured paid",
+          "All of the insured's assets",
+          "The policy's face amount at issue, regardless of benefits paid"
+        ],
+        "answerIndex": 0,
+        "explanation": "SSL § 367-f(1)(a)(i): for policies with a nursing-facility benefit under two years, Medicaid disregards resources equivalent to the value of benefits received. Total-asset policies disregard all resources; premiums paid are not the measure."
+      },
+      "sources": [
+        "ny-sos-367-f"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19",
+        "notes": "Outline label 'time element' is not used in the statute; content treats it as the total-asset (duration-based) model — flagged for lead review."
+      }
+    },
+    {
+      "id": "ltc-tax-credit",
+      "term": "NY Long-Term Care Insurance Tax Credit",
+      "aliases": [
+        "LTC insurance credit"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.2.8"
+      ],
+      "formal": "A New York State personal income tax credit (Tax Law § 606(aa)) equal to 20 percent of the premiums paid during the taxable year for a long-term care insurance policy that qualifies for the credit under Insurance Law § 1117. A credit larger than the taxpayer's tax for the year may be carried over to following years. Current statute text also caps the credit and limits it by NY adjusted gross income.",
+      "plain": "New York gives you a break on your state income tax for buying qualifying LTC insurance: a credit worth 20% of the premiums you paid that year. If the credit is more than your tax bill, the unused part carries forward to future years.",
+      "simpler": "Pay for qualifying LTC insurance, and New York takes 20% of that premium off your state income tax.",
+      "examples": [
+        "Bea pays $2,000 in premiums for a qualifying LTC policy this year. Her NY credit is 20% × $2,000 = $400, which directly reduces her state income tax.",
+        "Carl's credit is $500 but he owes only $300 in NY tax this year; the extra $200 carries over to reduce his tax in later years."
+      ],
+      "examTip": "Remember 20% of premiums, it's a CREDIT (dollar-for-dollar reduction of tax, not a deduction), the policy must qualify under Insurance Law § 1117, and excess credit carries forward. Current statute text sets a $1,500 cap and requires NY AGI under $250,000 — verify these figures before relying on them.",
+      "misconception": "The credit is not a deduction from income; it reduces the tax itself. It also isn't refundable — unused credit is carried over to future years.",
+      "related": [
+        "long-term-care-insurance",
+        "ltc-partnership"
+      ],
+      "confusedWith": [],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "New York's long-term care insurance tax credit equals what percentage of premiums paid for a qualifying policy during the taxable year?",
+        "choices": [
+          "20 percent",
+          "10 percent",
+          "50 percent",
+          "100 percent"
+        ],
+        "answerIndex": 0,
+        "explanation": "Tax Law § 606(aa)(1) allows a credit equal to twenty percent of the premiums paid during the taxable year for qualifying long-term care insurance."
+      },
+      "sources": [
+        "ny-tax-606-aa"
+      ],
+      "nySpecific": true,
+      "timeSensitive": true,
+      "reviewDue": "2027-11-19",
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19",
+        "notes": "20% rate and carryover verified; $1,500 cap and $250,000 NY AGI limit are in current statute text and may change."
+      }
+    },
+    {
+      "id": "estate-recovery",
+      "term": "Medicaid Estate Recovery",
+      "aliases": [
+        "OBRA '93 estate recovery",
+        "Medicaid Estate Recovery Act"
+      ],
+      "sectionId": "ltc",
+      "outlineIds": [
+        "ltc.2.7"
+      ],
+      "formal": "The federal requirement (42 U.S.C. § 1396p(b), made mandatory by the Omnibus Budget Reconciliation Act of 1993, OBRA '93) that each state seek to recover, from the estate of a deceased Medicaid recipient who was 55 or older when the assistance was received, the Medicaid paid for nursing facility services, home and community-based services, and related hospital and prescription drug services. Recovery may occur only after the death of a surviving spouse, and only when there is no surviving child under 21 or a child who is blind or permanently and totally disabled. Assets protected under a qualified state LTC Partnership are exempt.",
+      "plain": "If Medicaid paid for your long-term care after age 55, the state must try to get that money back from what you leave behind when you die — but not while your spouse is alive, not if you leave a child under 21 or a blind or disabled child, and not from assets your Partnership policy protected.",
+      "simpler": "Medicaid's long-term care help can be a loan against your estate, repaid after you (and your spouse) are gone.",
+      "examples": [
+        "Arthur, a widower, received Medicaid nursing home care from age 80 to 84. After he dies, the state files a claim against his estate, including the house his children expected to inherit.",
+        "Bella received Medicaid nursing home care, but her husband is still living; the state cannot recover from her estate until after his death."
+      ],
+      "examTip": "OBRA '93 made estate recovery mandatory. Key exam points: age 55+, long-term care services, recovery AFTER the death of the surviving spouse, and none while there is a child under 21 or a blind/disabled child. Partnership-protected assets are shielded.",
+      "misconception": "Estate recovery does not take assets while the recipient is alive or while a spouse survives, and it does not reach assets protected by a qualified LTC Partnership policy.",
+      "related": [
+        "medicaid",
+        "ltc-partnership",
+        "dollar-for-dollar"
+      ],
+      "confusedWith": [],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under OBRA '93 estate recovery rules, when may a state recover Medicaid long-term care costs from a deceased recipient's estate?",
+        "choices": [
+          "Only after the death of any surviving spouse, and only when there is no surviving child under 21 or blind or disabled",
+          "Immediately upon the recipient's death, regardless of family",
+          "While the recipient is still living in a nursing home",
+          "Only if the recipient was under age 55 when assistance was received"
+        ],
+        "answerIndex": 0,
+        "explanation": "42 U.S.C. § 1396p(b)(2) permits recovery only after the surviving spouse's death and only when there is no surviving child under 21 or blind/permanently and totally disabled. The age trigger is 55 OR OLDER, not under 55."
+      },
+      "sources": [
+        "fed-usc-42-1396p"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ],
+  "comparisons": []
+}

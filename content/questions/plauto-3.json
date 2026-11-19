@@ -1,0 +1,1553 @@
+{
+ "sectionId": "plauto",
+ "questions": [
+  {
+   "id": "plauto-q053",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.3",
+    "plauto.1.3.2"
+   ],
+   "concepts": [
+    "personal-injury-protection",
+    "no-fault-law"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Kevin is stopped at a red light in Queens when an insured driver rear-ends him. Kevin has a neck strain requiring physical therapy, and his bumper is crushed.",
+   "stem": "Which coverage pays Kevin's medical bills first?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The other driver's bodily injury liability, because she was at fault",
+     "rationale": "Incorrect: no-fault removes basic economic loss from the tort claim between covered persons."
+    },
+    {
+     "id": "b",
+     "text": "Kevin's collision coverage, because the injury came from a collision",
+     "rationale": "Incorrect: collision covers damage to the car, not injuries."
+    },
+    {
+     "id": "c",
+     "text": "The PIP coverage on Kevin's own policy, regardless of fault",
+     "rationale": "Correct: in NY, first-party no-fault benefits under the policy on the car Kevin occupied pay his basic economic loss regardless of fault."
+    },
+    {
+     "id": "d",
+     "text": "Kevin's uninsured motorist coverage, since he did nothing wrong",
+     "rationale": "Incorrect: UM applies to uninsured or hit-and-run vehicles; the other driver was insured."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Insurance Law § 5103(a) requires every NY owner's policy to pay first-party benefits to persons (other than occupants of another vehicle) for loss from use of the insured vehicle. Kevin's own PIP pays his medical bills without regard to fault, and under § 5104(a) he cannot recover that basic economic loss from the other driver. His car damage is a separate property damage claim against the at-fault driver's liability coverage (or his own collision coverage).",
+   "memoryTip": "In NY, your own car's PIP pays your medical bills first — fault comes later.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Kevin's own policy pays first",
+      "anyOf": [
+       "own policy",
+       "his own",
+       "own insurer"
+      ]
+     },
+     {
+      "label": "PIP / no-fault benefits",
+      "anyOf": [
+       "PIP",
+       "no-fault",
+       "first party"
+      ]
+     },
+     {
+      "label": "Regardless of fault",
+      "anyOf": [
+       "regardless of fault",
+       "no matter who",
+       "without regard"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-5103",
+    "ny-isc-5104"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q054",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.3.3"
+   ],
+   "concepts": [
+    "auto-liability-coverage"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Ida's 17-year-old son lives with her. He occasionally borrows a friend's car and, while driving it with permission, causes an accident that injures another driver. Ida's PAP lists only her own car.",
+   "stem": "Does Ida's PAP liability coverage protect her son for this accident?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "No, liability coverage applies only to the auto listed in the declarations",
+     "rationale": "Incorrect: the named insured and family members are covered while using non-owned autos too."
+    },
+    {
+     "id": "b",
+     "text": "No, because the son is not listed as a named insured on the declarations",
+     "rationale": "Incorrect: resident relatives are 'family members' and are insureds without being named."
+    },
+    {
+     "id": "c",
+     "text": "Yes, but only for medical payments to his passengers, not for liability",
+     "rationale": "Incorrect: liability coverage itself extends to family members using other autos."
+    },
+    {
+     "id": "d",
+     "text": "Yes, a resident family member is insured while using any auto",
+     "rationale": "Correct: the PAP covers the named insured and family members for the use of any auto, subject to exclusions such as regular-use vehicles."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Under the PAP liability coverage, insureds include the named insured or any family member (a resident relative by blood, marriage or adoption) for the ownership, maintenance or use of any auto or trailer, and any person using the covered auto. The friend's car is not furnished for the son's regular use, so his occasional use is covered (the friend's own policy normally pays first).",
+   "memoryTip": "Family members are covered in any car they borrow occasionally.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Son is a resident family member",
+      "anyOf": [
+       "family member",
+       "resident",
+       "lives with"
+      ]
+     },
+     {
+      "label": "Liability covers family members using any auto",
+      "anyOf": [
+       "any auto",
+       "non-owned",
+       "borrow"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q055",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.3.2"
+   ],
+   "concepts": [
+    "supplementary-payments"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "Interest that accrues after a judgment against the insured is paid under which part of PAP liability?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Medical payments, subject to its own limit",
+     "rationale": "Incorrect: medical payments cover insureds' medical and funeral expenses."
+    },
+    {
+     "id": "b",
+     "text": "Supplementary payments, in addition to the limit",
+     "rationale": "Correct: post-judgment interest is a supplementary payment made in addition to the liability limit."
+    },
+    {
+     "id": "c",
+     "text": "Collision, after the deductible is applied",
+     "rationale": "Incorrect: collision is physical damage coverage for the insured's car."
+    },
+    {
+     "id": "d",
+     "text": "Property damage liability, within the limit",
+     "rationale": "Incorrect: post-judgment interest does not erode the damages limit."
+    }
+   ],
+   "correct": "b",
+   "explanation": "PAP liability coverage includes supplementary payments paid in addition to the limit of liability, such as bail bond costs up to a stated amount, premiums on appeal and attachment bonds, interest accruing after a judgment, loss of earnings for attending hearings or trials at the insurer's request, and other reasonable expenses incurred at the insurer's request.",
+   "memoryTip": "Supplementary = on top of the limit.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q056",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.3.4"
+   ],
+   "concepts": [
+    "auto-liability-coverage"
+   ],
+   "difficulty": 2,
+   "style": "negative",
+   "tags": [
+    "negative-wording"
+   ],
+   "stem": "PAP liability coverage excludes each of the following EXCEPT:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Injury to a pedestrian caused by the insured's careless driving",
+     "rationale": "Correct: negligent injury to others is exactly what liability coverage is for."
+    },
+    {
+     "id": "b",
+     "text": "Damage to property owned by the insured",
+     "rationale": "Incorrect: property owned or being transported by an insured is excluded."
+    },
+    {
+     "id": "c",
+     "text": "Injury the insured causes on purpose",
+     "rationale": "Incorrect: intentionally caused bodily injury or property damage is excluded."
+    },
+    {
+     "id": "d",
+     "text": "Liability while the auto carries paying passengers for hire",
+     "rationale": "Incorrect: use as a public or livery conveyance is excluded under the PAP (TNC use is handled separately)."
+    }
+   ],
+   "correct": "a",
+   "explanation": "PAP liability pays for bodily injury and property damage the insured negligently causes to others. Standard exclusions include intentional injury or damage, damage to property owned or transported by the insured, property rented to or in the insured's care (with limited exceptions), use as a public or livery conveyance, and vehicles owned by or furnished for the regular use of an insured that are not covered autos.",
+   "memoryTip": "Liability covers carelessness toward others, not intent or your own stuff.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q057",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.4"
+   ],
+   "concepts": [
+    "auto-medical-payments"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Lina's coworker rides in Lina's covered car to lunch. Another driver sideswipes them, and the coworker needs stitches. Lina's PAP includes medical payments coverage.",
+   "stem": "Can Lina's medical payments coverage pay her passenger's medical bills?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Only if Lina is found legally liable for the crash",
+     "rationale": "Incorrect: medical payments is not liability coverage; fault doesn't matter."
+    },
+    {
+     "id": "b",
+     "text": "Only if the passenger is related to Lina by blood",
+     "rationale": "Incorrect: any person occupying the covered auto is an insured for medical payments."
+    },
+    {
+     "id": "c",
+     "text": "Yes, regardless of who caused the accident",
+     "rationale": "Correct: medical payments covers any person occupying the covered auto, without regard to fault."
+    },
+    {
+     "id": "d",
+     "text": "No, medical payments covers only the named insured",
+     "rationale": "Incorrect: it covers family members and other occupants of the covered auto."
+    }
+   ],
+   "correct": "c",
+   "explanation": "PAP medical payments coverage pays reasonable expenses for necessary medical and funeral services for insureds: the named insured and family members (while occupying a motor vehicle or struck as pedestrians) and any other person while occupying the covered auto. It pays regardless of fault, up to its per-person limit.",
+   "memoryTip": "MedPay follows the car's passengers, no fault needed.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q058",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.1.3",
+    "plauto.2.4"
+   ],
+   "concepts": [
+    "personal-injury-protection",
+    "auto-medical-payments"
+   ],
+   "difficulty": 2,
+   "style": "comparison",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "How does New York PIP differ from PAP medical payments coverage?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "MedPay is mandatory and pays lost earnings; PIP is optional and pays only medical bills",
+     "rationale": "Incorrect: this reverses the two coverages."
+    },
+    {
+     "id": "b",
+     "text": "PIP is mandatory and also pays lost earnings; MedPay is optional and pays medical/funeral only",
+     "rationale": "Correct: PIP pays basic economic loss including lost earnings and is required by § 5103; MedPay is optional and limited to medical and funeral expenses."
+    },
+    {
+     "id": "c",
+     "text": "Both are mandatory, and each pays only the at-fault driver's victims, not insureds",
+     "rationale": "Incorrect: both are first-party coverages; only PIP is mandatory."
+    },
+    {
+     "id": "d",
+     "text": "PIP pays only if the insured is at fault; MedPay pays only if the other driver is",
+     "rationale": "Incorrect: both coverages pay regardless of fault."
+    }
+   ],
+   "correct": "b",
+   "explanation": "NY PIP (Ins. Law §§ 5102–5103) is required in every owner's policy and pays basic economic loss up to $50,000 per person: medical and rehabilitation expenses, lost earnings (up to $2,000 a month, less 20%), other necessary expenses ($25 a day), and a $2,000 death benefit. PAP medical payments is optional and pays only reasonable medical and funeral expenses. Both are paid regardless of fault.",
+   "memoryTip": "PIP = paycheck plus medical; MedPay = medical only.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-5102",
+    "ny-isc-5103"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q059",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.5.2"
+   ],
+   "concepts": [
+    "comprehensive-coverage",
+    "collision-coverage"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "Under the PAP, damage from hitting a deer is paid under which coverage?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Other than collision (comprehensive)",
+     "rationale": "Correct: contact with a bird or animal is an other-than-collision loss."
+    },
+    {
+     "id": "b",
+     "text": "Collision, because the car struck an object",
+     "rationale": "Incorrect: although it feels like a crash, the PAP classifies animal contact as other than collision."
+    },
+    {
+     "id": "c",
+     "text": "Property damage liability coverage",
+     "rationale": "Incorrect: liability pays others' property, not the insured's car."
+    },
+    {
+     "id": "d",
+     "text": "Uninsured motorist",
+     "rationale": "Incorrect: UM covers bodily injury caused by uninsured drivers."
+    }
+   ],
+   "correct": "a",
+   "explanation": "The PAP lists contact with a bird or animal among other-than-collision perils, along with missiles or falling objects, fire, theft, explosion or earthquake, windstorm, hail, water or flood, vandalism, riot and glass breakage.",
+   "memoryTip": "Critters = Comprehensive.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q060",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.5.2",
+    "plauto.2.5.3"
+   ],
+   "concepts": [
+    "comprehensive-coverage",
+    "policy-deductible"
+   ],
+   "difficulty": 1,
+   "style": "calculation",
+   "tags": [
+    "math"
+   ],
+   "scenario": "A hailstorm dents Vic's car, and repairs cost $3,200. Vic's policy has a $500 other-than-collision deductible and a $1,000 collision deductible.",
+   "stem": "How much will Vic's insurer pay for the hail damage?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$3,200",
+     "rationale": "Incorrect: this ignores the comprehensive deductible."
+    },
+    {
+     "id": "b",
+     "text": "$2,200",
+     "rationale": "Incorrect: this subtracts the $1,000 collision deductible, but hail is a comprehensive loss."
+    },
+    {
+     "id": "c",
+     "text": "$0",
+     "rationale": "Incorrect: hail is a covered other-than-collision peril."
+    },
+    {
+     "id": "d",
+     "text": "$2,700",
+     "rationale": "Correct: $3,200 − $500 deductible = $2,700 under other than collision coverage."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Hail is an other-than-collision (comprehensive) peril. The insurer pays the cost to repair less the comprehensive deductible: $3,200 − $500 = $2,700. The collision deductible does not apply to a comprehensive loss.",
+   "memoryTip": "Hail → comprehensive deductible.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q061",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.5.1",
+    "plauto.2.5.3"
+   ],
+   "concepts": [
+    "collision-coverage",
+    "actual-cash-value"
+   ],
+   "difficulty": 2,
+   "style": "calculation",
+   "tags": [
+    "math"
+   ],
+   "scenario": "Wendy's car, with an actual cash value of $9,000, is badly damaged when she slides into a guardrail. Repairs would cost $11,000. She has collision coverage with a $1,000 deductible.",
+   "stem": "How much will the insurer pay Wendy for her car?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$10,000",
+     "rationale": "Incorrect: this subtracts the deductible from the repair cost instead of using the lower ACV."
+    },
+    {
+     "id": "b",
+     "text": "$9,000",
+     "rationale": "Incorrect: this forgets the collision deductible."
+    },
+    {
+     "id": "c",
+     "text": "$8,000",
+     "rationale": "Correct: the policy pays the lesser of ACV ($9,000) or repair cost ($11,000), minus the $1,000 deductible: $8,000."
+    },
+    {
+     "id": "d",
+     "text": "$11,000",
+     "rationale": "Incorrect: the insurer does not pay more than the car's actual cash value."
+    }
+   ],
+   "correct": "c",
+   "explanation": "PAP physical damage pays the lesser of the actual cash value of the damaged property or the amount needed to repair or replace it, minus the deductible. Repair ($11,000) exceeds ACV ($9,000), so the car is a total loss: $9,000 − $1,000 = $8,000. The insurer may keep the salvage.",
+   "memoryTip": "Total loss pays ACV minus the deductible.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Pays the lesser of ACV or repair cost",
+      "anyOf": [
+       "lesser",
+       "actual cash value",
+       "ACV"
+      ]
+     },
+     {
+      "label": "Total loss because repair exceeds ACV",
+      "anyOf": [
+       "total loss",
+       "exceeds"
+      ]
+     },
+     {
+      "label": "$9,000 − $1,000 = $8,000",
+      "anyOf": [
+       "8,000"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q062",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.5.4"
+   ],
+   "concepts": [
+    "transportation-expenses"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Lars carries only liability and PIP on his car. After he hits a pole, his car is in the shop for two weeks and he rents a car.",
+   "stem": "Will Lars's policy pay any of the rental car cost?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "No, because he carries no collision coverage",
+     "rationale": "Correct: transportation expenses apply only if the policy carries the coverage that responds to the loss."
+    },
+    {
+     "id": "b",
+     "text": "Yes, transportation expenses apply to every auto policy",
+     "rationale": "Incorrect: they are part of physical damage coverage and follow it."
+    },
+    {
+     "id": "c",
+     "text": "Yes, liability coverage pays for the insured's rental car",
+     "rationale": "Incorrect: liability pays others' losses, not the insured's transportation."
+    },
+    {
+     "id": "d",
+     "text": "Yes, up to the full rental cost with no daily limit",
+     "rationale": "Incorrect: even when it applies, the benefit has daily and total limits."
+    }
+   ],
+   "correct": "a",
+   "explanation": "PAP transportation expenses reimburse temporary transportation when the covered auto is withdrawn from use, but only if the declarations show the coverage applicable to the loss: collision coverage for a collision loss, other-than-collision coverage for a comprehensive loss. Lars has liability only, so nothing is paid for his car or his rental.",
+   "memoryTip": "No collision coverage, no collision rental benefit.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q063",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.2",
+    "plauto.2.3.3",
+    "plauto.2.5"
+   ],
+   "concepts": [
+    "auto-liability-coverage",
+    "collision-coverage"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky"
+   ],
+   "scenario": "On vacation, Pat rents a car for a week. He carries a PAP with liability, collision and comprehensive on his own car. He backs the rental into another driver's parked car, damaging both.",
+   "stem": "How does Pat's own PAP apply to this rental car accident?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "No coverage applies, because the PAP covers only cars listed on the policy",
+     "rationale": "Incorrect: the PAP covers the named insured's use of non-owned autos such as short-term rentals."
+    },
+    {
+     "id": "b",
+     "text": "Liability covers the other driver, and Pat's collision extends to the rental",
+     "rationale": "Correct: liability covers Pat's use of any auto, and PAP physical damage gives a non-owned auto the broadest coverage on any covered auto."
+    },
+    {
+     "id": "c",
+     "text": "Liability covers the other driver, but no coverage applies to the rental",
+     "rationale": "Incorrect: Pat's collision coverage extends to a non-owned auto he is using."
+    },
+    {
+     "id": "d",
+     "text": "Only the rental company's insurance can apply, so Pat's insurer pays nothing",
+     "rationale": "Incorrect: Pat's PAP extends to the rental, though other insurance may share or be primary."
+    }
+   ],
+   "correct": "b",
+   "explanation": "The PAP covers the named insured for liability arising from the use of any auto, so Pat's liability coverage applies to the other driver's damage. A short-term rental is a non-owned auto (not owned by or furnished for Pat's regular use); PAP physical damage extends to it with the broadest coverage on any covered auto, subject to the deductible. Pat carries collision, so the rental's damage is covered.",
+   "memoryTip": "Rent a car, bring your PAP: liability and your physical damage coverage come along.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Liability covers use of any auto (non-owned)",
+      "anyOf": [
+       "any auto",
+       "non-owned",
+       "rental"
+      ]
+     },
+     {
+      "label": "Physical damage extends to a non-owned auto",
+      "anyOf": [
+       "non-owned",
+       "collision",
+       "broadest"
+      ]
+     },
+     {
+      "label": "Deductible applies to the rental damage",
+      "anyOf": [
+       "deductible"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q064",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.6"
+   ],
+   "concepts": [
+    "duties-after-loss",
+    "comprehensive-coverage"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [],
+   "stem": "Under the PAP, what must an insured do promptly if the covered auto is stolen?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Notify the police of the theft",
+     "rationale": "Correct: the PAP requires prompt notice to police when the covered auto or its equipment is stolen."
+    },
+    {
+     "id": "b",
+     "text": "Pay the deductible to the insurer first",
+     "rationale": "Incorrect: no prepayment of the deductible is required."
+    },
+    {
+     "id": "c",
+     "text": "Buy a replacement car within 10 days",
+     "rationale": "Incorrect: the policy doesn't require buying a replacement."
+    },
+    {
+     "id": "d",
+     "text": "Wait 30 days before telling the insurer",
+     "rationale": "Incorrect: the insurer must be notified promptly."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Duties after an accident or loss include prompt notice to the insurer of how, when and where it happened, cooperation, sending legal papers, submitting to examinations when required, and — for physical damage losses — taking reasonable steps to protect the auto, promptly notifying police if it is stolen, and allowing inspection and appraisal.",
+   "memoryTip": "Stolen car? Call the police, then the insurer.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q065",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.6"
+   ],
+   "concepts": [
+    "duties-after-loss"
+   ],
+   "difficulty": 2,
+   "style": "negative",
+   "tags": [
+    "negative-wording"
+   ],
+   "stem": "Each of the following is a duty of an insured under the PAP after an accident EXCEPT:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Giving the insurer prompt notice of the accident",
+     "rationale": "Incorrect: prompt notice is a basic duty after an accident or loss."
+    },
+    {
+     "id": "b",
+     "text": "Cooperating with the insurer in the investigation",
+     "rationale": "Incorrect: cooperation is a required duty."
+    },
+    {
+     "id": "c",
+     "text": "Admitting fault to the other driver at the scene",
+     "rationale": "Correct: no duty requires admitting fault; voluntary admissions can harm the insured's defense."
+    },
+    {
+     "id": "d",
+     "text": "Promptly sending the insurer copies of legal papers",
+     "rationale": "Incorrect: the insured must forward notices and legal papers."
+    }
+   ],
+   "correct": "c",
+   "explanation": "PAP duties after an accident or loss include prompt notice, cooperation in investigation, settlement or defense, promptly sending copies of notices or legal papers, submitting to physical exams and examinations under oath when required, authorizing release of medical records, and protecting the auto from further loss. Admitting fault is not a duty.",
+   "memoryTip": "Notify, cooperate, forward papers — never confess.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q066",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.7"
+   ],
+   "concepts": [
+    "policy-territory"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "Which area is included in the PAP's policy territory?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Every country in the world, for trips under 30 days",
+     "rationale": "Incorrect: the PAP has no worldwide coverage for short trips."
+    },
+    {
+     "id": "b",
+     "text": "Only the state where the auto is principally garaged",
+     "rationale": "Incorrect: coverage extends well beyond the home state."
+    },
+    {
+     "id": "c",
+     "text": "The U.S. and Mexico, but not Canada",
+     "rationale": "Incorrect: Canada is included; Mexico generally is not."
+    },
+    {
+     "id": "d",
+     "text": "The U.S., its territories, Puerto Rico and Canada",
+     "rationale": "Correct: the PAP covers accidents and losses within the United States, its territories or possessions, Puerto Rico and Canada."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Under the PAP's general provisions, coverage applies to accidents and losses during the policy period within the policy territory: the United States, its territories or possessions, Puerto Rico and Canada (and travel between their ports).",
+   "memoryTip": "U.S. + territories + Puerto Rico + Canada.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q067",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.7"
+   ],
+   "concepts": [
+    "personal-auto-policy"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky"
+   ],
+   "scenario": "Bert is the only named insured on a PAP covering the family car. He dies midway through the policy term. His wife, who lived with him, keeps driving the car.",
+   "stem": "What happens to the policy under the PAP's transfer-of-interest provision?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The policy ends immediately, because death voids every auto policy",
+     "rationale": "Incorrect: the PAP specifically continues coverage after a named insured's death."
+    },
+    {
+     "id": "b",
+     "text": "Coverage continues for the surviving spouse living in the household",
+     "rationale": "Correct: the policy can't be assigned without consent, but if the named insured dies, coverage continues for the resident spouse (and legal representative)."
+    },
+    {
+     "id": "c",
+     "text": "The policy passes to whoever inherits the car, without notice or consent",
+     "rationale": "Incorrect: assignment normally needs the insurer's written consent; the death provision protects the spouse and legal representative."
+    },
+    {
+     "id": "d",
+     "text": "Coverage continues only if the insurer's written consent is obtained first",
+     "rationale": "Incorrect: death of the named insured is the exception to the written-consent rule."
+    }
+   ],
+   "correct": "b",
+   "explanation": "The PAP's general provisions prohibit assigning the insured's rights and duties without the insurer's written consent. If a named insured dies, however, coverage continues (until the end of the policy period) for the surviving spouse who was a resident of the household and for the legal representative of the deceased.",
+   "memoryTip": "No assignment without consent — except death of the named insured.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q068",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.8.2"
+   ],
+   "concepts": [
+    "towing-and-labor"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "Under a towing and labor costs endorsement, which labor cost is covered?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Labor done where the car broke down",
+     "rationale": "Correct: labor is covered only at the place of disablement, up to the limit per disablement."
+    },
+    {
+     "id": "b",
+     "text": "Labor done later at a dealer's shop",
+     "rationale": "Incorrect: shop labor is not labor at the place of disablement."
+    },
+    {
+     "id": "c",
+     "text": "Labor for routine oil changes",
+     "rationale": "Incorrect: routine maintenance is not covered."
+    },
+    {
+     "id": "d",
+     "text": "Labor to install new accessories",
+     "rationale": "Incorrect: installing equipment is not a disablement service."
+    }
+   ],
+   "correct": "a",
+   "explanation": "The towing and labor endorsement pays towing and labor costs, up to a per-disablement limit, each time the covered auto (or a non-owned auto) is disabled, but labor is covered only when performed at the place of disablement.",
+   "memoryTip": "Roadside labor yes, shop labor no.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q069",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.8.5"
+   ],
+   "concepts": [
+    "named-non-owner-coverage"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Uma lives in Manhattan and owns no car. She frequently rents cars on weekends and sometimes borrows her sister's car. She wants her own liability protection.",
+   "stem": "Which coverage best fits Uma's needs?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A miscellaneous type vehicle endorsement",
+     "rationale": "Incorrect: that endorsement insures owned vehicles such as motorcycles or motor homes."
+    },
+    {
+     "id": "b",
+     "text": "A joint ownership endorsement",
+     "rationale": "Incorrect: that applies when two or more people co-own a vehicle."
+    },
+    {
+     "id": "c",
+     "text": "A named non-owner policy",
+     "rationale": "Correct: named non-owner coverage gives a person who owns no car liability-type protection while driving borrowed or rented cars."
+    },
+    {
+     "id": "d",
+     "text": "Collision coverage on a scheduled car",
+     "rationale": "Incorrect: Uma owns no car to schedule."
+    }
+   ],
+   "correct": "c",
+   "explanation": "A named non-owner endorsement provides liability-type coverages (such as liability, medical payments and uninsured motorist coverage) to a named individual who does not own a vehicle, generally on an excess basis over the owner's insurance when driving borrowed or rented cars. It does not cover vehicles the individual owns.",
+   "memoryTip": "No car, still drives? Named non-owner.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q070",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.8.3",
+    "plauto.2.8.3"
+   ],
+   "concepts": [
+    "miscellaneous-type-vehicle"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "Which endorsement adds an owned motorcycle to a Personal Auto Policy?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Miscellaneous type vehicle",
+     "rationale": "Correct: it extends PAP coverages to owned vehicles like motorcycles, mopeds, motor homes and golf carts."
+    },
+    {
+     "id": "b",
+     "text": "Named non-owner coverage",
+     "rationale": "Incorrect: that is for people who own no vehicle."
+    },
+    {
+     "id": "c",
+     "text": "Towing and labor costs",
+     "rationale": "Incorrect: that pays roadside towing and labor, not coverage for a new vehicle type."
+    },
+    {
+     "id": "d",
+     "text": "Rental vehicle coverage",
+     "rationale": "Incorrect: that relates to vehicles the insured rents."
+    }
+   ],
+   "correct": "a",
+   "explanation": "The basic PAP is written for private passenger autos, pickups and vans. The miscellaneous type vehicle endorsement schedules other owned vehicles — motorcycles, mopeds, motor homes, golf carts, all-terrain vehicles and similar — so the PAP's coverages apply to them.",
+   "memoryTip": "Odd vehicle you own → Miscellaneous type.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q071",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.8.8",
+    "plauto.2.8.8"
+   ],
+   "concepts": [
+    "joint-ownership-coverage"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Two unrelated roommates, Sal and Ted, buy a sedan together, title it in both names, and want to insure it on one PAP.",
+   "stem": "Which endorsement should the producer add?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Named non-owner coverage",
+     "rationale": "Incorrect: both people own the car, so non-owner coverage doesn't fit."
+    },
+    {
+     "id": "b",
+     "text": "Joint ownership coverage",
+     "rationale": "Correct: it adapts the PAP for co-owners who are not a married couple living together, so each is treated as a named insured."
+    },
+    {
+     "id": "c",
+     "text": "Miscellaneous type vehicle",
+     "rationale": "Incorrect: a sedan is an ordinary private passenger auto."
+    },
+    {
+     "id": "d",
+     "text": "Supplemental spousal liability",
+     "rationale": "Incorrect: they are not spouses, and SSL addresses claims between spouses."
+    }
+   ],
+   "correct": "b",
+   "explanation": "The PAP treats the named insured and a resident spouse as 'you.' When two or more individuals who are not a resident married couple jointly own an auto, the joint ownership coverage endorsement modifies the definitions so each joint owner (and their resident family members) receives the protection a named insured would have.",
+   "memoryTip": "Co-owners who aren't spouses → joint ownership endorsement.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q072",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.8.1"
+   ],
+   "concepts": [
+    "personal-auto-policy",
+    "endorsement"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [],
+   "stem": "What is the main purpose of the Amendment of Policy Provisions—New York endorsement?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "To add collision coverage to a liability-only policy",
+     "rationale": "Incorrect: physical damage coverage is added through the declarations, not an amendatory endorsement."
+    },
+    {
+     "id": "b",
+     "text": "To insure motorcycles and motor homes under the PAP",
+     "rationale": "Incorrect: that is the miscellaneous type vehicle endorsement."
+    },
+    {
+     "id": "c",
+     "text": "To give roadside assistance when the car breaks down",
+     "rationale": "Incorrect: that is the towing and labor costs endorsement."
+    },
+    {
+     "id": "d",
+     "text": "To change the standard PAP so it complies with New York law",
+     "rationale": "Correct: a state amendatory endorsement modifies the national form to conform to that state's requirements."
+    }
+   ],
+   "correct": "d",
+   "explanation": "The PAP is a national form. State amendatory endorsements, such as the Amendment of Policy Provisions—New York, change its wording where New York law requires different treatment, so the policy as issued in New York complies with state requirements such as cancellation, uninsured motorist and spousal liability rules.",
+   "memoryTip": "Amendatory endorsement = 'New York-izes' the PAP.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q073",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.3.1"
+   ],
+   "concepts": [
+    "split-limits",
+    "combined-single-limit",
+    "auto-liability-coverage"
+   ],
+   "difficulty": 3,
+   "style": "calculation",
+   "tags": [
+    "math",
+    "tricky"
+   ],
+   "scenario": "Compare two policies: one with split limits of 100/300/50 and one with a $300,000 combined single limit (CSL). The insured causes an accident in which one person suffers $150,000 of bodily injury damages and $20,000 of property damage.",
+   "stem": "How much would each policy pay for this accident?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Split limits: $170,000; CSL: $170,000",
+     "rationale": "Incorrect: the split policy's $100,000 per-person cap limits the injury payment."
+    },
+    {
+     "id": "b",
+     "text": "Split limits: $100,000; CSL: $150,000",
+     "rationale": "Incorrect: this leaves out the $20,000 property damage claim under both policies."
+    },
+    {
+     "id": "c",
+     "text": "Split limits: $120,000; CSL: $170,000",
+     "rationale": "Correct: split limits pay $100,000 BI (per-person cap) + $20,000 PD; the CSL pays the full $170,000 from one $300,000 limit."
+    },
+    {
+     "id": "d",
+     "text": "Split limits: $120,000; CSL: $150,000",
+     "rationale": "Incorrect: the CSL also pays the $20,000 property damage, within its $300,000 limit."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Split limits 100/300/50: one injured person is capped at $100,000 (of $150,000), plus property damage of $20,000 (within $50,000) = $120,000. A $300,000 combined single limit applies to BI and PD together per accident with no per-person cap: $150,000 + $20,000 = $170,000.",
+   "memoryTip": "Split = separate buckets; CSL = one big bucket.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Split: per-person cap $100,000 applies",
+      "anyOf": [
+       "100,000",
+       "per person",
+       "per-person"
+      ]
+     },
+     {
+      "label": "Split total $120,000 including $20,000 PD",
+      "anyOf": [
+       "120,000"
+      ]
+     },
+     {
+      "label": "CSL pays $170,000 from one limit",
+      "anyOf": [
+       "170,000",
+       "single limit",
+       "one limit"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q074",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.3",
+    "plauto.2.4",
+    "plauto.2.5"
+   ],
+   "concepts": [
+    "auto-liability-coverage",
+    "collision-coverage",
+    "auto-medical-payments"
+   ],
+   "difficulty": 1,
+   "style": "comparison",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "Which PAP coverage is third-party (liability) coverage rather than first-party coverage?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Property damage liability",
+     "rationale": "Correct: liability coverage pays other people for damage the insured causes."
+    },
+    {
+     "id": "b",
+     "text": "Collision",
+     "rationale": "Incorrect: collision pays for the insured's own car — first-party."
+    },
+    {
+     "id": "c",
+     "text": "Medical payments",
+     "rationale": "Incorrect: medical payments pays insureds' own medical bills — first-party."
+    },
+    {
+     "id": "d",
+     "text": "Other than collision",
+     "rationale": "Incorrect: comprehensive pays for the insured's own car — first-party."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Liability coverages (bodily injury and property damage liability) are third-party coverages: they pay others when the insured is legally responsible. Collision, other than collision, medical payments, PIP and UM/SUM are first-party coverages paying the insured's own losses.",
+   "memoryTip": "Liability pays THEM; first-party pays ME.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q075",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.5.3"
+   ],
+   "concepts": [
+    "policy-deductible",
+    "collision-coverage"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "In a typical PAP, a deductible applies to which coverage?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Bodily injury liability",
+     "rationale": "Incorrect: liability coverage generally has no deductible."
+    },
+    {
+     "id": "b",
+     "text": "Collision",
+     "rationale": "Correct: physical damage coverages (collision and other than collision) carry deductibles."
+    },
+    {
+     "id": "c",
+     "text": "Property damage liability",
+     "rationale": "Incorrect: liability coverage generally has no deductible."
+    },
+    {
+     "id": "d",
+     "text": "Supplementary payments",
+     "rationale": "Incorrect: these are paid in addition to the liability limit with no deductible."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Deductibles in the PAP apply to physical damage coverage — collision and other than collision — and are subtracted from each covered loss to the insured's car. Liability coverage and its supplementary payments are generally paid without a deductible.",
+   "memoryTip": "Deductibles live in Part D: damage to your auto.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q076",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.2"
+   ],
+   "concepts": [
+    "personal-auto-policy",
+    "named-insured"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [],
+   "stem": "In the PAP, the words 'you' and 'your' refer to the named insured and:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Any licensed driver who uses the car",
+     "rationale": "Incorrect: permissive users are insureds but are not 'you.'"
+    },
+    {
+     "id": "b",
+     "text": "The lienholder named in the policy",
+     "rationale": "Incorrect: a lienholder has an interest under a loss payable clause but is not 'you.'"
+    },
+    {
+     "id": "c",
+     "text": "Every relative, wherever they live",
+     "rationale": "Incorrect: family members must reside in the household, and they are 'family members,' not 'you.'"
+    },
+    {
+     "id": "d",
+     "text": "A spouse who lives in the same household",
+     "rationale": "Correct: a resident spouse is treated as 'you' even if not named in the declarations."
+    }
+   ],
+   "correct": "d",
+   "explanation": "PAP definitions treat 'you' and 'your' as the named insured shown in the declarations and that person's spouse if a resident of the same household. 'Family member' means a person related by blood, marriage or adoption who is a resident of the household, including a ward or foster child.",
+   "memoryTip": "You = named insured + resident spouse.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plauto-q077",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plauto",
+   "outlineIds": [
+    "plauto.2.8.6",
+    "plauto.2.8.6"
+   ],
+   "concepts": [
+    "rental-vehicle-coverage",
+    "transportation-expenses"
+   ],
+   "difficulty": 2,
+   "style": "comparison",
+   "tags": [],
+   "stem": "Which statement correctly distinguishes transportation expenses from the NY rental vehicle coverage endorsement?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Transportation expenses pay for substitute travel while your own car is out of use",
+     "rationale": "Correct: transportation expenses reimburse temporary transportation after a covered loss to the insured's own car."
+    },
+    {
+     "id": "b",
+     "text": "Transportation expenses apply only to cars the insured rents on vacation",
+     "rationale": "Incorrect: they apply when the insured's own covered auto is withdrawn from use."
+    },
+    {
+     "id": "c",
+     "text": "The rental vehicle endorsement is required by law in every NY auto policy",
+     "rationale": "Incorrect: it is an optional endorsement listed among selected PAP endorsements."
+    },
+    {
+     "id": "d",
+     "text": "Both provisions pay only for damage to the other driver's rental car",
+     "rationale": "Incorrect: neither is liability coverage for another driver's vehicle."
+    }
+   ],
+   "correct": "a",
+   "explanation": "PAP transportation expenses reimburse temporary transportation (up to daily and total limits) when the covered auto is withdrawn from use because of a covered physical damage loss. The NY rental vehicle coverage endorsement is a separate, optional endorsement dealing with vehicles the insured rents.",
+   "memoryTip": "Transportation expense = your car is down; rental endorsement = a car you rent.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "draft",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19",
+    "notes": "Depends on the scope of the NY rental vehicle coverage endorsement (PP 03 46), which could not be verified from a primary source."
+   }
+  }
+ ]
+}

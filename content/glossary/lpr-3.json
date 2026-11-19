@@ -1,0 +1,804 @@
+{
+ "sectionId": "lpr",
+ "terms": [
+  {
+   "id": "settlement-options",
+   "term": "Settlement Options",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.3",
+    "lpr.3.1"
+   ],
+   "formal": "The methods by which life insurance proceeds (or cash values) may be paid out: a lump-sum cash payment, interest only, fixed-period installments, fixed-amount installments, or a life income. The policyowner may choose an option before the insured's death; if the owner has not, the beneficiary generally may choose.",
+   "plain": "Settlement options are the different ways the beneficiary can receive the money — all at once, or spread out over time.",
+   "simpler": "Cash it all now, or have it delivered in installments: settlement options are the delivery choices.",
+   "examples": [
+    "Lily's beneficiary takes the $200,000 death benefit as a single lump sum (the cash option).",
+    "Max chose, while alive, to have his daughter receive his policy proceeds in monthly installments over 15 years because he worried she would spend a lump sum too quickly."
+   ],
+   "examTip": "Lump sum (cash) is the most common and is automatic if no other option is chosen. When proceeds are left with the insurer, the interest portion of installment payments is generally taxable, while the principal portion is not.",
+   "misconception": "Settlement options are not the same as nonforfeiture options (what happens to cash value when premiums stop) or dividend options (what happens to dividends).",
+   "related": [
+    "interest-only-option",
+    "fixed-period-option",
+    "fixed-amount-option",
+    "life-income-option",
+    "spendthrift-clause",
+    "nonforfeiture-options",
+    "dividend-options"
+   ],
+   "confusedWith": [
+    "nonforfeiture-options",
+    "dividend-options"
+   ],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "Which of these is a settlement option?",
+    "choices": [
+     "Fixed-period installments",
+     "Extended term insurance",
+     "Paid-up additions",
+     "Automatic premium loan"
+    ],
+    "answerIndex": 0,
+    "explanation": "Fixed-period installments are a way to pay out proceeds (settlement option). Extended term is a nonforfeiture option; paid-up additions is a dividend option; automatic premium loan prevents lapse."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "interest-only-option",
+   "term": "Interest-Only Option",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.3.2"
+   ],
+   "formal": "A settlement option under which the insurer retains the proceeds and pays the beneficiary only the interest earned (usually at a guaranteed minimum rate) at regular intervals. The principal is paid later — for example, at the beneficiary's request, on a specified date, or to a secondary payee at the beneficiary's death.",
+   "plain": "The insurer keeps the money and sends the beneficiary only the interest it earns. The principal stays untouched until later.",
+   "simpler": "Like keeping money in a savings account and spending only the interest.",
+   "examples": [
+    "Nora leaves $100,000 with the insurer under the interest-only option and receives the interest each quarter; at age 25 she withdraws the principal.",
+    "A husband arranges for his widow to receive interest for life, with the principal going to their children when she dies."
+   ],
+   "examTip": "Interest only = principal intact. The interest payments are taxable income to the beneficiary. Often used temporarily while the beneficiary decides what to do.",
+   "misconception": "The interest-only option does not use up the principal, so it is not a life annuity and does not involve life expectancy.",
+   "related": [
+    "settlement-options",
+    "fixed-period-option"
+   ],
+   "confusedWith": [],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Under which settlement option does the insurer keep the principal intact and pay out only earnings?",
+    "choices": [
+     "Interest only",
+     "Fixed period",
+     "Fixed amount",
+     "Life income"
+    ],
+    "answerIndex": 0,
+    "explanation": "The interest-only option pays only earnings and preserves principal. Fixed-period and fixed-amount options pay out principal plus interest; life income pays for the payee's lifetime."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "fixed-period-option",
+   "term": "Fixed-Period Installments",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.3.3"
+   ],
+   "formal": "A settlement option that pays the proceeds plus interest in equal installments over a specified period of time. The length of the period is fixed; the size of each payment depends on the amount of proceeds, the period chosen and the interest credited.",
+   "plain": "You pick how LONG the payments last (for example, 10 years). The insurer figures out how much each payment can be.",
+   "simpler": "Pick the number of payments; the calculator tells you the size of each one.",
+   "examples": [
+    "Owen's $120,000 death benefit is paid to his son over 10 years — at least $1,000 a month, plus interest.",
+    "If the beneficiary dies during the fixed period, the remaining installments are paid to a contingent payee or the beneficiary's estate."
+   ],
+   "examTip": "Fixed PERIOD = time is fixed, amount varies with interest. Fixed AMOUNT = amount is fixed, time varies. Extra interest under fixed-period increases each payment.",
+   "misconception": "Fixed-period installments are not paid for life; they end when the period ends, no matter how long the beneficiary lives.",
+   "related": [
+    "fixed-amount-option",
+    "settlement-options",
+    "annuity-certain"
+   ],
+   "confusedWith": [
+    "fixed-amount-option"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "A beneficiary wants payments to last exactly 15 years. Which settlement option fits?",
+    "choices": [
+     "Fixed-period installments",
+     "Fixed-amount installments",
+     "Interest only",
+     "Single life income"
+    ],
+    "answerIndex": 0,
+    "explanation": "Fixed-period installments set the duration; the payment amount is calculated to exhaust the proceeds plus interest over that period."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "fixed-amount-option",
+   "term": "Fixed-Amount Installments",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.3.4"
+   ],
+   "formal": "A settlement option that pays a specified dollar amount at regular intervals until the proceeds plus interest are exhausted. The amount of each installment is fixed; the length of the payout period depends on the proceeds, the installment size and the interest credited.",
+   "plain": "You pick how MUCH each payment is (for example, $2,000 a month). Payments continue until the money runs out.",
+   "simpler": "Pick the size of each payment; the money lasts as long as it lasts.",
+   "examples": [
+    "Paula's beneficiary chooses $2,000 per month from $100,000 of proceeds; payments continue for a little over four years because interest stretches the money beyond 50 months.",
+    "Excess interest credited under a fixed-amount option makes the payments last longer, not makes each payment larger."
+   ],
+   "examTip": "Fixed AMOUNT = payment size fixed, duration varies. Excess interest extends the period. If the payee dies before the money runs out, the balance goes to a contingent payee or estate.",
+   "misconception": "The fixed-amount option does not guarantee payments for life; once the principal and interest are used up, payments stop.",
+   "related": [
+    "fixed-period-option",
+    "settlement-options"
+   ],
+   "confusedWith": [
+    "fixed-period-option"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Under the fixed-amount option, what happens if the insurer credits more interest than expected?",
+    "choices": [
+     "The payments continue for a longer period",
+     "Each payment becomes larger",
+     "The excess is paid to the insurer as profit",
+     "The payments switch to a life income"
+    ],
+    "answerIndex": 0,
+    "explanation": "Under fixed-amount installments the payment size is fixed, so extra interest lengthens the payout period. Under fixed-period installments, extra interest would increase each payment."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "life-income-option",
+   "term": "Life Income Option",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.3.5",
+    "lpr.3.5.1",
+    "lpr.3.5.2"
+   ],
+   "formal": "A settlement option that uses the proceeds to provide income the payee cannot outlive. Variations include single life (straight life) income, which stops at the payee's death; life income with period certain or refund features; and joint and survivor income, which continues as long as either of two payees is living.",
+   "plain": "The money is turned into a paycheck for life. With a single-life choice, payments stop when the payee dies. With joint and survivor, payments keep going until both people have died.",
+   "simpler": "It works like an annuity: trade a lump sum for a guaranteed lifetime income.",
+   "examples": [
+    "Quinn, age 70, takes her $250,000 proceeds as a single life income; the insurer pays her monthly for life, and nothing is left when she dies.",
+    "A retired couple choose a joint and survivor income from a policy's proceeds so that payments continue to the surviving spouse."
+   ],
+   "examTip": "Single (straight) life pays the highest income per month of the life options but has no refund at death. Joint and survivor covers two lives and pays less per month than single life for the same proceeds. Payment size depends on the payee's age (and sex where permitted).",
+   "misconception": "A straight life income does not guarantee that the payee (or heirs) will receive at least the original proceeds; if the payee dies early, payments simply stop.",
+   "related": [
+    "settlement-options",
+    "straight-life-annuity",
+    "joint-and-survivor",
+    "life-annuity-period-certain",
+    "refund-annuity"
+   ],
+   "confusedWith": [
+    "joint-and-survivor"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Which life income choice pays the highest monthly amount for a given sum, but stops at the payee's death with nothing further paid?",
+    "choices": [
+     "Single (straight) life income",
+     "Joint and survivor income",
+     "Life income with 20-year period certain",
+     "Life income with refund"
+    ],
+    "answerIndex": 0,
+    "explanation": "A single life income has no guarantees beyond the payee's life, so it produces the largest payment per dollar. Joint and survivor, period-certain and refund features all add guarantees and reduce the payment."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "spendthrift-clause",
+   "term": "Spendthrift Clause",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.3.5.3"
+   ],
+   "formal": "A provision that protects life insurance proceeds held by the insurer under a settlement option from the claims of the beneficiary's creditors, and prevents the beneficiary from assigning, borrowing against or otherwise encumbering future installment payments before they are received.",
+   "plain": "If proceeds are being paid in installments, the beneficiary's creditors cannot grab the future payments, and the beneficiary cannot sell or pledge them in advance.",
+   "simpler": "It puts a lock on money that has not been paid out yet so it cannot be grabbed or sold early.",
+   "examples": [
+    "Raj's son receives policy proceeds in monthly installments. A creditor of the son cannot seize the payments still held by the insurer.",
+    "Sara, a beneficiary receiving installments, tries to sell her right to future payments for a lump sum; the spendthrift clause prevents it."
+   ],
+   "examTip": "The spendthrift clause applies to proceeds paid under installment (settlement) options — money still held by the insurer. It protects against the BENEFICIARY's creditors, not the policyowner's.",
+   "misconception": "The clause does not protect money after it has been paid to the beneficiary, and it does not apply to a lump-sum payment once received.",
+   "related": [
+    "settlement-options",
+    "life-income-option",
+    "fixed-period-option"
+   ],
+   "confusedWith": [],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "What does a spendthrift clause protect?",
+    "choices": [
+     "Installment proceeds not yet paid, from the beneficiary's creditors",
+     "The policy's cash value, from the insurer's creditors",
+     "The insured, from paying premiums during disability",
+     "The beneficiary, from losing benefits in a common disaster"
+    ],
+    "answerIndex": 0,
+    "explanation": "A spendthrift clause shields proceeds held by the insurer under a settlement option from the beneficiary's creditors and prevents the beneficiary from assigning future payments."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "nonforfeiture-options",
+   "term": "Nonforfeiture Options",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.4"
+   ],
+   "formal": "The guaranteed choices available to the owner of a cash value policy when premium payments stop, so the owner does not forfeit the accumulated value: cash surrender value, extended term insurance, or reduced paid-up insurance. New York's standard nonforfeiture law requires a paid-up nonforfeiture benefit stipulated in the policy to take effect automatically unless the owner elects another available option within 60 days after the due date of the premium in default.",
+   "plain": "If you stop paying premiums on a permanent policy, you don't lose what you've built up. You can take the cash, keep the same amount of coverage for a limited time, or keep a smaller amount of coverage for life.",
+   "simpler": "Your cash value is yours to keep — the only question is in which \"form\" you take it: cash, temporary full coverage, or permanent smaller coverage.",
+   "examples": [
+    "After 12 years, Tim stops paying his whole life premiums and elects reduced paid-up insurance.",
+    "Ursula stops paying and makes no election within 60 days; the automatic option named in her policy (commonly extended term) takes effect."
+   ],
+   "examTip": "Three options: cash surrender, extended term, reduced paid-up. NY § 4221: the policy names an automatic paid-up option, which takes effect unless the owner chooses another within 60 days after the premium due date in default. Term policies usually have no cash value and therefore no nonforfeiture values.",
+   "misconception": "Nonforfeiture options are not dividend options or settlement options. They deal only with cash value when premiums stop.",
+   "related": [
+    "cash-surrender-value",
+    "extended-term-option",
+    "reduced-paid-up-option",
+    "cash-value",
+    "whole-life-insurance"
+   ],
+   "confusedWith": [
+    "dividend-options",
+    "settlement-options"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Under New York's standard nonforfeiture law, if the owner makes no election after a premium default, what happens?",
+    "choices": [
+     "The paid-up option named in the policy takes effect automatically",
+     "The policy terminates immediately with no remaining value",
+     "The insurer automatically mails the cash surrender value",
+     "The policy is converted to a one-year term rider"
+    ],
+    "answerIndex": 0,
+    "explanation": "NY Insurance Law § 4221(a)(3): the specified paid-up nonforfeiture benefit becomes effective unless the person entitled elects another available option within 60 days after the due date of the premium in default."
+   },
+   "sources": [
+    "ny-isc-4221"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "cash-surrender-value",
+   "term": "Cash Surrender Value",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.4.1"
+   ],
+   "formal": "The amount the policyowner receives on surrendering (cancelling) a cash value policy. The net cash value is the cash surrender value adjusted for outstanding policy loans and interest and for any dividend accumulations or paid-up additions. New York's standard nonforfeiture law requires the policy to show a table of cash surrender values and allows the insurer to defer paying a cash surrender value for up to six months after the demand.",
+   "plain": "The cash surrender value is what you get if you cancel a permanent policy and take the money. Any loans you owe are subtracted first.",
+   "simpler": "It's the \"trade-in value\" of your policy — but once you trade it in, the coverage is gone.",
+   "examples": [
+    "Victor surrenders his whole life policy, which has a $40,000 cash value and a $10,000 loan outstanding; he receives a net cash value of about $30,000 (less any accrued loan interest) and coverage ends.",
+    "An insurer facing a surge of surrenders may defer paying cash values for up to six months, as the nonforfeiture law allows."
+   ],
+   "examTip": "Surrender ends the coverage. Net cash value = cash value − loans and interest (+ dividend values). The insurer may defer payment up to 6 months (NY § 4221). Any gain over the cost basis is taxable (see taxation).",
+   "misconception": "Taking the cash surrender value is not a loan: the policy terminates and cannot be reinstated.",
+   "related": [
+    "nonforfeiture-options",
+    "cash-value",
+    "policy-loan",
+    "partial-surrender",
+    "cost-basis"
+   ],
+   "confusedWith": [
+    "cash-value",
+    "policy-loan"
+   ],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "What happens to the coverage when a policyowner takes the cash surrender value?",
+    "choices": [
+     "The coverage ends",
+     "The face amount is reduced to the cash value",
+     "Coverage continues as extended term",
+     "Coverage continues but premiums stop"
+    ],
+    "answerIndex": 0,
+    "explanation": "Surrendering for cash terminates the policy. Continuing coverage requires choosing extended term or reduced paid-up instead."
+   },
+   "sources": [
+    "ny-isc-4221"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "extended-term-option",
+   "term": "Extended Term Option",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.4.2"
+   ],
+   "formal": "A nonforfeiture option that uses the policy's net cash value as a single premium to buy paid-up term insurance in the same face amount as the original policy (reduced by any outstanding loans) for as long a period as the cash value will purchase.",
+   "plain": "You keep the same amount of coverage, without paying more premiums, but only for a limited time. When that time runs out, coverage ends.",
+   "simpler": "Same-size umbrella, but only for as many rainy days as your savings can pay for.",
+   "examples": [
+    "Walt stops paying on his $100,000 whole life policy; his cash value buys $100,000 of term coverage for 14 years and 120 days.",
+    "If Walt dies during those 14 years, his beneficiary receives $100,000; if he dies after, nothing is paid."
+   ],
+   "examTip": "Extended term = SAME face amount, SHORTER (limited) time. It is the option most commonly named as automatic. Riders such as waiver of premium usually end.",
+   "misconception": "Extended term does not keep the policy permanent and does not continue cash value growth like the original policy.",
+   "related": [
+    "reduced-paid-up-option",
+    "nonforfeiture-options",
+    "cash-surrender-value",
+    "term-life-insurance"
+   ],
+   "confusedWith": [
+    "reduced-paid-up-option"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Which nonforfeiture option keeps the original face amount but for a limited period?",
+    "choices": [
+     "Extended term",
+     "Reduced paid-up",
+     "Cash surrender",
+     "Paid-up additions"
+    ],
+    "answerIndex": 0,
+    "explanation": "Extended term uses the cash value to buy term insurance for the full face amount (less loans) for as long as the cash value will last. Reduced paid-up gives a smaller face amount for life."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reduced-paid-up-option",
+   "term": "Reduced Paid-Up Option",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.4.3"
+   ],
+   "formal": "A nonforfeiture option that uses the policy's net cash value as a single premium to buy a paid-up permanent policy of the same type for a reduced face amount. Coverage lasts for life (or the original policy term) with no further premiums, and the reduced policy continues to build cash value.",
+   "plain": "You keep coverage for life without paying more premiums, but the death benefit is smaller.",
+   "simpler": "Smaller umbrella, but it never has to be put away.",
+   "examples": [
+    "Xena stops paying on her $100,000 whole life policy and elects reduced paid-up; she now has a $35,000 paid-up whole life policy for life.",
+    "Because reduced paid-up is still permanent insurance, Xena's new policy keeps a cash value she could later surrender."
+   ],
+   "examTip": "Reduced paid-up = SMALLER face amount, PERMANENT (lifetime) coverage, no more premiums. Compare: extended term = same face amount, limited time.",
+   "misconception": "Reduced paid-up is not the same as paid-up additions; paid-up additions are small amounts of extra insurance bought with dividends.",
+   "related": [
+    "extended-term-option",
+    "nonforfeiture-options",
+    "paid-up-additions"
+   ],
+   "confusedWith": [
+    "extended-term-option",
+    "paid-up-additions"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "A policyowner who stops paying premiums wants lifetime coverage with no more premiums. Which option fits?",
+    "choices": [
+     "Reduced paid-up",
+     "Extended term",
+     "Cash surrender",
+     "Automatic premium loan"
+    ],
+    "answerIndex": 0,
+    "explanation": "Reduced paid-up provides permanent coverage at a reduced face amount with no further premiums. Extended term is temporary; cash surrender ends coverage; an automatic premium loan keeps premiums being paid by borrowing."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "policy-loan",
+   "term": "Policy Loan",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.5",
+    "lpr.5.1"
+   ],
+   "formal": "A loan the policyowner takes from the insurer, using the policy's cash value as the sole security. Interest is charged; unpaid loans and interest are deducted from the death benefit or surrender value. In New York, an individual life policy (other than term insurance) must provide a loan provision once three full years' premiums have been paid (or three years from issue for flexible-premium policies).",
+   "plain": "You can borrow from your permanent policy's cash value without a credit check. You don't have to pay it back on a schedule, but anything you still owe is subtracted from the death benefit.",
+   "simpler": "Like borrowing against your own savings account at the insurance company.",
+   "examples": [
+    "Yusuf borrows $15,000 from his whole life policy to pay tuition. He dies owing $16,000 including interest; his beneficiary receives the $200,000 face amount minus $16,000.",
+    "Zara's outstanding loan plus interest grows larger than her cash value; after notice, her policy can terminate."
+   ],
+   "examTip": "Loans reduce the death benefit and cash value until repaid. Not available on term insurance. NY: loan provision required after three full years' premiums (§ 3203(a)(8)); the policy is the sole security.",
+   "misconception": "A policy loan is not a withdrawal; it accrues interest and remains a debt against the policy until repaid or deducted from proceeds.",
+   "related": [
+    "automatic-premium-loan",
+    "partial-surrender",
+    "cash-value",
+    "cash-surrender-value",
+    "assignment"
+   ],
+   "confusedWith": [
+    "partial-surrender"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "How does an unpaid policy loan affect the death benefit?",
+    "choices": [
+     "The loan plus interest is deducted from the death benefit",
+     "The death benefit is unaffected; the beneficiary must repay the loan",
+     "The policy automatically lapses at the insured's death",
+     "The death benefit doubles to cover the loan"
+    ],
+    "answerIndex": 0,
+    "explanation": "Outstanding loans and accrued interest are subtracted from the proceeds. The beneficiary does not personally owe the loan."
+   },
+   "sources": [
+    "ny-isc-3203"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "automatic-premium-loan",
+   "term": "Automatic Premium Loan",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.5.2"
+   ],
+   "formal": "An optional provision that, if a premium remains unpaid at the end of the grace period, automatically pays it by borrowing from the policy's cash value, keeping the policy in force for as long as there is sufficient loan value.",
+   "plain": "If you forget to pay, the insurer automatically borrows the premium from your cash value so the policy does not lapse.",
+   "simpler": "An overdraft protection plan for your premium.",
+   "examples": [
+    "Ari forgets his annual premium. At the end of the grace period, the insurer pays it with an automatic premium loan from his cash value.",
+    "Bea's repeated automatic premium loans eventually use up her cash value; the policy then lapses."
+   ],
+   "examTip": "APL is usually elected by the owner (often at no extra cost) and prevents UNINTENTIONAL lapse. Each APL is a policy loan that accrues interest and reduces the death benefit.",
+   "misconception": "An automatic premium loan is not a waiver of premium; the premium is still paid — with borrowed money — and the loan must eventually be repaid or deducted.",
+   "related": [
+    "policy-loan",
+    "grace-period",
+    "waiver-of-premium",
+    "cash-value"
+   ],
+   "confusedWith": [
+    "waiver-of-premium",
+    "policy-loan"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "What is the main purpose of an automatic premium loan provision?",
+    "choices": [
+     "To prevent unintentional lapse of the policy",
+     "To waive premiums during disability",
+     "To increase the death benefit each year",
+     "To pay dividends in cash"
+    ],
+    "answerIndex": 0,
+    "explanation": "An automatic premium loan pays an overdue premium from the cash value at the end of the grace period so the policy does not lapse by accident."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "partial-surrender",
+   "term": "Withdrawal (Partial Surrender)",
+   "aliases": [
+    "Partial Surrender",
+    "Withdrawal"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.5.3"
+   ],
+   "formal": "A removal of part of a policy's cash value — most commonly in a universal life policy — without terminating the policy. Unlike a loan, a withdrawal is not repaid and does not accrue interest; it permanently reduces the cash value and usually reduces the death benefit, and surrender charges may apply.",
+   "plain": "In some policies, especially universal life, you can take part of the cash value out for good. You don't pay it back, but your policy's values (and usually the death benefit) go down.",
+   "simpler": "Taking money out of the jar for good, instead of borrowing it.",
+   "examples": [
+    "Cleo withdraws $10,000 from her universal life policy; her cash value and death benefit both drop.",
+    "Dan's policy charges a surrender charge on a withdrawal in an early policy year."
+   ],
+   "examTip": "Withdrawal = no interest, no repayment, permanent reduction. Loan = interest, can be repaid, deducted at death if not repaid.",
+   "misconception": "A partial surrender does not end the policy, unlike a full surrender for the cash surrender value.",
+   "related": [
+    "policy-loan",
+    "cash-surrender-value",
+    "universal-life",
+    "surrender-charge"
+   ],
+   "confusedWith": [
+    "policy-loan",
+    "cash-surrender-value"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "How does a withdrawal (partial surrender) differ from a policy loan?",
+    "choices": [
+     "A withdrawal is not repaid and does not accrue interest",
+     "A withdrawal must be repaid with interest within one year",
+     "A withdrawal leaves the cash value unchanged",
+     "A withdrawal terminates the policy"
+    ],
+    "answerIndex": 0,
+    "explanation": "A withdrawal permanently removes cash value; there is no repayment and no interest. A loan accrues interest and is a debt against the policy."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "dividend",
+   "term": "Policy Dividend",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.6"
+   ],
+   "formal": "A return of part of the premium paid on a participating policy, representing the insurer's divisible surplus — the difference between the premium charged and the insurer's actual mortality, interest and expense experience. Dividends are not guaranteed.",
+   "plain": "If you have a participating policy and the insurer does better than it expected, it may return part of your premium as a dividend. It isn't guaranteed.",
+   "simpler": "A dividend is like a partial refund when the insurer's costs come in lower than planned.",
+   "examples": [
+    "Eve's participating whole life policy pays a $300 dividend this year after the insurer's claims were lower than expected.",
+    "Finn's nonparticipating policy pays no dividends, but its premium is generally lower."
+   ],
+   "examTip": "Dividends are paid on PARTICIPATING policies (typically from mutual insurers), are NOT guaranteed, and are generally treated as a return of premium for tax purposes — not taxable until they exceed the premiums paid. Interest earned on dividends left to accumulate is taxable.",
+   "misconception": "A policy dividend is not like a stock dividend from profits; it is considered a return of overpaid premium, and it can never be guaranteed in advance.",
+   "related": [
+    "dividend-options",
+    "participating-policy",
+    "nonparticipating-policy",
+    "mutual-insurer"
+   ],
+   "confusedWith": [
+    "participating-policy"
+   ],
+   "difficulty": 1,
+   "practice": {
+    "prompt": "How is a life insurance policy dividend best described?",
+    "choices": [
+     "A non-guaranteed return of part of the premium on a participating policy",
+     "A guaranteed annual payment made on every whole life policy",
+     "Taxable investment income to the policyowner in every case",
+     "A payment made only to the stockholders of a stock insurer"
+    ],
+    "answerIndex": 0,
+    "explanation": "Policy dividends come from divisible surplus on participating policies, are not guaranteed, and are treated as a return of premium."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "dividend-options",
+   "term": "Dividend Options",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.6",
+    "lpr.6.1",
+    "lpr.6.2",
+    "lpr.6.3",
+    "lpr.6.4"
+   ],
+   "formal": "The ways a participating policyowner may use policy dividends: take them in cash; use them to reduce premium payments; leave them with the insurer to accumulate at interest; buy paid-up additions; or buy one-year term insurance (often limited to the policy's cash value). Some policies also allow dividends to pay up the policy early.",
+   "plain": "If your policy pays a dividend, you choose what to do with it: take the cash, lower your bill, let it earn interest, or buy extra insurance.",
+   "simpler": "A refund check you can cash, apply to next bill, put in savings, or use to buy more coverage.",
+   "examples": [
+    "Gail uses her dividends to reduce her premium from $2,000 to $1,700 this year.",
+    "Hugo leaves his dividends with the insurer to accumulate at interest; the interest credited each year is taxable to him."
+   ],
+   "examTip": "Five options: cash, reduction of premium, accumulation at interest, paid-up additions, one-year term. Accumulated dividends are themselves not taxable (return of premium), but the interest they earn is.",
+   "misconception": "Dividend options are not nonforfeiture options; they apply to dividends, not to the cash value when premiums stop.",
+   "related": [
+    "dividend",
+    "paid-up-additions",
+    "participating-policy",
+    "nonforfeiture-options"
+   ],
+   "confusedWith": [
+    "nonforfeiture-options",
+    "settlement-options"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Which dividend option results in taxable interest income to the policyowner?",
+    "choices": [
+     "Accumulation at interest",
+     "Reduction of premium",
+     "Paid-up additions",
+     "Cash payment"
+    ],
+    "answerIndex": 0,
+    "explanation": "Dividends themselves are a return of premium, but interest credited on dividends left to accumulate is taxable income."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "paid-up-additions",
+   "term": "Paid-Up Additions",
+   "aliases": [],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.6.5"
+   ],
+   "formal": "A dividend option under which each dividend is used as a net single premium to buy a small amount of fully paid-up permanent insurance of the same type as the base policy, at net rates and without evidence of insurability. The additions increase the death benefit and have their own cash value.",
+   "plain": "Each dividend buys a little extra permanent coverage that is paid up right away — no health questions and no extra premiums.",
+   "simpler": "Each dividend adds a small brick to your house of coverage.",
+   "examples": [
+    "Ivy's $500 dividend buys about $1,500 of paid-up whole life insurance, increasing her death benefit.",
+    "Over 20 years, Jon's paid-up additions add tens of thousands of dollars to his death benefit and build their own cash value."
+   ],
+   "examTip": "Paid-up additions = permanent, single-premium, no evidence of insurability, builds cash value. One-year term option = temporary, one year of coverage at a time.",
+   "misconception": "Paid-up additions are not the reduced paid-up nonforfeiture option; additions are bought with dividends while the policy is premium-paying.",
+   "related": [
+    "dividend-options",
+    "dividend",
+    "reduced-paid-up-option",
+    "participating-policy"
+   ],
+   "confusedWith": [
+    "reduced-paid-up-option"
+   ],
+   "difficulty": 2,
+   "practice": {
+    "prompt": "Which dividend option buys small amounts of permanent insurance without evidence of insurability?",
+    "choices": [
+     "Paid-up additions",
+     "One-year term",
+     "Accumulation at interest",
+     "Reduction of premium"
+    ],
+    "answerIndex": 0,
+    "explanation": "Paid-up additions use each dividend as a single premium for paid-up permanent insurance at net rates, with no evidence of insurability required."
+   },
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ],
+ "comparisons": []
+}

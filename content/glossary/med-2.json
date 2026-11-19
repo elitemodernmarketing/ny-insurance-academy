@@ -1,0 +1,429 @@
+{
+  "sectionId": "med",
+  "terms": [
+    {
+      "id": "pos-plan",
+      "term": "Point-of-Service (POS) Plan",
+      "aliases": [
+        "POS",
+        "point-of-service",
+        "open-ended HMO"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.3",
+        "med.2.3.1",
+        "med.2.3.2",
+        "med.2.3.3"
+      ],
+      "formal": "A managed care plan that combines HMO and PPO features: members choose a primary care physician who coordinates in-network care and referrals, but members may also go out of network at the 'point of service' and receive a lower level of benefits with higher cost-sharing.",
+      "plain": "A POS plan works like an HMO when you stay in the network and use your PCP's referrals, but it still pays something if you decide to go out of network, like a PPO. You decide each time you need care.",
+      "simpler": "Think of an HMO with an 'escape hatch': you can leave the network, but it costs you more.",
+      "examples": [
+        "Ella's POS plan charges a $25 copayment when her PCP refers her to an in-network specialist, but only pays 60% after a deductible if she sees an out-of-network specialist on her own.",
+        "Marco uses his PCP for routine care but chooses an out-of-network surgeon for a knee repair, accepting the higher out-of-network cost-sharing."
+      ],
+      "examTip": "POS = HMO + PPO hybrid. The choice between in-network and out-of-network is made at the 'point of service', each time care is needed. Look for 'PCP' plus 'some out-of-network coverage'.",
+      "misconception": "A POS plan does not cover out-of-network care at the same level as in-network care; going outside the network (or without a referral) costs the member more.",
+      "related": [
+        "hmo",
+        "ppo",
+        "primary-care-physician",
+        "in-network"
+      ],
+      "confusedWith": [
+        "ppo",
+        "hmo"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A plan requires members to pick a PCP for in-network referrals but also pays reduced benefits for out-of-network care the member chooses. This is a:",
+        "choices": [
+          "Exclusive provider organization",
+          "Point-of-service plan",
+          "Traditional HMO",
+          "Hospital indemnity plan"
+        ],
+        "answerIndex": 1,
+        "explanation": "A POS plan combines a PCP gatekeeper with optional out-of-network coverage. EPOs and traditional HMOs generally pay nothing out of network except emergencies; hospital indemnity pays a fixed cash amount."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "epo",
+      "term": "Exclusive Provider Organization (EPO)",
+      "aliases": [
+        "EPO"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.3",
+        "med.2.3.1",
+        "med.2.3.2"
+      ],
+      "formal": "A managed care plan that covers services only when they are received from the plan's network ('exclusive') providers, except for emergencies, and that commonly does not require a primary care physician referral to see an in-network specialist.",
+      "plain": "An EPO is like a PPO network with no out-of-network coverage. Stay in the network and you are covered (often without referrals); go outside the network for non-emergency care and you generally pay the whole bill.",
+      "simpler": "Like a members-only store: you can walk into any aisle without asking permission, but you can only shop in that store.",
+      "examples": [
+        "Jin's EPO covers his visit to an in-network allergist without a referral, but it would not pay for a routine visit to an out-of-network allergist.",
+        "On vacation, Ruth has an emergency appendectomy at an out-of-network hospital; her EPO covers it as emergency care."
+      ],
+      "examTip": "EPO vs. PPO: both often skip the gatekeeper, but only the PPO pays for non-emergency out-of-network care. EPO vs. HMO: both are network-only, but EPOs often do not require a PCP referral.",
+      "misconception": "'Exclusive' does not mean the plan is only for an exclusive group of people; it means coverage is exclusive to the plan's own providers.",
+      "related": [
+        "ppo",
+        "hmo",
+        "in-network"
+      ],
+      "confusedWith": [
+        "ppo",
+        "hmo"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which plan generally provides no coverage for non-emergency out-of-network care but often lets members see in-network specialists without a referral?",
+        "choices": [
+          "Point-of-service plan",
+          "Preferred provider organization",
+          "Exclusive provider organization",
+          "Indemnity major medical plan"
+        ],
+        "answerIndex": 2,
+        "explanation": "EPOs are network-only (except emergencies) and often have no gatekeeper. PPOs and POS plans pay some out-of-network benefits; indemnity plans allow any provider."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "in-network",
+      "term": "In-Network vs. Out-of-Network",
+      "aliases": [
+        "participating provider",
+        "nonparticipating provider",
+        "network provider"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.3.2",
+        "med.1.4"
+      ],
+      "formal": "An in-network (participating) provider has a contract with the plan to provide covered services at negotiated rates; an out-of-network (nonparticipating) provider has no such contract, so the plan pays less or nothing, and the provider may bill the member for amounts above the plan's allowed charge.",
+      "plain": "In-network doctors have signed a deal with your plan to accept its prices. Out-of-network doctors have not, so you usually pay more, and in network-only plans you may pay everything.",
+      "simpler": "In-network is like shopping at a store that honors your membership discount; out-of-network is a store that does not, so you pay full price.",
+      "examples": [
+        "An in-network doctor's normal fee is $300, but the plan's negotiated rate is $200; the doctor accepts $200 as payment in full, minus Leo's cost-sharing.",
+        "Fatima sees an out-of-network physician under her PPO; the plan pays 60% of its allowed amount and the doctor bills Fatima for the rest of the charge."
+      ],
+      "examTip": "'Any provider' (indemnity) vs. 'limited choice' (managed care) is an outline contrast. HMOs and EPOs limit choice the most; PPOs and POS plans allow out-of-network care at higher cost.",
+      "misconception": "Out-of-network does not always mean 'not covered'. It depends on the plan type: PPO and POS plans pay some out-of-network benefits, while HMOs and EPOs generally pay only for emergencies.",
+      "related": [
+        "ppo",
+        "epo",
+        "pos-plan",
+        "hmo"
+      ],
+      "confusedWith": [],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A provider who has contracted with a plan to accept negotiated fees as payment in full is called a(n):",
+        "choices": [
+          "Third-party administrator",
+          "Out-of-network provider",
+          "Utilization review agent",
+          "In-network (participating) provider"
+        ],
+        "answerIndex": 3,
+        "explanation": "Participating providers contract with the plan and accept its rates. Out-of-network providers have no contract; UR agents review necessity; TPAs administer claims."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "preventive-care",
+      "term": "Preventive Care",
+      "aliases": [
+        "wellness care",
+        "preventive services"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.2.2"
+      ],
+      "formal": "Health care services intended to prevent illness or detect it early, such as routine physical examinations, immunizations, well-child care and screening tests, as opposed to services that treat an existing illness or injury.",
+      "plain": "Preventive care is care you get while you are healthy to stay healthy or catch problems early: checkups, shots, and screenings. HMOs were built around encouraging this care.",
+      "simpler": "Like changing the oil in your car so the engine does not break down later.",
+      "examples": [
+        "Sofia's HMO covers her child's well-child visits and vaccinations, because keeping members healthy lowers the HMO's long-term costs.",
+        "A routine screening mammogram is preventive care; a diagnostic mammogram ordered because of a lump is treatment of a suspected condition.",
+        "New York Insurance Law § 4303(j) requires health service and medical expense indemnity corporations writing comprehensive coverage to cover well-child visits, exams, developmental assessments and immunizations for covered children from birth to age 19, not subject to annual deductibles or coinsurance."
+      ],
+      "examTip": "Preventive care is the defining philosophy of the HMO ('health maintenance'). Expect HMO questions to connect prepaid care with an emphasis on prevention.",
+      "misconception": "Preventive care does not include treating an illness you already have; once care is to diagnose or treat a symptom, it is generally no longer preventive.",
+      "related": [
+        "hmo",
+        "essential-health-benefits"
+      ],
+      "confusedWith": [],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which service is the best example of preventive care?",
+        "choices": [
+          "A routine immunization for a healthy child",
+          "Physical therapy after knee surgery",
+          "An emergency room visit for chest pain",
+          "Chemotherapy for diagnosed cancer"
+        ],
+        "answerIndex": 0,
+        "explanation": "Immunizations help prevent illness. The other services treat an existing injury, a symptom or a diagnosed disease."
+      },
+      "sources": [
+        "ny-isc-4303"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "utilization-review",
+      "term": "Utilization Review",
+      "aliases": [
+        "UR",
+        "medical necessity review"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.3",
+        "med.3.1"
+      ],
+      "formal": "The review of the medical necessity, appropriateness, and efficiency of health care services, procedures or settings, performed before, during, or after the services are provided, to determine whether they are covered.",
+      "plain": "Utilization review is how a plan checks whether a treatment is medically necessary and delivered in the right setting. It can happen before care (prospective), during care (concurrent) or after care (retrospective).",
+      "simpler": "Like a supervisor checking that a work order is really needed before, during or after the job is done.",
+      "examples": [
+        "Before approving an elective spinal surgery, the plan reviews Ian's records to confirm the surgery is medically necessary (prospective review).",
+        "While Grace is hospitalized, a nurse reviewer checks every few days whether she still needs inpatient care (concurrent review).",
+        "Under New York Insurance Law § 4900, a denial only because the member used a provider not designated under the contract is not utilization review; utilization review is about medical necessity."
+      ],
+      "examTip": "Know the three timing types: PROspective = before (pre-certification, second opinions); CONcurrent = during (hospital stay review, discharge planning); RETROspective = after (claim review). In New York, utilization review and external appeals are governed by Insurance Law Article 49.",
+      "misconception": "Utilization review is not the same as claims fraud investigation. It asks whether care is medically necessary and appropriate, not whether a claim is fraudulent.",
+      "related": [
+        "prospective-review",
+        "concurrent-review",
+        "retrospective-review",
+        "medical-necessity"
+      ],
+      "confusedWith": [],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "The process of evaluating whether health care services are medically necessary and appropriate is called:",
+        "choices": [
+          "Coordination of benefits",
+          "Utilization review",
+          "Subrogation",
+          "Experience rating"
+        ],
+        "answerIndex": 1,
+        "explanation": "Utilization review evaluates medical necessity and appropriateness. COB coordinates two plans, subrogation recovers costs from a liable third party, and experience rating prices a group by its own claims."
+      },
+      "sources": [
+        "ny-isc-4900"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19",
+        "notes": "Insurance Law § 4900 defines utilization review as medical-necessity review 'prior to, concurrent with or subsequent to' the delivery of services."
+      }
+    },
+    {
+      "id": "prospective-review",
+      "term": "Prospective Review",
+      "aliases": [
+        "preauthorization",
+        "precertification",
+        "prior authorization",
+        "preadmission certification"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.3.1.1"
+      ],
+      "formal": "Utilization review conducted before a service is provided, such as precertification of a hospital admission or prior authorization of a procedure, to determine whether the planned care is medically necessary and covered.",
+      "plain": "Prospective review happens before you get the care. The plan looks at the planned surgery or admission and approves (or denies) it in advance.",
+      "simpler": "Like getting your boss's sign-off on a purchase before you spend the money.",
+      "examples": [
+        "Hana's plan requires precertification before a scheduled hysterectomy. Her surgeon submits records, and the plan approves the admission in advance.",
+        "A plan requires a second surgical opinion before covering certain elective surgeries, a classic prospective cost-containment tool."
+      ],
+      "examTip": "Preadmission certification, prior authorization and second surgical opinions are all PROSPECTIVE (before care).",
+      "misconception": "Prospective review is not a guarantee of payment for every detail; it approves the planned service as medically necessary based on the information provided.",
+      "related": [
+        "utilization-review",
+        "concurrent-review",
+        "retrospective-review",
+        "referral"
+      ],
+      "confusedWith": [
+        "referral",
+        "concurrent-review"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A plan requires approval of a non-emergency hospital admission before the patient is admitted. This is an example of:",
+        "choices": [
+          "Retrospective review",
+          "Concurrent review",
+          "Prospective review",
+          "Coordination of benefits"
+        ],
+        "answerIndex": 2,
+        "explanation": "Approval before care is prospective review. Concurrent review occurs during care; retrospective review occurs after care; COB coordinates payment between plans."
+      },
+      "sources": [
+        "ny-isc-4900"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19",
+        "notes": "Insurance Law § 4900 defines utilization review as medical-necessity review 'prior to, concurrent with or subsequent to' the delivery of services."
+      }
+    },
+    {
+      "id": "concurrent-review",
+      "term": "Concurrent Review",
+      "aliases": [
+        "continued-stay review"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.3.1.2"
+      ],
+      "formal": "Utilization review conducted while a course of treatment or a hospital stay is in progress, to determine whether continued services, the length of stay and the setting remain medically necessary; it often includes discharge planning.",
+      "plain": "Concurrent review happens during your care. While you are in the hospital, the plan checks that you still need to be there and helps plan your discharge.",
+      "simpler": "Like a coach checking in during the game to decide whether a player should stay on the field.",
+      "examples": [
+        "Luis is admitted for pneumonia. On day three, the plan's reviewer confirms that continued inpatient care is still necessary.",
+        "During a stay in a rehabilitation facility, a case manager reviews progress weekly and starts discharge planning for home health care."
+      ],
+      "examTip": "Key words for concurrent review: 'while hospitalized', 'length of stay', 'discharge planning', 'case management during treatment'.",
+      "misconception": "Concurrent review does not mean two plans reviewing the claim at the same time; 'concurrent' refers to review during the treatment.",
+      "related": [
+        "utilization-review",
+        "prospective-review",
+        "retrospective-review"
+      ],
+      "confusedWith": [
+        "prospective-review",
+        "coordination-of-benefits"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A plan's nurse reviewer checks every two days whether a hospitalized member still needs inpatient care. This is:",
+        "choices": [
+          "Preadmission testing",
+          "Prospective review",
+          "Retrospective review",
+          "Concurrent review"
+        ],
+        "answerIndex": 3,
+        "explanation": "Reviewing necessity during an ongoing stay is concurrent review. Prospective is before care; retrospective is after; preadmission testing is done before admission."
+      },
+      "sources": [
+        "ny-isc-4900"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19",
+        "notes": "Insurance Law § 4900 defines utilization review as medical-necessity review 'prior to, concurrent with or subsequent to' the delivery of services."
+      }
+    },
+    {
+      "id": "retrospective-review",
+      "term": "Retrospective Review",
+      "aliases": [
+        "retrospective claims review"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.3.1.3"
+      ],
+      "formal": "Utilization review conducted after services have been provided, typically when the claim is submitted, to determine whether the services were medically necessary and appropriately billed.",
+      "plain": "Retrospective review looks back at care that has already happened, usually when the bill comes in, to decide if it was necessary and properly charged.",
+      "simpler": "Like an auditor checking last month's receipts.",
+      "examples": [
+        "After Mei's emergency surgery, the plan reviews the hospital's records and bill to confirm the length of stay and charges were appropriate.",
+        "An insurer reviews claims after payment and finds a provider billed for services that were never documented."
+      ],
+      "examTip": "RETRO = after. Claims audits and post-service reviews of bills are retrospective review.",
+      "misconception": "Retrospective review is not a review of a plan's past experience for rating purposes; that is experience rating. It reviews specific services already delivered.",
+      "related": [
+        "utilization-review",
+        "prospective-review",
+        "concurrent-review"
+      ],
+      "confusedWith": [
+        "experience-rating"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Reviewing hospital records after a patient has been discharged to determine whether the stay was medically necessary is:",
+        "choices": [
+          "Retrospective review",
+          "Prospective review",
+          "Concurrent review",
+          "Second surgical opinion"
+        ],
+        "answerIndex": 0,
+        "explanation": "Review after the care is complete is retrospective. Prospective review and second opinions happen before care; concurrent review happens during care."
+      },
+      "sources": [
+        "ny-isc-4900"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19",
+        "notes": "Insurance Law § 4900 defines utilization review as medical-necessity review 'prior to, concurrent with or subsequent to' the delivery of services."
+      }
+    }
+  ],
+  "comparisons": []
+}

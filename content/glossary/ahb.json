@@ -1,0 +1,979 @@
+{
+  "sectionId": "ahb",
+  "terms": [
+    {
+      "id": "accidental-bodily-injury",
+      "term": "Accidental Bodily Injury",
+      "aliases": [],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.1.1"
+      ],
+      "formal": "A definition of the accident peril that looks at the result: an injury to the body that is unexpected and unintended from the insured's point of view, even if the act that caused it was intentional. In New York, individual accident benefits may not be predicated on 'accidental means' (11 NYCRR 52.17(a)(8)), so the results-based approach is the standard.",
+      "plain": "If the injury itself was unexpected, it's an accident, even if you meant to do what you were doing when you got hurt.",
+      "simpler": "Ask, 'Did I mean to get hurt?' If not, it's an accidental bodily injury.",
+      "examples": [
+        "Quinn deliberately jumps off a low wall for fun and unexpectedly tears a ligament. The injury was not intended, so it is an accidental bodily injury.",
+        "Rae slips on ice on her way to work and breaks her arm. Both the cause and the result were unintended, so it qualifies."
+      ],
+      "examTip": "Accidental bodily injury (results test) is broader and more favorable to the insured than accidental means (cause test). NY prohibits individual accident benefits that depend on accidental means.",
+      "misconception": "It does not require that the activity itself was accidental; only the resulting injury must be unexpected.",
+      "related": [
+        "accidental-means",
+        "accident-only-policy",
+        "sickness",
+        "peril"
+      ],
+      "confusedWith": [
+        "accidental-means"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under the 'accidental bodily injury' definition, what must be unintended and unexpected?",
+        "choices": [
+          "The resulting injury",
+          "Both the cause and the result",
+          "Only the cause",
+          "The insured's occupation"
+        ],
+        "answerIndex": 0,
+        "explanation": "The results test asks only whether the injury itself was unexpected. Requiring both cause and result to be accidental is the narrower accidental means test."
+      },
+      "sources": [
+        "ny-11nycrr-52"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19",
+        "notes": "NY rule (no accidental-means predicate) verified in 11 NYCRR 52.17(a)(8); results-vs-cause definitions are general principles."
+      }
+    },
+    {
+      "id": "accidental-means",
+      "term": "Accidental Means",
+      "aliases": [],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.1.1"
+      ],
+      "formal": "A narrower definition of the accident peril requiring that both the cause (the means) and the result of the injury be unexpected and unintended. Under 11 NYCRR 52.17(a)(8) (Reg 62), accident benefits in NY individual policies shall not be predicated upon loss occurring through accidental means.",
+      "plain": "With accidental means, it isn't enough that the injury was a surprise; whatever caused it also had to be an accident. New York does not allow individual accident benefits to depend on this stricter test.",
+      "simpler": "Accidental means asks, 'Was the cause an accident too?' New York says insurers can't use that tougher test in individual policies.",
+      "examples": [
+        "Under an accidental-means test, Sol, who intentionally jumps from a ledge and breaks an ankle, might be denied because the jump (the cause) was intentional.",
+        "If Sol is pushed off the ledge by a falling branch, both the cause and the injury are accidental, so even the accidental-means test is met."
+      ],
+      "examTip": "If a question asks which definition is narrower or less favorable to the insured, choose accidental means. For NY, remember Reg 62 bars predicating individual accident benefits on accidental means.",
+      "misconception": "Accidental means is not the more generous definition; it is the stricter one because both cause and result must be accidental.",
+      "related": [
+        "accidental-bodily-injury",
+        "accident-only-policy",
+        "peril"
+      ],
+      "confusedWith": [
+        "accidental-bodily-injury"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which definition requires both the cause and the result of an injury to be accidental?",
+        "choices": [
+          "Accidental bodily injury",
+          "Accidental means",
+          "Sickness",
+          "Presumptive disability"
+        ],
+        "answerIndex": 1,
+        "explanation": "Accidental means requires an accidental cause and an accidental result. Accidental bodily injury looks only at the result."
+      },
+      "sources": [
+        "ny-11nycrr-52"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19",
+        "notes": "NY prohibition verified in 11 NYCRR 52.17(a)(8); definition of accidental means is a general principle."
+      }
+    },
+    {
+      "id": "sickness",
+      "term": "Sickness",
+      "aliases": [],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.1.2"
+      ],
+      "formal": "An illness or disease of the insured; for coverage purposes, policies commonly define a covered sickness as one that first manifests or begins while the policy is in force (subject to any preexisting-condition rules and waiting periods).",
+      "plain": "Sickness is the second main peril in health insurance, besides accidents. It means an illness or disease, as opposed to an injury caused by an accident.",
+      "simpler": "Accidents happen to you suddenly from outside; sickness comes from inside your body.",
+      "examples": [
+        "Tess develops pneumonia two years after her policy is issued. Her hospital stay is a loss caused by sickness.",
+        "Uri breaks his leg skiing. That is an accidental injury, not a sickness, even though he is treated in the same hospital."
+      ],
+      "examTip": "The two A&H perils are accidental injury and sickness. An accident-only policy covers the first but not the second.",
+      "misconception": "Sickness coverage is not automatic in every health policy; accident-only policies specifically exclude it.",
+      "related": [
+        "accidental-bodily-injury",
+        "accident-only-policy",
+        "preexisting-condition",
+        "peril"
+      ],
+      "confusedWith": [
+        "accidental-bodily-injury"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A disease that causes a loss, as opposed to an accidental injury, is called a:",
+        "choices": [
+          "Hazard",
+          "Sickness",
+          "Exclusion",
+          "Rider"
+        ],
+        "answerIndex": 1,
+        "explanation": "Sickness (illness or disease) and accidental injury are the two perils of health insurance. A hazard increases the chance of loss; an exclusion removes coverage; a rider modifies a policy."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "disability-income-insurance",
+      "term": "Disability Income Insurance",
+      "aliases": [
+        "Disability insurance",
+        "Income protection"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.2.1",
+        "di.2"
+      ],
+      "formal": "Insurance that replaces part of the insured's earned income when he or she cannot work because of sickness or injury. NY Reg 62 (11 NYCRR 52.8) defines it as a policy that provides periodic payments, weekly or monthly, for a specified period during the continuance of disability resulting from sickness or injury.",
+      "plain": "If you can't work because you're sick or hurt, disability income insurance sends you a regular check (weekly or monthly) to replace part of your paycheck.",
+      "simpler": "It's a paycheck replacement for when your body can't work.",
+      "examples": [
+        "Vera, a graphic designer, injures her hand and cannot work for six months. Her disability income policy pays her $3,000 a month after the elimination period.",
+        "Will's disability income policy pays nothing toward his hospital bill; that is the job of medical expense insurance. It pays him a monthly income instead."
+      ],
+      "examTip": "Disability income pays a periodic income benefit for loss of earnings; it does not pay medical bills. Watch for NY's required disclosure: 'This policy provides disability income insurance only.'",
+      "misconception": "Disability income insurance does not reimburse medical expenses; it replaces income.",
+      "related": [
+        "total-disability",
+        "elimination-period",
+        "benefit-period",
+        "medical-expense-insurance",
+        "social-security-disability",
+        "disability-benefits-law"
+      ],
+      "confusedWith": [
+        "medical-expense-insurance"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Under NY Reg 62, disability income insurance provides:",
+        "choices": [
+          "Reimbursement of hospital bills",
+          "A lump sum at death",
+          "Periodic weekly or monthly payments while the insured is disabled by sickness or injury",
+          "Payment for custodial care in a nursing home"
+        ],
+        "answerIndex": 2,
+        "explanation": "11 NYCRR 52.8 defines disability income insurance as periodic payments, weekly or monthly, during the continuance of disability from sickness or injury."
+      },
+      "sources": [
+        "ny-11nycrr-52",
+        "ny-11nycrr-215"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "medical-expense-insurance",
+      "term": "Medical Expense Insurance",
+      "aliases": [],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.2.2"
+      ],
+      "formal": "Health insurance that pays or reimburses the cost of hospital, surgical, physician and related medical care incurred by the insured, either on a reimbursement (expense-incurred), indemnity or service basis.",
+      "plain": "This is the coverage most people mean by 'health insurance': it helps pay your doctor and hospital bills.",
+      "simpler": "It pays the medical bills; disability insurance pays you when you can't work.",
+      "examples": [
+        "Xena's major medical plan pays 80% of her $10,000 surgery bill after her deductible.",
+        "Yusuf has both medical expense insurance (pays his hospital bill) and disability income insurance (replaces his salary while he recovers)."
+      ],
+      "examTip": "Three principal types of A&H losses/benefits on the outline: loss of income from disability, hospital and medical expense, and long-term care expense. Match the benefit to the loss.",
+      "misconception": "Medical expense insurance does not replace lost wages; that is disability income insurance.",
+      "related": [
+        "major-medical",
+        "disability-income-insurance",
+        "long-term-care-insurance",
+        "deductible",
+        "coinsurance"
+      ],
+      "confusedWith": [
+        "disability-income-insurance"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which type of coverage pays hospital and physician bills?",
+        "choices": [
+          "Disability income insurance",
+          "Key person insurance",
+          "Business overhead expense insurance",
+          "Medical expense insurance"
+        ],
+        "answerIndex": 3,
+        "explanation": "Medical expense insurance pays for medical care. Disability income and key person coverage replace income or protect a business; business overhead expense pays office expenses."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "limited-policy",
+      "term": "Limited Benefit Policy",
+      "aliases": [
+        "Limited policy",
+        "Limited benefits health insurance"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.4",
+        "ahb.4.1",
+        "ahb.4.2",
+        "ahb.3.3"
+      ],
+      "formal": "A policy that covers only certain specified losses or pays only limited, often fixed, amounts, rather than comprehensive coverage. In NY, 'limited benefits health insurance' is any A&H policy other than basic hospital, basic medical, major medical, disability income, accident, Medicare supplement, long-term care or nursing home/home care insurance (11 NYCRR 52.10), and it must carry the required disclosure that it 'provides limited benefits health insurance only' and does NOT provide basic hospital, basic medical or major medical insurance (11 NYCRR 52.54; Reg 34, 11 NYCRR 215.5(c)(4)).",
+      "plain": "A limited policy covers only a narrow set of events or pays small, set amounts. New York makes the insurer say plainly, in the policy's disclosure statement and in its ads, that it is limited coverage and not basic or major medical insurance.",
+      "simpler": "It's a small slice of coverage, and New York requires a label saying so.",
+      "examples": [
+        "Zoe buys a policy that pays a flat $50 per emergency room visit and nothing else. It is a limited benefit policy, and its disclosure must say it does not provide basic hospital, basic medical or major medical insurance.",
+        "An ad for a limited benefits policy in NY must include, in a prominent place and style, the statement that the policy provides limited benefits health insurance only."
+      ],
+      "examTip": "'Required notice to insured' for limited policies: the NY disclosure says the policy 'provides limited benefits health insurance only' and does NOT provide basic hospital, basic medical or major medical coverage. Applications and policies offered to people 65 or older carry an extra bold notice about Medicare supplement and LTC.",
+      "misconception": "A limited policy is not a substitute for comprehensive major medical coverage, and NY requires the policy to say so.",
+      "related": [
+        "accident-only-policy",
+        "specified-disease-policy",
+        "hospital-indemnity",
+        "dental-insurance",
+        "vision-insurance",
+        "outline-of-coverage",
+        "major-medical"
+      ],
+      "confusedWith": [
+        "major-medical"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under NY rules, the required disclosure for a limited benefits policy states that it:",
+        "choices": [
+          "Meets the minimum standards for major medical insurance",
+          "Provides limited benefits health insurance only and does NOT provide basic hospital, basic medical or major medical insurance",
+          "Is guaranteed renewable for life",
+          "Is a Medicare supplement policy"
+        ],
+        "answerIndex": 1,
+        "explanation": "11 NYCRR 52.54 and 215.5(c)(4) require the 'limited benefits health insurance only' statement, which says the policy does NOT provide basic hospital, basic medical or major medical insurance."
+      },
+      "sources": [
+        "ny-11nycrr-52",
+        "ny-11nycrr-215"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "accident-only-policy",
+      "term": "Accident-Only Policy",
+      "aliases": [
+        "Accident insurance",
+        "Accident-only"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.4.3.1"
+      ],
+      "formal": "A limited policy that pays benefits only for loss resulting from accidental injury and provides no coverage for sickness. NY's required disclosure for accident insurance states that it provides ACCIDENT insurance only and includes the notice 'IMPORTANT NOTICE - THIS POLICY DOES NOT PROVIDE COVERAGE FOR SICKNESS' (11 NYCRR 52.54(c); Reg 34, 11 NYCRR 215.5(c)(6)).",
+      "plain": "It pays only when you're hurt in an accident. If you get sick, it pays nothing, and New York makes the insurer warn you about that in capital letters.",
+      "simpler": "Accidents yes, illness no.",
+      "examples": [
+        "Abe's accident-only policy pays $5,000 when he loses a finger in a workshop accident.",
+        "When Abe is hospitalized for appendicitis, the accident-only policy pays nothing because appendicitis is a sickness."
+      ],
+      "examTip": "Look for the phrase 'DOES NOT PROVIDE COVERAGE FOR SICKNESS.' Also note NY's free-look rule in § 3216(c)(10) does not apply to single-premium nonrenewable accident-only policies.",
+      "misconception": "An accident-only policy does not cover illness, even a sudden or serious one.",
+      "related": [
+        "limited-policy",
+        "accidental-bodily-injury",
+        "sickness",
+        "ad-and-d"
+      ],
+      "confusedWith": [
+        "ad-and-d"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which NY notice must accident-only coverage carry?",
+        "choices": [
+          "THIS POLICY DOES NOT PROVIDE COVERAGE FOR SICKNESS",
+          "THIS POLICY IS GUARANTEED RENEWABLE",
+          "THIS IS A MEDICARE SUPPLEMENT POLICY",
+          "THIS POLICY COVERS ALL MEDICAL EXPENSES"
+        ],
+        "answerIndex": 0,
+        "explanation": "NY Reg 62 (52.54) and Reg 34 (215.5) require accident insurance to state 'IMPORTANT NOTICE - THIS POLICY DOES NOT PROVIDE COVERAGE FOR SICKNESS.'"
+      },
+      "sources": [
+        "ny-11nycrr-52",
+        "ny-11nycrr-215",
+        "ny-isc-3216"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "specified-disease-policy",
+      "term": "Specified (Dread) Disease Policy",
+      "aliases": [
+        "Dread disease policy",
+        "Critical illness (specified disease)"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.4.3.2"
+      ],
+      "formal": "A limited policy that pays benefits only for the diagnosis or treatment of one or more diseases named in the policy (such as cancer). In NY, a policy may provide benefits for specified diseases only if it meets the specified disease standards of 11 NYCRR 52.15 (or 52.22) (11 NYCRR 52.16(a)).",
+      "plain": "It pays only if you get a particular named disease, such as cancer. Other illnesses aren't covered.",
+      "simpler": "It's insurance for one named disease, not for illness in general.",
+      "examples": [
+        "Bea's cancer policy pays a lump sum when she is diagnosed with cancer, regardless of her other insurance.",
+        "When Bea has a heart attack, her cancer-only policy pays nothing because heart disease is not the specified disease."
+      ],
+      "examTip": "Specified (dread) disease = named disease only (cancer is the classic example). It supplements, not replaces, major medical coverage.",
+      "misconception": "A specified disease policy is not comprehensive coverage; illnesses not named in the policy are not covered.",
+      "related": [
+        "limited-policy",
+        "hospital-indemnity",
+        "major-medical"
+      ],
+      "confusedWith": [
+        "hospital-indemnity"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A policy that pays benefits only if the insured is diagnosed with cancer is a:",
+        "choices": [
+          "Major medical policy",
+          "Hospital indemnity policy",
+          "Specified disease policy",
+          "Disability income policy"
+        ],
+        "answerIndex": 2,
+        "explanation": "Specified (dread) disease policies cover only the diseases named in the policy. Hospital indemnity pays a fixed amount per day of confinement for covered causes."
+      },
+      "sources": [
+        "ny-11nycrr-52"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19",
+        "notes": "NY 52.16(a) rule verified; the description of typical benefits is a general principle."
+      }
+    },
+    {
+      "id": "hospital-indemnity",
+      "term": "Hospital Indemnity Policy",
+      "aliases": [],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.4.3.3"
+      ],
+      "formal": "A limited policy that pays a fixed, predetermined amount (for example, a set dollar amount per day) while the insured is confined in a hospital, regardless of the actual hospital charges and regardless of other insurance.",
+      "plain": "It pays you a set amount for each day you're in the hospital, no matter what the hospital actually charges. You can use the money however you like.",
+      "simpler": "A daily allowance for being in the hospital.",
+      "examples": [
+        "Cal's hospital indemnity policy pays $200 per day of inpatient confinement. After a 4-day stay, he receives $800 (4 × $200) even though his major medical plan also paid the hospital.",
+        "Dina's policy pays nothing for her outpatient MRI because the benefit is triggered only by inpatient confinement."
+      ],
+      "examTip": "Indemnity = fixed amount, not reimbursement of actual expenses. The outline calls it 'hospital indemnity (income)' because it works like a daily income while hospitalized.",
+      "misconception": "Hospital indemnity does not reimburse actual hospital bills; it pays a stated amount per day.",
+      "related": [
+        "limited-policy",
+        "specified-disease-policy",
+        "indemnity",
+        "reimbursement-vs-indemnity"
+      ],
+      "confusedWith": [
+        "specified-disease-policy"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A policy pays $150 per day of hospital confinement regardless of actual charges. It is a:",
+        "choices": [
+          "Hospital indemnity policy",
+          "Major medical policy",
+          "Basic medical policy",
+          "Business overhead expense policy"
+        ],
+        "answerIndex": 0,
+        "explanation": "A fixed daily amount for confinement, regardless of charges, is hospital indemnity. Major medical and basic medical reimburse covered expenses."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "dental-insurance",
+      "term": "Dental Insurance",
+      "aliases": [],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.4.3.4"
+      ],
+      "formal": "Coverage for dental services such as preventive care, basic restorative care and major dental work, commonly subject to its own deductibles, coinsurance and annual maximums. NY's required disclosure for dental coverage states that it provides 'DENTAL insurance only' (11 NYCRR 52.54(c)(2)(vii); Reg 34, 11 NYCRR 215.5(c)(7)).",
+      "plain": "Dental insurance helps pay for checkups, fillings and other dental work. It's separate from your medical coverage, and New York requires it to be labeled as dental insurance only.",
+      "simpler": "A policy just for your teeth.",
+      "examples": [
+        "Eve's dental plan pays 100% of two cleanings a year, 80% of fillings and 50% of crowns, up to a yearly maximum.",
+        "When Eve breaks her leg, her dental plan pays nothing; that is a medical expense, not a dental one."
+      ],
+      "examTip": "Dental plans typically pay preventive care at the highest percentage and major work at the lowest, and they often have an annual maximum benefit.",
+      "misconception": "Dental insurance is not comprehensive medical coverage; it is a limited, stand-alone type of coverage.",
+      "related": [
+        "limited-policy",
+        "vision-insurance",
+        "coinsurance",
+        "deductible"
+      ],
+      "confusedWith": [
+        "vision-insurance"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "NY requires dental-only coverage to carry a disclosure stating that it provides:",
+        "choices": [
+          "Major medical insurance",
+          "DENTAL insurance only",
+          "Basic hospital insurance",
+          "Limited benefits health insurance for people over 65 only"
+        ],
+        "answerIndex": 1,
+        "explanation": "11 NYCRR 52.54 and 215.5 require the statement that the coverage provides DENTAL insurance only."
+      },
+      "sources": [
+        "ny-11nycrr-52",
+        "ny-11nycrr-215"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19",
+        "notes": "NY disclosure wording verified; typical dental benefit structure is a general principle."
+      }
+    },
+    {
+      "id": "vision-insurance",
+      "term": "Vision Care Insurance",
+      "aliases": [],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.4.3.5"
+      ],
+      "formal": "Limited coverage for routine eye care, such as eye examinations, and for eyeglass lenses, frames or contact lenses, usually with fixed allowances or scheduled benefits and frequency limits.",
+      "plain": "Vision insurance helps pay for eye exams, glasses and contacts. Medical problems with your eyes (like an eye injury) are usually handled by medical insurance instead.",
+      "simpler": "A small policy for eye exams and glasses.",
+      "examples": [
+        "Finn's vision plan covers one eye exam a year and gives a $150 allowance toward new frames every two years.",
+        "When Finn scratches his cornea in an accident, his medical expense insurance, not his vision plan, covers the emergency treatment."
+      ],
+      "examTip": "Vision and dental are both listed in the outline as types of limited policies; routine eyewear is commonly excluded from medical expense policies.",
+      "misconception": "Vision insurance is not the same as medical coverage for eye disease or injury.",
+      "related": [
+        "limited-policy",
+        "dental-insurance",
+        "exclusion"
+      ],
+      "confusedWith": [
+        "dental-insurance"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Coverage that pays for routine eye exams and an allowance for eyeglasses is:",
+        "choices": [
+          "Vision care insurance",
+          "Specified disease insurance",
+          "Accident-only insurance",
+          "Hospital indemnity insurance"
+        ],
+        "answerIndex": 0,
+        "explanation": "Vision care insurance covers routine eye exams and eyewear allowances. The other choices cover named diseases, accidents only, or daily hospital confinement."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "exclusion",
+      "term": "Exclusion",
+      "aliases": [
+        "Exclusions"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.5",
+        "ahb.5.1",
+        "ahb.5.2"
+      ],
+      "formal": "A policy provision that eliminates coverage for specified losses, causes, conditions, services or circumstances. NY Reg 62 (11 NYCRR 52.16(c)) prohibits limiting or excluding coverage by type of illness, accident, treatment or medical condition except as listed, including war, felony or riot, suicide or intentionally self-inflicted injury, certain aviation, cosmetic surgery (other than reconstructive surgery as described), benefits provided under workers' compensation or other government programs (except Medicaid), routine dental care, eyeglasses and hearing aids, rest cures and custodial care, and coverage outside the U.S., its possessions, Canada and Mexico.",
+      "plain": "An exclusion is something the policy specifically does not cover. New York limits which exclusions an individual health policy may use; common permitted ones include self-inflicted injury, war, cosmetic surgery and losses covered by workers' compensation.",
+      "simpler": "The 'we don't pay for this' list in a policy.",
+      "examples": [
+        "Gia's health policy excludes losses for which workers' compensation pays benefits; her on-the-job back injury is paid by workers' compensation instead.",
+        "Hal's purely cosmetic nose surgery is excluded, but reconstructive surgery after a car-accident injury to his nose is not treated as excluded cosmetic surgery."
+      ],
+      "examTip": "Outline's common exclusions: workers' compensation, cosmetic, experimental/investigational, and services that are not medically necessary. Reconstructive surgery after trauma, infection or disease is not 'cosmetic' under NY Reg 62.",
+      "misconception": "An exclusion is not the same as a waiting period: an excluded loss is never covered, while a waiting (probationary) period only delays coverage.",
+      "related": [
+        "medical-necessity",
+        "experimental-treatment",
+        "workers-compensation",
+        "preexisting-condition",
+        "illegal-occupation"
+      ],
+      "confusedWith": [
+        "preexisting-condition"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under NY Reg 62, which of these may an individual health policy exclude?",
+        "choices": [
+          "All mental health care without exception",
+          "Reconstructive surgery following an accidental injury",
+          "Losses for which workers' compensation benefits are provided",
+          "Any treatment the insured received in New York"
+        ],
+        "answerIndex": 2,
+        "explanation": "11 NYCRR 52.16(c)(8) permits excluding benefits provided under workers' compensation. Reconstructive surgery after trauma is carved out of the cosmetic exclusion, and mental health exclusions are subject to required coverage."
+      },
+      "sources": [
+        "ny-11nycrr-52"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "medical-necessity",
+      "term": "Medical Necessity",
+      "aliases": [],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.5.4"
+      ],
+      "formal": "A standard used by insurers to determine whether a service is covered: generally, the service must be appropriate and consistent with the diagnosis and treatment of the insured's condition under accepted standards of medical practice, and not primarily for convenience. Services that are not medically necessary are commonly excluded.",
+      "plain": "The insurer pays only for care that's actually needed to diagnose or treat your condition according to accepted medical standards, not care that's just for convenience.",
+      "simpler": "If a doctor wouldn't normally say 'you need this,' insurance usually won't pay for it.",
+      "examples": [
+        "Ida asks to stay an extra two nights in the hospital for convenience after she is cleared for discharge. The insurer may deny those days as not medically necessary.",
+        "Jay's MRI, ordered to diagnose persistent knee pain consistent with a torn ligament, meets the medical necessity standard."
+      ],
+      "examTip": "If the stem says a service was 'for convenience' or 'not consistent with accepted medical practice,' think medical necessity exclusion. Denials based on medical necessity are a form of utilization review.",
+      "misconception": "Medical necessity is not decided only by the patient's preference; it depends on accepted standards of care.",
+      "related": [
+        "exclusion",
+        "experimental-treatment",
+        "utilization-review"
+      ],
+      "confusedWith": [
+        "experimental-treatment"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A hospital stay extended only for the patient's convenience would most likely be denied as:",
+        "choices": [
+          "A preexisting condition",
+          "An experimental treatment",
+          "A cosmetic procedure",
+          "Not medically necessary"
+        ],
+        "answerIndex": 3,
+        "explanation": "Care for convenience rather than treatment of the condition fails the medical necessity standard."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "experimental-treatment",
+      "term": "Experimental / Investigational Treatment",
+      "aliases": [],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.5.3"
+      ],
+      "formal": "A drug, device, procedure or treatment that has not been proven safe and effective under generally accepted standards (for example, one still in clinical trials or not approved for the use in question). Health policies commonly exclude experimental or investigational services.",
+      "plain": "If a treatment is still being tested and isn't accepted as standard care, the policy usually won't pay for it.",
+      "simpler": "Treatments still 'in the lab' are usually not covered.",
+      "examples": [
+        "Kai's doctor suggests a therapy that is available only in an early-phase clinical trial; his policy's experimental treatment exclusion may apply.",
+        "Once the same therapy becomes an accepted, approved standard treatment for Kai's condition, it is no longer considered experimental."
+      ],
+      "examTip": "Know the four common exclusions on the outline: workers' compensation, cosmetic, experimental/investigational, and medical necessity.",
+      "misconception": "'Experimental' does not simply mean new or expensive; it means not yet proven and accepted as standard treatment for that condition.",
+      "related": [
+        "exclusion",
+        "medical-necessity"
+      ],
+      "confusedWith": [
+        "medical-necessity"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A health policy denies a drug used only in an early clinical trial. The insurer is applying the exclusion for:",
+        "choices": [
+          "Cosmetic surgery",
+          "Experimental or investigational treatment",
+          "Workers' compensation",
+          "Intoxicants and narcotics"
+        ],
+        "answerIndex": 1,
+        "explanation": "Treatment not yet proven or accepted (such as a drug still in early clinical trials) falls under the experimental/investigational exclusion."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "outline-of-coverage",
+      "term": "Outline of Coverage",
+      "aliases": [
+        "Disclosure statement (NY)"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.6.1.3",
+        "ahb.6.1.5"
+      ],
+      "formal": "A summary describing a policy's principal benefits, exclusions and limitations, provided so the buyer can understand and compare coverage. In NY, an individual accident and health policy may not be delivered unless the appropriate Reg 62 disclosure form (11 NYCRR 52.55-52.62) is completed and accompanies or is incorporated in the policy when delivered, or is delivered to the applicant at the time of application with an acknowledgment of receipt provided to the insurer (11 NYCRR 52.54(a)).",
+      "plain": "It's a plain-language summary of what the policy does and doesn't cover. In New York, the required disclosure statement must come with the policy at delivery, or be handed over when you apply (with a signed acknowledgment).",
+      "simpler": "The policy's 'cheat sheet' that you must get either when you apply or when the policy arrives.",
+      "examples": [
+        "Lia applies for a disability income policy in New York. Her producer gives her the required disclosure statement with the application and sends the insurer her signed acknowledgment of receipt.",
+        "Max's NY hospital policy arrives with the disclosure statement incorporated into the policy, satisfying the delivery requirement."
+      ],
+      "examTip": "Timing is the test point: NY allows the disclosure either with the policy at delivery or at application with acknowledgment of receipt.",
+      "misconception": "The outline of coverage (disclosure statement) does not replace the policy; the policy itself is the contract.",
+      "related": [
+        "limited-policy",
+        "policy-delivery",
+        "buyers-guide",
+        "free-look"
+      ],
+      "confusedWith": [
+        "policy-summary"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under NY Reg 62, the required disclosure for an individual A&H policy must be provided:",
+        "choices": [
+          "Only if the applicant asks for it",
+          "Within one year after the policy is issued",
+          "With the policy at delivery, or at application with an acknowledgment of receipt",
+          "Only for group policies"
+        ],
+        "answerIndex": 2,
+        "explanation": "11 NYCRR 52.54(a) requires the disclosure form to accompany or be incorporated in the policy at delivery, or to be delivered at application with acknowledgment of receipt provided to the insurer."
+      },
+      "sources": [
+        "ny-11nycrr-52"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "errors-and-omissions",
+      "term": "Errors and Omissions (E&O)",
+      "aliases": [],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.7.2"
+      ],
+      "formal": "Professional liability insurance that protects a producer against claims by clients for financial loss caused by the producer's negligent acts, errors or omissions in performing professional services, such as failing to place requested coverage or giving incorrect information.",
+      "plain": "E&O insurance protects you as an agent if a client sues you because you made a mistake or forgot to do something, such as letting a client go uninsured during a replacement.",
+      "simpler": "Malpractice insurance for insurance producers.",
+      "examples": [
+        "Nia advises a client to cancel his old health policy before the new one is approved. The new application is declined and the client is left uninsured with a large claim. The client sues Nia; her E&O coverage responds to the negligence claim.",
+        "Omar forgets to submit a client's disability application. The client becomes disabled and sues; this omission is the kind of loss E&O insurance is designed to cover."
+      ],
+      "examTip": "In replacement questions, the classic E&O risk is letting the old coverage lapse before the new coverage is in force. The right advice: don't cancel the old policy until the new one is issued and accepted.",
+      "misconception": "E&O does not cover intentional fraud or criminal acts by the producer; it covers negligent mistakes and omissions.",
+      "related": [
+        "fiduciary-responsibility",
+        "replacement",
+        "misrepresentation"
+      ],
+      "confusedWith": [
+        "fiduciary-responsibility"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Errors and omissions insurance protects a producer against:",
+        "choices": [
+          "Claims by clients for losses caused by the producer's negligent mistakes",
+          "The producer's own medical bills",
+          "Loss of commissions when policies lapse",
+          "Fines for intentional fraud"
+        ],
+        "answerIndex": 0,
+        "explanation": "E&O is professional liability coverage for negligent errors and omissions. It does not cover the producer's health, lost commissions or intentional wrongdoing."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "community-rating",
+      "term": "Community Rating",
+      "aliases": [
+        "Community rated"
+      ],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.8"
+      ],
+      "formal": "A rating method in which the premium for all persons covered by a policy form is the same, based on the experience of the entire pool of risks, without regard to age, sex, health status, tobacco usage or occupation. NY Insurance Law §§ 3231 and 4317 require individual and small group hospital and/or medical policies (including Medicare supplement) to be community rated, with open enrollment and no termination due to claims experience; separate community rates may be used for individuals versus small groups and for approved geographic regions.",
+      "plain": "In New York, everyone buying the same individual or small group health plan in the same region pays the same premium, whether they are young or old, healthy or sick, male or female, a smoker or not.",
+      "simpler": "One price for the whole 'community' on that plan, no matter who you are.",
+      "examples": [
+        "Pam, 25 and healthy, and Ray, 60 with diabetes, buy the same individual plan in the same NY rating region. They pay the same premium.",
+        "A NY insurer may charge a different community rate in another approved geographic region, and separate rates for individuals versus small groups, but not different rates by age or health."
+      ],
+      "examTip": "Community rating factors that are NOT allowed in NY: age, sex, health status, tobacco usage, occupation. Factors that may differ: region and individual vs small group pool (plus standard premium tiers the superintendent may set).",
+      "misconception": "Community rating does not mean every plan costs the same; it means everyone on the same policy form in the same rating pool pays the same premium.",
+      "related": [
+        "small-group",
+        "experience-rating",
+        "guaranteed-issue",
+        "open-enrollment-group"
+      ],
+      "confusedWith": [
+        "experience-rating"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under NY community rating, which factor may NOT be used to vary premiums within a policy form?",
+        "choices": [
+          "Approved geographic region",
+          "Whether the coverage is individual or small group",
+          "The insured's age",
+          "The policy form purchased"
+        ],
+        "answerIndex": 2,
+        "explanation": "§§ 3231(a)(4) and 4317(a)(4) prohibit rating by age, sex, health status, tobacco usage or occupation. Separate rates by region and by individual versus small group are expressly permitted."
+      },
+      "sources": [
+        "ny-isc-3231",
+        "ny-isc-4317",
+        "ny-11nycrr-360"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "small-group",
+      "term": "Small Group",
+      "aliases": [],
+      "sectionId": "ahb",
+      "outlineIds": [
+        "ahb.8.1"
+      ],
+      "formal": "For NY community rating purposes, a group health insurance policy covering between one and fifty employees or members, or between one and one hundred employees or members for policies issued or renewed on or after January 1, 2016, exclusive of spouses and dependents (N.Y. Insurance Law §§ 3231(a)(1), 4317(a)(1)). Small groups must be community rated, accepted at all times throughout the year (open enrollment), and cannot be terminated because of claims experience.",
+      "plain": "A small group is a small employer group for health insurance purposes. Under current New York statutes, that means up to 100 employees (not counting spouses and dependents) for policies issued or renewed since 2016. Small group plans in NY must be community rated and open to every eligible small group all year.",
+      "simpler": "Small employers get the same community-rated pricing rules as individuals, and they can't be turned away.",
+      "examples": [
+        "A bakery with 12 employees buys a NY group health plan. It is a small group, so its premium is community rated rather than based on its own claims.",
+        "A firm with 80 employees renewed its NY group health policy in 2025. Under §§ 3231 and 4317, a group of up to 100 employees, exclusive of spouses and dependents, is a small group for policies issued or renewed on or after January 1, 2016."
+      ],
+      "examTip": "Count employees exclusive of spouses and dependents. Small group = community rated + open enrollment + no termination due to claims experience. Note: Reg 145 (11 NYCRR 360.2(f)) still contains older '2 to 50' wording; the statutes control.",
+      "misconception": "Small group size is counted by employees or members, not by the total number of people covered including family members.",
+      "related": [
+        "community-rating",
+        "small-employer",
+        "guaranteed-issue",
+        "experience-rating"
+      ],
+      "confusedWith": [
+        "small-employer"
+      ],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "Under NY Insurance Law § 3231, when counting the size of a small group, which people are excluded from the count?",
+        "choices": [
+          "Part-time employees",
+          "Spouses and dependents",
+          "Employees over age 65",
+          "Employees hired in the past year"
+        ],
+        "answerIndex": 1,
+        "explanation": "§ 3231(a)(1) counts employees or members 'exclusive of spouses and dependents.'"
+      },
+      "sources": [
+        "ny-isc-3231",
+        "ny-isc-4317",
+        "ny-11nycrr-360"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19",
+        "notes": "Statutes (rev. 2023-10-27) give 1-50, or 1-100 for policies issued/renewed on or after 1/1/2016; Reg 145 § 360.2(f) still says 2-50. Flagged for lead review."
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "a": "accidental-means",
+      "b": "accidental-bodily-injury",
+      "keyDifference": "Accidental means requires both the cause and the result to be accidental; accidental bodily injury requires only that the result (the injury) be unexpected. Accidental bodily injury is broader, and NY Reg 62 bars predicating individual accident benefits on accidental means.",
+      "rows": [
+        {
+          "aspect": "What must be accidental",
+          "a": "The cause AND the result",
+          "b": "Only the result (the injury)"
+        },
+        {
+          "aspect": "Breadth of coverage",
+          "a": "Narrower, less favorable to the insured",
+          "b": "Broader, more favorable to the insured"
+        },
+        {
+          "aspect": "Intentional act that causes an unexpected injury",
+          "a": "May not qualify",
+          "b": "Qualifies"
+        },
+        {
+          "aspect": "NY individual policies",
+          "a": "Accident benefits may not be predicated on accidental means (11 NYCRR 52.17(a)(8))",
+          "b": "Permitted results-based approach"
+        }
+      ],
+      "memoryTip": "MEANS = the Method must be accidental too; BODILY INJURY = only the Bruise must be a surprise."
+    },
+    {
+      "a": "limited-policy",
+      "b": "major-medical",
+      "keyDifference": "A limited policy covers only specified losses or pays fixed, limited amounts; major medical is broad comprehensive coverage for most medical expenses. NY requires limited policies to state that they do NOT provide basic hospital, basic medical or major medical insurance.",
+      "rows": [
+        {
+          "aspect": "Scope",
+          "a": "Narrow: named events, diseases or fixed amounts",
+          "b": "Broad: most hospital, surgical and medical expenses"
+        },
+        {
+          "aspect": "Typical benefit form",
+          "a": "Fixed dollar amounts (indemnity) or small schedules",
+          "b": "Reimbursement after deductible and coinsurance"
+        },
+        {
+          "aspect": "NY required notice",
+          "a": "'Limited benefits health insurance only'; does NOT provide basic hospital, basic medical or major medical",
+          "b": "Meets minimum standards for major medical insurance"
+        }
+      ],
+      "memoryTip": "Limited = a Little slice; Major = the Main meal."
+    }
+  ]
+}

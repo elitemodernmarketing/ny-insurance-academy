@@ -1,0 +1,542 @@
+{
+  "clientProfiles": [
+    {
+      "id": "life-sel-young-family",
+      "name": "Daniel Ortiz",
+      "age": 32,
+      "summary": "A married father of two young children whose income supports the household. He has only a small group life benefit through work and a tight budget.",
+      "facts": [
+        {
+          "label": "Family",
+          "value": "Spouse (stays home with the children), children ages 2 and 5"
+        },
+        {
+          "label": "Income",
+          "value": "$70,000 per year"
+        },
+        {
+          "label": "Debts",
+          "value": "$240,000 mortgage; $10,000 car loan"
+        },
+        {
+          "label": "Existing coverage and savings",
+          "value": "$70,000 group term life through work; $15,000 savings"
+        },
+        {
+          "label": "Budget for premiums",
+          "value": "About $60 per month"
+        },
+        {
+          "label": "Health",
+          "value": "Nonsmoker in good health"
+        }
+      ],
+      "goal": "Make sure his family could keep the house, pay the bills and eventually fund the children's education if he died.",
+      "decisions": [
+        {
+          "prompt": "Which type of coverage best fits Daniel's need and budget?",
+          "options": [
+            {
+              "text": "A level term policy lasting until the youngest child is grown (about 20 years)",
+              "quality": "best",
+              "feedback": "Term gives the most death benefit per premium dollar for a large, temporary need. A convertible term policy also keeps the option to move to permanent coverage later."
+            },
+            {
+              "text": "A whole life policy for the same face amount",
+              "quality": "poor",
+              "feedback": "Whole life for a large face amount would cost far more than $60 a month, so Daniel would end up badly underinsured or unable to keep paying."
+            },
+            {
+              "text": "A small whole life policy plus a term policy for the rest of the need",
+              "quality": "acceptable",
+              "feedback": "A blend can work if the total premium fits the budget, but most of the protection should come from term so the need is fully covered."
+            },
+            {
+              "text": "Rely on the $70,000 group life benefit",
+              "quality": "poor",
+              "feedback": "Group coverage is far below the family's needs and usually ends or must be converted if he leaves his job."
+            }
+          ]
+        },
+        {
+          "prompt": "Using a needs approach, roughly how much coverage should Daniel consider for lump-sum needs alone? (Final expenses $15,000 + mortgage $240,000 + car loan $10,000 + education fund $100,000; subtract $70,000 group life and $15,000 savings.)",
+          "options": [
+            {
+              "text": "About $280,000 for lump-sum needs, plus more for ongoing income needs",
+              "quality": "best",
+              "feedback": "$15,000 + $240,000 + $10,000 + $100,000 = $365,000. Subtracting $85,000 of existing resources leaves $280,000 — before adding income for the spouse during the dependency years."
+            },
+            {
+              "text": "$365,000",
+              "quality": "acceptable",
+              "feedback": "That is the total of lump-sum needs, but it ignores the $85,000 of existing coverage and savings the family already has."
+            },
+            {
+              "text": "$70,000, the same as his group life",
+              "quality": "poor",
+              "feedback": "That simply duplicates existing coverage and leaves the mortgage and education needs unfunded."
+            },
+            {
+              "text": "Ten times his salary, without looking at his family's needs",
+              "quality": "poor",
+              "feedback": "A rule of thumb can be a starting point, but the needs approach looks at this family's actual debts, goals and resources."
+            }
+          ]
+        },
+        {
+          "prompt": "Which rider is most worth discussing with Daniel?",
+          "options": [
+            {
+              "text": "Waiver of premium, so the policy stays in force if he becomes totally disabled",
+              "quality": "best",
+              "feedback": "Daniel's family depends on his income; if a disability stopped his paycheck, waiver of premium would keep the coverage in force."
+            },
+            {
+              "text": "A children's term rider for small amounts on the children",
+              "quality": "acceptable",
+              "feedback": "Inexpensive and can cover final expenses for a child, but it addresses a much smaller risk than protecting Daniel's income."
+            },
+            {
+              "text": "An accidental death benefit instead of more base coverage",
+              "quality": "poor",
+              "feedback": "Accidental death pays only for accidents; Daniel's family needs protection from death by any cause, especially illness."
+            }
+          ]
+        },
+        {
+          "prompt": "Daniel's spouse does not earn income. What should the producer point out?",
+          "options": [
+            {
+              "text": "Consider modest coverage on the spouse, since replacing child care and household work would cost money",
+              "quality": "best",
+              "feedback": "The death of a stay-at-home parent creates real expenses. Survivor protection is not only for wage earners."
+            },
+            {
+              "text": "No coverage is needed on a spouse without a paycheck",
+              "quality": "poor",
+              "feedback": "That ignores the economic value of a stay-at-home parent's work."
+            },
+            {
+              "text": "Insure the spouse for the same amount as Daniel",
+              "quality": "acceptable",
+              "feedback": "Some coverage makes sense, but the amount should be based on the spouse's own needs analysis, not simply matched."
+            }
+          ]
+        }
+      ],
+      "takeaways": [
+        "Large, temporary needs on a tight budget usually point to term insurance, often convertible.",
+        "The needs approach totals lump-sum and income needs and subtracts existing coverage and savings.",
+        "Waiver of premium protects coverage when the insured's income stops because of disability.",
+        "Stay-at-home parents have an insurable economic value too."
+      ],
+      "concepts": [
+        "needs-approach",
+        "survivor-protection",
+        "term-life-insurance",
+        "convertible-term",
+        "waiver-of-premium",
+        "childrens-term-rider"
+      ],
+      "outlineIds": [
+        "lib.3.2",
+        "lib.3.2.2",
+        "lib.3.2.3",
+        "lib.5.2",
+        "lib.2.1"
+      ],
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "life-sel-single-professional",
+      "name": "Aisha Bello",
+      "age": 26,
+      "summary": "A single nurse with no dependents. Her parents co-signed $40,000 of her private student loans.",
+      "facts": [
+        {
+          "label": "Dependents",
+          "value": "None"
+        },
+        {
+          "label": "Income",
+          "value": "$65,000 per year"
+        },
+        {
+          "label": "Debts",
+          "value": "$40,000 private student loans co-signed by her parents"
+        },
+        {
+          "label": "Existing coverage",
+          "value": "$65,000 group term life through her hospital"
+        },
+        {
+          "label": "Plans",
+          "value": "Expects to marry and have children within 5–10 years"
+        }
+      ],
+      "goal": "Make sure her parents would not be stuck with her student loans if she died, and keep options open for future family needs.",
+      "decisions": [
+        {
+          "prompt": "How large is Aisha's current life insurance need?",
+          "options": [
+            {
+              "text": "Modest — enough to cover the co-signed loans and final expenses, beyond what she already has",
+              "quality": "best",
+              "feedback": "With no dependents, her main exposure is the co-signed debt and final expenses. A needs approach keeps the recommendation proportionate."
+            },
+            {
+              "text": "A very large policy sized to ten times her salary",
+              "quality": "poor",
+              "feedback": "She has no one who depends on her income today, so a huge face amount is not supported by her needs."
+            },
+            {
+              "text": "None at all, because she is single",
+              "quality": "acceptable",
+              "feedback": "Her group life might cover the loans today, but it may end if she changes jobs; the co-signed debt still deserves attention."
+            }
+          ]
+        },
+        {
+          "prompt": "Which feature best protects her future insurability as her family grows?",
+          "options": [
+            {
+              "text": "Convertible term, or a guaranteed insurability rider on a permanent policy",
+              "quality": "best",
+              "feedback": "Conversion or guaranteed insurability lets her add or keep coverage later without new evidence of insurability, even if her health changes."
+            },
+            {
+              "text": "Relying only on group life from her current job",
+              "quality": "poor",
+              "feedback": "Group coverage depends on employment and is rarely enough once a family arrives."
+            },
+            {
+              "text": "Buying the cheapest one-year term policy and reapplying every year",
+              "quality": "acceptable",
+              "feedback": "It is inexpensive now, but each new application requires insurability and the price rises with age."
+            }
+          ]
+        },
+        {
+          "prompt": "Aisha asks whether a policy with cash value is a good idea. What is the best response?",
+          "options": [
+            {
+              "text": "Explain the trade-offs: permanent coverage builds cash value but costs more; recommend it only if it fits her goals and budget",
+              "quality": "best",
+              "feedback": "A balanced explanation of favorable and unfavorable features lets her make an informed choice."
+            },
+            {
+              "text": "Tell her cash value policies always beat term",
+              "quality": "poor",
+              "feedback": "No product is always best; cost, goals and time horizon matter."
+            },
+            {
+              "text": "Tell her term is always best for everyone",
+              "quality": "poor",
+              "feedback": "Permanent coverage can fit people with lifelong needs or a desire for cash accumulation; blanket statements are not sound advice."
+            }
+          ]
+        }
+      ],
+      "takeaways": [
+        "Without dependents, the need is usually limited to debts others would owe and final expenses.",
+        "Conversion privileges and guaranteed insurability protect future insurability.",
+        "Present both the benefits and the costs of permanent coverage."
+      ],
+      "concepts": [
+        "needs-approach",
+        "convertible-term",
+        "guaranteed-insurability-rider",
+        "permanent-life-insurance",
+        "group-life-insurance"
+      ],
+      "outlineIds": [
+        "lib.3.2",
+        "lib.3.2.1",
+        "lib.5.1",
+        "lib.5.2"
+      ],
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "life-sel-business-owner",
+      "name": "Robert Chen",
+      "age": 58,
+      "summary": "Co-owner of a profitable manufacturing company with one partner. Most of his wealth is tied up in the business. He owns a 15-year-old whole life policy.",
+      "facts": [
+        {
+          "label": "Family",
+          "value": "Spouse; two adult children who do not work in the business"
+        },
+        {
+          "label": "Business",
+          "value": "Owns 50% of a company with partner Lisa; no buy-sell agreement yet"
+        },
+        {
+          "label": "Existing coverage",
+          "value": "$250,000 whole life policy bought 15 years ago, with significant cash value"
+        },
+        {
+          "label": "Estate",
+          "value": "Mostly illiquid: business interest and real estate"
+        },
+        {
+          "label": "Health",
+          "value": "Controlled high blood pressure"
+        }
+      ],
+      "goal": "Make sure his family receives fair value for his business interest and that Lisa can keep running the company if he dies.",
+      "decisions": [
+        {
+          "prompt": "What is the best way to handle the business interest at Robert's death?",
+          "options": [
+            {
+              "text": "A buy-sell agreement between Robert and Lisa, funded with life insurance on each owner",
+              "quality": "best",
+              "feedback": "A funded buy-sell agreement guarantees a buyer, a price and the cash — Lisa keeps the business and Robert's family receives fair value."
+            },
+            {
+              "text": "Leave the business interest to his children in his will",
+              "quality": "poor",
+              "feedback": "The children do not work in the business; they could end up owning half of a company they cannot run, with no cash."
+            },
+            {
+              "text": "Key person insurance on Robert only, owned by the company",
+              "quality": "acceptable",
+              "feedback": "Key person coverage helps the company survive his loss, but it does not by itself buy his interest from his family."
+            }
+          ]
+        },
+        {
+          "prompt": "With two owners, how should the buy-sell agreement be structured?",
+          "options": [
+            {
+              "text": "Either a cross-purchase plan (2 policies) or an entity plan (2 policies) — both work with two owners",
+              "quality": "best",
+              "feedback": "With two owners, cross-purchase needs n × (n − 1) = 2 policies and an entity plan needs 2. The choice depends on other planning and tax advice."
+            },
+            {
+              "text": "A cross-purchase plan requiring four policies",
+              "quality": "poor",
+              "feedback": "Two owners need only 2 × 1 = 2 cross-purchase policies."
+            },
+            {
+              "text": "No insurance; the company can borrow the money when needed",
+              "quality": "poor",
+              "feedback": "Borrowing after an owner's death may be difficult or expensive; insurance provides cash when it is needed."
+            }
+          ]
+        },
+        {
+          "prompt": "Another producer suggests surrendering Robert's old whole life policy to help pay for new coverage. Under New York rules, what must happen?",
+          "options": [
+            {
+              "text": "Treat it as a replacement: complete the Definition of Replacement and IMPORTANT Notice, give a Disclosure Statement explaining why the existing policy can't meet his objectives, and evaluate whether replacement is in his best interest",
+              "quality": "best",
+              "feedback": "Surrendering existing coverage as part of buying new insurance is a replacement under Reg 60 (11 NYCRR 51.2), with required forms (51.5). Reg 187 (11 NYCRR 224.4) requires considering surrender charges, a new contestable period, lost benefits and his health rating before recommending it."
+            },
+            {
+              "text": "Surrender it first, then apply for the new policy later so no forms are needed",
+              "quality": "poor",
+              "feedback": "If the surrender is part of the transaction, it is still a replacement; splitting the steps to avoid the rules is improper."
+            },
+            {
+              "text": "Keep the existing policy and buy additional coverage for the buy-sell need",
+              "quality": "acceptable",
+              "feedback": "Keeping the existing policy avoids replacement and preserves its cash value and older incontestable status; this is often reasonable, though it still needs a suitability review."
+            }
+          ]
+        },
+        {
+          "prompt": "What extra benefit could permanent coverage give Robert's estate?",
+          "options": [
+            {
+              "text": "Liquidity so his heirs can pay debts and settlement costs without selling real estate quickly",
+              "quality": "best",
+              "feedback": "His estate is mostly illiquid; life insurance provides cash at death for estate conservation."
+            },
+            {
+              "text": "Guaranteed investment returns higher than the business",
+              "quality": "poor",
+              "feedback": "Insurance is not an investment guarantee; overstating returns would be a misrepresentation."
+            },
+            {
+              "text": "Protection against all estate settlement costs regardless of the amount",
+              "quality": "poor",
+              "feedback": "Coverage helps only to the extent of the face amount purchased."
+            }
+          ]
+        }
+      ],
+      "takeaways": [
+        "Buy-sell agreements funded by life insurance give surviving owners control and heirs fair cash value.",
+        "Cross-purchase needs n × (n − 1) policies; entity plans need one per owner.",
+        "In New York, using an existing policy's values to fund a new one is a replacement under Reg 60 and must be in the client's best interest under Reg 187.",
+        "Life insurance supplies liquidity for illiquid estates."
+      ],
+      "concepts": [
+        "buy-sell-agreement",
+        "key-person-insurance",
+        "business-continuation",
+        "replacement",
+        "suitability",
+        "estate-conservation",
+        "liquidity"
+      ],
+      "outlineIds": [
+        "lib.4.1",
+        "lib.4.2",
+        "lib.4.3",
+        "lib.7.1.5",
+        "lib.7.1.7",
+        "lib.2.5"
+      ],
+      "sources": [
+        "ny-11nycrr-51",
+        "ny-11nycrr-224"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "life-sel-retired-widow",
+      "name": "Dorothy Malone",
+      "age": 72,
+      "summary": "A retired widow on a fixed income who wants to cover her funeral and leave a small gift to her grandchildren.",
+      "facts": [
+        {
+          "label": "Income",
+          "value": "$2,600 per month from Social Security and a small pension"
+        },
+        {
+          "label": "Monthly budget left after expenses",
+          "value": "About $120"
+        },
+        {
+          "label": "Assets",
+          "value": "$30,000 savings; paid-off condo"
+        },
+        {
+          "label": "Existing coverage",
+          "value": "None"
+        },
+        {
+          "label": "Health",
+          "value": "Type 2 diabetes, controlled with medication"
+        }
+      ],
+      "goal": "Make sure her children don't have to pay for her funeral, and leave a modest amount to her grandchildren.",
+      "decisions": [
+        {
+          "prompt": "Before recommending anything, what must the producer do under New York's best-interest regulation?",
+          "options": [
+            {
+              "text": "Make reasonable efforts to obtain her suitability information — income, budget, assets, existing coverage, goals, liquidity needs and willingness to accept non-guaranteed elements",
+              "quality": "best",
+              "feedback": "11 NYCRR 224.4(d) requires reasonable efforts to obtain suitability information before recommending; 224.3(g) lists the kinds of information."
+            },
+            {
+              "text": "Recommend the product with the highest commission and document it later",
+              "quality": "poor",
+              "feedback": "Only the consumer's interests may be considered; compensation must not influence the recommendation (224.4(b)(1))."
+            },
+            {
+              "text": "Ask only her age and health, since she wants a small policy",
+              "quality": "acceptable",
+              "feedback": "Age and health matter for underwriting, but best interest also requires understanding her budget, assets and goals."
+            }
+          ]
+        },
+        {
+          "prompt": "Dorothy likes a policy whose premium would take nearly all of her $120 monthly cushion. What is the best course?",
+          "options": [
+            {
+              "text": "Recommend a smaller face amount or lower-cost design she can comfortably afford",
+              "quality": "best",
+              "feedback": "A producer may not recommend a transaction without a reasonable basis to believe the consumer can meet its financial commitments (11 NYCRR 224.4(g))."
+            },
+            {
+              "text": "Sell the larger policy, since she wants it",
+              "quality": "poor",
+              "feedback": "Recommending coverage she likely cannot keep paying for is not in her best interest and risks a lapse."
+            },
+            {
+              "text": "Suggest she use part of her $30,000 savings to pay premiums",
+              "quality": "acceptable",
+              "feedback": "Using savings may be reasonable if it fits her liquidity needs, but it must be weighed against her need for emergency funds."
+            }
+          ]
+        },
+        {
+          "prompt": "A competing salesperson's card reads 'Certified Senior Retirement Specialist' — a title he gave himself. What should Dorothy's producer understand about this?",
+          "options": [
+            {
+              "text": "Using a self-conferred senior designation is prohibited in New York",
+              "quality": "best",
+              "feedback": "11 NYCRR 225.2(a)(2)(ii) prohibits nonexistent or self-conferred senior-specific certifications; a violation is an unfair or deceptive practice (225.3)."
+            },
+            {
+              "text": "Any senior title is fine as long as the agent is licensed",
+              "quality": "poor",
+              "feedback": "A license does not make a misleading senior designation permissible."
+            },
+            {
+              "text": "It is only a problem if Dorothy complains",
+              "quality": "poor",
+              "feedback": "The prohibition applies to the use itself, whether or not anyone complains."
+            }
+          ]
+        }
+      ],
+      "takeaways": [
+        "Gather suitability information before recommending (Reg 187).",
+        "Recommend only coverage the client can reasonably afford to keep.",
+        "Self-conferred or misleading senior designations are prohibited (Reg 199)."
+      ],
+      "concepts": [
+        "suitability",
+        "senior-designation",
+        "needs-approach",
+        "substandard-risk"
+      ],
+      "outlineIds": [
+        "lib.7.1.5",
+        "lib.7.1.9",
+        "lib.3.2"
+      ],
+      "sources": [
+        "ny-11nycrr-224",
+        "ny-11nycrr-225"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

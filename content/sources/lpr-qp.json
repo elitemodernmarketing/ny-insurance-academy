@@ -1,0 +1,143 @@
+{
+ "sources": [
+  {
+   "id": "ny-isc-3204",
+   "title": "NY Insurance Law § 3204 — Policy to contain entire contract; statements of applicant to be representations and not warranties; alterations",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/3204",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 3204 (revision from 2014-09-22)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-3204.md"
+  },
+  {
+   "id": "ny-isc-3230",
+   "title": "NY Insurance Law § 3230 — Accelerated payment of the death benefit or special surrender value under a life insurance policy",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/3230",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 3230 (revision from 2017-09-15)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-3230.md"
+  },
+  {
+   "id": "ny-isc-1113",
+   "title": "NY Insurance Law § 1113(a)(1) — Kinds of insurance: life insurance (accelerated payment conditions)",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/1113",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 1113(a)(1)(A)-(F)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-1113.md"
+  },
+  {
+   "id": "ny-isc-4221",
+   "title": "NY Insurance Law § 4221 — Standard nonforfeiture law (life insurance)",
+   "publisher": "New York State Senate Open Legislation",
+   "url": "https://www.nysenate.gov/legislation/laws/ISC/4221",
+   "kind": "statute",
+   "citation": "N.Y. Ins. Law § 4221(a)",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/statutes/ISC-4221.md"
+  },
+  {
+   "id": "fed-irs-sep",
+   "title": "IRS — Simplified Employee Pension plan (SEP)",
+   "publisher": "Internal Revenue Service",
+   "url": "https://www.irs.gov/retirement-plans/plan-sponsor/simplified-employee-pension-plan-sep",
+   "kind": "federal",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/federal/irs-sep.md"
+  },
+  {
+   "id": "fed-irs-simple-ira",
+   "title": "IRS — SIMPLE IRA plan",
+   "publisher": "Internal Revenue Service",
+   "url": "https://www.irs.gov/retirement-plans/plan-sponsor/simple-ira-plan",
+   "kind": "federal",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/federal/irs-simple-ira.md"
+  },
+  {
+   "id": "fed-irs-457b",
+   "title": "IRS — IRC 457(b) deferred compensation plans",
+   "publisher": "Internal Revenue Service",
+   "url": "https://www.irs.gov/retirement-plans/irc-457b-deferred-compensation-plans",
+   "kind": "federal",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/federal/irs-457b.md"
+  },
+  {
+   "id": "fed-irs-self-employed-plans",
+   "title": "IRS — Retirement plans for self-employed people (Keogh)",
+   "publisher": "Internal Revenue Service",
+   "url": "https://www.irs.gov/retirement-plans/retirement-plans-for-self-employed-people",
+   "kind": "federal",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/federal/irs-self-employed-keogh.md"
+  },
+  {
+   "id": "fed-irs-vesting",
+   "title": "IRS — Retirement topics: Vesting",
+   "publisher": "Internal Revenue Service",
+   "url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-vesting",
+   "kind": "federal",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/federal/irs-vesting.md"
+  },
+  {
+   "id": "fed-irs-rmd",
+   "title": "IRS — Retirement topics: Required minimum distributions (RMDs)",
+   "publisher": "Internal Revenue Service",
+   "url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-required-minimum-distributions-rmds",
+   "kind": "federal",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/federal/irs-rmd.md"
+  },
+  {
+   "id": "fed-irs-roth-ira",
+   "title": "IRS — Roth IRAs",
+   "publisher": "Internal Revenue Service",
+   "url": "https://www.irs.gov/retirement-plans/roth-iras",
+   "kind": "federal",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/federal/irs-roth-ira.md"
+  },
+  {
+   "id": "fed-irs-traditional-ira",
+   "title": "IRS — Traditional IRAs",
+   "publisher": "Internal Revenue Service",
+   "url": "https://www.irs.gov/retirement-plans/traditional-iras",
+   "kind": "federal",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/federal/irs-traditional-ira.md"
+  },
+  {
+   "id": "fed-irs-401k",
+   "title": "IRS — 401(k) plans",
+   "publisher": "Internal Revenue Service",
+   "url": "https://www.irs.gov/retirement-plans/401k-plans",
+   "kind": "federal",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/federal/irs-401k.md"
+  },
+  {
+   "id": "fed-irs-defined-benefit",
+   "title": "IRS — Defined benefit plan",
+   "publisher": "Internal Revenue Service",
+   "url": "https://www.irs.gov/retirement-plans/defined-benefit-plan",
+   "kind": "federal",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/federal/irs-defined-benefit.md"
+  },
+  {
+   "id": "fed-irs-qualified-plan-requirements",
+   "title": "IRS — A guide to common qualified plan requirements",
+   "publisher": "Internal Revenue Service",
+   "url": "https://www.irs.gov/retirement-plans/a-guide-to-common-qualified-plan-requirements",
+   "kind": "federal",
+   "retrievedOn": "2026-11-19",
+   "localCopy": "research/federal/irs-qualified-plan-requirements.md"
+  }
+ ]
+}

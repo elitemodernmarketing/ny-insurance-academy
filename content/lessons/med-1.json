@@ -1,0 +1,834 @@
+{
+  "sectionId": "med",
+  "lessons": [
+    {
+      "id": "med-l01",
+      "sectionId": "med",
+      "order": 1,
+      "title": "How Medical Plans Pay: Five Big Contrasts",
+      "outlineIds": [
+        "med.1",
+        "med.1.1",
+        "med.1.2",
+        "med.1.3",
+        "med.1.4",
+        "med.1.5"
+      ],
+      "estMinutes": 20,
+      "intro": "Before you can compare HMOs, PPOs and major medical plans, you need a few building blocks. Every medical plan answers the same questions: when are providers paid, how much of your care is covered, how is the allowed amount set, which doctors can you use, and what do we call the people covered? The exam tests these as five pairs of opposites.",
+      "objectives": [
+        "Contrast fee-for-service and prepaid payment",
+        "Distinguish specified coverages from comprehensive care",
+        "Explain a benefit schedule versus usual, reasonable and customary (URC) charges",
+        "Compare any-provider plans with limited-choice plans",
+        "Distinguish insureds from subscribers"
+      ],
+      "keyTerms": [
+        "fee-for-service",
+        "prepaid-plan",
+        "usual-reasonable-customary",
+        "subscriber",
+        "in-network",
+        "major-medical"
+      ],
+      "parts": [
+        {
+          "heading": "Fee-for-service vs. prepaid",
+          "body": "Under [[fee-for-service]], a provider bills for each visit, test or procedure, and the plan pays its share after the care is delivered. Traditional indemnity plans work this way.\n\nUnder a [[prepaid-plan|prepaid]] arrangement, the plan is paid a fixed amount in advance and its providers deliver the covered care. Providers are often paid a fixed amount per member per month, called **capitation**, no matter how many times the member is seen. Prepaid care is the hallmark of the [[hmo]].",
+          "simple": "Fee-for-service: pay per visit, after the fact. Prepaid: pay a set amount up front for whatever covered care you need.",
+          "example": {
+            "title": "Example: Two ways to pay Dr. Lee",
+            "body": "Under an indemnity plan, Dr. Lee bills $150 for each visit and the insurer pays its share of each bill. Under an HMO contract, Dr. Lee receives $40 per member per month for each of his 500 assigned members, whether they visit or not."
+          },
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "PREpaid = PREmium in advance covers the care. Fee-for-service = pay per service."
+            }
+          ]
+        },
+        {
+          "heading": "Specified coverage vs. comprehensive care",
+          "body": "**Specified (limited) coverages** pay only for what the policy names, such as hospital room and board, a surgical schedule, or a specific disease. **Comprehensive care** (such as comprehensive [[major-medical]]) covers a broad range of hospital, physician and other medical expenses in one plan, with a deductible, coinsurance and an out-of-pocket limit.",
+          "simple": "Specified = a short list of covered things. Comprehensive = most medical bills, with you paying a share.",
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "Don't assume 'specified' means 'better defined and therefore better'. Specified coverages are narrower; comprehensive plans cover far more."
+            }
+          ]
+        },
+        {
+          "heading": "Benefit schedule vs. usual, reasonable and customary",
+          "body": "A **benefit schedule** lists a fixed maximum dollar amount for each procedure right in the policy. A [[usual-reasonable-customary|URC]] plan instead allows the amount providers in the same area generally charge for the service. If a provider bills more than URC, the excess is not a covered expense (and an out-of-network provider may bill the patient for it).",
+          "simple": "Schedule = a price list printed in the policy. URC = the local going rate.",
+          "example": {
+            "title": "Example: The $1,100 MRI",
+            "body": "The URC amount for an MRI in Lena's area is $900, but her doctor bills $1,100. Her plan applies its deductible and coinsurance to $900 only; the extra $200 is not covered."
+          },
+          "callouts": []
+        },
+        {
+          "heading": "Any provider vs. limited choice; insureds vs. subscribers",
+          "body": "Traditional indemnity plans let you use **any licensed provider**. Managed care plans limit choice to a network, or pay less when you go [[in-network|out of network]]. HMOs and EPOs limit choice the most; PPOs and POS plans allow out-of-network care at higher cost.\n\nInsurance companies issue policies to **insureds**, who are reimbursed for covered losses. Service plans such as HMOs enroll **[[subscriber|subscribers]]** (also called members or participants), who receive services through the plan's providers.",
+          "simple": "Indemnity: any doctor. Managed care: the network's doctors. Insurers cover 'insureds'; HMOs cover 'subscribers'.",
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Insurers have insureds; service plans have subscribers."
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "match",
+        "prompt": "Match each term to its description.",
+        "pairs": [
+          {
+            "left": "Fee-for-service",
+            "right": "Provider is paid per service after care is delivered"
+          },
+          {
+            "left": "Prepaid (capitation)",
+            "right": "Fixed amount paid in advance per member"
+          },
+          {
+            "left": "Benefit schedule",
+            "right": "Fixed dollar maximums listed in the policy"
+          },
+          {
+            "left": "Usual, reasonable and customary",
+            "right": "Allowed amount based on charges in the area"
+          },
+          {
+            "left": "Subscriber",
+            "right": "Person enrolled in a service plan such as an HMO"
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "An HMO pays a doctor a fixed monthly amount for each enrolled member. This is:",
+          "choices": [
+            "Fee-for-service",
+            "Capitation (prepaid)",
+            "A benefit schedule",
+            "Coinsurance"
+          ],
+          "answerIndex": 1,
+          "explanation": "A fixed per-member amount paid in advance is capitation, the prepaid basis."
+        },
+        {
+          "prompt": "A plan pays for a procedure based on what providers in the same area generally charge. This is:",
+          "choices": [
+            "A benefit schedule",
+            "Capitation",
+            "Usual, reasonable and customary charges",
+            "A copayment"
+          ],
+          "answerIndex": 2,
+          "explanation": "URC uses prevailing area charges; a schedule lists fixed amounts."
+        },
+        {
+          "prompt": "Which plan traditionally allows the widest choice of providers?",
+          "choices": [
+            "HMO",
+            "EPO",
+            "Indemnity (fee-for-service) plan",
+            "POS plan"
+          ],
+          "answerIndex": 2,
+          "explanation": "Indemnity plans reimburse care from any licensed provider."
+        }
+      ],
+      "summary": [
+        "Fee-for-service pays per service after care; prepaid plans (HMOs) pay a fixed amount in advance.",
+        "Specified coverages pay only for named items; comprehensive plans cover a broad range of expenses.",
+        "A benefit schedule lists fixed amounts; URC uses local prevailing charges.",
+        "Indemnity plans allow any provider; managed care limits or rewards network use.",
+        "Insurers cover insureds; service plans such as HMOs cover subscribers."
+      ],
+      "related": [
+        "med-l02",
+        "med-l03"
+      ],
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-l02",
+      "sectionId": "med",
+      "order": 2,
+      "title": "Major Medical and Indemnity Plans: Who Pays What",
+      "outlineIds": [
+        "med.2",
+        "med.2.1",
+        "med.2.1.1",
+        "med.2.1.2",
+        "med.2.1.3",
+        "med.2.1.4",
+        "med.2.4",
+        "med.2.5"
+      ],
+      "estMinutes": 30,
+      "intro": "Major medical insurance is the classic 'big bills' coverage. Most exam math questions come from this lesson: you will learn the order in which the deductible, coinsurance and out-of-pocket maximum apply, and practice the calculations step by step.",
+      "objectives": [
+        "Describe the characteristics of major medical (indemnity) plans",
+        "Identify common limitations and exclusions",
+        "Calculate the insured's and insurer's shares using a deductible, coinsurance and an out-of-pocket maximum",
+        "Describe catastrophic coverage"
+      ],
+      "keyTerms": [
+        "major-medical",
+        "deductible",
+        "coinsurance",
+        "copayment",
+        "out-of-pocket-maximum",
+        "usual-reasonable-customary",
+        "catastrophic-plan"
+      ],
+      "parts": [
+        {
+          "heading": "Characteristics of major medical",
+          "body": "[[major-medical|Major medical]] covers a broad range of hospital, surgical, physician and other medical expenses. Typical features:\n\n- A [[deductible]] the insured pays first each benefit period\n- [[coinsurance|Coinsurance]], a percentage split (such as 80/20) after the deductible\n- An [[out-of-pocket-maximum]] that caps the insured's cost-sharing; after it is reached the plan pays 100% of covered expenses\n- Payment based on URC or negotiated amounts\n\nIndemnity plans pay on a fee-for-service basis and let the insured choose any provider.",
+          "simple": "You pay the deductible, then you and the plan split bills by percentage, until you hit your yearly cap. After that, the plan pays everything that's covered.",
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Order of operations: Deductible → Coinsurance → Out-of-pocket cap."
+            }
+          ]
+        },
+        {
+          "heading": "Limitations and exclusions",
+          "body": "Even broad coverage has limits. Common exclusions include elective cosmetic surgery, injuries covered by workers' compensation, intentionally self-inflicted injuries, war, and experimental treatment. Plans also limit benefits through URC allowances, medical necessity requirements and, for some services, visit limits.\n\nCharges for excluded services and amounts above URC do **not** count toward the deductible or the out-of-pocket maximum, and neither does the premium.",
+          "simple": "Some things are never covered (like cosmetic surgery), and those costs don't count toward your yearly cap.",
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "Premiums never count toward the out-of-pocket maximum."
+            }
+          ]
+        },
+        {
+          "heading": "Calculating cost-sharing step by step",
+          "body": "Use the same four steps every time:\n\n1. Limit the bill to the covered (allowed) amount.\n2. Subtract any unmet deductible: the insured pays it.\n3. Apply coinsurance to the rest: insured pays their percentage.\n4. Cap the insured's total at the out-of-pocket maximum; the insurer pays everything else.\n\nA [[copayment]] is a flat dollar amount per service (common in HMOs), while coinsurance is a percentage.",
+          "advanced": "When an out-of-network provider bills above URC, the insured may owe the excess (balance billing) in addition to cost-sharing; that excess does not count toward the out-of-pocket maximum.",
+          "example": {
+            "title": "Example: Carla's $21,000 surgery",
+            "body": "Carla's plan: $1,000 deductible, 80/20 coinsurance, $5,000 out-of-pocket maximum (includes the deductible). Bill: $21,000.\n\nStep 2: Carla pays $1,000 deductible. Remaining: $20,000.\nStep 3: Carla's 20% = $4,000. Her total = $1,000 + $4,000 = $5,000.\nStep 4: $5,000 equals her maximum, so the cap is reached exactly. The insurer pays $21,000 - $5,000 = $16,000.\n\nIf she had another $10,000 covered bill later that year, the plan would pay all $10,000."
+          },
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Deductible first, then coinsurance on what's left, then check the cap."
+            }
+          ]
+        },
+        {
+          "heading": "Indemnity features and catastrophic coverage",
+          "body": "Indemnity plan features: free choice of provider, fee-for-service payment, claim forms filed by the insured or provider, and cost-sharing through deductibles and coinsurance.\n\n**Catastrophic** coverage is designed for very large losses: a high deductible keeps premiums low while protecting against the worst-case bills. Under the ACA, a [[catastrophic-plan]] is available only to people under 30 or with certain exemptions, and it must still cover preventive care and at least three primary care visits before the deductible.",
+          "simple": "Catastrophic plans: cheap premium, huge deductible, protection against disaster-size bills.",
+          "callouts": [
+            {
+              "kind": "note",
+              "text": "ACA catastrophic plan rules are taught in the ACA section."
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "sequence",
+        "prompt": "Put the steps for calculating an insured's share of a covered claim in order.",
+        "steps": [
+          "Limit the charge to the covered (allowed) amount",
+          "Subtract the unmet deductible, paid by the insured",
+          "Apply the coinsurance percentage to the remainder",
+          "Cap the insured's total at the out-of-pocket maximum",
+          "The insurer pays the rest of the covered amount"
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "A plan has a $500 deductible and 80/20 coinsurance. A $3,000 covered bill arrives before any deductible is met. What does the insured pay?",
+          "choices": [
+            "$600",
+            "$1,000",
+            "$500",
+            "$1,100"
+          ],
+          "answerIndex": 1,
+          "explanation": "$500 deductible + 20% of $2,500 ($500) = $1,000."
+        },
+        {
+          "prompt": "Which of these counts toward the out-of-pocket maximum?",
+          "choices": [
+            "Monthly premiums",
+            "Coinsurance on covered services",
+            "Charges above URC",
+            "Cost of excluded cosmetic surgery"
+          ],
+          "answerIndex": 1,
+          "explanation": "Cost-sharing on covered services counts; premiums, excess charges and excluded services do not."
+        },
+        {
+          "prompt": "Which is a typical major medical exclusion?",
+          "choices": [
+            "Medically necessary surgery",
+            "Elective cosmetic surgery",
+            "Emergency room care",
+            "Prescription drugs"
+          ],
+          "answerIndex": 1,
+          "explanation": "Elective cosmetic surgery is a classic exclusion."
+        }
+      ],
+      "summary": [
+        "Major medical covers broad medical expenses with a deductible, coinsurance and an out-of-pocket maximum.",
+        "Apply cost-sharing in order: covered amount, deductible, coinsurance, then the out-of-pocket cap.",
+        "Copayments are flat dollar amounts; coinsurance is a percentage.",
+        "Premiums, excluded services and charges above URC do not count toward the out-of-pocket maximum.",
+        "Catastrophic coverage trades a low premium for a very high deductible."
+      ],
+      "related": [
+        "med-l01",
+        "med-l03"
+      ],
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-l03",
+      "sectionId": "med",
+      "order": 3,
+      "title": "Managed Care: HMOs, PPOs, POS Plans and EPOs",
+      "outlineIds": [
+        "med.2.2",
+        "med.2.2.1",
+        "med.2.2.2",
+        "med.2.2.3",
+        "med.2.2.4",
+        "med.2.2.5",
+        "med.2.2.6",
+        "med.2.2.7",
+        "med.2.3",
+        "med.2.3.1",
+        "med.2.3.2",
+        "med.2.3.3"
+      ],
+      "estMinutes": 30,
+      "intro": "Managed care plans control costs by organizing who delivers care and how you get to it. The exam loves to compare them: who needs a referral, who covers out-of-network care, and what happens in an emergency.",
+      "objectives": [
+        "Describe the general characteristics of an HMO",
+        "Explain the roles of the primary care physician and referrals",
+        "Describe HMO emergency, hospital, preventive and other basic services",
+        "Compare PPO, POS and EPO plans on network access and referrals"
+      ],
+      "keyTerms": [
+        "hmo",
+        "primary-care-physician",
+        "referral",
+        "preventive-care",
+        "ppo",
+        "pos-plan",
+        "epo",
+        "in-network",
+        "copayment"
+      ],
+      "parts": [
+        {
+          "heading": "HMO basics",
+          "body": "An [[hmo]] provides or arranges comprehensive care for members in a defined service area, on a prepaid basis, through its own network. Key features:\n\n- **Prepaid**: members pay a premium; providers are often paid by capitation\n- **Network only**: non-emergency care outside the network is generally not covered\n- **Gatekeeper**: each member chooses a [[primary-care-physician]] (PCP)\n- **Low cost-sharing**: small [[copayment|copayments]] instead of large deductibles\n- **Basic services**: physician services, inpatient and outpatient **hospital services**, emergency care, diagnostic lab and X-ray, and preventive care",
+          "simple": "An HMO is your insurer and your care organizer in one. Stay in its network and use your PCP, and most care costs only a small copay.",
+          "callouts": []
+        },
+        {
+          "heading": "The PCP, referrals and preventive care",
+          "body": "Your PCP handles routine care and coordinates everything else. To see a specialist you normally need a [[referral]] from your PCP to an in-network specialist; without it, the HMO may not pay.\n\nHMOs emphasize [[preventive-care]] (checkups, immunizations, screenings), because keeping members healthy keeps costs down.",
+          "example": {
+            "title": "Example: Diego skips his PCP",
+            "body": "Diego books a routine visit with an out-of-network dermatologist without a referral. His HMO denies the claim: no referral and no network provider, and it was not an emergency."
+          },
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "NY Insurance Law § 4303(j) requires health service and medical expense indemnity corporations that provide comprehensive coverage to cover preventive and primary care for covered children from birth to age 19 (well-child visits, exams, developmental assessment, immunizations), not subject to annual deductibles or coinsurance.",
+              "sources": [
+                "ny-isc-4303"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Emergency care",
+          "body": "**Emergency care is the big exception** to the HMO's network-only rule. A member who has a true emergency, even outside the service area, is covered at the nearest appropriate facility without a prior referral. Follow-up care is usually coordinated back into the network.",
+          "simple": "In a real emergency, go to the nearest ER. The HMO still covers it.",
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "If an HMO question involves a heart attack or serious accident out of the area, the answer is almost always 'covered'."
+            }
+          ]
+        },
+        {
+          "heading": "PPOs, POS plans and EPOs",
+          "body": "- A [[ppo]] contracts with providers at discounted rates. Members can go out of network at a lower benefit level and usually need no referral.\n- A [[pos-plan|point-of-service (POS) plan]] is an HMO-PPO hybrid: a PCP coordinates in-network care and referrals, but members may choose out-of-network care 'at the point of service' at higher cost.\n- An [[epo]] covers only network providers (except emergencies) but usually lets members see in-network specialists without a referral.",
+          "simple": "PPO: freedom, at a price. POS: HMO with an escape hatch. EPO: network only, but no gatekeeper.",
+          "example": {
+            "title": "Example: Same knee, three plans",
+            "body": "Kara needs a knee specialist. With a PPO she books any specialist; an in-network one costs less. With a POS plan she gets a PCP referral to pay the in-network copay, or goes out of network and pays more. With an EPO she must use an in-network specialist, but needs no referral."
+          },
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Need a referral? HMO and POS: yes. PPO and EPO: usually no. Out-of-network routine care paid? PPO and POS: yes (less). HMO and EPO: no."
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "categorize",
+        "prompt": "Sort each feature into the plan it best describes.",
+        "categories": [
+          "HMO",
+          "PPO",
+          "EPO"
+        ],
+        "items": [
+          {
+            "text": "PCP gatekeeper with referrals required",
+            "category": "HMO"
+          },
+          {
+            "text": "Prepaid, capitation-based care with small copays",
+            "category": "HMO"
+          },
+          {
+            "text": "Out-of-network care covered at a lower benefit level",
+            "category": "PPO"
+          },
+          {
+            "text": "No referral needed and some coverage outside the network",
+            "category": "PPO"
+          },
+          {
+            "text": "Network only, but no referral needed for in-network specialists",
+            "category": "EPO"
+          },
+          {
+            "text": "Exclusive network; non-emergency out-of-network care not covered and no gatekeeper",
+            "category": "EPO"
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Which plan type combines a PCP gatekeeper with optional out-of-network coverage?",
+          "choices": [
+            "EPO",
+            "POS plan",
+            "Indemnity plan",
+            "Traditional HMO"
+          ],
+          "answerIndex": 1,
+          "explanation": "POS plans blend HMO and PPO features."
+        },
+        {
+          "prompt": "An HMO member has a heart attack while traveling outside the service area. The HMO generally:",
+          "choices": [
+            "Denies the claim",
+            "Covers the emergency care",
+            "Covers it only with a PCP referral",
+            "Pays only the ambulance"
+          ],
+          "answerIndex": 1,
+          "explanation": "Emergency care is covered even out of the network or area."
+        },
+        {
+          "prompt": "Under NY Insurance Law § 4303(j), required well-child preventive services are:",
+          "choices": [
+            "Subject to the deductible",
+            "Optional for the subscriber",
+            "Not subject to annual deductibles or coinsurance",
+            "Covered only after age 2"
+          ],
+          "answerIndex": 2,
+          "explanation": "§ 4303(j)(2)(D) removes deductibles and coinsurance for these services."
+        }
+      ],
+      "summary": [
+        "HMOs are prepaid, network-based plans with a PCP gatekeeper and an emphasis on preventive care.",
+        "Specialist care in an HMO usually requires a PCP referral; emergencies are covered anywhere.",
+        "PPOs allow out-of-network care at reduced benefits, usually without referrals.",
+        "POS plans add an out-of-network option to an HMO-style PCP model.",
+        "EPOs are network-only (except emergencies) and usually need no referral."
+      ],
+      "related": [
+        "med-l02",
+        "med-l04"
+      ],
+      "sources": [
+        "ny-isc-4303",
+        "general-insurance-principles"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-l04",
+      "sectionId": "med",
+      "order": 4,
+      "title": "Utilization Review: Checking Care Before, During and After",
+      "outlineIds": [
+        "med.3",
+        "med.3.1",
+        "med.3.1.1",
+        "med.3.1.2",
+        "med.3.1.3"
+      ],
+      "estMinutes": 15,
+      "intro": "Health plans control costs by checking that care is medically necessary and delivered in the right setting. That process is called utilization review, and in New York it is governed by Insurance Law Article 49. The exam tests the three timing types.",
+      "objectives": [
+        "Define utilization review as used in NY Insurance Law Article 49",
+        "Distinguish prospective, concurrent and retrospective review",
+        "Identify determinations that are not utilization review"
+      ],
+      "keyTerms": [
+        "utilization-review",
+        "prospective-review",
+        "concurrent-review",
+        "retrospective-review",
+        "medical-necessity"
+      ],
+      "parts": [
+        {
+          "heading": "What utilization review is",
+          "body": "[[utilization-review|Utilization review]] (UR) is review to decide whether health care services that have been provided, are being provided, or are proposed are **medically necessary**. A decision that a service is not medically necessary is called an **adverse determination**.",
+          "simple": "UR is the plan checking: 'Is this care really needed, and is this the right place for it?'",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "NY Insurance Law § 4900 defines utilization review as review of medical necessity 'whether undertaken prior to, concurrent with or subsequent to the delivery of such services'. Denials based on failure to use a designated or approved provider, coding reviews and payment-amount disputes are not utilization review.",
+              "sources": [
+                "ny-isc-4900"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "The three timing types",
+          "body": "- [[prospective-review|Prospective review]] happens **before** care: precertification of hospital admissions, prior authorization of procedures, and second surgical opinions.\n- [[concurrent-review|Concurrent review]] happens **during** care: checking whether a hospital stay should continue, managing length of stay, and discharge planning.\n- [[retrospective-review|Retrospective review]] happens **after** care: reviewing records and claims once services are complete.",
+          "simple": "Before = prospective. During = concurrent. After = retrospective.",
+          "example": {
+            "title": "Example: Rosa's surgery",
+            "body": "Before Rosa's elective surgery, the plan precertifies the admission (prospective). On day four of her stay, a nurse reviewer confirms she still needs inpatient care and starts discharge planning (concurrent). After she goes home, the plan reviews the bill and records (retrospective)."
+          },
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "PRO = before you GO; CON = while you're IN; RETRO = looking BACK."
+            }
+          ]
+        },
+        {
+          "heading": "What UR is not",
+          "body": "Utilization review is about medical necessity. It is **not** the same as:\n\n- a denial because you used a non-network or non-designated provider (a contract/network issue)\n- coordination of benefits between two plans\n- experience rating, which prices a group\n- a fraud investigation",
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "'Concurrent review' has nothing to do with two plans paying at the same time; that is coordination of benefits."
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "categorize",
+        "prompt": "Classify each activity by type of utilization review.",
+        "categories": [
+          "Prospective",
+          "Concurrent",
+          "Retrospective"
+        ],
+        "items": [
+          {
+            "text": "Precertification of a scheduled hospital admission",
+            "category": "Prospective"
+          },
+          {
+            "text": "Required second surgical opinion before elective surgery",
+            "category": "Prospective"
+          },
+          {
+            "text": "Nurse reviewer checks whether a hospital stay should continue",
+            "category": "Concurrent"
+          },
+          {
+            "text": "Discharge planning while the patient is still admitted",
+            "category": "Concurrent"
+          },
+          {
+            "text": "Review of medical records after discharge",
+            "category": "Retrospective"
+          },
+          {
+            "text": "Audit of a submitted claim for services already given",
+            "category": "Retrospective"
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Prior authorization of an MRI is which type of review?",
+          "choices": [
+            "Retrospective",
+            "Concurrent",
+            "Prospective",
+            "Coordinated"
+          ],
+          "answerIndex": 2,
+          "explanation": "Approval before care is prospective review."
+        },
+        {
+          "prompt": "Under NY Insurance Law § 4900, which is NOT utilization review?",
+          "choices": [
+            "A medical-necessity denial of an admission",
+            "A review of whether a continued stay is necessary",
+            "A denial because the member did not use a designated provider",
+            "A post-discharge medical-necessity review"
+          ],
+          "answerIndex": 2,
+          "explanation": "§ 4900 excludes denials based on failure to use a designated or approved provider."
+        }
+      ],
+      "summary": [
+        "Utilization review determines whether services are medically necessary.",
+        "Prospective review is before care, concurrent during care, retrospective after care.",
+        "In New York, Insurance Law Article 49 governs utilization review; § 4900 defines it.",
+        "Network/provider-designation denials and coding reviews are not utilization review."
+      ],
+      "related": [
+        "med-l03",
+        "med-l05"
+      ],
+      "sources": [
+        "ny-isc-4900"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "med-l05",
+      "sectionId": "med",
+      "order": 5,
+      "title": "New York Mandates and HIPAA Protections",
+      "outlineIds": [
+        "med.4",
+        "med.4.1",
+        "med.4.2",
+        "med.4.3",
+        "med.5",
+        "med.6",
+        "med.7",
+        "med.7.1",
+        "med.7.2",
+        "med.7.3",
+        "med.7.4"
+      ],
+      "estMinutes": 30,
+      "intro": "New York requires certain benefits in health policies, and federal HIPAA adds protections for people moving between plans and for the privacy of health information. This lesson covers the dependent age limit, disabled children, newborns, required benefits versus mandated offers, and HIPAA's eligibility, guaranteed issue, renewability and privacy rules.",
+      "objectives": [
+        "State New York's dependent child age limit for hospital/medical coverage",
+        "Explain the extension of coverage for disabled children",
+        "Describe New York's newborn coverage requirement",
+        "Distinguish mandated (required) benefits from mandated offers",
+        "Summarize HIPAA's eligibility, guaranteed issue, renewability and privacy protections"
+      ],
+      "keyTerms": [
+        "mandated-benefit",
+        "newborn-coverage",
+        "handicapped-child-extension",
+        "hipaa",
+        "guaranteed-issue",
+        "guaranteed-renewable"
+      ],
+      "parts": [
+        {
+          "heading": "Dependent children to age 26",
+          "body": "In New York, a hospital, medical, surgical or prescription drug policy that covers children must cover a **married or unmarried child until age 26**, regardless of financial dependence, residency with the policyholder, student status or employment.",
+          "simple": "In New York health coverage, kids stay on a parent's plan until 26, married or not, working or not.",
+          "example": {
+            "title": "Example: Sam, 23",
+            "body": "Sam married, moved out and took a full-time job, but he stays on his mother's New York hospital/medical policy until he turns 26."
+          },
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "Individual policies: Insurance Law § 3216(a)(4)(A)(iii). Group policies: § 4235(f)(1)(A)(i): coverage to a married or unmarried child until attainment of age 26.",
+              "sources": [
+                "ny-isc-3216-c4",
+                "ny-isc-4235"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Disabled children and newborns",
+          "body": "**[[handicapped-child-extension|Disabled children]]:** coverage of an unmarried child who cannot support themselves through employment because of mental illness, developmental disability or physical handicap does not end at the limiting age if the incapacity began **before** that age, the child is chiefly dependent on the policyholder, and the policyholder submits proof **within 31 days** of the child reaching the limiting age. Coverage continues while the policy is in force and the condition continues.\n\n**[[newborn-coverage|Newborns]]:** family coverage must cover a newborn **from the moment of birth** for injury or sickness, including congenital defects, birth abnormalities and premature birth. Adopted newborns are included if the insured takes physical custody on hospital release and files the adoption petition within 30 days of birth.",
+          "simple": "A disabled child can stay covered past the age limit if the parent proves the disability within 31 days. Newborns are covered the moment they are born.",
+          "callouts": [
+            {
+              "kind": "ny-rule",
+              "text": "Disabled child: § 3216(c)(4)(A). Newborns: § 3216(c)(4)(C) (individual) and § 4235(f)(2) (group).",
+              "sources": [
+                "ny-isc-3216-c4",
+                "ny-isc-4235"
+              ]
+            },
+            {
+              "kind": "exam-trap",
+              "text": "The disabled-child extension does not apply if the disability begins after the child has already aged off the policy."
+            }
+          ]
+        },
+        {
+          "heading": "Required benefits vs. mandated offers",
+          "body": "A **[[mandated-benefit|mandated (required) benefit]]** must be included in every policy of that type; the buyer cannot decline it. Examples above: dependent coverage to 26, newborn coverage and child preventive care (§ 4303(j)).\n\nA **mandated offer** only requires the insurer to make a coverage available; the policyholder may accept (usually for added premium) or decline it.",
+          "simple": "Required benefit = built in. Mandated offer = must be offered, can be turned down.",
+          "callouts": [
+            {
+              "kind": "memory-tip",
+              "text": "Benefit = Built in; Offer = Optional."
+            }
+          ]
+        },
+        {
+          "heading": "HIPAA: portability, guaranteed issue, renewability and privacy",
+          "body": "[[hipaa|HIPAA]] (1996) is a federal law that:\n\n- **Eligibility:** bars group health plans from basing eligibility on health status-related factors (medical condition, claims history, genetic information, disability). Classes based on employment and uniform waiting periods are allowed.\n- **Special enrollment:** lets people enroll when they lose other coverage or gain a dependent through marriage, birth or adoption.\n- **[[guaranteed-issue|Guaranteed issue]]:** required insurers in the small group market to accept small employers regardless of health.\n- **[[guaranteed-renewable|Renewability]]:** coverage must be renewed except for reasons such as nonpayment of premium, fraud, or the insurer leaving the market; never because someone is sick.\n- **Privacy:** led to federal standards protecting individually identifiable health information.",
+          "simple": "HIPAA keeps you from being shut out of a group plan for being sick, makes insurers renew coverage, and keeps your medical information private.",
+          "advanced": "New York goes further for individuals and small groups: insurers must accept applicants at all times throughout the year and community rate them (Insurance Law § 3231). See the group section's small employer lesson.",
+          "callouts": [
+            {
+              "kind": "exam-trap",
+              "text": "HIPAA is not the law that created the exchanges or banned all preexisting condition exclusions; those are ACA changes."
+            }
+          ]
+        }
+      ],
+      "activity": {
+        "type": "truefalse",
+        "prompt": "True or false?",
+        "statements": [
+          {
+            "text": "In New York, a married 24-year-old can remain covered as a dependent on a parent's hospital/medical policy.",
+            "answer": true,
+            "explanation": "§ 3216(a)(4) covers married or unmarried children until age 26."
+          },
+          {
+            "text": "Proof of a disabled child's incapacity must be submitted within 31 days of the child reaching the limiting age.",
+            "answer": true,
+            "explanation": "§ 3216(c)(4)(A) sets a 31-day deadline."
+          },
+          {
+            "text": "New York family coverage for a newborn begins 31 days after birth.",
+            "answer": false,
+            "explanation": "Coverage is effective from the moment of birth."
+          },
+          {
+            "text": "A mandated offer must be accepted by every policyholder.",
+            "answer": false,
+            "explanation": "A mandated offer must be offered, but the policyholder may decline it."
+          },
+          {
+            "text": "HIPAA allows an insurer to refuse to renew group coverage because an employee has cancer.",
+            "answer": false,
+            "explanation": "Renewal cannot be refused because of health status or claims."
+          }
+        ]
+      },
+      "knowledgeChecks": [
+        {
+          "prompt": "Under NY law, a child covered under a parent's hospital/medical policy remains eligible until age:",
+          "choices": [
+            "19",
+            "23",
+            "26",
+            "29"
+          ],
+          "answerIndex": 2,
+          "explanation": "§ 3216(a)(4) and § 4235(f)(1): until age 26."
+        },
+        {
+          "prompt": "Which is a HIPAA privacy protection?",
+          "choices": [
+            "Limits on sharing individually identifiable health information",
+            "A 36-month continuation right",
+            "Guaranteed coverage of all cosmetic surgery",
+            "Premium tax credits"
+          ],
+          "answerIndex": 0,
+          "explanation": "HIPAA led to the federal Privacy Rule for protected health information."
+        },
+        {
+          "prompt": "A disabled child's coverage can continue past the limiting age only if the disability began:",
+          "choices": [
+            "After age 26",
+            "Before the limiting age",
+            "After the policy was issued",
+            "Before age 5"
+          ],
+          "answerIndex": 1,
+          "explanation": "The incapacity must begin before the limiting age."
+        }
+      ],
+      "summary": [
+        "New York health coverage covers married or unmarried children until age 26.",
+        "A disabled child's coverage continues past the limiting age with proof within 31 days.",
+        "Newborns are covered from the moment of birth, including congenital defects and prematurity.",
+        "Mandated benefits are automatic; mandated offers can be declined.",
+        "HIPAA protects eligibility, special enrollment, guaranteed issue (small group), renewability and privacy."
+      ],
+      "related": [
+        "med-l04"
+      ],
+      "sources": [
+        "ny-isc-3216-c4",
+        "ny-isc-4235",
+        "ny-isc-4303",
+        "general-insurance-principles"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

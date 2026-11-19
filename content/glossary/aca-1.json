@@ -1,0 +1,839 @@
+{
+  "sectionId": "aca",
+  "terms": [
+    {
+      "id": "affordable-care-act",
+      "term": "Affordable Care Act (ACA)",
+      "aliases": [
+        "ACA",
+        "PPACA",
+        "Patient Protection and Affordable Care Act",
+        "Obamacare"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1"
+      ],
+      "formal": "The federal Patient Protection and Affordable Care Act of 2010 (as amended), which reformed the individual and group health insurance markets by, among other things, prohibiting preexisting condition exclusions, requiring essential health benefits in individual and small group plans, eliminating lifetime and annual dollar limits on essential benefits, creating health insurance exchanges with premium tax credits, and imposing employer shared responsibility rules.",
+      "plain": "The ACA is the 2010 federal health reform law. It made insurers accept people with preexisting conditions, set a minimum list of benefits, ended lifetime dollar caps on those benefits, and created Marketplaces where people can get financial help to buy coverage.",
+      "simpler": "Think of the ACA as a new rulebook for health insurance: no turning people away for being sick, a standard 'menu' of benefits, and a government-run store with discounts for people who qualify.",
+      "examples": [
+        "Before the ACA, Lena's individual policy excluded her asthma for a period as a preexisting condition. Under the ACA, individual and group coverage may not impose a preexisting condition exclusion.",
+        "Raj buys a Silver plan through the Marketplace and uses a premium tax credit to lower his monthly premium, a program created by the ACA."
+      ],
+      "examTip": "ACA questions focus on concepts: no preexisting condition exclusions, 10 essential health benefits, metal levels (60/70/80/90), Marketplaces, premium tax credits, MLR, and employer shared responsibility. Avoid memorizing yearly dollar figures.",
+      "misconception": "The ACA did not create Medicare or Medicaid, and it did not make health insurance free; it changed market rules and added subsidies for eligible people.",
+      "related": [
+        "preexisting-condition",
+        "essential-health-benefits",
+        "health-insurance-exchange",
+        "metal-levels",
+        "hipaa"
+      ],
+      "confusedWith": [
+        "hipaa"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which federal law prohibits preexisting condition exclusions and requires coverage of essential health benefits in individual and small group plans?",
+        "choices": [
+          "Affordable Care Act",
+          "COBRA",
+          "ERISA",
+          "FMLA"
+        ],
+        "answerIndex": 0,
+        "explanation": "The ACA (2010) added these market reforms. COBRA provides continuation, ERISA governs employee benefit plans, and FMLA provides job-protected leave."
+      },
+      "sources": [
+        "fed-usc-42-300gg-3",
+        "fed-usc-42-18022",
+        "fed-usc-42-300gg-11"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "preexisting-condition",
+      "term": "Preexisting Condition",
+      "aliases": [
+        "preexisting condition exclusion"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.1"
+      ],
+      "formal": "A health condition that was present before the date a person's coverage begins. A preexisting condition exclusion is a limitation or exclusion of benefits relating to such a condition, whether or not medical advice, diagnosis, care or treatment was recommended or received before enrollment; federal law (42 U.S.C. § 300gg-3) now prohibits such exclusions in group and individual health coverage.",
+      "plain": "A preexisting condition is a health problem you already had before your coverage started, like diabetes or a past cancer. Health plans used to be able to refuse to cover it for a while. Under the ACA, group and individual health plans cannot do that anymore.",
+      "simpler": "Imagine a store refusing to repair a phone because the crack was there before you bought the warranty. Under the ACA, health plans can no longer do that with your health conditions.",
+      "examples": [
+        "Marcus has had high blood pressure for years. When he enrolls in a new individual health plan, the plan must cover his blood pressure treatment from the start.",
+        "Before the ACA, a group plan could impose a waiting period for a condition treated in the months before enrollment; today a group health plan may not impose any preexisting condition exclusion."
+      ],
+      "examTip": "Under current federal law, the answer to 'Can a health plan exclude a preexisting condition?' is NO for both group and individual major medical coverage. Pregnancy and genetic information were protected even before the ACA.",
+      "misconception": "The ban on preexisting condition exclusions does not mean a plan must cover every service; it means a covered service cannot be denied because the condition existed before enrollment.",
+      "related": [
+        "affordable-care-act",
+        "hipaa",
+        "guaranteed-issue"
+      ],
+      "confusedWith": [
+        "exclusion"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Under current federal law, a group or individual health plan that excludes treatment of a condition because it existed before enrollment is:",
+        "choices": [
+          "Applying a permitted probationary period",
+          "Imposing a prohibited preexisting condition exclusion",
+          "Using normal coordination of benefits",
+          "Applying a permitted elimination period"
+        ],
+        "answerIndex": 1,
+        "explanation": "42 U.S.C. § 300gg-3 bars preexisting condition exclusions in group and individual coverage. A probationary (waiting) period delays eligibility for everyone equally; COB and elimination periods are unrelated."
+      },
+      "sources": [
+        "fed-usc-42-300gg-3"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "health-insurance-exchange",
+      "term": "Health Insurance Exchange (Marketplace)",
+      "aliases": [
+        "Marketplace",
+        "Health Insurance Marketplace",
+        "exchange"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.2",
+        "aca.1.2.1",
+        "aca.1.2.5"
+      ],
+      "formal": "A government-established marketplace created under the ACA through which individuals and small employers can compare and enroll in qualified health plans; individuals who qualify can receive premium tax credits and cost-sharing reductions only for plans purchased through the exchange. A state may operate its own exchange or rely on the federally facilitated exchange (HealthCare.gov).",
+      "plain": "The exchange, or Marketplace, is an official shopping site for health insurance. You can compare plans side by side, and it is the only place to get the government's premium tax credit and cost-sharing discounts. Some states run their own; others use the federal site.",
+      "simpler": "Like an official, government-run mall for health plans where every store must meet the same rules and some shoppers get coupons.",
+      "examples": [
+        "Ana, who is self-employed, compares Bronze, Silver and Gold plans on her state's exchange and qualifies for a premium tax credit.",
+        "A small business with 12 employees uses the exchange's small business program to shop for group coverage for its workers."
+      ],
+      "examTip": "Exchange = Marketplace. Premium tax credits and cost-sharing reductions are available only through the exchange. 'State vs. federal' means a state-based exchange vs. the federally facilitated exchange at HealthCare.gov.",
+      "misconception": "The exchange is not an insurance company. It does not issue policies; private insurers sell qualified health plans through it.",
+      "related": [
+        "premium-tax-credit",
+        "cost-sharing-reduction",
+        "metal-levels",
+        "open-enrollment-period",
+        "small-employer"
+      ],
+      "confusedWith": [],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Where must an eligible individual buy coverage to receive a premium tax credit?",
+        "choices": [
+          "Through an employer's self-funded plan",
+          "Directly from any insurer outside the exchange",
+          "Through a health insurance exchange (Marketplace)",
+          "Through a Medicare Advantage plan"
+        ],
+        "answerIndex": 2,
+        "explanation": "Premium tax credits apply only to qualified health plans purchased through the exchange (Marketplace)."
+      },
+      "sources": [
+        "fed-healthcare-gov-glossary",
+        "fed-irs-esr"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19",
+        "notes": "Marketplace-only availability of premium tax credits and CSRs verified on HealthCare.gov and IRS pages; the state-based vs. federally facilitated structure is described at the concept level."
+      }
+    },
+    {
+      "id": "premium-tax-credit",
+      "term": "Advance Premium Tax Credit (APTC)",
+      "aliases": [
+        "APTC",
+        "premium tax credit",
+        "PTC"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.2.2"
+      ],
+      "formal": "A federal tax credit that lowers the monthly premium of a qualified health plan bought through the exchange for eligible individuals and families; it may be paid in advance directly to the insurer (APTC) and is reconciled on the person's federal tax return, using the second lowest cost Silver plan premium to figure the final credit. It can be used with a plan in any metal category.",
+      "plain": "The premium tax credit is government help with your monthly premium for a Marketplace plan. You can take it 'in advance', so it is sent straight to your insurer each month, and then you settle up when you file your taxes.",
+      "simpler": "Like a store coupon applied at checkout every month, with the final math checked at tax time.",
+      "examples": [
+        "Olivia's Marketplace plan costs $600 a month. She qualifies for an advance premium tax credit that is paid to her insurer, so she pays only her share of the premium each month.",
+        "At tax time, Ben uses the second lowest cost Silver plan premium shown on his Form 1095-A to figure his final premium tax credit."
+      ],
+      "examTip": "APTC lowers PREMIUMS and can be used with ANY metal level. Cost-sharing reductions lower DEDUCTIBLES/COPAYS and require a SILVER plan. The benchmark (SLCSP) is used to compute the credit.",
+      "misconception": "Taking the credit in advance is not free money with no strings: the advance amount is reconciled on the tax return, so income changes during the year matter.",
+      "related": [
+        "cost-sharing-reduction",
+        "benchmark-plan",
+        "health-insurance-exchange"
+      ],
+      "confusedWith": [
+        "cost-sharing-reduction"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "An advance premium tax credit purchased through the Marketplace can be applied to:",
+        "choices": [
+          "Only employer-sponsored coverage",
+          "Only a Silver plan",
+          "Only a Bronze or catastrophic plan",
+          "A plan in any metal category"
+        ],
+        "answerIndex": 3,
+        "explanation": "HealthCare.gov: 'You can use a premium tax credit for a plan in any metal category.' Cost-sharing reductions are the benefit limited to Silver plans."
+      },
+      "sources": [
+        "fed-healthcare-gov-glossary"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "cost-sharing-reduction",
+      "term": "Cost-Sharing Reduction (CSR)",
+      "aliases": [
+        "CSR",
+        "extra savings"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.2.3"
+      ],
+      "formal": "A discount, available to eligible Marketplace enrollees, that lowers the amounts they pay for deductibles, copayments and coinsurance and lowers their out-of-pocket maximum; to receive it, the person must enroll in a Silver-level plan through the Marketplace.",
+      "plain": "CSRs are 'extra savings' that shrink what you pay when you actually get care, such as your deductible and copays. You only get them if you qualify and choose a Silver plan on the Marketplace.",
+      "simpler": "If the premium tax credit is a discount on the membership fee, the CSR is a discount on what you pay at the door each time you use the service.",
+      "examples": [
+        "Maya qualifies for cost-sharing reductions. She picks a Silver plan, and her deductible and out-of-pocket maximum are lower than for other people enrolled in the same plan.",
+        "Tom qualifies for CSRs but chooses a Gold plan; he can still use his premium tax credit but does not receive the cost-sharing reductions."
+      ],
+      "examTip": "CSR = Silver only, lowers deductibles/copays/coinsurance and the out-of-pocket maximum. Remember 'Cost-Sharing = Silver'.",
+      "misconception": "Cost-sharing reductions do not lower the premium; that is what the premium tax credit does.",
+      "related": [
+        "premium-tax-credit",
+        "metal-levels",
+        "out-of-pocket-maximum",
+        "deductible"
+      ],
+      "confusedWith": [
+        "premium-tax-credit"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "To receive cost-sharing reductions, an eligible Marketplace enrollee must choose a plan in which metal category?",
+        "choices": [
+          "Silver",
+          "Bronze",
+          "Gold",
+          "Platinum"
+        ],
+        "answerIndex": 0,
+        "explanation": "HealthCare.gov: 'If you qualify, you must enroll in a plan in the Silver category to get the extra savings.'"
+      },
+      "sources": [
+        "fed-healthcare-gov-glossary"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "benchmark-plan",
+      "term": "Benchmark Plan",
+      "aliases": [
+        "SLCSP",
+        "second lowest cost Silver plan"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.2.4"
+      ],
+      "formal": "For premium tax credit purposes, the second lowest cost Silver plan (SLCSP) available to the individual through the Marketplace; its premium is used to figure the amount of the premium tax credit, whether or not the person enrolls in that plan.",
+      "plain": "The benchmark plan is the second-cheapest Silver plan available to you. The government uses its price as the yardstick for figuring how much premium tax credit you get, even if you buy a different plan.",
+      "simpler": "Like a reference price on a price tag: the coupon is figured from the 'second-cheapest silver' price, no matter which item you actually buy.",
+      "examples": [
+        "Five Silver plans are available to Grace. The second cheapest costs $500 a month; that premium is her benchmark for calculating her premium tax credit.",
+        "Leo buys a Bronze plan, but his premium tax credit is still figured from the second lowest cost Silver plan premium shown on his Form 1095-A."
+      ],
+      "examTip": "Benchmark = SECOND-lowest-cost SILVER plan. Not the cheapest plan, not the lowest Silver, not a Gold plan.",
+      "misconception": "The benchmark plan is not the plan the person must buy; it is only a reference point for calculating the credit.",
+      "related": [
+        "premium-tax-credit",
+        "metal-levels",
+        "health-insurance-exchange"
+      ],
+      "confusedWith": [],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "The benchmark plan used to calculate the premium tax credit is the:",
+        "choices": [
+          "Lowest cost Bronze plan",
+          "Second lowest cost Silver plan",
+          "Lowest cost Silver plan",
+          "Second lowest cost Gold plan"
+        ],
+        "answerIndex": 1,
+        "explanation": "HealthCare.gov defines the SLCSP as the plan whose premium you need to figure out your final premium tax credit."
+      },
+      "sources": [
+        "fed-healthcare-gov-glossary"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "metal-levels",
+      "term": "Metal Levels",
+      "aliases": [
+        "Bronze",
+        "Silver",
+        "Gold",
+        "Platinum",
+        "levels of coverage"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.2.6",
+        "aca.1.5"
+      ],
+      "formal": "The four levels of coverage defined by the ACA (42 U.S.C. § 18022(d)) for individual and small group plans, based on actuarial value: Bronze (60%), Silver (70%), Gold (80%) and Platinum (90%) of the full actuarial value of the benefits provided.",
+      "plain": "Bronze, Silver, Gold and Platinum describe how the plan and you split costs on average. A Bronze plan pays about 60% of covered costs for a typical population; Platinum pays about 90%. Higher metals usually mean higher premiums but lower costs when you get care.",
+      "simpler": "Like phone plans: the cheaper monthly plan makes you pay more when you use it; the expensive plan covers more of each use.",
+      "examples": [
+        "Sara rarely sees a doctor and picks a Bronze plan (60% actuarial value) with a low premium and higher deductible.",
+        "Ken expects surgery next year and chooses a Gold plan (80% actuarial value), paying a higher premium to reduce his share of costs."
+      ],
+      "examTip": "Memorize 60-70-80-90: Bronze 60, Silver 70, Gold 80, Platinum 90. The percentage is what the PLAN pays on average, not what the insured pays.",
+      "misconception": "A 70% Silver plan does not mean you pay exactly 30% of every bill; actuarial value is an average across a standard population.",
+      "related": [
+        "actuarial-value",
+        "catastrophic-plan",
+        "cost-sharing-reduction",
+        "benchmark-plan"
+      ],
+      "confusedWith": [
+        "actuarial-value"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Under the ACA, a Gold-level plan is designed to pay, on average, what percentage of the full actuarial value of benefits?",
+        "choices": [
+          "70%",
+          "60%",
+          "80%",
+          "90%"
+        ],
+        "answerIndex": 2,
+        "explanation": "42 U.S.C. § 18022(d): Bronze 60%, Silver 70%, Gold 80%, Platinum 90%."
+      },
+      "sources": [
+        "fed-usc-42-18022"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "catastrophic-plan",
+      "term": "Catastrophic Plan",
+      "aliases": [
+        "catastrophic coverage"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.3",
+        "med.2.5"
+      ],
+      "formal": "An ACA individual-market plan that does not meet a metal level and may be offered only to people who have not reached age 30 before the plan year begins or who have a certified hardship or affordability exemption; it provides essential health benefits only after cost-sharing equal to the annual limitation is met (except required preventive services) and covers at least three primary care visits.",
+      "plain": "A catastrophic plan is a very-high-deductible plan meant to protect you from worst-case medical bills. Only people under 30, or people with a hardship or affordability exemption, can buy one, and it still covers preventive care and at least three primary care visits before the deductible.",
+      "simpler": "Like an emergency fund policy: cheap to keep, pays little for everyday things, but protects you if something huge happens.",
+      "examples": [
+        "Jamal, 26, buys a catastrophic plan with a low premium. He uses three covered primary care visits during the year without meeting his deductible.",
+        "Rita, 45, qualifies for a hardship exemption certification, so she is eligible to buy a catastrophic plan even though she is over 30."
+      ],
+      "examTip": "Catastrophic plan eligibility: under age 30, OR a hardship/affordability exemption. Individual market only. At least 3 primary care visits plus preventive care before the deductible.",
+      "misconception": "A catastrophic plan is not a Bronze plan and is not available to anyone who wants it; eligibility is limited.",
+      "related": [
+        "metal-levels",
+        "essential-health-benefits",
+        "major-medical"
+      ],
+      "confusedWith": [
+        "metal-levels"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Who is generally eligible to buy an ACA catastrophic plan?",
+        "choices": [
+          "Anyone who qualifies for cost-sharing reductions",
+          "Anyone age 65 or older",
+          "Small employers with fewer than 50 employees",
+          "People under age 30 or with a hardship or affordability exemption"
+        ],
+        "answerIndex": 3,
+        "explanation": "42 U.S.C. § 18022(e)(2) limits enrollment to people who have not reached age 30 before the plan year or who have certain exemptions (no affordable coverage or hardship)."
+      },
+      "sources": [
+        "fed-usc-42-18022"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "medical-loss-ratio",
+      "term": "Medical Loss Ratio (MLR)",
+      "aliases": [
+        "MLR",
+        "80/20 rule"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.4"
+      ],
+      "formal": "The percentage of premium revenue (after taxes, fees and certain adjustments) that a health insurer spends on reimbursement for clinical services and activities that improve health care quality. Under 42 U.S.C. § 300gg-18, insurers must meet at least 85% in the large group market and 80% in the small group and individual markets (or a higher state percentage), or pay enrollees a pro-rata rebate.",
+      "plain": "MLR measures how much of your premium dollar goes to actual health care and quality improvement instead of overhead and profit. If a large-group insurer spends less than 85 cents of each premium dollar on care (80 cents for individual and small group), it has to give money back.",
+      "simpler": "Like a rule that a charity must spend most of its donations on the cause, not on administration, or refund the difference.",
+      "examples": [
+        "An insurer selling small group coverage spends 76% of its premium revenue on claims and quality improvement, below the 80% minimum, so it must pay rebates to enrollees.",
+        "A large group insurer spends 88% of premiums on clinical care and quality improvement, so it meets the 85% standard and owes no rebate."
+      ],
+      "examTip": "MLR numbers: 85% large group; 80% small group and individual. Shortfall = rebate to enrollees.",
+      "misconception": "A high MLR does not mean the insurer is losing money; it means a large share of premiums goes to care and quality improvement.",
+      "related": [
+        "affordable-care-act",
+        "experience-rating"
+      ],
+      "confusedWith": [],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under the ACA, an insurer in the small group or individual market must spend at least what percentage of premium revenue on clinical services and quality improvement or pay rebates?",
+        "choices": [
+          "80%",
+          "60%",
+          "70%",
+          "85%"
+        ],
+        "answerIndex": 0,
+        "explanation": "42 U.S.C. § 300gg-18: 80% for small group and individual; 85% for large group (states may set higher)."
+      },
+      "sources": [
+        "fed-usc-42-300gg-18"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "actuarial-value",
+      "term": "Actuarial Value",
+      "aliases": [
+        "AV"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.5",
+        "aca.1.2.6"
+      ],
+      "formal": "The percentage of total average costs for covered essential health benefits that a plan is expected to pay for a standard population (without regard to the plan's actual enrollees); under the ACA it defines the metal levels (60%, 70%, 80%, 90%).",
+      "plain": "Actuarial value is the plan's average share of covered costs. A plan with a 70% actuarial value is expected to pay about 70% of covered costs for a typical group of people, leaving about 30% to enrollees through deductibles, copays and coinsurance.",
+      "simpler": "Like the average share a parent covers on a child's bills over a whole year: some months more, some less, but about 70% overall.",
+      "examples": [
+        "Two plans with different deductibles and copays both have an actuarial value of 70%, so both qualify as Silver plans.",
+        "A plan with 90% actuarial value (Platinum) leaves enrollees, on average, responsible for about 10% of covered costs."
+      ],
+      "examTip": "Actuarial value is an AVERAGE for a STANDARD population; it determines the metal tier. It is not the percentage any one person will pay.",
+      "misconception": "Actuarial value is not the same as the coinsurance percentage; it combines deductibles, copays, coinsurance and out-of-pocket limits into one average.",
+      "related": [
+        "metal-levels",
+        "coinsurance",
+        "deductible"
+      ],
+      "confusedWith": [
+        "coinsurance"
+      ],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "A plan's actuarial value is best described as:",
+        "choices": [
+          "The coinsurance percentage printed in the policy",
+          "The average percentage of covered costs the plan pays for a standard population",
+          "The percentage of premium spent on claims",
+          "The plan's maximum annual benefit"
+        ],
+        "answerIndex": 1,
+        "explanation": "42 U.S.C. § 18022(d) measures levels of coverage as actuarial equivalence for a standard population. The percentage of premium spent on claims is the medical loss ratio."
+      },
+      "sources": [
+        "fed-usc-42-18022"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "open-enrollment-period",
+      "term": "Open Enrollment Period",
+      "aliases": [
+        "OEP",
+        "annual enrollment"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.6",
+        "grp.6.2.1"
+      ],
+      "formal": "A set period each year during which individuals may enroll in or change health coverage without needing a qualifying event; for the Marketplace it is an annual window set by the exchange, and for employer plans it is the plan's annual enrollment period.",
+      "plain": "Open enrollment is the yearly window when anyone eligible can sign up for or switch health plans. Outside that window you generally need a special enrollment event, such as losing other coverage or having a baby.",
+      "simpler": "Like the registration week for classes: everyone can sign up then; later, you need a special reason.",
+      "examples": [
+        "During the Marketplace's annual open enrollment period, Nora switches from a Bronze plan to a Silver plan for the coming year.",
+        "Carlos declined his employer's health plan when hired; he can enroll during the plan's next annual open enrollment."
+      ],
+      "examTip": "Open enrollment = anyone eligible, no reason needed, limited window. Special enrollment = outside the window, triggered by a qualifying life event. Exact Marketplace dates can change; learn the concept.",
+      "misconception": "Missing open enrollment does not always mean waiting a full year; a qualifying life event can open a special enrollment period.",
+      "related": [
+        "special-enrollment-period",
+        "health-insurance-exchange",
+        "open-enrollment-group"
+      ],
+      "confusedWith": [
+        "special-enrollment-period"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A yearly window during which eligible people can enroll in or change Marketplace coverage without a qualifying event is the:",
+        "choices": [
+          "Probationary period",
+          "Special enrollment period",
+          "Open enrollment period",
+          "Grace period"
+        ],
+        "answerIndex": 2,
+        "explanation": "Open enrollment is the annual window open to everyone eligible. A special enrollment period requires a qualifying event; a probationary period is a waiting period for new employees; a grace period concerns late premium payment."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "special-enrollment-period",
+      "term": "Special Enrollment Period",
+      "aliases": [
+        "SEP",
+        "qualifying life event"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.6",
+        "grp.6.2.4"
+      ],
+      "formal": "A period outside open enrollment during which a person may enroll in or change health coverage because of a qualifying event, such as loss of other coverage, marriage, birth, adoption or placement for adoption. For group health plans, federal law (42 U.S.C. § 300gg-3(f)) requires at least a 30-day special enrollment period for these events.",
+      "plain": "If something big happens, like losing your other health coverage, getting married or having a baby, you can sign up outside the normal open enrollment window. That window is the special enrollment period.",
+      "simpler": "Like being allowed to join a class late because you just transferred schools.",
+      "examples": [
+        "Jenna declined her employer's plan because she was on her husband's plan. When he loses his job and their coverage ends, she requests enrollment within 30 days and her employer's plan must enroll her and her family.",
+        "Under a group health plan, a newborn enrolled during the special enrollment period is covered as of the date of birth."
+      ],
+      "examTip": "Group plans: special enrollment requests must be allowed for at least 30 days after the event; coverage for a newborn is effective on the date of birth, for adoption on the date of adoption or placement.",
+      "misconception": "A special enrollment period is not available just because someone changes their mind; it requires a qualifying event.",
+      "related": [
+        "open-enrollment-period",
+        "hipaa",
+        "newborn-coverage"
+      ],
+      "confusedWith": [
+        "open-enrollment-period"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under federal group health plan rules, an employee who loses other coverage must request special enrollment within at least how many days?",
+        "choices": [
+          "180 days",
+          "10 days",
+          "90 days",
+          "30 days"
+        ],
+        "answerIndex": 3,
+        "explanation": "42 U.S.C. § 300gg-3(f)(1)(D): the employee requests enrollment not later than 30 days after the loss of coverage."
+      },
+      "sources": [
+        "fed-usc-42-300gg-3"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "individual-mandate",
+      "term": "Individual Mandate",
+      "aliases": [
+        "shared responsibility payment",
+        "individual shared responsibility"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.7"
+      ],
+      "formal": "The ACA requirement that individuals maintain minimum essential coverage or pay a federal tax penalty (the 'shared responsibility payment'); the federal penalty applied for plan years 2018 and earlier and no longer applies, so there is no federal tax penalty for being uninsured.",
+      "plain": "The individual mandate originally said 'have health insurance or pay a fine on your federal tax return'. That federal fine ended after 2018, so today there is no federal penalty for not having coverage.",
+      "simpler": "Like a library late fee that was abolished: the rule about returning books is still on the wall, but the fine is gone.",
+      "examples": [
+        "Pat was uninsured in 2017 and paid the federal shared responsibility payment on her tax return.",
+        "Sam is uninsured in 2026; he owes no federal tax penalty for not having health coverage."
+      ],
+      "examTip": "Exam answer: the federal individual mandate penalty was reduced to $0 starting in 2019 (it applied for plan years 2018 and earlier). Don't confuse it with the employer shared responsibility payment, which still applies.",
+      "misconception": "The end of the federal penalty did not repeal the rest of the ACA; exchanges, premium tax credits and preexisting condition protections continue.",
+      "related": [
+        "employer-shared-responsibility",
+        "affordable-care-act",
+        "catastrophic-plan"
+      ],
+      "confusedWith": [
+        "employer-shared-responsibility"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "What is the current status of the ACA's federal individual mandate penalty?",
+        "choices": [
+          "It no longer applies; there is no federal tax penalty for being uninsured",
+          "It applies only to people under age 30",
+          "It is collected by employers through payroll",
+          "It was doubled starting in 2019"
+        ],
+        "answerIndex": 0,
+        "explanation": "HealthCare.gov: the fee applied for plan years 2018 and earlier and 'no longer applies'."
+      },
+      "sources": [
+        "fed-healthcare-gov-glossary"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "employer-shared-responsibility",
+      "term": "Employer Shared Responsibility",
+      "aliases": [
+        "employer mandate",
+        "pay or play",
+        "applicable large employer",
+        "ALE"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.8"
+      ],
+      "formal": "The ACA provisions (IRC § 4980H) under which an applicable large employer (an average of at least 50 full-time employees, including full-time equivalents, in the preceding calendar year) must offer affordable, minimum-value coverage to at least 95% of its full-time employees (30+ hours per week) and their dependents, or potentially owe a payment to the IRS if at least one full-time employee receives a premium tax credit through the Marketplace.",
+      "plain": "Larger employers (50 or more full-time employees, counting part-timers as equivalents) must offer full-time workers decent, affordable health coverage. If they don't, and a worker gets a premium tax credit on the Marketplace, the employer may owe the IRS a payment. It is often called 'pay or play'.",
+      "simpler": "Like a rule that big landlords must provide heat or pay a fine if a tenant has to get help from the city.",
+      "examples": [
+        "A company with 120 full-time employees offers no health coverage. One employee buys a Marketplace plan with a premium tax credit, so the company may owe an employer shared responsibility payment.",
+        "A bakery with 20 full-time employees is below the 50-employee threshold and is not subject to the employer shared responsibility provisions."
+      ],
+      "examTip": "Key numbers (statutory, not indexed): 50 full-time employees incl. FTEs = applicable large employer; full-time = 30 hours/week (130/month); offer to at least 95% of full-time employees. Trigger: an employee receives a premium tax credit. Payment dollar amounts change yearly; don't memorize them.",
+      "misconception": "Employer shared responsibility does not require small employers to offer coverage, and it does not require coverage for spouses.",
+      "related": [
+        "individual-mandate",
+        "premium-tax-credit",
+        "small-employer"
+      ],
+      "confusedWith": [
+        "individual-mandate"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under the ACA's employer shared responsibility provisions, an applicable large employer is one that had an average of at least how many full-time employees (including full-time equivalents) in the preceding year?",
+        "choices": [
+          "20",
+          "50",
+          "100",
+          "25"
+        ],
+        "answerIndex": 1,
+        "explanation": "IRS: an ALE must have had an average of at least 50 full-time employees (including FTEs) during the preceding calendar year."
+      },
+      "sources": [
+        "fed-irs-esr"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "essential-health-benefits",
+      "term": "Essential Health Benefits",
+      "aliases": [
+        "EHB",
+        "10 essential benefits"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.10"
+      ],
+      "formal": "The ten general categories of benefits that ACA-compliant individual and small group plans must cover (42 U.S.C. § 18022(b)): ambulatory patient services; emergency services; hospitalization; maternity and newborn care; mental health and substance use disorder services, including behavioral health treatment; prescription drugs; rehabilitative and habilitative services and devices; laboratory services; preventive and wellness services and chronic disease management; and pediatric services, including oral and vision care.",
+      "plain": "Essential health benefits are the 10 kinds of care every ACA individual and small group plan must include, from doctor visits and hospital stays to maternity care, mental health, prescriptions, lab work, preventive care, and children's dental and vision care.",
+      "simpler": "Think of a required 10-item menu that every restaurant in the food court must serve.",
+      "examples": [
+        "An individual plan sold in 2026 must cover maternity and newborn care, even for a single man, because it is an essential health benefit.",
+        "A plan may add adult dental coverage beyond the essential health benefits; the ACA sets a floor, not a ceiling."
+      ],
+      "examTip": "Memory list (10): Ambulatory, Emergency, Hospitalization, Maternity/newborn, Mental health/substance use, Prescription drugs, Rehab/habilitative, Lab, Preventive/wellness/chronic disease, Pediatric (incl. oral & vision). Adult dental and vision are NOT on the list.",
+      "misconception": "Essential health benefits do not include every service; for example, adult dental and adult vision are not among the ten categories.",
+      "related": [
+        "affordable-care-act",
+        "lifetime-limit",
+        "preventive-care",
+        "metal-levels"
+      ],
+      "confusedWith": [
+        "mandated-benefit"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which of the following is NOT one of the ACA's ten essential health benefit categories?",
+        "choices": [
+          "Laboratory services",
+          "Maternity and newborn care",
+          "Adult dental care",
+          "Pediatric services, including oral and vision care"
+        ],
+        "answerIndex": 2,
+        "explanation": "42 U.S.C. § 18022(b)(1) lists pediatric oral and vision care, but not adult dental care."
+      },
+      "sources": [
+        "fed-usc-42-18022"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "lifetime-limit",
+      "term": "Annual and Lifetime Dollar Limits",
+      "aliases": [
+        "lifetime maximum",
+        "annual limit"
+      ],
+      "sectionId": "aca",
+      "outlineIds": [
+        "aca.1.9"
+      ],
+      "formal": "A cap on the total dollar amount of benefits a plan will pay for a person in a year (annual limit) or over the life of the coverage (lifetime limit). Under 42 U.S.C. § 300gg-11, group health plans and insurers offering group or individual coverage may not set lifetime limits, or (for plan years since 2014) annual limits, on the dollar value of essential health benefits; dollar limits remain allowed on benefits that are not essential health benefits.",
+      "plain": "Plans used to stop paying once your bills hit a cap, such as $1 million for your lifetime. The ACA banned those dollar caps on essential health benefits, both yearly and lifetime.",
+      "simpler": "Like a buffet that used to cut you off after a certain number of plates; now, for the essential dishes, there is no cutoff.",
+      "examples": [
+        "Before the ACA, Ella's major medical policy had a $1,000,000 lifetime maximum. After years of cancer treatment she would have reached it; today, a plan cannot cap essential health benefits that way.",
+        "A plan may still set a dollar limit on a benefit that is not an essential health benefit, such as an optional adult dental rider."
+      ],
+      "examTip": "No lifetime OR annual DOLLAR limits on ESSENTIAL health benefits. Don't confuse with the out-of-pocket maximum, which limits what the INSURED pays and is required.",
+      "misconception": "The ban applies to dollar limits on essential health benefits; it does not prohibit visit limits on certain services or dollar limits on non-essential benefits.",
+      "related": [
+        "essential-health-benefits",
+        "out-of-pocket-maximum",
+        "major-medical"
+      ],
+      "confusedWith": [
+        "out-of-pocket-maximum"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under the ACA, which statement about dollar limits on essential health benefits is correct?",
+        "choices": [
+          "Both are permitted if disclosed in the outline of coverage",
+          "Lifetime limits are permitted, but annual limits are not",
+          "Annual limits are permitted, but lifetime limits are not",
+          "Neither lifetime nor annual dollar limits are permitted"
+        ],
+        "answerIndex": 3,
+        "explanation": "42 U.S.C. § 300gg-11 prohibits lifetime limits and (since 2014) annual limits on the dollar value of essential health benefits."
+      },
+      "sources": [
+        "fed-usc-42-300gg-11"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ],
+  "comparisons": []
+}

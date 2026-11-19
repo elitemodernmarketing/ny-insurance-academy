@@ -1,0 +1,866 @@
+{
+ "sectionId": "lpr",
+ "questions": [
+  {
+   "id": "lpr-q215",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.4.2"
+   ],
+   "concepts": [
+    "extended-term-option",
+    "policy-loan"
+   ],
+   "difficulty": 3,
+   "style": "calculation",
+   "tags": [
+    "math",
+    "tricky"
+   ],
+   "scenario": "Vic stops paying premiums on his $100,000 whole life policy. It has a $40,000 cash value and a $15,000 outstanding policy loan. He elects the extended term option.",
+   "stem": "What amount of extended term coverage will Vic have?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$85,000",
+     "rationale": "Correct: extended term provides the face amount minus the outstanding loan."
+    },
+    {
+     "id": "b",
+     "text": "$100,000",
+     "rationale": "Incorrect: the outstanding loan reduces the extended term face amount."
+    },
+    {
+     "id": "c",
+     "text": "$25,000",
+     "rationale": "Incorrect: this is the net cash value, which is used as the single premium, not the coverage amount."
+    },
+    {
+     "id": "d",
+     "text": "$75,000",
+     "rationale": "Incorrect: the net cash value is not subtracted from the face amount; only the loan is."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Under extended term, the net cash value ($40,000 − $15,000 = $25,000) is used as a single premium to buy term insurance. The amount of coverage equals the face amount less the outstanding loan: $100,000 − $15,000 = $85,000, for as long a period as $25,000 will buy.",
+   "memoryTip": "Extended term: face minus loans, for as long as the cash lasts.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Coverage = face minus loan",
+      "anyOf": [
+       "face",
+       "minus",
+       "loan",
+       "85,000"
+      ]
+     },
+     {
+      "label": "Net cash value buys the term coverage",
+      "anyOf": [
+       "25,000",
+       "net cash value",
+       "single premium"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q216",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.4.2"
+   ],
+   "concepts": [
+    "extended-term-option"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Years ago Wanda stopped paying premiums on her $150,000 whole life policy, and it went on extended term insurance for 11 years and 90 days. She dies 13 years after the policy went on extended term.",
+   "stem": "What does Wanda's beneficiary receive?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The full $150,000 face amount of the policy",
+     "rationale": "Incorrect: the extended term coverage had already expired."
+    },
+    {
+     "id": "b",
+     "text": "A smaller reduced paid-up death benefit",
+     "rationale": "Incorrect: Wanda had extended term, not reduced paid-up insurance."
+    },
+    {
+     "id": "c",
+     "text": "A refund of all the premiums she paid",
+     "rationale": "Incorrect: the cash value was used to buy the term coverage; nothing is refunded."
+    },
+    {
+     "id": "d",
+     "text": "Nothing, since the term period has ended",
+     "rationale": "Correct: extended term coverage lasts only for the period the cash value bought."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Extended term coverage keeps the full face amount only for the period the net cash value can buy. Wanda died after that period ended, so no coverage remained and no benefit is payable.",
+   "memoryTip": "Extended term has an expiration date.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q217",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.4.1",
+    "lpr.4"
+   ],
+   "concepts": [
+    "cash-surrender-value",
+    "nonforfeiture-options"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "Under New York's standard nonforfeiture law, the right to a cash surrender value on surrender after a premium default applies once premiums have been paid for at least:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "One full year",
+     "rationale": "Incorrect: the statute uses a longer period."
+    },
+    {
+     "id": "b",
+     "text": "Two full years",
+     "rationale": "Incorrect: two years is the incontestable and suicide period, not this one."
+    },
+    {
+     "id": "c",
+     "text": "Three full years",
+     "rationale": "Correct: § 4221(a)(2) applies after premiums have been paid for at least three full years."
+    },
+    {
+     "id": "d",
+     "text": "Five full years",
+     "rationale": "Incorrect: the statute uses a shorter period."
+    }
+   ],
+   "correct": "c",
+   "explanation": "NY Insurance Law § 4221(a)(2) requires a policy to provide that, upon surrender within 60 days after the due date of a premium in default, after premiums have been paid for at least three full years, the company will pay a cash surrender value in lieu of a paid-up nonforfeiture benefit.",
+   "memoryTip": "Three full years of premiums unlock the cash surrender right.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-4221"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q218",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.5.1"
+   ],
+   "concepts": [
+    "policy-loan",
+    "term-life-insurance"
+   ],
+   "difficulty": 2,
+   "style": "negative",
+   "tags": [
+    "negative-wording",
+    "ny-law"
+   ],
+   "stem": "New York's policy loan requirement for individual life policies does NOT apply to which type of insurance?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Level term insurance",
+     "rationale": "Correct: § 3203(a)(8) states that the loan provision does not apply to term insurance."
+    },
+    {
+     "id": "b",
+     "text": "Ordinary whole life insurance",
+     "rationale": "Incorrect choice: whole life policies must offer loans once three full years' premiums are paid."
+    },
+    {
+     "id": "c",
+     "text": "Limited-payment whole life insurance",
+     "rationale": "Incorrect choice: this is permanent insurance with cash value, so the loan rule applies."
+    },
+    {
+     "id": "d",
+     "text": "Flexible-premium universal life insurance",
+     "rationale": "Incorrect choice: loans are required three years from issue for flexible-premium policies."
+    }
+   ],
+   "correct": "a",
+   "explanation": "NY Insurance Law § 3203(a)(8) requires a loan provision once three full years' premiums have been paid (three years from issue for flexible-premium policies), secured solely by the policy, and states that the paragraph \"shall not apply to term insurance.\"",
+   "memoryTip": "No cash value, no loan: term is excluded.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3203"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q219",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.5.2",
+    "lpr.7.1"
+   ],
+   "concepts": [
+    "automatic-premium-loan",
+    "waiver-of-premium"
+   ],
+   "difficulty": 2,
+   "style": "comparison",
+   "tags": [
+    "tricky"
+   ],
+   "scenario": "Ari's whole life policy has both a waiver of premium rider and an automatic premium loan provision, and plenty of cash value. Ari is healthy but forgets to pay his annual premium, and the grace period ends.",
+   "stem": "How is the missed premium handled?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The waiver of premium rider pays it, since Ari has the rider",
+     "rationale": "Incorrect: waiver of premium requires a qualifying total disability, which Ari does not have."
+    },
+    {
+     "id": "b",
+     "text": "The policy lapses at once, despite both provisions",
+     "rationale": "Incorrect: the automatic premium loan prevents lapse when there is enough cash value."
+    },
+    {
+     "id": "c",
+     "text": "The insurer forgives the premium as a one-time courtesy",
+     "rationale": "Incorrect: there is no such provision."
+    },
+    {
+     "id": "d",
+     "text": "An automatic premium loan pays it from the cash value",
+     "rationale": "Correct: the APL pays an unpaid premium at the end of the grace period."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Waiver of premium applies only during the insured's total disability. Ari is healthy and simply forgot, so the automatic premium loan provision pays the premium from the cash value at the end of the grace period, creating a policy loan with interest.",
+   "memoryTip": "Forgot = APL. Disabled = waiver.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "No disability, so waiver does not apply",
+      "anyOf": [
+       "disab",
+       "healthy",
+       "not apply"
+      ]
+     },
+     {
+      "label": "APL pays the premium from cash value",
+      "anyOf": [
+       "automatic premium loan",
+       "apl",
+       "cash value",
+       "borrow"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q220",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.5.3"
+   ],
+   "concepts": [
+    "partial-surrender",
+    "universal-life"
+   ],
+   "difficulty": 2,
+   "style": "calculation",
+   "tags": [
+    "math"
+   ],
+   "scenario": "Bea owns a universal life policy with a $250,000 death benefit and $60,000 of cash value. She withdraws $20,000.",
+   "stem": "Assuming the policy reduces the death benefit by the amount withdrawn, what is the death benefit after the withdrawal?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$250,000, since withdrawals do not affect coverage",
+     "rationale": "Incorrect: the policy reduces the death benefit by the amount withdrawn."
+    },
+    {
+     "id": "b",
+     "text": "$230,000",
+     "rationale": "Correct: $250,000 − $20,000 = $230,000."
+    },
+    {
+     "id": "c",
+     "text": "$270,000",
+     "rationale": "Incorrect: a withdrawal lowers, not raises, the death benefit."
+    },
+    {
+     "id": "d",
+     "text": "$228,000, after loan interest",
+     "rationale": "Incorrect: a withdrawal is not a loan, so no loan interest accrues."
+    }
+   ],
+   "correct": "b",
+   "explanation": "A withdrawal (partial surrender) permanently removes cash value and, under the policy terms stated, reduces the death benefit by the same amount: $250,000 − $20,000 = $230,000. Unlike a loan, there is no interest and nothing to repay.",
+   "memoryTip": "Withdraw $X, lose $X of coverage (under this design).",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q221",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.6.3"
+   ],
+   "concepts": [
+    "dividend-options"
+   ],
+   "difficulty": 2,
+   "style": "calculation",
+   "tags": [
+    "math"
+   ],
+   "scenario": "Gus owned a $100,000 participating whole life policy and chose to leave dividends with the insurer to accumulate at interest. At his death, $6,000 of dividends and interest had accumulated, and there were no loans.",
+   "stem": "How much does Gus's beneficiary receive?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$100,000",
+     "rationale": "Incorrect: accumulated dividends belong to the policyowner and are paid in addition to the face amount."
+    },
+    {
+     "id": "b",
+     "text": "$94,000",
+     "rationale": "Incorrect: dividends are not subtracted from the death benefit."
+    },
+    {
+     "id": "c",
+     "text": "$106,000",
+     "rationale": "Correct: the face amount plus the $6,000 of accumulated dividends and interest."
+    },
+    {
+     "id": "d",
+     "text": "$112,000",
+     "rationale": "Incorrect: this counts the accumulated dividends twice."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Dividends left to accumulate at interest are held by the insurer for the policyowner. At the insured's death, the accumulated value is paid along with the face amount: $100,000 + $6,000 = $106,000.",
+   "memoryTip": "Accumulated dividends ride along with the death benefit.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q222",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.7.1"
+   ],
+   "concepts": [
+    "waiver-of-premium",
+    "total-disability"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Hank's waiver of premium rider covers total disability that begins before age 60, after a six-month waiting period. He becomes totally disabled from a stroke at age 63.",
+   "stem": "Will the insurer waive Hank's premiums?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Yes, because any total disability qualifies at any age",
+     "rationale": "Incorrect: the rider covers only disabilities that begin before age 60."
+    },
+    {
+     "id": "b",
+     "text": "No, because his disability began after the rider's age limit",
+     "rationale": "Correct: the rider's terms limit coverage to disabilities beginning before age 60."
+    },
+    {
+     "id": "c",
+     "text": "Yes, but only after a two-year waiting period",
+     "rationale": "Incorrect: the rider's age condition is not met, so no waiting period applies."
+    },
+    {
+     "id": "d",
+     "text": "No, because waiver riders apply only to accidents",
+     "rationale": "Incorrect: waiver of premium covers disability from sickness or injury."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Waiver of premium riders typically cover only total disabilities that begin before a stated age. Hank's rider requires the disability to begin before age 60; his began at 63, so the premiums are not waived.",
+   "memoryTip": "Read the rider's age limit.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q223",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.7.4"
+   ],
+   "concepts": [
+    "payor-benefit-rider"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [],
+   "stem": "When a parent applies for a payor benefit rider on a juvenile policy, whose insurability does the insurer evaluate for the rider?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The child's, since the child is the insured",
+     "rationale": "Incorrect: the rider's risk is the payor's death or disability, not the child's."
+    },
+    {
+     "id": "b",
+     "text": "The beneficiary's",
+     "rationale": "Incorrect: the beneficiary's health does not affect the rider."
+    },
+    {
+     "id": "c",
+     "text": "No one's; payor riders never require evidence",
+     "rationale": "Incorrect: the payor usually must provide evidence of insurability."
+    },
+    {
+     "id": "d",
+     "text": "The parent's, as the premium payor",
+     "rationale": "Correct: the rider pays off on the payor's death or disability, so the payor is underwritten."
+    }
+   ],
+   "correct": "d",
+   "explanation": "A payor benefit rider waives the child's premiums if the payor dies or becomes disabled. Because the insurer is taking on the payor's mortality and disability risk, the payor generally must provide evidence of insurability.",
+   "memoryTip": "The rider covers the payor, so the payor is underwritten.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q224",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.10.1"
+   ],
+   "concepts": [
+    "accidental-death-benefit"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky"
+   ],
+   "scenario": "Ian's $200,000 policy has a double indemnity rider that pays if death results from an accident within 90 days. Ian is badly injured in a fall and dies of those injuries 120 days later.",
+   "stem": "What does the beneficiary receive?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$400,000, because the death resulted from an accident",
+     "rationale": "Incorrect: the rider's 90-day time limit was not met."
+    },
+    {
+     "id": "b",
+     "text": "$300,000, a pro-rated accidental benefit",
+     "rationale": "Incorrect: accidental death riders do not pro-rate."
+    },
+    {
+     "id": "c",
+     "text": "$200,000, the base face amount only",
+     "rationale": "Correct: death occurred 120 days after the accident, outside the 90-day limit."
+    },
+    {
+     "id": "d",
+     "text": "Nothing, because the death was not immediate",
+     "rationale": "Incorrect: the base policy still pays for death from any covered cause."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Accidental death riders typically pay only if death occurs within a stated period after the accident (here, 90 days). Because Ian died 120 days later, the rider pays nothing extra, but the base policy pays the $200,000 face amount.",
+   "memoryTip": "Accidental death riders run on a clock.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Rider requires death within 90 days",
+      "anyOf": [
+       "90 days",
+       "time limit",
+       "within"
+      ]
+     },
+     {
+      "label": "Only the base face amount is paid",
+      "anyOf": [
+       "200,000",
+       "face amount",
+       "base"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q225",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.10.2"
+   ],
+   "concepts": [
+    "guaranteed-insurability-rider"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Jo's guaranteed insurability rider gives her an option to buy $25,000 of additional coverage at age 31. She lets that option date pass without buying.",
+   "stem": "What is the effect of Jo's skipping the option date?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "That option is generally lost; later ones remain available",
+     "rationale": "Correct: guaranteed insurability options are typically use-it-or-lose-it."
+    },
+    {
+     "id": "b",
+     "text": "The skipped amount carries over and doubles at the next date",
+     "rationale": "Incorrect: unused options do not accumulate."
+    },
+    {
+     "id": "c",
+     "text": "The entire rider terminates immediately",
+     "rationale": "Incorrect: typically only that option is lost."
+    },
+    {
+     "id": "d",
+     "text": "She may buy it any time later without evidence",
+     "rationale": "Incorrect: purchases without evidence are tied to the specified option dates or events."
+    }
+   ],
+   "correct": "a",
+   "explanation": "A guaranteed insurability rider allows purchases without evidence of insurability only on specified option dates or after specified events. An option that is not exercised within its window is typically forfeited, while later option dates remain available until the rider ends.",
+   "memoryTip": "GIR options: use it or lose it.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q226",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.8",
+    "lpr.8.2"
+   ],
+   "concepts": [
+    "accelerated-death-benefit"
+   ],
+   "difficulty": 3,
+   "style": "concept",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "stem": "Under New York law, within how many days after the insurer sends the application to accelerate death benefits must the policyowner complete and sign it?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "5 days",
+     "rationale": "Incorrect: five days is the period for the insurer's disclosures and the payment waiting period."
+    },
+    {
+     "id": "b",
+     "text": "10 days",
+     "rationale": "Incorrect: 10 days is the minimum free-look period, not this deadline."
+    },
+    {
+     "id": "c",
+     "text": "60 days",
+     "rationale": "Incorrect: 60 days relates to nonforfeiture elections, not acceleration."
+    },
+    {
+     "id": "d",
+     "text": "30 days",
+     "rationale": "Correct: § 3230(b)(1) requires completion and signature within thirty days after transmittal."
+    }
+   ],
+   "correct": "d",
+   "explanation": "NY Insurance Law § 3230(b)(1): the application to accelerate benefits shall be dated by the insurer upon transmittal and completed and signed by the policyowner not more than thirty days thereafter. The insurer then has five days to send required illustrations, and may not pay for five days after sending them.",
+   "memoryTip": "30 to sign, 5 to disclose, 5 to wait.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3230"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q227",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.8"
+   ],
+   "concepts": [
+    "accelerated-death-benefit",
+    "group-life-insurance"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "Under a New York group life policy offering accelerated death benefits, who has the right to accelerate the benefits?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The employer that holds the master policy",
+     "rationale": "Incorrect: the policyholder employer may not accelerate a member's benefit."
+    },
+    {
+     "id": "b",
+     "text": "Only the certificateholder",
+     "rationale": "Correct: § 3230(e) gives the right only to the certificateholder."
+    },
+    {
+     "id": "c",
+     "text": "The certificateholder's named beneficiary",
+     "rationale": "Incorrect: the beneficiary has no right to accelerate the benefit."
+    },
+    {
+     "id": "d",
+     "text": "Any family member who pays the medical bills",
+     "rationale": "Incorrect: family members have no such right."
+    }
+   ],
+   "correct": "b",
+   "explanation": "NY Insurance Law § 3230(e): \"A group life insurance policy which provides for accelerated payment of death benefits or a special surrender value must provide that only the certificateholder has the right to accelerate the benefits.\"",
+   "memoryTip": "Group acceleration belongs to the covered person.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3230"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q228",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.9.2"
+   ],
+   "concepts": [
+    "childrens-term-rider",
+    "conversion-privilege"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Kia's whole life policy includes a children's term rider. Her son, who developed asthma as a teenager, reaches the conversion age stated in the rider.",
+   "stem": "What can Kia's son do?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Convert his coverage to permanent insurance without evidence of insurability",
+     "rationale": "Correct: children's term riders typically include conversion without evidence at a stated age."
+    },
+    {
+     "id": "b",
+     "text": "Nothing; coverage simply ends and he must apply with full underwriting",
+     "rationale": "Incorrect: the rider's conversion right lets him avoid new underwriting."
+    },
+    {
+     "id": "c",
+     "text": "Keep the rider coverage for life at the child rate",
+     "rationale": "Incorrect: rider coverage ends at the stated age; conversion is the way to keep coverage."
+    },
+    {
+     "id": "d",
+     "text": "Transfer the rider to his own new employer's group plan",
+     "rationale": "Incorrect: riders cannot be moved into a group plan."
+    }
+   ],
+   "correct": "a",
+   "explanation": "A children's term rider usually lets each covered child convert to a permanent policy at a specified age without proving insurability. That is valuable for Kia's son, whose health has changed.",
+   "memoryTip": "Children's rider: convert later, no medical questions.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

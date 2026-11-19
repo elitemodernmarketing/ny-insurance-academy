@@ -1,0 +1,919 @@
+{
+  "sectionId": "sen",
+  "questions": [
+    {
+      "id": "sen-q001",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.1"
+      ],
+      "concepts": [
+        "medicare-supplement"
+      ],
+      "difficulty": 1,
+      "style": "definition",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "A Medicare supplement (Medigap) policy is designed to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pay the insured's share of Original Medicare costs",
+          "rationale": "Correct: Medigap pays costs such as deductibles, coinsurance and copayments that Original Medicare leaves to the beneficiary."
+        },
+        {
+          "id": "b",
+          "text": "Replace Original Medicare with a private network plan",
+          "rationale": "Incorrect: that describes Medicare Advantage."
+        },
+        {
+          "id": "c",
+          "text": "Pay for long-term custodial care in a nursing home",
+          "rationale": "Incorrect: Medicare and Medigap don't pay for long-term care."
+        },
+        {
+          "id": "d",
+          "text": "Provide disability income while the insured can't work",
+          "rationale": "Incorrect: that is disability income insurance."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Medicare.gov describes Medigap as extra insurance bought from a private company to help pay your share of out-of-pocket costs in Original Medicare, like copayments, coinsurance and deductibles. It works only with Original Medicare.",
+      "memoryTip": "Medigap fills Medicare's gaps.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-medicare-medigap",
+        "fed-medicare-ltc"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q002",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.1",
+        "sen.1.4.4"
+      ],
+      "concepts": [
+        "medicare-supplement",
+        "medicare-advantage"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "scenario": "Vera, 70, is enrolled in a Medicare Advantage HMO that covers her hospital, doctor and drug costs. A producer suggests she also buy a Medigap Plan G 'for extra protection,' keeping the HMO.",
+      "stem": "What is the problem with this recommendation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nothing; Medigap and Medicare Advantage are designed to work together",
+          "rationale": "Incorrect: Medigap works only with Original Medicare."
+        },
+        {
+          "id": "b",
+          "text": "Plan G is not available to anyone over age 65 in New York",
+          "rationale": "Incorrect: Plan G is available; this is not the issue."
+        },
+        {
+          "id": "c",
+          "text": "NY bars a Medigap sale that duplicates Medicare Advantage benefits",
+          "rationale": "Correct: 11 NYCRR 58.1(d)(5) prohibits such a sale."
+        },
+        {
+          "id": "d",
+          "text": "Medigap may be sold only during the annual fall Medicare enrollment period",
+          "rationale": "Incorrect: NY Medigap applicants are accepted throughout the year."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Medigap supplements Original Medicare only. Under 11 NYCRR 58.1(d)(5), any sale of a Medicare supplement policy that would give a person more than one Medigap policy or duplicate benefits he or she is entitled to under a Medicare Advantage plan is prohibited. If Vera wants Medigap, she would need to return to Original Medicare (a replacement situation requiring the replacement notice).",
+      "memoryTip": "Medigap + Medicare Advantage = duplicate = prohibited.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Medigap works only with Original Medicare",
+            "anyOf": [
+              "Original Medicare",
+              "only with"
+            ]
+          },
+          {
+            "label": "Duplicate coverage sale is prohibited",
+            "anyOf": [
+              "duplicate",
+              "prohibited",
+              "not allowed"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-58-1",
+        "fed-medicare-medigap"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q003",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.2"
+      ],
+      "concepts": [
+        "medigap-open-enrollment"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "Under FEDERAL rules, when does a person's one-time Medigap Open Enrollment Period begin and how long does it last?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Starts the first month with Part B at 65 or older; lasts 6 months",
+          "rationale": "Correct: this is Medicare.gov's description of the federal Medigap Open Enrollment Period."
+        },
+        {
+          "id": "b",
+          "text": "It begins on the 65th birthday and lasts for 7 months",
+          "rationale": "Incorrect: a 7-month window describes the Medicare Initial Enrollment Period."
+        },
+        {
+          "id": "c",
+          "text": "It occurs every fall, October 15 to December 7",
+          "rationale": "Incorrect: that is the annual Medicare open enrollment for changing plans; Medigap open enrollment does not repeat each year."
+        },
+        {
+          "id": "d",
+          "text": "It begins when Part A coverage starts and lasts 12 months",
+          "rationale": "Incorrect: the period is keyed to Part B enrollment and lasts 6 months."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Federally, the Medigap Open Enrollment Period is a one-time, six-month period that starts the first month a person has Medicare Part B and is 65 or older. During it, an insurer can't deny Medigap coverage because of preexisting health problems. New York goes further and requires year-round acceptance.",
+      "memoryTip": "Federal Medigap OE: Part B + 65 → 6 months, once.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-medicare-medigap"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q004",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.2"
+      ],
+      "concepts": [
+        "medigap-open-enrollment"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "scenario": "Abe, 74, lives in New York. He has had Original Medicare for nine years without a Medigap policy and has heart disease. In March he applies for a Medigap plan that an insurer sells in New York.",
+      "stem": "How must the insurer handle Abe's application?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It may decline him because his federal six-month open enrollment ended years ago",
+          "rationale": "Incorrect: New York requires acceptance at all times throughout the year."
+        },
+        {
+          "id": "b",
+          "text": "It must accept him and may not price the policy based on his health",
+          "rationale": "Correct: 11 NYCRR 58.1(i)(1) bars denying, conditioning or pricing based on health status."
+        },
+        {
+          "id": "c",
+          "text": "It may accept him only if he passes a physical exam",
+          "rationale": "Incorrect: Medigap applications may not include health questions or require a physical exam."
+        },
+        {
+          "id": "d",
+          "text": "It may accept him but must charge a health-based surcharge",
+          "rationale": "Incorrect: pricing may not discriminate based on health status or medical condition."
+        }
+      ],
+      "correct": "b",
+      "explanation": "11 NYCRR 58.1(i)(1): an issuer may not deny or condition issuance of a Medigap policy, nor discriminate in pricing, because of health status, claims experience, receipt of health care, or medical condition; 'Applicants must be accepted at all times throughout the year.' 58.1(d)(1) also bars health questions and physical exams on the application. (A permitted 6-month preexisting-condition limitation may still apply, reduced by prior creditable coverage.)",
+      "memoryTip": "New York Medigap: open door, every day, same price.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Must accept year-round",
+            "anyOf": [
+              "all times",
+              "year-round",
+              "year round",
+              "any time",
+              "throughout the year"
+            ]
+          },
+          {
+            "label": "No health-based pricing or denial",
+            "anyOf": [
+              "health status",
+              "can't deny",
+              "cannot deny",
+              "pricing",
+              "no health"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-58-1"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q005",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.2",
+        "sen.2.1"
+      ],
+      "concepts": [
+        "medigap-open-enrollment",
+        "medicare-disabled-under-65"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [
+        "ny-law"
+      ],
+      "stem": "To whom does New York's year-round Medigap open enrollment requirement apply?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only to applicants who are 65 or older",
+          "rationale": "Incorrect: the rule also covers people enrolled in Medicare by reason of disability."
+        },
+        {
+          "id": "b",
+          "text": "Only during the first six months of Part B enrollment",
+          "rationale": "Incorrect: NY's rule applies at all times throughout the year."
+        },
+        {
+          "id": "c",
+          "text": "Only to applicants with no preexisting medical conditions",
+          "rationale": "Incorrect: health status may not be used to deny or price coverage."
+        },
+        {
+          "id": "d",
+          "text": "To Medicare enrollees by reason of age or disability",
+          "rationale": "Correct: 11 NYCRR 58.1(i)(2) applies it to both groups."
+        }
+      ],
+      "correct": "d",
+      "explanation": "11 NYCRR 58.1(i)(2): the open enrollment requirements apply to applicants enrolled in Medicare whether by reason of age or by reason of disability. A New Yorker under 65 who has Medicare because of a disability can therefore buy Medigap on the same guaranteed basis.",
+      "memoryTip": "NY Medigap: age OR disability — both get in.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-58-1"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q006",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.2",
+        "sen.1.4.6"
+      ],
+      "concepts": [
+        "medigap-open-enrollment",
+        "preexisting-condition"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "scenario": "Celeste had employer group health coverage for 10 years. That coverage ended on May 1. She applies for a New York Medigap policy that becomes effective June 1. She was treated for asthma in April.",
+      "stem": "Can the Medigap insurer apply a preexisting-condition limitation to her asthma?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, for up to 12 months after the policy's effective date",
+          "rationale": "Incorrect: Medigap preexisting limitations may last no more than six months."
+        },
+        {
+          "id": "b",
+          "text": "Yes, for six months, since she was treated within six months before coverage",
+          "rationale": "Incorrect: her prior creditable coverage must be credited and reduces the limitation."
+        },
+        {
+          "id": "c",
+          "text": "No; her prior coverage ended within 63 days and must be credited",
+          "rationale": "Correct: 10 years of creditable coverage ending 31 days earlier wipes out the six-month limitation."
+        },
+        {
+          "id": "d",
+          "text": "No, because preexisting-condition limitations are never allowed in any Medigap policy",
+          "rationale": "Incorrect: a limited exclusion is allowed, subject to crediting prior coverage."
+        }
+      ],
+      "correct": "c",
+      "explanation": "11 NYCRR 58.1(b)(3): the only permitted Medigap preexisting limitation excludes coverage for no more than six months after the effective date, for a condition treated or advised within six months before it. The issuer must credit prior creditable coverage if it was continuous to a date not more than 63 days before enrollment, reducing the limitation by the total creditable coverage. Her coverage ended 31 days before enrollment (May 1 → June 1), so 10 years of credit eliminates the six-month limitation.",
+      "memoryTip": "6 back, 6 forward — minus your prior coverage if the gap is 63 days or less.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Six-month maximum limitation",
+            "anyOf": [
+              "six months",
+              "6 months"
+            ]
+          },
+          {
+            "label": "Credit for prior creditable coverage within 63 days",
+            "anyOf": [
+              "63 days",
+              "creditable",
+              "credit"
+            ]
+          },
+          {
+            "label": "Result: no limitation applies",
+            "anyOf": [
+              "no limitation",
+              "cannot apply",
+              "can't apply",
+              "eliminat"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-58-1"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q007",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.3"
+      ],
+      "concepts": [
+        "standardized-medigap-plans"
+      ],
+      "difficulty": 1,
+      "style": "concept",
+      "tags": [
+        "rapid"
+      ],
+      "stem": "Two insurers sell Medigap Plan G. What is the only difference between their Plan G policies?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Their covered benefits",
+          "rationale": "Incorrect: same-letter plans have the same benefits."
+        },
+        {
+          "id": "b",
+          "text": "Their price",
+          "rationale": "Correct: price is the only difference between same-letter plans from different insurers."
+        },
+        {
+          "id": "c",
+          "text": "Whether they cover Part A hospital coinsurance",
+          "rationale": "Incorrect: all standardized plans include the core benefits."
+        },
+        {
+          "id": "d",
+          "text": "Whether they can be used with Medicare Advantage",
+          "rationale": "Incorrect: no Medigap plan works with Medicare Advantage."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Medicare.gov: all Medigap policies are standardized — policies with the same letter offer the same basic benefits no matter where you live or which insurance company you buy from. Price is the only difference.",
+      "memoryTip": "Same letter, same benefits — shop the price.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-medicare-medigap"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q008",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.3",
+        "sen.1.3.2"
+      ],
+      "concepts": [
+        "standardized-medigap-plans"
+      ],
+      "difficulty": 3,
+      "style": "scenario",
+      "tags": [
+        "ny-law",
+        "tricky"
+      ],
+      "scenario": "Ming first became eligible for Medicare in 2024 when she turned 65. She lives in New York and asks her producer for Medigap Plan F.",
+      "stem": "What should the producer tell her?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Plan F is available to any New York Medicare beneficiary at any time of year",
+          "rationale": "Incorrect: Plans C and F are limited to people first eligible before January 1, 2020."
+        },
+        {
+          "id": "b",
+          "text": "She must first wait until the federal annual open enrollment period ends",
+          "rationale": "Incorrect: this has nothing to do with Plan F availability."
+        },
+        {
+          "id": "c",
+          "text": "She may buy Plan F only if she first passes medical underwriting questions",
+          "rationale": "Incorrect: health underwriting isn't the issue and isn't allowed on NY Medigap applications."
+        },
+        {
+          "id": "d",
+          "text": "Plan F is limited to people first eligible for Medicare before January 1, 2020",
+          "rationale": "Correct: 11 NYCRR 58.1(d)(3) limits the right to apply for Plans C or F to that group, and Ming became eligible in 2024."
+        }
+      ],
+      "correct": "d",
+      "explanation": "11 NYCRR 58.1(d)(3): every Medigap application must include the right to apply for Plans A and B and either D or G. The right to apply for Plans C or F is limited to individuals who first became eligible for Medicare before January 1, 2020 (by age or disability). Ming became eligible in 2024, so she would look at plans such as G.",
+      "memoryTip": "Eligible 2020 or later? No C, no F.",
+      "version": 2,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-58-1"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q009",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.3.1"
+      ],
+      "concepts": [
+        "medigap-core-benefits"
+      ],
+      "difficulty": 2,
+      "style": "concept",
+      "tags": [],
+      "stem": "Which benefit is included in Medigap Plan A, the plan made up only of the core (basic) benefits?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Medicare Part B coinsurance or copayment",
+          "rationale": "Correct: Part B coinsurance is a core benefit."
+        },
+        {
+          "id": "b",
+          "text": "The Medicare Part B deductible",
+          "rationale": "Incorrect: the Part B deductible is not a core benefit."
+        },
+        {
+          "id": "c",
+          "text": "Skilled nursing facility coinsurance",
+          "rationale": "Incorrect: SNF coinsurance is an additional benefit in other plans."
+        },
+        {
+          "id": "d",
+          "text": "Foreign travel emergency care",
+          "rationale": "Incorrect: this is an additional benefit in certain plans."
+        }
+      ],
+      "correct": "a",
+      "explanation": "Core benefits in every standardized Medigap plan: Part A hospital coinsurance plus 365 additional lifetime hospital days after Medicare benefits run out; Part B coinsurance or copayment; the first 3 pints of blood; and Part A hospice coinsurance or copayment. Deductibles, SNF coinsurance, foreign travel emergency and Part B excess charges are additional benefits found in some plans.",
+      "memoryTip": "Core = Hospital coinsurance + 365, Part B 20%, 3 pints, hospice.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q010",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.3.1",
+        "sen.1.3.2"
+      ],
+      "concepts": [
+        "medigap-core-benefits",
+        "standardized-medigap-plans"
+      ],
+      "difficulty": 3,
+      "style": "negative",
+      "tags": [
+        "negative-wording",
+        "tricky"
+      ],
+      "stem": "Each of the following is a core (basic) benefit found in all standardized Medigap plans EXCEPT:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The first 3 pints of blood each year",
+          "rationale": "Incorrect: this is a core benefit."
+        },
+        {
+          "id": "b",
+          "text": "Part A hospice care coinsurance or copayment",
+          "rationale": "Incorrect: this is a core benefit."
+        },
+        {
+          "id": "c",
+          "text": "The Medicare Part A deductible",
+          "rationale": "Correct: the Part A deductible is an additional benefit, not a core benefit."
+        },
+        {
+          "id": "d",
+          "text": "Part A hospital coinsurance plus an additional 365 days of hospital care",
+          "rationale": "Incorrect: this is a core benefit."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Every standardized plan contains the core benefits (Plans K and L pay some at a percentage). The Part A deductible is an ADDITIONAL benefit included in some plans, not in Plan A.",
+      "memoryTip": "Deductibles are extras, not core.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q011",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.3"
+      ],
+      "concepts": [
+        "medicare-select"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [],
+      "scenario": "Iris buys a Medicare SELECT policy at a lower premium than a standard Medigap plan. Nine months later she decides she doesn't like being limited to network hospitals.",
+      "stem": "What option does she have?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "None; SELECT policies cannot be changed for five years",
+          "rationale": "Incorrect: there is no five-year lock-in."
+        },
+        {
+          "id": "b",
+          "text": "She may switch to a standard Medigap policy, since she is within 12 months",
+          "rationale": "Correct: a SELECT buyer may change her mind within 12 months and switch to a standard Medigap policy."
+        },
+        {
+          "id": "c",
+          "text": "She must enroll in a Medicare Advantage plan instead",
+          "rationale": "Incorrect: Medicare Advantage is a different product; no such requirement exists."
+        },
+        {
+          "id": "d",
+          "text": "She can switch only after re-qualifying through medical underwriting",
+          "rationale": "Incorrect: the switch right exists within 12 months."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Medicare SELECT is a Medigap policy that may require the use of network hospitals (and sometimes doctors) for full benefits. Medicare.gov: if you buy a Medicare SELECT policy, you have the right to change your mind within 12 months and switch to a standard Medigap policy.",
+      "memoryTip": "SELECT regret? 12 months to switch.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "SELECT uses a network",
+            "anyOf": [
+              "network"
+            ]
+          },
+          {
+            "label": "12-month right to switch",
+            "anyOf": [
+              "12 months",
+              "twelve months",
+              "within a year"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "fed-medicare-medigap"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "federal-source",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q012",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.4.1"
+      ],
+      "concepts": [
+        "twisting",
+        "medicare-supplement"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "To persuade Ed to drop his current Medigap policy and buy one from her company, a producer gives Ed a side-by-side comparison that deliberately leaves out his current policy's better benefits.",
+      "stem": "This practice is called:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Twisting",
+          "rationale": "Correct: a knowingly misleading or incomplete comparison to induce a person to drop a policy and buy another is twisting."
+        },
+        {
+          "id": "b",
+          "text": "Cold lead advertising",
+          "rationale": "Incorrect: cold lead advertising is failing to disclose that a marketing method is an insurance solicitation."
+        },
+        {
+          "id": "c",
+          "text": "Rebating",
+          "rationale": "Incorrect: rebating is returning part of the premium or commission as an inducement."
+        },
+        {
+          "id": "d",
+          "text": "High-pressure tactics",
+          "rationale": "Incorrect: high-pressure tactics use force, fright, threats or undue pressure."
+        }
+      ],
+      "correct": "a",
+      "explanation": "11 NYCRR 58.1(g)(2)(i) prohibits twisting: knowingly making any misleading representation or incomplete or fraudulent comparison of policies or insurers to induce a person to lapse, surrender or terminate a policy or to take out a policy with another insurer.",
+      "memoryTip": "Twisting twists the facts to switch the policy.",
+      "rubric": {
+        "keyPoints": [
+          {
+            "label": "Misleading or incomplete comparison",
+            "anyOf": [
+              "misleading",
+              "incomplete",
+              "comparison"
+            ]
+          },
+          {
+            "label": "Purpose is to induce replacement",
+            "anyOf": [
+              "replace",
+              "drop",
+              "switch",
+              "lapse"
+            ]
+          }
+        ]
+      },
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-58-1"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q013",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.4.1"
+      ],
+      "concepts": [
+        "medicare-supplement",
+        "cold-lead-advertising"
+      ],
+      "difficulty": 2,
+      "style": "scenario",
+      "tags": [
+        "ny-law"
+      ],
+      "scenario": "An agent tells a 79-year-old widow that unless she signs a new Medigap application today, she will 'lose all her Medicare benefits and the hospital will turn her away.'",
+      "stem": "Which prohibited marketing practice does this describe?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cold lead advertising",
+          "rationale": "Incorrect: this is about undisclosed solicitation purpose, not threats."
+        },
+        {
+          "id": "b",
+          "text": "High-pressure tactics",
+          "rationale": "Correct: inducing a purchase through force, fright, threat or undue pressure is prohibited."
+        },
+        {
+          "id": "c",
+          "text": "Twisting",
+          "rationale": "Incorrect: twisting involves misleading comparisons of policies to induce replacement."
+        },
+        {
+          "id": "d",
+          "text": "Defamation of the insurer",
+          "rationale": "Incorrect: no false statement about an insurer's financial condition is involved."
+        }
+      ],
+      "correct": "b",
+      "explanation": "11 NYCRR 58.1(g)(2)(ii) prohibits high-pressure tactics: any marketing method that has the effect of, or tends to induce, the purchase of insurance through force, fright, threat (explicit or implied) or undue pressure to purchase or recommend the purchase of insurance.",
+      "memoryTip": "Fear, force or threats = high pressure.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-58-1"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "sen-q014",
+      "series": [
+        "17-55"
+      ],
+      "sectionId": "sen",
+      "outlineIds": [
+        "sen.1.4.1"
+      ],
+      "concepts": [
+        "cold-lead-advertising"
+      ],
+      "difficulty": 2,
+      "style": "definition",
+      "tags": [
+        "ny-law",
+        "rapid"
+      ],
+      "stem": "A Medicare mailer that hides that its purpose is insurance solicitation and that an agent will call is an example of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Twisting",
+          "rationale": "Incorrect: twisting is a misleading policy comparison used to induce replacement."
+        },
+        {
+          "id": "b",
+          "text": "Rebating",
+          "rationale": "Incorrect: rebating is offering part of the commission or premium as an inducement."
+        },
+        {
+          "id": "c",
+          "text": "Controlled business",
+          "rationale": "Incorrect: controlled business relates to producers insuring their own or related interests."
+        },
+        {
+          "id": "d",
+          "text": "Cold lead advertising",
+          "rationale": "Correct: failing to conspicuously disclose the solicitation purpose and that an agent or insurer will make contact is cold lead advertising."
+        }
+      ],
+      "correct": "d",
+      "explanation": "11 NYCRR 58.1(g)(2)(iii) defines cold lead advertising as making use of any marketing method that fails to disclose in a conspicuous manner that a purpose of the method is solicitation of insurance and that contact will be made by an insurance agent or insurance company.",
+      "memoryTip": "Cold lead = concealed lead.",
+      "version": 1,
+      "lastReviewed": "2026-11-19",
+      "sources": [
+        "ny-11nycrr-58-1"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ]
+}

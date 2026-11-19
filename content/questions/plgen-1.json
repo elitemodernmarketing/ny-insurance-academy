@@ -1,0 +1,1492 @@
+{
+ "sectionId": "plgen",
+ "questions": [
+  {
+   "id": "plgen-q001",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.1.1.1"
+   ],
+   "concepts": [
+    "pure-risk",
+    "speculative-risk"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "Which situation is a pure risk?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Buying a rental house to resell it",
+     "rationale": "Incorrect: an investment can produce a gain, so it is speculative."
+    },
+    {
+     "id": "b",
+     "text": "A tree could fall on your parked car",
+     "rationale": "Correct: the only outcomes are loss or no loss, so it is a pure risk."
+    },
+    {
+     "id": "c",
+     "text": "Betting on the outcome of a game",
+     "rationale": "Incorrect: gambling offers a chance of gain — speculative risk."
+    },
+    {
+     "id": "d",
+     "text": "Opening a new pizza restaurant",
+     "rationale": "Incorrect: a business venture can profit or lose — speculative risk."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Pure risk has only two outcomes — loss or no loss — and is the only kind insurers cover. Speculative risk adds the possibility of gain.",
+   "memoryTip": "Pure = no chance to profit.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q002",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.1.1.2"
+   ],
+   "concepts": [
+    "exposure"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "In personal auto insurance, an insured car is an example of a(n):",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Exposure unit",
+     "rationale": "Correct: an exposure is the unit of measure used to describe the risk an insurer takes on and to set premium."
+    },
+    {
+     "id": "b",
+     "text": "Peril",
+     "rationale": "Incorrect: a peril is a cause of loss, such as collision or theft."
+    },
+    {
+     "id": "c",
+     "text": "Hazard",
+     "rationale": "Incorrect: a hazard is a condition that increases the chance or severity of loss."
+    },
+    {
+     "id": "d",
+     "text": "Loss",
+     "rationale": "Incorrect: a loss is the reduction in value after a peril strikes."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Exposure measures how much risk is insured — for example, each car, dwelling or driver. More exposure units mean more chances of loss and more premium.",
+   "memoryTip": "Exposure = what the insurer counts.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q003",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.1.1.3"
+   ],
+   "concepts": [
+    "physical-hazard"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Leo keeps a kerosene heater a few inches from the living room curtains in his rented apartment.",
+   "stem": "The heater's placement is best described as a:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Moral hazard",
+     "rationale": "Incorrect: moral hazard involves dishonesty or intent to cause or exaggerate a loss."
+    },
+    {
+     "id": "b",
+     "text": "Morale hazard",
+     "rationale": "Incorrect: morale hazard is indifference caused by having insurance; this is a physical condition."
+    },
+    {
+     "id": "c",
+     "text": "Peril",
+     "rationale": "Incorrect: fire would be the peril; the heater placement is a condition that makes fire more likely."
+    },
+    {
+     "id": "d",
+     "text": "Physical hazard",
+     "rationale": "Correct: a tangible condition that increases the chance of a fire loss is a physical hazard."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Hazards increase the chance or severity of loss. Physical hazards are tangible conditions — faulty wiring, icy steps, a heater beside curtains. The peril is the fire itself.",
+   "memoryTip": "If you can touch it, it's a physical hazard.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q004",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.1.1.3"
+   ],
+   "concepts": [
+    "moral-hazard",
+    "morale-hazard"
+   ],
+   "difficulty": 2,
+   "style": "comparison",
+   "tags": [
+    "tricky"
+   ],
+   "scenario": "Ana stops locking her car because \"the insurance will pay if it's stolen.\" Her neighbor Rob plans to report his old car stolen after secretly selling it for parts.",
+   "stem": "Which hazards do Ana and Rob present?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Ana: moral hazard; Rob: morale hazard",
+     "rationale": "Incorrect: this reverses the two; dishonesty is moral, carelessness is morale."
+    },
+    {
+     "id": "b",
+     "text": "Both present physical hazards",
+     "rationale": "Incorrect: neither situation is a tangible condition of property."
+    },
+    {
+     "id": "c",
+     "text": "Ana: morale hazard; Rob: moral hazard",
+     "rationale": "Correct: Ana is careless because she has insurance (morale); Rob intends to deceive (moral)."
+    },
+    {
+     "id": "d",
+     "text": "Both present morale hazards",
+     "rationale": "Incorrect: Rob's planned deception is dishonesty, a moral hazard."
+    }
+   ],
+   "correct": "c",
+   "explanation": "A moral hazard comes from a person's dishonesty — such as planning a false theft claim. A morale hazard is carelessness or indifference to loss because insurance exists — such as leaving a car unlocked.",
+   "memoryTip": "MORAL = dishonest. MORALE = \"eh, who cares.\"",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Ana is careless because of insurance (morale)",
+      "anyOf": [
+       "morale",
+       "careless",
+       "indifferen"
+      ]
+     },
+     {
+      "label": "Rob is dishonest (moral)",
+      "anyOf": [
+       "moral",
+       "dishonest",
+       "fraud"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q005",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.1.1.4",
+    "plgen.1.1.5"
+   ],
+   "concepts": [
+    "peril",
+    "hazard",
+    "loss"
+   ],
+   "difficulty": 2,
+   "style": "negative",
+   "tags": [
+    "negative-wording"
+   ],
+   "stem": "Each of the following is a peril EXCEPT:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Lightning",
+     "rationale": "Incorrect: lightning is a cause of loss — a peril."
+    },
+    {
+     "id": "b",
+     "text": "Theft",
+     "rationale": "Incorrect: theft is a cause of loss — a peril."
+    },
+    {
+     "id": "c",
+     "text": "A frayed electrical cord",
+     "rationale": "Correct: a frayed cord is a physical hazard that makes a fire more likely; it is not itself a cause of loss."
+    },
+    {
+     "id": "d",
+     "text": "Windstorm",
+     "rationale": "Incorrect: windstorm is a cause of loss — a peril."
+    }
+   ],
+   "correct": "c",
+   "explanation": "A peril causes a loss (fire, lightning, theft, windstorm, collision). A hazard increases its likelihood or severity (a frayed cord). The resulting damage is the loss.",
+   "memoryTip": "Peril = cause; hazard = condition.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q006",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.1.2.1"
+   ],
+   "concepts": [
+    "risk-avoidance"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Worried about the liability of owning a swimming pool, the Garcias decide not to install one at their new home.",
+   "stem": "Which method of handling risk are they using?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Reduction",
+     "rationale": "Incorrect: reduction would be installing a fence or alarm to make the pool safer."
+    },
+    {
+     "id": "b",
+     "text": "Avoidance",
+     "rationale": "Correct: eliminating the activity eliminates the risk entirely."
+    },
+    {
+     "id": "c",
+     "text": "Transfer",
+     "rationale": "Incorrect: transfer would be buying liability insurance for the pool."
+    },
+    {
+     "id": "d",
+     "text": "Retention",
+     "rationale": "Incorrect: retention would be keeping the pool and paying any losses themselves."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Avoidance means not engaging in the activity that creates the risk. It is effective but often impractical for necessities such as driving or owning a home.",
+   "memoryTip": "Avoid = don't do it at all.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q007",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.1.2.2",
+    "plgen.1.2.10"
+   ],
+   "concepts": [
+    "risk-retention"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "tricky"
+   ],
+   "scenario": "To lower her premium, Bea raises the deductible on her homeowners policy from $500 to $2,500.",
+   "stem": "Raising the deductible is an example of:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Risk retention",
+     "rationale": "Correct: Bea keeps (retains) the first $2,500 of each covered loss."
+    },
+    {
+     "id": "b",
+     "text": "Risk reduction",
+     "rationale": "Incorrect: a deductible does not lower the chance or size of a loss; it changes who pays."
+    },
+    {
+     "id": "c",
+     "text": "Risk avoidance",
+     "rationale": "Incorrect: she still owns the home and faces the same risks."
+    },
+    {
+     "id": "d",
+     "text": "Risk sharing",
+     "rationale": "Incorrect: sharing spreads a risk among several parties who each bear part of it."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Retention means accepting part or all of a risk and paying losses yourself. Deductibles and self-insurance are forms of retention. Reduction, by contrast, changes the loss itself — smoke detectors, sprinklers, alarms.",
+   "memoryTip": "Deductible = the part you RETAIN.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Identifies retention",
+      "anyOf": [
+       "retain",
+       "retention"
+      ]
+     },
+     {
+      "label": "She pays the first part of each loss",
+      "anyOf": [
+       "deductible",
+       "pays",
+       "first"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q008",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.1.2.3"
+   ],
+   "concepts": [
+    "risk-sharing"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Three siblings jointly own a lake cabin and agree in writing that each will pay one-third of any uninsured damage.",
+   "stem": "This arrangement illustrates:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Risk avoidance",
+     "rationale": "Incorrect: they still own the cabin and face its risks."
+    },
+    {
+     "id": "b",
+     "text": "Risk transfer to an insurer",
+     "rationale": "Incorrect: no insurer takes on the uninsured damage."
+    },
+    {
+     "id": "c",
+     "text": "Risk reduction",
+     "rationale": "Incorrect: the agreement does not lower the chance or size of loss."
+    },
+    {
+     "id": "d",
+     "text": "Risk sharing",
+     "rationale": "Correct: the risk is spread among several people who each bear part of any loss."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Sharing distributes a risk among a group so that each member bears a portion. Insurance itself is built on sharing, but here the siblings share the uninsured portion directly.",
+   "memoryTip": "Share = split the loss among the group.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q009",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.1.2.4"
+   ],
+   "concepts": [
+    "risk-reduction"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "Installing a central-station burglar alarm in a home is an example of which risk method?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Avoidance",
+     "rationale": "Incorrect: the homeowner still owns property that can be stolen."
+    },
+    {
+     "id": "b",
+     "text": "Retention",
+     "rationale": "Incorrect: retention is paying losses yourself."
+    },
+    {
+     "id": "c",
+     "text": "Transfer",
+     "rationale": "Incorrect: transfer shifts the financial burden to someone else."
+    },
+    {
+     "id": "d",
+     "text": "Reduction",
+     "rationale": "Correct: the alarm lowers the likelihood and severity of a theft loss."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Risk reduction (loss control) lowers the chance or severity of loss: alarms, deadbolts, smoke detectors, sprinklers and anti-theft devices.",
+   "memoryTip": "Reduce = make the loss less likely or smaller.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q010",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.1.2.5"
+   ],
+   "concepts": [
+    "risk-transfer"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "A homeowner hires a contractor whose agreement includes a hold-harmless clause making the contractor responsible for injuries caused by the contractor's work.",
+   "stem": "The hold-harmless clause is an example of:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Transfer by insurance",
+     "rationale": "Incorrect: no insurance policy is involved in the clause itself."
+    },
+    {
+     "id": "b",
+     "text": "Risk retention",
+     "rationale": "Incorrect: the homeowner is shifting, not keeping, the risk."
+    },
+    {
+     "id": "c",
+     "text": "Transfer by contract",
+     "rationale": "Correct: the clause shifts the financial consequences of certain losses to the contractor by agreement."
+    },
+    {
+     "id": "d",
+     "text": "Risk avoidance",
+     "rationale": "Incorrect: the work still takes place."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Risk can be transferred by purchasing insurance or by contract, such as a hold-harmless or indemnity agreement. Both shift the financial burden of a loss to another party.",
+   "memoryTip": "Hold-harmless = transfer by contract.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q011",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.1.2.6"
+   ],
+   "concepts": [
+    "insurable-risk"
+   ],
+   "difficulty": 2,
+   "style": "negative",
+   "tags": [
+    "negative-wording"
+   ],
+   "stem": "For a homeowners insurer, each of the following is an element of an insurable risk EXCEPT:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "There are many similar exposure units in the group",
+     "rationale": "Incorrect: a large group of similar units is required to predict losses."
+    },
+    {
+     "id": "b",
+     "text": "The loss is intentionally caused by the insured",
+     "rationale": "Correct: an insurable loss must be accidental, not intentional."
+    },
+    {
+     "id": "c",
+     "text": "The loss is definite in time and measurable",
+     "rationale": "Incorrect: the cause, time, place and amount must be determinable."
+    },
+    {
+     "id": "d",
+     "text": "The premium is economically feasible for buyers",
+     "rationale": "Incorrect: the cost must be affordable relative to the potential loss."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Insurable risks involve many similar exposure units, accidental losses, definite and measurable losses, no catastrophic concentration, a calculable chance of loss and an affordable premium.",
+   "memoryTip": "Intentional loss = uninsurable.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q012",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.1.2.6"
+   ],
+   "concepts": [
+    "insurable-risk"
+   ],
+   "difficulty": 3,
+   "style": "application",
+   "tags": [
+    "tricky"
+   ],
+   "stem": "Standard homeowners policies exclude flood mainly because flood:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Can damage a large share of exposures in one event",
+     "rationale": "Correct: catastrophic potential across many insureds at once violates an element of insurable risk."
+    },
+    {
+     "id": "b",
+     "text": "Cannot be measured in dollars after it occurs",
+     "rationale": "Incorrect: flood damage is measurable."
+    },
+    {
+     "id": "c",
+     "text": "Is a speculative risk offering a chance of gain",
+     "rationale": "Incorrect: flood is a pure risk."
+    },
+    {
+     "id": "d",
+     "text": "Is always caused intentionally by the insured",
+     "rationale": "Incorrect: floods are generally accidental."
+    }
+   ],
+   "correct": "a",
+   "explanation": "An insurable risk should not expose the insurer to catastrophic loss affecting many units at once. Flood and earthquake can strike thousands of homes in one event, so they are excluded from standard homeowners forms and handled separately.",
+   "memoryTip": "Catastrophe risk = carve it out.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Catastrophic potential",
+      "anyOf": [
+       "catastroph",
+       "many at once",
+       "widespread"
+      ]
+     },
+     {
+      "label": "Element of insurable risk",
+      "anyOf": [
+       "insurable"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q013",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.1.2.7"
+   ],
+   "concepts": [
+    "adverse-selection"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "As a hurricane approaches, many coastal homeowners who never carried windstorm coverage suddenly try to buy it.",
+   "stem": "This behavior illustrates:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Adverse selection",
+     "rationale": "Correct: people with a higher-than-average chance of loss seek insurance more than others."
+    },
+    {
+     "id": "b",
+     "text": "The law of large numbers",
+     "rationale": "Incorrect: that principle concerns predicting losses across large groups."
+    },
+    {
+     "id": "c",
+     "text": "Risk avoidance",
+     "rationale": "Incorrect: buying coverage is transfer, and they still face the storm."
+    },
+    {
+     "id": "d",
+     "text": "Morale hazard",
+     "rationale": "Incorrect: morale hazard is carelessness caused by having insurance."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Adverse selection is the tendency of higher-risk people to buy or keep insurance. Insurers counter it with underwriting and with rules that limit binding coverage when a loss is imminent.",
+   "memoryTip": "Adverse selection = the riskiest line up first.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Names adverse selection",
+      "anyOf": [
+       "adverse selection"
+      ]
+     },
+     {
+      "label": "Higher-risk people seek coverage",
+      "anyOf": [
+       "higher risk",
+       "higher-risk",
+       "more likely",
+       "riskiest"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q014",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.1.2.8"
+   ],
+   "concepts": [
+    "law-of-large-numbers"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [],
+   "stem": "According to the law of large numbers, as the number of similar insured homes increases:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The chance any one home burns decreases",
+     "rationale": "Incorrect: each home's individual risk is unchanged."
+    },
+    {
+     "id": "b",
+     "text": "Each home's premium must increase",
+     "rationale": "Incorrect: better predictability does not require higher premiums."
+    },
+    {
+     "id": "c",
+     "text": "The insurer can predict which home will burn",
+     "rationale": "Incorrect: insurers predict how many losses, not which ones."
+    },
+    {
+     "id": "d",
+     "text": "Actual losses come closer to predicted losses",
+     "rationale": "Correct: larger groups make loss predictions more accurate."
+    }
+   ],
+   "correct": "d",
+   "explanation": "The law of large numbers holds that the larger the group of similar exposure units, the more closely actual results match expected results. It lets insurers price coverage reliably.",
+   "memoryTip": "More units, better predictions.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q015",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.1.2.9"
+   ],
+   "concepts": [
+    "reinsurance"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Coastline Mutual insures 30,000 homes near the shore. It pays another company to take on part of its potential hurricane losses.",
+   "stem": "In this arrangement, Coastline Mutual is the:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Reinsurer",
+     "rationale": "Incorrect: the reinsurer is the company accepting the risk."
+    },
+    {
+     "id": "b",
+     "text": "Excess line broker",
+     "rationale": "Incorrect: brokers place coverage; they do not cede their own risk."
+    },
+    {
+     "id": "c",
+     "text": "Ceding insurer",
+     "rationale": "Correct: the insurer that transfers part of its risk to a reinsurer is the ceding insurer."
+    },
+    {
+     "id": "d",
+     "text": "Risk purchasing group",
+     "rationale": "Incorrect: purchasing groups are buyers of liability coverage, not primary insurers ceding risk."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Reinsurance is insurance for insurers. The ceding (primary) insurer transfers part of its risk to a reinsurer, protecting itself against catastrophic losses. Policyholders still deal with the primary insurer.",
+   "memoryTip": "Ceding = sending risk out.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q016",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.2.1"
+   ],
+   "concepts": [
+    "risk-sharing"
+   ],
+   "difficulty": 3,
+   "style": "comparison",
+   "tags": [
+    "tricky"
+   ],
+   "stem": "What is the key difference between a risk retention group and a risk purchasing group?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Retention groups cover property; purchasing groups cover only auto",
+     "rationale": "Incorrect: both are mainly liability arrangements for businesses with similar exposures."
+    },
+    {
+     "id": "b",
+     "text": "Retention group members own the insurer; a purchasing group buys from an insurer",
+     "rationale": "Correct: a risk retention group is a member-owned insurer, while a purchasing group buys coverage as a group from an existing insurer."
+    },
+    {
+     "id": "c",
+     "text": "Purchasing group members own the insurer; retention groups buy coverage",
+     "rationale": "Incorrect: this reverses the two."
+    },
+    {
+     "id": "d",
+     "text": "Retention groups are government programs; purchasing groups are private",
+     "rationale": "Incorrect: neither is a government insurance program."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Both serve businesses with similar liability exposures. A risk retention group forms and owns its own insurer and retains the risk; a risk purchasing group pools its buying power to purchase liability insurance from an existing insurer.",
+   "memoryTip": "RETENTION retains (owns the insurer); PURCHASING purchases.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Retention group owns its insurer",
+      "anyOf": [
+       "own",
+       "retain"
+      ]
+     },
+     {
+      "label": "Purchasing group buys from an insurer",
+      "anyOf": [
+       "buy",
+       "purchase"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q017",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.2.2.1",
+    "plgen.2.2.2"
+   ],
+   "concepts": [
+    "stock-insurer",
+    "mutual-insurer"
+   ],
+   "difficulty": 1,
+   "style": "comparison",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "Which statement correctly contrasts stock and mutual insurers?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Policyholders own stock insurers; stockholders own mutuals",
+     "rationale": "Incorrect: this reverses the ownership."
+    },
+    {
+     "id": "b",
+     "text": "Stockholders own stock insurers; policyholders own mutuals",
+     "rationale": "Correct: ownership is the defining difference."
+    },
+    {
+     "id": "c",
+     "text": "The state owns mutuals; stockholders own stock insurers",
+     "rationale": "Incorrect: mutuals are private and owned by policyholders."
+    },
+    {
+     "id": "d",
+     "text": "Agents own stock insurers; policyholders own mutuals",
+     "rationale": "Incorrect: agents do not own stock insurers."
+    }
+   ],
+   "correct": "b",
+   "explanation": "A stock insurer is owned by stockholders, who may receive dividends from profits. A mutual insurer is owned by its policyholders and may return excess premium as nonguaranteed policy dividends.",
+   "memoryTip": "Stock = Stockholders. Mutual = Members (policyholders).",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q018",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.2.2.3"
+   ],
+   "concepts": [
+    "fraternal-benefit-society"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [],
+   "stem": "Which feature best describes a fraternal benefit society?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "It is a nonprofit organization that insures its members",
+     "rationale": "Correct: fraternals are social, religious or service organizations providing insurance to members."
+    },
+    {
+     "id": "b",
+     "text": "It is owned by outside investors seeking profit",
+     "rationale": "Incorrect: that describes a stock insurer."
+    },
+    {
+     "id": "c",
+     "text": "It is a marketplace of individual underwriters",
+     "rationale": "Incorrect: that describes a Lloyd's association."
+    },
+    {
+     "id": "d",
+     "text": "It is a federal program for unavailable coverage",
+     "rationale": "Incorrect: that describes a government insurer such as the NFIP."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Fraternal benefit societies are nonprofit organizations with a lodge or similar system that provide insurance — mainly life and health — to their members.",
+   "memoryTip": "Fraternal = members of the lodge.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q019",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.2.2.4"
+   ],
+   "concepts": [
+    "insurer"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [],
+   "stem": "In a Lloyd's association, who actually assumes the insured risk?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The Lloyd's association as a single company",
+     "rationale": "Incorrect: the association provides the marketplace, not the insurance."
+    },
+    {
+     "id": "b",
+     "text": "The policyholders, who own the association",
+     "rationale": "Incorrect: that describes a mutual insurer."
+    },
+    {
+     "id": "c",
+     "text": "A state guaranty fund backing the policy",
+     "rationale": "Incorrect: the association is not a guaranty fund."
+    },
+    {
+     "id": "d",
+     "text": "Individual underwriting members and syndicates",
+     "rationale": "Correct: individual members and syndicates each accept a share of the risk."
+    }
+   ],
+   "correct": "d",
+   "explanation": "A Lloyd's association is a marketplace. Individual underwriting members, often grouped into syndicates, assume the risks. Lloyd's of London is the best-known example and often writes unusual or high-value risks.",
+   "memoryTip": "Lloyd's = many underwriters, one marketplace.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q020",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.2.3"
+   ],
+   "concepts": [
+    "insurer"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "Which of the following is a government insurance program used in personal lines?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A syndicate within a Lloyd's association",
+     "rationale": "Incorrect: Lloyd's syndicates are private."
+    },
+    {
+     "id": "b",
+     "text": "A mutual homeowners insurer",
+     "rationale": "Incorrect: mutual insurers are private companies."
+    },
+    {
+     "id": "c",
+     "text": "The National Flood Insurance Program",
+     "rationale": "Correct: the NFIP is a federal flood insurance program."
+    },
+    {
+     "id": "d",
+     "text": "A stock auto insurance company",
+     "rationale": "Incorrect: stock insurers are private companies."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Most personal lines coverage is written by private insurers. Government programs fill gaps where private coverage is unavailable or unaffordable — flood insurance through the federal NFIP is the classic personal lines example.",
+   "memoryTip": "Flood → federal.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q021",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.2.4",
+    "plgen.2.5"
+   ],
+   "concepts": [
+    "foreign-insurer",
+    "admitted-insurer"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "An insurer incorporated in Ohio holds a certificate of authority to sell auto insurance in New York.",
+   "stem": "In New York, this insurer is a(n):",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Alien admitted insurer",
+     "rationale": "Incorrect: alien insurers are formed outside the United States."
+    },
+    {
+     "id": "b",
+     "text": "Domestic admitted insurer",
+     "rationale": "Incorrect: domestic insurers are formed in New York."
+    },
+    {
+     "id": "c",
+     "text": "Foreign admitted insurer",
+     "rationale": "Correct: formed in another U.S. state = foreign; authorized in New York = admitted."
+    },
+    {
+     "id": "d",
+     "text": "Foreign nonadmitted insurer",
+     "rationale": "Incorrect: holding a certificate of authority makes it admitted."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Domestic = formed in this state; foreign = another U.S. state; alien = another country. Admitted (authorized) insurers hold a certificate of authority in the state; nonadmitted insurers do not.",
+   "memoryTip": "Foreign = another STATE; alien = another COUNTRY.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q022",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.2.4"
+   ],
+   "concepts": [
+    "nonadmitted-insurer"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [],
+   "stem": "A nonadmitted insurer is one that:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Is incorporated outside the United States",
+     "rationale": "Incorrect: that is an alien insurer, which may be admitted or not."
+    },
+    {
+     "id": "b",
+     "text": "Has no certificate of authority in the state",
+     "rationale": "Correct: nonadmitted (unauthorized) insurers are not licensed to do business in the state."
+    },
+    {
+     "id": "c",
+     "text": "Has a low financial strength rating from A.M. Best",
+     "rationale": "Incorrect: ratings do not determine admission."
+    },
+    {
+     "id": "d",
+     "text": "Writes only personal lines coverage",
+     "rationale": "Incorrect: lines written have nothing to do with admission."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Admission refers to authorization by the state. A nonadmitted insurer lacks a certificate of authority; its coverage can be accessed only in limited circumstances through specially licensed excess or surplus lines brokers.",
+   "memoryTip": "Nonadmitted = not authorized here.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q023",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.2.5"
+   ],
+   "concepts": [
+    "alien-insurer"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "An insurer incorporated in Bermuda that insures a home in New York is a(n):",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Alien insurer",
+     "rationale": "Correct: an insurer formed outside the United States is alien."
+    },
+    {
+     "id": "b",
+     "text": "Foreign insurer",
+     "rationale": "Incorrect: foreign insurers are formed in another U.S. state."
+    },
+    {
+     "id": "c",
+     "text": "Domestic insurer",
+     "rationale": "Incorrect: domestic insurers are formed in the state where they do business."
+    },
+    {
+     "id": "d",
+     "text": "Fraternal insurer",
+     "rationale": "Incorrect: fraternal describes organization type, not place of incorporation."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Classification by place of incorporation: domestic (this state), foreign (another U.S. state), alien (outside the U.S.).",
+   "memoryTip": "Alien = across the ocean.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q024",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.2.6"
+   ],
+   "concepts": [
+    "rating-service"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [],
+   "stem": "What do independent rating services such as A.M. Best primarily evaluate?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The fairness and accuracy of an insurer's advertising",
+     "rationale": "Incorrect: advertising is a regulatory matter, not the focus of financial ratings."
+    },
+    {
+     "id": "b",
+     "text": "Whether each of the insurer's agents is properly licensed",
+     "rationale": "Incorrect: licensing is handled by the state insurance department."
+    },
+    {
+     "id": "c",
+     "text": "The accuracy of each individual claim payment",
+     "rationale": "Incorrect: rating services assess the company's overall finances."
+    },
+    {
+     "id": "d",
+     "text": "An insurer's financial strength and ability to pay claims",
+     "rationale": "Correct: ratings reflect financial strength and claims-paying ability."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Independent rating services (A.M. Best, Standard & Poor's, Moody's, Fitch) assign grades reflecting an insurer's financial strength. A rating is an opinion, not a guarantee.",
+   "memoryTip": "Ratings grade the wallet, not the ads.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plgen-q025",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plgen",
+   "outlineIds": [
+    "plgen.2.7"
+   ],
+   "concepts": [
+    "distribution-system"
+   ],
+   "difficulty": 2,
+   "style": "comparison",
+   "tags": [],
+   "stem": "Which feature distinguishes the independent agency system from the exclusive agency system?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The independent agent represents only one insurer",
+     "rationale": "Incorrect: independent agents represent several insurers."
+    },
+    {
+     "id": "b",
+     "text": "The exclusive agent is a salaried employee of a broker",
+     "rationale": "Incorrect: exclusive agents represent one insurer, not a broker."
+    },
+    {
+     "id": "c",
+     "text": "The exclusive agent owns the expirations",
+     "rationale": "Incorrect: under exclusive agency the insurer usually owns them."
+    },
+    {
+     "id": "d",
+     "text": "The independent agent usually owns the expirations",
+     "rationale": "Correct: under the independent agency system the agent owns the renewal records."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Independent (American) agents represent multiple insurers and usually own the expirations, so they can move clients' business. Exclusive (captive) agents represent one insurer, which usually owns the expirations. Direct writers use employees; direct response uses mail, phone or internet.",
+   "memoryTip": "Independent agent = owns the book.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

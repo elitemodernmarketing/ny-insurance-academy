@@ -1,0 +1,1456 @@
+{
+ "sectionId": "lpr",
+ "questions": [
+  {
+   "id": "lpr-q025",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.2.1.8"
+   ],
+   "concepts": [
+    "common-disaster-clause",
+    "contingent-beneficiary"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky"
+   ],
+   "scenario": "Mark and his wife Laura are injured in the same car crash. Mark dies at the scene; Laura dies five days later. Mark's policy names Laura as primary beneficiary and his brother as contingent beneficiary, and requires a beneficiary to survive Mark by 30 days to receive the proceeds.",
+   "stem": "Who receives the proceeds?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Laura's estate, because she survived Mark",
+     "rationale": "Incorrect: the policy's survivorship requirement was not met, so Laura is treated as having died first."
+    },
+    {
+     "id": "b",
+     "text": "Mark's brother, the contingent beneficiary",
+     "rationale": "Correct: under the common disaster clause, Laura is treated as predeceasing Mark, so the contingent beneficiary takes."
+    },
+    {
+     "id": "c",
+     "text": "Mark's estate, because both spouses died in the accident",
+     "rationale": "Incorrect: the estate takes only if no named beneficiary is entitled; the contingent beneficiary is living."
+    },
+    {
+     "id": "d",
+     "text": "Half to Laura's estate and half to Mark's brother",
+     "rationale": "Incorrect: the clause does not split proceeds between estates and beneficiaries."
+    }
+   ],
+   "correct": "b",
+   "explanation": "A common disaster clause requires the primary beneficiary to survive the insured by a stated period. Laura survived Mark by only 5 days, short of the policy's 30-day requirement, so the proceeds are paid as if she had died first — to the contingent beneficiary. This keeps the proceeds from passing through Laura's estate to people Mark did not choose.",
+   "memoryTip": "Didn't outlive the clock? Treated as gone first.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Common disaster / survivorship requirement not met",
+      "anyOf": [
+       "common disaster",
+       "30 days",
+       "surviv"
+      ]
+     },
+     {
+      "label": "Primary beneficiary treated as predeceasing",
+      "anyOf": [
+       "died first",
+       "predecease",
+       "treated as"
+      ]
+     },
+     {
+      "label": "Contingent beneficiary receives the proceeds",
+      "anyOf": [
+       "contingent",
+       "brother"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q026",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.3.2"
+   ],
+   "concepts": [
+    "interest-only-option"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "Which settlement option pays the beneficiary only the earnings while the insurer holds the principal?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Fixed-amount installments",
+     "rationale": "Incorrect: this option pays out principal and interest until the fund is used up."
+    },
+    {
+     "id": "b",
+     "text": "Life income",
+     "rationale": "Incorrect: life income liquidates the principal over the payee's lifetime."
+    },
+    {
+     "id": "c",
+     "text": "Interest only",
+     "rationale": "Correct: the principal stays intact; only interest is paid out."
+    },
+    {
+     "id": "d",
+     "text": "Fixed-period installments",
+     "rationale": "Incorrect: this option pays out principal and interest over a set period."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Under the interest-only option, the insurer keeps the proceeds and pays interest (at least a guaranteed rate). The principal is paid later as arranged. The interest received is taxable.",
+   "memoryTip": "Interest only = principal untouched.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q027",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.3.3",
+    "lpr.3.4"
+   ],
+   "concepts": [
+    "fixed-period-option",
+    "fixed-amount-option"
+   ],
+   "difficulty": 2,
+   "style": "comparison",
+   "tags": [
+    "tricky"
+   ],
+   "stem": "What is the key difference between the fixed-period and fixed-amount settlement options?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Fixed-period pays for life; fixed-amount pays for a set number of years",
+     "rationale": "Incorrect: neither option is a lifetime income; that is the life income option."
+    },
+    {
+     "id": "b",
+     "text": "Fixed-period pays only interest; fixed-amount pays only principal",
+     "rationale": "Incorrect: both pay out principal plus interest."
+    },
+    {
+     "id": "c",
+     "text": "Fixed-amount is available only to spouses; fixed-period to anyone",
+     "rationale": "Incorrect: there is no such eligibility rule."
+    },
+    {
+     "id": "d",
+     "text": "Fixed-period sets the length of the payments; fixed-amount sets the size of each payment",
+     "rationale": "Correct: one fixes time, the other fixes dollars."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Fixed-period installments pay principal and interest over a chosen time; the payment size varies with interest. Fixed-amount installments pay a chosen dollar amount until the money runs out; extra interest makes payments last longer.",
+   "memoryTip": "PERIOD fixes the calendar; AMOUNT fixes the check.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Fixed-period: time is fixed",
+      "anyOf": [
+       "time",
+       "length",
+       "years",
+       "period"
+      ]
+     },
+     {
+      "label": "Fixed-amount: payment size is fixed",
+      "anyOf": [
+       "amount",
+       "size",
+       "dollar"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q028",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.3.5.2",
+    "lpr.3.5.1"
+   ],
+   "concepts": [
+    "life-income-option",
+    "joint-and-survivor"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "A retired couple will receive $400,000 of life insurance proceeds and want a guaranteed income that neither of them can outlive.",
+   "stem": "Which settlement option best meets their goal?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Joint and survivor life income",
+     "rationale": "Correct: payments continue as long as either payee is living."
+    },
+    {
+     "id": "b",
+     "text": "Single life income on the husband",
+     "rationale": "Incorrect: payments would stop at the husband's death, leaving his wife with nothing."
+    },
+    {
+     "id": "c",
+     "text": "Interest only for ten years",
+     "rationale": "Incorrect: this is not guaranteed for either spouse's lifetime."
+    },
+    {
+     "id": "d",
+     "text": "Fixed-period installments over five years",
+     "rationale": "Incorrect: payments stop after five years even if both spouses are still alive."
+    }
+   ],
+   "correct": "a",
+   "explanation": "A joint and survivor life income pays as long as either of two payees is alive, so it guarantees that neither spouse can outlive the income. It pays less per month than a single life income on the same proceeds because it covers two lives.",
+   "memoryTip": "Two lives, one income that lasts until the last one.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q029",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.3.5.3"
+   ],
+   "concepts": [
+    "spendthrift-clause"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [],
+   "stem": "A beneficiary is receiving policy proceeds in monthly installments. A spendthrift clause prevents which action?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The insurer from paying interest on the unpaid balance",
+     "rationale": "Incorrect: the clause does not affect the interest the insurer credits."
+    },
+    {
+     "id": "b",
+     "text": "A creditor of the beneficiary from seizing installments not yet paid",
+     "rationale": "Correct: the clause protects unpaid installments from the beneficiary's creditors."
+    },
+    {
+     "id": "c",
+     "text": "The beneficiary from spending payments already received",
+     "rationale": "Incorrect: the clause does not control money after it is paid."
+    },
+    {
+     "id": "d",
+     "text": "The policyowner from naming a contingent beneficiary",
+     "rationale": "Incorrect: the clause has nothing to do with beneficiary designations."
+    }
+   ],
+   "correct": "b",
+   "explanation": "A spendthrift clause protects proceeds held by the insurer under a settlement option from the beneficiary's creditors and stops the beneficiary from assigning or commuting future payments. It applies only while the money is with the insurer.",
+   "memoryTip": "Spendthrift = a lock on money not yet paid out.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q030",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.4.2",
+    "lpr.4.3"
+   ],
+   "concepts": [
+    "extended-term-option",
+    "reduced-paid-up-option"
+   ],
+   "difficulty": 2,
+   "style": "comparison",
+   "tags": [],
+   "stem": "How does the extended term option differ from the reduced paid-up option?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Extended term provides a smaller face amount for life; reduced paid-up provides the full face amount for a limited time",
+     "rationale": "Incorrect: this reverses the two options."
+    },
+    {
+     "id": "b",
+     "text": "Extended term requires continued premiums; reduced paid-up does not",
+     "rationale": "Incorrect: neither option requires further premiums."
+    },
+    {
+     "id": "c",
+     "text": "Extended term keeps the original face amount for a limited time; reduced paid-up provides a smaller face amount for life",
+     "rationale": "Correct: same amount/shorter time versus smaller amount/lifetime."
+    },
+    {
+     "id": "d",
+     "text": "Extended term pays the cash value in installments; reduced paid-up pays it in a lump sum",
+     "rationale": "Incorrect: both convert cash value into insurance, not cash payments."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Both options use the net cash value as a single premium. Extended term buys term coverage equal to the face amount (less loans) for as long as the value lasts. Reduced paid-up buys permanent, paid-up coverage of a smaller amount.",
+   "memoryTip": "Extended: same size, shorter time. Reduced: smaller size, all the time.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q031",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.4"
+   ],
+   "concepts": [
+    "nonforfeiture-options"
+   ],
+   "difficulty": 3,
+   "style": "concept",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "stem": "Under New York's standard nonforfeiture law, when must the owner elect a nonforfeiture option other than the one the policy makes automatic?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Within 31 days after the due date of the premium in default",
+     "rationale": "Incorrect: 31 days is the grace period for fixed-premium policies, not the election deadline."
+    },
+    {
+     "id": "b",
+     "text": "Within 10 days after the insurer mails a notice of lapse",
+     "rationale": "Incorrect: the statute measures from the due date of the premium in default."
+    },
+    {
+     "id": "c",
+     "text": "Within three years after the date of the premium default",
+     "rationale": "Incorrect: three years is the reinstatement window."
+    },
+    {
+     "id": "d",
+     "text": "Within 60 days after the due date of the premium in default",
+     "rationale": "Correct: otherwise the paid-up benefit specified in the policy takes effect automatically."
+    }
+   ],
+   "correct": "d",
+   "explanation": "NY Insurance Law § 4221(a)(3): a specified paid-up nonforfeiture benefit becomes effective as stated in the policy unless the person entitled to elect chooses another available option not later than 60 days after the due date of the premium in default.",
+   "memoryTip": "Default + 60 days = automatic option kicks in.",
+   "version": 2,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-4221"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q032",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.4.1"
+   ],
+   "concepts": [
+    "cash-surrender-value"
+   ],
+   "difficulty": 2,
+   "style": "definition",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "Under New York law, for how long may an insurer defer paying a cash surrender value after the policy is surrendered?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Up to six months",
+     "rationale": "Correct: § 4221 requires the insurer to reserve the right to defer payment for up to six months."
+    },
+    {
+     "id": "b",
+     "text": "Up to 31 days",
+     "rationale": "Incorrect: 31 days is the grace period."
+    },
+    {
+     "id": "c",
+     "text": "Up to two years",
+     "rationale": "Incorrect: two years is the incontestable and suicide period."
+    },
+    {
+     "id": "d",
+     "text": "It may never defer payment",
+     "rationale": "Incorrect: the law expressly allows a six-month deferral."
+    }
+   ],
+   "correct": "a",
+   "explanation": "NY Insurance Law § 4221(a): \"The company shall reserve the right to defer the payment of any cash surrender value for a period of six months after demand therefor with surrender of the policy.\" The deferral protects insurers from a sudden rush of surrenders.",
+   "memoryTip": "Six-month brake on cash-outs.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-4221"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q033",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.5.1"
+   ],
+   "concepts": [
+    "policy-loan"
+   ],
+   "difficulty": 2,
+   "style": "calculation",
+   "tags": [
+    "math"
+   ],
+   "scenario": "Sofia's whole life policy has a $200,000 face amount. When she dies, she owes $20,000 on a policy loan plus $1,000 of accrued loan interest.",
+   "stem": "How much will the beneficiary receive?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$200,000",
+     "rationale": "Incorrect: an unpaid loan and interest are deducted from the death benefit."
+    },
+    {
+     "id": "b",
+     "text": "$179,000",
+     "rationale": "Correct: $200,000 − $20,000 loan − $1,000 interest = $179,000."
+    },
+    {
+     "id": "c",
+     "text": "$180,000",
+     "rationale": "Incorrect: this deducts the loan but forgets the $1,000 of accrued interest."
+    },
+    {
+     "id": "d",
+     "text": "$221,000",
+     "rationale": "Incorrect: loans reduce, not increase, the death benefit."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Outstanding policy loans plus accrued interest are subtracted from the death proceeds: $200,000 − ($20,000 + $1,000) = $179,000.",
+   "memoryTip": "Loan + interest come off the top.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Loan and interest deducted from proceeds",
+      "anyOf": [
+       "deduct",
+       "subtract",
+       "minus"
+      ]
+     },
+     {
+      "label": "Result $179,000",
+      "anyOf": [
+       "179,000",
+       "179000"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q034",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.5.2"
+   ],
+   "concepts": [
+    "automatic-premium-loan",
+    "grace-period"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Tom elected the automatic premium loan provision when he bought his whole life policy, which has ample cash value. He forgets to pay this year's premium, and the grace period ends.",
+   "stem": "What happens to Tom's policy?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "It lapses, and the automatic nonforfeiture option applies",
+     "rationale": "Incorrect: the automatic premium loan provision pays the premium before lapse can occur."
+    },
+    {
+     "id": "b",
+     "text": "The insurer waives the premium for this policy year",
+     "rationale": "Incorrect: a waiver of premium requires a disability and a waiver rider."
+    },
+    {
+     "id": "c",
+     "text": "The premium is borrowed from the cash value; coverage continues",
+     "rationale": "Correct: the automatic premium loan pays the premium from cash value at the end of the grace period."
+    },
+    {
+     "id": "d",
+     "text": "The policy is converted to reduced paid-up insurance",
+     "rationale": "Incorrect: that happens only by election or as an automatic nonforfeiture option, not when an APL is in effect with sufficient value."
+    }
+   ],
+   "correct": "c",
+   "explanation": "An automatic premium loan provision borrows the overdue premium from the cash value at the end of the grace period, keeping the policy in force. The loan accrues interest and reduces the cash value and death benefit until repaid.",
+   "memoryTip": "APL = autopilot premium from your own cash value.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q035",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.5.3",
+    "lpr.5.1"
+   ],
+   "concepts": [
+    "partial-surrender",
+    "policy-loan"
+   ],
+   "difficulty": 3,
+   "style": "negative",
+   "tags": [
+    "negative-wording"
+   ],
+   "stem": "Which statement about a withdrawal (partial surrender) from a universal life policy is NOT true?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "It permanently reduces the cash value",
+     "rationale": "Not the answer: this statement is true — the money is gone from the policy."
+    },
+    {
+     "id": "b",
+     "text": "It usually reduces the death benefit",
+     "rationale": "Not the answer: this statement is true for most universal life designs."
+    },
+    {
+     "id": "c",
+     "text": "It may be subject to a surrender charge",
+     "rationale": "Not the answer: this statement is true, especially in early policy years."
+    },
+    {
+     "id": "d",
+     "text": "It accrues interest until it is repaid",
+     "rationale": "Correct: this is false — interest and repayment apply to policy loans, not withdrawals."
+    }
+   ],
+   "correct": "d",
+   "explanation": "A withdrawal removes cash value permanently, usually lowers the death benefit and may carry surrender charges. It is not a debt, so there is no interest and nothing to repay. A policy loan, by contrast, accrues interest.",
+   "memoryTip": "Withdraw = gone; borrow = owed.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q036",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.6.3",
+    "lpr.6"
+   ],
+   "concepts": [
+    "dividend-options",
+    "dividend"
+   ],
+   "difficulty": 3,
+   "style": "concept",
+   "tags": [
+    "tricky"
+   ],
+   "stem": "A participating policyowner leaves dividends with the insurer to accumulate at interest. Which part is generally taxable income?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Only the interest credited on the accumulated dividends",
+     "rationale": "Correct: dividends are a return of premium, but the interest they earn is taxable."
+    },
+    {
+     "id": "b",
+     "text": "Both the dividends and the interest credited on them",
+     "rationale": "Incorrect: the dividends themselves are generally treated as a return of premium."
+    },
+    {
+     "id": "c",
+     "text": "Neither the dividends nor the interest, until surrender",
+     "rationale": "Incorrect: the interest is taxable when credited."
+    },
+    {
+     "id": "d",
+     "text": "Only the accumulated dividends, not the interest on them",
+     "rationale": "Incorrect: this reverses the rule."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Policy dividends are generally treated as a return of overpaid premium and are not taxable until total dividends exceed premiums paid. Interest earned on dividends left to accumulate is taxable income in the year it is credited.",
+   "memoryTip": "The dividend is your money back; the interest is new income.",
+   "version": 2,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q037",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.7.1"
+   ],
+   "concepts": [
+    "waiver-of-premium"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Uma's whole life policy includes a waiver of premium rider with a six-month waiting period. She becomes totally disabled and remains disabled for more than a year, paying premiums during the first six months.",
+   "stem": "What happens to Uma's premiums?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "They are waived from the first day, with no waiting period",
+     "rationale": "Incorrect: waiver of premium riders impose a waiting period before benefits begin."
+    },
+    {
+     "id": "b",
+     "text": "They are converted into an automatic policy loan",
+     "rationale": "Incorrect: that describes an automatic premium loan, not a waiver of premium rider."
+    },
+    {
+     "id": "c",
+     "text": "Waived after the waiting period, with waiting-period premiums refunded",
+     "rationale": "Correct: once the waiting period is met, premiums are waived during the disability, usually retroactively."
+    },
+    {
+     "id": "d",
+     "text": "They must still be paid, but the death benefit doubles",
+     "rationale": "Incorrect: waiver of premium does not change the death benefit."
+    }
+   ],
+   "correct": "c",
+   "explanation": "A waiver of premium rider waives premiums while the insured is totally disabled, after the rider's waiting period (commonly six months). Premiums paid during the waiting period are typically refunded once the claim is approved, and the policy continues as if premiums were being paid.",
+   "memoryTip": "Wait it out, then the insurer pays — and often refunds the wait.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Waiting period applies first",
+      "anyOf": [
+       "waiting period",
+       "six months",
+       "6 months"
+      ]
+     },
+     {
+      "label": "Premiums waived during disability",
+      "anyOf": [
+       "waive",
+       "waived"
+      ]
+     },
+     {
+      "label": "Premiums paid during waiting period refunded",
+      "anyOf": [
+       "refund",
+       "retroactive",
+       "returned"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q038",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.7.4"
+   ],
+   "concepts": [
+    "payor-benefit-rider",
+    "juvenile-life-insurance"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Victor owns and pays premiums on a whole life policy on his 6-year-old daughter. The policy has a payor benefit rider. Victor dies.",
+   "stem": "What effect does the payor benefit rider have?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "It pays the face amount of the child's policy to the family immediately",
+     "rationale": "Incorrect: the rider does not pay a death benefit on the child's policy."
+    },
+    {
+     "id": "b",
+     "text": "It cancels the child's policy and refunds premiums",
+     "rationale": "Incorrect: the purpose is to keep the child's policy in force."
+    },
+    {
+     "id": "c",
+     "text": "It converts the child's policy to term insurance",
+     "rationale": "Incorrect: the policy's plan does not change."
+    },
+    {
+     "id": "d",
+     "text": "It waives future premiums on the child's policy until the age stated in the rider",
+     "rationale": "Correct: the payor's death triggers the waiver of the child's premiums."
+    }
+   ],
+   "correct": "d",
+   "explanation": "A payor benefit rider on a juvenile policy waives future premiums if the payor (usually a parent) dies or becomes disabled, generally until the child reaches a specified age or the policy matures.",
+   "memoryTip": "Payor benefit protects the person who pays.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q039",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.7.2"
+   ],
+   "concepts": [
+    "waiver-of-cost-of-insurance",
+    "waiver-of-premium"
+   ],
+   "difficulty": 3,
+   "style": "comparison",
+   "tags": [],
+   "stem": "How does a waiver of cost of insurance rider on a universal life policy differ from a waiver of premium rider?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "It waives only monthly cost of insurance charges, not the full premium",
+     "rationale": "Correct: only the monthly charges are waived, so the cash value is not built up by new premiums."
+    },
+    {
+     "id": "b",
+     "text": "It waives the full planned premium and also pays a monthly income",
+     "rationale": "Incorrect: no income is paid, and the full premium is not credited."
+    },
+    {
+     "id": "c",
+     "text": "It applies only when the premium payor dies or becomes disabled",
+     "rationale": "Incorrect: that describes the payor benefit rider."
+    },
+    {
+     "id": "d",
+     "text": "It applies even if the insured is never disabled at all",
+     "rationale": "Incorrect: it is a disability rider triggered by the insured's total disability."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Waiver of cost of insurance (common on universal life) waives the monthly mortality and related deductions during the insured's total disability, keeping the policy in force. Waiver of premium pays or credits the full premium, so the cash value can continue to build as planned.",
+   "memoryTip": "COI waiver keeps the lights on; premium waiver keeps the savings going too.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q040",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.7.3"
+   ],
+   "concepts": [
+    "disability-income-insurance",
+    "rider"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [],
+   "stem": "What does a disability income rider attached to a life insurance policy provide?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A refund of all premiums if the insured never becomes disabled",
+     "rationale": "Incorrect: that resembles a return of premium feature, not a disability income rider."
+    },
+    {
+     "id": "b",
+     "text": "A monthly income to the insured during a qualifying total disability",
+     "rationale": "Correct: the rider pays a monthly benefit, often stated as an amount per $1,000 of face amount."
+    },
+    {
+     "id": "c",
+     "text": "An immediate lump-sum payment of the full face amount",
+     "rationale": "Incorrect: paying part of the face amount early is an accelerated benefit, triggered by specified illnesses."
+    },
+    {
+     "id": "d",
+     "text": "Term life coverage on the insured's spouse or partner",
+     "rationale": "Incorrect: that is an other-insured rider."
+    }
+   ],
+   "correct": "b",
+   "explanation": "A disability income rider pays the insured a monthly income during total disability after a waiting period, commonly expressed as a set amount per $1,000 of life insurance. It is usually paired with waiver of premium so premiums are also waived.",
+   "memoryTip": "Income rider = a paycheck during disability.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q041",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.8.1"
+   ],
+   "concepts": [
+    "accelerated-death-benefit"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Under New York law, which condition can qualify an insured for accelerated payment of the death benefit?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Reaching age 70 while the policy has been continuously in force",
+     "rationale": "Incorrect: age alone is not a qualifying condition."
+    },
+    {
+     "id": "b",
+     "text": "Losing a job and needing income for living expenses",
+     "rationale": "Incorrect: financial need alone does not qualify."
+    },
+    {
+     "id": "c",
+     "text": "Nursing home residence of three months or more, expected to last until death",
+     "rationale": "Correct: this is listed in § 1113(a)(1)(E)."
+    },
+    {
+     "id": "d",
+     "text": "Having owned the policy for at least two years with no lapses or loans",
+     "rationale": "Incorrect: the length of ownership is not a qualifying condition."
+    }
+   ],
+   "correct": "c",
+   "explanation": "NY Insurance Law § 1113(a)(1) allows accelerated payment upon (A) terminal illness with a life expectancy of 12 months or less, (B) a medical condition requiring extraordinary medical care, (C)/(D) certain chronic-illness conditions, (E) nursing home residence of three months or more with expected residence until death, or (F) three months or more of end-of-life or palliative care.",
+   "memoryTip": "Accelerate for serious illness or end-of-life care — not for age or money troubles.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3230",
+    "ny-isc-1113"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q042",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.8.2",
+    "lpr.8"
+   ],
+   "concepts": [
+    "accelerated-death-benefit"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Wanda, diagnosed with a terminal illness, applies to accelerate $100,000 of her $300,000 New York life policy.",
+   "stem": "Which statement is accurate under New York law?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Her beneficiary will still receive the full $300,000 face amount at her death",
+     "rationale": "Incorrect: the accelerated amount reduces the death benefit."
+    },
+    {
+     "id": "b",
+     "text": "The insurer must pay the accelerated benefit within 24 hours of receiving her signed application",
+     "rationale": "Incorrect: New York requires a waiting period after disclosures are sent, not instant payment."
+    },
+    {
+     "id": "c",
+     "text": "Once she signs the application to accelerate, she can no longer change her mind about the request",
+     "rationale": "Incorrect: the owner may rescind the request at any time during the application process."
+    },
+    {
+     "id": "d",
+     "text": "Payment must wait five days after the disclosures are sent, and her death benefit will be reduced",
+     "rationale": "Correct: § 3230(c)–(d) and the nature of acceleration."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Within five days of receiving an application to accelerate, the insurer must send an illustration of the effect on cash value and loans, the death benefit payable on death, the amount payable on acceleration, and a notice that other means such as a policy loan may be available (§ 3230(d)). It may not pay for five days after that information is sent, and the owner may rescind during the process (§ 3230(c)). Any amount accelerated reduces the death benefit.",
+   "memoryTip": "Accelerate = advance on the death benefit, with a five-day cooling-off.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Five-day waiting period after disclosures",
+      "anyOf": [
+       "five day",
+       "5 day",
+       "5-day",
+       "five-day"
+      ]
+     },
+     {
+      "label": "Owner may rescind during the process",
+      "anyOf": [
+       "rescind",
+       "change her mind",
+       "cancel the request"
+      ]
+     },
+     {
+      "label": "Death benefit is reduced",
+      "anyOf": [
+       "reduce",
+       "less",
+       "remaining"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-3230",
+    "ny-isc-1113"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q043",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.9.2",
+    "lpr.9"
+   ],
+   "concepts": [
+    "childrens-term-rider"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid"
+   ],
+   "stem": "A single rider that covers all of an insured's children, including those born later, is a:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Children's term rider",
+     "rationale": "Correct: it covers all eligible children for one premium."
+    },
+    {
+     "id": "b",
+     "text": "Payor benefit rider",
+     "rationale": "Incorrect: the payor benefit waives premiums on a juvenile policy."
+    },
+    {
+     "id": "c",
+     "text": "Guaranteed insurability rider",
+     "rationale": "Incorrect: this lets the insured buy more coverage on himself or herself."
+    },
+    {
+     "id": "d",
+     "text": "Return of premium rider",
+     "rationale": "Incorrect: this refunds premiums under stated conditions."
+    }
+   ],
+   "correct": "a",
+   "explanation": "A children's term rider provides term coverage on all of the insured's eligible children for one premium, typically adds newborn and adopted children, and usually can be converted to permanent coverage without evidence of insurability.",
+   "memoryTip": "One rider, all the kids.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q044",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.10.1"
+   ],
+   "concepts": [
+    "accidental-death-benefit"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "tricky"
+   ],
+   "scenario": "Yusef's $250,000 policy has an accidental death benefit (double indemnity) rider. He dies of a stroke at home.",
+   "stem": "What will the beneficiary receive?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$500,000, because the policy has a double indemnity rider",
+     "rationale": "Incorrect: the extra benefit is paid only for a qualifying accidental death."
+    },
+    {
+     "id": "b",
+     "text": "$250,000, the base face amount",
+     "rationale": "Correct: death from illness is covered by the base policy only."
+    },
+    {
+     "id": "c",
+     "text": "Nothing, because the death was not an accident",
+     "rationale": "Incorrect: the base policy covers death from any cause not excluded."
+    },
+    {
+     "id": "d",
+     "text": "$375,000, a partial accidental benefit",
+     "rationale": "Incorrect: there is no partial accidental benefit for death from illness."
+    }
+   ],
+   "correct": "b",
+   "explanation": "An accidental death benefit (double indemnity) rider pays an extra amount only when death results from an accident as defined in the rider. Death from a stroke is an illness, so only the base $250,000 face amount is paid.",
+   "memoryTip": "No accident, no extra.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Death from illness is not accidental",
+      "anyOf": [
+       "illness",
+       "stroke",
+       "not accidental",
+       "not an accident"
+      ]
+     },
+     {
+      "label": "Only the base face amount is paid",
+      "anyOf": [
+       "250,000",
+       "face amount",
+       "base"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q045",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.10.2"
+   ],
+   "concepts": [
+    "guaranteed-insurability-rider"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Zoe bought a whole life policy with a guaranteed insurability rider at age 25. At 31 she is diagnosed with diabetes. Her next option date under the rider is approaching.",
+   "stem": "What can Zoe do under her guaranteed insurability rider?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Nothing, because her diabetes diagnosis now makes her uninsurable for new coverage",
+     "rationale": "Incorrect: the rider guarantees the right to buy more coverage without evidence of insurability."
+    },
+    {
+     "id": "b",
+     "text": "Buy more coverage on the option date, priced at her original issue-age rate",
+     "rationale": "Incorrect: the new coverage is priced at her attained age."
+    },
+    {
+     "id": "c",
+     "text": "Buy more coverage on the option date with no proof of insurability, at attained-age rates",
+     "rationale": "Correct: insurability is guaranteed, not the price."
+    },
+    {
+     "id": "d",
+     "text": "Have her coverage doubled automatically on the option date at no added premium",
+     "rationale": "Incorrect: additional coverage requires additional premium and must be elected."
+    }
+   ],
+   "correct": "c",
+   "explanation": "A guaranteed insurability rider lets the owner buy specified additional amounts at set option dates or events without evidence of insurability. Premiums for the added coverage are based on the insured's age at the time of purchase.",
+   "memoryTip": "GIR guarantees you CAN buy — not the old price.",
+   "version": 2,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q046",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.10",
+    "lpr.10.3",
+    "lpr.10.4",
+    "lpr.7.1"
+   ],
+   "concepts": [
+    "waiver-of-premium",
+    "cost-of-living-rider",
+    "return-of-premium-rider",
+    "term-rider"
+   ],
+   "difficulty": 2,
+   "style": "negative",
+   "tags": [
+    "negative-wording"
+   ],
+   "stem": "Which rider does NOT increase the amount that may be paid at the insured's death?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Cost of living rider",
+     "rationale": "Not the answer: it raises the death benefit with inflation."
+    },
+    {
+     "id": "b",
+     "text": "Term rider on the base insured",
+     "rationale": "Not the answer: it adds term coverage to the death benefit."
+    },
+    {
+     "id": "c",
+     "text": "Accidental death benefit rider",
+     "rationale": "Not the answer: it adds an extra benefit for accidental death."
+    },
+    {
+     "id": "d",
+     "text": "Waiver of premium rider",
+     "rationale": "Correct: it waives premiums during disability but does not add to the death benefit."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Riders that affect the death benefit include accidental death, guaranteed insurability, cost of living, return of premium (in designs that add premiums to the death benefit) and term riders. Waiver of premium is a disability rider: it keeps the policy in force but does not change the amount payable.",
+   "memoryTip": "Waiver keeps the policy alive; it doesn't make it bigger.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-q047",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "lpr",
+   "outlineIds": [
+    "lpr.10.5",
+    "lpr.9.1"
+   ],
+   "concepts": [
+    "term-rider",
+    "other-insured-rider"
+   ],
+   "difficulty": 2,
+   "style": "comparison",
+   "tags": [],
+   "stem": "How does a term rider differ from an other-insured rider?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A term rider adds coverage on the base insured; an other-insured rider covers a different person",
+     "rationale": "Correct: same person versus another person."
+    },
+    {
+     "id": "b",
+     "text": "A term rider builds cash value; an other-insured rider does not",
+     "rationale": "Incorrect: term riders do not build cash value."
+    },
+    {
+     "id": "c",
+     "text": "A term rider covers only children; an other-insured rider covers only spouses",
+     "rationale": "Incorrect: children are covered by a children's rider; an other-insured rider can cover a spouse or another person."
+    },
+    {
+     "id": "d",
+     "text": "A term rider is permanent insurance; an other-insured rider is term insurance",
+     "rationale": "Incorrect: both provide term coverage."
+    }
+   ],
+   "correct": "a",
+   "explanation": "A term rider increases temporary coverage on the person already insured by the base policy. An other-insured (often spouse) rider adds term coverage on someone else. Both are typically term insurance and often convertible.",
+   "memoryTip": "Term rider = more on ME; other-insured = coverage on SOMEONE ELSE.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

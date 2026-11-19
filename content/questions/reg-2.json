@@ -1,0 +1,1070 @@
+{
+ "sectionId": "reg",
+ "questions": [
+  {
+   "id": "reg-q015",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.3.5"
+   ],
+   "concepts": [
+    "rebating"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "A New York life agent may give a prospect promotional merchandise worth no more than what amount without making an illegal inducement?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$25",
+     "rationale": "Correct: § 4224(c) excepts valuable consideration, including merchandise, not exceeding twenty-five dollars in value."
+    },
+    {
+     "id": "b",
+     "text": "$100",
+     "rationale": "Incorrect: the statutory limit is much lower."
+    },
+    {
+     "id": "c",
+     "text": "$50",
+     "rationale": "Incorrect: the statutory limit is $25."
+    },
+    {
+     "id": "d",
+     "text": "Any amount, if the agent pays for it personally",
+     "rationale": "Incorrect: who pays does not matter; inducements above $25 are prohibited."
+    }
+   ],
+   "correct": "a",
+   "explanation": "For life, accident and health insurance, § 4224(c) prohibits giving any valuable consideration or inducement not specified in the policy, other than valuable consideration such as merchandise or periodical subscriptions not exceeding $25 in value. § 2324(a) uses the same $25 limit for other lines.",
+   "memoryTip": "Rebate rule of thumb: $25 or less is a token; more is a rebate.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-4224",
+    "ny-isc-2324"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q016",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.3.5"
+   ],
+   "concepts": [
+    "rebating"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Agent Sonia tells Ivan, \"If you buy this whole life policy today, I'll pay your first two monthly premiums out of my commission.\" Ivan knows this is not part of the policy, accepts, and signs the application.",
+   "stem": "Under New York law, who has violated the rebating prohibition?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Only Sonia, because the client did not offer the deal",
+     "rationale": "Incorrect: the law also bars a person from knowingly receiving a rebate."
+    },
+    {
+     "id": "b",
+     "text": "Both Sonia and Ivan, because knowingly receiving a rebate is also prohibited",
+     "rationale": "Correct: § 4224(c) prohibits the producer from offering the inducement and any person from knowingly receiving it."
+    },
+    {
+     "id": "c",
+     "text": "Neither, because the money came from Sonia's own commission rather than from the insurer",
+     "rationale": "Incorrect: rebating includes sharing a commission or paying any part of the premium as an inducement."
+    },
+    {
+     "id": "d",
+     "text": "Only Ivan, because he is the one who benefited from the reduced premium",
+     "rationale": "Incorrect: Sonia offered and paid the inducement, which is itself a violation."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Paying part of a client's premium out of the agent's commission, as an inducement to buy, is a rebate. § 4224(c) prohibits agents and brokers from giving such inducements and also provides that no person shall knowingly receive any rebate of premium or other inducement not specified in the policy.",
+   "memoryTip": "It takes two to rebate: the giver AND the knowing taker.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Paying premium/commission as inducement is a rebate",
+      "anyOf": [
+       "rebate",
+       "inducement"
+      ]
+     },
+     {
+      "label": "Agent violated",
+      "anyOf": [
+       "agent",
+       "sonia",
+       "giver",
+       "offer"
+      ]
+     },
+     {
+      "label": "Client who knowingly accepts also violated",
+      "anyOf": [
+       "knowingly",
+       "receive",
+       "accept",
+       "client",
+       "ivan"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-4224"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q017",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.3.1"
+   ],
+   "concepts": [
+    "twisting",
+    "misrepresentation"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Brent shows a client a chart comparing only the premium of the client's 15-year-old whole life policy with a new policy's premium. He leaves out the old policy's cash value, paid-up additions and the new policy's fresh contestable and suicide periods. The client surrenders the old policy and buys Brent's.",
+   "stem": "What prohibited practice has Brent committed?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Rebating through a premium inducement",
+     "rationale": "Incorrect: Brent offered nothing of value outside the policy."
+    },
+    {
+     "id": "b",
+     "text": "Defamation of the client's current insurer",
+     "rationale": "Incorrect: he made no false statement about the other insurer's financial condition."
+    },
+    {
+     "id": "c",
+     "text": "Controlled business through a related client",
+     "rationale": "Incorrect: controlled business concerns commissions earned on the licensee's own or related parties' risks."
+    },
+    {
+     "id": "d",
+     "text": "Twisting through an incomplete comparison",
+     "rationale": "Correct: § 2123(a)(2) prohibits incomplete comparisons made to induce someone to lapse, forfeit or surrender a policy."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Brent used a one-sided comparison to get the client to surrender an existing policy. § 2123(a)(2) bars any incomplete comparison of policies made to induce a person to lapse, forfeit or surrender a policy; the practice is commonly called twisting. Replacement itself is allowed when done with full and accurate disclosure.",
+   "memoryTip": "Twisting = a twisted (one-sided) comparison to get a policy dropped.",
+   "version": 2,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2123"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q018",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.3.3"
+   ],
+   "concepts": [
+    "defamation-of-insurer"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "Knowingly spreading a false statement that an insurer is financially unsound is called:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Twisting",
+     "rationale": "Incorrect: twisting involves misleading comparisons to induce a policy lapse or surrender."
+    },
+    {
+     "id": "b",
+     "text": "Rebating",
+     "rationale": "Incorrect: rebating involves giving inducements not specified in the policy."
+    },
+    {
+     "id": "c",
+     "text": "Defamation",
+     "rationale": "Correct: this is defamation of an insurer; § 2604 prohibits untrue statements derogatory to an insurer's financial condition or solvency."
+    },
+    {
+     "id": "d",
+     "text": "Commingling",
+     "rationale": "Incorrect: commingling is mixing fiduciary funds with personal funds."
+    }
+   ],
+   "correct": "c",
+   "explanation": "§ 2604 prohibits wilfully making, circulating or transmitting any untrue statement — written, printed or spoken — that is derogatory to the financial condition, solvency or financial standing of an insurer doing business in New York, or knowingly helping someone else spread it.",
+   "memoryTip": "Defame = damage an insurer's financial NAME with lies.",
+   "version": 2,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2604"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q019",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.4.3"
+   ],
+   "concepts": [
+    "fiduciary-responsibility",
+    "commingling"
+   ],
+   "difficulty": 3,
+   "style": "negative",
+   "tags": [
+    "negative-wording",
+    "tricky",
+    "ny-law"
+   ],
+   "stem": "Under NY Insurance Law § 2120, each of the following handling of premiums is permitted EXCEPT:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Keeping premiums for several insurers in one premium account whose records identify each insurer's funds",
+     "rationale": "Incorrect: § 2120(c) does not require a separate account per principal if each one's funds are reasonably ascertainable."
+    },
+    {
+     "id": "b",
+     "text": "Depositing client premiums in the producer's personal checking account without the insurer's consent",
+     "rationale": "Correct: mixing fiduciary funds with the producer's own funds without the principal's express consent violates § 2120(a)."
+    },
+    {
+     "id": "c",
+     "text": "Forwarding a client's premium check to the insurer on the day it is received",
+     "rationale": "Incorrect: prompt remittance is consistent with fiduciary duty."
+    },
+    {
+     "id": "d",
+     "text": "Recording each premium received in the agency's books by client and insurer",
+     "rationale": "Incorrect: accurate records support the fiduciary duty."
+    }
+   ],
+   "correct": "b",
+   "explanation": "§ 2120(a) makes agents and brokers responsible in a fiduciary capacity for all funds received and forbids mingling them with their own funds without the principal's express consent. § 2120(c) adds that a separate account for each principal is not required as long as each principal's funds are reasonably ascertainable from the books and records.",
+   "memoryTip": "One trust account for many insurers = OK. Your money + their money = commingling.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Personal account deposit is commingling",
+      "anyOf": [
+       "commingl",
+       "mingl",
+       "personal"
+      ]
+     },
+     {
+      "label": "Producer is a fiduciary for premiums",
+      "anyOf": [
+       "fiduciary",
+       "trust"
+      ]
+     },
+     {
+      "label": "One account for several insurers allowed if records identify funds",
+      "anyOf": [
+       "separate",
+       "ascertainable",
+       "records",
+       "ledger"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2120"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q020",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.4.1"
+   ],
+   "concepts": [
+    "controlled-business"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "New York's controlled business rule allows the superintendent to refuse or revoke a license when more than what share of a licensee's aggregate net commissions over 12 months comes from insuring the licensee's spouse and controlled businesses?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "10%",
+     "rationale": "Correct: § 2103(i)(1) uses a ten percent threshold over the preceding or ensuing twelve months."
+    },
+    {
+     "id": "b",
+     "text": "5%",
+     "rationale": "Incorrect: 5% is the § 2324 limit on retaining commissions on a producer's own property or risks, not the controlled business test."
+    },
+    {
+     "id": "c",
+     "text": "25%",
+     "rationale": "Incorrect: the controlled business threshold is lower."
+    },
+    {
+     "id": "d",
+     "text": "50%",
+     "rationale": "Incorrect: 50% appears in the statute only as the ownership level that makes a corporation \"controlled\"; it is not the commission threshold."
+    }
+   ],
+   "correct": "a",
+   "explanation": "§ 2103(i)(1): the superintendent may refuse to issue, suspend or revoke a license if more than 10% of the applicant's aggregate net commissions received in the preceding 12 months, or to be received in the next 12 months, came or will come from insurance on the property and risks of the applicant's spouse, corporations the applicant or spouse own more than 50% of, and related firms.",
+   "memoryTip": "Controlled business: keep it under 10% of your commission income.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2103"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q021",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.7"
+   ],
+   "concepts": [
+    "unauthorized-insurer",
+    "certificate-of-authority"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Hector, a licensed New York life agent, places a Buffalo client's life policy with an offshore insurer that holds no New York license or authority, because its premium is lower. The client signed a statement saying he understood the insurer was not licensed in New York.",
+   "stem": "What is the legal consequence for Hector under NY Insurance Law § 2117?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "None, because the client signed a waiver acknowledging the risk",
+     "rationale": "Incorrect: a client's waiver does not authorize aiding an unauthorized insurer."
+    },
+    {
+     "id": "b",
+     "text": "A $25 fine, because only the insurer is responsible",
+     "rationale": "Incorrect: § 2117 applies to the person who acts for or aids the insurer."
+    },
+    {
+     "id": "c",
+     "text": "Only a warning, because the policy was issued outside New York",
+     "rationale": "Incorrect: he solicited and effectuated the contract in New York for a New York resident."
+    },
+    {
+     "id": "d",
+     "text": "A forfeiture of $500 for the transaction, in addition to any other penalty",
+     "rationale": "Correct: § 2117(g) imposes $500 per transaction plus other penalties provided by law."
+    }
+   ],
+   "correct": "d",
+   "explanation": "§ 2117(a) prohibits acting in New York as agent for, or in any way aiding, an insurer that is not licensed or authorized in New York. Under § 2117(g), each violation carries a forfeiture of $500 per transaction, in addition to any other penalty (such as license discipline under § 2110).",
+   "memoryTip": "Unauthorized insurer: $500 per deal, plus your license is at risk.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2117",
+    "ny-isc-1102"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q022",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.2.5",
+    "reg.2.4.6"
+   ],
+   "concepts": [
+    "appointment",
+    "license-revocation"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Granite Life discovers that one of its appointed agents kept several clients' premium payments for personal use. It terminates the agent's appointment for cause on September 1.",
+   "stem": "What must Granite Life do regarding the superintendent?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Nothing beyond canceling the appointment, because termination is a private contract matter between them",
+     "rationale": "Incorrect: § 2112(d) requires a filing for terminations for cause."
+    },
+    {
+     "id": "b",
+     "text": "Notify the superintendent only if the agent is later criminally convicted of theft of the funds",
+     "rationale": "Incorrect: the duty arises from the for-cause termination itself."
+    },
+    {
+     "id": "c",
+     "text": "File the facts with the superintendent within 30 days, and copy the agent within 15 days after that",
+     "rationale": "Correct: § 2112(d) sets both deadlines."
+    },
+    {
+     "id": "d",
+     "text": "Revoke the agent's license itself and report the revocation to the superintendent within 10 days",
+     "rationale": "Incorrect: only the superintendent can revoke a license."
+    }
+   ],
+   "correct": "c",
+   "explanation": "When an insurer terminates an agent's appointment, employment or contract for cause (for § 2110(a) activities such as misappropriating funds), § 2112(d) requires it to file a statement of the facts with the superintendent within 30 days, and to send the producer a copy within 15 days after notifying the superintendent, by certified mail (return receipt requested) or overnight delivery. The producer may file written comments within 30 days of receiving the notification (§ 2112(f)(2)).",
+   "memoryTip": "Fired for cause: 30 days to tell DFS, then 15 days to copy the agent.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Insurer files statement with superintendent",
+      "anyOf": [
+       "file",
+       "statement",
+       "superintendent",
+       "report"
+      ]
+     },
+     {
+      "label": "Within 30 days",
+      "anyOf": [
+       "30",
+       "thirty"
+      ]
+     },
+     {
+      "label": "Copy to the agent within 15 days",
+      "anyOf": [
+       "15",
+       "fifteen",
+       "copy"
+      ]
+     }
+    ]
+   },
+   "version": 2,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2112"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q023",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.2.3"
+   ],
+   "concepts": [
+    "unfair-claims-settlement-practices"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "After receiving a properly executed proof of loss, a New York insurer must advise the claimant of acceptance or denial within:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "15 calendar days",
+     "rationale": "Incorrect: the statute uses a different period."
+    },
+    {
+     "id": "b",
+     "text": "30 working days",
+     "rationale": "Correct: § 2601(a)(4) sets thirty working days."
+    },
+    {
+     "id": "c",
+     "text": "60 days",
+     "rationale": "Incorrect: 60 days is not the § 2601 standard."
+    },
+    {
+     "id": "d",
+     "text": "6 months",
+     "rationale": "Incorrect: that would be far too long under § 2601."
+    }
+   ],
+   "correct": "b",
+   "explanation": "§ 2601(a)(4) lists, among unfair claim settlement practices, failing to attempt in good faith to settle claims where liability is reasonably clear, and provides that after receiving a properly executed proof of loss the insurer shall advise the claimant of acceptance or denial within thirty working days.",
+   "memoryTip": "Proof of loss in → answer within 30 WORKING days.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2601"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q024",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.9",
+    "reg.2.6"
+   ],
+   "concepts": [
+    "insurance-fraud"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "While reviewing a disability income application she took, agent Lila learns from the applicant's own social media posts that he has been receiving disability payments from another insurer for a back injury he denied having. She concludes the application appears to be fraudulent.",
+   "stem": "What does New York law require Lila to do?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Report it to the superintendent on the prescribed form within 30 days of her determination",
+     "rationale": "Correct: § 405(a) requires licensees with reason to believe a transaction may be fraudulent to report within thirty days after determining it appears fraudulent."
+    },
+    {
+     "id": "b",
+     "text": "Wait until the insurer pays a claim, because no fraud can occur before a loss is paid",
+     "rationale": "Incorrect: fraud can occur on an application; § 405 covers transactions that may be fraudulent or are about to take place."
+    },
+    {
+     "id": "c",
+     "text": "Tell the applicant privately to correct the application and take no further action",
+     "rationale": "Incorrect: a licensee's reporting duty is not satisfied by a private warning."
+    },
+    {
+     "id": "d",
+     "text": "Report it to the superintendent only if she can prove the applicant intended to defraud",
+     "rationale": "Incorrect: the duty is triggered by reason to believe the transaction may be fraudulent, not by proof."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Under § 405(a), any licensee who has reason to believe that an insurance transaction may be fraudulent, or knows a fraudulent transaction is about to take place or has taken place, must send the superintendent the information requested on the prescribed form within 30 days after determining the transaction appears to be fraudulent. Knowingly filing an application with materially false information with intent to defraud is a fraudulent insurance act (§ 403).",
+   "memoryTip": "Suspect fraud? 30 days to report to DFS — no proof required.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Must report to the superintendent / DFS",
+      "anyOf": [
+       "report",
+       "superintendent",
+       "dfs",
+       "department"
+      ]
+     },
+     {
+      "label": "Within 30 days of the determination",
+      "anyOf": [
+       "30",
+       "thirty"
+      ]
+     },
+     {
+      "label": "Reason to believe is enough; proof not required",
+      "anyOf": [
+       "reason to believe",
+       "suspect",
+       "appears",
+       "no proof"
+      ]
+     }
+    ]
+   },
+   "version": 2,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-405",
+    "ny-isc-403"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q025",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.3.2"
+   ],
+   "concepts": [
+    "section-1033-waiver"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Jordan was convicted eight years ago of felony embezzlement from a former employer. He has been offered a job as a claims processor at an insurance company.",
+   "stem": "Under 18 U.S.C. § 1033, what does Jordan need before he may work in the business of insurance?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A presidential pardon of the embezzlement conviction",
+     "rationale": "Incorrect: § 1033 does not require a pardon."
+    },
+    {
+     "id": "b",
+     "text": "Only to disclose the conviction on his license application",
+     "rationale": "Incorrect: disclosure alone does not satisfy § 1033(e)."
+    },
+    {
+     "id": "c",
+     "text": "Written consent from an insurance regulatory official that specifically refers to § 1033(e)",
+     "rationale": "Correct: § 1033(e)(2) allows participation with such written consent."
+    },
+    {
+     "id": "d",
+     "text": "Approval from the hiring insurer's board of directors and its compliance officer",
+     "rationale": "Incorrect: an employer cannot grant the consent; it must come from an insurance regulatory official."
+    }
+   ],
+   "correct": "c",
+   "explanation": "§ 1033(e)(1)(A) makes it a federal crime for a person convicted of a felony involving dishonesty or breach of trust to willfully engage in the business of insurance, and § 1033(e)(1)(B) also reaches anyone who willfully permits such participation. § 1033(e)(2) allows participation with the written consent of an insurance regulatory official authorized to regulate the insurer, specifically referring to the subsection.",
+   "memoryTip": "Dishonesty felony + insurance job = need the regulator's 1033 consent in writing.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-usc-18-1033"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q026",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.12"
+   ],
+   "concepts": [
+    "cybersecurity-regulation"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "Under 23 NYCRR 500, a covered entity must notify the superintendent of a cybersecurity incident no later than:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "30 days after the incident began",
+     "rationale": "Incorrect: the deadline is much shorter and runs from determination."
+    },
+    {
+     "id": "b",
+     "text": "10 business days after the incident is discovered",
+     "rationale": "Incorrect: the deadline is measured in hours."
+    },
+    {
+     "id": "c",
+     "text": "By April 15 of the following year",
+     "rationale": "Incorrect: April 15 is the annual compliance certification deadline."
+    },
+    {
+     "id": "d",
+     "text": "72 hours after determining the incident occurred",
+     "rationale": "Correct: § 500.17(a)(1) sets a 72-hour outer limit."
+    }
+   ],
+   "correct": "d",
+   "explanation": "23 NYCRR 500.17(a)(1) requires notice to the superintendent as promptly as possible but in no event later than 72 hours after determining that a cybersecurity incident has occurred at the covered entity, its affiliates or a third-party service provider. Separately, covered entities file an annual compliance certification or acknowledgment by April 15.",
+   "memoryTip": "Cyber incident: 72 hours to tell DFS. Annual certification: April 15.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-reg-23nycrr-500-17"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "regulation-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q027",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.11",
+    "reg.2.4.5"
+   ],
+   "concepts": [
+    "producer-compensation-disclosure"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Twelve days after her annuity contract is issued, Omar's client emails him asking how much compensation he received from the insurer on the sale.",
+   "stem": "Under Regulation 194, how must Omar respond?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He may decline, because compensation details need only be given before the policy is issued",
+     "rationale": "Incorrect: § 30.3(c) covers requests made less than 30 days after issuance."
+    },
+    {
+     "id": "b",
+     "text": "He must provide the compensation details in a prominent writing within five business days",
+     "rationale": "Correct: § 30.3(c) requires a prominent writing within five business days for requests made within 30 days after issuance."
+    },
+    {
+     "id": "c",
+     "text": "He may answer orally on the phone, and no writing is required",
+     "rationale": "Incorrect: the detailed disclosure must be in a prominent writing."
+    },
+    {
+     "id": "d",
+     "text": "He must refer the client to the insurer, which alone may disclose producer pay",
+     "rationale": "Incorrect: the regulation places the disclosure duty on the producer."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Under 11 NYCRR 30.3, a producer must give a basic disclosure (role, whether paid by the insurer, that pay may vary, and the right to request more) at or before application. If the purchaser asks for more information within 30 days after the contract is issued, the producer must disclose the nature, amount and source of compensation and the other § 30.3(b) items in a prominent writing within five business days.",
+   "memoryTip": "Asked within 30 days after issue → written details within 5 business days.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Must disclose",
+      "anyOf": [
+       "disclose",
+       "provide",
+       "must"
+      ]
+     },
+     {
+      "label": "In a prominent writing",
+      "anyOf": [
+       "writing",
+       "written"
+      ]
+     },
+     {
+      "label": "Within five business days",
+      "anyOf": [
+       "five business days",
+       "5 business days",
+       "five days",
+       "5 days"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-11nycrr-30-3"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "regulation-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q028",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.1.4.3"
+   ],
+   "concepts": [
+    "producer"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "A New York licensed agent wants to do business as \"Hudson Valley Insurance Solutions\" instead of her own legal name. What does § 2102(f) require?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The superintendent must approve the name before she uses it",
+     "rationale": "Correct: § 2102(f) bars using any name other than an individual licensee's own legal name unless previously approved by the superintendent."
+    },
+    {
+     "id": "b",
+     "text": "She may use any name if she files it with the county clerk within 30 days",
+     "rationale": "Incorrect: a county filing does not replace the superintendent's prior approval."
+    },
+    {
+     "id": "c",
+     "text": "She must notify each appointing insurer within 15 days",
+     "rationale": "Incorrect: § 2102(f) requires approval by the superintendent, not notice to insurers."
+    },
+    {
+     "id": "d",
+     "text": "No approval is needed for individual agents, only for corporations",
+     "rationale": "Incorrect: the approval rule applies to every licensee using a name other than an individual's own legal name."
+    }
+   ],
+   "correct": "a",
+   "explanation": "§ 2102(f): every licensee must notify the superintendent upon changing his, her or its legal name, and, except for an individual licensee's own legal name, no licensee may use any name in conducting regulated business that has not been previously approved by the superintendent.",
+   "memoryTip": "Any name but your own legal name? Get DFS approval FIRST.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2102"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q029",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.2.1"
+   ],
+   "concepts": [
+    "certificate-of-authority"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Under NY Insurance Law § 1102, an insurer may do an insurance business in New York only if it:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Has at least one licensed and appointed agent who resides in New York State",
+     "rationale": "Incorrect: having agents does not authorize the insurer."
+    },
+    {
+     "id": "b",
+     "text": "Is incorporated under New York law and domiciled in the State of New York",
+     "rationale": "Incorrect: foreign and alien insurers can be authorized too."
+    },
+    {
+     "id": "c",
+     "text": "Is a member in good standing of the National Association of Insurance Commissioners",
+     "rationale": "Incorrect: the NAIC is an association of regulators, not insurers, and grants no authority."
+    },
+    {
+     "id": "d",
+     "text": "Holds a license in force under the Insurance Law or is exempt from needing one",
+     "rationale": "Correct: this is the § 1102(a) rule; such authority is commonly called a certificate of authority."
+    }
+   ],
+   "correct": "d",
+   "explanation": "§ 1102(a): no person, firm, association, corporation or joint-stock company may do an insurance business in New York unless authorized by a license in force under the Insurance Law, or exempted from that requirement. This insurer license is commonly called a certificate of authority, and an insurer that has one is an authorized (admitted) insurer.",
+   "memoryTip": "No NY authority, no NY business.",
+   "version": 2,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-1102"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q030",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.3.4"
+   ],
+   "concepts": [
+    "unfair-discrimination"
+   ],
+   "difficulty": 2,
+   "style": "negative",
+   "tags": [
+    "negative-wording",
+    "ny-law"
+   ],
+   "stem": "Which practice is NOT unfair discrimination under NY Insurance Law § 4224?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Charging two applicants of the same class and equal expectation of life different rates for no actuarial reason",
+     "rationale": "Incorrect: this is exactly what § 4224(a)(1) prohibits."
+    },
+    {
+     "id": "b",
+     "text": "Offering one policyholder better dividends than others in the same class as a personal favor",
+     "rationale": "Incorrect: special advantages in dividends among the same class are prohibited."
+    },
+    {
+     "id": "c",
+     "text": "Charging a smoker a higher life insurance premium than a nonsmoker of the same age, based on mortality data",
+     "rationale": "Correct: a rate difference based on sound actuarial principles and real risk differences is not unfair discrimination."
+    },
+    {
+     "id": "d",
+     "text": "Refusing coverage solely because of a disability when no law, actuarial principle or experience supports it",
+     "rationale": "Incorrect: § 4224(a)(2) prohibits this."
+    }
+   ],
+   "correct": "c",
+   "explanation": "§ 4224(a) prohibits unfair discrimination between individuals of the same class and equal expectation of life in rates, dividends, benefits or terms, and bars refusing or rating coverage solely because of a disability unless permitted by law and based on sound actuarial principles or actual or reasonably anticipated experience. Classifying smokers and nonsmokers differently reflects a genuine mortality difference.",
+   "memoryTip": "Different risk, different price = fair. Same risk, different price = unfair.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-4224"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

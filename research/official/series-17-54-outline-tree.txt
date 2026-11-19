@@ -1,0 +1,347 @@
+plreg Insurance Regulation  10%
+  plreg.1 Licensing
+    plreg.1.1 Process  [2103(d–i)]
+    plreg.1.2 Definitions
+      plreg.1.2.1 Producer definition  [2101(k)]
+      plreg.1.2.2 Who should be licensed  [2101(k)]
+      plreg.1.2.3 Home state  [2101(l)]
+      plreg.1.2.4 Negotiate  [2101(m)]
+      plreg.1.2.5 Sell  [2101(n)]
+      plreg.1.2.6 Solicit  [2101(o)]
+    plreg.1.3 Types of licensees
+      plreg.1.3.1 Agents  [2101(a, k); 2103; Reg 6, Part 22.2; Reg 7, Part 23.2]
+      plreg.1.3.2 Brokers  [2101(c, h, k); 2104]
+      plreg.1.3.3 Consultants  [2107]
+      plreg.1.3.4 Adjusters  [2101(g), 2108]
+      plreg.1.3.5 Nonresident  [2101(d, e); 2103(g)(5, 11); 2136]
+      plreg.1.3.6 Business entities  [2101(p), 2103(i)(2)]
+      plreg.1.3.7 Temporary  [2109; Regs 9, 18, 29, Part 20.1]
+    plreg.1.4 Maintenance and duration
+      plreg.1.4.1 Renewal  [2103(j); Reg 5, Part 21.2]
+      plreg.1.4.2 Continuing education  [2132]
+      plreg.1.4.3 Assumed names  [2102(f)]
+      plreg.1.4.4 Change of address (all addresses, including email)  [2134; Reg 5, Part 21.4; Reg 6, Part 22.3; Reg 7, Part 23.4]
+      plreg.1.4.5 Reporting of actions  [2110(i)(j)]
+    plreg.1.5 Disciplinary actions
+      plreg.1.5.1 Hearings - Notice and Process  [2405, 2406, Financial Services 305]
+      plreg.1.5.2 Suspension, revocation, and nonrenewal  [2110]
+      plreg.1.5.3 Penalties  [2127, 109]
+  plreg.2 State regulation
+    plreg.2.1 Superintendent's general duties and powers  [2404, Financial Services 201, 202, 301]
+    plreg.2.2 Company regulation
+      plreg.2.2.1 Certificate of authority  [1102(a-b)]
+      plreg.2.2.2 Solvency  [307]
+      plreg.2.2.3 Unfair claim settlement practices  [2601; Reg 64, Part 216.3-216.6]
+      plreg.2.2.4 Appointment of agent  [2112(a–c)]
+      plreg.2.2.5 Termination of agent appointment  [2112(d); Regs 9, 18, 29, Part 20.2]
+    plreg.2.3 Unfair and prohibited practices
+      plreg.2.3.1 Misrepresentation  [2123; Reg 64, Part 216.3]
+      plreg.2.3.2 False advertising  [2603]
+      plreg.2.3.3 Defamation of insurer  [2604]
+      plreg.2.3.4 Unfair discrimination  [2606–2608, 2612]
+      plreg.2.3.5 Rebating  [2324]
+    plreg.2.4 Licensee regulation
+      plreg.2.4.1 Controlled business  [2103(i)]
+      plreg.2.4.2 Sharing commissions  [2121, 2128]
+      plreg.2.4.3 Fiduciary responsibility  [2120; Regs 9, 18, 29, Parts 20.3, 20.4]
+      plreg.2.4.4 License display  [Reg 125, Part 34.5]
+      plreg.2.4.5 Commissions and compensation  [2102(e), 2114–2116, 2119; Regs 9, 18, 29, Part 20.6; Reg 194, Part 30]
+      plreg.2.4.6 Termination responsibilities of producer  [2112(g)]
+    plreg.2.5 Examination of books and records  [2404; Reg 152, Parts 243.0 to 243.3]
+    plreg.2.6 Insurance Frauds Prevention Act  [401-405, Financial Services 403-405]
+    plreg.2.7 Aiding Unauthorized Insurer  [2117]
+    plreg.2.8 Prohibitions  [403]
+    plreg.2.9 Reporting  [405]
+    plreg.2.10 Consumer privacy regulation  [Reg 169, Parts 420.0 to 420.4]
+    plreg.2.11 Producer Compensation Transparency  [Reg 194, Parts 30.1 to 30.5]
+    plreg.2.12 Cyber Security Requirements for Financial Services Companies  [Reg 23]
+  plreg.3 Federal regulation
+    plreg.3.1 Fair Credit Reporting Act  [15 USC 1681a–1681d]
+    plreg.3.2 Fraud and false statements including 1033 waiver  [18 USC 1033, 1034]
+plgen General Insurance  10%
+  plgen.1 Concepts
+    plgen.1.1 Risk management key terms
+      plgen.1.1.1 Risk (pure and speculative)
+      plgen.1.1.2 Exposure
+      plgen.1.1.3 Hazard (physical, moral, morale)
+      plgen.1.1.4 Peril
+      plgen.1.1.5 Loss
+    plgen.1.2 Methods of handling risk
+      plgen.1.2.1 Avoidance
+      plgen.1.2.2 Retention
+      plgen.1.2.3 Sharing
+      plgen.1.2.4 Reduction
+      plgen.1.2.5 Transfer (by contractual liability or insurance contract)
+      plgen.1.2.6 Elements of insurable risks
+      plgen.1.2.7 Adverse selection
+      plgen.1.2.8 Law of large numbers
+      plgen.1.2.9 Reinsurance
+      plgen.1.2.10 Risk retention
+  plgen.2 Insurers
+    plgen.2.1 Risk retention and risk purchasing groups
+    plgen.2.2 Types of insurers
+      plgen.2.2.1 Stock companies
+      plgen.2.2.2 Mutual companies
+      plgen.2.2.3 Fraternal benefit societies
+      plgen.2.2.4 Lloyd's associations
+    plgen.2.3 Private versus government insurers
+    plgen.2.4 Admitted versus nonadmitted insurers
+    plgen.2.5 Domestic, foreign, and alien insurers
+    plgen.2.6 Financial status (independent rating services)
+    plgen.2.7 Marketing (distribution) systems
+  plgen.3 Agents and general rules of agency
+    plgen.3.1 Insurer as principal
+    plgen.3.2 Agent/insurer relationship
+    plgen.3.3 Authority and powers of agents
+      plgen.3.3.1 Express
+      plgen.3.3.2 Implied
+      plgen.3.3.3 Apparent
+    plgen.3.4 Responsibilities to the applicant/insured
+  plgen.4 Contracts
+    plgen.4.1 Elements of a legal contract
+      plgen.4.1.1 Offer and acceptance
+      plgen.4.1.2 Consideration
+      plgen.4.1.3 Competent parties
+      plgen.4.1.4 Legal purpose
+    plgen.4.2 Characteristics of insurance contracts
+      plgen.4.2.1 Contract of adhesion
+      plgen.4.2.2 Aleatory contract
+      plgen.4.2.3 Personal contract
+      plgen.4.2.4 Unilateral contract
+      plgen.4.2.5 Conditional contract
+    plgen.4.3 Legal concepts and interpretations affecting contracts
+      plgen.4.3.1 Indemnity
+      plgen.4.3.2 Utmost good faith
+      plgen.4.3.3 Representations/misrepresentations  [3105]
+      plgen.4.3.4 Warranties  [3106]
+      plgen.4.3.5 Rescission
+      plgen.4.3.6 Concealment
+      plgen.4.3.7 Fraud
+      plgen.4.3.8 Waiver and estoppel
+plpc Property and Casualty Insurance Basics  17%
+  plpc.1 Principles and concepts
+    plpc.1.1 Insurable interest
+    plpc.1.2 Underwriting
+      plpc.1.2.1 Function
+      plpc.1.2.2 Prohibition of geographical redlining  [3429, 3429-a, 3430, 3433; Reg 90, Parts 218.1 to 218.7]
+      plpc.1.2.3 Insurance Risk Score (credit scoring)
+    plpc.1.3 Rates
+      plpc.1.3.1 Types
+      plpc.1.3.2 Loss costs
+      plpc.1.3.3 Components
+    plpc.1.4 Negligence
+      plpc.1.4.1 Elements of a negligent act
+      plpc.1.4.2 Defenses against negligence
+    plpc.1.5 Damages
+      plpc.1.5.1 Compensatory—special versus general
+      plpc.1.5.2 Punitive
+      plpc.1.5.3 Absolute liability
+      plpc.1.5.4 Strict liability
+      plpc.1.5.5 Vicarious liability
+      plpc.1.5.6 Causes of loss (perils)
+      plpc.1.5.7 Proximate cause
+      plpc.1.5.8 Named perils versus special (open) perils
+      plpc.1.5.9 Direct loss
+      plpc.1.5.10 Consequential or indirect loss
+      plpc.1.5.11 Blanket versus specific insurance
+      plpc.1.5.12 Basic types of construction
+    plpc.1.6 Loss Valuation
+      plpc.1.6.1 Actual cash value
+      plpc.1.6.2 Replacement cost
+        plpc.1.6.2.1 Guaranteed
+        plpc.1.6.2.2 Functional
+      plpc.1.6.3 Market value
+      plpc.1.6.4 Agreed value
+      plpc.1.6.5 Stated amount
+  plpc.2 Policy structure
+    plpc.2.1 Declarations
+    plpc.2.2 Definitions
+    plpc.2.3 Insuring agreement or clause
+    plpc.2.4 Additional/supplementary coverage
+    plpc.2.5 Conditions
+    plpc.2.6 Exclusions
+    plpc.2.7 Endorsements
+  plpc.3 Common policy provisions
+    plpc.3.1 Insureds—named, first named, additional, defined
+    plpc.3.2 Policy period
+    plpc.3.3 Policy territory
+    plpc.3.4 Cancellation and nonrenewal  [3425, 3426]
+    plpc.3.5 Earned premium calculation
+      plpc.3.5.1 Pro rata, short rate, and flat cancellation
+    plpc.3.6 Deductibles
+    plpc.3.7 Self Insured Retention (SIR)
+    plpc.3.8 Other insurance
+      plpc.3.8.1 Primary
+      plpc.3.8.2 Excess
+      plpc.3.8.3 Pro rata share
+    plpc.3.9 Limits of liability
+      plpc.3.9.1 Per occurrence (accident)
+      plpc.3.9.2 Per person
+      plpc.3.9.3 Per project
+      plpc.3.9.4 Per location
+      plpc.3.9.5 Aggregate
+      plpc.3.9.6 Sublimit
+      plpc.3.9.7 Split
+      plpc.3.9.8 Combined single
+    plpc.3.10 Ordinance or law provision
+    plpc.3.11 Vacancy vs. non-occupancy
+    plpc.3.12 First Named insured provisions
+      plpc.3.12.1 Duties after loss
+      plpc.3.12.2 Assignment
+      plpc.3.12.3 Abandonment
+    plpc.3.13 Insurer provisions
+      plpc.3.13.1 Liberalization
+      plpc.3.13.2 Subrogation
+      plpc.3.13.3 Salvage
+      plpc.3.13.4 Loss settlement options
+      plpc.3.13.5 Duty to defend
+      plpc.3.13.6 Coinsurance
+    plpc.3.14 Third-party provisions
+      plpc.3.14.1 Standard mortgage clause
+      plpc.3.14.2 Loss payable clause
+      plpc.3.14.3 No benefit to the Bailee
+  plpc.4 Certificate of Insurance vs. Binder  [501-504]
+pldwl Dwelling (2014) Policy  8%
+  pldwl.1 Purpose and eligibility
+  pldwl.2 Coverage forms—Perils insured against
+    pldwl.2.1 Basic
+    pldwl.2.2 Broad
+    pldwl.2.3 Special
+  pldwl.3 Property coverages
+    pldwl.3.1 Coverage A—Dwelling
+    pldwl.3.2 Coverage B—Other structures
+    pldwl.3.3 Coverage C—Personal property
+    pldwl.3.4 Coverage D—Fair rental value
+    pldwl.3.5 Coverage E—Additional living expense
+    pldwl.3.6 Other coverages
+  pldwl.4 General exclusions
+  pldwl.5 Conditions
+  pldwl.6 Selected Endorsements
+    pldwl.6.1 Special provisions—New York (DP 01 31)
+    pldwl.6.2 Broad theft endorsement (DP 04 83) (DP 04 72)
+    pldwl.6.3 Dwelling under construction (DP 11 43)
+  pldwl.7 Personal liability supplement
+plho Homeowners (2011) Policy  24%
+  plho.1 Purpose and eligibility
+  plho.2 Coverage forms
+    plho.2.1 HO-2 through HO-6, HO-8
+  plho.3 Definitions
+  plho.4 Section I—Property coverages
+    plho.4.1 Coverage A—Dwelling
+    plho.4.2 Coverage B—Other structures
+    plho.4.3 Coverage C—Personal property
+    plho.4.4 Coverage D—Loss of use
+    plho.4.5 Additional coverages
+  plho.5 Section II—Liability coverages
+    plho.5.1 Coverage E—Personal liability
+    plho.5.2 Coverage F—Medical payments to others
+    plho.5.3 Additional coverages
+  plho.6 Perils insured against
+  plho.7 Exclusions
+  plho.8 Conditions
+  plho.9 Selected endorsements
+    plho.9.1 Special provisions—New York (HO 01 31)
+    plho.9.2 Earthquake (HO 04 54)
+    plho.9.3 Identity fraud expense (HO 04 55)
+    plho.9.4 Scheduled personal property (HO 04 61)
+    plho.9.5 Personal property replacement cost (HO 04 90)
+    plho.9.6 Home business (HO 07 01)
+    plho.9.7 Personal injury—New York (HO 24 86)
+    plho.9.8 Workers' compensation—certain residence employees—New York (HO 24 93)
+    plho.9.9 Water Back Up and Sump Discharge or Overflow (HO 23 85)
+plauto Auto Insurance  24%
+  plauto.1 Laws
+    plauto.1.1 New York Motor Vehicle Financial Responsibility Law
+      plauto.1.1.1 Required limits of liability (Veh & Traf 333)
+      plauto.1.1.2 Transportation Network Companies (Ridesharing) (Veh & Traf Article 44-B)
+      plauto.1.1.3 Required proof of insurance (Veh & Traf 311(3))
+      plauto.1.1.4 Insurance Information and Enforcement System (IIES) notification to DMV (Veh & Traf 313(2))
+      plauto.1.1.5 Auto ID cards
+    plauto.1.2 New York Automobile Insurance Plan (Assigned Risk)  [5301–5304]
+      plauto.1.2.1 Purpose
+      plauto.1.2.2 Eligibility
+      plauto.1.2.3 Coverage
+      plauto.1.2.4 Binding authority
+    plauto.1.3 Comprehensive Motor Vehicle Insurance Reparations Act (PIP)  [5101– 5108]
+      plauto.1.3.1 Notice of claim
+      plauto.1.3.2 Medical
+      plauto.1.3.3 Rehabilitation
+      plauto.1.3.4 Loss of earnings
+      plauto.1.3.5 Funeral
+      plauto.1.3.6 Substitution services
+      plauto.1.3.7 Tort limitation/verbal threshold
+    plauto.1.4 Optional coverages
+      plauto.1.4.1 OBEL
+      plauto.1.4.2 Additional PIP
+    plauto.1.5 Motor Vehicle Accident Indemnification Corporation Act  [5201–5225]
+    plauto.1.6 Uninsured/Underinsured motorist  [3420(f)]
+      plauto.1.6.1 Definitions
+      plauto.1.6.2 Bodily injury only
+      plauto.1.6.3 Required limits
+      plauto.1.6.4 Mandatory coverage
+    plauto.1.7 Supplementary uninsured/underinsured motorist coverage  [3420(f)(2)(A)(B); Reg 35-A, Parts 60-2.0 to 60-2.4]
+      plauto.1.7.1 Definitions
+      plauto.1.7.2 Optional
+      plauto.1.7.3 Nonstacking
+      plauto.1.7.4 Coverage limits
+    plauto.1.8 Mandatory inspection requirements for private passenger automobiles  [Reg 79, Parts 67.0 to 67.11]
+    plauto.1.9 Cancellation/nonrenewal  [3425]
+      plauto.1.9.1 Grounds
+      plauto.1.9.2 Notice
+    plauto.1.10 Choice of repair shop  [2610]
+    plauto.1.11 Supplemental spousal liability  [3420(g)]
+  plauto.2 Personal (2005) auto policy
+    plauto.2.1 Purpose and eligibility
+    plauto.2.2 Definitions
+    plauto.2.3 Liability coverage
+      plauto.2.3.1 Bodily injury and property damage
+      plauto.2.3.2 Supplementary payments
+      plauto.2.3.3 Who is insured
+      plauto.2.3.4 Exclusions
+    plauto.2.4 Medical payments coverage
+    plauto.2.5 Coverage for damage to your auto
+      plauto.2.5.1 Collision
+      plauto.2.5.2 Other than collision/comprehensive
+      plauto.2.5.3 Deductibles
+      plauto.2.5.4 Transportation expenses
+      plauto.2.5.5 Exclusions
+    plauto.2.6 Duties after an accident or loss
+    plauto.2.7 General provisions
+    plauto.2.8 Selected endorsements
+      plauto.2.8.1 Amendment of policy provisions— New York (PP 01 79)
+      plauto.2.8.2 Towing and labor costs (PP 03 03)
+      plauto.2.8.3 Miscellaneous type vehicle—New
+      plauto.2.8.4 York (PP 03 29)
+      plauto.2.8.5 Named non-owner coverage— New York (PP 03 30)
+      plauto.2.8.6 Rental vehicle coverage—New
+      plauto.2.8.7 York (PP 03 46)
+      plauto.2.8.8 Joint ownership coverage—New
+      plauto.2.8.9 York (PP 03 78)
+      plauto.2.8.10 Out of state coverage
+ploth Other Coverages and Options  7%
+  ploth.1 Umbrella/excess liability policies
+    ploth.1.1 Umbrella policies
+      ploth.1.1.1 Personal (DL 98 01)
+  ploth.2 National Flood Insurance Program
+    ploth.2.1 Eligibility
+    ploth.2.2 Coverage
+    ploth.2.3 Flood definition
+    ploth.2.4 Forms
+      ploth.2.4.1 Dwelling
+      ploth.2.4.2 General
+      ploth.2.4.3 Residential Condominium Building
+      ploth.2.4.4 Association Policy
+  ploth.3 Other policies
+    ploth.3.1 Watercraft
+  ploth.4 New York Property Insurance Underwriting Association (FAIR PLAN)  [5401-5412]
+    ploth.4.1 Purpose
+    ploth.4.2 Coverage
+    ploth.4.3 Coastal Market Assistance Program (C-MAP)
+  ploth.5 Excess lines  [Reg 41, Part 27]
+    ploth.5.1 Definition of Excess Lines (nonadmitted market)
+    ploth.5.2 Licensing requirements  [2105]
+    ploth.5.3 Total cost form
+    ploth.5.4 Affidavit
+    ploth.5.5 Export list
+    ploth.5.6 Disclosure (no guaranty fund)
+7 100

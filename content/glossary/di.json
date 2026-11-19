@@ -1,0 +1,1133 @@
+{
+  "sectionId": "di",
+  "terms": [
+    {
+      "id": "total-disability",
+      "term": "Total Disability",
+      "aliases": [],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.1.1",
+        "di.2.5.6",
+        "di.2.1"
+      ],
+      "formal": "The insured's inability, because of sickness or injury, to perform the duties of an occupation as defined in the policy: either the insured's own occupation or any occupation for which the insured is reasonably suited by education, training or experience. Total disability triggers the full monthly benefit after the elimination period.",
+      "plain": "You're 'totally disabled' when you can't do the work the policy's definition describes, either your own job or any job you're reasonably suited for, depending on the policy.",
+      "simpler": "Your policy's definition of 'can't work at all' is what unlocks the full disability check.",
+      "examples": [
+        "Ava, a dentist with an own-occupation policy, loses fine motor control in her hand. She cannot practice dentistry, so she is totally disabled under her policy even if she could teach.",
+        "Ben has an any-occupation policy. After his injury he cannot return to construction work but can work as a dispatcher, a job suited to his experience, so he is not totally disabled under that definition."
+      ],
+      "examTip": "The definition of total disability (own occupation vs any occupation) is the most important factor in whether a claim is paid. Own occupation is easier to qualify for and costs more.",
+      "misconception": "Total disability does not always mean the insured is bedridden or unable to do any work at all; it depends on the policy's occupation definition.",
+      "related": [
+        "own-occupation",
+        "any-occupation",
+        "presumptive-disability",
+        "partial-disability",
+        "residual-disability"
+      ],
+      "confusedWith": [
+        "partial-disability"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A policy's definition of total disability most directly determines:",
+        "choices": [
+          "The insured's premium mode",
+          "The beneficiary of the death benefit",
+          "Whether the insured qualifies for full monthly benefits",
+          "The free-look period"
+        ],
+        "answerIndex": 2,
+        "explanation": "Total disability is the trigger for the full disability income benefit; its definition (own vs any occupation) decides whether a claim qualifies."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "own-occupation",
+      "term": "Own Occupation",
+      "aliases": [],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.1.1.1"
+      ],
+      "formal": "A definition of total disability under which the insured is considered totally disabled if unable to perform the material and substantial duties of his or her own regular occupation, even if able to work in another occupation.",
+      "plain": "You're disabled if you can't do YOUR job, even if you could do a different one.",
+      "simpler": "It protects your specific career, not just your ability to earn something.",
+      "examples": [
+        "Carl, a surgeon with a hand tremor, cannot perform surgery but could teach medical students. Under an own-occupation definition he is totally disabled and collects benefits.",
+        "Some policies use own occupation for an initial period (for example, the first few years of a claim) and then switch to an any-occupation definition."
+      ],
+      "examTip": "Own occupation = most liberal (favorable to the insured), most expensive. Common for professionals with specialized skills.",
+      "misconception": "Own occupation does not mean benefits stop if the insured takes another job; under a true own-occupation definition the insured can still be considered disabled from his or her own occupation.",
+      "related": [
+        "any-occupation",
+        "total-disability",
+        "residual-disability"
+      ],
+      "confusedWith": [
+        "any-occupation"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which definition of total disability is MOST favorable to the insured?",
+        "choices": [
+          "Any occupation",
+          "Presumptive disability only",
+          "Nonoccupational",
+          "Own occupation"
+        ],
+        "answerIndex": 3,
+        "explanation": "Own occupation pays when the insured can't perform his or her own job, even if able to do other work. Any occupation is stricter."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "any-occupation",
+      "term": "Any Occupation",
+      "aliases": [],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.1.1.2"
+      ],
+      "formal": "A definition of total disability under which the insured is considered totally disabled only if unable to perform the duties of any occupation for which he or she is reasonably suited by education, training or experience.",
+      "plain": "You're disabled only if you can't do any job that fits your education, training or experience, not just your current job.",
+      "simpler": "If you can still do some reasonable job, you're not 'totally disabled' under this test.",
+      "examples": [
+        "Dana, an accountant, injures her back and cannot sit for long hours, but she can work as a part-time financial consultant. Under an any-occupation definition, she may not be totally disabled.",
+        "Group long-term disability plans often switch from an own-occupation test to an any-occupation test after an initial period (such as 24 months)."
+      ],
+      "examTip": "Any occupation = stricter for the insured, cheaper premium. Look for 'reasonably suited by education, training or experience.'",
+      "misconception": "Any occupation does not mean literally any job in the world; it is limited to jobs the insured is reasonably suited for by education, training or experience.",
+      "related": [
+        "own-occupation",
+        "total-disability",
+        "long-term-disability"
+      ],
+      "confusedWith": [
+        "own-occupation"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Under an any-occupation definition, the insured is totally disabled only if unable to perform:",
+        "choices": [
+          "Any occupation for which he or she is reasonably suited by education, training or experience",
+          "His or her own occupation",
+          "Any two activities of daily living",
+          "At least half of his or her job duties"
+        ],
+        "answerIndex": 0,
+        "explanation": "Any occupation looks at every occupation the insured is reasonably suited for, which makes it stricter than own occupation."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "presumptive-disability",
+      "term": "Presumptive Disability",
+      "aliases": [],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.1.1.3"
+      ],
+      "formal": "A disability income provision under which certain severe losses, such as total and permanent loss of sight, hearing, speech, or the use of two limbs, are presumed to be total disability, so that full benefits are payable regardless of whether the insured can actually work.",
+      "plain": "Some injuries are so serious that the policy automatically treats you as totally disabled, even if you keep working.",
+      "simpler": "Certain catastrophic losses count as total disability automatically, no questions asked.",
+      "examples": [
+        "Eli loses the sight in both eyes in an accident. Under his policy's presumptive disability provision, he receives full total disability benefits even after he returns to work using assistive technology.",
+        "Fay loses the use of both legs; her policy presumes total disability, so the insurer does not need to evaluate her occupational duties."
+      ],
+      "examTip": "Typical presumptive losses: sight, speech, hearing, use of two limbs. Many policies also waive the elimination period for presumptive disability; check the policy.",
+      "misconception": "Presumptive disability does not require the insured to stop working; benefits are payable because of the loss itself.",
+      "related": [
+        "total-disability",
+        "ad-and-d"
+      ],
+      "confusedWith": [
+        "ad-and-d"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under a presumptive disability provision, an insured who loses the sight of both eyes:",
+        "choices": [
+          "Must prove he or she cannot work in any occupation",
+          "Is presumed totally disabled and receives full benefits even if he or she continues working",
+          "Receives only a partial disability benefit",
+          "Receives no benefit unless hospitalized"
+        ],
+        "answerIndex": 1,
+        "explanation": "Presumptive disability treats specified severe losses as total disability regardless of the insured's ability to work."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "elimination-period",
+      "term": "Elimination Period",
+      "aliases": [],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.2.1.2"
+      ],
+      "formal": "The waiting period, measured from the start of a disability, during which no disability income benefits are payable; benefits begin to accrue after the elimination period is satisfied. Longer elimination periods reduce the premium.",
+      "plain": "It's the waiting period after you become disabled before the policy starts paying. It works like a deductible measured in time instead of dollars.",
+      "simpler": "A 'time deductible': you cover the first stretch yourself.",
+      "examples": [
+        "Gus has a 90-day elimination period. He becomes disabled on March 1; benefits begin to accrue after the 90-day waiting period ends, and the first monthly check usually arrives about a month after that.",
+        "Hope chooses a 180-day elimination period instead of 30 days because she has six months of savings; her premium is lower."
+      ],
+      "examTip": "Elimination period = when benefits START (time deductible). Benefit period = how LONG benefits last. Longer elimination period → lower premium.",
+      "misconception": "No benefits are paid retroactively for the elimination period itself in a typical policy; the elimination period is not just a processing delay.",
+      "related": [
+        "benefit-period",
+        "probationary-period",
+        "deductible",
+        "total-disability"
+      ],
+      "confusedWith": [
+        "probationary-period",
+        "benefit-period"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "The elimination period in a disability income policy is best described as:",
+        "choices": [
+          "The maximum length of time benefits are paid",
+          "The period during which the insurer may cancel the policy",
+          "A time deductible before benefits begin",
+          "The time allowed to file proof of loss"
+        ],
+        "answerIndex": 2,
+        "explanation": "The elimination period is the waiting period after disability begins before benefits start. The maximum length of benefits is the benefit period."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "benefit-period",
+      "term": "Benefit Period",
+      "aliases": [],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.2.1.2"
+      ],
+      "formal": "The maximum length of time for which disability income benefits will be paid for any one disability (for example, 2 years, 5 years, or to age 65), measured after the elimination period. Longer benefit periods increase the premium.",
+      "plain": "It's how long the checks will keep coming once they start, such as two years, five years, or until age 65.",
+      "simpler": "The benefit period is the length of the payout.",
+      "examples": [
+        "Ivy's policy has a 5-year benefit period. If she remains totally disabled, she can receive monthly benefits for up to 5 years after her elimination period.",
+        "Jack buys a benefit period 'to age 65' so that a long-lasting disability would be covered until retirement age."
+      ],
+      "examTip": "Benefit period = duration; elimination period = waiting time. Longer benefit period → higher premium; longer elimination period → lower premium.",
+      "misconception": "The benefit period is not the time before benefits start; that is the elimination period.",
+      "related": [
+        "elimination-period",
+        "long-term-disability",
+        "short-term-disability"
+      ],
+      "confusedWith": [
+        "elimination-period"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A longer benefit period in a disability income policy generally:",
+        "choices": [
+          "Lowers the premium",
+          "Shortens the elimination period",
+          "Has no effect on the premium",
+          "Raises the premium"
+        ],
+        "answerIndex": 3,
+        "explanation": "The longer the insurer may have to pay, the higher the premium."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "additional-monthly-benefit",
+      "term": "Additional Monthly Benefit (AMB)",
+      "aliases": [],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.2.3.1"
+      ],
+      "formal": "A disability income rider that pays an additional monthly amount for a limited period early in a disability (commonly the first year), when the insured may not yet be receiving Social Security or other social insurance benefits.",
+      "plain": "This rider adds extra money each month for a short time at the start of a disability, typically while you're waiting for government disability benefits to begin.",
+      "simpler": "A temporary top-up at the start of a claim.",
+      "examples": [
+        "Kara's base policy pays $3,000 a month, and her AMB rider adds $1,000 a month for the first year of her disability while her Social Security claim is pending.",
+        "After the AMB period ends, Kara continues to receive only her $3,000 base benefit."
+      ],
+      "examTip": "AMB = temporary extra benefit early in the claim. SIS = benefit that is reduced or offset by social insurance benefits the insured actually receives.",
+      "misconception": "The AMB does not increase the base benefit permanently; it is a short-term supplement.",
+      "related": [
+        "social-insurance-supplement",
+        "social-security-disability",
+        "cost-of-living-adjustment"
+      ],
+      "confusedWith": [
+        "social-insurance-supplement"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "An additional monthly benefit (AMB) rider is designed to:",
+        "choices": [
+          "Provide extra monthly income for a limited period early in a disability",
+          "Increase benefits each year for inflation",
+          "Waive premiums during disability",
+          "Pay the business's overhead expenses"
+        ],
+        "answerIndex": 0,
+        "explanation": "AMB is a temporary supplement early in the disability. Inflation increases come from a COLA rider; waiver of premium waives premiums; BOE pays overhead."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "social-insurance-supplement",
+      "term": "Social Insurance Supplement (SIS)",
+      "aliases": [],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.2.3.2"
+      ],
+      "formal": "A disability income rider that pays a supplemental benefit when the insured is not receiving, or receives less than a stated amount from, social insurance programs such as Social Security disability, workers' compensation or state disability benefits; the rider benefit is reduced by social insurance benefits actually received.",
+      "plain": "SIS fills the gap if government disability programs (like Social Security) deny or pay less than expected. If those programs pay, the rider pays less or nothing.",
+      "simpler": "A backup that pays when government disability benefits don't come through.",
+      "examples": [
+        "Leo's SIS rider is $1,200 a month. His Social Security disability claim is denied, so the rider pays the full $1,200.",
+        "If Leo later receives $900 a month from Social Security, his SIS benefit is reduced to $300 ($1,200 − $900)."
+      ],
+      "examTip": "SIS benefits are offset by social insurance benefits received. Social insurance includes Social Security, workers' compensation and state disability programs.",
+      "misconception": "SIS does not pay in addition to full Social Security benefits; it is reduced by them.",
+      "related": [
+        "additional-monthly-benefit",
+        "social-security-disability",
+        "workers-compensation",
+        "disability-benefits-law"
+      ],
+      "confusedWith": [
+        "additional-monthly-benefit"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A $1,000 SIS rider is offset by social insurance benefits. If the insured receives $600 from Social Security, the rider pays:",
+        "choices": [
+          "$1,000",
+          "$1,600",
+          "$600",
+          "$400"
+        ],
+        "answerIndex": 3,
+        "explanation": "SIS is reduced by social insurance benefits received: $1,000 − $600 = $400."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "occupational-coverage",
+      "term": "Occupational vs. Nonoccupational Coverage",
+      "aliases": [],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.2.3.3"
+      ],
+      "formal": "Occupational coverage pays for disabilities resulting from sickness or injury whether or not related to the insured's job (on or off the job); nonoccupational coverage pays only for disabilities that are not job-related, because job-related disabilities are expected to be covered by workers' compensation.",
+      "plain": "Occupational coverage protects you 24 hours a day, on and off the job. Nonoccupational coverage protects you only for off-the-job sickness or injury, since workers' compensation handles work injuries.",
+      "simpler": "Occupational = on and off the job; nonoccupational = off the job only.",
+      "examples": [
+        "Mae has an individual disability policy with occupational coverage. She is disabled by a fall at her workplace and also collects workers' compensation; her individual policy pays according to its terms.",
+        "Ned's group short-term disability plan is nonoccupational. When he is hurt at work, the plan does not pay; workers' compensation does."
+      ],
+      "examTip": "Group short-term disability is commonly nonoccupational; individual disability income is commonly occupational (24-hour coverage). Nonoccupational coverage costs less.",
+      "misconception": "Nonoccupational does not mean the insured must be unemployed; it means the disability must not arise from employment.",
+      "related": [
+        "workers-compensation",
+        "short-term-disability",
+        "disability-benefits-law"
+      ],
+      "confusedWith": [
+        "workers-compensation"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A disability plan that covers only off-the-job sickness and injury is:",
+        "choices": [
+          "Occupational",
+          "Noncancelable",
+          "Nonoccupational",
+          "Own occupation"
+        ],
+        "answerIndex": 2,
+        "explanation": "Nonoccupational coverage excludes job-related disabilities, which are covered by workers' compensation."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "cost-of-living-adjustment",
+      "term": "Cost of Living Adjustment (COLA) Rider",
+      "aliases": [],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.2.4.1"
+      ],
+      "formal": "A disability income rider that increases the monthly benefit during a long-term disability, usually annually, based on a stated percentage or a cost-of-living index such as the Consumer Price Index, often subject to a cap.",
+      "plain": "If you're disabled for years, the COLA rider raises your monthly check over time so inflation doesn't shrink its buying power.",
+      "simpler": "Raises your disability check while you're on claim to keep up with prices.",
+      "examples": [
+        "Opal has been disabled for three years. Her COLA rider has raised her original $4,000 benefit each year in line with the Consumer Price Index.",
+        "Pat's COLA rider does nothing before a disability begins; it adjusts benefits only after he is on claim."
+      ],
+      "examTip": "COLA = automatic increases DURING a disability. FIO = right to buy more coverage BEFORE a disability, without evidence of insurability.",
+      "misconception": "A COLA rider does not let the insured buy more coverage before a disability; that is the future increase option.",
+      "related": [
+        "future-increase-option",
+        "cost-of-living-rider",
+        "inflation-protection"
+      ],
+      "confusedWith": [
+        "future-increase-option"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which rider increases disability benefits while the insured is disabled to offset inflation?",
+        "choices": [
+          "Future increase option",
+          "Social insurance supplement",
+          "Waiver of premium",
+          "Cost of living adjustment rider"
+        ],
+        "answerIndex": 3,
+        "explanation": "COLA increases benefits during disability. FIO lets the insured buy more coverage before disability."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "future-increase-option",
+      "term": "Future Increase Option (FIO)",
+      "aliases": [],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.2.4.2"
+      ],
+      "formal": "A disability income rider that gives the insured the right to increase the monthly benefit at specified future dates or events without providing evidence of insurability (health), usually subject to proof that the insured's income supports the higher benefit.",
+      "plain": "This rider lets you buy more disability coverage later as your income grows, without having to prove you're still healthy.",
+      "simpler": "A guaranteed right to buy more coverage later, no health exam needed.",
+      "examples": [
+        "Quinn, a young attorney, buys a policy with an FIO rider. When her income rises five years later, she adds $1,500 of monthly benefit without a medical exam, after showing her higher income.",
+        "Even though Quinn developed asthma after issue, the insurer cannot refuse the increase on health grounds under the FIO."
+      ],
+      "examTip": "FIO = guaranteed insurability for disability income: medical underwriting is waived, but financial (income) underwriting usually still applies.",
+      "misconception": "The FIO does not waive proof of income; insurers still limit coverage to what the insured's earnings justify.",
+      "related": [
+        "cost-of-living-adjustment",
+        "guaranteed-insurability-rider",
+        "relation-of-earnings"
+      ],
+      "confusedWith": [
+        "cost-of-living-adjustment",
+        "guaranteed-insurability-rider"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A future increase option allows the insured to buy additional disability coverage without proof of:",
+        "choices": [
+          "Insurability (health)",
+          "Income",
+          "Age",
+          "Employment"
+        ],
+        "answerIndex": 0,
+        "explanation": "The FIO waives evidence of insurability (health), though income documentation is usually still required."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "relation-of-earnings",
+      "term": "Relation of Earnings to Insurance",
+      "aliases": [],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.2.4.3"
+      ],
+      "formal": "An optional provision under N.Y. Insurance Law § 3216(d)(2)(F): if total monthly loss-of-time benefits under all valid coverage exceed the greater of the insured's monthly earnings when disability began or average monthly earnings for the two years before the disability, the insurer is liable only for the proportion of its benefit that those earnings bear to the total monthly benefits, and must return the excess premium paid during those two years; it may not reduce total benefits below the lesser of $200 or the sum of the monthly benefits. It may be used only in a policy the insured can continue to at least age 50 (or, if issued after age 44, for at least five years).",
+      "plain": "If you're insured for more monthly disability income than you were earning, this provision scales your benefit down so you don't make more by being disabled than by working. You get back the extra premium you paid during the prior two years.",
+      "simpler": "It keeps a disability check from being bigger than the paycheck it replaces.",
+      "examples": [
+        "Rob earned $4,000 a month (also his 2-year average). He has two disability policies paying $3,000 and $2,000 a month, a total of $5,000. Under the provision, the insurer of the $3,000 policy is liable for $3,000 × ($4,000 ÷ $5,000) = $2,400, and refunds the excess premium.",
+        "Sue's total disability benefits are less than her earnings, so the relation of earnings provision does not reduce anything."
+      ],
+      "examTip": "Use the GREATER of current monthly earnings or the 2-year average. Benefits can't be reduced below the lesser of $200 or the total monthly benefits. NY Reg 62 also bars reducing DI benefits before 65 because of income or employment changes except under this provision or change of occupation.",
+      "misconception": "The provision does not cancel the policy or deny the claim; it prorates benefits and refunds excess premium.",
+      "related": [
+        "other-insurance-provision",
+        "future-increase-option",
+        "coordination-of-benefits"
+      ],
+      "confusedWith": [
+        "coordination-of-benefits"
+      ],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "Under NY's relation of earnings to insurance provision, which earnings figure is compared to total benefits?",
+        "choices": [
+          "The lesser of current monthly earnings or the 2-year average",
+          "The greater of monthly earnings at the start of disability or the 2-year average monthly earnings",
+          "Earnings in the month the policy was issued",
+          "The insured's highest single month of earnings ever"
+        ],
+        "answerIndex": 1,
+        "explanation": "§ 3216(d)(2)(F) uses the greater of monthly earnings when disability commenced or average monthly earnings for the two years before the disability."
+      },
+      "sources": [
+        "ny-isc-3216",
+        "ny-11nycrr-52"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "statute-text",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ad-and-d",
+      "term": "Accidental Death and Dismemberment (AD&D)",
+      "aliases": [
+        "AD&D"
+      ],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.2.5.1"
+      ],
+      "formal": "Coverage (as a policy, rider or benefit) that pays a principal sum for accidental death and stated amounts (a principal sum or a capital sum, often a percentage of the principal sum) for accidental dismemberment or loss of sight. Under 11 NYCRR 52.17(b)(1) (Reg 62), AD&D benefits in NY individual policies must be payable if the loss occurs within 90 days from the date of the accident, irrespective of total disability.",
+      "plain": "AD&D pays a set amount if an accident kills you or causes you to lose a limb or your sight. In New York, the loss must be paid if it happens within 90 days of the accident.",
+      "simpler": "A fixed payout for death or loss of limbs/sight caused by an accident.",
+      "examples": [
+        "Tia's AD&D benefit has a $100,000 principal sum. She loses one hand in an accident; her policy pays a capital sum of 50% of the principal sum, or $50,000.",
+        "Uri dies 60 days after a car accident from his injuries. Because death occurred within 90 days of the accident, the NY AD&D benefit is payable."
+      ],
+      "examTip": "Principal sum = full amount (accidental death, or loss of two limbs or both eyes in typical schedules). Capital sum = a portion of the principal sum for a single limb or eye. NY: loss within 90 days of the accident.",
+      "misconception": "AD&D does not pay for death from sickness; it is accident-only coverage.",
+      "related": [
+        "accident-only-policy",
+        "accidental-death-benefit",
+        "presumptive-disability",
+        "accidental-bodily-injury"
+      ],
+      "confusedWith": [
+        "accidental-death-benefit",
+        "presumptive-disability"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Under NY Reg 62, an individual policy's AD&D benefit must be payable if the loss occurs within how long after the accident?",
+        "choices": [
+          "30 days",
+          "60 days",
+          "90 days",
+          "One year"
+        ],
+        "answerIndex": 2,
+        "explanation": "11 NYCRR 52.17(b)(1) requires AD&D benefits to be payable if the loss occurs within 90 days from the date of the accident."
+      },
+      "sources": [
+        "ny-11nycrr-52"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19",
+        "notes": "NY 90-day rule verified; principal/capital sum terminology is a general principle."
+      }
+    },
+    {
+      "id": "rehabilitation-benefit",
+      "term": "Rehabilitation Benefit",
+      "aliases": [],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.2.5.2"
+      ],
+      "formal": "A disability income provision under which the insurer pays costs of an approved vocational or physical rehabilitation program (such as retraining, education or equipment) to help a disabled insured return to work, usually while disability benefits continue.",
+      "plain": "The insurer may pay for job retraining or therapy to help you get back to work, without cutting off your disability benefits during the program.",
+      "simpler": "Help getting back to work, paid for by the insurer.",
+      "examples": [
+        "Vince, a disabled electrician, enrolls in an insurer-approved drafting course. His policy's rehabilitation benefit pays the tuition while his disability benefits continue.",
+        "Wren's insurer pays for workplace modifications that let her return to her job as a programmer."
+      ],
+      "examTip": "Rehabilitation benefits benefit both sides: the insured returns to work and the insurer may reduce long-term claim costs.",
+      "misconception": "Taking part in a rehabilitation program does not automatically end disability benefits.",
+      "related": [
+        "total-disability",
+        "residual-disability",
+        "long-term-disability"
+      ],
+      "confusedWith": [],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A disability income benefit that pays for retraining to help the insured return to work is a:",
+        "choices": [
+          "Medical reimbursement benefit",
+          "Social insurance supplement",
+          "Future increase option",
+          "Rehabilitation benefit"
+        ],
+        "answerIndex": 3,
+        "explanation": "Rehabilitation benefits pay for approved vocational or physical rehabilitation programs."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "partial-disability",
+      "term": "Partial Disability",
+      "aliases": [],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.2.5.4"
+      ],
+      "formal": "A disability under which the insured is unable to perform one or more (but not all) of the important duties of his or her occupation, or can work only part time; partial disability benefits are commonly a fixed percentage of the total disability benefit (often 50%) payable for a limited period, frequently only after a period of total disability.",
+      "plain": "Partial disability means you can still do some of your job but not all of it. The policy typically pays a set fraction of the full benefit for a limited time.",
+      "simpler": "Some work is possible, so you get a set slice of the full benefit.",
+      "examples": [
+        "Xia, a sales manager, can work only part time after surgery. Her policy pays a partial disability benefit of 50% of her $4,000 total disability benefit, or $2,000 a month, for up to six months.",
+        "Yale returns to full duties after a month of partial disability, so his partial benefit ends."
+      ],
+      "examTip": "Partial = flat percentage of the total benefit (often 50%), regardless of actual income loss. Residual = proportional to actual income loss.",
+      "misconception": "Partial disability benefits are not based on the exact percentage of income lost; that describes residual disability.",
+      "related": [
+        "residual-disability",
+        "total-disability"
+      ],
+      "confusedWith": [
+        "residual-disability"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A partial disability benefit is typically calculated as:",
+        "choices": [
+          "A fixed percentage of the total disability benefit",
+          "The insured's exact percentage of lost income",
+          "The full total disability benefit",
+          "The insured's medical expenses"
+        ],
+        "answerIndex": 0,
+        "explanation": "Partial disability usually pays a set percentage (commonly 50%) of the total disability benefit for a limited time. A residual benefit is proportional to income loss."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "residual-disability",
+      "term": "Residual Disability",
+      "aliases": [],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.2.5.5"
+      ],
+      "formal": "A disability income benefit payable when the insured, because of sickness or injury, suffers a loss of income (commonly a stated minimum, such as 20% or more) while still working; the benefit equals the total disability benefit multiplied by the percentage of income lost compared with pre-disability earnings.",
+      "plain": "Residual disability pays when you can still work but earn less because of your disability. The benefit matches the percentage of income you lost.",
+      "simpler": "Lose 40% of your income because of a disability, get 40% of your full benefit.",
+      "examples": [
+        "Zack earned $10,000 a month before his disability and now earns $6,000. His income loss is ($10,000 − $6,000) ÷ $10,000 = 40%, so his residual benefit is 40% × $5,000 total benefit = $2,000 a month.",
+        "Amy's income drops by only 10%, which is below her policy's minimum income-loss threshold, so no residual benefit is payable."
+      ],
+      "examTip": "Formula: (pre-disability income − current income) ÷ pre-disability income × total disability benefit. Residual is income-based; partial is a flat percentage.",
+      "misconception": "Residual disability does not require the insured to stop working; it is designed for people who return to work at reduced earnings.",
+      "related": [
+        "partial-disability",
+        "total-disability",
+        "own-occupation"
+      ],
+      "confusedWith": [
+        "partial-disability"
+      ],
+      "difficulty": 3,
+      "practice": {
+        "prompt": "Before disability Cora earned $8,000 a month; she now earns $6,000. Her total disability benefit is $4,000. Her residual benefit is:",
+        "choices": [
+          "$1,000",
+          "$2,000",
+          "$3,000",
+          "$4,000"
+        ],
+        "answerIndex": 0,
+        "explanation": "Income loss = ($8,000 − $6,000) ÷ $8,000 = 25%. Residual benefit = 25% × $4,000 = $1,000."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "short-term-disability",
+      "term": "Short-Term Disability (STD)",
+      "aliases": [],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.3.2",
+        "di.3"
+      ],
+      "formal": "Group (or individual) disability income coverage with a short elimination period (often a few days, or none for accidents) and a relatively short benefit period (commonly measured in weeks, up to about a year or two), typically replacing a percentage of the employee's earnings.",
+      "plain": "STD replaces part of your pay for a short time when you can't work, and it starts quickly.",
+      "simpler": "Quick-start, short-run income replacement.",
+      "examples": [
+        "Ben's employer STD plan begins paying on the 8th day of a sickness and pays 60% of his salary for up to 26 weeks.",
+        "When Ben's disability lasts longer than his STD benefit period, his group LTD plan may pick up after its longer elimination period."
+      ],
+      "examTip": "STD: short elimination period, short benefit period. LTD: long elimination period, long benefit period (years or to age 65). STD often ends where LTD begins.",
+      "misconception": "STD is not the same as New York's statutory Disability Benefits Law coverage, although employers may meet that requirement with an insured plan; check the gov section for DBL rules.",
+      "related": [
+        "long-term-disability",
+        "elimination-period",
+        "benefit-period",
+        "disability-benefits-law",
+        "occupational-coverage"
+      ],
+      "confusedWith": [
+        "long-term-disability"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Compared with long-term disability, short-term disability typically has:",
+        "choices": [
+          "A longer elimination period and longer benefit period",
+          "No benefit period at all",
+          "A shorter elimination period and shorter benefit period",
+          "Benefits payable only for accidents"
+        ],
+        "answerIndex": 2,
+        "explanation": "STD starts sooner and pays for a shorter time; LTD starts later and pays longer."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "long-term-disability",
+      "term": "Long-Term Disability (LTD)",
+      "aliases": [],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.3.3",
+        "di.3"
+      ],
+      "formal": "Group (or individual) disability income coverage with a longer elimination period (commonly 90 days or more, often coordinated with the end of STD) and a long benefit period (several years or to age 65 or Social Security normal retirement age), typically replacing a percentage of earnings and often coordinated with Social Security disability benefits.",
+      "plain": "LTD covers long disabilities. It starts after a longer wait and can pay for many years, sometimes until retirement age.",
+      "simpler": "The long-haul income replacement that kicks in after short-term coverage.",
+      "examples": [
+        "Cy's group LTD plan has a 180-day elimination period and pays 60% of salary to age 65, reduced by any Social Security disability benefits he receives.",
+        "Dee's group LTD uses an own-occupation definition for 24 months and an any-occupation definition after that."
+      ],
+      "examTip": "Group LTD commonly integrates (offsets) benefits with Social Security and other income. Benefit periods are long, which makes the definition of disability especially important.",
+      "misconception": "LTD is not designed to cover short absences; its long elimination period screens them out.",
+      "related": [
+        "short-term-disability",
+        "any-occupation",
+        "social-security-disability",
+        "benefit-period"
+      ],
+      "confusedWith": [
+        "short-term-disability"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A group disability plan with a 180-day elimination period and benefits to age 65 is most likely:",
+        "choices": [
+          "Short-term disability",
+          "Business overhead expense",
+          "Hospital indemnity",
+          "Long-term disability"
+        ],
+        "answerIndex": 3,
+        "explanation": "A long elimination period and a benefit period to age 65 are the marks of LTD."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "key-person-disability",
+      "term": "Key Person Disability Income",
+      "aliases": [],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.4.1"
+      ],
+      "formal": "Disability insurance owned by a business on a key employee, with the business as premium payer and beneficiary, that pays the business a benefit if the key person becomes disabled, to offset lost revenue and the cost of finding a replacement.",
+      "plain": "If an employee who's critical to the business becomes disabled, this policy pays the business (not the employee) to help it survive the loss.",
+      "simpler": "Protects the business's bottom line when a vital person can't work.",
+      "examples": [
+        "Eva's tech startup owns a key person disability policy on its lead engineer. When he is disabled, the policy pays the company to help hire and train a replacement.",
+        "Because the business is the beneficiary, the disabled engineer does not receive these benefits personally."
+      ],
+      "examTip": "Key person: business owns, pays and receives the benefits. Tax treatment commonly: premiums not deductible; benefits received tax-free by the business.",
+      "misconception": "Key person disability insurance does not replace the key person's own income; the benefits go to the business.",
+      "related": [
+        "key-person-insurance",
+        "disability-buy-sell",
+        "business-overhead-expense"
+      ],
+      "confusedWith": [
+        "business-overhead-expense",
+        "key-person-insurance"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "In key person disability insurance, who is the beneficiary?",
+        "choices": [
+          "The business",
+          "The disabled employee",
+          "The employee's family",
+          "The state disability fund"
+        ],
+        "answerIndex": 0,
+        "explanation": "The business owns the policy, pays the premium and receives the benefits."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "disability-buy-sell",
+      "term": "Disability Buy-Sell Policy",
+      "aliases": [],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.4.2"
+      ],
+      "formal": "Disability insurance that funds a buy-sell agreement among business owners, providing money (usually a lump sum or installments) for the remaining owners or the business to purchase a totally disabled owner's interest; these policies typically have long elimination periods (often a year or more).",
+      "plain": "If a business owner becomes permanently disabled, this policy provides the money for the other owners to buy out the disabled owner's share, as their buy-sell agreement requires.",
+      "simpler": "Funds the buyout of an owner who can't come back.",
+      "examples": [
+        "Fran and Gil co-own a firm with a disability buy-sell agreement. When Gil is totally disabled past the policy's elimination period, the policy pays Fran a lump sum to buy Gil's share.",
+        "The long elimination period helps make sure the buyout happens only if the disability is likely to be long-lasting."
+      ],
+      "examTip": "Disability buy-sell: long elimination period, lump-sum (or installment) payout, used to fund the purchase of a disabled owner's interest.",
+      "misconception": "A disability buy-sell policy does not pay the business's rent or utilities; that is business overhead expense coverage.",
+      "related": [
+        "buy-sell-agreement",
+        "key-person-disability",
+        "business-overhead-expense",
+        "elimination-period"
+      ],
+      "confusedWith": [
+        "business-overhead-expense"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which business disability policy is designed to fund the purchase of a disabled owner's interest?",
+        "choices": [
+          "Key person disability",
+          "Disability buy-sell",
+          "Business overhead expense",
+          "Group short-term disability"
+        ],
+        "answerIndex": 1,
+        "explanation": "Disability buy-sell coverage funds the buyout required by a buy-sell agreement."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "business-overhead-expense",
+      "term": "Business Overhead Expense (BOE)",
+      "aliases": [
+        "BOE"
+      ],
+      "sectionId": "di",
+      "outlineIds": [
+        "di.4.3"
+      ],
+      "formal": "Disability insurance that reimburses a business owner's covered fixed overhead expenses (such as rent, utilities and employees' salaries, but not the owner's own salary) while the owner is disabled, typically for a limited benefit period. NY Reg 62 requires policies limiting benefits to specified items, such as business overhead policies, to provide a premium refund if none of the items to be indemnified exist (for example, the office is discontinued), if the insured gives timely notice; the refund may be limited to one year's premium (11 NYCRR 52.17(c)(2)).",
+      "plain": "BOE keeps the lights on: it pays the business's regular bills like rent and staff salaries while the owner is disabled, so the business is still there when the owner returns.",
+      "simpler": "It pays the office bills, not the owner's paycheck.",
+      "examples": [
+        "Hal, a dentist, is disabled for four months. His BOE policy reimburses his office rent, utilities and his hygienist's salary during that time.",
+        "Hal's own lost income is covered by his personal disability income policy, not by BOE."
+      ],
+      "examTip": "BOE pays business expenses, not the owner's salary. Tax treatment commonly: premiums deductible as a business expense; benefits taxable as business income.",
+      "misconception": "BOE does not replace the owner's personal income or fund a buyout.",
+      "related": [
+        "key-person-disability",
+        "disability-buy-sell",
+        "disability-income-insurance"
+      ],
+      "confusedWith": [
+        "key-person-disability",
+        "disability-buy-sell"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Which expense would a business overhead expense policy NOT reimburse?",
+        "choices": [
+          "Office rent",
+          "Utilities",
+          "The disabled owner's own salary",
+          "Employees' salaries"
+        ],
+        "answerIndex": 2,
+        "explanation": "BOE covers fixed business overhead such as rent, utilities and staff salaries, but not the owner's own income."
+      },
+      "sources": [
+        "ny-11nycrr-52"
+      ],
+      "nySpecific": true,
+      "timeSensitive": false,
+      "verification": {
+        "status": "verified",
+        "method": "regulation-text",
+        "checkedOn": "2026-11-19",
+        "notes": "NY premium-refund rule verified in 11 NYCRR 52.17(c)(2); description and tax treatment are general principles."
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "a": "own-occupation",
+      "b": "any-occupation",
+      "keyDifference": "Own occupation pays if the insured cannot perform his or her own occupation; any occupation pays only if the insured cannot perform any occupation reasonably suited to his or her education, training or experience.",
+      "rows": [
+        {
+          "aspect": "Test",
+          "a": "Can't do your own job",
+          "b": "Can't do any job you're reasonably suited for"
+        },
+        {
+          "aspect": "Favorable to",
+          "a": "The insured (easier to qualify)",
+          "b": "The insurer (harder to qualify)"
+        },
+        {
+          "aspect": "Premium",
+          "a": "Higher",
+          "b": "Lower"
+        },
+        {
+          "aspect": "Common use",
+          "a": "Professionals; early period of group LTD claims",
+          "b": "Later period of group LTD claims; lower-cost plans"
+        }
+      ],
+      "memoryTip": "OWN = your Own job; ANY = Any suitable job."
+    },
+    {
+      "a": "partial-disability",
+      "b": "residual-disability",
+      "keyDifference": "Partial disability pays a flat percentage of the total benefit (often 50%) for a limited time; residual disability pays in proportion to the insured's actual percentage of income lost.",
+      "rows": [
+        {
+          "aspect": "Trigger",
+          "a": "Can't perform some duties or works part time",
+          "b": "Loss of income due to disability while working"
+        },
+        {
+          "aspect": "Benefit amount",
+          "a": "Fixed percentage of total benefit",
+          "b": "Income-loss % × total benefit"
+        },
+        {
+          "aspect": "Duration",
+          "a": "Usually short (limited period)",
+          "b": "Often to the end of the benefit period"
+        }
+      ],
+      "memoryTip": "Partial = a set Portion; Residual = Reflects the Reduction in income."
+    },
+    {
+      "a": "elimination-period",
+      "b": "benefit-period",
+      "keyDifference": "The elimination period is the waiting time before benefits begin; the benefit period is the maximum time benefits are paid.",
+      "rows": [
+        {
+          "aspect": "Question it answers",
+          "a": "When do benefits start?",
+          "b": "How long do benefits last?"
+        },
+        {
+          "aspect": "Effect of making it longer",
+          "a": "Lowers the premium",
+          "b": "Raises the premium"
+        },
+        {
+          "aspect": "Analogy",
+          "a": "A deductible measured in time",
+          "b": "The policy's payout limit measured in time"
+        }
+      ],
+      "memoryTip": "Elimination = Entry wait; Benefit period = Benefit's Breadth."
+    },
+    {
+      "a": "short-term-disability",
+      "b": "long-term-disability",
+      "keyDifference": "STD starts quickly and pays for a short time; LTD starts after a longer elimination period and pays for years, often to age 65.",
+      "rows": [
+        {
+          "aspect": "Elimination period",
+          "a": "Short (days)",
+          "b": "Long (commonly 90 days or more)"
+        },
+        {
+          "aspect": "Benefit period",
+          "a": "Weeks to about a year or two",
+          "b": "Several years to age 65 or retirement age"
+        },
+        {
+          "aspect": "Typical coordination",
+          "a": "Ends where LTD begins",
+          "b": "Often offset by Social Security disability benefits"
+        }
+      ],
+      "memoryTip": "Short starts Soon and Stops Soon; Long waits Longer and Lasts Longer."
+    }
+  ]
+}

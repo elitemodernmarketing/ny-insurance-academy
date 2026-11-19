@@ -1,0 +1,517 @@
+{
+ "complianceCases": [],
+ "clientProfiles": [],
+ "beneficiaryCases": [
+  {
+   "id": "lpr-bc-per-stirpes",
+   "title": "Helen's Children: Per Stirpes vs. Per Capita",
+   "setup": "Helen, a widow, owns a $600,000 whole life policy on her own life. She names \"my children, in equal shares, per stirpes\": Amy, Ben and Carl. She names no contingent beneficiary. Carl has two children, Dana and Eli.",
+   "faceAmount": 600000,
+   "designation": {
+    "primary": [
+     {
+      "name": "Amy",
+      "relation": "Daughter",
+      "sharePct": 33.33
+     },
+     {
+      "name": "Ben",
+      "relation": "Son",
+      "sharePct": 33.33
+     },
+     {
+      "name": "Carl",
+      "relation": "Son",
+      "sharePct": 33.34
+     }
+    ],
+    "contingent": [],
+    "distribution": "per-stirpes",
+    "revocable": true
+   },
+   "events": [
+    {
+     "id": "e1",
+     "label": "All three children survive Helen.",
+     "outcome": "Per stirpes only matters when a beneficiary has died first. Each child receives an equal one-third share: $600,000 ÷ 3 = $200,000.",
+     "payouts": [
+      {
+       "name": "Amy",
+       "amount": 200000
+      },
+      {
+       "name": "Ben",
+       "amount": 200000
+      },
+      {
+       "name": "Carl",
+       "amount": 200000
+      }
+     ]
+    },
+    {
+     "id": "e2",
+     "label": "Carl dies before Helen, survived by his children Dana and Eli.",
+     "outcome": "Per stirpes divides by family branch. Each of the three branches gets $200,000. Carl's $200,000 passes down his branch to his two children, $100,000 each.",
+     "payouts": [
+      {
+       "name": "Amy",
+       "amount": 200000
+      },
+      {
+       "name": "Ben",
+       "amount": 200000
+      },
+      {
+       "name": "Dana",
+       "amount": 100000
+      },
+      {
+       "name": "Eli",
+       "amount": 100000
+      }
+     ]
+    },
+    {
+     "id": "e3",
+     "label": "What if: Carl dies first, and Helen's designation had said \"per capita\" instead.",
+     "outcome": "Per capita divides equally among the named beneficiaries still living. Only Amy and Ben survive, so each receives $600,000 ÷ 2 = $300,000. Carl's children receive nothing.",
+     "payouts": [
+      {
+       "name": "Amy",
+       "amount": 300000
+      },
+      {
+       "name": "Ben",
+       "amount": 300000
+      }
+     ]
+    }
+   ],
+   "concepts": [
+    "per-stirpes",
+    "per-capita",
+    "beneficiary",
+    "primary-beneficiary"
+   ],
+   "outlineIds": [
+    "lpr.2.1.2",
+    "lpr.2.1.1"
+   ],
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-bc-common-disaster",
+   "title": "Mark and Laura: Common Disaster and Predeceased Beneficiaries",
+   "setup": "Mark owns a $400,000 policy on his own life. He names his wife, Laura, as primary beneficiary and his brother Sam and sister Tina as contingent beneficiaries, 50% each. The policy's common disaster clause requires a beneficiary to survive Mark by 30 days to receive the proceeds.",
+   "faceAmount": 400000,
+   "designation": {
+    "primary": [
+     {
+      "name": "Laura",
+      "relation": "Wife",
+      "sharePct": 100
+     }
+    ],
+    "contingent": [
+     {
+      "name": "Sam",
+      "relation": "Brother",
+      "sharePct": 50
+     },
+     {
+      "name": "Tina",
+      "relation": "Sister",
+      "sharePct": 50
+     }
+    ],
+    "distribution": "named-shares",
+    "revocable": true
+   },
+   "events": [
+    {
+     "id": "e1",
+     "label": "Mark dies of an illness; Laura is alive and well.",
+     "outcome": "The primary beneficiary survives, so Laura receives the full proceeds. The contingent beneficiaries receive nothing.",
+     "payouts": [
+      {
+       "name": "Laura",
+       "amount": 400000
+      }
+     ]
+    },
+    {
+     "id": "e2",
+     "label": "Mark and Laura are in the same car crash. Mark dies at the scene; Laura dies five days later.",
+     "outcome": "Laura did not survive Mark by the required 30 days, so the common disaster clause treats her as having died first. The proceeds go to the contingent beneficiaries in their named shares — not to Laura's estate.",
+     "payouts": [
+      {
+       "name": "Sam",
+       "amount": 200000
+      },
+      {
+       "name": "Tina",
+       "amount": 200000
+      }
+     ]
+    },
+    {
+     "id": "e3",
+     "label": "Laura survives Mark by 45 days but dies before the claim is paid.",
+     "outcome": "Laura met the 30-day survival requirement, so she was entitled to the proceeds. Because she has since died, the insurer pays her estate, and the money passes under her will (or state law). The contingent beneficiaries receive nothing.",
+     "payouts": [
+      {
+       "name": "Estate of Laura",
+       "amount": 400000
+      }
+     ]
+    },
+    {
+     "id": "e4",
+     "label": "Laura, Sam and Tina all died years before Mark, and he never updated his designation.",
+     "outcome": "No named beneficiary survives, so the proceeds are paid to Mark's estate. The money goes through probate, which can delay payment, and it is available to the estate's creditors. Naming a new beneficiary would have avoided this.",
+     "payouts": [
+      {
+       "name": "Estate of Mark",
+       "amount": 400000
+      }
+     ]
+    }
+   ],
+   "concepts": [
+    "common-disaster-clause",
+    "contingent-beneficiary",
+    "primary-beneficiary",
+    "beneficiary"
+   ],
+   "outlineIds": [
+    "lpr.2.1.8",
+    "lpr.2.1.6",
+    "lpr.2.1.3"
+   ],
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-bc-irrevocable-minor",
+   "title": "Omar's Divorce Decree: Irrevocable Beneficiary and a Minor Contingent",
+   "setup": "As part of his divorce settlement, Omar named his former wife, Rita, as irrevocable primary beneficiary of his $300,000 whole life policy. His son Leo, age 8, is the contingent beneficiary. Omar later remarries and would like his new wife, Sara, to be the beneficiary.",
+   "faceAmount": 300000,
+   "designation": {
+    "primary": [
+     {
+      "name": "Rita",
+      "relation": "Former wife",
+      "sharePct": 100
+     }
+    ],
+    "contingent": [
+     {
+      "name": "Leo",
+      "relation": "Son (minor)",
+      "sharePct": 100
+     }
+    ],
+    "distribution": "named-shares",
+    "revocable": false
+   },
+   "events": [
+    {
+     "id": "e1",
+     "label": "Omar tries to name Sara without Rita's consent, then dies.",
+     "outcome": "An irrevocable beneficiary has a vested interest; the owner cannot change the designation without her written consent. The attempted change is ineffective, and Rita receives the proceeds.",
+     "payouts": [
+      {
+       "name": "Rita",
+       "amount": 300000
+      }
+     ]
+    },
+    {
+     "id": "e2",
+     "label": "Rita signs a written consent, Omar names Sara as primary beneficiary, and later dies.",
+     "outcome": "With the irrevocable beneficiary's written consent, the designation can be changed. Sara is now the primary beneficiary and receives the proceeds.",
+     "payouts": [
+      {
+       "name": "Sara",
+       "amount": 300000
+      }
+     ]
+    },
+    {
+     "id": "e3",
+     "label": "The designation was never changed. Rita dies before Omar; Omar then dies while Leo is 9.",
+     "outcome": "Rita predeceased Omar, so the contingent beneficiary, Leo, is entitled. Because a minor cannot give the insurer a valid release, the insurer generally pays a court-appointed guardian of Leo's property or another authorized custodian (a trust named in advance would have avoided the need for a guardian).",
+     "payouts": [
+      {
+       "name": "Guardian or custodian for Leo (minor)",
+       "amount": 300000
+      }
+     ]
+    }
+   ],
+   "concepts": [
+    "irrevocable-beneficiary",
+    "revocable-beneficiary",
+    "contingent-beneficiary",
+    "beneficiary"
+   ],
+   "outlineIds": [
+    "lpr.2.1.7",
+    "lpr.2.1.4",
+    "lpr.2.1.6"
+   ],
+   "sources": [
+    "general-insurance-principles"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "reviewed",
+    "method": "general-principle",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ],
+ "policyTimelines": [
+  {
+   "id": "lpr-tl-ny-whole-life",
+   "title": "A New York Whole Life Policy From Application to Reinstatement",
+   "intro": "Follow Priya's fixed-premium whole life policy, issued in New York, through its life cycle. Day 0 is the day she signs the application. Her policy is issued on day 21, gives a 10-day free look, and has an annual premium due on each policy anniversary (days 386 and 751). The policy has no automatic premium loan and, for this example, no cash value yet when the missed premium occurs.",
+   "steps": [
+    {
+     "id": "s1",
+     "day": 0,
+     "label": "Application and conditional receipt",
+     "detail": "Priya signs the application and pays the first annual premium. The producer gives her a conditional receipt: coverage can begin before the policy is issued if she is found insurable as applied for under the insurer's rules.",
+     "status": "pending",
+     "sources": []
+    },
+    {
+     "id": "s2",
+     "day": 21,
+     "label": "Underwriting complete; policy issued",
+     "detail": "The insurer approves Priya as a standard risk and issues the policy. Day 21 is the date of issue — the date that starts the two-year incontestable and suicide-exclusion periods.",
+     "status": "pending",
+     "sources": [
+      "ny-isc-3203"
+     ]
+    },
+    {
+     "id": "s3",
+     "day": 28,
+     "label": "Delivery; free look begins",
+     "detail": "The producer delivers the policy. The 10-day free-look period runs from delivery, so Priya can return it with a written cancellation request through day 38 for a full refund of premiums and fees.",
+     "status": "in-force",
+     "question": {
+      "prompt": "Priya returns the policy with a written cancellation request on day 35. What does she receive?",
+      "choices": [
+       "A full refund of premiums, including fees",
+       "Nothing, because the policy was issued on day 21",
+       "Only the cash surrender value",
+       "A refund minus a cancellation charge"
+      ],
+      "answerIndex": 0,
+      "explanation": "The free look is measured from delivery (day 28). Day 35 is within 10 days, so NY Insurance Law § 3203(a)(11) requires a refund of all premiums, fees and charges."
+     },
+     "sources": [
+      "ny-isc-3203"
+     ]
+    },
+    {
+     "id": "s4",
+     "day": 386,
+     "label": "First anniversary premium paid",
+     "detail": "Priya pays her second annual premium on time. The policy stays in force.",
+     "status": "in-force",
+     "sources": []
+    },
+    {
+     "id": "s5",
+     "day": 751,
+     "label": "Two years from issue — policy becomes incontestable",
+     "detail": "The policy has now been in force for two years from its issue date during Priya's lifetime. From now on, the insurer cannot contest it for misstatements on the application (except for nonpayment of premiums and armed-forces service conditions).",
+     "status": "in-force",
+     "sources": [
+      "ny-isc-3203"
+     ]
+    },
+    {
+     "id": "s6",
+     "day": 751,
+     "label": "Premium due but not paid; grace period begins",
+     "detail": "Priya misses the premium due on day 751. Her fixed-premium policy has a 31-day grace period, so it remains in full force through day 782.",
+     "status": "grace",
+     "question": {
+      "prompt": "Priya dies on day 770 without paying the overdue premium. What does her beneficiary receive?",
+      "choices": [
+       "Nothing, because the premium is overdue",
+       "The face amount minus the unpaid premium",
+       "The face amount plus a refund of the last premium",
+       "Only the premiums Priya paid"
+      ],
+      "answerIndex": 1,
+      "explanation": "Day 770 is within the 31-day grace period, so the policy is in force. Under § 3203(a)(2) the insurer may deduct the unpaid premium from the proceeds."
+     },
+     "sources": [
+      "ny-isc-3203"
+     ]
+    },
+    {
+     "id": "s7",
+     "day": 782,
+     "label": "Grace period ends; policy lapses",
+     "detail": "The grace period expires with the premium unpaid. With no automatic premium loan and no cash value to apply under a nonforfeiture option, the policy lapses.",
+     "status": "lapsed",
+     "sources": []
+    },
+    {
+     "id": "s8",
+     "day": 1000,
+     "label": "Application for reinstatement",
+     "detail": "Priya wants her coverage back. She is within three years of the date of default, so New York law entitles her to reinstate if she applies, provides evidence of insurability satisfactory to the insurer, and pays all overdue premiums with interest of no more than 6% per year compounded annually (plus any policy debt).",
+     "status": "pending",
+     "question": {
+      "prompt": "Which is required for Priya to reinstate her policy under New York law?",
+      "choices": [
+       "Evidence of insurability satisfactory to the insurer",
+       "A new two-year free-look period",
+       "Overdue premiums with no interest",
+       "Approval from her beneficiary"
+      ],
+      "answerIndex": 0,
+      "explanation": "§ 3203(a)(10) requires an application, evidence of insurability, overdue premiums with interest of up to 6% compounded annually, and payment or reinstatement of other indebtedness."
+     },
+     "sources": [
+      "ny-isc-3203"
+     ]
+    },
+    {
+     "id": "s9",
+     "day": 1030,
+     "label": "Policy reinstated",
+     "detail": "The insurer approves the reinstatement after Priya passes underwriting and pays the overdue premiums with interest. Her original policy — with its original issue date and issue age — is back in force.",
+     "status": "reinstated",
+     "sources": [
+      "ny-isc-3203"
+     ]
+    }
+   ],
+   "concepts": [
+    "conditional-receipt",
+    "policy-delivery",
+    "free-look",
+    "grace-period",
+    "incontestability",
+    "reinstatement"
+   ],
+   "outlineIds": [
+    "lpr.1.4",
+    "lpr.1.5",
+    "lpr.1.6",
+    "lpr.1.7",
+    "lpr.1.8"
+   ],
+   "sources": [
+    "ny-isc-3203"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "lpr-tl-ny-universal-life",
+   "title": "A New York Universal Life Policy Runs Low on Cash Value",
+   "intro": "Quentin owns a flexible-premium universal life policy issued in New York. He has been paying less than the planned premium, and the monthly charges have been drawing down his cash value. Day 0 is the day the insurer determines that his net cash surrender value is not enough to cover the policy charges.",
+   "steps": [
+    {
+     "id": "s1",
+     "day": -30,
+     "label": "Policy in force, cash value shrinking",
+     "detail": "Quentin's reduced premiums are not covering the monthly cost of insurance and expense charges, so the insurer is deducting them from the cash value.",
+     "status": "in-force",
+     "sources": []
+    },
+    {
+     "id": "s2",
+     "day": 0,
+     "label": "Insurer determines the cash value is insufficient; grace begins",
+     "detail": "For flexible-premium policies, New York's grace period is 61 days, beginning on the day the insurer determines the net cash surrender value is insufficient to pay the charges. Quentin's grace period runs through day 61.",
+     "status": "grace",
+     "question": {
+      "prompt": "How long is Quentin's grace period?",
+      "choices": [
+       "31 days",
+       "61 days",
+       "10 days",
+       "Three years"
+      ],
+      "answerIndex": 1,
+      "explanation": "NY Insurance Law § 3203(a)(1) gives flexible-premium policies a 61-day grace period from the insurer's determination."
+     },
+     "sources": [
+      "ny-isc-3203"
+     ]
+    },
+    {
+     "id": "s3",
+     "day": 61,
+     "label": "Grace period ends unpaid; policy lapses",
+     "detail": "Quentin does not pay enough premium to cover the charges by the end of the grace period, so the policy lapses.",
+     "status": "lapsed",
+     "sources": []
+    },
+    {
+     "id": "s4",
+     "day": 200,
+     "label": "Reinstatement",
+     "detail": "Within three years of default, Quentin applies to reinstate, provides evidence of insurability and pays the required overdue amounts with interest. The insurer reinstates the policy.",
+     "status": "reinstated",
+     "sources": [
+      "ny-isc-3203"
+     ]
+    }
+   ],
+   "concepts": [
+    "grace-period",
+    "universal-life",
+    "reinstatement"
+   ],
+   "outlineIds": [
+    "lpr.1.6",
+    "lpr.1.7"
+   ],
+   "sources": [
+    "ny-isc-3203"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

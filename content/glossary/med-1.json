@@ -1,0 +1,692 @@
+{
+  "sectionId": "med",
+  "terms": [
+    {
+      "id": "fee-for-service",
+      "term": "Fee-for-Service",
+      "aliases": [
+        "FFS",
+        "fee-for-service basis"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.1.1"
+      ],
+      "formal": "A payment method in which a provider bills separately for each service performed and the insurer pays (or reimburses the insured) after the service is delivered, subject to the plan's cost-sharing.",
+      "plain": "You go to the doctor, the doctor charges for each visit, test or procedure, and the insurer pays its share of each bill after the care is given.",
+      "simpler": "Like paying a mechanic item by item: every part and every hour of labor shows up as its own charge, and the insurance company settles the bill afterward.",
+      "examples": [
+        "Lena sees a specialist under a traditional indemnity plan. The office bills $250 for the visit and $120 for an X-ray, and the insurer pays its share of each charge after Lena files the claim.",
+        "A surgeon bills one fee for the operation and a separate fee for each follow-up visit; each fee is reviewed and paid on its own."
+      ],
+      "examTip": "Fee-for-service = pay AFTER care, per service. Prepaid (HMO) = a fixed amount paid IN ADVANCE regardless of how much care is used.",
+      "misconception": "Fee-for-service does not mean the patient pays the whole bill. The insurer still pays its share; the term describes how providers are paid (per service, after the fact).",
+      "related": [
+        "prepaid-plan",
+        "major-medical",
+        "usual-reasonable-customary"
+      ],
+      "confusedWith": [
+        "prepaid-plan"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Under which arrangement does a provider bill separately for each service, with the insurer paying after the care is delivered?",
+        "choices": [
+          "Fee-for-service",
+          "Capitation",
+          "Prepaid group practice",
+          "Stop-loss"
+        ],
+        "answerIndex": 0,
+        "explanation": "Fee-for-service pays per service after delivery. Capitation and prepaid group practice pay a fixed amount in advance; stop-loss protects a self-funded employer against large claims."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "prepaid-plan",
+      "term": "Prepaid Plan",
+      "aliases": [
+        "prepaid basis",
+        "capitation"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.1.1"
+      ],
+      "formal": "A health care financing arrangement in which a fixed periodic payment is made in advance to cover a defined range of services, regardless of how many services a member actually uses; providers are often paid a fixed amount per member (capitation).",
+      "plain": "The plan is paid up front each month, and in return its doctors provide the covered care you need. The provider gets the same amount per member whether you visit once or ten times.",
+      "simpler": "Like a gym membership: you pay a set monthly fee and can use the covered services, instead of paying per visit.",
+      "examples": [
+        "An HMO pays a primary care physician a fixed $40 per member per month for every member assigned to that doctor, whether or not the members come in.",
+        "Raj pays his monthly HMO premium and a small copayment at each visit; he never files claim forms because the HMO's providers are already paid in advance."
+      ],
+      "examTip": "Prepaid basis is the hallmark of the HMO. If a question mentions capitation or 'paid in advance per member', think HMO.",
+      "misconception": "Prepaid does not mean members pay nothing at the point of service; HMOs commonly charge small copayments. It means the provider's compensation is set in advance.",
+      "related": [
+        "hmo",
+        "fee-for-service",
+        "subscriber"
+      ],
+      "confusedWith": [
+        "fee-for-service"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "An HMO pays its doctors a fixed monthly amount for each enrolled member regardless of how often the member is seen. This is an example of:",
+        "choices": [
+          "A fee-for-service basis",
+          "A prepaid (capitation) basis",
+          "A usual, reasonable and customary basis",
+          "A scheduled indemnity basis"
+        ],
+        "answerIndex": 1,
+        "explanation": "A fixed per-member amount paid in advance is capitation, the prepaid basis typical of HMOs. Fee-for-service, URC and schedules all pay per service after it is delivered."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "usual-reasonable-customary",
+      "term": "Usual, Reasonable and Customary (URC)",
+      "aliases": [
+        "UCR",
+        "reasonable and customary",
+        "allowed amount"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.1.3"
+      ],
+      "formal": "The amount an insurer considers appropriate for a service, based on what providers in the same geographic area generally charge for the same or a similar service; covered expenses above this amount are not reimbursed.",
+      "plain": "Instead of a fixed price list, the insurer pays based on the going rate for that service in your area. If your doctor charges more than the going rate, the insurer ignores the extra.",
+      "simpler": "Think of the 'fair market price' for a haircut in your neighborhood. If your barber charges far more, the insurer only counts the fair price.",
+      "examples": [
+        "The URC amount for a knee MRI in Albany is $900. Dr. Pike bills $1,100. The insurer applies its deductible and coinsurance to $900 only; the extra $200 is not a covered expense.",
+        "Two patients have the same procedure in different regions and the insurer's allowed amounts differ, because URC is based on local charges."
+      ],
+      "examTip": "Benefit schedule = a fixed dollar list written in the policy. URC = flexible, based on area charges. URC plans adjust automatically as local prices change.",
+      "misconception": "URC is not whatever the doctor bills. It is the insurer's determination of the normal area charge, which may be less than the bill.",
+      "related": [
+        "major-medical",
+        "fee-for-service",
+        "coinsurance"
+      ],
+      "confusedWith": [],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "A policy pays covered expenses based on what providers in the same area generally charge for the service. This approach is called:",
+        "choices": [
+          "Capitation",
+          "A benefit schedule",
+          "Usual, reasonable and customary charges",
+          "Coordination of benefits"
+        ],
+        "answerIndex": 2,
+        "explanation": "URC bases payment on prevailing charges in the area. A benefit schedule lists fixed dollar amounts; capitation is a prepaid per-member fee; COB applies when two plans cover the same person."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "subscriber",
+      "term": "Subscriber",
+      "aliases": [
+        "member",
+        "participant",
+        "enrollee"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.1.5"
+      ],
+      "formal": "A person who enrolls in and receives services from a service-type plan (such as an HMO or a hospital/medical service plan) that provides care through contracted providers, as distinguished from an insured, who is reimbursed for covered losses under an insurance policy.",
+      "plain": "Commercial insurance policies cover 'insureds'. Service plans such as HMOs call the people they cover 'subscribers' or 'members', because they sign up to receive care rather than receive cash reimbursement.",
+      "simpler": "An insured is like a customer who gets reimbursed after buying something; a subscriber is like a member of a club who simply uses the club's services.",
+      "examples": [
+        "Ana joins her employer's HMO. In the HMO's documents she is the subscriber, and her husband and son are covered dependents.",
+        "Ben buys an individual indemnity major medical policy from an insurance company; he is the insured, and the company reimburses his covered expenses."
+      ],
+      "examTip": "Insurers have 'insureds' who are reimbursed; service plans and HMOs have 'subscribers' or 'members' who receive services.",
+      "misconception": "A subscriber is not a policyowner of an individual life policy or a stockholder of the plan. The word only identifies the person enrolled in a service plan.",
+      "related": [
+        "hmo",
+        "prepaid-plan",
+        "insured"
+      ],
+      "confusedWith": [
+        "insured"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "In an HMO, the person who enrolls and receives services is usually called the:",
+        "choices": [
+          "Applicant-owner",
+          "Beneficiary",
+          "Annuitant",
+          "Subscriber"
+        ],
+        "answerIndex": 3,
+        "explanation": "Service plans such as HMOs call enrollees subscribers or members. A beneficiary receives life insurance proceeds and an annuitant is the measuring life of an annuity."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "major-medical",
+      "term": "Major Medical Insurance",
+      "aliases": [
+        "major medical",
+        "comprehensive major medical",
+        "indemnity medical plan"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.1",
+        "med.2.1.1",
+        "med.1.2"
+      ],
+      "formal": "Medical expense insurance that covers a broad range of hospital, surgical, physician and other medical expenses, typically with a deductible, coinsurance and an out-of-pocket maximum, and with high overall benefit limits.",
+      "plain": "Major medical is the broad 'big bills' health coverage. You pay a deductible first, then share costs with the insurer through coinsurance until you hit an out-of-pocket maximum; after that the plan pays covered costs in full.",
+      "simpler": "Instead of separate small policies for hospital stays, surgery and doctor visits, major medical is one big umbrella over most medical bills, with you paying a share.",
+      "examples": [
+        "Carla's major medical plan has a $1,000 deductible, 80/20 coinsurance and a $5,000 out-of-pocket maximum. A $21,000 hospital bill costs her $1,000 + 20% of $20,000 = $5,000, which equals her maximum.",
+        "A comprehensive major medical plan combines basic hospital/surgical benefits and major medical into a single plan with one deductible."
+      ],
+      "examTip": "Key features: broad coverage, deductible, coinsurance, out-of-pocket (stop-loss) limit and high benefit maximums. 'Comprehensive' care vs. 'specified' coverages (e.g., hospital-only) is a common contrast.",
+      "misconception": "Major medical does not pay every medical bill in full from the first dollar. The insured shares costs until the out-of-pocket maximum is reached, and excluded services are never covered.",
+      "related": [
+        "deductible",
+        "coinsurance",
+        "out-of-pocket-maximum",
+        "medical-expense-insurance"
+      ],
+      "confusedWith": [
+        "hospital-indemnity"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which feature is most characteristic of major medical insurance?",
+        "choices": [
+          "A deductible followed by coinsurance up to an out-of-pocket maximum",
+          "A fixed daily cash benefit for each day in the hospital",
+          "Coverage only for a disease named in the policy",
+          "Payment only for accidental injuries"
+        ],
+        "answerIndex": 0,
+        "explanation": "Major medical uses a deductible, coinsurance and an out-of-pocket limit. Fixed daily cash is hospital indemnity; named-disease coverage is a specified disease policy; accident-only is a limited policy."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "deductible",
+      "term": "Deductible",
+      "aliases": [
+        "calendar-year deductible",
+        "per-cause deductible"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.1.4"
+      ],
+      "formal": "A specified dollar amount of covered expenses the insured must pay each benefit period (commonly a calendar year) before the insurer begins paying benefits.",
+      "plain": "The deductible is the first chunk of covered medical bills you pay yourself each year before the plan starts sharing the cost.",
+      "simpler": "It is like the first few dollars of a car repair you agreed to cover yourself before your car insurance kicks in.",
+      "examples": [
+        "Dev has a $500 calendar-year deductible. His first covered bill of the year is $300, so he pays all $300; on his next $400 bill he pays $200 to finish the deductible, then coinsurance applies to the remaining $200.",
+        "A family plan has a $1,000 individual deductible; after one child's covered bills reach $1,000 that year, cost-sharing for that child moves to coinsurance."
+      ],
+      "examTip": "Deductible comes FIRST, then coinsurance on what is left. In calculation questions, always subtract the deductible before applying the coinsurance percentage.",
+      "misconception": "Paying the deductible does not mean the plan now pays 100%. After the deductible, coinsurance usually applies until the out-of-pocket maximum is reached.",
+      "related": [
+        "coinsurance",
+        "out-of-pocket-maximum",
+        "copayment"
+      ],
+      "confusedWith": [
+        "out-of-pocket-maximum",
+        "copayment"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "The amount of covered expenses an insured must pay before the insurer begins paying benefits is the:",
+        "choices": [
+          "Coinsurance",
+          "Deductible",
+          "Out-of-pocket maximum",
+          "Premium"
+        ],
+        "answerIndex": 1,
+        "explanation": "The deductible is paid first. Coinsurance is the percentage split afterward, the out-of-pocket maximum caps total cost-sharing, and the premium is the price of the coverage itself."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "coinsurance",
+      "term": "Coinsurance",
+      "aliases": [
+        "percentage participation",
+        "80/20 split"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.1.4"
+      ],
+      "formal": "A cost-sharing provision under which the insurer and the insured share covered expenses above the deductible in a stated percentage, such as 80% paid by the insurer and 20% by the insured.",
+      "plain": "After you meet the deductible, you and the insurer split each covered bill by percentage. With 80/20 coinsurance, the plan pays 80 cents of every covered dollar and you pay 20 cents.",
+      "simpler": "Like splitting a restaurant bill with a friend by an agreed percentage: they cover most of it, you cover a smaller share.",
+      "examples": [
+        "After her deductible, Mia has a $2,000 covered bill. With 80/20 coinsurance, the insurer pays $1,600 and Mia pays $400.",
+        "A plan with 70/30 coinsurance means the insured pays 30% of covered costs after the deductible until reaching the out-of-pocket maximum."
+      ],
+      "examTip": "Coinsurance is a PERCENTAGE; a copayment is a flat DOLLAR amount. Apply coinsurance only to covered expenses left after the deductible.",
+      "misconception": "The insured's coinsurance share is not unlimited: once the out-of-pocket maximum is reached, the plan pays 100% of covered expenses for the rest of the period.",
+      "related": [
+        "deductible",
+        "copayment",
+        "out-of-pocket-maximum"
+      ],
+      "confusedWith": [
+        "copayment"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "After meeting the deductible, an insured pays 20% of covered expenses and the insurer pays 80%. This sharing is called:",
+        "choices": [
+          "Coordination of benefits",
+          "A copayment",
+          "Coinsurance",
+          "An elimination period"
+        ],
+        "answerIndex": 2,
+        "explanation": "A percentage split of covered costs is coinsurance. A copayment is a fixed dollar amount, COB applies between two plans, and an elimination period is a waiting period in disability coverage."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "copayment",
+      "term": "Copayment",
+      "aliases": [
+        "copay"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.1.4",
+        "med.2.2.1"
+      ],
+      "formal": "A fixed dollar amount the insured or member pays for a particular covered service, such as an office visit or prescription, at the time the service is received.",
+      "plain": "A copayment is a flat fee you pay each time you use a certain service, like $25 for a doctor visit or $10 for a generic prescription, no matter what the provider's full charge is.",
+      "simpler": "Like a set cover charge at the door: the same small amount every time you walk in.",
+      "examples": [
+        "Theo's HMO charges a $20 copayment for each visit to his primary care physician; the HMO covers the rest of the visit.",
+        "A plan charges a $10 copayment for generic drugs and $40 for brand-name drugs."
+      ],
+      "examTip": "Copayment = fixed dollars per service (common in HMOs). Coinsurance = percentage of the bill (common in major medical/indemnity plans).",
+      "misconception": "A copayment is not a percentage and does not change with the size of the bill. If the question gives a percentage, it is describing coinsurance.",
+      "related": [
+        "coinsurance",
+        "deductible",
+        "hmo"
+      ],
+      "confusedWith": [
+        "coinsurance",
+        "deductible"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "A member pays $25 each time she visits her doctor, regardless of the doctor's charge. This $25 is a:",
+        "choices": [
+          "Premium",
+          "Coinsurance amount",
+          "Deductible",
+          "Copayment"
+        ],
+        "answerIndex": 3,
+        "explanation": "A fixed dollar amount per service is a copayment. Coinsurance is a percentage, a deductible is paid before benefits start, and a premium is the price of the coverage."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "out-of-pocket-maximum",
+      "term": "Out-of-Pocket Maximum",
+      "aliases": [
+        "out-of-pocket limit",
+        "stop-loss limit",
+        "maximum out-of-pocket"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.1.4"
+      ],
+      "formal": "The most an insured must pay in cost-sharing (deductible, coinsurance and, under many plans, copayments) for covered services during a benefit period; after it is reached, the plan pays 100% of covered expenses for the rest of that period.",
+      "plain": "It is a ceiling on your share of covered costs for the year. Once your deductible plus coinsurance (and usually copayments) add up to that amount, the plan pays covered bills in full.",
+      "simpler": "Like a cap on a phone bill: no matter how much you use, you never pay more than the cap for covered services that year.",
+      "examples": [
+        "Jae has a $500 deductible, 80/20 coinsurance and a $3,000 out-of-pocket maximum. After a $30,000 surgery he pays $500 + 20% of the next $12,500 = $3,000; the plan pays all remaining covered charges.",
+        "In March, Rosa reaches her plan's out-of-pocket maximum. A covered MRI in June costs her nothing out of pocket."
+      ],
+      "examTip": "Premiums never count toward the out-of-pocket maximum, and neither do charges for non-covered services or charges above URC. In math questions, cap the insured's share at the maximum.",
+      "misconception": "The out-of-pocket maximum is not the same as the policy's overall benefit limit; it limits what the insured pays, not what the insurer pays.",
+      "related": [
+        "deductible",
+        "coinsurance",
+        "copayment",
+        "stop-loss-coverage"
+      ],
+      "confusedWith": [
+        "deductible",
+        "stop-loss-coverage"
+      ],
+      "difficulty": 2,
+      "practice": {
+        "prompt": "Once an insured's deductible and coinsurance payments for the year reach a stated cap, the plan pays 100% of covered expenses. That cap is the:",
+        "choices": [
+          "Out-of-pocket maximum",
+          "Deductible",
+          "Lifetime benefit maximum",
+          "Coinsurance percentage"
+        ],
+        "answerIndex": 0,
+        "explanation": "The out-of-pocket maximum caps the insured's cost-sharing. The deductible is paid first; a lifetime benefit maximum caps what the insurer pays; the coinsurance percentage is the split, not the cap."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "hmo",
+      "term": "Health Maintenance Organization (HMO)",
+      "aliases": [
+        "HMO"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.2",
+        "med.2.2.1",
+        "med.2.2.6",
+        "med.2.2.7"
+      ],
+      "formal": "An organization that provides or arranges comprehensive health care services for enrolled members in a defined service area, on a prepaid basis, through a network of participating providers, usually coordinated by a primary care physician and with an emphasis on preventive care.",
+      "plain": "An HMO is both the payer and the organizer of your care. You pay a set premium, choose a primary care doctor from its network, get referrals for specialists, and generally get no coverage for non-emergency care outside the network.",
+      "simpler": "Like an all-inclusive club with its own staff: you pay the membership fee, use the club's own doctors and hospitals, and the club's front desk (your PCP) sends you where you need to go.",
+      "examples": [
+        "Nina's HMO covers her annual checkup, flu shot and specialist care, as long as her PCP refers her to an in-network specialist.",
+        "While traveling, Omar breaks his arm and goes to the nearest emergency room; his HMO covers the emergency care even though the hospital is out of network."
+      ],
+      "examTip": "HMO keywords: prepaid, service area, network only, PCP gatekeeper, referrals, preventive care, small copayments. The usual exception to 'network only' is emergency care.",
+      "misconception": "An HMO is not simply an insurer that reimburses bills. It delivers or arranges the care itself through its own providers, which is why out-of-network non-emergency care generally is not covered.",
+      "related": [
+        "primary-care-physician",
+        "referral",
+        "prepaid-plan",
+        "preventive-care",
+        "ppo",
+        "epo"
+      ],
+      "confusedWith": [
+        "ppo",
+        "epo"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which plan type typically uses a primary care physician as a gatekeeper, emphasizes preventive care and is paid on a prepaid basis?",
+        "choices": [
+          "Indemnity major medical plan",
+          "Health maintenance organization",
+          "Hospital indemnity policy",
+          "Preferred provider organization"
+        ],
+        "answerIndex": 1,
+        "explanation": "These are the classic HMO features. Indemnity plans reimburse fee-for-service with free provider choice; hospital indemnity pays a fixed cash benefit; PPOs generally do not require a gatekeeper."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "primary-care-physician",
+      "term": "Primary Care Physician (PCP)",
+      "aliases": [
+        "PCP",
+        "gatekeeper"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.2.3",
+        "med.2.3.3"
+      ],
+      "formal": "The network physician (often in family practice, internal medicine or pediatrics) selected by or assigned to a member to provide routine care and to coordinate the member's other care, including referrals to specialists.",
+      "plain": "Your PCP is your 'home base' doctor. In an HMO you pick one from the network, see that doctor first for most problems, and get a referral from that doctor before seeing a specialist.",
+      "simpler": "Like a team coach who knows all the players: you check in with the coach first, and the coach decides when to send you to a specialist.",
+      "examples": [
+        "When Priya joins her HMO she chooses Dr. Lowe as her PCP. Dr. Lowe handles her checkups and refers her to an in-network dermatologist.",
+        "Under a POS plan, Sam's PCP refers him to an in-network cardiologist, so he pays only the in-network copayment."
+      ],
+      "examTip": "The PCP is called the 'gatekeeper' because the PCP controls access to specialists. HMOs and POS plans use a PCP; PPOs and EPOs generally do not require one for referrals.",
+      "misconception": "A PCP is not necessarily a general practitioner only; pediatricians, internists and (in some plans) OB/GYNs can serve as primary care providers.",
+      "related": [
+        "hmo",
+        "referral",
+        "pos-plan"
+      ],
+      "confusedWith": [
+        "referral"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "In an HMO, who usually coordinates a member's care and must refer the member to a specialist?",
+        "choices": [
+          "The plan's medical director",
+          "The utilization review agent",
+          "The primary care physician",
+          "The specialist chosen by the member"
+        ],
+        "answerIndex": 2,
+        "explanation": "The PCP is the gatekeeper who coordinates care and makes referrals. Utilization review evaluates medical necessity; the medical director oversees the plan; specialists treat after referral."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "referral",
+      "term": "Referral",
+      "aliases": [
+        "specialist referral"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.2.4",
+        "med.2.3.3"
+      ],
+      "formal": "Written or electronic authorization from a member's primary care physician for the member to receive covered services from a specialist or other provider.",
+      "plain": "A referral is your PCP's 'permission slip' to see a specialist. In plans that require referrals, seeing a specialist without one can mean the visit is not covered or is covered at a lower level.",
+      "simpler": "Like a hall pass from your teacher: without it, you are not supposed to go to the other room.",
+      "examples": [
+        "Kofi's HMO requires a referral to see an orthopedist. His PCP issues the referral, and the HMO covers the orthopedic visit with a specialist copayment.",
+        "Under a POS plan, Dana sees an out-of-network specialist without a referral; the plan pays at its lower out-of-network level."
+      ],
+      "examTip": "Referral = from your PCP to a specialist. Prior authorization (prospective review) = approval from the plan for a procedure. They are related but not the same.",
+      "misconception": "A referral is not needed for true emergency care; the referral requirement applies to routine and specialist services.",
+      "related": [
+        "primary-care-physician",
+        "hmo",
+        "pos-plan",
+        "prospective-review"
+      ],
+      "confusedWith": [
+        "prospective-review"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "An HMO member wants to see a cardiologist. What is usually required for the visit to be covered?",
+        "choices": [
+          "A retrospective review of the visit",
+          "A second surgical opinion",
+          "Proof that the deductible has been met",
+          "A referral from the member's primary care physician"
+        ],
+        "answerIndex": 3,
+        "explanation": "HMOs generally require a PCP referral for specialist care. Second opinions and retrospective review are utilization tools, and HMOs often have no deductible for office visits."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    },
+    {
+      "id": "ppo",
+      "term": "Preferred Provider Organization (PPO)",
+      "aliases": [
+        "PPO",
+        "preferred provider plan"
+      ],
+      "sectionId": "med",
+      "outlineIds": [
+        "med.2.3",
+        "med.2.3.1",
+        "med.2.3.2",
+        "med.1.4"
+      ],
+      "formal": "A managed care arrangement in which providers contract with a plan to deliver services to members at negotiated (discounted) fees; members may use any provider but receive a higher level of benefits when they use preferred (in-network) providers, usually without needing a referral.",
+      "plain": "A PPO gives you a list of 'preferred' doctors who agreed to lower prices. You can see them, or anyone else, without a referral, but you pay less when you stay in the network.",
+      "simpler": "Like a store loyalty program: you can shop anywhere, but you get the best deals at the partner stores.",
+      "examples": [
+        "Lucia's PPO pays 90% for in-network care and 60% for out-of-network care, so she chooses an in-network surgeon to save money.",
+        "Kevin sees an in-network dermatologist directly, without seeing a primary care physician first, because his PPO does not require referrals."
+      ],
+      "examTip": "PPO = freedom to go out of network (at higher cost) + no gatekeeper. HMO = network only (except emergencies) + gatekeeper. EPO = network only, often no gatekeeper.",
+      "misconception": "A PPO does not refuse to pay for out-of-network care; it pays a lower percentage and the member may also owe charges above the allowed amount.",
+      "related": [
+        "hmo",
+        "epo",
+        "pos-plan",
+        "in-network"
+      ],
+      "confusedWith": [
+        "hmo",
+        "epo",
+        "pos-plan"
+      ],
+      "difficulty": 1,
+      "practice": {
+        "prompt": "Which plan lets members see out-of-network providers at a lower benefit level and generally does not require a PCP referral?",
+        "choices": [
+          "Preferred provider organization",
+          "Health maintenance organization",
+          "Exclusive provider organization",
+          "Prepaid group practice"
+        ],
+        "answerIndex": 0,
+        "explanation": "PPOs cover out-of-network care at reduced benefits and usually do not need referrals. HMOs and EPOs generally cover only in-network care except emergencies; prepaid group practice is an HMO model."
+      },
+      "sources": [
+        "general-insurance-principles"
+      ],
+      "nySpecific": false,
+      "timeSensitive": false,
+      "verification": {
+        "status": "reviewed",
+        "method": "general-principle",
+        "checkedOn": "2026-11-19"
+      }
+    }
+  ],
+  "comparisons": []
+}

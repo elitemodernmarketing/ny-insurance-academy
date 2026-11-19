@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/icons/icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1e3a8a" />
+    <meta name="description" content="Offline study app for the New York Life, Accident &amp; Health (Series 17-55) licensing exam" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+    <title>NY Insurance Licensing Academy</title>
+    <script>
+      // Apply saved theme before first paint to avoid a flash.
+      try {
+        var s = JSON.parse(localStorage.getItem('nyia-theme') || '{}');
+        var dark = s.theme === 'dark' || (s.theme !== 'light' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+        if (s.textScale) document.documentElement.style.fontSize = s.textScale * 100 + '%';
+        if (s.highContrast) document.documentElement.dataset.contrast = 'high';
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>This study app needs JavaScript enabled.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

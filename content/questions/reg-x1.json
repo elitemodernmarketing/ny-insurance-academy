@@ -1,0 +1,803 @@
+{
+ "sectionId": "reg",
+ "questions": [
+  {
+   "id": "reg-q201",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.1.1"
+   ],
+   "concepts": [
+    "producer"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "What is the minimum age to be issued a New York individual agent license?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "16 years old",
+     "rationale": "Incorrect: § 2103(d) sets a higher minimum age."
+    },
+    {
+     "id": "b",
+     "text": "18 years old",
+     "rationale": "Correct: § 2103(d) requires every individual applicant and sub-licensee to be 18 or older when the license is issued."
+    },
+    {
+     "id": "c",
+     "text": "21 years old",
+     "rationale": "Incorrect: 21 is not the statutory minimum."
+    },
+    {
+     "id": "d",
+     "text": "No minimum age if the exam is passed",
+     "rationale": "Incorrect: passing the exam does not waive the age requirement."
+    }
+   ],
+   "correct": "b",
+   "explanation": "§ 2103(d): every individual applicant for an agent license, and every proposed sub-licensee, must be eighteen years of age or over at the time the license is issued. The DFS/PSI bulletin lists the same requirement for resident licenses.",
+   "memoryTip": "Licensed at 18 — same as voting age.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2103",
+    "psi-ny-bulletin-2023"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q202",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.1.3.7"
+   ],
+   "concepts": [
+    "temporary-license"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Nadia, a licensed life broker, is called to active duty in the U.S. Army. She designates her office manager, Felix, who receives a temporary license under § 2109 to service her existing clients while she is away.",
+   "stem": "How long may Felix's temporary license last under § 2109?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Up to 90 days, renewable to a 15-month maximum, regardless of when Nadia is discharged",
+     "rationale": "Incorrect: the 90-day/15-month terms apply to death and disability licenses, not military absence."
+    },
+    {
+     "id": "b",
+     "text": "Until Nadia returns, with no limit, because service members receive unlimited extensions",
+     "rationale": "Incorrect: each term is limited and the license ends after discharge."
+    },
+    {
+     "id": "c",
+     "text": "Six-month terms that may be renewed, ending no later than 60 days after Nadia's final discharge",
+     "rationale": "Correct: § 2109(f)(1)-(2) sets six-month renewable terms ending no later than 60 days after final discharge."
+    },
+    {
+     "id": "d",
+     "text": "One year, after which Felix must pass the licensing exam to continue servicing clients",
+     "rationale": "Incorrect: no one-year term or exam requirement applies to this temporary license."
+    }
+   ],
+   "correct": "c",
+   "explanation": "For a temporary license issued to a person designated by a producer absent on U.S. armed forces service, § 2109(f) allows terms of up to six months, renewable in six-month terms, but never extending beyond 60 days after the producer's final discharge. The holder may not solicit new business (§ 2109(f)(3)). Death and disability licenses instead use 90-day terms up to 15 months in total.",
+   "memoryTip": "Military temp license: 6-month terms, ends 60 days after discharge.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Six-month terms",
+      "anyOf": [
+       "six month",
+       "6 month",
+       "six-month",
+       "6-month"
+      ]
+     },
+     {
+      "label": "Renewable",
+      "anyOf": [
+       "renew"
+      ]
+     },
+     {
+      "label": "Ends within 60 days after discharge",
+      "anyOf": [
+       "60 days",
+       "sixty days",
+       "discharge"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2109"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q203",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.2.4",
+    "reg.1.4.1"
+   ],
+   "concepts": [
+    "appointment"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Gwen is a licensed New York life agent appointed by only one insurer. The insurer ends her agency contract for business reasons (not for cause), and she has no other appointments.",
+   "stem": "What is the status of Gwen's license?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "It becomes inactive until a new certificate of appointment is filed",
+     "rationale": "Correct: § 2103(j)(4)(B) says the license becomes inactive when all appointments are terminated."
+    },
+    {
+     "id": "b",
+     "text": "It is automatically revoked and she must wait one year to reapply",
+     "rationale": "Incorrect: revocation requires the superintendent's action after notice and hearing."
+    },
+    {
+     "id": "c",
+     "text": "It remains fully active, because appointments do not affect licenses",
+     "rationale": "Incorrect: without any appointment, an agent license is inactive."
+    },
+    {
+     "id": "d",
+     "text": "It converts automatically into a broker license for the same lines",
+     "rationale": "Incorrect: there is no automatic conversion between license types."
+    }
+   ],
+   "correct": "a",
+   "explanation": "Under § 2103(j)(4), a license stays in good standing during its term unless revoked or suspended, unless all certificates of appointment have been terminated by the insurers (at which time it becomes inactive), or unless the licensee fails to renew. If no appointment is filed during a renewal term, the license expires at the end of that term (§ 2103(j)(6)).",
+   "memoryTip": "No appointments = inactive, not revoked.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2103"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q204",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.2.5",
+    "reg.2.4.6"
+   ],
+   "concepts": [
+    "appointment",
+    "license-revocation"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Keystone Life terminates agent Hal for cause, files a statement of the facts with the superintendent, and mails Hal a copy by certified mail. Hal believes the statement leaves out important context.",
+   "stem": "What right does Hal have under § 2112?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He may sue the insurer for defamation over any statement in the report, even if it was made in good faith",
+     "rationale": "Incorrect: absent fraud, bad faith or gross negligence, reporting parties are immune from civil liability (§ 2112(g))."
+    },
+    {
+     "id": "b",
+     "text": "He may demand that the superintendent destroy the statement within 15 days of receiving it",
+     "rationale": "Incorrect: no such right exists; the statement is a confidential, privileged record."
+    },
+    {
+     "id": "c",
+     "text": "He may require the insurer to withdraw the statement before it reaches the superintendent",
+     "rationale": "Incorrect: the statement has already been filed with the superintendent."
+    },
+    {
+     "id": "d",
+     "text": "He may file written comments with the superintendent within 30 days, sending a copy to the insurer",
+     "rationale": "Correct: § 2112(f)(2) allows written comments within thirty days, which become part of the superintendent's file."
+    }
+   ],
+   "correct": "d",
+   "explanation": "When a producer is terminated for cause, the insurer files a statement with the superintendent within 30 days and sends the producer a copy within 15 days (§ 2112(d)). The producer may then file written comments with the superintendent within 30 days of receiving the notification, simultaneously copying the reporting insurer; the comments become part of the superintendent's file (§ 2112(f)(2)).",
+   "memoryTip": "Terminated for cause? You get 30 days to tell your side in writing.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "May file written comments",
+      "anyOf": [
+       "comment",
+       "respond",
+       "written"
+      ]
+     },
+     {
+      "label": "Within 30 days of receiving the notification",
+      "anyOf": [
+       "30",
+       "thirty"
+      ]
+     },
+     {
+      "label": "Copy to the insurer; becomes part of the file",
+      "anyOf": [
+       "copy",
+       "insurer",
+       "file"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2112"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q205",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.3.1"
+   ],
+   "concepts": [
+    "misrepresentation",
+    "twisting"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Under NY Insurance Law § 2123(d), a producer who knowingly receives a commission on a sale induced by a misrepresentation is also liable for a civil penalty equal to:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Three times the policy's annual premium, payable to the insurer",
+     "rationale": "Incorrect: § 2123(d) measures the penalty by the commission, not the premium."
+    },
+    {
+     "id": "b",
+     "text": "The commission received, recoverable by the person induced to buy",
+     "rationale": "Correct: § 2123(d) makes the violator liable for the compensation received, recoverable by the purchaser."
+    },
+    {
+     "id": "c",
+     "text": "$25 per misstatement, payable to the people of the state",
+     "rationale": "Incorrect: $25 is the rebating value limit, not this penalty."
+    },
+    {
+     "id": "d",
+     "text": "The full face amount of the policy, payable to the beneficiary",
+     "rationale": "Incorrect: no face-amount penalty exists under § 2123."
+    }
+   ],
+   "correct": "b",
+   "explanation": "§ 2123(d): a person who violates § 2123 and knowingly receives compensation or commission on a policy induced by the violation is liable for a civil penalty in the amount received as compensation or commission, which the person induced to buy may sue for and recover. The violator is also liable for any commission another agent lost because of the violation.",
+   "memoryTip": "Misrepresent to make the sale? The buyer can sue to take your commission.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2123"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q206",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.3.1"
+   ],
+   "concepts": [
+    "replacement",
+    "twisting"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Iris replaces her 10-year-old whole life policy with a new universal life policy after a properly documented replacement sale. Three weeks after the new policy is issued, she regrets the change.",
+   "stem": "What protection does § 2123(a)(3) require the replacement rules to give Iris?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A 10-day free look only, after which the old policy can never be restored",
+     "rationale": "Incorrect: § 2123(a)(3)(D) requires a longer replacement-specific period."
+    },
+    {
+     "id": "b",
+     "text": "No special protection, because she signed the replacement forms",
+     "rationale": "Incorrect: the statute requires the protection regardless of signed forms."
+    },
+    {
+     "id": "c",
+     "text": "A 60-day period after issuance to return the new policy and reinstate the old one",
+     "rationale": "Correct: § 2123(a)(3)(D) requires a sixty-day return-and-reinstate period."
+    },
+    {
+     "id": "d",
+     "text": "A right to keep both policies for one year at the old policy's premium",
+     "rationale": "Incorrect: no such right exists."
+    }
+   ],
+   "correct": "c",
+   "explanation": "§ 2123(a)(3) requires replacements of individual life policies and annuities to follow DFS regulation, which must specify disclosure and notice procedures, require notice to the insurer being replaced, require timely exchange of cost information, and provide a 60-day period after the replacement is issued during which the owner may return it and reinstate the replaced policy.",
+   "memoryTip": "Replacement regret? 60 days to undo it.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2123"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q207",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.6",
+    "reg.2.8"
+   ],
+   "concepts": [
+    "insurance-fraud"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "What does the fraud warning statement required on New York insurance applications and claim forms tell the signer?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Knowingly filing materially false information to defraud is a crime with civil penalties",
+     "rationale": "Correct: § 403(d) requires a statement saying exactly that, including the civil penalty."
+    },
+    {
+     "id": "b",
+     "text": "Any error on the form, even an honest mistake, automatically voids the policy and refunds premium",
+     "rationale": "Incorrect: the statement addresses knowing, intentional fraud, not honest mistakes."
+    },
+    {
+     "id": "c",
+     "text": "The agent is personally and criminally liable for any false answer the applicant gives",
+     "rationale": "Incorrect: the warning is directed at the person filing the application or claim."
+    },
+    {
+     "id": "d",
+     "text": "The insurer may share the form with any third party it chooses",
+     "rationale": "Incorrect: that is not the content of the fraud warning."
+    }
+   ],
+   "correct": "a",
+   "explanation": "§ 403(d) requires a warning on applications and claim forms stating that any person who knowingly and with intent to defraud files an application or claim containing materially false information, or conceals material information to mislead, commits a fraudulent insurance act, which is a crime, and is subject to a civil penalty of up to $5,000 and the stated value of the claim for each violation.",
+   "memoryTip": "The form itself warns: lie on purpose = crime + penalty.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-403"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q208",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.9"
+   ],
+   "concepts": [
+    "insurance-fraud"
+   ],
+   "difficulty": 3,
+   "style": "negative",
+   "tags": [
+    "negative-wording",
+    "tricky",
+    "ny-law"
+   ],
+   "stem": "Under NY Insurance Law § 405(a), each of the following must report a transaction he or she has reason to believe may be fraudulent EXCEPT:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A licensed life agent who notices altered medical records on a client's claim",
+     "rationale": "Incorrect: licensed persons are expressly covered by § 405(a)."
+    },
+    {
+     "id": "b",
+     "text": "A licensed public adjuster who suspects a client inflated a property loss",
+     "rationale": "Incorrect: adjusters are licensed under the Insurance Law and are covered."
+    },
+    {
+     "id": "c",
+     "text": "A salaried insurer claims examiner who is exempt from licensing",
+     "rationale": "Incorrect: § 405(a) also covers persons engaged in the business of insurance who are exempt from licensing."
+    },
+    {
+     "id": "d",
+     "text": "A claimant's neighbor who has no role in the insurance business",
+     "rationale": "Correct: § 405(a) applies to licensees and persons engaged in the business of insurance, not uninvolved members of the public."
+    }
+   ],
+   "correct": "d",
+   "explanation": "§ 405(a) imposes the 30-day reporting duty on any person licensed or registered under the Insurance Law and on any person engaged in the business of insurance in New York who is exempt from licensing (including the State Insurance Fund). A private individual with no role in the insurance business is not covered by that duty, although the superintendent may still receive information from many sources.",
+   "memoryTip": "Fraud reporting duty = everyone IN the insurance business, licensed or exempt.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Licensees must report",
+      "anyOf": [
+       "licens"
+      ]
+     },
+     {
+      "label": "Exempt persons engaged in the business of insurance must report too",
+      "anyOf": [
+       "exempt",
+       "engaged in the business",
+       "employee"
+      ]
+     },
+     {
+      "label": "Uninvolved members of the public are not covered",
+      "anyOf": [
+       "neighbor",
+       "public",
+       "not in the business"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-405"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q209",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.3.2"
+   ],
+   "concepts": [
+    "section-1033-waiver"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "Quinn owns an insurance agency. She hires Ellis to process premium payments, knowing he has a prior felony conviction for embezzlement. Neither of them asks an insurance regulator for written consent.",
+   "stem": "What is Quinn's legal exposure under 18 U.S.C. § 1033?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Quinn may be prosecuted for willfully permitting Ellis to participate without consent",
+     "rationale": "Correct: § 1033(e)(1)(B) makes willfully permitting such participation a crime (up to 5 years)."
+    },
+    {
+     "id": "b",
+     "text": "None, because only Ellis is responsible for obtaining a § 1033 consent",
+     "rationale": "Incorrect: § 1033(e)(1)(B) also reaches the person who willfully permits participation."
+    },
+    {
+     "id": "c",
+     "text": "None, because Ellis completed his entire sentence more than five years before he was hired",
+     "rationale": "Incorrect: § 1033(e) has no expiration based on time since sentence."
+    },
+    {
+     "id": "d",
+     "text": "Only a $500 state fine, because § 1033 does not apply to agency owners or employers",
+     "rationale": "Incorrect: § 1033 is a federal criminal statute that covers anyone engaged in the business of insurance."
+    }
+   ],
+   "correct": "a",
+   "explanation": "§ 1033(e)(1)(A) prohibits a person convicted of a felony involving dishonesty or breach of trust from willfully engaging in the business of insurance, and § 1033(e)(1)(B) makes it a crime for anyone engaged in the business of insurance to willfully permit that participation; each is punishable by a fine, up to 5 years in prison, or both. The cure is written consent from an insurance regulatory official under § 1033(e)(2).",
+   "memoryTip": "1033 cuts both ways: the felon AND the employer who knowingly lets him in.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-usc-18-1033"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q210",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.11"
+   ],
+   "concepts": [
+    "producer-compensation-disclosure"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "At the kitchen-table application meeting, agent Yara orally explains her role, that the insurer will pay her a commission that can vary by product, and that the client may ask her for details. She gives nothing in writing.",
+   "stem": "What else does Regulation 194 require of Yara?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Nothing more, because an oral disclosure fully satisfies the regulation",
+     "rationale": "Incorrect: § 30.3(e) requires a written follow-up when the disclosure is oral."
+    },
+    {
+     "id": "b",
+     "text": "Give the same basic disclosure in a prominent writing no later than issuance",
+     "rationale": "Correct: § 30.3(e) requires a prominent writing no later than the contract's issuance."
+    },
+    {
+     "id": "c",
+     "text": "Send the client a complete list of every commission she earned this year",
+     "rationale": "Incorrect: that level of detail is not required unless requested, and then only for this sale."
+    },
+    {
+     "id": "d",
+     "text": "File a copy of the disclosure with the superintendent within 30 days",
+     "rationale": "Incorrect: the regulation requires disclosure to the purchaser, not a filing with DFS."
+    }
+   ],
+   "correct": "b",
+   "explanation": "11 NYCRR 30.3(a) lets the producer give the basic disclosure (role, whether compensated by the insurer, that compensation may vary, and the right to request more) orally or in writing at or before application. If it is given orally, § 30.3(e) requires the producer to also give it in a prominent writing no later than issuance of the contract.",
+   "memoryTip": "Said it out loud? Put it in writing by issuance.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-11nycrr-30-3"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "regulation-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q211",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.3.1"
+   ],
+   "concepts": [
+    "fair-credit-reporting-act"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [],
+   "scenario": "On Monday, Hudson Mutual orders an investigative consumer report on a life insurance applicant. The reporting firm will interview the applicant's neighbors and co-workers about his lifestyle and reputation.",
+   "stem": "Under the Fair Credit Reporting Act, what must the insurer do?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Notify the applicant only if the report leads to a declined application",
+     "rationale": "Incorrect: § 1681d(a) requires disclosure whenever the report is procured."
+    },
+    {
+     "id": "b",
+     "text": "Obtain a court order before any neighbors or co-workers are interviewed",
+     "rationale": "Incorrect: no court order is required."
+    },
+    {
+     "id": "c",
+     "text": "Disclose in writing within three days of requesting the report that it may be made",
+     "rationale": "Correct: § 1681d(a)(1) requires written disclosure no later than three days after the request."
+    },
+    {
+     "id": "d",
+     "text": "Wait until the policy is issued and then disclose the report's full contents",
+     "rationale": "Incorrect: the disclosure is due within three days of requesting the report."
+    }
+   ],
+   "correct": "c",
+   "explanation": "15 U.S.C. § 1681d(a): a person may not procure an investigative consumer report unless it clearly discloses to the consumer, in writing delivered no later than three days after the report was first requested, that such a report (covering character, general reputation, personal characteristics and mode of living) may be made, including the consumer's right to request more information. On written request, the nature and scope of the investigation must be disclosed within five days (§ 1681d(b)).",
+   "memoryTip": "Investigative report: tell the applicant in writing within 3 days.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "fed-usc-15-1681d"
+   ],
+   "nySpecific": false,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "federal-source",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "reg-q212",
+   "series": [
+    "17-55"
+   ],
+   "sectionId": "reg",
+   "outlineIds": [
+    "reg.2.10"
+   ],
+   "concepts": [
+    "nonpublic-personal-information"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Wendy completes a life insurance application with agent Zane, listing her income, bank account and a recent heart condition. She decides not to buy the policy. A marketing firm offers to buy Zane's list of recent applicants.",
+   "stem": "Under Regulation 169, how should Zane treat Wendy's information?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "As unprotected, because Wendy never became a policyholder",
+     "rationale": "Incorrect: an applicant before coverage begins is a consumer under § 420.3(e)(2)(ii)."
+    },
+    {
+     "id": "b",
+     "text": "As unprotected health information, because age and gender appear on the application",
+     "rationale": "Incorrect: age and gender alone are excluded from health information, and the rest is still protected."
+    },
+    {
+     "id": "c",
+     "text": "As publicly available, because it was collected on an ordinary application form",
+     "rationale": "Incorrect: information provided on an application is personally identifiable financial information."
+    },
+    {
+     "id": "d",
+     "text": "As nonpublic personal information, because an applicant is a consumer even with no policy",
+     "rationale": "Correct: Wendy is a consumer, and her application information is nonpublic personal information."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Under 11 NYCRR 420.3, an applicant for insurance before coverage begins is a licensee's consumer (§ 420.3(e)(2)(ii)). Nonpublic personal information includes nonpublic personal financial information — such as information a consumer provides on an application — and nonpublic personal health information that identifies the individual (§ 420.3(r)-(u)). Not buying the policy does not remove that protection.",
+   "memoryTip": "Applied but didn't buy? Still a consumer — still protected.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Applicant is a consumer",
+      "anyOf": [
+       "consumer",
+       "applicant"
+      ]
+     },
+     {
+      "label": "Application data is nonpublic personal information",
+      "anyOf": [
+       "nonpublic",
+       "npi",
+       "financial",
+       "health"
+      ]
+     },
+     {
+      "label": "Protection applies even without a purchase",
+      "anyOf": [
+       "did not buy",
+       "no policy",
+       "never",
+       "without"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-11nycrr-420-3"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "regulation-text",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

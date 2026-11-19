@@ -1,0 +1,1539 @@
+{
+ "sectionId": "plreg",
+ "questions": [
+  {
+   "id": "plreg-q001",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.1.1"
+   ],
+   "concepts": [
+    "producer"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "After passing the PSI Series 17-54 exam, how long does an applicant have to submit the license application to DFS?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Within two years of passing",
+     "rationale": "Correct: the DFS/PSI bulletin says applications must be received within two years from the date of passing the exam."
+    },
+    {
+     "id": "b",
+     "text": "Within 90 days of passing",
+     "rationale": "Incorrect: 90 days is the window for producers relocating to New York, not for a new exam passer."
+    },
+    {
+     "id": "c",
+     "text": "Within six months of passing",
+     "rationale": "Incorrect: there is no six-month deadline; the bulletin allows two years."
+    },
+    {
+     "id": "d",
+     "text": "Within five years of passing",
+     "rationale": "Incorrect: five years is too long; after two years the exam score can no longer be used."
+    }
+   ],
+   "correct": "a",
+   "explanation": "The DFS/PSI bulletin lists three steps: complete prelicensing education, pass the exam, and submit the license application within two years of passing. A late application means retaking the exam.",
+   "memoryTip": "Pass, then apply within two years.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "psi-ny-bulletin-2023"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "official-outline",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q002",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.1.1"
+   ],
+   "concepts": [
+    "producer",
+    "continuing-education"
+   ],
+   "difficulty": 3,
+   "style": "application",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Owen holds the CPCU designation and wants a New York Personal Lines agent license.",
+   "stem": "Which statement best describes his path to licensing?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He is exempt from every New York licensing exam",
+     "rationale": "Incorrect: the CPCU waiver removes the course, not the laws and regulations exam."
+    },
+    {
+     "id": "b",
+     "text": "He must take the 40-hour course but may skip the exam",
+     "rationale": "Incorrect: it works the other way — education is waived; a laws exam is still required."
+    },
+    {
+     "id": "c",
+     "text": "He may sell immediately while his application is pending",
+     "rationale": "Incorrect: no one may act as a producer until a license is issued (§ 2102(a))."
+    },
+    {
+     "id": "d",
+     "text": "He may skip the course and take only the 17-74 laws exam",
+     "rationale": "Correct: the bulletin lets CPCU holders waive prelicensing education for Personal Lines and take only the 17-74 Property Casualty Laws and Regulations exam."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Per the DFS/PSI bulletin, individuals holding the CPCU designation may waive the education requirement for a Personal Lines agent/broker license and need only take exam 17-74, Property Casualty Laws and Regulations.",
+   "memoryTip": "CPCU skips class, not the law test.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Education waived for CPCU",
+      "anyOf": [
+       "waive",
+       "skip",
+       "no course"
+      ]
+     },
+     {
+      "label": "Still takes a laws and regulations exam",
+      "anyOf": [
+       "17-74",
+       "laws",
+       "regulations exam"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "psi-ny-bulletin-2023"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "official-outline",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q003",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.1.2.1",
+    "plreg.1.2.2"
+   ],
+   "concepts": [
+    "producer"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Tasha is a salaried underwriter for an auto insurer. She reviews applications and inspection reports, never speaks with buyers about purchasing, and receives no commission.",
+   "stem": "Does Tasha need a producer license?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Yes; every employee of an insurer must be licensed",
+     "rationale": "Incorrect: insurer employees need a license only if they sell, solicit or negotiate."
+    },
+    {
+     "id": "b",
+     "text": "Yes; deciding which applicants to accept is selling",
+     "rationale": "Incorrect: underwriting is not selling, soliciting or negotiating under § 2101."
+    },
+    {
+     "id": "c",
+     "text": "No; non-commissioned underwriting work is excluded",
+     "rationale": "Correct: § 2101(k) excludes employees whose function relates to underwriting and who receive no commission on policies sold."
+    },
+    {
+     "id": "d",
+     "text": "No, but only because she works inside an office",
+     "rationale": "Incorrect: location is not the test; the nature of her work and lack of commission are."
+    }
+   ],
+   "correct": "c",
+   "explanation": "A producer is anyone required to be licensed to sell, solicit or negotiate insurance (§ 2101(k)). The definition excludes officers and employees who receive no commission and whose work is administrative, clerical, underwriting, loss control, inspection or claims.",
+   "memoryTip": "No selling + no commission = no producer license.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2101"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q004",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.1.2.4",
+    "plreg.1.2.5",
+    "plreg.1.2.6"
+   ],
+   "concepts": [
+    "negotiate",
+    "solicit",
+    "sell"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Ben, a licensed agent, sits down with a couple and explains how the deductible and liability limit options on a specific homeowners policy would affect them.",
+   "stem": "Which licensed activity is Ben performing?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Soliciting",
+     "rationale": "Incorrect: soliciting is attempting to sell or urging someone to apply; Ben is advising on terms."
+    },
+    {
+     "id": "b",
+     "text": "Negotiating",
+     "rationale": "Correct: § 2101(m) defines negotiate as conferring with or advising a buyer about the substantive benefits, terms or conditions of a particular contract."
+    },
+    {
+     "id": "c",
+     "text": "Adjusting",
+     "rationale": "Incorrect: adjusting concerns settling claims, not explaining coverage options before purchase."
+    },
+    {
+     "id": "d",
+     "text": "Consulting",
+     "rationale": "Incorrect: consulting is fee-based advice by a licensed consultant who may not sell; Ben is a selling agent discussing a specific contract."
+    }
+   ],
+   "correct": "b",
+   "explanation": "New York defines three licensed acts: solicit (ask or urge someone to apply), negotiate (confer or advise about a particular contract's terms) and sell (exchange a contract for money on behalf of an insurer). Discussing deductibles and limits of a specific policy is negotiation.",
+   "memoryTip": "Talking terms = negotiating.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2101"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q005",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.1.2.3"
+   ],
+   "concepts": [
+    "home-state"
+   ],
+   "difficulty": 1,
+   "style": "definition",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "Under § 2101(l), a producer's home state is the state where the producer:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Passed the licensing exam for the very first time",
+     "rationale": "Incorrect: where you tested does not define your home state."
+    },
+    {
+     "id": "b",
+     "text": "Keeps a principal residence or business and is licensed",
+     "rationale": "Correct: home state is where the producer maintains a principal place of residence or business and is licensed as a producer."
+    },
+    {
+     "id": "c",
+     "text": "Holds the greatest number of insurer appointments",
+     "rationale": "Incorrect: appointments do not determine home state."
+    },
+    {
+     "id": "d",
+     "text": "Earned the most commission during the prior year",
+     "rationale": "Incorrect: commission volume is irrelevant to home state."
+    }
+   ],
+   "correct": "b",
+   "explanation": "§ 2101(l) defines home state as the District of Columbia or any U.S. state or territory where the producer maintains a principal place of residence or principal place of business and is licensed as a producer.",
+   "memoryTip": "Home state = home base + license.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2101"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q006",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.1.3.1",
+    "plreg.1.3.2"
+   ],
+   "concepts": [
+    "insurance-agent",
+    "insurance-broker"
+   ],
+   "difficulty": 1,
+   "style": "comparison",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Which statement correctly contrasts a Personal Lines agent and a Personal Lines broker?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "An agent acts for the insurer; a broker acts for the insured",
+     "rationale": "Correct: § 2101(a) makes an agent the insurer's representative; § 2101(c) has a broker act on behalf of the insured."
+    },
+    {
+     "id": "b",
+     "text": "An agent acts for the insured; a broker acts for the insurer",
+     "rationale": "Incorrect: this reverses the two roles."
+    },
+    {
+     "id": "c",
+     "text": "Both act for the insured, but only agents need appointments",
+     "rationale": "Incorrect: agents represent insurers, which is why they need appointments."
+    },
+    {
+     "id": "d",
+     "text": "Both act for the insurer, but only brokers may sell auto",
+     "rationale": "Incorrect: both may handle auto; the difference is whom they represent."
+    }
+   ],
+   "correct": "a",
+   "explanation": "An insurance agent is an authorized agent of an insurer and needs at least one appointment. A broker acts for compensation on behalf of an insured, and the DFS/PSI bulletin describes brokers as representing the public with access to any New York-licensed insurer that deals with brokers.",
+   "memoryTip": "Agent = Allied with the company. Broker = Buyer's representative.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2101",
+    "psi-ny-bulletin-2023"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q007",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.1.3.1",
+    "plreg.2.2.4"
+   ],
+   "concepts": [
+    "appointment"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "An insurer must file an agent's appointment within how many days of the agency contract or first application?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "30 days",
+     "rationale": "Incorrect: 30 days is the deadline for reporting a for-cause termination."
+    },
+    {
+     "id": "b",
+     "text": "10 days",
+     "rationale": "Incorrect: ten days is not the appointment deadline."
+    },
+    {
+     "id": "c",
+     "text": "60 days",
+     "rationale": "Incorrect: 60 days relates to filing a renewal application before expiration."
+    },
+    {
+     "id": "d",
+     "text": "15 days",
+     "rationale": "Correct: § 2112(b) requires the notice of appointment within fifteen days."
+    }
+   ],
+   "correct": "d",
+   "explanation": "§ 2112(b): the appointing insurer files a notice of appointment within fifteen days from the date the agency contract is executed or the first insurance application is submitted.",
+   "memoryTip": "Appoint in 15.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2112"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q008",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.1.3.3"
+   ],
+   "concepts": [
+    "insurance-consultant"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Priya holds only a New York general (property/casualty) consultant license. For a fee, she reviews a family's auto and homeowners coverage. The family then asks her to sell them a personal umbrella policy.",
+   "stem": "What may Priya do?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Sell the policy, since consultants are producers",
+     "rationale": "Incorrect: the bulletin states consultants cannot sell, solicit or negotiate a policy."
+    },
+    {
+     "id": "b",
+     "text": "Sell the policy if she refunds her consulting fee",
+     "rationale": "Incorrect: refunding the fee does not create authority to sell."
+    },
+    {
+     "id": "c",
+     "text": "Advise them, but not sell the umbrella policy",
+     "rationale": "Correct: licensed consultants give advice but cannot sell, solicit or negotiate; that requires an agent or broker license."
+    },
+    {
+     "id": "d",
+     "text": "Sell the policy if the family signs a fee memo",
+     "rationale": "Incorrect: a signed memorandum (§ 2119) is required to charge the consulting fee; it does not authorize selling."
+    }
+   ],
+   "correct": "c",
+   "explanation": "A consultant provides expert advice on insurance for a fee. Under the DFS/PSI bulletin, a licensed consultant cannot sell, solicit or negotiate a policy, because doing so requires an agent or broker license. Her consulting fee itself must be based on a signed written memorandum (§ 2119(a)).",
+   "memoryTip": "Consultants counsel; they don't close.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "psi-ny-bulletin-2023",
+    "ny-isc-2119"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q009",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.1.3.4"
+   ],
+   "concepts": [
+    "adjuster"
+   ],
+   "difficulty": 1,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "After a fire, a homeowner hires a professional to prepare her claim and negotiate the settlement with her insurer in exchange for a percentage of the payment.",
+   "stem": "What license must that professional hold?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Independent adjuster",
+     "rationale": "Incorrect: independent adjusters act on behalf of the insurer (§ 2101(g)(1))."
+    },
+    {
+     "id": "b",
+     "text": "Insurance consultant",
+     "rationale": "Incorrect: consultants give advice on coverage; negotiating property claims for pay is public adjusting."
+    },
+    {
+     "id": "c",
+     "text": "Public adjuster",
+     "rationale": "Correct: § 2101(g)(2) defines a public adjuster as one who acts for an insured in negotiating the settlement of a property claim."
+    },
+    {
+     "id": "d",
+     "text": "Agent of the insurer",
+     "rationale": "Incorrect: an agent represents the insurer and is not the homeowner's claim negotiator."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Independent adjusters investigate and adjust claims for insurers; public adjusters act or aid on behalf of an insured in negotiating or effecting settlement of property damage claims, for compensation.",
+   "memoryTip": "Public adjuster = the Public's (insured's) side.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2101",
+    "psi-ny-bulletin-2023"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q010",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.1.3.5"
+   ],
+   "concepts": [
+    "nonresident-license",
+    "home-state"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Carla is licensed as a personal lines agent in New Jersey. She sells her house and moves to Albany, New York.",
+   "stem": "What must Carla do about her license?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Keep acting under a New York nonresident license indefinitely",
+     "rationale": "Incorrect: once New York is her residence she is no longer a nonresident."
+    },
+    {
+     "id": "b",
+     "text": "Apply for a New York resident license within 90 days of moving",
+     "rationale": "Correct: § 2103(g)(11) requires a licensee from another state who moves here to apply as a resident within ninety days of establishing legal residence."
+    },
+    {
+     "id": "c",
+     "text": "Retake the 40-hour course before she may file any application",
+     "rationale": "Incorrect: a currently licensed producer moving in can generally skip the exam and course."
+    },
+    {
+     "id": "d",
+     "text": "Apply for a resident license within one year of moving",
+     "rationale": "Incorrect: the statute gives ninety days, not a year."
+    }
+   ],
+   "correct": "b",
+   "explanation": "Under § 2103(g)(11), a producer previously licensed in another state for the same lines generally needs no New York exam or prelicensing course if currently licensed there (or applying within 90 days of cancellation), and one who moves to New York must apply for a resident license within ninety days of establishing legal residence.",
+   "memoryTip": "Move in → 90 days to go resident.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Resident application required",
+      "anyOf": [
+       "resident"
+      ]
+     },
+     {
+      "label": "Ninety-day deadline",
+      "anyOf": [
+       "90",
+       "ninety"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2103"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q011",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.1.3.6"
+   ],
+   "concepts": [
+    "producer"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "A licensed insurance agency corporation may transact business through which individuals?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Officers and directors named in the license as sub-licensees",
+     "rationale": "Correct: § 2103(c) authorizes only officers and directors named as sub-licensees to act under a corporation's license."
+    },
+    {
+     "id": "b",
+     "text": "Any employee of the agency who has passed the 17-54 exam",
+     "rationale": "Incorrect: passing an exam is not enough; the person must be licensed and named."
+    },
+    {
+     "id": "c",
+     "text": "Any shareholder who owns more than half of the corporation's stock",
+     "rationale": "Incorrect: ownership alone does not authorize anyone to act under the license."
+    },
+    {
+     "id": "d",
+     "text": "Any clerk supervised by a licensed officer",
+     "rationale": "Incorrect: unlicensed staff may not sell, solicit or negotiate even under supervision."
+    }
+   ],
+   "correct": "a",
+   "explanation": "A business entity (§ 2101(p)) can be licensed, but § 2103(c) allows only the officers and directors named as sub-licensees to act, and only in the entity's name. The named sub-licensees are responsible for the entity's compliance (§ 2103(e)).",
+   "memoryTip": "Entity license works through NAMED sub-licensees.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2103",
+    "ny-isc-2101"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q012",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.1.3.7"
+   ],
+   "concepts": [
+    "temporary-license"
+   ],
+   "difficulty": 2,
+   "style": "negative",
+   "tags": [
+    "negative-wording",
+    "ny-law"
+   ],
+   "scenario": "Ray, a licensed Personal Lines agent, dies. His executor receives a temporary license under § 2109 to keep the agency running.",
+   "stem": "The executor may do each of the following EXCEPT:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Renew homeowners policies already on the books",
+     "rationale": "Incorrect: renewing the deceased agent's existing business is permitted."
+    },
+    {
+     "id": "b",
+     "text": "Collect premiums due to the original licensee",
+     "rationale": "Incorrect: collecting premiums due is expressly allowed."
+    },
+    {
+     "id": "c",
+     "text": "Do acts incidental to continuing the existing business",
+     "rationale": "Incorrect: acts incidental to continuing the business are permitted."
+    },
+    {
+     "id": "d",
+     "text": "Write a new auto policy for a new customer",
+     "rationale": "Correct: a § 2109 temporary licensee may not solicit, negotiate or sell new insurance."
+    }
+   ],
+   "correct": "d",
+   "explanation": "§ 2109(c) lets the temporary licensee renew the existing business, collect premiums due and perform acts incidental to continuing it. § 2109(e)(4) bars soliciting, negotiating or selling new insurance. A death-based license runs up to 90 days and may be renewed up to 15 months in total.",
+   "memoryTip": "Temporary = keep the lights on, no new sales.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2109"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q013",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.1.4.1"
+   ],
+   "concepts": [
+    "producer"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "Maya was born in 1995. Her individual New York license expires on her birthday in:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Even-numbered years",
+     "rationale": "Incorrect: even-year expiration applies to people born in even years."
+    },
+    {
+     "id": "b",
+     "text": "Every calendar year",
+     "rationale": "Incorrect: licenses run for two years, not one."
+    },
+    {
+     "id": "c",
+     "text": "June 30 of odd years",
+     "rationale": "Incorrect: June 30 of odd years is the expiration date for business entity licenses."
+    },
+    {
+     "id": "d",
+     "text": "Odd-numbered years",
+     "rationale": "Correct: individuals born in an odd year have licenses expiring on their birthday in odd-numbered years."
+    }
+   ],
+   "correct": "d",
+   "explanation": "Licenses are renewed every two years. Individual licenses expire on the birthday in odd-numbered years for those born in odd years and in even-numbered years for those born in even years; entity licenses expire June 30 of odd-numbered years (DFS/PSI bulletin; § 2103(j)(2)).",
+   "memoryTip": "Odd birth year, odd renewal year.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "psi-ny-bulletin-2023",
+    "ny-isc-2103"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q014",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.1.4.2"
+   ],
+   "concepts": [
+    "continuing-education"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Which statement about continuing education (CE) for a resident Personal Lines agent is accurate?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "CE must be finished before the first renewal, however short the first term",
+     "rationale": "Incorrect: a licensee who has held the license less than the full two-year period is exempt that first time."
+    },
+    {
+     "id": "b",
+     "text": "Nonresident agents must complete New York-approved CE courses every period",
+     "rationale": "Incorrect: nonresidents in good standing attest to home-state CE compliance instead."
+    },
+    {
+     "id": "c",
+     "text": "15 credits are due each two-year period once licensed a full two years",
+     "rationale": "Correct: the bulletin requires 15 CE credits per biennial period after the license has been in effect a full two years."
+    },
+    {
+     "id": "d",
+     "text": "A course already completed may be repeated for credit in a later period",
+     "rationale": "Incorrect: an approved course completed for CE credit may never be completed for credit again."
+    }
+   ],
+   "correct": "c",
+   "explanation": "Per the DFS/PSI bulletin (updated 4/28/2023), resident agents, brokers, consultants and public adjusters must complete 15 CE credits during each biennial licensing period once the license has been in effect for a full two years; courses cannot be repeated for credit, and nonresidents attest to home-state compliance.",
+   "memoryTip": "15 every 2 — after your first full 2.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "psi-ny-bulletin-2023"
+   ],
+   "nySpecific": true,
+   "timeSensitive": true,
+   "reviewDue": "2027-11-19",
+   "verification": {
+    "status": "verified",
+    "method": "official-outline",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q015",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.1.4.3"
+   ],
+   "concepts": [
+    "producer"
+   ],
+   "difficulty": 2,
+   "style": "scenario",
+   "tags": [
+    "ny-law"
+   ],
+   "scenario": "Luis, a licensed agent, wants to advertise and do business as \"Hudson Valley Home & Auto.\"",
+   "stem": "What does New York law require?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Notice to DFS within 30 days after he starts using it",
+     "rationale": "Incorrect: after-the-fact notice is not enough; approval must come first."
+    },
+    {
+     "id": "b",
+     "text": "The superintendent's approval before he uses the name",
+     "rationale": "Correct: § 2102(f) bars using any name other than the individual's legal name unless previously approved by the superintendent."
+    },
+    {
+     "id": "c",
+     "text": "Registration of the name with his appointing insurers",
+     "rationale": "Incorrect: insurers do not approve assumed names; the superintendent does."
+    },
+    {
+     "id": "d",
+     "text": "Nothing, so long as his own name is on the license",
+     "rationale": "Incorrect: any name other than his own legal name needs prior approval."
+    }
+   ],
+   "correct": "b",
+   "explanation": "§ 2102(f): every licensee must notify the superintendent of a legal name change, and, except for an individual licensee's own legal name, may not use any name in the business that the superintendent has not previously approved.",
+   "memoryTip": "Assumed name: approval FIRST.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2102"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q016",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.1.4.4"
+   ],
+   "concepts": [
+    "producer"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "rapid",
+    "ny-law"
+   ],
+   "stem": "A licensee who changes address must inform the superintendent within:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "30 days",
+     "rationale": "Correct: § 2134(a) requires notice within thirty days of the change."
+    },
+    {
+     "id": "b",
+     "text": "10 days",
+     "rationale": "Incorrect: ten days is not the address-change deadline."
+    },
+    {
+     "id": "c",
+     "text": "90 days",
+     "rationale": "Incorrect: 90 days is the resident-application window after moving to New York."
+    },
+    {
+     "id": "d",
+     "text": "15 days",
+     "rationale": "Incorrect: 15 days is the appointment-filing deadline."
+    }
+   ],
+   "correct": "a",
+   "explanation": "§ 2134(a): a licensee must inform the superintendent by an acceptable means of a change of address within thirty days. A change of home state also requires certification from the new home state within 30 days (§ 2134(b)).",
+   "memoryTip": "Move? Tell DFS in 30.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2134"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q017",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.1.4.5"
+   ],
+   "concepts": [
+    "license-revocation"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "Joan, a New York Personal Lines agent, is criminally charged in Connecticut. Her initial pretrial hearing is held on March 1. No verdict has been reached.",
+   "stem": "When must Joan report the prosecution to the superintendent?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Within 30 days of the initial pretrial hearing date",
+     "rationale": "Correct: § 2110(j) requires reporting any criminal prosecution within thirty days of the initial pretrial hearing date."
+    },
+    {
+     "id": "b",
+     "text": "Within 30 days after a conviction is entered, if any",
+     "rationale": "Incorrect: the duty is triggered by the prosecution, not a conviction."
+    },
+    {
+     "id": "c",
+     "text": "Along with her next license renewal application",
+     "rationale": "Incorrect: waiting until renewal is too late."
+    },
+    {
+     "id": "d",
+     "text": "Only if the criminal charge relates to insurance",
+     "rationale": "Incorrect: § 2110(j) covers any criminal prosecution in any jurisdiction."
+    }
+   ],
+   "correct": "a",
+   "explanation": "§ 2110(j): within thirty days of the initial pretrial hearing date, a licensee must report any criminal prosecution taken in any jurisdiction, with the complaint and related documents. Administrative actions are reported within 30 days of final disposition (§ 2110(i)).",
+   "memoryTip": "Charged? 30 days from the first pretrial hearing.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Report the prosecution itself, not just a conviction",
+      "anyOf": [
+       "prosecution",
+       "charge",
+       "not conviction"
+      ]
+     },
+     {
+      "label": "30 days from initial pretrial hearing",
+      "anyOf": [
+       "30",
+       "thirty",
+       "pretrial"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2110"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q018",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.1.5.2"
+   ],
+   "concepts": [
+    "license-revocation"
+   ],
+   "difficulty": 2,
+   "style": "negative",
+   "tags": [
+    "negative-wording",
+    "ny-law"
+   ],
+   "stem": "Each of the following is a ground under § 2110 to suspend or revoke a producer's license EXCEPT:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Forging a customer's name on an auto insurance application",
+     "rationale": "Incorrect: forgery on an application is listed in § 2110(a)(10)."
+    },
+    {
+     "id": "b",
+     "text": "Knowingly accepting business from an unlicensed person",
+     "rationale": "Incorrect: this is listed in § 2110(a)(12)."
+    },
+    {
+     "id": "c",
+     "text": "Misappropriating premium money received in the business",
+     "rationale": "Incorrect: this is listed in § 2110(a)(5)."
+    },
+    {
+     "id": "d",
+     "text": "Placing a client with an insurer that later raises its rates",
+     "rationale": "Correct: an insurer's later rate increase is not misconduct by the producer."
+    }
+   ],
+   "correct": "d",
+   "explanation": "§ 2110(a) lists grounds including violating insurance laws, fraudulent or dishonest practices, misappropriating funds, intentionally misrepresenting policy terms, felony convictions, forging names on applications and knowingly accepting business from unlicensed persons.",
+   "memoryTip": "Discipline follows misconduct, not market changes.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2110"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q019",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.1.5.3"
+   ],
+   "concepts": [
+    "license-revocation"
+   ],
+   "difficulty": 2,
+   "style": "calculation",
+   "tags": [
+    "tricky",
+    "math",
+    "ny-law"
+   ],
+   "scenario": "In one proceeding, the superintendent finds that an agent committed seven separate offenses and decides to impose a monetary penalty under § 2127 instead of revoking the license.",
+   "stem": "What is the maximum total penalty?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "$3,500",
+     "rationale": "Incorrect: this multiplies $500 by seven offenses and ignores the aggregate cap."
+    },
+    {
+     "id": "b",
+     "text": "$500",
+     "rationale": "Incorrect: $500 is the per-offense maximum, not the total for seven offenses."
+    },
+    {
+     "id": "c",
+     "text": "$2,500",
+     "rationale": "Correct: $500 × 7 = $3,500, but § 2127(a) caps the total at $2,500 in the aggregate."
+    },
+    {
+     "id": "d",
+     "text": "$5,000",
+     "rationale": "Incorrect: $5,000 exceeds the statutory aggregate."
+    }
+   ],
+   "correct": "c",
+   "explanation": "§ 2127(a) allows a penalty, in lieu of revocation or suspension, of up to $500 for each offense and up to $2,500 in the aggregate for all offenses in one proceeding. Seven offenses × $500 = $3,500, which is reduced to the $2,500 cap. Failure to pay within 20 days of the mailed order can lead to revocation or suspension.",
+   "memoryTip": "$500 each, $2,500 max.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Per-offense limit of $500",
+      "anyOf": [
+       "500"
+      ]
+     },
+     {
+      "label": "Aggregate cap of $2,500",
+      "anyOf": [
+       "2,500",
+       "2500"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2127"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q020",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.1.5.1",
+    "plreg.1.5.2"
+   ],
+   "concepts": [
+    "license-revocation",
+    "superintendent"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Before revoking or suspending a producer's license, the superintendent must give notice and hold a hearing:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Within 48 hours after giving the notice",
+     "rationale": "Incorrect: the statute sets a minimum of ten days, not a 48-hour deadline."
+    },
+    {
+     "id": "b",
+     "text": "Not less than 10 days after giving the notice",
+     "rationale": "Correct: § 2110(b) requires a hearing not less than ten days after notice."
+    },
+    {
+     "id": "c",
+     "text": "Only if the producer requests one in writing",
+     "rationale": "Incorrect: notice and hearing are required before revocation or suspension."
+    },
+    {
+     "id": "d",
+     "text": "Only after the producer is convicted of a crime",
+     "rationale": "Incorrect: many grounds do not involve a criminal conviction."
+    }
+   ],
+   "correct": "b",
+   "explanation": "§ 2110(b): before revoking or suspending a license, the superintendent gives notice to the licensee and every sub-licensee and holds a hearing not less than ten days later. After revocation, the person may not obtain any license for one year (§ 2110(e)).",
+   "memoryTip": "10 days' notice before the hearing; 1 year out after revocation.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2110"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q021",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.1"
+   ],
+   "concepts": [
+    "superintendent"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Under § 2404, the superintendent may examine and investigate the affairs of:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Only insurers that are incorporated and domiciled in New York",
+     "rationale": "Incorrect: the power extends to any person."
+    },
+    {
+     "id": "b",
+     "text": "Any person, to see whether it is engaging in unfair or deceptive practices",
+     "rationale": "Correct: § 2404 empowers the superintendent to investigate any person to determine whether it has violated § 2403."
+    },
+    {
+     "id": "c",
+     "text": "Only licensees who have a written consumer complaint on file against them",
+     "rationale": "Incorrect: no complaint is required."
+    },
+    {
+     "id": "d",
+     "text": "Only persons who consent in writing to the examination",
+     "rationale": "Incorrect: consent is not a condition of the power."
+    }
+   ],
+   "correct": "b",
+   "explanation": "§ 2404 lets the superintendent examine and investigate the affairs of any person to determine whether it is violating § 2403 (unfair methods of competition and unfair or deceptive acts). A licensee may surrender the license in lieu of a civil penalty imposed under that section.",
+   "memoryTip": "Any person, any time unfair practices are suspected.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2404"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q022",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.2.1"
+   ],
+   "concepts": [
+    "certificate-of-authority"
+   ],
+   "difficulty": 1,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Under § 1102, a company may do an insurance business in New York only if it:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Is authorized by a license under the Insurance Law or is exempt",
+     "rationale": "Correct: § 1102(a) bars doing an insurance business without a license in force or an exemption."
+    },
+    {
+     "id": "b",
+     "text": "Is incorporated under the laws of the State of New York",
+     "rationale": "Incorrect: foreign and alien insurers may be authorized too."
+    },
+    {
+     "id": "c",
+     "text": "Is rated A or better by an independent rating service",
+     "rationale": "Incorrect: private ratings do not authorize anyone to do business."
+    },
+    {
+     "id": "d",
+     "text": "Has appointed at least one licensed New York agent",
+     "rationale": "Incorrect: appointments follow authorization; they do not replace it."
+    }
+   ],
+   "correct": "a",
+   "explanation": "§ 1102(a): no person, firm, association, corporation or joint-stock company shall do an insurance business in New York unless authorized by a license in force under the Insurance Law or exempted. That insurer license is commonly called a certificate of authority.",
+   "memoryTip": "No authority, no business.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-1102"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q023",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.2.2"
+   ],
+   "concepts": [
+    "insurer-solvency"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "ny-law"
+   ],
+   "stem": "Every authorized insurer must file its annual statement with the superintendent on or before:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "January 1",
+     "rationale": "Incorrect: the statement shows the condition at the prior year-end and is due March 1."
+    },
+    {
+     "id": "b",
+     "text": "April 15",
+     "rationale": "Incorrect: April 15 is the cybersecurity compliance certification date under Part 500."
+    },
+    {
+     "id": "c",
+     "text": "June 30",
+     "rationale": "Incorrect: June 30 of odd years is when business entity producer licenses expire."
+    },
+    {
+     "id": "d",
+     "text": "March 1",
+     "rationale": "Correct: § 307(a)(1) requires the annual statement on or before the first day of March."
+    }
+   ],
+   "correct": "d",
+   "explanation": "§ 307(a)(1): authorized insurers file an annual statement, verified by at least two principal officers, on or before March 1, showing their condition at the last year-end. Most insurers also file a CPA-audited statement within five months of year-end (§ 307(b)(1)). These filings support solvency regulation.",
+   "memoryTip": "March 1 = money report.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-307"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q024",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.2.3"
+   ],
+   "concepts": [
+    "unfair-claims-settlement-practices"
+   ],
+   "difficulty": 3,
+   "style": "scenario",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "scenario": "On Monday, Ray calls his agent to report that his car was stolen. The agent is authorized to receive claim notices for the insurer but does not forward the report until nine days later.",
+   "stem": "Under Regulation 64, when is the insurer on notice, and when is acknowledgment due?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "When the agent forwards it; 15 business days from that date",
+     "rationale": "Incorrect: notice given to the agent is notice to the insurer on the day it is given."
+    },
+    {
+     "id": "b",
+     "text": "On Monday; acknowledgment is due within 30 working days",
+     "rationale": "Incorrect: 30 working days is the decision deadline after a proof of loss."
+    },
+    {
+     "id": "c",
+     "text": "On Monday; acknowledgment is due within 15 business days of then",
+     "rationale": "Correct: notice to the insurer's agent is notice to the insurer, and acknowledgment is due within 15 business days."
+    },
+    {
+     "id": "d",
+     "text": "When proof of loss arrives; 10 business days from that date",
+     "rationale": "Incorrect: acknowledgment runs from notification of the claim, and 10 business days is the DFS-inquiry deadline."
+    }
+   ],
+   "correct": "c",
+   "explanation": "11 NYCRR 216.4(a): every insurer must acknowledge receipt of a claim notice within 15 business days, and notification given to an agent of the insurer is notification to the insurer (unless the agent tells the claimant it is not authorized to receive claim notices).",
+   "memoryTip": "Tell the agent = tell the company.",
+   "rubric": {
+    "keyPoints": [
+     {
+      "label": "Notice to the agent is notice to the insurer",
+      "anyOf": [
+       "agent",
+       "notice to the insurer"
+      ]
+     },
+     {
+      "label": "15 business days to acknowledge",
+      "anyOf": [
+       "15",
+       "fifteen"
+      ]
+     }
+    ]
+   },
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-11nycrr-216-4"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  },
+  {
+   "id": "plreg-q025",
+   "series": [
+    "17-54"
+   ],
+   "sectionId": "plreg",
+   "outlineIds": [
+    "plreg.2.2.3"
+   ],
+   "concepts": [
+    "unfair-claims-settlement-practices"
+   ],
+   "difficulty": 2,
+   "style": "concept",
+   "tags": [
+    "tricky",
+    "ny-law"
+   ],
+   "stem": "Under § 2601, after receiving a properly executed proof of loss, an insurer must accept or deny the claim within:",
+   "choices": [
+    {
+     "id": "a",
+     "text": "15 business days",
+     "rationale": "Incorrect: 15 business days is the Regulation 64 deadline for acknowledging a claim."
+    },
+    {
+     "id": "b",
+     "text": "30 calendar days",
+     "rationale": "Incorrect: the statute says working days, not calendar days."
+    },
+    {
+     "id": "c",
+     "text": "30 working days",
+     "rationale": "Correct: § 2601(a)(4) requires the insurer to advise acceptance or denial within thirty working days."
+    },
+    {
+     "id": "d",
+     "text": "60 calendar days",
+     "rationale": "Incorrect: 60 days is not the § 2601 standard."
+    }
+   ],
+   "correct": "c",
+   "explanation": "§ 2601(a)(4): after receiving a properly executed proof of loss, the insurer shall advise the claimant of acceptance or denial within thirty working days. The § 2601 practices are violations when done without just cause and often enough to indicate a general business practice.",
+   "memoryTip": "Proof of loss → 30 WORKING days.",
+   "version": 1,
+   "lastReviewed": "2026-11-19",
+   "sources": [
+    "ny-isc-2601"
+   ],
+   "nySpecific": true,
+   "timeSensitive": false,
+   "verification": {
+    "status": "verified",
+    "method": "statute-text",
+    "checkedOn": "2026-11-19"
+   }
+  }
+ ]
+}

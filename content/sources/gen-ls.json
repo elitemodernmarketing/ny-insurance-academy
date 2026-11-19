@@ -1,0 +1,114 @@
+{
+  "sources": [
+    {
+      "id": "ny-isc-3105",
+      "title": "NY Insurance Law § 3105 — Representations by the insured",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/3105",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 3105 (revision from 2014-09-22)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-3105.md"
+    },
+    {
+      "id": "ny-isc-3106",
+      "title": "NY Insurance Law § 3106 — Warranty defined; effect of breach",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/3106",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 3106 (revision from 2014-09-22)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-3106.md"
+    },
+    {
+      "id": "ny-isc-2137",
+      "title": "NY Insurance Law § 2137 — Life settlement brokers; licensing",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/2137",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 2137 (revision from 2023-04-07)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-2137.md"
+    },
+    {
+      "id": "ny-isc-7802",
+      "title": "NY Insurance Law § 7802 — Life settlements: definitions",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/7802",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 7802 (revision from 2014-09-22)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-7802.md"
+    },
+    {
+      "id": "ny-isc-7809",
+      "title": "NY Insurance Law § 7809 — Life settlements: advertising",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/7809",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 7809 (revision from 2014-09-22)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-7809.md"
+    },
+    {
+      "id": "ny-isc-7810",
+      "title": "NY Insurance Law § 7810 — Life settlements: privacy",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/7810",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 7810 (revision from 2014-09-22)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-7810.md"
+    },
+    {
+      "id": "ny-isc-7813",
+      "title": "NY Insurance Law § 7813 — Life settlements: general rules",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/7813",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 7813 (revision from 2014-09-22)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-7813.md"
+    },
+    {
+      "id": "ny-isc-7814",
+      "title": "NY Insurance Law § 7814 — Life settlements: prohibited practices",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/7814",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 7814 (revision from 2014-09-22)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-7814.md"
+    },
+    {
+      "id": "ny-isc-7815",
+      "title": "NY Insurance Law § 7815 — Stranger-originated life insurance",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/7815",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 7815 (revision from 2014-09-22)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-7815.md"
+    },
+    {
+      "id": "ny-isc-7803",
+      "title": "NY Insurance Law § 7803 — License requirements for life settlement providers",
+      "publisher": "New York State Senate Open Legislation",
+      "url": "https://www.nysenate.gov/legislation/laws/ISC/7803",
+      "kind": "statute",
+      "citation": "N.Y. Ins. Law § 7803 (revision from 2014-09-22)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/statutes/ISC-7803.md"
+    },
+    {
+      "id": "fed-hhs-hipaa-privacy-summary",
+      "title": "Summary of the HIPAA Privacy Rule",
+      "publisher": "U.S. Department of Health and Human Services (HHS)",
+      "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html",
+      "kind": "federal",
+      "citation": "HHS OCR summary of 45 CFR Parts 160 and 164 (content last reviewed 2025-03-14)",
+      "retrievedOn": "2026-11-19",
+      "localCopy": "research/federal/HHS-HIPAA-privacy-rule-summary.md"
+    }
+  ]
+}

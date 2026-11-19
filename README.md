@@ -7,7 +7,7 @@ A personal, offline study app for two New York licensing exams, switchable in Se
 
 It combines an interactive textbook, a 562-term insurance dictionary and an original practice bank of 1,225 questions (838 Life/A&H + 386 Personal Lines), spaced-repetition flashcards, seven practice
 modes, a realistic timed exam simulator, interactive scenarios, adaptive weakness review, analytics and a study planner.
-Everything runs on your own computer: no account, no subscription, no cloud, no paid AI.
+Everything runs on your own computer: no subscription, no cloud, no paid AI. You can add multiple local accounts on this device (optional PIN); each keeps its own progress.
 
 > **Important.** New York requires a 40-hour DFS-approved pre-licensing course (or an exemption) before the 17-55 exam.
 > This app is independent study. It does **not** issue a School Certificate and its study timer is **not** approved
@@ -69,7 +69,7 @@ Playwright needs a Chromium build: `npx playwright install chromium` (one-time) 
 | **Study Planner** | Exam date, study days, minutes/day, prior knowledge → day-by-day plan of lessons, flashcards, quizzes and mock exams, calendar, milestones, missed-study recovery (rebuild from today). No Google Calendar needed. |
 | **AI Tutor (optional)** | Works without any AI: retrieves and cites validated glossary/lesson content. Optional local LLM via **Ollama** (never required, never edits content; answers labelled "AI-generated — not verified"). |
 | **Content & Coverage** | Coverage of every official outline topic, bank sufficiency per section, source registry, drafts excluded from learners. |
-| **Settings** | Track switcher (Life/A&H 17-55 or Personal Lines 17-54; progress is kept separately per track), theme (light/dark/system), high contrast, text size, reduced motion, focus mode, text-to-speech, practice target, export/import/reset. |
+| **Settings** | Local accounts (add / switch / rename / optional PIN / delete), track switcher (Life/A&H 17-55 or Personal Lines 17-54; progress is kept separately per track), theme (light/dark/system), high contrast, text size, reduced motion, focus mode, text-to-speech, practice target, export/import/reset. |
 
 Keyboard: `?` shows shortcuts; `g` then a letter navigates (e.g. `g f` flashcards); `1–4`/`A–D` answer; `←/→` move in exams.
 
@@ -123,3 +123,11 @@ a sub-path build, so it is a separate install from `http://localhost:4173` and k
 import into the other via Settings if you want to move progress. The nginx block for `/fa/` (SPA fallback + caching) lives in
 `/etc/nginx/sites-enabled/herisnor.com.conf`; Virtualmin may regenerate that file, in which case re-add the three `location`
 blocks marked "NY Insurance Licensing Academy" (a backup of the pre-change file is in `/etc/nginx/sites-available/*-enabled-pre-fa`).
+
+## License
+
+The source code and the original lessons, questions, glossary entries and scenarios are released under the [MIT License](LICENSE).
+
+The excerpts saved under `research/` (the PSI candidate bulletin and exam outlines, NY DFS course standards, and New York and federal statute and regulation text) are third-party material, kept only as verification evidence. They remain subject to their original publishers' terms and are **not** covered by the MIT License.
+
+This project is not affiliated with or endorsed by PSI or the NY Department of Financial Services. It is a study aid, not legal advice; always confirm current requirements with the official sources.
